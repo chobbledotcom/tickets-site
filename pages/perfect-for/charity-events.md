@@ -43,13 +43,13 @@ blocks:
     items:
       - icon: "hugeicons:user-multiple"
         title: Team Access
-        description: Invite volunteers and committee members as managers. Everyone can help without sharing a single login.
+        description: Invite volunteers and committee members as managers so everyone can help without sharing a single login.
       - icon: "hugeicons:calendar-03"
         title: Daily Events
         description: Running a regular quiz night or monthly meetup? Use daily events with per-date capacity, a calendar picker, and holiday blackout dates.
       - icon: "hugeicons:notification-03"
         title: Webhooks
-        description: Get notified instantly when someone books. Integrate with your existing tools and workflows.
+        description: Get notified instantly when someone books and integrate with your existing tools and workflows.
 
   - type: cta
     title: Get the Charity Discount

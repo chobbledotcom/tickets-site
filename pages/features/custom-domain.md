@@ -14,7 +14,7 @@ blocks:
     class: gradient
     title: Custom Domain
     lead: >-
-      Use your own domain name for your ticketing. Your brand, your URL. Not
+      Use your own domain name for your ticketing instead of
       yourname.someplatform.com.
 
   - type: markdown

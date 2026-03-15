@@ -14,7 +14,7 @@ blocks:
     class: gradient
     title: Ticketing for Kids Parties
     lead: >-
-      No fuss. Set up your party, share the link, and let parents book. Chobble
+      Set up your party, share the link, and let parents book while Chobble
       Tickets handles the rest.
 
   - type: split
@@ -22,7 +22,7 @@ blocks:
     reveal_content: left
     content: |
       Parents get a clean booking page where they can reserve spots for their
-      kids. No account creation required, no app to download.
+      kids without needing to create an account or download an app.
 
       Chobble Tickets sends a confirmation email with a QR code ticket. At the
       door, just scan with your phone to check guests in.
@@ -44,7 +44,7 @@ blocks:
         description: Choose which contact details to collect - email, phone, postal address - plus a special instructions field for dietary needs or allergies.
       - icon: "hugeicons:money-receive-square"
         title: Free or Paid Events
-        description: Running a free party? Skip payment setup entirely. Charging a fee? Money goes straight to your account.
+        description: If you're running a free party you can skip payment setup entirely, and if you're charging a fee the money goes straight to your account.
       - icon: "hugeicons:csv-02"
         title: Export Guest Lists
         description: Download your attendee list as a CSV anytime. Great for making name tags or planning catering.

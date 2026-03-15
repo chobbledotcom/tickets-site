@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: QR Code Check-ins - Chobble Tickets
 meta_title: QR Code Check-ins - Chobble Tickets
-meta_description: Every ticket gets a unique QR code. Scan with any phone camera. No app required.
+meta_description: Every ticket gets a unique QR code that you can scan with any phone camera, with no app required.
 permalink: /features/qr-code-check-ins/
 eleventyNavigation:
   key: QR Code Check-ins
@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: QR Code Check-ins
     lead: >-
-      Every ticket gets a unique QR code. Staff scan it with their phone
-      camera. No app to install, no special hardware needed.
+      Every ticket gets a unique QR code that staff can scan with their phone
+      camera, with no app to install or special hardware needed.
 
   - type: markdown
     content: |

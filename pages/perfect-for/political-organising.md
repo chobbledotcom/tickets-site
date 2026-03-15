@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Ticketing for Political Organising
     lead: >-
-      Privacy-first event management. Attendee data is encrypted at rest.
-      Self-host it yourself if you want full control.
+      Privacy-first event management where attendee data is encrypted at rest,
+      and you can self-host it yourself if you want full control.
 
   - type: split
     title: Privacy by Design
@@ -44,10 +44,10 @@ blocks:
     items:
       - icon: "hugeicons:source-code"
         title: Fully Auditable
-        description: Every line of code is public under AGPLv3. No black boxes, no hidden data collection, no surprises.
+        description: Every line of code is public under AGPLv3, so there are no black boxes, no hidden data collection, and no surprises.
       - icon: "hugeicons:cloud-server"
         title: Self-Hostable
-        description: One-click deploy to DigitalOcean, Heroku, Koyeb, or Render. Or run in Docker, on Fly.io, or on Bunny Edge Scripting.
+        description: One-click deploy to DigitalOcean, Heroku, Koyeb, or Render, or run it in Docker, on Fly.io, or on Bunny Edge Scripting.
       - icon: "hugeicons:security-check"
         title: No Data Harvesting
         description: Built by a community interest company, not a VC-funded startup. We have no interest in your attendee data.

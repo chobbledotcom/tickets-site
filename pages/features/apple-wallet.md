@@ -22,8 +22,8 @@ blocks:
       ## Tickets in Your Pocket
 
       After booking, attendees can save their ticket as an Apple Wallet pass.
-      The pass includes the event name, date, and QR code for check-in. No
-      need to dig through emails at the door.
+      The pass includes the event name, date, and QR code for check-in, so
+      there's no need to dig through emails at the door.
 
       See the [tickets documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/tickets.ts)
       for details on Apple Wallet pass generation and QR code rendering.

@@ -46,7 +46,7 @@ blocks:
 
   - type: cta
     title: Try Chobble Tickets
-    description: Flat pricing, open source, and no lock-in.
+    description: Flat pricing with open source code and no lock-in.
     button:
       text: Get Started
       href: https://tix.chobble.com

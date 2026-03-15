@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Open Source - Chobble Tickets
 meta_title: Open Source Ticketing - Chobble Tickets
-meta_description: Chobble Tickets is fully open source under AGPLv3. Every feature is included. No open-core bait-and-switch.
+meta_description: Chobble Tickets is fully open source under AGPLv3 with every feature included and no open-core bait-and-switch.
 permalink: /features/open-source/
 eleventyNavigation:
   key: Open Source
@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Fully Open Source
     lead: >-
-      Every line of code is public. Every feature is included. Licensed under
-      AGPLv3 with no proprietary extensions.
+      Every line of code is public and every feature is included, licensed
+      under AGPLv3 with no proprietary extensions.
 
   - type: markdown
     content: |

@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Multi-User Management
     lead: >-
-      Invite team members as managers. Everyone gets their own login. No
-      sharing passwords.
+      Invite team members as managers so everyone gets their own login instead
+      of sharing passwords.
 
   - type: markdown
     content: |

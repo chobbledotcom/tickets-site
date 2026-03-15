@@ -32,7 +32,7 @@ blocks:
       - **SendGrid** - Widely used, generous free tier
       - **Mailgun** - US and EU endpoints supported
 
-      Just add your API key in the settings. The system handles sending
+      Just add your API key in the settings and the system handles sending
       automatically.
 
       ## Customisable Email Templates

@@ -41,9 +41,9 @@ blocks:
 
       ## Independence
 
-      Using Chobble Tickets means you own your ticketing infrastructure. Your
-      data, your domain, your rules. No exclusive contracts, no platform
-      lock-in, no corporate middleman between you and your audience.
+      Using Chobble Tickets means you own your ticketing infrastructure - your
+      data, your domain, your rules - with no exclusive contracts, no platform
+      lock-in, and no corporate middleman between you and your audience.
 
   - type: cta
     title: Independent Ticketing

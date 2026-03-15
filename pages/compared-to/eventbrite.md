@@ -53,7 +53,7 @@ blocks:
 
   - type: cta
     title: Try Chobble Tickets
-    description: Keep your data. Keep your revenue. Keep it simple.
+    description: Keep your data, your revenue, and your sanity.
     button:
       text: Get Started
       href: https://tix.chobble.com

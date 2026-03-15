@@ -21,13 +21,13 @@ blocks:
     items:
       - icon: "hugeicons:balloons"
         title: Kids Parties
-        description: Simple booking for parents. Collect the info you need, send confirmations, and check guests in at the door.
+        description: Simple booking for parents where you can collect the info you need, send confirmations, and check guests in at the door.
       - icon: "hugeicons:music-note-01"
         title: Music Concerts
-        description: Sell tickets directly to fans. Keep all the revenue. No platform taking a cut of every sale.
+        description: Sell tickets directly to fans and keep all the revenue, with no platform taking a cut of every sale.
       - icon: "hugeicons:heart-check"
         title: Charity Events
-        description: 50% discount for charities and community groups. More of your money goes to the cause, not the ticketing platform.
+        description: 50% discount for charities and community groups, so more of your money goes to the cause instead of the ticketing platform.
       - icon: "hugeicons:megaphone-01"
         title: Political Organising
         description: Privacy-first ticketing with encrypted attendee data. Your supporters' information stays protected.

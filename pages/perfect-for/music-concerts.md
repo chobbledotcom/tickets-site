@@ -41,13 +41,13 @@ blocks:
     items:
       - icon: "hugeicons:qr-code"
         title: QR Code Door List
-        description: Scan tickets at the door with any phone. No special hardware or app required. Spot duplicate tickets instantly.
+        description: Scan tickets at the door with any phone and spot duplicate tickets instantly, with no special hardware or app required.
       - icon: "hugeicons:calendar-03"
         title: Multi-Date Tours
-        description: Set up multiple dates and let fans book the shows they want. Group events together for easy management.
+        description: Set up multiple dates and let fans book the shows they want, with event grouping for easy management.
       - icon: "hugeicons:money-send-02"
         title: Easy Refunds
-        description: Handle individual or bulk refunds from the admin panel. Automatic refunds if you need to cancel.
+        description: Handle individual or bulk refunds from the admin panel, with automatic refunds if you need to cancel.
 
   - type: cta
     title: Start Selling Tickets
