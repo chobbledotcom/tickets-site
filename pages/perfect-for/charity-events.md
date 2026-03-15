@@ -26,9 +26,9 @@ blocks:
       that should be going to your cause.
 
       Chobble Tickets charges a flat **£25/year** for charities and community
-      groups (50% off the standard price). No per-ticket fees, no percentage
-      cuts. All the ticket revenue goes straight to your Stripe or Square
-      account.
+      groups (50% off the standard price) with no per-ticket fees or
+      percentage cuts, so all the ticket revenue goes straight to your Stripe
+      or Square account.
 
       Running a free event? You don't even need to set up payment processing.
     figure_type: code

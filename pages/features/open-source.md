@@ -23,8 +23,8 @@ blocks:
 
       Some "open source" ticketing platforms only open-source the basics, then
       charge for the features you actually need. Chobble Tickets doesn't do
-      that. The hosted version and the self-hosted version are exactly the same
-      code.
+      that - the hosted version and the self-hosted version are exactly the
+      same code.
 
       The entire codebase is on
       [GitHub](https://github.com/chobbledotcom/tickets) under the AGPLv3
@@ -38,10 +38,10 @@ blocks:
 
       ## Self-Host or Let Us Host
 
-      You can deploy Chobble Tickets on any Deno-compatible environment.
-      One-click deploy buttons are available for DigitalOcean, Heroku, Koyeb,
-      and Render. You can also deploy with Fly.io, Docker, or Bunny Edge
-      Scripting. Or pay £50/year and we'll handle the hosting for you. Browse
+      You can deploy Chobble Tickets on any Deno-compatible environment, with
+      one-click deploy buttons available for DigitalOcean, Heroku, Koyeb,
+      and Render (plus Fly.io, Docker, and Bunny Edge Scripting), or just
+      pay £50/year and we'll handle the hosting for you. Browse
       the
       [technical documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html)
       to see how everything works under the hood.

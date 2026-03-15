@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Chobble Tickets vs Ticketmaster
 meta_title: Chobble Tickets vs Ticketmaster - Comparison
-meta_description: Compare Chobble Tickets with Ticketmaster. Independent ticketing vs the industry monopoly.
+meta_description: Compare Chobble Tickets with Ticketmaster - independent ticketing vs the industry monopoly.
 permalink: /compared-to/ticketmaster/
 eleventyNavigation:
   key: vs Ticketmaster
@@ -35,9 +35,9 @@ blocks:
       Ticketmaster's fees are notoriously high and opaque. As an organiser, you
       often have little control over the fees charged to your attendees.
 
-      Chobble Tickets charges a flat £50/year. Payment processing fees from
-      Stripe or Square are the only other cost, and those go directly to the
-      payment processor, not to us.
+      Chobble Tickets charges a flat £50/year, and payment processing fees
+      from Stripe or Square are the only other cost (which go directly to the
+      payment processor, not to us).
 
       ## Independence
 

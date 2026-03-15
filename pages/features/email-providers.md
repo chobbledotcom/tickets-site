@@ -22,8 +22,8 @@ blocks:
       ## Your Provider, Your Deliverability
 
       Rather than sending emails through a shared platform domain (which often
-      lands in spam), Chobble Tickets lets you connect your own email provider.
-      Emails come from your domain, with your reputation.
+      lands in spam), Chobble Tickets lets you connect your own email provider
+      so emails come from your domain, with your reputation.
 
       Supported providers:
 

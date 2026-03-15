@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Chobble Tickets vs BookitBee
 meta_title: Chobble Tickets vs BookitBee - Comparison
-meta_description: Compare Chobble Tickets with BookitBee. Flat annual fee vs per-ticket charges. Open source vs proprietary.
+meta_description: Compare Chobble Tickets with BookitBee - flat annual fee vs per-ticket charges, open source vs proprietary.
 permalink: /compared-to/bookitbee/
 eleventyNavigation:
   key: vs BookitBee
@@ -30,8 +30,8 @@ blocks:
 
       ## Open Source vs Proprietary
 
-      BookitBee is a proprietary platform. You can't see how your data is
-      handled, you can't self-host, and if the company changes direction,
+      BookitBee is a proprietary platform, so you can't see how your data is
+      handled, you can't self-host, and if the company changes direction
       you're stuck.
 
       Chobble Tickets is open source under AGPLv3. You can inspect every line
@@ -41,8 +41,8 @@ blocks:
 
       BookitBee has been around longer and has a more polished marketing
       presence. If you need phone support or a well-established brand name on
-      your tickets, BookitBee may be the better fit. Chobble Tickets is newer
-      and more DIY-friendly.
+      your tickets, BookitBee may be the better fit, whereas Chobble Tickets
+      is newer and more DIY-friendly.
 
   - type: cta
     title: Try Chobble Tickets

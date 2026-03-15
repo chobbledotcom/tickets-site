@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Chobble Tickets vs Parentkind
     lead: >-
-      Parentkind is popular with schools and PTAs. Here's how Chobble Tickets
-      compares for school event ticketing.
+      Parentkind is popular with schools and PTAs, so here's how Chobble
+      Tickets compares for school event ticketing.
 
   - type: markdown
     content: |
@@ -26,7 +26,7 @@ blocks:
       fundraising context, with features like Gift Aid declarations and PTA
       management.
 
-      Chobble Tickets is a general-purpose ticketing platform. It doesn't
+      Chobble Tickets is a general-purpose ticketing platform that doesn't
       have school-specific features like Gift Aid, but it's simpler, cheaper,
       and gives you more control over your data.
 
@@ -34,8 +34,8 @@ blocks:
 
       Parentkind charges membership fees plus transaction fees on ticket sales.
       Chobble Tickets is a flat £25/year for community groups (with the 50%
-      charity discount). If you just need ticketing without the full PTA
-      membership package, Chobble Tickets is more affordable.
+      charity discount), so if you just need ticketing without the full PTA
+      membership package it's more affordable.
 
       ## When Parentkind Might Be Better
 

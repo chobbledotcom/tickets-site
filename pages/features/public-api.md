@@ -32,9 +32,9 @@ blocks:
 
       ## Embeddable Widget
 
-      Don't want to build a custom integration? Chobble Tickets also includes
-      an embeddable iframe widget. Drop a snippet of HTML into your website and
-      your events appear inline.
+      If you don't want to build a custom integration, Chobble Tickets also
+      includes an embeddable iframe widget - just drop a snippet of HTML into
+      your website and your events appear inline.
 
       Check the [embed documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/embed.ts)
       for widget setup, and the full

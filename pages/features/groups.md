@@ -29,8 +29,8 @@ blocks:
       combined-event URLs (like `/ticket/event1+event2`), so attendees can
       book multiple events in one form and one payment.
 
-      This is also useful for recurring events - a weekly class, a monthly
-      meetup, or a season of concerts. Group them and make booking easy.
+      This is also useful for recurring events like a weekly class, a monthly
+      meetup, or a season of concerts where grouping makes booking easy.
 
       ## Daily Events
 
@@ -41,9 +41,9 @@ blocks:
 
       ## Organisation
 
-      Groups help you keep your admin tidy too. Filter and manage events by
-      group in the dashboard. Each group gets its own public page listing all
-      its events.
+      Groups help you keep your admin tidy too - you can filter and manage
+      events by group in the dashboard, and each group gets its own public
+      page listing all its events.
 
       See the [events documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/events.ts)
       for details on event grouping and availability management.

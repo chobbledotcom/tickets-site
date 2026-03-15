@@ -21,22 +21,23 @@ blocks:
     content: |
       ## Two Roles: Owners and Managers
 
-      Running events often involves a team. Chobble Tickets lets you invite
-      team members via email with a 7-day expiring access link. Each person
-      gets their own account and session.
+      Running events often involves a team, so Chobble Tickets lets you
+      invite team members via email with a 7-day expiring access link where
+      each person gets their own account and session.
 
       **Owners** have full access: events, calendar, users, settings, and
       logs. **Managers** can see events and the calendar, making them ideal
       for door staff or volunteers who need to check people in without
       accessing sensitive settings.
 
-      The admin dashboard tracks activity per user, so you can see who did
-      what. Sessions expire after 24 hours with HttpOnly cookies for security.
+      The admin dashboard tracks activity per user so you can see who did
+      what, and sessions expire after 24 hours with HttpOnly cookies for
+      security.
 
       ## Session Management
 
-      View and manage active sessions from the admin panel. If someone's
-      access needs to be revoked, you can do it immediately.
+      View and manage active sessions from the admin panel, and if someone's
+      access needs to be revoked you can do it immediately.
 
       Read the [config documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/config.ts)
       for details on session management and user settings.

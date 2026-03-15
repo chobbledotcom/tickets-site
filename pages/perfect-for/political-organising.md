@@ -27,8 +27,8 @@ blocks:
       [hybrid RSA-OAEP + AES-256-GCM encryption](https://chobbledotcom.github.io/tickets/doc.ts/docs/crypto.ts).
 
       Unlike commercial platforms that mine attendee data for marketing, Chobble
-      Tickets is open source and designed to protect your members. You can
-      inspect every line of the code yourself.
+      Tickets is open source and designed to protect your members, and you
+      can inspect every line of the code yourself.
 
       For maximum control, self-host it on your own infrastructure so no data
       ever leaves your servers.
@@ -50,7 +50,7 @@ blocks:
         description: One-click deploy to DigitalOcean, Heroku, Koyeb, or Render, or run it in Docker, on Fly.io, or on Bunny Edge Scripting.
       - icon: "hugeicons:security-check"
         title: No Data Harvesting
-        description: Built by a community interest company, not a VC-funded startup. We have no interest in your attendee data.
+        description: Built by a community interest company rather than a VC-funded startup, so we have no interest in your attendee data.
 
   - type: cta
     title: Protect Your Supporters

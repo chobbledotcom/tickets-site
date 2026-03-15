@@ -38,8 +38,8 @@ blocks:
       ## Non-Transferable Tickets
 
       For events where you need to verify identity, you can mark tickets as
-      non-transferable. The check-in screen will prompt staff to verify the
-      attendee's ID against the name on the ticket.
+      non-transferable and the check-in screen will prompt staff to verify
+      the attendee's ID against the name on the ticket.
 
       Read the [tickets documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/tickets.ts)
       for details on QR code generation and SVG ticket rendering.

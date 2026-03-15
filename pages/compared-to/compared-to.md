@@ -42,7 +42,7 @@ blocks:
 
   - type: cta
     title: Try It Yourself
-    description: The best comparison is trying it. Sign up or self-host for free.
+    description: The best comparison is trying it - sign up or self-host for free.
     button:
       text: Get Started
       href: https://tix.chobble.com

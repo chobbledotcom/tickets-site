@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Chobble Tickets vs Eventbrite
 meta_title: Chobble Tickets vs Eventbrite - Comparison
-meta_description: Compare Chobble Tickets with Eventbrite. Open source with flat pricing vs the industry giant.
+meta_description: Compare Chobble Tickets with Eventbrite - open source with flat pricing vs the industry giant.
 permalink: /compared-to/eventbrite/
 eleventyNavigation:
   key: vs Eventbrite
@@ -21,9 +21,10 @@ blocks:
     content: |
       ## Pricing
 
-      Eventbrite charges a percentage plus a fixed fee per ticket. Their pricing
-      has changed multiple times over the years, and generally trends upward.
-      For a £15 ticket, you might lose £1-2 per sale to the platform.
+      Eventbrite charges a percentage plus a fixed fee per ticket, and their
+      pricing has changed multiple times over the years (generally trending
+      upward), so for a £15 ticket you might lose £1-2 per sale to the
+      platform.
 
       Chobble Tickets is a flat £50/year regardless of how many tickets you
       sell. The maths is simple: if you sell more than a few dozen tickets a
@@ -41,8 +42,8 @@ blocks:
 
       ## Scale and Features
 
-      Let's be honest - Eventbrite has features Chobble Tickets doesn't. It has
-      a massive discovery platform, a well-known mobile app, and deep
+      Let's be honest - Eventbrite has features Chobble Tickets doesn't,
+      including a massive discovery platform, a well-known mobile app, and deep
       integrations with hundreds of tools. If you need attendees to discover
       your event through a platform, Eventbrite is hard to beat.
 
