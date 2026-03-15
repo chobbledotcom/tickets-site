@@ -40,8 +40,8 @@ blocks:
     header_title: Great for Party Organisers
     items:
       - icon: "hugeicons:user-list"
-        title: Custom Contact Fields
-        description: Collect exactly the info you need - dietary requirements, emergency contacts, allergies, or anything else.
+        title: Configurable Contact Fields
+        description: Choose which contact details to collect - email, phone, postal address - plus a special instructions field for dietary needs or allergies.
       - icon: "hugeicons:money-receive-square"
         title: Free or Paid Events
         description: Running a free party? Skip payment setup entirely. Charging a fee? Money goes straight to your account.

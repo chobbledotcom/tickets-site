@@ -47,7 +47,7 @@ blocks:
         description: Every line of code is public under AGPLv3. No black boxes, no hidden data collection, no surprises.
       - icon: "hugeicons:cloud-server"
         title: Self-Hostable
-        description: Run it on your own Deno server, in Docker, or on edge infrastructure. Your data, your rules.
+        description: One-click deploy to DigitalOcean, Heroku, Koyeb, or Render. Or run in Docker, on Fly.io, or on Bunny Edge Scripting.
       - icon: "hugeicons:security-check"
         title: No Data Harvesting
         description: Built by a community interest company, not a VC-funded startup. We have no interest in your attendee data.

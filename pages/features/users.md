@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Users - Chobble Tickets
 meta_title: Multi-User Management - Chobble Tickets
-meta_description: Invite team members with role-based access. Manage sessions and permissions in Chobble Tickets.
+meta_description: Invite team members as owners or managers. Manage sessions and track activity in Chobble Tickets.
 permalink: /features/users/
 eleventyNavigation:
   key: Users
@@ -19,11 +19,16 @@ blocks:
 
   - type: markdown
     content: |
-      ## Team Access
+      ## Two Roles: Owners and Managers
 
       Running events often involves a team. Chobble Tickets lets you invite
-      managers via email with a 7-day expiring access link. Each person gets
-      their own account and session.
+      team members via email with a 7-day expiring access link. Each person
+      gets their own account and session.
+
+      **Owners** have full access: events, calendar, users, settings, and
+      logs. **Managers** can see events and the calendar, making them ideal
+      for door staff or volunteers who need to check people in without
+      accessing sensitive settings.
 
       The admin dashboard tracks activity per user, so you can see who did
       what. Sessions expire after 24 hours with HttpOnly cookies for security.

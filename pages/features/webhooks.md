@@ -21,9 +21,11 @@ blocks:
     content: |
       ## Real-Time Notifications
 
-      Configure a webhook URL per event. When someone registers, Chobble
+      Configure a webhook URL per event, or set a global webhook URL in
+      settings that fires for all events. When someone registers, Chobble
       Tickets sends a POST request with the attendee details, ticket
-      information, and pricing data.
+      information, and pricing data. Multi-event bookings send one
+      consolidated webhook.
 
       Use this to:
 

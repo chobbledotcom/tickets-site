@@ -29,6 +29,12 @@ blocks:
       The scanner detects duplicate scans and cross-event mismatches, so you
       can spot problems immediately.
 
+      ## Event QR Codes for Posters
+
+      Each event also gets its own QR code SVG (at `/ticket/:slug/qr`) that
+      links to the booking page. Print it on posters, flyers, or handouts so
+      people can scan and book directly.
+
       ## Non-Transferable Tickets
 
       For events where you need to verify identity, you can mark tickets as
