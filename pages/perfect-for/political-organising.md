@@ -24,7 +24,7 @@ blocks:
       When you're organising politically, the privacy of your supporters
       matters. Chobble Tickets encrypts all personally identifiable information
       at rest using
-      [hybrid RSA-OAEP + AES-256-GCM encryption](https://chobbledotcom.github.io/tickets/doc.ts/docs/crypto.ts).
+      [hybrid RSA-OAEP + AES-256-GCM encryption](https://chobbledotcom.github.io/tickets/docs/crypto.ts).
 
       Unlike commercial platforms that mine attendee data for marketing, Chobble
       Tickets is open source and designed to protect your members, and you

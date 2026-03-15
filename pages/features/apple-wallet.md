@@ -25,7 +25,7 @@ blocks:
       that includes the event name, date, and QR code for check-in, so
       there's no need to dig through emails at the door.
 
-      See the [tickets documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/tickets.ts)
+      See the [tickets documentation](https://chobbledotcom.github.io/tickets/docs/tickets.ts)
       for details on Apple Wallet pass generation and QR code rendering.
 
   - type: cta

@@ -39,7 +39,7 @@ blocks:
       View and manage active sessions from the admin panel, and if someone's
       access needs to be revoked you can do it immediately.
 
-      Read the [config documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/config.ts)
+      Read the [config documentation](https://chobbledotcom.github.io/tickets/docs/config.ts)
       for details on session management and user settings.
 
   - type: cta

@@ -40,7 +40,7 @@ blocks:
       and payment data - everything you need to integrate with external
       systems.
 
-      See the [webhooks documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/webhooks.ts)
+      See the [webhooks documentation](https://chobbledotcom.github.io/tickets/docs/webhooks.ts)
       for payload format and delivery details.
 
   - type: cta

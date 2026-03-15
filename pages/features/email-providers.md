@@ -42,7 +42,7 @@ blocks:
       filters include `currency` for formatting amounts and `pluralize` for
       natural language.
 
-      See the [email documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/email.ts)
+      See the [email documentation](https://chobbledotcom.github.io/tickets/docs/email.ts)
       for details on templates and provider configuration.
 
   - type: cta

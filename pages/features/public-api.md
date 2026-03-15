@@ -36,7 +36,7 @@ blocks:
       includes an embeddable iframe widget - just drop a snippet of HTML into
       your website and your events appear inline.
 
-      Check the [embed documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/embed.ts)
+      Check the [embed documentation](https://chobbledotcom.github.io/tickets/docs/embed.ts)
       for widget setup, and the full
       [API documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html)
       for endpoint details.
