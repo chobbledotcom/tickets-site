@@ -42,6 +42,10 @@ blocks:
       address), and add a custom thank-you URL or use the default
       confirmation page.
 
+      The site also publishes ICS calendar and RSS feeds, so attendees can
+      subscribe to your events in their calendar app or feed reader. Customise
+      the homepage and contact page content directly from the admin panel.
+
   - type: cta
     title: Use Your Own Domain
     description: Set up your ticketing under your own brand.

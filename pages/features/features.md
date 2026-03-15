@@ -30,7 +30,7 @@ blocks:
         description: Unique QR codes for every ticket. Scan with any phone camera.
       - icon: "hugeicons:credit-card"
         title: Stripe & Square
-        description: Accept payments via Stripe or Square. Automatic refunds, webhook-driven attendee creation.
+        description: Accept payments via Stripe or Square. Fixed pricing or pay-what-you-want. Automatic refunds.
       - icon: "hugeicons:mail-01"
         title: Email Providers
         description: Choose from Resend, Postmark, SendGrid, or Mailgun (US and EU) for notifications.
@@ -79,6 +79,9 @@ blocks:
       - icon: "hugeicons:mail-edit-01"
         title: Email Templates
         description: Customise confirmation emails with Liquid syntax. Built-in currency and pluralize filters.
+      - icon: "hugeicons:rss"
+        title: RSS & Calendar Feeds
+        description: ICS calendar feed and RSS feed for your events. Attendees can subscribe in their calendar app or feed reader.
 
   - type: cta
     title: See It in Action
