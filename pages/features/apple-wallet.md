@@ -21,9 +21,6 @@ blocks:
       The pass includes the event name, date, and QR code for check-in. No
       need to dig through emails at the door.
 
-      The pass updates automatically if event details change, so attendees
-      always have the latest information.
-
       See the [tickets documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/tickets.ts)
       for details on Apple Wallet pass generation and QR code rendering.
 

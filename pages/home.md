@@ -98,12 +98,13 @@ blocks:
       We never touch your revenue.
 
       You can also self-host for free - it's open source.
-    figure_type: html
-    figure_html: |
-      <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 3rem; text-align: center; color: white; border-radius: 1rem;">
-        <div style="font-size: 3rem; font-weight: bold; margin-bottom: 0.5rem;">£50/year</div>
-        <p style="opacity: 0.9; margin: 0;">Unlimited events. Unlimited tickets.<br>No commission. No hidden fees.</p>
-      </div>
+    figure_type: code
+    figure_filename: Pricing
+    figure_code: |
+      £50/year
+
+      Unlimited events. Unlimited tickets.
+      No commission. No hidden fees.
 
   - type: cta
     title: Ready to Sell Tickets?

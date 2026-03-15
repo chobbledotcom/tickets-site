@@ -25,13 +25,10 @@ blocks:
       process the payments and the money goes directly to your account.
 
       **50% discount for musicians and artists** - just £25/year.
-    figure_type: html
-    figure_html: |
-      <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 2rem; border-radius: 1rem; text-align: center; color: white;">
-        <div style="font-size: 3rem; margin-bottom: 1rem;">🎵</div>
-        <strong>Your gig. Your money.</strong>
-        <p style="opacity: 0.8; margin: 0.5rem 0 0;">No commission. No per-ticket fees.</p>
-      </div>
+    figure_type: code
+    figure_filename: Your gig. Your money.
+    figure_code: |
+      No commission. No per-ticket fees.
 
   - type: features
     section_class: alt

@@ -28,13 +28,11 @@ blocks:
 
       For maximum control, self-host it on your own infrastructure. No data
       ever leaves your servers.
-    figure_type: html
-    figure_html: |
-      <div style="background: #fef2f2; padding: 2rem; border-radius: 1rem; text-align: center;">
-        <div style="font-size: 3rem; margin-bottom: 1rem;">🔒</div>
-        <strong>Encrypted at rest. Open source. Self-hostable.</strong>
-        <p style="margin: 0.5rem 0 0; color: #991b1b;">Your supporters' data stays protected</p>
-      </div>
+    figure_type: code
+    figure_filename: Privacy first
+    figure_code: |
+      Encrypted at rest. Open source. Self-hostable.
+      Your supporters' data stays protected.
 
   - type: features
     section_class: alt

@@ -27,13 +27,11 @@ blocks:
       account.
 
       Running a free event? You don't even need to set up payment processing.
-    figure_type: html
-    figure_html: |
-      <div style="background: #f0fdf4; padding: 2rem; border-radius: 1rem; text-align: center;">
-        <div style="font-size: 3rem; margin-bottom: 1rem;">💚</div>
-        <strong>£25/year for charities</strong>
-        <p style="margin: 0.5rem 0 0; color: #166534;">Every penny of ticket sales goes to you</p>
-      </div>
+    figure_type: code
+    figure_filename: Pricing
+    figure_code: |
+      £25/year for charities
+      Every penny of ticket sales goes to you
 
   - type: features
     section_class: alt

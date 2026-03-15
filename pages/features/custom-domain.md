@@ -17,9 +17,10 @@ blocks:
     content: |
       ## Your Brand, Front and Centre
 
-      Instead of sending people to a generic ticketing platform URL, point your
-      own domain (or subdomain) at your Chobble Tickets installation. Your
-      attendees see your brand throughout the entire booking experience.
+      Without a custom domain, your ticketing lives on a Bunny CDN URL that
+      doesn't look great. Point your own domain (or subdomain) at your Chobble
+      Tickets installation and your attendees see your brand throughout the
+      entire booking experience.
 
       This works with both managed hosting and self-hosted setups. The built-in
       public website includes light and dark themes that you can customise to

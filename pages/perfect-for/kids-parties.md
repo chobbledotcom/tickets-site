@@ -26,12 +26,10 @@ blocks:
       You can set capacity limits so you never end up with more kids than you
       planned for. The system holds spots for 5 minutes during payment to
       prevent overbooking.
-    figure_type: html
-    figure_html: |
-      <div style="background: #f0f4ff; padding: 2rem; border-radius: 1rem; text-align: center;">
-        <div style="font-size: 3rem; margin-bottom: 1rem;">🎈</div>
-        <strong>Share a link. Parents book. Done.</strong>
-      </div>
+    figure_type: code
+    figure_filename: How it works
+    figure_code: |
+      Share a link. Parents book. Done.
 
   - type: features
     section_class: alt
