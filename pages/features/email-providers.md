@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Email Providers - Chobble Tickets
 meta_title: Email Provider Integration - Chobble Tickets
-meta_description: Send ticket confirmations through Resend, Postmark, SendGrid, or Mailgun (US and EU). You choose your email provider.
+meta_description: Send ticket confirmations through your choice of Resend, Postmark, SendGrid, or Mailgun (US and EU).
 permalink: /features/email-providers/
 eleventyNavigation:
   key: Email Providers
@@ -14,16 +14,16 @@ blocks:
     class: gradient
     title: Choose Your Email Provider
     lead: >-
-      Send confirmation emails through the provider you already use. Resend,
-      Postmark, SendGrid, or Mailgun - including Mailgun EU.
+      Send confirmation emails through the provider you already use, whether
+      that's Resend, Postmark, SendGrid, or Mailgun (including Mailgun EU).
 
   - type: markdown
     content: |
       ## Your Provider, Your Deliverability
 
       Rather than sending emails through a shared platform domain (which often
-      lands in spam), Chobble Tickets lets you connect your own email provider.
-      Emails come from your domain, with your reputation.
+      lands in spam), Chobble Tickets lets you connect your own email provider
+      so emails come from your domain, with your reputation.
 
       Supported providers:
 
@@ -32,7 +32,7 @@ blocks:
       - **SendGrid** - Widely used, generous free tier
       - **Mailgun** - US and EU endpoints supported
 
-      Just add your API key in the settings. The system handles sending
+      Just add your API key in the settings and the system handles sending
       automatically.
 
       ## Customisable Email Templates

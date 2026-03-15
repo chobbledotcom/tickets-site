@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Webhooks - Chobble Tickets
 meta_title: Webhooks - Chobble Tickets
-meta_description: Get POST notifications on every booking. Integrate Chobble Tickets with Slack, Zapier, or any tool that accepts webhooks.
+meta_description: Get POST notifications on every booking and integrate Chobble Tickets with Slack, Zapier, or any tool that accepts webhooks.
 permalink: /features/webhooks/
 eleventyNavigation:
   key: Webhooks
@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Webhooks
     lead: >-
-      Get a POST request every time someone books a ticket. Connect Chobble
-      Tickets to Slack, Zapier, your CRM, or anything else.
+      Get a POST request every time someone books a ticket, and connect
+      Chobble Tickets to Slack, Zapier, your CRM, or anything else.
 
   - type: markdown
     content: |
@@ -24,7 +24,7 @@ blocks:
       Configure a webhook URL per event, or set a global webhook URL in
       settings that fires for all events. When someone registers, Chobble
       Tickets sends a POST request with the attendee details, ticket
-      information, and pricing data. Multi-event bookings send one
+      information, and pricing data, with multi-event bookings sending one
       consolidated webhook.
 
       Use this to:

@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Encrypted by Default
     lead: >-
-      All personally identifiable information is encrypted at rest. Not as a
-      premium add-on. As the baseline.
+      All personally identifiable information is encrypted at rest as the
+      baseline, not as a premium add-on.
 
   - type: markdown
     content: |
@@ -32,8 +32,8 @@ blocks:
       A three-layer key hierarchy protects your data: an environment variable
       root key, an RSA key pair, and per-user wrapped data keys. Even if
       someone gains access to the database, they can't read your attendees'
-      personal information without the encryption keys. Lost password means
-      permanently unreadable data - there is no backdoor.
+      personal information without the encryption keys, and a lost password
+      means permanently unreadable data because there is no backdoor.
 
       ## Additional Security Measures
 
@@ -49,7 +49,7 @@ blocks:
 
   - type: cta
     title: Security You Can Verify
-    description: The encryption code is open source. Audit it yourself.
+    description: The encryption code is open source, so you can audit it yourself.
     button:
       text: View Crypto Docs
       href: https://chobbledotcom.github.io/tickets/doc.ts/docs/crypto.ts

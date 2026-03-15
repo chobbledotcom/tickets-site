@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Custom Domain - Chobble Tickets
 meta_title: Custom Domain - Chobble Tickets
-meta_description: Use your own domain name for your Chobble Tickets installation. Your brand, your URL.
+meta_description: Use your own domain name for your Chobble Tickets installation so your brand is front and centre.
 permalink: /features/custom-domain/
 eleventyNavigation:
   key: Custom Domain
@@ -14,7 +14,7 @@ blocks:
     class: gradient
     title: Custom Domain
     lead: >-
-      Use your own domain name for your ticketing. Your brand, your URL. Not
+      Use your own domain name for your ticketing instead of
       yourname.someplatform.com.
 
   - type: markdown
@@ -26,16 +26,16 @@ blocks:
       Tickets installation and your attendees see your brand throughout the
       entire booking experience.
 
-      This works with both managed hosting and self-hosted setups. The built-in
-      public website includes light and dark themes that you can customise to
-      match your branding.
+      This works with both managed hosting and self-hosted setups, and the
+      built-in public website includes light and dark themes that you can
+      customise to match your branding.
 
       ## Built-in Public Website
 
       Chobble Tickets comes with a public-facing website out of the box. It
       lists your events, handles bookings, and displays ticket information -
-      all under your domain. Event descriptions support Markdown formatting
-      and header images.
+      all under your domain, with event descriptions supporting Markdown
+      formatting and header images.
 
       You can configure terms and conditions that attendees must agree to
       before booking, set configurable contact fields (email, phone, postal
@@ -43,8 +43,9 @@ blocks:
       confirmation page.
 
       The site also publishes ICS calendar and RSS feeds, so attendees can
-      subscribe to your events in their calendar app or feed reader. Customise
-      the homepage and contact page content directly from the admin panel.
+      subscribe to your events in their calendar app or feed reader, and you
+      can customise the homepage and contact page content directly from the
+      admin panel.
 
   - type: cta
     title: Use Your Own Domain

@@ -1,7 +1,7 @@
 {
 	"language": "en-GB",
 	"organization": {
-		"description": "Open source event ticketing. Flat annual fee, no per-ticket charges. Encrypted, self-hostable, and built on Deno.",
+		"description": "Open source event ticketing with a flat annual fee and no per-ticket charges, encrypted, self-hostable, and built on Deno.",
 		"legalName": "Chobble CIC",
 		"foundingDate": "2020",
 		"founders": [

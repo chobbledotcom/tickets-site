@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Event Groups
     lead: >-
-      Organise related events together. Let attendees book multiple events in a
-      single checkout.
+      Organise related events together and let attendees book multiple events
+      in a single checkout.
 
   - type: markdown
     content: |
@@ -29,21 +29,21 @@ blocks:
       combined-event URLs (like `/ticket/event1+event2`), so attendees can
       book multiple events in one form and one payment.
 
-      This is also useful for recurring events - a weekly class, a monthly
-      meetup, or a season of concerts. Group them and make booking easy.
+      This is also useful for recurring events like a weekly class, a monthly
+      meetup, or a season of concerts where grouping makes booking easy.
 
       ## Daily Events
 
       For events that run on specific dates (classes, workshops, recurring
       sessions), daily events offer per-date capacity with a built-in calendar
-      picker. You can also set holiday and blackout dates to prevent bookings
+      picker, and you can set holiday and blackout dates to prevent bookings
       on certain days.
 
       ## Organisation
 
-      Groups help you keep your admin tidy too. Filter and manage events by
-      group in the dashboard. Each group gets its own public page listing all
-      its events.
+      Groups help you keep your admin tidy too - you can filter and manage
+      events by group in the dashboard, and each group gets its own public
+      page listing all its events.
 
       See the [events documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/events.ts)
       for details on event grouping and availability management.

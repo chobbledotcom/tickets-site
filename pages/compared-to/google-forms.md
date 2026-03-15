@@ -14,14 +14,14 @@ blocks:
     class: gradient
     title: Chobble Tickets vs Google Forms
     lead: >-
-      Google Forms is free and everyone knows how to use it. But it wasn't
+      Google Forms is free and everyone knows how to use it, but it wasn't
       built for event ticketing.
 
   - type: markdown
     content: |
       ## What Google Forms Gives You
 
-      Google Forms is free, easy to set up, and familiar. You can collect
+      Google Forms is free, easy to set up, and familiar, so you can collect
       registrations, export to a spreadsheet, and share a link. For a simple
       free event with no capacity limit, it gets the job done.
 
@@ -46,7 +46,7 @@ blocks:
       ## When to Upgrade
 
       If you're running a free, informal event and don't need tickets or
-      check-in, Google Forms is perfectly fine. Once you need payments,
+      check-in, Google Forms is perfectly fine, but once you need payments,
       capacity limits, QR code tickets, or data privacy, a dedicated ticketing
       platform like Chobble Tickets is worth the £50/year.
 
