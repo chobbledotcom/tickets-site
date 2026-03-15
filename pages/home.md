@@ -62,7 +62,7 @@ blocks:
         description: Send confirmations through your choice of Resend, Postmark, SendGrid, or Mailgun.
       - icon: "hugeicons:globe-02"
         title: Self-Hostable
-        description: Run it on your own infrastructure, or let us host it for you. Either way, you're in control.
+        description: Run it on your own infrastructure or let us host it for you - either way, you're in control.
 
   - type: split-full
     full_width: true
@@ -94,8 +94,8 @@ blocks:
     reverse: true
     reveal_content: right
     content: |
-      **Managed hosting is just £50/year.** That's it. No per-ticket fees, no
-      percentage cuts, no surprise charges.
+      **Managed hosting is just £50/year** with no per-ticket fees, no
+      percentage cuts, and no surprise charges.
 
       **50% discount** for charities, community groups, artists, and musicians.
 

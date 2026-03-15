@@ -22,8 +22,9 @@ blocks:
       ## When Pen and Paper Works
 
       For a small gathering where you know everyone, pen and paper is fine.
-      No learning curve, no setup time, no annual fee. If you're running a
-      dinner party for 20 people, you don't need ticketing software.
+      There's no learning curve, no setup time, and no annual fee, so if
+      you're running a dinner party for 20 people you don't need ticketing
+      software.
 
       ## When Software Helps
 
@@ -44,9 +45,9 @@ blocks:
 
       ## The Middle Ground
 
-      Chobble Tickets supports free events without payment setup. So even if
-      you're not charging, you can use it just for the RSVP tracking, capacity
-      management, and check-in features. Think of it as a digital clipboard
+      Chobble Tickets supports free events without payment setup, so even if
+      you're not charging you can use it just for the RSVP tracking, capacity
+      management, and check-in features - think of it as a digital clipboard
       that sends confirmation emails.
 
   - type: cta

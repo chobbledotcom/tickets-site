@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Kids Parties - Chobble Tickets
 meta_title: Ticketing for Kids Parties - Chobble Tickets
-meta_description: Simple event ticketing for kids parties. Collect RSVPs, manage capacity, and check guests in with QR codes.
+meta_description: Simple event ticketing for kids parties where you can collect RSVPs, manage capacity, and check guests in with QR codes.
 permalink: /perfect-for/kids-parties/
 eleventyNavigation:
   key: Kids Parties
@@ -24,8 +24,8 @@ blocks:
       Parents get a clean booking page where they can reserve spots for their
       kids without needing to create an account or download an app.
 
-      Chobble Tickets sends a confirmation email with a QR code ticket. At the
-      door, just scan with your phone to check guests in.
+      Chobble Tickets sends a confirmation email with a QR code ticket, and
+      at the door you just scan with your phone to check guests in.
 
       You can set capacity limits so you never end up with more kids than you
       planned for. The system holds spots for 5 minutes during payment to
@@ -47,11 +47,11 @@ blocks:
         description: If you're running a free party you can skip payment setup entirely, and if you're charging a fee the money goes straight to your account.
       - icon: "hugeicons:csv-02"
         title: Export Guest Lists
-        description: Download your attendee list as a CSV anytime. Great for making name tags or planning catering.
+        description: Download your attendee list as a CSV anytime, which is great for making name tags or planning catering.
 
   - type: cta
     title: Set Up Your Party
-    description: Get started with Chobble Tickets. Managed hosting is £50/year with unlimited events.
+    description: Get started with Chobble Tickets - managed hosting is £50/year with unlimited events.
     button:
       text: Get Started
       href: https://tix.chobble.com

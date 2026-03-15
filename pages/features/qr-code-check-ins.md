@@ -46,7 +46,7 @@ blocks:
 
   - type: cta
     title: Simple Check-ins
-    description: No apps. No hardware. Just phones and QR codes.
+    description: All you need is a phone camera to scan QR codes at the door.
     button:
       text: Get Started
       href: https://tix.chobble.com

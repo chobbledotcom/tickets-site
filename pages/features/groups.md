@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Event Groups
     lead: >-
-      Organise related events together. Let attendees book multiple events in a
-      single checkout.
+      Organise related events together and let attendees book multiple events
+      in a single checkout.
 
   - type: markdown
     content: |

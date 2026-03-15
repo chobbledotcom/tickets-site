@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Users - Chobble Tickets
 meta_title: Multi-User Management - Chobble Tickets
-meta_description: Invite team members as owners or managers. Manage sessions and track activity in Chobble Tickets.
+meta_description: Invite team members as owners or managers to manage sessions and track activity in Chobble Tickets.
 permalink: /features/users/
 eleventyNavigation:
   key: Users

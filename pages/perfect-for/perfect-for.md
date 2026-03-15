@@ -30,7 +30,7 @@ blocks:
         description: 50% discount for charities and community groups, so more of your money goes to the cause instead of the ticketing platform.
       - icon: "hugeicons:megaphone-01"
         title: Political Organising
-        description: Privacy-first ticketing with encrypted attendee data. Your supporters' information stays protected.
+        description: Privacy-first ticketing with encrypted attendee data, so your supporters' information stays protected.
 
   - type: cta
     title: Get Started

@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Custom Domain - Chobble Tickets
 meta_title: Custom Domain - Chobble Tickets
-meta_description: Use your own domain name for your Chobble Tickets installation. Your brand, your URL.
+meta_description: Use your own domain name for your Chobble Tickets installation so your brand is front and centre.
 permalink: /features/custom-domain/
 eleventyNavigation:
   key: Custom Domain

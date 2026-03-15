@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Music Concerts - Chobble Tickets
 meta_title: Ticketing for Music Concerts - Chobble Tickets
-meta_description: Sell concert tickets directly to fans. No per-ticket fees. Keep all your revenue with Chobble Tickets.
+meta_description: Sell concert tickets directly to fans with no per-ticket fees so you keep all your revenue with Chobble Tickets.
 permalink: /perfect-for/music-concerts/
 eleventyNavigation:
   key: Music Concerts
@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Ticketing for Music Concerts
     lead: >-
-      Sell tickets directly to your fans. No per-ticket fees eating into your
-      revenue. Just a flat annual cost.
+      Sell tickets directly to your fans with no per-ticket fees eating into
+      your revenue, just a flat annual cost.
 
   - type: split
     title: Keep Your Revenue
@@ -51,7 +51,7 @@ blocks:
 
   - type: cta
     title: Start Selling Tickets
-    description: Managed hosting from £25/year for musicians. Self-host for free.
+    description: Managed hosting from £25/year for musicians, or self-host for free.
     button:
       text: Get Started
       href: https://tix.chobble.com

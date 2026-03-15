@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Apple Wallet
     lead: >-
-      Attendees can add their ticket to Apple Wallet. It's right there on their
-      phone when they arrive at the event.
+      Attendees can add their ticket to Apple Wallet so it's right there on
+      their phone when they arrive at the event.
 
   - type: markdown
     content: |

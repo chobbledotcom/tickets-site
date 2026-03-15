@@ -24,9 +24,9 @@ blocks:
       BookitBee charges per ticket sold - typically around 5-6% plus a fixed
       fee per ticket. For high-volume events, those fees add up quickly.
 
-      Chobble Tickets charges a flat £50/year (£25 for charities). No
-      per-ticket fees, no percentage cuts. For most event organisers, this
-      works out significantly cheaper.
+      Chobble Tickets charges a flat £50/year (£25 for charities) with no
+      per-ticket fees or percentage cuts, which works out significantly
+      cheaper for most event organisers.
 
       ## Open Source vs Proprietary
 

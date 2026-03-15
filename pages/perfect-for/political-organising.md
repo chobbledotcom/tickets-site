@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Political Organising - Chobble Tickets
 meta_title: Ticketing for Political Organising - Chobble Tickets
-meta_description: Privacy-first event ticketing for political groups. Encrypted attendee data. Open source and self-hostable.
+meta_description: Privacy-first event ticketing for political groups with encrypted attendee data, open source and self-hostable.
 permalink: /perfect-for/political-organising/
 eleventyNavigation:
   key: Political Organising
@@ -30,7 +30,7 @@ blocks:
       Tickets is open source and designed to protect your members. You can
       inspect every line of the code yourself.
 
-      For maximum control, self-host it on your own infrastructure. No data
+      For maximum control, self-host it on your own infrastructure so no data
       ever leaves your servers.
     figure_type: code
     figure_filename: Privacy first

@@ -21,7 +21,7 @@ blocks:
     content: |
       ## What Google Forms Gives You
 
-      Google Forms is free, easy to set up, and familiar. You can collect
+      Google Forms is free, easy to set up, and familiar, so you can collect
       registrations, export to a spreadsheet, and share a link. For a simple
       free event with no capacity limit, it gets the job done.
 

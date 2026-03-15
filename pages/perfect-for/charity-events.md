@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Charity Events - Chobble Tickets
 meta_title: Ticketing for Charity Events - Chobble Tickets
-meta_description: Affordable event ticketing for charities and community groups. 50% discount. No per-ticket fees.
+meta_description: Affordable event ticketing for charities and community groups with a 50% discount and no per-ticket fees.
 permalink: /perfect-for/charity-events/
 eleventyNavigation:
   key: Charity Events
@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Ticketing for Charity Events
     lead: >-
-      More of your fundraising goes to the cause, not the ticketing platform.
-      50% discount for charities and community groups.
+      More of your fundraising goes to the cause instead of the ticketing
+      platform, with a 50% discount for charities and community groups.
 
   - type: split
     title: Built for Charities

@@ -34,7 +34,7 @@ blocks:
 
       Chobble is a community interest company (CIC), not a VC-funded startup.
       There's no pressure to extract value from users or lock people into a
-      platform. The software exists to be useful.
+      platform - the software exists to be useful.
 
       ## Self-Host or Let Us Host
 
@@ -48,7 +48,7 @@ blocks:
 
   - type: cta
     title: View the Source
-    description: The full codebase is on GitHub. Star it, fork it, or contribute.
+    description: The full codebase is on GitHub, so you can star it, fork it, or contribute.
     button:
       text: GitHub Repository
       href: https://github.com/chobbledotcom/tickets

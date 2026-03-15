@@ -69,7 +69,7 @@ blocks:
     items:
       - icon: "hugeicons:globe-02"
         title: Custom Domain
-        description: Use your own domain name. Your brand, your URL.
+        description: Use your own domain name so your brand is front and centre.
       - icon: "hugeicons:smart-phone-01"
         title: Apple Wallet
         description: Attendees can add tickets to Apple Wallet for easy access at the door.
@@ -81,7 +81,7 @@ blocks:
         description: Customise confirmation emails with Liquid syntax, including built-in currency and pluralize filters.
       - icon: "hugeicons:rss"
         title: RSS & Calendar Feeds
-        description: ICS calendar feed and RSS feed for your events. Attendees can subscribe in their calendar app or feed reader.
+        description: ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.
 
   - type: cta
     title: See It in Action

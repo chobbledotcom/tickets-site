@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Email Providers - Chobble Tickets
 meta_title: Email Provider Integration - Chobble Tickets
-meta_description: Send ticket confirmations through Resend, Postmark, SendGrid, or Mailgun (US and EU). You choose your email provider.
+meta_description: Send ticket confirmations through your choice of Resend, Postmark, SendGrid, or Mailgun (US and EU).
 permalink: /features/email-providers/
 eleventyNavigation:
   key: Email Providers

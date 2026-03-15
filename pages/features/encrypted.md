@@ -49,7 +49,7 @@ blocks:
 
   - type: cta
     title: Security You Can Verify
-    description: The encryption code is open source. Audit it yourself.
+    description: The encryption code is open source, so you can audit it yourself.
     button:
       text: View Crypto Docs
       href: https://chobbledotcom.github.io/tickets/doc.ts/docs/crypto.ts
