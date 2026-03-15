@@ -40,7 +40,7 @@ blocks:
       - icon: "hugeicons:calendar-03"
         title: Multi-Date Tours
         description: Set up multiple dates and let fans book the shows they want. Group events together for easy management.
-      - icon: "hugeicons:money-back"
+      - icon: "hugeicons:money-send-02"
         title: Easy Refunds
         description: Handle individual or bulk refunds from the admin panel. Automatic refunds if you need to cancel.
 

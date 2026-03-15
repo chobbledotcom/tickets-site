@@ -16,7 +16,7 @@ blocks:
   - type: features
     header_title: Who Uses Chobble Tickets?
     items:
-      - icon: "hugeicons:balloon"
+      - icon: "hugeicons:balloons"
         title: Kids Parties
         description: Simple booking for parents. Collect the info you need, send confirmations, and check guests in at the door.
       - icon: "hugeicons:music-note-01"
