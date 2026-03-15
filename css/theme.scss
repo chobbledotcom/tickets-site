@@ -1,2 +1,20 @@
 @charset "utf-8";
 @use "sass:color";
+
+:root {
+  --color-bg: #f8e4ff;
+  --body-background: #561d68;
+  --body-background-alt: #2f0c3a;
+  --color-card-bg: rgba(255, 247, 240, 0.831);
+  --color-text: #2d2c2c;
+  --color-text-muted: #561d68;
+  --color-link: #d56c10;
+  --color-link-hover: #b35300;
+  --color-tint: #eccbf7;
+  --color-secondary: #ad44ce;
+  --color-accent: #eac4d5;
+  --color-hover-bg: rgba(86, 29, 104, 0.1);
+  --color-error: #c00;
+  --border: 2px solid #561d68;
+  --list-marker-color: #d56c10;
+}
