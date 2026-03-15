@@ -13,7 +13,7 @@ blocks:
     class: gradient
     title: How Chobble Tickets Compares
     lead: >-
-      Every ticketing option has trade-offs. Here's an honest look at how
+      Every ticketing option has trade-offs, so here's an honest look at how
       Chobble Tickets stacks up against the alternatives.
 
   - type: features

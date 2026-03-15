@@ -36,7 +36,7 @@ blocks:
 
       For events that run on specific dates (classes, workshops, recurring
       sessions), daily events offer per-date capacity with a built-in calendar
-      picker. You can also set holiday and blackout dates to prevent bookings
+      picker, and you can set holiday and blackout dates to prevent bookings
       on certain days.
 
       ## Organisation

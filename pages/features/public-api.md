@@ -14,9 +14,9 @@ blocks:
     class: gradient
     title: Public API
     lead: >-
-      A RESTful JSON API that requires no authentication for public data. Build
-      custom frontends, embed event listings, or integrate with your existing
-      tools.
+      A RESTful JSON API that requires no authentication for public data,
+      so you can build custom frontends, embed event listings, or integrate
+      with your existing tools.
 
   - type: markdown
     content: |

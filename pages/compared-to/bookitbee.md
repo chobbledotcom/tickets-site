@@ -14,7 +14,7 @@ blocks:
     class: gradient
     title: Chobble Tickets vs BookitBee
     lead: >-
-      BookitBee is a UK-based ticketing platform. Here's how it compares to
+      BookitBee is a UK-based ticketing platform - here's how it compares to
       Chobble Tickets.
 
   - type: markdown
@@ -22,7 +22,7 @@ blocks:
       ## Pricing
 
       BookitBee charges per ticket sold - typically around 5-6% plus a fixed
-      fee per ticket. For high-volume events, those fees add up quickly.
+      fee per ticket, and for high-volume events those fees add up quickly.
 
       Chobble Tickets charges a flat £50/year (£25 for charities) with no
       per-ticket fees or percentage cuts, which works out significantly
@@ -34,8 +34,8 @@ blocks:
       handled, you can't self-host, and if the company changes direction
       you're stuck.
 
-      Chobble Tickets is open source under AGPLv3. You can inspect every line
-      of code, self-host if you want, and you're never locked in.
+      Chobble Tickets is open source under AGPLv3, so you can inspect every
+      line of code, self-host if you want, and you're never locked in.
 
       ## When BookitBee Might Be Better
 

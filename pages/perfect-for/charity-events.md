@@ -21,7 +21,7 @@ blocks:
     title: Built for Charities
     reveal_content: left
     content: |
-      When you're running a charity fundraiser, every penny matters. Most
+      When you're running a charity fundraiser every penny matters, and most
       ticketing platforms take a percentage of every ticket sold - that's money
       that should be going to your cause.
 

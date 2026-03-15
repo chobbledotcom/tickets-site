@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Chobble Tickets vs Eventbrite
     lead: >-
-      Eventbrite is the biggest name in event ticketing. Here's how a small,
-      open source alternative compares.
+      Eventbrite is the biggest name in event ticketing, so here's how a
+      small, open source alternative compares.
 
   - type: markdown
     content: |
@@ -27,14 +27,14 @@ blocks:
       platform.
 
       Chobble Tickets is a flat £50/year regardless of how many tickets you
-      sell. The maths is simple: if you sell more than a few dozen tickets a
-      year, Chobble Tickets is cheaper.
+      sell, so the maths is simple: if you sell more than a few dozen tickets
+      a year, Chobble Tickets is cheaper.
 
       ## Data Ownership
 
       Eventbrite owns a lot of data about your attendees and uses it for their
-      own marketing. Your event page exists within Eventbrite's ecosystem, and
-      attendees are encouraged to follow other events on the platform.
+      own marketing, and your event page exists within Eventbrite's ecosystem
+      where attendees are encouraged to follow other events on the platform.
 
       With Chobble Tickets, attendee data is encrypted and stays under your
       control. There's no platform trying to cross-promote other events to your

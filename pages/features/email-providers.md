@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Choose Your Email Provider
     lead: >-
-      Send confirmation emails through the provider you already use. Resend,
-      Postmark, SendGrid, or Mailgun - including Mailgun EU.
+      Send confirmation emails through the provider you already use, whether
+      that's Resend, Postmark, SendGrid, or Mailgun (including Mailgun EU).
 
   - type: markdown
     content: |

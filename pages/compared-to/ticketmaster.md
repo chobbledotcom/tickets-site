@@ -14,26 +14,27 @@ blocks:
     class: gradient
     title: Chobble Tickets vs Ticketmaster
     lead: >-
-      Ticketmaster dominates large venue ticketing. Here's when Chobble Tickets
-      is the better choice.
+      Ticketmaster dominates large venue ticketing, but here's when Chobble
+      Tickets is the better choice.
 
   - type: markdown
     content: |
       ## Completely Different Scale
 
       Let's be upfront: Ticketmaster and Chobble Tickets serve very different
-      markets. Ticketmaster is built for stadiums, arenas, and massive tours.
-      Chobble Tickets is built for community events, independent venues, and
+      markets. Ticketmaster is built for stadiums, arenas, and massive tours,
+      whereas Chobble Tickets is built for community events, independent venues, and
       organisations that want control over their ticketing.
 
       If you're booking a 50,000-seat stadium, Ticketmaster is probably
-      unavoidable. If you're running a 200-capacity gig, a charity quiz night,
-      or a community workshop, you don't need (or want) Ticketmaster.
+      unavoidable, but if you're running a 200-capacity gig, a charity quiz
+      night, or a community workshop, you don't need (or want) Ticketmaster.
 
       ## Fees and Control
 
-      Ticketmaster's fees are notoriously high and opaque. As an organiser, you
-      often have little control over the fees charged to your attendees.
+      Ticketmaster's fees are notoriously high and opaque, and as an
+      organiser you often have little control over the fees charged to your
+      attendees.
 
       Chobble Tickets charges a flat £50/year, and payment processing fees
       from Stripe or Square are the only other cost (which go directly to the

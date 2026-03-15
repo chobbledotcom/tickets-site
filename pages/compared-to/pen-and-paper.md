@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Chobble Tickets vs Pen and Paper
     lead: >-
-      Sometimes a clipboard and a guest list is all you need. Here's when it
-      makes sense to upgrade to software.
+      Sometimes a clipboard and a guest list is all you need, but here's when
+      it makes sense to upgrade to software.
 
   - type: markdown
     content: |

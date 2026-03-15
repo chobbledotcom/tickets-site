@@ -23,8 +23,8 @@ blocks:
 
       When someone books a ticket, they receive an email with a unique ticket
       URL and QR code. At the event, your staff open the built-in scanner on
-      their phone and scan the code. The system instantly shows whether the
-      ticket is valid and marks the attendee as checked in.
+      their phone and scan the code, and the system instantly shows whether
+      the ticket is valid and marks the attendee as checked in.
 
       The scanner detects duplicate scans and cross-event mismatches, so you
       can spot problems immediately.

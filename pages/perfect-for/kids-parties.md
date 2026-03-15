@@ -28,7 +28,7 @@ blocks:
       at the door you just scan with your phone to check guests in.
 
       You can set capacity limits so you never end up with more kids than you
-      planned for. The system holds spots for 5 minutes during payment to
+      planned for, and the system holds spots for 5 minutes during payment to
       prevent overbooking.
     figure_type: code
     figure_filename: How it works
