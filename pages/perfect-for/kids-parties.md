@@ -4,6 +4,10 @@ title: Kids Parties - Chobble Tickets
 meta_title: Ticketing for Kids Parties - Chobble Tickets
 meta_description: Simple event ticketing for kids parties. Collect RSVPs, manage capacity, and check guests in with QR codes.
 permalink: /perfect-for/kids-parties/
+eleventyNavigation:
+  key: Kids Parties
+  parent: Perfect For
+  order: 0
 blocks:
   - type: hero
     full_width: true

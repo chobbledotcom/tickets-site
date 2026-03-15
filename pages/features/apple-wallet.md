@@ -4,6 +4,10 @@ title: Apple Wallet - Chobble Tickets
 meta_title: Apple Wallet Integration - Chobble Tickets
 meta_description: Attendees can add tickets to Apple Wallet for quick access at the door.
 permalink: /features/apple-wallet/
+eleventyNavigation:
+  key: Apple Wallet
+  parent: Features
+  order: 9
 blocks:
   - type: hero
     full_width: true

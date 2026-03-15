@@ -4,6 +4,10 @@ title: Chobble Tickets vs BookitBee
 meta_title: Chobble Tickets vs BookitBee - Comparison
 meta_description: Compare Chobble Tickets with BookitBee. Flat annual fee vs per-ticket charges. Open source vs proprietary.
 permalink: /compared-to/bookitbee/
+eleventyNavigation:
+  key: vs BookitBee
+  parent: Compared To
+  order: 1
 blocks:
   - type: hero
     full_width: true

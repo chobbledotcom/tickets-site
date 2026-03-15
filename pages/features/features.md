@@ -4,6 +4,9 @@ title: Features - Chobble Tickets
 meta_title: Features - Chobble Tickets
 meta_description: Explore the features of Chobble Tickets - open source, encrypted, QR codes, webhooks, public API, and more.
 permalink: /features/
+eleventyNavigation:
+  key: Features
+  order: 1
 blocks:
   - type: hero
     full_width: true

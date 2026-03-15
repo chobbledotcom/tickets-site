@@ -4,6 +4,10 @@ title: Chobble Tickets vs Parentkind
 meta_title: Chobble Tickets vs Parentkind - Comparison
 meta_description: Compare Chobble Tickets with Parentkind for school and PTA events. Features, pricing, and ease of use.
 permalink: /compared-to/parentkind/
+eleventyNavigation:
+  key: vs Parentkind
+  parent: Compared To
+  order: 3
 blocks:
   - type: hero
     full_width: true

@@ -4,6 +4,10 @@ title: Users - Chobble Tickets
 meta_title: Multi-User Management - Chobble Tickets
 meta_description: Invite team members with role-based access. Manage sessions and permissions in Chobble Tickets.
 permalink: /features/users/
+eleventyNavigation:
+  key: Users
+  parent: Features
+  order: 6
 blocks:
   - type: hero
     full_width: true

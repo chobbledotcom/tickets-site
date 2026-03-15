@@ -4,6 +4,10 @@ title: Music Concerts - Chobble Tickets
 meta_title: Ticketing for Music Concerts - Chobble Tickets
 meta_description: Sell concert tickets directly to fans. No per-ticket fees. Keep all your revenue with Chobble Tickets.
 permalink: /perfect-for/music-concerts/
+eleventyNavigation:
+  key: Music Concerts
+  parent: Perfect For
+  order: 1
 blocks:
   - type: hero
     full_width: true

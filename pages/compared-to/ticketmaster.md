@@ -4,6 +4,10 @@ title: Chobble Tickets vs Ticketmaster
 meta_title: Chobble Tickets vs Ticketmaster - Comparison
 meta_description: Compare Chobble Tickets with Ticketmaster. Independent ticketing vs the industry monopoly.
 permalink: /compared-to/ticketmaster/
+eleventyNavigation:
+  key: vs Ticketmaster
+  parent: Compared To
+  order: 2
 blocks:
   - type: hero
     full_width: true

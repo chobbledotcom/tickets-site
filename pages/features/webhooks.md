@@ -4,6 +4,10 @@ title: Webhooks - Chobble Tickets
 meta_title: Webhooks - Chobble Tickets
 meta_description: Get POST notifications on every booking. Integrate Chobble Tickets with Slack, Zapier, or any tool that accepts webhooks.
 permalink: /features/webhooks/
+eleventyNavigation:
+  key: Webhooks
+  parent: Features
+  order: 5
 blocks:
   - type: hero
     full_width: true

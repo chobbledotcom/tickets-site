@@ -4,6 +4,10 @@ title: Groups - Chobble Tickets
 meta_title: Event Groups - Chobble Tickets
 meta_description: Organise events into groups for multi-event bookings and single checkout with Chobble Tickets.
 permalink: /features/groups/
+eleventyNavigation:
+  key: Groups
+  parent: Features
+  order: 7
 blocks:
   - type: hero
     full_width: true

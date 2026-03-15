@@ -4,6 +4,10 @@ title: Encrypted - Chobble Tickets
 meta_title: Encrypted Ticketing - Chobble Tickets
 meta_description: All personal information is encrypted at rest using hybrid RSA-OAEP + AES-256-GCM encryption.
 permalink: /features/encrypted/
+eleventyNavigation:
+  key: Encrypted
+  parent: Features
+  order: 1
 blocks:
   - type: hero
     full_width: true
