@@ -2,6 +2,7 @@
 	"name": "Chobble Tickets",
 	"url": "https://tickets.chobble.com",
 	"socials": {
+		"Github": "https://github.com/chobbledotcom/tickets",
 		"Facebook": null,
 		"Instagram": null,
 		"TikTok": null,
@@ -11,5 +12,5 @@
 	},
 	"sticky_mobile_nav": true,
 	"horizontal_nav": true,
-	"template_repo_url": "https://git.chobble.com/chobble/chobble-client"
+	"template_repo_url": "https://git.chobble.com/chobble/chobble-template"
 }
