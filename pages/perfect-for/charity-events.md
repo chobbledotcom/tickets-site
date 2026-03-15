@@ -1,0 +1,58 @@
+---
+layout: design-system-base.html
+title: Charity Events - Chobble Tickets
+meta_title: Ticketing for Charity Events - Chobble Tickets
+meta_description: Affordable event ticketing for charities and community groups. 50% discount. No per-ticket fees.
+permalink: /perfect-for/charity-events/
+blocks:
+  - type: hero
+    full_width: true
+    class: gradient
+    title: Ticketing for Charity Events
+    lead: >-
+      More of your fundraising goes to the cause, not the ticketing platform.
+      50% discount for charities and community groups.
+
+  - type: split
+    title: Built for Charities
+    reveal_content: left
+    content: |
+      When you're running a charity fundraiser, every penny matters. Most
+      ticketing platforms take a percentage of every ticket sold - that's money
+      that should be going to your cause.
+
+      Chobble Tickets charges a flat **£25/year** for charities and community
+      groups (50% off the standard price). No per-ticket fees, no percentage
+      cuts. All the ticket revenue goes straight to your Stripe or Square
+      account.
+
+      Running a free event? You don't even need to set up payment processing.
+    figure_type: code
+    figure_filename: Pricing
+    figure_code: |
+      £25/year for charities
+      Every penny of ticket sales goes to you
+
+  - type: features
+    section_class: alt
+    header_title: Features Charities Love
+    items:
+      - icon: "hugeicons:user-multiple"
+        title: Team Access
+        description: Invite volunteers and committee members as managers. Everyone can help without sharing a single login.
+      - icon: "hugeicons:calendar-03"
+        title: Recurring Events
+        description: Running a regular quiz night or monthly meetup? Set up daily events with per-date capacity.
+      - icon: "hugeicons:notification-03"
+        title: Webhooks
+        description: Get notified instantly when someone books. Integrate with your existing tools and workflows.
+
+  - type: cta
+    title: Get the Charity Discount
+    description: Sign up for managed hosting at just £25/year for charities and community groups.
+    button:
+      text: Get Started
+      href: https://tix.chobble.com
+      variant: secondary
+      size: lg
+---

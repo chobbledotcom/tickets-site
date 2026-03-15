@@ -1,0 +1,44 @@
+---
+layout: design-system-base.html
+title: Groups - Chobble Tickets
+meta_title: Event Groups - Chobble Tickets
+meta_description: Organise events into groups for multi-event bookings and single checkout with Chobble Tickets.
+permalink: /features/groups/
+blocks:
+  - type: hero
+    full_width: true
+    class: gradient
+    title: Event Groups
+    lead: >-
+      Organise related events together. Let attendees book multiple events in a
+      single checkout.
+
+  - type: markdown
+    content: |
+      ## Multi-Event Bookings
+
+      Running a festival with multiple stages? A conference with multiple
+      tracks? A series of workshops? Group your events together and let
+      attendees book several at once with a single checkout.
+
+      This is also useful for recurring events - a weekly class, a monthly
+      meetup, or a season of concerts. Group them and make booking easy.
+
+      ## Organisation
+
+      Groups help you keep your admin tidy too. Filter and manage events by
+      group in the dashboard. Each group gets its own public page listing all
+      its events.
+
+      See the [events documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/events.ts)
+      for details on event grouping and availability management.
+
+  - type: cta
+    title: Organise Your Events
+    description: Group events together for a better booking experience.
+    button:
+      text: Get Started
+      href: https://tix.chobble.com
+      variant: secondary
+      size: lg
+---
