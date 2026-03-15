@@ -4,6 +4,10 @@ title: Custom Domain - Chobble Tickets
 meta_title: Custom Domain - Chobble Tickets
 meta_description: Use your own domain name for your Chobble Tickets installation. Your brand, your URL.
 permalink: /features/custom-domain/
+eleventyNavigation:
+  key: Custom Domain
+  parent: Features
+  order: 8
 blocks:
   - type: hero
     full_width: true

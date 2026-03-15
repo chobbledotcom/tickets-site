@@ -4,6 +4,10 @@ title: Chobble Tickets vs Pen and Paper
 meta_title: Chobble Tickets vs Pen and Paper - Comparison
 meta_description: When does software ticketing beat pen and paper? An honest look at when to upgrade.
 permalink: /compared-to/pen-and-paper/
+eleventyNavigation:
+  key: vs Pen and Paper
+  parent: Compared To
+  order: 5
 blocks:
   - type: hero
     full_width: true

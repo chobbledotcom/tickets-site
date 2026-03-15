@@ -4,6 +4,10 @@ title: Chobble Tickets vs Google Forms
 meta_title: Chobble Tickets vs Google Forms - Comparison
 meta_description: Google Forms is free and flexible but not built for ticketing. See what you gain with a dedicated platform.
 permalink: /compared-to/google-forms/
+eleventyNavigation:
+  key: vs Google Forms
+  parent: Compared To
+  order: 4
 blocks:
   - type: hero
     full_width: true

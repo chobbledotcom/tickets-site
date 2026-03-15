@@ -4,6 +4,10 @@ title: Open Source - Chobble Tickets
 meta_title: Open Source Ticketing - Chobble Tickets
 meta_description: Chobble Tickets is fully open source under AGPLv3. Every feature is included. No open-core bait-and-switch.
 permalink: /features/open-source/
+eleventyNavigation:
+  key: Open Source
+  parent: Features
+  order: 0
 blocks:
   - type: hero
     full_width: true

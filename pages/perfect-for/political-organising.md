@@ -4,6 +4,10 @@ title: Political Organising - Chobble Tickets
 meta_title: Ticketing for Political Organising - Chobble Tickets
 meta_description: Privacy-first event ticketing for political groups. Encrypted attendee data. Open source and self-hostable.
 permalink: /perfect-for/political-organising/
+eleventyNavigation:
+  key: Political Organising
+  parent: Perfect For
+  order: 3
 blocks:
   - type: hero
     full_width: true

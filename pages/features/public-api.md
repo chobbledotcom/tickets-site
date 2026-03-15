@@ -4,6 +4,10 @@ title: Public API - Chobble Tickets
 meta_title: Public API - Chobble Tickets
 meta_description: RESTful JSON API for building custom integrations, frontends, and automations with Chobble Tickets.
 permalink: /features/public-api/
+eleventyNavigation:
+  key: Public API
+  parent: Features
+  order: 4
 blocks:
   - type: hero
     full_width: true

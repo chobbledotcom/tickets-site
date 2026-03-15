@@ -4,6 +4,9 @@ title: Compared To - Chobble Tickets
 meta_title: Chobble Tickets vs Other Ticketing Platforms
 meta_description: See how Chobble Tickets compares to Eventbrite, Ticketmaster, BookitBee, and other ticketing options.
 permalink: /compared-to/
+eleventyNavigation:
+  key: Compared To
+  order: 2
 blocks:
   - type: hero
     full_width: true

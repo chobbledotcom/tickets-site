@@ -4,6 +4,10 @@ title: QR Code Check-ins - Chobble Tickets
 meta_title: QR Code Check-ins - Chobble Tickets
 meta_description: Every ticket gets a unique QR code. Scan with any phone camera. No app required.
 permalink: /features/qr-code-check-ins/
+eleventyNavigation:
+  key: QR Code Check-ins
+  parent: Features
+  order: 2
 blocks:
   - type: hero
     full_width: true

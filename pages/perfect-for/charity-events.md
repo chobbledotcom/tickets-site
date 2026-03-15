@@ -4,6 +4,10 @@ title: Charity Events - Chobble Tickets
 meta_title: Ticketing for Charity Events - Chobble Tickets
 meta_description: Affordable event ticketing for charities and community groups. 50% discount. No per-ticket fees.
 permalink: /perfect-for/charity-events/
+eleventyNavigation:
+  key: Charity Events
+  parent: Perfect For
+  order: 2
 blocks:
   - type: hero
     full_width: true

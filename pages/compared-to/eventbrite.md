@@ -4,6 +4,10 @@ title: Chobble Tickets vs Eventbrite
 meta_title: Chobble Tickets vs Eventbrite - Comparison
 meta_description: Compare Chobble Tickets with Eventbrite. Open source with flat pricing vs the industry giant.
 permalink: /compared-to/eventbrite/
+eleventyNavigation:
+  key: vs Eventbrite
+  parent: Compared To
+  order: 0
 blocks:
   - type: hero
     full_width: true

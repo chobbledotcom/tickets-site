@@ -4,6 +4,9 @@ title: Perfect For - Chobble Tickets
 meta_title: Perfect For - Chobble Tickets
 meta_description: Chobble Tickets works for kids parties, music concerts, charity events, political organising, and more.
 permalink: /perfect-for/
+eleventyNavigation:
+  key: Perfect For
+  order: 3
 blocks:
   - type: hero
     full_width: true

@@ -4,6 +4,9 @@ title: Chobble Tickets - Open Source Event Ticketing
 meta_title: Chobble Tickets - Open Source Event Ticketing
 meta_description: Open source event ticketing with a flat annual fee. No per-ticket charges. Encrypted, self-hostable, and built for communities.
 permalink: /
+eleventyNavigation:
+  key: Home
+  order: 0
 blocks:
   - type: hero
     full_width: true
