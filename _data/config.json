@@ -1,3 +1,5 @@
 {
-  "placeholder_images": false
+  "placeholder_images": false,
+  "formspark_id": null,
+  "botpoison_public_key": null
 }

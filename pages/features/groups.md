@@ -25,8 +25,19 @@ blocks:
       tracks? A series of workshops? Group your events together and let
       attendees book several at once with a single checkout.
 
+      The dashboard includes a multi-booking link builder that generates
+      combined-event URLs (like `/ticket/event1+event2`), so attendees can
+      book multiple events in one form and one payment.
+
       This is also useful for recurring events - a weekly class, a monthly
       meetup, or a season of concerts. Group them and make booking easy.
+
+      ## Daily Events
+
+      For events that run on specific dates (classes, workshops, recurring
+      sessions), daily events offer per-date capacity with a built-in calendar
+      picker. You can also set holiday and blackout dates to prevent bookings
+      on certain days.
 
       ## Organisation
 

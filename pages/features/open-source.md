@@ -38,9 +38,11 @@ blocks:
 
       ## Self-Host or Let Us Host
 
-      You can deploy Chobble Tickets on any Deno-compatible environment,
-      including Docker, DigitalOcean, Fly.io, or Bunny Edge Scripting. Or pay
-      £50/year and we'll handle the hosting for you. Browse the
+      You can deploy Chobble Tickets on any Deno-compatible environment.
+      One-click deploy buttons are available for DigitalOcean, Heroku, Koyeb,
+      and Render. You can also deploy with Fly.io, Docker, or Bunny Edge
+      Scripting. Or pay £50/year and we'll handle the hosting for you. Browse
+      the
       [technical documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html)
       to see how everything works under the hood.
 

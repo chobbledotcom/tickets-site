@@ -28,9 +28,12 @@ blocks:
       - icon: "hugeicons:qr-code"
         title: QR Code Check-ins
         description: Unique QR codes for every ticket. Scan with any phone camera.
+      - icon: "hugeicons:credit-card"
+        title: Stripe & Square
+        description: Accept payments via Stripe or Square. Fixed pricing or pay-what-you-want. Automatic refunds.
       - icon: "hugeicons:mail-01"
         title: Email Providers
-        description: Choose from Resend, Postmark, SendGrid, or Mailgun for notifications.
+        description: Choose from Resend, Postmark, SendGrid, or Mailgun (US and EU) for notifications.
       - icon: "hugeicons:api"
         title: Public API
         description: RESTful JSON API for building custom integrations and frontends.
@@ -40,20 +43,45 @@ blocks:
 
   - type: features
     section_class: alt
-    header_title: Management
+    header_title: Event Management
     items:
-      - icon: "hugeicons:user-multiple"
-        title: Users
-        description: Invite team members with role-based access. Manage sessions and permissions.
+      - icon: "hugeicons:calendar-03"
+        title: Daily Events
+        description: Per-date capacity with a calendar picker. Set holidays and blackout dates. Perfect for classes and recurring bookings.
       - icon: "hugeicons:folder-02"
         title: Groups
         description: Organise events into groups for multi-event bookings and single checkout.
+      - icon: "hugeicons:user-multiple"
+        title: Multi-User
+        description: Invite team members as owners or managers. Each gets their own login and session.
+      - icon: "hugeicons:csv-02"
+        title: CSV Export
+        description: Export attendee lists as CSV with date and check-in status filtering.
+      - icon: "hugeicons:user-add-01"
+        title: Manual Attendees
+        description: Add walk-ins and comp tickets directly from the admin panel. Edit attendee details or reassign events.
+      - icon: "hugeicons:file-validation"
+        title: Terms & Conditions
+        description: Set global terms that attendees must agree to before booking. Configurable contact fields and special instructions.
+
+  - type: features
+    header_title: Integrations
+    items:
       - icon: "hugeicons:globe-02"
         title: Custom Domain
         description: Use your own domain name. Your brand, your URL.
       - icon: "hugeicons:smart-phone-01"
         title: Apple Wallet
         description: Attendees can add tickets to Apple Wallet for easy access at the door.
+      - icon: "hugeicons:code"
+        title: Embeddable Widget
+        description: Drop an iframe snippet into your website to show events inline. Configurable CSP.
+      - icon: "hugeicons:mail-edit-01"
+        title: Email Templates
+        description: Customise confirmation emails with Liquid syntax. Built-in currency and pluralize filters.
+      - icon: "hugeicons:rss"
+        title: RSS & Calendar Feeds
+        description: ICS calendar feed and RSS feed for your events. Attendees can subscribe in their calendar app or feed reader.
 
   - type: cta
     title: See It in Action

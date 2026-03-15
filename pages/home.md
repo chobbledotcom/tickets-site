@@ -86,6 +86,8 @@ blocks:
       - **[Webhooks](/features/webhooks/)** - Get notified on every booking
       - **[Custom Domain](/features/custom-domain/)** - Your brand, your URL
       - **[Apple Wallet](/features/apple-wallet/)** - Tickets in your pocket
+      - **[Event Groups](/features/groups/)** - Multi-event bookings, single checkout
+      - **[Email Templates](/features/email-providers/)** - Customise confirmations with Liquid syntax
 
   - type: split
     title: Flat, Fair Pricing
@@ -100,7 +102,8 @@ blocks:
       Money from ticket sales goes straight to your Stripe or Square account.
       We never touch your revenue.
 
-      You can also self-host for free - it's open source.
+      You can also self-host for free - it's open source with one-click
+      deploy to DigitalOcean, Heroku, Koyeb, and Render.
     figure_type: code
     figure_filename: Pricing
     figure_code: |

@@ -29,15 +29,19 @@ blocks:
         records, and API credentials
       - **PBKDF2** with 600,000 iterations and SHA-256 for password hashing
 
-      This means that even if someone gains access to the database, they can't
-      read your attendees' personal information without the encryption keys.
+      A three-layer key hierarchy protects your data: an environment variable
+      root key, an RSA key pair, and per-user wrapped data keys. Even if
+      someone gains access to the database, they can't read your attendees'
+      personal information without the encryption keys. Lost password means
+      permanently unreadable data - there is no backdoor.
 
       ## Additional Security Measures
 
       Beyond encryption at rest, the platform includes CSRF protection with
       256-bit random tokens, rate limiting on login attempts (5 failed attempts
-      trigger a 15-minute IP lockout), and session tokens with 24-hour expiry
-      using HttpOnly cookies.
+      trigger a 15-minute IP lockout), constant-time password comparison,
+      Content-Type validation on all POST endpoints, and session tokens with
+      24-hour expiry using HttpOnly cookies.
 
       Read the full
       [cryptography documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/crypto.ts)

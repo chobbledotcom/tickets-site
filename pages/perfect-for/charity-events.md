@@ -45,8 +45,8 @@ blocks:
         title: Team Access
         description: Invite volunteers and committee members as managers. Everyone can help without sharing a single login.
       - icon: "hugeicons:calendar-03"
-        title: Recurring Events
-        description: Running a regular quiz night or monthly meetup? Set up daily events with per-date capacity.
+        title: Daily Events
+        description: Running a regular quiz night or monthly meetup? Use daily events with per-date capacity, a calendar picker, and holiday blackout dates.
       - icon: "hugeicons:notification-03"
         title: Webhooks
         description: Get notified instantly when someone books. Integrate with your existing tools and workflows.

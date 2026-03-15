@@ -47,7 +47,9 @@ blocks:
       your event through a platform, Eventbrite is hard to beat.
 
       Chobble Tickets is better for organisers who already have an audience and
-      want to keep costs down, own their data, and avoid platform lock-in.
+      want to keep costs down, own their data, and avoid platform lock-in. It
+      includes ICS calendar and RSS feeds, a public API, embeddable widgets,
+      and pay-what-you-want pricing - all included in the flat annual fee.
 
   - type: cta
     title: Try Chobble Tickets

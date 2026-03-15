@@ -37,6 +37,15 @@ blocks:
       all under your domain. Event descriptions support Markdown formatting
       and header images.
 
+      You can configure terms and conditions that attendees must agree to
+      before booking, set configurable contact fields (email, phone, postal
+      address), and add a custom thank-you URL or use the default
+      confirmation page.
+
+      The site also publishes ICS calendar and RSS feeds, so attendees can
+      subscribe to your events in their calendar app or feed reader. Customise
+      the homepage and contact page content directly from the admin panel.
+
   - type: cta
     title: Use Your Own Domain
     description: Set up your ticketing under your own brand.

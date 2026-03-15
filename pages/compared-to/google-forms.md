@@ -50,6 +50,10 @@ blocks:
       capacity limits, QR code tickets, or data privacy, a dedicated ticketing
       platform like Chobble Tickets is worth the £50/year.
 
+      Chobble Tickets also supports free events without payment setup, so
+      you can start with the same simplicity as Google Forms and add payments
+      later when you need them.
+
   - type: cta
     title: Purpose-Built Ticketing
     description: Everything Google Forms does for RSVPs, plus payments, tickets, and check-in.
