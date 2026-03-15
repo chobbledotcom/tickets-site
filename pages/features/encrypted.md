@@ -44,7 +44,7 @@ blocks:
       24-hour expiry using HttpOnly cookies.
 
       Read the full
-      [cryptography documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/crypto.ts)
+      [cryptography documentation](https://chobbledotcom.github.io/tickets/docs/crypto.ts)
       for implementation details.
 
   - type: cta
@@ -52,7 +52,7 @@ blocks:
     description: The encryption code is open source, so you can audit it yourself.
     button:
       text: View Crypto Docs
-      href: https://chobbledotcom.github.io/tickets/doc.ts/docs/crypto.ts
+      href: https://chobbledotcom.github.io/tickets/docs/crypto.ts
       variant: secondary
       size: lg
 ---

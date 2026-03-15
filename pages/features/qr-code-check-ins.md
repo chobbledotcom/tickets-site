@@ -41,7 +41,7 @@ blocks:
       non-transferable and the check-in screen will prompt staff to verify
       the attendee's ID against the name on the ticket.
 
-      Read the [tickets documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/tickets.ts)
+      Read the [tickets documentation](https://chobbledotcom.github.io/tickets/docs/tickets.ts)
       for details on QR code generation and SVG ticket rendering.
 
   - type: cta

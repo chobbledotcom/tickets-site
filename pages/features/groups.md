@@ -45,7 +45,7 @@ blocks:
       events by group in the dashboard, and each group gets its own public
       page listing all its events.
 
-      See the [events documentation](https://chobbledotcom.github.io/tickets/doc.ts/docs/events.ts)
+      See the [events documentation](https://chobbledotcom.github.io/tickets/docs/events.ts)
       for details on event grouping and availability management.
 
   - type: cta
