@@ -6,7 +6,7 @@ meta_description: All personal information is encrypted at rest using hybrid RSA
 permalink: /features/encrypted/
 eleventyNavigation:
   key: Encrypted
-  parent: Features
+  parent: Platform & Integrations
   order: 1
 blocks:
   - type: hero

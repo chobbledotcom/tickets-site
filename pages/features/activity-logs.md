@@ -6,8 +6,8 @@ meta_description: Track all admin actions and booking activity with a built-in a
 permalink: /features/activity-logs/
 eleventyNavigation:
   key: Activity Logs
-  parent: Features
-  order: 20
+  parent: Managing Events
+  order: 7
 blocks:
   - type: hero
     full_width: true

@@ -6,8 +6,8 @@ meta_description: Accept payments via Stripe or Square with fixed pricing or pay
 permalink: /features/stripe-and-square/
 eleventyNavigation:
   key: Stripe & Square
-  parent: Features
-  order: 10
+  parent: Selling Tickets
+  order: 0
 blocks:
   - type: hero
     full_width: true

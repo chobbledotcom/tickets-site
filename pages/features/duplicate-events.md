@@ -6,8 +6,8 @@ meta_description: Clone existing events to quickly set up similar bookings witho
 permalink: /features/duplicate-events/
 eleventyNavigation:
   key: Duplicate Events
-  parent: Features
-  order: 18
+  parent: Managing Events
+  order: 5
 blocks:
   - type: hero
     full_width: true

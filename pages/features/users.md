@@ -6,8 +6,8 @@ meta_description: Invite team members as owners or managers to manage sessions a
 permalink: /features/users/
 eleventyNavigation:
   key: Users
-  parent: Features
-  order: 6
+  parent: Managing Events
+  order: 3
 blocks:
   - type: hero
     full_width: true

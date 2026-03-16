@@ -6,8 +6,8 @@ meta_description: Set global terms that attendees must agree to before booking, 
 permalink: /features/terms-and-conditions/
 eleventyNavigation:
   key: Terms & Conditions
-  parent: Features
-  order: 14
+  parent: Selling Tickets
+  order: 3
 blocks:
   - type: hero
     full_width: true

@@ -6,8 +6,8 @@ meta_description: Every ticket gets a unique QR code that you can scan with any 
 permalink: /features/qr-code-check-ins/
 eleventyNavigation:
   key: QR Code Check-ins
-  parent: Features
-  order: 2
+  parent: Managing Events
+  order: 0
 blocks:
   - type: hero
     full_width: true

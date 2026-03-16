@@ -1,0 +1,49 @@
+---
+layout: design-system-base.html
+title: Customising Your Site - Chobble Tickets
+meta_title: Customising Your Site - Chobble Tickets
+meta_description: Use your own domain, choose themes, customise emails, embed widgets, and make your ticketing site match your brand.
+permalink: /features/customising-your-site/
+eleventyNavigation:
+  key: Customising Your Site
+  parent: Features
+  order: 3
+blocks:
+  - type: hero
+    full_width: true
+    class: gradient
+    title: Customising Your Site
+    lead: >-
+      Use your own domain, choose themes, customise emails, embed widgets,
+      and make your ticketing site match your brand.
+
+  - type: features
+    items:
+      - icon: "hugeicons:globe-02"
+        title: '<a href="/features/custom-domain/">Custom Domain</a>'
+        description: Use your own domain name so your brand is front and centre.
+      - icon: "hugeicons:paint-brush-01"
+        title: '<a href="/features/light-and-dark-themes/">Light & Dark Themes</a>'
+        description: Built-in public site with light and dark theme options, so your booking pages match your brand.
+      - icon: "hugeicons:edit-01"
+        title: '<a href="/features/markdown-descriptions/">Markdown Descriptions</a>'
+        description: Write event descriptions in Markdown with header image uploads, so your events look great without a page builder.
+      - icon: "hugeicons:mail-edit-01"
+        title: '<a href="/features/email-templates/">Email Templates</a>'
+        description: Customise confirmation emails with Liquid syntax, including built-in currency and pluralise filters.
+      - icon: "hugeicons:code"
+        title: '<a href="/features/embeddable-widget/">Embeddable Widget</a>'
+        description: Drop an iframe snippet into your website to show events inline, with configurable CSP.
+      - icon: "hugeicons:link-03"
+        title: '<a href="/features/custom-redirects/">Custom Redirects</a>'
+        description: Send attendees to a custom URL after booking, perfect for thank-you pages or post-purchase instructions.
+
+  - type: cta
+    title: Make It Yours
+    description: Sign up for managed hosting at £50/year, or browse the full technical documentation.
+    button:
+      text: Sign Up
+      href: https://tix.chobble.com/ticket/join
+      variant: primary
+      size: lg
+---

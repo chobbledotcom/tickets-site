@@ -6,8 +6,8 @@ meta_description: Set cut-off times for bookings and configure purchase limits p
 permalink: /features/registration-deadlines/
 eleventyNavigation:
   key: Registration Deadlines
-  parent: Features
-  order: 19
+  parent: Selling Tickets
+  order: 4
 blocks:
   - type: hero
     full_width: true

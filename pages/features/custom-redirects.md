@@ -6,8 +6,8 @@ meta_description: Send attendees to a custom URL after booking, perfect for than
 permalink: /features/custom-redirects/
 eleventyNavigation:
   key: Custom Redirects
-  parent: Features
-  order: 26
+  parent: Customising Your Site
+  order: 5
 blocks:
   - type: hero
     full_width: true

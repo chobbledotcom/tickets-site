@@ -6,8 +6,8 @@ meta_description: Write event descriptions in Markdown with header image uploads
 permalink: /features/markdown-descriptions/
 eleventyNavigation:
   key: Markdown Descriptions
-  parent: Features
-  order: 17
+  parent: Customising Your Site
+  order: 2
 blocks:
   - type: hero
     full_width: true

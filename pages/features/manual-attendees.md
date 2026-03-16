@@ -6,8 +6,8 @@ meta_description: Add walk-ins and comp tickets directly from the admin panel, a
 permalink: /features/manual-attendees/
 eleventyNavigation:
   key: Manual Attendees
-  parent: Features
-  order: 13
+  parent: Managing Events
+  order: 4
 blocks:
   - type: hero
     full_width: true

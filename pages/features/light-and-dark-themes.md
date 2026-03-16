@@ -6,8 +6,8 @@ meta_description: Built-in public site with light and dark theme options, so you
 permalink: /features/light-and-dark-themes/
 eleventyNavigation:
   key: Light & Dark Themes
-  parent: Features
-  order: 25
+  parent: Customising Your Site
+  order: 1
 blocks:
   - type: hero
     full_width: true

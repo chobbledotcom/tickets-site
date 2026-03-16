@@ -6,8 +6,8 @@ meta_description: Export attendee lists as CSV with date and check-in status fil
 permalink: /features/csv-export/
 eleventyNavigation:
   key: CSV Export
-  parent: Features
-  order: 12
+  parent: Managing Events
+  order: 6
 blocks:
   - type: hero
     full_width: true

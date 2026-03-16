@@ -6,8 +6,8 @@ meta_description: ICS calendar and RSS feeds for your events, so attendees can s
 permalink: /features/rss-and-calendar-feeds/
 eleventyNavigation:
   key: RSS & Calendar Feeds
-  parent: Features
-  order: 24
+  parent: Platform & Integrations
+  order: 6
 blocks:
   - type: hero
     full_width: true
