@@ -44,7 +44,7 @@ blocks:
     description: Set up daily events with per-date capacity and blackout dates.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

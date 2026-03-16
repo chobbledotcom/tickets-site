@@ -43,7 +43,7 @@ blocks:
     description: Choose a light or dark theme for your public booking pages.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

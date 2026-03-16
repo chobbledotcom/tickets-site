@@ -52,7 +52,7 @@ blocks:
     description: Set up your ticketing under your own brand.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

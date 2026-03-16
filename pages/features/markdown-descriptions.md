@@ -43,7 +43,7 @@ blocks:
     description: Write event descriptions in Markdown and let the theme handle the rest.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

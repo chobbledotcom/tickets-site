@@ -45,7 +45,7 @@ blocks:
     description: The best comparison is trying it - sign up or self-host for free.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

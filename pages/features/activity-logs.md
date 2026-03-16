@@ -43,7 +43,7 @@ blocks:
     description: Track every action with built-in activity logs.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---
