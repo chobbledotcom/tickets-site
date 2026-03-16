@@ -1,0 +1,44 @@
+---
+layout: design-system-base.html
+title: CSV Export - Chobble Tickets
+meta_title: CSV Export - Chobble Tickets
+meta_description: Export attendee lists as CSV with date and check-in status filtering.
+permalink: /features/csv-export/
+eleventyNavigation:
+  key: CSV Export
+  parent: Features
+  order: 12
+blocks:
+  - type: hero
+    full_width: true
+    class: gradient
+    title: CSV Export
+    lead: >-
+      Export your attendee lists as CSV files, filtered by date and check-in
+      status, for use in spreadsheets or other tools.
+
+  - type: markdown
+    content: |
+      ## Get Your Data Out
+
+      Download attendee data as a CSV file that you can open in any
+      spreadsheet application. Filter by date range and check-in status to
+      get exactly the data you need, whether that's a door list for tonight's
+      event or a full attendee report for the quarter.
+
+      ## No Lock-In
+
+      Your data is yours. CSV export means you can always get your attendee
+      information out of Chobble Tickets and into whatever system you need,
+      whether that's a mailing list, a CRM, or a simple spreadsheet for your
+      records.
+
+  - type: cta
+    title: Your Data, Your Way
+    description: Export attendee data whenever you need it.
+    button:
+      text: Get Started
+      href: https://tix.chobble.com/ticket/join
+      variant: secondary
+      size: lg
+---

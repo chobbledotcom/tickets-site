@@ -1,0 +1,48 @@
+---
+layout: design-system-base.html
+title: Built-in Admin Guide - Chobble Tickets
+meta_title: Built-in Admin Guide - Chobble Tickets
+meta_description: Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
+permalink: /features/admin-guide/
+eleventyNavigation:
+  key: Built-in Admin Guide
+  parent: Features
+  order: 21
+blocks:
+  - type: hero
+    full_width: true
+    class: gradient
+    title: Built-in Admin Guide
+    lead: >-
+      Integrated documentation at /admin/guide covers every feature, so new
+      team members can get up to speed fast.
+
+  - type: markdown
+    content: |
+      ## Documentation Where You Need It
+
+      The admin guide is built right into your Chobble Tickets installation
+      at `/admin/guide`. No need to search external docs or bookmarked
+      wiki pages - help is one click away from any admin screen.
+
+      ## Covers Every Feature
+
+      The guide walks through every feature: creating events, managing
+      attendees, processing refunds, configuring settings, and more. It's
+      written for people who need to get things done, not for developers.
+
+      ## Onboard New Team Members
+
+      When you invite a new manager or owner, point them at the guide and
+      they can learn the system at their own pace. No training sessions
+      required.
+
+  - type: cta
+    title: Easy to Learn
+    description: Get your team up to speed with the built-in admin guide.
+    button:
+      text: Get Started
+      href: https://tix.chobble.com/ticket/join
+      variant: secondary
+      size: lg
+---
