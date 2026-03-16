@@ -18,7 +18,7 @@ blocks:
       fee and no per-ticket charges, data harvesting, or lock-in.
     buttons:
       - text: Get Started
-        href: https://tix.chobble.com/ticket/join
+        href: https://tix.chobble.com/ticket/register
         variant: primary
         size: lg
       - text: Live Demo
@@ -120,7 +120,7 @@ blocks:
     description: Sign up for managed hosting or grab the source code and self-host.
     button:
       text: Sign Up at tix.chobble.com
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

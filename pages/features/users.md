@@ -47,7 +47,7 @@ blocks:
     description: Invite your team and start managing events together.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

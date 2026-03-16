@@ -46,7 +46,7 @@ blocks:
     description: Show your events on your existing website with one line of HTML.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

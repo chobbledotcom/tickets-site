@@ -38,7 +38,7 @@ blocks:
     description: Clone events to save time on setup.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

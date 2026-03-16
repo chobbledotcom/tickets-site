@@ -49,7 +49,7 @@ blocks:
     description: Flat pricing with no per-ticket fees, which is great for fundraisers.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

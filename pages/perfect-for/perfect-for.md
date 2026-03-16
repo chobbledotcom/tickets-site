@@ -37,7 +37,7 @@ blocks:
     description: Sign up for managed hosting at £50/year, or self-host for free.
     button:
       text: Try Chobble Tickets
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

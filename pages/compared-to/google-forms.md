@@ -59,7 +59,7 @@ blocks:
     description: Everything Google Forms does for RSVPs, plus payments, tickets, and check-in.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

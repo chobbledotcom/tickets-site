@@ -54,7 +54,7 @@ blocks:
     description: Get started with Chobble Tickets - managed hosting is £50/year with unlimited events.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

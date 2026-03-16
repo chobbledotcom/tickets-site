@@ -40,7 +40,7 @@ blocks:
 
       ### 1. Managed Hosting
 
-      [Sign up](https://tix.chobble.com/ticket/join) and we handle everything -
+      [Sign up](https://tix.chobble.com/ticket/register) and we handle everything -
       infrastructure, updates, backups, and support - for £50/year (50% off for
       charities, community groups, artists, and musicians). No per-ticket fees,
       unlimited events, unlimited tickets.
@@ -68,7 +68,7 @@ blocks:
     description: Sign up for managed hosting at £50/year, or grab the source from GitHub and self-host for free.
     button:
       text: Sign Up
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
 ---

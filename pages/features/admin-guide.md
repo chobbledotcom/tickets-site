@@ -42,7 +42,7 @@ blocks:
     description: Get your team up to speed with the built-in admin guide.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---

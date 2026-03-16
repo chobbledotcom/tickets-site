@@ -55,7 +55,7 @@ blocks:
     description: Start with managed hosting at £50/year, or self-host for free.
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
 ---
