@@ -58,10 +58,10 @@ blocks:
       {% assign competitor_key = "parentkind" %}
       {% include price-comparator.html %}
 
-      *Parentkind costs: £115/year membership + Stripe processing
-      (1.4% + 20p). PTA Events platform is included with membership.
-      Chobble Tickets: £50/year flat (£25 for community groups) + Stripe
-      processing (1.5% + 20p).*
+      *Parentkind costs: £115/year membership + 3.95% platform fee per
+      transaction + Stripe processing (1.5% + 20p). Chobble Tickets:
+      £50/year flat (£25 for community groups) + Stripe processing
+      (1.5% + 20p).*
 
   - type: markdown
     content: |
