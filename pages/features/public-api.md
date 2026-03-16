@@ -20,7 +20,7 @@ blocks:
 
   - type: markdown
     content: |
-      ## Build What You Need
+      ## Build what you need
 
       The public API gives you access to event listings, availability data, and
       booking functionality. No API key required for public endpoints - just
@@ -30,7 +30,7 @@ blocks:
       website, create a custom booking flow, or pull event data into any system
       that can make HTTP requests.
 
-      ## Embeddable Widget
+      ## Embeddable widget
 
       If you don't want to build a custom integration, Chobble Tickets also
       includes an embeddable iframe widget - just drop a snippet of HTML into
@@ -42,7 +42,7 @@ blocks:
       for endpoint details.
 
   - type: cta
-    title: Integrate Anywhere
+    title: Integrate anywhere
     description: Use the API to build exactly what you need.
     button:
       text: Read the API Docs

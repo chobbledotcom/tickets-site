@@ -19,13 +19,13 @@ blocks:
 
   - type: markdown
     content: |
-      ## What Google Forms Gives You
+      ## What Google Forms gives you
 
       Google Forms is free, easy to set up, and familiar, so you can collect
       registrations, export to a spreadsheet, and share a link. For a simple
       free event with no capacity limit, it gets the job done.
 
-      ## What Google Forms Doesn't Do
+      ## What Google Forms doesn't do
 
       Google Forms wasn't designed for ticketing, so it's missing things you'll
       eventually need:
@@ -43,7 +43,7 @@ blocks:
       - **Google owns the data** - Your attendees' information is on Google's
         servers, subject to Google's terms
 
-      ## A Purpose-Built Alternative to Google Forms for Events
+      ## A purpose-built alternative to Google Forms for events
 
       If you're running a free, informal event and don't need tickets or
       check-in, Google Forms is perfectly fine, but once you need payments,
@@ -55,7 +55,7 @@ blocks:
       later when you need them.
 
   - type: cta
-    title: Purpose-Built Ticketing
+    title: Purpose-built ticketing
     description: Everything Google Forms does for RSVPs, plus payments, tickets, and check-in.
     button:
       text: Get Started

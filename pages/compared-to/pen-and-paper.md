@@ -19,14 +19,14 @@ blocks:
 
   - type: markdown
     content: |
-      ## When Pen and Paper Works
+      ## When pen and paper works
 
       For a small gathering where you know everyone, pen and paper is fine.
       There's no learning curve, no setup time, and no annual fee, so if
       you're running a dinner party for 20 people you don't need ticketing
       software.
 
-      ## When Software Helps
+      ## When software helps
 
       Pen and paper starts to struggle when:
 
@@ -43,7 +43,7 @@ blocks:
       - **Multiple people are managing the event** - Shared spreadsheets get out
         of sync
 
-      ## A Digital Alternative That Grows With You
+      ## A digital alternative that grows with you
 
       Chobble Tickets supports free events without payment setup, so even if
       you're not charging you can use it just for the RSVP tracking, capacity
@@ -52,7 +52,7 @@ blocks:
       need it to.
 
   - type: cta
-    title: Upgrade When You're Ready
+    title: Upgrade when you're ready
     description: Start with managed hosting at £50/year, or self-host for free.
     button:
       text: Get Started

@@ -12,13 +12,13 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Ticketing for Kids Parties
+    title: Ticketing for kids parties
     lead: >-
       Set up your party, share the link, and let parents book while Chobble
       Tickets handles the rest.
 
   - type: split
-    title: Simple for Parents
+    title: Simple for parents
     reveal_content: left
     content: |
       Parents get a clean booking page where they can reserve spots for their
@@ -37,20 +37,20 @@ blocks:
 
   - type: features
     section_class: alt
-    header_title: Great for Party Organisers
+    header_title: Great for party organisers
     items:
       - icon: "hugeicons:user-list"
-        title: Configurable Contact Fields
+        title: Configurable contact fields
         description: Choose which contact details to collect - email, phone, postal address - plus a special instructions field for dietary needs or allergies.
       - icon: "hugeicons:money-receive-square"
-        title: Free or Paid Events
+        title: Free or paid events
         description: If you're running a free party you can skip payment setup entirely, and if you're charging a fee the money goes straight to your account.
       - icon: "hugeicons:csv-02"
-        title: Export Guest Lists
+        title: Export guest lists
         description: Download your attendee list as a CSV anytime, which is great for making name tags or planning catering.
 
   - type: cta
-    title: Set Up Your Party
+    title: Set up your party
     description: Get started with Chobble Tickets - managed hosting is £50/year with unlimited events.
     button:
       text: Get Started

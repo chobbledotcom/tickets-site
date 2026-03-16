@@ -11,7 +11,7 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: How Chobble Tickets Compares
+    title: How Chobble Tickets compares
     lead: >-
       Every ticketing option has trade-offs, so here's an honest look at how
       Chobble Tickets stacks up against the alternatives.
@@ -41,7 +41,7 @@ blocks:
         description: Free and flexible, but not built for ticketing - see the differences.
 
   - type: cta
-    title: Try It Yourself
+    title: Try it yourself
     description: The best comparison is trying it - sign up or self-host for free.
     button:
       text: Get Started

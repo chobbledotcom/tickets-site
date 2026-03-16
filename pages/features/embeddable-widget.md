@@ -12,14 +12,14 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Embeddable Widget
+    title: Embeddable widget
     lead: >-
       Drop an iframe snippet into your existing website to show your events
       inline, with configurable Content Security Policy headers.
 
   - type: markdown
     content: |
-      ## Events on Your Website
+      ## Events on your website
 
       Add your events to any website by pasting a small HTML snippet. The
       widget displays your event listings in an iframe that automatically
@@ -32,7 +32,7 @@ blocks:
       you can control which domains are allowed to embed your events. This
       prevents unauthorised sites from embedding your booking pages.
 
-      ## No Custom Code Needed
+      ## No custom code needed
 
       If you don't want to build a custom integration with the
       [public API](/features/public-api/), the embeddable widget gives you
@@ -42,7 +42,7 @@ blocks:
       for widget setup and configuration details.
 
   - type: cta
-    title: Embed Your Events
+    title: Embed your events
     description: Show your events on your existing website with one line of HTML.
     button:
       text: Get Started

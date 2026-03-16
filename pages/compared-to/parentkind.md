@@ -19,7 +19,7 @@ blocks:
 
   - type: markdown
     content: |
-      ## Different Platforms, Different Goals
+      ## Different platforms, different goals
 
       Parentkind is a membership organisation for PTAs that bundles several
       tools together: public liability insurance, PTA management guides,
@@ -30,7 +30,7 @@ blocks:
       have school-specific features like Gift Aid or PTA insurance, but it's
       simpler, cheaper, and gives you full control over your data.
 
-      ## Pricing Breakdown
+      ## Pricing breakdown
 
       With Parentkind, the costs add up from several layers:
 
@@ -49,9 +49,9 @@ blocks:
       You only pay the standard payment processing fee from Stripe or
       Square. Sell 100 tickets or 10,000 - the cost to you stays the same.
 
-      ## Feature Comparison
+      ## Feature comparison
 
-      ### Ticketing and Events
+      ### Ticketing and events
 
       Both platforms handle the basics: creating events, selling tickets, and
       managing attendees. PTA Events includes prize draws, online auctions,
@@ -60,14 +60,14 @@ blocks:
       features like pay-what-you-want pricing, registration deadlines,
       overbooking prevention, and event grouping for multi-event bookings.
 
-      ### Check-in and Entry
+      ### Check-in and entry
 
       Both offer QR code scanning for event entry. On PTA Events, the QR
       scanning feature is only available on the Premium plan. On Chobble
       Tickets, QR code check-ins work with any phone camera and are included
       at every price point.
 
-      ### Data and Privacy
+      ### Data and privacy
 
       PTA Events is a proprietary platform - you can't see how your data is
       stored or processed. Chobble Tickets is open source and encrypts all
@@ -89,7 +89,7 @@ blocks:
       Postmark, SendGrid, Mailgun). PTA Events integrates with Stripe and
       GoCardless and offers comprehensive reporting with 14 built-in reports.
 
-      ## What Parentkind Does That We Don't
+      ## What Parentkind does that we don't
 
       Let's be straightforward about what Parentkind offers that Chobble
       Tickets doesn't:
@@ -110,7 +110,7 @@ blocks:
       These are genuinely useful for PTAs, and if you need them, Parentkind
       is a solid choice.
 
-      ## What We Do That Parentkind Doesn't
+      ## What we do that Parentkind doesn't
 
       - **Flat pricing**: No per-ticket fees or platform commission, ever.
       - **Open source**: Every line of code is public and auditable under
@@ -127,14 +127,14 @@ blocks:
       - **Works beyond schools**: Use the same platform for music gigs,
         charity fundraisers, community events, or anything else.
 
-      ## When Parentkind Makes More Sense
+      ## When Parentkind makes more sense
 
       If your PTA needs the full package - insurance, Gift Aid, advisers,
       fundraising resources, volunteer coordination, and auctions - then
       Parentkind offers genuine value as a bundled membership. The insurance
       alone can justify the cost for many PTAs.
 
-      ## When an Alternative to Parentkind Makes More Sense
+      ## When an alternative to Parentkind makes more sense
 
       If you already have insurance sorted and just need affordable,
       straightforward ticketing for school events, Chobble Tickets saves you
@@ -145,7 +145,7 @@ blocks:
       platform that works for non-school events too.
 
   - type: cta
-    title: Simple School Event Ticketing
+    title: Simple school event ticketing
     description: Flat pricing with no per-ticket fees - more of your fundraising goes where it should.
     button:
       text: Get Started

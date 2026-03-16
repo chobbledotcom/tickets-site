@@ -17,84 +17,84 @@ blocks:
       with no premium tiers or feature gating.
 
   - type: features
-    header_title: Selling Tickets
+    header_title: Selling tickets
     items:
       - icon: "hugeicons:credit-card"
         title: '<a href="/features/stripe-and-square/">Stripe & Square</a>'
         description: Accept payments via Stripe or Square with fixed pricing or pay-what-you-want, and automatic refunds.
       - icon: "hugeicons:clock-01"
-        title: '<a href="/features/overbooking-prevention/">Overbooking Prevention</a>'
+        title: '<a href="/features/overbooking-prevention/">Overbooking prevention</a>'
         description: 5-minute payment holds reserve places while attendees complete checkout, so you never oversell.
       - icon: "hugeicons:money-receive-square"
         title: '<a href="/features/refunds/">Refunds</a>'
         description: Process individual or bulk refunds directly from the admin panel with automatic payment provider sync.
       - icon: "hugeicons:file-validation"
-        title: '<a href="/features/terms-and-conditions/">Terms & Conditions</a>'
+        title: '<a href="/features/terms-and-conditions/">Terms & conditions</a>'
         description: Set global terms that attendees must agree to before booking, with configurable contact fields and special instructions.
       - icon: "hugeicons:timer-01"
-        title: '<a href="/features/registration-deadlines/">Registration Deadlines</a>'
+        title: '<a href="/features/registration-deadlines/">Registration deadlines</a>'
         description: Set cut-off times for bookings and configure purchase limits per event or per attendee.
 
   - type: features
     section_class: alt
-    header_title: Managing Events
+    header_title: Managing events
     items:
       - icon: "hugeicons:qr-code"
-        title: '<a href="/features/qr-code-check-ins/">QR Code Check-ins</a>'
+        title: '<a href="/features/qr-code-check-ins/">QR code check-ins</a>'
         description: Every ticket gets a unique QR code that you can scan with any phone camera.
       - icon: "hugeicons:calendar-03"
-        title: '<a href="/features/daily-events/">Daily Events</a>'
+        title: '<a href="/features/daily-events/">Daily events</a>'
         description: Per-date capacity with a calendar picker and configurable holiday and blackout dates, which is perfect for classes and recurring bookings.
       - icon: "hugeicons:folder-02"
         title: '<a href="/features/groups/">Groups</a>'
         description: Organise events into groups for multi-event bookings and single checkout.
       - icon: "hugeicons:user-multiple"
-        title: '<a href="/features/users/">Multi-User</a>'
+        title: '<a href="/features/users/">Multi-user</a>'
         description: Invite team members as owners or managers, each with their own login and session.
       - icon: "hugeicons:user-add-01"
-        title: '<a href="/features/manual-attendees/">Manual Attendees</a>'
+        title: '<a href="/features/manual-attendees/">Manual attendees</a>'
         description: Add walk-ins and comp tickets directly from the admin panel, and edit attendee details or reassign events as needed.
       - icon: "hugeicons:copy-01"
-        title: '<a href="/features/duplicate-events/">Duplicate Events</a>'
+        title: '<a href="/features/duplicate-events/">Duplicate events</a>'
         description: Clone existing events to quickly set up similar bookings without re-entering all the details.
       - icon: "hugeicons:csv-02"
-        title: '<a href="/features/csv-export/">CSV Export</a>'
+        title: '<a href="/features/csv-export/">CSV export</a>'
         description: Export attendee lists as CSV with date and check-in status filtering.
       - icon: "hugeicons:activity-01"
-        title: '<a href="/features/activity-logs/">Activity Logs</a>'
+        title: '<a href="/features/activity-logs/">Activity logs</a>'
         description: Track all admin actions and booking activity with a built-in audit trail and calendar views.
       - icon: "hugeicons:book-open-01"
-        title: '<a href="/features/admin-guide/">Built-in Admin Guide</a>'
+        title: '<a href="/features/admin-guide/">Built-in admin guide</a>'
         description: Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
 
   - type: features
-    header_title: Customising Your Site
+    header_title: Customising your site
     items:
       - icon: "hugeicons:globe-02"
-        title: '<a href="/features/custom-domain/">Custom Domain</a>'
+        title: '<a href="/features/custom-domain/">Custom domain</a>'
         description: Use your own domain name so your brand is front and centre.
       - icon: "hugeicons:paint-brush-01"
-        title: '<a href="/features/light-and-dark-themes/">Light & Dark Themes</a>'
+        title: '<a href="/features/light-and-dark-themes/">Light & dark themes</a>'
         description: Built-in public site with light and dark theme options, so your booking pages match your brand.
       - icon: "hugeicons:edit-01"
-        title: '<a href="/features/markdown-descriptions/">Markdown Descriptions</a>'
+        title: '<a href="/features/markdown-descriptions/">Markdown descriptions</a>'
         description: Write event descriptions in Markdown with header image uploads, so your events look great without a page builder.
       - icon: "hugeicons:mail-edit-01"
-        title: '<a href="/features/email-templates/">Email Templates</a>'
+        title: '<a href="/features/email-templates/">Email templates</a>'
         description: Customise confirmation emails with Liquid syntax, including built-in currency and pluralise filters.
       - icon: "hugeicons:code"
-        title: '<a href="/features/embeddable-widget/">Embeddable Widget</a>'
+        title: '<a href="/features/embeddable-widget/">Embeddable widget</a>'
         description: Drop an iframe snippet into your website to show events inline, with configurable CSP.
       - icon: "hugeicons:link-03"
-        title: '<a href="/features/custom-redirects/">Custom Redirects</a>'
+        title: '<a href="/features/custom-redirects/">Custom redirects</a>'
         description: Send attendees to a custom URL after booking, perfect for thank-you pages or post-purchase instructions.
 
   - type: features
     section_class: alt
-    header_title: Platform & Integrations
+    header_title: Platform & integrations
     items:
       - icon: "hugeicons:source-code"
-        title: '<a href="/features/open-source/">Open Source</a>'
+        title: '<a href="/features/open-source/">Open source</a>'
         description: AGPLv3 licensed with every feature included and no open-core model.
       - icon: "hugeicons:lock"
         title: '<a href="/features/encrypted/">Encrypted</a>'
@@ -103,7 +103,7 @@ blocks:
         title: '<a href="/features/apple-wallet/">Apple Wallet</a>'
         description: Attendees can add tickets to Apple Wallet for easy access at the door.
       - icon: "hugeicons:mail-01"
-        title: '<a href="/features/email-providers/">Email Providers</a>'
+        title: '<a href="/features/email-providers/">Email providers</a>'
         description: Choose from Resend, Postmark, SendGrid, or Mailgun (US and EU) for notifications.
       - icon: "hugeicons:api"
         title: '<a href="/features/public-api/">Public API</a>'
@@ -112,11 +112,11 @@ blocks:
         title: '<a href="/features/webhooks/">Webhooks</a>'
         description: Get POST notifications on every booking to integrate with your tools.
       - icon: "hugeicons:rss"
-        title: '<a href="/features/rss-and-calendar-feeds/">RSS & Calendar Feeds</a>'
+        title: '<a href="/features/rss-and-calendar-feeds/">RSS & calendar feeds</a>'
         description: ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.
 
   - type: cta
-    title: See It in Action
+    title: See it in action
     description: Sign up for managed hosting at £50/year, or browse the full technical documentation.
     button:
       text: Sign Up

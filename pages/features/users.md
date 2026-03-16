@@ -12,14 +12,14 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Multi-User Management
+    title: Multi-user management
     lead: >-
       Invite team members as managers so everyone gets their own login instead
       of sharing passwords.
 
   - type: markdown
     content: |
-      ## Two Roles: Owners and Managers
+      ## Two roles: owners and managers
 
       Running events often involves a team, so Chobble Tickets lets you
       invite team members via email with a 7-day expiring access link where
@@ -34,7 +34,7 @@ blocks:
       what, and sessions expire after 24 hours with HttpOnly cookies for
       security.
 
-      ## Session Management
+      ## Session management
 
       View and manage active sessions from the admin panel, and if someone's
       access needs to be revoked you can do it immediately.
@@ -43,7 +43,7 @@ blocks:
       for details on session management and user settings.
 
   - type: cta
-    title: Collaborate Easily
+    title: Collaborate easily
     description: Invite your team and start managing events together.
     button:
       text: Get Started

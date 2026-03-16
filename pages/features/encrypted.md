@@ -12,14 +12,14 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Encrypted by Default
+    title: Encrypted by default
     lead: >-
       All personally identifiable information is encrypted at rest as the
       baseline, not as a premium add-on.
 
   - type: markdown
     content: |
-      ## Three Layers of Protection
+      ## Three layers of protection
 
       Chobble Tickets uses a multi-layered encryption approach:
 
@@ -35,7 +35,7 @@ blocks:
       personal information without the encryption keys, and a lost password
       means permanently unreadable data because there is no backdoor.
 
-      ## Additional Security Measures
+      ## Additional security measures
 
       Beyond encryption at rest, the platform includes CSRF protection with
       256-bit random tokens, rate limiting on login attempts (5 failed attempts
@@ -43,7 +43,7 @@ blocks:
       Content-Type validation on all POST endpoints, and session tokens with
       24-hour expiry using HttpOnly cookies.
 
-      ## You Are the Data Controller
+      ## You are the data controller
 
       With Chobble Tickets, you are the data controller - we don't have access
       to your attendees' personal information. This is by design: encryption
@@ -58,7 +58,7 @@ blocks:
       for implementation details.
 
   - type: cta
-    title: Security You Can Verify
+    title: Security you can verify
     description: Sign up for managed hosting at £50/year, or audit the encryption code yourself.
     button:
       text: Sign Up

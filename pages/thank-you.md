@@ -5,6 +5,6 @@ meta_title: Thank You
 no_index: true
 ---
 
-## Thank You
+## Thank you
 
 Your message has been sent - we will be in touch.

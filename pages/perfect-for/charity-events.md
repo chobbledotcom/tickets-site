@@ -12,13 +12,13 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Ticketing for Charity Events
+    title: Ticketing for charity events
     lead: >-
       More of your fundraising goes to the cause instead of the ticketing
       platform, with a 50% discount for charities and community groups.
 
   - type: split
-    title: Built for Charities
+    title: Built for charities
     reveal_content: left
     content: |
       When you're running a charity fundraiser every penny matters, and most
@@ -39,20 +39,20 @@ blocks:
 
   - type: features
     section_class: alt
-    header_title: Features Charities Love
+    header_title: Features charities love
     items:
       - icon: "hugeicons:user-multiple"
-        title: Team Access
+        title: Team access
         description: Invite volunteers and committee members as managers so everyone can help without sharing a single login.
       - icon: "hugeicons:calendar-03"
-        title: Daily Events
+        title: Daily events
         description: Running a regular quiz night or monthly meetup? Use daily events with per-date capacity, a calendar picker, and holiday blackout dates.
       - icon: "hugeicons:notification-03"
         title: Webhooks
         description: Get notified instantly when someone books and integrate with your existing tools and workflows.
 
   - type: cta
-    title: Get the Charity Discount
+    title: Get the charity discount
     description: Sign up for managed hosting at just £25/year for charities and community groups.
     button:
       text: Get Started

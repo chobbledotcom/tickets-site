@@ -12,28 +12,28 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Email Templates
+    title: Email templates
     lead: >-
       Customise confirmation emails with Liquid syntax, including built-in
       currency and pluralise filters.
 
   - type: markdown
     content: |
-      ## Full Control Over Emails
+      ## Full control over emails
 
       Customise the subject line, HTML body, and plain text body of your
       confirmation emails using Liquid template syntax. You can include
       attendee details, event information, ticket URLs, and QR codes
       exactly where you want them.
 
-      ## Built-in Template Filters
+      ## Built-in template filters
 
       The template engine includes useful filters like `currency` for
       formatting amounts (so `1000` becomes `£10.00`) and `pluralize` for
       natural language (so `1 ticket` and `3 tickets` are both correct
       automatically).
 
-      ## Works with Your Email Provider
+      ## Works with your email provider
 
       Templates work with whichever [email provider](/features/email-providers/)
       you've configured - Resend, Postmark, SendGrid, or Mailgun. The
@@ -44,7 +44,7 @@ blocks:
       for template variables and filter details.
 
   - type: cta
-    title: Branded Emails
+    title: Branded emails
     description: Customise your confirmation emails to match your brand.
     button:
       text: Get Started

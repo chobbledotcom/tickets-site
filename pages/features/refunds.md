@@ -19,28 +19,28 @@ blocks:
 
   - type: markdown
     content: |
-      ## One-Click Refunds
+      ## One-click refunds
 
       Refund individual attendees or process bulk refunds for an entire
       event directly from the admin panel. When you issue a refund, the
       payment provider (Stripe or Square) processes it automatically, so
       there's no need to log into a separate dashboard.
 
-      ## Bulk Refunds
+      ## Bulk refunds
 
       Need to cancel an event? Process refunds for all attendees at once
       instead of handling them one by one. The system tracks refund status
       so you can see which refunds have been processed and which are
       pending.
 
-      ## Clear Records
+      ## Clear records
 
       Refunded attendees are clearly marked in the admin panel so you can
       see at a glance who has been refunded and who hasn't, and the
       activity log records every refund for your audit trail.
 
   - type: cta
-    title: Hassle-Free Refunds
+    title: Hassle-free refunds
     description: Process refunds in seconds from the admin panel.
     button:
       text: Get Started

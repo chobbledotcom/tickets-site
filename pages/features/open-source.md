@@ -12,14 +12,14 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Fully Open Source
+    title: Fully open source
     lead: >-
       Every line of code is public and every feature is included, licensed
       under AGPLv3 with no proprietary extensions.
 
   - type: markdown
     content: |
-      ## No Open-Core Tricks
+      ## No open-core tricks
 
       Some "open source" ticketing platforms only open-source the basics, then
       charge for the features you actually need. Chobble Tickets doesn't do
@@ -30,22 +30,22 @@ blocks:
       [GitHub](https://github.com/chobbledotcom/tickets) under the AGPLv3
       licence. You can read it, fork it, modify it, and run it yourself.
 
-      ## Built by a Community Interest Company
+      ## Built by a community interest company
 
       Chobble is a community interest company (CIC), not a VC-funded startup.
       There's no pressure to extract value from users or lock people into a
       platform - the software exists to be useful.
 
-      ## Three Ways to Deploy
+      ## Three ways to deploy
 
-      ### 1. Managed Hosting
+      ### 1. Managed hosting
 
       [Sign up](https://tix.chobble.com/ticket/register) and we handle everything -
       infrastructure, updates, backups, and support - for £50/year (50% off for
       charities, community groups, artists, and musicians). No per-ticket fees,
       unlimited events, unlimited tickets.
 
-      ### 2. GitHub-Controlled Deployments
+      ### 2. GitHub-controlled deployments
 
       For extra security, fork the
       [repository](https://github.com/chobbledotcom/tickets/fork) on GitHub.
@@ -53,7 +53,7 @@ blocks:
       are deployed through GitHub Actions. No update can reach your instance
       without your explicit approval.
 
-      ### 3. Fully Self-Hosted (Free)
+      ### 3. Fully self-hosted (free)
 
       Deploy on any Deno-compatible environment with one-click deploy buttons
       for DigitalOcean, Heroku, Koyeb, and Render (plus Fly.io, Docker, and
@@ -64,7 +64,7 @@ blocks:
       for implementation details.
 
   - type: cta
-    title: Get Started
+    title: Get started
     description: Sign up for managed hosting at £50/year, or grab the source from GitHub and self-host for free.
     button:
       text: Sign Up

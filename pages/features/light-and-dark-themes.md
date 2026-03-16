@@ -12,34 +12,34 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Light & Dark Themes
+    title: Light & dark themes
     lead: >-
       Built-in public site with light and dark theme options, so your booking
       pages match your brand.
 
   - type: markdown
     content: |
-      ## Choose Your Look
+      ## Choose your look
 
       Chobble Tickets comes with a built-in public website that handles
       event listings, bookings, and ticket display. Choose between a light
       or dark theme to match your brand or your preference.
 
-      ## Consistent Branding
+      ## Consistent branding
 
       Combined with a [custom domain](/features/custom-domain/), theme
       selection lets you present a professional, branded experience to your
       attendees. The theme applies to all public pages including event
       listings, booking forms, and ticket confirmation pages.
 
-      ## Works Everywhere
+      ## Works everywhere
 
       Both themes are responsive and work on phones, tablets, and desktops.
       The layout adapts to the screen size so your events look great on
       every device.
 
   - type: cta
-    title: Match Your Brand
+    title: Match your brand
     description: Choose a light or dark theme for your public booking pages.
     button:
       text: Get Started

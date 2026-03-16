@@ -12,14 +12,14 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: QR Code Check-ins
+    title: QR code check-ins
     lead: >-
       Every ticket gets a unique QR code that staff can scan with their phone
       camera, with no app to install or special hardware needed.
 
   - type: markdown
     content: |
-      ## How It Works
+      ## How it works
 
       When someone books a ticket, they receive an email with a unique ticket
       URL and QR code. At the event, your staff open the built-in scanner on
@@ -29,13 +29,13 @@ blocks:
       The scanner detects duplicate scans and cross-event mismatches, so you
       can spot problems immediately.
 
-      ## Event QR Codes for Posters
+      ## Event QR codes for posters
 
       Each event also gets its own QR code SVG (at `/ticket/:slug/qr`) that
       links to the booking page. Print it on posters, flyers, or handouts so
       people can scan and book directly.
 
-      ## Non-Transferable Tickets
+      ## Non-transferable tickets
 
       For events where you need to verify identity, you can mark tickets as
       non-transferable and the check-in screen will prompt staff to verify
@@ -45,7 +45,7 @@ blocks:
       for details on QR code generation and SVG ticket rendering.
 
   - type: cta
-    title: Simple Check-ins
+    title: Simple check-ins
     description: All you need is a phone camera to scan QR codes at the door.
     button:
       text: Get Started
