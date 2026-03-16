@@ -12,13 +12,13 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Ticketing for Music Concerts
+    title: Ticketing for music concerts
     lead: >-
       Sell tickets directly to your fans with no per-ticket fees eating into
       your revenue, just a flat annual cost.
 
   - type: split
-    title: Keep Your Revenue
+    title: Keep your revenue
     reveal_content: left
     content: |
       Most ticketing platforms take a cut of every sale - sometimes £1-2 per
@@ -37,20 +37,20 @@ blocks:
 
   - type: features
     section_class: alt
-    header_title: Built for Live Music
+    header_title: Built for live music
     items:
       - icon: "hugeicons:qr-code"
-        title: QR Code Door List
+        title: QR code door list
         description: Scan tickets at the door with any phone and spot duplicate tickets instantly, with no special hardware or app required.
       - icon: "hugeicons:calendar-03"
-        title: Multi-Date Tours
+        title: Multi-date tours
         description: Set up multiple dates and let fans book the shows they want, with event grouping for easy management.
       - icon: "hugeicons:money-send-02"
-        title: Easy Refunds
+        title: Easy refunds
         description: Handle individual or bulk refunds from the admin panel, with automatic refunds if you need to cancel.
 
   - type: cta
-    title: Start Selling Tickets
+    title: Start selling tickets
     description: Managed hosting from £25/year for musicians, or self-host for free.
     button:
       text: Get Started

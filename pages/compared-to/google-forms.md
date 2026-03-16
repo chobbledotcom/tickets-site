@@ -1,8 +1,8 @@
 ---
 layout: design-system-base.html
 title: Chobble Tickets vs Google Forms
-meta_title: Chobble Tickets vs Google Forms - Comparison
-meta_description: Google Forms is free and flexible but not built for ticketing. See what you gain with a dedicated platform.
+meta_title: Ticketing Alternative to Google Forms | Chobble Tickets
+meta_description: Using Google Forms for event ticketing? Chobble Tickets is a purpose-built alternative with payments, capacity management, QR code check-in, and encrypted data.
 permalink: /compared-to/google-forms/
 eleventyNavigation:
   key: vs Google Forms
@@ -19,13 +19,13 @@ blocks:
 
   - type: markdown
     content: |
-      ## What Google Forms Gives You
+      ## What Google Forms gives you
 
       Google Forms is free, easy to set up, and familiar, so you can collect
       registrations, export to a spreadsheet, and share a link. For a simple
       free event with no capacity limit, it gets the job done.
 
-      ## What Google Forms Doesn't Do
+      ## What Google Forms doesn't do
 
       Google Forms wasn't designed for ticketing, so it's missing things you'll
       eventually need:
@@ -43,19 +43,19 @@ blocks:
       - **Google owns the data** - Your attendees' information is on Google's
         servers, subject to Google's terms
 
-      ## When to Upgrade
+      ## A purpose-built alternative to Google Forms for events
 
       If you're running a free, informal event and don't need tickets or
       check-in, Google Forms is perfectly fine, but once you need payments,
       capacity limits, QR code tickets, or data privacy, a dedicated ticketing
-      platform like Chobble Tickets is worth the £50/year.
+      alternative like Chobble Tickets is worth the £50/year.
 
       Chobble Tickets also supports free events without payment setup, so
       you can start with the same simplicity as Google Forms and add payments
       later when you need them.
 
   - type: cta
-    title: Purpose-Built Ticketing
+    title: Purpose-built ticketing
     description: Everything Google Forms does for RSVPs, plus payments, tickets, and check-in.
     button:
       text: Get Started

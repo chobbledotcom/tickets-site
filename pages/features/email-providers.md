@@ -12,14 +12,14 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Choose Your Email Provider
+    title: Choose your email provider
     lead: >-
       Send confirmation emails through the provider you already use, whether
       that's Resend, Postmark, SendGrid, or Mailgun (including Mailgun EU).
 
   - type: markdown
     content: |
-      ## Your Provider, Your Deliverability
+      ## Your provider, your deliverability
 
       Rather than sending emails through a shared platform domain (which often
       lands in spam), Chobble Tickets lets you connect your own email provider
@@ -35,7 +35,7 @@ blocks:
       Just add your API key in the settings and the system handles sending
       automatically.
 
-      ## Customisable Email Templates
+      ## Customisable email templates
 
       Email templates use Liquid syntax, so you can customise the subject line,
       HTML body, and plain text body of confirmation emails. Built-in template
@@ -46,7 +46,7 @@ blocks:
       for details on templates and provider configuration.
 
   - type: cta
-    title: Better Email Delivery
+    title: Better email delivery
     description: Use your own email provider for reliable ticket delivery.
     button:
       text: Get Started

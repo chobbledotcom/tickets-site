@@ -1,8 +1,8 @@
 ---
 layout: design-system-base.html
 title: Chobble Tickets vs BookitBee
-meta_title: Chobble Tickets vs BookitBee - Comparison
-meta_description: Compare Chobble Tickets with BookitBee - flat annual fee vs per-ticket charges, open source vs proprietary.
+meta_title: No-Fee Alternative to BookitBee | Chobble Tickets
+meta_description: Looking for a no-fee alternative to BookitBee? Chobble Tickets charges a flat annual fee with no per-ticket costs, and it's fully open source.
 permalink: /compared-to/bookitbee/
 eleventyNavigation:
   key: vs BookitBee
@@ -19,7 +19,7 @@ blocks:
 
   - type: markdown
     content: |
-      ## Pricing
+      ## Pricing comparison
 
       BookitBee charges per ticket sold - typically around 5-6% plus a fixed
       fee per ticket, and for high-volume events those fees add up quickly.
@@ -28,7 +28,7 @@ blocks:
       per-ticket fees or percentage cuts, which works out significantly
       cheaper for most event organisers.
 
-      ## Open Source vs Proprietary
+      ## An open source, no-fee alternative to BookitBee
 
       BookitBee is a proprietary platform, so you can't see how your data is
       handled, you can't self-host, and if the company changes direction
@@ -37,7 +37,7 @@ blocks:
       Chobble Tickets is open source under AGPLv3, so you can inspect every
       line of code, self-host if you want, and you're never locked in.
 
-      ## When BookitBee Might Be Better
+      ## When BookitBee might be better
 
       BookitBee has been around longer and has a more polished marketing
       presence. If you need phone support or a well-established brand name on

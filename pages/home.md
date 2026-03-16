@@ -12,7 +12,7 @@ blocks:
     full_width: true
     class: gradient
     badge: Open Source & Encrypted
-    title: Event Ticketing That Respects You
+    title: Event ticketing that respects you
     lead: >-
       Chobble Tickets is an open source ticketing platform with a flat annual
       fee and no per-ticket charges, data harvesting, or lock-in.
@@ -46,19 +46,19 @@ blocks:
       that does what you need.
     items:
       - icon: "hugeicons:lock"
-        title: Encrypted by Default
+        title: Encrypted by default
         description: All personal information is encrypted at rest using hybrid RSA-OAEP + AES-256-GCM encryption.
       - icon: "hugeicons:source-code"
-        title: Fully Open Source
+        title: Fully open source
         description: AGPLv3 licensed with every feature included and no open-core bait-and-switch.
       - icon: "hugeicons:credit-card"
-        title: No Per-Ticket Fees
+        title: No per-ticket fees
         description: Pay a flat annual fee and money from ticket sales goes directly to your Stripe or Square account.
       - icon: "hugeicons:smart-phone-01"
-        title: QR Code Check-ins
+        title: QR code check-ins
         description: Every ticket gets a unique QR code that you can scan with any phone camera, with no app required.
       - icon: "hugeicons:mail-01"
-        title: Your Email Provider
+        title: Your email provider
         description: Send confirmations through your choice of Resend, Postmark, SendGrid, or Mailgun.
       - icon: "hugeicons:globe-02"
         title: Self-Hostable
@@ -69,7 +69,7 @@ blocks:
     variant: dark-left
     reveal_left: left
     reveal_right: right
-    left_title: Perfect For
+    left_title: Perfect for
     left_content: |
       Chobble Tickets works for all kinds of events and organisations:
 
@@ -77,7 +77,7 @@ blocks:
       - **[Music Concerts](/perfect-for/music-concerts/)** - Sell tickets directly, keep all the revenue
       - **[Charity Events](/perfect-for/charity-events/)** - 50% discount for charities and community groups
       - **[Political Organising](/perfect-for/political-organising/)** - Privacy-first event management
-    right_title: Powerful Features
+    right_title: Powerful features
     right_content: |
       - **[Open Source](/features/open-source/)** - AGPLv3, no hidden proprietary bits
       - **[Encrypted](/features/encrypted/)** - PII encrypted at rest
@@ -91,7 +91,7 @@ blocks:
       - **[All Features](/features/)** - Refunds, CSV exports, activity logs, and more
 
   - type: split
-    title: Flat, Fair Pricing
+    title: Flat, fair pricing
     reverse: true
     reveal_content: right
     content: |
@@ -116,7 +116,7 @@ blocks:
       No commission. No hidden fees.
 
   - type: cta
-    title: Ready to Sell Tickets?
+    title: Ready to sell tickets?
     description: Sign up for managed hosting or grab the source code and self-host.
     button:
       text: Sign Up at tix.chobble.com

@@ -12,14 +12,14 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Custom Domain
+    title: Custom domain
     lead: >-
       Use your own domain name for your ticketing instead of
       yourname.someplatform.com.
 
   - type: markdown
     content: |
-      ## Your Brand, Front and Centre
+      ## Your brand, front and centre
 
       Without a custom domain, your ticketing lives on a Bunny CDN URL that
       doesn't look great. Point your own domain (or subdomain) at your Chobble
@@ -30,7 +30,7 @@ blocks:
       built-in public website includes light and dark themes that you can
       customise to match your branding.
 
-      ## Built-in Public Website
+      ## Built-in public website
 
       Chobble Tickets comes with a public-facing website out of the box. It
       lists your events, handles bookings, and displays ticket information -
@@ -48,7 +48,7 @@ blocks:
       admin panel.
 
   - type: cta
-    title: Use Your Own Domain
+    title: Use your own domain
     description: Set up your ticketing under your own brand.
     button:
       text: Get Started

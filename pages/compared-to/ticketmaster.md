@@ -1,8 +1,8 @@
 ---
 layout: design-system-base.html
 title: Chobble Tickets vs Ticketmaster
-meta_title: Chobble Tickets vs Ticketmaster - Comparison
-meta_description: Compare Chobble Tickets with Ticketmaster - independent ticketing vs the industry monopoly.
+meta_title: Independent Alternative to Ticketmaster | Chobble Tickets
+meta_description: Looking for an independent alternative to Ticketmaster? Chobble Tickets gives you flat pricing, full data ownership, and no corporate middleman.
 permalink: /compared-to/ticketmaster/
 eleventyNavigation:
   key: vs Ticketmaster
@@ -19,7 +19,7 @@ blocks:
 
   - type: markdown
     content: |
-      ## Completely Different Scale
+      ## Completely different scale
 
       Let's be upfront: Ticketmaster and Chobble Tickets serve very different
       markets. Ticketmaster is built for stadiums, arenas, and massive tours,
@@ -30,7 +30,7 @@ blocks:
       unavoidable, but if you're running a 200-capacity gig, a charity quiz
       night, or a community workshop, you don't need (or want) Ticketmaster.
 
-      ## Fees and Control
+      ## Fees and control
 
       Ticketmaster's fees are notoriously high and opaque, and as an
       organiser you often have little control over the fees charged to your
@@ -40,14 +40,14 @@ blocks:
       from Stripe or Square are the only other cost (which go directly to the
       payment processor, not to us).
 
-      ## Independence
+      ## An independent, no-fee alternative
 
       Using Chobble Tickets means you own your ticketing infrastructure - your
       data, your domain, your rules - with no exclusive contracts, no platform
       lock-in, and no corporate middleman between you and your audience.
 
   - type: cta
-    title: Independent Ticketing
+    title: Independent ticketing
     description: For events that don't need a corporate gatekeeper.
     button:
       text: Get Started

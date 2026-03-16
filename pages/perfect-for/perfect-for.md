@@ -11,29 +11,29 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Perfect For All Kinds of Events
+    title: Perfect for all kinds of events
     lead: >-
       Whether you're running a school fundraiser or a music festival, Chobble
       Tickets keeps things simple and affordable.
 
   - type: features
-    header_title: Who Uses Chobble Tickets?
+    header_title: Who uses Chobble Tickets?
     items:
       - icon: "hugeicons:balloons"
-        title: Kids Parties
+        title: Kids parties
         description: Simple booking for parents where you can collect the info you need, send confirmations, and check guests in at the door.
       - icon: "hugeicons:music-note-01"
-        title: Music Concerts
+        title: Music concerts
         description: Sell tickets directly to fans and keep all the revenue, with no platform taking a cut of every sale.
       - icon: "hugeicons:heart-check"
-        title: Charity Events
+        title: Charity events
         description: 50% discount for charities and community groups, so more of your money goes to the cause instead of the ticketing platform.
       - icon: "hugeicons:megaphone-01"
-        title: Political Organising
+        title: Political organising
         description: Privacy-first ticketing with encrypted attendee data, so your supporters' information stays protected.
 
   - type: cta
-    title: Get Started
+    title: Get started
     description: Sign up for managed hosting at £50/year, or self-host for free.
     button:
       text: Try Chobble Tickets

@@ -12,13 +12,13 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Ticketing for Political Organising
+    title: Ticketing for political organising
     lead: >-
       Privacy-first event management where attendee data is encrypted at rest,
       and you can self-host it yourself if you want full control.
 
   - type: split
-    title: Privacy by Design
+    title: Privacy by design
     reveal_content: left
     content: |
       When you're organising politically, the privacy of your supporters
@@ -40,20 +40,20 @@ blocks:
 
   - type: features
     section_class: alt
-    header_title: Why Organisers Choose Us
+    header_title: Why organisers choose us
     items:
       - icon: "hugeicons:source-code"
-        title: Fully Auditable
+        title: Fully auditable
         description: Every line of code is public under AGPLv3, so there are no black boxes, no hidden data collection, and no surprises.
       - icon: "hugeicons:cloud-server"
         title: Self-Hostable
         description: One-click deploy to DigitalOcean, Heroku, Koyeb, or Render, or run it in Docker, on Fly.io, or on Bunny Edge Scripting.
       - icon: "hugeicons:security-check"
-        title: No Data Harvesting
+        title: No data harvesting
         description: Built by a community interest company rather than a VC-funded startup, so we have no interest in your attendee data.
 
   - type: cta
-    title: Protect Your Supporters
+    title: Protect your supporters
     description: Self-host for free, or get managed hosting from £25/year for community groups.
     button:
       text: Get Started

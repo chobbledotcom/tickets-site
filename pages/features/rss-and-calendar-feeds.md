@@ -12,27 +12,27 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: RSS & Calendar Feeds
+    title: RSS & calendar feeds
     lead: >-
       ICS calendar and RSS feeds for your events, so attendees can subscribe
       in their calendar app or feed reader.
 
   - type: markdown
     content: |
-      ## Calendar Subscriptions
+      ## Calendar subscriptions
 
       Your Chobble Tickets installation publishes an ICS feed that attendees
       can subscribe to in Apple Calendar, Google Calendar, Outlook, or any
       calendar app that supports ICS. New events appear automatically,
       so there's no need for attendees to keep checking your website.
 
-      ## RSS Feed
+      ## RSS feed
 
       An RSS feed lists your upcoming events for feed readers and
       aggregators. This is useful for attendees who prefer RSS, and for
       embedding event listings on other websites or newsletters.
 
-      ## Always Up to Date
+      ## Always up to date
 
       Both feeds update automatically when you create, modify, or remove
       events, so subscribers always see the latest information without any
@@ -46,7 +46,7 @@ blocks:
       platform, so your events can be discoverable across the fediverse.
 
   - type: cta
-    title: Keep Attendees Informed
+    title: Keep attendees informed
     description: Let attendees subscribe to your events via calendar or RSS.
     button:
       text: Get Started

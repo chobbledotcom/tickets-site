@@ -19,7 +19,7 @@ blocks:
 
   - type: markdown
     content: |
-      ## Real-Time Notifications
+      ## Real-time notifications
 
       Configure a webhook URL per event, or set a global webhook URL in
       settings that fires for all events. When someone registers, Chobble
@@ -34,7 +34,7 @@ blocks:
       - Update a spreadsheet or CRM
       - Trigger custom automations via Zapier or n8n
 
-      ## Webhook Payload
+      ## Webhook payload
 
       The webhook includes attendee information, event details, ticket URLs,
       and payment data - everything you need to integrate with external
@@ -44,7 +44,7 @@ blocks:
       for payload format and delivery details.
 
   - type: cta
-    title: Automate Your Workflow
+    title: Automate your workflow
     description: Connect Chobble Tickets to your existing tools with webhooks.
     button:
       text: Get Started

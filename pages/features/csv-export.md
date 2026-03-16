@@ -12,14 +12,14 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: CSV Export
+    title: CSV export
     lead: >-
       Export your attendee lists as CSV files, filtered by date and check-in
       status, for use in spreadsheets or other tools.
 
   - type: markdown
     content: |
-      ## Get Your Data Out
+      ## Get your data out
 
       Download attendee data as a CSV file that you can open in any
       spreadsheet application. For daily events, you can filter by date
@@ -27,7 +27,7 @@ blocks:
       prepare a door list for tonight's event or a report for a
       particular date.
 
-      ## No Lock-In
+      ## No lock-in
 
       Your data is yours. CSV export means you can always get your attendee
       information out of Chobble Tickets and into whatever system you need,
@@ -35,7 +35,7 @@ blocks:
       records.
 
   - type: cta
-    title: Your Data, Your Way
+    title: Your data, your way
     description: Export attendee data whenever you need it.
     button:
       text: Get Started

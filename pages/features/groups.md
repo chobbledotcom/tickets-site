@@ -12,14 +12,14 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Event Groups
+    title: Event groups
     lead: >-
       Organise related events together and let attendees book multiple events
       in a single checkout.
 
   - type: markdown
     content: |
-      ## Multi-Event Bookings
+      ## Multi-event bookings
 
       Running a festival with multiple stages? A conference with multiple
       tracks? A series of workshops? Group your events together and let
@@ -32,7 +32,7 @@ blocks:
       This is also useful for recurring events like a weekly class, a monthly
       meetup, or a season of concerts where grouping makes booking easy.
 
-      ## Daily Events
+      ## Daily events
 
       For events that run on specific dates (classes, workshops, recurring
       sessions), daily events offer per-date capacity with a built-in calendar
@@ -49,7 +49,7 @@ blocks:
       for details on event grouping and availability management.
 
   - type: cta
-    title: Organise Your Events
+    title: Organise your events
     description: Group events together for a better booking experience.
     button:
       text: Get Started

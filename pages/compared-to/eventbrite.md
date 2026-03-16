@@ -1,8 +1,8 @@
 ---
 layout: design-system-base.html
 title: Chobble Tickets vs Eventbrite
-meta_title: Chobble Tickets vs Eventbrite - Comparison
-meta_description: Compare Chobble Tickets with Eventbrite - open source with flat pricing vs the industry giant.
+meta_title: Open Source Alternative to Eventbrite | Chobble Tickets
+meta_description: Looking for an open source alternative to Eventbrite? Chobble Tickets offers flat annual pricing with no per-ticket fees, full data ownership, and no platform lock-in.
 permalink: /compared-to/eventbrite/
 eleventyNavigation:
   key: vs Eventbrite
@@ -19,7 +19,7 @@ blocks:
 
   - type: markdown
     content: |
-      ## Pricing
+      ## Pricing comparison
 
       Eventbrite charges a percentage plus a fixed fee per ticket, and their
       pricing has changed multiple times over the years (generally trending
@@ -30,7 +30,7 @@ blocks:
       sell, so the maths is simple: if you sell more than a few dozen tickets
       a year, Chobble Tickets is cheaper.
 
-      ## Data Ownership
+      ## Data ownership
 
       Eventbrite owns a lot of data about your attendees and uses it for their
       own marketing, and your event page exists within Eventbrite's ecosystem
@@ -40,7 +40,7 @@ blocks:
       control. There's no platform trying to cross-promote other events to your
       audience.
 
-      ## Scale and Features
+      ## Why consider an open source alternative to Eventbrite?
 
       Let's be honest - Eventbrite has features Chobble Tickets doesn't,
       including a massive discovery platform, a well-known mobile app, and deep

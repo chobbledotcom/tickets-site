@@ -12,33 +12,33 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Registration Deadlines
+    title: Registration deadlines
     lead: >-
       Set cut-off times for bookings and configure purchase limits per event
       or per attendee.
 
   - type: markdown
     content: |
-      ## Booking Cut-Off Times
+      ## Booking cut-off times
 
       Set a registration deadline so bookings close automatically before
       your event starts. This is useful when you need time to prepare
       materials, finalise catering numbers, or print attendee lists.
 
-      ## Purchase Limits
+      ## Purchase limits
 
       Configure the maximum number of tickets a single attendee can buy, or
       set an overall event capacity. This prevents bulk purchases and
       ensures fair access to popular events.
 
-      ## Automatic Availability
+      ## Automatic availability
 
       When the deadline passes or the capacity is reached, the booking form
       is automatically disabled. There's no manual intervention required -
       the system handles it for you.
 
   - type: cta
-    title: Control Your Bookings
+    title: Control your bookings
     description: Set deadlines and limits to manage your events effectively.
     button:
       text: Get Started

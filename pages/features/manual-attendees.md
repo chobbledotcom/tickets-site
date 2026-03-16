@@ -12,34 +12,34 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Manual Attendees
+    title: Manual attendees
     lead: >-
       Add walk-ins and complimentary tickets directly from the admin panel, and
       edit attendee details or reassign events as needed.
 
   - type: markdown
     content: |
-      ## Walk-ins and Comp Tickets
+      ## Walk-ins and comp tickets
 
       Not every attendee books online. Add walk-up registrations and
       complimentary tickets directly from the admin panel, so your attendee
       list stays complete and accurate regardless of how someone got their
       place.
 
-      ## Edit and Reassign
+      ## Edit and reassign
 
       Need to correct a name, update an email address, or move someone to a
       different event? Edit attendee details and reassign events from the
       admin panel without needing to cancel and rebook.
 
-      ## Complete Records
+      ## Complete records
 
       Manually added attendees appear alongside online bookings in your
       attendee lists, CSV exports, and check-in screens, so you always have
       one complete picture of who's coming.
 
   - type: cta
-    title: Flexible Attendee Management
+    title: Flexible attendee management
     description: Handle walk-ins and comp tickets alongside online bookings.
     button:
       text: Get Started

@@ -19,7 +19,7 @@ blocks:
 
   - type: markdown
     content: |
-      ## Tickets in Your Pocket
+      ## Tickets in your pocket
 
       After booking, attendees can save their ticket as an Apple Wallet pass
       that includes the event name, date, and QR code for check-in, so
@@ -29,7 +29,7 @@ blocks:
       for details on Apple Wallet pass generation and QR code rendering.
 
   - type: cta
-    title: Modern Ticketing
+    title: Modern ticketing
     description: Give your attendees the convenience of Apple Wallet passes.
     button:
       text: Get Started

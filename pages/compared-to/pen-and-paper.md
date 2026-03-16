@@ -1,8 +1,8 @@
 ---
 layout: design-system-base.html
 title: Chobble Tickets vs Pen and Paper
-meta_title: Chobble Tickets vs Pen and Paper - Comparison
-meta_description: When does software ticketing beat pen and paper? An honest look at when to upgrade.
+meta_title: Digital Alternative to Paper Ticketing | Chobble Tickets
+meta_description: Ready for a digital alternative to pen-and-paper ticketing? Chobble Tickets handles RSVPs, payments, capacity, and check-in - starting free with self-hosting.
 permalink: /compared-to/pen-and-paper/
 eleventyNavigation:
   key: vs Pen and Paper
@@ -19,14 +19,14 @@ blocks:
 
   - type: markdown
     content: |
-      ## When Pen and Paper Works
+      ## When pen and paper works
 
       For a small gathering where you know everyone, pen and paper is fine.
       There's no learning curve, no setup time, and no annual fee, so if
       you're running a dinner party for 20 people you don't need ticketing
       software.
 
-      ## When Software Helps
+      ## When software helps
 
       Pen and paper starts to struggle when:
 
@@ -43,15 +43,16 @@ blocks:
       - **Multiple people are managing the event** - Shared spreadsheets get out
         of sync
 
-      ## The Middle Ground
+      ## A digital alternative that grows with you
 
       Chobble Tickets supports free events without payment setup, so even if
       you're not charging you can use it just for the RSVP tracking, capacity
-      management, and check-in features - think of it as a digital clipboard
-      that sends confirmation emails.
+      management, and check-in features - think of it as a digital alternative
+      to the clipboard that sends confirmation emails and scales when you
+      need it to.
 
   - type: cta
-    title: Upgrade When You're Ready
+    title: Upgrade when you're ready
     description: Start with managed hosting at £50/year, or self-host for free.
     button:
       text: Get Started
