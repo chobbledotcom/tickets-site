@@ -40,6 +40,22 @@ blocks:
       from Stripe or Square are the only other cost (which go directly to the
       payment processor, not to us).
 
+  - type: markdown
+    content: |
+      ## Interactive cost calculator
+
+      Drag the sliders to see how costs compare at different volumes:
+
+      {% assign competitor_key = "ticketmaster" %}
+      {% include price-comparator.html %}
+
+      *Ticketmaster fees vary by event and venue — this estimate uses
+      approximately 10% + £2.50 per ticket (bundled). Actual fees may be
+      higher or lower. Chobble Tickets: £50/year flat + Stripe processing
+      (1.5% + 20p).*
+
+  - type: markdown
+    content: |
       ## An independent, no-fee alternative
 
       Using Chobble Tickets means you own your ticketing infrastructure - your

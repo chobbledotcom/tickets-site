@@ -18,17 +18,17 @@
   "bookitbee": {
     "name": "BookitBee",
     "annual_cost": 0,
-    "per_ticket_fee_percent": 5,
+    "per_ticket_fee_percent": 2,
     "per_ticket_fee_fixed": 0.5,
-    "payment_processing_percent": 2.9,
-    "payment_processing_fixed": 0.3
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2
   },
   "parentkind": {
     "name": "Parentkind",
     "annual_cost": 115,
-    "per_ticket_fee_percent": 3.95,
+    "per_ticket_fee_percent": 0,
     "per_ticket_fee_fixed": 0,
-    "payment_processing_percent": 1.5,
+    "payment_processing_percent": 1.4,
     "payment_processing_fixed": 0.2
   },
   "ticketmaster": {

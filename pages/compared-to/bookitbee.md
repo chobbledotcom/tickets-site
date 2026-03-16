@@ -28,6 +28,21 @@ blocks:
       per-ticket fees or percentage cuts, which works out significantly
       cheaper for most event organisers.
 
+  - type: markdown
+    content: |
+      ## Interactive cost calculator
+
+      Drag the sliders to see how costs compare at different volumes:
+
+      {% assign competitor_key = "bookitbee" %}
+      {% include price-comparator.html %}
+
+      *BookitBee fees: 2% + 50p per ticket, plus Stripe processing
+      (1.5% + 20p). Chobble Tickets: £50/year flat + Stripe processing
+      (1.5% + 20p).*
+
+  - type: markdown
+    content: |
       ## An open source, no-fee alternative to BookitBee
 
       BookitBee is a proprietary platform, so you can't see how your data is

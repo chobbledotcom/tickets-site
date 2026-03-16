@@ -30,6 +30,21 @@ blocks:
       sell, so the maths is simple: if you sell more than a few dozen tickets
       a year, Chobble Tickets is cheaper.
 
+  - type: markdown
+    content: |
+      ## Interactive cost calculator
+
+      Drag the sliders to see how costs compare at different volumes:
+
+      {% assign competitor_key = "eventbrite" %}
+      {% include price-comparator.html %}
+
+      *Eventbrite fees: 6.95% + £0.59 per ticket (includes payment
+      processing). Chobble Tickets: £50/year flat + Stripe processing
+      (1.5% + 20p).*
+
+  - type: markdown
+    content: |
       ## Data ownership
 
       Eventbrite owns a lot of data about your attendees and uses it for their

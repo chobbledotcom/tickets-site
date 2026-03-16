@@ -49,6 +49,22 @@ blocks:
       You only pay the standard payment processing fee from Stripe or
       Square. Sell 100 tickets or 10,000 - the cost to you stays the same.
 
+  - type: markdown
+    content: |
+      ## Interactive cost calculator
+
+      Drag the sliders to see how costs compare at different volumes:
+
+      {% assign competitor_key = "parentkind" %}
+      {% include price-comparator.html %}
+
+      *Parentkind costs: £115/year membership + Stripe processing
+      (1.4% + 20p). PTA Events platform is included with membership.
+      Chobble Tickets: £50/year flat (£25 for community groups) + Stripe
+      processing (1.5% + 20p).*
+
+  - type: markdown
+    content: |
       ## Feature comparison
 
       ### Ticketing and events
