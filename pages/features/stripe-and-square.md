@@ -1,0 +1,53 @@
+---
+layout: design-system-base.html
+title: Stripe & Square - Chobble Tickets
+meta_title: Stripe & Square Payments - Chobble Tickets
+meta_description: Accept payments via Stripe or Square with fixed pricing or pay-what-you-want, and automatic refunds.
+permalink: /features/stripe-and-square/
+eleventyNavigation:
+  key: Stripe & Square
+  parent: Features
+  order: 10
+blocks:
+  - type: hero
+    full_width: true
+    class: gradient
+    title: Stripe & Square Payments
+    lead: >-
+      Accept card payments through Stripe or Square with fixed pricing or
+      pay-what-you-want, and process refunds directly from the admin panel.
+
+  - type: markdown
+    content: |
+      ## Two Payment Providers, Your Choice
+
+      Chobble Tickets supports both Stripe and Square as payment providers.
+      Connect your existing account by adding your API keys in the settings,
+      and the platform handles checkout, payment confirmation, and refund
+      processing automatically.
+
+      ## Flexible Pricing
+
+      Set a fixed ticket price, or enable pay-what-you-want so attendees can
+      choose how much to pay above a minimum amount. This is ideal for
+      community events, fundraisers, or any situation where you want to let
+      people contribute what they can.
+
+      Free events are supported too - just set the price to zero and
+      attendees can register without entering payment details.
+
+      ## Automatic Refunds
+
+      When you process a refund from the admin panel, the payment provider
+      refund happens automatically. There's no need to log into Stripe or
+      Square separately - it's all handled in one place.
+
+  - type: cta
+    title: Start Accepting Payments
+    description: Connect Stripe or Square and start selling tickets in minutes.
+    button:
+      text: Get Started
+      href: https://tix.chobble.com/ticket/join
+      variant: secondary
+      size: lg
+---
