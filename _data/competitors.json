@@ -1,0 +1,42 @@
+{
+  "chobble": {
+    "name": "Chobble Tickets",
+    "annual_cost": 50,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2
+  },
+  "eventbrite": {
+    "name": "Eventbrite",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 6.95,
+    "per_ticket_fee_fixed": 0.59,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0
+  },
+  "bookitbee": {
+    "name": "BookitBee",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 5,
+    "per_ticket_fee_fixed": 0.5,
+    "payment_processing_percent": 2.9,
+    "payment_processing_fixed": 0.3
+  },
+  "parentkind": {
+    "name": "Parentkind",
+    "annual_cost": 115,
+    "per_ticket_fee_percent": 3.95,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2
+  },
+  "ticketmaster": {
+    "name": "Ticketmaster",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 10,
+    "per_ticket_fee_fixed": 2.5,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0
+  }
+}
