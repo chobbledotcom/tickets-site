@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Activity Logs - Chobble Tickets
 meta_title: Activity Logs - Chobble Tickets
-meta_description: Track all admin actions and booking activity with a built-in audit trail and date filtering.
+meta_description: Track all admin actions and booking activity with a built-in audit trail.
 permalink: /features/activity-logs/
 eleventyNavigation:
   key: Activity Logs
@@ -15,7 +15,7 @@ blocks:
     title: Activity Logs
     lead: >-
       Track all admin actions and booking activity with a built-in audit
-      trail and date filtering.
+      trail.
 
   - type: markdown
     content: |
@@ -26,11 +26,11 @@ blocks:
       when, which is essential for accountability when multiple team members
       are managing events.
 
-      ## Filter by Date
+      ## Global and Per-Event Views
 
-      Filter the activity log by date to find what you're looking for, whether
-      that's checking what happened at last week's event or reviewing today's
-      bookings.
+      View the full activity log across your entire installation at
+      `/admin/log`, or drill down into a specific event's activity from
+      its detail page to see only the actions related to that event.
 
       ## Debugging and Support
 
