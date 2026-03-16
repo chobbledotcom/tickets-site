@@ -1,5 +1,7 @@
 {
   "placeholder_images": false,
   "formspark_id": null,
-  "botpoison_public_key": null
+  "botpoison_public_key": null,
+  "show_breadcrumbs": true,
+  "chobble_link": "https://chobble.com"
 }
