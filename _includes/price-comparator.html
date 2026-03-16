@@ -1,10 +1,11 @@
-{# Price Comparator Include
-   Usage in a page or block:
-     {% set competitor_key = "eventbrite" %}
-     {% include "price-comparator.html" %}
-#}
-{% set comp = competitors[competitor_key] %}
-{% set chobble = competitors.chobble %}
+{% comment %}
+  Price Comparator Include (Liquid)
+  Usage in a page or block:
+    {% assign competitor_key = "eventbrite" %}
+    {% include price-comparator.html %}
+{% endcomment %}
+{% assign comp = competitors[competitor_key] %}
+{% assign chobble = competitors.chobble %}
 
 <div class="price-comparator" id="price-comparator">
   <div class="price-comparator__controls">
@@ -23,7 +24,7 @@
       <h3>{{ chobble.name }}</h3>
       <dl>
         <dt>Annual fee</dt>
-        <dd id="pc-chobble-annual">&pound;{{ chobble.annual_cost | round(2) }}</dd>
+        <dd id="pc-chobble-annual">&pound;{{ chobble.annual_cost | round: 2 }}</dd>
         <dt>Platform fees</dt>
         <dd id="pc-chobble-platform">&pound;0.00</dd>
         <dt>Payment processing</dt>
@@ -39,7 +40,7 @@
       <h3>{{ comp.name }}</h3>
       <dl>
         <dt>Annual fee</dt>
-        <dd id="pc-comp-annual">&pound;{{ comp.annual_cost | round(2) }}</dd>
+        <dd id="pc-comp-annual">&pound;{{ comp.annual_cost | round: 2 }}</dd>
         <dt>Platform fees</dt>
         <dd id="pc-comp-platform">&pound;0.00</dd>
         <dt>Payment processing</dt>
