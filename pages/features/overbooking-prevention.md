@@ -28,10 +28,10 @@ blocks:
 
       ## No Overselling
 
-      The system checks real-time availability including active holds, so
-      the capacity shown to attendees is always accurate. When an event is
-      full, the booking form is automatically disabled and a sold-out
-      message is displayed.
+      The system checks real-time availability including active holds
+      before allowing a booking to proceed. When an event is full, the
+      booking form is automatically disabled and a sold-out message is
+      displayed.
 
       ## Per-Date Capacity
 

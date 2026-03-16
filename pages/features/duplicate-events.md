@@ -21,10 +21,10 @@ blocks:
     content: |
       ## Save Time on Setup
 
-      Running a similar event to one you've already created? Duplicate it
-      with one click and you get a copy with the same description, pricing,
-      capacity, and settings. Then just update the date and any details that
-      have changed.
+      Running a similar event to one you've already created? Hit
+      "Duplicate" and you get a pre-filled form with the same description,
+      pricing, capacity, and settings. Just give it a new name, adjust any
+      details that have changed, and submit.
 
       ## Consistent Events
 

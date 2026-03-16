@@ -99,7 +99,7 @@ blocks:
         description: Drop an iframe snippet into your website to show events inline, with configurable CSP.
       - icon: "hugeicons:mail-edit-01"
         title: '<a href="/features/email-templates/">Email Templates</a>'
-        description: Customise confirmation emails with Liquid syntax, including built-in currency and pluralize filters.
+        description: Customise confirmation emails with Liquid syntax, including built-in currency and pluralise filters.
       - icon: "hugeicons:rss"
         title: '<a href="/features/rss-and-calendar-feeds/">RSS & Calendar Feeds</a>'
         description: ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.

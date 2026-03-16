@@ -33,11 +33,11 @@ blocks:
       classes, weekly meetups that skip bank holidays, or any event with a
       recurring schedule that has exceptions.
 
-      ## Calendar Views
+      ## Admin Calendar
 
-      The admin dashboard includes calendar views so you can see at a glance
-      which dates have bookings, how many places are left, and who's attending
-      each session.
+      The admin dashboard includes a calendar view for daily events, so you
+      can see at a glance which dates have bookings, how many places are
+      left, and who's attending each session.
 
   - type: cta
     title: Manage Recurring Events

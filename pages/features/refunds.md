@@ -33,10 +33,11 @@ blocks:
       so you can see which refunds have been processed and which are
       pending.
 
-      ## Capacity Restored
+      ## Clear Records
 
-      When an attendee is refunded, their place is released back into the
-      available capacity, so it can be booked by someone else.
+      Refunded attendees are clearly marked in the admin panel so you can
+      see at a glance who has been refunded and who hasn't, and the
+      activity log records every refund for your audit trail.
 
   - type: cta
     title: Hassle-Free Refunds

@@ -23,8 +23,8 @@ blocks:
 
       Your Chobble Tickets installation publishes an ICS feed that attendees
       can subscribe to in Apple Calendar, Google Calendar, Outlook, or any
-      calendar app that supports ICS. New events appear automatically -
-      no need for attendees to keep checking your website.
+      calendar app that supports ICS. New events appear automatically,
+      so there's no need for attendees to keep checking your website.
 
       ## RSS Feed
 
@@ -37,6 +37,13 @@ blocks:
       Both feeds update automatically when you create, modify, or remove
       events, so subscribers always see the latest information without any
       manual publishing step.
+
+      ## Compatible with Mobilizon
+
+      The standard ICS and RSS formats mean your Chobble Tickets
+      installation works as an external source in
+      [Mobilizon](https://joinmobilizon.org/), the federated event
+      platform, so your events can be discoverable across the fediverse.
 
   - type: cta
     title: Keep Attendees Informed

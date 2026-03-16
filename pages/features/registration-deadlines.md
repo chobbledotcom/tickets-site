@@ -34,8 +34,8 @@ blocks:
       ## Automatic Availability
 
       When the deadline passes or the capacity is reached, the booking form
-      is automatically disabled. No manual intervention needed - the system
-      handles it for you.
+      is automatically disabled. There's no manual intervention required -
+      the system handles it for you.
 
   - type: cta
     title: Control Your Bookings

@@ -35,8 +35,8 @@ blocks:
 
       ## Simple Setup
 
-      Set the redirect URL in your event or global settings and it applies
-      immediately. No code changes or template editing required.
+      Set the redirect URL in your event settings and it applies
+      immediately, with no code changes or template editing required.
 
   - type: cta
     title: Control the Journey

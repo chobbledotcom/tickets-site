@@ -39,8 +39,8 @@ blocks:
       ## Automatic Refunds
 
       When you process a refund from the admin panel, the payment provider
-      refund happens automatically. No need to log into Stripe or Square
-      separately - it's all handled in one place.
+      refund happens automatically. There's no need to log into Stripe or
+      Square separately - it's all handled in one place.
 
   - type: cta
     title: Start Accepting Payments

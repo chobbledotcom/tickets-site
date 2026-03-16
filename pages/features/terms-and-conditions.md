@@ -26,6 +26,10 @@ blocks:
       This is useful for liability waivers, age restrictions, code of
       conduct agreements, or any policy you need attendees to acknowledge.
 
+      You can also set per-group terms and conditions that override the
+      global ones, so different types of events can have their own specific
+      terms with whatever context you like.
+
       ## Configurable Contact Fields
 
       Choose which contact information to collect from attendees. Enable or

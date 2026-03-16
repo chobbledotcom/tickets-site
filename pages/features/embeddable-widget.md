@@ -32,11 +32,11 @@ blocks:
       you can control which domains are allowed to embed your events. This
       prevents unauthorised sites from embedding your booking pages.
 
-      ## No Custom Code Required
+      ## No Custom Code Needed
 
       If you don't want to build a custom integration with the
       [public API](/features/public-api/), the embeddable widget gives you
-      a working solution with a single line of HTML.
+      a working solution with just a single line of HTML.
 
       See the [embed documentation](https://chobbledotcom.github.io/tickets/docs/embed.ts)
       for widget setup and configuration details.

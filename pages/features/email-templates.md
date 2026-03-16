@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Email Templates - Chobble Tickets
 meta_title: Email Templates - Chobble Tickets
-meta_description: Customise confirmation emails with Liquid syntax, including built-in currency and pluralize filters.
+meta_description: Customise confirmation emails with Liquid syntax, including built-in currency and pluralise filters.
 permalink: /features/email-templates/
 eleventyNavigation:
   key: Email Templates
@@ -15,16 +15,16 @@ blocks:
     title: Email Templates
     lead: >-
       Customise confirmation emails with Liquid syntax, including built-in
-      currency and pluralize filters.
+      currency and pluralise filters.
 
   - type: markdown
     content: |
       ## Full Control Over Emails
 
       Customise the subject line, HTML body, and plain text body of your
-      confirmation emails using Liquid template syntax. Include attendee
-      details, event information, ticket URLs, and QR codes exactly where
-      you want them.
+      confirmation emails using Liquid template syntax. You can include
+      attendee details, event information, ticket URLs, and QR codes
+      exactly where you want them.
 
       ## Built-in Template Filters
 

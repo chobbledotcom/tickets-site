@@ -22,9 +22,10 @@ blocks:
       ## Get Your Data Out
 
       Download attendee data as a CSV file that you can open in any
-      spreadsheet application. Filter by date range and check-in status to
-      get exactly the data you need, whether that's a door list for tonight's
-      event or a full attendee report for the quarter.
+      spreadsheet application. Filter by date and check-in status to get
+      exactly the data you need, whether that's a door list for tonight's
+      event or a full attendee report. You can also export by group to get
+      attendee data across all events in a group at once.
 
       ## No Lock-In
 
