@@ -6,8 +6,8 @@ meta_description: Process individual or bulk refunds directly from the admin pan
 permalink: /features/refunds/
 eleventyNavigation:
   key: Refunds
-  parent: Features
-  order: 16
+  parent: Selling Tickets
+  order: 2
 blocks:
   - type: hero
     full_width: true

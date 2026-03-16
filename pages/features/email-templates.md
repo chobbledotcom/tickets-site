@@ -6,8 +6,8 @@ meta_description: Customise confirmation emails with Liquid syntax, including bu
 permalink: /features/email-templates/
 eleventyNavigation:
   key: Email Templates
-  parent: Features
-  order: 23
+  parent: Customising Your Site
+  order: 3
 blocks:
   - type: hero
     full_width: true

@@ -6,7 +6,7 @@ meta_description: Send ticket confirmations through your choice of Resend, Postm
 permalink: /features/email-providers/
 eleventyNavigation:
   key: Email Providers
-  parent: Features
+  parent: Platform & Integrations
   order: 3
 blocks:
   - type: hero

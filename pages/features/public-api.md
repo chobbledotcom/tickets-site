@@ -6,7 +6,7 @@ meta_description: RESTful JSON API for building custom integrations, frontends, 
 permalink: /features/public-api/
 eleventyNavigation:
   key: Public API
-  parent: Features
+  parent: Platform & Integrations
   order: 4
 blocks:
   - type: hero

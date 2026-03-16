@@ -6,8 +6,8 @@ meta_description: 5-minute payment holds reserve places while attendees complete
 permalink: /features/overbooking-prevention/
 eleventyNavigation:
   key: Overbooking Prevention
-  parent: Features
-  order: 15
+  parent: Selling Tickets
+  order: 1
 blocks:
   - type: hero
     full_width: true

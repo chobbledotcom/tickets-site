@@ -6,7 +6,7 @@ meta_description: Get POST notifications on every booking and integrate Chobble 
 permalink: /features/webhooks/
 eleventyNavigation:
   key: Webhooks
-  parent: Features
+  parent: Platform & Integrations
   order: 5
 blocks:
   - type: hero

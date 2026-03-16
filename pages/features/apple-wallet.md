@@ -6,8 +6,8 @@ meta_description: Attendees can add tickets to Apple Wallet for quick access at 
 permalink: /features/apple-wallet/
 eleventyNavigation:
   key: Apple Wallet
-  parent: Features
-  order: 9
+  parent: Platform & Integrations
+  order: 2
 blocks:
   - type: hero
     full_width: true

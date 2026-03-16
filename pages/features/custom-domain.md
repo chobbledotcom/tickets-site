@@ -6,8 +6,8 @@ meta_description: Use your own domain name for your Chobble Tickets installation
 permalink: /features/custom-domain/
 eleventyNavigation:
   key: Custom Domain
-  parent: Features
-  order: 8
+  parent: Customising Your Site
+  order: 0
 blocks:
   - type: hero
     full_width: true

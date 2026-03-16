@@ -6,8 +6,8 @@ meta_description: Organise events into groups for multi-event bookings and singl
 permalink: /features/groups/
 eleventyNavigation:
   key: Groups
-  parent: Features
-  order: 7
+  parent: Managing Events
+  order: 2
 blocks:
   - type: hero
     full_width: true

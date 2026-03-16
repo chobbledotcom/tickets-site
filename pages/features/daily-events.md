@@ -6,8 +6,8 @@ meta_description: Per-date capacity with a calendar picker and configurable holi
 permalink: /features/daily-events/
 eleventyNavigation:
   key: Daily Events
-  parent: Features
-  order: 11
+  parent: Managing Events
+  order: 1
 blocks:
   - type: hero
     full_width: true

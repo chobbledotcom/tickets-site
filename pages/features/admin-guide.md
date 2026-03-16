@@ -6,8 +6,8 @@ meta_description: Integrated documentation at /admin/guide covers every feature,
 permalink: /features/admin-guide/
 eleventyNavigation:
   key: Built-in Admin Guide
-  parent: Features
-  order: 21
+  parent: Managing Events
+  order: 8
 blocks:
   - type: hero
     full_width: true

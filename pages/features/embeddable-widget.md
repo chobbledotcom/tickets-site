@@ -6,8 +6,8 @@ meta_description: Drop an iframe snippet into your website to show events inline
 permalink: /features/embeddable-widget/
 eleventyNavigation:
   key: Embeddable Widget
-  parent: Features
-  order: 22
+  parent: Customising Your Site
+  order: 4
 blocks:
   - type: hero
     full_width: true

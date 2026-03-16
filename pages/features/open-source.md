@@ -6,7 +6,7 @@ meta_description: Chobble Tickets is fully open source under AGPLv3 with every f
 permalink: /features/open-source/
 eleventyNavigation:
   key: Open Source
-  parent: Features
+  parent: Platform & Integrations
   order: 0
 blocks:
   - type: hero
