@@ -1,8 +1,8 @@
 ---
 layout: design-system-base.html
 title: Chobble Tickets vs Parentkind
-meta_title: Chobble Tickets vs Parentkind - Comparison
-meta_description: Compare Chobble Tickets with Parentkind for school and PTA events, covering features, pricing, data ownership, and ease of use.
+meta_title: Affordable Alternative to Parentkind for School Events | Chobble Tickets
+meta_description: Looking for an affordable alternative to Parentkind for school and PTA ticketing? Chobble Tickets offers flat pricing from £25/year with no per-ticket fees.
 permalink: /compared-to/parentkind/
 eleventyNavigation:
   key: vs Parentkind
@@ -134,7 +134,7 @@ blocks:
       Parentkind offers genuine value as a bundled membership. The insurance
       alone can justify the cost for many PTAs.
 
-      ## When Chobble Tickets Makes More Sense
+      ## When an Alternative to Parentkind Makes More Sense
 
       If you already have insurance sorted and just need affordable,
       straightforward ticketing for school events, Chobble Tickets saves you

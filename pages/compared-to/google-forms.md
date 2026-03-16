@@ -1,8 +1,8 @@
 ---
 layout: design-system-base.html
 title: Chobble Tickets vs Google Forms
-meta_title: Chobble Tickets vs Google Forms - Comparison
-meta_description: Google Forms is free and flexible but not built for ticketing. See what you gain with a dedicated platform.
+meta_title: Ticketing Alternative to Google Forms | Chobble Tickets
+meta_description: Using Google Forms for event ticketing? Chobble Tickets is a purpose-built alternative with payments, capacity management, QR code check-in, and encrypted data.
 permalink: /compared-to/google-forms/
 eleventyNavigation:
   key: vs Google Forms
@@ -43,12 +43,12 @@ blocks:
       - **Google owns the data** - Your attendees' information is on Google's
         servers, subject to Google's terms
 
-      ## When to Upgrade
+      ## A Purpose-Built Alternative to Google Forms for Events
 
       If you're running a free, informal event and don't need tickets or
       check-in, Google Forms is perfectly fine, but once you need payments,
       capacity limits, QR code tickets, or data privacy, a dedicated ticketing
-      platform like Chobble Tickets is worth the £50/year.
+      alternative like Chobble Tickets is worth the £50/year.
 
       Chobble Tickets also supports free events without payment setup, so
       you can start with the same simplicity as Google Forms and add payments
