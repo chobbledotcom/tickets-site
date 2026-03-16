@@ -33,7 +33,7 @@ blocks:
     description: Give your attendees the convenience of Apple Wallet passes.
     button:
       text: Get Started
-      href: https://tix.chobble.com
+      href: https://tix.chobble.com/ticket/join
       variant: secondary
       size: lg
 ---

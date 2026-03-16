@@ -63,6 +63,27 @@ blocks:
       - icon: "hugeicons:file-validation"
         title: Terms & Conditions
         description: Set global terms that attendees must agree to before booking, with configurable contact fields and special instructions.
+      - icon: "hugeicons:clock-01"
+        title: Overbooking Prevention
+        description: 5-minute payment holds reserve places while attendees complete checkout, so you never oversell.
+      - icon: "hugeicons:money-receive-square"
+        title: Refunds
+        description: Process individual or bulk refunds directly from the admin panel with automatic payment provider sync.
+      - icon: "hugeicons:edit-01"
+        title: Markdown Descriptions
+        description: Write event descriptions in Markdown with header image uploads, so your events look great without a page builder.
+      - icon: "hugeicons:copy-01"
+        title: Duplicate Events
+        description: Clone existing events to quickly set up similar bookings without re-entering all the details.
+      - icon: "hugeicons:timer-01"
+        title: Registration Deadlines
+        description: Set cut-off times for bookings and configure purchase limits per event or per attendee.
+      - icon: "hugeicons:activity-01"
+        title: Activity Logs
+        description: Track all admin actions and booking activity with a built-in audit trail and calendar views.
+      - icon: "hugeicons:book-open-01"
+        title: Built-in Admin Guide
+        description: Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
 
   - type: features
     header_title: Integrations
@@ -82,13 +103,19 @@ blocks:
       - icon: "hugeicons:rss"
         title: RSS & Calendar Feeds
         description: ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.
+      - icon: "hugeicons:paint-brush-01"
+        title: Light & Dark Themes
+        description: Built-in public site with light and dark theme options, so your booking pages match your brand.
+      - icon: "hugeicons:link-03"
+        title: Custom Redirects
+        description: Send attendees to a custom URL after booking, perfect for thank-you pages or post-purchase instructions.
 
   - type: cta
     title: See It in Action
-    description: Browse the full technical documentation or sign up for managed hosting.
+    description: Sign up for managed hosting at £50/year, or browse the full technical documentation.
     button:
-      text: Read the Docs
-      href: https://chobbledotcom.github.io/tickets/doc.ts/index.html
-      variant: secondary
+      text: Sign Up
+      href: https://tix.chobble.com/ticket/join
+      variant: primary
       size: lg
 ---

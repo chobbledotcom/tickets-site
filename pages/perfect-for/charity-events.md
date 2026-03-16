@@ -56,7 +56,7 @@ blocks:
     description: Sign up for managed hosting at just £25/year for charities and community groups.
     button:
       text: Get Started
-      href: https://tix.chobble.com
+      href: https://tix.chobble.com/ticket/join
       variant: secondary
       size: lg
 ---
