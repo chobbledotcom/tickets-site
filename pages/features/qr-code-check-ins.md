@@ -49,7 +49,7 @@ blocks:
     description: All you need is a phone camera to scan QR codes at the door.
     button:
       text: Get Started
-      href: https://tix.chobble.com
+      href: https://tix.chobble.com/ticket/join
       variant: secondary
       size: lg
 ---

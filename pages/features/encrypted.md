@@ -43,16 +43,26 @@ blocks:
       Content-Type validation on all POST endpoints, and session tokens with
       24-hour expiry using HttpOnly cookies.
 
+      ## You Are the Data Controller
+
+      With Chobble Tickets, you are the data controller - we don't have access
+      to your attendees' personal information. This is by design: encryption
+      keys are generated during setup and never leave your environment.
+
+      **Important**: encryption keys are non-recoverable if lost, and admin
+      passwords cannot be reset. A lost password means attendee data is
+      permanently inaccessible, because there is no backdoor and no master key.
+
       Read the full
       [cryptography documentation](https://chobbledotcom.github.io/tickets/docs/crypto.ts)
       for implementation details.
 
   - type: cta
     title: Security You Can Verify
-    description: The encryption code is open source, so you can audit it yourself.
+    description: Sign up for managed hosting at £50/year, or audit the encryption code yourself.
     button:
-      text: View Crypto Docs
-      href: https://chobbledotcom.github.io/tickets/docs/crypto.ts
-      variant: secondary
+      text: Sign Up
+      href: https://tix.chobble.com/ticket/join
+      variant: primary
       size: lg
 ---

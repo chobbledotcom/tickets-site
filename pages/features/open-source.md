@@ -36,22 +36,39 @@ blocks:
       There's no pressure to extract value from users or lock people into a
       platform - the software exists to be useful.
 
-      ## Self-Host or Let Us Host
+      ## Three Ways to Deploy
 
-      You can deploy Chobble Tickets on any Deno-compatible environment, with
-      one-click deploy buttons available for DigitalOcean, Heroku, Koyeb,
-      and Render (plus Fly.io, Docker, and Bunny Edge Scripting), or just
-      pay £50/year and we'll handle the hosting for you. Browse
-      the
+      ### 1. Managed Hosting
+
+      [Sign up](https://tix.chobble.com/ticket/join) and we handle everything -
+      infrastructure, updates, backups, and support - for £50/year (50% off for
+      charities, community groups, artists, and musicians). No per-ticket fees,
+      unlimited events, unlimited tickets.
+
+      ### 2. GitHub-Controlled Deployments
+
+      For extra security, fork the
+      [repository](https://github.com/chobbledotcom/tickets/fork) on GitHub.
+      We manage the infrastructure, but you control exactly when code updates
+      are deployed through GitHub Actions. No update can reach your instance
+      without your explicit approval.
+
+      ### 3. Fully Self-Hosted (Free)
+
+      Deploy on any Deno-compatible environment with one-click deploy buttons
+      for DigitalOcean, Heroku, Koyeb, and Render (plus Fly.io, Docker, and
+      Bunny Edge Scripting). You own and control everything. Follow the
+      [README](https://github.com/chobbledotcom/tickets) to get started, or
+      browse the
       [technical documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html)
-      to see how everything works under the hood.
+      for implementation details.
 
   - type: cta
-    title: View the Source
-    description: The full codebase is on GitHub, so you can star it, fork it, or contribute.
+    title: Get Started
+    description: Sign up for managed hosting at £50/year, or grab the source from GitHub and self-host for free.
     button:
-      text: GitHub Repository
-      href: https://github.com/chobbledotcom/tickets
-      variant: secondary
+      text: Sign Up
+      href: https://tix.chobble.com/ticket/join
+      variant: primary
       size: lg
 ---

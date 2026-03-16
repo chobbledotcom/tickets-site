@@ -51,7 +51,7 @@ blocks:
     description: For events that don't need a corporate gatekeeper.
     button:
       text: Get Started
-      href: https://tix.chobble.com
+      href: https://tix.chobble.com/ticket/join
       variant: secondary
       size: lg
 ---

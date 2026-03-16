@@ -18,11 +18,11 @@ blocks:
       fee and no per-ticket charges, data harvesting, or lock-in.
     buttons:
       - text: Get Started
-        href: https://tix.chobble.com
+        href: https://tix.chobble.com/ticket/join
         variant: primary
         size: lg
-      - text: View Source
-        href: https://github.com/chobbledotcom/tickets
+      - text: Live Demo
+        href: https://tix.chobble.com
         variant: secondary
         size: lg
 
@@ -88,6 +88,7 @@ blocks:
       - **[Apple Wallet](/features/apple-wallet/)** - Tickets in your pocket
       - **[Event Groups](/features/groups/)** - Multi-event bookings, single checkout
       - **[Email Templates](/features/email-providers/)** - Customise confirmations with Liquid syntax
+      - **[All Features](/features/)** - Refunds, CSV exports, activity logs, and more
 
   - type: split
     title: Flat, Fair Pricing
@@ -103,7 +104,9 @@ blocks:
       and we never touch your revenue.
 
       You can also self-host for free - it's open source with one-click
-      deploy to DigitalOcean, Heroku, Koyeb, and Render.
+      deploy to DigitalOcean, Heroku, Koyeb, and Render. Or use
+      [GitHub-controlled deployments](/features/open-source/) for extra
+      security where you approve every update.
     figure_type: code
     figure_filename: Pricing
     figure_code: |
@@ -116,8 +119,8 @@ blocks:
     title: Ready to Sell Tickets?
     description: Sign up for managed hosting or grab the source code and self-host.
     button:
-      text: Get Started at tix.chobble.com
-      href: https://tix.chobble.com
+      text: Sign Up at tix.chobble.com
+      href: https://tix.chobble.com/ticket/join
       variant: secondary
       size: lg
 ---
