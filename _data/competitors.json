@@ -13,7 +13,8 @@
     "per_ticket_fee_percent": 6.95,
     "per_ticket_fee_fixed": 0.59,
     "payment_processing_percent": 0,
-    "payment_processing_fixed": 0
+    "payment_processing_fixed": 0,
+    "fee_note": "Eventbrite fees: 6.95% + £0.59 per ticket (includes payment processing). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
   },
   "bookitbee": {
     "name": "BookitBee",
@@ -21,7 +22,8 @@
     "per_ticket_fee_percent": 2,
     "per_ticket_fee_fixed": 0.5,
     "payment_processing_percent": 1.5,
-    "payment_processing_fixed": 0.2
+    "payment_processing_fixed": 0.2,
+    "fee_note": "BookitBee fees: 2% + 50p per ticket, plus Stripe processing (1.5% + 20p). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
   },
   "parentkind": {
     "name": "Parentkind",
@@ -29,7 +31,8 @@
     "per_ticket_fee_percent": 3.95,
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
-    "payment_processing_fixed": 0.2
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Parentkind costs: £115/year membership + 3.95% platform fee per transaction + Stripe processing (1.5% + 20p). Chobble Tickets: £50/year flat (£25 for community groups) + Stripe processing (1.5% + 20p)."
   },
   "ticketmaster": {
     "name": "Ticketmaster",
@@ -37,6 +40,7 @@
     "per_ticket_fee_percent": 10,
     "per_ticket_fee_fixed": 2.5,
     "payment_processing_percent": 0,
-    "payment_processing_fixed": 0
+    "payment_processing_fixed": 0,
+    "fee_note": "Ticketmaster fees vary by event and venue — this estimate uses approximately 10% + £2.50 per ticket (bundled). Actual fees may be higher or lower. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
   }
 }
