@@ -51,6 +51,9 @@ blocks:
       - icon: "hugeicons:music-note-03"
         title: vs Resident Advisor
         description: The electronic music ticketing platform — compare fees, data ownership, and features.
+      - icon: "hugeicons:ticket-01"
+        title: vs DICE
+        description: Mobile-first music ticketing — compare fees, app requirements, and data ownership.
 
   - type: cta
     title: Try it yourself

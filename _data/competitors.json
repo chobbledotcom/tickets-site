@@ -97,6 +97,15 @@
     "payment_processing_fixed": 0,
     "fee_note": "Resident Advisor fees: approximately 10% per ticket (includes payment processing). RA does not publicly list exact fees — they are negotiated with promoters. The 10% figure is widely cited by third-party comparison sites. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Sources: weticket.com, support.ra.co (March 2026)."
   },
+  "dice": {
+    "name": "DICE",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 10,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0,
+    "fee_note": "DICE fees are negotiated per partnership and not publicly disclosed. This estimate uses approximately 10% per ticket (bundled, including payment processing). Actual fees may vary. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,
