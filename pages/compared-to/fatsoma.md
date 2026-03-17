@@ -69,28 +69,70 @@ blocks:
 
       **Fatsoma has features Chobble Tickets doesn't:**
 
-      - **Rep/affiliate network** — a built-in system for promoters to sell
-        tickets on your behalf and earn commission
-      - **Event discovery platform** — Fatsoma's website and app help
-        attendees find events (mainly student and nightlife focused)
-      - **Built-in social media promotion tools** — tools for promoting
-        events across social channels
+      - **Rep/affiliate network** — a built-in system where promoters sell
+        tickets on your behalf and earn configurable commission per ticket
+        type, with rep-only tickets and tracking dashboards showing which
+        reps are driving the most sales. Reps are paid out directly through
+        Fatsoma. See [Fatsoma Reps](https://ticketing.fatsoma.com/f/reps)
+      - **Consumer mobile app** — [the Fatsoma
+        App](https://ticketing.fatsoma.com/f/the-fatsoma-app) is a
+        consumer-facing app where attendees browse and discover events.
+        Fatsoma report that 70% of their ticket sales come through the app
+      - **Follower system** — every ticket buyer automatically becomes a
+        follower you can market to for free with future event announcements
+      - **Push notifications** — [event
+        announcements](https://ticketing.fatsoma.com/f/event-announcements)
+        hit followers' phones via push notification and email
+      - **Cross-sell** — [upsell your other
+        events](https://ticketing.fatsoma.com/f/cross-sell) on the order
+        confirmation screen after each purchase
+      - **Ad pixel tracking** — built-in [retargeting and lookalike
+        audience](https://ticketing.fatsoma.com/f/ad-pixels) support for
+        Facebook and other ad platforms
+      - **Customer questions at checkout** — structured data capture (age,
+        gender, social handles, phone, location) with [profile
+        saving](https://ticketing.fatsoma.com/f/customer-questions) across
+        events
+      - **Promo codes** — discount codes, presale codes, and hidden ticket
+        access codes
+      - **Event discovery platform** — Fatsoma's website and app function
+        as a marketplace where attendees browse and discover events,
+        particularly strong in student and nightlife markets
+      - **Fatsoma Chat** — social sharing features within the consumer app
+      - **Custom branded apps** — on the Professional tier (~£1,500),
+        Fatsoma builds custom branded iOS/Android apps and websites for
+        your events
+      - **Fast 3-tap checkout** — streamlined checkout with Apple Pay,
+        Google Pay, and saved card details
 
       **Chobble Tickets has features Fatsoma doesn't:**
 
-      - **Encrypted attendee data** — PII is encrypted at rest using hybrid
-        RSA/AES encryption, decrypted server-side only for authorised admins
-      - **Apple & Google Wallet tickets** — attendees can add tickets to
-        their phone wallet
-      - **ICS calendar feeds** — subscribers get automatic calendar updates
-      - **RSS feeds** — syndicate your events
-      - **Pay-what-you-want pricing** — let attendees choose their price
-      - **Daily/recurring event support** — built for events that repeat on
-        a schedule
-      - **Custom domain support** — use your own domain name
+      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+        attendees can add tickets to their phone wallet
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+        subscribers get automatic calendar updates
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
+        events to feed readers
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+        attendees choose their price
+      - **[Daily/recurring event support](/features/daily-events/)** — built
+        for events that repeat on a schedule with per-date capacity
+      - **[Custom domain support](/features/custom-domain/)** — use your own
+        domain name
       - **Self-hosting option** — run the platform on your own servers for
         free
-      - **Open source** — inspect, modify, and contribute to the code
+      - **[Open source](/features/open-source/)** — inspect, modify, and
+        contribute to the code under AGPLv3
+      - **[Public API](/features/public-api/)** — RESTful JSON API for
+        building custom integrations
+      - **[Webhooks](/features/webhooks/)** — outbound POST on every
+        registration
+      - **[Custom email providers](/features/email-providers/)** — use
+        Resend, Postmark, SendGrid, or Mailgun
+      - **[Embeddable widget](/features/embeddable-widget/)** — drop an
+        iframe into your existing website
       - **No marketing emails to attendees** — your audience stays yours
 
       ## When Fatsoma might be better
@@ -122,6 +164,9 @@ blocks:
 
       - [Fatsoma pricing](https://ticketing.fatsoma.com/pricing) — 10% per ticket (minimum £1), plus Stripe processing
       - [Fatsoma for Business](https://ticketing.fatsoma.com/) — event ticketing and promotion platform
+      - [Fatsoma Reps](https://ticketing.fatsoma.com/f/reps) — affiliate/rep network feature
+      - [The Fatsoma App](https://ticketing.fatsoma.com/f/the-fatsoma-app) — consumer mobile app
+      - [Chobble Tickets features](/features/)
 
   - type: cta
     title: Try Chobble Tickets

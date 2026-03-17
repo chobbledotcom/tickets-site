@@ -35,21 +35,119 @@ blocks:
 
   - type: markdown
     content: |
-      ## An open source, no-fee alternative to BookitBee
+      ## Feature comparison
 
-      BookitBee is a proprietary platform, so you can't see how your data is
-      handled, you can't self-host, and if the company changes direction
-      you're stuck.
+      BookitBee and Chobble Tickets both handle event ticketing, but they
+      focus on different things. Here's what each offers that the other
+      doesn't:
 
-      Chobble Tickets is open source under AGPLv3, so you can inspect every
-      line of code, self-host if you want, and you're never locked in.
+      **[BookitBee](https://www.bookitbee.com/features/) has features
+      Chobble Tickets doesn't:**
+
+      - **Social Group Deals** — a viral marketing mechanic where buyers
+        share a unique link, and once enough friends purchase, the original
+        buyer gets a free ticket. BookitBee report this drives up to 50%
+        of sales at some events
+      - **Reserved seating with seat map builder** — create interactive
+        venue maps where attendees pick their own seats, tables, or zones,
+        with a best-available auto-assignment option
+      - **Payment plans and deposits** — collect instalment payments over
+        time for higher-priced events, with renewal tracking and
+        failed-payment handling
+      - **Renewable membership system** — multi-tier memberships with
+        pro-rata mid-year additions, self-service upgrades/downgrades,
+        cancellations, and members-only event gating
+      - **Promo codes and discounts** — create percentage-off discount
+        codes, promotional offers, and campaign-specific URLs with sales
+        tracking
+      - **Multiple ticket types per event** — VIP, early bird, group, and
+        standard tiers on a single event, each with different prices and
+        availability windows
+      - **Cross-selling during checkout** — upsell merchandise, parking
+        passes, drinks tokens, and other events inline during the ticket
+        purchase flow
+      - **Box office POS** — a web-based point-of-sale app for on-the-door
+        sales and scanning, purpose-built for their platform
+      - **11 languages and 30+ currencies** — built-in internationalisation
+        for international events
+      - **White-label branding** — fully customisable booking journeys
+        branded to the organiser, not BookitBee
+      - **PayPal and managed payments** — accept payments via PayPal in
+        addition to Stripe, or use BookitBee's managed payment service
+        (LIVE IT Payments) without setting up your own account
+      - **Invite-only events** — restrict bookings by email address or
+        domain
+      - **Custom registration questions** — mandatory or optional custom
+        fields including free text, date selection, and single/multiple
+        choice
+      - **Facebook Pixel, Google Analytics, and Tag Manager** — built-in
+        tracking and conversion attribution
+      - **Mailchimp and Slack integrations** — connect to your existing
+        marketing and communication tools
+      - **Real-time sales dashboard** — live analytics showing ticket
+        sales, revenue, and attendee demographics
+      - **Apple Pay and Google Pay** — streamlined mobile checkout
+
+      **Chobble Tickets has features BookitBee doesn't:**
+
+      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
+      - **[Open source](/features/open-source/)** — every line of code is
+        public under AGPLv3
+      - **Self-hosting option** — run the platform on your own servers for
+        free
+      - **Flat annual pricing** — £50/year with no per-ticket fees at all,
+        compared to BookitBee's 3.5-6.5% per ticket
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+        attendees can add tickets to their phone wallet
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+        subscribers get automatic calendar updates
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
+        events to feed readers
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+        attendees choose their own price
+      - **[Daily/recurring events](/features/daily-events/)** — per-date
+        capacity with calendar picker and holiday blackouts
+      - **[Public API](/features/public-api/)** — RESTful JSON API for
+        building custom integrations
+      - **[Webhooks](/features/webhooks/)** — outbound POST on every
+        registration for custom integrations
+      - **[Custom email providers](/features/email-providers/)** — use
+        Resend, Postmark, SendGrid, or Mailgun
+      - **[Custom domain](/features/custom-domain/)** — your ticketing lives
+        at your own web address
+      - **[Embeddable widget](/features/embeddable-widget/)** — drop an
+        iframe into your website
+      - **No marketing to your attendees** — your audience stays yours
+      - **Community Interest Company** — run by a CIC, not a for-profit
 
       ## When BookitBee might be better
 
-      BookitBee has been around longer and has a more polished marketing
-      presence. If you need phone support or a well-established brand name on
-      your tickets, BookitBee may be the better fit, whereas Chobble Tickets
-      is newer and more DIY-friendly.
+      - You want Social Group Deals to drive viral ticket sales
+      - You need reserved seating with a seat map builder
+      - You need payment plans or instalment collection for expensive events
+      - You want a membership system with tiered subscriptions
+      - You need cross-selling of merchandise and extras during checkout
+      - You want white-label branding on the booking journey
+      - You need multi-language (11 languages) or multi-currency (30+)
+        support
+      - You want PayPal as a payment option alongside Stripe
+      - You prefer a box office POS for on-the-door sales
+      - You have very low volume and prefer paying per ticket over an annual
+        fee
+
+      ## When Chobble Tickets is the better choice
+
+      - You want predictable, flat-rate pricing with no per-ticket fees
+      - Privacy and [encryption](/features/encrypted/) matter to you
+      - You value [open source](/features/open-source/) and the ability to
+        self-host
+      - You're a community group, charity, or school (£25/year)
+      - You want [Apple/Google Wallet](/features/apple-wallet/), [calendar
+        feeds](/features/rss-and-calendar-feeds/), or a [public
+        API](/features/public-api/)
+      - You don't want a platform marketing to your attendees
+      - You're selling enough tickets that percentage fees add up quickly
 
   - type: markdown
     content: |
@@ -60,6 +158,7 @@ blocks:
 
       - [BookitBee UK pricing](https://bookitbee.com/pricing-uk/) — from 3.5% per ticket, min £1, max £19.95 cap
       - [BookitBee features](https://www.bookitbee.com/features/)
+      - [Chobble Tickets features](/features/)
 
   - type: cta
     title: Try Chobble Tickets

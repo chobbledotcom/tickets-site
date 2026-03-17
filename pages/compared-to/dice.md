@@ -74,31 +74,73 @@ blocks:
 
       DICE has some features Chobble Tickets doesn't, and vice versa:
 
-      **DICE has features Chobble Tickets doesn't:**
+      **[DICE](https://dice.fm/partners) has features Chobble Tickets
+      doesn't:**
 
-      - **Event discovery app** — DICE's mobile app helps fans discover events
-        in their area, which can drive extra ticket sales
-      - **Anti-scalping via app** — tickets are locked to the DICE app, making
-        them harder to resell on secondary markets
-      - **Waiting list system** — built-in waitlists for sold-out events with
-        face-value resale
+      - **Event discovery app** — DICE's mobile app helps fans discover
+        events in their area based on their music tastes, location, and
+        past attendance, which can drive extra ticket sales you wouldn't
+        get on your own
+      - **Spotify and Apple Music integration** — personalised event
+        recommendations based on fans' listening history, plus checkout
+        through Spotify and YouTube
+      - **Anti-scalping via app lock** — tickets are bound to the DICE app
+        and can't be screenshotted or forwarded, making them essentially
+        impossible to resell on secondary markets
+      - **Waiting list with face-value resale** — fans can join a waitlist
+        for sold-out events, and if a ticket holder can't attend, DICE
+        automatically resells their ticket at face value
+      - **Dynamic pricing** — automatically adjust ticket prices based on
+        demand
+      - **All-in pricing** — fees are bundled into the displayed price so
+        fans see the total cost upfront with no surprise charges at
+        checkout
+      - **Marketing attribution** — track which channels and campaigns are
+        driving ticket sales via the
+        [MIO dashboard](https://mio.dice.fm)
+      - **Algorithmic event recommendations** — personalised discover feed
+        for each fan based on their tastes and location
+      - **Large-scale access hardware** — DICE Access system (powered by
+        Qflow) with laser scanning hardware, zone-based scanning, and
+        time-slot scanning
+      - **Real-time audience insights** — segmentation by genre, spend,
+        and geography via the MIO partner dashboard
+      - **DICE TV** — livestreaming platform for virtual events
+      - **Multi-currency support** — sell in different currencies across
+        DICE's international markets (UK, US, Europe, Australia)
+      - **Partner API** — a [GraphQL Ticket Holders
+        API](https://partners-endpoint.dice.fm/graphql/docs/index.html)
+        for reading events, tickets, orders, returns, and transfers
 
       **Chobble Tickets has features DICE doesn't:**
 
-      - **Encrypted attendee data** — PII is encrypted at rest using hybrid
-        RSA/AES encryption, decrypted server-side only for authorised admins
+      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
       - **No app required** — tickets work in any browser on any device
-      - **Apple & Google Wallet tickets** — attendees can add tickets to their
-        phone wallet without a separate app
-      - **ICS calendar feeds** — subscribers get automatic calendar updates
-      - **RSS feeds** — syndicate your events
-      - **Pay-what-you-want pricing** — let attendees choose their price
-      - **Daily/recurring event support** — built for events that repeat on a
-        schedule
-      - **Custom domain support** — use your own domain name
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+        attendees can add tickets to their phone wallet without a separate app
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+        subscribers get automatic calendar updates
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
+        events to feed readers
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+        attendees choose their price
+      - **[Daily/recurring event support](/features/daily-events/)** — built
+        for events that repeat on a schedule with per-date capacity
+      - **[Custom domain support](/features/custom-domain/)** — use your own
+        domain name
       - **Fully brandable checkout** — your brand, not DICE's
       - **Self-hosting option** — run the platform on your own servers for free
-      - **Open source** — inspect, modify, and contribute to the code
+      - **[Open source](/features/open-source/)** — inspect, modify, and
+        contribute to the code under AGPLv3
+      - **[Public API](/features/public-api/)** — RESTful JSON API for
+        building custom integrations
+      - **[Webhooks](/features/webhooks/)** — outbound POST on every
+        registration
+      - **[Custom email providers](/features/email-providers/)** — use
+        Resend, Postmark, SendGrid, or Mailgun
+      - **[Embeddable widget](/features/embeddable-widget/)** — drop an
+        iframe into your existing website
       - **No marketing emails to attendees** — your audience stays yours
       - **Transparent pricing** — no negotiations, no surprises
 
@@ -134,7 +176,11 @@ blocks:
       on industry analysis and publicly available comparisons.
 
       - [DICE](https://dice.fm) — fees negotiated per partnership (not publicly listed)
+      - [DICE for partners](https://dice.fm/partners) — DICE's partner information and features
+      - [MIO dashboard](https://mio.dice.fm) — DICE's partner analytics dashboard
+      - [DICE Ticket Holders API](https://partners-endpoint.dice.fm/graphql/docs/index.html) — GraphQL API documentation
       - [Hi.Events DICE comparison](https://hi.events/dice-alternative) — third-party comparison estimating DICE fees
+      - [Chobble Tickets features](/features/)
 
   - type: cta
     title: Try Chobble Tickets

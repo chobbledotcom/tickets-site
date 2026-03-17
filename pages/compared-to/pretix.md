@@ -68,14 +68,77 @@ blocks:
     content: |
       ## When Pretix might be the better choice
 
-      Pretix is a mature, feature-rich platform with years of development behind
-      it. If you're running large conferences with assigned seating, complex
-      multi-track schedules, exhibitor management, or need a point-of-sale
-      system, Pretix has purpose-built tools for all of that.
+      Pretix is a mature, feature-rich platform with years of development
+      behind it. Their features are documented across their
+      [shop](https://pretix.eu/about/en/features/shop),
+      [marketing](https://pretix.eu/about/en/features/marketing),
+      [payment](https://pretix.eu/about/en/features/payment),
+      [check-in](https://pretix.eu/about/en/features/checkin), and
+      [admin](https://pretix.eu/about/en/features/admin) pages. Here's what
+      Pretix offers that Chobble Tickets doesn't:
 
-      It also has a larger community, more plugins, and more integrations. If
-      you need enterprise-grade features and have the budget or technical team
-      to match, Pretix is a strong choice.
+      - **Interactive seating plans** — a graphical venue editor for
+        custom layouts with seat-to-pricing mapping and seat blocking
+        (enterprise plugin)
+      - **Point of sale (pretixPOS)** — an Android tablet-based cash
+        register for on-the-door sales that syncs with the online shop in
+        real time (enterprise plugin)
+      - **Dedicated scanning apps** — pretixSCAN for Android, iOS,
+        Windows, and Linux with offline mode and multi-device sync, plus
+        automatic badge printing after scan
+      - **15+ languages** — full multi-language support so attendees see
+        the checkout in their preferred language (German, English, Arabic,
+        Chinese, Danish, Dutch, French, Italian, Spanish, Turkish, and
+        more)
+      - **30+ payment methods** — Stripe, PayPal, Mollie, Adyen, Apple
+        Pay, Google Pay, WeChat Pay, Alipay, Klarna, SEPA, Bitcoin
+        (BitPay), bank transfer, and many regional methods
+      - **Voucher and promo codes** — percentage and fixed-amount
+        discounts, time-limited, single or multi-use, tied to specific
+        products, with seat reservation and exclusive product access
+      - **Automatic invoicing** — EU reverse charge support, ZUGFeRD
+        invoices, and Peppol e-invoicing for B2B compliance
+      - **Waitlists** — automatic notifications when places open up, with
+        manual and auto-assignment modes
+      - **Product variations and add-ons** — multiple tiers, sizes, and
+        variations per product with add-on packages and bundled products
+      - **Customer accounts and memberships** — returning customer
+        discounts, membership models, and member-only products
+      - **Badge and name tag printing** — auto-generate and print attendee
+        badges at check-in using custom designs (enterprise plugin)
+      - **Certificates of attendance** — auto-generated certificates for
+        checked-in attendees
+      - **Lead scanning (pretixLEAD)** — app for exhibitors to scan
+        attendee badges and capture lead data (enterprise plugin)
+      - **Exhibitor management** — dedicated plugin for managing exhibitors
+        at trade fairs and conferences
+      - **Reseller network** — offline ticket outlets with
+        settlement/invoicing tools
+      - **Campaign and affiliate tracking** — built-in analytics with
+        Google Analytics and Facebook Pixel integration
+      - **Newsletter integration** — MailChimp and Newsletter2Go
+        connectors
+      - **Zapier integration** — connect to 5,000+ apps
+      - **Custom checkout questions** — free-text, multiple choice, and
+        file uploads per ticket type with statistical overview
+      - **Check-in lists with permissions** — multiple independent
+        check-in lists per gate or area with custom fields at scan
+      - **Digital content delivery** — attach downloadable content to
+        tickets
+      - **Shipping** — physical product delivery management
+      - **Virtual event support** — Venueless integration for hybrid and
+        virtual events
+      - **50+ plugins** — a [plugin
+        marketplace](https://marketplace.pretix.eu/) with 50+ official and
+        third-party plugins extending every aspect of the platform
+      - **Multi-event organisers** — manage multiple events under one
+        organisation with shared settings and branding
+      - **Tax management** — configure VAT rates per product and country
+
+      Note: many of Pretix's advanced features (seating, POS, lead
+      scanning, badges, resellers, and others) are only available with a
+      Pretix Enterprise licence starting at €499/year. The free Community
+      edition includes core ticketing but lacks these plugins.
 
       ## When Chobble Tickets is the better choice
 
@@ -92,17 +155,29 @@ blocks:
 
       | | Chobble Tickets | Pretix |
       |---|---|---|
-      | Open source | AGPLv3 | AGPLv3 (core) |
+      | Open source | AGPLv3 (all features) | AGPLv3 (core only) |
       | Hosted pricing | £50/year flat | 2.5% per ticket |
       | Self-hosted cost | Free (all features) | Free (core) / €499+/yr (enterprise) |
       | Per-ticket fees | None | 2.5% (hosted) |
-      | Payment processing | Stripe | Stripe, PayPal, Mollie, bank transfer |
+      | Payment providers | [Stripe, Square](/features/stripe-and-square/) | Stripe, PayPal, Mollie, Adyen, 30+ methods |
       | Target audience | Small-medium organisers | Conferences & enterprise |
       | Seating plans | No | Yes (enterprise plugin) |
       | Point of sale | No | Yes (enterprise plugin) |
-      | API access | Yes | Yes |
-      | QR code scanning | Yes | Yes |
+      | [API access](/features/public-api/) | Yes | Yes |
+      | [QR code scanning](/features/qr-code-check-ins/) | Yes | Yes |
       | Multi-currency | No | Yes |
+      | Multi-language | No | Yes (15+ languages) |
+      | [Encryption at rest](/features/encrypted/) | Yes (hybrid RSA + AES) | No |
+      | [Apple/Google Wallet](/features/apple-wallet/) | Yes | No (enterprise add-on) |
+      | [RSS/calendar feeds](/features/rss-and-calendar-feeds/) | Yes | No |
+      | [Webhooks](/features/webhooks/) | Yes | Yes (enterprise) |
+      | [Pay-what-you-want](/features/stripe-and-square/) | Yes | No |
+      | Promo codes | No | Yes |
+      | Waitlists | No | Yes |
+      | [Custom domain](/features/custom-domain/) | Yes | Yes (enterprise) |
+      | [Daily events](/features/daily-events/) | Yes | Yes (with series) |
+      | Badge printing | No | Yes (enterprise plugin) |
+      | Lead scanning | No | Yes (enterprise plugin) |
 
   - type: markdown
     content: |
@@ -114,6 +189,10 @@ blocks:
       - [Pretix hosted pricing](https://pretix.eu/about/en/pricing) — 2.5% of ticket price (excl. taxes)
       - [Pretix self-hosted/enterprise pricing](https://pretix.eu/about/en/pricing/selfhosted) — from €499/year (Enterprise Starter)
       - [Pretix on GitHub](https://github.com/pretix/pretix)
+      - [Pretix features — shop](https://pretix.eu/about/en/features/shop) — ticketing and shop features
+      - [Pretix features — check-in](https://pretix.eu/about/en/features/checkin) — scanning and on-site tools
+      - [Pretix plugin marketplace](https://marketplace.pretix.eu/) — 50+ official and third-party plugins
+      - [Chobble Tickets features](/features/)
 
   - type: cta
     title: Try Chobble Tickets
