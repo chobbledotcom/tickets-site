@@ -45,6 +45,9 @@ blocks:
       - icon: "hugeicons:open-source"
         title: vs Pretix
         description: Another open source option targeting enterprise — compare hosted and self-hosted costs.
+      - icon: "hugeicons:ticket-01"
+        title: vs Fatsoma
+        description: Popular with student events and nightlife — compare fees, features, and data ownership.
 
   - type: cta
     title: Try it yourself
