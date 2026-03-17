@@ -83,64 +83,52 @@
   accent-color: var(--color-secondary, #ad44ce);
 }
 
-.price-comparator__results {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-}
-
-@media (max-width: 600px) {
-  .price-comparator__results {
-    grid-template-columns: 1fr;
-  }
-}
-
-.price-comparator__column {
-  padding: 1rem;
-  border-radius: 6px;
+.price-comparator__table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
   background: var(--body-background-alt, #2f0c3a);
+  border-radius: 6px;
 }
 
-.price-comparator__column h3 {
-  margin-top: 0;
-}
-
-.price-comparator__column dl {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 0.25rem 1rem;
-  margin: 0;
-}
-
-.price-comparator__column dt {
-  text-align: left;
-}
-
-.price-comparator__column dd {
-  text-align: right;
-  margin: 0;
+.price-comparator__table th,
+.price-comparator__table td {
+  padding: 0.35rem 0.5rem;
   font-variant-numeric: tabular-nums;
 }
 
-.price-comparator__total-label,
-.price-comparator__total {
-  margin-top: 0.5rem;
-  padding-top: 0.5rem;
+.price-comparator__table thead th {
+  text-align: center;
+  font-size: 1.1em;
+  padding-bottom: 0.5rem;
+}
+
+.price-comparator__table thead th:first-child {
+  text-align: left;
+}
+
+.price-comparator__table tbody td:first-child {
+  text-align: left;
+}
+
+.price-comparator__table tbody td:not(:first-child) {
+  text-align: right;
+}
+
+.price-comparator__total-row td {
+  padding-top: 0.75rem;
   border-top: 1px solid var(--color-tint, #4a2260);
   font-weight: bold;
   font-size: 1.15em;
 }
 
-.price-comparator__per-ticket-label,
-.price-comparator__per-ticket {
+.price-comparator__per-ticket-row td {
   font-size: 0.9em;
   opacity: 0.85;
 }
 
-.price-comparator__share-label,
-.price-comparator__share {
-  margin-top: 0.5rem;
-  padding-top: 0.5rem;
+.price-comparator__share-row td {
+  padding-top: 0.75rem;
   border-top: 1px solid var(--color-tint, #4a2260);
   font-weight: bold;
   font-size: 1.15em;
