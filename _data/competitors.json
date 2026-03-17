@@ -79,6 +79,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "Pretix Enterprise Starter license: €499/year (approx. £420). Community edition is free but lacks proprietary plugins. Chobble Tickets self-hosted: free, no license fee + Stripe processing (1.5% + 20p)."
   },
+  "fatsoma": {
+    "name": "Fatsoma",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 10,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Fatsoma fees: 10% per ticket (minimum £1), plus Stripe processing (1.5% + 20p). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: ticketing.fatsoma.com/pricing (March 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,
