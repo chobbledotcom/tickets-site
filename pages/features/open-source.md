@@ -63,6 +63,14 @@ blocks:
       [technical documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html)
       for implementation details.
 
+      Unlike other self-hosted ticketing platforms that require you to set up
+      and maintain a traditional server, Chobble Tickets compiles to a single
+      JavaScript file that runs on [Bunny.net](https://bunny.net) edge scripts
+      with a Bunny.net edge database. There's no server to manage, no scaling
+      to worry about, and no database replication to configure — it's all
+      handled by the Bunny platform. This makes self-hosting Chobble Tickets
+      closer to deploying a static site than running a web application.
+
   - type: cta
     title: Get started
     description: Sign up for managed hosting at £50/year, or grab the source from GitHub and self-host for free.

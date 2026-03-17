@@ -69,12 +69,18 @@ blocks:
 
       Chobble Tickets is fully open source with **no license fee** — you get
       every feature for free when you self-host. There's no "community vs
-      enterprise" split.
+      enterprise" split. And because Chobble compiles to a single JavaScript
+      file that runs on Bunny.net edge scripts with a Bunny.net edge database,
+      there's no server to manage, no scaling to configure, and no database
+      replication to maintain — it's all built into the Bunny platform.
 
       Pretix offers a free Community edition, but its proprietary plugins
       (seating, lead scanning, POS, resellers, and more) require a Pretix
       Enterprise license starting at €499/year (approx. £420). The full-featured
       Enterprise Professional tier is €750/year, and Ultimate is €950/year.
+      Self-hosting Pretix also means running a traditional server with Python,
+      PostgreSQL, Redis, and a reverse proxy — infrastructure you need to
+      manage, update, and keep online yourself.
 
   - type: include
     file: price-comparator-selfhosted.html
@@ -173,6 +179,7 @@ blocks:
       | Open source | AGPLv3 (all features) | AGPLv3 (core only) |
       | Hosted pricing | £50/year flat | 2.5% per ticket |
       | Self-hosted cost | Free (all features) | Free (core) / €499+/yr (enterprise) |
+      | Self-hosted infrastructure | Serverless (Bunny.net edge) | Traditional server (Python, PostgreSQL, Redis) |
       | Per-ticket fees | None | 2.5% (hosted) |
       | Payment providers | [Stripe, Square](/features/stripe-and-square/) | Stripe, PayPal, Mollie, Adyen, 30+ methods |
       | Target audience | Small-medium organisers | Conferences & enterprise |
