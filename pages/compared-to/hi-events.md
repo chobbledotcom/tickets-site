@@ -1,6 +1,8 @@
 ---
 layout: design-system-base.html
 competitor_key: hi_events
+selfhosted_chobble_key: chobble_selfhosted
+selfhosted_competitor_key: hi_events_selfhosted
 title: Chobble Tickets vs Hi.Events
 meta_title: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared
 meta_description: Comparing two open source ticketing platforms - Chobble Tickets and Hi.Events. An honest look at pricing, features, philosophy, and which is better for your events.
@@ -110,15 +112,35 @@ blocks:
       over feature density. It's run by a Community Interest Company, not a
       traditional startup.
 
-      ## Licensing
+      ## Licensing and self-hosted costs
 
-      Both platforms are open source, but with different licences:
+      Both platforms are open source, but with very different licences and
+      self-hosting economics:
 
-      - **Hi.Events** uses AGPL-3.0 with additional terms. The free version
-        requires a "Powered by Hi.Events" link. Commercial licences are
-        available to remove branding.
-      - **Chobble Tickets** is open source with no branding requirements on
-        self-hosted instances.
+      **Hi.Events** uses AGPL-3.0 with additional terms. The free self-hosted
+      version requires a visible "Powered by Hi.Events" link. To remove
+      branding, you need a commercial licence:
+
+      - **Single Domain** — €999 + VAT (~£840) for one production domain
+      - **Agency Bundle** — €3,499 + VAT for 5 domains/installations
+      - **Multi-Tenant (SaaS)** — €3,999 + VAT to run your own ticketing
+        platform with tenant billing
+      - **Perpetual licences** are available (€1,799–€6,999 + VAT) so you
+        never pay for upgrades again
+
+      **Chobble Tickets** is open source with no branding requirements and no
+      commercial licence needed. Self-host for free, modify as you like, and
+      use your own domain — no extra cost.
+
+  - type: include
+    file: price-comparator-selfhosted.html
+
+  - type: markdown
+    content: |
+      The self-hosted comparison above uses the Hi.Events Single Domain
+      commercial licence (€999/~£840 per year) since most organisations will
+      want to remove the "Powered by" branding. If you're happy keeping the
+      branding, Hi.Events self-hosted is free — just like Chobble Tickets.
 
       ## When Hi.Events might be better
 

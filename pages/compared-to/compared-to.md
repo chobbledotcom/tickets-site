@@ -42,6 +42,9 @@ blocks:
       - icon: "hugeicons:source-code"
         title: vs Hi.Events
         description: Another open source option - an honest comparison of two similar platforms.
+      - icon: "hugeicons:open-source"
+        title: vs Pretix
+        description: Another open source option targeting enterprise — compare hosted and self-hosted costs.
 
   - type: cta
     title: Try it yourself
