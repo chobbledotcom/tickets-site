@@ -69,27 +69,41 @@ blocks:
 
       **Fatsoma has features Chobble Tickets doesn't:**
 
-      - **Rep/affiliate network** — a built-in system for promoters to sell
-        tickets on your behalf and earn commission, with tracking dashboards
-        showing which reps are driving the most sales
-      - **Event discovery platform** — Fatsoma's website and app help
-        attendees find events, mainly student and nightlife focused, with
-        a large UK student audience
-      - **Built-in social media promotion tools** — tools for promoting
-        events across social channels with shareable links and tracking
-      - **Promo codes and discounts** — create discount codes with usage
-        limits and expiry dates
-      - **Multiple ticket types per event** — early bird, VIP, group, and
-        standard tiers on a single event with different prices and
-        descriptions
-      - **Guest list management** — manage guest lists and comps separate
-        from standard ticket sales
-      - **Attendee messaging** — send bulk emails and updates to ticket
-        holders before and after events
-      - **Analytics dashboard** — track ticket sales, revenue, and rep
-        performance in real time
-      - **Mobile app for attendees** — Fatsoma's app lets attendees browse
-        events and access their tickets
+      - **Rep/affiliate network** — a built-in system where promoters sell
+        tickets on your behalf and earn configurable commission per ticket
+        type, with rep-only tickets and tracking dashboards showing which
+        reps are driving the most sales. Reps are paid out directly through
+        Fatsoma. See [Fatsoma Reps](https://ticketing.fatsoma.com/f/reps)
+      - **Consumer mobile app** — [the Fatsoma
+        App](https://ticketing.fatsoma.com/f/the-fatsoma-app) is a
+        consumer-facing app where attendees browse and discover events.
+        Fatsoma report that 70% of their ticket sales come through the app
+      - **Follower system** — every ticket buyer automatically becomes a
+        follower you can market to for free with future event announcements
+      - **Push notifications** — [event
+        announcements](https://ticketing.fatsoma.com/f/event-announcements)
+        hit followers' phones via push notification and email
+      - **Cross-sell** — [upsell your other
+        events](https://ticketing.fatsoma.com/f/cross-sell) on the order
+        confirmation screen after each purchase
+      - **Ad pixel tracking** — built-in [retargeting and lookalike
+        audience](https://ticketing.fatsoma.com/f/ad-pixels) support for
+        Facebook and other ad platforms
+      - **Customer questions at checkout** — structured data capture (age,
+        gender, social handles, phone, location) with [profile
+        saving](https://ticketing.fatsoma.com/f/customer-questions) across
+        events
+      - **Promo codes** — discount codes, presale codes, and hidden ticket
+        access codes
+      - **Event discovery platform** — Fatsoma's website and app function
+        as a marketplace where attendees browse and discover events,
+        particularly strong in student and nightlife markets
+      - **Fatsoma Chat** — social sharing features within the consumer app
+      - **Custom branded apps** — on the Professional tier (~£1,500),
+        Fatsoma builds custom branded iOS/Android apps and websites for
+        your events
+      - **Fast 3-tap checkout** — streamlined checkout with Apple Pay,
+        Google Pay, and saved card details
 
       **Chobble Tickets has features Fatsoma doesn't:**
 
@@ -150,6 +164,8 @@ blocks:
 
       - [Fatsoma pricing](https://ticketing.fatsoma.com/pricing) — 10% per ticket (minimum £1), plus Stripe processing
       - [Fatsoma for Business](https://ticketing.fatsoma.com/) — event ticketing and promotion platform
+      - [Fatsoma Reps](https://ticketing.fatsoma.com/f/reps) — affiliate/rep network feature
+      - [The Fatsoma App](https://ticketing.fatsoma.com/f/the-fatsoma-app) — consumer mobile app
       - [Chobble Tickets features](/features/)
 
   - type: cta
