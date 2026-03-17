@@ -22,28 +22,28 @@ blocks:
       Click through to see a detailed comparison with each platform.
     items:
       - icon: "hugeicons:ticket-01"
-        title: vs BookitBee
+        title: '<a href="/compared-to/bookitbee/">vs BookitBee</a>'
         description: A UK-focused ticketing platform with per-ticket fees - compare pricing and features.
       - icon: "hugeicons:ticket-01"
-        title: vs Eventbrite
+        title: '<a href="/compared-to/eventbrite/">vs Eventbrite</a>'
         description: The big name in ticketing - see how an open source alternative measures up.
       - icon: "hugeicons:heart-check"
-        title: vs Parentkind
+        title: '<a href="/compared-to/parentkind/">vs Parentkind</a>'
         description: Popular with schools and PTAs - compare ease of use and cost.
       - icon: "hugeicons:ticket-01"
-        title: vs Ticketmaster
+        title: '<a href="/compared-to/ticketmaster/">vs Ticketmaster</a>'
         description: Built for massive venues - see when Chobble Tickets is the better choice.
       - icon: "hugeicons:pencil-edit-01"
-        title: vs Pen and Paper
+        title: '<a href="/compared-to/pen-and-paper/">vs Pen and Paper</a>'
         description: Sometimes low-tech works - see when it's worth upgrading to software.
       - icon: "hugeicons:file-02"
-        title: vs Google Forms
+        title: '<a href="/compared-to/google-forms/">vs Google Forms</a>'
         description: Free and flexible, but not built for ticketing - see the differences.
       - icon: "hugeicons:source-code"
-        title: vs Hi.Events
+        title: '<a href="/compared-to/hi-events/">vs Hi.Events</a>'
         description: Another open source option - an honest comparison of two similar platforms.
       - icon: "hugeicons:open-source"
-        title: vs Pretix
+        title: '<a href="/compared-to/pretix/">vs Pretix</a>'
         description: Another open source option targeting enterprise — compare hosted and self-hosted costs.
 
   - type: cta
