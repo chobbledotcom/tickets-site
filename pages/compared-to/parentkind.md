@@ -8,7 +8,6 @@ permalink: /compared-to/parentkind/
 eleventyNavigation:
   key: vs Parentkind
   parent: Compared To
-  order: 3
 blocks:
   - type: hero
     full_width: true

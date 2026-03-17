@@ -8,7 +8,6 @@ permalink: /compared-to/fatsoma/
 eleventyNavigation:
   key: vs Fatsoma
   parent: Compared To
-  order: 9
 blocks:
   - type: hero
     full_width: true

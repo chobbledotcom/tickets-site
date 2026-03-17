@@ -10,7 +10,6 @@ permalink: /compared-to/hi-events/
 eleventyNavigation:
   key: vs Hi.Events
   parent: Compared To
-  order: 6
 blocks:
   - type: hero
     full_width: true

@@ -8,7 +8,6 @@ permalink: /compared-to/resident-advisor/
 eleventyNavigation:
   key: vs Resident Advisor
   parent: Compared To
-  order: 10
 blocks:
   - type: hero
     full_width: true

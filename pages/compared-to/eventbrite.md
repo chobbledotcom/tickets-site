@@ -8,7 +8,6 @@ permalink: /compared-to/eventbrite/
 eleventyNavigation:
   key: vs Eventbrite
   parent: Compared To
-  order: 0
 blocks:
   - type: hero
     full_width: true

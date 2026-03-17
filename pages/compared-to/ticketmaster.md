@@ -8,7 +8,6 @@ permalink: /compared-to/ticketmaster/
 eleventyNavigation:
   key: vs Ticketmaster
   parent: Compared To
-  order: 2
 blocks:
   - type: hero
     full_width: true

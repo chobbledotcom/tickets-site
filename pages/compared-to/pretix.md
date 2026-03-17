@@ -10,7 +10,6 @@ permalink: /compared-to/pretix/
 eleventyNavigation:
   key: vs Pretix
   parent: Compared To
-  order: 5
 blocks:
   - type: hero
     full_width: true
