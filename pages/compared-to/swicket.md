@@ -59,7 +59,7 @@ blocks:
 
       ## Feature comparison
 
-      **Both alf.io/Swicket and Chobble Tickets handle:**
+      **Both alf.io / Swicket and Chobble Tickets handle:**
 
       - Online ticket sales with payment processing
       - QR code scanning for check-in at the door
@@ -71,7 +71,7 @@ blocks:
       - Self-hosting option
       - API access for custom integrations
 
-      **alf.io/Swicket has features Chobble Tickets doesn't:**
+      **alf.io / Swicket has features Chobble Tickets doesn't:**
 
       - **Multiple payment gateways** — Stripe, Mollie, Revolut, PayPal, bank
         transfer, and on-site payments, compared to Chobble's Stripe or Square
@@ -101,7 +101,7 @@ blocks:
       - **Enterprise SLA** (Swicket) — 99.95% uptime guarantee with 24/7
         monitoring and dedicated account management
 
-      **Chobble Tickets has features alf.io/Swicket doesn't:**
+      **Chobble Tickets has features alf.io / Swicket doesn't:**
 
       - **[End-to-end encryption](/features/encrypted/)** — attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just
@@ -135,7 +135,7 @@ blocks:
       - **Community Interest Company** — run by a CIC, not a commercial
         software studio
 
-      ## When Swicket/alf.io might be the better choice
+      ## When Swicket / alf.io might be the better choice
 
       - You're running a large conference or medical congress with thousands of
         attendees
