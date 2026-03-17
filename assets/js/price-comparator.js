@@ -1,60 +1,69 @@
 (function () {
-  var el = document.getElementById("price-comparator");
-  if (!el) return;
-  var config = JSON.parse(el.getAttribute("data-config"));
-  var ch = config.chobble;
-  var co = config.competitor;
-
-  var f = function (n) {
-    return n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-  };
-
-  var ts = document.getElementById("pc-tickets");
-  var ps = document.getElementById("pc-price");
-
-  function calc(x, t, p) {
-    var pf = t * (p * x.tp / 100 + x.tf);
-    var pr = t * (p * x.pp / 100 + x.pf);
-    return { a: x.a, pf: pf, pr: pr, tot: x.a + pf + pr };
+  var containers = document.querySelectorAll(".price-comparator");
+  for (var i = 0; i < containers.length; i++) {
+    initComparator(containers[i]);
   }
 
-  function update() {
-    var t = parseInt(ts.value, 10);
-    var p = parseFloat(ps.value);
-    document.getElementById("pc-ticket-count").textContent = t.toLocaleString();
-    document.getElementById("pc-ticket-price").textContent = f(p);
+  function initComparator(el) {
+    var config = JSON.parse(el.getAttribute("data-config"));
+    var ch = config.chobble;
+    var co = config.competitor;
 
-    var a = calc(ch, t, p);
-    var b = calc(co, t, p);
+    var f = function (n) {
+      return n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    };
 
-    document.getElementById("pc-chobble-annual").innerHTML = "\u00A3" + f(a.a);
-    document.getElementById("pc-chobble-platform").innerHTML = "\u00A3" + f(a.pf);
-    document.getElementById("pc-chobble-processing").innerHTML = "\u00A3" + f(a.pr);
-    document.getElementById("pc-chobble-total").innerHTML = "\u00A3" + f(a.tot);
-    document.getElementById("pc-chobble-per-ticket").innerHTML = t > 0 ? "\u00A3" + f(a.tot / t) : "\u2014";
+    var q = function (sel) {
+      return el.querySelector(sel);
+    };
 
-    document.getElementById("pc-comp-annual").innerHTML = "\u00A3" + f(b.a);
-    document.getElementById("pc-comp-platform").innerHTML = "\u00A3" + f(b.pf);
-    document.getElementById("pc-comp-processing").innerHTML = "\u00A3" + f(b.pr);
-    document.getElementById("pc-comp-total").innerHTML = "\u00A3" + f(b.tot);
-    document.getElementById("pc-comp-per-ticket").innerHTML = t > 0 ? "\u00A3" + f(b.tot / t) : "\u2014";
+    var ts = q("[data-pc='tickets']");
+    var ps = q("[data-pc='price']");
 
-    var s = document.getElementById("pc-savings");
-    var d = b.tot - a.tot;
-    s.className = "price-comparator__savings";
-    if (d > 0.01) {
-      s.innerHTML = "You save <strong>\u00A3" + f(d) + "/year</strong> with Chobble Tickets";
-      s.classList.add("price-comparator__savings--positive");
-    } else if (d < -0.01) {
-      s.innerHTML = co.n + " is <strong>\u00A3" + f(Math.abs(d)) + "/year</strong> cheaper at this volume";
-      s.classList.add("price-comparator__savings--negative");
-    } else {
-      s.innerHTML = "Both platforms cost about the same at this volume";
-      s.classList.add("price-comparator__savings--neutral");
+    function calc(x, t, p) {
+      var pf = t * (p * x.tp / 100 + x.tf);
+      var pr = t * (p * x.pp / 100 + x.pf);
+      return { a: x.a, pf: pf, pr: pr, tot: x.a + pf + pr };
     }
-  }
 
-  ts.addEventListener("input", update);
-  ps.addEventListener("input", update);
-  update();
+    function update() {
+      var t = parseInt(ts.value, 10);
+      var p = parseFloat(ps.value);
+      q("[data-pc='ticket-count']").textContent = t.toLocaleString();
+      q("[data-pc='ticket-price']").textContent = f(p);
+
+      var a = calc(ch, t, p);
+      var b = calc(co, t, p);
+
+      q("[data-pc='chobble-annual']").innerHTML = "\u00A3" + f(a.a);
+      q("[data-pc='chobble-platform']").innerHTML = "\u00A3" + f(a.pf);
+      q("[data-pc='chobble-processing']").innerHTML = "\u00A3" + f(a.pr);
+      q("[data-pc='chobble-total']").innerHTML = "\u00A3" + f(a.tot);
+      q("[data-pc='chobble-per-ticket']").innerHTML = t > 0 ? "\u00A3" + f(a.tot / t) : "\u2014";
+
+      q("[data-pc='comp-annual']").innerHTML = "\u00A3" + f(b.a);
+      q("[data-pc='comp-platform']").innerHTML = "\u00A3" + f(b.pf);
+      q("[data-pc='comp-processing']").innerHTML = "\u00A3" + f(b.pr);
+      q("[data-pc='comp-total']").innerHTML = "\u00A3" + f(b.tot);
+      q("[data-pc='comp-per-ticket']").innerHTML = t > 0 ? "\u00A3" + f(b.tot / t) : "\u2014";
+
+      var s = q("[data-pc='savings']");
+      var d = b.tot - a.tot;
+      s.className = "price-comparator__savings";
+      if (d > 0.01) {
+        s.innerHTML = "You save <strong>\u00A3" + f(d) + "/year</strong> with " + ch.n;
+        s.classList.add("price-comparator__savings--positive");
+      } else if (d < -0.01) {
+        s.innerHTML = co.n + " is <strong>\u00A3" + f(Math.abs(d)) + "/year</strong> cheaper at this volume";
+        s.classList.add("price-comparator__savings--negative");
+      } else {
+        s.innerHTML = "Both platforms cost about the same at this volume";
+        s.classList.add("price-comparator__savings--neutral");
+      }
+    }
+
+    ts.addEventListener("input", update);
+    ps.addEventListener("input", update);
+    update();
+  }
 })();
