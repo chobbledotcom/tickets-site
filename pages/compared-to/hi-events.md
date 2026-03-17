@@ -175,9 +175,12 @@ blocks:
       - **No branding requirements** — Chobble's AGPLv3 licence has no
         "Powered by" requirement; Hi.Events requires visible "Powered by
         Hi.Events" branding unless you buy a $499+ commercial licence
-      - **Edge deployment** — Chobble runs as a single JS file on Bunny
-        CDN edge with minimal infrastructure; Hi.Events needs a
-        traditional server (2 CPU, 4GB RAM minimum)
+      - **Serverless edge deployment** — Chobble compiles to a single JS
+        file that runs on Bunny.net edge scripts with a Bunny.net edge
+        database — no server to manage, no scaling to configure, no
+        database replication to maintain. Hi.Events needs a traditional
+        server (2 CPU, 4GB RAM minimum) that you're responsible for
+        keeping online, updated, and backed up
 
       ## Different philosophies
 
@@ -191,13 +194,14 @@ blocks:
       4GB RAM.
 
       **Chobble Tickets** is built on Deno and compiles to a single
-      JavaScript file that runs as an edge script on Bunny CDN — no
-      traditional server required for the hosted version. It uses libsql
-      for its database and prioritises simplicity, privacy (hybrid RSA/AES
-      encryption for attendee data), and predictable flat-rate pricing.
-      It's aimed at community groups, schools, small organisers, and anyone
-      who values data ownership over feature density. It's run by a
-      Community Interest Company, not a traditional startup.
+      JavaScript file that runs as an edge script on Bunny.net — no
+      traditional server required. It uses a Bunny.net edge database, so
+      there's no server to manage, no scaling to worry about, and no
+      database replication to configure. It prioritises simplicity, privacy
+      (hybrid RSA/AES encryption for attendee data), and predictable
+      flat-rate pricing. It's aimed at community groups, schools, small
+      organisers, and anyone who values data ownership over feature density.
+      It's run by a Community Interest Company, not a traditional startup.
 
       ## Licensing and self-hosted costs
 
@@ -242,7 +246,7 @@ blocks:
 
       - You want predictable, flat-rate pricing with no per-ticket fees
       - Privacy and encryption matter to you
-      - You prefer a simpler, edge-deployed platform with minimal infrastructure
+      - You prefer a serverless, edge-deployed platform with no server management
       - You're a community group, charity, or school (£25/year)
       - You want Apple/Google Wallet integration, calendar feeds, or RSS
       - You value a Community Interest Company over a traditional startup
