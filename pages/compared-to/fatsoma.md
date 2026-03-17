@@ -78,8 +78,8 @@ blocks:
 
       **Chobble Tickets has features Fatsoma doesn't:**
 
-      - **End-to-end encryption** — attendee data is encrypted at rest and
-        in transit, not just stored in a database
+      - **Encrypted attendee data** — PII is encrypted at rest using hybrid
+        RSA/AES encryption, decrypted server-side only for authorised admins
       - **Apple & Google Wallet tickets** — attendees can add tickets to
         their phone wallet
       - **ICS calendar feeds** — subscribers get automatic calendar updates
