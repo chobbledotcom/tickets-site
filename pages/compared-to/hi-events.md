@@ -116,6 +116,16 @@ blocks:
         presales, VIP access, or invite-only events
       - **Capacity groups** — named capacity groups (VIP, main floor, etc.)
         with shared limits across ticket types
+      - **Abandoned cart handling** — detect and act on incomplete
+        checkouts to recover lost sales
+      - **Event badge designer** — a browser-based badge design tool for
+        printing attendee badges at events
+      - **SEO tools** — per-event custom meta titles, descriptions, Open
+        Graph images, and XML sitemap generation
+      - **Offline payment methods** — record and track cash, bank
+        transfer, or other non-digital payments
+      - **Marketing opt-in** — checkbox during checkout for attendees to
+        opt into marketing communications
 
       **Chobble Tickets has features Hi.Events doesn't:**
 
