@@ -88,6 +88,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "Fatsoma fees: 10% per ticket (minimum £1), plus Stripe processing (1.5% + 20p). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: ticketing.fatsoma.com/pricing (March 2026)."
   },
+  "resident_advisor": {
+    "name": "Resident Advisor",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 10,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0,
+    "fee_note": "Resident Advisor fees: approximately 10% per ticket (includes payment processing). RA does not publicly list exact fees — they are negotiated with promoters. The 10% figure is widely cited by third-party comparison sites. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Sources: weticket.com, support.ra.co (March 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,
