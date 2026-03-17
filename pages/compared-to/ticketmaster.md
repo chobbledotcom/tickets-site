@@ -52,6 +52,15 @@ blocks:
       considering whether you actually need it, here's what each platform
       offers:
 
+      **Both sites share some features:**
+
+      - Online ticket sales with payment processing
+      - QR code or barcode scanning for entry
+      - Email confirmations to ticket holders
+      - Capacity management to prevent overselling
+      - Refund processing
+      - Mobile-friendly booking experience
+
       **Ticketmaster has features Chobble Tickets doesn't:**
 
       - **Massive distribution network** — Ticketmaster reaches millions of
@@ -126,10 +135,19 @@ blocks:
         attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** — per-date
         capacity with calendar picker
+      - **[Event groups](/features/groups/)** — organise related events
+        into collections for multi-event bookings with a single checkout
       - **[Public API](/features/public-api/)** and
         **[webhooks](/features/webhooks/)** — build custom integrations
+      - **[Custom email providers](/features/email-providers/)** — use
+        Resend, Postmark, SendGrid, or Mailgun so emails come from your
+        domain, not the platform's
+      - **[Customisable email templates](/features/email-templates/)** —
+        full control over confirmation emails with Liquid syntax
       - **[Custom domain](/features/custom-domain/)** — your ticketing at
         your own web address
+      - **Apple Pay and Google Pay** — accept wallet payments at checkout
+        via Stripe
       - **Transparent pricing** — no hidden fees, no negotiations
       - **Community Interest Company** — run by a CIC, not a monopoly
 

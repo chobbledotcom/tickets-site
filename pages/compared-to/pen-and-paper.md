@@ -19,6 +19,14 @@ blocks:
 
   - type: markdown
     content: |
+      **Both approaches share some things:**
+
+      - Keeping a list of who's coming
+      - Checking people in at the door
+      - Working without an internet connection (pen and paper always works;
+        Chobble Tickets QR codes work offline once loaded)
+      - No mandatory attendee account required
+
       ## When pen and paper works
 
       For a small gathering where you know everyone, pen and paper is fine.

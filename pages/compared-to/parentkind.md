@@ -58,6 +58,16 @@ blocks:
     content: |
       ## Feature comparison
 
+      **Both sites share some features:**
+
+      - Online ticket sales via Stripe
+      - QR code scanning for check-in at the door
+      - Email confirmations to attendees after booking
+      - Capacity management to prevent overselling
+      - Free event support with no payment setup required
+      - Refund processing
+      - Apple Pay and Google Pay at checkout (via Stripe)
+
       ### Ticketing and events
 
       Both platforms handle the basics: creating events, selling tickets, and
@@ -167,8 +177,15 @@ blocks:
         add tickets to their phone wallet.
       - **[RSS and calendar feeds](/features/rss-and-calendar-feeds/)**:
         Subscribers get automatic updates.
+      - **[Event groups](/features/groups/)**: Organise related events
+        into collections for multi-event bookings with a single checkout.
       - **[Custom email providers](/features/email-providers/)**: Use Resend,
-        Postmark, SendGrid, or Mailgun.
+        Postmark, SendGrid, or Mailgun so emails come from your domain.
+      - **[Customisable email templates](/features/email-templates/)**: Full
+        control over confirmation emails with Liquid syntax for a fully
+        white-label experience.
+      - **Apple Pay and Google Pay**: Accept wallet payments at checkout via
+        Stripe.
       - **[Embeddable widget](/features/embeddable-widget/)**: Drop an iframe
         into your existing school website.
       - **No membership required**: Sign up and start selling tickets

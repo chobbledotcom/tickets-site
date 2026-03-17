@@ -41,6 +41,19 @@ blocks:
       Eventbrite is a massive platform with features Chobble Tickets doesn't
       have, and vice versa. Here's an honest breakdown:
 
+      **Both sites share some features:**
+
+      - Online ticket sales with payment processing via Stripe
+      - Apple Pay and Google Pay at checkout (via Stripe)
+      - QR code scanning for check-in at the door
+      - Email confirmations to attendees after booking
+      - Capacity management to prevent overselling
+      - Free event support with no payment setup required
+      - Refund processing from the admin panel
+      - Embeddable ticket widgets for your own website
+      - API access for custom integrations
+      - Event grouping into collections for multi-event bookings
+
       **Eventbrite has features Chobble Tickets doesn't:**
 
       - **Event discovery marketplace** — [90 million+ active ticket
@@ -142,8 +155,11 @@ blocks:
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration for custom integrations
       - **[Custom email providers](/features/email-providers/)** — use
-        Resend, Postmark, SendGrid, or Mailgun instead of the platform's
-        built-in emails
+        Resend, Postmark, SendGrid, or Mailgun so emails come from your
+        domain, not the platform's
+      - **[Customisable email templates](/features/email-templates/)** —
+        full control over confirmation emails with Liquid syntax for a
+        fully white-label experience
       - **[Custom domain](/features/custom-domain/)** — your ticketing lives
         at your own web address, not eventbrite.co.uk
       - **No marketing to your attendees** — your audience stays yours,
