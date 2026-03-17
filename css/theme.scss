@@ -115,6 +115,10 @@
   text-align: center;
 }
 
+.price-comparator__zero {
+  color: #7ddf7d;
+}
+
 .price-comparator__total-row td {
   padding-top: 0.75rem;
   border-top: 1px solid var(--color-tint, #4a2260);

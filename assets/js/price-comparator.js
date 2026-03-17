@@ -17,6 +17,10 @@
       return el.querySelector(sel);
     };
 
+    var setZero = function (cell, val) {
+      cell.classList.toggle("price-comparator__zero", val === 0);
+    };
+
     var ts = q("[data-pc='tickets']");
     var ps = q("[data-pc='price']");
 
@@ -41,22 +45,46 @@
       var a = calc(ch, t, p);
       var b = calc(co, t, p);
 
-      q("[data-pc='chobble-annual']").innerHTML = "\u00A3" + f(a.a);
-      q("[data-pc='chobble-platform']").innerHTML = "\u00A3" + f(a.pf);
-      q("[data-pc='chobble-processing']").innerHTML = "\u00A3" + f(a.pr);
-      q("[data-pc='chobble-total']").innerHTML = "\u00A3" + f(a.tot);
-      q("[data-pc='chobble-per-ticket']").innerHTML = t > 0 ? "\u00A3" + f(a.tot / t) : "\u2014";
+      var chAnnual = q("[data-pc='chobble-annual']");
+      var chPlatform = q("[data-pc='chobble-platform']");
+      var chProcessing = q("[data-pc='chobble-processing']");
+      var chTotal = q("[data-pc='chobble-total']");
+      var chPerTicket = q("[data-pc='chobble-per-ticket']");
+
+      chAnnual.innerHTML = "\u00A3" + f(a.a);
+      chPlatform.innerHTML = "\u00A3" + f(a.pf);
+      chProcessing.innerHTML = "\u00A3" + f(a.pr);
+      chTotal.innerHTML = "\u00A3" + f(a.tot);
+      chPerTicket.innerHTML = t > 0 ? "\u00A3" + f(a.tot / t) : "\u2014";
+
+      setZero(chAnnual, a.a);
+      setZero(chPlatform, a.pf);
+      setZero(chProcessing, a.pr);
+      setZero(chTotal, a.tot);
+      setZero(chPerTicket, t > 0 ? a.tot / t : -1);
 
       var chShare = q("[data-pc='chobble-share']");
       if (chShare) {
         chShare.innerHTML = "\u00A3" + f(takings - a.tot);
       }
 
-      q("[data-pc='comp-annual']").innerHTML = "\u00A3" + f(b.a);
-      q("[data-pc='comp-platform']").innerHTML = "\u00A3" + f(b.pf);
-      q("[data-pc='comp-processing']").innerHTML = "\u00A3" + f(b.pr);
-      q("[data-pc='comp-total']").innerHTML = "\u00A3" + f(b.tot);
-      q("[data-pc='comp-per-ticket']").innerHTML = t > 0 ? "\u00A3" + f(b.tot / t) : "\u2014";
+      var compAnnual = q("[data-pc='comp-annual']");
+      var compPlatform = q("[data-pc='comp-platform']");
+      var compProcessing = q("[data-pc='comp-processing']");
+      var compTotal = q("[data-pc='comp-total']");
+      var compPerTicket = q("[data-pc='comp-per-ticket']");
+
+      compAnnual.innerHTML = "\u00A3" + f(b.a);
+      compPlatform.innerHTML = "\u00A3" + f(b.pf);
+      compProcessing.innerHTML = "\u00A3" + f(b.pr);
+      compTotal.innerHTML = "\u00A3" + f(b.tot);
+      compPerTicket.innerHTML = t > 0 ? "\u00A3" + f(b.tot / t) : "\u2014";
+
+      setZero(compAnnual, b.a);
+      setZero(compPlatform, b.pf);
+      setZero(compProcessing, b.pr);
+      setZero(compTotal, b.tot);
+      setZero(compPerTicket, t > 0 ? b.tot / t : -1);
 
       var coShare = q("[data-pc='comp-share']");
       if (coShare) {
