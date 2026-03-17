@@ -70,12 +70,14 @@ blocks:
       - Open source code (alf.io: GPLv3; Chobble Tickets: AGPLv3)
       - Self-hosting option
       - API access for custom integrations
+      - **Apple Wallet and Google Wallet** — attendees can save tickets to their
+        phone wallet (alf.io supports Apple Pass and Google Wallet natively)
 
       **alf.io / Swicket has features Chobble Tickets doesn't:**
 
       - **Multiple payment gateways** — Stripe, Mollie, Revolut, PayPal, bank
         transfer, and on-site payments, compared to Chobble's Stripe or Square
-      - **11+ languages** (alf.io) / **50+ languages** (Swicket) — built-in
+      - **14 languages** (alf.io) / **50+ languages** (Swicket) — built-in
         internationalisation for multilingual events
       - **Offline check-in stations** — alf.io-PI runs on Raspberry Pi
         hardware with local encryption and cross-station duplicate prevention
@@ -108,8 +110,6 @@ blocks:
         row-level database security
       - **Transparent flat pricing** — £50/year managed hosting with no
         per-ticket fees, no sales calls, no contract negotiation
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
-        attendees can add tickets to their phone wallet
       - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
         subscribers get automatic calendar updates
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
@@ -144,7 +144,7 @@ blocks:
       - You need deep CRM integration with Salesforce or HubSpot
       - You want exhibitor lead capture with badge scanning
       - You need offline check-in stations (alf.io-PI on Raspberry Pi)
-      - You need multilingual registration across 11–50+ languages
+      - You need multilingual registration across 14–50+ languages
       - You want PayPal, Mollie, Revolut, or bank transfer alongside Stripe
       - You require enterprise SLAs and dedicated support (Swicket managed)
       - Budget is not a concern and you want a fully managed enterprise
@@ -157,8 +157,8 @@ blocks:
       - Privacy and [encryption](/features/encrypted/) matter to you — not
         just row-level security but end-to-end encryption
       - You want to start immediately without a sales call or contract
-      - You want [Apple/Google Wallet](/features/apple-wallet/), [calendar
-        feeds](/features/rss-and-calendar-feeds/), or [RSS](/features/rss-and-calendar-feeds/)
+      - You want [calendar feeds](/features/rss-and-calendar-feeds/) or
+        [RSS](/features/rss-and-calendar-feeds/)
       - You don't want a platform marketing to your attendees
       - You're a charity or community group (£25/year)
       - You want [custom email templates](/features/email-templates/),
