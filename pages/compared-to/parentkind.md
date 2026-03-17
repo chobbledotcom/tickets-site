@@ -35,9 +35,10 @@ blocks:
 
       With Parentkind, the costs add up from several layers:
 
-      - **Parentkind membership**: from £115/year depending on school size
-      - **PTA Events platform fee**: 3.95% per transaction on the Plus plan,
-        or 1.50% on the Premium plan (which has an additional annual charge)
+      - **Parentkind membership**: from £121/year by Direct Debit for schools
+        with 100 pupils or fewer (£171 for schools with 101+ pupils)
+      - **PTA Events platform fee**: 3.95% per transaction on the Starter
+        plan, or 1.50% on the Premium plan (which costs £299.99+VAT/year)
       - **Payment processing**: Stripe charges 1.5% + 20p per transaction
         (1.2% + 20p for registered charities)
 
@@ -149,6 +150,18 @@ blocks:
       fees can eat into your fundraising total. It's also a better fit if you
       care about data privacy, want to use your own domain, or need a
       platform that works for non-school events too.
+
+  - type: markdown
+    content: |
+      ## Pricing sources
+
+      The pricing information on this page was verified in March 2026. Fees
+      may change — check the links below for the latest figures.
+
+      - [Parentkind membership fee update (November 2025)](https://www.parentkind.org.uk/pta-membership-fee-update) — from £121/year (Direct Debit, ≤100 pupils)
+      - [PTA Events fees](https://ptaevents.freshdesk.com/support/solutions/articles/17000091635-what-fees-are-charged-) — 3.95% (Starter) or 1.5% (Premium)
+      - [PTA Events transaction costs](https://ptaevents.freshdesk.com/support/solutions/articles/17000089759-how-much-does-it-cost-to-process-transactions-) — Stripe processing fees
+      - [Parentkind website](https://www.parentkind.org.uk)
 
   - type: cta
     title: Simple school event ticketing

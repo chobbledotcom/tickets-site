@@ -22,8 +22,9 @@ blocks:
     content: |
       ## Pricing comparison
 
-      [BookitBee](https://www.bookitbee.com) charges per ticket sold - typically around 5-6% plus a fixed
-      fee per ticket, and for high-volume events those fees add up quickly.
+      [BookitBee](https://www.bookitbee.com) charges per ticket sold - starting from 3.5% per ticket
+      (up to 6.5% for advanced features), with a minimum fee of £1 and a cap
+      of £19.95 per ticket. For high-volume events those fees add up quickly.
 
       Chobble Tickets charges a flat £50/year (£25 for charities) with no
       per-ticket fees or percentage cuts, which works out significantly
@@ -49,6 +50,16 @@ blocks:
       presence. If you need phone support or a well-established brand name on
       your tickets, BookitBee may be the better fit, whereas Chobble Tickets
       is newer and more DIY-friendly.
+
+  - type: markdown
+    content: |
+      ## Pricing sources
+
+      The pricing information on this page was verified in March 2026. Fees
+      may change — check the links below for the latest figures.
+
+      - [BookitBee UK pricing](https://bookitbee.com/pricing-uk/) — from 3.5% per ticket, min £1, max £19.95 cap
+      - [BookitBee features](https://www.bookitbee.com/features/)
 
   - type: cta
     title: Try Chobble Tickets

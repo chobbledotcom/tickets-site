@@ -58,6 +58,16 @@ blocks:
       includes ICS calendar and RSS feeds, a public API, embeddable widgets,
       and pay-what-you-want pricing - all included in the flat annual fee.
 
+  - type: markdown
+    content: |
+      ## Pricing sources
+
+      The pricing information on this page was verified in March 2026. Fees
+      may change — check the links below for the latest figures.
+
+      - [Eventbrite pricing for organisers](https://www.eventbrite.co.uk/organizer/pricing/) — 6.95% + £0.59 per ticket (UK)
+      - [Eventbrite ticketing fees (Help Centre)](https://www.eventbrite.co.uk/help/en-gb/articles/755615/how-much-does-it-cost-for-organizers-to-use-eventbrite/)
+
   - type: cta
     title: Try Chobble Tickets
     description: Keep your data, your revenue, and your sanity.

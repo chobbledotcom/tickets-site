@@ -104,6 +104,17 @@ blocks:
       | QR code scanning | Yes | Yes |
       | Multi-currency | No | Yes |
 
+  - type: markdown
+    content: |
+      ## Pricing sources
+
+      The pricing information on this page was verified in March 2026. Fees
+      may change — check the links below for the latest figures.
+
+      - [Pretix hosted pricing](https://pretix.eu/about/en/pricing) — 2.5% of ticket price (excl. taxes)
+      - [Pretix self-hosted/enterprise pricing](https://pretix.eu/about/en/pricing/selfhosted) — from €499/year (Enterprise Starter)
+      - [Pretix on GitHub](https://github.com/pretix/pretix)
+
   - type: cta
     title: Try Chobble Tickets
     description: Simple, flat-rate ticketing with no percentage fees and no lock-in.

@@ -54,6 +54,12 @@ blocks:
       you can start with the same simplicity as Google Forms and add payments
       later when you need them.
 
+  - type: markdown
+    content: |
+      ## Sources
+
+      - [Google Forms](https://docs.google.com/forms) — free to use with a Google account
+
   - type: cta
     title: Purpose-built ticketing
     description: Everything Google Forms does for RSVPs, plus payments, tickets, and check-in.

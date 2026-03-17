@@ -19,20 +19,20 @@
   "bookitbee": {
     "name": "BookitBee",
     "annual_cost": 0,
-    "per_ticket_fee_percent": 2,
-    "per_ticket_fee_fixed": 0.5,
+    "per_ticket_fee_percent": 3.5,
+    "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "BookitBee fees: 2% + 50p per ticket, plus Stripe processing (1.5% + 20p). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
+    "fee_note": "BookitBee fees: from 3.5% per ticket (up to 6.5% for advanced features), min £1, max £19.95 cap, plus Stripe processing (1.5% + 20p). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: bookitbee.com/pricing-uk (March 2026)."
   },
   "parentkind": {
     "name": "Parentkind",
-    "annual_cost": 115,
+    "annual_cost": 121,
     "per_ticket_fee_percent": 3.95,
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "Parentkind costs: £115/year membership + 3.95% platform fee per transaction + Stripe processing (1.5% + 20p). Chobble Tickets: £50/year flat (£25 for community groups) + Stripe processing (1.5% + 20p)."
+    "fee_note": "Parentkind costs: from £121/year membership (by Direct Debit, schools ≤100 pupils; £171 for 101+ pupils) + 3.95% platform fee per transaction on the Starter plan (1.5% on Premium at £299.99+VAT/year) + Stripe processing (1.5% + 20p). Chobble Tickets: £50/year flat (£25 for community groups) + Stripe processing (1.5% + 20p). Source: parentkind.org.uk/pta-membership-fee-update (November 2025)."
   },
   "ticketmaster": {
     "name": "Ticketmaster",
@@ -54,12 +54,12 @@
   },
   "hi_events_selfhosted": {
     "name": "Hi.Events Self-Hosted",
-    "annual_cost": 840,
+    "annual_cost": 420,
     "per_ticket_fee_percent": 0,
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "Hi.Events Single Domain license: €999 + VAT (approx. £840). AGPL edition is free but requires 'Powered by Hi.Events' branding. Perpetual license: €1,799 + VAT. Chobble Tickets self-hosted: free, no license fee + Stripe processing (1.5% + 20p)."
+    "fee_note": "Hi.Events Single Domain commercial license: $499 (approx. £420). AGPL edition is free but requires 'Powered by Hi.Events' branding. Multi-tenant licenses available at higher tiers — contact Hi.Events for pricing. Chobble Tickets self-hosted: free, no license fee + Stripe processing (1.5% + 20p). Source: hi.events/pricing and hi.events/open-source-event-ticketing (March 2026)."
   },
   "pretix_hosted": {
     "name": "Pretix Hosted",

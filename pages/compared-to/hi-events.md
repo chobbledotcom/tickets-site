@@ -121,12 +121,9 @@ blocks:
       version requires a visible "Powered by Hi.Events" link. To remove
       branding, you need a commercial licence:
 
-      - **Single Domain** — €999 + VAT (~£840) for one production domain
-      - **Agency Bundle** — €3,499 + VAT for 5 domains/installations
-      - **Multi-Tenant (SaaS)** — €3,999 + VAT to run your own ticketing
-        platform with tenant billing
-      - **Perpetual licences** are available (€1,799–€6,999 + VAT) so you
-        never pay for upgrades again
+      - **Single Domain** — $499 (~£420) for one production domain
+      - **Multi-Tenant (SaaS)** — available at higher tiers for running your
+        own ticketing platform (contact Hi.Events for pricing)
 
       **Chobble Tickets** is open source with no branding requirements and no
       commercial licence needed. Self-host for free, modify as you like, and
@@ -138,9 +135,11 @@ blocks:
   - type: markdown
     content: |
       The self-hosted comparison above uses the Hi.Events Single Domain
-      commercial licence (€999/~£840 per year) since most organisations will
-      want to remove the "Powered by" branding. If you're happy keeping the
-      branding, Hi.Events self-hosted is free — just like Chobble Tickets.
+      commercial licence ($499/~£420) since most organisations will want to
+      remove the "Powered by" branding. Note that the Single Domain licence
+      is perpetual for the covered version — you don't pay annually. If
+      you're happy keeping the branding, Hi.Events self-hosted is free —
+      just like Chobble Tickets.
 
       ## When Hi.Events might be better
 
@@ -160,6 +159,18 @@ blocks:
       - You're a community group, charity, or school (£25/year)
       - You want Apple Wallet integration, calendar feeds, or RSS
       - You value a Community Interest Company over a traditional startup
+
+  - type: markdown
+    content: |
+      ## Pricing sources
+
+      The pricing information on this page was verified in March 2026. Fees
+      may change — check the links below for the latest figures.
+
+      - [Hi.Events pricing](https://hi.events/pricing) — 0.75% + 40¢ per ticket (cloud)
+      - [Hi.Events open source / self-hosted](https://hi.events/open-source-event-ticketing) — $499 single domain commercial licence
+      - [Hi.Events Single Domain licence terms](https://hi.events/single-domain-licence)
+      - [Hi.Events on GitHub](https://github.com/HiEventsDev/Hi.Events)
 
   - type: cta
     title: Try Chobble Tickets
