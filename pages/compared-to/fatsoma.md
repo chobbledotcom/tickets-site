@@ -65,6 +65,16 @@ blocks:
 
       ## Feature comparison
 
+      **Both sites share some features:**
+
+      - Online ticket sales with Stripe payment processing
+      - Apple Pay and Google Pay at checkout (via Stripe)
+      - QR code scanning for check-in at the door
+      - Email confirmations to attendees after booking
+      - Capacity management to prevent overselling
+      - Free event support with no payment setup required
+      - Refund processing
+
       Fatsoma has some features Chobble Tickets doesn't, and vice versa:
 
       **Fatsoma has features Chobble Tickets doesn't:**
@@ -102,8 +112,8 @@ blocks:
       - **Custom branded apps** — on the Professional tier (~£1,500),
         Fatsoma builds custom branded iOS/Android apps and websites for
         your events
-      - **Fast 3-tap checkout** — streamlined checkout with Apple Pay,
-        Google Pay, and saved card details
+      - **Fast 3-tap checkout** — streamlined checkout with saved card
+        details via the Fatsoma app
 
       **Chobble Tickets has features Fatsoma doesn't:**
 
@@ -129,8 +139,14 @@ blocks:
         building custom integrations
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration
+      - **[Event groups](/features/groups/)** — organise related events
+        into collections for multi-event bookings with a single checkout
       - **[Custom email providers](/features/email-providers/)** — use
-        Resend, Postmark, SendGrid, or Mailgun
+        Resend, Postmark, SendGrid, or Mailgun so emails come from your
+        domain, not the platform's
+      - **[Customisable email templates](/features/email-templates/)** —
+        full control over confirmation emails with Liquid syntax for a
+        fully white-label experience
       - **[Embeddable widget](/features/embeddable-widget/)** — drop an
         iframe into your existing website
       - **No marketing emails to attendees** — your audience stays yours

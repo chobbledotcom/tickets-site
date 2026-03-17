@@ -30,9 +30,24 @@ blocks:
       match. Chobble Tickets is built for smaller organisers who want something
       simple, affordable, and transparent.
 
-      Both are open source (AGPLv3), both support self-hosting, and both
-      integrate with Stripe for payment processing. The differences are in
-      pricing, complexity, and who they're designed for.
+      **Both sites share some features:**
+
+      - Open source under AGPLv3
+      - Self-hosting option with no licence fee for core features
+      - Stripe payment processing
+      - Apple Pay and Google Pay at checkout (via Stripe)
+      - QR code scanning for check-in at the door
+      - API access for custom integrations
+      - Capacity management to prevent overselling
+      - Email confirmations to attendees after booking
+      - Free event support with no payment setup required
+      - Daily and recurring event support
+      - Refund processing
+      - Custom domain support
+      - Webhooks for custom integrations
+
+      The differences are in pricing, complexity, and who they're designed
+      for.
 
       ## Hosted pricing comparison
 
@@ -172,6 +187,8 @@ blocks:
       | [RSS/calendar feeds](/features/rss-and-calendar-feeds/) | Yes | No |
       | [Webhooks](/features/webhooks/) | Yes | Yes (enterprise) |
       | [Pay-what-you-want](/features/stripe-and-square/) | Yes | No |
+      | [Event groups](/features/groups/) | Yes | Yes (with series) |
+      | [White-label emails](/features/email-providers/) | Yes (own domain + templates) | Partial |
       | Promo codes | No | Yes |
       | Waitlists | No | Yes |
       | [Custom domain](/features/custom-domain/) | Yes | Yes (enterprise) |

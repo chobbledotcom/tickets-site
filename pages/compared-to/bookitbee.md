@@ -41,6 +41,16 @@ blocks:
       focus on different things. Here's what each offers that the other
       doesn't:
 
+      **Both sites share some features:**
+
+      - Online ticket sales with Stripe payment processing
+      - Apple Pay and Google Pay at checkout (via Stripe)
+      - QR code scanning for check-in at the door
+      - Email confirmations to attendees after booking
+      - Capacity management to prevent overselling
+      - Free event support with no payment setup required
+      - Refund processing from the admin panel
+
       **[BookitBee](https://www.bookitbee.com/features/) has features
       Chobble Tickets doesn't:**
 
@@ -86,7 +96,6 @@ blocks:
         marketing and communication tools
       - **Real-time sales dashboard** — live analytics showing ticket
         sales, revenue, and attendee demographics
-      - **Apple Pay and Google Pay** — streamlined mobile checkout
 
       **Chobble Tickets has features BookitBee doesn't:**
 
@@ -112,8 +121,14 @@ blocks:
         building custom integrations
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration for custom integrations
+      - **[Event groups](/features/groups/)** — organise related events
+        into collections for multi-event bookings with a single checkout
       - **[Custom email providers](/features/email-providers/)** — use
-        Resend, Postmark, SendGrid, or Mailgun
+        Resend, Postmark, SendGrid, or Mailgun so emails come from your
+        domain
+      - **[Customisable email templates](/features/email-templates/)** —
+        full control over confirmation emails with Liquid syntax for a
+        fully white-label experience
       - **[Custom domain](/features/custom-domain/)** — your ticketing lives
         at your own web address
       - **[Embeddable widget](/features/embeddable-widget/)** — drop an

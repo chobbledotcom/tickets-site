@@ -61,6 +61,19 @@ blocks:
     content: |
       ## Feature comparison
 
+      **Both sites share some features:**
+
+      - Open source with self-hosting option
+      - Stripe payment processing
+      - Apple Pay and Google Pay at checkout (via Stripe)
+      - QR code scanning for check-in at the door
+      - API access for custom integrations
+      - Capacity management to prevent overselling
+      - Email confirmations to attendees after booking
+      - Free event support with no payment setup required
+      - Refund processing
+      - Embeddable ticket widgets for your own website
+
       Both platforms cover the core ticketing basics well, but they differ in
       focus and extras:
 
@@ -143,8 +156,14 @@ blocks:
       - **[Daily/recurring event support](/features/daily-events/)** — built
         specifically for events that repeat on a schedule with per-date
         capacity
+      - **[Event groups](/features/groups/)** — organise related events
+        into collections for multi-event bookings with a single checkout
       - **[Custom email providers](/features/email-providers/)** — use
-        Resend, Postmark, SendGrid, or Mailgun
+        Resend, Postmark, SendGrid, or Mailgun so emails come from your
+        domain, not the platform's
+      - **[Customisable email templates](/features/email-templates/)** —
+        full control over confirmation emails with Liquid syntax for a
+        fully white-label experience
       - **[Markdown event descriptions](/features/markdown-descriptions/)**
         — write content in markdown with header image uploads
       - **[Custom domain support](/features/custom-domain/)** — use your own

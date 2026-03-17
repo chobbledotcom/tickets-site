@@ -25,6 +25,14 @@ blocks:
       registrations, export to a spreadsheet, and share a link. For a simple
       free event with no capacity limit, it gets the job done.
 
+      **Both tools share some features:**
+
+      - Free event registration (no payment required)
+      - Shareable via a simple link
+      - Embeddable on your own website
+      - Works on any device with a browser
+      - Email notifications after submission
+
       **Google Forms has advantages Chobble Tickets doesn't:**
 
       - **Completely free** — no annual fee, no per-ticket fees, no payment
@@ -95,8 +103,17 @@ blocks:
         capacity with calendar picker
       - **[Public API](/features/public-api/)** and
         **[webhooks](/features/webhooks/)** — build custom integrations
+      - **[Event groups](/features/groups/)** — organise related events
+        into collections for multi-event bookings
       - **[RSS and calendar feeds](/features/rss-and-calendar-feeds/)** —
         subscribers get automatic updates
+      - **[Custom email providers](/features/email-providers/)** — use
+        Resend, Postmark, SendGrid, or Mailgun so emails come from your
+        domain
+      - **[Customisable email templates](/features/email-templates/)** —
+        full control over confirmation emails with Liquid syntax
+      - **Apple Pay and Google Pay** — accept wallet payments at checkout
+        via Stripe
 
       ## When Google Forms is fine
 

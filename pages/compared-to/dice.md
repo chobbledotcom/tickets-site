@@ -72,6 +72,15 @@ blocks:
 
       ## Feature comparison
 
+      **Both sites share some features:**
+
+      - Online ticket sales with payment processing
+      - QR code or barcode scanning for entry
+      - Email or in-app confirmations to ticket holders
+      - Capacity management to prevent overselling
+      - Refund processing
+      - Apple Pay and Google Pay at checkout
+
       DICE has some features Chobble Tickets doesn't, and vice versa:
 
       **[DICE](https://dice.fm/partners) has features Chobble Tickets
@@ -137,8 +146,14 @@ blocks:
         building custom integrations
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration
+      - **[Event groups](/features/groups/)** — organise related events
+        into collections for multi-event bookings with a single checkout
       - **[Custom email providers](/features/email-providers/)** — use
-        Resend, Postmark, SendGrid, or Mailgun
+        Resend, Postmark, SendGrid, or Mailgun so emails come from your
+        domain, not the platform's
+      - **[Customisable email templates](/features/email-templates/)** —
+        full control over confirmation emails with Liquid syntax for a
+        fully white-label experience
       - **[Embeddable widget](/features/embeddable-widget/)** — drop an
         iframe into your existing website
       - **No marketing emails to attendees** — your audience stays yours

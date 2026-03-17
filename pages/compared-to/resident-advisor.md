@@ -69,6 +69,16 @@ blocks:
 
       ## Feature comparison
 
+      **Both sites share some features:**
+
+      - Online ticket sales with payment processing
+      - Apple Pay and Google Pay at checkout
+      - QR code or barcode scanning for entry
+      - Email confirmations to ticket holders
+      - Capacity management to prevent overselling
+      - Embeddable ticket widgets for your own website
+      - Refund processing
+
       Resident Advisor has some features Chobble Tickets doesn't, and vice
       versa:
 
@@ -93,9 +103,9 @@ blocks:
         sold-out events
       - **Abandoned basket recovery** — automated emails to fans who
         started but didn't complete checkout, claimed 5% conversion uplift
-      - **2-click checkout** — streamlined payment with Apple Pay, Google
-        Pay, PayPal, iDEAL, Bancontact, and Venmo (US), claimed 33%
-        conversion uplift
+      - **2-click checkout** — streamlined payment with PayPal, iDEAL,
+        Bancontact, and Venmo (US) alongside Apple Pay and Google Pay,
+        claimed 33% conversion uplift
       - **DJ charts, reviews, and mix hosting** — artist profiles, DJ
         charts, album reviews, and music features that drive traffic to
         events and build artist credibility
@@ -141,8 +151,14 @@ blocks:
         building custom integrations
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration
+      - **[Event groups](/features/groups/)** — organise related events
+        into collections for multi-event bookings with a single checkout
       - **[Custom email providers](/features/email-providers/)** — use
-        Resend, Postmark, SendGrid, or Mailgun
+        Resend, Postmark, SendGrid, or Mailgun so emails come from your
+        domain, not the platform's
+      - **[Customisable email templates](/features/email-templates/)** —
+        full control over confirmation emails with Liquid syntax for a
+        fully white-label experience
       - **[Embeddable widget](/features/embeddable-widget/)** — drop an
         iframe into your existing website
       - **No marketing emails to attendees** — your audience stays yours
