@@ -41,35 +41,52 @@ blocks:
       focus on different things. Here's what each offers that the other
       doesn't:
 
-      **BookitBee has features Chobble Tickets doesn't:**
+      **[BookitBee](https://www.bookitbee.com/features/) has features
+      Chobble Tickets doesn't:**
 
-      - **Promo codes and discount management** — create percentage or
-        fixed-amount discount codes, early bird pricing, and group discounts
-        with usage limits and expiry dates
+      - **Social Group Deals** — a viral marketing mechanic where buyers
+        share a unique link, and once enough friends purchase, the original
+        buyer gets a free ticket. BookitBee report this drives up to 50%
+        of sales at some events
+      - **Reserved seating with seat map builder** — create interactive
+        venue maps where attendees pick their own seats, tables, or zones,
+        with a best-available auto-assignment option
+      - **Payment plans and deposits** — collect instalment payments over
+        time for higher-priced events, with renewal tracking and
+        failed-payment handling
+      - **Renewable membership system** — multi-tier memberships with
+        pro-rata mid-year additions, self-service upgrades/downgrades,
+        cancellations, and members-only event gating
+      - **Promo codes and discounts** — create percentage-off discount
+        codes, promotional offers, and campaign-specific URLs with sales
+        tracking
       - **Multiple ticket types per event** — VIP, early bird, group, and
-        standard tiers on a single event, each with different prices,
-        descriptions, and availability windows
-      - **Seating plans** — interactive visual seat selection for venues
-        with assigned seating, letting attendees pick their exact seats
-      - **Ticket resale** — built-in face-value resale marketplace for
-        sold-out events
-      - **Waitlists** — automatically notify attendees when places open up
-        on sold-out events
-      - **Phone and email support** — direct support from a UK-based team
-        during business hours
-      - **Customisable ticket designs** — branded PDF tickets with your logo,
-        colours, and custom layout
-      - **Social sharing tools** — built-in social media sharing prompts to
-        encourage attendees to spread the word after booking
-      - **Affiliate and referral tracking** — track which links, promoters,
-        and affiliates are driving ticket sales with commission tracking
-      - **Attendee messaging** — send bulk emails and updates to ticket
-        holders before and after events
-      - **Custom registration questions** — add custom questions and fields
-        to the booking form beyond standard contact details
-      - **Donation options** — accept donations alongside ticket purchases
-      - **Group booking discounts** — automatic discounts when attendees
-        buy multiple tickets
+        standard tiers on a single event, each with different prices and
+        availability windows
+      - **Cross-selling during checkout** — upsell merchandise, parking
+        passes, drinks tokens, and other events inline during the ticket
+        purchase flow
+      - **Box office POS** — a web-based point-of-sale app for on-the-door
+        sales and scanning, purpose-built for their platform
+      - **11 languages and 30+ currencies** — built-in internationalisation
+        for international events
+      - **White-label branding** — fully customisable booking journeys
+        branded to the organiser, not BookitBee
+      - **PayPal and managed payments** — accept payments via PayPal in
+        addition to Stripe, or use BookitBee's managed payment service
+        (LIVE IT Payments) without setting up your own account
+      - **Invite-only events** — restrict bookings by email address or
+        domain
+      - **Custom registration questions** — mandatory or optional custom
+        fields including free text, date selection, and single/multiple
+        choice
+      - **Facebook Pixel, Google Analytics, and Tag Manager** — built-in
+        tracking and conversion attribution
+      - **Mailchimp and Slack integrations** — connect to your existing
+        marketing and communication tools
+      - **Real-time sales dashboard** — live analytics showing ticket
+        sales, revenue, and attendee demographics
+      - **Apple Pay and Google Pay** — streamlined mobile checkout
 
       **Chobble Tickets has features BookitBee doesn't:**
 
@@ -106,10 +123,16 @@ blocks:
 
       ## When BookitBee might be better
 
-      - You need seating plans with visual seat selection
-      - You want promo codes, early bird pricing, or affiliate tracking
-      - You prefer phone and email support from a UK team
-      - You need branded PDF ticket designs
+      - You want Social Group Deals to drive viral ticket sales
+      - You need reserved seating with a seat map builder
+      - You need payment plans or instalment collection for expensive events
+      - You want a membership system with tiered subscriptions
+      - You need cross-selling of merchandise and extras during checkout
+      - You want white-label branding on the booking journey
+      - You need multi-language (11 languages) or multi-currency (30+)
+        support
+      - You want PayPal as a payment option alongside Stripe
+      - You prefer a box office POS for on-the-door sales
       - You have very low volume and prefer paying per ticket over an annual
         fee
 
