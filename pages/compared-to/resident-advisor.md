@@ -72,33 +72,50 @@ blocks:
       Resident Advisor has some features Chobble Tickets doesn't, and vice
       versa:
 
-      **Resident Advisor has features Chobble Tickets doesn't:**
+      **[Resident Advisor](https://pro.ra.co/ra-tickets) has features
+      Chobble Tickets doesn't:**
 
-      - **Electronic music community** — RA is the leading discovery
-        platform for electronic music events worldwide, with millions of
-        monthly visitors specifically looking for club nights and festivals
-      - **Event discovery and listings** — a massive, engaged audience of
-        clubbers and music fans browsing RA for events by city, genre, and
-        date, which can drive organic ticket sales
-      - **Ticket resale at face value** — built-in resale so fans can
-        resell tickets at face value through RA, with promoters earning
-        additional revenue from resale fees
-      - **DJ charts and reviews** — artist profiles, DJ charts, mix
-        hosting, album reviews, and music features that drive traffic to
+      - **Electronic music community** — RA reaches [57 million unique
+        yearly users](https://pro.ra.co/promoter) across 197 countries,
+        specifically looking for club nights, festivals, and electronic
+        music events
+      - **Automated marketing to 2 million subscribers** — RA sends push
+        notifications, emails, and web notifications to fans who've opted
+        in, promoting your events alongside editorial picks
+      - **Curated editorial and RA Picks** — 50+ local ambassadors curate
+        weekly newsletters and homepage features that drive traffic to
+        events
+      - **RA Bumps** — paid priority placement in event listings to boost
+        visibility above other events
+      - **Ticket resale with anti-tout technology** — built-in face-value
+        resale with barcode withholding until 24 hours before the event to
+        prevent fraud, earning promoters 2-4% additional revenue on
+        sold-out events
+      - **Abandoned basket recovery** — automated emails to fans who
+        started but didn't complete checkout, claimed 5% conversion uplift
+      - **2-click checkout** — streamlined payment with Apple Pay, Google
+        Pay, PayPal, iDEAL, Bancontact, and Venmo (US), claimed 33%
+        conversion uplift
+      - **DJ charts, reviews, and mix hosting** — artist profiles, DJ
+        charts, album reviews, and music features that drive traffic to
         events and build artist credibility
-      - **Global presence in 50+ countries** — established brand
-        recognition and trust in the electronic music scene
-      - **RA Pro analytics** — dedicated analytics dashboard for promoters
-        showing ticket sales trends, audience demographics, and marketing
-        performance via [RA Pro](https://pro.ra.co/)
+      - **Crowd flow and entry time analytics** — post-event data showing
+        when fans arrived, for operational planning and optimisation
+      - **RA Scan app** — barcode scanner with guest list management,
+        real-time attendance monitoring, and live multi-device syncing
+      - **Secret venue reveals** — automated emails revealing the venue
+        location to ticket holders, for invite-only or secret events
+      - **30+ currency support** — sell across 100+ countries with local
+        payment methods
       - **RA Guide** — city guides and venue reviews that drive footfall
         to events and build audience awareness
-      - **Curated event features** — RA editorial team features events on
-        the homepage, in newsletters, and in city guides
-      - **Guest list management** — manage guest lists and comps alongside
-        standard ticket sales
-      - **Multi-currency support** — sell in different currencies across
-        RA's international markets
+      - **Guest list management** — import guest lists, add guests at the
+        door, and manage comps alongside standard ticket sales
+      - **Embeddable ticket widget** — [embed RA ticket
+        sales](https://support.ra.co/article/7-ticket-widget) on your own
+        website
+      - **B-Corp certified** — RA is a certified B-Corp, demonstrating
+        commitment to social and environmental standards
 
       **Chobble Tickets has features Resident Advisor doesn't:**
 
@@ -169,7 +186,8 @@ blocks:
       change — check the links below for the latest information.
 
       - [RA Ticket Fees](https://support.ra.co/article/177-service-fees) — RA's support article on service fees
-      - [RA Tickets](https://ra.co/tickets) — Resident Advisor's ticketing platform overview
+      - [RA Tickets](https://pro.ra.co/ra-tickets) — RA's ticketing features for promoters
+      - [RA Pro for Promoters](https://pro.ra.co/promoter) — promoter tools, analytics, and marketing
       - [RA Pro](https://pro.ra.co/) — information for promoters selling tickets on RA
       - [Resident Advisor on WeTicket](https://www.weticket.com/ticketing-system/resident-advisor) — third-party comparison citing 10% per ticket
       - [Chobble Tickets features](/features/)

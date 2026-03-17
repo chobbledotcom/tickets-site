@@ -74,33 +74,43 @@ blocks:
 
       DICE has some features Chobble Tickets doesn't, and vice versa:
 
-      **DICE has features Chobble Tickets doesn't:**
+      **[DICE](https://dice.fm/partners) has features Chobble Tickets
+      doesn't:**
 
       - **Event discovery app** — DICE's mobile app helps fans discover
         events in their area based on their music tastes, location, and
         past attendance, which can drive extra ticket sales you wouldn't
         get on your own
-      - **Anti-scalping via app** — tickets are locked to the DICE app and
-        can't be screenshotted or forwarded, making them essentially
+      - **Spotify and Apple Music integration** — personalised event
+        recommendations based on fans' listening history, plus checkout
+        through Spotify and YouTube
+      - **Anti-scalping via app lock** — tickets are bound to the DICE app
+        and can't be screenshotted or forwarded, making them essentially
         impossible to resell on secondary markets
       - **Waiting list with face-value resale** — fans can join a waitlist
         for sold-out events, and if a ticket holder can't attend, DICE
-        automatically resells their ticket at face value to someone on the
-        waitlist
-      - **Fan-to-fan ticket transfer** — attendees can transfer tickets
-        through the app with new QR codes generated automatically
-      - **Curated event recommendations** — DICE's algorithm recommends
-        events based on a fan's listening history, past attendance, and
-        location
-      - **Artist and venue tools** — analytics showing who's buying
-        tickets, where fans are coming from, and real-time sales data
+        automatically resells their ticket at face value
+      - **Dynamic pricing** — automatically adjust ticket prices based on
+        demand
+      - **All-in pricing** — fees are bundled into the displayed price so
+        fans see the total cost upfront with no surprise charges at
+        checkout
+      - **Marketing attribution** — track which channels and campaigns are
+        driving ticket sales via the
+        [MIO dashboard](https://mio.dice.fm)
+      - **Algorithmic event recommendations** — personalised discover feed
+        for each fan based on their tastes and location
+      - **Large-scale access hardware** — DICE Access system (powered by
+        Qflow) with laser scanning hardware, zone-based scanning, and
+        time-slot scanning
+      - **Real-time audience insights** — segmentation by genre, spend,
+        and geography via the MIO partner dashboard
       - **DICE TV** — livestreaming platform for virtual events
-      - **Merch sales** — sell merchandise alongside tickets within the
-        DICE app
       - **Multi-currency support** — sell in different currencies across
         DICE's international markets (UK, US, Europe, Australia)
-      - **Instant booking** — one-tap purchases for returning fans with
-        stored payment details
+      - **Partner API** — a [GraphQL Ticket Holders
+        API](https://partners-endpoint.dice.fm/graphql/docs/index.html)
+        for reading events, tickets, orders, returns, and transfers
 
       **Chobble Tickets has features DICE doesn't:**
 
@@ -166,7 +176,9 @@ blocks:
       on industry analysis and publicly available comparisons.
 
       - [DICE](https://dice.fm) — fees negotiated per partnership (not publicly listed)
-      - [DICE for artists](https://dice.fm/partners) — DICE's partner information page
+      - [DICE for partners](https://dice.fm/partners) — DICE's partner information and features
+      - [MIO dashboard](https://mio.dice.fm) — DICE's partner analytics dashboard
+      - [DICE Ticket Holders API](https://partners-endpoint.dice.fm/graphql/docs/index.html) — GraphQL API documentation
       - [Hi.Events DICE comparison](https://hi.events/dice-alternative) — third-party comparison estimating DICE fees
       - [Chobble Tickets features](/features/)
 
