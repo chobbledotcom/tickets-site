@@ -26,18 +26,23 @@
 
     var a = calc(ch, t, p);
     var b = calc(co, t, p);
+    var takings = t * p;
+
+    document.getElementById("pc-takings").innerHTML = "\u00A3" + f(takings);
 
     document.getElementById("pc-chobble-annual").innerHTML = "\u00A3" + f(a.a);
     document.getElementById("pc-chobble-platform").innerHTML = "\u00A3" + f(a.pf);
     document.getElementById("pc-chobble-processing").innerHTML = "\u00A3" + f(a.pr);
     document.getElementById("pc-chobble-total").innerHTML = "\u00A3" + f(a.tot);
     document.getElementById("pc-chobble-per-ticket").innerHTML = t > 0 ? "\u00A3" + f(a.tot / t) : "\u2014";
+    document.getElementById("pc-chobble-share").innerHTML = "\u00A3" + f(takings - a.tot);
 
     document.getElementById("pc-comp-annual").innerHTML = "\u00A3" + f(b.a);
     document.getElementById("pc-comp-platform").innerHTML = "\u00A3" + f(b.pf);
     document.getElementById("pc-comp-processing").innerHTML = "\u00A3" + f(b.pr);
     document.getElementById("pc-comp-total").innerHTML = "\u00A3" + f(b.tot);
     document.getElementById("pc-comp-per-ticket").innerHTML = t > 0 ? "\u00A3" + f(b.tot / t) : "\u2014";
+    document.getElementById("pc-comp-share").innerHTML = "\u00A3" + f(takings - b.tot);
 
     var s = document.getElementById("pc-savings");
     var d = b.tot - a.tot;
