@@ -18,3 +18,107 @@
   --border: 2px solid #561d68;
   --list-marker-color: #d56c10;
 }
+
+.price-comparator {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: var(--color-card-bg, #3d1a4d);
+  border: var(--border, 2px solid #561d68);
+}
+
+.price-comparator__controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.price-comparator__label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.price-comparator__label input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+  accent-color: var(--color-secondary, #ad44ce);
+}
+
+.price-comparator__results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .price-comparator__results {
+    grid-template-columns: 1fr;
+  }
+}
+
+.price-comparator__column {
+  padding: 1rem;
+  border-radius: 6px;
+  background: var(--body-background-alt, #2f0c3a);
+}
+
+.price-comparator__column h3 {
+  margin-top: 0;
+}
+
+.price-comparator__column dl {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.25rem 1rem;
+  margin: 0;
+}
+
+.price-comparator__column dt {
+  text-align: left;
+}
+
+.price-comparator__column dd {
+  text-align: right;
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.price-comparator__total-label,
+.price-comparator__total {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--color-tint, #4a2260);
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
+.price-comparator__per-ticket-label,
+.price-comparator__per-ticket {
+  font-size: 0.9em;
+  opacity: 0.85;
+}
+
+.price-comparator__savings {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.price-comparator__savings--positive {
+  background: rgba(100, 200, 100, 0.15);
+  color: #7ddf7d;
+}
+
+.price-comparator__savings--negative {
+  background: rgba(200, 100, 100, 0.15);
+  color: #df7d7d;
+}
+
+.price-comparator__savings--neutral {
+  background: rgba(200, 200, 200, 0.1);
+}

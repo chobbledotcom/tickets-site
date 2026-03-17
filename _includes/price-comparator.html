@@ -1,0 +1,49 @@
+{%- assign ch = competitors.chobble -%}
+{%- assign co = competitors[competitor_key] -%}
+<div class="prose">
+  <h2>Interactive cost calculator</h2>
+  <p>Drag the sliders to see how costs compare at different volumes:</p>
+</div>
+<div class="price-comparator" id="price-comparator" data-config='{"chobble":{"a":{{ ch.annual_cost }},"tp":{{ ch.per_ticket_fee_percent }},"tf":{{ ch.per_ticket_fee_fixed }},"pp":{{ ch.payment_processing_percent }},"pf":{{ ch.payment_processing_fixed }}},"competitor":{"n":"{{ co.name }}","a":{{ co.annual_cost }},"tp":{{ co.per_ticket_fee_percent }},"tf":{{ co.per_ticket_fee_fixed }},"pp":{{ co.payment_processing_percent }},"pf":{{ co.payment_processing_fixed }}}}'>
+  <div class="price-comparator__controls">
+    <label class="price-comparator__label">
+      <span>Tickets per year: <strong id="pc-ticket-count">200</strong></span>
+      <input type="range" id="pc-tickets" min="0" max="10000" value="200" step="10">
+    </label>
+    <label class="price-comparator__label">
+      <span>Price per ticket: <strong>&pound;<span id="pc-ticket-price">10.00</span></strong></span>
+      <input type="range" id="pc-price" min="0" max="200" value="10" step="0.50">
+    </label>
+  </div>
+  <div class="price-comparator__results">
+    <div class="price-comparator__column price-comparator__column--chobble">
+      <h3>{{ ch.name }}</h3>
+      <dl>
+        <dt>Annual fee</dt><dd id="pc-chobble-annual">&pound;{{ ch.annual_cost | append: ".00" }}</dd>
+        <dt>Platform fees</dt><dd id="pc-chobble-platform">&pound;0.00</dd>
+        <dt>Payment processing</dt><dd id="pc-chobble-processing">&pound;0.00</dd>
+        <dt class="price-comparator__total-label">Total cost per year</dt>
+        <dd class="price-comparator__total" id="pc-chobble-total">&pound;0.00</dd>
+        <dt class="price-comparator__per-ticket-label">Cost per ticket</dt>
+        <dd class="price-comparator__per-ticket" id="pc-chobble-per-ticket">&pound;0.00</dd>
+      </dl>
+    </div>
+    <div class="price-comparator__column price-comparator__column--competitor">
+      <h3>{{ co.name }}</h3>
+      <dl>
+        <dt>Annual fee</dt><dd id="pc-comp-annual">&pound;{{ co.annual_cost | append: ".00" }}</dd>
+        <dt>Platform fees</dt><dd id="pc-comp-platform">&pound;0.00</dd>
+        <dt>Payment processing</dt><dd id="pc-comp-processing">&pound;0.00</dd>
+        <dt class="price-comparator__total-label">Total cost per year</dt>
+        <dd class="price-comparator__total" id="pc-comp-total">&pound;0.00</dd>
+        <dt class="price-comparator__per-ticket-label">Cost per ticket</dt>
+        <dd class="price-comparator__per-ticket" id="pc-comp-per-ticket">&pound;0.00</dd>
+      </dl>
+    </div>
+  </div>
+  <p class="price-comparator__savings" id="pc-savings"></p>
+</div>
+<script src="/assets/js/price-comparator.js"></script>
+{%- if co.fee_note -%}
+<p class="prose"><em>{{ co.fee_note }}</em></p>
+{%- endif -%}

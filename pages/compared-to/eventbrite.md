@@ -1,5 +1,6 @@
 ---
 layout: design-system-base.html
+competitor_key: eventbrite
 title: Chobble Tickets vs Eventbrite
 meta_title: Open Source Alternative to Eventbrite | Chobble Tickets
 meta_description: Looking for an open source alternative to Eventbrite? Chobble Tickets offers flat annual pricing with no per-ticket fees, full data ownership, and no platform lock-in.
@@ -30,6 +31,11 @@ blocks:
       sell, so the maths is simple: if you sell more than a few dozen tickets
       a year, Chobble Tickets is cheaper.
 
+  - type: include
+    file: price-comparator.html
+
+  - type: markdown
+    content: |
       ## Data ownership
 
       Eventbrite owns a lot of data about your attendees and uses it for their

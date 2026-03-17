@@ -1,5 +1,6 @@
 ---
 layout: design-system-base.html
+competitor_key: parentkind
 title: Chobble Tickets vs Parentkind
 meta_title: Affordable Alternative to Parentkind for School Events | Chobble Tickets
 meta_description: Looking for an affordable alternative to Parentkind for school and PTA ticketing? Chobble Tickets offers flat pricing from £25/year with no per-ticket fees.
@@ -49,6 +50,11 @@ blocks:
       You only pay the standard payment processing fee from Stripe or
       Square. Sell 100 tickets or 10,000 - the cost to you stays the same.
 
+  - type: include
+    file: price-comparator.html
+
+  - type: markdown
+    content: |
       ## Feature comparison
 
       ### Ticketing and events
