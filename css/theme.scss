@@ -27,11 +27,48 @@
   border: var(--border, 2px solid #561d68);
 }
 
+.price-comparator__controls-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+  .price-comparator__controls-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
 .price-comparator__controls {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-bottom: 2rem;
+  flex: 1;
+}
+
+.price-comparator__takings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  background: var(--body-background-alt, #2f0c3a);
+  min-width: 10rem;
+  text-align: center;
+}
+
+.price-comparator__takings-label {
+  font-size: 0.9em;
+  opacity: 0.85;
+}
+
+.price-comparator__takings-value {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
 }
 
 .price-comparator__label {
@@ -98,6 +135,16 @@
 .price-comparator__per-ticket {
   font-size: 0.9em;
   opacity: 0.85;
+}
+
+.price-comparator__share-label,
+.price-comparator__share {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--color-tint, #4a2260);
+  font-weight: bold;
+  font-size: 1.15em;
+  color: #7ddf7d;
 }
 
 .price-comparator__savings {

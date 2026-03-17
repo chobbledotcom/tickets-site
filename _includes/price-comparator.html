@@ -5,15 +5,21 @@
   <p>Drag the sliders to see how costs compare at different volumes:</p>
 </div>
 <div class="price-comparator" data-config='{"chobble":{"n":"{{ ch.name }}","a":{{ ch.annual_cost }},"tp":{{ ch.per_ticket_fee_percent }},"tf":{{ ch.per_ticket_fee_fixed }},"pp":{{ ch.payment_processing_percent }},"pf":{{ ch.payment_processing_fixed }}},"competitor":{"n":"{{ co.name }}","a":{{ co.annual_cost }},"tp":{{ co.per_ticket_fee_percent }},"tf":{{ co.per_ticket_fee_fixed }},"pp":{{ co.payment_processing_percent }},"pf":{{ co.payment_processing_fixed }}}}'>
-  <div class="price-comparator__controls">
-    <label class="price-comparator__label">
-      <span>Tickets per year: <strong data-pc="ticket-count">200</strong></span>
-      <input type="range" data-pc="tickets" min="0" max="10000" value="200" step="10">
-    </label>
-    <label class="price-comparator__label">
-      <span>Price per ticket: <strong>&pound;<span data-pc="ticket-price">10.00</span></strong></span>
-      <input type="range" data-pc="price" min="0" max="200" value="10" step="0.50">
-    </label>
+  <div class="price-comparator__controls-row">
+    <div class="price-comparator__controls">
+      <label class="price-comparator__label">
+        <span>Tickets per year: <strong data-pc="ticket-count">200</strong></span>
+        <input type="range" data-pc="tickets" min="0" max="10000" value="200" step="10">
+      </label>
+      <label class="price-comparator__label">
+        <span>Price per ticket: <strong>&pound;<span data-pc="ticket-price">10.00</span></strong></span>
+        <input type="range" data-pc="price" min="0" max="200" value="10" step="0.50">
+      </label>
+    </div>
+    <div class="price-comparator__takings">
+      <span class="price-comparator__takings-label">Total takings</span>
+      <span class="price-comparator__takings-value" data-pc="takings">&pound;2,000.00</span>
+    </div>
   </div>
   <div class="price-comparator__results">
     <div class="price-comparator__column price-comparator__column--chobble">
@@ -26,6 +32,8 @@
         <dd class="price-comparator__total" data-pc="chobble-total">&pound;0.00</dd>
         <dt class="price-comparator__per-ticket-label">Cost per ticket</dt>
         <dd class="price-comparator__per-ticket" data-pc="chobble-per-ticket">&pound;0.00</dd>
+        <dt class="price-comparator__share-label">Your share</dt>
+        <dd class="price-comparator__share" data-pc="chobble-share">&pound;0.00</dd>
       </dl>
     </div>
     <div class="price-comparator__column price-comparator__column--competitor">
@@ -38,6 +46,8 @@
         <dd class="price-comparator__total" data-pc="comp-total">&pound;0.00</dd>
         <dt class="price-comparator__per-ticket-label">Cost per ticket</dt>
         <dd class="price-comparator__per-ticket" data-pc="comp-per-ticket">&pound;0.00</dd>
+        <dt class="price-comparator__share-label">Your share</dt>
+        <dd class="price-comparator__share" data-pc="comp-share">&pound;0.00</dd>
       </dl>
     </div>
   </div>

@@ -32,6 +32,12 @@
       q("[data-pc='ticket-count']").textContent = t.toLocaleString();
       q("[data-pc='ticket-price']").textContent = f(p);
 
+      var takings = t * p;
+      var takingsEl = q("[data-pc='takings']");
+      if (takingsEl) {
+        takingsEl.innerHTML = "\u00A3" + f(takings);
+      }
+
       var a = calc(ch, t, p);
       var b = calc(co, t, p);
 
@@ -41,11 +47,21 @@
       q("[data-pc='chobble-total']").innerHTML = "\u00A3" + f(a.tot);
       q("[data-pc='chobble-per-ticket']").innerHTML = t > 0 ? "\u00A3" + f(a.tot / t) : "\u2014";
 
+      var chShare = q("[data-pc='chobble-share']");
+      if (chShare) {
+        chShare.innerHTML = "\u00A3" + f(takings - a.tot);
+      }
+
       q("[data-pc='comp-annual']").innerHTML = "\u00A3" + f(b.a);
       q("[data-pc='comp-platform']").innerHTML = "\u00A3" + f(b.pf);
       q("[data-pc='comp-processing']").innerHTML = "\u00A3" + f(b.pr);
       q("[data-pc='comp-total']").innerHTML = "\u00A3" + f(b.tot);
       q("[data-pc='comp-per-ticket']").innerHTML = t > 0 ? "\u00A3" + f(b.tot / t) : "\u2014";
+
+      var coShare = q("[data-pc='comp-share']");
+      if (coShare) {
+        coShare.innerHTML = "\u00A3" + f(takings - b.tot);
+      }
 
       var s = q("[data-pc='savings']");
       var d = b.tot - a.tot;
