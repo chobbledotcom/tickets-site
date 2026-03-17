@@ -135,8 +135,10 @@ blocks:
         attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** — per-date
         capacity with calendar picker
-      - **[Event groups](/features/groups/)** — organise related events
-        into collections for multi-event bookings with a single checkout
+      - **[Event groups with tiered ticketing](/features/groups/)** —
+        organise related events into collections for multi-event bookings
+        with a single checkout, and create ticket tiers (VIP, general
+        admission, etc.) sharing a venue capacity cap
       - **[Public API](/features/public-api/)** and
         **[webhooks](/features/webhooks/)** — build custom integrations
       - **[Custom email providers](/features/email-providers/)** — use

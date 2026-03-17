@@ -115,8 +115,10 @@ blocks:
         invoices, and Peppol e-invoicing for B2B compliance
       - **Waitlists** — automatic notifications when places open up, with
         manual and auto-assignment modes
-      - **Product variations and add-ons** — multiple tiers, sizes, and
-        variations per product with add-on packages and bundled products
+      - **Product variations and add-ons** — per-product variations (sizes,
+        options) with add-on packages and bundled products (Chobble
+        supports tiered ticket types via event groups with shared capacity,
+        but not per-product variations or add-ons)
       - **Customer accounts and memberships** — returning customer
         discounts, membership models, and member-only products
       - **Badge and name tag printing** — auto-generate and print attendee
@@ -188,6 +190,7 @@ blocks:
       | [Webhooks](/features/webhooks/) | Yes | Yes (enterprise) |
       | [Pay-what-you-want](/features/stripe-and-square/) | Yes | No |
       | [Event groups](/features/groups/) | Yes | Yes (with series) |
+      | Tiered ticket types | Yes (via groups with shared capacity) | Yes (product variations) |
       | [White-label emails](/features/email-providers/) | Yes (own domain + templates) | Partial |
       | Promo codes | No | Yes |
       | Waitlists | No | Yes |

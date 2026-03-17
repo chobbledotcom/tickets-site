@@ -50,6 +50,8 @@ blocks:
       - Capacity management to prevent overselling
       - Free event support with no payment setup required
       - Refund processing from the admin panel
+      - Multiple ticket types per event — both platforms let you create
+        VIP, early bird, group, and standard tiers with different prices
 
       **[BookitBee](https://www.bookitbee.com/features/) has features
       Chobble Tickets doesn't:**
@@ -70,9 +72,6 @@ blocks:
       - **Promo codes and discounts** — create percentage-off discount
         codes, promotional offers, and campaign-specific URLs with sales
         tracking
-      - **Multiple ticket types per event** — VIP, early bird, group, and
-        standard tiers on a single event, each with different prices and
-        availability windows
       - **Cross-selling during checkout** — upsell merchandise, parking
         passes, drinks tokens, and other events inline during the ticket
         purchase flow
@@ -113,6 +112,9 @@ blocks:
         subscribers get automatic calendar updates
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
         events to feed readers
+      - **[Tiered ticket types via groups](/features/groups/)** — create
+        VIP, early bird, and other tiers using event groups with a shared
+        capacity cap (max attendees per group)
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
         attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** — per-date

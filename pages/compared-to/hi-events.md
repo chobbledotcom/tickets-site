@@ -73,6 +73,9 @@ blocks:
       - Free event support with no payment setup required
       - Refund processing
       - Embeddable ticket widgets for your own website
+      - Multiple ticket types per event with shared capacity limits —
+        both platforms support VIP, early bird, and tiered pricing with
+        a shared attendee cap across ticket types
 
       Both platforms cover the core ticketing basics well, but they differ in
       focus and extras:
@@ -84,9 +87,6 @@ blocks:
       - **Promo codes and discount management** — create percentage and
         fixed-amount discount codes with usage limits, expiry dates, and
         codes tied to specific ticket types
-      - **Multiple ticket types per event** — VIP, early bird, group, and
-        standard tiers on a single event, each with different prices and
-        availability windows
       - **Affiliate and referral tracking** — track which promoters and
         links are driving ticket sales with commission tracking
       - **Product add-ons** — sell merchandise, parking, meal upgrades, or
@@ -127,8 +127,6 @@ blocks:
         languages
       - **Hidden/locked tickets** — tickets hidden behind promo codes for
         presales, VIP access, or invite-only events
-      - **Capacity groups** — named capacity groups (VIP, main floor, etc.)
-        with shared limits across ticket types
       - **Abandoned cart handling** — detect and act on incomplete
         checkouts to recover lost sales
       - **Event badge designer** — a browser-based badge design tool for
@@ -156,8 +154,10 @@ blocks:
       - **[Daily/recurring event support](/features/daily-events/)** — built
         specifically for events that repeat on a schedule with per-date
         capacity
-      - **[Event groups](/features/groups/)** — organise related events
-        into collections for multi-event bookings with a single checkout
+      - **[Event groups with shared capacity](/features/groups/)** —
+        organise related events into collections for multi-event bookings
+        with a single checkout, and use max attendees per group to create
+        tiered ticket types (VIP, early bird, etc.) sharing a venue cap
       - **[Custom email providers](/features/email-providers/)** — use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's

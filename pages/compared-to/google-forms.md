@@ -103,8 +103,9 @@ blocks:
         capacity with calendar picker
       - **[Public API](/features/public-api/)** and
         **[webhooks](/features/webhooks/)** — build custom integrations
-      - **[Event groups](/features/groups/)** — organise related events
-        into collections for multi-event bookings
+      - **[Event groups with tiered ticketing](/features/groups/)** —
+        organise related events into collections for multi-event bookings,
+        and create ticket tiers sharing a venue capacity cap
       - **[RSS and calendar feeds](/features/rss-and-calendar-feeds/)** —
         subscribers get automatic updates
       - **[Custom email providers](/features/email-providers/)** — use

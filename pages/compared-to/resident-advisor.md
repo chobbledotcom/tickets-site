@@ -151,8 +151,10 @@ blocks:
         building custom integrations
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration
-      - **[Event groups](/features/groups/)** — organise related events
-        into collections for multi-event bookings with a single checkout
+      - **[Event groups with tiered ticketing](/features/groups/)** —
+        organise related events into collections for multi-event bookings
+        with a single checkout, and create ticket tiers sharing a venue
+        capacity cap
       - **[Custom email providers](/features/email-providers/)** — use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
