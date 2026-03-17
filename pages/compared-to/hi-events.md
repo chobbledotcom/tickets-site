@@ -25,8 +25,8 @@ blocks:
       ## Two open source options
 
       It's rare to have two genuinely open source ticketing platforms to choose
-      from, so let's be upfront: [Hi.Events](https://hi.events) is a solid project. It's got 3,500+
-      GitHub stars, 40+ contributors, and a modern React/Laravel stack. If you're
+      from, so let's be upfront: [Hi.Events](https://hi.events) is a solid project. It's got 3,600+
+      GitHub stars, 35+ contributors, and a modern React/Laravel stack. If you're
       looking for open source ticketing, both platforms deserve your attention.
 
       This page is an honest comparison to help you decide which fits your needs
