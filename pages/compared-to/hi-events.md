@@ -92,12 +92,30 @@ blocks:
         your Stripe account with faster payout times
       - **Custom registration questions** — add custom fields and questions
         to the checkout form per ticket type
-      - **Attendee messaging** — send bulk emails and updates to ticket
-        holders
+      - **Bulk messaging by ticket type** — send targeted emails and
+        updates to attendees based on which ticket type they bought
       - **Waitlists** — automatic notifications when places open up on
         sold-out events
       - **Ticket transfers** — allow attendees to transfer their tickets to
         someone else
+      - **Automatic invoicing** — generate invoices for orders
+        automatically
+      - **XLSX export** — export attendee and order data in Excel format
+        (Chobble supports CSV only)
+      - **Branded organiser homepage** — a page showcasing all your events
+        under your organiser profile
+      - **Multiple check-in lists** — create separate lists for different
+        areas, gates, or purposes
+      - **Offline check-in support** — continue scanning tickets when
+        internet connectivity is lost
+      - **Custom checkout questions** — collect extra attendee information
+        at purchase with custom form fields per ticket type
+      - **Multi-language support** — serve the checkout in multiple
+        languages
+      - **Hidden/locked tickets** — tickets hidden behind promo codes for
+        presales, VIP access, or invite-only events
+      - **Capacity groups** — named capacity groups (VIP, main floor, etc.)
+        with shared limits across ticket types
 
       **Chobble Tickets has features Hi.Events doesn't:**
 
@@ -123,8 +141,14 @@ blocks:
         domain name
       - **[Activity logs](/features/activity-logs/)** — full audit trail of
         all admin actions and booking activity
-      - **[Webhooks](/features/webhooks/)** — outbound POST on every
-        registration for custom integrations
+      - **[Square payment support](/features/stripe-and-square/)** —
+        Chobble supports both Stripe and Square; Hi.Events is Stripe-only
+      - **No branding requirements** — Chobble's AGPLv3 licence has no
+        "Powered by" requirement; Hi.Events requires visible "Powered by
+        Hi.Events" branding unless you buy a $499+ commercial licence
+      - **Edge deployment** — Chobble runs as a single JS file on Bunny
+        CDN edge with minimal infrastructure; Hi.Events needs a
+        traditional server (2 CPU, 4GB RAM minimum)
 
       ## Different philosophies
 
