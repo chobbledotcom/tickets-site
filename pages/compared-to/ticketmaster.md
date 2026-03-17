@@ -52,6 +52,17 @@ blocks:
       data, your domain, your rules - with no exclusive contracts, no platform
       lock-in, and no corporate middleman between you and your audience.
 
+  - type: markdown
+    content: |
+      ## Pricing sources
+
+      Ticketmaster does not publish a standard public fee schedule for
+      organisers — fees vary by event, venue, and contract. The pricing
+      estimate used on this page is approximate. Check the link below for
+      the latest information.
+
+      - [Ticketmaster UK](https://www.ticketmaster.co.uk)
+
   - type: cta
     title: Independent ticketing
     description: For events that don't need a corporate gatekeeper.
