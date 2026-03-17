@@ -76,29 +76,61 @@ blocks:
 
       **DICE has features Chobble Tickets doesn't:**
 
-      - **Event discovery app** — DICE's mobile app helps fans discover events
-        in their area, which can drive extra ticket sales
-      - **Anti-scalping via app** — tickets are locked to the DICE app, making
-        them harder to resell on secondary markets
-      - **Waiting list system** — built-in waitlists for sold-out events with
-        face-value resale
+      - **Event discovery app** — DICE's mobile app helps fans discover
+        events in their area based on their music tastes, location, and
+        past attendance, which can drive extra ticket sales you wouldn't
+        get on your own
+      - **Anti-scalping via app** — tickets are locked to the DICE app and
+        can't be screenshotted or forwarded, making them essentially
+        impossible to resell on secondary markets
+      - **Waiting list with face-value resale** — fans can join a waitlist
+        for sold-out events, and if a ticket holder can't attend, DICE
+        automatically resells their ticket at face value to someone on the
+        waitlist
+      - **Fan-to-fan ticket transfer** — attendees can transfer tickets
+        through the app with new QR codes generated automatically
+      - **Curated event recommendations** — DICE's algorithm recommends
+        events based on a fan's listening history, past attendance, and
+        location
+      - **Artist and venue tools** — analytics showing who's buying
+        tickets, where fans are coming from, and real-time sales data
+      - **DICE TV** — livestreaming platform for virtual events
+      - **Merch sales** — sell merchandise alongside tickets within the
+        DICE app
+      - **Multi-currency support** — sell in different currencies across
+        DICE's international markets (UK, US, Europe, Australia)
+      - **Instant booking** — one-tap purchases for returning fans with
+        stored payment details
 
       **Chobble Tickets has features DICE doesn't:**
 
-      - **Encrypted attendee data** — PII is encrypted at rest using hybrid
-        RSA/AES encryption, decrypted server-side only for authorised admins
+      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
       - **No app required** — tickets work in any browser on any device
-      - **Apple & Google Wallet tickets** — attendees can add tickets to their
-        phone wallet without a separate app
-      - **ICS calendar feeds** — subscribers get automatic calendar updates
-      - **RSS feeds** — syndicate your events
-      - **Pay-what-you-want pricing** — let attendees choose their price
-      - **Daily/recurring event support** — built for events that repeat on a
-        schedule
-      - **Custom domain support** — use your own domain name
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+        attendees can add tickets to their phone wallet without a separate app
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+        subscribers get automatic calendar updates
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
+        events to feed readers
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+        attendees choose their price
+      - **[Daily/recurring event support](/features/daily-events/)** — built
+        for events that repeat on a schedule with per-date capacity
+      - **[Custom domain support](/features/custom-domain/)** — use your own
+        domain name
       - **Fully brandable checkout** — your brand, not DICE's
       - **Self-hosting option** — run the platform on your own servers for free
-      - **Open source** — inspect, modify, and contribute to the code
+      - **[Open source](/features/open-source/)** — inspect, modify, and
+        contribute to the code under AGPLv3
+      - **[Public API](/features/public-api/)** — RESTful JSON API for
+        building custom integrations
+      - **[Webhooks](/features/webhooks/)** — outbound POST on every
+        registration
+      - **[Custom email providers](/features/email-providers/)** — use
+        Resend, Postmark, SendGrid, or Mailgun
+      - **[Embeddable widget](/features/embeddable-widget/)** — drop an
+        iframe into your existing website
       - **No marketing emails to attendees** — your audience stays yours
       - **Transparent pricing** — no negotiations, no surprises
 
@@ -134,7 +166,9 @@ blocks:
       on industry analysis and publicly available comparisons.
 
       - [DICE](https://dice.fm) — fees negotiated per partnership (not publicly listed)
+      - [DICE for artists](https://dice.fm/partners) — DICE's partner information page
       - [Hi.Events DICE comparison](https://hi.events/dice-alternative) — third-party comparison estimating DICE fees
+      - [Chobble Tickets features](/features/)
 
   - type: cta
     title: Try Chobble Tickets

@@ -69,9 +69,43 @@ blocks:
       ## When Pretix might be the better choice
 
       Pretix is a mature, feature-rich platform with years of development behind
-      it. If you're running large conferences with assigned seating, complex
-      multi-track schedules, exhibitor management, or need a point-of-sale
-      system, Pretix has purpose-built tools for all of that.
+      it. Here's what it offers that Chobble Tickets doesn't:
+
+      - **Seating plans** — interactive venue maps with assigned seating
+        (enterprise plugin)
+      - **Point of sale** — sell tickets at physical box offices and
+        on-site kiosks (enterprise plugin)
+      - **30+ languages** — full multi-language support for international
+        events with automatic translation of checkout flows
+      - **Voucher and promo codes** — percentage and fixed-amount discounts,
+        early bird pricing, group discounts, and codes tied to specific
+        ticket types
+      - **Waitlists** — automatic notifications when places open up on
+        sold-out events
+      - **Multiple ticket types per event** — VIP, early bird, group,
+        add-ons, and bundled packages on a single event
+      - **Multiple payment providers** — Stripe, PayPal, Mollie, bank
+        transfer, invoice, and more
+      - **Custom checkout questions** — add custom fields and questions per
+        ticket type and per attendee
+      - **Badge and name tag printing** — generate and print attendee badges
+        for conferences (enterprise plugin)
+      - **Lead scanning app** — exhibitors scan attendee badges to capture
+        leads (enterprise plugin)
+      - **Reseller portals** — give resellers and box offices access to sell
+        tickets on your behalf
+      - **Tax and invoice management** — configure VAT rates, generate
+        invoices, and manage tax reporting
+      - **Check-in lists with permissions** — create multiple check-in lists
+        with different permissions per gate or area
+      - **Ticket add-ons and bundles** — sell merchandise, workshops, meals,
+        or other extras alongside tickets
+      - **Conditional logic** — show or hide ticket types and questions
+        based on previous answers
+      - **Multi-event organisers** — manage multiple events under one
+        organisation with shared settings and branding
+      - **Pretix Widget** — a more advanced embeddable widget with full
+        cart functionality
 
       It also has a larger community, more plugins, and more integrations. If
       you need enterprise-grade features and have the budget or technical team
@@ -92,17 +126,29 @@ blocks:
 
       | | Chobble Tickets | Pretix |
       |---|---|---|
-      | Open source | AGPLv3 | AGPLv3 (core) |
+      | Open source | AGPLv3 (all features) | AGPLv3 (core only) |
       | Hosted pricing | £50/year flat | 2.5% per ticket |
       | Self-hosted cost | Free (all features) | Free (core) / €499+/yr (enterprise) |
       | Per-ticket fees | None | 2.5% (hosted) |
-      | Payment processing | Stripe | Stripe, PayPal, Mollie, bank transfer |
+      | Payment providers | [Stripe, Square](/features/stripe-and-square/) | Stripe, PayPal, Mollie, bank transfer |
       | Target audience | Small-medium organisers | Conferences & enterprise |
       | Seating plans | No | Yes (enterprise plugin) |
       | Point of sale | No | Yes (enterprise plugin) |
-      | API access | Yes | Yes |
-      | QR code scanning | Yes | Yes |
+      | [API access](/features/public-api/) | Yes | Yes |
+      | [QR code scanning](/features/qr-code-check-ins/) | Yes | Yes |
       | Multi-currency | No | Yes |
+      | Multi-language | No | Yes (30+ languages) |
+      | [Encryption at rest](/features/encrypted/) | Yes (hybrid RSA + AES) | No |
+      | [Apple/Google Wallet](/features/apple-wallet/) | Yes | No (enterprise add-on) |
+      | [RSS/calendar feeds](/features/rss-and-calendar-feeds/) | Yes | No |
+      | [Webhooks](/features/webhooks/) | Yes | Yes (enterprise) |
+      | [Pay-what-you-want](/features/stripe-and-square/) | Yes | No |
+      | Promo codes | No | Yes |
+      | Waitlists | No | Yes |
+      | [Custom domain](/features/custom-domain/) | Yes | Yes (enterprise) |
+      | [Daily events](/features/daily-events/) | Yes | Yes (with series) |
+      | Badge printing | No | Yes (enterprise plugin) |
+      | Lead scanning | No | Yes (enterprise plugin) |
 
   - type: markdown
     content: |
@@ -114,6 +160,8 @@ blocks:
       - [Pretix hosted pricing](https://pretix.eu/about/en/pricing) — 2.5% of ticket price (excl. taxes)
       - [Pretix self-hosted/enterprise pricing](https://pretix.eu/about/en/pricing/selfhosted) — from €499/year (Enterprise Starter)
       - [Pretix on GitHub](https://github.com/pretix/pretix)
+      - [Pretix features](https://pretix.eu/about/en/features) — full feature list
+      - [Chobble Tickets features](/features/)
 
   - type: cta
     title: Try Chobble Tickets

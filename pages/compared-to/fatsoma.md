@@ -70,27 +70,55 @@ blocks:
       **Fatsoma has features Chobble Tickets doesn't:**
 
       - **Rep/affiliate network** — a built-in system for promoters to sell
-        tickets on your behalf and earn commission
+        tickets on your behalf and earn commission, with tracking dashboards
+        showing which reps are driving the most sales
       - **Event discovery platform** — Fatsoma's website and app help
-        attendees find events (mainly student and nightlife focused)
+        attendees find events, mainly student and nightlife focused, with
+        a large UK student audience
       - **Built-in social media promotion tools** — tools for promoting
-        events across social channels
+        events across social channels with shareable links and tracking
+      - **Promo codes and discounts** — create discount codes with usage
+        limits and expiry dates
+      - **Multiple ticket types per event** — early bird, VIP, group, and
+        standard tiers on a single event with different prices and
+        descriptions
+      - **Guest list management** — manage guest lists and comps separate
+        from standard ticket sales
+      - **Attendee messaging** — send bulk emails and updates to ticket
+        holders before and after events
+      - **Analytics dashboard** — track ticket sales, revenue, and rep
+        performance in real time
+      - **Mobile app for attendees** — Fatsoma's app lets attendees browse
+        events and access their tickets
 
       **Chobble Tickets has features Fatsoma doesn't:**
 
-      - **Encrypted attendee data** — PII is encrypted at rest using hybrid
-        RSA/AES encryption, decrypted server-side only for authorised admins
-      - **Apple & Google Wallet tickets** — attendees can add tickets to
-        their phone wallet
-      - **ICS calendar feeds** — subscribers get automatic calendar updates
-      - **RSS feeds** — syndicate your events
-      - **Pay-what-you-want pricing** — let attendees choose their price
-      - **Daily/recurring event support** — built for events that repeat on
-        a schedule
-      - **Custom domain support** — use your own domain name
+      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+        attendees can add tickets to their phone wallet
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+        subscribers get automatic calendar updates
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
+        events to feed readers
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+        attendees choose their price
+      - **[Daily/recurring event support](/features/daily-events/)** — built
+        for events that repeat on a schedule with per-date capacity
+      - **[Custom domain support](/features/custom-domain/)** — use your own
+        domain name
       - **Self-hosting option** — run the platform on your own servers for
         free
-      - **Open source** — inspect, modify, and contribute to the code
+      - **[Open source](/features/open-source/)** — inspect, modify, and
+        contribute to the code under AGPLv3
+      - **[Public API](/features/public-api/)** — RESTful JSON API for
+        building custom integrations
+      - **[Webhooks](/features/webhooks/)** — outbound POST on every
+        registration
+      - **[Custom email providers](/features/email-providers/)** — use
+        Resend, Postmark, SendGrid, or Mailgun
+      - **[Embeddable widget](/features/embeddable-widget/)** — drop an
+        iframe into your existing website
       - **No marketing emails to attendees** — your audience stays yours
 
       ## When Fatsoma might be better
@@ -122,6 +150,7 @@ blocks:
 
       - [Fatsoma pricing](https://ticketing.fatsoma.com/pricing) — 10% per ticket (minimum £1), plus Stripe processing
       - [Fatsoma for Business](https://ticketing.fatsoma.com/) — event ticketing and promotion platform
+      - [Chobble Tickets features](/features/)
 
   - type: cta
     title: Try Chobble Tickets

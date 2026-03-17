@@ -101,18 +101,34 @@ blocks:
       Let's be straightforward about what Parentkind offers that Chobble
       Tickets doesn't:
 
-      - **Insurance**: Parentkind membership includes public liability,
-        trustee indemnity, employer's liability, and theft cover. This alone
-        can be worth the membership fee.
+      - **Insurance**: Parentkind membership includes public liability
+        insurance (up to £25 million), trustee indemnity, employer's
+        liability, and theft cover. This alone can be worth the membership
+        fee for many PTAs.
       - **PTA advisers**: Phone and email support from people who understand
-        the specifics of running a PTA, available 9am-5pm on weekdays.
-      - **Gift Aid**: Tools for managing Gift Aid declarations on donations.
-      - **Fundraising resources**: Templates, posters, planning guides, and
-        exclusive fundraisers like the Big PTA Walk and Cash Draws.
+        the specifics of running a PTA, available 9am-5pm on weekdays,
+        including legal and financial advice.
+      - **Gift Aid**: Tools for managing Gift Aid declarations on donations,
+        helping PTAs claim an extra 25% from HMRC on eligible donations.
+      - **Fundraising resources**: Templates, posters, planning guides,
+        risk assessment templates, and exclusive fundraisers like the Big
+        PTA Walk and Cash Draws.
       - **Auctions and prize draws**: Built-in tools for running online
-        auctions, raffles, and prize draws.
+        auctions, raffles, and prize draws with lot management and bidding.
       - **Volunteer management**: Recruit volunteers, create time slots,
-        track sign-ups, and send reminders.
+        track sign-ups, and send reminders — purpose-built for school
+        events.
+      - **GoCardless payments**: Accept payments via Direct Debit in
+        addition to card payments, useful for recurring PTA subscriptions.
+      - **14+ built-in reports**: Comprehensive reporting covering sales,
+        attendees, financial summaries, and Gift Aid reclaims.
+      - **Branded PTA microsite**: A dedicated web presence for your PTA
+        with event listings, news, and sponsorship/advertising options
+        (Premium plan).
+      - **Matched giving integration**: Help parents claim employer-matched
+        charitable donations.
+      - **School directory and community hub**: Connect parents, share
+        news, and build community around your school.
 
       These are genuinely useful for PTAs, and if you need them, Parentkind
       is a solid choice.
@@ -120,15 +136,25 @@ blocks:
       ## What we do that Parentkind doesn't
 
       - **Flat pricing**: No per-ticket fees or platform commission, ever.
-      - **Open source**: Every line of code is public and auditable under
-        AGPLv3.
-      - **Encryption**: All attendee data is encrypted at rest, not just in
-        transit.
+      - **[Open source](/features/open-source/)**: Every line of code is
+        public and auditable under AGPLv3.
+      - **[Encryption](/features/encrypted/)**: All attendee data is encrypted
+        at rest with hybrid RSA-OAEP + AES-256-GCM, not just in transit.
       - **Self-hosting**: Run the entire platform on your own infrastructure
         if you want to.
-      - **Custom domains**: Your ticketing lives at your own web address.
-      - **Public API and webhooks**: Build custom integrations and
+      - **[Custom domains](/features/custom-domain/)**: Your ticketing lives
+        at your own web address.
+      - **[Public API](/features/public-api/) and
+        [webhooks](/features/webhooks/)**: Build custom integrations and
         automations.
+      - **[Apple & Google Wallet](/features/apple-wallet/)**: Attendees can
+        add tickets to their phone wallet.
+      - **[RSS and calendar feeds](/features/rss-and-calendar-feeds/)**:
+        Subscribers get automatic updates.
+      - **[Custom email providers](/features/email-providers/)**: Use Resend,
+        Postmark, SendGrid, or Mailgun.
+      - **[Embeddable widget](/features/embeddable-widget/)**: Drop an iframe
+        into your existing school website.
       - **No membership required**: Sign up and start selling tickets
         immediately.
       - **Works beyond schools**: Use the same platform for music gigs,
@@ -162,6 +188,7 @@ blocks:
       - [PTA Events fees](https://ptaevents.freshdesk.com/support/solutions/articles/17000091635-what-fees-are-charged-) — 3.95% (Starter) or 1.5% (Premium)
       - [PTA Events transaction costs](https://ptaevents.freshdesk.com/support/solutions/articles/17000089759-how-much-does-it-cost-to-process-transactions-) — Stripe processing fees
       - [Parentkind website](https://www.parentkind.org.uk)
+      - [Chobble Tickets features](/features/)
 
   - type: cta
     title: Simple school event ticketing

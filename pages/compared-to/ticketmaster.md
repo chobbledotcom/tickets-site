@@ -46,11 +46,105 @@ blocks:
 
   - type: markdown
     content: |
+      ## Feature comparison
+
+      Ticketmaster is built for a completely different market, but if you're
+      considering whether you actually need it, here's what each platform
+      offers:
+
+      **Ticketmaster has features Chobble Tickets doesn't:**
+
+      - **Massive distribution network** — Ticketmaster reaches millions of
+        buyers through its website, mobile app, retail outlets, and call
+        centres across 30+ countries
+      - **Reserved seating with interactive venue maps** — detailed 3D seat
+        selection for stadiums, arenas, and theatres showing exact views from
+        each seat
+      - **Verified fan / presale systems** — manage presales, fan club
+        access, artist presales, and access codes for high-demand events to
+        control who can buy first
+      - **Dynamic pricing** — automatically adjust ticket prices in real
+        time based on demand, similar to airline pricing
+      - **Ticket resale marketplace** — official face-value and open-market
+        resale platform for sold-out events with guaranteed authenticity
+      - **Ticket transfer** — official ticket transfer between fans with
+        new barcode generation
+      - **Insurance and refund protection** — optional ticket insurance
+        for attendees covering illness, travel disruption, and other reasons
+      - **Box office and retail POS** — sell tickets at physical box offices,
+        retail outlets, and call centres
+      - **Mobile fan app** — dedicated consumer app for ticket management,
+        transfers, upgrades, and event discovery
+      - **VIP and upgrade packages** — offer premium experiences, meet and
+        greets, hospitality packages, and seat upgrades
+      - **Large-scale analytics** — enterprise reporting across multiple
+        venues, tours, and seasons with audience demographics
+      - **Exclusive venue contracts** — many large venues are contractually
+        locked to Ticketmaster, making it the only option
+      - **Multi-currency and international sales** — sell across 30+
+        countries with local currency and language support
+      - **Accessibility seating** — dedicated accessible seating management
+        with companion tickets and specific access requirements
+      - **Season tickets and memberships** — manage recurring subscriptions,
+        season passes, and membership programmes
+      - **Queue and virtual waiting room** — managed queuing system for
+        high-demand on-sales handling millions of concurrent users
+
+      **Chobble Tickets has features Ticketmaster doesn't offer small
+      organisers:**
+
+      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
+      - **[Open source](/features/open-source/)** — every line of code is
+        public under AGPLv3
+      - **Self-hosting option** — run the platform on your own servers for
+        free
+      - **Flat annual pricing** — £50/year with no per-ticket fees,
+        compared to Ticketmaster's ~10% + £2.50 per ticket
+      - **Full data ownership** — you control your attendee data, not
+        Ticketmaster
+      - **No exclusive contracts** — use Chobble Tickets alongside any other
+        platform
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+        attendees can add tickets to their phone wallet
+      - **[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)**
+        — subscribers get automatic updates
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+        attendees choose their own price
+      - **[Daily/recurring events](/features/daily-events/)** — per-date
+        capacity with calendar picker
+      - **[Public API](/features/public-api/)** and
+        **[webhooks](/features/webhooks/)** — build custom integrations
+      - **[Custom domain](/features/custom-domain/)** — your ticketing at
+        your own web address
+      - **Transparent pricing** — no hidden fees, no negotiations
+      - **Community Interest Company** — run by a CIC, not a monopoly
+
       ## An independent, no-fee alternative
 
       Using Chobble Tickets means you own your ticketing infrastructure - your
       data, your domain, your rules - with no exclusive contracts, no platform
       lock-in, and no corporate middleman between you and your audience.
+
+      ## When Ticketmaster makes sense
+
+      - You're running events at large venues that require Ticketmaster
+        (contractual obligation)
+      - You need reserved seating for thousands of seats with interactive maps
+      - You want access to Ticketmaster's massive buyer network
+      - You need dynamic pricing or verified fan presales for high-demand events
+
+      ## When Chobble Tickets is the better choice
+
+      - You're an independent venue, community group, or small organiser
+      - You want to keep your ticket revenue instead of losing 10%+ per sale
+      - Privacy and [encryption](/features/encrypted/) matter to you
+      - You value [open source](/features/open-source/) and data ownership
+      - You're a charity or school (£25/year)
+      - You want [Apple/Google Wallet](/features/apple-wallet/), [calendar
+        feeds](/features/rss-and-calendar-feeds/), or a [public
+        API](/features/public-api/)
+      - You don't want a platform marketing competing events to your audience
 
   - type: markdown
     content: |
@@ -62,6 +156,7 @@ blocks:
       the latest information.
 
       - [Ticketmaster UK](https://www.ticketmaster.co.uk)
+      - [Chobble Tickets features](/features/)
 
   - type: cta
     title: Independent ticketing

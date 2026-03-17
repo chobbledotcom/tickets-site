@@ -43,13 +43,33 @@ blocks:
       - **Multiple people are managing the event** - Shared spreadsheets get out
         of sync
 
-      ## A digital alternative that grows with you
+      ## What Chobble Tickets adds over pen and paper
 
       Chobble Tickets supports free events without payment setup, so even if
       you're not charging you can use it just for the RSVP tracking, capacity
-      management, and check-in features - think of it as a digital alternative
-      to the clipboard that sends confirmation emails and scales when you
-      need it to.
+      management, and check-in features. Here's what you get:
+
+      - **[Online payments](/features/stripe-and-square/)** — accept card
+        payments via Stripe or Square
+      - **[Capacity management](/features/overbooking-prevention/)** —
+        automatic limits so you never oversell
+      - **[QR code check-in](/features/qr-code-check-ins/)** — scan
+        attendees in with any phone camera
+      - **[Email confirmations](/features/email-templates/)** — automatic
+        booking confirmations attendees can refer back to
+      - **[Refunds](/features/refunds/)** — track who paid what and process
+        refunds in clicks
+      - **[Multi-user access](/features/users/)** — multiple people can
+        manage the same event without things getting out of sync
+      - **[Apple & Google Wallet](/features/apple-wallet/)** — attendees
+        carry their tickets on their phone
+      - **[CSV export](/features/csv-export/)** — export attendee lists
+        when you need a spreadsheet
+      - **[Activity logs](/features/activity-logs/)** — see who did what
+        and when
+
+      Think of it as a digital alternative to the clipboard that sends
+      confirmation emails and scales when you need it to.
 
   - type: cta
     title: Upgrade when you're ready

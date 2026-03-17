@@ -74,32 +74,60 @@ blocks:
 
       **Resident Advisor has features Chobble Tickets doesn't:**
 
-      - **Electronic music community** — RA is the leading discovery platform
-        for electronic music events worldwide
-      - **Event discovery and listings** — a massive audience of clubbers and
-        music fans browsing RA for events
-      - **Ticket resale** — built-in resale so fans can resell tickets at face
-        value, with promoters earning additional revenue
-      - **DJ charts and reviews** — artist profiles, mix hosting, and music
-        reviews that drive traffic to events
-      - **Global presence in 50+ countries** — established brand recognition
-        in the electronic music scene
+      - **Electronic music community** — RA is the leading discovery
+        platform for electronic music events worldwide, with millions of
+        monthly visitors specifically looking for club nights and festivals
+      - **Event discovery and listings** — a massive, engaged audience of
+        clubbers and music fans browsing RA for events by city, genre, and
+        date, which can drive organic ticket sales
+      - **Ticket resale at face value** — built-in resale so fans can
+        resell tickets at face value through RA, with promoters earning
+        additional revenue from resale fees
+      - **DJ charts and reviews** — artist profiles, DJ charts, mix
+        hosting, album reviews, and music features that drive traffic to
+        events and build artist credibility
+      - **Global presence in 50+ countries** — established brand
+        recognition and trust in the electronic music scene
+      - **RA Pro analytics** — dedicated analytics dashboard for promoters
+        showing ticket sales trends, audience demographics, and marketing
+        performance via [RA Pro](https://pro.ra.co/)
+      - **RA Guide** — city guides and venue reviews that drive footfall
+        to events and build audience awareness
+      - **Curated event features** — RA editorial team features events on
+        the homepage, in newsletters, and in city guides
+      - **Guest list management** — manage guest lists and comps alongside
+        standard ticket sales
+      - **Multi-currency support** — sell in different currencies across
+        RA's international markets
 
       **Chobble Tickets has features Resident Advisor doesn't:**
 
-      - **Encrypted attendee data** — PII is encrypted at rest using hybrid
-        RSA/AES encryption, decrypted server-side only for authorised admins
-      - **Apple & Google Wallet tickets** — attendees can add tickets to their
-        phone wallet
-      - **ICS calendar feeds** — subscribers get automatic calendar updates
-      - **RSS feeds** — syndicate your events
-      - **Pay-what-you-want pricing** — let attendees choose their price
-      - **Daily/recurring event support** — built for events that repeat on a
-        schedule
-      - **Custom domain support** — use your own domain name
+      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+        attendees can add tickets to their phone wallet
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+        subscribers get automatic calendar updates
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
+        events to feed readers
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+        attendees choose their price
+      - **[Daily/recurring event support](/features/daily-events/)** — built
+        for events that repeat on a schedule with per-date capacity
+      - **[Custom domain support](/features/custom-domain/)** — use your own
+        domain name
       - **Self-hosting option** — run the platform on your own servers for
         free
-      - **Open source** — inspect, modify, and contribute to the code
+      - **[Open source](/features/open-source/)** — inspect, modify, and
+        contribute to the code under AGPLv3
+      - **[Public API](/features/public-api/)** — RESTful JSON API for
+        building custom integrations
+      - **[Webhooks](/features/webhooks/)** — outbound POST on every
+        registration
+      - **[Custom email providers](/features/email-providers/)** — use
+        Resend, Postmark, SendGrid, or Mailgun
+      - **[Embeddable widget](/features/embeddable-widget/)** — drop an
+        iframe into your existing website
       - **No marketing emails to attendees** — your audience stays yours
       - **Flat annual pricing** — no per-ticket fees, no matter how many you
         sell
@@ -144,6 +172,7 @@ blocks:
       - [RA Tickets](https://ra.co/tickets) — Resident Advisor's ticketing platform overview
       - [RA Pro](https://pro.ra.co/) — information for promoters selling tickets on RA
       - [Resident Advisor on WeTicket](https://www.weticket.com/ticketing-system/resident-advisor) — third-party comparison citing 10% per ticket
+      - [Chobble Tickets features](/features/)
 
   - type: cta
     title: Try Chobble Tickets
