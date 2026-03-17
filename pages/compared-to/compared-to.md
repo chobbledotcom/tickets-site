@@ -39,6 +39,9 @@ blocks:
       - icon: "hugeicons:file-02"
         title: vs Google Forms
         description: Free and flexible, but not built for ticketing - see the differences.
+      - icon: "hugeicons:open-source"
+        title: vs Pretix
+        description: Another open source option targeting enterprise — compare hosted and self-hosted costs.
 
   - type: cta
     title: Try it yourself
