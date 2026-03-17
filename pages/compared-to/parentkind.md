@@ -22,7 +22,7 @@ blocks:
     content: |
       ## Different platforms, different goals
 
-      Parentkind is a membership organisation for PTAs that bundles several
+      [Parentkind](https://www.parentkind.org.uk) is a membership organisation for PTAs that bundles several
       tools together: public liability insurance, PTA management guides,
       community advisers, templates, and access to the PTA Events ticketing
       platform. It's designed specifically for the school fundraising context.

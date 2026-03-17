@@ -24,7 +24,7 @@ blocks:
     content: |
       ## Two open source projects, two approaches
 
-      Pretix and Chobble Tickets are both open source event ticketing platforms,
+      [Pretix](https://pretix.eu) and Chobble Tickets are both open source event ticketing platforms,
       but they target very different audiences. Pretix is built for large
       conferences, exhibitions, and enterprise customers, with a feature set to
       match. Chobble Tickets is built for smaller organisers who want something

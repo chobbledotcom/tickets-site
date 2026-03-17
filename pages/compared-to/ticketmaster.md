@@ -22,7 +22,7 @@ blocks:
     content: |
       ## Completely different scale
 
-      Let's be upfront: Ticketmaster and Chobble Tickets serve very different
+      Let's be upfront: [Ticketmaster](https://www.ticketmaster.co.uk) and Chobble Tickets serve very different
       markets. Ticketmaster is built for stadiums, arenas, and massive tours,
       whereas Chobble Tickets is built for community events, independent venues, and
       organisations that want control over their ticketing.

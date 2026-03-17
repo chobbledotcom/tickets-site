@@ -22,7 +22,7 @@ blocks:
     content: |
       ## Pricing comparison
 
-      Eventbrite charges a percentage plus a fixed fee per ticket, and their
+      [Eventbrite](https://www.eventbrite.co.uk) charges a percentage plus a fixed fee per ticket, and their
       pricing has changed multiple times over the years (generally trending
       upward), so for a £15 ticket you might lose £1-2 per sale to the
       platform.
