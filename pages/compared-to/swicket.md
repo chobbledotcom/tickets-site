@@ -71,7 +71,10 @@ blocks:
       - Self-hosting option
       - API access for custom integrations
       - **Apple Wallet and Google Wallet** — attendees can save tickets to their
-        phone wallet (alf.io supports Apple Pass and Google Wallet natively)
+        phone wallet (alf.io supports Apple Pass and Google Wallet natively, but
+        self-hosted deployments require you to configure your own Apple Developer
+        and Google Wallet API credentials; Chobble Tickets managed handles this
+        setup for all customers)
 
       **alf.io / Swicket has features Chobble Tickets doesn't:**
 
