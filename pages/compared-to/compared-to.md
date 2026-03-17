@@ -48,6 +48,9 @@ blocks:
       - icon: "hugeicons:ticket-01"
         title: vs Fatsoma
         description: Popular with student events and nightlife — compare fees, features, and data ownership.
+      - icon: "hugeicons:ticket-01"
+        title: vs DICE
+        description: Mobile-first music ticketing — compare fees, app requirements, and data ownership.
 
   - type: cta
     title: Try it yourself
