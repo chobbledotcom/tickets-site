@@ -113,22 +113,38 @@ blocks:
       - **Fundraising resources**: Templates, posters, planning guides,
         risk assessment templates, and exclusive fundraisers like the Big
         PTA Walk and Cash Draws.
-      - **Auctions and prize draws**: Built-in tools for running online
-        auctions, raffles, and prize draws with lot management and bidding.
+      - **Prize draws and raffles**: Built-in tools for running raffles
+        with automatic random winner allocation, prize listings, and
+        ticket bundles. Platform fee: 7.5% (Starter) or 4.95% (Premium).
+      - **Online auctions**: Standard incremental bidding and blind
+        sealed-bid formats, with starting bids, reserves, and bid
+        increments.
+      - **100/200 clubs**: Recurring number-draw fundraisers popular with
+        PTAs.
+      - **Online shop**: Sell school uniforms, merchandise, and fundraising
+        items with order and payment tracking.
       - **Volunteer management**: Recruit volunteers, create time slots,
-        track sign-ups, and send reminders — purpose-built for school
-        events.
+        track sign-ups, and send automatic reminders — purpose-built for
+        school events.
+      - **Newsletter and CMS**: Built-in email and newsletter tools with a
+        news article CMS for communicating with parents.
       - **GoCardless payments**: Accept payments via Direct Debit in
         addition to card payments, useful for recurring PTA subscriptions.
-      - **14+ built-in reports**: Comprehensive reporting covering sales,
-        attendees, financial summaries, and Gift Aid reclaims.
+      - **14 built-in reports**: Financial reports, sales reports, attendee
+        information, orders, bookings, shipping, volunteer reports, and
+        treasurer reconciliation tools.
       - **Branded PTA microsite**: A dedicated web presence for your PTA
         with event listings, news, and sponsorship/advertising options
         (Premium plan).
+      - **Advertising and sponsorship tools**: On the Premium plan, sell
+        advertising space on your PTA site, add sponsor logos to event
+        pages and tickets, and use templates for contacting local
+        businesses. Includes a dedicated "Advertise" page with metrics.
+      - **Fire register**: Generate attendance lists for fire safety
+        compliance at school events.
       - **Matched giving integration**: Help parents claim employer-matched
         charitable donations.
-      - **School directory and community hub**: Connect parents, share
-        news, and build community around your school.
+      - **Donations page**: Accept standalone donations outside of events.
 
       These are genuinely useful for PTAs, and if you need them, Parentkind
       is a solid choice.
@@ -186,7 +202,9 @@ blocks:
 
       - [Parentkind membership fee update (November 2025)](https://www.parentkind.org.uk/pta-membership-fee-update) — from £121/year (Direct Debit, ≤100 pupils)
       - [PTA Events fees](https://ptaevents.freshdesk.com/support/solutions/articles/17000091635-what-fees-are-charged-) — 3.95% (Starter) or 1.5% (Premium)
+      - [PTA Events Premium plan benefits](https://ptaevents.freshdesk.com/support/solutions/articles/17000091633-what-are-the-benefits-of-the-premium-plan-) — QR scanning, advertising tools, reduced fees
       - [PTA Events transaction costs](https://ptaevents.freshdesk.com/support/solutions/articles/17000089759-how-much-does-it-cost-to-process-transactions-) — Stripe processing fees
+      - [PTA Events platform](https://www.pta-events.co.uk/) — the ticketing platform itself
       - [Parentkind website](https://www.parentkind.org.uk)
       - [Chobble Tickets features](/features/)
 

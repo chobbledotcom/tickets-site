@@ -78,7 +78,8 @@ blocks:
       - **VIP and upgrade packages** — offer premium experiences, meet and
         greets, hospitality packages, and seat upgrades
       - **Large-scale analytics** — enterprise reporting across multiple
-        venues, tours, and seasons with audience demographics
+        venues, tours, and seasons with audience demographics and
+        sales-by-location data
       - **Exclusive venue contracts** — many large venues are contractually
         locked to Ticketmaster, making it the only option
       - **Multi-currency and international sales** — sell across 30+
@@ -86,9 +87,21 @@ blocks:
       - **Accessibility seating** — dedicated accessible seating management
         with companion tickets and specific access requirements
       - **Season tickets and memberships** — manage recurring subscriptions,
-        season passes, and membership programmes
+        season passes, and deposit collection programmes
       - **Queue and virtual waiting room** — managed queuing system for
         high-demand on-sales handling millions of concurrent users
+      - **SafeTix encrypted barcodes** — dynamically refreshing encrypted
+        barcodes that can't be screenshotted or counterfeited
+      - **AI-powered fraud detection** — device reputation scoring and
+        threat detection to block bots and scalpers
+      - **TikTok integration** — sell tickets directly through TikTok in
+        20+ countries
+      - **Event templates and bulk edits** — reusable templates for floor
+        plans and pricing, with bulk editing across up to 300 events
+      - **On-platform advertising** — promoted ads within Ticketmaster's
+        marketplace to boost event visibility
+      - **All-in pricing** — FTC-compliant pricing showing the total cost
+        upfront with no surprise fees at checkout
 
       **Chobble Tickets has features Ticketmaster doesn't offer small
       organisers:**
@@ -156,6 +169,7 @@ blocks:
       the latest information.
 
       - [Ticketmaster UK](https://www.ticketmaster.co.uk)
+      - [Ticketmaster Business Solutions](https://business.ticketmaster.com/solutions/) — features for venues and organisers
       - [Chobble Tickets features](/features/)
 
   - type: cta
