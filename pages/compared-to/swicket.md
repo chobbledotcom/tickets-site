@@ -76,9 +76,8 @@ blocks:
         and Google Wallet API credentials; Chobble Tickets managed handles this
         setup for all customers)
       - **Customisable email templates** — both platforms let organisers edit
-        confirmation email content; alf.io uses MJML templates (editable in the
-        admin UI, though with some known bugs) while Chobble Tickets uses Liquid
-        syntax
+        confirmation email content; alf.io uses MJML templates while Chobble
+        Tickets uses Liquid syntax
       - **Configurable email providers** — both platforms support using
         third-party email services; alf.io self-hosted supports Mailgun, Mailjet,
         and SMTP (configured at the server level), while Chobble Tickets managed
