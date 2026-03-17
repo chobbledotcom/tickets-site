@@ -46,8 +46,8 @@ blocks:
       hosting).
 
       **Chobble Tickets** charges a flat £50/year (£25 for charities and
-      community groups) with no per-ticket fees. You pay Stripe processing
-      (1.5% + 20p) on top.
+      community groups) with no per-ticket fees. You pay Stripe or Square
+      processing fees on top.
 
       For small numbers of tickets, Hi.Events Cloud is cheaper since there's
       no annual fee. But as volume grows, Chobble's flat fee becomes better
@@ -83,7 +83,8 @@ blocks:
 
       - **End-to-end encryption** - attendee data is encrypted at rest and in
         transit, not just stored in a database
-      - **Apple Wallet tickets** - attendees can add tickets to Apple Wallet
+      - **Apple & Google Wallet tickets** - attendees can add tickets to
+        their phone wallet
       - **ICS calendar feeds** - subscribers get automatic calendar updates
       - **RSS feeds** - syndicate your events
       - **Pay-what-you-want pricing** - let attendees choose their price
@@ -105,12 +106,14 @@ blocks:
       The self-hosted version requires a server with at least 2 CPU cores and
       4GB RAM.
 
-      **Chobble Tickets** is built on a static site generator with a
-      lightweight approach. It prioritises simplicity, privacy (encrypted
-      data), and predictable flat-rate pricing. It's aimed at community
-      groups, schools, small organisers, and anyone who values data ownership
-      over feature density. It's run by a Community Interest Company, not a
-      traditional startup.
+      **Chobble Tickets** is built on Deno and compiles to a single
+      JavaScript file that runs as an edge script on Bunny CDN — no
+      traditional server required for the hosted version. It uses libsql
+      for its database and prioritises simplicity, privacy (hybrid RSA/AES
+      encryption for attendee data), and predictable flat-rate pricing.
+      It's aimed at community groups, schools, small organisers, and anyone
+      who values data ownership over feature density. It's run by a
+      Community Interest Company, not a traditional startup.
 
       ## Licensing and self-hosted costs
 
@@ -156,9 +159,9 @@ blocks:
 
       - You want predictable, flat-rate pricing with no per-ticket fees
       - Privacy and encryption matter to you
-      - You prefer a simpler, lighter-weight platform
+      - You prefer a simpler, edge-deployed platform with minimal infrastructure
       - You're a community group, charity, or school (£25/year)
-      - You want Apple Wallet integration, calendar feeds, or RSS
+      - You want Apple/Google Wallet integration, calendar feeds, or RSS
       - You value a Community Interest Company over a traditional startup
 
   - type: cta
