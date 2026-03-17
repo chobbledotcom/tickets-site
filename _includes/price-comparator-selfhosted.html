@@ -1,10 +1,10 @@
-{%- assign ch = competitors.chobble -%}
-{%- assign co = competitors[competitor_key] -%}
+{%- assign ch = competitors[selfhosted_chobble_key] -%}
+{%- assign co = competitors[selfhosted_competitor_key] -%}
 <div class="prose">
-  <h2>Interactive cost calculator</h2>
-  <p>Drag the sliders to see how costs compare at different volumes:</p>
+  <h2>Self-hosted cost calculator</h2>
+  <p>Compare self-hosting costs — Chobble Tickets has no license fee:</p>
 </div>
-<div class="price-comparator" data-config='{"chobble":{"n":"{{ ch.name }}","a":{{ ch.annual_cost }},"tp":{{ ch.per_ticket_fee_percent }},"tf":{{ ch.per_ticket_fee_fixed }},"pp":{{ ch.payment_processing_percent }},"pf":{{ ch.payment_processing_fixed }}},"competitor":{"n":"{{ co.name }}","a":{{ co.annual_cost }},"tp":{{ co.per_ticket_fee_percent }},"tf":{{ co.per_ticket_fee_fixed }},"pp":{{ co.payment_processing_percent }},"pf":{{ co.payment_processing_fixed }}}}'>
+<div class="price-comparator" data-config='{"chobble":{"n":"{{ ch.name }} (self-hosted)","a":{{ ch.annual_cost }},"tp":{{ ch.per_ticket_fee_percent }},"tf":{{ ch.per_ticket_fee_fixed }},"pp":{{ ch.payment_processing_percent }},"pf":{{ ch.payment_processing_fixed }}},"competitor":{"n":"{{ co.name }}","a":{{ co.annual_cost }},"tp":{{ co.per_ticket_fee_percent }},"tf":{{ co.per_ticket_fee_fixed }},"pp":{{ co.payment_processing_percent }},"pf":{{ co.payment_processing_fixed }}}}'>
   <div class="price-comparator__controls-row">
     <div class="price-comparator__controls">
       <label class="price-comparator__label">
@@ -23,9 +23,9 @@
   </div>
   <div class="price-comparator__results">
     <div class="price-comparator__column price-comparator__column--chobble">
-      <h3>{{ ch.name }}</h3>
+      <h3>{{ ch.name }} (self-hosted)</h3>
       <dl>
-        <dt>Annual fee</dt><dd data-pc="chobble-annual">&pound;{{ ch.annual_cost | append: ".00" }}</dd>
+        <dt>License fee</dt><dd data-pc="chobble-annual">&pound;{{ ch.annual_cost | append: ".00" }}</dd>
         <dt>Platform fees</dt><dd data-pc="chobble-platform">&pound;0.00</dd>
         <dt>Payment processing</dt><dd data-pc="chobble-processing">&pound;0.00</dd>
         <dt class="price-comparator__total-label">Total cost per year</dt>
@@ -37,9 +37,9 @@
       </dl>
     </div>
     <div class="price-comparator__column price-comparator__column--competitor">
-      <h3>{{ co.name }}</h3>
+      <h3>{{ co.name }} (self-hosted)</h3>
       <dl>
-        <dt>Annual fee</dt><dd data-pc="comp-annual">&pound;{{ co.annual_cost | append: ".00" }}</dd>
+        <dt>License fee</dt><dd data-pc="comp-annual">&pound;{{ co.annual_cost | append: ".00" }}</dd>
         <dt>Platform fees</dt><dd data-pc="comp-platform">&pound;0.00</dd>
         <dt>Payment processing</dt><dd data-pc="comp-processing">&pound;0.00</dd>
         <dt class="price-comparator__total-label">Total cost per year</dt>

@@ -42,5 +42,31 @@
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
     "fee_note": "Ticketmaster fees vary by event and venue — this estimate uses approximately 10% + £2.50 per ticket (bundled). Actual fees may be higher or lower. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
+  },
+  "pretix_hosted": {
+    "name": "Pretix Hosted",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 2.5,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Pretix Hosted fees: 2.5% of ticket price excl. taxes (capped at ~£13/ticket). Payment processing (e.g. Stripe 1.5% + 20p) is separate. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
+  },
+  "pretix_selfhosted": {
+    "name": "Pretix Enterprise",
+    "annual_cost": 420,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Pretix Enterprise Starter license: €499/year (approx. £420). Community edition is free but lacks proprietary plugins. Chobble Tickets self-hosted: free, no license fee + Stripe processing (1.5% + 20p)."
+  },
+  "chobble_selfhosted": {
+    "name": "Chobble Tickets",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2
   }
 }
