@@ -85,8 +85,8 @@ blocks:
 
       **Chobble Tickets has features DICE doesn't:**
 
-      - **End-to-end encryption** — attendee data is encrypted at rest and in
-        transit, not just stored in a database
+      - **Encrypted attendee data** — PII is encrypted at rest using hybrid
+        RSA/AES encryption, decrypted server-side only for authorised admins
       - **No app required** — tickets work in any browser on any device
       - **Apple & Google Wallet tickets** — attendees can add tickets to their
         phone wallet without a separate app

@@ -45,9 +45,11 @@ blocks:
 
       ## You are the data controller
 
-      With Chobble Tickets, you are the data controller - we don't have access
-      to your attendees' personal information. This is by design: encryption
-      keys are generated during setup and never leave your environment.
+      With Chobble Tickets, attendee data is encrypted at rest and only
+      decrypted server-side when an authorised admin views it. If you
+      self-host, encryption keys never leave your environment. On managed
+      hosting, data is decrypted on the server to display it to you, but is
+      never shared with third parties or used for any other purpose.
 
       **Important**: encryption keys are non-recoverable if lost, and admin
       passwords cannot be reset. A lost password means attendee data is
