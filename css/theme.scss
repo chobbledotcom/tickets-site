@@ -112,7 +112,11 @@
 }
 
 .price-comparator__table tbody td:not(:first-child) {
-  text-align: right;
+  text-align: center;
+}
+
+.price-comparator__zero {
+  color: #7ddf7d;
 }
 
 .price-comparator__total-row td {
