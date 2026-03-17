@@ -75,6 +75,15 @@ blocks:
         self-hosted deployments require you to configure your own Apple Developer
         and Google Wallet API credentials; Chobble Tickets managed handles this
         setup for all customers)
+      - **Customisable email templates** — both platforms let organisers edit
+        confirmation email content; alf.io uses MJML templates (editable in the
+        admin UI, though with some known bugs) while Chobble Tickets uses Liquid
+        syntax
+      - **Configurable email providers** — both platforms support using
+        third-party email services; alf.io self-hosted supports Mailgun, Mailjet,
+        and SMTP (configured at the server level), while Chobble Tickets managed
+        lets you switch between Resend, Postmark, SendGrid, and Mailgun through
+        the admin UI so emails come from your own domain
 
       **alf.io / Swicket has features Chobble Tickets doesn't:**
 
@@ -123,13 +132,9 @@ blocks:
         capacity with calendar picker and holiday blackouts
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration for custom integrations
-      - **[Custom email providers](/features/email-providers/)** — use
-        Resend, Postmark, SendGrid, or Mailgun so emails come from your domain
-      - **[Customisable email templates](/features/email-templates/)** — full
-        control over confirmation emails with Liquid syntax for a fully
-        white-label experience
       - **[Custom domain](/features/custom-domain/)** — your ticketing lives
-        at your own web address
+        at your own web address (relevant vs Swicket managed; alf.io
+        self-hosted runs on whatever domain you configure)
       - **[Embeddable widget](/features/embeddable-widget/)** — drop an
         iframe into your own website
       - **[Event groups](/features/groups/)** — organise related events into
@@ -164,8 +169,7 @@ blocks:
         [RSS](/features/rss-and-calendar-feeds/)
       - You don't want a platform marketing to your attendees
       - You're a charity or community group (£25/year)
-      - You want [custom email templates](/features/email-templates/),
-        [webhooks](/features/webhooks/), or a [public
+      - You want [webhooks](/features/webhooks/) or a [public
         API](/features/public-api/)
 
   - type: markdown
