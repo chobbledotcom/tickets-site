@@ -21,36 +21,47 @@
       <span class="price-comparator__takings-value" data-pc="takings">&pound;2,000.00</span>
     </div>
   </div>
-  <div class="price-comparator__results">
-    <div class="price-comparator__column price-comparator__column--chobble">
-      <h3>{{ ch.name }}</h3>
-      <dl>
-        <dt>Annual fee</dt><dd data-pc="chobble-annual">&pound;{{ ch.annual_cost | append: ".00" }}</dd>
-        <dt>Platform fees</dt><dd data-pc="chobble-platform">&pound;0.00</dd>
-        <dt>Payment processing</dt><dd data-pc="chobble-processing">&pound;0.00</dd>
-        <dt class="price-comparator__total-label">Total cost per year</dt>
-        <dd class="price-comparator__total" data-pc="chobble-total">&pound;0.00</dd>
-        <dt class="price-comparator__per-ticket-label">Cost per ticket</dt>
-        <dd class="price-comparator__per-ticket" data-pc="chobble-per-ticket">&pound;0.00</dd>
-        <dt class="price-comparator__share-label">Your share</dt>
-        <dd class="price-comparator__share" data-pc="chobble-share">&pound;0.00</dd>
-      </dl>
-    </div>
-    <div class="price-comparator__column price-comparator__column--competitor">
-      <h3>{{ co.name }}</h3>
-      <dl>
-        <dt>Annual fee</dt><dd data-pc="comp-annual">&pound;{{ co.annual_cost | append: ".00" }}</dd>
-        <dt>Platform fees</dt><dd data-pc="comp-platform">&pound;0.00</dd>
-        <dt>Payment processing</dt><dd data-pc="comp-processing">&pound;0.00</dd>
-        <dt class="price-comparator__total-label">Total cost per year</dt>
-        <dd class="price-comparator__total" data-pc="comp-total">&pound;0.00</dd>
-        <dt class="price-comparator__per-ticket-label">Cost per ticket</dt>
-        <dd class="price-comparator__per-ticket" data-pc="comp-per-ticket">&pound;0.00</dd>
-        <dt class="price-comparator__share-label">Your share</dt>
-        <dd class="price-comparator__share" data-pc="comp-share">&pound;0.00</dd>
-      </dl>
-    </div>
-  </div>
+  <table class="price-comparator__table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>{{ ch.name }}</th>
+        <th>{{ co.name }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Annual fee</td>
+        <td data-pc="chobble-annual">&pound;{{ ch.annual_cost | append: ".00" }}</td>
+        <td data-pc="comp-annual">&pound;{{ co.annual_cost | append: ".00" }}</td>
+      </tr>
+      <tr>
+        <td>Platform fees</td>
+        <td data-pc="chobble-platform">&pound;0.00</td>
+        <td data-pc="comp-platform">&pound;0.00</td>
+      </tr>
+      <tr>
+        <td>Payment processing</td>
+        <td data-pc="chobble-processing">&pound;0.00</td>
+        <td data-pc="comp-processing">&pound;0.00</td>
+      </tr>
+      <tr class="price-comparator__total-row">
+        <td>Total cost per year</td>
+        <td data-pc="chobble-total">&pound;0.00</td>
+        <td data-pc="comp-total">&pound;0.00</td>
+      </tr>
+      <tr class="price-comparator__per-ticket-row">
+        <td>Cost per ticket</td>
+        <td data-pc="chobble-per-ticket">&pound;0.00</td>
+        <td data-pc="comp-per-ticket">&pound;0.00</td>
+      </tr>
+      <tr class="price-comparator__share-row">
+        <td>Your share</td>
+        <td data-pc="chobble-share">&pound;0.00</td>
+        <td data-pc="comp-share">&pound;0.00</td>
+      </tr>
+    </tbody>
+  </table>
   <p class="price-comparator__savings" data-pc="savings"></p>
 </div>
 <script src="/assets/js/price-comparator.js"></script>
