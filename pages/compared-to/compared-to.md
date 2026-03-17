@@ -53,7 +53,7 @@ blocks:
         description: The electronic music ticketing platform — compare fees, data ownership, and features.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/swicket/">vs Swicket</a>'
-        description: Enterprise conference infrastructure — compare scale, pricing model, and data ownership.
+        description: The managed service built on open source alf.io — compare features, pricing model, and data ownership.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/ticketmaster/">vs Ticketmaster</a>'
         description: Built for massive venues - see when Chobble Tickets is the better choice.
