@@ -8,7 +8,6 @@ permalink: /compared-to/dice/
 eleventyNavigation:
   key: vs DICE
   parent: Compared To
-  order: 10
 blocks:
   - type: hero
     full_width: true

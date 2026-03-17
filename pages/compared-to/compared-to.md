@@ -25,35 +25,38 @@ blocks:
         title: '<a href="/compared-to/bookitbee/">vs BookitBee</a>'
         description: A UK-focused ticketing platform with per-ticket fees - compare pricing and features.
       - icon: "hugeicons:ticket-01"
+        title: '<a href="/compared-to/dice/">vs DICE</a>'
+        description: Mobile-first music ticketing — compare fees, app requirements, and data ownership.
+      - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/eventbrite/">vs Eventbrite</a>'
         description: The big name in ticketing - see how an open source alternative measures up.
-      - icon: "hugeicons:heart-check"
-        title: '<a href="/compared-to/parentkind/">vs Parentkind</a>'
-        description: Popular with schools and PTAs - compare ease of use and cost.
       - icon: "hugeicons:ticket-01"
-        title: '<a href="/compared-to/ticketmaster/">vs Ticketmaster</a>'
-        description: Built for massive venues - see when Chobble Tickets is the better choice.
-      - icon: "hugeicons:pencil-edit-01"
-        title: '<a href="/compared-to/pen-and-paper/">vs Pen and Paper</a>'
-        description: Sometimes low-tech works - see when it's worth upgrading to software.
+        title: '<a href="/compared-to/fatsoma/">vs Fatsoma</a>'
+        description: Popular with student events and nightlife — compare fees, features, and data ownership.
       - icon: "hugeicons:file-02"
         title: '<a href="/compared-to/google-forms/">vs Google Forms</a>'
         description: Free and flexible, but not built for ticketing - see the differences.
       - icon: "hugeicons:source-code"
         title: '<a href="/compared-to/hi-events/">vs Hi.Events</a>'
         description: Another open source option - an honest comparison of two similar platforms.
+      - icon: "hugeicons:heart-check"
+        title: '<a href="/compared-to/parentkind/">vs Parentkind</a>'
+        description: Popular with schools and PTAs - compare ease of use and cost.
+      - icon: "hugeicons:pencil-edit-01"
+        title: '<a href="/compared-to/pen-and-paper/">vs Pen and Paper</a>'
+        description: Sometimes low-tech works - see when it's worth upgrading to software.
       - icon: "hugeicons:open-source"
         title: '<a href="/compared-to/pretix/">vs Pretix</a>'
         description: Another open source option targeting enterprise — compare hosted and self-hosted costs.
-      - icon: "hugeicons:ticket-01"
-        title: '<a href="/compared-to/fatsoma/">vs Fatsoma</a>'
-        description: Popular with student events and nightlife — compare fees, features, and data ownership.
       - icon: "hugeicons:music-note-03"
         title: '<a href="/compared-to/resident-advisor/">vs Resident Advisor</a>'
         description: The electronic music ticketing platform — compare fees, data ownership, and features.
       - icon: "hugeicons:ticket-01"
-        title: '<a href="/compared-to/dice/">vs DICE</a>'
-        description: Mobile-first music ticketing — compare fees, app requirements, and data ownership.
+        title: '<a href="/compared-to/swicket/">vs Swicket</a>'
+        description: Enterprise conference infrastructure — compare scale, pricing model, and data ownership.
+      - icon: "hugeicons:ticket-01"
+        title: '<a href="/compared-to/ticketmaster/">vs Ticketmaster</a>'
+        description: Built for massive venues - see when Chobble Tickets is the better choice.
 
   - type: cta
     title: Try it yourself

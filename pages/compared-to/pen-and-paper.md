@@ -7,7 +7,6 @@ permalink: /compared-to/pen-and-paper/
 eleventyNavigation:
   key: vs Pen and Paper
   parent: Compared To
-  order: 5
 blocks:
   - type: hero
     full_width: true

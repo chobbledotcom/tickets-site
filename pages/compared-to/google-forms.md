@@ -7,7 +7,6 @@ permalink: /compared-to/google-forms/
 eleventyNavigation:
   key: vs Google Forms
   parent: Compared To
-  order: 4
 blocks:
   - type: hero
     full_width: true

@@ -8,7 +8,6 @@ permalink: /compared-to/bookitbee/
 eleventyNavigation:
   key: vs BookitBee
   parent: Compared To
-  order: 1
 blocks:
   - type: hero
     full_width: true
