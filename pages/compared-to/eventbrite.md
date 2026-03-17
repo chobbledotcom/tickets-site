@@ -52,6 +52,9 @@ blocks:
       - Embeddable ticket widgets for your own website
       - API access for custom integrations
       - Event grouping into collections for multi-event bookings
+      - Multiple ticket types per event — use event groups with shared
+        capacity limits to create VIP, general admission, early bird, and
+        other tiers with different prices
 
       **Eventbrite has features Chobble Tickets doesn't:**
 
@@ -68,9 +71,9 @@ blocks:
         and retargeting (claimed 6x average ROI)
       - **Promo codes and discounts** — create early bird pricing, discount
         codes, group discounts, and limited-time offers with usage limits
-      - **Multiple ticket types per event** — VIP, general admission, early
-        bird, group, and hidden ticket tiers on a single event, each with
-        different prices and availability windows
+      - **Hidden ticket tiers** — ticket types hidden behind access codes
+        or time-limited availability windows for presales and invite-only
+        access
       - **Reserved seating** — design interactive venue maps with assigned
         seating sections and let attendees pick their seats
       - **Timed entry ticketing** — time-slot-based ticket distribution for
@@ -147,6 +150,9 @@ blocks:
         subscribers get automatic calendar updates
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
         events to feed readers
+      - **[Tiered ticket types via groups](/features/groups/)** — create
+        VIP, early bird, and other tiers using event groups with a shared
+        capacity cap (max attendees per group)
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
         attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** — per-date
