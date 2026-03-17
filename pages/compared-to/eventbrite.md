@@ -88,6 +88,14 @@ blocks:
         donation tickets for qualifying organisations
       - **Sell add-ons** — offer merchandise, parking, meal upgrades, or
         other extras alongside tickets
+      - **Tap to Pay** — accept contactless on-site payments at the door
+        using NFC
+      - **Tracking pixels and links** — add conversion tracking pixels and
+        attribution links across ad platforms
+      - **Sell through social platforms** — sell tickets directly through
+        Facebook, TikTok, and LinkedIn without attendees leaving those apps
+      - **1:1 onboarding and phone support** — Pro customers get
+        onboarding sessions and 24/7 phone and live chat support
 
       **Chobble Tickets has features Eventbrite doesn't:**
 
@@ -163,6 +171,7 @@ blocks:
 
       - [Eventbrite pricing for organisers](https://www.eventbrite.co.uk/organizer/pricing/) — 6.95% + £0.59 per ticket (UK)
       - [Eventbrite ticketing fees (Help Centre)](https://www.eventbrite.co.uk/help/en-gb/articles/755615/how-much-does-it-cost-for-organizers-to-use-eventbrite/)
+      - [Eventbrite all features](https://www.eventbrite.com/l/all-features/)
       - [Eventbrite features — sell tickets](https://www.eventbrite.com/organizer/features/sell-tickets/)
       - [Chobble Tickets features](/features/)
 
