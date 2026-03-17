@@ -42,5 +42,14 @@
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
     "fee_note": "Ticketmaster fees vary by event and venue — this estimate uses approximately 10% + £2.50 per ticket (bundled). Actual fees may be higher or lower. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
+  },
+  "hi_events": {
+    "name": "Hi.Events",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 0.75,
+    "per_ticket_fee_fixed": 0.32,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Hi.Events cloud fees: 0.75% + ~32p per ticket, plus Stripe processing (1.5% + 20p). Self-hosted Hi.Events has no platform fees, only Stripe processing. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
   }
 }

@@ -39,6 +39,9 @@ blocks:
       - icon: "hugeicons:file-02"
         title: vs Google Forms
         description: Free and flexible, but not built for ticketing - see the differences.
+      - icon: "hugeicons:source-code"
+        title: vs Hi.Events
+        description: Another open source option - an honest comparison of two similar platforms.
 
   - type: cta
     title: Try it yourself
