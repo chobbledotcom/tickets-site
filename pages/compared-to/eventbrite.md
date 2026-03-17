@@ -96,6 +96,27 @@ blocks:
         Facebook, TikTok, and LinkedIn without attendees leaving those apps
       - **1:1 onboarding and phone support** — Pro customers get
         onboarding sessions and 24/7 phone and live chat support
+      - **AI Marketing Copilot** — AI-generated ad copy, email campaigns,
+        event images, and descriptions (claimed 30% faster campaign
+        launches and 17% better CPC)
+      - **Conditional logic questions** — follow-up registration questions
+        that appear based on previous answers
+      - **Attendee self-service transfers** — attendees can change ticket
+        type, transfer to a different event date, or reassign to another
+        person themselves
+      - **Post-event surveys** — built-in NPS scoring and follow-up
+        surveys after events
+      - **Lineup feature** — dedicated artist profiles with auto-syndication
+        to [Spotify, Bandsintown, and
+        Google](https://www.eventbrite.com/blog/press/newsroom/lineup-tool-helps-music-venues-reach-more-fans/)
+      - **"See Who's Going"** — social proof feature showing which friends
+        are attending an event
+      - **26 languages** — platform localised across 16+ locales for
+        international audiences
+      - **On-site mobile box office** — sell tickets and merchandise in
+        person with credit card processing via the organiser app
+      - **Automated pre-event reminders** — series of emails at 48 hours,
+        2 hours, and 10 minutes before the event with "Join Now" links
 
       **Chobble Tickets has features Eventbrite doesn't:**
 
