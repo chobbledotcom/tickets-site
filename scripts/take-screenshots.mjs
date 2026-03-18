@@ -34,15 +34,8 @@ const removeBanner = (page) =>
 const screenshot = async (page, name) => {
   await removeBanner(page);
   const path = join(SCREENSHOTS_DIR, `${name}.png`);
-  await page.screenshot({ path, fullPage: false });
-  console.log(`  >> ${name}.png`);
-};
-
-const fullScreenshot = async (page, name) => {
-  await removeBanner(page);
-  const path = join(SCREENSHOTS_DIR, `${name}.png`);
   await page.screenshot({ path, fullPage: true });
-  console.log(`  >> ${name}.png (full)`);
+  console.log(`  >> ${name}.png`);
 };
 
 const goto = async (page, url) => {
@@ -140,6 +133,7 @@ const run = async () => {
   const browser = await chromium.launch(launchOpts);
   const context = await browser.newContext({
     viewport: { width: 1280, height: 800 },
+    deviceScaleFactor: 2,
     ignoreHTTPSErrors: true,
   });
   context.setDefaultTimeout(TIMEOUT);
@@ -184,7 +178,7 @@ const run = async () => {
   // Screenshot the create event form (before submit)
   await ensureLoggedIn(page);
   await goto(page, `${BASE_URL}/admin/event/new`);
-  await fullScreenshot(page, "create-event-form");
+  await screenshot(page, "create-event-form");
 
   // Create groups
   await createGroup(page, { name: "Summer Events", maxAttendees: "500" });
@@ -238,15 +232,6 @@ const run = async () => {
     }
   }
 
-  // Full page versions
-  await ensureLoggedIn(page);
-  await goto(page, `${BASE_URL}/admin/settings`);
-  if (isLoggedIn(page)) await fullScreenshot(page, "settings-full");
-
-  await ensureLoggedIn(page);
-  await goto(page, `${BASE_URL}/admin/guide`);
-  if (isLoggedIn(page)) await fullScreenshot(page, "guide-full");
-
   // ── Phase 3: Event details ──
   console.log("\n=== Phase 3: Event details ===");
   await ensureLoggedIn(page);
@@ -266,7 +251,6 @@ const run = async () => {
     await goto(page, eventUrl);
     if (isLoggedIn(page)) {
       await screenshot(page, "event-detail");
-      await fullScreenshot(page, "event-detail-full");
 
       // Find event sub-page links (skip destructive/download actions)
       const detailLinks = await getLinks(page);
@@ -302,6 +286,7 @@ const run = async () => {
     console.log("\n=== Phase 4: Public event page ===");
     const pubCtx = await browser.newContext({
       viewport: { width: 1280, height: 800 },
+      deviceScaleFactor: 2,
       ignoreHTTPSErrors: true,
     });
     const pubPage = await pubCtx.newPage();
@@ -324,7 +309,6 @@ const run = async () => {
         );
         await goto(pubPage, publicLink.href);
         await screenshot(pubPage, "public-ticket-page");
-        await fullScreenshot(pubPage, "public-ticket-page-full");
       }
     } catch (err) {
       console.log(`Public page error: ${err.message.slice(0, 80)}`);
@@ -336,6 +320,7 @@ const run = async () => {
   console.log("\n=== Phase 5: Mobile ===");
   const mobileCtx = await browser.newContext({
     viewport: { width: 390, height: 844 },
+    deviceScaleFactor: 2,
     isMobile: true,
     ignoreHTTPSErrors: true,
   });
