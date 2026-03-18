@@ -16,23 +16,19 @@ const trimImage = async (filePath) => {
   const contentW = trimInfo.info.width;
   const contentH = trimInfo.info.height;
 
-  // Add margin around the trimmed content, clamped to original bounds
-  const left = Math.max(0, trimOffsetLeft - MARGIN);
-  const top = Math.max(0, trimOffsetTop - MARGIN);
-  const right = Math.min(width, trimOffsetLeft + contentW + MARGIN);
+  // Only trim vertically (bottom) - keep full width to avoid cropping page content
+  // White page backgrounds blend with whitespace so horizontal trim cuts into content
   const bottom = Math.min(height, trimOffsetTop + contentH + MARGIN);
-
-  const cropW = right - left;
-  const cropH = bottom - top;
+  const cropH = bottom;
 
   // Only crop if we're actually saving space
-  if (cropW >= width && cropH >= height) {
+  if (cropH >= height) {
     console.log(`  skip ${filePath} (no whitespace to trim)`);
     return;
   }
 
   await sharp(filePath)
-    .extract({ left, top, width: cropW, height: cropH })
+    .extract({ left: 0, top: 0, width, height: cropH })
     .toFile(filePath.replace(".png", ".trimmed.png"));
 
   // Overwrite original with trimmed version
@@ -41,9 +37,9 @@ const trimImage = async (filePath) => {
   const { unlinkSync } = await import("fs");
   unlinkSync(filePath.replace(".png", ".trimmed.png"));
 
-  const saved = Math.round((1 - (cropW * cropH) / (width * height)) * 100);
+  const saved = Math.round((1 - cropH / height) * 100);
   console.log(
-    `  trim ${filePath.split("/").pop()} ${width}x${height} -> ${cropW}x${cropH} (${saved}% smaller)`,
+    `  trim ${filePath.split("/").pop()} ${width}x${height} -> ${width}x${cropH} (${saved}% shorter)`,
   );
 };
 
