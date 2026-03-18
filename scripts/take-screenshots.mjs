@@ -82,8 +82,8 @@ const run = async () => {
   context.setDefaultTimeout(TIMEOUT);
   const page = await context.newPage();
 
-  // ── Phase 1: Login and create event WITHOUT typing (let demo fill data) ──
-  console.log("=== Phase 1: Create event (no typing) ===");
+  // ── Phase 1: Login and create event (demo mode replaces text with demo data) ──
+  console.log("=== Phase 1: Create event ===");
   if (!(await login(page))) {
     console.log("Cannot log in. Aborting.");
     await browser.close();
@@ -93,30 +93,16 @@ const run = async () => {
   await goto(page, `${BASE_URL}/admin/event/new`);
   await fullScreenshot(page, "create-event-form");
 
-  // Set form values via JavaScript to bypass demo mode text interception
-  // Then submit via JS as well
-  await page.evaluate(() => {
-    const setVal = (name, value) => {
-      const el = document.querySelector(`[name="${name}"]`);
-      if (el) {
-        const nativeSetter = Object.getOwnPropertyDescriptor(
-          HTMLInputElement.prototype,
-          "value",
-        )?.set;
-        if (nativeSetter) nativeSetter.call(el, value);
-        else el.value = value;
-        el.dispatchEvent(new Event("input", { bubbles: true }));
-        el.dispatchEvent(new Event("change", { bubbles: true }));
-      }
-    };
-    setVal("name", "Summer Music Festival 2026");
-    setVal("description", "An outdoor music festival with live bands and food");
-    setVal("location", "Village Hall");
-    setVal("max_attendees", "200");
-    setVal("unit_price", "15.00");
-    const form = document.querySelector("form");
-    if (form) form.submit();
-  });
+  // Fill all required form fields and submit
+  await page.locator('input[name="name"]').fill("Summer Music Festival 2026");
+  await page.locator('input[name="description"]').fill("An outdoor music festival with live bands and food");
+  await page.locator('input[name="location"]').fill("Village Hall");
+  await page.locator('input[name="max_attendees"]').fill("200");
+  await page.locator('input[name="max_quantity"]').fill("10");
+  await page.locator('input[name="unit_price"]').fill("15.00");
+
+  // Submit the event form (not the logout form in the nav)
+  await page.locator('form:has(input[name="name"]) button[type="submit"]').click();
   await page.waitForLoadState("domcontentloaded");
   await page.waitForTimeout(3000);
   console.log(`After form submit: ${page.url()}`);
@@ -197,7 +183,9 @@ const run = async () => {
           l.href.startsWith(eventUrl) &&
           l.href !== eventUrl &&
           !l.href.includes("logout") &&
-          !l.href.includes("delete")
+          !l.href.includes("delete") &&
+          !l.href.includes("export") &&
+          !l.href.includes("refund")
       );
       console.log("Event sub-pages:");
       for (const l of subLinks) console.log(`  ${l.text} -> ${l.href}`);
@@ -207,7 +195,7 @@ const run = async () => {
           .replace(eventUrl, "")
           .replace(/^\//, "")
           .replace(/\//g, "-")
-          .replace(/\?.*/, "");
+          .replace(/[?#].*/, "");
         if (!subName) continue;
 
         if (!isLoggedIn(page)) await login(page);
@@ -283,7 +271,8 @@ const run = async () => {
       await mobilePage.fill('input[name="password"]', "demo1234");
       // Use evaluate to submit to avoid timeout issues with mobile clicks
       await mobilePage.evaluate(() => {
-        const form = document.querySelector("form");
+        const field = document.querySelector('[name="username"]');
+        const form = field?.closest("form");
         if (form) form.submit();
       });
       await mobilePage.waitForLoadState("domcontentloaded");
