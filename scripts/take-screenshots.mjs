@@ -36,14 +36,31 @@ const hideUiChrome = (page) =>
 
 const TRIM_MARGIN = 24;
 
+const findContentBottom = async (filePath, width, height) => {
+  const chunkSize = 20;
+  for (let y = height - chunkSize; y >= 0; y -= chunkSize) {
+    const rowH = Math.min(chunkSize, height - y);
+    const buf = await sharp(filePath)
+      .extract({ left: 0, top: y, width, height: rowH })
+      .raw()
+      .toBuffer();
+    for (let row = rowH - 1; row >= 0; row--) {
+      for (let x = 0; x < width; x++) {
+        const idx = (row * width + x) * 3;
+        if (buf[idx] < 250 || buf[idx + 1] < 250 || buf[idx + 2] < 250) {
+          return y + row + 1;
+        }
+      }
+    }
+  }
+  return height;
+};
+
 const trimImage = async (filePath) => {
   const image = sharp(filePath);
   const { width, height } = await image.metadata();
-  const trimmed = sharp(filePath).trim();
-  const trimInfo = await trimmed.toBuffer({ resolveWithObject: true });
-  const { trimOffsetTop } = trimInfo.info;
-  const contentH = trimInfo.info.height;
-  const cropH = Math.min(height, trimOffsetTop + contentH + TRIM_MARGIN);
+  const contentBottom = await findContentBottom(filePath, width, height);
+  const cropH = Math.min(height, contentBottom + TRIM_MARGIN);
   if (cropH >= height) return;
   const { unlinkSync } = await import("fs");
   const tmpPath = filePath.replace(".png", ".trimmed.png");
