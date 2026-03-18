@@ -19,6 +19,8 @@ blocks:
 
   - type: markdown
     content: |
+      ![The built-in admin guide with expandable FAQ sections](/images/screenshots/guide.png)
+
       ## Documentation where you need it
 
       The admin guide is built right into your Chobble Tickets installation

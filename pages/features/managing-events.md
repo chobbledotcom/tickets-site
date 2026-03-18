@@ -17,6 +17,10 @@ blocks:
       Daily scheduling, team access, attendee management, check-ins, and
       reporting tools to run your events smoothly.
 
+  - type: markdown
+    content: |
+      ![The event creation form with fields for name, type, description, pricing, and more](/images/screenshots/create-event-form.png)
+
   - type: features
     items:
       - icon: "hugeicons:qr-code"

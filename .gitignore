@@ -8,5 +8,5 @@ yarn-error.log*
 .direnv
 .env
 .claude
-screenshots/
+/screenshots/
 .jscpd-report/

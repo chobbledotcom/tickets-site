@@ -19,6 +19,8 @@ blocks:
 
   - type: markdown
     content: |
+      ![The activity log showing a timeline of admin actions](/images/screenshots/activity-log.png)
+
       ## Full audit trail
 
       Every action in the admin panel is logged: bookings, check-ins,

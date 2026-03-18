@@ -16,6 +16,10 @@ blocks:
       Everything you need to run events, built into one open source platform
       with no premium tiers or feature gating.
 
+  - type: markdown
+    content: |
+      ![The Chobble Tickets admin dashboard](/images/screenshots/dashboard.png)
+
   - type: features
     header_title: Selling tickets
     items:

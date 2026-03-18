@@ -19,6 +19,8 @@ blocks:
 
   - type: markdown
     content: |
+      ![The users management page showing team members and their roles](/images/screenshots/users.png)
+
       ## Two roles: owners and managers
 
       Running events often involves a team, so Chobble Tickets lets you
@@ -38,6 +40,8 @@ blocks:
 
       View and manage active sessions from the admin panel, and if someone's
       access needs to be revoked you can do it immediately.
+
+      ![The sessions management page showing active user sessions](/images/screenshots/sessions.png)
 
       Read the [config documentation](https://chobbledotcom.github.io/tickets/docs/config.ts)
       for details on session management and user settings.
