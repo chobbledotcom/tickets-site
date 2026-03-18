@@ -25,13 +25,21 @@ const getProxyConfig = () => {
   }
 };
 
+const removeBanner = (page) =>
+  page.evaluate(() => {
+    const el = document.querySelector(".demo-banner");
+    if (el) el.remove();
+  });
+
 const screenshot = async (page, name) => {
+  await removeBanner(page);
   const path = join(SCREENSHOTS_DIR, `${name}.png`);
   await page.screenshot({ path, fullPage: false });
   console.log(`  >> ${name}.png`);
 };
 
 const fullScreenshot = async (page, name) => {
+  await removeBanner(page);
   const path = join(SCREENSHOTS_DIR, `${name}.png`);
   await page.screenshot({ path, fullPage: true });
   console.log(`  >> ${name}.png (full)`);
@@ -59,12 +67,67 @@ const login = async (page) => {
   return !page.url().includes("login");
 };
 
-const isLoggedIn = (page) => !page.url().includes("login") && !page.url().includes("setup");
+const isLoggedIn = (page) =>
+  !page.url().includes("login") && !page.url().includes("setup");
 
 const getLinks = async (page) =>
   page.locator("a").evaluateAll((els) =>
-    els.map((el) => ({ href: el.href, text: el.textContent.trim() }))
+    els.map((el) => ({ href: el.href, text: el.textContent.trim() })),
   );
+
+const submitForm = async (page) => {
+  await page
+    .locator('form:has(input[name="name"]) button[type="submit"]')
+    .click();
+  await page.waitForLoadState("domcontentloaded");
+  await page.waitForTimeout(3000);
+};
+
+const ensureLoggedIn = async (page) => {
+  if (!isLoggedIn(page)) await login(page);
+};
+
+// ── Data creation helpers ──
+
+const createEvent = async (page, data) => {
+  await ensureLoggedIn(page);
+  await goto(page, `${BASE_URL}/admin/event/new`);
+  await page.locator('input[name="name"]').fill(data.name);
+  await page.locator('input[name="description"]').fill(data.description);
+  await page.locator('input[name="location"]').fill(data.location);
+  await page.locator('input[name="max_attendees"]').fill(data.maxAttendees);
+  await page.locator('input[name="max_quantity"]').fill(data.maxQuantity);
+  await page.locator('input[name="unit_price"]').fill(data.unitPrice);
+  await submitForm(page);
+  const ok = page.url().includes("success");
+  console.log(`  Event: ${ok ? "created" : "FAILED"} (${page.url()})`);
+  return ok;
+};
+
+const createGroup = async (page, data) => {
+  await ensureLoggedIn(page);
+  await goto(page, `${BASE_URL}/admin/group/new`);
+  await page.locator('input[name="name"]').fill(data.name);
+  if (data.maxAttendees) {
+    await page.locator('input[name="max_attendees"]').fill(data.maxAttendees);
+  }
+  await submitForm(page);
+  const ok = page.url().includes("success");
+  console.log(`  Group: ${ok ? "created" : "FAILED"} (${page.url()})`);
+  return ok;
+};
+
+const createHoliday = async (page, data) => {
+  await ensureLoggedIn(page);
+  await goto(page, `${BASE_URL}/admin/holiday/new`);
+  await page.locator('input[name="name"]').fill(data.name);
+  await page.locator('input[name="start_date"]').fill(data.startDate);
+  await page.locator('input[name="end_date"]').fill(data.endDate);
+  await submitForm(page);
+  const ok = page.url().includes("success");
+  console.log(`  Holiday: ${ok ? "created" : "FAILED"} (${page.url()})`);
+  return ok;
+};
 
 const run = async () => {
   const proxy = getProxyConfig();
@@ -82,51 +145,78 @@ const run = async () => {
   context.setDefaultTimeout(TIMEOUT);
   const page = await context.newPage();
 
-  // ── Phase 1: Login and create event (demo mode replaces text with demo data) ──
-  console.log("=== Phase 1: Create event ===");
+  // ── Phase 1: Login and populate demo data ──
+  console.log("=== Phase 1: Populate data ===");
   if (!(await login(page))) {
     console.log("Cannot log in. Aborting.");
     await browser.close();
     return;
   }
 
+  // Create multiple events
+  await createEvent(page, {
+    name: "Summer Music Festival 2026",
+    description: "An outdoor music festival with live bands and food",
+    location: "Village Hall, Main Street",
+    maxAttendees: "200",
+    maxQuantity: "10",
+    unitPrice: "15.00",
+  });
+
+  await createEvent(page, {
+    name: "Quiz Night",
+    description: "Weekly pub quiz with prizes",
+    location: "The Red Lion",
+    maxAttendees: "50",
+    maxQuantity: "6",
+    unitPrice: "3.00",
+  });
+
+  await createEvent(page, {
+    name: "Charity Fun Run",
+    description: "5K run through the park raising money for local causes",
+    location: "Riverside Park",
+    maxAttendees: "500",
+    maxQuantity: "4",
+    unitPrice: "10.00",
+  });
+
+  // Screenshot the create event form (before submit)
+  await ensureLoggedIn(page);
   await goto(page, `${BASE_URL}/admin/event/new`);
   await fullScreenshot(page, "create-event-form");
 
-  // Fill all required form fields and submit
-  await page.locator('input[name="name"]').fill("Summer Music Festival 2026");
-  await page.locator('input[name="description"]').fill("An outdoor music festival with live bands and food");
-  await page.locator('input[name="location"]').fill("Village Hall");
-  await page.locator('input[name="max_attendees"]').fill("200");
-  await page.locator('input[name="max_quantity"]').fill("10");
-  await page.locator('input[name="unit_price"]').fill("15.00");
+  // Create groups
+  await createGroup(page, { name: "Summer Events", maxAttendees: "500" });
+  await createGroup(page, { name: "Weekly Regulars", maxAttendees: "200" });
 
-  // Submit the event form (not the logout form in the nav)
-  await page.locator('form:has(input[name="name"]) button[type="submit"]').click();
-  await page.waitForLoadState("domcontentloaded");
-  await page.waitForTimeout(3000);
-  console.log(`After form submit: ${page.url()}`);
-
-  // Check if still logged in
-  const stillLoggedIn = isLoggedIn(page);
-  console.log(`Still logged in: ${stillLoggedIn}`);
-
-  if (!stillLoggedIn) {
-    console.log("Got logged out after event create. Logging back in...");
-    await login(page);
-  }
+  // Create holidays
+  await createHoliday(page, {
+    name: "Christmas Break",
+    startDate: "2026-12-24",
+    endDate: "2026-12-26",
+  });
+  await createHoliday(page, {
+    name: "New Year",
+    startDate: "2026-12-31",
+    endDate: "2027-01-01",
+  });
+  await createHoliday(page, {
+    name: "Easter Weekend",
+    startDate: "2026-03-28",
+    endDate: "2026-03-30",
+  });
 
   // ── Phase 2: Screenshot all admin pages ──
   console.log("\n=== Phase 2: Admin screenshots ===");
-  if (!isLoggedIn(page)) await login(page);
+  await ensureLoggedIn(page);
 
   // Dashboard
   await goto(page, `${BASE_URL}/admin/`);
   await screenshot(page, "dashboard");
 
-  // Get body text to check for events
   const dashText = await page.locator("body").innerText();
-  console.log(`Dashboard text (first 300): ${dashText.slice(0, 300)}`);
+  console.log(`Dashboard (first 300): ${dashText.slice(0, 300)}`);
 
   // Admin pages
   const adminPages = [
@@ -141,7 +231,7 @@ const run = async () => {
   ];
 
   for (const [path, name] of adminPages) {
-    if (!isLoggedIn(page)) await login(page);
+    await ensureLoggedIn(page);
     await goto(page, `${BASE_URL}${path}`);
     if (isLoggedIn(page)) {
       await screenshot(page, name);
@@ -149,24 +239,26 @@ const run = async () => {
   }
 
   // Full page versions
-  if (!isLoggedIn(page)) await login(page);
+  await ensureLoggedIn(page);
   await goto(page, `${BASE_URL}/admin/settings`);
   if (isLoggedIn(page)) await fullScreenshot(page, "settings-full");
 
-  if (!isLoggedIn(page)) await login(page);
+  await ensureLoggedIn(page);
   await goto(page, `${BASE_URL}/admin/guide`);
   if (isLoggedIn(page)) await fullScreenshot(page, "guide-full");
 
   // ── Phase 3: Event details ──
   console.log("\n=== Phase 3: Event details ===");
-  if (!isLoggedIn(page)) await login(page);
+  await ensureLoggedIn(page);
   await goto(page, `${BASE_URL}/admin/`);
 
   const eventPageLinks = await getLinks(page);
   const eventLinks = eventPageLinks.filter(
-    (l) => l.href.match(/\/admin\/event\/\d/) && !l.href.includes("/new")
+    (l) => l.href.match(/\/admin\/event\/\d/) && !l.href.includes("/new"),
   );
-  console.log(`Found ${eventLinks.length} events: ${JSON.stringify(eventLinks.map((l) => l.text))}`);
+  console.log(
+    `Found ${eventLinks.length} events: ${JSON.stringify(eventLinks.map((l) => l.text))}`,
+  );
 
   if (eventLinks.length > 0) {
     const eventUrl = eventLinks[0].href;
@@ -176,7 +268,7 @@ const run = async () => {
       await screenshot(page, "event-detail");
       await fullScreenshot(page, "event-detail-full");
 
-      // Find event sub-page links
+      // Find event sub-page links (skip destructive/download actions)
       const detailLinks = await getLinks(page);
       const subLinks = detailLinks.filter(
         (l) =>
@@ -185,7 +277,7 @@ const run = async () => {
           !l.href.includes("logout") &&
           !l.href.includes("delete") &&
           !l.href.includes("export") &&
-          !l.href.includes("refund")
+          !l.href.includes("refund"),
       );
       console.log("Event sub-pages:");
       for (const l of subLinks) console.log(`  ${l.text} -> ${l.href}`);
@@ -198,7 +290,7 @@ const run = async () => {
           .replace(/[?#].*/, "");
         if (!subName) continue;
 
-        if (!isLoggedIn(page)) await login(page);
+        await ensureLoggedIn(page);
         await goto(page, link.href);
         if (isLoggedIn(page)) {
           await screenshot(page, `event-${subName}`);
@@ -208,51 +300,36 @@ const run = async () => {
 
     // Public event page
     console.log("\n=== Phase 4: Public event page ===");
-    const eventId = eventUrl.match(/\/event\/(\d+)/)?.[1];
-    if (eventId) {
-      const pubCtx = await browser.newContext({
-        viewport: { width: 1280, height: 800 },
-        ignoreHTTPSErrors: true,
-      });
-      const pubPage = await pubCtx.newPage();
+    const pubCtx = await browser.newContext({
+      viewport: { width: 1280, height: 800 },
+      ignoreHTTPSErrors: true,
+    });
+    const pubPage = await pubCtx.newPage();
 
-      // Check if the public URL is /event/{slug} or /event/{id}
-      // The public event page might have a different URL pattern
-      try {
-        // Try a few public URL patterns
-        for (const pubPath of [`/event/${eventId}`, `/e/${eventId}`]) {
-          await goto(pubPage, `${BASE_URL}${pubPath}`);
-          const pubTitle = await pubPage.title();
-          console.log(`Public ${pubPath}: ${pubTitle}`);
-          if (!pubTitle.includes("Login") && !pubTitle.includes("Not Found")) {
-            await screenshot(pubPage, "public-event");
-            await fullScreenshot(pubPage, "public-event-full");
-            break;
-          }
-        }
-
-        // Also check the event detail page for a "View public page" link
-        if (!isLoggedIn(page)) await login(page);
-        await goto(page, eventUrl);
-        const allLinks = await getLinks(page);
-        const publicLink = allLinks.find(
-          (l) =>
-            (l.text.toLowerCase().includes("public") ||
-              l.text.toLowerCase().includes("view") ||
-              l.text.toLowerCase().includes("ticket")) &&
-            !l.href.includes("/admin/")
+    try {
+      // Find the public ticket link from the event detail page
+      await ensureLoggedIn(page);
+      await goto(page, eventUrl);
+      const allLinks = await getLinks(page);
+      const publicLink = allLinks.find(
+        (l) =>
+          (l.text.toLowerCase().includes("public") ||
+            l.text.toLowerCase().includes("view") ||
+            l.text.toLowerCase().includes("ticket")) &&
+          !l.href.includes("/admin/"),
+      );
+      if (publicLink) {
+        console.log(
+          `Found public link: ${publicLink.text} -> ${publicLink.href}`,
         );
-        if (publicLink) {
-          console.log(`Found public link: ${publicLink.text} -> ${publicLink.href}`);
-          await goto(pubPage, publicLink.href);
-          await screenshot(pubPage, "public-ticket-page");
-          await fullScreenshot(pubPage, "public-ticket-page-full");
-        }
-      } catch (err) {
-        console.log(`Public page error: ${err.message.slice(0, 80)}`);
+        await goto(pubPage, publicLink.href);
+        await screenshot(pubPage, "public-ticket-page");
+        await fullScreenshot(pubPage, "public-ticket-page-full");
       }
-      await pubCtx.close();
+    } catch (err) {
+      console.log(`Public page error: ${err.message.slice(0, 80)}`);
     }
+    await pubCtx.close();
   }
 
   // ── Phase 5: Mobile ──
@@ -269,7 +346,6 @@ const run = async () => {
     if ((await mobilePage.title()).toLowerCase().includes("login")) {
       await mobilePage.fill('input[name="username"]', "demo");
       await mobilePage.fill('input[name="password"]', "demo1234");
-      // Use evaluate to submit to avoid timeout issues with mobile clicks
       await mobilePage.evaluate(() => {
         const field = document.querySelector('[name="username"]');
         const form = field?.closest("form");
