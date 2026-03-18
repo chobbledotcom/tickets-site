@@ -1,6 +1,7 @@
 import { chromium } from "/opt/node22/lib/node_modules/playwright/index.mjs";
 import { readdirSync } from "fs";
 import { join } from "path";
+import sharp from "sharp";
 
 const BASE_URL = "https://tickets-demo-1.chobble.com";
 const SCREENSHOTS_DIR = join(import.meta.dirname, "..", "images", "screenshots");
@@ -25,17 +26,46 @@ const getProxyConfig = () => {
   }
 };
 
-const removeBanner = (page) =>
+const hideUiChrome = (page) =>
   page.evaluate(() => {
-    const el = document.querySelector(".demo-banner");
-    if (el) el.remove();
+    for (const sel of [".demo-banner", "#main-nav"]) {
+      const el = document.querySelector(sel);
+      if (el) el.remove();
+    }
   });
 
+const TRIM_MARGIN = 24;
+
+const trimImage = async (filePath) => {
+  const image = sharp(filePath);
+  const { width, height } = await image.metadata();
+  const trimmed = sharp(filePath).trim();
+  const trimInfo = await trimmed.toBuffer({ resolveWithObject: true });
+  const { trimOffsetTop } = trimInfo.info;
+  const contentH = trimInfo.info.height;
+  const cropH = Math.min(height, trimOffsetTop + contentH + TRIM_MARGIN);
+  if (cropH >= height) return;
+  const { unlinkSync } = await import("fs");
+  const tmpPath = filePath.replace(".png", ".trimmed.png");
+  await sharp(filePath)
+    .extract({ left: 0, top: 0, width, height: cropH })
+    .toFile(tmpPath);
+  await sharp(tmpPath).toFile(filePath);
+  unlinkSync(tmpPath);
+  const saved = Math.round((1 - cropH / height) * 100);
+  console.log(`     trimmed ${width}x${height} -> ${width}x${cropH} (${saved}% shorter)`);
+};
+
 const screenshot = async (page, name) => {
-  await removeBanner(page);
-  const path = join(SCREENSHOTS_DIR, `${name}.png`);
-  await page.screenshot({ path, fullPage: true });
+  await hideUiChrome(page);
+  const filePath = join(SCREENSHOTS_DIR, `${name}.png`);
+  await page.screenshot({ path: filePath, fullPage: true });
   console.log(`  >> ${name}.png`);
+  try {
+    await trimImage(filePath);
+  } catch (err) {
+    console.log(`     trim failed: ${err.message.slice(0, 80)}`);
+  }
 };
 
 const goto = async (page, url) => {
