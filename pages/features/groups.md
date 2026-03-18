@@ -20,6 +20,8 @@ blocks:
 
   - type: markdown
     content: |
+      ![The groups management page for organising related events](/images/screenshots/groups.png)
+
       ## Multi-event bookings
 
       Running a festival with multiple stages? A conference with multiple

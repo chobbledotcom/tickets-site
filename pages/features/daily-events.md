@@ -39,6 +39,8 @@ blocks:
       can see at a glance which dates have bookings, how many places are
       left, and who's attending each session.
 
+      ![The admin calendar view for managing daily events](/images/screenshots/calendar.png)
+
   - type: cta
     title: Manage recurring events
     description: Set up daily events with per-date capacity and blackout dates.

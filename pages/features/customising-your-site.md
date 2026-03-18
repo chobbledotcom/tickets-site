@@ -17,6 +17,10 @@ blocks:
       Use your own domain, choose themes, customise emails, embed widgets,
       and make your ticketing site match your brand.
 
+  - type: markdown
+    content: |
+      ![The settings page with options for header image, payment provider, themes, and more](/images/screenshots/settings.png)
+
   - type: features
     items:
       - icon: "hugeicons:globe-02"

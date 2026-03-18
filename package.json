@@ -26,6 +26,7 @@
 		"#fp/*": "@chobble/js-toolkit/fp/*"
 	},
 	"devDependencies": {
-		"@chobble/js-toolkit": "file:./chobble-template/packages/js-toolkit"
+		"@chobble/js-toolkit": "file:./chobble-template/packages/js-toolkit",
+		"sharp": "^0.34.5"
 	}
 }
