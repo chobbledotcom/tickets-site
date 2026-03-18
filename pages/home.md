@@ -17,8 +17,8 @@ blocks:
       Chobble Tickets is an open source ticketing platform with a flat annual
       fee and no per-ticket charges, data harvesting, or lock-in.
     buttons:
-      - text: Get Started
-        href: https://tix.chobble.com/ticket/register
+      - text: GitHub
+        href: https://github.com/chobbledotcom/tickets
         variant: primary
         size: lg
       - text: Live Demo
@@ -50,7 +50,7 @@ blocks:
         description: All personal information is encrypted at rest using hybrid RSA-OAEP + AES-256-GCM encryption.
       - icon: "hugeicons:source-code"
         title: Fully open source
-        description: AGPLv3 licensed with every feature included and no open-core bait-and-switch.
+        description: AGPLv3 licensed with every feature included and no open-core bait-and-switch. Browse the code on GitHub.
       - icon: "hugeicons:credit-card"
         title: No per-ticket fees
         description: Pay a flat annual fee and money from ticket sales goes directly to your Stripe or Square account.
@@ -117,10 +117,10 @@ blocks:
 
   - type: cta
     title: Ready to sell tickets?
-    description: Sign up for managed hosting or grab the source code and self-host.
+    description: Sign up for managed hosting or grab the source code from GitHub and self-host for free.
     button:
-      text: Sign Up at tix.chobble.com
-      href: https://tix.chobble.com/ticket/register
+      text: View on GitHub
+      href: https://github.com/chobbledotcom/tickets
       variant: secondary
       size: lg
 ---

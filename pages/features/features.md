@@ -117,10 +117,10 @@ blocks:
 
   - type: cta
     title: See it in action
-    description: Sign up for managed hosting at £50/year, or browse the full technical documentation.
+    description: Sign up for managed hosting at £50/year, or browse the source code and documentation on GitHub.
     button:
-      text: Sign Up
-      href: https://tix.chobble.com/ticket/register
+      text: View on GitHub
+      href: https://github.com/chobbledotcom/tickets
       variant: primary
       size: lg
 ---

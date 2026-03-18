@@ -60,10 +60,10 @@ blocks:
 
   - type: cta
     title: Try it yourself
-    description: The best comparison is trying it - sign up or self-host for free.
+    description: The best comparison is trying it - sign up for managed hosting or check out the source code on GitHub and self-host for free.
     button:
-      text: Get Started
-      href: https://tix.chobble.com/ticket/register
+      text: View on GitHub
+      href: https://github.com/chobbledotcom/tickets
       variant: secondary
       size: lg
 ---
