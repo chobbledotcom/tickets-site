@@ -36,6 +36,26 @@ const hideUiChrome = (page) =>
 
 const TRIM_MARGIN = 24;
 
+const isNonWhite = (buf, idx) =>
+  buf[idx] < 250 || buf[idx + 1] < 250 || buf[idx + 2] < 250;
+
+const findContentTop = async (filePath, width, height) => {
+  const chunkSize = 20;
+  for (let y = 0; y < height; y += chunkSize) {
+    const rowH = Math.min(chunkSize, height - y);
+    const buf = await sharp(filePath)
+      .extract({ left: 0, top: y, width, height: rowH })
+      .raw()
+      .toBuffer();
+    for (let row = 0; row < rowH; row++) {
+      for (let x = 0; x < width; x++) {
+        if (isNonWhite(buf, (row * width + x) * 3)) return y + row;
+      }
+    }
+  }
+  return 0;
+};
+
 const findContentBottom = async (filePath, width, height) => {
   const chunkSize = 20;
   for (let y = height - chunkSize; y >= 0; y -= chunkSize) {
@@ -46,10 +66,7 @@ const findContentBottom = async (filePath, width, height) => {
       .toBuffer();
     for (let row = rowH - 1; row >= 0; row--) {
       for (let x = 0; x < width; x++) {
-        const idx = (row * width + x) * 3;
-        if (buf[idx] < 250 || buf[idx + 1] < 250 || buf[idx + 2] < 250) {
-          return y + row + 1;
-        }
+        if (isNonWhite(buf, (row * width + x) * 3)) return y + row + 1;
       }
     }
   }
@@ -59,13 +76,16 @@ const findContentBottom = async (filePath, width, height) => {
 const trimImage = async (filePath) => {
   const image = sharp(filePath);
   const { width, height } = await image.metadata();
+  const contentTop = await findContentTop(filePath, width, height);
   const contentBottom = await findContentBottom(filePath, width, height);
-  const cropH = Math.min(height, contentBottom + TRIM_MARGIN);
+  const top = Math.max(0, contentTop - TRIM_MARGIN);
+  const bottom = Math.min(height, contentBottom + TRIM_MARGIN);
+  const cropH = bottom - top;
   if (cropH >= height) return;
   const { unlinkSync } = await import("fs");
   const tmpPath = filePath.replace(".png", ".trimmed.png");
   await sharp(filePath)
-    .extract({ left: 0, top: 0, width, height: cropH })
+    .extract({ left: 0, top, width, height: cropH })
     .toFile(tmpPath);
   await sharp(tmpPath).toFile(filePath);
   unlinkSync(tmpPath);

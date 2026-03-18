@@ -5,9 +5,27 @@ import { join } from "path";
 const MARGIN = 24;
 const SCREENSHOTS_DIR = join(import.meta.dirname, "..", "images", "screenshots");
 
+const isNonWhite = (buf, idx) =>
+  buf[idx] < 250 || buf[idx + 1] < 250 || buf[idx + 2] < 250;
+
+const findContentTop = async (filePath, width, height) => {
+  const chunkSize = 20;
+  for (let y = 0; y < height; y += chunkSize) {
+    const rowH = Math.min(chunkSize, height - y);
+    const buf = await sharp(filePath)
+      .extract({ left: 0, top: y, width, height: rowH })
+      .raw()
+      .toBuffer();
+    for (let row = 0; row < rowH; row++) {
+      for (let x = 0; x < width; x++) {
+        if (isNonWhite(buf, (row * width + x) * 3)) return y + row;
+      }
+    }
+  }
+  return 0;
+};
+
 const findContentBottom = async (filePath, width, height) => {
-  // Scan rows from bottom up to find last row with non-white pixels
-  // Check in chunks for efficiency
   const chunkSize = 20;
   for (let y = height - chunkSize; y >= 0; y -= chunkSize) {
     const rowH = Math.min(chunkSize, height - y);
@@ -15,14 +33,9 @@ const findContentBottom = async (filePath, width, height) => {
       .extract({ left: 0, top: y, width, height: rowH })
       .raw()
       .toBuffer();
-    // Check each row in chunk (bottom to top)
     for (let row = rowH - 1; row >= 0; row--) {
       for (let x = 0; x < width; x++) {
-        const idx = (row * width + x) * 3;
-        // Non-white pixel (allow threshold of 250 for anti-aliasing)
-        if (buf[idx] < 250 || buf[idx + 1] < 250 || buf[idx + 2] < 250) {
-          return y + row + 1;
-        }
+        if (isNonWhite(buf, (row * width + x) * 3)) return y + row + 1;
       }
     }
   }
@@ -33,21 +46,21 @@ const trimImage = async (filePath) => {
   const image = sharp(filePath);
   const { width, height } = await image.metadata();
 
-  // Scan from bottom to find actual content edge
+  const contentTop = await findContentTop(filePath, width, height);
   const contentBottom = await findContentBottom(filePath, width, height);
-  const cropH = Math.min(height, contentBottom + MARGIN);
+  const top = Math.max(0, contentTop - MARGIN);
+  const bottom = Math.min(height, contentBottom + MARGIN);
+  const cropH = bottom - top;
 
-  // Only crop if we're actually saving space
   if (cropH >= height) {
     console.log(`  skip ${filePath} (no whitespace to trim)`);
     return;
   }
 
   await sharp(filePath)
-    .extract({ left: 0, top: 0, width, height: cropH })
+    .extract({ left: 0, top, width, height: cropH })
     .toFile(filePath.replace(".png", ".trimmed.png"));
 
-  // Overwrite original with trimmed version
   await sharp(filePath.replace(".png", ".trimmed.png")).toFile(filePath);
 
   const { unlinkSync } = await import("fs");
