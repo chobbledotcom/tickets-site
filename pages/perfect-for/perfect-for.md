@@ -34,10 +34,10 @@ blocks:
 
   - type: cta
     title: Get started
-    description: Sign up for managed hosting at £50/year, or self-host for free.
+    description: Sign up for managed hosting at £50/year, or grab the source code from GitHub and self-host for free.
     button:
-      text: Try Chobble Tickets
-      href: https://tix.chobble.com/ticket/register
+      text: View on GitHub
+      href: https://github.com/chobbledotcom/tickets
       variant: secondary
       size: lg
 ---
