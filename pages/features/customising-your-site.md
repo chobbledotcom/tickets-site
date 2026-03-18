@@ -19,7 +19,7 @@ blocks:
 
   - type: markdown
     content: |
-      ![The settings page with options for header image, payment provider, themes, and more](/images/screenshots/settings-full.png)
+      ![The settings page with options for header image, payment provider, themes, and more](/images/screenshots/settings.png)
 
   - type: features
     items:
