@@ -85,9 +85,8 @@ blocks:
       - Email confirmations to attendees
       - Capacity management to prevent overselling
       - Free event support (no payment setup needed)
-      - Custom questions and data collection forms
-      - Reporting dashboards
-      - Fire register for attendance tracking
+      - Attendee data export (CSV on Chobble, 14 built-in reports on
+        PTA Events)
       - The option to pass fees to buyers
 
       ### Ticketing and events
@@ -163,8 +162,8 @@ blocks:
       providers](/features/email-providers/).
 
       PTA Events provides a branded microsite for your PTA, advertising and
-      sponsorship tools (Premium plan), 14 built-in reports, PayPal support
-      alongside Stripe, and a community pages CMS.
+      sponsorship tools (Premium plan), 14 built-in reports, and a
+      community pages CMS.
 
       ## When PTA Events makes more sense
 

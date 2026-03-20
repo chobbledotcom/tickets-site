@@ -78,10 +78,11 @@ blocks:
 
       ### Check-in and entry
 
-      Both offer QR code scanning for event entry. On PTA Events, the QR
-      scanning feature is only available on the Premium plan. On Chobble
-      Tickets, QR code check-ins work with any phone camera and are included
-      at every price point.
+      Both offer QR code scanning for event entry. On PTA Events, QR
+      scanning via Qflow is included free on the Premium plan and available
+      as a paid add-on on the Starter plan (£48-72/year depending on school
+      size). On Chobble Tickets, QR code check-ins work with any phone
+      camera and are included at every price point with no add-ons needed.
 
       ### Data and privacy
 
@@ -103,7 +104,7 @@ blocks:
       Chobble Tickets includes a public API, webhooks, RSS and ICS calendar
       feeds, Apple Wallet support, and a choice of email providers (Resend,
       Postmark, SendGrid, Mailgun). PTA Events integrates with Stripe and
-      GoCardless and offers comprehensive reporting with 14 built-in reports.
+      offers comprehensive reporting with 14 built-in reports.
 
       ## What Parentkind does that we don't
 
@@ -137,8 +138,9 @@ blocks:
         school events.
       - **Newsletter and CMS**: Built-in email and newsletter tools with a
         news article CMS for communicating with parents.
-      - **GoCardless payments**: Accept payments via Direct Debit in
-        addition to card payments, useful for recurring PTA subscriptions.
+      - **GoCardless payments**: The Parentkind website mentions Direct
+        Debit payments via GoCardless, though PTA Events' own
+        documentation only references Stripe as a payment processor.
       - **14 built-in reports**: Financial reports, sales reports, attendee
         information, orders, bookings, shipping, volunteer reports, and
         treasurer reconciliation tools.
