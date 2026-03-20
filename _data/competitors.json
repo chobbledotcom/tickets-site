@@ -108,12 +108,12 @@
   },
   "pta_events": {
     "name": "PTA Events",
-    "annual_cost": 0,
+    "annual_cost": 121,
     "per_ticket_fee_percent": 3.95,
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "PTA Events Starter plan fees: 3.95% per transaction + Stripe processing (1.5% + 20p). Premium plan (£299.99+VAT/year) reduces platform fee to 1.5%. Fees can be passed to buyers. Chobble Tickets: £50/year flat (£25 for community groups) + Stripe processing (1.5% + 20p). Source: ptaevents.freshdesk.com (March 2026)."
+    "fee_note": "PTA Events requires Parentkind membership (from £121/year) + 3.95% platform fee per transaction on the Starter plan (1.5% on Premium at £299.99+VAT/year) + Stripe processing (1.5% + 20p). Fees can be passed to buyers. Chobble Tickets: £50/year flat (£25 for community groups) + Stripe processing (1.5% + 20p). Source: ptaevents.freshdesk.com, parentkind.org.uk (March 2026)."
   },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",

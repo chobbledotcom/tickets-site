@@ -34,9 +34,9 @@ blocks:
       doesn't have PTA-specific features like prize draws or volunteer
       coordination.
 
-      **Note:** PTA Events is also the ticketing platform bundled with
-      [Parentkind](https://www.parentkind.org.uk) membership, but it can be
-      used independently without a Parentkind subscription. If you're
+      **Note:** PTA Events is accessed through
+      [Parentkind](https://www.parentkind.org.uk) membership — PTAs need an
+      active Parentkind subscription to use the platform. If you're
       comparing Parentkind as a membership organisation (with insurance,
       advisers, and resources), see our
       [Chobble Tickets vs Parentkind](/compared-to/parentkind/) comparison
@@ -44,15 +44,17 @@ blocks:
 
       ## Pricing comparison
 
-      PTA Events offers two plans:
+      PTA Events requires a Parentkind membership (from £121/year) to
+      access the platform, then offers two plans on top:
 
-      - **Starter plan (free)**: 3.95% platform fee per transaction, plus
-        Stripe processing (1.5% + 20p, or 1.2% + 20p for registered
-        charities). Higher fees apply to auctions (5%), prize draws (7.5%),
-        and competitions (5%).
-      - **Premium plan (£299.99 + VAT/year)**: Reduced 1.5% platform fee on
-        standard transactions, 4.95% on auctions/raffles/competitions, plus
-        advertising and sponsorship tools, and Qflow ticket scanning.
+      - **Starter plan (no additional cost)**: 3.95% platform fee per
+        transaction, plus Stripe processing (1.5% + 20p, or 1.2% + 20p
+        for registered charities). Higher fees apply to auctions (5%),
+        prize draws (7.5%), and competitions (5%).
+      - **Premium plan (£299.99 + VAT/year on top of membership)**:
+        Reduced 1.5% platform fee on standard transactions, 4.95% on
+        auctions/raffles/competitions, plus advertising and sponsorship
+        tools, and Qflow ticket scanning.
 
       Both plans let you pass fees on to buyers, so the PTA itself may pay
       nothing — though this means attendees pay more per ticket.
@@ -63,9 +65,10 @@ blocks:
       5,000, the cost stays the same.
 
       For a £10 ticket on PTA Events' Starter plan, combined platform and
-      payment fees come to roughly 55-60p per sale. On Chobble Tickets, you'd
-      pay only the payment processing fee (roughly 35p on a £10 ticket via
-      Stripe). The more tickets you sell, the bigger the difference.
+      payment fees come to roughly 55-60p per sale — on top of the annual
+      Parentkind membership. On Chobble Tickets, you'd pay only the payment
+      processing fee (roughly 35p on a £10 ticket via Stripe). The more
+      tickets you sell, the bigger the difference.
 
   - type: include
     file: price-comparator.html
@@ -77,12 +80,13 @@ blocks:
       **Both platforms offer:**
 
       - Online ticket sales via Stripe
-      - QR code scanning for event check-in
+      - Apple Pay and Google Pay at checkout (via Stripe)
       - Email confirmations to attendees
       - Capacity management to prevent overselling
       - Free event support (no payment setup needed)
       - Custom questions and data collection forms
       - Reporting dashboards
+      - Fire register for attendance tracking
       - The option to pass fees to buyers
 
       ### Ticketing and events
@@ -106,8 +110,9 @@ blocks:
         formats, starting bids, reserves, and bid increments
       - **100/200 clubs** for recurring number-draw fundraisers
       - **Donations page** for accepting donations outside of events
-      - **Matched giving** integration for employer-matched charitable
-        donations
+      - **Gift Aid declarations** collected at checkout, with treasurer
+        reports to help claim back 25% from HMRC on eligible donations
+        (the PTA is responsible for submitting claims to HMRC)
 
       Chobble Tickets doesn't have any of these fundraising tools — it's
       focused purely on event ticketing.
@@ -128,12 +133,11 @@ blocks:
 
       ### Check-in and entry
 
-      Both offer QR code scanning for event entry. On PTA Events, the Starter
-      plan has basic scanning, while the Premium plan adds Qflow integration
-      for professional check-in. On Chobble Tickets, [QR code
-      check-ins](/features/qr-code-check-ins/) work with any phone camera and
-      are included at every price point, along with a fire register for
-      attendance tracking.
+      PTA Events offers QR code scanning via Qflow on the Premium plan
+      only — Starter plan users don't have access to ticket scanning.
+      On Chobble Tickets, [QR code
+      check-ins](/features/qr-code-check-ins/) work with any phone camera
+      and are included at every price point.
 
       ### Data and privacy
 
@@ -156,18 +160,19 @@ blocks:
       providers](/features/email-providers/).
 
       PTA Events provides a branded microsite for your PTA, advertising and
-      sponsorship tools (Premium plan), 14 built-in reports, GoCardless
-      Direct Debit support alongside Stripe, and a community pages CMS.
+      sponsorship tools (Premium plan), 14 built-in reports, PayPal support
+      alongside Stripe, and a community pages CMS.
 
       ## When PTA Events makes more sense
 
-      If your PTA needs the full fundraising toolkit — prize draws, auctions,
-      100 clubs, volunteer management, merchandise sales, and parent
-      communications — then PTA Events is purpose-built for that. It's
-      designed specifically for the school fundraising context and its
-      features reflect years of feedback from PTAs. The Starter plan's 3.95%
-      fee is reasonable for occasional events, and the ability to pass fees to
-      buyers means the PTA itself may pay nothing upfront.
+      If your PTA already has a Parentkind membership (many do, for the
+      insurance alone) and needs the full fundraising toolkit — prize draws,
+      auctions, 100 clubs, volunteer management, merchandise sales, Gift Aid
+      collection, and parent communications — then PTA Events is
+      purpose-built for that. It's designed specifically for the school
+      fundraising context and its features reflect years of feedback from
+      PTAs. The ability to pass platform fees to buyers means the PTA's
+      direct costs can be kept low.
 
       PTA Events is also a good choice if you want an all-in-one platform
       that covers ticketing, e-commerce, communications, and volunteer
@@ -177,14 +182,15 @@ blocks:
 
       If your PTA mainly runs ticketed events and doesn't need auctions,
       raffles, or volunteer tools, Chobble Tickets is simpler and cheaper. At
-      £25/year for community groups with no per-ticket fees, the savings add
-      up quickly — especially for popular events where percentage fees eat
-      into your fundraising total.
+      £25/year for community groups with no per-ticket fees and no membership
+      requirement, the savings add up quickly — especially for popular events
+      where percentage fees eat into your fundraising total.
 
       It's also a better fit if you care about data privacy and encryption,
-      want to use your own domain, need API integrations, or want a platform
-      that works for non-school events too. And because it's open source, you
-      can self-host for free if you want full control.
+      want to use your own domain, need API integrations or webhook
+      automations, or want a platform that works for non-school events too.
+      And because it's open source, you can self-host for free if you want
+      full control.
 
   - type: markdown
     content: |
@@ -198,6 +204,7 @@ blocks:
       - [PTA Events transaction costs](https://ptaevents.freshdesk.com/support/solutions/articles/17000089759-how-much-does-it-cost-to-process-transactions-) — Stripe processing fees
       - [PTA Events overview](https://ptaevents.freshdesk.com/support/solutions/articles/17000138628-overview-of-pta-events) — platform features and history
       - [PTA Events on Parentkind supplier directory](https://pta.co.uk/supplier/pta-events/) — supplier listing
+      - [Parentkind membership fee update (November 2025)](https://www.parentkind.org.uk/pta-membership-fee-update) — from £121/year (required for PTA Events access)
       - [PTA Events website](https://www.pta-events.co.uk/)
       - [Chobble Tickets features](/features/)
 
