@@ -23,8 +23,8 @@ blocks:
 
       [Parentkind](https://www.parentkind.org.uk) is a membership organisation for PTAs that bundles several
       tools together: public liability insurance, PTA management guides,
-      community advisers, templates, and access to the PTA Events ticketing
-      platform. It's designed specifically for the school fundraising context.
+      community advisers, and templates. It's designed specifically for the
+      school fundraising context.
 
       Chobble Tickets is a general-purpose ticketing platform. It doesn't
       have school-specific features like Gift Aid or PTA insurance, but it's
@@ -41,7 +41,7 @@ blocks:
       - **Payment processing**: Stripe charges 1.5% + 20p per transaction
         (1.2% + 20p for registered charities)
 
-      So for a £10 ticket on the Plus plan, you'd lose roughly 55-75p per
+      So for a £10 ticket on the Starter plan, you'd lose roughly 55-75p per
       sale in combined platform and payment fees, on top of the annual
       membership.
 
@@ -78,10 +78,11 @@ blocks:
 
       ### Check-in and entry
 
-      Both offer QR code scanning for event entry. On PTA Events, the QR
-      scanning feature is only available on the Premium plan. On Chobble
-      Tickets, QR code check-ins work with any phone camera and are included
-      at every price point.
+      Both offer QR code scanning for event entry. On PTA Events, QR
+      scanning via Qflow is included free on the Premium plan and available
+      as a paid add-on on the Starter plan (£48-72/year depending on school
+      size). On Chobble Tickets, QR code check-ins work with any phone
+      camera and are included at every price point with no add-ons needed.
 
       ### Data and privacy
 
@@ -103,7 +104,7 @@ blocks:
       Chobble Tickets includes a public API, webhooks, RSS and ICS calendar
       feeds, Apple Wallet support, and a choice of email providers (Resend,
       Postmark, SendGrid, Mailgun). PTA Events integrates with Stripe and
-      GoCardless and offers comprehensive reporting with 14 built-in reports.
+      offers comprehensive reporting with 14 built-in reports.
 
       ## What Parentkind does that we don't
 
@@ -137,8 +138,6 @@ blocks:
         school events.
       - **Newsletter and CMS**: Built-in email and newsletter tools with a
         news article CMS for communicating with parents.
-      - **GoCardless payments**: Accept payments via Direct Debit in
-        addition to card payments, useful for recurring PTA subscriptions.
       - **14 built-in reports**: Financial reports, sales reports, attendee
         information, orders, bookings, shipping, volunteer reports, and
         treasurer reconciliation tools.
@@ -151,8 +150,6 @@ blocks:
         businesses. Includes a dedicated "Advertise" page with metrics.
       - **Fire register**: Generate attendance lists for fire safety
         compliance at school events.
-      - **Matched giving integration**: Help parents claim employer-matched
-        charitable donations.
       - **Donations page**: Accept standalone donations outside of events.
 
       These are genuinely useful for PTAs, and if you need them, Parentkind
@@ -183,8 +180,6 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)**: Full
         control over confirmation emails with Liquid syntax for a fully
         white-label experience.
-      - **Apple Pay and Google Pay**: Accept wallet payments at checkout via
-        Stripe.
       - **[Embeddable widget](/features/embeddable-widget/)**: Drop an iframe
         into your existing school website.
       - **No membership required**: Sign up and start selling tickets

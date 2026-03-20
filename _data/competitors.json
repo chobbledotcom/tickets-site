@@ -106,6 +106,15 @@
     "payment_processing_fixed": 0,
     "fee_note": "DICE fees are negotiated per partnership and not publicly disclosed. This estimate uses approximately 10% per ticket (bundled, including payment processing). Actual fees may vary. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
   },
+  "pta_events": {
+    "name": "PTA Events",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 3.95,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "PTA Events Starter plan fees: 3.95% per transaction + Stripe processing (1.5% + 20p). Premium plan (£299.99+VAT/year) reduces platform fee to 1.5%. Fees can be passed to buyers. Chobble Tickets: £50/year flat (£25 for community groups) + Stripe processing (1.5% + 20p). Source: ptaevents.freshdesk.com (March 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,
