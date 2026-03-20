@@ -42,6 +42,9 @@ blocks:
       - icon: "hugeicons:heart-check"
         title: '<a href="/compared-to/parentkind/">vs Parentkind</a>'
         description: Popular with schools and PTAs - compare ease of use and cost.
+      - icon: "hugeicons:ticket-01"
+        title: '<a href="/compared-to/pta-events/">vs PTA Events</a>'
+        description: Purpose-built for school PTAs with fundraising tools - compare features and fees.
       - icon: "hugeicons:pencil-edit-01"
         title: '<a href="/compared-to/pen-and-paper/">vs Pen and Paper</a>'
         description: Sometimes low-tech works - see when it's worth upgrading to software.
