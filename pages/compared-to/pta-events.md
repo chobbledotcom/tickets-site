@@ -34,13 +34,10 @@ blocks:
       doesn't have PTA-specific features like prize draws or volunteer
       coordination.
 
-      **Note:** PTA Events is an independent company (PTA Events Limited),
-      not part of [Parentkind](https://www.parentkind.org.uk). Parentkind
-      lists PTA Events in its supplier directory, and the Parentkind website
-      states that PTAs access PTA Events through membership — but PTA
-      Events' own site allows direct sign-up with no mention of Parentkind.
-      If you're comparing Parentkind as a membership organisation (with
-      insurance, advisers, and resources), see our
+      **Note:** PTA Events is a separate company (PTA Events Limited),
+      not part of [Parentkind](https://www.parentkind.org.uk). If you're
+      comparing Parentkind as a membership organisation (with insurance,
+      advisers, and resources), see our
       [Chobble Tickets vs Parentkind](/compared-to/parentkind/) comparison
       instead.
 

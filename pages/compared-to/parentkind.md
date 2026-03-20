@@ -23,8 +23,8 @@ blocks:
 
       [Parentkind](https://www.parentkind.org.uk) is a membership organisation for PTAs that bundles several
       tools together: public liability insurance, PTA management guides,
-      community advisers, templates, and access to the PTA Events ticketing
-      platform. It's designed specifically for the school fundraising context.
+      community advisers, and templates. It's designed specifically for the
+      school fundraising context.
 
       Chobble Tickets is a general-purpose ticketing platform. It doesn't
       have school-specific features like Gift Aid or PTA insurance, but it's
@@ -41,7 +41,7 @@ blocks:
       - **Payment processing**: Stripe charges 1.5% + 20p per transaction
         (1.2% + 20p for registered charities)
 
-      So for a £10 ticket on the Plus plan, you'd lose roughly 55-75p per
+      So for a £10 ticket on the Starter plan, you'd lose roughly 55-75p per
       sale in combined platform and payment fees, on top of the annual
       membership.
 
@@ -138,9 +138,6 @@ blocks:
         school events.
       - **Newsletter and CMS**: Built-in email and newsletter tools with a
         news article CMS for communicating with parents.
-      - **GoCardless payments**: The Parentkind website mentions Direct
-        Debit payments via GoCardless, though PTA Events' own
-        documentation only references Stripe as a payment processor.
       - **14 built-in reports**: Financial reports, sales reports, attendee
         information, orders, bookings, shipping, volunteer reports, and
         treasurer reconciliation tools.
@@ -153,8 +150,6 @@ blocks:
         businesses. Includes a dedicated "Advertise" page with metrics.
       - **Fire register**: Generate attendance lists for fire safety
         compliance at school events.
-      - **Matched giving integration**: Help parents claim employer-matched
-        charitable donations.
       - **Donations page**: Accept standalone donations outside of events.
 
       These are genuinely useful for PTAs, and if you need them, Parentkind
@@ -185,8 +180,6 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)**: Full
         control over confirmation emails with Liquid syntax for a fully
         white-label experience.
-      - **Apple Pay and Google Pay**: Accept wallet payments at checkout via
-        Stripe.
       - **[Embeddable widget](/features/embeddable-widget/)**: Drop an iframe
         into your existing school website.
       - **No membership required**: Sign up and start selling tickets
