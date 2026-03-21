@@ -182,6 +182,33 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who owns Ticketmaster?
+
+      Ticketmaster was founded in 1976 in Phoenix, Arizona. In 2010, it
+      merged with Live Nation to form
+      [Live Nation Entertainment](https://www.livenationentertainment.com)
+      (NYSE: LYV), an American multinational that promotes over 50,000
+      events and handles 600+ million tickets annually. Live Nation's
+      largest shareholder is Liberty Media, which holds approximately 30%
+      of the company's shares.
+
+      In May 2024, the US Department of Justice and 40 states filed an
+      antitrust lawsuit against Live Nation, alleging monopolistic practices
+      in ticketing. A settlement was reached in March 2026 — Live Nation
+      agreed to a $280 million fine, a 15% cap on service fees at owned
+      venues, divestiture of 13 amphitheatres, and opening parts of its
+      technology to competitors. However, 26 states rejected the settlement
+      and are continuing the lawsuit independently.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3, and
+      the platform can be self-hosted by anyone without depending on Chobble
+      as a company.
+
+  - type: markdown
+    content: |
       ## Pricing sources
 
       Ticketmaster does not publish a standard public fee schedule for
@@ -193,6 +220,7 @@ blocks:
       - [Ticketmaster Business Solutions](https://business.ticketmaster.com/solutions/) — features for venues and organisers
       - [SafeTix](https://www.ticketmaster.com/safetix) — encrypted barcode technology
       - [Chobble Tickets features](/features/)
+      - [United States v. Live Nation Entertainment](https://en.wikipedia.org/wiki/United_States_v._Live_Nation_Entertainment) — DOJ antitrust case details
 
   - type: cta
     title: Independent ticketing

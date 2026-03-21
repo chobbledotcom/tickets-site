@@ -211,6 +211,29 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who owns Eventbrite?
+
+      Eventbrite was founded in 2006 by Kevin Hartz, Julia Hartz, and Renaud
+      Visage in San Francisco. It went public on the NYSE in 2018 at a
+      valuation of approximately $1.76 billion.
+
+      In March 2026, Eventbrite was taken private by
+      [Bending Spoons](https://bendingspoons.com), an Italian software
+      company based in Milan, in an all-cash deal worth approximately $500
+      million. Bending Spoons' portfolio also includes Evernote, Meetup,
+      WeTransfer, Vimeo, and StreamYard, among others. Their model involves
+      acquiring established technology brands and restructuring them for
+      profitability.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3, and
+      the platform can be self-hosted by anyone without depending on Chobble
+      as a company.
+
+  - type: markdown
+    content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
@@ -224,6 +247,7 @@ blocks:
       - [Eventbrite retargeting ROI](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/) — 6x average ROI claim
       - [Bending Spoons acquisition (March 2026)](https://www.ticketnews.com/2026/03/bending-spoons-finalizes-purchase-of-eventbrite/)
       - [Chobble Tickets features](/features/)
+      - [Eventbrite acquisition announcement](https://investor.eventbrite.com/press-releases/press-releases-details/2025/Eventbrite-Enters-into-Definitive-Agreement-to-Be-Acquired-by-Bending-Spoons-for-Roughly-500-Million-to-Accelerate-Eventbrites-Next-Phase-of-Growth/) — Bending Spoons acquisition details
 
   - type: cta
     title: Try Chobble Tickets

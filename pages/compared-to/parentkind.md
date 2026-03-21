@@ -209,6 +209,35 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who owns Parentkind?
+
+      Parentkind is a registered charity
+      ([Charity Commission #1072833](https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=1072833&subId=0))
+      and a company limited by guarantee
+      ([Companies House #03680271](https://find-and-update.company-information.service.gov.uk/company/03680271)).
+      It traces its roots to 1956 as the National Council of Parent Teacher
+      Associations (NCPTA), later rebranded to PTA UK, then to Parentkind
+      in 2018. It operates two subsidiaries: Parentkind Enterprises Limited
+      (which holds a Gambling Commission licence for PTA raffles) and
+      Parentkind Trading Limited.
+
+      Parentkind and [PTA Events](https://www.pta-events.co.uk) are
+      **separate organisations**. PTA Events Limited is an independently
+      owned private company (see our
+      [PTA Events comparison](/compared-to/pta-events/) for details). The
+      two have a commercial partnership — Parentkind promotes PTA Events to
+      its member PTAs — but there is no shared ownership or directorship
+      between them.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3, and
+      the platform can be self-hosted by anyone without depending on Chobble
+      as a company.
+
+  - type: markdown
+    content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
@@ -222,6 +251,8 @@ blocks:
       - [PTA Events platform](https://www.pta-events.co.uk/) — the ticketing platform itself
       - [Parentkind website](https://www.parentkind.org.uk)
       - [Chobble Tickets features](/features/)
+      - [Parentkind on Charity Commission](https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=1072833&subId=0) — charity registration
+      - [Parentkind on Companies House](https://find-and-update.company-information.service.gov.uk/company/03680271) — corporate structure
 
   - type: cta
     title: Simple school event ticketing

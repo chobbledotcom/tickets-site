@@ -39,7 +39,7 @@ blocks:
 
   - type: features
     section_class: alt
-    header_title: Features charities love
+    header_intro: "## Features charities love"
     items:
       - icon: "hugeicons:user-multiple"
         title: Team access

@@ -168,6 +168,27 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who owns BookitBee?
+
+      BookitBee operates under the legal name Live It Group Ltd
+      ([Companies House #08432364](https://find-and-update.company-information.service.gov.uk/company/08432364)),
+      incorporated in 2013 and renamed from Bookitbee Limited in 2017. It
+      was co-founded by Kenton Ward and Frank Di Mauro, who met at boarding
+      school. Di Mauro resigned as a director in March 2024. The company
+      has received investment from Foresight Group, Jenson Funding Partners,
+      ARC InterCapital, and Scottish Enterprise, totalling approximately
+      $5.3 million, but remains an independent private company with no
+      corporate parent. It has a small team of around 8–15 employees.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3, and
+      the platform can be self-hosted by anyone without depending on Chobble
+      as a company.
+
+  - type: markdown
+    content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
@@ -176,6 +197,7 @@ blocks:
       - [BookitBee UK pricing](https://bookitbee.com/pricing-uk/) — from 3.5% per ticket, min £1, max £19.95 cap
       - [BookitBee features](https://www.bookitbee.com/features/)
       - [Chobble Tickets features](/features/)
+      - [Live It Group Ltd on Companies House](https://find-and-update.company-information.service.gov.uk/company/08432364) — corporate structure
 
   - type: cta
     title: Try Chobble Tickets

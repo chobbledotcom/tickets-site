@@ -196,6 +196,28 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who owns Resident Advisor?
+
+      Resident Advisor was founded in 2001 in Sydney, Australia by Nick
+      Sabine and Paul Clement. Both co-founders each hold between 25% and
+      50% of the company's shares according to
+      [Companies House records](https://find-and-update.company-information.service.gov.uk/company/05871093/persons-with-significant-control).
+      CEO David Selby has stated publicly: "We're an independent business —
+      we don't have investors." RA became a
+      [certified B Corporation](https://www.bcorporation.net/en-us/find-a-b-corp/company/resident-advisor/)
+      in 2024, with an overall B Impact score of 87.6. The company is
+      headquartered in London with offices in Berlin, Los Angeles, New
+      York, and Melbourne, and has approximately 200+ employees.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3, and
+      the platform can be self-hosted by anyone without depending on Chobble
+      as a company.
+
+  - type: markdown
+    content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
@@ -210,6 +232,7 @@ blocks:
       - [RA Pro](https://pro.ra.co/) — information for promoters selling tickets on RA
       - [Resident Advisor on WeTicket](https://www.weticket.com/ticketing-system/resident-advisor) — third-party comparison citing 10% per ticket
       - [Chobble Tickets features](/features/)
+      - [Resident Advisor Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/05871093) — corporate structure
 
   - type: cta
     title: Try Chobble Tickets
