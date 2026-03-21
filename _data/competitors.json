@@ -23,7 +23,7 @@
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "BookitBee fees: from 3.5% per ticket (up to 6.5% for advanced features), min £1, max £19.95 cap, plus Stripe processing (1.5% + 20p). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: bookitbee.com/pricing-uk (March 2026)."
+    "fee_note": "BookitBee fees: from 3.5% per ticket (up to 6.5% for advanced features), min £1, max £19.95 cap, plus Stripe processing (1.5% + 20p). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: bookitbee.com/pricing (March 2026)."
   },
   "parentkind": {
     "name": "Parentkind",

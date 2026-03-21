@@ -194,7 +194,7 @@ blocks:
       The pricing information on this page was verified in March 2026. Fees
       may change — check the links below for the latest figures.
 
-      - [BookitBee UK pricing](https://bookitbee.com/pricing-uk/) — from 3.5% per ticket, min £1, max £19.95 cap
+      - [BookitBee pricing](https://bookitbee.com/pricing/) — from 3.5% per ticket
       - [BookitBee features](https://www.bookitbee.com/features/)
       - [Chobble Tickets features](/features/)
       - [Live It Group Ltd on Companies House](https://find-and-update.company-information.service.gov.uk/company/08432364) — corporate structure
