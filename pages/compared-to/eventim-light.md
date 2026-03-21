@@ -34,6 +34,8 @@ blocks:
       — particularly around fees, data ownership, and flexibility — are worth
       understanding before you commit.
 
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       EVENTIM.Light charges **8% per ticket** in the UK, with payment processing
@@ -83,6 +85,8 @@ blocks:
       payout schedule through Stripe or Square — not through the ticketing
       platform.
 
+  - type: markdown
+    content: |
       ## Feature comparison
 
       **Both platforms share some features:**
@@ -127,6 +131,8 @@ blocks:
       - **Video tutorials and quick guides** — step-by-step help resources
         built into the platform
 
+  - type: markdown
+    content: |
       **Chobble Tickets has features EVENTIM.Light doesn't:**
 
       - **[End-to-end encryption](/features/encrypted/)** — attendee data is
@@ -170,6 +176,8 @@ blocks:
       - **Community Interest Company** — run by a CIC, not a subsidiary of a
         publicly traded entertainment conglomerate
 
+  - type: markdown
+    content: |
       ## Data ownership and privacy
 
       This is where the trade-offs get serious. Under EVENTIM.Light's
@@ -205,6 +213,8 @@ blocks:
       marketing to your attendees, no joint data controller arrangement, and
       no third party with access to your customer data.
 
+  - type: markdown
+    content: |
       ## Flexibility and lock-in
 
       EVENTIM.Light has some rigidity worth knowing about (confirmed in their
@@ -226,6 +236,8 @@ blocks:
       There's no approval process, no locked settings, and no dependency on
       syncing windows.
 
+  - type: markdown
+    content: |
       ## When EVENTIM.Light might be the better choice
 
       - You want your events listed on eventim.co.uk to reach an existing
@@ -239,6 +251,8 @@ blocks:
         annual fee
       - You want promotion codes for marketing campaigns
 
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You already have your own audience and don't need a discovery platform
@@ -258,6 +272,28 @@ blocks:
         without restrictions
       - You sell enough tickets that 8% per ticket adds up to more than
         £50/year
+
+  - type: markdown
+    content: |
+      ## Who owns CTS EVENTIM?
+
+      CTS EVENTIM AG & Co. KGaA was founded in 1989 and is headquartered in
+      Bremen, Germany. It is publicly traded on the Frankfurt Stock Exchange
+      (EVD) and is Europe's largest ticketing company and the second-largest
+      globally after Live Nation. The company operates across 26 countries
+      and markets over 300 million tickets annually through its systems.
+
+      EVENTIM.Light is CTS EVENTIM's self-service product, operated in the
+      UK by EVENTIM UK Ltd. The parent company also runs the consumer-facing
+      eventim.co.uk marketplace and provides enterprise ticketing solutions
+      to major venues and promoters.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3, and
+      the platform can be self-hosted by anyone without depending on Chobble
+      as a company.
 
   - type: markdown
     content: |
