@@ -84,10 +84,10 @@ blocks:
       **[Resident Advisor](https://pro.ra.co/ra-tickets) has features
       Chobble Tickets doesn't:**
 
-      - **Electronic music community** — RA reaches [57 million unique
-        yearly users](https://pro.ra.co/promoter) across 197 countries,
-        specifically looking for club nights, festivals, and electronic
-        music events
+      - **Electronic music community** — RA reaches [millions of
+        fans](https://pro.ra.co/promoter) across [100+
+        countries](https://pro.ra.co/ra-tickets), specifically looking
+        for club nights, festivals, and electronic music events
       - **Automated marketing to 2 million subscribers** — RA sends push
         notifications, emails, and web notifications to fans who've opted
         in, promoting your events alongside editorial picks
@@ -98,13 +98,15 @@ blocks:
         visibility above other events
       - **Ticket resale with anti-tout technology** — built-in face-value
         resale with barcode withholding until 24 hours before the event to
-        prevent fraud, earning promoters 2-4% additional revenue on
-        sold-out events
+        prevent fraud ([RA claim](https://pro.ra.co/ra-tickets) 2-4%
+        additional revenue on sold-out events)
       - **Abandoned basket recovery** — automated emails to fans who
-        started but didn't complete checkout, claimed 5% conversion uplift
+        started but didn't complete checkout ([RA
+        claim](https://pro.ra.co/ra-tickets) 5% conversion uplift)
       - **2-click checkout** — streamlined payment with PayPal, iDEAL,
-        Bancontact, and Venmo (US) alongside Apple Pay and Google Pay,
-        claimed 33% conversion uplift
+        Bancontact, and Venmo (US) alongside Apple Pay and Google Pay
+        ([RA claim](https://pro.ra.co/ra-tickets) 33% conversion
+        uplift)
       - **DJ charts, reviews, and mix hosting** — artist profiles, DJ
         charts, album reviews, and music features that drive traffic to
         events and build artist credibility
@@ -194,6 +196,28 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who owns Resident Advisor?
+
+      Resident Advisor was founded in 2001 in Sydney, Australia by Nick
+      Sabine and Paul Clement. Both co-founders each hold between 25% and
+      50% of the company's shares according to
+      [Companies House records](https://find-and-update.company-information.service.gov.uk/company/05871093/persons-with-significant-control).
+      CEO David Selby has stated publicly: "We're an independent business —
+      we don't have investors." RA became a
+      [certified B Corporation](https://www.bcorporation.net/en-us/find-a-b-corp/company/resident-advisor/)
+      in 2024, with an overall B Impact score of 87.6. The company is
+      headquartered in London with offices in Berlin, Los Angeles, New
+      York, and Melbourne, and has approximately 200+ employees.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3, and
+      the platform can be self-hosted by anyone without depending on Chobble
+      as a company.
+
+  - type: markdown
+    content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
@@ -208,6 +232,7 @@ blocks:
       - [RA Pro](https://pro.ra.co/) — information for promoters selling tickets on RA
       - [Resident Advisor on WeTicket](https://www.weticket.com/ticketing-system/resident-advisor) — third-party comparison citing 10% per ticket
       - [Chobble Tickets features](/features/)
+      - [Resident Advisor Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/05871093) — corporate structure
 
   - type: cta
     title: Try Chobble Tickets

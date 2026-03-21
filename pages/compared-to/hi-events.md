@@ -252,6 +252,32 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who builds Hi.Events?
+
+      Hi.Events is created and maintained by Dave Earley, a developer based
+      in Dublin, Ireland. He describes it as a "passion project" built
+      primarily during evenings over approximately one year. There is no
+      known company entity behind the project, and it has no venture
+      funding. Earley previously created Attendize, another open source
+      ticketing platform, which he sold in 2018 (the new owners
+      subsequently abandoned it). Hi.Events is a ground-up rewrite, not a
+      fork.
+
+      The project has 3,600+ GitHub stars and 41 contributors, but Earley
+      is overwhelmingly the primary contributor. It is licensed under
+      AGPL-3.0 with an additional attribution requirement (a "Powered by
+      Hi.Events" link must remain visible unless you buy a $499+ commercial
+      licence).
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3 with
+      no attribution requirement, and the platform can be self-hosted by
+      anyone without depending on Chobble as a company.
+
+  - type: markdown
+    content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
@@ -262,6 +288,7 @@ blocks:
       - [Hi.Events Single Domain licence terms](https://hi.events/single-domain-licence)
       - [Hi.Events on GitHub](https://github.com/HiEventsDev/Hi.Events)
       - [Chobble Tickets features](/features/)
+      - [Hi.Events on Hacker News](https://news.ycombinator.com/item?id=40897962) — Show HN launch discussion
 
   - type: cta
     title: Try Chobble Tickets

@@ -68,7 +68,8 @@ blocks:
         audience segmentation and automated event reminders
       - **Social media ad tools** — launch Facebook and Instagram ad
         campaigns directly from Eventbrite with smart audience targeting
-        and retargeting (claimed 6x average ROI)
+        and [retargeting](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/)
+        (Eventbrite claim 6x average ROI on retargeting campaigns)
       - **Promo codes and discounts** — create early bird pricing, discount
         codes, group discounts, and limited-time offers with usage limits
       - **Hidden ticket tiers** — ticket types hidden behind access codes
@@ -112,8 +113,9 @@ blocks:
       - **1:1 onboarding and phone support** — Pro customers get
         onboarding sessions and 24/7 phone and live chat support
       - **AI Marketing Copilot** — AI-generated ad copy, email campaigns,
-        event images, and descriptions (claimed 30% faster campaign
-        launches and 17% better CPC)
+        event images, and descriptions ([Eventbrite
+        claim](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/)
+        30% faster campaign launches and 17% better CPC)
       - **Conditional logic questions** — follow-up registration questions
         that appear based on previous answers
       - **Attendee self-service transfers** — attendees can change ticket
@@ -126,8 +128,9 @@ blocks:
         Google](https://www.eventbrite.com/blog/press/newsroom/lineup-tool-helps-music-venues-reach-more-fans/)
       - **"See Who's Going"** — social proof feature showing which friends
         are attending an event
-      - **26 languages** — platform localised across 16+ locales for
-        international audiences
+      - **Multi-language support** — platform available in [multiple
+        languages](https://www.eventbrite.com/help/en-us/articles/364490/how-to-change-the-language-settings-for-your-event/)
+        for international audiences
       - **On-site mobile box office** — sell tickets and merchandise in
         person with credit card processing via the organiser app
       - **Automated pre-event reminders** — series of emails at 48 hours,
@@ -170,7 +173,9 @@ blocks:
       - **No marketing to your attendees** — your audience stays yours,
         with no cross-promotion of competing events
       - **Community Interest Company** — run by a CIC, not a VC-backed
-        startup (Eventbrite was recently acquired by Bending Spoons)
+        startup (Eventbrite was [acquired by Bending
+        Spoons](https://www.ticketnews.com/2026/03/bending-spoons-finalizes-purchase-of-eventbrite/)
+        in March 2026)
 
       ## Data ownership
 
@@ -206,6 +211,29 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who owns Eventbrite?
+
+      Eventbrite was founded in 2006 by Kevin Hartz, Julia Hartz, and Renaud
+      Visage in San Francisco. It went public on the NYSE in 2018 at a
+      valuation of approximately $1.76 billion.
+
+      In March 2026, Eventbrite was taken private by
+      [Bending Spoons](https://bendingspoons.com), an Italian software
+      company based in Milan, in an all-cash deal worth approximately $500
+      million. Bending Spoons' portfolio also includes Evernote, Meetup,
+      WeTransfer, Vimeo, and StreamYard, among others. Their model involves
+      acquiring established technology brands and restructuring them for
+      profitability.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3, and
+      the platform can be self-hosted by anyone without depending on Chobble
+      as a company.
+
+  - type: markdown
+    content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
@@ -215,7 +243,11 @@ blocks:
       - [Eventbrite ticketing fees (Help Centre)](https://www.eventbrite.co.uk/help/en-gb/articles/755615/how-much-does-it-cost-for-organizers-to-use-eventbrite/)
       - [Eventbrite all features](https://www.eventbrite.com/l/all-features/)
       - [Eventbrite features — sell tickets](https://www.eventbrite.com/organizer/features/sell-tickets/)
+      - [Eventbrite AI-powered marketing tools](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/) — 17% CPC and 30% campaign launch claims
+      - [Eventbrite retargeting ROI](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/) — 6x average ROI claim
+      - [Bending Spoons acquisition (March 2026)](https://www.ticketnews.com/2026/03/bending-spoons-finalizes-purchase-of-eventbrite/)
       - [Chobble Tickets features](/features/)
+      - [Eventbrite acquisition announcement](https://investor.eventbrite.com/press-releases/press-releases-details/2025/Eventbrite-Enters-into-Definitive-Agreement-to-Be-Acquired-by-Bending-Spoons-for-Roughly-500-Million-to-Accelerate-Eventbrites-Next-Phase-of-Growth/) — Bending Spoons acquisition details
 
   - type: cta
     title: Try Chobble Tickets

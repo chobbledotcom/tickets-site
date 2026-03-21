@@ -37,8 +37,10 @@ blocks:
       (99.95% uptime), dedicated support, and additional modules like badge
       printing, CRM integrations (Salesforce, HubSpot), and abstract
       management for scientific conferences. It targets large events:
-      2,000–15,000 attendees at tech conferences (Devoxx, Spring I/O),
-      medical congresses, and association meetings (CERN, TEDx Lugano).
+      2,000–15,000 attendees at tech conferences
+      ([Devoxx](https://tickets.devoxx.co.uk),
+      [Spring I/O](https://reg.springio.net)), medical congresses, and
+      association meetings.
 
       So there are really two comparisons here: **Chobble Tickets vs alf.io
       self-hosted**, and **Chobble Tickets vs Swicket managed**.
@@ -173,13 +175,44 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who owns Swicket and alf.io?
+
+      [Swicket Sagl](https://swicket.io/about) is a Swiss limited liability
+      company founded in 2018 by Celestino Bellone, based in Viganello
+      (Lugano), Switzerland. Bellone is also the founder and lead developer
+      of [alf.io](https://github.com/alfio-event/alf.io), the open source
+      ticketing engine that Swicket is built on. The other core alf.io
+      maintainer is Sylvain Jermini.
+
+      In December 2024, Swicket established a "strategic partnership" with
+      [Vivento Lab](https://vivento.ch) — a separate Swiss company (formerly
+      CRYMS Sagl) backed by Tinext Group. While Vivento Lab describes
+      Swicket as "part of Vivento" on some marketing material, the Swiss
+      commercial register shows them as separate legal entities.
+
+      alf.io itself is a community open source project licensed under
+      GPL-3.0, with transparent finances on Open Collective and no formal
+      governance foundation.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3, and
+      the platform can be self-hosted by anyone without depending on Chobble
+      as a company.
+
+  - type: markdown
+    content: |
       ## Sources
 
       The information on this page was verified in March 2026.
 
       - [Swicket](https://swicket.io) — enterprise managed service built on alf.io (pricing on request)
+      - [Swicket about page](https://swicket.io/about) — team and background
       - [alf.io](https://alf.io) — open source event attendance management (GPLv3)
       - [alf.io on GitHub](https://github.com/alfio-event/alf.io) — source code, 1.6k stars, 60+ contributors
+      - [alf.io on Open Collective](https://opencollective.com/alfio) — project finances
+      - [Vivento Lab and Swicket partnership](https://vivento.ch/en/blog/vivento-lab-and-swicket-a-strategic-partnership-bringing-technological-innovation-to-the-world-of-events) — partnership announcement
       - [Chobble Tickets features](/features/)
 
   - type: cta

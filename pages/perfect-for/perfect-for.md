@@ -17,7 +17,7 @@ blocks:
       Tickets keeps things simple and affordable.
 
   - type: features
-    header_title: Who uses Chobble Tickets?
+    header_intro: "## Who uses Chobble Tickets?"
     items:
       - icon: "hugeicons:balloons"
         title: Kids parties

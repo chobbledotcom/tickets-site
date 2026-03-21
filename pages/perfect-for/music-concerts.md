@@ -37,7 +37,7 @@ blocks:
 
   - type: features
     section_class: alt
-    header_title: Built for live music
+    header_intro: "## Built for live music"
     items:
       - icon: "hugeicons:qr-code"
         title: QR code door list

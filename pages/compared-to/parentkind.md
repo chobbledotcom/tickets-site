@@ -111,10 +111,13 @@ blocks:
       Let's be straightforward about what Parentkind offers that Chobble
       Tickets doesn't:
 
-      - **Insurance**: Parentkind membership includes public liability
-        insurance (up to £25 million), trustee indemnity, employer's
-        liability, and theft cover. This alone can be worth the membership
-        fee for many PTAs.
+      - **Insurance**: [Parentkind
+        membership](https://www.parentkind.org.uk/for-ptas/start-a-pta/join-our-pta-membership)
+        includes [public liability
+        insurance](https://www.parentkind.org.uk/assets/membership-assets/Insurance-Summary.pdf)
+        (up to £10 million), trustee indemnity, employer's liability, and
+        theft cover. This alone can be worth the membership fee for many
+        PTAs.
       - **PTA advisers**: Phone and email support from people who understand
         the specifics of running a PTA, available 9am-5pm on weekdays,
         including legal and financial advice.
@@ -206,18 +209,50 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who owns Parentkind?
+
+      Parentkind is a registered charity
+      ([Charity Commission #1072833](https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=1072833&subId=0))
+      and a company limited by guarantee
+      ([Companies House #03680271](https://find-and-update.company-information.service.gov.uk/company/03680271)).
+      It traces its roots to 1956 as the National Council of Parent Teacher
+      Associations (NCPTA), later rebranded to PTA UK, then to Parentkind
+      in 2018. It operates two subsidiaries: Parentkind Enterprises Limited
+      (which holds a Gambling Commission licence for PTA raffles) and
+      Parentkind Trading Limited.
+
+      Parentkind and [PTA Events](https://www.pta-events.co.uk) are
+      **separate organisations**. PTA Events Limited is an independently
+      owned private company (see our
+      [PTA Events comparison](/compared-to/pta-events/) for details). The
+      two have a commercial partnership — Parentkind promotes PTA Events to
+      its member PTAs — but there is no shared ownership or directorship
+      between them.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3, and
+      the platform can be self-hosted by anyone without depending on Chobble
+      as a company.
+
+  - type: markdown
+    content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
       may change — check the links below for the latest figures.
 
-      - [Parentkind membership fee update (November 2025)](https://www.parentkind.org.uk/pta-membership-fee-update) — from £121/year (Direct Debit, ≤100 pupils)
+      - [Parentkind membership](https://www.parentkind.org.uk/for-ptas/start-a-pta/join-our-pta-membership) — from £121/year (Direct Debit, ≤100 pupils)
+      - [Parentkind insurance summary](https://www.parentkind.org.uk/assets/membership-assets/Insurance-Summary.pdf) — £10 million public liability cover
       - [PTA Events fees](https://ptaevents.freshdesk.com/support/solutions/articles/17000091635-what-fees-are-charged-) — 3.95% (Starter) or 1.5% (Premium)
       - [PTA Events Premium plan benefits](https://ptaevents.freshdesk.com/support/solutions/articles/17000091633-what-are-the-benefits-of-the-premium-plan-) — QR scanning, advertising tools, reduced fees
       - [PTA Events transaction costs](https://ptaevents.freshdesk.com/support/solutions/articles/17000089759-how-much-does-it-cost-to-process-transactions-) — Stripe processing fees
       - [PTA Events platform](https://www.pta-events.co.uk/) — the ticketing platform itself
       - [Parentkind website](https://www.parentkind.org.uk)
       - [Chobble Tickets features](/features/)
+      - [Parentkind on Charity Commission](https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=1072833&subId=0) — charity registration
+      - [Parentkind on Companies House](https://find-and-update.company-information.service.gov.uk/company/03680271) — corporate structure
 
   - type: cta
     title: Simple school event ticketing

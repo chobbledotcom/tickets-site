@@ -17,8 +17,9 @@ blocks:
       Chobble Tickets stacks up against the alternatives.
 
   - type: features
-    header_title: Alternatives
-    header_subtitle: >-
+    header_intro: |
+      ## Alternatives
+
       Click through to see a detailed comparison with each platform.
     items:
       - icon: "hugeicons:ticket-01"

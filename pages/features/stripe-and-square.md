@@ -42,6 +42,13 @@ blocks:
       refund happens automatically. There's no need to log into Stripe or
       Square separately - it's all handled in one place.
 
+  - type: markdown
+    content: |
+      ## References
+
+      - [Stripe UK pricing](https://stripe.com/gb/pricing) — 1.5% + 20p per transaction
+      - [Square UK pricing](https://squareup.com/gb/en/pricing)
+
   - type: cta
     title: Start accepting payments
     description: Connect Stripe or Square and start selling tickets in minutes.
