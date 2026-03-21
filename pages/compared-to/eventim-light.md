@@ -24,8 +24,9 @@ blocks:
 
       [EVENTIM.Light](https://www.eventim-light.co.uk/) is the self-serve
       ticketing arm of CTS EVENTIM — the parent company behind eventim.co.uk and
-      one of the largest ticketing operations in Europe, selling 300+ million
-      tickets a year across 25+ countries. EVENTIM.Light is aimed at independent
+      one of the largest ticketing operations in Europe, with [250+ million
+      tickets sold in 2019](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/)
+      and operations across 23+ countries. EVENTIM.Light is aimed at independent
       organisers, artists, and small-to-medium promoters who want to create and
       sell tickets without negotiating an enterprise deal.
 
@@ -45,7 +46,7 @@ blocks:
 
       Chobble Tickets is a flat **£50/year** (£25 for charities and community
       groups) with no per-ticket fees at all. You only pay Stripe or Square
-      processing fees (1.5% + 20p) on top. If you sell more than about 70
+      processing fees (1.5% + 20p) on top. If you sell more than about 65
       tickets at £15 in a year, Chobble Tickets is already cheaper.
 
       It's worth noting that EVENTIM.Light's 8% is competitive compared to some
@@ -53,15 +54,14 @@ blocks:
       still a percentage that grows with every ticket sold. A flat annual fee
       doesn't.
 
-      One important detail: once you choose whether to absorb the fee or pass
-      it to buyers, **you can't change that setting after your event is
-      published**. Choose carefully.
+      One important detail: according to [EVENTIM.Light's German
+      FAQ](https://www.eventim-light.de/en/faq/), once you choose whether to
+      absorb the fee or pass it to buyers, **you can't change that setting
+      after your event is published**. Choose carefully.
 
       Also be aware that if you opt into the EVENTIM network distribution
-      (selling through eventim.co.uk and partner outlets), buyers may incur an
-      **additional advance booking fee on top of the 8%** — and ticket-related
-      fees and sales commissions may still apply even if your event is
-      cancelled.
+      (selling through eventim.co.uk), buyers may incur an **additional
+      advance booking fee on top of the 8%**.
 
   - type: include
     file: price-comparator.html
@@ -76,9 +76,6 @@ blocks:
       no option for advance payouts. For cancelled or postponed events,
       settlement only happens after all buyer refund claims are resolved —
       which could take considerably longer.
-
-      For box office (door) sales, you collect payment directly, but EVENTIM
-      deducts their fees via SEPA direct debit from your bank account.
 
       Chobble Tickets uses Stripe or Square directly, so payments flow straight
       to your own payment processor account with standard processing times
@@ -127,8 +124,6 @@ blocks:
       - **Multiple payment methods** — PayPal, PayPal Express, Apple Pay,
         Google Pay, Visa, and MasterCard built in (Chobble Tickets supports
         Apple Pay and Google Pay via Stripe, plus Square, but not PayPal)
-      - **Event bundles and season tickets** — sell ticket packages across
-        multiple events
       - **Video tutorials and quick guides** — step-by-step help resources
         built into the platform
 
@@ -177,25 +172,23 @@ blocks:
 
       ## Data ownership and privacy
 
-      This is where the trade-offs get serious. Under EVENTIM.Light's terms,
-      you and EVENTIM are **joint data controllers** under GDPR Article 26.
-      In practice, this means:
+      This is where the trade-offs get serious. Under EVENTIM.Light's privacy
+      policy, you and CTS EVENTIM are **joint data controllers** under GDPR
+      Article 26. In practice, this means:
 
-      - EVENTIM can send newsletters and **market similar events to your
-        ticket buyers** — including events by other organisers
-      - If you sell through the broader EVENTIM network (not just your own
-        Light shop), **you have no claim to that customer data**
-      - EVENTIM retains sole control over cookie and usage data
-      - EVENTIM can **amend their terms unilaterally** with notification —
-        if you don't object within one month, the changes are deemed approved
-      - Your first event requires **approval from EVENTIM's support team**
-        before it goes live
+      - EVENTIM can send **personalised mailings about similar events** to
+        your ticket buyers — their privacy policy states they may contact
+        buyers about "similar events, services and promotions" under
+        legitimate interest
+      - Your **account registration requires approval** from EVENTIM's sales
+        team before you can start selling
 
-      The consumer-facing eventim.co.uk has a 1.6-star rating on Trustpilot
-      (UK), with common complaints about refund difficulties and poor customer
-      service. While EVENTIM.Light is a separate product, buyer issues
-      typically get directed back to the event organiser — not to EVENTIM's
-      support team.
+      The consumer-facing eventim.co.uk has a
+      [3.7-star rating on Trustpilot](https://www.trustpilot.com/review/eventim.co.uk)
+      (UK), though reviews are mixed — common complaints include refund
+      difficulties and customer service responsiveness. While EVENTIM.Light
+      is a separate product, buyer issues are typically directed back to the
+      event organiser rather than EVENTIM's support team.
 
       With Chobble Tickets, attendee data is encrypted with hybrid RSA/AES
       encryption and stays entirely under your control. There's no platform
@@ -204,18 +197,18 @@ blocks:
 
       ## Flexibility and lock-in
 
-      EVENTIM.Light has some rigidity worth knowing about:
+      EVENTIM.Light has some rigidity worth knowing about (confirmed in their
+      [UK FAQ](https://www.eventim-light.co.uk/faq/) and
+      [German FAQ](https://www.eventim-light.de/en/faq/)):
 
       - You **cannot change the venue** once an event is published
       - You **cannot edit the seating plan** after publishing (no adding or
         removing seats)
-      - You **cannot change the fee model** (who pays the 8%) after publishing
       - The scan app's **barcode synchronisation only works within 12 hours**
         of the event start, requiring an internet connection during that window
       - Offline scanning devices **cannot sync with each other**
       - **Cancelling in EVENTIM.Light doesn't cancel your linked Facebook
         event** — you have to do that separately
-      - Box office customers **cannot be remotely notified** of cancellations
 
       Chobble Tickets lets you edit event details at any time before the event.
       There's no approval process, no locked settings, and no dependency on
@@ -238,8 +231,7 @@ blocks:
 
       - You already have your own audience and don't need a discovery platform
       - You want predictable, flat-rate pricing with no per-ticket fees
-      - Privacy and encryption matter to you — you don't want a joint data
-        controller arrangement with a large entertainment company
+      - Privacy and encryption matter to you
       - You want a [public API](/features/public-api/) or
         [webhooks](/features/webhooks/) for custom integrations (EVENTIM.Light
         has neither)
@@ -264,7 +256,9 @@ blocks:
 
       - [EVENTIM.Light UK pricing](https://www.eventim-light.co.uk/pricing/) — 8% per ticket (includes payment processing)
       - [EVENTIM.Light UK features](https://www.eventim-light.co.uk/features/) — full feature list
-      - [EVENTIM.Light overview](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/) — B2B product page
+      - [EVENTIM.Light UK FAQ](https://www.eventim-light.co.uk/faq/) — frequently asked questions for organisers
+      - [EVENTIM.Light overview](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/) — B2B product page (250M+ tickets in 2019)
+      - [Eventim UK on Trustpilot](https://www.trustpilot.com/review/eventim.co.uk) — consumer reviews
       - [Chobble Tickets features](/features/)
 
   - type: cta
