@@ -77,7 +77,7 @@ blocks:
 
       - [AGPLv3 licence text](https://www.gnu.org/licenses/agpl-3.0.en.html) — the licence Chobble Tickets uses
       - [Chobble Tickets on GitHub](https://github.com/chobbledotcom/tickets)
-      - [Bunny.net Edge Scripting](https://bunny.net/blog/introducing-bunny-edge-scripting-scalable-compute-at-the-edge/) — the serverless platform used for self-hosting
+      - [Bunny.net Edge Scripting](https://bunny.net/blog/introducing-bunny-edge-scripting-a-better-way-to-build-and-deploy-applications-at-the-edge/) — the serverless platform used for self-hosting
       - [Deno runtime](https://deno.com/) — the JavaScript runtime Chobble Tickets is built on
 
   - type: cta
