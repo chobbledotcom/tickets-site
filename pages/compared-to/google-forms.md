@@ -134,6 +134,7 @@ blocks:
       ## Sources
 
       - [Google Forms](https://docs.google.com/forms) — free to use with a Google account
+      - [Google Forms help](https://support.google.com/docs/answer/6281888) — feature overview
       - [Chobble Tickets features](/features/)
 
   - type: cta

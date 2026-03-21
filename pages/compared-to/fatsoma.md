@@ -86,7 +86,8 @@ blocks:
       - **Consumer mobile app** — [the Fatsoma
         App](https://ticketing.fatsoma.com/f/the-fatsoma-app) is a
         consumer-facing app where attendees browse and discover events.
-        Fatsoma report that 70% of their ticket sales come through the app
+        [Fatsoma report](https://ticketing.fatsoma.com/f/the-fatsoma-app)
+        that 70% of their ticket sales come through the app
       - **Follower system** — every ticket buyer automatically becomes a
         follower you can market to for free with future event announcements
       - **Push notifications** — [event

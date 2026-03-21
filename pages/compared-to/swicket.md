@@ -37,8 +37,10 @@ blocks:
       (99.95% uptime), dedicated support, and additional modules like badge
       printing, CRM integrations (Salesforce, HubSpot), and abstract
       management for scientific conferences. It targets large events:
-      2,000–15,000 attendees at tech conferences (Devoxx, Spring I/O),
-      medical congresses, and association meetings (CERN, TEDx Lugano).
+      2,000–15,000 attendees at tech conferences
+      ([Devoxx](https://tickets.devoxx.co.uk),
+      [Spring I/O](https://reg.springio.net)), medical congresses, and
+      association meetings.
 
       So there are really two comparisons here: **Chobble Tickets vs alf.io
       self-hosted**, and **Chobble Tickets vs Swicket managed**.

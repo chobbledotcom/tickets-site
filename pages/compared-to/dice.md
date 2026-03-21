@@ -108,9 +108,9 @@ blocks:
         [MIO dashboard](https://mio.dice.fm)
       - **Algorithmic event recommendations** — personalised discover feed
         for each fan based on their tastes and location
-      - **Large-scale access hardware** — DICE Access system (powered by
-        Qflow) with laser scanning hardware, zone-based scanning, and
-        time-slot scanning
+      - **Large-scale access hardware** — [DICE
+        Access](https://dice.fm/partners) system with laser scanning
+        hardware, zone-based scanning, and time-slot scanning
       - **Real-time audience insights** — segmentation by genre, spend,
         and geography via the MIO partner dashboard
       - **DICE TV** — livestreaming platform for virtual events

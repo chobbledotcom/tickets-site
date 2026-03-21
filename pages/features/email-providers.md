@@ -45,6 +45,15 @@ blocks:
       See the [email documentation](https://chobbledotcom.github.io/tickets/docs/email.ts)
       for details on templates and provider configuration.
 
+  - type: markdown
+    content: |
+      ## References
+
+      - [Resend](https://resend.com/) — email API for developers
+      - [Postmark](https://postmarkapp.com/) — transactional email service
+      - [SendGrid](https://sendgrid.com/) — email delivery platform
+      - [Mailgun](https://www.mailgun.com/) — email API service (US and EU regions)
+
   - type: cta
     title: Better email delivery
     description: Use your own email provider for reliable ticket delivery.
