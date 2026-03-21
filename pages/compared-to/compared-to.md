@@ -32,6 +32,9 @@ blocks:
         title: '<a href="/compared-to/eventbrite/">vs Eventbrite</a>'
         description: The big name in ticketing - see how an open source alternative measures up.
       - icon: "hugeicons:ticket-01"
+        title: '<a href="/compared-to/eventim-light/">vs EVENTIM.Light</a>'
+        description: The self-serve arm of Europe's largest ticketing company — compare fees, features, and data ownership.
+      - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/fatsoma/">vs Fatsoma</a>'
         description: Popular with student events and nightlife — compare fees, features, and data ownership.
       - icon: "hugeicons:file-02"
