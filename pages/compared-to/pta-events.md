@@ -192,6 +192,31 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who owns PTA Events?
+
+      PTA Events Limited
+      ([Companies House #09404586](https://find-and-update.company-information.service.gov.uk/company/09404586))
+      was incorporated in 2015 and is based in Bedford. It was founded by
+      David Cooke, who built the platform in 2013 for his children's school
+      PTA. The company is owned by David Cooke, Geraldine Cooke, and James
+      Stonor — all individuals, with no corporate shareholders.
+
+      PTA Events and [Parentkind](https://www.parentkind.org.uk) are
+      **separate organisations** with no shared ownership or directors.
+      They have a commercial partnership where Parentkind promotes PTA
+      Events to its member PTAs, but PTA Events is an independently owned
+      private limited company, not a subsidiary or part of the Parentkind
+      charity.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3, and
+      the platform can be self-hosted by anyone without depending on Chobble
+      as a company.
+
+  - type: markdown
+    content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
@@ -205,6 +230,7 @@ blocks:
       - [PTA Events scanning and Qflow](https://ptaevents.freshdesk.com/support/solutions/articles/17000065774-scanning-tickets-vouchers) — Qflow pricing by school size
       - [PTA Events website](https://www.pta-events.co.uk/)
       - [Chobble Tickets features](/features/)
+      - [PTA Events Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/09404586) — corporate structure
 
   - type: cta
     title: Simple school event ticketing

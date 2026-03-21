@@ -174,6 +174,26 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who owns Fatsoma?
+
+      Fatsoma was founded in 2005 in Manchester (originally as YourNightOut
+      Limited, renamed in 2006). It is a private limited company
+      ([Companies House #05495880](https://find-and-update.company-information.service.gov.uk/company/05495880))
+      owned by its two remaining co-founders, Paul Stacey and Chris Pearson.
+      A third co-founder, Ben Taylor, stepped back from a controlling role
+      in 2019. The company has around 35 employees and raised modest
+      funding from AXM Venture Capital and via a Seedrs crowdfunding
+      campaign, but remains independently owned with no corporate parent.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3, and
+      the platform can be self-hosted by anyone without depending on Chobble
+      as a company.
+
+  - type: markdown
+    content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
@@ -184,6 +204,7 @@ blocks:
       - [Fatsoma Reps](https://ticketing.fatsoma.com/f/reps) — affiliate/rep network feature
       - [The Fatsoma App](https://ticketing.fatsoma.com/f/the-fatsoma-app) — consumer mobile app
       - [Chobble Tickets features](/features/)
+      - [Fatsoma Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/05495880) — corporate structure
 
   - type: cta
     title: Try Chobble Tickets

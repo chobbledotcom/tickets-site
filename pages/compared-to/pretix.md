@@ -207,6 +207,29 @@ blocks:
 
   - type: markdown
     content: |
+      ## Who builds Pretix?
+
+      Pretix was created by Raphael Michel, who started writing it in 2014
+      while working as a freelance developer in Heidelberg, Germany. The
+      company behind it — [pretix GmbH](https://pretix.eu/about/en/company)
+      (formerly rami.io GmbH, renamed in 2025) — is owner-led with no
+      external investors. Their website states the company has "grown
+      organically through customers without any pressure by investors or
+      creditors." The team has grown to approximately 28 people.
+
+      Pretix received a German federal government grant through the
+      Prototype Fund (funded by the BMBF) in 2017–2018, but has no
+      recorded private venture capital.
+
+      Chobble Tickets is run by one person as a
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
+      (CIC) — a UK legal structure that locks the company's assets for
+      community benefit. All of Chobble's code is public under AGPLv3 with
+      no enterprise tier or feature gates, and the platform can be
+      self-hosted by anyone without depending on Chobble as a company.
+
+  - type: markdown
+    content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
@@ -219,6 +242,7 @@ blocks:
       - [Pretix features — check-in](https://pretix.eu/about/en/features/checkin) — scanning and on-site tools
       - [Pretix plugin marketplace](https://marketplace.pretix.eu/) — 50+ official and third-party plugins
       - [Chobble Tickets features](/features/)
+      - [Pretix company page](https://pretix.eu/about/en/company) — team and company information
 
   - type: cta
     title: Try Chobble Tickets
