@@ -172,16 +172,26 @@ blocks:
 
       ## Data ownership and privacy
 
-      This is where the trade-offs get serious. Under EVENTIM.Light's privacy
-      policy, you and CTS EVENTIM are **joint data controllers** under GDPR
-      Article 26. In practice, this means:
+      This is where the trade-offs get serious. Under EVENTIM.Light's
+      [UK terms of use](https://www.eventim-light.com/uk/api/legal/terms?format=pdf&lang=en),
+      you and CTS EVENTIM are **joint data controllers** under GDPR Article 26
+      (clause 9.5). In practice, this means:
 
       - EVENTIM can send **personalised mailings about similar events** to
-        your ticket buyers — their privacy policy states they may contact
-        buyers about "similar events, services and promotions" under
-        legitimate interest
-      - Your **account registration requires approval** from EVENTIM's sales
-        team before you can start selling
+        your ticket buyers — their
+        [UK terms](https://www.eventim-light.com/uk/api/legal/terms?format=pdf&lang=en)
+        (clause 9.2) confirm they may contact buyers about "events which are
+        identical or similar to the one for which the customer purchased a
+        ticket"
+      - If you sell through the EVENTIM network (eventim.co.uk), **you have
+        no claim to that customer data** — clause 9.4 states "the Event
+        Organiser has no claim against EVENTIM UK Ltd. to the transmission
+        of such customer data"
+      - EVENTIM can **amend their terms unilaterally** with notification —
+        clause 14.1 states an amendment "is deemed approved unless the Event
+        Organiser lodges an objection in text form within one month"
+      - Your **first event requires authorisation** from the EVENTIM UK team
+        before it goes live (clause 1.2) — subsequent events do not
 
       The consumer-facing eventim.co.uk has a
       [3.7-star rating on Trustpilot](https://www.trustpilot.com/review/eventim.co.uk)
@@ -209,6 +219,8 @@ blocks:
       - Offline scanning devices **cannot sync with each other**
       - **Cancelling in EVENTIM.Light doesn't cancel your linked Facebook
         event** — you have to do that separately
+      - Box office ticket buyers **cannot be contacted** if you cancel or
+        relocate — EVENTIM doesn't hold their contact details
 
       Chobble Tickets lets you edit event details at any time before the event.
       There's no approval process, no locked settings, and no dependency on
@@ -257,6 +269,7 @@ blocks:
       - [EVENTIM.Light UK pricing](https://www.eventim-light.co.uk/pricing/) — 8% per ticket (includes payment processing)
       - [EVENTIM.Light UK features](https://www.eventim-light.co.uk/features/) — full feature list
       - [EVENTIM.Light UK FAQ](https://www.eventim-light.co.uk/faq/) — frequently asked questions for organisers
+      - [EVENTIM.Light UK terms of use](https://www.eventim-light.com/uk/api/legal/terms?format=pdf&lang=en) — organiser terms (PDF)
       - [EVENTIM.Light overview](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/) — B2B product page (250M+ tickets in 2019)
       - [Eventim UK on Trustpilot](https://www.trustpilot.com/review/eventim.co.uk) — consumer reviews
       - [Chobble Tickets features](/features/)
