@@ -39,8 +39,9 @@ blocks:
         label: Open Source
 
   - type: features
-    header_title: Why Chobble Tickets?
-    header_subtitle: >-
+    header_intro: |
+      ## Why Chobble Tickets?
+
       Built by a community interest company with no venture capital or
       growth-at-all-costs mentality, so we can focus on making solid software
       that does what you need.

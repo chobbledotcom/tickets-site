@@ -40,7 +40,7 @@ blocks:
 
   - type: features
     section_class: alt
-    header_title: Why organisers choose us
+    header_intro: "## Why organisers choose us"
     items:
       - icon: "hugeicons:source-code"
         title: Fully auditable
