@@ -112,10 +112,12 @@ blocks:
       Tickets doesn't:
 
       - **Insurance**: [Parentkind
-        membership](https://www.parentkind.org.uk/membership) includes
-        public liability insurance (up to £25 million), trustee indemnity,
-        employer's liability, and theft cover. This alone can be worth the
-        membership fee for many PTAs.
+        membership](https://www.parentkind.org.uk/for-ptas/start-a-pta/join-our-pta-membership)
+        includes [public liability
+        insurance](https://www.parentkind.org.uk/assets/membership-assets/Insurance-Summary.pdf)
+        (up to £10 million), trustee indemnity, employer's liability, and
+        theft cover. This alone can be worth the membership fee for many
+        PTAs.
       - **PTA advisers**: Phone and email support from people who understand
         the specifics of running a PTA, available 9am-5pm on weekdays,
         including legal and financial advice.
@@ -212,7 +214,8 @@ blocks:
       The pricing information on this page was verified in March 2026. Fees
       may change — check the links below for the latest figures.
 
-      - [Parentkind membership fee update (November 2025)](https://www.parentkind.org.uk/pta-membership-fee-update) — from £121/year (Direct Debit, ≤100 pupils)
+      - [Parentkind membership](https://www.parentkind.org.uk/for-ptas/start-a-pta/join-our-pta-membership) — from £121/year (Direct Debit, ≤100 pupils)
+      - [Parentkind insurance summary](https://www.parentkind.org.uk/assets/membership-assets/Insurance-Summary.pdf) — £10 million public liability cover
       - [PTA Events fees](https://ptaevents.freshdesk.com/support/solutions/articles/17000091635-what-fees-are-charged-) — 3.95% (Starter) or 1.5% (Premium)
       - [PTA Events Premium plan benefits](https://ptaevents.freshdesk.com/support/solutions/articles/17000091633-what-are-the-benefits-of-the-premium-plan-) — QR scanning, advertising tools, reduced fees
       - [PTA Events transaction costs](https://ptaevents.freshdesk.com/support/solutions/articles/17000089759-how-much-does-it-cost-to-process-transactions-) — Stripe processing fees
