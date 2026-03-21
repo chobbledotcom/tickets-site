@@ -21,7 +21,7 @@ blocks:
       ![The Chobble Tickets admin dashboard](/images/screenshots/dashboard.png)
 
   - type: features
-    header_title: Selling tickets
+    header_intro: "## Selling tickets"
     items:
       - icon: "hugeicons:credit-card"
         title: '<a href="/features/stripe-and-square/">Stripe & Square</a>'
@@ -41,7 +41,7 @@ blocks:
 
   - type: features
     section_class: alt
-    header_title: Managing events
+    header_intro: "## Managing events"
     items:
       - icon: "hugeicons:qr-code"
         title: '<a href="/features/qr-code-check-ins/">QR code check-ins</a>'
@@ -72,7 +72,7 @@ blocks:
         description: Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
 
   - type: features
-    header_title: Customising your site
+    header_intro: "## Customising your site"
     items:
       - icon: "hugeicons:globe-02"
         title: '<a href="/features/custom-domain/">Custom domain</a>'
@@ -95,7 +95,7 @@ blocks:
 
   - type: features
     section_class: alt
-    header_title: Platform & integrations
+    header_intro: "## Platform & integrations"
     items:
       - icon: "hugeicons:source-code"
         title: '<a href="/features/open-source/">Open source</a>'

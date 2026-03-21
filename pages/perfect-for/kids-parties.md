@@ -37,7 +37,7 @@ blocks:
 
   - type: features
     section_class: alt
-    header_title: Great for party organisers
+    header_intro: "## Great for party organisers"
     items:
       - icon: "hugeicons:user-list"
         title: Configurable contact fields
