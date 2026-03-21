@@ -84,10 +84,10 @@ blocks:
       **[Resident Advisor](https://pro.ra.co/ra-tickets) has features
       Chobble Tickets doesn't:**
 
-      - **Electronic music community** — RA reaches [57 million unique
-        yearly users](https://pro.ra.co/promoter) across 197 countries,
-        specifically looking for club nights, festivals, and electronic
-        music events
+      - **Electronic music community** — RA reaches [millions of
+        fans](https://pro.ra.co/promoter) across [100+
+        countries](https://pro.ra.co/ra-tickets), specifically looking
+        for club nights, festivals, and electronic music events
       - **Automated marketing to 2 million subscribers** — RA sends push
         notifications, emails, and web notifications to fans who've opted
         in, promoting your events alongside editorial picks
