@@ -111,10 +111,11 @@ blocks:
       Let's be straightforward about what Parentkind offers that Chobble
       Tickets doesn't:
 
-      - **Insurance**: Parentkind membership includes public liability
-        insurance (up to £25 million), trustee indemnity, employer's
-        liability, and theft cover. This alone can be worth the membership
-        fee for many PTAs.
+      - **Insurance**: [Parentkind
+        membership](https://www.parentkind.org.uk/membership) includes
+        public liability insurance (up to £25 million), trustee indemnity,
+        employer's liability, and theft cover. This alone can be worth the
+        membership fee for many PTAs.
       - **PTA advisers**: Phone and email support from people who understand
         the specifics of running a PTA, available 9am-5pm on weekdays,
         including legal and financial advice.

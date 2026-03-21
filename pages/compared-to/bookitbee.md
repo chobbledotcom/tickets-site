@@ -57,8 +57,9 @@ blocks:
 
       - **Social Group Deals** — a viral marketing mechanic where buyers
         share a unique link, and once enough friends purchase, the original
-        buyer gets a free ticket. BookitBee report this drives up to 50%
-        of sales at some events
+        buyer gets a free ticket.
+        [BookitBee report](https://www.bookitbee.com/features/) this
+        drives up to 50% of sales at some events
       - **Reserved seating with seat map builder** — create interactive
         venue maps where attendees pick their own seats, tables, or zones,
         with a best-available auto-assignment option

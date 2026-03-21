@@ -98,13 +98,15 @@ blocks:
         visibility above other events
       - **Ticket resale with anti-tout technology** — built-in face-value
         resale with barcode withholding until 24 hours before the event to
-        prevent fraud, earning promoters 2-4% additional revenue on
-        sold-out events
+        prevent fraud ([RA claim](https://pro.ra.co/ra-tickets) 2-4%
+        additional revenue on sold-out events)
       - **Abandoned basket recovery** — automated emails to fans who
-        started but didn't complete checkout, claimed 5% conversion uplift
+        started but didn't complete checkout ([RA
+        claim](https://pro.ra.co/ra-tickets) 5% conversion uplift)
       - **2-click checkout** — streamlined payment with PayPal, iDEAL,
-        Bancontact, and Venmo (US) alongside Apple Pay and Google Pay,
-        claimed 33% conversion uplift
+        Bancontact, and Venmo (US) alongside Apple Pay and Google Pay
+        ([RA claim](https://pro.ra.co/ra-tickets) 33% conversion
+        uplift)
       - **DJ charts, reviews, and mix hosting** — artist profiles, DJ
         charts, album reviews, and music features that drive traffic to
         events and build artist credibility

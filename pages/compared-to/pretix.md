@@ -150,8 +150,8 @@ blocks:
       - **Shipping** — physical product delivery management
       - **Virtual event support** — Venueless integration for hybrid and
         virtual events
-      - **50+ plugins** — a [plugin
-        marketplace](https://marketplace.pretix.eu/) with 50+ official and
+      - **160+ plugins** — a [plugin
+        marketplace](https://marketplace.pretix.eu/) with 160+ official and
         third-party plugins extending every aspect of the platform
       - **Multi-event organisers** — manage multiple events under one
         organisation with shared settings and branding
@@ -217,7 +217,7 @@ blocks:
       - [Pretix on GitHub](https://github.com/pretix/pretix)
       - [Pretix features — shop](https://pretix.eu/about/en/features/shop) — ticketing and shop features
       - [Pretix features — check-in](https://pretix.eu/about/en/features/checkin) — scanning and on-site tools
-      - [Pretix plugin marketplace](https://marketplace.pretix.eu/) — 50+ official and third-party plugins
+      - [Pretix plugin marketplace](https://marketplace.pretix.eu/) — 160+ official and third-party plugins
       - [Chobble Tickets features](/features/)
 
   - type: cta

@@ -64,7 +64,8 @@ blocks:
 
       - **Massive distribution network** — Ticketmaster reaches millions of
         buyers through its website, mobile app, retail outlets, and call
-        centres across 30+ countries
+        centres across [30+
+        countries](https://business.ticketmaster.com/solutions/)
       - **Reserved seating with interactive venue maps** — detailed 3D seat
         selection for stadiums, arenas, and theatres showing exact views from
         each seat
@@ -98,8 +99,9 @@ blocks:
         season passes, and deposit collection programmes
       - **Queue and virtual waiting room** — managed queuing system for
         high-demand on-sales handling millions of concurrent users
-      - **SafeTix encrypted barcodes** — dynamically refreshing encrypted
-        barcodes that can't be screenshotted or counterfeited
+      - **[SafeTix](https://www.ticketmaster.com/safetix) encrypted
+        barcodes** — dynamically refreshing encrypted barcodes that can't
+        be screenshotted or counterfeited
       - **AI-powered fraud detection** — device reputation scoring and
         threat detection to block bots and scalpers
       - **TikTok integration** — sell tickets directly through TikTok in
@@ -189,6 +191,7 @@ blocks:
 
       - [Ticketmaster UK](https://www.ticketmaster.co.uk)
       - [Ticketmaster Business Solutions](https://business.ticketmaster.com/solutions/) — features for venues and organisers
+      - [SafeTix](https://www.ticketmaster.com/safetix) — encrypted barcode technology
       - [Chobble Tickets features](/features/)
 
   - type: cta
