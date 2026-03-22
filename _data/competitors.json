@@ -124,6 +124,15 @@
     "payment_processing_fixed": 0,
     "fee_note": "EVENTIM.Light fees: 8% per ticket (includes payment processing). Fee can be passed to ticket buyers or absorbed by the organiser. No fixed costs or binding contracts. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: eventim-light.co.uk/pricing (March 2026)."
   },
+  "tito": {
+    "name": "Tito",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 3,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Tito fees: 3% per ticket (2.5% for charity/non-profit/community), capped at €25 per ticket. Payment processing (e.g. Stripe 1.5% + 20p) is separate. Free events have no fees. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: ti.to/pricing (March 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,
