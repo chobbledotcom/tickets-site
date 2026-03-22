@@ -62,6 +62,9 @@ blocks:
         title: '<a href="/compared-to/swicket/">vs Swicket</a>'
         description: The managed service built on open source alf.io — compare features, pricing model, and data ownership.
       - icon: "hugeicons:ticket-01"
+        title: '<a href="/compared-to/tito/">vs Tito</a>'
+        description: Developer-friendly ticketing from Ireland with per-ticket fees — compare pricing, features, and data ownership.
+      - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/ticketmaster/">vs Ticketmaster</a>'
         description: Built for massive venues - see when Chobble Tickets is the better choice.
 
