@@ -21,8 +21,11 @@ blocks:
     content: |
       ## Pricing comparison
 
-      [Tito](https://ti.to) charges 3% per paid ticket (2.5% for
-      charity/non-profit/community organisations), capped at €25 per ticket.
+      [Tito](https://ti.to) charges 3% per paid ticket, capped at €25 per
+      ticket. Reduced rates are available for non-commercial events: 2.5%
+      for community and non-profit organisations, 1% for registered
+      charities running events at cost, and no fee at all for pure
+      fundraiser events where 100% of proceeds go to charity.
       There are no setup fees, no monthly subscriptions, and no extra charges
       for premium features. Free events are completely free. Payment processing
       via [Stripe](https://stripe.com) or
@@ -71,8 +74,8 @@ blocks:
         hybrid events, built by the same team
       - **Badge printing workflows** — CSV exports designed for badge
         printing, with check-in apps that sync attendee status
-      - **Offline-capable check-in** — mobile check-in apps that continue
-        working when connectivity is limited
+      - **Mobile check-in apps** — native iOS and Android apps that
+        download attendee lists for fast on-site scanning
       - **Multilingual event pages** — automatic translations to share event
         pages in attendees' languages
       - **Waitlists** — built-in waitlist support for sold-out events
@@ -86,8 +89,6 @@ blocks:
         people, with webhook notifications
       - **Pay-by-invoice** — support for invoice-based payments alongside
         card payments
-      - **iOS and Android check-in apps** — native mobile apps for on-site
-        attendee management
       - **Fully styleable widget** — the embedded checkout widget's HTML is
         exposed for custom CSS styling
       - **Per-ticket fee cap** — Tito caps its fee at €25 per ticket,
@@ -145,8 +146,7 @@ blocks:
 
       - You're running tech conferences and want a platform with deep roots
         in that community
-      - You need offline-capable check-in apps for venues with poor
-        connectivity
+      - You want native iOS and Android check-in apps for on-site scanning
       - You want a polished, established platform that's processed $1B+ in
         ticket sales
       - You need multilingual event pages for international audiences
@@ -176,10 +176,11 @@ blocks:
       Dublin, Ireland. It operates as **Team Tito Limited** (Company Number
       566334), a privately held Irish company.
 
-      Tito is a bootstrapped, self-funded company — they haven't taken
-      venture capital and have grown organically. Their philosophy emphasises
-      gentle, sustainable growth over rapid expansion. The team is small,
-      with members based in Ireland and the UK.
+      Tito was bootstrapped for its first eight years before receiving a
+      [€1.25 million investment](https://blog.tito.io/posts/some-investment-news/)
+      in 2020 from Lachy Groom, an early Stripe employee. Their philosophy
+      emphasises gentle, sustainable growth over rapid expansion. The team
+      is small, with members based in Ireland and the UK.
 
       The platform has processed over $1 billion in ticket sales for
       thousands of organisers worldwide, and is particularly popular with
@@ -201,13 +202,15 @@ blocks:
       The pricing information on this page was verified in March 2026. Fees
       may change — check the links below for the latest figures.
 
-      - [Tito pricing](https://ti.to/pricing) — 3% per ticket (2.5% for charity/non-profit/community), capped at €25 per ticket
+      - [Tito pricing](https://ti.to/pricing) — 3% per ticket, capped at €25 per ticket (reduced rates for non-profits and charities)
       - [Tito features](https://ti.to/features) — full feature list
       - [Tito developers](https://ti.to/developers) — API and webhook documentation
       - [Tito Help Center — pricing plans](https://help.tito.io/en/articles/2011311-what-different-pricing-plans-do-you-have)
       - [Tito Help Center — webhooks](https://help.tito.io/en/articles/2011381-webhooks)
       - [Tito Help Center — integrations](https://help.tito.io/en/articles/2006332-integrations)
+      - [Tito Help Center — non-profit rate](https://help.tito.io/en/articles/2519206-how-can-i-apply-for-tito-s-non-profit-rate) — 2.5%, 1%, and 0% charity tiers
       - [Team Tito Limited](https://teamtito.com/about) — company information
+      - [Tito investment announcement](https://blog.tito.io/posts/some-investment-news/) — €1.25M from Lachy Groom (2020)
       - [Chobble Tickets features](/features/)
 
   - type: cta
