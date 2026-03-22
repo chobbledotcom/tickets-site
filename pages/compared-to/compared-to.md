@@ -62,6 +62,9 @@ blocks:
         title: '<a href="/compared-to/swicket/">vs Swicket</a>'
         description: The managed service built on open source alf.io — compare features, pricing model, and data ownership.
       - icon: "hugeicons:ticket-01"
+        title: '<a href="/compared-to/ticketek/">vs Ticketek</a>'
+        description: Australia and New Zealand's dominant ticketing platform — compare fees, data security, and independence.
+      - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/tito/">vs Tito</a>'
         description: Developer-friendly ticketing from Ireland with per-ticket fees — compare pricing, features, and data ownership.
       - icon: "hugeicons:ticket-01"
