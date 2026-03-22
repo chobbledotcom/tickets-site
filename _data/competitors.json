@@ -133,6 +133,15 @@
     "payment_processing_fixed": 0,
     "fee_note": "Ticketek fees vary by event and venue — this estimate uses approximately AU$8 per transaction (converted to GBP) as a typical service and handling fee. Actual fees may be higher or lower. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
   },
+  "tito": {
+    "name": "Tito",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 3,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Tito fees: 3% per ticket (2.5% for charity/non-profit/community), capped at €25 per ticket. Payment processing (e.g. Stripe 1.5% + 20p) is separate. Free events have no fees. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: ti.to/pricing (March 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,
