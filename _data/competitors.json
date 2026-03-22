@@ -124,6 +124,15 @@
     "payment_processing_fixed": 0,
     "fee_note": "EVENTIM.Light fees: 8% per ticket (includes payment processing). Fee can be passed to ticket buyers or absorbed by the organiser. No fixed costs or binding contracts. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: eventim-light.co.uk/pricing (March 2026)."
   },
+  "ticketek": {
+    "name": "Ticketek",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 4,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0,
+    "fee_note": "Ticketek fees vary by event and venue — this estimate uses approximately AU$8 per transaction (converted to GBP) as a typical service and handling fee. Actual fees may be higher or lower. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,

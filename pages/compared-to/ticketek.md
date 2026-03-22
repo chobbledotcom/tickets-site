@@ -1,5 +1,6 @@
 ---
 layout: design-system-base.html
+competitor_key: ticketek
 title: Chobble Tickets vs Ticketek
 meta_title: Independent Alternative to Ticketek | Chobble Tickets
 meta_description: Looking for an independent alternative to Ticketek? Chobble Tickets gives you flat pricing, full data ownership, encryption, and no venue lock-in.
@@ -44,6 +45,9 @@ blocks:
       payment processing fees from Stripe or Square are the only other cost
       — which go directly to the payment processor, not to us.
 
+  - type: include
+    file: price-comparator.html
+
   - type: markdown
     content: |
       ## Feature comparison
@@ -71,9 +75,9 @@ blocks:
       - **Reserved seating with interactive venue maps** — detailed seat
         selection for stadiums, arenas, and theatres with exact views from
         each section
-      - **Exclusive venue contracts** — many major venues (MCG, SCG, Qudos
-        Bank Arena, Sydney Entertainment Centre) are contractually locked to
-        Ticketek, making it the only option
+      - **Exclusive venue contracts** — many major venues (MCG, Qudos
+        Bank Arena, Adelaide Entertainment Centre) are contractually locked
+        to Ticketek, making it the only option
       - **NFC tap-and-go entry** — world-first tap-and-go ticketing using
         NFC technology, awarded global Ticketing Business of the Year
       - **Afterpay integration** — first ticketing platform globally to
@@ -207,7 +211,8 @@ blocks:
 
       Ticketek has received sustained criticism for excessive fees.
       Consumer advocacy group
-      [Choice](https://www.choice.com.au) gave Ticketek its annual Shonky
+      [Choice](https://www.choice.com.au/shonky-awards/hall-of-shame/shonkys-2012/ticketek-and-ticketmaster/)
+      gave Ticketek and Ticketmaster a joint Shonky
       Award in 2012 for excessive booking fees, and the Australian federal
       government has promised legislation to ban the kind of drip pricing
       tactics Ticketek has been accused of.
