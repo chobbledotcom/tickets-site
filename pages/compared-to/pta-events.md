@@ -153,7 +153,8 @@ blocks:
       light and dark themes, markdown event descriptions with image uploads,
       [customisable email templates](/features/email-templates/), an
       [embeddable widget](/features/embeddable-widget/), a [public
-      API](/features/public-api/), [webhooks](/features/webhooks/), [RSS and
+      & admin API](/features/public-api/), [webhooks](/features/webhooks/),
+      [custom questions](/features/custom-questions/), [RSS and
       calendar feeds](/features/rss-and-calendar-feeds/), [Apple & Google
       Wallet](/features/apple-wallet/) support, and a choice of [email
       providers](/features/email-providers/).

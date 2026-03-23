@@ -124,6 +124,8 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** —
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
+      - **[Admin API](/features/public-api/)** — authenticated API with
+        API keys for reading and editing private event and attendee data
       - **[Custom domain](/features/custom-domain/)** — your ticketing lives
         at your own web address, not ti.to
       - **No marketing to your attendees** — your audience stays yours,

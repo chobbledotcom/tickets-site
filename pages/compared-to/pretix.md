@@ -141,8 +141,9 @@ blocks:
       - **Newsletter integration** — MailChimp and Newsletter2Go
         connectors
       - **Zapier integration** — connect to 5,000+ apps
-      - **Custom checkout questions** — free-text, multiple choice, and
-        file uploads per ticket type with statistical overview
+      - **Advanced checkout questions** — free-text, file uploads, and
+        statistical overview per ticket type (Chobble supports
+        multiple-choice custom questions)
       - **Check-in lists with permissions** — multiple independent
         check-in lists per gate or area with custom fields at scan
       - **Digital content delivery** — attach downloadable content to
@@ -198,6 +199,8 @@ blocks:
       | [Event groups](/features/groups/) | Yes | Yes (with series) |
       | Tiered ticket types | Yes (via groups with shared capacity) | Yes (product variations) |
       | [White-label emails](/features/email-providers/) | Yes (own domain + templates) | Partial |
+      | Custom questions | Yes (multiple choice) | Yes (free-text, files, more) |
+      | [Admin API](/features/public-api/) | Yes (API keys) | Yes |
       | Promo codes | No | Yes |
       | Waitlists | No | Yes |
       | [Custom domain](/features/custom-domain/) | Yes | Yes (enterprise) |

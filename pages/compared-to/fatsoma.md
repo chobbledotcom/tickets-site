@@ -73,6 +73,7 @@ blocks:
       - Capacity management to prevent overselling
       - Free event support with no payment setup required
       - Refund processing
+      - Custom questions at checkout
 
       Fatsoma has some features Chobble Tickets doesn't, and vice versa:
 
@@ -99,10 +100,10 @@ blocks:
       - **Ad pixel tracking** — built-in [retargeting and lookalike
         audience](https://ticketing.fatsoma.com/f/ad-pixels) support for
         Facebook and other ad platforms
-      - **Customer questions at checkout** — structured data capture (age,
+      - **Structured customer profiles** — structured data capture (age,
         gender, social handles, phone, location) with [profile
         saving](https://ticketing.fatsoma.com/f/customer-questions) across
-        events
+        events (Chobble supports multiple-choice custom questions per event)
       - **Promo codes** — discount codes, presale codes, and hidden ticket
         access codes
       - **Event discovery platform** — Fatsoma's website and app function
@@ -135,8 +136,12 @@ blocks:
         free
       - **[Open source](/features/open-source/)** — inspect, modify, and
         contribute to the code under AGPLv3
-      - **[Public API](/features/public-api/)** — RESTful JSON API for
-        building custom integrations
+      - **[Custom questions](/features/custom-questions/)** — add
+        multiple-choice questions to events and collect structured answers
+        at checkout, with answers visible across the admin interface, CSV
+        exports, and webhooks
+      - **[Public & admin API](/features/public-api/)** — RESTful JSON API
+        for building custom integrations, plus authenticated admin API
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration
       - **[Event groups with tiered ticketing](/features/groups/)** —

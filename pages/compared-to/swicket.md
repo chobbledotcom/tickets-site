@@ -131,6 +131,8 @@ blocks:
         attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** — per-date
         capacity with calendar picker and holiday blackouts
+      - **[Custom questions](/features/custom-questions/)** — add
+        multiple-choice questions to events and collect answers at checkout
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration for custom integrations
       - **[Custom domain](/features/custom-domain/)** — your ticketing lives

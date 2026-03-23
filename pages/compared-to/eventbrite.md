@@ -51,6 +51,7 @@ blocks:
       - Refund processing from the admin panel
       - Embeddable ticket widgets for your own website
       - API access for custom integrations
+      - Custom questions on the registration form
       - Event grouping into collections for multi-event bookings
       - Multiple ticket types per event — use event groups with shared
         capacity limits to create VIP, general admission, early bird, and
@@ -98,8 +99,9 @@ blocks:
         cross-promotion
       - **Attendee messaging** — send updates and messages to ticket holders
         before and after events
-      - **Custom registration forms** — add custom questions and fields to
-        the checkout process
+      - **Custom registration forms with free-text fields** — add free-text
+        questions and custom field types beyond multiple choice to the
+        checkout process (Chobble supports multiple-choice custom questions)
       - **Nonprofit discount** — 50% off Pro plans and discounted fees on
         donation tickets for qualifying organisations
       - **Sell add-ons** — offer merchandise, parking, meal upgrades, or
@@ -160,6 +162,10 @@ blocks:
         attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** — per-date
         capacity with calendar picker and holiday blackouts
+      - **[Custom questions](/features/custom-questions/)** — add
+        multiple-choice questions to events and collect structured answers
+        at checkout, with answers visible across the admin interface, CSV
+        exports, and webhooks
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration for custom integrations
       - **[Custom email providers](/features/email-providers/)** — use

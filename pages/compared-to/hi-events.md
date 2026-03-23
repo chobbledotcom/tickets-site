@@ -67,6 +67,7 @@ blocks:
       - Apple Pay and Google Pay at checkout (via Stripe)
       - QR code scanning for check-in at the door
       - API access for custom integrations
+      - Custom questions at checkout
       - Capacity management to prevent overselling
       - Email confirmations to attendees after booking
       - Free event support with no payment setup required
@@ -102,8 +103,9 @@ blocks:
         revenue, and check-in rates as they happen
       - **Stripe Connect instant payouts** — receive payments directly to
         your Stripe account with faster payout times
-      - **Custom registration questions** — add custom fields and questions
-        to the checkout form per ticket type
+      - **Custom registration questions with free-text fields** — add
+        free-text, date, and other custom field types beyond multiple choice
+        per ticket type (Chobble supports multiple-choice custom questions)
       - **Bulk messaging by ticket type** — send targeted emails and
         updates to attendees based on which ticket type they bought
       - **Waitlists** — automatic notifications when places open up on
@@ -120,8 +122,6 @@ blocks:
         areas, gates, or purposes
       - **Offline check-in support** — continue scanning tickets when
         internet connectivity is lost
-      - **Custom checkout questions** — collect extra attendee information
-        at purchase with custom form fields per ticket type
       - **Multi-language support** — serve the checkout in multiple
         languages
       - **Hidden/locked tickets** — tickets hidden behind promo codes for
@@ -157,6 +157,8 @@ blocks:
         organise related events into collections for multi-event bookings
         with a single checkout, and use max attendees per group to create
         tiered ticket types (VIP, early bird, etc.) sharing a venue cap
+      - **[Admin API](/features/public-api/)** — authenticated API with
+        API keys for reading and editing private event and attendee data
       - **[Custom email providers](/features/email-providers/)** — use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's

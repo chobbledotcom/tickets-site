@@ -83,10 +83,11 @@ blocks:
       - **[Open Source](/features/open-source/)** - AGPLv3, no hidden proprietary bits
       - **[Encrypted](/features/encrypted/)** - PII encrypted at rest
       - **[QR Code Check-ins](/features/qr-code-check-ins/)** - Scan to verify tickets
-      - **[Public API](/features/public-api/)** - Build your own integrations
+      - **[Public & Admin API](/features/public-api/)** - Build your own integrations
       - **[Webhooks](/features/webhooks/)** - Get notified on every booking
       - **[Custom Domain](/features/custom-domain/)** - Your brand, your URL
-      - **[Apple Wallet](/features/apple-wallet/)** - Tickets in your pocket
+      - **[Apple & Google Wallet](/features/apple-wallet/)** - Tickets in your pocket
+      - **[Custom Questions](/features/custom-questions/)** - Collect answers at checkout
       - **[Event Groups](/features/groups/)** - Multi-event bookings, single checkout
       - **[Email Templates](/features/email-providers/)** - Customise confirmations with Liquid syntax
       - **[All Features](/features/)** - Refunds, CSV exports, activity logs, and more

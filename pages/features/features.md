@@ -61,6 +61,9 @@ blocks:
       - icon: "hugeicons:copy-01"
         title: '<a href="/features/duplicate-events/">Duplicate events</a>'
         description: Clone existing events to quickly set up similar bookings without re-entering all the details.
+      - icon: "hugeicons:help-circle"
+        title: '<a href="/features/custom-questions/">Custom questions</a>'
+        description: Add multiple-choice questions to events and collect structured answers from attendees at checkout, with answers visible across the admin interface.
       - icon: "hugeicons:csv-02"
         title: '<a href="/features/csv-export/">CSV export</a>'
         description: Export attendee lists as CSV with date and check-in status filtering.
@@ -107,14 +110,14 @@ blocks:
         title: '<a href="/features/encrypted/">Encrypted</a>'
         description: All personal data encrypted at rest with hybrid RSA-OAEP + AES-256-GCM.
       - icon: "hugeicons:smart-phone-01"
-        title: '<a href="/features/apple-wallet/">Apple Wallet</a>'
-        description: Attendees can add tickets to Apple Wallet for easy access at the door.
+        title: '<a href="/features/apple-wallet/">Apple & Google Wallet</a>'
+        description: Attendees can add tickets to Apple Wallet or Google Wallet for easy access at the door.
       - icon: "hugeicons:mail-01"
         title: '<a href="/features/email-providers/">Email providers</a>'
         description: Choose from Resend, Postmark, SendGrid, or Mailgun (US and EU) for notifications.
       - icon: "hugeicons:api"
-        title: '<a href="/features/public-api/">Public API</a>'
-        description: RESTful JSON API for building custom integrations and frontends.
+        title: '<a href="/features/public-api/">Public & Admin API</a>'
+        description: RESTful JSON API for building custom integrations, plus authenticated admin API with API keys for reading and editing private data.
       - icon: "hugeicons:notification-03"
         title: '<a href="/features/webhooks/">Webhooks</a>'
         description: Get POST notifications on every booking to integrate with your tools.

@@ -148,8 +148,10 @@ blocks:
         free
       - **[Open source](/features/open-source/)** — inspect, modify, and
         contribute to the code under AGPLv3
-      - **[Public API](/features/public-api/)** — RESTful JSON API for
-        building custom integrations
+      - **[Custom questions](/features/custom-questions/)** — add
+        multiple-choice questions to events and collect answers at checkout
+      - **[Public & admin API](/features/public-api/)** — RESTful JSON API
+        for building custom integrations, plus authenticated admin API
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration
       - **[Event groups with tiered ticketing](/features/groups/)** —
