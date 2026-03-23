@@ -169,9 +169,11 @@ blocks:
         if you want to.
       - **[Custom domains](/features/custom-domain/)**: Your ticketing lives
         at your own web address.
-      - **[Public API](/features/public-api/) and
+      - **[Custom questions](/features/custom-questions/)**: Add
+        multiple-choice questions to events and collect answers at checkout.
+      - **[Public & admin API](/features/public-api/) and
         [webhooks](/features/webhooks/)**: Build custom integrations and
-        automations.
+        automations, with API keys for admin access.
       - **[Apple & Google Wallet](/features/apple-wallet/)**: Attendees can
         add tickets to their phone wallet.
       - **[RSS and calendar feeds](/features/rss-and-calendar-feeds/)**:

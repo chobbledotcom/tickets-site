@@ -101,6 +101,7 @@ blocks:
       - Free event support (no payment setup required for free events)
       - Event series / recurring events
       - Custom branding on your ticket shop
+      - Custom checkout questions
 
       **EVENTIM.Light has features Chobble Tickets doesn't:**
 
@@ -121,8 +122,6 @@ blocks:
         retargeting audiences
       - **Google Analytics integration** — built-in tracking for monitoring
         visitor behaviour on your ticket shop pages
-      - **Additional checkout questions** — embed custom questions in the
-        purchase flow to collect extra information from buyers
       - **EVENTIM brand recognition** — backed by Europe's largest ticketing
         company, which may carry trust with some ticket buyers
       - **Multiple payment methods** — PayPal, PayPal Express, Apple Pay,
@@ -158,8 +157,13 @@ blocks:
       - **[Daily/recurring events with per-date capacity](/features/daily-events/)**
         — calendar picker with holiday blackouts for classes, workshops, and
         regular bookings
-      - **[Public API](/features/public-api/)** — RESTful JSON API for
-        building custom integrations (EVENTIM.Light has no public API)
+      - **[Custom questions](/features/custom-questions/)** — add
+        multiple-choice questions to events and collect structured answers
+        at checkout, with answers visible across the admin interface, CSV
+        exports, and webhooks
+      - **[Public & admin API](/features/public-api/)** — RESTful JSON API
+        for building custom integrations, plus authenticated admin API
+        (EVENTIM.Light has no public API)
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration for real-time integrations
       - **[Custom email providers](/features/email-providers/)** — use Resend,

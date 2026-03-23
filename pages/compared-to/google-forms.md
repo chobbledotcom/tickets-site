@@ -38,8 +38,9 @@ blocks:
         processing fees (because it doesn't process payments)
       - **Everyone knows how to use it** — near-zero learning curve for
         both organisers and respondents
-      - **Unlimited custom questions** — add any type of question: text,
-        multiple choice, dropdowns, grids, file uploads, and more
+      - **Unlimited custom questions with any field type** — add text,
+        dropdowns, grids, file uploads, and more (Chobble supports
+        multiple-choice custom questions)
       - **Google Sheets integration** — responses automatically flow into a
         spreadsheet for analysis, mail merge, and sharing
       - **Conditional logic** — show or hide questions based on previous

@@ -49,6 +49,7 @@ blocks:
       - Capacity management to prevent overselling
       - Free event support with no payment setup required
       - Refund processing from the admin panel
+      - Custom questions at checkout
       - Multiple ticket types per event — both platforms let you create
         VIP, early bird, group, and standard tiers with different prices
 
@@ -86,9 +87,9 @@ blocks:
         (LIVE IT Payments) without setting up your own account
       - **Invite-only events** — restrict bookings by email address or
         domain
-      - **Custom registration questions** — mandatory or optional custom
-        fields including free text, date selection, and single/multiple
-        choice
+      - **Custom registration questions with free-text fields** — free
+        text, date selection, and other field types beyond multiple choice
+        (Chobble supports multiple-choice custom questions)
       - **Facebook Pixel, Google Analytics, and Tag Manager** — built-in
         tracking and conversion attribution
       - **Mailchimp and Slack integrations** — connect to your existing
@@ -119,8 +120,12 @@ blocks:
         attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** — per-date
         capacity with calendar picker and holiday blackouts
-      - **[Public API](/features/public-api/)** — RESTful JSON API for
-        building custom integrations
+      - **[Custom questions](/features/custom-questions/)** — add
+        multiple-choice questions to events and collect structured answers
+        at checkout, with answers visible across the admin interface, CSV
+        exports, and webhooks
+      - **[Public & admin API](/features/public-api/)** — RESTful JSON API
+        for building custom integrations, plus authenticated admin API
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration for custom integrations
       - **[Event groups](/features/groups/)** — organise related events

@@ -1,8 +1,8 @@
 ---
 layout: design-system-base.html
-title: Public API - Chobble Tickets
-meta_title: Public API - Chobble Tickets
-meta_description: RESTful JSON API for building custom integrations, frontends, and automations with Chobble Tickets.
+title: Public & Admin API - Chobble Tickets
+meta_title: Public & Admin API - Chobble Tickets
+meta_description: RESTful JSON API for building custom integrations and frontends, plus an authenticated admin API with API keys for reading and editing private data.
 permalink: /features/public-api/
 eleventyNavigation:
   key: Public API
@@ -12,11 +12,11 @@ blocks:
   - type: hero
     full_width: true
     class: gradient
-    title: Public API
+    title: Public & Admin API
     lead: >-
-      A RESTful JSON API that requires no authentication for public data,
-      so you can build custom frontends, embed event listings, or integrate
-      with your existing tools.
+      A RESTful JSON API with public endpoints for event listings and an
+      authenticated admin API for reading and editing private data, so you
+      can build custom frontends, integrations, and automations.
 
   - type: markdown
     content: |
@@ -29,6 +29,17 @@ blocks:
       This means you can build your own event listing page on your existing
       website, create a custom booking flow, or pull event data into any system
       that can make HTTP requests.
+
+      ## Admin API
+
+      Admins can create API keys to access private data and manage their
+      site programmatically. The admin API lets you view and edit events
+      and attendees, making it possible to build custom dashboards,
+      automate workflows, or integrate with other systems that need access
+      to your ticketing data.
+
+      API keys are stored securely using HMAC hashing (the same approach
+      used for passwords), so the raw key is never stored.
 
       ## Embeddable widget
 

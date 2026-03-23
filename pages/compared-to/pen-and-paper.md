@@ -70,6 +70,8 @@ blocks:
         manage the same event without things getting out of sync
       - **[Apple & Google Wallet](/features/apple-wallet/)** — attendees
         carry their tickets on their phone
+      - **[Custom questions](/features/custom-questions/)** — collect
+        structured answers from attendees at checkout
       - **[CSV export](/features/csv-export/)** — export attendee lists
         when you need a spreadsheet
       - **[Activity logs](/features/activity-logs/)** — see who did what

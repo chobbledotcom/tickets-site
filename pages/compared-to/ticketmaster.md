@@ -140,7 +140,9 @@ blocks:
         organise related events into collections for multi-event bookings
         with a single checkout, and create ticket tiers (VIP, general
         admission, etc.) sharing a venue capacity cap
-      - **[Public API](/features/public-api/)** and
+      - **[Custom questions](/features/custom-questions/)** — add
+        multiple-choice questions to events and collect answers at checkout
+      - **[Public & admin API](/features/public-api/)** and
         **[webhooks](/features/webhooks/)** — build custom integrations
       - **[Custom email providers](/features/email-providers/)** — use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
