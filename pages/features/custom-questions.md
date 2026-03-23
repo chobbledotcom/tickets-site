@@ -32,6 +32,8 @@ blocks:
 
       All questions are required, keeping your data complete and consistent.
 
+  - type: markdown
+    content: |
       ## Answers everywhere you need them
 
       Custom question answers aren't buried in a separate report. They appear
@@ -43,6 +45,8 @@ blocks:
       - **CSV export** — answers included in exported data
       - **Webhooks** — answers sent with webhook payloads for integrations
 
+  - type: markdown
+    content: |
       ## Multiple choice for now
 
       Custom questions currently support multiple-choice answers only. This
