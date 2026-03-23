@@ -102,7 +102,7 @@ blocks:
         description: AGPLv3 licensed with every feature included and no open-core model.
       - icon: "hugeicons:view-off"
         title: '<a href="/features/no-spying/">No spying</a>'
-        description: We don't market to your customers, collect their data, or claim any rights to it. You get a platform, not a walled garden.
+        description: We don't market to your customers, collect their data, or claim any rights to it. Chobble Tickets is a tool for you to use - not us.
       - icon: "hugeicons:lock"
         title: '<a href="/features/encrypted/">Encrypted</a>'
         description: All personal data encrypted at rest with hybrid RSA-OAEP + AES-256-GCM.
