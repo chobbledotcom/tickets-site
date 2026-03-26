@@ -100,6 +100,9 @@ blocks:
       - **Nonprofit features** — verified 501(c)(3) groups get a badge
         and can automatically send tax-deductible receipts with IRS
         language (Team only)
+      - **Free-text custom questions** — add open-ended questions
+        alongside multiple choice on registration forms (Chobble supports
+        multiple-choice custom questions only)
       - **Discount codes** — create percentage or fixed-amount discount
         codes for collections (Pro and Team)
       - **Scheduled access** — set start and end times for collection
@@ -135,17 +138,15 @@ blocks:
         let attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** — per-date
         capacity with calendar picker and holiday blackouts
-      - **[Custom questions](/features/custom-questions/)** — add
-        multiple-choice questions to events and collect structured answers
-        at checkout, with answers visible across the admin interface, CSV
-        exports, and webhooks
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration for custom integrations
       - **[Public API](/features/public-api/)** — authenticated REST API
         with API keys for reading and editing event and attendee data
         (Cheddar Up has no API)
       - **[Embeddable ticket widgets](/features/embeddable-widget/)** —
-        embed ticket sales directly on your own website
+        embed inline ticket sales on your own website (Cheddar Up offers
+        embeddable buttons that link to their hosted page, but not inline
+        checkout)
       - **[Custom email providers](/features/email-providers/)** — use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
@@ -206,12 +207,12 @@ blocks:
     content: |
       ## Who owns Cheddar Up?
 
-      Cheddar Up was founded in 2012 by Nichole Montoya and Molly DiCarlo
-      in Denver, Colorado. The idea came from Montoya's frustration with
-      collecting cash for school events — she ended up raiding her
-      daughter's piggy bank for $4 for pyjama day. After a year of
-      prototyping and a spot at
-      [500 Startups](https://500.co/), Cheddar Up launched as a way for
+      Cheddar Up was co-founded by Nichole Montoya and Molly DiCarlo
+      in Denver, Colorado. The idea started in 2012 when Montoya found
+      herself raiding her daughter's piggy bank for $4 for the school's
+      pyjama day. After a year of prototyping and a spot at
+      [500 Startups](https://500.co/), Cheddar Up
+      [launched in 2013](https://www.cheddarup.com/press/) as a way for
       groups to collect money online.
 
       The company has raised approximately $2.7 million from investors
