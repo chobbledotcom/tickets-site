@@ -39,6 +39,8 @@ blocks:
       [activity log](/features/activity-logs/), so you have a full audit
       trail of programmatic actions alongside manual ones.
 
+  - type: markdown
+    content: |
       ## Authentication
 
       The admin API supports two authentication methods:
@@ -53,6 +55,8 @@ blocks:
       cron jobs, or any system that can make HTTP requests — no browser
       session needed.
 
+  - type: markdown
+    content: |
       ## Every event option
 
       The API exposes the same options as the admin panel: name, capacity,
@@ -67,6 +71,8 @@ blocks:
       You send JSON, you get JSON back. No form encoding or multipart
       uploads to worry about.
 
+  - type: markdown
+    content: |
       ## What's next
 
       Attendee management endpoints are coming next — read, edit, and
