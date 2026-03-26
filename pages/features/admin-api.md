@@ -63,7 +63,7 @@ blocks:
       pricing (fixed or [pay-what-you-want](/features/stripe-and-square/)),
       descriptions, dates, locations,
       [groups](/features/groups/),
-      [custom fields](/features/custom-questions/),
+      contact field selection (email, phone, address),
       [webhook URLs](/features/webhooks/),
       [daily event settings](/features/daily-events/), registration
       deadlines, transferability, hidden events, and more.
