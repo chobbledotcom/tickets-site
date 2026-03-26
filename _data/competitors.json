@@ -142,6 +142,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "Tito fees: 3% per ticket (2.5% for charity/non-profit/community), capped at €25 per ticket. Payment processing (e.g. Stripe 1.5% + 20p) is separate. Free events have no fees. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: ti.to/pricing (March 2026)."
   },
+  "cheddar_up": {
+    "name": "Cheddar Up",
+    "annual_cost": 335,
+    "per_ticket_fee_percent": 3.59,
+    "per_ticket_fee_fixed": 0.47,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0,
+    "fee_note": "Cheddar Up Team plan: $420/year (approx. £335) required for ticketing with QR codes. Convenience fees: 3.59% + $0.59 (approx. 47p) per transaction (includes payment processing via Stripe). Fees can be passed to payers or absorbed by the organiser. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: cheddarup.com/pricing (March 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,
