@@ -200,7 +200,7 @@ blocks:
       | Tiered ticket types | Yes (via groups with shared capacity) | Yes (product variations) |
       | [White-label emails](/features/email-providers/) | Yes (own domain + templates) | Partial |
       | Custom questions | Yes (multiple choice) | Yes (free-text, files, more) |
-      | [Admin API](/features/public-api/) | Yes (API keys) | Yes |
+      | [Admin API](/features/admin-api/) | Yes (API keys) | Yes |
       | Promo codes | No | Yes |
       | Waitlists | No | Yes |
       | [Custom domain](/features/custom-domain/) | Yes | Yes (enterprise) |

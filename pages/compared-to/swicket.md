@@ -172,8 +172,8 @@ blocks:
         [RSS](/features/rss-and-calendar-feeds/)
       - You don't want a platform marketing to your attendees
       - You're a charity or community group (£25/year)
-      - You want [webhooks](/features/webhooks/) or a [public
-        API](/features/public-api/)
+      - You want [webhooks](/features/webhooks/), a [public
+        API](/features/public-api/), or an [admin API](/features/admin-api/)
 
   - type: markdown
     content: |
