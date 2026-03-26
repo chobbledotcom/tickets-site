@@ -141,7 +141,8 @@ blocks:
         at checkout, with answers visible across the admin interface, CSV
         exports, and webhooks
       - **[Public & admin API](/features/public-api/)** — RESTful JSON API
-        for building custom integrations, plus authenticated admin API
+        for building custom integrations, plus [authenticated admin
+        API](/features/admin-api/) with full event CRUD via API keys
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration
       - **[Event groups with tiered ticketing](/features/groups/)** —

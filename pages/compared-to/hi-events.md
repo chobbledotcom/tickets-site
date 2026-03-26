@@ -157,8 +157,8 @@ blocks:
         organise related events into collections for multi-event bookings
         with a single checkout, and use max attendees per group to create
         tiered ticket types (VIP, early bird, etc.) sharing a venue cap
-      - **[Admin API](/features/public-api/)** — authenticated API with
-        API keys for reading and editing private event and attendee data
+      - **[Admin API](/features/admin-api/)** — authenticated API with
+        API keys for full event CRUD and reading private data
       - **[Custom email providers](/features/email-providers/)** — use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's

@@ -173,7 +173,8 @@ blocks:
         multiple-choice questions to events and collect answers at checkout.
       - **[Public & admin API](/features/public-api/) and
         [webhooks](/features/webhooks/)**: Build custom integrations and
-        automations, with API keys for admin access.
+        automations, with [admin API](/features/admin-api/) for full event
+        CRUD via API keys.
       - **[Apple & Google Wallet](/features/apple-wallet/)**: Attendees can
         add tickets to their phone wallet.
       - **[RSS and calendar feeds](/features/rss-and-calendar-feeds/)**:

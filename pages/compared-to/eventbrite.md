@@ -166,6 +166,9 @@ blocks:
         multiple-choice questions to events and collect structured answers
         at checkout, with answers visible across the admin interface, CSV
         exports, and webhooks
+      - **[Admin API](/features/admin-api/)** — full CRUD for events via
+        API keys, so you can automate event management from scripts or
+        external tools
       - **[Webhooks](/features/webhooks/)** — outbound POST on every
         registration for custom integrations
       - **[Custom email providers](/features/email-providers/)** — use

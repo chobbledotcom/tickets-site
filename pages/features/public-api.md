@@ -33,13 +33,13 @@ blocks:
       ## Admin API
 
       Admins can create API keys to access private data and manage their
-      site programmatically. The admin API lets you view and edit events
-      and attendees, making it possible to build custom dashboards,
-      automate workflows, or integrate with other systems that need access
-      to your ticketing data.
+      site programmatically. The [admin API](/features/admin-api/) gives
+      you full CRUD control over events — create, update, list, delete,
+      and toggle active state — with attendee endpoints coming next.
 
       API keys are stored securely using HMAC hashing (the same approach
-      used for passwords), so the raw key is never stored.
+      used for passwords), so the raw key is never stored. See the
+      [dedicated admin API page](/features/admin-api/) for full details.
 
       ## Embeddable widget
 

@@ -101,8 +101,10 @@ blocks:
         of all admin actions
       - **[Daily/recurring events](/features/daily-events/)** — per-date
         capacity with calendar picker
-      - **[Public API](/features/public-api/)** and
-        **[webhooks](/features/webhooks/)** — build custom integrations
+      - **[Public & admin API](/features/public-api/)** and
+        **[webhooks](/features/webhooks/)** — build custom integrations,
+        with [admin API](/features/admin-api/) for full event CRUD via
+        API keys
       - **[Event groups with tiered ticketing](/features/groups/)** —
         organise related events into collections for multi-event bookings,
         and create ticket tiers sharing a venue capacity cap
