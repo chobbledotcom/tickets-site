@@ -26,6 +26,9 @@ blocks:
         title: '<a href="/compared-to/bookitbee/">vs BookitBee</a>'
         description: A UK-focused ticketing platform with per-ticket fees - compare pricing and features.
       - icon: "hugeicons:ticket-01"
+        title: '<a href="/compared-to/cheddar-up/">vs Cheddar Up</a>'
+        description: A US payment collection platform with event ticketing — compare pricing, features, and data ownership.
+      - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/dice/">vs DICE</a>'
         description: Mobile-first music ticketing — compare fees, app requirements, and data ownership.
       - icon: "hugeicons:ticket-01"
