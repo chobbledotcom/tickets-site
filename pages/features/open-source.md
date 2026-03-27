@@ -84,8 +84,8 @@ blocks:
     title: Get started
     description: Sign up for managed hosting at £50/year, or grab the source from GitHub and self-host for free.
     button:
-      text: View on GitHub
-      href: https://github.com/chobbledotcom/tickets
+      text: Sign Up
+      href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
 ---

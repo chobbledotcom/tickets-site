@@ -76,10 +76,10 @@ blocks:
 
   - type: cta
     title: Try it yourself
-    description: The best comparison is trying it - sign up for managed hosting or check out the source code on GitHub and self-host for free.
+    description: The best comparison is trying it - sign up for managed hosting at £50/year or check out the source code on GitHub and self-host for free.
     button:
-      text: View on GitHub
-      href: https://github.com/chobbledotcom/tickets
-      variant: secondary
+      text: Sign Up
+      href: https://tix.chobble.com/ticket/register
+      variant: primary
       size: lg
 ---
