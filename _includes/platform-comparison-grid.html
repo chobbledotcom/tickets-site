@@ -1,0 +1,33 @@
+<div class="prose">
+  <h2>Compare all platforms at once</h2>
+  <p>Drag the sliders to see how much you keep with each platform:</p>
+</div>
+<div class="platform-grid" data-platforms='[
+  {%- assign first = true -%}
+  {%- for item in competitors -%}
+    {%- assign key = item[0] -%}
+    {%- assign p = item[1] -%}
+    {%- if key == "chobble_selfhosted" -%}{%- continue -%}{%- endif -%}
+    {%- unless first -%},{%- endunless -%}{%- assign first = false -%}
+    {"k":"{{ key }}","n":"{{ p.name }}","a":{{ p.annual_cost }},"tp":{{ p.per_ticket_fee_percent }},"tf":{{ p.per_ticket_fee_fixed }},"pp":{{ p.payment_processing_percent }},"pf":{{ p.payment_processing_fixed }},"highlight":{% if key == "chobble" %}true{% else %}false{% endif %}}
+  {%- endfor -%}
+]'>
+  <div class="price-comparator__controls-row">
+    <div class="price-comparator__controls">
+      <label class="price-comparator__label">
+        <span>Tickets per year: <strong data-pg="ticket-count">200</strong></span>
+        <input type="range" data-pg="tickets" min="0" max="10000" value="200" step="10">
+      </label>
+      <label class="price-comparator__label">
+        <span>Price per ticket: <strong>&pound;<span data-pg="ticket-price">10.00</span></strong></span>
+        <input type="range" data-pg="price" min="0" max="200" value="10" step="0.50">
+      </label>
+    </div>
+    <div class="price-comparator__takings">
+      <span class="price-comparator__takings-label">Total takings</span>
+      <span class="price-comparator__takings-value" data-pg="takings">&pound;2,000.00</span>
+    </div>
+  </div>
+  <div class="platform-grid__cards" data-pg="cards"></div>
+</div>
+<script src="/assets/js/platform-comparison-grid.js"></script>
