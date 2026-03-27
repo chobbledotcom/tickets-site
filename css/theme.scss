@@ -162,6 +162,12 @@
   background: rgba(200, 200, 200, 0.1);
 }
 
+table {
+  border-spacing: 1rem 0.5rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
 td,
 th {
   padding: 0.5rem 1rem;
