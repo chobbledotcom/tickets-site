@@ -8,7 +8,8 @@
     var platforms = JSON.parse(el.getAttribute("data-platforms"));
 
     var f = function (n) {
-      return n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      var s = n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      return s.replace(/\.00$/, "");
     };
 
     var q = function (sel) {
@@ -54,6 +55,10 @@
       });
 
       var best = results.length > 0 ? results[0].totalCost : 0;
+      var chobbleCost = 0;
+      for (var c = 0; c < results.length; c++) {
+        if (results[c].highlight) { chobbleCost = results[c].totalCost; break; }
+      }
       var html = "";
       for (var j = 0; j < results.length; j++) {
         var r = results[j];
@@ -76,6 +81,12 @@
         html += '<div class="platform-grid__share-label">You keep</div>';
         html += '<div class="platform-grid__share">\u00A3' + f(r.share) + '</div>';
         html += '<div class="platform-grid__cost">Fees: \u00A3' + f(r.totalCost) + '</div>';
+        if (!r.highlight) {
+          var diff = r.totalCost - chobbleCost;
+          var diffCls = diff > 0.005 ? "platform-grid__vs--more" : diff < -0.005 ? "platform-grid__vs--less" : "";
+          var sign = diff > 0.005 ? "+" : "";
+          html += '<div class="platform-grid__vs ' + diffCls + '">vs Chobble: ' + sign + '\u00A3' + f(diff) + '</div>';
+        }
         if (t > 0) {
           html += '<div class="platform-grid__per-ticket">\u00A3' + f(r.costPerTicket) + '/ticket</div>';
         }
