@@ -50,9 +50,11 @@ blocks:
 
       ## Hosted pricing comparison
 
-      Pretix Hosted charges 2.5% of each ticket's price (excl. taxes), with no
-      monthly or annual fee. That's great if you're selling a handful of tickets,
-      but costs rise quickly at volume.
+      Pretix Hosted charges 2.5% of each ticket's price (excl. taxes), capped
+      at €15 per ticket, with no monthly or annual fee. This is on top of
+      payment provider fees (such as Stripe, PayPal, or Mollie), so the
+      total cost per ticket is higher than 2.5%. That's manageable for a
+      handful of tickets, but costs rise quickly at volume.
 
       Chobble Tickets charges a flat £50/year regardless of how many tickets you
       sell or what you charge for them. No percentage cut, no per-ticket fees.
@@ -179,10 +181,10 @@ blocks:
       | | Chobble Tickets | Pretix |
       |---|---|---|
       | Open source | AGPLv3 (all features) | AGPLv3 (core only) |
-      | Hosted pricing | £50/year flat | 2.5% per ticket |
+      | Hosted pricing | £50/year flat | 2.5% per ticket + payment provider fees |
       | Self-hosted cost | Free (all features) | Free (core) / €499+/yr (enterprise) |
       | Self-hosted infrastructure | Serverless (Bunny.net edge) | Traditional server (Python, PostgreSQL, Redis) |
-      | Per-ticket fees | None | 2.5% (hosted) |
+      | Per-ticket fees | None | 2.5% + payment provider fees (hosted) |
       | Payment providers | [Stripe, Square](/features/stripe-and-square/) | Stripe, PayPal, Mollie, Adyen, 30+ methods |
       | Target audience | Small-medium organisers | Conferences & enterprise |
       | Seating plans | No | Yes (enterprise plugin) |
@@ -238,7 +240,7 @@ blocks:
       The pricing information on this page was verified in March 2026. Fees
       may change — check the links below for the latest figures.
 
-      - [Pretix hosted pricing](https://pretix.eu/about/en/pricing) — 2.5% of ticket price (excl. taxes)
+      - [Pretix hosted pricing](https://pretix.eu/about/en/pricing) — 2.5% of ticket price (excl. taxes), capped at €15/ticket, plus payment provider fees
       - [Pretix self-hosted/enterprise pricing](https://pretix.eu/about/en/pricing/selfhosted) — from €499/year (Enterprise Starter)
       - [Pretix on GitHub](https://github.com/pretix/pretix)
       - [Pretix features — shop](https://pretix.eu/about/en/features/shop) — ticketing and shop features

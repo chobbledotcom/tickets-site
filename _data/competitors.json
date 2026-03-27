@@ -68,7 +68,7 @@
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "Pretix Hosted fees: 2.5% of ticket price excl. taxes (capped at ~£13/ticket). Payment processing (e.g. Stripe 1.5% + 20p) is separate. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
+    "fee_note": "Pretix Hosted fees: 2.5% of ticket price excl. taxes (capped at €15/ticket, approx. £13). Payment provider fees (e.g. Stripe 1.5% + 20p, PayPal, or Mollie) are charged separately on top. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
   },
   "pretix_selfhosted": {
     "name": "Pretix Enterprise",
