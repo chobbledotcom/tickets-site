@@ -233,6 +233,20 @@ th {
   font-variant-numeric: tabular-nums;
 }
 
+.platform-grid__vs {
+  font-size: 0.8em;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+}
+
+.platform-grid__vs--more {
+  color: #ff6b6b;
+}
+
+.platform-grid__vs--less {
+  color: #7ddf7d;
+}
+
 .platform-grid__per-ticket {
   font-size: 0.75em;
   opacity: 0.6;
