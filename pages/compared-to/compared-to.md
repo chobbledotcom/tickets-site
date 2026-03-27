@@ -49,9 +49,6 @@ blocks:
       - icon: "hugeicons:source-code"
         title: '<a href="/compared-to/hi-events/">vs Hi.Events</a>'
         description: Another open source option - an honest comparison of two similar platforms.
-      - icon: "hugeicons:heart-check"
-        title: '<a href="/compared-to/parentkind/">vs Parentkind</a>'
-        description: Popular with schools and PTAs - compare ease of use and cost.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/pta-events/">vs PTA Events</a>'
         description: Purpose-built for school PTAs with fundraising tools - compare features and fees.
