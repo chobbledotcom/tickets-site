@@ -142,8 +142,8 @@ blocks:
         attendees choose their price
       - **[Daily/recurring event support](/features/daily-events/)** — built
         for events that repeat on a schedule with per-date capacity
-      - **[Custom domain support](/features/custom-domain/)** — use your own
-        domain name
+      - **[Custom domain support](/features/custom-domain/)** — get a nice
+        host-provided subdomain instantly, or point your own domain
       - **Self-hosting option** — run the platform on your own servers for
         free
       - **[Open source](/features/open-source/)** — inspect, modify, and

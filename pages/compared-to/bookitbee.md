@@ -137,8 +137,9 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** —
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** — your ticketing lives
-        at your own web address
+      - **[Custom domain](/features/custom-domain/)** — get a nice
+        yourname.tix.chobble.net subdomain instantly, or point your own
+        domain whenever you're ready
       - **[Embeddable widget](/features/embeddable-widget/)** — drop an
         iframe into your website
       - **No marketing to your attendees** — your audience stays yours

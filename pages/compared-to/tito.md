@@ -126,8 +126,9 @@ blocks:
         fully white-label experience
       - **[Admin API](/features/admin-api/)** — authenticated API with
         API keys for full event CRUD and reading private data
-      - **[Custom domain](/features/custom-domain/)** — your ticketing lives
-        at your own web address, not ti.to
+      - **[Custom domain](/features/custom-domain/)** — get a nice
+        yourname.tix.chobble.net subdomain instantly, or point your own
+        domain — either way, not ti.to
       - **No marketing to your attendees** — your audience stays yours,
         with no cross-promotion of competing events
       - **Community Interest Company** — run by a CIC, not a for-profit
