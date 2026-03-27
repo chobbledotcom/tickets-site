@@ -166,3 +166,121 @@ td,
 th {
   padding: 0.5rem 1rem;
 }
+
+/* Platform comparison grid */
+
+.platform-grid {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: var(--color-card-bg, #3d1a4d);
+  border: var(--border, 2px solid #561d68);
+}
+
+.platform-grid__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.platform-grid__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0.75rem;
+  border-radius: 6px;
+  background: var(--body-background-alt, #2f0c3a);
+  border: 2px solid transparent;
+  transition: border-color 0.15s;
+}
+
+.platform-grid__card--highlight {
+  border-color: var(--color-secondary, #ad44ce);
+  background: rgba(173, 68, 206, 0.1);
+}
+
+.platform-grid__card--best .platform-grid__share {
+  color: #7ddf7d;
+}
+
+.platform-grid__name {
+  font-weight: bold;
+  font-size: 0.95em;
+  margin-bottom: 0.5rem;
+  min-height: 2.4em;
+  display: flex;
+  align-items: center;
+}
+
+.platform-grid__share-label {
+  font-size: 0.75em;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.platform-grid__share {
+  font-size: 1.35em;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 0.25rem;
+}
+
+.platform-grid__cost {
+  font-size: 0.8em;
+  opacity: 0.7;
+  font-variant-numeric: tabular-nums;
+}
+
+.platform-grid__per-ticket {
+  font-size: 0.75em;
+  opacity: 0.6;
+  font-variant-numeric: tabular-nums;
+}
+
+.platform-grid__link {
+  margin-top: 0.5rem;
+  font-size: 0.8em;
+}
+
+@media (max-width: 600px) {
+  .platform-grid__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .platform-grid__card {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0.75rem 1rem;
+  }
+
+  .platform-grid__name {
+    margin-bottom: 0;
+    min-height: auto;
+    flex: 1;
+  }
+
+  .platform-grid__share-label {
+    display: none;
+  }
+
+  .platform-grid__share {
+    font-size: 1.1em;
+    margin-bottom: 0;
+    margin-right: 0.75rem;
+  }
+
+  .platform-grid__cost {
+    margin-right: 0.75rem;
+  }
+
+  .platform-grid__per-ticket {
+    display: none;
+  }
+
+  .platform-grid__link {
+    margin-top: 0;
+  }
+}

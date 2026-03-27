@@ -22,6 +22,9 @@ blocks:
 
       Click through to see a detailed comparison with each platform.
     items:
+      - icon: "hugeicons:chart-bar-line"
+        title: '<a href="/compared-to/compare-all/">Compare all platforms</a>'
+        description: See every platform side by side with an interactive fee calculator - adjust sliders to compare them all at once.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/bookitbee/">vs BookitBee</a>'
         description: A UK-focused ticketing platform with per-ticket fees - compare pricing and features.
