@@ -46,7 +46,7 @@ blocks:
     description: Sign up for managed hosting at £50/year, or browse the full technical documentation.
     button:
       text: Sign Up
-      href: https://tix.chobble.com/ticket/join
+      href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
 ---

@@ -97,7 +97,7 @@ blocks:
     reverse: true
     reveal_content: right
     content: |
-      **Managed hosting is just £50/year** with no per-ticket fees, no
+      **[Managed hosting is just £50/year](https://tix.chobble.com/ticket/register)** with no per-ticket fees, no
       percentage cuts, and no surprise charges.
 
       **50% discount** for charities, community groups, artists, and musicians.
@@ -119,10 +119,10 @@ blocks:
 
   - type: cta
     title: Ready to sell tickets?
-    description: Sign up for managed hosting or grab the source code from GitHub and self-host for free.
+    description: Sign up for managed hosting at £50/year, or grab the source code from GitHub and self-host for free.
     button:
-      text: View on GitHub
-      href: https://github.com/chobbledotcom/tickets
-      variant: secondary
+      text: Sign Up
+      href: https://tix.chobble.com/ticket/register
+      variant: primary
       size: lg
 ---
