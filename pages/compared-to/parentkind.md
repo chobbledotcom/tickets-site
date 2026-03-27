@@ -93,7 +93,7 @@ blocks:
 
       ### Customisation
 
-      Chobble Tickets offers custom domains, light and dark themes, markdown
+      Chobble Tickets offers [custom domains](/features/custom-domain/) (with a host-provided subdomain from day one), light and dark themes, markdown
       event descriptions with image uploads, customisable email templates,
       and an embeddable widget for your existing website. PTA Events provides
       a branded microsite for your PTA with advertising and sponsorship
@@ -167,8 +167,9 @@ blocks:
         at rest with hybrid RSA-OAEP + AES-256-GCM, not just in transit.
       - **Self-hosting**: Run the entire platform on your own infrastructure
         if you want to.
-      - **[Custom domains](/features/custom-domain/)**: Your ticketing lives
-        at your own web address.
+      - **[Custom domains](/features/custom-domain/)**: Get a nice
+        host-provided subdomain instantly, or point your own domain
+        whenever you're ready.
       - **[Custom questions](/features/custom-questions/)**: Add
         multiple-choice questions to events and collect answers at checkout.
       - **[Public & admin API](/features/public-api/) and

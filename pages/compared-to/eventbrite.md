@@ -177,8 +177,9 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** —
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** — your ticketing lives
-        at your own web address, not eventbrite.co.uk
+      - **[Custom domain](/features/custom-domain/)** — get a nice
+        yourname.tix.chobble.net subdomain instantly, or point your own
+        domain — either way, not eventbrite.co.uk
       - **No marketing to your attendees** — your audience stays yours,
         with no cross-promotion of competing events
       - **Community Interest Company** — run by a CIC, not a VC-backed

@@ -171,8 +171,9 @@ blocks:
         Postmark, SendGrid, or Mailgun so emails come from your domain
       - **[Customisable email templates](/features/email-templates/)** — full
         control over confirmation emails with Liquid syntax
-      - **[Custom domain](/features/custom-domain/)** — your ticketing lives at
-        your own web address, not eventim-light.co.uk
+      - **[Custom domain](/features/custom-domain/)** — get a nice
+        yourname.tix.chobble.net subdomain instantly, or point your own
+        domain — either way, not eventim-light.co.uk
       - **Automatic refunds** — process refunds directly from the admin panel
       - **[CSV export](/features/csv-export/)** — download attendee lists for
         your own records

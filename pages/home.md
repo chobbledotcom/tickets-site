@@ -85,7 +85,7 @@ blocks:
       - **[QR Code Check-ins](/features/qr-code-check-ins/)** - Scan to verify tickets
       - **[Public & Admin API](/features/public-api/)** - Build your own integrations
       - **[Webhooks](/features/webhooks/)** - Get notified on every booking
-      - **[Custom Domain](/features/custom-domain/)** - Your brand, your URL
+      - **[Custom Domain](/features/custom-domain/)** - Nice URL from day one, own domain when ready
       - **[Apple & Google Wallet](/features/apple-wallet/)** - Tickets in your pocket
       - **[Custom Questions](/features/custom-questions/)** - Collect answers at checkout
       - **[Event Groups](/features/groups/)** - Multi-event bookings, single checkout

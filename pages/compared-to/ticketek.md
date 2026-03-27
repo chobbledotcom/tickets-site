@@ -147,8 +147,8 @@ blocks:
         domain, not the platform's
       - **[Customisable email templates](/features/email-templates/)** —
         full control over confirmation emails with Liquid syntax
-      - **[Custom domain](/features/custom-domain/)** — your ticketing at
-        your own web address
+      - **[Custom domain](/features/custom-domain/)** — get a nice
+        host-provided subdomain instantly, or point your own domain
       - **Apple Pay and Google Pay** — accept wallet payments at checkout
         via Stripe
       - **Transparent pricing** — no hidden fees, no negotiations, no drip

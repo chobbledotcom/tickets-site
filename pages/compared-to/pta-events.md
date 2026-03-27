@@ -149,7 +149,8 @@ blocks:
 
       ### Customisation and integrations
 
-      Chobble Tickets offers [custom domains](/features/custom-domain/),
+      Chobble Tickets offers [custom domains](/features/custom-domain/)
+      (with a host-provided subdomain from day one),
       light and dark themes, markdown event descriptions with image uploads,
       [customisable email templates](/features/email-templates/), an
       [embeddable widget](/features/embeddable-widget/), a [public

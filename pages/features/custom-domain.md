@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Custom Domain - Chobble Tickets
 meta_title: Custom Domain - Chobble Tickets
-meta_description: Use your own domain name for your Chobble Tickets installation so your brand is front and centre.
+meta_description: Get a nice URL instantly with a host-provided subdomain, then upgrade to your own custom domain whenever you're ready.
 permalink: /features/custom-domain/
 eleventyNavigation:
   key: Custom Domain
@@ -14,21 +14,36 @@ blocks:
     class: gradient
     title: Custom domain
     lead: >-
-      Use your own domain name for your ticketing instead of
-      yourname.someplatform.com.
+      Get a nice URL straight away with a host-provided subdomain, then
+      add your own custom domain whenever you're ready.
 
   - type: markdown
     content: |
-      ## Your brand, front and centre
+      ## A nice URL from day one
 
-      Without a custom domain, your ticketing lives on a Bunny CDN URL that
-      doesn't look great. Point your own domain (or subdomain) at your Chobble
-      Tickets installation and your attendees see your brand throughout the
-      entire booking experience.
+      When you sign up for managed hosting, you can choose a
+      host-provided subdomain like **yourname.tix.chobble.net** straight
+      away - no DNS changes needed. It's a permanent, readable URL that
+      replaces the default Bunny CDN address, so you can start sharing
+      your ticketing site immediately.
 
-      This works with both managed hosting and self-hosted setups, and the
-      built-in public website includes light and dark themes that you can
-      customise to match your branding.
+      When you're ready, you can add your own custom domain (like
+      **tickets.yourbusiness.com**) by pointing a CNAME record at your
+      installation. Both addresses work at the same time, along with the
+      original Bunny script URL, so if anything goes wrong with your
+      custom domain your site stays accessible.
+
+      ## Three URLs, all active at once
+
+      - **Host-provided subdomain** - choose a name and get
+        yourname.tix.chobble.net instantly, no configuration required
+      - **Your own custom domain** - point a CNAME record at your
+        installation whenever you're ready to upgrade
+      - **Bunny script URL** - the underlying edge script address always
+        works as a fallback
+
+      All three resolve to the same installation. There's no downtime
+      switching between them and no need to pick just one.
 
       ## Built-in public website
 
@@ -48,8 +63,8 @@ blocks:
       admin panel.
 
   - type: cta
-    title: Use your own domain
-    description: Set up your ticketing under your own brand.
+    title: Get a nice URL today
+    description: Choose your host-provided subdomain and start selling tickets under your own brand.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
