@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Perfect For - Chobble Tickets
 meta_title: Perfect For - Chobble Tickets
-meta_description: Chobble Tickets works for kids parties, music concerts, charity events, political organising, and more.
+meta_description: Chobble Tickets works for charity events, kids parties, music concerts, political organising, workshops, and more.
 permalink: /perfect-for/
 eleventyNavigation:
   key: Perfect For
@@ -19,18 +19,21 @@ blocks:
   - type: features
     header_intro: "## Who uses Chobble Tickets?"
     items:
+      - icon: "hugeicons:heart-check"
+        title: "[Charity events](/perfect-for/charity-events/)"
+        description: 50% discount for charities and community groups, so more of your money goes to the cause instead of the ticketing platform.
       - icon: "hugeicons:balloons"
-        title: Kids parties
+        title: "[Kids parties](/perfect-for/kids-parties/)"
         description: Simple booking for parents where you can collect the info you need, send confirmations, and check guests in at the door.
       - icon: "hugeicons:music-note-01"
-        title: Music concerts
+        title: "[Music concerts](/perfect-for/music-concerts/)"
         description: Sell tickets directly to fans and keep all the revenue, with no platform taking a cut of every sale.
-      - icon: "hugeicons:heart-check"
-        title: Charity events
-        description: 50% discount for charities and community groups, so more of your money goes to the cause instead of the ticketing platform.
       - icon: "hugeicons:megaphone-01"
-        title: Political organising
+        title: "[Political organising](/perfect-for/political-organising/)"
         description: Privacy-first ticketing with encrypted attendee data, so your supporters' information stays protected.
+      - icon: "hugeicons:presentation-podium"
+        title: "[Workshops](/perfect-for/workshops/)"
+        description: Low-cost ticketing for classes and workshops where platform fees eat into margins and attendees shouldn't need to hand over personal data.
 
   - type: cta
     title: Get started
