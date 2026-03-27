@@ -152,7 +152,7 @@
     "fee_note": "Cheddar Up Team plan: $420/year (approx. £335) required for ticketing with QR codes. Convenience fees: 3.59% + $0.59 (approx. 47p) per transaction (includes payment processing via Stripe). Fees can be passed to payers or absorbed by the organiser. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: cheddarup.com/pricing (March 2026)."
   },
   "signupgenius": {
-    "name": "SignUpGenius",
+    "name": "SignUpGenius (+ ads)",
     "annual_cost": 0,
     "per_ticket_fee_percent": 0,
     "per_ticket_fee_fixed": 0.2,
