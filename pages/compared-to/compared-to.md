@@ -65,6 +65,9 @@ blocks:
         title: '<a href="/compared-to/resident-advisor/">vs Resident Advisor</a>'
         description: The electronic music ticketing platform — compare fees, data ownership, and features.
       - icon: "hugeicons:ticket-01"
+        title: '<a href="/compared-to/signupgenius/">vs SignUpGenius</a>'
+        description: The volunteer sign-up sheet tool that added ticketing — compare purpose-built ticketing vs a coordination platform.
+      - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/swicket/">vs Swicket</a>'
         description: The managed service built on open source alf.io — compare features, pricing model, and data ownership.
       - icon: "hugeicons:ticket-01"
