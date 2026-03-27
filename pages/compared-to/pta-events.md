@@ -34,13 +34,6 @@ blocks:
       doesn't have PTA-specific features like prize draws or volunteer
       coordination.
 
-      **Note:** PTA Events is a separate company (PTA Events Limited),
-      not part of [Parentkind](https://www.parentkind.org.uk). If you're
-      comparing Parentkind as a membership organisation (with insurance,
-      advisers, and resources), see our
-      [Chobble Tickets vs Parentkind](/compared-to/parentkind/) comparison
-      instead.
-
       ## Pricing comparison
 
       PTA Events offers two plans:
@@ -203,12 +196,7 @@ blocks:
       PTA. The company is owned by David Cooke, Geraldine Cooke, and James
       Stonor — all individuals, with no corporate shareholders.
 
-      PTA Events and [Parentkind](https://www.parentkind.org.uk) are
-      **separate organisations** with no shared ownership or directors.
-      They have a commercial partnership where Parentkind promotes PTA
-      Events to its member PTAs, but PTA Events is an independently owned
-      private limited company, not a subsidiary or part of the Parentkind
-      charity.
+      PTA Events is an independently owned private limited company.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
@@ -228,7 +216,6 @@ blocks:
       - [PTA Events Premium plan benefits](https://ptaevents.freshdesk.com/support/solutions/articles/17000091633-what-are-the-benefits-of-the-premium-plan-) — Qflow scanning, advertising tools, reduced fees
       - [PTA Events transaction costs](https://ptaevents.freshdesk.com/support/solutions/articles/17000089759-how-much-does-it-cost-to-process-transactions-) — Stripe processing fees
       - [PTA Events overview](https://ptaevents.freshdesk.com/support/solutions/articles/17000138628-overview-of-pta-events) — platform features and history
-      - [PTA Events on Parentkind supplier directory](https://pta.co.uk/supplier/pta-events/) — supplier listing
       - [PTA Events scanning and Qflow](https://ptaevents.freshdesk.com/support/solutions/articles/17000065774-scanning-tickets-vouchers) — Qflow pricing by school size
       - [PTA Events website](https://www.pta-events.co.uk/)
       - [Chobble Tickets features](/features/)

@@ -25,15 +25,6 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "BookitBee fees: from 3.5% per ticket (up to 6.5% for advanced features), min £1, max £19.95 cap, plus Stripe processing (1.5% + 20p). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: bookitbee.com/pricing (March 2026)."
   },
-  "parentkind": {
-    "name": "Parentkind",
-    "annual_cost": 121,
-    "per_ticket_fee_percent": 3.95,
-    "per_ticket_fee_fixed": 0,
-    "payment_processing_percent": 1.5,
-    "payment_processing_fixed": 0.2,
-    "fee_note": "Parentkind costs: from £121/year membership (by Direct Debit, schools ≤100 pupils; £171 for 101+ pupils) + 3.95% platform fee per transaction on the Starter plan (1.5% on Premium at £299.99+VAT/year) + Stripe processing (1.5% + 20p). Chobble Tickets: £50/year flat (£25 for community groups) + Stripe processing (1.5% + 20p). Source: parentkind.org.uk/pta-membership-fee-update (November 2025)."
-  },
   "ticketmaster": {
     "name": "Ticketmaster",
     "annual_cost": 0,
