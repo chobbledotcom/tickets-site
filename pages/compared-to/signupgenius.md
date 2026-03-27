@@ -173,6 +173,8 @@ blocks:
       - **Community Interest Company** — run by a CIC, not a
         private-equity-backed platform
 
+  - type: markdown
+    content: |
       ## The ads problem
 
       The most common complaint about SignUpGenius is the advertising on
@@ -189,6 +191,8 @@ blocks:
       Chobble Tickets has no ads on any plan. Your event pages are always
       clean, professional, and free of third-party tracking.
 
+  - type: markdown
+    content: |
       ## Data ownership
 
       SignUpGenius is a proprietary, closed-source platform. Your
@@ -209,6 +213,8 @@ blocks:
       self-host it and never depend on a third party. A full REST API and
       webhooks give you programmatic access to all your data.
 
+  - type: markdown
+    content: |
       ## When SignUpGenius might be the better choice
 
       - You need sign-up sheets for volunteer coordination, potlucks,
@@ -226,6 +232,8 @@ blocks:
       - You're coordinating group activities that don't involve selling
         tickets (e.g. "who's bringing what to the bake sale")
 
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You need actual event ticketing with QR code check-in and capacity
