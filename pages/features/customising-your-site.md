@@ -25,7 +25,7 @@ blocks:
     items:
       - icon: "hugeicons:globe-02"
         title: '<a href="/features/custom-domain/">Custom domain</a>'
-        description: Use your own domain name so your brand is front and centre.
+        description: Get a host-provided subdomain instantly, then add your own custom domain whenever you're ready.
       - icon: "hugeicons:paint-brush-01"
         title: '<a href="/features/light-and-dark-themes/">Light & dark themes</a>'
         description: Built-in public site with light and dark theme options, so your booking pages match your brand.
