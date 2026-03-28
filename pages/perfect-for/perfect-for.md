@@ -20,19 +20,19 @@ blocks:
     header_intro: "## Who uses Chobble Tickets?"
     items:
       - icon: "hugeicons:heart-check"
-        title: "[Charity events](/perfect-for/charity-events/)"
+        title: '<a href="/perfect-for/charity-events/">Charity events</a>'
         description: 50% discount for charities and community groups, so more of your money goes to the cause instead of the ticketing platform.
       - icon: "hugeicons:balloons"
-        title: "[Kids parties](/perfect-for/kids-parties/)"
+        title: '<a href="/perfect-for/kids-parties/">Kids parties</a>'
         description: Simple booking for parents where you can collect the info you need, send confirmations, and check guests in at the door.
       - icon: "hugeicons:music-note-01"
-        title: "[Music concerts](/perfect-for/music-concerts/)"
+        title: '<a href="/perfect-for/music-concerts/">Music concerts</a>'
         description: Sell tickets directly to fans and keep all the revenue, with no platform taking a cut of every sale.
       - icon: "hugeicons:megaphone-01"
-        title: "[Political organising](/perfect-for/political-organising/)"
+        title: '<a href="/perfect-for/political-organising/">Political organising</a>'
         description: Privacy-first ticketing with encrypted attendee data, so your supporters' information stays protected.
       - icon: "hugeicons:presentation-podium"
-        title: "[Workshops](/perfect-for/workshops/)"
+        title: '<a href="/perfect-for/workshops/">Workshops</a>'
         description: Low-cost ticketing for classes and workshops where platform fees eat into margins and attendees shouldn't need to hand over personal data.
 
   - type: cta
