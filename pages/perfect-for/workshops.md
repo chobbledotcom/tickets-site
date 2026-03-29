@@ -91,6 +91,14 @@ blocks:
       Encrypted at rest. No marketing profiles.
       No third-party data sharing.
 
+  - type: markdown
+    content: |
+      > "From start to finish the first set-up took 20 minutes (including
+      > setting up Stripe), but then I made 3 more tickets for the event that
+      > took under a minute each time."
+      >
+      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+
   - type: features
     section_class: alt
     header_intro: "## Built for small-scale events"

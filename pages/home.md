@@ -65,6 +65,26 @@ blocks:
         title: Self-Hostable
         description: Run it on your own infrastructure or let us host it for you - either way, you're in control.
 
+  - type: markdown
+    section_class: alt
+    content: |
+      ## What customers say
+
+      > "The user journey is incredibly slick, reassuring, easy and fast — you
+      > get them from thinking about it to having gone through and done it
+      > within moments."
+      >
+      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+
+      > "It's a game changer. Saved us a few bob and made it easier for
+      > customers! The QR system is a game changer — no more holding data on
+      > paper, it's now all simple."
+
+      > "It honestly has all the settings and functionality that comes from a
+      > matured system — but it's just getting started!"
+      >
+      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+
   - type: split-full
     full_width: true
     variant: dark-left
