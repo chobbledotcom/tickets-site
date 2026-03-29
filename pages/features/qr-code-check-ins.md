@@ -44,6 +44,25 @@ blocks:
       Read the [tickets documentation](https://chobbledotcom.github.io/tickets/docs/tickets.ts)
       for details on QR code generation and SVG ticket rendering.
 
+  - type: markdown
+    content: |
+      ## What customers say
+
+      > "The QR system is a game changer — no more holding data on paper,
+      > it's now all simple."
+
+      > "It's super quick and efficient, plus it also means that the code is
+      > unique to the user — so you can't have someone share a screenshot of
+      > the QR code and scam free tickets."
+      >
+      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+
+      > "You can have as many people as you want checking people into the
+      > event and busting those queues without stupid excel lists and print
+      > outs."
+      >
+      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+
   - type: cta
     title: Simple check-ins
     description: All you need is a phone camera to scan QR codes at the door.

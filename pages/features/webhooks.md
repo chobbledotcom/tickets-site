@@ -43,6 +43,15 @@ blocks:
       See the [webhooks documentation](https://chobbledotcom.github.io/tickets/docs/webhooks.ts)
       for payload format and delivery details.
 
+  - type: markdown
+    content: |
+      > "Webhooks allow you to set up connections and integrate with other
+      > systems. The system is open source, it promotes integration to other
+      > platforms and software, they're open to collaboration and will share
+      > development and it has so much potential."
+      >
+      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+
   - type: cta
     title: Automate your workflow
     description: Connect Chobble Tickets to your existing tools with webhooks.

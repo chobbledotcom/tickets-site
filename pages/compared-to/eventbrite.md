@@ -30,6 +30,15 @@ blocks:
       sell, so the maths is simple: if you sell more than a few dozen tickets
       a year, Chobble Tickets is cheaper.
 
+  - type: markdown
+    content: |
+      > "Eventbrite takes £275 per event, but Chobble is £87.50. Sure, I have
+      > to pay £50 a year for Chobble, but that cost is absorbed in less than
+      > the first event. It's literally paying for itself on the first event
+      > and still saving nearly £100."
+      >
+      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review), who switched from Eventbrite after 12 years of running ticketed events
+
   - type: include
     file: price-comparator.html
 
@@ -205,6 +214,14 @@ blocks:
       - You're running international events in multiple currencies
       - You want an app marketplace with 100+ integrations
       - You have very low volume and prefer paying per ticket over an annual fee
+
+      > "I've launched my first tickets with it and have already done things
+      > like switch tickets to other time slots, issued refunds, amended the
+      > price, copied tickets over, used the check-in and check-out. It
+      > genuinely feels like it's a like-for-like of my current provider, but
+      > with far more potential and a fraction of the cost."
+      >
+      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
 
       ## When Chobble Tickets is the better choice
 
