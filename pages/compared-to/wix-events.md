@@ -55,10 +55,11 @@ blocks:
       - Capacity management to prevent overselling
       - Free event support with no ticket service fee
       - Multiple ticket types per event with different pricing tiers
+      - Pay-what-you-want ticket pricing
       - Custom questions on the registration form
       - Guest list management with CSV export
       - Recurring event support
-      - Refund processing from the admin panel
+      - Refund processing
 
       **Wix Events has features Chobble Tickets doesn't:**
 
@@ -71,18 +72,26 @@ blocks:
         separate from ticketed events (note: waitlists are only available
         for RSVP events, [not ticketed
         events](https://support.wix.com/en/article/wix-events-request-waitlists-for-ticketed-events))
-      - **Discount and promo codes** — create discount codes for ticket
-        purchases
-      - **Wix mobile app** — manage events, scan tickets, and check in
-        guests from the Wix Owner app on iOS and Android
+      - **[Reserved seating](https://support.wix.com/en/article/wix-events-creating-a-seating-map)**
+        — built-in seating map builder with rows, tables, and general
+        admission areas, letting guests pick their seats at checkout
+      - **Discount and promo codes** — create fixed-amount or percentage
+        discount codes, optionally scoped to specific ticket types or
+        events, with usage limits
+      - **[Dedicated check-in app](https://support.wix.com/en/article/check-in-by-wix-an-overview)**
+        — "Check-in by Wix" app with offline scanning, up to 100 staff per
+        event, and ticket-type filtering (Chobble uses browser-based QR
+        scanning)
       - **Event schedule builder** — create detailed multi-session schedules
-        for conferences and festivals
+        for conferences and festivals, with tags, filters, and a personal
+        agenda feature for guests
       - **Membership-gated events** — restrict event access to site members
-        or specific membership tiers
-      - **Wix Live for online events** — host online meetings (up to 25
-        participants) and webinars (up to 250 participants)
-      - **Built-in email marketing** — send event campaigns and scheduled
-        reminders through Wix's email marketing and automation tools
+        or specific membership tiers via Wix's Pricing Plans
+      - **Online event hosting** — live stream events via Wix Video (up to
+        3 hours) or create Zoom-integrated events with auto-sent join links
+      - **Built-in email marketing** — send event campaigns, scheduled
+        reminders, and automations through Wix's email marketing tools,
+        plus broadcast messages to all guests via the Wix app
       - **Event analytics** — built-in reporting on registrations, sales,
         and attendance
       - **Buy-now-pay-later** — Klarna and Clearpay support via
@@ -91,11 +100,15 @@ blocks:
         when registering
       - **Tax configuration** — configure tax rates and display tax-inclusive
         or exclusive pricing per event
+      - **Per-event currency** — set a different
+        [currency](https://support.wix.com/en/article/wix-events-changing-your-currency)
+        for each event (not dynamic multi-currency display, but useful for
+        international organisers)
       - **Apple Wallet passes** — guests on iOS can add tickets to Apple
         Wallet (Google Wallet requires a third-party app like
         [PassKit](https://integrations.passkit.com/wix/))
       - **Custom registration form field types** — free-text fields,
-        dropdowns, and other field types beyond multiple choice
+        dropdowns, checkboxes, and other field types beyond multiple choice
 
       **Chobble Tickets has features Wix Events doesn't:**
 
@@ -122,8 +135,6 @@ blocks:
       - **[Tiered ticket types via groups](/features/groups/)** — create
         VIP, early bird, and other tiers using event groups with a shared
         capacity cap (max attendees per group)
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
-        attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** — per-date
         capacity with calendar picker and holiday blackouts
       - **[Custom questions](/features/custom-questions/)** — add
@@ -172,7 +183,8 @@ blocks:
         integrated into it
       - You need a full website builder alongside event ticketing
       - You want RSVP events for weddings or parties
-      - You need online event hosting with Wix Live
+      - You need reserved seating with interactive venue maps
+      - You need online event hosting via Wix Video or Zoom
       - You want membership-gated events tied to your Wix site
       - You sell very few tickets and prefer spreading costs monthly
 
@@ -231,6 +243,9 @@ blocks:
       - [Wix Events: Waitlists for RSVP Events](https://support.wix.com/en/article/wix-events-limiting-registration-and-creating-waitlists-for-rsvp-events) — waitlists only for RSVP, not ticketed events
       - [Wix Events: Waitlists for Ticketed Events (Feature Request)](https://support.wix.com/en/article/wix-events-request-waitlists-for-ticketed-events) — not yet available
       - [Wix Events: Creating a Recurring Event](https://support.wix.com/en/article/wix-events-creating-a-recurring-event-2644272) — recurring event support
+      - [Wix Events: Creating a Seating Map](https://support.wix.com/en/article/wix-events-creating-a-seating-map) — reserved seating with interactive maps
+      - [Check-in by Wix](https://support.wix.com/en/article/check-in-by-wix-an-overview) — dedicated check-in app with offline scanning
+      - [Wix Events: Creating Event Coupons](https://support.wix.com/en/article/wix-events-creating-event-coupons) — discount codes for tickets
       - [Wix Events API](https://dev.wix.com/docs/api-reference/business-solutions/events/introduction) — developer API for custom apps
       - [Wix.com on Wikipedia](https://en.wikipedia.org/wiki/Wix.com) — company history and ownership
       - [Chobble Tickets features](/features/)
