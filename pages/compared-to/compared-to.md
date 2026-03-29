@@ -76,6 +76,9 @@ blocks:
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/ticketmaster/">vs Ticketmaster</a>'
         description: Built for massive venues - see when Chobble Tickets is the better choice.
+      - icon: "hugeicons:ticket-01"
+        title: '<a href="/compared-to/wix-events/">vs Wix Events</a>'
+        description: The ticketing add-on inside Wix's website builder — compare fees, platform lock-in, and data ownership.
 
   - type: cta
     title: Try it yourself

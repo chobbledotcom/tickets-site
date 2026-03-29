@@ -151,6 +151,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "SignUpGenius Tickets fees: $0.25 (approx. 20p) per ticket, plus Stripe processing (1.5% + 20p). Payment collection on standard sign-ups is charged separately at 5% + $0.50 per transaction. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: signupgenius.com/pricing (March 2026)."
   },
+  "wix_events": {
+    "name": "Wix Events",
+    "annual_cost": 276,
+    "per_ticket_fee_percent": 2.5,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 2.1,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Wix Events fees: 2.5% ticket service fee per paid ticket, plus Wix Payments processing (2.1% + 20p in the UK). Requires a Wix Business & eCommerce plan (from $29/month, approx. £23/month or £276/year). Free tickets have no service fee. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: support.wix.com (March 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,
