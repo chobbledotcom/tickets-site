@@ -49,15 +49,16 @@ blocks:
       **Both platforms share some features:**
 
       - Online ticket sales with payment processing
+      - Apple Pay and Google Pay at checkout
       - QR code scanning for check-in via mobile app
       - Email confirmations to attendees after booking
       - Capacity management to prevent overselling
       - Free event support with no ticket service fee
       - Multiple ticket types per event with different pricing tiers
-      - Discount and promo codes
       - Custom questions on the registration form
       - Guest list management with CSV export
       - Recurring event support
+      - Refund processing from the admin panel
 
       **Wix Events has features Chobble Tickets doesn't:**
 
@@ -65,10 +66,13 @@ blocks:
         you get a complete website with drag-and-drop design tools, not just
         a ticketing page
       - **RSVP events** — create free RSVP events for weddings, parties, and
-        gatherings with guest tracking and waitlists, separate from ticketed
-        events
-      - **Event discovery on Wix** — events appear on your Wix site with
-        built-in SEO tools and social sharing
+        gatherings with guest tracking and
+        [waitlists](https://support.wix.com/en/article/wix-events-limiting-registration-and-creating-waitlists-for-rsvp-events),
+        separate from ticketed events (note: waitlists are only available
+        for RSVP events, [not ticketed
+        events](https://support.wix.com/en/article/wix-events-request-waitlists-for-ticketed-events))
+      - **Discount and promo codes** — create discount codes for ticket
+        purchases
       - **Wix mobile app** — manage events, scan tickets, and check in
         guests from the Wix Owner app on iOS and Android
       - **Event schedule builder** — create detailed multi-session schedules
@@ -77,10 +81,8 @@ blocks:
         or specific membership tiers
       - **Wix Live for online events** — host online meetings (up to 25
         participants) and webinars (up to 250 participants)
-      - **Built-in email marketing** — send event campaigns and reminders
-        through Wix's email marketing tools
-      - **Social media integration** — share events directly to social
-        platforms from the Wix dashboard
+      - **Built-in email marketing** — send event campaigns and scheduled
+        reminders through Wix's email marketing and automation tools
       - **Event analytics** — built-in reporting on registrations, sales,
         and attendance
       - **Buy-now-pay-later** — Klarna and Clearpay support via
@@ -89,6 +91,11 @@ blocks:
         when registering
       - **Tax configuration** — configure tax rates and display tax-inclusive
         or exclusive pricing per event
+      - **Apple Wallet passes** — guests on iOS can add tickets to Apple
+        Wallet (Google Wallet requires a third-party app like
+        [PassKit](https://integrations.passkit.com/wix/))
+      - **Custom registration form field types** — free-text fields,
+        dropdowns, and other field types beyond multiple choice
 
       **Chobble Tickets has features Wix Events doesn't:**
 
@@ -103,7 +110,11 @@ blocks:
         matter how many you sell
       - **No monthly subscription** — pay once a year, not every month
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
-        attendees can add tickets to their phone wallet
+        attendees can add tickets to both Apple Wallet and Google Wallet
+        natively, without third-party apps
+      - **[Embeddable ticket widget](/features/embeddable-widget/)** — drop
+        an iframe snippet into any external website to show your events
+        inline (Wix Events only works within Wix sites)
       - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
         subscribers get automatic calendar updates
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
@@ -121,9 +132,13 @@ blocks:
         exports, and webhooks
       - **[Admin API](/features/admin-api/)** — full CRUD for events via
         API keys, so you can automate event management from scripts or
-        external tools
-      - **[Webhooks](/features/webhooks/)** — outbound POST on every
-        registration for custom integrations
+        external tools (Wix has a [developer
+        API](https://dev.wix.com/docs/api-reference/business-solutions/events/introduction)
+        but it requires building a custom Wix app)
+      - **[Webhooks](/features/webhooks/)** — simple outbound POST on every
+        registration, configurable per event from the admin panel (Wix
+        webhooks require building a custom app via the Wix developer
+        platform)
       - **[Custom email providers](/features/email-providers/)** — use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
@@ -213,6 +228,10 @@ blocks:
       - [Wix Pricing Plans](https://www.wix.com/plans) — Business & eCommerce from $29/month
       - [Wix Events: Understanding Different Types of Events](https://support.wix.com/en/article/wix-events-understanding-different-types-of-events) — RSVP vs ticketed events
       - [Wix Events: Creating Tickets](https://support.wix.com/en/article/creating-tickets-for-your-event) — ticket creation and fee options
+      - [Wix Events: Waitlists for RSVP Events](https://support.wix.com/en/article/wix-events-limiting-registration-and-creating-waitlists-for-rsvp-events) — waitlists only for RSVP, not ticketed events
+      - [Wix Events: Waitlists for Ticketed Events (Feature Request)](https://support.wix.com/en/article/wix-events-request-waitlists-for-ticketed-events) — not yet available
+      - [Wix Events: Creating a Recurring Event](https://support.wix.com/en/article/wix-events-creating-a-recurring-event-2644272) — recurring event support
+      - [Wix Events API](https://dev.wix.com/docs/api-reference/business-solutions/events/introduction) — developer API for custom apps
       - [Wix.com on Wikipedia](https://en.wikipedia.org/wiki/Wix.com) — company history and ownership
       - [Chobble Tickets features](/features/)
 
