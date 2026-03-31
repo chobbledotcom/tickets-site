@@ -160,6 +160,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "Wix Events fees: 2.5% ticket service fee per paid ticket, plus Wix Payments processing (2.1% + 20p in the UK). Requires a Wix Business & eCommerce plan (from $29/month, approx. £23/month or £276/year). Free tickets have no service fee. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: support.wix.com (March 2026)."
   },
+  "fixr": {
+    "name": "FIXR (Pro)",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 4.99,
+    "per_ticket_fee_fixed": 0.49,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0,
+    "fee_note": "FIXR Pro fees: 4.99% + £0.49 per ticket (£1 minimum) + VAT (includes payment processing). Student & Charity tier: 3.99% + £0.49. Fees are typically paid by the ticket buyer but can be absorbed by the organiser. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: fixr.co/pricing (March 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,
