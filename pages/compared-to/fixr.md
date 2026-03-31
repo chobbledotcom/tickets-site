@@ -30,12 +30,12 @@ blocks:
 
       Chobble Tickets is a flat £50/year (£25 for charities and community
       groups) with no per-ticket fees at all. You only pay Stripe or Square
-      processing fees on top. If you sell more than about 100 tickets at
+      processing fees on top. If you sell more than about 77 tickets at
       £10 each in a year, Chobble Tickets is already cheaper.
 
       On higher-priced tickets the gap grows quickly. A £30 ticket costs
-      £1.99 in FIXR platform fees alone — that's just 26 tickets to break
-      even against a full year of Chobble Tickets.
+      £1.99 in FIXR fees — that's about 38 tickets to break even against
+      a full year of Chobble Tickets.
 
   - type: include
     file: price-comparator.html
@@ -54,6 +54,8 @@ blocks:
       showing competing events next to yours, and no marketing emails sent
       to your attendees by the platform.
 
+  - type: markdown
+    content: |
       ## Payouts
 
       FIXR handles payment processing as part of their booking fee and
@@ -63,6 +65,8 @@ blocks:
       straight to your account with standard processing times. You're
       always in control of your own payment processor account.
 
+  - type: markdown
+    content: |
       ## Feature comparison
 
       **Both platforms share some features:**
@@ -138,6 +142,8 @@ blocks:
         full control over confirmation emails with Liquid syntax
       - **No marketing emails to attendees** — your audience stays yours
 
+  - type: markdown
+    content: |
       ## When FIXR might be better
 
       - You're running student events or university nightlife and want
@@ -164,14 +170,14 @@ blocks:
     content: |
       ## Who owns FIXR?
 
-      FIXR was founded in 2013 by Nick Stone and Edmund Glover (CEO),
-      both former bankers. The company operates as VIPR Digital Limited
+      FIXR operates as VIPR Digital Limited
       ([Companies House #08184813](https://find-and-update.company-information.service.gov.uk/company/08184813)),
-      headquartered at 25-26 Poland Street, London W1F 8QN, with offices
-      in Dubai and Cape Town. FIXR has raised $9 million in funding over
-      five rounds, the latest in May 2021. The platform originally
-      launched in UK universities in 2015 and has since expanded into
-      nightlife, festivals, venues, and attractions.
+      incorporated in August 2012 and headquartered at 25-26 Poland
+      Street, London W1F 8QN. The company was co-founded by Edmund
+      Glover, Nick Stone, Dom Marmont, and Hugh Hudleston (who resigned
+      as director in 2020). FIXR raised £6.5 million in a Series A round
+      in May 2021, and launched in UK universities in 2015 before
+      expanding into nightlife, festivals, venues, and attractions.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
