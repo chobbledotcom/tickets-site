@@ -48,9 +48,6 @@ blocks:
     content: |
       ## What customers say
 
-      > "The QR system is a game changer — no more holding data on paper,
-      > it's now all simple."
-
       > "It's super quick and efficient, plus it also means that the code is
       > unique to the user — so you can't have someone share a screenshot of
       > the QR code and scam free tickets."

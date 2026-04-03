@@ -28,15 +28,8 @@ blocks:
       > get them from thinking about it to having gone through and done it
       > within moments."
 
-      > "It's a game changer. Saved us a few bob and made it easier for
-      > customers! The QR system is a game changer — no more holding data on
-      > paper, it's now all simple."
-
       > "It honestly has all the settings and functionality that comes from a
       > matured system — but it's just getting started!"
-
-      > "The QR system is a game changer — no more holding data on paper,
-      > it's now all simple."
 
       > "It's super quick and efficient, plus it also means that the code is
       > unique to the user — so you can't have someone share a screenshot of
@@ -49,10 +42,10 @@ blocks:
       > "Webhooks allow you to set up connections and integrate with other
       > systems. The system is open source, it promotes integration to other
       > platforms and software, they're open to collaboration and will share
-      > development and it has so much potential."
+      > development and it has sooo much potential."
 
       > "Most stay and plays are somewhere between £1–£4 a ticket. If you add
-      > a ticket fee of £1 to it, then in some cases you're literally doubling
+      > a ticket fee of £1 to it, then in some cases you're literally double
       > the cost to the user — and if they are happy to pay that, then why
       > should it go to the ticket platform? It's better off in your pocket."
 
