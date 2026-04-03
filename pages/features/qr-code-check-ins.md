@@ -54,14 +54,12 @@ blocks:
       > "It's super quick and efficient, plus it also means that the code is
       > unique to the user — so you can't have someone share a screenshot of
       > the QR code and scam free tickets."
-      >
-      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
 
       > "You can have as many people as you want checking people into the
       > event and busting those queues without stupid excel lists and print
       > outs."
-      >
-      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+
+      [Read more reviews &rarr;](/reviews/)
 
   - type: cta
     title: Simple check-ins

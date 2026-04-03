@@ -49,8 +49,8 @@ blocks:
       > systems. The system is open source, it promotes integration to other
       > platforms and software, they're open to collaboration and will share
       > development and it has so much potential."
-      >
-      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+
+      [Read more reviews &rarr;](/reviews/)
 
   - type: cta
     title: Automate your workflow

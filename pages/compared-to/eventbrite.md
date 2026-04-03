@@ -36,8 +36,8 @@ blocks:
       > to pay £50 a year for Chobble, but that cost is absorbed in less than
       > the first event. It's literally paying for itself on the first event
       > and still saving nearly £100."
-      >
-      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review), who switched from Eventbrite after 12 years of running ticketed events
+
+      [Read more reviews &rarr;](/reviews/)
 
   - type: include
     file: price-comparator.html
