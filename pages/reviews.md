@@ -17,17 +17,6 @@ blocks:
 
   - type: markdown
     content: |
-      ## Paul
-
-      [Google review](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8)
-
-      > "So we reached out in regards to the ticket system they offer. I mean
-      > it's a game changer. Saves us a few bob and made it easier for
-      > customers! The QR system is a game changer! No more holding data on
-      > paper, it's now all simple."
-
-  - type: markdown
-    content: |
       ## Elliott's Bouncy Castle Hire
 
       [Read the full review on their website](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
@@ -68,6 +57,17 @@ blocks:
       > to pay £50 a year for Chobble, but that cost is absorbed in less than
       > the first event. It's literally paying for itself on the first event
       > and still saving nearly £100."
+
+  - type: markdown
+    content: |
+      ## Paul
+
+      [Google review](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8)
+
+      > "So we reached out in regards to the ticket system they offer. I mean
+      > it's a game changer. Saves us a few bob and made it easier for
+      > customers! The QR system is a game changer! No more holding data on
+      > paper, it's now all simple."
 
   - type: cta
     title: Try it yourself
