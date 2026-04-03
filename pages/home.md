@@ -74,6 +74,10 @@ blocks:
       > get them from thinking about it to having gone through and done it
       > within moments."
 
+      > "Saves us a few bob and made it easier for customers! The QR system
+      > is a game changer! No more holding data on paper, it's now all
+      > simple."
+
       > "It honestly has all the settings and functionality that comes from a
       > matured system — but it's just getting started!"
 

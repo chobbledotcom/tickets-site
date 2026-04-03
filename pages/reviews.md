@@ -20,9 +20,15 @@ blocks:
       ## Elliott's Bouncy Castle Hire
 
       [Read the full review on their website](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+      — [Google review](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8)
 
       Elliott's Bouncy Castle Hire switched from Eventbrite after 12 years of
       running ticketed events.
+
+      > "So we reached out in regards to the ticket system they offer. I mean
+      > it's a game changer. Saves us a few bob and made it easier for
+      > customers! The QR system is a game changer! No more holding data on
+      > paper, it's now all simple."
 
       > "The user journey is incredibly slick, reassuring, easy and fast — you
       > get them from thinking about it to having gone through and done it
