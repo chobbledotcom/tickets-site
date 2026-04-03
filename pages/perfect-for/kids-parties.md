@@ -52,11 +52,11 @@ blocks:
   - type: markdown
     content: |
       > "Most stay and plays are somewhere between £1–£4 a ticket. If you add
-      > a ticket fee of £1 to it, then in some cases you're literally doubling
+      > a ticket fee of £1 to it, then in some cases you're literally double
       > the cost to the user — and if they are happy to pay that, then why
       > should it go to the ticket platform? It's better off in your pocket."
-      >
-      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+
+      [Read more reviews &rarr;](/reviews/)
 
   - type: cta
     title: Set up your party

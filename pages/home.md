@@ -73,17 +73,19 @@ blocks:
       > "The user journey is incredibly slick, reassuring, easy and fast — you
       > get them from thinking about it to having gone through and done it
       > within moments."
-      >
-      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
 
-      > "It's a game changer. Saved us a few bob and made it easier for
-      > customers! The QR system is a game changer — no more holding data on
-      > paper, it's now all simple."
+      > "Saves us a few bob and made it easier for customers! The QR system
+      > is a game changer! No more holding data on paper, it's now all
+      > simple."
 
       > "It honestly has all the settings and functionality that comes from a
       > matured system — but it's just getting started!"
-      >
-      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+
+      > "It's super quick and efficient, plus it also means that the code is
+      > unique to the user — so you can't have someone share a screenshot of
+      > the QR code and scam free tickets."
+
+      [Read more reviews &rarr;](/reviews/)
 
   - type: split-full
     full_width: true
