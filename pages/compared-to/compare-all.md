@@ -33,6 +33,10 @@ blocks:
 
       Click **Compare** on any platform to see a detailed side-by-side breakdown.
 
+      You can also find Chobble Tickets on
+      [AlternativeTo](https://alternativeto.net/software/chobble-tickets/)
+      to see how it compares with other ticketing software.
+
   - type: cta
     title: Try Chobble Tickets
     description: Sign up for managed hosting at £50/year or self-host for free.
