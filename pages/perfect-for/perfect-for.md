@@ -22,7 +22,7 @@ blocks:
       - icon: "hugeicons:heart-check"
         title: '<a href="/perfect-for/charity-events/">Charity events</a>'
         description: 50% discount for charities and community groups, so more of your money goes to the cause instead of the ticketing platform.
-      - icon: "hugeicons:coin-01"
+      - icon: "hugeicons:money-send-02"
         title: '<a href="/perfect-for/fundraising/">Fundraising & donations</a>'
         description: Collect donations, sell raffle tickets, and take payments for anything that doesn't require physical attendance.
       - icon: "hugeicons:balloons"
