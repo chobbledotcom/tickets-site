@@ -65,10 +65,6 @@ blocks:
       - Apple Pay and Google Pay at checkout (via Stripe)
 
       **Cheddar Up has features Chobble Tickets doesn't:**
-
-      - **General-purpose payment collection** — collect money for dues,
-        fundraisers, merchandise, group gifts, and more beyond just event
-        tickets
       - **In-person point-of-sale** — sell tickets, merchandise, and
         concessions at the door with a Bluetooth card reader ($79) or Tap
         on Mobile (NFC), with all sales synced to your online dashboard
@@ -116,6 +112,10 @@ blocks:
 
       **Chobble Tickets has features Cheddar Up doesn't:**
 
+      - **[Purchasable events](/features/purchasable-events/)** — collect
+        donations, sell raffle tickets, take membership dues, and run any
+        kind of payment collection without an event to attend — not just
+        ticketing
       - **[End-to-end encryption](/features/encrypted/)** — attendee data
         is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not
         just stored in a database
@@ -177,13 +177,10 @@ blocks:
 
       ## When Cheddar Up might be the better choice
 
-      - You need a general-purpose payment collection platform, not just
-        event ticketing
       - You want in-person point-of-sale with a card reader for door
         sales and merchandise
-      - You're a US-based PTA, sports team, or nonprofit that collects
-        dues, fundraiser money, and event payments in one place
-      - You want eCheck/ACH payments for lower transaction fees
+      - You're a US-based PTA, sports team, or nonprofit and need eCheck/ACH
+        payments for lower transaction fees
       - You need recurring payment collection for tuition or membership
         dues
       - You want volunteer sign-up forms alongside your event pages
@@ -191,8 +188,8 @@ blocks:
 
       ## When Chobble Tickets is the better choice
 
-      - You primarily need event ticketing rather than general payment
-        collection
+      - You need event ticketing *and* general payment collection (donations,
+        fundraisers, dues, raffles) in one place
       - You want predictable, flat-rate pricing with no per-ticket fees
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
