@@ -26,6 +26,9 @@ blocks:
       - icon: "hugeicons:credit-card"
         title: '<a href="/features/stripe-and-square/">Stripe & Square</a>'
         description: Accept payments via Stripe or Square with fixed pricing or pay-what-you-want, and automatic refunds.
+      - icon: "hugeicons:ticket-01"
+        title: '<a href="/features/purchasable-events/">Purchasable events</a>'
+        description: Collect donations, sell raffle tickets, and take payments for anything that doesn't require physical attendance.
       - icon: "hugeicons:clock-01"
         title: '<a href="/features/overbooking-prevention/">Overbooking prevention</a>'
         description: 5-minute payment holds reserve places while attendees complete checkout, so you never oversell.

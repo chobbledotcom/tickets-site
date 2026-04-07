@@ -31,6 +31,9 @@ blocks:
       or Square account.
 
       Running a free event? You don't even need to set up payment processing.
+      Running a fundraising collection or raffle? Use
+      [purchasable events](/features/purchasable-events/) to collect
+      donations and payments without a physical event to attend.
     figure_type: code
     figure_filename: Pricing
     figure_code: |
