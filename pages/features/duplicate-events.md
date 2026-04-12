@@ -10,7 +10,7 @@ eleventyNavigation:
   order: 5
 blocks:
   - type: hero
-    full_width: true
+    container_width: full
     class: gradient
     title: Duplicate events
     lead: >-
