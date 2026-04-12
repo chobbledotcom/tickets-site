@@ -34,8 +34,8 @@ blocks:
 
       Admins can create API keys to access private data and manage their
       site programmatically. The [admin API](/features/admin-api/) gives
-      you full CRUD control over events — create, update, list, delete,
-      and toggle active state — with attendee endpoints coming next.
+      you full CRUD control over events - create, update, list, delete,
+      and toggle active state - with attendee endpoints coming next.
 
       API keys are stored securely using HMAC hashing (the same approach
       used for passwords), so the raw key is never stored. See the

@@ -15,7 +15,7 @@ blocks:
     title: Purchasable events
     lead: >-
       Collect donations, sell raffle tickets, take membership dues, or run
-      any kind of payment collection — not just event ticketing.
+      any kind of payment collection - not just event ticketing.
 
   - type: markdown
     content: |
@@ -28,24 +28,24 @@ blocks:
       With purchasable events, you can take payments for things that don't
       involve physical attendance:
 
-      - **Fundraising collections** — accept contributions for a cause with
+      - **Fundraising collections** - accept contributions for a cause with
         a named amount or pay-what-you-want pricing
-      - **Raffle ticket sales** — sell numbered entries online with quantity
+      - **Raffle ticket sales** - sell numbered entries online with quantity
         selection so supporters can buy multiple tickets at once
-      - **Club dues and membership fees** — collect annual or seasonal
+      - **Club dues and membership fees** - collect annual or seasonal
         payments from members without an event to attend
-      - **School and PTA collections** — book fees, trip contributions,
+      - **School and PTA collections** - book fees, trip contributions,
         uniform deposits, and other group payments
-      - **Community group fundraisers** — sports clubs, Scout troops,
+      - **Community group fundraisers** - sports clubs, Scout troops,
         neighbourhood associations, and similar groups collecting money
         online
-      - **Merchandise and goods** — sell items alongside or independently
+      - **Merchandise and goods** - sell items alongside or independently
         from events
 
       ## How it works
 
       When you mark an event as purchase-only, the public listing shows a
-      **Buy now** button instead of the usual **Book now** — a small but
+      **Buy now** button instead of the usual **Book now** - a small but
       important signal that no attendance is involved.
 
       Everything else works exactly as normal: Stripe or Square processes
@@ -69,7 +69,7 @@ blocks:
 
       ## Still encrypted, still yours
 
-      Purchaser data — names, emails, any custom question answers — is
+      Purchaser data - names, emails, any custom question answers - is
       encrypted at rest the same as regular attendee data. No marketing
       to your supporters, no cross-promotion, no platform taking a
       percentage cut beyond the flat annual fee.

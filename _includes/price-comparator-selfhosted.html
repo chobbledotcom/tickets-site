@@ -2,7 +2,7 @@
 {%- assign co = competitors[selfhosted_competitor_key] -%}
 <div class="prose">
   <h2>Self-hosted cost calculator</h2>
-  <p>Compare self-hosting costs — Chobble Tickets has no license fee:</p>
+  <p>Compare self-hosting costs - Chobble Tickets has no license fee:</p>
 </div>
 <div class="price-comparator" data-config='{"chobble":{"n":"{{ ch.name }} (self-hosted)","a":{{ ch.annual_cost }},"tp":{{ ch.per_ticket_fee_percent }},"tf":{{ ch.per_ticket_fee_fixed }},"pp":{{ ch.payment_processing_percent }},"pf":{{ ch.payment_processing_fixed }}},"competitor":{"n":"{{ co.name }}","a":{{ co.annual_cost }},"tp":{{ co.per_ticket_fee_percent }},"tf":{{ co.per_ticket_fee_fixed }},"pp":{{ co.payment_processing_percent }},"pf":{{ co.payment_processing_fixed }}}}'>
   <div class="price-comparator__controls-row">

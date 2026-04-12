@@ -62,139 +62,137 @@ blocks:
       - API access for custom integrations
       - Custom questions on the registration form
       - Event grouping into collections for multi-event bookings
-      - Multiple ticket types per event — use event groups with shared
+      - Multiple ticket types per event - use event groups with shared
         capacity limits to create VIP, general admission, early bird, and
         other tiers with different prices
 
       **Eventbrite has features Chobble Tickets doesn't:**
 
-      - **Event discovery marketplace** — [90 million+ active ticket
+      - **Event discovery marketplace** - [90 million+ active ticket
         buyers](https://www.eventbrite.com/organizer/features/sell-tickets/)
         browsing Eventbrite for events, which can drive organic sales you
         wouldn't get on your own
-      - **Built-in email marketing** — send campaigns to attendees and
+      - **Built-in email marketing** - send campaigns to attendees and
         followers with up to 10,000 daily sends on
         [Pro](https://www.eventbrite.com/organizer/pricing/), including
         audience segmentation and automated event reminders
-      - **Social media ad tools** — launch Facebook and Instagram ad
+      - **Social media ad tools** - launch Facebook and Instagram ad
         campaigns directly from Eventbrite with smart audience targeting
         and [retargeting](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/)
         (Eventbrite claim 6x average ROI on retargeting campaigns)
-      - **Promo codes and discounts** — create early bird pricing, discount
+      - **Promo codes and discounts** - create early bird pricing, discount
         codes, group discounts, and limited-time offers with usage limits
-      - **Hidden ticket tiers** — ticket types hidden behind access codes
+      - **Hidden ticket tiers** - ticket types hidden behind access codes
         or time-limited availability windows for presales and invite-only
         access
-      - **Reserved seating** — design interactive venue maps with assigned
+      - **Reserved seating** - design interactive venue maps with assigned
         seating sections and let attendees pick their seats
-      - **Timed entry ticketing** — time-slot-based ticket distribution for
+      - **Timed entry ticketing** - time-slot-based ticket distribution for
         museums, tours, and similar events
-      - **Waitlists** — built-in waitlists for sold-out events, with
+      - **Waitlists** - built-in waitlists for sold-out events, with
         automatic notifications when places open up
-      - **Scheduled payouts** — receive advance payments on customised
+      - **Scheduled payouts** - receive advance payments on customised
         schedules before your event occurs
-      - **AI-powered event creation** — automated tools for generating event
+      - **AI-powered event creation** - automated tools for generating event
         descriptions and building event pages
-      - **Organiser mobile app** — dedicated iOS/Android app for managing
+      - **Organiser mobile app** - dedicated iOS/Android app for managing
         events, scanning check-ins, and monitoring sales on the go
-      - **App marketplace** — [100+ third-party
+      - **App marketplace** - [100+ third-party
         integrations](https://www.eventbrite.com/apps/) including Zoom,
         Mailchimp, Salesforce, Zapier, HubSpot, and more
-      - **Multi-currency support** — sell in different currencies for
+      - **Multi-currency support** - sell in different currencies for
         international events across 180+ countries
-      - **Virtual event support** — integrations with Zoom, livestreaming
+      - **Virtual event support** - integrations with Zoom, livestreaming
         tools, and online event hosting
-      - **Collections** — group related events for easier discovery and
+      - **Collections** - group related events for easier discovery and
         cross-promotion
-      - **Attendee messaging** — send updates and messages to ticket holders
+      - **Attendee messaging** - send updates and messages to ticket holders
         before and after events
-      - **Custom registration forms with free-text fields** — add free-text
+      - **Custom registration forms with free-text fields** - add free-text
         questions and custom field types beyond multiple choice to the
         checkout process (Chobble supports multiple-choice custom questions)
-      - **Nonprofit discount** — 50% off Pro plans and discounted fees on
+      - **Nonprofit discount** - 50% off Pro plans and discounted fees on
         donation tickets for qualifying organisations
-      - **Sell add-ons** — offer merchandise, parking, meal upgrades, or
+      - **Sell add-ons** - offer merchandise, parking, meal upgrades, or
         other extras alongside tickets
-      - **Tap to Pay** — accept contactless on-site payments at the door
+      - **Tap to Pay** - accept contactless on-site payments at the door
         using NFC
-      - **Tracking pixels and links** — add conversion tracking pixels and
+      - **Tracking pixels and links** - add conversion tracking pixels and
         attribution links across ad platforms
-      - **Sell through social platforms** — sell tickets directly through
+      - **Sell through social platforms** - sell tickets directly through
         Facebook, TikTok, and LinkedIn without attendees leaving those apps
-      - **1:1 onboarding and phone support** — Pro customers get
+      - **1:1 onboarding and phone support** - Pro customers get
         onboarding sessions and 24/7 phone and live chat support
-      - **AI Marketing Copilot** — AI-generated ad copy, email campaigns,
+      - **AI Marketing Copilot** - AI-generated ad copy, email campaigns,
         event images, and descriptions ([Eventbrite
         claim](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/)
         30% faster campaign launches and 17% better CPC)
-      - **Conditional logic questions** — follow-up registration questions
+      - **Conditional logic questions** - follow-up registration questions
         that appear based on previous answers
-      - **Attendee self-service transfers** — attendees can change ticket
+      - **Attendee self-service transfers** - attendees can change ticket
         type, transfer to a different event date, or reassign to another
         person themselves
-      - **Post-event surveys** — built-in NPS scoring and follow-up
+      - **Post-event surveys** - built-in NPS scoring and follow-up
         surveys after events
-      - **Lineup feature** — dedicated artist profiles with auto-syndication
+      - **Lineup feature** - dedicated artist profiles with auto-syndication
         to [Spotify, Bandsintown, and
         Google](https://www.eventbrite.com/blog/press/newsroom/lineup-tool-helps-music-venues-reach-more-fans/)
-      - **"See Who's Going"** — social proof feature showing which friends
+      - **"See Who's Going"** - social proof feature showing which friends
         are attending an event
-      - **Multi-language support** — platform available in [multiple
+      - **Multi-language support** - platform available in [multiple
         languages](https://www.eventbrite.com/help/en-us/articles/364490/how-to-change-the-language-settings-for-your-event/)
         for international audiences
-      - **On-site mobile box office** — sell tickets and merchandise in
+      - **On-site mobile box office** - sell tickets and merchandise in
         person with credit card processing via the organiser app
-      - **Automated pre-event reminders** — series of emails at 48 hours,
+      - **Automated pre-event reminders** - series of emails at 48 hours,
         2 hours, and 10 minutes before the event with "Join Now" links
 
       **Chobble Tickets has features Eventbrite doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
         in a database
-      - **[Open source](/features/open-source/)** — every line of code is
+      - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
-      - **Self-hosting option** — run the platform on your own servers for
+      - **Self-hosting option** - run the platform on your own servers for
         free, with no licence fee
-      - **Flat annual pricing** — £50/year with no per-ticket fees, no
+      - **Flat annual pricing** - £50/year with no per-ticket fees, no
         matter how many you sell
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
-      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
         subscribers get automatic calendar updates
-      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate your
         events to feed readers
-      - **[Tiered ticket types via groups](/features/groups/)** — create
+      - **[Tiered ticket types via groups](/features/groups/)** - create
         VIP, early bird, and other tiers using event groups with a shared
         capacity cap (max attendees per group)
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their own price
-      - **[Daily/recurring events](/features/daily-events/)** — per-date
+      - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
-      - **[Custom questions](/features/custom-questions/)** — add
+      - **[Custom questions](/features/custom-questions/)** - add
         multiple-choice questions to events and collect structured answers
         at checkout, with answers visible across the admin interface, CSV
         exports, and webhooks
-      - **[Admin API](/features/admin-api/)** — full CRUD for events via
+      - **[Admin API](/features/admin-api/)** - full CRUD for events via
         API keys, so you can automate event management from scripts or
         external tools
-      - **[Webhooks](/features/webhooks/)** — outbound POST on every
+      - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for custom integrations
-      - **[Custom email providers](/features/email-providers/)** — use
+      - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
-      - **[Customisable email templates](/features/email-templates/)** —
+      - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** — get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a nice
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain — either way, not eventbrite.co.uk
-      - **No marketing to your attendees** — your audience stays yours,
+        domain - either way, not eventbrite.co.uk
+      - **No marketing to your attendees** - your audience stays yours,
         with no cross-promotion of competing events
-      - **Community Interest Company** — run by a CIC, not a VC-backed
-        startup (Eventbrite was [acquired by Bending
-        Spoons](https://www.ticketnews.com/2026/03/bending-spoons-finalizes-purchase-of-eventbrite/)
-        in March 2026)
+      - **Community Interest Company** - run by a CIC, not a company
+        owned by a private equity firm
 
       ## Data ownership
 
@@ -221,7 +219,7 @@ blocks:
       > genuinely feels like it's a like-for-like of my current provider, but
       > with far more potential and a fraction of the cost."
       >
-      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+      > - [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
 
       ## When Chobble Tickets is the better choice
 
@@ -240,41 +238,32 @@ blocks:
     content: |
       ## Who owns Eventbrite?
 
-      Eventbrite was founded in 2006 by Kevin Hartz, Julia Hartz, and Renaud
-      Visage in San Francisco. It went public on the NYSE in 2018 at a
-      valuation of approximately $1.76 billion.
-
-      In March 2026, Eventbrite was taken private by
+      Eventbrite is owned by
       [Bending Spoons](https://bendingspoons.com), an Italian software
-      company based in Milan, in an all-cash deal worth approximately $500
-      million. Bending Spoons' portfolio also includes Evernote, Meetup,
-      WeTransfer, Vimeo, and StreamYard, among others. Their model involves
-      acquiring established technology brands and restructuring them for
-      profitability.
+      company that buys well-known tech brands like Evernote, Meetup, and
+      WeTransfer. Before that, Eventbrite was a publicly traded company on
+      the New York Stock Exchange.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      - a type of UK company that exists to benefit the community. All of
+      Chobble's code is public, and anyone can run the platform on their
+      own servers.
 
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change — check the links below for the latest figures.
+      may change - check the links below for the latest figures.
 
-      - [Eventbrite pricing for organisers](https://www.eventbrite.co.uk/organizer/pricing/) — 6.95% + £0.59 per ticket (UK)
+      - [Eventbrite pricing for organisers](https://www.eventbrite.co.uk/organizer/pricing/) - 6.95% + £0.59 per ticket (UK)
       - [Eventbrite ticketing fees (Help Centre)](https://www.eventbrite.co.uk/help/en-gb/articles/755615/how-much-does-it-cost-for-organizers-to-use-eventbrite/)
       - [Eventbrite all features](https://www.eventbrite.com/l/all-features/)
-      - [Eventbrite features — sell tickets](https://www.eventbrite.com/organizer/features/sell-tickets/)
-      - [Eventbrite AI-powered marketing tools](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/) — 17% CPC and 30% campaign launch claims
-      - [Eventbrite retargeting ROI](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/) — 6x average ROI claim
-      - [Bending Spoons acquisition (March 2026)](https://www.ticketnews.com/2026/03/bending-spoons-finalizes-purchase-of-eventbrite/)
+      - [Eventbrite features - sell tickets](https://www.eventbrite.com/organizer/features/sell-tickets/)
+      - [Eventbrite AI-powered marketing tools](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/) - 17% CPC and 30% campaign launch claims
+      - [Eventbrite retargeting ROI](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/) - 6x average ROI claim
       - [Chobble Tickets features](/features/)
-      - [Eventbrite acquisition announcement](https://investor.eventbrite.com/press-releases/press-releases-details/2025/Eventbrite-Enters-into-Definitive-Agreement-to-Be-Acquired-by-Bending-Spoons-for-Roughly-500-Million-to-Accelerate-Eventbrites-Next-Phase-of-Growth/) — Bending Spoons acquisition details
 
   - type: cta
     title: Try Chobble Tickets

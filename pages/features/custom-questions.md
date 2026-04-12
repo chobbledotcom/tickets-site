@@ -39,11 +39,11 @@ blocks:
       Custom question answers aren't buried in a separate report. They appear
       throughout the admin interface:
 
-      - **Event view** — see answers when viewing an event's attendees
-      - **Groups view** — answers visible in group booking summaries
-      - **Attendees table** — answers appear as columns in the attendee list
-      - **CSV export** — answers included in exported data
-      - **Webhooks** — answers sent with webhook payloads for integrations
+      - **Event view** - see answers when viewing an event's attendees
+      - **Groups view** - answers visible in group booking summaries
+      - **Attendees table** - answers appear as columns in the attendee list
+      - **CSV export** - answers included in exported data
+      - **Webhooks** - answers sent with webhook payloads for integrations
 
   - type: markdown
     content: |

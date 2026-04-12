@@ -49,10 +49,10 @@ blocks:
     content: |
       ## References
 
-      - [Resend](https://resend.com/) — email API for developers
-      - [Postmark](https://postmarkapp.com/) — transactional email service
-      - [SendGrid](https://sendgrid.com/) — email delivery platform
-      - [Mailgun](https://www.mailgun.com/) — email API service (US and EU regions)
+      - [Resend](https://resend.com/) - email API for developers
+      - [Postmark](https://postmarkapp.com/) - transactional email service
+      - [SendGrid](https://sendgrid.com/) - email delivery platform
+      - [Mailgun](https://www.mailgun.com/) - email API service (US and EU regions)
 
   - type: cta
     title: Better email delivery

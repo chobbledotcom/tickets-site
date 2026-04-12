@@ -39,16 +39,16 @@ blocks:
 
       Use **max attendees per group** to set a shared capacity cap across
       multiple events in a group. This lets you create tiered ticket types
-      that share the same stock — for example:
+      that share the same stock - for example:
 
-      - **VIP + General Admission** — create two events in a group with a
+      - **VIP + General Admission** - create two events in a group with a
         shared cap of 200. Set the VIP event to a max of 50 and price it
         higher. Once 200 total attendees are reached across both tiers,
         both stop selling.
-      - **Early Bird + Standard** — offer a lower-priced early bird event
+      - **Early Bird + Standard** - offer a lower-priced early bird event
         with a small cap, then a standard-priced event sharing the same
         overall venue capacity.
-      - **Adult + Child + Concession** — multiple price points for the
+      - **Adult + Child + Concession** - multiple price points for the
         same event, all counting against one venue limit.
 
       Each event in the group can have its own price, description, and

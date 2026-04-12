@@ -51,7 +51,7 @@ blocks:
 
       You are the data controller. We are just providing the infrastructure
       for you to run your events. If you leave Chobble, your customer
-      relationships leave with you — because they were never ours to begin
+      relationships leave with you - because they were never ours to begin
       with.
 
       ## A different model

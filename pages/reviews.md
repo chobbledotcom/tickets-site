@@ -24,15 +24,15 @@ blocks:
       Elliott's Bouncy Castle Hire switched from Eventbrite after 12 years of
       running ticketed events.
 
-      > "The user journey is incredibly slick, reassuring, easy and fast — you
+      > "The user journey is incredibly slick, reassuring, easy and fast - you
       > get them from thinking about it to having gone through and done it
       > within moments."
 
       > "It honestly has all the settings and functionality that comes from a
-      > matured system — but it's just getting started!"
+      > matured system - but it's just getting started!"
 
       > "It's super quick and efficient, plus it also means that the code is
-      > unique to the user — so you can't have someone share a screenshot of
+      > unique to the user - so you can't have someone share a screenshot of
       > the QR code and scam free tickets."
 
       > "You can have as many people as you want checking people into the
@@ -46,7 +46,7 @@ blocks:
 
       > "Most stay and plays are somewhere between £1–£4 a ticket. If you add
       > a ticket fee of £1 to it, then in some cases you're literally double
-      > the cost to the user — and if they are happy to pay that, then why
+      > the cost to the user - and if they are happy to pay that, then why
       > should it go to the ticket platform? It's better off in your pocket."
 
       > "From start to finish the first set-up took 20 minutes (including

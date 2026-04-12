@@ -73,7 +73,7 @@ blocks:
       - Free event support with no payment setup required
       - Refund processing
       - Embeddable ticket widgets for your own website
-      - Multiple ticket types per event with shared capacity limits —
+      - Multiple ticket types per event with shared capacity limits -
         both platforms support VIP, early bird, and tiered pricing with
         a shared attendee cap across ticket types
 
@@ -82,103 +82,103 @@ blocks:
 
       **Hi.Events has features Chobble Tickets doesn't:**
 
-      - **Drag-and-drop event page builder** — a visual editor for designing
+      - **Drag-and-drop event page builder** - a visual editor for designing
         event pages with flexible layouts, images, and custom sections
-      - **Promo codes and discount management** — create percentage and
+      - **Promo codes and discount management** - create percentage and
         fixed-amount discount codes with usage limits, expiry dates, and
         codes tied to specific ticket types
-      - **Affiliate and referral tracking** — track which promoters and
+      - **Affiliate and referral tracking** - track which promoters and
         links are driving ticket sales with commission tracking
-      - **Product add-ons** — sell merchandise, parking, meal upgrades, or
+      - **Product add-ons** - sell merchandise, parking, meal upgrades, or
         other extras alongside tickets
-      - **Custom PDF ticket designs** — design your own ticket layouts with
+      - **Custom PDF ticket designs** - design your own ticket layouts with
         branding, logos, and custom fields
-      - **Multi-currency support** — sell in different currencies for
+      - **Multi-currency support** - sell in different currencies for
         international events
-      - **Donation and tiered ticket types** — offer donation options and
+      - **Donation and tiered ticket types** - offer donation options and
         flexible pricing tiers beyond fixed and pay-what-you-want
-      - **Tax and custom fee management** — configure VAT rates, add service
+      - **Tax and custom fee management** - configure VAT rates, add service
         fees, and manage tax reporting per event
-      - **Real-time sales dashboard** — live analytics showing ticket sales,
+      - **Real-time sales dashboard** - live analytics showing ticket sales,
         revenue, and check-in rates as they happen
-      - **Stripe Connect instant payouts** — receive payments directly to
+      - **Stripe Connect instant payouts** - receive payments directly to
         your Stripe account with faster payout times
-      - **Custom registration questions with free-text fields** — add
+      - **Custom registration questions with free-text fields** - add
         free-text, date, and other custom field types beyond multiple choice
         per ticket type (Chobble supports multiple-choice custom questions)
-      - **Bulk messaging by ticket type** — send targeted emails and
+      - **Bulk messaging by ticket type** - send targeted emails and
         updates to attendees based on which ticket type they bought
-      - **Waitlists** — automatic notifications when places open up on
+      - **Waitlists** - automatic notifications when places open up on
         sold-out events
-      - **Ticket transfers** — allow attendees to transfer their tickets to
+      - **Ticket transfers** - allow attendees to transfer their tickets to
         someone else
-      - **Automatic invoicing** — generate invoices for orders
+      - **Automatic invoicing** - generate invoices for orders
         automatically
-      - **XLSX export** — export attendee and order data in Excel format
+      - **XLSX export** - export attendee and order data in Excel format
         (Chobble supports CSV only)
-      - **Branded organiser homepage** — a page showcasing all your events
+      - **Branded organiser homepage** - a page showcasing all your events
         under your organiser profile
-      - **Multiple check-in lists** — create separate lists for different
+      - **Multiple check-in lists** - create separate lists for different
         areas, gates, or purposes
-      - **Offline check-in support** — continue scanning tickets when
+      - **Offline check-in support** - continue scanning tickets when
         internet connectivity is lost
-      - **Multi-language support** — serve the checkout in multiple
+      - **Multi-language support** - serve the checkout in multiple
         languages
-      - **Hidden/locked tickets** — tickets hidden behind promo codes for
+      - **Hidden/locked tickets** - tickets hidden behind promo codes for
         presales, VIP access, or invite-only events
-      - **Abandoned cart handling** — detect and act on incomplete
+      - **Abandoned cart handling** - detect and act on incomplete
         checkouts to recover lost sales
-      - **Event badge designer** — a browser-based badge design tool for
+      - **Event badge designer** - a browser-based badge design tool for
         printing attendee badges at events
-      - **SEO tools** — per-event custom meta titles, descriptions, Open
+      - **SEO tools** - per-event custom meta titles, descriptions, Open
         Graph images, and XML sitemap generation
-      - **Offline payment methods** — record and track cash, bank
+      - **Offline payment methods** - record and track cash, bank
         transfer, or other non-digital payments
-      - **Marketing opt-in** — checkbox during checkout for attendees to
+      - **Marketing opt-in** - checkbox during checkout for attendees to
         opt into marketing communications
 
       **Chobble Tickets has features Hi.Events doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
         in a database
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
-      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
         subscribers get automatic calendar updates
-      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate your
         events to feed readers
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their price
-      - **[Daily/recurring event support](/features/daily-events/)** — built
+      - **[Daily/recurring event support](/features/daily-events/)** - built
         specifically for events that repeat on a schedule with per-date
         capacity
-      - **[Event groups with shared capacity](/features/groups/)** —
+      - **[Event groups with shared capacity](/features/groups/)** -
         organise related events into collections for multi-event bookings
         with a single checkout, and use max attendees per group to create
         tiered ticket types (VIP, early bird, etc.) sharing a venue cap
-      - **[Admin API](/features/admin-api/)** — authenticated API with
+      - **[Admin API](/features/admin-api/)** - authenticated API with
         API keys for full event CRUD and reading private data
-      - **[Custom email providers](/features/email-providers/)** — use
+      - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
-      - **[Customisable email templates](/features/email-templates/)** —
+      - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
       - **[Markdown event descriptions](/features/markdown-descriptions/)**
-        — write content in markdown with header image uploads
-      - **[Custom domain support](/features/custom-domain/)** — use your own
+        - write content in markdown with header image uploads
+      - **[Custom domain support](/features/custom-domain/)** - use your own
         domain name
-      - **[Activity logs](/features/activity-logs/)** — full audit trail of
+      - **[Activity logs](/features/activity-logs/)** - full audit trail of
         all admin actions and booking activity
-      - **[Square payment support](/features/stripe-and-square/)** —
+      - **[Square payment support](/features/stripe-and-square/)** -
         Chobble supports both Stripe and Square; Hi.Events is Stripe-only
-      - **No branding requirements** — Chobble's AGPLv3 licence has no
+      - **No branding requirements** - Chobble's AGPLv3 licence has no
         "Powered by" requirement; Hi.Events requires visible "Powered by
         Hi.Events" branding unless you buy a $499+ commercial licence
-      - **Serverless edge deployment** — Chobble compiles to a single JS
+      - **Serverless edge deployment** - Chobble compiles to a single JS
         file that runs on Bunny.net edge scripts with a Bunny.net edge
-        database — no server to manage, no scaling to configure, no
+        database - no server to manage, no scaling to configure, no
         database replication to maintain. Hi.Events needs a traditional
         server (2 CPU, 4GB RAM minimum) that you're responsible for
         keeping online, updated, and backed up
@@ -195,7 +195,7 @@ blocks:
       4GB RAM.
 
       **Chobble Tickets** is built on Deno and compiles to a single
-      JavaScript file that runs as an edge script on Bunny.net — no
+      JavaScript file that runs as an edge script on Bunny.net - no
       traditional server required. It uses a Bunny.net edge database, so
       there's no server to manage, no scaling to worry about, and no
       database replication to configure. It prioritises simplicity, privacy
@@ -213,13 +213,13 @@ blocks:
       version requires a visible "Powered by Hi.Events" link. To remove
       branding, you need a commercial licence:
 
-      - **Single Domain** — $499 (~£420) for one production domain
-      - **Multi-Tenant (SaaS)** — available at higher tiers for running your
+      - **Single Domain** - $499 (~£420) for one production domain
+      - **Multi-Tenant (SaaS)** - available at higher tiers for running your
         own ticketing platform (contact Hi.Events for pricing)
 
       **Chobble Tickets** is open source with no branding requirements and no
       commercial licence needed. Self-host for free, modify as you like, and
-      use your own domain — no extra cost.
+      use your own domain - no extra cost.
 
   - type: include
     file: price-comparator-selfhosted.html
@@ -229,8 +229,8 @@ blocks:
       The self-hosted comparison above uses the Hi.Events Single Domain
       commercial licence ($499/~£420) since most organisations will want to
       remove the "Powered by" branding. Note that the Single Domain licence
-      is perpetual for the covered version — you don't pay annually. If
-      you're happy keeping the branding, Hi.Events self-hosted is free —
+      is perpetual for the covered version - you don't pay annually. If
+      you're happy keeping the branding, Hi.Events self-hosted is free -
       just like Chobble Tickets.
 
       ## When Hi.Events might be better
@@ -273,7 +273,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a UK legal structure that locks the company's assets for
+      (CIC) - a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3 with
       no attribution requirement, and the platform can be self-hosted by
       anyone without depending on Chobble as a company.
@@ -283,14 +283,14 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change — check the links below for the latest figures.
+      may change - check the links below for the latest figures.
 
-      - [Hi.Events pricing](https://hi.events/pricing) — 0.75% + 40¢ per ticket (cloud)
-      - [Hi.Events open source / self-hosted](https://hi.events/open-source-event-ticketing) — $499 single domain commercial licence
+      - [Hi.Events pricing](https://hi.events/pricing) - 0.75% + 40¢ per ticket (cloud)
+      - [Hi.Events open source / self-hosted](https://hi.events/open-source-event-ticketing) - $499 single domain commercial licence
       - [Hi.Events Single Domain licence terms](https://hi.events/single-domain-licence)
       - [Hi.Events on GitHub](https://github.com/HiEventsDev/Hi.Events)
       - [Chobble Tickets features](/features/)
-      - [Hi.Events on Hacker News](https://news.ycombinator.com/item?id=40897962) — Show HN launch discussion
+      - [Hi.Events on Hacker News](https://news.ycombinator.com/item?id=40897962) - Show HN launch discussion
 
   - type: cta
     title: Try Chobble Tickets

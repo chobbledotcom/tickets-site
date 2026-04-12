@@ -28,7 +28,7 @@ blocks:
       organisations that want control over their ticketing.
 
       If you're selling tickets at the MCG or Qudos Bank Arena, Ticketek is
-      probably unavoidable — many large venues are contractually locked to
+      probably unavoidable - many large venues are contractually locked to
       them. But if you're running a 200-capacity gig, a charity trivia night,
       or a community workshop, you don't need (or want) Ticketek.
 
@@ -43,7 +43,7 @@ blocks:
 
       Chobble Tickets charges a flat £50/year (approximately AU$95), and
       payment processing fees from Stripe or Square are the only other cost
-      — which go directly to the payment processor, not to us.
+      - which go directly to the payment processor, not to us.
 
   - type: include
     file: price-comparator.html
@@ -67,101 +67,101 @@ blocks:
 
       **Ticketek has features Chobble Tickets doesn't:**
 
-      - **Massive distribution network** — Ticketek sells over 23 million
+      - **Massive distribution network** - Ticketek sells over 23 million
         tickets to more than 20,000 events annually across Australia, New
         Zealand, and Southeast Asia through its website, mobile app, phone
         sales, and
         [retail outlet network](https://premier.ticketek.com.au/content/aboutus/aboutus.aspx)
-      - **Reserved seating with interactive venue maps** — detailed seat
+      - **Reserved seating with interactive venue maps** - detailed seat
         selection for stadiums, arenas, and theatres with exact views from
         each section
-      - **Exclusive venue contracts** — many major venues (MCG, Qudos
+      - **Exclusive venue contracts** - many major venues (MCG, Qudos
         Bank Arena, Adelaide Entertainment Centre) are contractually locked
         to Ticketek, making it the only option
-      - **NFC tap-and-go entry** — world-first tap-and-go ticketing using
+      - **NFC tap-and-go entry** - world-first tap-and-go ticketing using
         NFC technology, awarded global Ticketing Business of the Year
-      - **Afterpay integration** — first ticketing platform globally to
+      - **Afterpay integration** - first ticketing platform globally to
         offer buy-now-pay-later for ticket purchases
-      - **Dynamic pricing** — automatically adjust ticket prices based on
+      - **Dynamic pricing** - automatically adjust ticket prices based on
         demand, similar to airline pricing
-      - **Retail outlet network** — physical ticket sales through outlets at
+      - **Retail outlet network** - physical ticket sales through outlets at
         major shopping centres, newsagencies, and other locations
-      - **Phone and call centre sales** — buy tickets over the phone through
+      - **Phone and call centre sales** - buy tickets over the phone through
         a dedicated call centre
-      - **Ticket resale marketplace** — official resale platform for
+      - **Ticket resale marketplace** - official resale platform for
         sold-out events
-      - **Accessible seating management** — dedicated wheelchair accessible
+      - **Accessible seating management** - dedicated wheelchair accessible
         spaces, hearing impaired tickets with hearing loop support, sign
         language interpreter tickets, and Companion Card support
-      - **Large-scale analytics and data** — TEG's data analytics division
+      - **Large-scale analytics and data** - TEG's data analytics division
         provides audience demographics, sales-by-location reporting, and
         enterprise-level insights
-      - **Multi-event season passes** — manage season tickets, memberships,
+      - **Multi-event season passes** - manage season tickets, memberships,
         and recurring subscriptions for sports and entertainment
-      - **Box office POS** — sell tickets at physical box offices and
+      - **Box office POS** - sell tickets at physical box offices and
         on-site locations
-      - **Mobile app** — dedicated consumer app for ticket management,
+      - **Mobile app** - dedicated consumer app for ticket management,
         browsing events, and receiving notifications
-      - **TEG Live integration** — connections to TEG's broader live
+      - **TEG Live integration** - connections to TEG's broader live
         entertainment ecosystem including concert promotion, venue
         operations, and touring
 
       **Chobble Tickets has features Ticketek doesn't offer small
       organisers:**
 
-      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM (notable given
         Ticketek's
         [2024 data breach](https://ia.acs.org.au/article/2024/30m-users--data-leaked-after-ticketek-breach.html)
         that exposed up to 30 million users' data)
-      - **[Open source](/features/open-source/)** — every line of code is
+      - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3
-      - **Self-hosting option** — run the platform on your own servers for
+      - **Self-hosting option** - run the platform on your own servers for
         free
-      - **Flat annual pricing** — £50/year with no per-ticket fees, compared
+      - **Flat annual pricing** - £50/year with no per-ticket fees, compared
         to Ticketek's ~$7–8 service fee per transaction
-      - **Full data ownership** — you control your attendee data, not
+      - **Full data ownership** - you control your attendee data, not
         Ticketek
-      - **No exclusive contracts** — use Chobble Tickets alongside any other
+      - **No exclusive contracts** - use Chobble Tickets alongside any other
         platform
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
       - **[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)**
-        — subscribers get automatic updates
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+        - subscribers get automatic updates
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their own price
-      - **[Daily/recurring events](/features/daily-events/)** — per-date
+      - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker
-      - **[Event groups with tiered ticketing](/features/groups/)** —
+      - **[Event groups with tiered ticketing](/features/groups/)** -
         organise related events into collections for multi-event bookings
         with a single checkout, and create ticket tiers (VIP, general
         admission, etc.) sharing a venue capacity cap
-      - **[Custom questions](/features/custom-questions/)** — add
+      - **[Custom questions](/features/custom-questions/)** - add
         multiple-choice questions to events and collect answers at checkout
       - **[Public & admin API](/features/public-api/)** and
-        **[webhooks](/features/webhooks/)** — build custom integrations,
+        **[webhooks](/features/webhooks/)** - build custom integrations,
         with [admin API](/features/admin-api/) for full event CRUD via
         API keys
-      - **[Custom email providers](/features/email-providers/)** — use
+      - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
-      - **[Customisable email templates](/features/email-templates/)** —
+      - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax
-      - **[Custom domain](/features/custom-domain/)** — get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a nice
         host-provided subdomain instantly, or point your own domain
-      - **Apple Pay and Google Pay** — accept wallet payments at checkout
+      - **Apple Pay and Google Pay** - accept wallet payments at checkout
         via Stripe
-      - **Transparent pricing** — no hidden fees, no negotiations, no drip
+      - **Transparent pricing** - no hidden fees, no negotiations, no drip
         pricing
-      - **Community Interest Company** — run by a CIC, not a private equity
+      - **Community Interest Company** - run by a CIC, not a private equity
         portfolio company
 
       ## Data ownership and security
 
       In May 2024, Ticketek suffered a
       [major data breach](https://ia.acs.org.au/article/2024/30m-users--data-leaked-after-ticketek-breach.html)
-      that exposed the personal information of up to 30 million users —
-      including names, dates of birth, and email addresses — through a
+      that exposed the personal information of up to 30 million users -
+      including names, dates of birth, and email addresses - through a
       compromised third-party cloud platform. The stolen database was listed
       for sale on a cybercrime forum.
 
@@ -186,7 +186,7 @@ blocks:
       - You're an independent venue, community group, or small organiser
       - You want to keep your ticket revenue instead of losing $7+ per
         transaction in service fees
-      - Privacy and [encryption](/features/encrypted/) matter to you —
+      - Privacy and [encryption](/features/encrypted/) matter to you -
         especially after Ticketek's 2024 data breach
       - You value [open source](/features/open-source/) and data ownership
       - You're a charity or school (£25/year)
@@ -206,8 +206,8 @@ blocks:
       TEG (Ticketek Entertainment Group).
 
       In 2019, US-based private equity firm
-      [Silver Lake](https://www.silverlake.com) — which specialises in
-      technology investing — acquired TEG for a reported A$1.3 billion.
+      [Silver Lake](https://www.silverlake.com) - which specialises in
+      technology investing - acquired TEG for a reported A$1.3 billion.
       TEG's empire now spans ticketing, live entertainment, data analytics,
       and venue operations across Australia, New Zealand, Southeast Asia,
       and the UK, including brands like TEG Live, TEG Dainty, Qudos Bank
@@ -223,7 +223,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a UK legal structure that locks the company's assets for
+      (CIC) - a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
@@ -232,22 +232,22 @@ blocks:
     content: |
       ## Pricing sources
 
-      Ticketek does not publish a standard public fee schedule — fees vary
+      Ticketek does not publish a standard public fee schedule - fees vary
       by event, venue, and contract. The pricing estimates used on this page
       are based on publicly reported figures. Check the links below for the
       latest information.
 
-      - [Ticketek Australia](https://premier.ticketek.com.au) — official
+      - [Ticketek Australia](https://premier.ticketek.com.au) - official
         website
       - [Ticketek About Us](https://premier.ticketek.com.au/content/aboutus/aboutus.aspx)
-        — company overview and venue partnerships
+        - company overview and venue partnerships
       - [Ticketek Buyer FAQs](https://help.ticketek.com.au/hc/en-us/articles/46538610279193-BUYER-FAQS)
-        — fee details for buyers
-      - [SBS News — Ticketek fees](https://www.sbs.com.au/news/article/ticketek-service-fee-cost-more-than-childs-ticket-to-the-cricket/ei66dfk3t)
-        — service fee exceeding child ticket price
-      - [TEG data breach — 30m users](https://ia.acs.org.au/article/2024/30m-users--data-leaked-after-ticketek-breach.html)
-        — 2024 breach details
-      - [TEG — The TEG Story](https://www.teg.com.au/the-teg-story/) —
+        - fee details for buyers
+      - [SBS News - Ticketek fees](https://www.sbs.com.au/news/article/ticketek-service-fee-cost-more-than-childs-ticket-to-the-cricket/ei66dfk3t)
+        - service fee exceeding child ticket price
+      - [TEG data breach - 30m users](https://ia.acs.org.au/article/2024/30m-users--data-leaked-after-ticketek-breach.html)
+        - 2024 breach details
+      - [TEG - The TEG Story](https://www.teg.com.au/the-teg-story/) -
         company history and ownership
       - [Chobble Tickets features](/features/)
 
