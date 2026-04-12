@@ -131,13 +131,13 @@ blocks:
       deploy to DigitalOcean, Heroku, Koyeb, and Render. Or use
       [GitHub-controlled deployments](/features/open-source/) for extra
       security where you approve every update.
-    figure_type: code
-    figure_filename: Pricing
-    figure_code: |
-      £50/year
-
-      Unlimited events. Unlimited tickets.
-      No commission. No hidden fees.
+    figure_type: html
+    figure_html: |
+      <p>£50/year</p>
+      <ul>
+        <li>Unlimited events. Unlimited tickets.</li>
+        <li>No commission. No hidden fees.</li>
+      </ul>
 
   - type: cta
     title: Get started

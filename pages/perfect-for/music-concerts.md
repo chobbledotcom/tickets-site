@@ -30,11 +30,12 @@ blocks:
       can set fixed prices or enable pay-what-you-want for donation-based gigs.
 
       **50% discount for musicians and artists** - £25/year.
-    figure_type: code
-    figure_filename: Pricing
-    figure_code: |
-      £50/year flat fee.
-      No commission on ticket sales.
+    figure_type: html
+    figure_html: |
+      <ul>
+        <li>£50/year flat fee.</li>
+        <li>No commission on ticket sales.</li>
+      </ul>
 
   - type: features
     section_class: alt

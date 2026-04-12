@@ -35,12 +35,13 @@ blocks:
       And because Chobble Tickets only collects the fields you choose, your
       attendees don't share their home address, phone number, and card details
       with a third-party platform.
-    figure_type: code
-    figure_filename: The maths
-    figure_code: |
-      12 seats × £15 = £180
-      Platform fees elsewhere: ~£15 per session
-      Chobble Tickets: £0 per session
+    figure_type: html
+    figure_html: |
+      <ul>
+        <li>12 seats × £15 = £180</li>
+        <li>Platform fees elsewhere: ~£15 per session</li>
+        <li>Chobble Tickets: £0 per session</li>
+      </ul>
 
   - type: split
     title: Stop coordinating over email
@@ -61,11 +62,12 @@ blocks:
       When the day comes, scan QR codes at the door and you know exactly who's
       arrived and who hasn't. It turns a chaotic process into something you
       barely have to think about.
-    figure_type: code
-    figure_filename: Before and after
-    figure_code: |
-      Before: DMs, emails, spreadsheets, "am I booked?"
-      After:  One link. Self-service booking.
+    figure_type: html
+    figure_html: |
+      <ul>
+        <li>Before: DMs, emails, spreadsheets, "am I booked?"</li>
+        <li>After: One link. Self-service booking.</li>
+      </ul>
 
   - type: split
     title: Attendee data is encrypted and private
@@ -81,11 +83,12 @@ blocks:
       doesn't build marketing profiles from your attendee list. You collect only
       what you need, like a name and email, and nothing else leaves the system.
 
-    figure_type: code
-    figure_filename: Data you collect
-    figure_code: |
-      You choose: name, email, and nothing else.
-      Data is encrypted at rest with no marketing profiles.
+    figure_type: html
+    figure_html: |
+      <ul>
+        <li>You choose: name, email, and nothing else.</li>
+        <li>Data is encrypted at rest with no marketing profiles.</li>
+      </ul>
 
   - type: markdown
     content: |

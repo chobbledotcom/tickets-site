@@ -30,11 +30,12 @@ blocks:
       You can set capacity limits so you never end up with more kids than you
       planned for, and the system holds spots for 5 minutes during payment to
       prevent overbooking.
-    figure_type: code
-    figure_filename: How it works
-    figure_code: |
-      Parents book online without an account.
-      You get a QR code door list.
+    figure_type: html
+    figure_html: |
+      <ul>
+        <li>Parents book online without an account.</li>
+        <li>You get a QR code door list.</li>
+      </ul>
 
   - type: features
     section_class: alt

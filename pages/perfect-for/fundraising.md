@@ -35,13 +35,14 @@ blocks:
       collect money for anything that doesn't involve a physical event:
       donations, raffle entries, club dues, school trip contributions, and
       more.
-    figure_type: code
-    figure_filename: Fundraiser setup
-    figure_code: |
-      Event name: Summer Appeal 2026
-      Purchase only: ✓
-      Price: Pay what you want
-      Min: £5 · Suggested: £25
+    figure_type: html
+    figure_html: |
+      <ul>
+        <li>Event name: Summer Appeal 2026</li>
+        <li>Purchase only: ✓</li>
+        <li>Price: Pay what you want</li>
+        <li>Min: £5 · Suggested: £25</li>
+      </ul>
 
   - type: features
     section_class: alt
