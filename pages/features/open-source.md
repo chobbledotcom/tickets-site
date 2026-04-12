@@ -22,7 +22,7 @@ blocks:
       ## The full codebase is open source
 
       Some ticketing platforms release only part of their code under an open
-      source licence, then charge for the features you actually need. The
+      source licence, then charge for the features you need. The
       hosted version and the self-hosted version of Chobble Tickets are exactly
       the same code.
 

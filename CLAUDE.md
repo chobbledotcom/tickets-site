@@ -253,6 +253,7 @@ condescending. It means:
 | cutting-edge | remove it |
 | best-in-class | remove it |
 | solution | tool, platform, or software |
+| actually | remove it — speculative and inauthentic |
 
 ---
 
