@@ -110,8 +110,8 @@ blocks:
         plans and pricing, with bulk editing across up to 300 events
       - **On-platform advertising** — promoted ads within Ticketmaster's
         marketplace to boost event visibility
-      - **All-in pricing** — FTC-compliant pricing showing the total cost
-        upfront with no surprise fees at checkout
+      - **All-in pricing** — total cost shown upfront with no surprise
+        fees at checkout
 
       **Chobble Tickets has features Ticketmaster doesn't offer small
       organisers:**
@@ -193,16 +193,19 @@ blocks:
       [Live Nation Entertainment](https://www.livenationentertainment.com)
       (NYSE: LYV), an American multinational that promotes over 50,000
       events and handles 600+ million tickets annually. Live Nation's
-      largest shareholder is Liberty Media, which holds approximately 30%
-      of the company's shares.
+      largest shareholder is Liberty Live Holdings (spun off from Liberty
+      Media in December 2025), which holds approximately 30% of the
+      company's shares.
 
-      In May 2024, the US Department of Justice and 40 states filed an
-      antitrust lawsuit against Live Nation, alleging monopolistic practices
-      in ticketing. A settlement was reached in March 2026 — Live Nation
-      agreed to a $280 million fine, a 15% cap on service fees at owned
-      venues, divestiture of 13 amphitheatres, and opening parts of its
-      technology to competitors. However, 26 states rejected the settlement
-      and are continuing the lawsuit independently.
+      In May 2024, the US Department of Justice, 39 states, and the
+      District of Columbia filed an antitrust lawsuit against Live Nation,
+      alleging monopolistic practices in ticketing. A settlement was reached
+      in March 2026 — Live Nation agreed to a $280 million settlement fund
+      for participating states, a 15% cap on service fees at amphitheatres,
+      divestiture of exclusive booking rights at 13 amphitheatres, and
+      opening parts of its technology to competitors. However, 32 states
+      and the District of Columbia rejected the settlement and are
+      continuing the lawsuit independently.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
