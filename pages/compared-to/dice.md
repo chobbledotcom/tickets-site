@@ -190,24 +190,16 @@ blocks:
     content: |
       ## Who owns DICE?
 
-      DICE was founded in 2014 by Phil Hutcheon in London. It raised
-      approximately $238 million in venture capital across multiple rounds,
-      with investors including SoftBank Vision Fund, Exor Ventures (the
-      Agnelli family investment vehicle), and Tony Fadell (iPod inventor).
-
-      In June 2025, DICE was acquired by
-      [Fever](https://feverup.com), a global live entertainment discovery
-      platform last valued at $1.8 billion. Phil Hutcheon remains as CEO.
-      Prior to the acquisition, DICE's 2022 financials included a
-      going-concern warning, and in 2024 Bloomberg reported the company was
-      in talks to sell a stake as SoftBank sought to exit its position.
+      DICE was founded in London and is now owned by
+      [Fever](https://feverup.com), a large live entertainment company.
+      Before that, DICE raised hundreds of millions in venture capital
+      from investors including SoftBank.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      — a type of UK company that exists to benefit the community. All of
+      Chobble's code is public, and anyone can run the platform on their
+      own servers.
 
   - type: markdown
     content: |
@@ -223,7 +215,6 @@ blocks:
       - [DICE Ticket Holders API](https://partners-endpoint.dice.fm/graphql/docs/index.html) — GraphQL API documentation
       - [Hi.Events DICE comparison](https://hi.events/dice-alternative) — third-party comparison estimating DICE fees
       - [Chobble Tickets features](/features/)
-      - [Fever acquires DICE](https://variety.com/2025/music/news/fever-acquires-dice-securing-100-million-funding-1236419015/) — acquisition details
 
   - type: cta
     title: Try Chobble Tickets
