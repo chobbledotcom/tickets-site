@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Ticketing for music concerts
     lead: >-
-      Sell tickets directly to your fans with no per-ticket fees eating into
-      your revenue, just a flat annual cost.
+      Sell tickets directly to your fans with no per-ticket fees, for a flat
+      annual fee of £50/year.
 
   - type: split
     title: Keep your revenue
@@ -29,11 +29,12 @@ blocks:
       the payments so the money goes directly to your account. You
       can set fixed prices or enable pay-what-you-want for donation-based gigs.
 
-      **50% discount for musicians and artists** - just £25/year.
+      **50% discount for musicians and artists** - £25/year.
     figure_type: code
-    figure_filename: Your gig. Your money.
+    figure_filename: Pricing
     figure_code: |
-      No commission. No per-ticket fees.
+      £50/year flat fee.
+      No commission on ticket sales.
 
   - type: features
     section_class: alt
