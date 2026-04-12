@@ -119,7 +119,7 @@ blocks:
     reverse: true
     reveal_content: right
     content: |
-      **[Managed hosting is just £50/year](https://tix.chobble.com/ticket/register)** with no per-ticket fees, no
+      **[Managed hosting is £50/year](https://tix.chobble.com/ticket/register)** with no per-ticket fees, no
       percentage cuts, and no surprise charges.
 
       **50% discount** for charities, community groups, artists, and musicians.

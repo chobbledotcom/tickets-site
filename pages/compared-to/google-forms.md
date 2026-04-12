@@ -47,7 +47,7 @@ blocks:
         answers
       - **Collaboration** - multiple people can edit the form simultaneously
         with real-time Google Docs collaboration
-      - **Add-on ecosystem** - third-party add-ons can add features like
+      - **Third-party add-ons** - third-party add-ons can add features like
         response limits, email notifications, and more
       - **Templates** - start from pre-built templates for common use cases
       - **Embedded anywhere** - easily embed in any website

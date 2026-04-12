@@ -14,7 +14,7 @@ blocks:
     class: gradient
     title: Chobble Tickets vs BookitBee
     lead: >-
-      BookitBee is a UK-based ticketing platform - here's how it compares to
+      BookitBee is a UK-based ticketing platform - here is how it compares to
       Chobble Tickets.
 
   - type: markdown
@@ -37,7 +37,7 @@ blocks:
       ## Feature comparison
 
       BookitBee and Chobble Tickets both handle event ticketing, but they
-      focus on different things. Here's what each offers that the other
+      focus on different things. Here is what each offers that the other
       doesn't:
 
       **Both sites share some features:**
