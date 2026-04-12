@@ -46,7 +46,7 @@ blocks:
     content: |
       ## References
 
-      - [Stripe UK pricing](https://stripe.com/gb/pricing) — 1.5% + 20p per transaction
+      - [Stripe UK pricing](https://stripe.com/gb/pricing) - 1.5% + 20p per transaction
       - [Square UK pricing](https://squareup.com/gb/en/pricing)
 
   - type: cta

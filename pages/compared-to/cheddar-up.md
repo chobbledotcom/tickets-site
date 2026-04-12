@@ -65,100 +65,100 @@ blocks:
       - Apple Pay and Google Pay at checkout (via Stripe)
 
       **Cheddar Up has features Chobble Tickets doesn't:**
-      - **In-person point-of-sale** — sell tickets, merchandise, and
+      - **In-person point-of-sale** - sell tickets, merchandise, and
         concessions at the door with a Bluetooth card reader ($79) or Tap
         on Mobile (NFC), with all sales synced to your online dashboard
-      - **Volunteer check-in via Event Codes** — share a code with
+      - **Volunteer check-in via Event Codes** - share a code with
         volunteers so they can scan tickets or take payments using the
         Cheddar Up mobile app without needing your login credentials
-      - **eCheck payments (ACH)** — accept bank transfers at lower fees
+      - **eCheck payments (ACH)** - accept bank transfers at lower fees
         (1.59% on Pro, $0.95 flat on Team), giving payers a cheaper
         alternative to credit cards
-      - **Sign-up forms and slots** — create volunteer sign-up sheets,
+      - **Sign-up forms and slots** - create volunteer sign-up sheets,
         potluck coordinators, and other form-based collections alongside
         payment pages
-      - **Shipping labels** — purchase and print USPS shipping labels
+      - **Shipping labels** - purchase and print USPS shipping labels
         directly from Cheddar Up for merchandise orders (Pro and Team)
-      - **Recurring payments** — set up automatic recurring charges for
+      - **Recurring payments** - set up automatic recurring charges for
         tuition, dues, sports fees, or donations (Team only)
-      - **Group Page** — a branded landing page where your community can
+      - **Group Page** - a branded landing page where your community can
         access all your fundraisers, stores, events, and registrations
         in one place (Team only)
-      - **Brand Kit** — customise your logo, colours, and footer across
+      - **Brand Kit** - customise your logo, colours, and footer across
         every collection page and email (Team only)
-      - **Account-wide dashboard** — view total collected, total payers,
+      - **Account-wide dashboard** - view total collected, total payers,
         top payers, and top collections across all your pages (Team only)
-      - **Report Centre** — filter payments across collections, exclude
+      - **Report Centre** - filter payments across collections, exclude
         refunds, and save custom reports (Team only)
-      - **Unlimited managers** — invite volunteers with their own login
+      - **Unlimited managers** - invite volunteers with their own login
         credentials to create and manage collections without seeing
         financial details (Team only)
-      - **Nonprofit features** — verified 501(c)(3) groups get a badge
+      - **Nonprofit features** - verified 501(c)(3) groups get a badge
         and can automatically send tax-deductible receipts with IRS
         language (Team only)
-      - **Free-text custom questions** — add open-ended questions
+      - **Free-text custom questions** - add open-ended questions
         alongside multiple choice on registration forms (Chobble supports
         multiple-choice custom questions only)
-      - **Discount codes** — create percentage or fixed-amount discount
+      - **Discount codes** - create percentage or fixed-amount discount
         codes for collections (Pro and Team)
-      - **Scheduled access** — set start and end times for collection
+      - **Scheduled access** - set start and end times for collection
         pages with a countdown timer (Pro and Team)
-      - **Visitor reports** — collect names and emails of page visitors
+      - **Visitor reports** - collect names and emails of page visitors
         for follow-up marketing (Pro and Team)
-      - **Native integrations** — connects with Zapier, Google Sheets,
+      - **Native integrations** - connects with Zapier, Google Sheets,
         Mailchimp, QuickBooks, Xero, HubSpot, WordPress, and more
-      - **Mobile app** — native iOS and Android app for managing
+      - **Mobile app** - native iOS and Android app for managing
         collections, scanning tickets, and taking payments
 
       **Chobble Tickets has features Cheddar Up doesn't:**
 
-      - **[Purchasable events](/features/purchasable-events/)** — collect
+      - **[Purchasable events](/features/purchasable-events/)** - collect
         donations, sell raffle tickets, take membership dues, and run any
-        kind of payment collection without an event to attend — not just
+        kind of payment collection without an event to attend - not just
         ticketing
-      - **[End-to-end encryption](/features/encrypted/)** — attendee data
+      - **[End-to-end encryption](/features/encrypted/)** - attendee data
         is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not
         just stored in a database
-      - **[Open source](/features/open-source/)** — every line of code is
+      - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
-      - **Self-hosting option** — run the platform on your own servers
+      - **Self-hosting option** - run the platform on your own servers
         for free, with no licence fee
-      - **Flat annual pricing** — £50/year with no per-ticket fees, no
+      - **Flat annual pricing** - £50/year with no per-ticket fees, no
         matter how many you sell
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
-      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
         subscribers get automatic calendar updates
-      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate
         your events to feed readers
-      - **[Tiered ticket types via groups](/features/groups/)** — create
+      - **[Tiered ticket types via groups](/features/groups/)** - create
         VIP, early bird, and other tiers using event groups with a shared
         capacity cap (max attendees per group)
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** —
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** -
         let attendees choose their own price
-      - **[Daily/recurring events](/features/daily-events/)** — per-date
+      - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
-      - **[Webhooks](/features/webhooks/)** — outbound POST on every
+      - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for custom integrations
-      - **[Public API](/features/public-api/)** — authenticated REST API
+      - **[Public API](/features/public-api/)** - authenticated REST API
         with API keys for reading and editing event and attendee data
         (Cheddar Up has no API)
-      - **[Embeddable ticket widgets](/features/embeddable-widget/)** —
+      - **[Embeddable ticket widgets](/features/embeddable-widget/)** -
         embed inline ticket sales on your own website (Cheddar Up offers
         embeddable buttons that link to their hosted page, but not inline
         checkout)
-      - **[Custom email providers](/features/email-providers/)** — use
+      - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
-      - **[Customisable email templates](/features/email-templates/)** —
+      - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** — get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a nice
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain — either way, not cheddarup.com
-      - **No marketing to your attendees** — your audience stays yours,
+        domain - either way, not cheddarup.com
+      - **No marketing to your attendees** - your audience stays yours,
         with no cross-promotion of competing events
-      - **Community Interest Company** — run by a CIC, not a
+      - **Community Interest Company** - run by a CIC, not a
         venture-backed startup
 
       ## Data ownership
@@ -219,14 +219,14 @@ blocks:
       was selected as one of four finalists in the Visa Everywhere
       Initiative.
 
-      Cheddar Up primarily serves US-based community organisations —
-      PTAs, sports teams, Scout troops, booster clubs, and nonprofits —
+      Cheddar Up primarily serves US-based community organisations -
+      PTAs, sports teams, Scout troops, booster clubs, and nonprofits -
       and has expanded from pure payment collection into event ticketing,
       forms, and point-of-sale.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a UK legal structure that locks the company's assets for
+      (CIC) - a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3,
       and the platform can be self-hosted by anyone without depending on
       Chobble as a company.
@@ -236,18 +236,18 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
-      Fees may change — check the links below for the latest figures.
+      Fees may change - check the links below for the latest figures.
 
-      - [Cheddar Up pricing](https://www.cheddarup.com/pricing/) — Basic (free), Pro ($20/month), Team ($48/month)
-      - [Cheddar Up fees explained](https://www.cheddarup.com/blog/cheddar-up-fees/) — 3.59% + $0.59 per transaction on Pro/Team, 3.95% + $0.95 on Basic
-      - [Cheddar Up Team plan](https://www.cheddarup.com/team-plan/) — ticketing, Brand Kit, Report Centre, unlimited managers
-      - [Cheddar Up Pro plan](https://www.cheddarup.com/pro-plan/) — eCheck, discount codes, shipping labels
-      - [Cheddar Up ticketing announcement](https://www.prnewswire.com/news-releases/cheddar-up-announces-robust-ticketing-feature-that-elevates-the-organizer-and-payer-experience-301967138.html) — October 2023 launch
-      - [Cheddar Up event management](https://www.cheddarup.com/event-management/) — ticketing and check-in features
-      - [Cheddar Up point of sale](https://www.cheddarup.com/point-of-sale/) — card reader and Tap on Mobile
-      - [Cheddar Up integrations](https://www.cheddarup.com/integrations/) — Zapier, Google Sheets, Mailchimp, and more
-      - [Cheddar Up custom branding](https://www.cheddarup.com/custom-branding/) — Brand Kit details
-      - [Cheddar Up on Crunchbase](https://www.crunchbase.com/organization/cheddar-up) — funding and company details
+      - [Cheddar Up pricing](https://www.cheddarup.com/pricing/) - Basic (free), Pro ($20/month), Team ($48/month)
+      - [Cheddar Up fees explained](https://www.cheddarup.com/blog/cheddar-up-fees/) - 3.59% + $0.59 per transaction on Pro/Team, 3.95% + $0.95 on Basic
+      - [Cheddar Up Team plan](https://www.cheddarup.com/team-plan/) - ticketing, Brand Kit, Report Centre, unlimited managers
+      - [Cheddar Up Pro plan](https://www.cheddarup.com/pro-plan/) - eCheck, discount codes, shipping labels
+      - [Cheddar Up ticketing announcement](https://www.prnewswire.com/news-releases/cheddar-up-announces-robust-ticketing-feature-that-elevates-the-organizer-and-payer-experience-301967138.html) - October 2023 launch
+      - [Cheddar Up event management](https://www.cheddarup.com/event-management/) - ticketing and check-in features
+      - [Cheddar Up point of sale](https://www.cheddarup.com/point-of-sale/) - card reader and Tap on Mobile
+      - [Cheddar Up integrations](https://www.cheddarup.com/integrations/) - Zapier, Google Sheets, Mailchimp, and more
+      - [Cheddar Up custom branding](https://www.cheddarup.com/custom-branding/) - Brand Kit details
+      - [Cheddar Up on Crunchbase](https://www.crunchbase.com/organization/cheddar-up) - funding and company details
       - [Chobble Tickets features](/features/)
 
   - type: cta

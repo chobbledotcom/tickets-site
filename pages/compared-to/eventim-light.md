@@ -23,7 +23,7 @@ blocks:
       ## What is EVENTIM.Light?
 
       [EVENTIM.Light](https://www.eventim-light.co.uk/) is the self-serve
-      ticketing arm of CTS EVENTIM — the parent company behind eventim.co.uk and
+      ticketing arm of CTS EVENTIM - the parent company behind eventim.co.uk and
       one of the largest ticketing operations in Europe, with [250+ million
       tickets sold in 2019](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/)
       and operations across 23+ countries. EVENTIM.Light is aimed at independent
@@ -31,7 +31,7 @@ blocks:
       sell tickets without negotiating an enterprise deal.
 
       It's a solid platform backed by serious infrastructure. But the trade-offs
-      — particularly around fees, data ownership, and flexibility — are worth
+      - particularly around fees, data ownership, and flexibility - are worth
       understanding before you commit.
 
   - type: markdown
@@ -76,13 +76,13 @@ blocks:
       mark your event as "Finished." That means your money sits with EVENTIM
       until after the event is over and you change its status yourself. There's
       no option for advance payouts. For cancelled or postponed events,
-      settlement only happens after all buyer refund claims are resolved —
+      settlement only happens after all buyer refund claims are resolved -
       which could take considerably longer.
 
       Chobble Tickets uses Stripe or Square directly, so payments flow straight
       to your own payment processor account with standard processing times
       (typically 2–3 business days from each sale). You control your own
-      payout schedule through Stripe or Square — not through the ticketing
+      payout schedule through Stripe or Square - not through the ticketing
       platform.
 
   - type: markdown
@@ -105,81 +105,81 @@ blocks:
 
       **EVENTIM.Light has features Chobble Tickets doesn't:**
 
-      - **EVENTIM network distribution** — your events get listed on
+      - **EVENTIM network distribution** - your events get listed on
         [eventim.co.uk](https://www.eventim.co.uk) (500,000+ monthly visitors
         in the UK), giving you access to an existing audience of ticket buyers
         browsing for events
-      - **Seating plan editor** — create custom venue seating charts and offer
+      - **Seating plan editor** - create custom venue seating charts and offer
         reserved seating or best-seat booking, useful for theatres and seated
         venues (note: seating plans cannot be edited after the event is
         published)
-      - **Facebook event integration** — create and sync Facebook events
+      - **Facebook event integration** - create and sync Facebook events
         directly from the platform
-      - **Promotion codes** — create individual discount and presale codes for
+      - **Promotion codes** - create individual discount and presale codes for
         marketing campaigns
-      - **Ad pixel tracking** — embed Google and Meta (Facebook) tracking
+      - **Ad pixel tracking** - embed Google and Meta (Facebook) tracking
         pixels to analyse where your ticket buyers come from and build
         retargeting audiences
-      - **Google Analytics integration** — built-in tracking for monitoring
+      - **Google Analytics integration** - built-in tracking for monitoring
         visitor behaviour on your ticket shop pages
-      - **EVENTIM brand recognition** — backed by Europe's largest ticketing
+      - **EVENTIM brand recognition** - backed by Europe's largest ticketing
         company, which may carry trust with some ticket buyers
-      - **Multiple payment methods** — PayPal, PayPal Express, Apple Pay,
+      - **Multiple payment methods** - PayPal, PayPal Express, Apple Pay,
         Google Pay, Visa, and MasterCard built in (Chobble Tickets supports
         Apple Pay and Google Pay via Stripe, plus Square, but not PayPal)
-      - **Video tutorials and quick guides** — step-by-step help resources
+      - **Video tutorials and quick guides** - step-by-step help resources
         built into the platform
 
   - type: markdown
     content: |
       **Chobble Tickets has features EVENTIM.Light doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
         in a database
-      - **[Open source](/features/open-source/)** — every line of code is
+      - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, fully auditable, no proprietary lock-in
-      - **Self-hosting option** — run the platform on your own servers for
+      - **Self-hosting option** - run the platform on your own servers for
         free, with no licence fee
-      - **Flat annual pricing** — £50/year with no per-ticket fees, no matter
+      - **Flat annual pricing** - £50/year with no per-ticket fees, no matter
         how many you sell
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
-      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
         subscribers get automatic calendar updates when you add events
-      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate your
         events to feed readers
-      - **[Tiered ticket types via groups](/features/groups/)** — create VIP,
+      - **[Tiered ticket types via groups](/features/groups/)** - create VIP,
         early bird, and other tiers using event groups with a shared capacity
         cap
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their own price
       - **[Daily/recurring events with per-date capacity](/features/daily-events/)**
-        — calendar picker with holiday blackouts for classes, workshops, and
+        - calendar picker with holiday blackouts for classes, workshops, and
         regular bookings
-      - **[Custom questions](/features/custom-questions/)** — add
+      - **[Custom questions](/features/custom-questions/)** - add
         multiple-choice questions to events and collect structured answers
         at checkout, with answers visible across the admin interface, CSV
         exports, and webhooks
-      - **[Public & admin API](/features/public-api/)** — RESTful JSON API
+      - **[Public & admin API](/features/public-api/)** - RESTful JSON API
         for building custom integrations, plus [authenticated admin
         API](/features/admin-api/) with full event CRUD via API keys
         (EVENTIM.Light has no public API)
-      - **[Webhooks](/features/webhooks/)** — outbound POST on every
+      - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for real-time integrations
-      - **[Custom email providers](/features/email-providers/)** — use Resend,
+      - **[Custom email providers](/features/email-providers/)** - use Resend,
         Postmark, SendGrid, or Mailgun so emails come from your domain
-      - **[Customisable email templates](/features/email-templates/)** — full
+      - **[Customisable email templates](/features/email-templates/)** - full
         control over confirmation emails with Liquid syntax
-      - **[Custom domain](/features/custom-domain/)** — get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a nice
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain — either way, not eventim-light.co.uk
-      - **Automatic refunds** — process refunds directly from the admin panel
-      - **[CSV export](/features/csv-export/)** — download attendee lists for
+        domain - either way, not eventim-light.co.uk
+      - **Automatic refunds** - process refunds directly from the admin panel
+      - **[CSV export](/features/csv-export/)** - download attendee lists for
         your own records
-      - **No marketing to your attendees** — your audience stays yours, with
+      - **No marketing to your attendees** - your audience stays yours, with
         no cross-promotion of other events on the platform
-      - **Community Interest Company** — run by a CIC, not a subsidiary of a
+      - **Community Interest Company** - run by a CIC, not a subsidiary of a
         publicly traded entertainment conglomerate
 
   - type: markdown
@@ -192,24 +192,24 @@ blocks:
       (clause 9.5). In practice, this means:
 
       - EVENTIM can send **personalised mailings about similar events** to
-        your ticket buyers — their
+        your ticket buyers - their
         [UK terms](https://www.eventim-light.com/uk/api/legal/terms?format=pdf&lang=en)
         (clause 9.2) confirm they may contact buyers about "events which are
         identical or similar to the one for which the customer purchased a
         ticket"
       - If you sell through the EVENTIM network (eventim.co.uk), **you have
-        no claim to that customer data** — clause 9.4 states "the Event
+        no claim to that customer data** - clause 9.4 states "the Event
         Organiser has no claim against EVENTIM UK Ltd. to the transmission
         of such customer data"
-      - EVENTIM can **amend their terms unilaterally** with notification —
+      - EVENTIM can **amend their terms unilaterally** with notification -
         clause 14.1 states an amendment "is deemed approved unless the Event
         Organiser lodges an objection in text form within one month"
       - Your **first event requires authorisation** from the EVENTIM UK team
-        before it goes live (clause 1.2) — subsequent events do not
+        before it goes live (clause 1.2) - subsequent events do not
 
       The consumer-facing eventim.co.uk has a
       [3.7-star rating on Trustpilot](https://www.trustpilot.com/review/eventim.co.uk)
-      (UK), though reviews are mixed — common complaints include refund
+      (UK), though reviews are mixed - common complaints include refund
       difficulties and customer service responsiveness. While EVENTIM.Light
       is a separate product, buyer issues are typically directed back to the
       event organiser rather than EVENTIM's support team.
@@ -234,9 +234,9 @@ blocks:
         of the event start, requiring an internet connection during that window
       - Offline scanning devices **cannot sync with each other**
       - **Cancelling in EVENTIM.Light doesn't cancel your linked Facebook
-        event** — you have to do that separately
+        event** - you have to do that separately
       - Box office ticket buyers **cannot be contacted** if you cancel or
-        relocate — EVENTIM doesn't hold their contact details
+        relocate - EVENTIM doesn't hold their contact details
 
       Chobble Tickets lets you edit event details at any time before the event.
       There's no approval process, no locked settings, and no dependency on
@@ -296,7 +296,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a UK legal structure that locks the company's assets for
+      (CIC) - a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
@@ -306,14 +306,14 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change — check the links below for the latest figures.
+      may change - check the links below for the latest figures.
 
-      - [EVENTIM.Light UK pricing](https://www.eventim-light.co.uk/pricing/) — 8% per ticket (includes payment processing)
-      - [EVENTIM.Light UK features](https://www.eventim-light.co.uk/features/) — full feature list
-      - [EVENTIM.Light UK FAQ](https://www.eventim-light.co.uk/faq/) — frequently asked questions for organisers
-      - [EVENTIM.Light UK terms of use](https://www.eventim-light.com/uk/api/legal/terms?format=pdf&lang=en) — organiser terms (PDF)
-      - [EVENTIM.Light overview](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/) — B2B product page (250M+ tickets in 2019)
-      - [Eventim UK on Trustpilot](https://www.trustpilot.com/review/eventim.co.uk) — consumer reviews
+      - [EVENTIM.Light UK pricing](https://www.eventim-light.co.uk/pricing/) - 8% per ticket (includes payment processing)
+      - [EVENTIM.Light UK features](https://www.eventim-light.co.uk/features/) - full feature list
+      - [EVENTIM.Light UK FAQ](https://www.eventim-light.co.uk/faq/) - frequently asked questions for organisers
+      - [EVENTIM.Light UK terms of use](https://www.eventim-light.com/uk/api/legal/terms?format=pdf&lang=en) - organiser terms (PDF)
+      - [EVENTIM.Light overview](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/) - B2B product page (250M+ tickets in 2019)
+      - [Eventim UK on Trustpilot](https://www.trustpilot.com/review/eventim.co.uk) - consumer reviews
       - [Chobble Tickets features](/features/)
 
   - type: cta

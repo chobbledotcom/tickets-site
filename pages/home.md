@@ -70,7 +70,7 @@ blocks:
     content: |
       ## What customers say
 
-      > "The user journey is incredibly slick, reassuring, easy and fast — you
+      > "The user journey is incredibly slick, reassuring, easy and fast - you
       > get them from thinking about it to having gone through and done it
       > within moments."
 
@@ -79,10 +79,10 @@ blocks:
       > simple."
 
       > "It honestly has all the settings and functionality that comes from a
-      > matured system — but it's just getting started!"
+      > matured system - but it's just getting started!"
 
       > "It's super quick and efficient, plus it also means that the code is
-      > unique to the user — so you can't have someone share a screenshot of
+      > unique to the user - so you can't have someone share a screenshot of
       > the QR code and scam free tickets."
 
       [Read more reviews &rarr;](/reviews/)

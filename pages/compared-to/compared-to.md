@@ -30,19 +30,19 @@ blocks:
         description: A UK-focused ticketing platform with per-ticket fees - compare pricing and features.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/cheddar-up/">vs Cheddar Up</a>'
-        description: A US payment collection platform with event ticketing — compare pricing, features, and data ownership.
+        description: A US payment collection platform with event ticketing - compare pricing, features, and data ownership.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/dice/">vs DICE</a>'
-        description: Mobile-first music ticketing — compare fees, app requirements, and data ownership.
+        description: Mobile-first music ticketing - compare fees, app requirements, and data ownership.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/eventbrite/">vs Eventbrite</a>'
         description: The big name in ticketing - see how an open source alternative measures up.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/eventim-light/">vs EVENTIM.Light</a>'
-        description: The self-serve arm of Europe's largest ticketing company — compare fees, features, and data ownership.
+        description: The self-serve arm of Europe's largest ticketing company - compare fees, features, and data ownership.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/fatsoma/">vs Fatsoma</a>'
-        description: Popular with student events and nightlife — compare fees, features, and data ownership.
+        description: Popular with student events and nightlife - compare fees, features, and data ownership.
       - icon: "hugeicons:file-02"
         title: '<a href="/compared-to/google-forms/">vs Google Forms</a>'
         description: Free and flexible, but not built for ticketing - see the differences.
@@ -57,28 +57,28 @@ blocks:
         description: Sometimes low-tech works - see when it's worth upgrading to software.
       - icon: "hugeicons:open-source"
         title: '<a href="/compared-to/pretix/">vs Pretix</a>'
-        description: Another open source option targeting enterprise — compare hosted and self-hosted costs.
+        description: Another open source option targeting enterprise - compare hosted and self-hosted costs.
       - icon: "hugeicons:music-note-03"
         title: '<a href="/compared-to/resident-advisor/">vs Resident Advisor</a>'
-        description: The electronic music ticketing platform — compare fees, data ownership, and features.
+        description: The electronic music ticketing platform - compare fees, data ownership, and features.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/signupgenius/">vs SignUpGenius</a>'
-        description: The volunteer sign-up sheet tool that added ticketing — compare purpose-built ticketing vs a coordination platform.
+        description: The volunteer sign-up sheet tool that added ticketing - compare purpose-built ticketing vs a coordination platform.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/swicket/">vs Swicket</a>'
-        description: The managed service built on open source alf.io — compare features, pricing model, and data ownership.
+        description: The managed service built on open source alf.io - compare features, pricing model, and data ownership.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/ticketek/">vs Ticketek</a>'
-        description: Australia and New Zealand's dominant ticketing platform — compare fees, data security, and independence.
+        description: Australia and New Zealand's dominant ticketing platform - compare fees, data security, and independence.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/tito/">vs Tito</a>'
-        description: Developer-friendly ticketing from Ireland with per-ticket fees — compare pricing, features, and data ownership.
+        description: Developer-friendly ticketing from Ireland with per-ticket fees - compare pricing, features, and data ownership.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/ticketmaster/">vs Ticketmaster</a>'
         description: Built for massive venues - see when Chobble Tickets is the better choice.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/wix-events/">vs Wix Events</a>'
-        description: The ticketing add-on inside Wix's website builder — compare fees, platform lock-in, and data ownership.
+        description: The ticketing add-on inside Wix's website builder - compare fees, platform lock-in, and data ownership.
 
   - type: cta
     title: Try it yourself

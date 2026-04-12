@@ -22,7 +22,7 @@ blocks:
     content: |
       ## Pricing comparison
 
-      [FIXR](https://fixr.co) is free for organisers — ticket buyers pay a
+      [FIXR](https://fixr.co) is free for organisers - ticket buyers pay a
       booking fee of 4.99% + £0.49 per ticket (£1 minimum) + VAT on the
       Pro tier, or 3.99% + £0.49 on the Student & Charity tier. These fees
       include payment processing, and organisers can optionally absorb them.
@@ -34,7 +34,7 @@ blocks:
       £10 each in a year, Chobble Tickets is already cheaper.
 
       On higher-priced tickets the gap grows quickly. A £30 ticket costs
-      £1.99 in FIXR fees — that's about 38 tickets to break even against
+      £1.99 in FIXR fees - that's about 38 tickets to break even against
       a full year of Chobble Tickets.
 
   - type: include
@@ -44,7 +44,7 @@ blocks:
     content: |
       ## Data ownership and privacy
 
-      FIXR operates an event discovery marketplace — their website and app
+      FIXR operates an event discovery marketplace - their website and app
       let attendees browse and discover events. This means your attendees
       become part of FIXR's audience, and your events sit alongside
       competitors' listings.
@@ -83,64 +83,64 @@ blocks:
 
       **FIXR has features Chobble Tickets doesn't:**
 
-      - **Event discovery app** — FIXR's consumer-facing app and website
+      - **Event discovery app** - FIXR's consumer-facing app and website
         let attendees browse and discover events, with strong reach in
         the UK student nightlife market
-      - **Rep/affiliate network** — a built-in system where promoters
+      - **Rep/affiliate network** - a built-in system where promoters
         sell tickets on your behalf and earn commission, with tracking
         dashboards
-      - **Student verification** — built-in student status verification
+      - **Student verification** - built-in student status verification
         for age-restricted or student-only events
-      - **Ad pixel tracking** — retargeting and lookalike audience support
+      - **Ad pixel tracking** - retargeting and lookalike audience support
         for Facebook and other ad platforms
-      - **Promo codes** — discount codes, presale codes, and hidden ticket
+      - **Promo codes** - discount codes, presale codes, and hidden ticket
         access codes
-      - **Fast checkout** — streamlined checkout with saved card details
+      - **Fast checkout** - streamlined checkout with saved card details
         via the FIXR app
-      - **Push notifications** — event announcements via push notification
+      - **Push notifications** - event announcements via push notification
         to followers
-      - **Custom branded apps** — on the Enterprise tier, FIXR builds
+      - **Custom branded apps** - on the Enterprise tier, FIXR builds
         custom branded apps and websites for your events
-      - **Business insights** — analytics on customer origination,
+      - **Business insights** - analytics on customer origination,
         journey, and lifecycle
 
       **Chobble Tickets has features FIXR doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** — attendee data
+      - **[End-to-end encryption](/features/encrypted/)** - attendee data
         is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
-      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
         subscribers get automatic calendar updates
-      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate
         your events to feed readers
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** —
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** -
         let attendees choose their price
-      - **[Daily/recurring event support](/features/daily-events/)** —
+      - **[Daily/recurring event support](/features/daily-events/)** -
         built for events that repeat on a schedule with per-date capacity
-      - **[Custom domain support](/features/custom-domain/)** — get a
+      - **[Custom domain support](/features/custom-domain/)** - get a
         nice host-provided subdomain instantly, or point your own domain
-      - **Self-hosting option** — run the platform on your own servers
+      - **Self-hosting option** - run the platform on your own servers
         for free
-      - **[Open source](/features/open-source/)** — inspect, modify, and
+      - **[Open source](/features/open-source/)** - inspect, modify, and
         contribute to the code under AGPLv3
-      - **[Custom questions](/features/custom-questions/)** — add
+      - **[Custom questions](/features/custom-questions/)** - add
         multiple-choice questions to events and collect structured
         answers at checkout
-      - **[Public & admin API](/features/public-api/)** — RESTful JSON
+      - **[Public & admin API](/features/public-api/)** - RESTful JSON
         API for building custom integrations, plus [authenticated admin
         API](/features/admin-api/) with full event CRUD via API keys
-      - **[Webhooks](/features/webhooks/)** — outbound POST on every
+      - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration
-      - **[Event groups with tiered ticketing](/features/groups/)** —
+      - **[Event groups with tiered ticketing](/features/groups/)** -
         organise related events into collections for multi-event bookings
         with a single checkout
-      - **[Custom email providers](/features/email-providers/)** — use
+      - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain
-      - **[Customisable email templates](/features/email-templates/)** —
+      - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax
-      - **No marketing emails to attendees** — your audience stays yours
+      - **No marketing emails to attendees** - your audience stays yours
 
   - type: markdown
     content: |
@@ -181,7 +181,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a UK legal structure that locks the company's assets for
+      (CIC) - a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3,
       and the platform can be self-hosted by anyone without depending on
       Chobble as a company.
@@ -191,13 +191,13 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
-      Fees may change — check the links below for the latest figures.
+      Fees may change - check the links below for the latest figures.
 
-      - [FIXR pricing](https://fixr.co/pricing) — Pro: 4.99% + £0.49 per ticket; Student & Charity: 3.99% + £0.49
-      - [FIXR for organisers](https://fixr.co/p/event-organisers) — event ticketing and promotion platform
-      - [FIXR event ticketing](https://fixr.co/p/event-ticketing) — ticketing features overview
+      - [FIXR pricing](https://fixr.co/pricing) - Pro: 4.99% + £0.49 per ticket; Student & Charity: 3.99% + £0.49
+      - [FIXR for organisers](https://fixr.co/p/event-organisers) - event ticketing and promotion platform
+      - [FIXR event ticketing](https://fixr.co/p/event-ticketing) - ticketing features overview
       - [Chobble Tickets features](/features/)
-      - [VIPR Digital Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/08184813) — corporate structure
+      - [VIPR Digital Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/08184813) - corporate structure
 
   - type: cta
     title: Try Chobble Tickets

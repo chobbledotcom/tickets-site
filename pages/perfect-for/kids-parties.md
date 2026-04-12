@@ -53,7 +53,7 @@ blocks:
     content: |
       > "Most stay and plays are somewhere between £1–£4 a ticket. If you add
       > a ticket fee of £1 to it, then in some cases you're literally double
-      > the cost to the user — and if they are happy to pay that, then why
+      > the cost to the user - and if they are happy to pay that, then why
       > should it go to the ticket platform? It's better off in your pocket."
 
       [Read more reviews &rarr;](/reviews/)

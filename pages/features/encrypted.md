@@ -63,9 +63,9 @@ blocks:
     content: |
       ## References
 
-      - [OWASP Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) — recommends 600,000 PBKDF2-SHA256 iterations
-      - [NIST SP 800-38D](https://csrc.nist.gov/pubs/sp/800/38/d/final) — AES-GCM specification
-      - [RFC 7518 §4.3](https://datatracker.ietf.org/doc/html/rfc7518#section-4.3) — RSA-OAEP key wrapping
+      - [OWASP Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) - recommends 600,000 PBKDF2-SHA256 iterations
+      - [NIST SP 800-38D](https://csrc.nist.gov/pubs/sp/800/38/d/final) - AES-GCM specification
+      - [RFC 7518 §4.3](https://datatracker.ietf.org/doc/html/rfc7518#section-4.3) - RSA-OAEP key wrapping
       - [Chobble Tickets cryptography source](https://chobbledotcom.github.io/tickets/docs/crypto.ts)
 
   - type: cta

@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Chobble Tickets vs Swicket
 meta_title: Independent Alternative to Swicket & alf.io | Chobble Tickets
-meta_description: Looking for an alternative to Swicket or alf.io? Chobble Tickets offers flat annual pricing, AGPLv3 open source code, and no enterprise contracts — for community groups, schools, and independent event organisers.
+meta_description: Looking for an alternative to Swicket or alf.io? Chobble Tickets offers flat annual pricing, AGPLv3 open source code, and no enterprise contracts - for community groups, schools, and independent event organisers.
 permalink: /compared-to/swicket/
 eleventyNavigation:
   key: vs Swicket
@@ -14,7 +14,7 @@ blocks:
     title: Chobble Tickets vs Swicket
     lead: >-
       Swicket is the commercial, managed version of the open source alf.io
-      ticketing platform — built for large conferences and medical congresses.
+      ticketing platform - built for large conferences and medical congresses.
       Here's how it compares to Chobble Tickets for independent event
       organisers.
 
@@ -25,8 +25,8 @@ blocks:
       [Swicket](https://swicket.io) is the enterprise managed service built on
       top of [alf.io](https://alf.io), a GPLv3-licensed open source event
       attendance management system. Swicket is run by Vivento Lab (based in
-      Lugano, Switzerland), and one of Swicket's co-founders — Celestino
-      Bellone — is also a co-creator of alf.io itself.
+      Lugano, Switzerland), and one of Swicket's co-founders - Celestino
+      Bellone - is also a co-creator of alf.io itself.
 
       **alf.io** is the open source engine: a Java/Spring Boot application
       that handles ticket reservation, payment processing, and check-in. It's
@@ -47,7 +47,7 @@ blocks:
 
       ## Pricing comparison
 
-      **alf.io self-hosted** is free — you pay only for your own server
+      **alf.io self-hosted** is free - you pay only for your own server
       infrastructure and payment processing fees. The GPLv3 licence has no
       commercial restrictions beyond the copyleft requirement.
 
@@ -72,15 +72,15 @@ blocks:
       - Open source code (alf.io: GPLv3; Chobble Tickets: AGPLv3)
       - Self-hosting option
       - API access for custom integrations
-      - **Apple Wallet and Google Wallet** — attendees can save tickets to their
+      - **Apple Wallet and Google Wallet** - attendees can save tickets to their
         phone wallet (alf.io supports Apple Pass and Google Wallet natively, but
         self-hosted deployments require you to configure your own Apple Developer
         and Google Wallet API credentials; Chobble Tickets managed handles this
         setup for all customers)
-      - **Customisable email templates** — both platforms let organisers edit
+      - **Customisable email templates** - both platforms let organisers edit
         confirmation email content; alf.io uses MJML templates while Chobble
         Tickets uses Liquid syntax
-      - **Configurable email providers** — both platforms support using
+      - **Configurable email providers** - both platforms support using
         third-party email services; alf.io self-hosted supports Mailgun, Mailjet,
         and SMTP (configured at the server level), while Chobble Tickets managed
         lets you switch between Resend, Postmark, SendGrid, and Mailgun through
@@ -88,62 +88,62 @@ blocks:
 
       **alf.io / Swicket has features Chobble Tickets doesn't:**
 
-      - **Multiple payment gateways** — Stripe, Mollie, Revolut, PayPal, bank
+      - **Multiple payment gateways** - Stripe, Mollie, Revolut, PayPal, bank
         transfer, and on-site payments, compared to Chobble's Stripe or Square
-      - **14 languages** (alf.io) / **50+ languages** (Swicket) — built-in
+      - **14 languages** (alf.io) / **50+ languages** (Swicket) - built-in
         internationalisation for multilingual events
-      - **Offline check-in stations** — alf.io-PI runs on Raspberry Pi
+      - **Offline check-in stations** - alf.io-PI runs on Raspberry Pi
         hardware with local encryption and cross-station duplicate prevention
-      - **Exhibitor lead capture** — sponsors and exhibitors can scan attendee
+      - **Exhibitor lead capture** - sponsors and exhibitors can scan attendee
         badges to capture leads, with GDPR-compliant data handling
-      - **Google Analytics integration** — built-in tracking for event pages
-      - **Pre-pay and post-pay options** — flexible payment timing for
+      - **Google Analytics integration** - built-in tracking for event pages
+      - **Pre-pay and post-pay options** - flexible payment timing for
         different event types
-      - **On-site badge printing** (Swicket) — instant badge generation and
+      - **On-site badge printing** (Swicket) - instant badge generation and
         printing at check-in with customisable templates
-      - **CRM integrations** (Swicket) — native sync with Salesforce,
+      - **CRM integrations** (Swicket) - native sync with Salesforce,
         HubSpot, and Mailchimp
-      - **Abstract management** (Swicket) — submission, review, and scheduling
+      - **Abstract management** (Swicket) - submission, review, and scheduling
         workflows for academic and medical conferences
-      - **CME credit tracking** (Swicket) — continuing medical education
+      - **CME credit tracking** (Swicket) - continuing medical education
         credit management for medical congresses
-      - **Group registration** (Swicket) — complex multi-attendee registration
+      - **Group registration** (Swicket) - complex multi-attendee registration
         for corporate and association bookings
-      - **Mobile conference app** (Swicket) — dedicated attendee app for
+      - **Mobile conference app** (Swicket) - dedicated attendee app for
         navigation, schedules, and Q&A polling
-      - **Live streaming** (Swicket) — virtual event and hybrid conference
+      - **Live streaming** (Swicket) - virtual event and hybrid conference
         support
-      - **Enterprise SLA** (Swicket) — 99.95% uptime guarantee with 24/7
+      - **Enterprise SLA** (Swicket) - 99.95% uptime guarantee with 24/7
         monitoring and dedicated account management
 
       **Chobble Tickets has features alf.io / Swicket doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just
         row-level database security
-      - **Transparent flat pricing** — £50/year managed hosting with no
+      - **Transparent flat pricing** - £50/year managed hosting with no
         per-ticket fees, no sales calls, no contract negotiation
-      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
         subscribers get automatic calendar updates
-      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate your
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate your
         events to feed readers
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their own price
-      - **[Daily/recurring events](/features/daily-events/)** — per-date
+      - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
-      - **[Custom questions](/features/custom-questions/)** — add
+      - **[Custom questions](/features/custom-questions/)** - add
         multiple-choice questions to events and collect answers at checkout
-      - **[Webhooks](/features/webhooks/)** — outbound POST on every
+      - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for custom integrations
-      - **[Custom domain](/features/custom-domain/)** — your ticketing lives
+      - **[Custom domain](/features/custom-domain/)** - your ticketing lives
         at your own web address (relevant vs Swicket managed; alf.io
         self-hosted runs on whatever domain you configure)
-      - **[Embeddable widget](/features/embeddable-widget/)** — drop an
+      - **[Embeddable widget](/features/embeddable-widget/)** - drop an
         iframe into your own website
-      - **[Event groups](/features/groups/)** — organise related events into
+      - **[Event groups](/features/groups/)** - organise related events into
         collections for multi-event bookings with a single checkout
-      - **No marketing to your attendees** — your audience stays yours
-      - **Community Interest Company** — run by a CIC, not a commercial
+      - **No marketing to your attendees** - your audience stays yours
+      - **Community Interest Company** - run by a CIC, not a commercial
         software studio
 
       ## When Swicket / alf.io might be the better choice
@@ -165,7 +165,7 @@ blocks:
 
       - You're a community group, school, charity, or independent venue
       - You want transparent, flat-rate pricing with no per-ticket fees
-      - Privacy and [encryption](/features/encrypted/) matter to you — not
+      - Privacy and [encryption](/features/encrypted/) matter to you - not
         just row-level security but end-to-end encryption
       - You want to start immediately without a sales call or contract
       - You want [calendar feeds](/features/rss-and-calendar-feeds/) or
@@ -187,7 +187,7 @@ blocks:
       maintainer is Sylvain Jermini.
 
       In December 2024, Swicket established a "strategic partnership" with
-      [Vivento Lab](https://vivento.ch) — a separate Swiss company (formerly
+      [Vivento Lab](https://vivento.ch) - a separate Swiss company (formerly
       CRYMS Sagl) backed by Tinext Group. While Vivento Lab describes
       Swicket as "part of Vivento" on some marketing material, the Swiss
       commercial register shows them as separate legal entities.
@@ -198,7 +198,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a UK legal structure that locks the company's assets for
+      (CIC) - a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
@@ -209,12 +209,12 @@ blocks:
 
       The information on this page was verified in March 2026.
 
-      - [Swicket](https://swicket.io) — enterprise managed service built on alf.io (pricing on request)
-      - [Swicket about page](https://swicket.io/about) — team and background
-      - [alf.io](https://alf.io) — open source event attendance management (GPLv3)
-      - [alf.io on GitHub](https://github.com/alfio-event/alf.io) — source code, 1.6k stars, 60+ contributors
-      - [alf.io on Open Collective](https://opencollective.com/alfio) — project finances
-      - [Vivento Lab and Swicket partnership](https://vivento.ch/en/blog/vivento-lab-and-swicket-a-strategic-partnership-bringing-technological-innovation-to-the-world-of-events) — partnership announcement
+      - [Swicket](https://swicket.io) - enterprise managed service built on alf.io (pricing on request)
+      - [Swicket about page](https://swicket.io/about) - team and background
+      - [alf.io](https://alf.io) - open source event attendance management (GPLv3)
+      - [alf.io on GitHub](https://github.com/alfio-event/alf.io) - source code, 1.6k stars, 60+ contributors
+      - [alf.io on Open Collective](https://opencollective.com/alfio) - project finances
+      - [Vivento Lab and Swicket partnership](https://vivento.ch/en/blog/vivento-lab-and-swicket-a-strategic-partnership-bringing-technological-innovation-to-the-world-of-events) - partnership announcement
       - [Chobble Tickets features](/features/)
 
   - type: cta

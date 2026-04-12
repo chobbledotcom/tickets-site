@@ -56,25 +56,25 @@ blocks:
       you're not charging you can use it just for the RSVP tracking, capacity
       management, and check-in features. Here's what you get:
 
-      - **[Online payments](/features/stripe-and-square/)** — accept card
+      - **[Online payments](/features/stripe-and-square/)** - accept card
         payments via Stripe or Square
-      - **[Capacity management](/features/overbooking-prevention/)** —
+      - **[Capacity management](/features/overbooking-prevention/)** -
         automatic limits so you never oversell
-      - **[QR code check-in](/features/qr-code-check-ins/)** — scan
+      - **[QR code check-in](/features/qr-code-check-ins/)** - scan
         attendees in with any phone camera
-      - **[Email confirmations](/features/email-templates/)** — automatic
+      - **[Email confirmations](/features/email-templates/)** - automatic
         booking confirmations attendees can refer back to
-      - **[Refunds](/features/refunds/)** — track who paid what and process
+      - **[Refunds](/features/refunds/)** - track who paid what and process
         refunds in clicks
-      - **[Multi-user access](/features/users/)** — multiple people can
+      - **[Multi-user access](/features/users/)** - multiple people can
         manage the same event without things getting out of sync
-      - **[Apple & Google Wallet](/features/apple-wallet/)** — attendees
+      - **[Apple & Google Wallet](/features/apple-wallet/)** - attendees
         carry their tickets on their phone
-      - **[Custom questions](/features/custom-questions/)** — collect
+      - **[Custom questions](/features/custom-questions/)** - collect
         structured answers from attendees at checkout
-      - **[CSV export](/features/csv-export/)** — export attendee lists
+      - **[CSV export](/features/csv-export/)** - export attendee lists
         when you need a spreadsheet
-      - **[Activity logs](/features/activity-logs/)** — see who did what
+      - **[Activity logs](/features/activity-logs/)** - see who did what
         and when
 
       Think of it as a digital alternative to the clipboard that sends

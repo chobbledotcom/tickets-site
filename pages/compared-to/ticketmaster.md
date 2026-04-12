@@ -62,101 +62,101 @@ blocks:
 
       **Ticketmaster has features Chobble Tickets doesn't:**
 
-      - **Massive distribution network** — Ticketmaster reaches millions of
+      - **Massive distribution network** - Ticketmaster reaches millions of
         buyers through its website, mobile app, retail outlets, and call
         centres across [30+
         countries](https://business.ticketmaster.com/solutions/)
-      - **Reserved seating with interactive venue maps** — detailed 3D seat
+      - **Reserved seating with interactive venue maps** - detailed 3D seat
         selection for stadiums, arenas, and theatres showing exact views from
         each seat
-      - **Verified fan / presale systems** — manage presales, fan club
+      - **Verified fan / presale systems** - manage presales, fan club
         access, artist presales, and access codes for high-demand events to
         control who can buy first
-      - **Dynamic pricing** — automatically adjust ticket prices in real
+      - **Dynamic pricing** - automatically adjust ticket prices in real
         time based on demand, similar to airline pricing
-      - **Ticket resale marketplace** — official face-value and open-market
+      - **Ticket resale marketplace** - official face-value and open-market
         resale platform for sold-out events with guaranteed authenticity
-      - **Ticket transfer** — official ticket transfer between fans with
+      - **Ticket transfer** - official ticket transfer between fans with
         new barcode generation
-      - **Insurance and refund protection** — optional ticket insurance
+      - **Insurance and refund protection** - optional ticket insurance
         for attendees covering illness, travel disruption, and other reasons
-      - **Box office and retail POS** — sell tickets at physical box offices,
+      - **Box office and retail POS** - sell tickets at physical box offices,
         retail outlets, and call centres
-      - **Mobile fan app** — dedicated consumer app for ticket management,
+      - **Mobile fan app** - dedicated consumer app for ticket management,
         transfers, upgrades, and event discovery
-      - **VIP and upgrade packages** — offer premium experiences, meet and
+      - **VIP and upgrade packages** - offer premium experiences, meet and
         greets, hospitality packages, and seat upgrades
-      - **Large-scale analytics** — enterprise reporting across multiple
+      - **Large-scale analytics** - enterprise reporting across multiple
         venues, tours, and seasons with audience demographics and
         sales-by-location data
-      - **Exclusive venue contracts** — many large venues are contractually
+      - **Exclusive venue contracts** - many large venues are contractually
         locked to Ticketmaster, making it the only option
-      - **Multi-currency and international sales** — sell across 30+
+      - **Multi-currency and international sales** - sell across 30+
         countries with local currency and language support
-      - **Accessibility seating** — dedicated accessible seating management
+      - **Accessibility seating** - dedicated accessible seating management
         with companion tickets and specific access requirements
-      - **Season tickets and memberships** — manage recurring subscriptions,
+      - **Season tickets and memberships** - manage recurring subscriptions,
         season passes, and deposit collection programmes
-      - **Queue and virtual waiting room** — managed queuing system for
+      - **Queue and virtual waiting room** - managed queuing system for
         high-demand on-sales handling millions of concurrent users
       - **[SafeTix](https://www.ticketmaster.com/safetix) encrypted
-        barcodes** — dynamically refreshing encrypted barcodes that can't
+        barcodes** - dynamically refreshing encrypted barcodes that can't
         be screenshotted or counterfeited
-      - **AI-powered fraud detection** — device reputation scoring and
+      - **AI-powered fraud detection** - device reputation scoring and
         threat detection to block bots and scalpers
-      - **TikTok integration** — sell tickets directly through TikTok in
+      - **TikTok integration** - sell tickets directly through TikTok in
         20+ countries
-      - **Event templates and bulk edits** — reusable templates for floor
+      - **Event templates and bulk edits** - reusable templates for floor
         plans and pricing, with bulk editing across up to 300 events
-      - **On-platform advertising** — promoted ads within Ticketmaster's
+      - **On-platform advertising** - promoted ads within Ticketmaster's
         marketplace to boost event visibility
-      - **All-in pricing** — total cost shown upfront with no surprise
+      - **All-in pricing** - total cost shown upfront with no surprise
         fees at checkout
 
       **Chobble Tickets has features Ticketmaster doesn't offer small
       organisers:**
 
-      - **[End-to-end encryption](/features/encrypted/)** — attendee data is
+      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
-      - **[Open source](/features/open-source/)** — every line of code is
+      - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3
-      - **Self-hosting option** — run the platform on your own servers for
+      - **Self-hosting option** - run the platform on your own servers for
         free
-      - **Flat annual pricing** — £50/year with no per-ticket fees,
+      - **Flat annual pricing** - £50/year with no per-ticket fees,
         compared to Ticketmaster's ~10% + £2.50 per ticket
-      - **Full data ownership** — you control your attendee data, not
+      - **Full data ownership** - you control your attendee data, not
         Ticketmaster
-      - **No exclusive contracts** — use Chobble Tickets alongside any other
+      - **No exclusive contracts** - use Chobble Tickets alongside any other
         platform
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
       - **[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)**
-        — subscribers get automatic updates
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** — let
+        - subscribers get automatic updates
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their own price
-      - **[Daily/recurring events](/features/daily-events/)** — per-date
+      - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker
-      - **[Event groups with tiered ticketing](/features/groups/)** —
+      - **[Event groups with tiered ticketing](/features/groups/)** -
         organise related events into collections for multi-event bookings
         with a single checkout, and create ticket tiers (VIP, general
         admission, etc.) sharing a venue capacity cap
-      - **[Custom questions](/features/custom-questions/)** — add
+      - **[Custom questions](/features/custom-questions/)** - add
         multiple-choice questions to events and collect answers at checkout
       - **[Public & admin API](/features/public-api/)** and
-        **[webhooks](/features/webhooks/)** — build custom integrations,
+        **[webhooks](/features/webhooks/)** - build custom integrations,
         with [admin API](/features/admin-api/) for full event CRUD via
         API keys
-      - **[Custom email providers](/features/email-providers/)** — use
+      - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
-      - **[Customisable email templates](/features/email-templates/)** —
+      - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax
-      - **[Custom domain](/features/custom-domain/)** — get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a nice
         host-provided subdomain instantly, or point your own domain
-      - **Apple Pay and Google Pay** — accept wallet payments at checkout
+      - **Apple Pay and Google Pay** - accept wallet payments at checkout
         via Stripe
-      - **Transparent pricing** — no hidden fees, no negotiations
-      - **Community Interest Company** — run by a CIC, not a monopoly
+      - **Transparent pricing** - no hidden fees, no negotiations
+      - **Community Interest Company** - run by a CIC, not a monopoly
 
       ## An independent, no-fee alternative
 
@@ -197,7 +197,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      — a type of UK company that exists to benefit the community. All of
+      - a type of UK company that exists to benefit the community. All of
       Chobble's code is public, and anyone can run the platform on their
       own servers.
 
@@ -206,13 +206,13 @@ blocks:
       ## Pricing sources
 
       Ticketmaster does not publish a standard public fee schedule for
-      organisers — fees vary by event, venue, and contract. The pricing
+      organisers - fees vary by event, venue, and contract. The pricing
       estimate used on this page is approximate. Check the link below for
       the latest information.
 
       - [Ticketmaster UK](https://www.ticketmaster.co.uk)
-      - [Ticketmaster Business Solutions](https://business.ticketmaster.com/solutions/) — features for venues and organisers
-      - [SafeTix](https://www.ticketmaster.com/safetix) — encrypted barcode technology
+      - [Ticketmaster Business Solutions](https://business.ticketmaster.com/solutions/) - features for venues and organisers
+      - [SafeTix](https://www.ticketmaster.com/safetix) - encrypted barcode technology
       - [Chobble Tickets features](/features/)
 
   - type: cta

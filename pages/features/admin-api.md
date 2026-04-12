@@ -24,15 +24,15 @@ blocks:
 
       The admin API gives you complete CRUD control over your events:
 
-      - **List events** — fetch all your events with attendee counts
-      - **Get event** — retrieve a single event with full details
-      - **Create event** — set up new events with all options including
+      - **List events** - fetch all your events with attendee counts
+      - **Get event** - retrieve a single event with full details
+      - **Create event** - set up new events with all options including
         capacity, pricing, dates, custom fields, and more
-      - **Update event** — modify any event property, with automatic slug
+      - **Update event** - modify any event property, with automatic slug
         uniqueness checking
-      - **Delete event** — safely remove events with a confirmation step
+      - **Delete event** - safely remove events with a confirmation step
         (you must provide the event name to confirm)
-      - **Activate / deactivate** — toggle events on and off without
+      - **Activate / deactivate** - toggle events on and off without
         deleting them
 
       Every change is recorded in the
@@ -45,14 +45,14 @@ blocks:
 
       The admin API supports two authentication methods:
 
-      - **API keys** — generate keys in the admin panel, then pass them as
+      - **API keys** - generate keys in the admin panel, then pass them as
         Bearer tokens. Keys are stored securely using HMAC hashing, so the
         raw key is never saved to the database.
-      - **Session cookies** — if you're already logged in, the API accepts
+      - **Session cookies** - if you're already logged in, the API accepts
         your session cookie with a CSRF token header.
 
       API key authentication means you can integrate with CI/CD pipelines,
-      cron jobs, or any system that can make HTTP requests — no browser
+      cron jobs, or any system that can make HTTP requests - no browser
       session needed.
 
   - type: markdown
@@ -75,7 +75,7 @@ blocks:
     content: |
       ## What's next
 
-      Attendee management endpoints are coming next — read, edit, and
+      Attendee management endpoints are coming next - read, edit, and
       export attendees via the API, just like you can for events today.
 
       Combined with the [public API](/features/public-api/) (which needs

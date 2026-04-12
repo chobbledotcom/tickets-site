@@ -16,7 +16,7 @@ blocks:
     lead: >-
       SignUpGenius is the go-to tool for volunteer sign-up sheets and group
       coordination, used by over 70 million people a year. But it wasn't
-      built for event ticketing — so here's how it compares to a platform
+      built for event ticketing - so here's how it compares to a platform
       that was.
 
   - type: markdown
@@ -80,97 +80,97 @@ blocks:
 
       **SignUpGenius has features Chobble Tickets doesn't:**
 
-      - **Sign-up sheets and volunteer coordination** — the core product
+      - **Sign-up sheets and volunteer coordination** - the core product
         that made SignUpGenius famous: create sign-up sheets with time
         slots, task assignments, and item requests for potlucks, volunteer
         shifts, carpools, and group activities
-      - **Slot swapping** — participants can swap or trade sign-up slots
+      - **Slot swapping** - participants can swap or trade sign-up slots
         with each other without organiser intervention
-      - **RSVP format** — dedicated RSVP-style sign-ups for single-date
+      - **RSVP format** - dedicated RSVP-style sign-ups for single-date
         events where you need a yes/no response from invitees
-      - **Group management platform** — part of
+      - **Group management platform** - part of
         [Lumaverse Technologies](https://lumaverse.com/), a suite that
         includes volunteer management, membership tools, fundraising
         (Fundly), appointment scheduling (TimeTap), and nonprofit
         management (NonProfitEasy)
-      - **Recurring sign-ups** — create repeating sign-up sheets for
+      - **Recurring sign-ups** - create repeating sign-up sheets for
         weekly or monthly activities like sports rotas or church
         volunteering
-      - **Mobile app** — native iOS and Android app for managing sign-ups
+      - **Mobile app** - native iOS and Android app for managing sign-ups
         and checking in participants
-      - **Text message reminders** — SMS notifications to participants on
+      - **Text message reminders** - SMS notifications to participants on
         higher-tier plans
-      - **Free-text custom questions** — add open-ended questions beyond
+      - **Free-text custom questions** - add open-ended questions beyond
         multiple choice (Chobble supports multiple-choice custom questions)
-      - **Built-in themes and templates** — choose from pre-designed
+      - **Built-in themes and templates** - choose from pre-designed
         themes to style your sign-up pages (paid tiers)
-      - **Multi-administrator access** — invite up to 10 administrators
+      - **Multi-administrator access** - invite up to 10 administrators
         on Gold, unlimited on Platinum and Enterprise, each with their
         own login
-      - **Enterprise portal pages** — branded landing pages consolidating
+      - **Enterprise portal pages** - branded landing pages consolidating
         all your organisation's sign-ups in one place
-      - **Discount codes** — create percentage or fixed-amount discounts
+      - **Discount codes** - create percentage or fixed-amount discounts
         for payment collections
-      - **Free tier** — basic sign-up sheet creation at no cost
+      - **Free tier** - basic sign-up sheet creation at no cost
         (ad-supported)
 
       **Chobble Tickets has features SignUpGenius doesn't:**
 
-      - **[QR code tickets](/features/qr-code-check-ins/)** — every
+      - **[QR code tickets](/features/qr-code-check-ins/)** - every
         attendee gets a unique, scannable QR code for check-in at the door
         (SignUpGenius Tickets has basic ticketing, but the core sign-up
         product does not issue scannable tickets)
-      - **[End-to-end encryption](/features/encrypted/)** — attendee data
+      - **[End-to-end encryption](/features/encrypted/)** - attendee data
         is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just
         stored in a database
-      - **[Open source](/features/open-source/)** — every line of code is
+      - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
-      - **Self-hosting option** — run the platform on your own servers for
+      - **Self-hosting option** - run the platform on your own servers for
         free, with no licence fee
-      - **Flat annual pricing** — £50/year with no per-ticket fees, no
+      - **Flat annual pricing** - £50/year with no per-ticket fees, no
         matter how many you sell
-      - **No ads, ever** — your event pages are clean and professional,
+      - **No ads, ever** - your event pages are clean and professional,
         with no third-party advertisements (SignUpGenius free tier displays
         ads on participant-facing pages)
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** —
+      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
-      - **[Capacity management](/features/overbooking-prevention/)** —
+      - **[Capacity management](/features/overbooking-prevention/)** -
         automatic capacity limits with 5-minute payment holds to prevent
         overbooking
-      - **[Refund processing](/features/refunds/)** — process individual
+      - **[Refund processing](/features/refunds/)** - process individual
         or bulk refunds directly from the admin panel
-      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** —
+      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
         subscribers get automatic calendar updates
-      - **[RSS feeds](/features/rss-and-calendar-feeds/)** — syndicate
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate
         your events to feed readers
-      - **[Tiered ticket types via groups](/features/groups/)** — create
+      - **[Tiered ticket types via groups](/features/groups/)** - create
         VIP, early bird, and other tiers using event groups with a shared
         capacity cap (max attendees per group)
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** —
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** -
         let attendees choose their own price
-      - **[Daily/recurring events](/features/daily-events/)** — per-date
+      - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
-      - **[Admin API](/features/admin-api/)** — full CRUD for events via
+      - **[Admin API](/features/admin-api/)** - full CRUD for events via
         API keys, so you can automate event management from scripts or
         external tools
-      - **[Public API](/features/public-api/)** — authenticated REST API
+      - **[Public API](/features/public-api/)** - authenticated REST API
         for reading event and attendee data
-      - **[Webhooks](/features/webhooks/)** — outbound POST on every
+      - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for custom integrations
-      - **[Custom email providers](/features/email-providers/)** — use
+      - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
-      - **[Customisable email templates](/features/email-templates/)** —
+      - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** — get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a nice
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain — either way, not signupgenius.com
-      - **[Embeddable ticket widgets](/features/embeddable-widget/)** —
+        domain - either way, not signupgenius.com
+      - **[Embeddable ticket widgets](/features/embeddable-widget/)** -
         embed inline ticket sales on your own website
-      - **No marketing to your attendees** — your audience stays yours,
+      - **No marketing to your attendees** - your audience stays yours,
         with no cross-promotion of competing events or third-party ads
-      - **Community Interest Company** — run by a CIC, not a
+      - **Community Interest Company** - run by a CIC, not a
         private-equity-backed platform
 
   - type: markdown
@@ -181,7 +181,7 @@ blocks:
       the free tier. When you share a sign-up page with participants, they
       see third-party display ads alongside your content. Users
       consistently report these ads as distracting, unprofessional, and
-      sometimes inappropriate — not ideal when you're sharing a page with
+      sometimes inappropriate - not ideal when you're sharing a page with
       parents, church members, or professional contacts.
 
       Removing ads requires at least the Silver plan ($8.99/month annual,
@@ -202,7 +202,7 @@ blocks:
       your data to another platform.
 
       SignUpGenius is owned by Lumaverse Technologies, which is backed by
-      Providence Strategic Growth (PSG) and L Squared Capital Partners —
+      Providence Strategic Growth (PSG) and L Squared Capital Partners -
       two private equity firms. Private equity ownership typically means
       the platform is optimised for revenue growth, which can lead to
       price increases, feature restrictions on lower tiers, and more
@@ -218,7 +218,7 @@ blocks:
       ## When SignUpGenius might be the better choice
 
       - You need sign-up sheets for volunteer coordination, potlucks,
-        carpools, or task assignments — this is what SignUpGenius was built
+        carpools, or task assignments - this is what SignUpGenius was built
         for and it's genuinely excellent at it
       - You want RSVP-style responses (yes/no/maybe) rather than ticket
         sales
@@ -258,7 +258,7 @@ blocks:
 
       SignUpGenius was founded in October 2008 by Dan Rutledge in
       Charlotte, North Carolina. Rutledge built it to solve a problem he
-      encountered organising volunteers at his church — the classic
+      encountered organising volunteers at his church - the classic
       clipboard-passed-around-a-room scenario. His wife, Angel Rutledge,
       joined as COO and CMO in 2011. The company grew from 98,000 users in
       2009 to over 66 million unique visitors by 2016, entirely as a
@@ -291,7 +291,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a UK legal structure that locks the company's assets for
+      (CIC) - a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on
       Chobble as a company.
@@ -301,18 +301,18 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
-      Fees may change — check the links below for the latest figures.
+      Fees may change - check the links below for the latest figures.
 
-      - [SignUpGenius pricing](https://www.signupgenius.com/pricing) — Free, Silver ($8.99/month), Gold ($22.49/month), Platinum ($44.99/month), Enterprise
-      - [SignUpGenius cost FAQ](https://www.signupgenius.com/support/sign-up-genius-cost) — payment collection fees: 5% + $0.50 per transaction
-      - [SignUpGenius Tickets](https://tickets.signupgenius.com/) — $0.25 per ticket plus Stripe processing
-      - [SignUpGenius payment fees](https://www.signupgenius.com/support/collect-money-fees) — fee options for organisers and participants
-      - [SignUpGenius features](https://www.signupgenius.com/features) — full feature list across plans
-      - [SignUpGenius premium plan overview](https://www.signupgenius.com/blog/premium-feature-overview) — Silver, Gold, Platinum, Enterprise comparison
-      - [PSG investment announcement](https://www.signupgenius.com/about/strategic-investment-providence-equity.cfm) — 2017 majority investment by Providence Strategic Growth
-      - [Lumaverse Technologies launch](https://www.signupgenius.com/about/signupgenius-launches-lumaverse-technologies.cfm) — 2020 platform launch
-      - [L Squared recapitalisation](https://psgequity.com/news/l-squared-recapitalizes-lumaverse-technologies) — 2023 recapitalisation alongside PSG
-      - [SignUpGenius 100 million participants](https://www.signupgenius.com/news/signupgenius-empowers-organizers-to-engage-over-100-million-participants-through-comprehensive-group-management-platform) — 2025 growth announcement
+      - [SignUpGenius pricing](https://www.signupgenius.com/pricing) - Free, Silver ($8.99/month), Gold ($22.49/month), Platinum ($44.99/month), Enterprise
+      - [SignUpGenius cost FAQ](https://www.signupgenius.com/support/sign-up-genius-cost) - payment collection fees: 5% + $0.50 per transaction
+      - [SignUpGenius Tickets](https://tickets.signupgenius.com/) - $0.25 per ticket plus Stripe processing
+      - [SignUpGenius payment fees](https://www.signupgenius.com/support/collect-money-fees) - fee options for organisers and participants
+      - [SignUpGenius features](https://www.signupgenius.com/features) - full feature list across plans
+      - [SignUpGenius premium plan overview](https://www.signupgenius.com/blog/premium-feature-overview) - Silver, Gold, Platinum, Enterprise comparison
+      - [PSG investment announcement](https://www.signupgenius.com/about/strategic-investment-providence-equity.cfm) - 2017 majority investment by Providence Strategic Growth
+      - [Lumaverse Technologies launch](https://www.signupgenius.com/about/signupgenius-launches-lumaverse-technologies.cfm) - 2020 platform launch
+      - [L Squared recapitalisation](https://psgequity.com/news/l-squared-recapitalizes-lumaverse-technologies) - 2023 recapitalisation alongside PSG
+      - [SignUpGenius 100 million participants](https://www.signupgenius.com/news/signupgenius-empowers-organizers-to-engage-over-100-million-participants-through-comprehensive-group-management-platform) - 2025 growth announcement
       - [Chobble Tickets features](/features/)
 
   - type: cta

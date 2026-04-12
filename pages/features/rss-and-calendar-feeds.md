@@ -49,9 +49,9 @@ blocks:
     content: |
       ## References
 
-      - [RFC 5545](https://datatracker.ietf.org/doc/html/rfc5545) — iCalendar (ICS) specification
+      - [RFC 5545](https://datatracker.ietf.org/doc/html/rfc5545) - iCalendar (ICS) specification
       - [RSS 2.0 specification](https://www.rssboard.org/rss-specification)
-      - [Mobilizon](https://joinmobilizon.org/) — federated event platform by Framasoft
+      - [Mobilizon](https://joinmobilizon.org/) - federated event platform by Framasoft
 
   - type: cta
     title: Keep attendees informed

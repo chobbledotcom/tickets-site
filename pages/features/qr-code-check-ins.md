@@ -52,7 +52,7 @@ blocks:
       > it's now all simple."
 
       > "It's super quick and efficient, plus it also means that the code is
-      > unique to the user — so you can't have someone share a screenshot of
+      > unique to the user - so you can't have someone share a screenshot of
       > the QR code and scam free tickets."
 
       > "You can have as many people as you want checking people into the

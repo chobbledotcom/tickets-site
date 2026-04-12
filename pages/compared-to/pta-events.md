@@ -29,8 +29,8 @@ blocks:
       PTO Events, Clubs Hub, and Charity Hub services.
 
       Chobble Tickets is a general-purpose ticketing platform run as a
-      Community Interest Company. It focuses on doing core ticketing well —
-      with flat pricing, open source code, and encrypted attendee data — but
+      Community Interest Company. It focuses on doing core ticketing well -
+      with flat pricing, open source code, and encrypted attendee data - but
       doesn't have PTA-specific features like prize draws or volunteer
       coordination.
 
@@ -48,7 +48,7 @@ blocks:
         included at no extra cost.
 
       Both plans let you pass fees on to buyers, so the PTA itself may pay
-      nothing — though this means attendees pay more per ticket.
+      nothing - though this means attendees pay more per ticket.
 
       With Chobble Tickets, it's a flat £50/year (£25 for charities and
       community groups), with no per-ticket fees or platform commission. You
@@ -104,7 +104,7 @@ blocks:
         reports to help claim back 25% from HMRC on eligible donations
         (the PTA is responsible for submitting claims to HMRC)
 
-      Chobble Tickets doesn't have any of these fundraising tools — it's
+      Chobble Tickets doesn't have any of these fundraising tools - it's
       focused purely on event ticketing.
 
       ### Volunteer management
@@ -133,7 +133,7 @@ blocks:
 
       ### Data and privacy
 
-      PTA Events is a proprietary platform — you can't inspect how your data
+      PTA Events is a proprietary platform - you can't inspect how your data
       is stored or processed. Chobble Tickets is [open
       source](/features/open-source/) and
       [encrypts](/features/encrypted/) all attendee data at rest using hybrid
@@ -159,9 +159,9 @@ blocks:
 
       ## When PTA Events makes more sense
 
-      If your PTA needs the full fundraising toolkit — prize draws,
+      If your PTA needs the full fundraising toolkit - prize draws,
       auctions, 100 clubs, volunteer management, merchandise sales, Gift Aid
-      collection, and parent communications — then PTA Events is
+      collection, and parent communications - then PTA Events is
       purpose-built for that. It's designed specifically for the school
       fundraising context and its features reflect years of feedback from
       PTAs. The ability to pass platform fees to buyers means the PTA's
@@ -176,7 +176,7 @@ blocks:
       If your PTA mainly runs ticketed events and doesn't need auctions,
       raffles, or volunteer tools, Chobble Tickets is simpler and cheaper. At
       £25/year for community groups with no per-ticket fees, the savings
-      add up quickly — especially for popular events
+      add up quickly - especially for popular events
       where percentage fees eat into your fundraising total.
 
       It's also a better fit if you care about data privacy and encryption,
@@ -194,13 +194,13 @@ blocks:
       was incorporated in 2015 and is based in Bedford. It was founded by
       David Cooke, who built the platform in 2013 for his children's school
       PTA. The company is owned by David Cooke, Geraldine Cooke, and James
-      Stonor — all individuals, with no corporate shareholders.
+      Stonor - all individuals, with no corporate shareholders.
 
       PTA Events is an independently owned private limited company.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a UK legal structure that locks the company's assets for
+      (CIC) - a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
@@ -210,20 +210,20 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change — check the links below for the latest figures.
+      may change - check the links below for the latest figures.
 
-      - [PTA Events fees](https://ptaevents.freshdesk.com/support/solutions/articles/17000091635-what-fees-are-charged-) — 3.95% (Starter) or 1.5% (Premium)
-      - [PTA Events Premium plan benefits](https://ptaevents.freshdesk.com/support/solutions/articles/17000091633-what-are-the-benefits-of-the-premium-plan-) — Qflow scanning, advertising tools, reduced fees
-      - [PTA Events transaction costs](https://ptaevents.freshdesk.com/support/solutions/articles/17000089759-how-much-does-it-cost-to-process-transactions-) — Stripe processing fees
-      - [PTA Events overview](https://ptaevents.freshdesk.com/support/solutions/articles/17000138628-overview-of-pta-events) — platform features and history
-      - [PTA Events scanning and Qflow](https://ptaevents.freshdesk.com/support/solutions/articles/17000065774-scanning-tickets-vouchers) — Qflow pricing by school size
+      - [PTA Events fees](https://ptaevents.freshdesk.com/support/solutions/articles/17000091635-what-fees-are-charged-) - 3.95% (Starter) or 1.5% (Premium)
+      - [PTA Events Premium plan benefits](https://ptaevents.freshdesk.com/support/solutions/articles/17000091633-what-are-the-benefits-of-the-premium-plan-) - Qflow scanning, advertising tools, reduced fees
+      - [PTA Events transaction costs](https://ptaevents.freshdesk.com/support/solutions/articles/17000089759-how-much-does-it-cost-to-process-transactions-) - Stripe processing fees
+      - [PTA Events overview](https://ptaevents.freshdesk.com/support/solutions/articles/17000138628-overview-of-pta-events) - platform features and history
+      - [PTA Events scanning and Qflow](https://ptaevents.freshdesk.com/support/solutions/articles/17000065774-scanning-tickets-vouchers) - Qflow pricing by school size
       - [PTA Events website](https://www.pta-events.co.uk/)
       - [Chobble Tickets features](/features/)
-      - [PTA Events Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/09404586) — corporate structure
+      - [PTA Events Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/09404586) - corporate structure
 
   - type: cta
     title: Simple school event ticketing
-    description: Flat pricing with no per-ticket fees — more of your fundraising goes where it should.
+    description: Flat pricing with no per-ticket fees - more of your fundraising goes where it should.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
