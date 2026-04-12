@@ -191,10 +191,8 @@ blocks:
         domain — either way, not eventbrite.co.uk
       - **No marketing to your attendees** — your audience stays yours,
         with no cross-promotion of competing events
-      - **Community Interest Company** — run by a CIC, not a VC-backed
-        startup (Eventbrite was [acquired by Bending
-        Spoons](https://www.ticketnews.com/2026/03/bending-spoons-finalizes-purchase-of-eventbrite/)
-        in March 2026)
+      - **Community Interest Company** — run by a CIC, not a company
+        owned by a private equity firm
 
       ## Data ownership
 
@@ -240,24 +238,17 @@ blocks:
     content: |
       ## Who owns Eventbrite?
 
-      Eventbrite was founded in 2006 by Kevin Hartz, Julia Hartz, and Renaud
-      Visage in San Francisco. It went public on the NYSE in 2018 at a
-      valuation of approximately $1.76 billion.
-
-      In March 2026, Eventbrite was taken private by
+      Eventbrite is owned by
       [Bending Spoons](https://bendingspoons.com), an Italian software
-      company based in Milan, in an all-cash deal worth approximately $500
-      million. Bending Spoons' portfolio also includes Evernote, Meetup,
-      WeTransfer, Vimeo, and StreamYard, among others. Their model involves
-      acquiring established technology brands and restructuring them for
-      profitability.
+      company that buys well-known tech brands like Evernote, Meetup, and
+      WeTransfer. Before that, Eventbrite was a publicly traded company on
+      the New York Stock Exchange.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      — a type of UK company that exists to benefit the community. All of
+      Chobble's code is public, and anyone can run the platform on their
+      own servers.
 
   - type: markdown
     content: |
@@ -272,9 +263,7 @@ blocks:
       - [Eventbrite features — sell tickets](https://www.eventbrite.com/organizer/features/sell-tickets/)
       - [Eventbrite AI-powered marketing tools](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/) — 17% CPC and 30% campaign launch claims
       - [Eventbrite retargeting ROI](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/) — 6x average ROI claim
-      - [Bending Spoons acquisition (March 2026)](https://www.ticketnews.com/2026/03/bending-spoons-finalizes-purchase-of-eventbrite/)
       - [Chobble Tickets features](/features/)
-      - [Eventbrite acquisition announcement](https://investor.eventbrite.com/press-releases/press-releases-details/2025/Eventbrite-Enters-into-Definitive-Agreement-to-Be-Acquired-by-Bending-Spoons-for-Roughly-500-Million-to-Accelerate-Eventbrites-Next-Phase-of-Growth/) — Bending Spoons acquisition details
 
   - type: cta
     title: Try Chobble Tickets
