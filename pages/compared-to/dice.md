@@ -22,16 +22,16 @@ blocks:
     content: |
       ## Pricing comparison
 
-      [DICE](https://dice.fm) doesn't publicly disclose its fees - pricing is
-      negotiated per partnership, so what you pay depends on your deal. Industry
-      estimates suggest fees of around 10% per ticket (bundled, including
-      payment processing), though your actual rate may differ.
+      [DICE](https://dice.fm) doesn't put its prices on its website - you have
+      to talk to them and agree a deal. Industry estimates suggest fees of
+      around 10% per ticket, but what you actually pay will depend on your
+      agreement.
 
       Chobble Tickets is a flat £50/year (£25 for charities and community
       groups) with no per-ticket fees at all. You only pay Stripe or Square
-      processing fees on top. If you sell more than about 35 tickets at £15
-      each in a year, Chobble Tickets is already cheaper - and the savings
-      grow quickly from there.
+      processing fees on top. If you sell more than a few dozen tickets in a
+      year at typical prices, Chobble Tickets is already cheaper - and the
+      savings grow the more you sell.
 
   - type: include
     file: price-comparator.html
@@ -58,12 +58,13 @@ blocks:
       to your account with standard processing times. You're always in control
       of your own payment processor account.
 
-      ## The app requirement
+      ## The app
 
-      DICE requires attendees to download their mobile app to access tickets.
-      This adds friction for buyers - not everyone wants another app on their
-      phone just to attend a gig. It also means DICE controls the attendee
-      experience, not you.
+      DICE is built around its mobile app - tickets live in the app as a QR
+      code tied to your phone number. This is how their anti-scalping system
+      works: tickets can't easily be screenshotted and resold because they're
+      locked to the app. If you can't use the app, DICE does offer limited web
+      access as a fallback, but the app is very much the main event.
 
       Chobble Tickets works in any browser on any device. Attendees get their
       tickets via email with a QR code, and can add them to Apple or Google
@@ -79,6 +80,8 @@ blocks:
       - Capacity management to prevent overselling
       - Refund processing
       - Apple Pay and Google Pay at checkout
+      - Upfront, all-in pricing (the price you see is the price you pay - no
+        surprise fees at checkout)
 
       DICE has some features Chobble Tickets doesn't, and vice versa:
 
@@ -90,19 +93,14 @@ blocks:
         past attendance, which can drive extra ticket sales you wouldn't
         get on your own
       - **Spotify and Apple Music integration** - personalised event
-        recommendations based on fans' listening history, plus checkout
-        through Spotify and YouTube
-      - **Anti-scalping via app lock** - tickets are bound to the DICE app
-        and can't be screenshotted or forwarded, making them essentially
-        impossible to resell on secondary markets
+        recommendations based on fans' listening history, plus the option
+        to buy tickets through Spotify
+      - **Anti-scalping via app lock** - tickets are tied to the DICE app
+        and can't easily be screenshotted or forwarded, making them very
+        hard to resell on secondary markets
       - **Waiting list with face-value resale** - fans can join a waitlist
         for sold-out events, and if a ticket holder can't attend, DICE
-        automatically resells their ticket at face value
-      - **Dynamic pricing** - automatically adjust ticket prices based on
-        demand
-      - **All-in pricing** - fees are bundled into the displayed price so
-        fans see the total cost upfront with no surprise charges at
-        checkout
+        automatically resells their ticket at the original price
       - **Marketing attribution** - track which channels and campaigns are
         driving ticket sales via the
         [MIO dashboard](https://mio.dice.fm)
@@ -190,24 +188,26 @@ blocks:
     content: |
       ## Who owns DICE?
 
-      DICE was founded in London and is now owned by
-      [Fever](https://feverup.com), a large live entertainment company.
-      Before that, DICE raised hundreds of millions in venture capital
-      from investors including SoftBank.
+      DICE was started in London and grew into one of the most well-known
+      music ticketing apps in the world. Along the way it raised a lot of
+      money from big investors, including SoftBank, one of the world's
+      largest investment funds. It was then bought by
+      [Fever](https://feverup.com), a large live entertainment company that
+      helps people discover events in cities around the world.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      - a type of UK company that exists to benefit the community. All of
-      Chobble's code is public, and anyone can run the platform on their
-      own servers.
+      - a type of UK company that exists to benefit the community, not to
+      make profit for shareholders. All of Chobble's code is public, and
+      anyone can run the platform on their own servers.
 
   - type: markdown
     content: |
       ## Pricing sources
 
-      The pricing information on this page was verified in March 2026. DICE
-      does not publicly disclose its fees - the estimate used here is based
-      on industry analysis and publicly available comparisons.
+      DICE does not publicly disclose its fees - the estimate used here is
+      based on industry analysis and publicly available comparisons. Check
+      the links below for the latest information.
 
       - [DICE](https://dice.fm) - fees negotiated per partnership (not publicly listed)
       - [DICE for partners](https://dice.fm/partners) - DICE's partner information and features
