@@ -40,13 +40,14 @@ blocks:
     content: |
       ## Data ownership and privacy
 
-      When you sell tickets through RA, your attendees become part of the RA
-      world. RA uses their data to promote other events and grow its own
-      audience — so you're helping build RA's fanbase as much as your own.
+      When you sell tickets through RA, your attendees become part of RA's
+      platform. RA markets its own stuff to your customers — other events,
+      other promoters, editorial picks. Your attendee data lives on their
+      servers, and you're building RA's audience as much as your own.
 
       With Chobble Tickets, attendee data is encrypted and stays under your
-      control. There's no platform promoting other events to your audience,
-      and no marketing emails sent to your attendees.
+      control. Nobody markets anything to your attendees. Your audience is
+      yours.
 
       ## Payouts
 
@@ -159,7 +160,8 @@ blocks:
         fully white-label experience
       - **[Embeddable widget](/features/embeddable-widget/)** - drop an
         iframe into your existing website
-      - **No marketing emails to attendees** - your audience stays yours
+      - **No marketing to your attendees** - we don't market our own stuff
+        to your customers, ever
       - **Flat annual pricing** - no per-ticket fees, no matter how many you
         sell
 
@@ -179,7 +181,7 @@ blocks:
 
       - You want simple, flat-rate pricing with no per-ticket fees
       - Privacy and encryption matter to you
-      - You don't want a platform promoting other events to your audience
+      - You don't want a platform marketing its own stuff to your customers
       - You run events outside the electronic music scene (or a mix of
         event types)
       - You're a community group, charity, or school (£25/year)
