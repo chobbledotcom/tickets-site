@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: ticketek
 title: Chobble Tickets vs Ticketek
 meta_title: Independent Alternative to Ticketek | Chobble Tickets
-meta_description: Chobble Tickets vs Ticketek: flat annual pricing with no per-ticket fees, encrypted attendee data, and no exclusive venue contracts.
+meta_description: "Chobble Tickets vs Ticketek: flat annual pricing with no per-ticket fees, encrypted attendee data, and no exclusive venue contracts."
 permalink: /compared-to/ticketek/
 eleventyNavigation:
   key: vs Ticketek

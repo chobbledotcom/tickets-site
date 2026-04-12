@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: dice
 title: Chobble Tickets vs DICE
 meta_title: Open Source Alternative to DICE | Chobble Tickets
-meta_description: Chobble Tickets vs DICE: flat annual pricing with no per-ticket fees, encrypted attendee data, and no app required.
+meta_description: "Chobble Tickets vs DICE: flat annual pricing with no per-ticket fees, encrypted attendee data, and no app required."
 permalink: /compared-to/dice/
 eleventyNavigation:
   key: vs DICE

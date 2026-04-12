@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: tito
 title: Chobble Tickets vs Tito
 meta_title: Open Source Alternative to Tito | Chobble Tickets
-meta_description: Chobble Tickets vs Tito: flat annual pricing with no per-ticket fees, encrypted attendee data, and open source code.
+meta_description: "Chobble Tickets vs Tito: flat annual pricing with no per-ticket fees, encrypted attendee data, and open source code."
 permalink: /compared-to/tito/
 eleventyNavigation:
   key: vs Tito

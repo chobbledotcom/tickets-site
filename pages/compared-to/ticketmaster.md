@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: ticketmaster
 title: Chobble Tickets vs Ticketmaster
 meta_title: Independent Alternative to Ticketmaster | Chobble Tickets
-meta_description: Chobble Tickets vs Ticketmaster: flat annual pricing with no per-ticket fees, encrypted attendee data, and no exclusive venue contracts.
+meta_description: "Chobble Tickets vs Ticketmaster: flat annual pricing with no per-ticket fees, encrypted attendee data, and no exclusive venue contracts."
 permalink: /compared-to/ticketmaster/
 eleventyNavigation:
   key: vs Ticketmaster

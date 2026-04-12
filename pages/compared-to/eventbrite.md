@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: eventbrite
 title: Chobble Tickets vs Eventbrite
 meta_title: Open Source Alternative to Eventbrite | Chobble Tickets
-meta_description: Chobble Tickets vs Eventbrite: flat annual pricing with no per-ticket fees, encrypted attendee data, and no attendee data collection.
+meta_description: "Chobble Tickets vs Eventbrite: flat annual pricing with no per-ticket fees, encrypted attendee data, and no attendee data collection."
 permalink: /compared-to/eventbrite/
 eleventyNavigation:
   key: vs Eventbrite
