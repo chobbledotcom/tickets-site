@@ -46,8 +46,7 @@ blocks:
       servers, and you're building RA's audience as much as your own.
 
       With Chobble Tickets, attendee data is encrypted and stays under your
-      control. Nobody markets anything to your attendees. Your audience is
-      yours.
+      control. Chobble does not market anything to your attendees.
 
       ## Payouts
 
@@ -160,8 +159,8 @@ blocks:
         fully white-label experience
       - **[Embeddable widget](/features/embeddable-widget/)** - drop an
         iframe into your existing website
-      - **No marketing to your attendees** - we don't market our own stuff
-        to your customers, ever
+      - **No marketing to your attendees** - Chobble does not market to
+        your customers
       - **Flat annual pricing** - no per-ticket fees, no matter how many you
         sell
 
