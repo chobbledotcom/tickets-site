@@ -14,8 +14,8 @@ blocks:
     badge: Open Source & Encrypted
     title: Open source event ticketing with no per-ticket fees
     lead: >-
-      Chobble Tickets is an open source ticketing platform. Pay a flat annual
-      fee. No per-ticket charges. Attendee data stays with you.
+      Chobble Tickets is an open source ticketing platform with a flat annual
+      fee, no per-ticket charges, and no attendee data collection.
     buttons:
       - text: GitHub
         href: https://github.com/chobbledotcom/tickets
