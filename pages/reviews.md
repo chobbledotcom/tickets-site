@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Reviews - Chobble Tickets
 meta_title: Reviews - Chobble Tickets
-meta_description: Read what our customers say about Chobble Tickets - real reviews from event organisers who use the platform.
+meta_description: Reviews from event organisers who use Chobble Tickets.
 permalink: /reviews/
 eleventyNavigation:
   key: Reviews
@@ -13,7 +13,7 @@ blocks:
     class: gradient
     title: Reviews
     lead: >-
-      What our customers say about Chobble Tickets.
+      What organisers say about Chobble Tickets.
 
   - type: markdown
     content: |

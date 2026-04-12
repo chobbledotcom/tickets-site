@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: tito
 title: Chobble Tickets vs Tito
 meta_title: Open Source Alternative to Tito | Chobble Tickets
-meta_description: Looking for an alternative to Tito? Chobble Tickets offers flat annual pricing with no per-ticket fees, full data ownership, and no platform lock-in.
+meta_description: Chobble Tickets vs Tito: flat annual pricing with no per-ticket fees, encrypted attendee data, and open source code.
 permalink: /compared-to/tito/
 eleventyNavigation:
   key: vs Tito
@@ -218,7 +218,7 @@ blocks:
 
   - type: cta
     title: Try Chobble Tickets
-    description: Keep your data, your revenue, and your sanity.
+    description: Sign up for managed hosting at £50/year, or self-host for free.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register

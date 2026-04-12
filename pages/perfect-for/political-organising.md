@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Political Organising - Chobble Tickets
 meta_title: Ticketing for Political Organising - Chobble Tickets
-meta_description: Privacy-first event ticketing for political groups with encrypted attendee data, open source and self-hostable.
+meta_description: Event ticketing for political groups with encrypted attendee data, open source and self-hostable.
 permalink: /perfect-for/political-organising/
 eleventyNavigation:
   key: Political Organising
@@ -14,33 +14,33 @@ blocks:
     class: gradient
     title: Ticketing for political organising
     lead: >-
-      Privacy-first event management where attendee data is encrypted at rest,
-      and you can self-host it yourself if you want full control.
+      Attendee data is encrypted at rest, and you can run the platform on your
+      own servers so no data leaves your infrastructure.
 
   - type: split
     title: Privacy by design
     reveal_content: left
     content: |
-      When you're organising politically, the privacy of your supporters
-      matters. Chobble Tickets encrypts all personally identifiable information
-      at rest using
+      Chobble Tickets encrypts all personally identifiable information at rest
+      using
       [hybrid RSA-OAEP + AES-256-GCM encryption](https://chobbledotcom.github.io/tickets/docs/crypto.ts).
 
-      Unlike commercial platforms that mine attendee data for marketing, Chobble
-      Tickets is open source and designed to protect your members, and you
-      can inspect every line of the code yourself.
+      Commercial ticketing platforms store attendee data and use it for
+      marketing. Chobble Tickets is open source — every line of code is public
+      under AGPLv3 and you can read it yourself.
 
-      For maximum control, self-host it on your own infrastructure so no data
-      ever leaves your servers.
+      You can run Chobble Tickets on your own servers, so no data leaves your
+      infrastructure.
     figure_type: code
     figure_filename: Privacy first
     figure_code: |
-      Encrypted at rest. Open source. Self-hostable.
-      Your supporters' data stays protected.
+      Attendee data is encrypted at rest.
+      All code is public under AGPLv3.
+      Deploy on your own servers.
 
   - type: features
     section_class: alt
-    header_intro: "## Why organisers choose us"
+    header_intro: "## Features for political organisers"
     items:
       - icon: "hugeicons:source-code"
         title: Fully auditable
@@ -50,10 +50,10 @@ blocks:
         description: One-click deploy to DigitalOcean, Heroku, Koyeb, or Render, or run it in Docker, on Fly.io, or on Bunny Edge Scripting.
       - icon: "hugeicons:security-check"
         title: No data harvesting
-        description: Built by a community interest company rather than a VC-funded startup, so we have no interest in your attendee data.
+        description: Built by a community interest company. There is no advertising revenue and no data economy subsidising the price.
 
   - type: cta
-    title: Protect your supporters
+    title: Get started with encrypted event ticketing
     description: Self-host for free, or get managed hosting from £25/year for community groups.
     button:
       text: Get Started
