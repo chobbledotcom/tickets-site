@@ -19,12 +19,12 @@ blocks:
 
   - type: markdown
     content: |
-      ## No open-core tricks
+      ## The full codebase is open source
 
-      Some "open source" ticketing platforms only open-source the basics, then
-      charge for the features you actually need. Chobble Tickets doesn't do
-      that - the hosted version and the self-hosted version are exactly the
-      same code.
+      Some ticketing platforms release only part of their code under an open
+      source licence, then charge for the features you actually need. The
+      hosted version and the self-hosted version of Chobble Tickets are exactly
+      the same code.
 
       The entire codebase is on
       [GitHub](https://github.com/chobbledotcom/tickets) under the AGPLv3
@@ -33,8 +33,8 @@ blocks:
       ## Built by a community interest company
 
       Chobble is a community interest company (CIC), not a VC-funded startup.
-      There's no pressure to extract value from users or lock people into a
-      platform - the software exists to be useful.
+      There are no investors expecting a return, and no incentive to make
+      switching away difficult.
 
       ## Three ways to deploy
 

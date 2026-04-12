@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Encrypted by default
     lead: >-
-      All personally identifiable information is encrypted at rest as the
-      baseline, not as a premium add-on.
+      All personally identifiable information is encrypted at rest. This is
+      included in every plan, not sold as a paid add-on.
 
   - type: markdown
     content: |

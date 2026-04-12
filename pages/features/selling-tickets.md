@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Selling Tickets - Chobble Tickets
 meta_title: Selling Tickets - Chobble Tickets
-meta_description: Accept payments, prevent overbooking, handle refunds, and set booking rules - everything you need to sell tickets with confidence.
+meta_description: Accept payments, prevent overbooking, handle refunds, and set booking rules for your events.
 permalink: /features/selling-tickets/
 eleventyNavigation:
   key: Selling Tickets
@@ -15,7 +15,7 @@ blocks:
     title: Selling tickets
     lead: >-
       Accept payments, prevent overbooking, handle refunds, and set your own
-      booking rules - everything you need to sell tickets with confidence.
+      booking rules.
 
   - type: features
     items:

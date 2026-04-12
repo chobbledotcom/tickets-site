@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: No Spying - Chobble Tickets
 meta_title: No Spying - Chobble Tickets
-meta_description: Chobble CIC has no interest in your customer data. We provide hosting for a platform, not a walled garden.
+meta_description: Chobble does not collect attendee data or use your events to market to your attendees.
 permalink: /features/no-spying/
 eleventyNavigation:
   key: No Spying
@@ -14,58 +14,49 @@ blocks:
     class: gradient
     title: No spying
     lead: >-
-      We don't market to your customers, collect their data, or even want to
-      know who they are. You're getting a platform, not a walled garden.
+      Chobble does not collect attendee data or use your events to market to
+      your attendees. You are getting a ticketing platform, not a marketplace.
 
   - type: markdown
     content: |
-      ## Your customers are yours
+      ## Your attendee data
 
-      Chobble CIC is a community interest company that provides hosting for a
-      ticketing platform. That's it. We have no interest in marketing to your
-      customers, collecting data on them, or even knowing anything about them
-      or your events.
+      Chobble is a community interest company that provides ticketing software.
+      Chobble does not collect attendee data, build audience profiles, or
+      market to your attendees.
 
-      We don't store any of your customer data as it passes through our
-      systems. We don't build profiles, track behaviour, or sell insights.
+      Attendee data is not stored by Chobble as it passes through the platform.
       Your attendees' personal information is encrypted at rest and only
       decrypted when you, the event organiser, choose to view it.
 
-      ## No walled garden
+      ## No attendee accounts or marketing
 
-      Many ticketing platforms exist to funnel your customers into their
-      ecosystem. They'll email your attendees about other events, recommend
-      competitors, and build their marketplace on the back of your audience.
+      Many ticketing platforms encourage attendees to create accounts and
+      follow other events on the platform. Your attendees will receive emails
+      from those platforms about other organisers' events.
 
-      Chobble does none of this. When someone buys a ticket to your event,
-      that's a transaction between you and your customer. We don't insert
-      ourselves into that relationship. There is no Chobble account your
-      attendees need to create, no Chobble app they're prompted to download,
-      and no Chobble newsletter they get subscribed to.
+      Chobble does not do this. Attendees do not need a Chobble account. They
+      are not prompted to download an app. They are not added to a mailing list.
 
       ## No rights to your data
 
-      We don't claim any rights to your customer data. We don't use it for
-      analytics, advertising, or product development. We don't share it with
-      third parties. We don't even aggregate it.
+      Chobble does not use attendee data for analytics, advertising, or product
+      development. It is not shared with third parties or aggregated.
 
-      You are the data controller. We are just providing the infrastructure
-      for you to run your events. If you leave Chobble, your customer
-      relationships leave with you - because they were never ours to begin
-      with.
+      You are the data controller. If you leave Chobble, you take your attendee
+      data with you.
 
-      ## A different model
+      ## How Chobble makes money
 
-      Most platforms offer a "free" tier because they make money from your
-      data and your customers' attention. Chobble charges a straightforward
-      annual fee because that's the only way we make money. There's no hidden
-      data economy subsidising the price.
+      Many platforms offer a free tier. Their income comes from advertising and
+      from selling or using attendee data. Chobble's income comes from the
+      annual fee you pay. There is no advertising revenue and no data economy.
 
-      As a community interest company, Chobble exists to serve its users, not
-      to extract value from them or their customers.
+      As a community interest company, Chobble cannot distribute profit to
+      shareholders. The annual fee covers running costs.
 
   - type: cta
-    title: A platform that respects your customers
+    title: Attendee data is not collected or shared
     description: Sign up for managed hosting at £50/year, or self-host and keep everything on your own infrastructure.
     button:
       text: Sign Up
