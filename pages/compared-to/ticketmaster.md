@@ -188,25 +188,18 @@ blocks:
     content: |
       ## Who owns Ticketmaster?
 
-      Ticketmaster was founded in 1976 in Phoenix, Arizona. In 2010, it
-      merged with Live Nation to form
-      [Live Nation Entertainment](https://www.livenationentertainment.com)
-      (NYSE: LYV), an American multinational that promotes over 50,000
-      events and handles 600+ million tickets annually.
-
-      Live Nation's dominance has drawn significant regulatory scrutiny. In
-      2024, the US Department of Justice and a coalition of state attorneys
-      general filed an
-      [antitrust lawsuit](https://en.wikipedia.org/wiki/United_States_v._Live_Nation_Entertainment)
-      alleging monopolistic practices in ticketing. As of early 2026,
-      litigation is ongoing.
+      Ticketmaster is owned by
+      [Live Nation Entertainment](https://www.livenationentertainment.com),
+      one of the biggest entertainment companies in the world. The US
+      government has [taken them to
+      court](https://en.wikipedia.org/wiki/United_States_v._Live_Nation_Entertainment)
+      for having too much control over the ticketing industry.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      — a type of UK company that exists to benefit the community. All of
+      Chobble's code is public, and anyone can run the platform on their
+      own servers.
 
   - type: markdown
     content: |
