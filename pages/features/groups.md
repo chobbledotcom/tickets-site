@@ -24,9 +24,9 @@ blocks:
 
       ## Multi-event bookings
 
-      Running a festival with multiple stages? A conference with multiple
-      tracks? A series of workshops? Group your events together and let
-      attendees book several at once with a single checkout.
+      For a festival with multiple stages, a conference with multiple
+      tracks, or a series of workshops, you can group your events together
+      and let attendees book several at once with a single checkout.
 
       The dashboard includes a multi-booking link builder that generates
       combined-event URLs (like `/ticket/event1+event2`), so attendees can

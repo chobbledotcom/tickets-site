@@ -35,7 +35,7 @@ blocks:
       records.
 
   - type: cta
-    title: Your data, your way
+    title: Export your attendee data
     description: Export attendee data whenever you need it.
     button:
       text: Get Started
