@@ -22,21 +22,16 @@ blocks:
     content: |
       ## Pricing comparison
 
-      [Resident Advisor](https://ra.co) (RA) charges approximately 10% per
-      ticket as a service fee, which includes payment processing. RA doesn't
-      publicly list exact fee rates - they negotiate with promoters - but 10% is
-      the figure widely cited by third-party comparison sites. On a £15 ticket,
-      that's roughly £1.50 gone in RA fees.
+      [Resident Advisor](https://ra.co) (RA) adds a service fee on top of
+      every ticket sold. The buyer pays this fee, not the promoter — so RA
+      says it's free for promoters to sell tickets. But the fee still makes
+      tickets more expensive for fans. RA doesn't publish exact fee rates
+      and negotiates with promoters individually.
 
       Chobble Tickets is a flat £50/year (£25 for charities and community
       groups) with no per-ticket fees at all. You only pay Stripe or Square
-      processing fees on top (1.5% + 20p in the UK). If you sell more than
-      about 35 tickets at £15 each in a year, Chobble Tickets is already
-      cheaper.
-
-      On higher-priced tickets the gap grows fast. A £30 ticket costs roughly
-      £3.00 in RA platform fees - that's under 20 tickets to break even
-      against a full year of Chobble Tickets.
+      processing fees on top. Once you're selling more than a handful of
+      events a year, Chobble Tickets usually works out cheaper.
 
   - type: include
     file: price-comparator.html
@@ -46,21 +41,18 @@ blocks:
       ## Data ownership and privacy
 
       When you sell tickets through RA, your attendees become part of the RA
-      ecosystem. RA markets events to your audience, and your attendee data
-      lives on their platform. You're building RA's audience as much as your
-      own.
+      world. RA uses their data to promote other events and grow its own
+      audience — so you're helping build RA's fanbase as much as your own.
 
-      With Chobble Tickets, attendee data is encrypted with hybrid RSA/AES
-      encryption and stays under your control. There's no platform
-      cross-promoting other events to your audience, and no marketing emails
-      sent to your attendees.
+      With Chobble Tickets, attendee data is encrypted and stays under your
+      control. There's no platform promoting other events to your audience,
+      and no marketing emails sent to your attendees.
 
       ## Payouts
 
-      RA pays promoters after the event - typically the Tuesday following your
-      event, with an additional 1–3 business days for funds to reach your
-      account. That means your ticket revenue is locked up until after the
-      event is over.
+      RA pays promoters after the event. Payments are processed on Tuesdays
+      and typically take a few more business days to reach your bank account.
+      That means your ticket money is locked up until after the event.
 
       Chobble Tickets uses Stripe or Square directly, so payments go straight
       to your account with standard processing times. You're always in control
@@ -84,27 +76,27 @@ blocks:
       **[Resident Advisor](https://pro.ra.co/ra-tickets) has features
       Chobble Tickets doesn't:**
 
-      - **Electronic music community** - RA reaches [millions of
-        fans](https://pro.ra.co/promoter) across [100+
-        countries](https://pro.ra.co/ra-tickets), specifically looking
-        for club nights, festivals, and electronic music events
-      - **Automated marketing to 2 million subscribers** - RA sends push
-        notifications, emails, and web notifications to fans who've opted
-        in, promoting your events alongside editorial picks
-      - **Curated editorial and RA Picks** - 50+ local ambassadors curate
-        weekly newsletters and homepage features that drive traffic to
-        events
+      - **Electronic music community** - RA reaches
+        [millions of electronic music fans](https://pro.ra.co/promoter)
+        across [dozens of countries](https://ra.co/about), specifically
+        looking for club nights, festivals, and electronic music events
+      - **Automated marketing to millions of subscribers** - RA sends
+        push notifications, emails, and web notifications to fans who've
+        opted in, promoting your events alongside editorial picks
+      - **Curated editorial and RA Picks** - a team of local ambassadors
+        around the world curate weekly newsletters and homepage features
+        that drive traffic to events
       - **RA Bumps** - paid priority placement in event listings to boost
         visibility above other events
       - **Ticket resale with anti-tout technology** - built-in face-value
-        resale with barcode withholding until 24 hours before the event to
-        prevent fraud ([RA claim](https://pro.ra.co/ra-tickets) 2-4%
+        resale with barcode withholding until shortly before the event to
+        prevent fraud ([RA claim](https://pro.ra.co/ra-tickets) up to 2%
         additional revenue on sold-out events)
       - **Abandoned basket recovery** - automated emails to fans who
         started but didn't complete checkout ([RA
         claim](https://pro.ra.co/ra-tickets) 5% conversion uplift)
       - **2-click checkout** - streamlined payment with PayPal, iDEAL,
-        Bancontact, and Venmo (US) alongside Apple Pay and Google Pay
+        and Bancontact alongside Apple Pay and Google Pay
         ([RA claim](https://pro.ra.co/ra-tickets) 33% conversion
         uplift)
       - **DJ charts, reviews, and mix hosting** - artist profiles, DJ
@@ -116,8 +108,8 @@ blocks:
         real-time attendance monitoring, and live multi-device syncing
       - **Secret venue reveals** - automated emails revealing the venue
         location to ticket holders, for invite-only or secret events
-      - **30+ currency support** - sell across 100+ countries with local
-        payment methods
+      - **Multiple currency support** - sell across many countries with
+        local payment methods
       - **RA Guide** - city guides and venue reviews that drive footfall
         to events and build audience awareness
       - **Guest list management** - import guest lists, add guests at the
@@ -173,69 +165,63 @@ blocks:
 
       ## When Resident Advisor might be better
 
-      - You're running electronic music events and want access to RA's
-        audience of clubbers and music fans
-      - Event discovery matters more to you than saving on fees - RA's
-        listings drive real ticket sales
+      - You're running electronic music events and want RA's big audience
+        of clubbers and music fans to find you
+      - Being discovered by new people matters more to you than saving on
+        fees
       - You need built-in ticket resale for events that sell out
-      - You want your events associated with the RA brand and its credibility
+      - You want your events connected to the RA brand and its reputation
         in the electronic music world
-      - You have very low volume (under ~35 tickets/year) and prefer paying
+      - You only sell a small number of tickets per year and prefer paying
         per ticket over an annual fee
 
       ## When Chobble Tickets might be better
 
-      - You want predictable, flat-rate pricing with no per-ticket fees
+      - You want simple, flat-rate pricing with no per-ticket fees
       - Privacy and encryption matter to you
-      - You don't want a platform marketing to your attendees or promoting
-        other events to your audience
-      - You run events outside the electronic music scene (or a mix of event
-        types)
+      - You don't want a platform promoting other events to your audience
+      - You run events outside the electronic music scene (or a mix of
+        event types)
       - You're a community group, charity, or school (£25/year)
       - You want Apple/Google Wallet integration, calendar feeds, or RSS
       - You value open source and the ability to self-host
-      - You already have your own audience and don't rely on a platform for
-        discovery
+      - You already have your own audience and don't need a platform to
+        help people find you
 
   - type: markdown
     content: |
       ## Who owns Resident Advisor?
 
-      Resident Advisor was founded in 2001 in Sydney, Australia by Nick
-      Sabine and Paul Clement. Both co-founders each hold between 25% and
-      50% of the company's shares according to
-      [Companies House records](https://find-and-update.company-information.service.gov.uk/company/05871093/persons-with-significant-control).
-      CEO David Selby has stated publicly: "We're an independent business -
-      we don't have investors." RA became a
-      [certified B Corporation](https://www.bcorporation.net/en-us/find-a-b-corp/company/resident-advisor/)
-      in 2024, with an overall B Impact score of 87.6. The company is
-      headquartered in London with offices in Berlin, Los Angeles, New
-      York, and Melbourne, and has approximately 200+ employees.
+      Resident Advisor started in Australia in the early 2000s as a small
+      website about dance music. It grew into a big global platform and is
+      now based in London, with offices in several cities around the world
+      including Berlin, New York, Los Angeles, and Tokyo. The company is
+      independently owned by its founders — it doesn't have outside
+      investors — and is a
+      [certified B Corporation](https://www.bcorporation.net/en-us/find-a-b-corp/company/resident-advisor/),
+      which means it meets certain social and environmental standards.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      (CIC) — a type of UK company that has to use its money to help the
+      community. All of Chobble's code is public, and anyone can run the
+      platform on their own computers without depending on Chobble as a
+      company.
 
   - type: markdown
     content: |
       ## Pricing sources
 
-      The pricing information on this page was verified in March 2026.
-      Resident Advisor does not publicly list exact fee rates - they are
-      negotiated with promoters. The approximately 10% figure used here is
-      based on third-party comparison sites and industry reports. Fees may
-      change - check the links below for the latest information.
+      Resident Advisor does not publicly list exact fee rates — they are
+      negotiated with promoters. Fees may change, so check the links below
+      for the latest information.
 
       - [RA Ticket Fees](https://support.ra.co/article/177-service-fees) - RA's support article on service fees
       - [RA Tickets](https://pro.ra.co/ra-tickets) - RA's ticketing features for promoters
       - [RA Pro for Promoters](https://pro.ra.co/promoter) - promoter tools, analytics, and marketing
       - [RA Pro](https://pro.ra.co/) - information for promoters selling tickets on RA
-      - [Resident Advisor on WeTicket](https://www.weticket.com/ticketing-system/resident-advisor) - third-party comparison citing 10% per ticket
+      - [RA About](https://ra.co/about) - company information
       - [Chobble Tickets features](/features/)
-      - [Resident Advisor Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/05871093) - corporate structure
 
   - type: cta
     title: Try Chobble Tickets
