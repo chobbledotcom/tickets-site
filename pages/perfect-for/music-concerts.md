@@ -10,7 +10,7 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: hero
-    full_width: true
+    container_width: full
     class: gradient
     title: Ticketing for music concerts
     lead: >-

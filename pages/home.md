@@ -9,7 +9,7 @@ eleventyNavigation:
   order: 0
 blocks:
   - type: hero
-    full_width: true
+    container_width: full
     class: gradient
     badge: Open Source & Encrypted
     title: Event ticketing that respects you
@@ -88,7 +88,7 @@ blocks:
       [Read more reviews &rarr;](/reviews/)
 
   - type: split-full
-    full_width: true
+    container_width: full
     variant: dark-left
     reveal_left: left
     reveal_right: right

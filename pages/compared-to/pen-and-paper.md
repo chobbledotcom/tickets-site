@@ -9,7 +9,7 @@ eleventyNavigation:
   parent: Compared To
 blocks:
   - type: hero
-    full_width: true
+    container_width: full
     class: gradient
     title: Chobble Tickets vs Pen and Paper
     lead: >-

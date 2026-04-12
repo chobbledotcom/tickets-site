@@ -10,7 +10,7 @@ eleventyNavigation:
   order: 3
 blocks:
   - type: hero
-    full_width: true
+    container_width: full
     class: gradient
     title: Multi-user management
     lead: >-

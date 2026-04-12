@@ -9,7 +9,7 @@ eleventyNavigation:
   order: 50
 blocks:
   - type: hero
-    full_width: true
+    container_width: full
     class: gradient
     title: Reviews
     lead: >-
