@@ -18,7 +18,7 @@ content:
       - { name: header_image, type: image, label: Header Image }
       - { name: header_text, type: string, label: Header Text }
       - { name: subtitle, type: string, label: Subtitle }
-      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: body, label: Body, type: rich-text }
       - { name: meta_description, type: string, label: Meta Description }
       - { name: meta_title, type: string, label: Meta Title }
       - name: eleventyNavigation
@@ -41,7 +41,7 @@ content:
       - { name: header_image, type: image, label: Header Image }
       - { name: date, label: Date, type: date }
       - { name: subtitle, type: string, label: Subtitle }
-      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: body, label: Body, type: rich-text }
       - { name: header_text, type: string, label: Header Text }
       - { name: meta_description, type: string, label: Meta Description }
       - { name: meta_title, type: string, label: Meta Title }
@@ -65,7 +65,7 @@ content:
           label: "{title}"
       - { name: price, label: Price, type: string }
       - { name: etsy_url, label: Etsy URL, type: string }
-      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: body, label: Body, type: rich-text }
       - { name: features, type: string, label: Features, list: true }
       - name: gallery
         type: image
@@ -84,7 +84,7 @@ content:
     filename: "{primary}.md"
     fields:
       - { name: title, type: string, label: Title }
-      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: body, label: Body, type: rich-text }
       - { name: featured, label: Featured, type: boolean }
       - { name: header_image, type: image, label: Header Image }
       - { name: header_text, type: string, label: Header Text }
@@ -103,12 +103,7 @@ content:
       - { name: snippet, type: string, label: Role }
       - { name: image, type: image, label: Profile Image }
       - { name: header_image, type: image, label: Header Image }
-      - {
-          name: body,
-          label: Biography,
-          type: code,
-          options: { language: markdown },
-        }
+      - { name: body, label: Biography, type: rich-text }
         
   - name: reviews
     label: Reviews
@@ -118,7 +113,7 @@ content:
     fields:
       - { name: name, type: string, label: Name }
       - { name: url, type: string, label: URL }
-      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: body, label: Body, type: rich-text }
       - name: products
         label: Products
         type: reference
@@ -146,7 +141,7 @@ content:
       - { name: event_date, label: Event Date, type: date, required: false }
       - { name: recurring_date, type: string, label: Recurring Date (e.g. "Every Friday at 2 PM"), required: false }
       - { name: event_location, type: string, label: Event Location }
-      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: body, label: Body, type: rich-text }
       - { name: header_text, type: string, label: Header Text }
       - { name: meta_title, type: string, label: Meta Title }
       - { name: meta_description, type: string, label: Meta Description }
@@ -159,7 +154,7 @@ content:
     filename: '{primary}.md'
     fields:
       - { name: name, type: string, label: Name }
-      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: body, label: Body, type: rich-text }
 
   - name: menus
     label: Menus
@@ -171,7 +166,7 @@ content:
       - { name: order, type: number, label: Order }
       - { name: header_image, type: image, label: Header Image }
       - { name: description, type: string, label: Description }
-      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: body, label: Body, type: rich-text }
       - { name: meta_title, type: string, label: Meta Title }
       - { name: meta_description, type: string, label: Meta Description }
 
@@ -192,7 +187,7 @@ content:
           search: "title"
           value: "{path}"
           label: "{title}"
-      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: body, label: Body, type: rich-text }
 
   - name: menu-items
     label: Menu Items
@@ -214,7 +209,7 @@ content:
           value: "{path}"
           label: "{name}"
       - { name: description, type: string, label: Description }
-      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: body, label: Body, type: rich-text }
   
   - name: homepage
     label: Homepage Settings
