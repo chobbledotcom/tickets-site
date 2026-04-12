@@ -31,12 +31,13 @@ blocks:
 
       You can run Chobble Tickets on your own servers, so no data leaves your
       infrastructure.
-    figure_type: code
-    figure_filename: Privacy first
-    figure_code: |
-      Attendee data is encrypted at rest.
-      All code is public under AGPLv3.
-      Deploy on your own servers.
+    figure_type: html
+    figure_html: |
+      <ul>
+        <li>Attendee data is encrypted at rest.</li>
+        <li>All code is public under AGPLv3.</li>
+        <li>Deploy on your own servers.</li>
+      </ul>
 
   - type: features
     section_class: alt

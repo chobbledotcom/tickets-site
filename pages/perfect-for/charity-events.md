@@ -33,11 +33,12 @@ blocks:
       Running a fundraising collection or raffle? Use
       [purchasable events](/features/purchasable-events/) to collect
       donations and payments without a physical event to attend.
-    figure_type: code
-    figure_filename: Pricing
-    figure_code: |
-      £25/year for charities
-      Every penny of ticket sales goes to you
+    figure_type: html
+    figure_html: |
+      <ul>
+        <li>£25/year for charities</li>
+        <li>Every penny of ticket sales goes to you</li>
+      </ul>
 
   - type: features
     section_class: alt
