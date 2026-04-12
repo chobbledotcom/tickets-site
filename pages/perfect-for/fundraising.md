@@ -23,7 +23,7 @@ blocks:
     content: |
       Most payment collection platforms take a percentage of every
       transaction. On a £10,000 fundraiser, that's hundreds of pounds going
-      to the platform instead of your cause.
+      to the platform rather than your fundraising total.
 
       Chobble Tickets charges a flat **£25/year** for charities and
       community groups (£50/year for others) with no per-transaction
@@ -49,7 +49,7 @@ blocks:
     items:
       - icon: "hugeicons:money-receive-square"
         title: '<a href="/features/stripe-and-square/">Pay what you want</a>'
-        description: Let supporters choose their own contribution above a minimum, so generous donors can give more.
+        description: Let supporters choose their own contribution above a minimum, so supporters can contribute more than the minimum if they choose to.
       - icon: "hugeicons:ticket-01"
         title: Raffle ticket sales
         description: Sell numbered raffle entries with quantity selection - supporters can buy multiple tickets in a single checkout.
@@ -71,7 +71,7 @@ blocks:
       ## Who uses Chobble Tickets for fundraising?
 
       - **Charities and nonprofits** running annual appeals or emergency
-        fundraisers, who need to keep as much as possible for the cause
+        fundraisers, who need to keep as much of what they raise as possible
       - **PTAs and school groups** collecting trip contributions, book fair
         payments, and class photo money without spreadsheets and cash
       - **Sports clubs** collecting membership dues, kit deposits, and
@@ -87,7 +87,7 @@ blocks:
 
   - type: cta
     title: Get the charity discount
-    description: Sign up for managed hosting at just £25/year for charities and community groups.
+    description: Sign up for managed hosting at £25/year for charities and community groups.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register

@@ -46,7 +46,7 @@ blocks:
 
   - type: markdown
     content: |
-      ## What customers say
+      ## What organisers say
 
       > "The QR system is a game changer! No more holding data on paper,
       > it's now all simple."
@@ -62,7 +62,7 @@ blocks:
       [Read more reviews &rarr;](/reviews/)
 
   - type: cta
-    title: Simple check-ins
+    title: Scan tickets at the door
     description: All you need is a phone camera to scan QR codes at the door.
     button:
       text: Get Started

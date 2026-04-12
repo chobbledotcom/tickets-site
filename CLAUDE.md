@@ -253,6 +253,7 @@ condescending. It means:
 | cutting-edge | remove it |
 | best-in-class | remove it |
 | solution | tool, platform, or software |
+| actually | remove it — speculative and inauthentic |
 
 ---
 
@@ -276,6 +277,10 @@ Write neutral, factual statements. Do not:
 - Use filler words ("simply", "just", "of course", "easily")
 - Use three-word punchy slogans
 - Use alliteration for effect
+- Use strings of short punchy sentences as a substitute for prose ("Pay
+  a flat annual fee. No per-ticket charges. Attendee data stays with
+  you.") — this pattern feels like a sales pitch. Write in complete
+  sentences instead.
 
 State what is true. Let the facts make the argument.
 

@@ -16,7 +16,7 @@ blocks:
     lead: >-
       SignUpGenius is the go-to tool for volunteer sign-up sheets and group
       coordination, used by over 70 million people a year. But it wasn't
-      built for event ticketing - so here's how it compares to a platform
+      built for event ticketing - so here is how it compares to a platform
       that was.
 
   - type: markdown
@@ -65,7 +65,7 @@ blocks:
       SignUpGenius is a group coordination platform that added ticketing.
       Chobble Tickets is a ticketing platform from the ground up. They
       overlap in some areas but serve fundamentally different needs, so
-      here's an honest breakdown:
+      Here is an honest breakdown:
 
       **Both platforms share some features:**
 
@@ -225,7 +225,7 @@ blocks:
       - You need slot swapping so participants can trade shifts without
         your involvement
       - You're already using other Lumaverse tools (NonProfitEasy, Fundly,
-        TimeTap) and want everything in one ecosystem
+        TimeTap) and want everything in one platform
       - You need a mobile app for on-the-go management
       - You want a free option and don't mind ads on your pages
       - You need text message reminders to participants

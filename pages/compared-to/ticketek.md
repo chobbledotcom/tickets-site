@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: ticketek
 title: Chobble Tickets vs Ticketek
 meta_title: Independent Alternative to Ticketek | Chobble Tickets
-meta_description: Looking for an independent alternative to Ticketek? Chobble Tickets gives you flat pricing, full data ownership, encryption, and no venue lock-in.
+meta_description: "Chobble Tickets vs Ticketek: flat annual pricing with no per-ticket fees, encrypted attendee data, and no exclusive venue contracts."
 permalink: /compared-to/ticketek/
 eleventyNavigation:
   key: vs Ticketek
@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Chobble Tickets vs Ticketek
     lead: >-
-      Ticketek dominates large venue ticketing in Australia and New Zealand,
-      but here's when Chobble Tickets is the better choice.
+      Ticketek handles ticketing for large venues across Australia and New
+      Zealand. Here is how Chobble Tickets compares for smaller events.
 
   - type: markdown
     content: |
@@ -34,8 +34,8 @@ blocks:
 
       ## Fees and pricing
 
-      Ticketek's fees are notoriously opaque and vary by event, venue, and
-      contract. A typical service and handling fee is around $7–8 per
+      Ticketek does not publish a standard fee schedule, and fees vary by
+      event, venue, and contract. A typical service and handling fee is around $7–8 per
       transaction (roughly 2–3% of the transaction price), plus additional
       charges for ticket delivery, reissues, and credit card surcharges. In
       some cases the service fee can
@@ -53,8 +53,7 @@ blocks:
       ## Feature comparison
 
       Ticketek is built for a completely different market, but if you're
-      considering whether you actually need it, here's what each platform
-      offers:
+      Here is what each platform offers:
 
       **Both platforms share some features:**
 
@@ -102,9 +101,8 @@ blocks:
         on-site locations
       - **Mobile app** - dedicated consumer app for ticket management,
         browsing events, and receiving notifications
-      - **TEG Live integration** - connections to TEG's broader live
-        entertainment ecosystem including concert promotion, venue
-        operations, and touring
+      - **TEG Live integration** - connections to TEG's live entertainment
+        group including concert promotion, venue operations, and touring
 
       **Chobble Tickets has features Ticketek doesn't offer small
       organisers:**
@@ -253,7 +251,7 @@ blocks:
 
   - type: cta
     title: Independent ticketing
-    description: For events that don't need a corporate gatekeeper.
+    description: Flat annual pricing with no per-ticket fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register

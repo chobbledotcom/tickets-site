@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: ticketmaster
 title: Chobble Tickets vs Ticketmaster
 meta_title: Independent Alternative to Ticketmaster | Chobble Tickets
-meta_description: Looking for an independent alternative to Ticketmaster? Chobble Tickets gives you flat pricing, full data ownership, and no corporate middleman.
+meta_description: "Chobble Tickets vs Ticketmaster: flat annual pricing with no per-ticket fees, encrypted attendee data, and no exclusive venue contracts."
 permalink: /compared-to/ticketmaster/
 eleventyNavigation:
   key: vs Ticketmaster
@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Chobble Tickets vs Ticketmaster
     lead: >-
-      Ticketmaster dominates large venue ticketing, but here's when Chobble
-      Tickets is the better choice.
+      Ticketmaster handles ticketing for large venues and arenas. Here is how
+      Chobble Tickets compares for smaller events.
 
   - type: markdown
     content: |
@@ -32,9 +32,9 @@ blocks:
 
       ## Fees and control
 
-      Ticketmaster's fees are notoriously high and opaque, and as an
-      organiser you often have little control over the fees charged to your
-      attendees.
+      Ticketmaster does not publish a standard fee schedule for organisers.
+      Fees vary by event, venue, and contract, and as an organiser you may
+      have little control over the fees charged to your attendees.
 
       Chobble Tickets charges a flat £50/year, and payment processing fees
       from Stripe or Square are the only other cost (which go directly to the
@@ -47,9 +47,8 @@ blocks:
     content: |
       ## Feature comparison
 
-      Ticketmaster is built for a completely different market, but if you're
-      considering whether you actually need it, here's what each platform
-      offers:
+      Ticketmaster is built for a completely different market. Here is what
+      each platform offers:
 
       **Both sites share some features:**
 
@@ -156,13 +155,13 @@ blocks:
       - **Apple Pay and Google Pay** - accept wallet payments at checkout
         via Stripe
       - **Transparent pricing** - no hidden fees, no negotiations
-      - **Community Interest Company** - run by a CIC, not a monopoly
+      - **Community Interest Company** - run by a CIC, not a publicly traded company
 
-      ## An independent, no-fee alternative
+      ## An independent alternative
 
-      Using Chobble Tickets means you own your ticketing infrastructure - your
-      data, your domain, your rules - with no exclusive contracts, no platform
-      lock-in, and no corporate middleman between you and your audience.
+      With Chobble Tickets, you control your ticketing setup. Your attendee
+      data is encrypted and stays with you, you use your own domain, and there
+      are no exclusive venue contracts.
 
       ## When Ticketmaster makes sense
 
@@ -217,7 +216,7 @@ blocks:
 
   - type: cta
     title: Independent ticketing
-    description: For events that don't need a corporate gatekeeper.
+    description: Flat annual pricing with no per-ticket fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register

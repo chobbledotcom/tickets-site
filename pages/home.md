@@ -12,10 +12,10 @@ blocks:
     container_width: full
     class: gradient
     badge: Open Source & Encrypted
-    title: Event ticketing that respects you
+    title: Open source event ticketing with no per-ticket fees
     lead: >-
       Chobble Tickets is an open source ticketing platform with a flat annual
-      fee and no per-ticket charges, data harvesting, or lock-in.
+      fee, no per-ticket charges, and no attendee data collection.
     buttons:
       - text: GitHub
         href: https://github.com/chobbledotcom/tickets
@@ -42,9 +42,9 @@ blocks:
     header_intro: |
       ## Why Chobble Tickets?
 
-      Built by a community interest company with no venture capital or
-      growth-at-all-costs mentality, so we can focus on making solid software
-      that does what you need.
+      Chobble is a community interest company. There is no venture capital
+      investment and no requirement to grow at the expense of users. The
+      software is funded by flat annual subscriptions.
     items:
       - icon: "hugeicons:lock"
         title: Encrypted by default
@@ -68,7 +68,7 @@ blocks:
   - type: markdown
     section_class: alt
     content: |
-      ## What customers say
+      ## What organisers say
 
       > "The user journey is incredibly slick, reassuring, easy and fast - you
       > get them from thinking about it to having gone through and done it
@@ -119,7 +119,7 @@ blocks:
     reverse: true
     reveal_content: right
     content: |
-      **[Managed hosting is just £50/year](https://tix.chobble.com/ticket/register)** with no per-ticket fees, no
+      **[Managed hosting is £50/year](https://tix.chobble.com/ticket/register)** with no per-ticket fees, no
       percentage cuts, and no surprise charges.
 
       **50% discount** for charities, community groups, artists, and musicians.
@@ -140,8 +140,8 @@ blocks:
       No commission. No hidden fees.
 
   - type: cta
-    title: Ready to sell tickets?
-    description: Sign up for managed hosting at £50/year, or grab the source code from GitHub and self-host for free.
+    title: Get started
+    description: Sign up for managed hosting at £50/year, or download the source code from GitHub and self-host for free.
     button:
       text: Sign Up
       href: https://tix.chobble.com/ticket/register

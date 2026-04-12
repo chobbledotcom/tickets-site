@@ -14,8 +14,8 @@ blocks:
     class: gradient
     title: Chobble Tickets vs Wix Events
     lead: >-
-      Wix Events is a ticketing add-on built into the Wix website builder, so
-      here's how a dedicated, open source ticketing platform compares.
+      Wix Events is a ticketing add-on built into the Wix website builder.
+      Here is how a dedicated, open source ticketing platform compares.
 
   - type: markdown
     content: |
@@ -42,9 +42,9 @@ blocks:
     content: |
       ## Feature comparison
 
-      Wix Events is tightly integrated into Wix's website builder ecosystem,
+      Wix Events is tightly integrated into the Wix website builder,
       which gives it some advantages if you're already a Wix user - but also
-      means it's locked into that platform. Here's an honest breakdown:
+      means it's locked into that platform. Here is an honest breakdown:
 
       **Both platforms share some features:**
 
@@ -217,7 +217,7 @@ blocks:
       Wix reported its first-ever GAAP operating profit and has over 250
       million registered users worldwide.
 
-      Wix Events is one of many apps built into the Wix ecosystem -
+      Wix Events is one of many apps built into the Wix website builder -
       ticketing is a feature within a much larger website-building
       platform, not a standalone product.
 
@@ -252,7 +252,7 @@ blocks:
 
   - type: cta
     title: Try Chobble Tickets
-    description: Keep your data, your revenue, and your sanity.
+    description: Flat annual pricing, open source code, and encrypted attendee data.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register

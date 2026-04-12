@@ -15,8 +15,8 @@ blocks:
     title: Chobble Tickets vs Cheddar Up
     lead: >-
       Cheddar Up is a payment collection platform popular with PTAs,
-      nonprofits, and community groups in the US. Here's how a small,
-      open source ticketing alternative compares.
+      nonprofits, and community groups in the US. Here is how Chobble
+      Tickets compares.
 
   - type: markdown
     content: |
@@ -49,7 +49,7 @@ blocks:
       Cheddar Up is a general-purpose payment collection platform that
       added ticketing in 2023. Chobble Tickets is a purpose-built
       ticketing platform. Both serve community groups but take different
-      approaches, so here's an honest breakdown:
+      approaches. Here is an honest breakdown:
 
       **Both platforms share some features:**
 
@@ -252,7 +252,7 @@ blocks:
 
   - type: cta
     title: Try Chobble Tickets
-    description: Keep your data, your revenue, and your sanity.
+    description: Flat annual pricing, open source code, and encrypted attendee data.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
