@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Workshops - Chobble Tickets
 meta_title: Ticketing for Workshops - Chobble Tickets
-meta_description: Simple, low-cost ticketing for workshops and classes. No per-ticket fees eating into your margins, and attendees don't need to hand over personal data to a big platform.
+meta_description: Ticketing for workshops and classes with no per-ticket fees. Attendees book online without creating an account, and their data is encrypted at rest.
 permalink: /perfect-for/workshops/
 eleventyNavigation:
   key: Workshops
@@ -14,9 +14,8 @@ blocks:
     class: gradient
     title: Ticketing for workshops
     lead: >-
-      Simple, affordable ticketing for workshops and classes where the overhead
-      of big platforms doesn't make sense and attendees shouldn't need to create
-      an account just to book a spot.
+      Ticketing for workshops and classes with no per-ticket fees, where
+      attendees can book without creating an account or downloading an app.
 
   - type: split
     title: When fees eat your margins
@@ -34,8 +33,8 @@ blocks:
       margins, and your attendees pay exactly the ticket price.
 
       And because Chobble Tickets only collects the fields you choose, your
-      attendees aren't handing their home address, phone number, and card
-      details to a platform that will use it to market other events to them.
+      attendees don't share their home address, phone number, and card details
+      with a third-party platform.
     figure_type: code
     figure_filename: The maths
     figure_code: |
@@ -66,10 +65,10 @@ blocks:
     figure_filename: Before and after
     figure_code: |
       Before: DMs, emails, spreadsheets, "am I booked?"
-      After:  One link. Self-service booking. Done.
+      After:  One link. Self-service booking.
 
   - type: split
-    title: Privacy your attendees will thank you for
+    title: Attendee data is encrypted and private
     reveal_content: left
     content: |
       If you're running a workshop on something personal, like a mental health
@@ -82,14 +81,11 @@ blocks:
       doesn't build marketing profiles from your attendee list. You collect only
       what you need, like a name and email, and nothing else leaves the system.
 
-      For workshops where trust matters, that privacy isn't a nice-to-have.
-      It's the reason people feel comfortable signing up in the first place.
     figure_type: code
     figure_filename: Data you collect
     figure_code: |
       You choose: name, email, and nothing else.
-      Encrypted at rest. No marketing profiles.
-      No third-party data sharing.
+      Data is encrypted at rest with no marketing profiles.
 
   - type: markdown
     content: |
@@ -105,13 +101,13 @@ blocks:
     items:
       - icon: "hugeicons:money-receive-square"
         title: No per-ticket fees
-        description: A flat annual price means you keep every penny of ticket revenue, which makes all the difference when tickets are £5-£20.
+        description: A flat annual price means you keep all of your ticket revenue, which matters when tickets are £5-£20.
       - icon: "hugeicons:qr-code"
         title: QR code check-in
         description: Each attendee gets a QR code ticket by email. Scan them on arrival with your phone so you know exactly who's in the room.
       - icon: "hugeicons:calendar-03"
         title: Recurring sessions
-        description: Running a weekly yoga class or monthly supper club? Set up daily events with per-date capacity and let people book the session that suits them.
+        description: For recurring sessions like weekly yoga classes or monthly supper clubs, set up daily events with per-date capacity and let people book the session that suits them.
 
   - type: cta
     title: Start selling tickets to your workshop

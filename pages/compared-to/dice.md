@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: dice
 title: Chobble Tickets vs DICE
 meta_title: Open Source Alternative to DICE | Chobble Tickets
-meta_description: Looking for an alternative to DICE? Chobble Tickets offers flat annual pricing with no per-ticket fees, full data ownership, no app required, and no platform lock-in. Compare pricing and features.
+meta_description: Chobble Tickets vs DICE: flat annual pricing with no per-ticket fees, encrypted attendee data, and no app required.
 permalink: /compared-to/dice/
 eleventyNavigation:
   key: vs DICE
@@ -15,8 +15,8 @@ blocks:
     title: Chobble Tickets vs DICE
     lead: >-
       DICE is a mobile-first ticketing platform popular with music venues and
-      live events. Here's how a small, open source alternative compares on
-      pricing, features, and data ownership.
+      live events. Here is how Chobble Tickets compares on pricing, features,
+      and data ownership.
 
   - type: markdown
     content: |
@@ -24,7 +24,7 @@ blocks:
 
       [DICE](https://dice.fm) doesn't put its prices on its website - you have
       to talk to them and agree a deal. Industry estimates suggest fees of
-      around 10% per ticket, but what you actually pay will depend on your
+      around 10% per ticket, but what you pay will depend on your
       agreement.
 
       Chobble Tickets is a flat £50/year (£25 for charities and community
@@ -40,14 +40,14 @@ blocks:
     content: |
       ## Data ownership and privacy
 
-      DICE owns the customer relationship. Your attendees become DICE users
-      first and your customers second. DICE markets other events to your
-      audience through their app, and your data lives within their ecosystem.
+      Attendees who buy through DICE become DICE users. DICE markets other
+      events to them through the app. Your attendee data is stored on DICE's
+      platform.
 
       With Chobble Tickets, attendee data is encrypted with hybrid RSA/AES
-      encryption and stays under your control. There's no platform trying to
-      cross-promote other events to your audience, and no marketing emails
-      sent to your attendees.
+      encryption and stays under your control. Chobble Tickets does not
+      market other events to your attendees and does not send them marketing
+      emails.
 
       ## Payouts
 

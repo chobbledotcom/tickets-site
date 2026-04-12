@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Chobble Tickets vs Pen and Paper
 meta_title: Digital Alternative to Paper Ticketing | Chobble Tickets
-meta_description: Ready for a digital alternative to pen-and-paper ticketing? Chobble Tickets handles RSVPs, payments, capacity, and check-in - starting free with self-hosting.
+meta_description: Chobble Tickets is a digital alternative to pen-and-paper ticketing, with payments, capacity management, QR code check-in, and encrypted attendee data.
 permalink: /compared-to/pen-and-paper/
 eleventyNavigation:
   key: vs Pen and Paper
@@ -13,8 +13,8 @@ blocks:
     class: gradient
     title: Chobble Tickets vs Pen and Paper
     lead: >-
-      Sometimes a clipboard and a guest list is all you need, but here's when
-      it makes sense to upgrade to software.
+      A clipboard and a guest list work for small gatherings. This page covers
+      what dedicated ticketing software adds.
 
   - type: markdown
     content: |
@@ -53,8 +53,8 @@ blocks:
       ## What Chobble Tickets adds over pen and paper
 
       Chobble Tickets supports free events without payment setup, so even if
-      you're not charging you can use it just for the RSVP tracking, capacity
-      management, and check-in features. Here's what you get:
+      you're not charging you can use it for the RSVP tracking, capacity
+      management, and check-in features. Here is what you get:
 
       - **[Online payments](/features/stripe-and-square/)** - accept card
         payments via Stripe or Square
@@ -77,11 +77,8 @@ blocks:
       - **[Activity logs](/features/activity-logs/)** - see who did what
         and when
 
-      Think of it as a digital alternative to the clipboard that sends
-      confirmation emails and scales when you need it to.
-
   - type: cta
-    title: Upgrade when you're ready
+    title: Get started when you're ready
     description: Start with managed hosting at £50/year, or self-host for free.
     button:
       text: Get Started
