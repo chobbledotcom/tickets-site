@@ -209,3 +209,173 @@ The project enforces strict code quality via Biome.
 4. **Run linter** - `bun run lint:fix` to auto-fix issues
 5. **Keep functions small** - Stay under complexity limit of 7
 6. **Use the #fp utilities** - They're optimized and well-tested
+
+---
+
+## Content Style Guide
+
+This guide applies to all text on the site: headings, body copy, button labels,
+calls to action, meta descriptions, hero text, captions — everything.
+
+### Who the audience is
+
+The audience is **event organisers** who are considering using Chobble Tickets
+to run their events. Write for them.
+
+Attendees are not the audience. The platform is white-labelled by default, so
+attendees may not know they are using Chobble Tickets at all. Do not write for
+them or about them as a secondary audience.
+
+---
+
+### Language and reading level
+
+Write so that a 10 year old could understand it. This does not mean being
+condescending. It means:
+
+- Use short sentences
+- Use common words
+- Put one idea in each sentence
+- Use active voice ("Chobble encrypts your data" not "your data is encrypted by Chobble")
+- Explain technical terms the first time you use them
+
+**Avoid these words and phrases entirely:**
+
+| Avoid | Use instead |
+|-------|-------------|
+| utilise | use |
+| leverage | use |
+| ecosystem | platform, or be specific |
+| empower | be specific about what the person can do |
+| seamlessly | remove it |
+| robust | be specific about what makes it reliable |
+| intuitive | remove it |
+| cutting-edge | remove it |
+| best-in-class | remove it |
+| solution | tool, platform, or software |
+
+---
+
+### British English
+
+- Spell with British conventions: organisation, colour, realise, licence (noun),
+  license (verb), -ise endings not -ize
+- Use £ for prices
+- Use day/month/year for dates
+
+---
+
+### Tone
+
+Write neutral, factual statements. Do not:
+
+- Use exclamation marks
+- Use rhetorical questions ("Ready to take control?")
+- Make emotional appeals
+- Use superlatives ("the best", "the most powerful", "unlike anyone else")
+- Use filler words ("simply", "just", "of course", "easily")
+- Use three-word punchy slogans
+- Use alliteration for effect
+
+State what is true. Let the facts make the argument.
+
+**Bad:** "Event ticketing that respects you"
+**Good:** "Open source event ticketing with no per-ticket fees"
+
+**Bad:** "Keep your data, your revenue, and your sanity"
+**Good:** "Your attendee data stays with you"
+
+**Bad:** "Ready to sell tickets?"
+**Good:** "Get started" or "Sign up"
+
+**Bad:** "A platform that respects your customers"
+**Good:** "Attendee data is encrypted and only you can read it"
+
+---
+
+### On data, ownership, and power
+
+Be direct about how commercial platforms work. Do not soften it. Do not ascribe
+motive or intent to other companies — just state observable facts about what
+happens.
+
+The facts to state are:
+- What data is collected
+- Who holds it
+- What happens with it
+- Who benefits
+
+**Bad (ascribes intent):** "Eventbrite wants to own your audience"
+**Bad (too vague):** "Eventbrite has access to attendee data"
+**Good (plain fact):** "Eventbrite stores your attendees' data and uses it to
+market other events to them"
+
+When explaining why Chobble works differently, give the structural reason:
+
+**Bad:** "We have no interest in your data"
+**Good:** "We don't collect attendee data. Our income comes from the annual fee
+you pay, not from advertising or data sales."
+
+The structural facts are:
+- Chobble is funded by flat annual fees
+- There is no advertising revenue
+- There is no data economy subsidising the price
+- Chobble is a community interest company, which means profit cannot be
+  extracted by shareholders
+
+State these as facts when relevant. Do not frame them as virtues or boasts.
+
+---
+
+### On competitors
+
+Be honest and fair. List genuine advantages that competitors have. List genuine
+disadvantages. Do not exaggerate in either direction.
+
+When stating something negative about a competitor, state it as a fact, not an
+accusation or characterisation.
+
+**Bad:** "Eventbrite traps your attendees in their ecosystem"
+**Good:** "Eventbrite encourages attendees to follow other events on the
+platform. Your attendees will receive emails from Eventbrite about other
+organisers' events."
+
+**Bad:** "Unlike bloated platforms like Eventbrite..."
+**Good:** "Eventbrite has more features than Chobble Tickets in some areas —
+see the full comparison below."
+
+When a competitor genuinely does something well, say so.
+
+Do not include specific details about competitors that are likely to change
+within a few months — ownership structures, funding rounds, named executives,
+or pricing that changes frequently. Specific prices are fine when they are
+verified and dated.
+
+---
+
+### Technical terms
+
+Explain technical terms the first time they appear on a page. Link to more
+detail where it exists. Do not lead with jargon.
+
+**Bad:** "Hybrid RSA-OAEP + AES-256-GCM encryption protects your attendees"
+**Good:** "Your attendees' personal data is encrypted. Even if someone got
+access to the server, they could not read the data without your private key.
+[The encryption uses RSA-OAEP + AES-256-GCM](link)."
+
+---
+
+### Self-determination and control
+
+When describing features that give organisers control — self-hosting, open
+source code, data ownership, choosing your own email provider — describe them
+in terms of what the organiser can actually do, not in abstract terms about
+freedom or empowerment.
+
+**Bad:** "We believe in giving you full control"
+**Good:** "You can run the platform on your own servers. No data leaves your
+infrastructure."
+
+**Bad:** "Freedom to choose your email provider"
+**Good:** "You choose which email provider sends your confirmations — Resend,
+Postmark, SendGrid, or Mailgun."
