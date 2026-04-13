@@ -74,9 +74,6 @@ blocks:
       - **eCheck payments (ACH)** - accept bank transfers at lower fees
         (1.59% on Pro, $0.95 flat on Team), giving payers a cheaper
         alternative to credit cards
-      - **Sign-up forms and slots** - create volunteer sign-up sheets,
-        potluck coordinators, and other form-based collections alongside
-        payment pages
       - **Shipping labels** - purchase and print USPS shipping labels
         directly from Cheddar Up for merchandise orders (Pro and Team)
       - **Recurring payments** - set up automatic recurring charges for
@@ -183,7 +180,6 @@ blocks:
         payments for lower transaction fees
       - You need recurring payment collection for tuition or membership
         dues
-      - You want volunteer sign-up forms alongside your event pages
       - You need a native mobile app for on-site management
 
       ## When Chobble Tickets is the better choice
