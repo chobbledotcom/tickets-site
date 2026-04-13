@@ -1,22 +1,106 @@
 [
 	{
 		"question": "Which ticketing platforms don't charge per-ticket fees?",
-		"answer": "Most ticketing platforms charge a percentage or fixed fee on every ticket sold. Chobble Tickets charges a flat annual fee of £50 with no per-ticket charges. Money from ticket sales goes directly to your Stripe or Square account."
+		"answer": "Most ticketing platforms charge a percentage or fixed fee on every ticket sold. Chobble Tickets charges a flat annual fee of £50 with no per-ticket charges. Money from ticket sales goes directly to your Stripe or Square account. The only transaction cost is the payment processor's own fee (for example, Stripe charges 1.5% + 20p in the UK)."
 	},
 	{
 		"question": "How much does Eventbrite charge per ticket?",
-		"answer": "Eventbrite charges organisers a percentage-based fee on each paid ticket, plus a fixed fee per ticket. The exact amount varies by country and pricing plan. Chobble Tickets charges no per-ticket fees. You pay £50 per year regardless of how many tickets you sell."
+		"answer": "Eventbrite charges organisers a percentage-based fee on each paid ticket, plus a fixed fee per ticket. In the UK this is typically 6.95% + £0.59 per ticket. For a £15 ticket, that means £1 to £2 goes to Eventbrite on each sale. Chobble Tickets charges no per-ticket fees. You pay £50 per year regardless of how many tickets you sell."
 	},
 	{
 		"question": "Is there a flat-rate alternative to Eventbrite?",
-		"answer": "Chobble Tickets is a flat-rate alternative to Eventbrite. You pay £50 per year for managed hosting with no per-ticket fees, no commission, and no percentage cuts. The software is open source, so you can also self-host it for free."
+		"answer": "Chobble Tickets is a flat-rate alternative to Eventbrite. You pay £50 per year for managed hosting with no per-ticket fees, no commission, and no percentage cuts. The software is open source, so you can also self-host it for free. Every feature is included at every price point."
 	},
 	{
 		"question": "What is the cheapest ticketing platform for small events?",
-		"answer": "For small events, per-ticket fees from other platforms can take a large share of your revenue. Chobble Tickets costs £50 per year with no per-ticket fees, which makes it cost-effective for events of any size. Charities, community groups, artists, and musicians get a 50% discount, bringing the cost to £25 per year."
+		"answer": "For small events, per-ticket fees from other platforms can take a large share of your revenue. A 6-7% fee on a £5 ticket leaves noticeably less for the organiser. Chobble Tickets costs £50 per year with no per-ticket fees, which makes it cost-effective for events of any size. Charities, community groups, artists, and musicians get a 50% discount, bringing the cost to £25 per year."
 	},
 	{
 		"question": "Can I sell tickets without paying commission?",
-		"answer": "With Chobble Tickets, you pay no commission on ticket sales. You connect your own Stripe or Square account and money from sales goes directly to you. The only cost is the flat annual hosting fee of £50."
+		"answer": "With Chobble Tickets, you pay no commission on ticket sales. You connect your own Stripe or Square account and money from sales goes directly to you. The only cost is the flat annual hosting fee of £50. Chobble is a community interest company. Its income comes from the annual fee, not from taking a cut of your sales."
+	},
+	{
+		"question": "What is the actual cost per ticket with Chobble Tickets?",
+		"answer": "Chobble Tickets charges no per-ticket fee. The only per-transaction cost is the payment processor's fee. Stripe charges 1.5% + 20p per transaction in the UK. Square's fees are similar. On a £15 ticket, that is about 43p to Stripe. On platforms like Eventbrite, the same ticket would cost £1 to £2 in platform fees on top of payment processing."
+	},
+	{
+		"question": "Is there a discount for charities or community groups?",
+		"answer": "Charities, community groups, artists, and musicians get a 50% discount on managed hosting, bringing the annual cost to £25. There are still no per-ticket fees. You can also self-host for free, since the entire codebase is open source under AGPLv3."
+	},
+	{
+		"question": "Is my attendee data safe?",
+		"answer": "Chobble Tickets encrypts all personally identifiable information at rest using hybrid RSA-OAEP + AES-256-GCM encryption. Names, emails, phone numbers, and addresses are encrypted before they are written to the database. Even if someone gained access to the database, they could not read the data without the encryption keys. Payment identifiers and API credentials are also encrypted with AES-256-GCM, and passwords are hashed with PBKDF2 using 600,000 iterations."
+	},
+	{
+		"question": "Can Chobble read my attendees' personal information?",
+		"answer": "On managed hosting, attendee data is decrypted on the server when you, the organiser, view it, but Chobble does not access, share, or use that data for any other purpose. If you self-host, the encryption keys never leave your infrastructure and Chobble has no access at all. Either way, Chobble does not collect attendee data, build audience profiles, or market to your attendees."
+	},
+	{
+		"question": "Does Chobble market to my attendees?",
+		"answer": "No. Chobble does not collect attendee data, build audience profiles, or send marketing emails to your attendees. Attendees do not need a Chobble account, are not prompted to download an app, and are not added to any mailing list. Many ticketing platforms encourage attendees to follow other events on the platform. Chobble does not do this. You are getting ticketing software, not a marketplace."
+	},
+	{
+		"question": "Who owns the attendee data?",
+		"answer": "You do. You are the data controller. Chobble does not claim any rights to your attendee data. It is not used for analytics, advertising, or product development, and it is not shared with third parties. You can export your attendee lists as CSV at any time. If you leave Chobble, you take your data with you."
+	},
+	{
+		"question": "What happens if I lose my admin password?",
+		"answer": "Your attendee data becomes permanently inaccessible. There is no password reset, no backdoor, and no master key. This is a deliberate design decision. It means that nobody, including Chobble, can access your data without your password. If you are concerned about this, keep a secure backup of your credentials."
+	},
+	{
+		"question": "What does open source mean for a ticketing platform?",
+		"answer": "It means the entire codebase is publicly available on GitHub under the AGPLv3 licence. You can read every line of code, verify the security claims, fork the repository, and modify the software to suit your needs. Unlike some platforms that call themselves open source but keep key features proprietary, Chobble Tickets includes every feature in the open source version. The managed hosting and the self-hosted version are the same code."
+	},
+	{
+		"question": "Can I self-host Chobble Tickets?",
+		"answer": "Yes, and it is free. You can deploy with one-click buttons for DigitalOcean, Heroku, Koyeb, and Render, or use Docker, Fly.io, or Bunny Edge Scripting. The recommended approach is to fork the GitHub repository and deploy via GitHub Actions to Bunny.net. The software compiles to a single JavaScript file and runs on edge infrastructure, so there is no traditional server to manage."
+	},
+	{
+		"question": "Is self-hosting difficult?",
+		"answer": "It depends on the deployment method. The simplest option is a one-click deploy button for platforms like DigitalOcean or Heroku. The recommended option is forking the GitHub repository and deploying to Bunny.net via GitHub Actions, which requires setting up a Bunny account and adding a few environment variables. You do not need to manage a server, configure scaling, or set up database replication. The software runs on Bunny edge scripts with a Bunny edge database."
+	},
+	{
+		"question": "What happens to my ticketing if Chobble shuts down?",
+		"answer": "Because the software is open source under AGPLv3, the code remains available on GitHub regardless of what happens to Chobble as a company. If you self-host, nothing changes. If you use managed hosting, you can switch to self-hosting at any time by forking the repository and deploying it yourself. There is no proprietary lock-in."
+	},
+	{
+		"question": "What is a community interest company?",
+		"answer": "A community interest company (CIC) is a type of UK company designed for social enterprises. Profits cannot be distributed to shareholders. There is no venture capital investment and no requirement to grow at the expense of users. Chobble's income comes from the flat annual fees that organisers pay, not from advertising, data sales, or per-ticket commissions. This structure means there is no financial incentive to collect or monetise attendee data."
+	},
+	{
+		"question": "Can I use my own domain name?",
+		"answer": "Yes. On managed hosting, you get an instant subdomain (yourname.tix.chobble.net) from day one, and you can add your own custom domain at any time. Up to three URLs can be active at the same time. If you self-host, you control the domain entirely."
+	},
+	{
+		"question": "Can I send emails from my own domain?",
+		"answer": "Yes. Chobble Tickets supports four email providers: Resend, Postmark, SendGrid, and Mailgun. You configure your own account with one of these providers in the admin settings, and confirmation emails are sent from your domain with your branding. Email templates are customisable using Liquid syntax, with built-in filters for formatting currencies and pluralisation."
+	},
+	{
+		"question": "How customisable is Chobble Tickets?",
+		"answer": "You can customise the header image, website title, and theme colours from the admin dashboard. Email templates use Liquid syntax so you can change the subject line, HTML body, and plain text body of confirmation emails. Event descriptions support Markdown formatting. You can set custom thank-you URLs to redirect attendees after booking, configure terms and conditions, and add custom multiple-choice questions to the checkout form. If you self-host, you can modify the source code itself."
+	},
+	{
+		"question": "Does Chobble Tickets support recurring or daily events?",
+		"answer": "Yes. Daily events have per-date capacity with a calendar date picker, so attendees choose which date they want to attend. You can set holiday and blackout dates to block bookings on specific days. This is designed for things like weekly classes, workshops, and attractions that run on a regular schedule."
+	},
+	{
+		"question": "Can I sell different ticket tiers like VIP and general admission?",
+		"answer": "Yes, using event groups. You create separate events for each tier (for example, VIP and general admission) and group them together. Groups can share capacity, so selling a VIP ticket reduces the number of general admission tickets available. Attendees see all the options in a single checkout. This also works for early bird and standard pricing, or adult and child tickets."
+	},
+	{
+		"question": "How do QR code check-ins work?",
+		"answer": "Every ticket gets a unique URL with a QR code. Attendees receive the QR code in their confirmation email and can add it to Apple Wallet or Google Wallet. At the event, staff scan the QR code using any phone camera, with no app required. There is also a built-in QR scanner accessible from the event page in the admin area. The system detects duplicate scans and warns if a ticket belongs to a different event."
+	},
+	{
+		"question": "Can I integrate Chobble Tickets with other tools?",
+		"answer": "Yes. Chobble Tickets has a public JSON API for event listings and booking (no authentication required), an admin API with HMAC-secured keys for full event management (create, update, delete, activate, and deactivate events), and webhooks that send a POST request on every booking. Webhooks can connect to Slack, Zapier, CRMs, or any service that accepts HTTP requests. There are also ICS calendar feeds and RSS feeds for event listings."
+	},
+	{
+		"question": "What features does Chobble Tickets not have?",
+		"answer": "Chobble Tickets does not have an event discovery marketplace, built-in email marketing campaigns, social media advertising tools, promo codes, reserved seating with venue maps, waitlists, multi-currency support, virtual event hosting, a mobile app for organisers, or phone support. If you need event discovery to find new audiences, or venue-specific seating maps, a larger platform like Eventbrite may be a better fit. Chobble is designed for organisers who already have an audience and want to keep their revenue and their data."
+	},
+	{
+		"question": "What payment providers does Chobble Tickets support?",
+		"answer": "Chobble Tickets supports Stripe and Square. You enter your API key in the admin settings and the webhook endpoint configures itself automatically. You can set fixed prices, pay-what-you-want pricing with optional minimum and maximum amounts, or run free events with no payment setup needed. Refunds can be issued individually or in bulk from the admin area."
 	}
 ]
