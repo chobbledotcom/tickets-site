@@ -1,0 +1,9 @@
+{% assign current_section = "" %}
+{% for item in faq %}
+{% if item.section != current_section %}
+{% assign current_section = item.section %}
+<h2>{{ item.section }}</h2>
+{% endif %}
+<h3>{{ item.question }}</h3>
+<p>{{ item.answer }}</p>
+{% endfor %}
