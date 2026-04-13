@@ -248,6 +248,19 @@ content:
           - { name: RSS, type: string, label: RSS }
       - { name: map_embed_src, type: string, label: Map Embed URL }
       
+  - name: faq
+    label: FAQ
+    type: file
+    path: _data/faq.json
+    fields:
+      - name: items
+        label: FAQ Items
+        type: object
+        list: true
+        fields:
+          - { name: question, type: string, label: Question }
+          - { name: answer, type: string, label: Answer }
+
   - name: meta
     label: Meta Configuration
     type: file

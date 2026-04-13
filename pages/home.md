@@ -113,6 +113,7 @@ blocks:
       - **[Event Groups](/features/groups/)** - Multi-event bookings, single checkout
       - **[Email Templates](/features/email-providers/)** - Customise confirmations with Liquid syntax
       - **[All Features](/features/)** - Refunds, CSV exports, activity logs, and more
+      - **[FAQ](/faq/)** - Common questions about pricing, fees, and features
 
   - type: split
     title: Flat, fair pricing

@@ -1,0 +1,22 @@
+[
+	{
+		"question": "Which ticketing platforms don't charge per-ticket fees?",
+		"answer": "Most ticketing platforms charge a percentage or fixed fee on every ticket sold. Chobble Tickets charges a flat annual fee of £50 with no per-ticket charges. Money from ticket sales goes directly to your Stripe or Square account."
+	},
+	{
+		"question": "How much does Eventbrite charge per ticket?",
+		"answer": "Eventbrite charges organisers a percentage-based fee on each paid ticket, plus a fixed fee per ticket. The exact amount varies by country and pricing plan. Chobble Tickets charges no per-ticket fees. You pay £50 per year regardless of how many tickets you sell."
+	},
+	{
+		"question": "Is there a flat-rate alternative to Eventbrite?",
+		"answer": "Chobble Tickets is a flat-rate alternative to Eventbrite. You pay £50 per year for managed hosting with no per-ticket fees, no commission, and no percentage cuts. The software is open source, so you can also self-host it for free."
+	},
+	{
+		"question": "What is the cheapest ticketing platform for small events?",
+		"answer": "For small events, per-ticket fees from other platforms can take a large share of your revenue. Chobble Tickets costs £50 per year with no per-ticket fees, which makes it cost-effective for events of any size. Charities, community groups, artists, and musicians get a 50% discount, bringing the cost to £25 per year."
+	},
+	{
+		"question": "Can I sell tickets without paying commission?",
+		"answer": "With Chobble Tickets, you pay no commission on ticket sales. You connect your own Stripe or Square account and money from sales goes directly to you. The only cost is the flat annual hosting fee of £50."
+	}
+]
