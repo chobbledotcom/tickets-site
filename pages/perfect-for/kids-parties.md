@@ -17,7 +17,7 @@ blocks:
       Set up your event, share the booking link, and parents can register
       online without creating an account.
 
-  - type: split
+  - type: split-icon-links
     title: Simple for parents
     reveal_content: left
     content: |
@@ -30,12 +30,11 @@ blocks:
       You can set capacity limits so you never end up with more kids than you
       planned for, and the system holds spots for 5 minutes during payment to
       prevent overbooking.
-    figure_type: html
-    figure_html: |
-      <ul>
-        <li>Parents book online without an account.</li>
-        <li>You get a QR code door list.</li>
-      </ul>
+    figure_items:
+      - icon: "hugeicons:smart-phone-01"
+        text: "Parents book online without an account."
+      - icon: "hugeicons:qr-code"
+        text: "You get a QR code door list."
 
   - type: features
     section_class: alt

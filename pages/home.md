@@ -115,7 +115,7 @@ blocks:
       - **[All Features](/features/)** - Refunds, CSV exports, activity logs, and more
       - **[FAQ](/faq/)** - Common questions about pricing, fees, and features
 
-  - type: split
+  - type: split-icon-links
     title: Flat, fair pricing
     reverse: true
     reveal_content: right
@@ -132,13 +132,13 @@ blocks:
       deploy to DigitalOcean, Heroku, Koyeb, and Render. Or use
       [GitHub-controlled deployments](/features/open-source/) for extra
       security where you approve every update.
-    figure_type: html
-    figure_html: |
-      <p>£50/year</p>
-      <ul>
-        <li>Unlimited events. Unlimited tickets.</li>
-        <li>No commission. No hidden fees.</li>
-      </ul>
+    figure_items:
+      - icon: "hugeicons:money-receive-square"
+        text: "£50/year"
+      - icon: "hugeicons:ticket-01"
+        text: "Unlimited events. Unlimited tickets."
+      - icon: "hugeicons:credit-card"
+        text: "No commission. No hidden fees."
 
   - type: cta
     title: Get started

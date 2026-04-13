@@ -17,7 +17,7 @@ blocks:
       Attendee data is encrypted at rest and never shared with third parties.
       Your guest list stays private.
 
-  - type: split
+  - type: split-icon-links
     title: Your attendees have real reasons for privacy
     reveal_content: left
     content: |
@@ -36,15 +36,15 @@ blocks:
       [hybrid RSA-OAEP + AES-256-GCM encryption](https://chobbledotcom.github.io/tickets/docs/crypto.ts).
       Even if someone gained access to the database, they could not read
       attendee names or contact details without your private key.
-    figure_type: html
-    figure_html: |
-      <ul>
-        <li>Attendee data is encrypted at rest.</li>
-        <li>Only you hold the decryption key.</li>
-        <li>No platform staff can read your guest list.</li>
-      </ul>
+    figure_items:
+      - icon: "hugeicons:lock"
+        text: "Attendee data is encrypted at rest."
+      - icon: "hugeicons:security-check"
+        text: "Only you hold the decryption key."
+      - icon: "hugeicons:view-off"
+        text: "No platform staff can read your guest list."
 
-  - type: split
+  - type: split-icon-links
     title: What happens on commercial platforms
     reveal_content: right
     content: |
@@ -63,15 +63,15 @@ blocks:
       no recommendation engine, and no marketing emails sent to your
       attendees. The only emails they receive are the booking confirmation and
       any messages you choose to send yourself.
-    figure_type: html
-    figure_html: |
-      <ul>
-        <li>No "similar events" recommendations.</li>
-        <li>No marketing emails to your attendees.</li>
-        <li>No event discovery or public directory.</li>
-      </ul>
+    figure_items:
+      - icon: "hugeicons:notification-03"
+        text: 'No "similar events" recommendations.'
+      - icon: "hugeicons:mail-01"
+        text: "No marketing emails to your attendees."
+      - icon: "hugeicons:globe-02"
+        text: "No event discovery or public directory."
 
-  - type: split
+  - type: split-icon-links
     title: Your event, your branding
     reveal_content: left
     content: |
@@ -88,13 +88,13 @@ blocks:
       For events where attendees prefer not to have the name of a ticketing
       platform appearing in their email inbox or bank statement alongside the
       event name, this matters.
-    figure_type: html
-    figure_html: |
-      <ul>
-        <li>Your domain, your branding.</li>
-        <li>No public event directory.</li>
-        <li>No third-party account required.</li>
-      </ul>
+    figure_items:
+      - icon: "hugeicons:globe-02"
+        text: "Your domain, your branding."
+      - icon: "hugeicons:view-off"
+        text: "No public event directory."
+      - icon: "hugeicons:smart-phone-01"
+        text: "No third-party account required."
 
   - type: features
     section_class: alt

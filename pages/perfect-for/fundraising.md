@@ -17,7 +17,7 @@ blocks:
       Collect donations, sell raffle tickets, and run fundraising campaigns
       with no per-transaction platform fees eating into what you raise.
 
-  - type: split
+  - type: split-icon-links
     title: More money for your cause
     reveal_content: left
     content: |
@@ -35,14 +35,15 @@ blocks:
       collect money for anything that doesn't involve a physical event:
       donations, raffle entries, club dues, school trip contributions, and
       more.
-    figure_type: html
-    figure_html: |
-      <ul>
-        <li>Event name: Summer Appeal 2026</li>
-        <li>Purchase only: ✓</li>
-        <li>Price: Pay what you want</li>
-        <li>Min: £5 · Suggested: £25</li>
-      </ul>
+    figure_items:
+      - icon: "hugeicons:calendar-03"
+        text: "Event name: Summer Appeal 2026"
+      - icon: "hugeicons:ticket-01"
+        text: "Purchase only: ✓"
+      - icon: "hugeicons:money-receive-square"
+        text: "Price: Pay what you want"
+      - icon: "hugeicons:credit-card"
+        text: "Min: £5 · Suggested: £25"
 
   - type: features
     section_class: alt

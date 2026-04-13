@@ -17,7 +17,7 @@ blocks:
       Sell tickets directly to your fans with no per-ticket fees, for a flat
       annual fee of £50/year.
 
-  - type: split
+  - type: split-icon-links
     title: Keep your revenue
     reveal_content: left
     content: |
@@ -30,12 +30,11 @@ blocks:
       can set fixed prices or enable pay-what-you-want for donation-based gigs.
 
       **50% discount for musicians and artists** - £25/year.
-    figure_type: html
-    figure_html: |
-      <ul>
-        <li>£50/year flat fee.</li>
-        <li>No commission on ticket sales.</li>
-      </ul>
+    figure_items:
+      - icon: "hugeicons:money-receive-square"
+        text: "£50/year flat fee."
+      - icon: "hugeicons:credit-card"
+        text: "No commission on ticket sales."
 
   - type: features
     section_class: alt
