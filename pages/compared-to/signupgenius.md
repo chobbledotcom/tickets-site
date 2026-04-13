@@ -121,6 +121,10 @@ blocks:
 
       **Chobble Tickets has features SignUpGenius doesn't:**
 
+      - **[Sign-up forms](/features/sign-up-forms/)** - create volunteer
+        sign-up sheets, potluck coordinators, and other collections by
+        setting an event as free with custom questions, with capacity
+        limits and encrypted data included
       - **[QR code tickets](/features/qr-code-check-ins/)** - every
         attendee gets a unique, scannable QR code for check-in at the door
         (SignUpGenius Tickets has basic ticketing, but the core sign-up

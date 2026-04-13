@@ -113,6 +113,9 @@ blocks:
         donations, sell raffle tickets, take membership dues, and run any
         kind of payment collection without an event to attend - not just
         ticketing
+      - **[Sign-up forms](/features/sign-up-forms/)** - create volunteer
+        sign-up sheets, potluck coordinators, and other form-based
+        collections by setting an event as free with custom questions
       - **[End-to-end encryption](/features/encrypted/)** - attendee data
         is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not
         just stored in a database
