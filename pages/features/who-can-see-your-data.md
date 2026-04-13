@@ -104,24 +104,25 @@ blocks:
     content: |
       ## Why the difference is structural
 
-      The reason Chobble Tickets has zero trackers is not a policy choice
-      that could change. It is a structural result of how the business works.
-
-      Ticketing platforms that charge per-ticket fees or offer free tiers
-      need other revenue to cover their costs. That revenue comes from
-      advertising, audience profiling, and data partnerships. To support
-      those revenue streams, they embed trackers on their pages and share
-      attendee data with advertising networks.
+      The large ticketing platforms already charge per-ticket fees. The
+      actual cost of storing an attendee record is tiny. They do not need
+      to track your attendees to cover the cost of providing the service.
+      They charge you a percentage of every ticket sale, and they track
+      your attendees. They do both.
 
       Chobble's income comes from the flat annual fee you pay. There is no
-      advertising revenue. There is no data economy. As a
+      advertising revenue, no data partnerships, and no investor expecting
+      growth at your attendees' expense. As a
       [community interest company](https://www.gov.uk/government/publications/community-interest-companies-introduction),
-      Chobble cannot distribute profit to shareholders. There is no
-      financial incentive to collect or monetise attendee data, and no
-      investor pressure to add trackers in the future.
+      Chobble cannot distribute profit to shareholders.
 
-      The [source code](https://github.com/chobbledotcom/tickets) is public.
-      If trackers were ever added, anyone could see them.
+      Chobble does not want to be the only ticketing platform. The
+      [source code](https://github.com/chobbledotcom/tickets) is public
+      under AGPLv3 so that anyone can run their own instance. The goal is
+      a distributed alternative to centralised ticketing, not a replacement
+      monopoly. The more independent hosts there are, the harder it is for
+      any single company to build a database of every event attendee in the
+      country.
 
   - type: markdown
     content: |
