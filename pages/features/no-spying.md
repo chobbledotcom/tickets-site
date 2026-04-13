@@ -55,6 +55,13 @@ blocks:
       As a community interest company, Chobble cannot distribute profit to
       shareholders. The annual fee covers running costs.
 
+      ## See exactly who can access your data
+
+      For a detailed breakdown of every company that can see your attendees'
+      information on Chobble Tickets compared to Eventbrite, Ticketmaster,
+      and See Tickets, read
+      [who can see your attendee data](/features/who-can-see-your-data/).
+
   - type: cta
     title: Attendee data is not collected or shared
     description: Sign up for managed hosting at £50/year, or self-host and keep everything on your own infrastructure.
