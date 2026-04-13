@@ -6,8 +6,8 @@ meta_description: Chobble Tickets charges a flat £50/year with no per-ticket fe
 permalink: /features/no-per-ticket-fees/
 eleventyNavigation:
   key: No Per-Ticket Fees
-  parent: Features
-  order: 5
+  parent: Selling Tickets
+  order: 1
 blocks:
   - type: hero
     container_width: full
@@ -31,7 +31,8 @@ blocks:
       processor's standard fee (1.5% + 20p per transaction in the UK).
 
       Charities, community groups, artists, and musicians pay £25/year (50%
-      discount).
+      discount). If you self-host, the software is free — you only pay Stripe's
+      processing fees.
 
   - type: markdown
     section_class: alt
@@ -59,6 +60,11 @@ blocks:
       cost structure: fixed costs covered by a fixed price. There is no
       per-ticket cost to pass on, so there is no per-ticket fee.
 
+      Chobble is a [community interest company](/features/open-source/), not a
+      venture-funded startup. Its income comes from annual fees, not from
+      taking a cut of ticket sales. There is no advertising revenue and no
+      data economy subsidising the price.
+
   - type: stats
     section_class: alt
     items:
@@ -73,52 +79,57 @@ blocks:
 
   - type: markdown
     content: |
-      ## Worked examples
+      ## Worked examples at different scales
 
-      These examples compare the total fees you would pay in a year on Chobble
-      Tickets versus a platform that charges 6.95% + £0.59 per ticket (a common
-      rate among large ticketing providers). Both include payment processing fees
-      where applicable.
+      These examples compare the total annual cost of Chobble Tickets against
+      a platform charging 6.95% + £0.59 per ticket (a common rate among large
+      UK ticketing providers). Chobble's payment processing (Stripe: 1.5% +
+      20p) is shown separately. The per-ticket platform's fee includes payment
+      processing.
 
-      ### 50 tickets at £15 each (£750 total sales)
-
-      | | Per-ticket platform | Chobble Tickets |
-      |---|---|---|
-      | Annual fee | £0 | £50 |
-      | Platform fees | £66.25 (6.95% + £0.59 &times; 50) | £0 |
-      | Payment processing | £0 (included above) | £21.25 (1.5% + 20p &times; 50) |
-      | **Total fees** | **£66.25** | **£71.25** |
-      | **You keep** | **£683.75** | **£678.75** |
-
-      At 50 tickets a year, a per-ticket platform is slightly cheaper. If you
-      sell fewer than about 60 tickets a year at this price, a per-ticket model
-      may cost less.
-
-      ### 500 tickets at £15 each (£7,500 total sales)
+      ### 50 tickets per year at £10 each
 
       | | Per-ticket platform | Chobble Tickets |
       |---|---|---|
       | Annual fee | £0 | £50 |
-      | Platform fees | £662.50 (6.95% + £0.59 &times; 500) | £0 |
-      | Payment processing | £0 (included above) | £212.50 (1.5% + 20p &times; 500) |
-      | **Total fees** | **£662.50** | **£262.50** |
-      | **You keep** | **£6,837.50** | **£7,237.50** |
+      | Platform fees | £64.25 | £0 |
+      | Payment processing | £0 (included above) | £17.50 |
+      | **Total fees** | **£64.25** | **£67.50** |
+      | **Cost per ticket** | **£1.29** | **£1.35** |
+      | **You keep** | **£435.75** | **£432.50** |
 
-      At 500 tickets, you keep £400 more with Chobble Tickets.
+      At very low volumes, a per-ticket platform is slightly cheaper — £3.25
+      per year in this example. The breakeven point for £10 tickets is around
+      54 tickets per year.
 
-      ### 5,000 tickets at £15 each (£75,000 total sales)
+      ### 500 tickets per year at £15 each
 
       | | Per-ticket platform | Chobble Tickets |
       |---|---|---|
       | Annual fee | £0 | £50 |
-      | Platform fees | £6,625 (6.95% + £0.59 &times; 5,000) | £0 |
-      | Payment processing | £0 (included above) | £2,125 (1.5% + 20p &times; 5,000) |
-      | **Total fees** | **£6,625** | **£2,175** |
-      | **You keep** | **£68,375** | **£72,825** |
+      | Platform fees | £816.25 | £0 |
+      | Payment processing | £0 (included above) | £212.50 |
+      | **Total fees** | **£816.25** | **£262.50** |
+      | **Cost per ticket** | **£1.63** | **£0.53** |
+      | **You keep** | **£6,683.75** | **£7,237.50** |
 
-      At 5,000 tickets, you keep £4,450 more with Chobble Tickets. The gap
-      grows with every ticket you sell, because Chobble's cost stays flat while
-      percentage-based fees scale with volume.
+      At 500 tickets, you keep £553.75 more with Chobble Tickets. The cost
+      per ticket drops to 53p because the £50 annual fee is spread across
+      more sales.
+
+      ### 5,000 tickets per year at £20 each
+
+      | | Per-ticket platform | Chobble Tickets |
+      |---|---|---|
+      | Annual fee | £0 | £50 |
+      | Platform fees | £9,900 | £0 |
+      | Payment processing | £0 (included above) | £2,500 |
+      | **Total fees** | **£9,900** | **£2,550** |
+      | **Cost per ticket** | **£1.98** | **£0.51** |
+      | **You keep** | **£90,100** | **£97,450** |
+
+      At 5,000 tickets, you keep £7,350 more per year with Chobble Tickets.
+      The percentage-based platform takes £9,900 in fees alone.
 
   - type: markdown
     section_class: alt
@@ -169,22 +180,25 @@ blocks:
 
   - type: markdown
     content: |
-      ## Where the money goes
+      ## What you pay
 
-      When someone buys a ticket through Chobble Tickets, the payment goes
-      directly to your Stripe or Square account. Chobble never holds your
-      revenue.
+      Chobble Tickets does not handle money directly. Payments go through
+      Stripe (or Square) to your own account. Chobble never holds your revenue.
 
-      The only per-transaction cost is Stripe's standard processing fee (1.5% +
-      20p in the UK). Every platform that uses Stripe pays this same rate — some
-      just bundle it into a larger per-ticket fee so it is not visible
-      separately.
+      The only per-transaction cost is Stripe's standard processing fee, which
+      is the same rate you would pay on any platform that uses Stripe. Some
+      platforms bundle this into their own fee so it is not visible separately.
 
-      Chobble's £50/year covers hosting, software updates, and support. Because
-      the infrastructure cost per ticket is less than a penny, there is no
-      reason to charge you more when you sell more. If you prefer, you can
-      [self-host Chobble Tickets for free](/features/open-source/) and pay only
-      the Stripe processing fees.
+      | Cost | Amount |
+      |---|---|
+      | Chobble Tickets (managed hosting) | £50/year |
+      | Chobble Tickets (self-hosted) | Free |
+      | Stripe payment processing | 1.5% + 20p per transaction |
+      | Per-ticket platform fee | None |
+
+      Because the infrastructure cost per ticket is less than a penny, there is
+      no reason to charge you more when you sell more. The £50/year covers
+      hosting, software updates, and support.
 
   - type: markdown
     section_class: alt
