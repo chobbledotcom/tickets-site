@@ -21,8 +21,8 @@ blocks:
     title: Your attendees have real reasons for privacy
     reveal_content: left
     content: |
-      If you're running a swingers night, a fetish club, a play party, or any
-      other 18+ event, your attendees are trusting you with sensitive
+      If you're running any kind of 18+ event, your attendees are trusting
+      you with sensitive
       information. Their name, email address, and the fact that they attended
       your event are all things they may not want anyone else to know about.
 
