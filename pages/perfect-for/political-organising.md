@@ -26,7 +26,7 @@ blocks:
       [hybrid RSA-OAEP + AES-256-GCM encryption](https://chobbledotcom.github.io/tickets/docs/crypto.ts).
 
       Commercial ticketing platforms store attendee data and use it for
-      marketing. Chobble Tickets is open source — every line of code is public
+      marketing. Chobble Tickets is open source - every line of code is public
       under AGPLv3 and you can read it yourself.
 
       You can run Chobble Tickets on your own servers, so no data leaves your
