@@ -57,7 +57,10 @@ blocks:
 
       Read the full
       [cryptography documentation](https://chobbledotcom.github.io/tickets/docs/crypto.ts)
-      for implementation details.
+      for implementation details, or see
+      [who can see your attendee data](/features/who-can-see-your-data/)
+      for a breakdown of exactly which companies can access your attendees'
+      information.
 
   - type: markdown
     content: |
