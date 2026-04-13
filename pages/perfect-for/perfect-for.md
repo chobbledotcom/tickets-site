@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Perfect For - Chobble Tickets
 meta_title: Perfect For - Chobble Tickets
-meta_description: Chobble Tickets works for charity events, kids parties, music concerts, political organising, workshops, and more.
+meta_description: Chobble Tickets works for charity events, kids parties, music concerts, political organising, adult parties, workshops, and more.
 permalink: /perfect-for/
 eleventyNavigation:
   key: Perfect For
@@ -34,6 +34,9 @@ blocks:
       - icon: "hugeicons:megaphone-01"
         title: '<a href="/perfect-for/political-organising/">Political organising</a>'
         description: Privacy-first ticketing with encrypted attendee data, so your supporters' information stays protected.
+      - icon: "hugeicons:lock"
+        title: '<a href="/perfect-for/adult-parties/">Adult parties</a>'
+        description: Encrypted attendee data and no data sharing for events where your guest list needs to stay private.
       - icon: "hugeicons:presentation-podium"
         title: '<a href="/perfect-for/workshops/">Workshops</a>'
         description: Low-cost ticketing for classes and workshops where platform fees eat into margins and attendees shouldn't need to hand over personal data.
