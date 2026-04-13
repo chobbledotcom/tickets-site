@@ -196,8 +196,8 @@ blocks:
       helps people discover events in cities around the world.
 
       Chobble Tickets is run by one person as a
-      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      - a type of UK company that exists to benefit the community, not to
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction),
+      a type of UK company that exists to benefit the community, not to
       make profit for shareholders. All of Chobble's code is public, and
       anyone can run the platform on their own servers.
 
