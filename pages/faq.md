@@ -75,14 +75,28 @@ blocks:
 
       ### Why does Chobble charge a flat fee instead of per-ticket commission?
 
-      Per-ticket commission means the platform earns more when you sell more
-      tickets or charge higher prices. This creates an incentive for the
-      platform to push you toward more sales. One of
-      [Chobble's founding principles](https://chobble.com/principles) is "own,
-      not rent" — income should come from providing a service, not from taking
-      a cut of your revenue. A flat annual fee means the cost is predictable
-      and the platform has no stake in your ticket prices or sales volume. You
-      pay the same whether you sell 10 tickets or 10,000.
+      It costs Chobble the same to process a £5 ticket as a £500 ticket. A
+      percentage fee on each sale does not reflect the cost of providing the
+      service — it is rent. The actual work involved in hosting a ticketing
+      site is setting it up (about two minutes) and providing support over the
+      course of the year. Infrastructure costs across all hosted sites have not
+      exceeded £1 per site. The £50 annual fee is priced to cover that labour
+      at a fair rate, not to extract a share of your revenue.
+
+      One of [Chobble's founding principles](https://chobble.com/principles)
+      is "own, not rent" — income should come from doing work, not from
+      charging rent on someone else's sales.
+
+      ### Where does the £50 annual fee go?
+
+      The fee covers the actual cost of providing the service. Setting up a
+      new ticketing site takes about two minutes. Ongoing support averages
+      about ten minutes per customer per year. Infrastructure costs (hosting,
+      database, CDN) have not exceeded £1 per site so far. The £50 is priced
+      to fairly pay for that work at the rate of an experienced developer, not
+      to extract a percentage of your ticket sales. As Chobble Tickets grows,
+      the goal is to make these costs as transparent as possible and show
+      exactly where the money goes.
 
       ### What is the actual cost per ticket with Chobble Tickets?
 
@@ -322,12 +336,18 @@ blocks:
       reserved seating with venue maps, waitlists, multi-currency support,
       virtual event hosting, a mobile app for organisers, or phone support.
 
+      Many of these features exist on other platforms to justify a per-ticket
+      fee. A discovery marketplace and social advertising tools give the
+      platform a reason to take a percentage of your sales. Chobble does not
+      take a cut, so it does not need to build those features. For event
+      discovery and email marketing, dedicated tools like Songkick and
+      Mailchimp do those jobs better than any ticketing platform could.
+
       If you need event discovery to find new audiences, or venue-specific
       seating maps, a larger platform like Eventbrite may be a better fit. You
       can see a full feature comparison on the
       [Eventbrite comparison page](/compared-to/eventbrite/). Chobble is
-      designed for organisers who already have an audience and want to keep
-      their revenue and their data.
+      limited to the features that event organisers need the most.
 
   - type: cta
     title: Get started
