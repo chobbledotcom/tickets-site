@@ -83,104 +83,22 @@ blocks:
       | **Ticket Tailor** | 18 | 3.88 |
       | **Chobble Tickets** | 0 | 0 |
 
-      Each tracker is a separate company that receives some data about the
-      person visiting the page. This data typically includes IP addresses,
-      browser information, device identifiers, and browsing behaviour. On
-      some platforms it also includes purchase history, event attendance, and
-      demographic profiles.
+      Each tracker is a separate company that receives data about the
+      person visiting the page. This typically includes IP addresses,
+      browser information, device identifiers, and browsing behaviour.
+      The trackers on these platforms include advertising networks, data
+      brokers, social media companies, and analytics providers.
 
-      These numbers come from
-      [WhoTracks.me](https://www.ghostery.com/whotracksme/websites), which
-      analyses real browsing data. The counts were checked in April 2026.
+      You can look up any platform on
+      [WhoTracks.me](https://www.ghostery.com/whotracksme/websites) and
+      see the full list for yourself. You can also read each platform's
+      privacy policy and count the number of third-party companies listed
+      in it. They are long documents.
 
-  - type: markdown
-    content: |
-      ## Ticketmaster: 65 trackers
-
-      [Ticketmaster](https://www.ticketmaster.co.uk) has the most trackers
-      of any major ticketing platform. The 65 companies detected by
-      WhoTracks.me include Google (multiple services), Facebook, TikTok,
-      Criteo, LiveRamp, Adobe (multiple services), AppNexus, Amazon
-      Advertising, Snapchat, Pinterest, Reddit, Microsoft, and dozens
-      more.
-
-      Ticketmaster's
-      [privacy policy](https://privacy.ticketmaster.com/privacy-policy)
-      names 11 global service providers (including Oracle, Salesforce, and
-      AWS) and states that data is shared with "Event Partners," "Commercial
-      Partners," "Business Partners," "Data Brokers," and "advertising and
-      marketing partners who collate geodemographic information."
-
-      The policy states that Ticketmaster creates user profiles from
-      attendee data, including "age range, gender, or information about
-      events you like or products you buy." It collects location data via
-      GPS, photographs and CCTV footage from events, and browsing history
-      across the platform.
-
-      A January 2026
-      [class action lawsuit](https://en.wikipedia.org/wiki/United_States_v._Live_Nation_Entertainment)
-      (Scruggs v. Ticketmaster LLC) alleged that trackers fire before a user
-      has the chance to click anything, routing IP addresses, page URLs, and
-      device identifiers to third-party servers.
-
-      In 2024, a breach exposed **560 million customer records** (1.3
-      terabytes of data) after attackers compromised Snowflake, a
-      third-party cloud warehouse used by Ticketmaster. The stolen data
-      included names, email addresses, physical addresses, phone numbers,
-      and order histories.
-
-      Ticketmaster is owned by
-      [Live Nation Entertainment](https://www.livenationentertainment.com).
-
-  - type: markdown
-    content: |
-      ## Eventbrite: 42 trackers
-
-      [Eventbrite](https://www.eventbrite.co.uk) has 42 trackers detected by
-      WhoTracks.me, loading an average of 6.07 trackers per page. These
-      include Google Tag, Google Analytics, Facebook, Branch, Heap, Intercom,
-      and Datadog.
-
-      Eventbrite's privacy policy states that data is shared with "marketing
-      agencies, online advertising providers, data enhancement and data
-      services providers, database service providers, email service
-      providers, payment processing partners," and others. Eventbrite may
-      also derive or infer demographic data about attendees, including "age
-      range, gender, and parental status," based on their use of the
-      platform.
-
-      When attendees buy tickets through Eventbrite, they are encouraged to
-      follow other events on the platform. Eventbrite sends recommendation
-      emails about other organisers' events to attendees who have purchased
-      tickets.
-
-      Eventbrite is owned by
-      [Bending Spoons](https://bendingspoons.com), an Italian software
-      company that also owns Evernote, Meetup, and WeTransfer.
-
-  - type: markdown
-    content: |
-      ## See Tickets: 38 trackers and 35 named partners
-
-      [See Tickets](https://www.seetickets.com) (now rebranded as Eventim
-      UK) has 38 trackers detected by WhoTracks.me. Its
-      [privacy policy](https://www.eventimb2b.co.uk/privacy-policy/) names
-      at least 35 third-party companies that receive attendee data, including
-      AdRoll, Facebook, Google, TikTok, Microsoft, Quantcast, Mixpanel,
-      HubSpot, Hotjar, and Tapad.
-
-      Some of these partners carry out cross-device tracking, following users
-      across multiple devices. The policy states that some cookies are
-      "designed to stay on your computer for as long as possible."
-
-      See Tickets retains personal data for **15 years**. It has suffered
-      two known data breaches: one in 2022 where payment card details were
-      exposed for over two years, and one in 2023 affecting 323,498
-      consumers.
-
-      See Tickets was previously owned by Vivendi, which also owns the
-      advertising company Havas. It is now owned by
-      [CTS Eventim](https://www.eventim.de).
+      These tracker counts were checked in April 2026 and may change over
+      time. The underlying pattern does not: platforms that make money from
+      advertising and audience data have trackers, and platforms that do
+      not make money from advertising and audience data do not.
 
   - type: markdown
     content: |
@@ -251,13 +169,16 @@ blocks:
     content: |
       ## Sources
 
-      - [WhoTracks.me - Ticketmaster](https://www.ghostery.com/whotracksme/websites/ticketmaster.com) - 65 trackers (checked April 2026)
-      - [WhoTracks.me - Eventbrite](https://www.ghostery.com/whotracksme/websites/eventbrite.com) - 42 trackers (checked April 2026)
-      - [WhoTracks.me - See Tickets](https://www.ghostery.com/whotracksme/websites/seetickets.com) - 38 trackers (checked April 2026)
-      - [WhoTracks.me - Ticket Tailor](https://www.ghostery.com/whotracksme/websites/tickettailor.com) - 18 trackers (checked April 2026)
-      - [Ticketmaster privacy policy](https://privacy.ticketmaster.com/privacy-policy)
-      - [Eventbrite privacy policy](https://www.eventbrite.com/help/en-us/articles/460838/eventbrite-privacy-policy/)
-      - [Eventim UK (See Tickets) privacy policy](https://www.eventimb2b.co.uk/privacy-policy/)
+      Tracker counts are from
+      [WhoTracks.me](https://www.ghostery.com/whotracksme) (run by
+      Ghostery), which analyses real browsing data. You can look up any
+      website yourself. The counts on this page were checked in April 2026
+      and may change over time.
+
+      - [WhoTracks.me - Ticketmaster](https://www.ghostery.com/whotracksme/websites/ticketmaster.com)
+      - [WhoTracks.me - Eventbrite](https://www.ghostery.com/whotracksme/websites/eventbrite.com)
+      - [WhoTracks.me - See Tickets](https://www.ghostery.com/whotracksme/websites/seetickets.com)
+      - [WhoTracks.me - Ticket Tailor](https://www.ghostery.com/whotracksme/websites/tickettailor.com)
       - [Chobble Tickets encryption documentation](https://chobbledotcom.github.io/tickets/docs/crypto.ts)
 
   - type: cta
