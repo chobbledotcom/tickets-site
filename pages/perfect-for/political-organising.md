@@ -17,7 +17,7 @@ blocks:
       Attendee data is encrypted at rest, and you can run the platform on your
       own servers so no data leaves your infrastructure.
 
-  - type: split
+  - type: split-icon-links
     title: Privacy by design
     reveal_content: left
     content: |
@@ -31,13 +31,13 @@ blocks:
 
       You can run Chobble Tickets on your own servers, so no data leaves your
       infrastructure.
-    figure_type: html
-    figure_html: |
-      <ul>
-        <li>Attendee data is encrypted at rest.</li>
-        <li>All code is public under AGPLv3.</li>
-        <li>Deploy on your own servers.</li>
-      </ul>
+    figure_items:
+      - icon: "hugeicons:lock"
+        text: "Attendee data is encrypted at rest."
+      - icon: "hugeicons:source-code"
+        text: "All code is public under AGPLv3."
+      - icon: "hugeicons:cloud-server"
+        text: "Deploy on your own servers."
 
   - type: features
     section_class: alt

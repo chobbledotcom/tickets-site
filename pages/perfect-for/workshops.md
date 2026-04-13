@@ -17,7 +17,7 @@ blocks:
       Ticketing for workshops and classes with no per-ticket fees, where
       attendees can book without creating an account or downloading an app.
 
-  - type: split
+  - type: split-icon-links
     title: When fees eat your margins
     reveal_content: left
     content: |
@@ -35,15 +35,15 @@ blocks:
       And because Chobble Tickets only collects the fields you choose, your
       attendees don't share their home address, phone number, and card details
       with a third-party platform.
-    figure_type: html
-    figure_html: |
-      <ul>
-        <li>12 seats × £15 = £180</li>
-        <li>Platform fees elsewhere: ~£15 per session</li>
-        <li>Chobble Tickets: £0 per session</li>
-      </ul>
+    figure_items:
+      - icon: "hugeicons:ticket-01"
+        text: "12 seats × £15 = £180"
+      - icon: "hugeicons:money-send-02"
+        text: "Platform fees elsewhere: ~£15 per session"
+      - icon: "hugeicons:money-receive-square"
+        text: "Chobble Tickets: £0 per session"
 
-  - type: split
+  - type: split-icon-links
     title: Stop coordinating over email
     reveal_content: right
     content: |
@@ -62,14 +62,13 @@ blocks:
       When the day comes, scan QR codes at the door and you know exactly who's
       arrived and who hasn't. It turns a chaotic process into something you
       barely have to think about.
-    figure_type: html
-    figure_html: |
-      <ul>
-        <li>Before: DMs, emails, spreadsheets, "am I booked?"</li>
-        <li>After: One link. Self-service booking.</li>
-      </ul>
+    figure_items:
+      - icon: "hugeicons:mail-01"
+        text: 'Before: DMs, emails, spreadsheets, "am I booked?"'
+      - icon: "hugeicons:smart-phone-01"
+        text: "After: One link. Self-service booking."
 
-  - type: split
+  - type: split-icon-links
     title: Attendee data is encrypted and private
     reveal_content: left
     content: |
@@ -82,13 +81,11 @@ blocks:
       Chobble Tickets encrypts personally identifiable information at rest and
       doesn't build marketing profiles from your attendee list. You collect only
       what you need, like a name and email, and nothing else leaves the system.
-
-    figure_type: html
-    figure_html: |
-      <ul>
-        <li>You choose: name, email, and nothing else.</li>
-        <li>Data is encrypted at rest with no marketing profiles.</li>
-      </ul>
+    figure_items:
+      - icon: "hugeicons:user-list"
+        text: "You choose: name, email, and nothing else."
+      - icon: "hugeicons:lock"
+        text: "Data is encrypted at rest with no marketing profiles."
 
   - type: markdown
     content: |

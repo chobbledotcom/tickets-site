@@ -17,7 +17,7 @@ blocks:
       More of your fundraising goes to the cause instead of the ticketing
       platform, with a 50% discount for charities and community groups.
 
-  - type: split
+  - type: split-icon-links
     title: Built for charities
     reveal_content: left
     content: |
@@ -33,12 +33,11 @@ blocks:
       Running a fundraising collection or raffle? Use
       [purchasable events](/features/purchasable-events/) to collect
       donations and payments without a physical event to attend.
-    figure_type: html
-    figure_html: |
-      <ul>
-        <li>£25/year for charities</li>
-        <li>Every penny of ticket sales goes to you</li>
-      </ul>
+    figure_items:
+      - icon: "hugeicons:money-receive-square"
+        text: "£25/year for charities"
+      - icon: "hugeicons:credit-card"
+        text: "Every penny of ticket sales goes to you"
 
   - type: features
     section_class: alt
