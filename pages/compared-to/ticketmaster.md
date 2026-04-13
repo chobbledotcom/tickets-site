@@ -36,8 +36,9 @@ blocks:
       Fees vary by event, venue, and contract, and as an organiser you may
       have little control over the fees charged to your attendees.
 
-      Chobble Tickets charges a flat £50/year, and payment processing fees
-      from Stripe or Square are the only other cost (which go directly to the
+      Chobble Tickets charges a flat £50/year with [no per-ticket
+      fees](/features/no-per-ticket-fees/), and payment processing fees from
+      Stripe or Square are the only other cost (which go directly to the
       payment processor, not to us).
 
   - type: include
@@ -195,8 +196,8 @@ blocks:
       for having too much control over the ticketing industry.
 
       Chobble Tickets is run by one person as a
-      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      - a type of UK company that exists to benefit the community. All of
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction),
+      a type of UK company that exists to benefit the community. All of
       Chobble's code is public, and anyone can run the platform on their
       own servers.
 

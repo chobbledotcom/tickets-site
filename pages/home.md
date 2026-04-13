@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Chobble Tickets - Open Source Event Ticketing
 meta_title: Chobble Tickets - Open Source Event Ticketing
-meta_description: Open source event ticketing with a flat annual fee and no per-ticket charges, encrypted, self-hostable, and built for communities.
+meta_description: Event ticketing for £50/year with no per-ticket fees or commission. Keep all your ticket revenue. Open source, encrypted, and self-hostable.
 permalink: /
 eleventyNavigation:
   key: Home
@@ -15,7 +15,7 @@ blocks:
     title: Open source event ticketing with no per-ticket fees
     lead: >-
       Chobble Tickets is an open source ticketing platform with a flat annual
-      fee, no per-ticket charges, and no attendee data collection.
+      fee, no booking fees or commission, and no attendee data collection.
     buttons:
       - text: GitHub
         href: https://github.com/chobbledotcom/tickets
@@ -54,7 +54,7 @@ blocks:
         description: AGPLv3 licensed with every feature included and no open-core bait-and-switch. Browse the code on GitHub.
       - icon: "hugeicons:credit-card"
         title: No per-ticket fees
-        description: Pay a flat annual fee and money from ticket sales goes directly to your Stripe or Square account.
+        description: Pay a flat annual fee with no service charges or commission. Money from ticket sales goes directly to your Stripe or Square account.
       - icon: "hugeicons:smart-phone-01"
         title: QR code check-ins
         description: Every ticket gets a unique QR code that you can scan with any phone camera, with no app required.

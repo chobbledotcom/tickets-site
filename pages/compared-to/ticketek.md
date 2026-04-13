@@ -41,9 +41,10 @@ blocks:
       some cases the service fee can
       [exceed the ticket price itself](https://www.sbs.com.au/news/article/ticketek-service-fee-cost-more-than-childs-ticket-to-the-cricket/ei66dfk3t).
 
-      Chobble Tickets charges a flat £50/year (approximately AU$95), and
-      payment processing fees from Stripe or Square are the only other cost
-      - which go directly to the payment processor, not to us.
+      Chobble Tickets charges a flat £50/year (approximately AU$95) with
+      [no per-ticket fees](/features/no-per-ticket-fees/). Payment processing
+      fees from Stripe or Square are the only other cost - which go directly
+      to the payment processor, not to us.
 
   - type: include
     file: price-comparator.html

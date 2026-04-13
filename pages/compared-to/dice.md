@@ -28,7 +28,7 @@ blocks:
       agreement.
 
       Chobble Tickets is a flat £50/year (£25 for charities and community
-      groups) with no per-ticket fees at all. You only pay Stripe or Square
+      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
       processing fees on top. If you sell more than a few dozen tickets in a
       year at typical prices, Chobble Tickets is already cheaper - and the
       savings grow the more you sell.
@@ -196,8 +196,8 @@ blocks:
       helps people discover events in cities around the world.
 
       Chobble Tickets is run by one person as a
-      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      - a type of UK company that exists to benefit the community, not to
+      [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction),
+      a type of UK company that exists to benefit the community, not to
       make profit for shareholders. All of Chobble's code is public, and
       anyone can run the platform on their own servers.
 

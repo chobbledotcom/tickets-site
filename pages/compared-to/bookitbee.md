@@ -25,8 +25,8 @@ blocks:
       (up to 6.5% for advanced features), with a minimum fee of £1 and a cap
       of £19.95 per ticket. For high-volume events those fees add up quickly.
 
-      Chobble Tickets charges a flat £50/year (£25 for charities) with no
-      per-ticket fees or percentage cuts, which works out significantly
+      Chobble Tickets charges a flat £50/year (£25 for charities) with [no
+      per-ticket fees](/features/no-per-ticket-fees/) or percentage cuts, which works out significantly
       cheaper for most event organisers.
 
   - type: include

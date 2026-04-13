@@ -52,7 +52,7 @@ blocks:
       charges $0.25 per ticket plus Stripe processing fees.
 
       Chobble Tickets is a flat £50/year regardless of how many tickets you
-      sell, with no per-ticket platform fees. You pay Stripe's processing
+      sell, with [no per-ticket platform fees](/features/no-per-ticket-fees/). You pay Stripe's processing
       fees (1.5% + 20p in the UK) separately.
 
       For the comparison below, we use SignUpGenius Tickets pricing ($0.25
