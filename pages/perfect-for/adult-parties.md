@@ -18,26 +18,82 @@ blocks:
       Your guest list stays private.
 
   - type: split
-    title: Privacy your attendees can rely on
+    title: Your attendees have real reasons for privacy
     reveal_content: left
     content: |
-      People attending 18+ events have practical reasons to keep their
-      attendance private. A data breach or a marketing email from a ticketing
-      platform can cause real problems for attendees who expected discretion.
+      If you're running a swingers night, a fetish club, a play party, or any
+      other 18+ event, your attendees are trusting you with sensitive
+      information. Their name, email address, and the fact that they attended
+      your event are all things they may not want anyone else to know about.
 
-      Commercial ticketing platforms store attendee data in plain text and use
-      it to market other events. Chobble Tickets encrypts all personally
-      identifiable information at rest using
+      On a commercial ticketing platform, that data sits in plain text on
+      someone else's servers. Platform staff and contractors can access it.
+      A data breach would expose not just names and emails but a record of
+      which events each person attended.
+
+      Chobble Tickets encrypts all personally identifiable information at rest
+      using
       [hybrid RSA-OAEP + AES-256-GCM encryption](https://chobbledotcom.github.io/tickets/docs/crypto.ts).
-
-      You can run Chobble Tickets on your own servers, so no attendee data
-      passes through any third party.
+      Even if someone gained access to the database, they could not read
+      attendee names or contact details without your private key.
     figure_type: html
     figure_html: |
       <ul>
         <li>Attendee data is encrypted at rest.</li>
-        <li>No marketing emails sent to your guests.</li>
-        <li>Deploy on your own servers.</li>
+        <li>Only you hold the decryption key.</li>
+        <li>No platform staff can read your guest list.</li>
+      </ul>
+
+  - type: split
+    title: What happens on commercial platforms
+    reveal_content: right
+    content: |
+      Commercial ticketing platforms make money by connecting attendees with
+      more events. That means your attendees' data is an asset to the platform,
+      not just a record of a transaction.
+
+      On Eventbrite, attendees who buy a ticket to your event will see
+      recommendations for "similar events" and receive marketing emails based
+      on their attendance history. For someone who attended a private adult
+      event, that means the platform is actively trying to surface related
+      events to them, which could appear in a shared inbox or on a screen at
+      the wrong moment.
+
+      Chobble Tickets does not do this. There is no event discovery feature,
+      no recommendation engine, and no marketing emails sent to your
+      attendees. The only emails they receive are the booking confirmation and
+      any messages you choose to send yourself.
+    figure_type: html
+    figure_html: |
+      <ul>
+        <li>No "similar events" recommendations.</li>
+        <li>No marketing emails to your attendees.</li>
+        <li>No event discovery or public directory.</li>
+      </ul>
+
+  - type: split
+    title: Your event, your branding
+    reveal_content: left
+    content: |
+      Chobble Tickets is white-labelled by default. Your attendees see your
+      event name and your branding on the booking page, not a ticketing
+      platform's logo. There is no public event directory linking your event
+      to a wider catalogue.
+
+      If you self-host, your booking page runs on your own domain. Attendees
+      interact with your site and your site only. There is no redirect to a
+      third-party checkout, no "Powered by" banner, and no account creation
+      required.
+
+      For events where attendees prefer not to have the name of a ticketing
+      platform appearing in their email inbox or bank statement alongside the
+      event name, this matters.
+    figure_type: html
+    figure_html: |
+      <ul>
+        <li>Your domain, your branding.</li>
+        <li>No public event directory.</li>
+        <li>No third-party account required.</li>
       </ul>
 
   - type: features
@@ -61,8 +117,8 @@ blocks:
         title: No data harvesting
         description: Chobble is a community interest company. There is no advertising revenue and no data economy subsidising the price. Your attendees will not receive marketing emails from the platform.
       - icon: "hugeicons:lock"
-        title: White-labelled by default
-        description: Attendees see your branding, not ours. There is no "Powered by Chobble" banner drawing attention to the platform or linking your event to a public directory.
+        title: No public event directory
+        description: There is no discovery page, no "events near you" feature, and no way for anyone to browse a list of events hosted on the platform. Your event is only visible to people you share the link with.
       - icon: "hugeicons:credit-card"
         title: Flat annual fee
         description: Chobble charges a flat annual fee with no per-ticket charges. The business model is based on the fee you pay, not on monetising your attendees' data.
