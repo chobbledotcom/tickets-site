@@ -23,7 +23,7 @@ blocks:
       ## Pricing comparison
 
       [Resident Advisor](https://ra.co) (RA) adds a service fee on top of
-      every ticket sold. The buyer pays this fee, not the promoter — so RA
+      every ticket sold. The buyer pays this fee, not the promoter - so RA
       says it's free for promoters to sell tickets. But the fee still makes
       tickets more expensive for fans. RA doesn't publish exact fee rates
       and negotiates with promoters individually.
@@ -41,7 +41,7 @@ blocks:
       ## Data ownership and privacy
 
       When you sell tickets through RA, your attendees become part of RA's
-      platform. RA markets its own stuff to your customers — other events,
+      platform. RA markets its own stuff to your customers - other events,
       other promoters, editorial picks. Your attendee data lives on their
       servers, and you're building RA's audience as much as your own.
 
@@ -197,14 +197,14 @@ blocks:
       website about dance music. It grew into a big global platform and is
       now based in London, with offices in several cities around the world
       including Berlin, New York, Los Angeles, and Tokyo. The company is
-      independently owned by its founders — it doesn't have outside
-      investors — and is a
+      independently owned by its founders - it doesn't have outside
+      investors - and is a
       [certified B Corporation](https://www.bcorporation.net/en-us/find-a-b-corp/company/resident-advisor/),
       which means it meets certain social and environmental standards.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) — a type of UK company that has to use its money to help the
+      (CIC) - a type of UK company that has to use its money to help the
       community. All of Chobble's code is public, and anyone can run the
       platform on their own computers without depending on Chobble as a
       company.
@@ -213,7 +213,7 @@ blocks:
     content: |
       ## Pricing sources
 
-      Resident Advisor does not publicly list exact fee rates — they are
+      Resident Advisor does not publicly list exact fee rates - they are
       negotiated with promoters. Fees may change, so check the links below
       for the latest information.
 

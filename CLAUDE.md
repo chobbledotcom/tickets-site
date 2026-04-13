@@ -215,7 +215,7 @@ The project enforces strict code quality via Biome.
 ## Content Style Guide
 
 This guide applies to all text on the site: headings, body copy, button labels,
-calls to action, meta descriptions, hero text, captions — everything.
+calls to action, meta descriptions, hero text, captions - everything.
 
 ### Who the audience is
 
@@ -253,7 +253,7 @@ condescending. It means:
 | cutting-edge | remove it |
 | best-in-class | remove it |
 | solution | tool, platform, or software |
-| actually | remove it — speculative and inauthentic |
+| actually | remove it - speculative and inauthentic |
 
 ---
 
@@ -279,7 +279,7 @@ Write neutral, factual statements. Do not:
 - Use alliteration for effect
 - Use strings of short punchy sentences as a substitute for prose ("Pay
   a flat annual fee. No per-ticket charges. Attendee data stays with
-  you.") — this pattern feels like a sales pitch. Write in complete
+  you.") - this pattern feels like a sales pitch. Write in complete
   sentences instead.
 
 State what is true. Let the facts make the argument.
@@ -301,7 +301,7 @@ State what is true. Let the facts make the argument.
 ### On data, ownership, and power
 
 Be direct about how commercial platforms work. Do not soften it. Do not ascribe
-motive or intent to other companies — just state observable facts about what
+motive or intent to other companies - just state observable facts about what
 happens.
 
 The facts to state are:
@@ -346,13 +346,13 @@ platform. Your attendees will receive emails from Eventbrite about other
 organisers' events."
 
 **Bad:** "Unlike bloated platforms like Eventbrite..."
-**Good:** "Eventbrite has more features than Chobble Tickets in some areas —
+**Good:** "Eventbrite has more features than Chobble Tickets in some areas -
 see the full comparison below."
 
 When a competitor genuinely does something well, say so.
 
 Do not include specific details about competitors that are likely to change
-within a few months — ownership structures, funding rounds, named executives,
+within a few months - ownership structures, funding rounds, named executives,
 or pricing that changes frequently. Specific prices are fine when they are
 verified and dated.
 
@@ -372,8 +372,8 @@ access to the server, they could not read the data without your private key.
 
 ### Self-determination and control
 
-When describing features that give organisers control — self-hosting, open
-source code, data ownership, choosing your own email provider — describe them
+When describing features that give organisers control - self-hosting, open
+source code, data ownership, choosing your own email provider - describe them
 in terms of what the organiser can actually do, not in abstract terms about
 freedom or empowerment.
 
@@ -382,5 +382,5 @@ freedom or empowerment.
 infrastructure."
 
 **Bad:** "Freedom to choose your email provider"
-**Good:** "You choose which email provider sends your confirmations — Resend,
+**Good:** "You choose which email provider sends your confirmations - Resend,
 Postmark, SendGrid, or Mailgun."

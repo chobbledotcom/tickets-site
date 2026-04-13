@@ -31,7 +31,7 @@ blocks:
       processor's standard fee (1.5% + 20p per transaction in the UK).
 
       Charities, community groups, artists, and musicians pay £25/year (50%
-      discount). If you self-host, the software is free — you only pay Stripe's
+      discount). If you self-host, the software is free - you only pay Stripe's
       processing fees.
 
   - type: markdown
@@ -47,8 +47,8 @@ blocks:
       That means the actual cost of running a ticketing platform does not go up
       meaningfully with each ticket sold. A platform that sells 100 tickets a
       month and one that sells 10,000 tickets a month have similar hosting
-      costs. The expensive parts — building the software, maintaining it,
-      providing support — are fixed costs that do not depend on ticket volume.
+      costs. The expensive parts - building the software, maintaining it,
+      providing support - are fixed costs that do not depend on ticket volume.
 
       Per-ticket fees on other platforms are not driven by per-ticket costs.
       They are a business model choice. Percentage-based pricing lets a platform
@@ -98,7 +98,7 @@ blocks:
       | **Cost per ticket** | **£1.29** | **£1.35** |
       | **You keep** | **£435.75** | **£432.50** |
 
-      At very low volumes, a per-ticket platform is slightly cheaper — £3.25
+      At very low volumes, a per-ticket platform is slightly cheaper - £3.25
       per year in this example. The breakeven point for £10 tickets is around
       54 tickets per year.
 
@@ -160,7 +160,7 @@ blocks:
       > cost to the user - and if they are happy to pay that, then why should it
       > go to the ticket platform? It's better off in your pocket."
       >
-      > — [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review), who switched from Eventbrite after 12 years
+      > - [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review), who switched from Eventbrite after 12 years
 
       > "Eventbrite takes £275 per event, but Chobble is £87.50. Sure, I have to
       > pay £50 a year for Chobble, but that cost is absorbed in less than the
