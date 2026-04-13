@@ -73,6 +73,17 @@ blocks:
       Chobble is a [community interest company](/features/open-source/). Its
       income comes from the annual fee, not from taking a cut of your sales.
 
+      ### Why does Chobble charge a flat fee instead of per-ticket commission?
+
+      Per-ticket commission means the platform earns more when you sell more
+      tickets or charge higher prices. This creates an incentive for the
+      platform to push you toward more sales. One of
+      [Chobble's founding principles](https://chobble.com/principles) is "own,
+      not rent" — income should come from providing a service, not from taking
+      a cut of your revenue. A flat annual fee means the cost is predictable
+      and the platform has no stake in your ticket prices or sales volume. You
+      pay the same whether you sell 10 tickets or 10,000.
+
       ### What is the actual cost per ticket with Chobble Tickets?
 
       Chobble Tickets charges no per-ticket fee. The only per-transaction cost
@@ -145,16 +156,22 @@ blocks:
     content: |
       ## Open source and self-hosting
 
-      ### What does open source mean for a ticketing platform?
+      ### Why is Chobble Tickets open source?
 
-      It means the entire codebase is publicly available on
+      One of [Chobble's founding principles](https://chobble.com/principles)
+      is transparency: the tools customers rely on should be theirs to keep.
+      Making the code open source means you can see exactly how the platform
+      works, verify the security claims yourself, and take the software with
+      you if you choose to leave. Some platforms create dependency by making it
+      difficult to understand or replicate what they do. Open source code
+      prevents this.
+
+      The entire codebase is publicly available on
       [GitHub](https://github.com/chobbledotcom/tickets) under the AGPLv3
-      licence. You can read every line of code, verify the security claims,
-      fork the repository, and modify the software to suit your needs.
-
-      Unlike some platforms that call themselves open source but keep key
-      features proprietary, Chobble Tickets includes every feature in the open
-      source version. The managed hosting and the self-hosted version are
+      licence. You can read every line, fork the repository, and modify the
+      software. Unlike some platforms that call themselves open source but keep
+      key features proprietary, Chobble Tickets includes every feature in the
+      open source version. The managed hosting and the self-hosted version are
       exactly the same code.
 
       ### Can I self-host Chobble Tickets?
@@ -188,12 +205,30 @@ blocks:
       switch to self-hosting at any time by forking the repository and
       deploying it yourself. There is no proprietary lock-in.
 
+      ### Can I switch away from Chobble Tickets?
+
+      Yes, and the platform is designed to make this straightforward. You can
+      [export your attendee data as CSV](/features/csv-export/) at any time.
+      The codebase is open source, so you can fork it and run it
+      independently. There are no long-term contracts and no exit fees.
+
+      One of [Chobble's principles](https://chobble.com/principles) is
+      honesty: if another provider would suit you better, Chobble's position
+      is that you should use them. The platform does not create lock-in
+      through proprietary data formats, mandatory contracts, or features that
+      only work within the Chobble ecosystem.
+
       ### What is a community interest company?
 
       A community interest company (CIC) is a type of UK company designed for
-      social enterprises. Profits cannot be distributed to shareholders. There
-      is no venture capital investment and no requirement to grow at the expense
-      of users. Chobble's income comes from the flat annual fees that
+      social enterprises. Chobble is registered as CIC 17050113. The CIC
+      structure includes an asset lock, which means profits cannot be extracted
+      for private gain. Surplus is reinvested in community activities and
+      reduced costs for community-focused clients. Chobble also donates 10% of
+      revenue to the Against Malaria Foundation.
+
+      There is no venture capital investment and no requirement to grow at the
+      expense of users. Chobble's income comes from the flat annual fees that
       organisers pay, not from advertising, data sales, or per-ticket
       commissions. This structure means there is no financial incentive to
       collect or monetise attendee data.

@@ -20,6 +20,10 @@
 		"answer": "With Chobble Tickets, you pay no commission on ticket sales. You connect your own Stripe or Square account and money from sales goes directly to you. The only cost is the flat annual hosting fee of £50. Chobble is a community interest company. Its income comes from the annual fee, not from taking a cut of your sales."
 	},
 	{
+		"question": "Why does Chobble charge a flat fee instead of per-ticket commission?",
+		"answer": "Per-ticket commission means the platform earns more when you sell more tickets or charge higher prices. This creates an incentive for the platform to push you toward more sales. One of Chobble's founding principles is own, not rent: income should come from providing a service, not from taking a cut of your revenue. A flat annual fee means the cost is predictable and the platform has no stake in your ticket prices or sales volume. You pay the same whether you sell 10 tickets or 10,000."
+	},
+	{
 		"question": "What is the actual cost per ticket with Chobble Tickets?",
 		"answer": "Chobble Tickets charges no per-ticket fee. The only per-transaction cost is the payment processor's fee. Stripe charges 1.5% + 20p per transaction in the UK. Square's fees are similar. On a £15 ticket, that is about 43p to Stripe. On platforms like Eventbrite, the same ticket would cost £1 to £2 in platform fees on top of payment processing."
 	},
@@ -48,8 +52,8 @@
 		"answer": "Your attendee data becomes permanently inaccessible. There is no password reset, no backdoor, and no master key. This is a deliberate design decision. It means that nobody, including Chobble, can access your data without your password. If you are concerned about this, keep a secure backup of your credentials."
 	},
 	{
-		"question": "What does open source mean for a ticketing platform?",
-		"answer": "It means the entire codebase is publicly available on GitHub under the AGPLv3 licence. You can read every line of code, verify the security claims, fork the repository, and modify the software to suit your needs. Unlike some platforms that call themselves open source but keep key features proprietary, Chobble Tickets includes every feature in the open source version. The managed hosting and the self-hosted version are the same code."
+		"question": "Why is Chobble Tickets open source?",
+		"answer": "One of Chobble's founding principles is transparency: the tools customers rely on should be theirs to keep. Making the code open source means you can see exactly how the platform works, verify the security claims yourself, and take the software with you if you choose to leave. The entire codebase is publicly available on GitHub under the AGPLv3 licence. Unlike some platforms that call themselves open source but keep key features proprietary, Chobble Tickets includes every feature in the open source version. The managed hosting and the self-hosted version are exactly the same code."
 	},
 	{
 		"question": "Can I self-host Chobble Tickets?",
@@ -64,8 +68,12 @@
 		"answer": "Because the software is open source under AGPLv3, the code remains available on GitHub regardless of what happens to Chobble as a company. If you self-host, nothing changes. If you use managed hosting, you can switch to self-hosting at any time by forking the repository and deploying it yourself. There is no proprietary lock-in."
 	},
 	{
+		"question": "Can I switch away from Chobble Tickets?",
+		"answer": "Yes, and the platform is designed to make this straightforward. You can export your attendee data as CSV at any time. The codebase is open source, so you can fork it and run it independently. There are no long-term contracts and no exit fees. One of Chobble's principles is honesty: if another provider would suit you better, Chobble's position is that you should use them. The platform does not create lock-in through proprietary data formats, mandatory contracts, or features that only work within the Chobble ecosystem."
+	},
+	{
 		"question": "What is a community interest company?",
-		"answer": "A community interest company (CIC) is a type of UK company designed for social enterprises. Profits cannot be distributed to shareholders. There is no venture capital investment and no requirement to grow at the expense of users. Chobble's income comes from the flat annual fees that organisers pay, not from advertising, data sales, or per-ticket commissions. This structure means there is no financial incentive to collect or monetise attendee data."
+		"answer": "A community interest company (CIC) is a type of UK company designed for social enterprises. Chobble is registered as CIC 17050113. The CIC structure includes an asset lock, which means profits cannot be extracted for private gain. Surplus is reinvested in community activities and reduced costs for community-focused clients. Chobble also donates 10% of revenue to the Against Malaria Foundation. There is no venture capital investment and no requirement to grow at the expense of users. Chobble's income comes from the flat annual fees that organisers pay, not from advertising, data sales, or per-ticket commissions. This structure means there is no financial incentive to collect or monetise attendee data."
 	},
 	{
 		"question": "Can I use my own domain name?",
