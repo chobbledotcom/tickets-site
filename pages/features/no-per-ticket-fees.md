@@ -33,6 +33,32 @@ blocks:
       Charities, community groups, artists, and musicians pay £25/year (50%
       discount).
 
+  - type: markdown
+    section_class: alt
+    content: |
+      ## Why flat-fee pricing is possible
+
+      Processing a ticket costs very little. When someone books a ticket, the
+      server stores a small amount of data, sends a confirmation email, and
+      generates a QR code. The infrastructure cost of doing this is less than a
+      penny per attendee.
+
+      That means the actual cost of running a ticketing platform does not go up
+      meaningfully with each ticket sold. A platform that sells 100 tickets a
+      month and one that sells 10,000 tickets a month have similar hosting
+      costs. The expensive parts — building the software, maintaining it,
+      providing support — are fixed costs that do not depend on ticket volume.
+
+      Per-ticket fees on other platforms are not driven by per-ticket costs.
+      They are a business model choice. Percentage-based pricing lets a platform
+      take more money from organisers who sell more tickets or charge higher
+      prices, even though the platform's cost of processing each ticket is the
+      same.
+
+      Chobble Tickets charges a flat annual fee because that reflects the actual
+      cost structure: fixed costs covered by a fixed price. There is no
+      per-ticket cost to pass on, so there is no per-ticket fee.
+
   - type: stats
     section_class: alt
     items:
@@ -149,14 +175,14 @@ blocks:
       directly to your Stripe or Square account. Chobble never holds your
       revenue.
 
-      Stripe charges 1.5% + 20p per transaction in the UK. This is the same
-      rate whether you use Chobble Tickets or any other platform that connects
-      to Stripe. Some platforms bundle this into their own fee, which makes
-      their per-ticket percentage look like it covers everything, but the
-      payment processing cost is always there.
+      The only per-transaction cost is Stripe's standard processing fee (1.5% +
+      20p in the UK). Every platform that uses Stripe pays this same rate — some
+      just bundle it into a larger per-ticket fee so it is not visible
+      separately.
 
-      Chobble's £50/year fee covers the hosting, software updates, and support.
-      It does not come from your ticket revenue. If you prefer, you can
+      Chobble's £50/year covers hosting, software updates, and support. Because
+      the infrastructure cost per ticket is less than a penny, there is no
+      reason to charge you more when you sell more. If you prefer, you can
       [self-host Chobble Tickets for free](/features/open-source/) and pay only
       the Stripe processing fees.
 
