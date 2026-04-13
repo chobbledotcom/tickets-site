@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Features - Chobble Tickets
 meta_title: Features - Chobble Tickets
-meta_description: Explore the features of Chobble Tickets - open source, encrypted, QR codes, webhooks, public API, and more.
+meta_description: All features included at every price with no booking fees or commission. Open source event ticketing with encryption, QR codes, webhooks, and API access.
 permalink: /features/
 eleventyNavigation:
   key: Features
@@ -14,7 +14,7 @@ blocks:
     title: Features
     lead: >-
       Everything you need to run events, built into one open source platform
-      with no premium tiers or feature gating.
+      with a flat annual fee, no booking fees, and no feature gating.
 
   - type: markdown
     content: |

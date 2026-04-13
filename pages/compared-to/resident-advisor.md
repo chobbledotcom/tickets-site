@@ -29,7 +29,7 @@ blocks:
       and negotiates with promoters individually.
 
       Chobble Tickets is a flat £50/year (£25 for charities and community
-      groups) with no per-ticket fees at all. You only pay Stripe or Square
+      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
       processing fees on top. Once you're selling more than a handful of
       events a year, Chobble Tickets usually works out cheaper.
 

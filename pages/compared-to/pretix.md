@@ -57,7 +57,7 @@ blocks:
       handful of tickets, but costs rise quickly at volume.
 
       Chobble Tickets charges a flat £50/year regardless of how many tickets you
-      sell or what you charge for them. No percentage cut, no per-ticket fees.
+      sell or what you charge for them. No percentage cut, [no per-ticket fees](/features/no-per-ticket-fees/).
 
   - type: include
     file: price-comparator.html

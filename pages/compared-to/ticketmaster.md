@@ -36,8 +36,9 @@ blocks:
       Fees vary by event, venue, and contract, and as an organiser you may
       have little control over the fees charged to your attendees.
 
-      Chobble Tickets charges a flat £50/year, and payment processing fees
-      from Stripe or Square are the only other cost (which go directly to the
+      Chobble Tickets charges a flat £50/year with [no per-ticket
+      fees](/features/no-per-ticket-fees/), and payment processing fees from
+      Stripe or Square are the only other cost (which go directly to the
       payment processor, not to us).
 
   - type: include

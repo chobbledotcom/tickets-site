@@ -32,8 +32,8 @@ blocks:
       the monthly subscription.
 
       Chobble Tickets is a flat £50/year regardless of how many tickets you
-      sell, with Stripe processing at 1.5% + 20p. No per-ticket platform
-      fees, no monthly subscription treadmill.
+      sell, with Stripe processing at 1.5% + 20p. [No per-ticket platform
+      fees](/features/no-per-ticket-fees/), no monthly subscription treadmill.
 
   - type: include
     file: price-comparator.html

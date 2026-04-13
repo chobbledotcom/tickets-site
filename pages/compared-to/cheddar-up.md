@@ -32,7 +32,7 @@ blocks:
       payers or absorbed by the organiser.
 
       Chobble Tickets is a flat £50/year regardless of how many tickets
-      you sell, with no per-ticket platform fees. You pay Stripe's
+      you sell, with [no per-ticket platform fees](/features/no-per-ticket-fees/). You pay Stripe's
       processing fees (1.5% + 20p in the UK) separately.
 
       For the price comparison below, we use the Team plan ($420/year,

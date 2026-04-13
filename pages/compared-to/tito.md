@@ -31,8 +31,8 @@ blocks:
       via [Stripe](https://stripe.com) or
       [PayPal](https://paypal.com) is charged separately by those providers.
 
-      Chobble Tickets is a flat £50/year regardless of how many tickets you
-      sell, so the maths is simple: if you sell more than a few dozen tickets
+      Chobble Tickets is a flat £50/year with [no per-ticket fees](/features/no-per-ticket-fees/),
+      so the maths is simple: if you sell more than a few dozen tickets
       a year, Chobble Tickets is cheaper. With Tito, your costs scale linearly
       with revenue - a £15 ticket costs you 45p in Tito fees alone, and that
       adds up quickly at volume.

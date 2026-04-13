@@ -56,7 +56,7 @@ blocks:
       per contract via a sales call.
 
       **Chobble Tickets managed** is £50/year (£25 for charities and community
-      groups) with no per-ticket fees. Self-hosted Chobble Tickets is free
+      groups) with [no per-ticket fees](/features/no-per-ticket-fees/). Self-hosted Chobble Tickets is free
       under AGPLv3. No sales call required for either option.
 
       ## Feature comparison

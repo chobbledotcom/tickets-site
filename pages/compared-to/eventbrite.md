@@ -26,8 +26,8 @@ blocks:
       upward), so for a £15 ticket you might lose £1-2 per sale to the
       platform.
 
-      Chobble Tickets is a flat £50/year regardless of how many tickets you
-      sell, so the maths is simple: if you sell more than a few dozen tickets
+      Chobble Tickets is a flat £50/year with [no per-ticket fees](/features/no-per-ticket-fees/),
+      so the maths is simple: if you sell more than a few dozen tickets
       a year, Chobble Tickets is cheaper.
 
   - type: markdown
