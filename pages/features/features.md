@@ -29,6 +29,9 @@ blocks:
       - icon: "hugeicons:ticket-01"
         title: '<a href="/features/purchasable-events/">Purchasable events</a>'
         description: Collect donations, sell raffle tickets, and take payments for anything that doesn't require physical attendance.
+      - icon: "hugeicons:clipboard"
+        title: '<a href="/features/sign-up-forms/">Sign-up forms</a>'
+        description: Create volunteer sign-up sheets, potluck coordinators, and other form-based collections by setting an event as free.
       - icon: "hugeicons:clock-01"
         title: '<a href="/features/overbooking-prevention/">Overbooking prevention</a>'
         description: 5-minute payment holds reserve places while attendees complete checkout, so you never oversell.

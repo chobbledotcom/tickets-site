@@ -33,12 +33,15 @@ blocks:
       separate ticketing product.
 
       Chobble Tickets is a purpose-built event ticketing platform. It
-      doesn't do sign-up sheets or volunteer coordination, but it handles
-      paid and free event ticketing with QR code check-in, capacity
-      management, encryption, and no ads.
+      handles paid and free event ticketing with QR code check-in, capacity
+      management, encryption, and no ads. Free events with custom questions
+      can serve as sign-up sheets for volunteers, potluck contributions,
+      or other form-based collections.
 
-      If you need sign-up sheets, SignUpGenius is probably the right tool.
-      If you need event ticketing, read on.
+      SignUpGenius has more advanced coordination features like slot
+      swapping and task assignments. If you need those, it's probably the
+      right tool. If you need event ticketing, or straightforward sign-up
+      forms, read on.
 
       ## Pricing comparison
 
@@ -80,10 +83,12 @@ blocks:
 
       **SignUpGenius has features Chobble Tickets doesn't:**
 
-      - **Sign-up sheets and volunteer coordination** - the core product
-        that made SignUpGenius famous: create sign-up sheets with time
-        slots, task assignments, and item requests for potlucks, volunteer
-        shifts, carpools, and group activities
+      - **Advanced sign-up coordination** - SignUpGenius goes beyond basic
+        sign-up sheets with time-slot management, task assignments, item
+        requests for potlucks, and automatic slot filling across volunteer
+        shifts, carpools, and group activities. (Chobble Tickets can handle
+        straightforward sign-up forms by creating a free event with custom
+        questions, but doesn't have these coordination features.)
       - **Slot swapping** - participants can swap or trade sign-up slots
         with each other without organiser intervention
       - **RSVP format** - dedicated RSVP-style sign-ups for single-date
@@ -116,6 +121,10 @@ blocks:
 
       **Chobble Tickets has features SignUpGenius doesn't:**
 
+      - **[Sign-up forms](/features/sign-up-forms/)** - create volunteer
+        sign-up sheets, potluck coordinators, and other collections by
+        setting an event as free with custom questions, with capacity
+        limits and encrypted data included
       - **[QR code tickets](/features/qr-code-check-ins/)** - every
         attendee gets a unique, scannable QR code for check-in at the door
         (SignUpGenius Tickets has basic ticketing, but the core sign-up
@@ -217,9 +226,9 @@ blocks:
     content: |
       ## When SignUpGenius might be the better choice
 
-      - You need sign-up sheets for volunteer coordination, potlucks,
-        carpools, or task assignments - this is what SignUpGenius was built
-        for and it's genuinely excellent at it
+      - You need advanced volunteer coordination with slot swapping, task
+        assignments, and automatic slot filling - this is what SignUpGenius
+        was built for and it's genuinely excellent at it
       - You want RSVP-style responses (yes/no/maybe) rather than ticket
         sales
       - You need slot swapping so participants can trade shifts without
@@ -229,15 +238,17 @@ blocks:
       - You need a mobile app for on-the-go management
       - You want a free option and don't mind ads on your pages
       - You need text message reminders to participants
-      - You're coordinating group activities that don't involve selling
-        tickets (e.g. "who's bringing what to the bake sale")
+      - You're coordinating complex group activities with slot swapping
+        and task management (e.g. weekly volunteer rotas with shift trades)
 
   - type: markdown
     content: |
       ## When Chobble Tickets is the better choice
 
-      - You need actual event ticketing with QR code check-in and capacity
+      - You need event ticketing with QR code check-in and capacity
         management
+      - You want sign-up forms for volunteers or potluck contributions
+        without paying for advanced coordination features you don't need
       - You're selling tickets and want flat, predictable pricing with no
         per-ticket fees
       - You want clean, ad-free event pages from day one
@@ -317,7 +328,7 @@ blocks:
 
   - type: cta
     title: Try Chobble Tickets
-    description: Purpose-built ticketing with no ads, no per-ticket fees, and no sign-up sheets you don't need.
+    description: Ticketing and sign-up forms with no ads and no per-ticket fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register

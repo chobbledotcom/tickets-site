@@ -31,8 +31,9 @@ blocks:
       Chobble Tickets is a general-purpose ticketing platform run as a
       Community Interest Company. It focuses on doing core ticketing well -
       with flat pricing, open source code, and encrypted attendee data - but
-      doesn't have PTA-specific features like prize draws or volunteer
-      coordination.
+      doesn't have PTA-specific features like prize draws or auctions,
+      though free events with custom questions can serve as volunteer
+      sign-up sheets.
 
       ## Pricing comparison
 
@@ -111,7 +112,9 @@ blocks:
 
       PTA Events includes purpose-built volunteer coordination: create tasks,
       set up time slots, recruit volunteers, track sign-ups, and send
-      automatic reminders. Chobble Tickets doesn't have volunteer management.
+      automatic reminders. Chobble Tickets can handle basic volunteer
+      sign-ups by creating a free event with custom questions, but doesn't
+      have PTA Events' task management and scheduling features.
 
       ### Communication
 
@@ -160,21 +163,22 @@ blocks:
       ## When PTA Events makes more sense
 
       If your PTA needs the full fundraising toolkit - prize draws,
-      auctions, 100 clubs, volunteer management, merchandise sales, Gift Aid
-      collection, and parent communications - then PTA Events is
+      auctions, 100 clubs, advanced volunteer task management, merchandise
+      sales, Gift Aid collection, and parent communications - then PTA Events is
       purpose-built for that. It's designed specifically for the school
       fundraising context and its features reflect years of feedback from
       PTAs. The ability to pass platform fees to buyers means the PTA's
       direct costs can be kept low.
 
       PTA Events is also a good choice if you want an all-in-one platform
-      that covers ticketing, e-commerce, communications, and volunteer
-      coordination in a single tool.
+      that covers ticketing, e-commerce, communications, and advanced
+      volunteer coordination in a single tool.
 
       ## When Chobble Tickets makes more sense
 
-      If your PTA mainly runs ticketed events and doesn't need auctions,
-      raffles, or volunteer tools, Chobble Tickets is simpler and cheaper. At
+      If your PTA mainly runs ticketed events and basic volunteer sign-ups,
+      and doesn't need auctions, raffles, or advanced volunteer task
+      management, Chobble Tickets is simpler and cheaper. At
       £25/year for community groups with no per-ticket fees, the savings
       add up quickly - especially for popular events
       where percentage fees eat into your fundraising total.
