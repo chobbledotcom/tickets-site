@@ -23,11 +23,11 @@ blocks:
       ## Chobble Tickets (managed hosting)
 
       On Chobble's managed hosting, attendee data is
-      [encrypted at rest](/features/encrypted/) using hybrid RSA-OAEP +
-      AES-256-GCM encryption, derived from your admin password. When an
-      attendee registers for your event, their personal information is
-      encrypted before it is written to the database. It is only decrypted
-      when you log in and view it.
+      [encrypted at rest](/features/encrypted/) with strong encryption
+      derived from your admin password. When an attendee registers for
+      your event, their personal information is encrypted before it is
+      written to the database. It is only decrypted when you log in and
+      view it.
 
       Here is exactly who can access your attendees' personal information:
 
@@ -104,11 +104,14 @@ blocks:
     content: |
       ## Why the difference is structural
 
-      The large ticketing platforms already charge per-ticket fees. The
-      actual cost of storing an attendee record is tiny. They do not need
-      to track your attendees to cover the cost of providing the service.
-      They charge you a percentage of every ticket sale, and they track
-      your attendees. They do both.
+      The large ticketing platforms already charge per-ticket fees. Those
+      fees do not go towards hosting your event page or storing your
+      attendee records. The actual cost of doing that is almost
+      unmeasurably small. The per-ticket fees pay for marketing budgets,
+      sales teams, executive pay, and investor returns. On top of those
+      fees, they also track your attendees across dozens of advertising
+      networks. They charge you, and they track your attendees. They do
+      both.
 
       Chobble's income comes from the flat annual fee you pay. There is no
       advertising revenue, no data partnerships, and no investor expecting
