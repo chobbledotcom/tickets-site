@@ -14,9 +14,9 @@ blocks:
     class: gradient
     title: Chobble Tickets vs Ticket Tailor
     lead: >-
-      Ticket Tailor is a well-established, independently owned ticketing
-      platform from London, so here's how a small, open source alternative
-      compares.
+      Ticket Tailor is an independently owned ticketing platform from
+      London, running since 2010, so here's how a small, open source
+      alternative compares.
 
   - type: markdown
     content: |
@@ -35,11 +35,11 @@ blocks:
 
       Chobble Tickets is a flat £50/year with
       [no per-ticket fees](/features/no-per-ticket-fees/). Community groups,
-      charities, and schools pay £25/year. If you sell more than about 85
-      paid tickets a year on pay-as-you-go, Chobble Tickets is cheaper.
-      Ticket Tailor's cheapest prepaid rate of 22p per ticket beats Chobble
-      Tickets only if you buy credits in very large bundles and sell a few
-      hundred tickets or fewer per year.
+      charities, and schools pay £25/year. On Ticket Tailor's pay-as-you-go
+      rate, Chobble Tickets works out cheaper once you sell more than about
+      84 paid tickets a year. Even at Ticket Tailor's lowest prepaid rate of
+      22p per ticket, Chobble Tickets is cheaper once you sell more than
+      about 230 tickets a year.
 
   - type: include
     file: price-comparator.html
@@ -48,13 +48,12 @@ blocks:
     content: |
       ## Feature comparison
 
-      Ticket Tailor is a polished platform with over a decade of development
-      behind it. Both platforms take different approaches, so here's an
-      honest breakdown:
+      Ticket Tailor has been running since 2010 and has a broader feature
+      set than Chobble Tickets in several areas. Here's an honest breakdown:
 
       **Both platforms share some features:**
 
-      - Online ticket sales with payment processing via Stripe
+      - Online ticket sales with payment processing via Stripe or Square
       - Apple Pay and Google Pay at checkout (via Stripe)
       - QR code scanning for check-in at the door
       - Email confirmations to attendees after booking
@@ -66,11 +65,9 @@ blocks:
       - Webhooks for real-time event notifications
       - Custom questions on the registration form
       - Multiple ticket types per event
-      - Discount codes and promo codes
       - CSV data export
       - Apple Wallet tickets
       - Recurring events with per-date capacity
-      - Donations at checkout
       - Flat per-ticket pricing with no percentage commission
       - Custom domain support
       - White-label options
@@ -86,6 +83,10 @@ blocks:
       - **Native check-in apps** - dedicated iOS and Android apps that
         download attendee lists for offline scanning
       - **Waitlists** - built-in waitlist support for sold-out events
+      - **Discount codes** - set up promo codes and voucher codes to give
+        attendees a discount at checkout
+      - **Donations at checkout** - attendees can add an optional donation
+        on top of their ticket price, with no fee charged on donations
       - **Ticket bundles** - combine tickets and add-ons into a single
         bundle at a discounted price (for example, two adults plus a child)
       - **Tracking links** - generate UTM-tagged links to see which
@@ -96,16 +97,17 @@ blocks:
         without writing code
       - **WordPress plugin** - official plugin for embedding events in
         WordPress sites
+      - **PayPal support** - accept PayPal alongside card payments
+        (Chobble Tickets supports Stripe and Square, but not PayPal)
       - **Pass-on fees to buyers** - the fee can be added to the ticket
         price at checkout rather than absorbed by the organiser
       - **Multi-currency support** - sell tickets in different currencies
-        for international events
+        on the same account (Chobble Tickets uses one currency per instance,
+        set at setup)
       - **Apple Wallet for memberships** - save membership passes to Apple
         Wallet for recurring check-ins
       - **Heat map for recurring events** - shows which dates and times
         are busiest at a glance
-      - **Longer track record** - Ticket Tailor has been running since
-        2010, with a large existing customer base
       - **B Corp certification** - Ticket Tailor is a certified B
         Corporation, with an impact score of 123
 
@@ -137,7 +139,8 @@ blocks:
       - **[Admin API](/features/admin-api/)** - authenticated API with
         API keys for full event CRUD and reading private data
       - **Custom domain included** - pointing your own domain is part of
-        the £50/year plan, not a £7/month add-on
+        the £50/year plan (Ticket Tailor charges around £7/month for
+        white-label, which is needed to use your own domain)
       - **No marketing to your attendees** - your audience stays yours
       - **Community Interest Company** - run by a CIC, a UK legal
         structure that locks the company's assets for community benefit
@@ -145,17 +148,17 @@ blocks:
       ## Data ownership
 
       Ticket Tailor is a proprietary platform. Your event data lives on
-      their servers, and you depend on their continued operation. Ticket
-      Tailor has a strong reputation for not marketing to attendees and
-      does not cross-promote other organisers' events, which puts them in
-      a different position to platforms like Eventbrite. CSV exports and
-      a full API are available for getting your data out.
+      their servers, and you depend on their continued operation. Unlike
+      some larger platforms, Ticket Tailor does not run a consumer
+      marketplace and does not email attendees about other organisers'
+      events. CSV exports and a full API are available for getting your
+      data out.
 
       With Chobble Tickets, attendee data is encrypted at rest and stays
       under your control. The entire platform is open source under AGPLv3,
-      so you can self-host it and never depend on a third party at all.
-      If Chobble Tickets stopped operating tomorrow, you could run the
-      exact same code on your own server.
+      so you can self-host it and never depend on a third party. If
+      Chobble Tickets stopped operating tomorrow, you could run the same
+      code on your own server.
 
       ## When Ticket Tailor might be the better choice
 
@@ -166,10 +169,12 @@ blocks:
       - You want direct integrations with Mailchimp, HubSpot, or Zapier
         without writing code
       - You sell in multiple currencies for international events
+      - You need built-in discount codes, voucher codes, or pass-on fees
+        at checkout
+      - You want to accept PayPal alongside Stripe
       - You prefer paying a flat fee per ticket over an annual fee, and
-        sell fewer than about 85 paid tickets a year
-      - You want a platform with a decade-plus track record and a large
-        existing customer base
+        sell fewer than about 84 paid tickets a year
+      - You want a platform that has been running since 2010
 
       ## When Chobble Tickets is the better choice
 
@@ -192,14 +197,16 @@ blocks:
     content: |
       ## Who owns Ticket Tailor?
 
-      Ticket Tailor was founded in London in 2010 by Jonny White. The
-      company was sold to Time Out, the media and events group, and later
-      bought back by the founder. It has operated independently since,
-      without venture capital or private equity funding.
+      Ticket Tailor was founded in London in 2010 by Jonny White and
+      launched in early 2011. The company was sold to Time Out in 2012
+      and bought back by the founder in 2014. It has operated
+      independently since, without venture capital or private equity
+      funding.
 
       Ticket Tailor is a [certified B
-      Corporation](https://www.bcorporation.net), a certification for
-      companies that meet standards on social and environmental performance.
+      Corporation](https://www.bcorporation.net/en-us/find-a-b-corp/company/ticket-tailor/),
+      a certification for companies that meet standards on social and
+      environmental performance.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
@@ -221,7 +228,7 @@ blocks:
       - [Ticket Tailor help centre: charity discount](https://help.tickettailor.com/en/articles/950033-i-run-a-charity-not-for-profit-organisation-do-i-get-a-discount) - 50% off for registered charities
       - [Ticket Tailor help centre: all discounts](https://help.tickettailor.com/en/articles/8687492-what-discounts-do-we-offer) - 20% off for PTAs and B Corps
       - [Ticket Tailor help centre: Stripe, PayPal, Square fees](https://help.tickettailor.com/en/articles/959959-how-much-do-stripe-paypal-and-square-charge)
-      - [Ticket Tailor help centre: custom domain](https://help.tickettailor.com/en/articles/9361210-top-tips-for-using-a-widget-and-a-custom-domain) - £7/month add-on
+      - [Ticket Tailor help centre: custom domain and white-label](https://help.tickettailor.com/en/articles/9361210-top-tips-for-using-a-widget-and-a-custom-domain) - ~£7/month for white-label (includes custom domain)
       - [Ticket Tailor features](https://www.tickettailor.com/features) - full feature list
       - [Ticket Tailor API docs](https://developers.tickettailor.com/docs/api/ticket-tailor-api/)
       - [Ticket Tailor our story](https://www.tickettailor.com/our-story) - founded 2010 by Jonny White, bought back from Time Out
