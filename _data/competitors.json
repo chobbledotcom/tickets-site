@@ -133,6 +133,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "Tito fees: 3% per ticket (2.5% for charity/non-profit/community), capped at €25 per ticket. Payment processing (e.g. Stripe 1.5% + 20p) is separate. Free events have no fees. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: ti.to/pricing (March 2026)."
   },
+  "ticket_tailor": {
+    "name": "Ticket Tailor",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0.6,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Ticket Tailor pay-as-you-go fee: £0.60 per paid ticket (flat, no percentage). Prepaid credits reduce this to as little as £0.22 per ticket in bulk (500 credits = £0.41 each; minimum purchase 100 credits). Registered charities get 50% off; PTAs and B Corps get 20% off. Free events are free up to 5,000 tickets per year. Payment processing via Stripe (1.5% + 20p), PayPal, or Square is charged separately. Custom domain is £7/month extra, or free when bundled with white-label. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: tickettailor.com/pricing (April 2026)."
+  },
   "cheddar_up": {
     "name": "Cheddar Up",
     "annual_cost": 335,
