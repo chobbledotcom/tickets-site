@@ -68,15 +68,13 @@ blocks:
       ## Domain registered with Njalla
 
       The chobble.com domain is registered with [Njalla](https://njal.la),
-      a privacy-focused domain registrar run by the team behind The Pirate
-      Bay. Njalla registers domains in its own name on behalf of its
-      customers, which means the customer's personal details do not appear
-      in public WHOIS records or in the registry's database.
+      a domain registrar run by the team behind The Pirate Bay.
 
-      This matters because the domain registrar is the company that can
-      take a site offline by revoking the domain. Chobble's domain sits
-      with a registrar that has a long public record of resisting takedown
-      requests that it considers improper.
+      The domain registrar is the company that can take a site offline by
+      revoking the domain. Njalla has a long public record of resisting
+      takedown requests that it considers improper, and is based outside
+      the usual US- and UK-aligned jurisdictions that most registrars
+      operate in.
 
       If you self-host Chobble Tickets, you use your own registrar. You can
       choose Njalla, a national registrar like
