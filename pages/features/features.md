@@ -115,6 +115,9 @@ blocks:
       - icon: "hugeicons:lock"
         title: '<a href="/features/encrypted/">Encrypted</a>'
         description: All personal data encrypted at rest with hybrid RSA-OAEP + AES-256-GCM.
+      - icon: "hugeicons:global"
+        title: '<a href="/features/european/">European</a>'
+        description: UK company, Slovenian hosting. Attendee data stays in the EU, under UK-GDPR and EU data protection law.
       - icon: "hugeicons:smart-phone-01"
         title: '<a href="/features/apple-wallet/">Apple & Google Wallet</a>'
         description: Attendees can add tickets to Apple Wallet or Google Wallet for easy access at the door.
