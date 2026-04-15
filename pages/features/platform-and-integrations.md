@@ -25,7 +25,7 @@ blocks:
       - icon: "hugeicons:lock"
         title: '<a href="/features/encrypted/">Encrypted</a>'
         description: All personal data encrypted at rest with hybrid RSA-OAEP + AES-256-GCM.
-      - icon: "hugeicons:european-union"
+      - icon: "hugeicons:global"
         title: '<a href="/features/european/">European</a>'
         description: Hosted on Bunny.net in Slovenia, domain registered with Njalla, and attendee data can stay in EU regions.
       - icon: "hugeicons:smart-phone-01"
