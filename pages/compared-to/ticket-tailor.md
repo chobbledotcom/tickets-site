@@ -31,7 +31,11 @@ blocks:
       on top.
 
       Registered charities get 50% off Ticket Tailor fees. PTAs and B Corps
-      get 20% off. Free events are free up to 5,000 tickets per year.
+      get 20% off. Free events do not use credits or pay-as-you-go fees.
+
+      Reserved seating events consume two credits per paid seated ticket
+      rather than one, which doubles the per-ticket cost on the seating
+      chart features.
 
       Chobble Tickets is a flat £50/year with
       [no per-ticket fees](/features/no-per-ticket-fees/). Community groups,
@@ -54,32 +58,35 @@ blocks:
       **Both platforms share some features:**
 
       - Online ticket sales with payment processing via Stripe or Square
-      - Apple Pay and Google Pay at checkout (via Stripe)
       - QR code scanning for check-in at the door
       - Email confirmations to attendees after booking
       - Capacity management to prevent overselling
+      - Shared capacity caps across multiple ticket tiers (Ticket Tailor
+        does this with ticket types inside one event; Chobble Tickets does
+        it by grouping separate events together)
       - Free event support with no payment setup required
       - Refund processing from the admin panel
       - Embeddable ticket widgets for your own website
       - REST API access for custom integrations
       - Webhooks for real-time event notifications
       - Custom questions on the registration form
-      - Multiple ticket types per event
       - CSV data export
-      - Apple Wallet tickets
+      - Apple Wallet passes for tickets
       - Recurring events with per-date capacity
-      - Flat per-ticket pricing with no percentage commission
       - Custom domain support
-      - White-label options
 
       **Ticket Tailor has features Chobble Tickets doesn't:**
 
       - **Reserved seating** - drag-and-drop seating chart designer where
         you upload a venue floor plan and trace seats over it, so attendees
-        can pick their own seat
+        can pick their own seat. Reserved seating consumes two credits per
+        paid seated ticket
+      - **Multiple ticket types in one event** - sell Adult, Child, and
+        Concession tickets from a single event page (Chobble Tickets
+        achieves this by grouping separate events together)
       - **On-site point-of-sale** - the Ticket Tailor check-in app sells
-        tickets in person and accepts cash or card payments via an external
-        Stripe Reader or BBPOS terminal
+        tickets in person and accepts card payments via the BBPOS WisePOS E
+        terminal through Stripe Terminal, plus Tap to Pay or cash
       - **Native check-in apps** - dedicated iOS and Android apps that
         download attendee lists for offline scanning
       - **Waitlists** - built-in waitlist support for sold-out events
@@ -91,7 +98,9 @@ blocks:
         marketing channels drove each sale
       - **Direct marketing integrations** - built-in connectors for
         Mailchimp, HubSpot, Constant Contact, and ActiveCampaign (Chobble
-        Tickets connects to Zapier and other tools via webhooks)
+        Tickets connects to these tools through webhooks or Zapier)
+      - **Apple Pay and Google Pay** - documented support for digital
+        wallet payments through Stripe at checkout
       - **WordPress plugin** - official plugin for embedding events in
         WordPress sites
       - **PayPal support** - accept PayPal alongside card payments
@@ -109,39 +118,43 @@ blocks:
       **Chobble Tickets has features Ticket Tailor doesn't:**
 
       - **[End-to-end encryption](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
-        in a database
+        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, where only
+        the organiser holds the private key. Ticket Tailor uses standard
+        AES-256 encryption at rest, but the data remains readable by
+        Ticket Tailor staff
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for
         free, with no licence fee
       - **Flat annual pricing** - £50/year with no per-ticket fees, no
         matter how many you sell, and no credit bundles to top up
-      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
-        subscribers get automatic calendar updates
+      - **[Subscribable ICS calendar feed](/features/rss-and-calendar-feeds/)** -
+        a single feed that lists all your events, so subscribers get
+        automatic updates when you add new ones (Ticket Tailor offers
+        per-event "add to calendar" links in confirmation emails, but no
+        subscribable feed)
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate your
         events to feed readers
-      - **[Tiered ticket types via groups](/features/groups/)** - create
-        VIP, early bird, and other tiers using event groups with a shared
-        capacity cap (max attendees per group)
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
-        attendees choose their own price above a minimum, so buyers can
+        attendees enter their own price above a minimum, so buyers can
         donate more if they want. Chobble Tickets takes no cut of the
-        extra, so all of it goes to you
-      - **Pass-on fees to buyers** - set a percentage booking fee that is
-        added to the ticket price at checkout and paid to you, rather than
-        absorbed by you
+        extra, so all of it goes to you. Ticket Tailor supports
+        sliding-scale pricing through fixed ticket types at different
+        prices, but not a free-text amount entered by the buyer
+      - **[Google Wallet passes](/features/apple-wallet/)** - tickets can
+        be saved to Google Wallet alongside Apple Wallet
       - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
-      - **[Customisable email templates](/features/email-templates/)** -
-        full control over confirmation emails with Liquid syntax
+      - **[Liquid email templates](/features/email-templates/)** - full
+        control over confirmation emails with Liquid template syntax
+        (Ticket Tailor allows editing the confirmation email with
+        placeholders, but not a full templating language)
       - **[Admin API](/features/admin-api/)** - authenticated API with
         API keys for full event CRUD and reading private data
       - **Custom domain included** - pointing your own domain is part of
-        the £50/year plan (Ticket Tailor charges around £7/month for
-        white-label, which is needed to use your own domain)
-      - **No marketing to your attendees** - your audience stays yours
+        the £50/year plan (Ticket Tailor bundles custom domains with its
+        White Label add-on at around £7/month)
       - **Community Interest Company** - run by a CIC, a UK legal
         structure that locks the company's assets for community benefit
 
@@ -196,8 +209,8 @@ blocks:
     content: |
       ## Who owns Ticket Tailor?
 
-      Ticket Tailor was founded in London in 2010 by Jonny White and
-      launched in early 2011. The company was sold to Time Out in 2012
+      Ticket Tailor was started by Jonny White in London in 2010 and
+      launched in January 2011. The company was sold to Time Out in 2012
       and bought back by the founder in 2014. It has operated
       independently since, without venture capital or private equity
       funding.
