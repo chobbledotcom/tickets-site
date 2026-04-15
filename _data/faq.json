@@ -75,6 +75,16 @@
 		"answer": "Your attendee data becomes permanently inaccessible. There is no password reset, no backdoor, and no master key. This is a deliberate design decision. It means that nobody, including Chobble, can access your data without your password. Keep a secure backup of your credentials."
 	},
 	{
+		"section": "Data privacy and security",
+		"question": "Is Chobble Tickets hosted in the EU?",
+		"answer": "Yes. Chobble Tickets runs on <a href=\"https://bunny.net\">Bunny.net</a>, a hosting and CDN company headquartered in Ljubljana, Slovenia. On managed hosting, the storage zone is configured to keep attendee data in EU regions. If you <a href=\"/hosting/\">self-host</a>, you choose which Bunny region your instance runs in, or deploy to other EU-based providers such as Scaleway (France) or Hetzner (Germany and Finland). Read the full breakdown on the <a href=\"/features/european/\">European</a> page."
+	},
+	{
+		"section": "Data privacy and security",
+		"question": "Is Chobble affected by the US CLOUD Act?",
+		"answer": "The <a href=\"https://en.wikipedia.org/wiki/CLOUD_Act\">US CLOUD Act</a> allows US authorities to compel US-based companies to hand over data regardless of where it is stored. Chobble itself is a UK community interest company and is not subject to it. Chobble's hosting provider (Bunny.net) is headquartered in Slovenia and is not a US company. The payment processors Chobble supports (<a href=\"/features/stripe-and-square/\">Stripe and Square</a>) are US-domiciled, so payment data they hold is in scope. If you run free events, no payment processor is involved. Read the full breakdown on the <a href=\"/features/european/\">European</a> page."
+	},
+	{
 		"section": "Open source and self-hosting",
 		"question": "Why is Chobble Tickets open source?",
 		"answer": "One of <a href=\"https://chobble.com/principles\">Chobble's founding principles</a> is transparency: the tools customers rely on should be theirs to keep. Making the code open source means you can see exactly how the platform works, verify the security claims yourself, and take the software with you if you choose to leave. Some platforms create dependency by making it difficult to understand or replicate what they do. Open source code prevents this. The entire codebase is publicly available on <a href=\"https://github.com/chobbledotcom/tickets\">GitHub</a> under the AGPLv3 licence. Unlike some platforms that call themselves open source but keep key features proprietary, Chobble Tickets includes every feature in the open source version. The managed hosting and the self-hosted version are exactly the same code."
