@@ -31,6 +31,7 @@ blocks:
       |---|---|---|
       | Ticketing software | [Chobble](https://chobble.com) | United Kingdom |
       | Hosting and CDN | [Bunny.net](https://bunny.net) | Slovenia |
+      | Domain registrar | [Njalla](https://njal.la) | Sweden |
       | Default email provider | [Mailgun EU](https://www.mailgun.com/) | EU endpoint (US parent company) |
       | Payment processor | [Stripe](https://stripe.com) or [Square](https://squareup.com) | United States |
 
@@ -171,10 +172,22 @@ blocks:
       ## A note on the domain registrar
 
       The chobble.com domain is registered with
-      [Njalla](https://njal.la), a registrar run by the team behind The
-      Pirate Bay, chosen for consistency with the rest of the stack
-      rather than for any day-to-day feature. If you self-host, you pick
-      your own registrar.
+      [Njalla](https://njal.la). Njalla operates from Sweden and is
+      incorporated in Saint Kitts and Nevis. It was founded by Peter
+      Sunde, one of the co-founders of The Pirate Bay.
+
+      Njalla works differently from most registrars. It takes legal
+      ownership of the domain on the customer's behalf and passes the
+      usage rights to the customer. Takedown requests and legal process
+      go to Njalla first. Njalla publishes the notices it receives
+      alongside its responses, so its approach is a matter of public
+      record.
+
+      For most Chobble Tickets organisers, the registrar is invisible in
+      day-to-day use. The reason to name it here is that the domain sits
+      with a small Swedish operator rather than a US-based registrar,
+      which is consistent with the rest of the stack. If you self-host,
+      you pick your own registrar.
 
   - type: markdown
     content: |
@@ -199,6 +212,7 @@ blocks:
 
       - [Bunny.net - About](https://bunny.net/about/) - headquartered in Ljubljana, Slovenia
       - [Bunny.net - Edge Storage regions](https://docs.bunny.net/docs/storage-regions) - configure which regions your data lives in
+      - [Njalla](https://njal.la) - domain registrar operating from Sweden
       - [Mailgun - Data regions](https://www.mailgun.com/regions/) - US and EU endpoints
       - [UK Community Interest Companies guidance](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       - [US CLOUD Act (Wikipedia)](https://en.wikipedia.org/wiki/CLOUD_Act)
