@@ -85,22 +85,17 @@ blocks:
       - **Waitlists** - built-in waitlist support for sold-out events
       - **Discount codes** - set up promo codes and voucher codes to give
         attendees a discount at checkout
-      - **Donations at checkout** - attendees can add an optional donation
-        on top of their ticket price, with no fee charged on donations
       - **Ticket bundles** - combine tickets and add-ons into a single
         bundle at a discounted price (for example, two adults plus a child)
       - **Tracking links** - generate UTM-tagged links to see which
         marketing channels drove each sale
       - **Direct marketing integrations** - built-in connectors for
-        Mailchimp, HubSpot, Constant Contact, and ActiveCampaign
-      - **Zapier integration** - connect to thousands of third-party apps
-        without writing code
+        Mailchimp, HubSpot, Constant Contact, and ActiveCampaign (Chobble
+        Tickets connects to Zapier and other tools via webhooks)
       - **WordPress plugin** - official plugin for embedding events in
         WordPress sites
       - **PayPal support** - accept PayPal alongside card payments
         (Chobble Tickets supports Stripe and Square, but not PayPal)
-      - **Pass-on fees to buyers** - the fee can be added to the ticket
-        price at checkout rather than absorbed by the organiser
       - **Multi-currency support** - sell tickets in different currencies
         on the same account (Chobble Tickets uses one currency per instance,
         set at setup)
@@ -130,7 +125,12 @@ blocks:
         VIP, early bird, and other tiers using event groups with a shared
         capacity cap (max attendees per group)
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
-        attendees choose their own price
+        attendees choose their own price above a minimum, so buyers can
+        donate more if they want. Chobble Tickets takes no cut of the
+        extra, so all of it goes to you
+      - **Pass-on fees to buyers** - set a percentage booking fee that is
+        added to the ticket price at checkout and paid to you, rather than
+        absorbed by you
       - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
@@ -166,11 +166,10 @@ blocks:
       - You want an on-site point-of-sale system with card readers
       - You want native iOS and Android check-in apps
       - You need waitlists for sold-out events
-      - You want direct integrations with Mailchimp, HubSpot, or Zapier
-        without writing code
+      - You want direct built-in integrations with Mailchimp, HubSpot, or
+        Constant Contact without setting up webhooks
       - You sell in multiple currencies for international events
-      - You need built-in discount codes, voucher codes, or pass-on fees
-        at checkout
+      - You need built-in discount codes or voucher codes
       - You want to accept PayPal alongside Stripe
       - You prefer paying a flat fee per ticket over an annual fee, and
         sell fewer than about 84 paid tickets a year
