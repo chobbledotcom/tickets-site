@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Encrypted - Chobble Tickets
 meta_title: Encrypted Ticketing - Chobble Tickets
-meta_description: All personal information is encrypted at rest using hybrid RSA-OAEP + AES-256-GCM encryption.
+meta_description: Attendee personal information is encrypted with a key derived from your admin password. Even Chobble staff cannot read attendee data without your password.
 permalink: /features/encrypted/
 eleventyNavigation:
   key: Encrypted
@@ -13,12 +13,14 @@ blocks:
     class: gradient
     title: Encrypted by default
     lead: >-
-      All personally identifiable information is encrypted at rest. This is
-      included in every plan, not sold as a paid add-on.
+      Attendee personal information is encrypted with a key derived from
+      your admin password. Even Chobble staff cannot read your attendee
+      data without your password. This is included in every plan, not
+      sold as a paid add-on.
 
   - type: markdown
     content: |
-      ## Three layers of protection
+      ## How the encryption works
 
       Chobble Tickets uses a multi-layered encryption approach:
 
@@ -27,12 +29,22 @@ blocks:
       - **AES-256-GCM** for payment identifiers, pricing data, check-in
         records, and API credentials
       - **PBKDF2** with 600,000 iterations and SHA-256 for password hashing
+        and key derivation
 
-      A three-layer key hierarchy protects your data: an environment variable
-      root key, an RSA key pair, and per-user wrapped data keys. Even if
-      someone gains access to the database, they can't read your attendees'
-      personal information without the encryption keys, and a lost password
-      means permanently unreadable data because there is no backdoor.
+      The key hierarchy ties decryption to your admin password:
+
+      1. Your password is run through PBKDF2 to derive a key.
+      2. That key unwraps your personal RSA private key, which is stored
+         in the database in encrypted form.
+      3. Your RSA private key decrypts per-record AES data keys.
+      4. Those AES keys decrypt the actual attendee data.
+
+      A database dump on its own is not enough to read attendee data. A
+      database dump together with the server's environment encryption
+      key is still not enough - an attacker would also need your
+      password. Your private key is held in memory only for the duration
+      of an authenticated admin session, and is discarded when you log
+      out.
 
       ## Additional security measures
 
@@ -44,11 +56,12 @@ blocks:
 
       ## You are the data controller
 
-      With Chobble Tickets, attendee data is encrypted at rest and only
-      decrypted server-side when an authorised admin views it. If you
-      self-host, encryption keys never leave your environment. On managed
-      hosting, data is decrypted on the server to display it to you, but is
-      never shared with third parties or used for any other purpose.
+      Attendee data is decrypted on the server only during an
+      authenticated admin session, using keys unlocked by the admin's
+      password. The server does not keep the decryption keys after the
+      session ends. Chobble staff cannot read your attendee data, even
+      on managed hosting, because they do not have your password. If
+      you self-host, the same is true for everyone except you.
 
       **Important**: encryption keys are non-recoverable if lost, and admin
       passwords cannot be reset. A lost password means attendee data is
