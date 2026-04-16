@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 2.5
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Who can see your attendee data
     lead: >-
@@ -66,7 +65,7 @@ blocks:
       this.
 
   - type: markdown
-    section_class: alt
+    dark: true
     content: |
       ## How other platforms compare
 

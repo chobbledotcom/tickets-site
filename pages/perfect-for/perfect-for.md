@@ -9,7 +9,6 @@ eleventyNavigation:
   order: 3
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Perfect for all kinds of events
     lead: >-

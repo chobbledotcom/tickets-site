@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 0
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Fully open source
     lead: >-

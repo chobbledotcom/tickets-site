@@ -9,7 +9,6 @@ eleventyNavigation:
   order: 4
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Host Chobble Tickets for others
     lead: >-
@@ -35,7 +34,7 @@ blocks:
       platform. It has to be software that many people run.
 
   - type: markdown
-    section_class: alt
+    dark: true
     content: |
       ## Run a hosting platform
 
@@ -98,7 +97,7 @@ blocks:
       main project. No update reaches your site without your approval.
 
   - type: markdown
-    section_class: alt
+    dark: true
     content: |
       ## What hosts share, and what they control
 

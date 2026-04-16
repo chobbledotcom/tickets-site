@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 3
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Ticketing for political organising
     lead: >-
@@ -40,7 +39,7 @@ blocks:
         text: "Deploy on your own servers."
 
   - type: features
-    section_class: alt
+    dark: true
     header_intro: "## Features for political organisers"
     items:
       - icon: "hugeicons:source-code"

@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 6
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Purchasable events
     lead: >-

@@ -9,7 +9,6 @@ eleventyNavigation:
   order: 0
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     badge: Open Source & Encrypted
     title: Open source event ticketing with no per-ticket fees
@@ -27,7 +26,7 @@ blocks:
         size: lg
 
   - type: stats
-    section_class: alt
+    dark: true
     items:
       - value: "\u00A350"
         label: Per Year
@@ -66,7 +65,7 @@ blocks:
         description: Run it on your own infrastructure or let us host it for you - either way, you're in control.
 
   - type: markdown
-    section_class: alt
+    dark: true
     content: |
       ## What organisers say
 
@@ -88,7 +87,6 @@ blocks:
       [Read more reviews &rarr;](/reviews/)
 
   - type: split-full
-    container_width: full
     variant: dark-left
     reveal_left: left
     reveal_right: right

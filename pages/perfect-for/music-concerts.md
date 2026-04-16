@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Ticketing for music concerts
     lead: >-
@@ -37,7 +36,7 @@ blocks:
         text: "No commission on ticket sales."
 
   - type: features
-    section_class: alt
+    dark: true
     header_intro: "## Built for live music"
     items:
       - icon: "hugeicons:qr-code"

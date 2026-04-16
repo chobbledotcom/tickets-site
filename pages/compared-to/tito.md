@@ -10,7 +10,6 @@ eleventyNavigation:
   parent: Compared To
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Chobble Tickets vs Tito
     lead: >-
@@ -96,9 +95,13 @@ blocks:
 
       **Chobble Tickets has features Tito doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
-        in a database
+      - **[Password-derived encryption](/features/encrypted/)** -
+        attendee data is encrypted with a key derived from your admin
+        password using hybrid RSA-OAEP + AES-256-GCM. A database dump
+        and the server's environment encryption key together are still
+        not enough to decrypt attendee data - an attacker would also
+        need your password. If you forget it, the data is permanently
+        unrecoverable.
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for

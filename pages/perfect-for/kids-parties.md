@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 0
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Ticketing for kids parties
     lead: >-
@@ -37,7 +36,7 @@ blocks:
         text: "You get a QR code door list."
 
   - type: features
-    section_class: alt
+    dark: true
     header_intro: "## Features for party organisers"
     items:
       - icon: "hugeicons:user-list"

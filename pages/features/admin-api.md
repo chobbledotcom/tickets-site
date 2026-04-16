@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 4
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Admin API
     lead: >-

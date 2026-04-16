@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 10
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Custom Questions
     lead: >-

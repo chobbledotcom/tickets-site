@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 6
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Fundraising and donations
     lead: >-
@@ -46,7 +45,7 @@ blocks:
         text: "Min: £5 · Suggested: £25"
 
   - type: features
-    section_class: alt
+    dark: true
     header_intro: "## Built for fundraising"
     items:
       - icon: "hugeicons:money-receive-square"
