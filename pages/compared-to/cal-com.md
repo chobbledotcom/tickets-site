@@ -223,10 +223,13 @@ blocks:
         check-in interface for the door
       - **[Apple and Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to the Wallet app on their phone
-      - **[Encrypted at rest](/features/encrypted/)** - attendee
-        data is encrypted on the server using hybrid RSA-OAEP and
-        AES-256-GCM, not just stored in a database. A database dump
-        alone is not enough to read attendee data.
+      - **[Password-derived encryption](/features/encrypted/)** -
+        attendee data is encrypted with a key derived from your admin
+        password using hybrid RSA-OAEP and AES-256-GCM. A database
+        dump and the server's encryption key together are still not
+        enough to decrypt attendee data - an attacker would also need
+        your password. If you forget your password, the data is
+        permanently unrecoverable.
       - **[Open source production code](/features/open-source/)** - the
         same code that runs tix.chobble.com is public under AGPLv3
       - **Flat annual pricing** - £50/year regardless of how many
@@ -274,16 +277,23 @@ blocks:
       with the data. Like most hosted SaaS platforms, Cal.com staff can
       access booking data on the server.
 
-      Chobble Tickets encrypts attendee data at rest with a per-site
-      key. A database dump on its own is not enough to read attendee
-      data - an attacker would also need the encryption key from the
-      server's environment. The full code is public, so you can verify
-      how the encryption works.
+      Chobble Tickets encrypts attendee data with a key derived from
+      your admin password. The data is decrypted only when you log in
+      and view it. A database dump on its own is not enough to read
+      attendee data, and a database dump combined with the server's
+      environment encryption key is still not enough - an attacker
+      would also need your password. Chobble staff cannot read your
+      attendee data, even on managed hosting. The full code is public,
+      so you can verify how the encryption works.
+
+      The trade-off is that there is no password reset and no
+      backdoor. If you lose your password, the attendee data tied to
+      that account becomes permanently unreadable.
 
       Chobble Tickets can also be self-hosted under AGPLv3. The same
-      software that runs tix.chobble.com runs on a self-hosted server,
-      and the encryption key never leaves your environment. There is
-      no separate "community version" with rewritten core systems.
+      software that runs tix.chobble.com runs on a self-hosted server.
+      There is no separate "community version" with rewritten core
+      systems.
 
   - type: markdown
     content: |

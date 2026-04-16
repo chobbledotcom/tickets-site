@@ -148,10 +148,13 @@ blocks:
 
       **Chobble Tickets has features Eventbrite doesn't:**
 
-      - **[Encrypted at rest](/features/encrypted/)** - attendee data is
-        encrypted on the server with hybrid RSA-OAEP + AES-256-GCM, not
-        just stored in a database. A database dump on its own is not
-        enough to read attendee data.
+      - **[Password-derived encryption](/features/encrypted/)** -
+        attendee data is encrypted with a key derived from your admin
+        password using hybrid RSA-OAEP + AES-256-GCM. A database dump
+        and the server's environment encryption key together are still
+        not enough to decrypt attendee data - an attacker would also
+        need your password. If you forget it, the data is permanently
+        unrecoverable.
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for
