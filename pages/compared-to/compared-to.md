@@ -28,6 +28,9 @@ blocks:
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/bookitbee/">vs BookitBee</a>'
         description: A UK-focused ticketing platform with per-ticket fees - compare pricing and features.
+      - icon: "hugeicons:calendar-03"
+        title: '<a href="/compared-to/cal-com/">vs Cal.com</a>'
+        description: A scheduling platform that took its production code closed source in April 2026 - compare paid bookings vs purpose-built event ticketing.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/cheddar-up/">vs Cheddar Up</a>'
         description: A US payment collection platform with event ticketing - compare pricing, features, and data ownership.
