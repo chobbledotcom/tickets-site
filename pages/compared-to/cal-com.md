@@ -13,7 +13,7 @@ blocks:
     title: Chobble Tickets vs Cal.com
     lead: >-
       Cal.com is a scheduling platform that built its reputation as the
-      open source alternative to Calendly. On 15 April 2026, the company
+      open source alternative to Calendly. On 14 April 2026, the company
       announced its production codebase is moving closed source. Here is
       how it compares to Chobble Tickets.
 
@@ -47,12 +47,19 @@ blocks:
     content: |
       ## The closed source announcement
 
-      On 15 April 2026, Cal.com published a [blog post explaining that
+      On 14 April 2026, Cal.com published a [blog post explaining that
       its production codebase is moving closed
       source](https://cal.com/blog/cal-com-goes-closed-source-why). The
       reason given was security: the company argues that AI tools can
       now scan open source code for vulnerabilities at a scale that was
       not previously possible.
+
+      This is one view. The more common response among open source
+      projects to AI-assisted vulnerability scanning has been to invite
+      more scrutiny rather than less - publish more tests, accept more
+      reports, fix issues faster. Closing the code does not make
+      vulnerabilities go away; it makes them harder for defenders to
+      find and fix.
 
       A few facts from the announcement:
 
@@ -67,9 +74,9 @@ blocks:
         it is not the same code that runs cal.com
 
       For most users, this is a change in marketing rather than a change
-      in day-to-day use. Cal.com worked the same on 16 April as it did
-      on 14 April. The change matters if any of these were reasons you
-      chose Cal.com:
+      in day-to-day use. Cal.com worked the same on the day after the
+      announcement as it did on the day before. The change matters if
+      any of these were reasons you chose Cal.com:
 
       - You wanted to read the code that handles your customers' data
       - You wanted to self-host the same software the vendor runs
@@ -216,9 +223,10 @@ blocks:
         check-in interface for the door
       - **[Apple and Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to the Wallet app on their phone
-      - **[End-to-end encryption](/features/encrypted/)** - attendee
-        data is encrypted at rest using hybrid RSA-OAEP and AES-256-GCM,
-        not just stored in a database
+      - **[Encrypted at rest](/features/encrypted/)** - attendee
+        data is encrypted on the server using hybrid RSA-OAEP and
+        AES-256-GCM, not just stored in a database. A database dump
+        alone is not enough to read attendee data.
       - **[Open source production code](/features/open-source/)** - the
         same code that runs tix.chobble.com is public under AGPLv3
       - **Flat annual pricing** - £50/year regardless of how many
@@ -235,18 +243,21 @@ blocks:
       - **[Custom email providers](/features/email-providers/)** - send
         confirmations through Resend, Postmark, SendGrid, or Mailgun so
         emails come from your own domain
-      - **[Customisable email templates](/features/email-templates/)** -
-        full Liquid template control over confirmation emails for a
-        white-label experience
-      - **[Custom domain](/features/custom-domain/)** - run the
-        ticketing site on your own domain
-      - **[Embeddable ticket widgets](/features/embeddable-widget/)** -
-        embed inline ticket sales on your own website
+      - **[Liquid email templates with full HTML control](/features/email-templates/)** -
+        edit the subject, HTML body, and text body of confirmation
+        emails. Combined with a custom email provider, the email is
+        fully white-label - it does not mention Chobble at all.
+      - **[Full custom domain](/features/custom-domain/)** - run the
+        ticketing site on your own domain (Cal.com offers
+        yourcompany.cal.com subdomains on the Organizations plan but
+        does not support a custom apex or subdomain on your own
+        domain)
       - **[Activity logs](/features/activity-logs/)** - full audit
         trail of all admin actions
       - **[CSV export](/features/csv-export/)** of attendee lists with
         filtering
-      - **No per-user pricing** - add as many staff and box office users
+      - **[No per-user pricing](/features/users/)** - add as many
+        manager accounts (for door staff, volunteers, or co-organisers)
         as you need without changing the bill
 
   - type: markdown
@@ -260,19 +271,19 @@ blocks:
       has stated the two codebases have diverged.
 
       Cal.com's privacy policy and terms govern what the company does
-      with the data. The data is encrypted in transit but is not
-      end-to-end encrypted at rest in a way that prevents the platform
-      operator from reading it.
+      with the data. Like most hosted SaaS platforms, Cal.com staff can
+      access booking data on the server.
 
       Chobble Tickets encrypts attendee data at rest with a per-site
-      key. The data on the server cannot be read without the key, even
-      by the platform operator. The full code is public, so you can
-      verify how the encryption works.
+      key. A database dump on its own is not enough to read attendee
+      data - an attacker would also need the encryption key from the
+      server's environment. The full code is public, so you can verify
+      how the encryption works.
 
-      The platform can also be self-hosted under AGPLv3. The same
-      software that runs tix.chobble.com runs on a self-hosted server.
-      There is no separate "community version" with rewritten core
-      systems.
+      Chobble Tickets can also be self-hosted under AGPLv3. The same
+      software that runs tix.chobble.com runs on a self-hosted server,
+      and the encryption key never leaves your environment. There is
+      no separate "community version" with rewritten core systems.
 
   - type: markdown
     content: |
@@ -307,18 +318,24 @@ blocks:
       - You are a community group, charity, or school (£25/year)
       - You want to send emails from your own domain with
         [your own email provider](/features/email-providers/)
-      - You want to add staff and box office users without paying
-        per-user fees
+      - You want to add door staff, volunteers, or co-organisers as
+        manager accounts without paying per-user fees
 
   - type: markdown
     content: |
       ## About Cal.com
 
       Cal.com is a US-based company that built its product as the open
-      source alternative to Calendly. Until 15 April 2026, the
-      production codebase was released under the AGPLv3 licence. The
-      [closed source announcement](https://cal.com/blog/cal-com-goes-closed-source-why)
+      source alternative to Calendly. Until 14 April 2026, the
+      production codebase was open source under the AGPLv3 licence,
+      with a small enterprise component under a commercial licence.
+      The [closed source announcement](https://cal.com/blog/cal-com-goes-closed-source-why)
       changes that going forward.
+
+      Cal.com has raised $32.4 million in venture capital across two
+      rounds: a $7.4 million seed and a $25 million Series A in April
+      2022, led by Seven Seven Six. Investors who provide that capital
+      expect a financial return on it.
 
       Chobble Tickets is run by one person as a UK
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
@@ -329,16 +346,50 @@ blocks:
 
   - type: markdown
     content: |
+      ## Why this cannot happen to Chobble Tickets
+
+      Cal.com closed its production codebase after eight years of
+      operating as an open source company. Three structural decisions
+      make the same change impossible for Chobble Tickets, regardless
+      of who is running it.
+
+      **Community Interest Company asset lock.** Chobble is a UK
+      Community Interest Company. The software is owned by the company,
+      not by any individual. A CIC has an "asset lock" - the company's
+      assets, including the source code, cannot be transferred to a
+      private owner. They can only be transferred to another
+      asset-locked body, such as another CIC or a registered charity.
+
+      **AGPLv3 with no premium tiers.** Every line of code that runs
+      at tix.chobble.com is licensed under AGPLv3. There is no "open
+      core" model where features are held back behind a commercial
+      licence. Anyone can fork the code, modify it, and run it
+      themselves, provided they release their changes under the same
+      licence.
+
+      **Reinvested profits.** A CIC must reinvest its profits in its
+      stated mission - building software for small organisations and
+      independent groups - after paying its workers a reasonable wage.
+      There are no shareholders to pay dividends to, because the
+      structure does not allow them.
+
+      The combined effect is that there is no version of "Chobble
+      Tickets goes closed source" that produces a buyout or a payout
+      for anyone. The exit does not exist.
+
+  - type: markdown
+    content: |
       ## Sources
 
       The information on this page was verified in April 2026. Pricing
       and licensing may change - check the links below for the latest
       figures.
 
-      - [Cal.com closed source announcement](https://cal.com/blog/cal-com-goes-closed-source-why) - the original blog post, dated 15 April 2026
+      - [Cal.com closed source announcement](https://cal.com/blog/cal-com-goes-closed-source-why) - the original blog post, dated 14 April 2026
       - [Cal.com pricing](https://cal.com/pricing) - Free, Teams ($12/user/month), Organizations ($28/user/month), Enterprise
-      - [Cal.ai](https://cal.com/ai) - $0.29 per minute, sold as add-on to all plans
+      - [Cal.ai](https://cal.com/ai) and [Cal.ai credit pricing](https://cal.com/help/billing-and-usage/messaging-credits) - $0.29 per minute (29 credits), 750 credits per Teams seat, 1000 credits per Organizations seat, no included credits on Free
       - Cal.diy - the new MIT-licensed community version, announced alongside the closed source change
+      - [Cal.com Series A funding announcement (April 2022)](https://venturebeat.com/business/open-source-calendly-rival-cal-com-raises-25m) - $25 million Series A led by Seven Seven Six, on top of a previous $7.4 million seed
       - [Chobble Tickets features](/features/)
       - [Chobble Tickets source code on GitHub](https://github.com/chobbledotcom/tickets)
 

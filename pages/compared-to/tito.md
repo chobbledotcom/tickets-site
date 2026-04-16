@@ -95,9 +95,10 @@ blocks:
 
       **Chobble Tickets has features Tito doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
-        in a database
+      - **[Encrypted at rest](/features/encrypted/)** - attendee data is
+        encrypted on the server with hybrid RSA-OAEP + AES-256-GCM, not
+        just stored in a database. A database dump on its own is not
+        enough to read attendee data.
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for
