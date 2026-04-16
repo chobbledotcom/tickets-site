@@ -10,7 +10,6 @@ eleventyNavigation:
   parent: Compared To
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Chobble Tickets vs PTA Events
     lead: >-

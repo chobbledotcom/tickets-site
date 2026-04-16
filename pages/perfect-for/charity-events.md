@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 2
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Ticketing for charity events
     lead: >-
@@ -40,7 +39,7 @@ blocks:
         text: "Every penny of ticket sales goes to you"
 
   - type: features
-    section_class: alt
+    dark: true
     header_intro: "## Features for charities"
     items:
       - icon: "hugeicons:user-multiple"

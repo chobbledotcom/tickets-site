@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Light & dark themes
     lead: >-

@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 7
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Sign-up forms
     lead: >-

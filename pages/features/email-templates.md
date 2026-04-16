@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 3
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Email templates
     lead: >-

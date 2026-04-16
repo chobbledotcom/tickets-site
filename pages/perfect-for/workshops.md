@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 4
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Ticketing for workshops
     lead: >-
@@ -96,7 +95,7 @@ blocks:
       [Read more reviews &rarr;](/reviews/)
 
   - type: features
-    section_class: alt
+    dark: true
     header_intro: "## Built for small-scale events"
     items:
       - icon: "hugeicons:money-receive-square"

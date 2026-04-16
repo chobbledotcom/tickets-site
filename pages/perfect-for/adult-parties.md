@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 5
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Ticketing for adult parties
     lead: >-
@@ -97,7 +96,7 @@ blocks:
         text: "No third-party account required."
 
   - type: features
-    section_class: alt
+    dark: true
     header_intro: "## Built for events where discretion matters"
     items:
       - icon: "hugeicons:security-check"

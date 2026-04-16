@@ -9,7 +9,6 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Features
     lead: >-
@@ -46,7 +45,7 @@ blocks:
         description: Set cut-off times for bookings and configure purchase limits per event or per attendee.
 
   - type: features
-    section_class: alt
+    dark: true
     header_intro: "## Managing events"
     items:
       - icon: "hugeicons:qr-code"
@@ -103,7 +102,7 @@ blocks:
         description: Send attendees to a custom URL after booking, perfect for thank-you pages or post-purchase instructions.
 
   - type: features
-    section_class: alt
+    dark: true
     header_intro: "## Platform & integrations"
     items:
       - icon: "hugeicons:source-code"

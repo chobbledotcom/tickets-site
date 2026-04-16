@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: No per-ticket fees
     lead: >-
@@ -35,7 +34,7 @@ blocks:
       processing fees.
 
   - type: markdown
-    section_class: alt
+    dark: true
     content: |
       ## Why flat-fee pricing is possible
 
@@ -66,7 +65,7 @@ blocks:
       data economy subsidising the price.
 
   - type: stats
-    section_class: alt
+    dark: true
     items:
       - value: "\u00A350"
         label: Per Year
@@ -132,7 +131,7 @@ blocks:
       The percentage-based platform takes £9,900 in fees alone.
 
   - type: markdown
-    section_class: alt
+    dark: true
     content: |
       ## Why per-ticket fees add up
 
@@ -168,7 +167,7 @@ blocks:
       > still saving nearly £100."
 
   - type: markdown
-    section_class: alt
+    dark: true
     content: |
       ## Compare fees across platforms
 
@@ -201,7 +200,7 @@ blocks:
       hosting, software updates, and support.
 
   - type: markdown
-    section_class: alt
+    dark: true
     content: |
       ## Who the flat fee works best for
 

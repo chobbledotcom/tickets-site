@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 2
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Refunds
     lead: >-

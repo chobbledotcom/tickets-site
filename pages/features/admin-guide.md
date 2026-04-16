@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 8
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Built-in admin guide
     lead: >-

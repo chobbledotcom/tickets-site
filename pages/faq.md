@@ -9,7 +9,6 @@ eleventyNavigation:
   order: 5
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: Frequently asked questions
     lead: >-

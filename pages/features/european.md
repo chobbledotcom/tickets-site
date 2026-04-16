@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 2.75
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: European infrastructure
     lead: >-
@@ -41,7 +40,7 @@ blocks:
       purpose.
 
   - type: markdown
-    section_class: alt
+    dark: true
     content: |
       ## Hosting in the EU
 
@@ -90,7 +89,7 @@ blocks:
       without additional safeguards.
 
   - type: markdown
-    section_class: alt
+    dark: true
     content: |
       ## Email provider choice
 
@@ -142,7 +141,7 @@ blocks:
       Forgejo instance. You can fork from either one.
 
   - type: markdown
-    section_class: alt
+    dark: true
     content: |
       ## Who can legally compel access to the data
 
@@ -206,7 +205,7 @@ blocks:
       [Hetzner](https://www.hetzner.com) in Germany and Finland.
 
   - type: markdown
-    section_class: alt
+    dark: true
     content: |
       ## References
 

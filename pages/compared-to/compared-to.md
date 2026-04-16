@@ -9,7 +9,6 @@ eleventyNavigation:
   order: 2
 blocks:
   - type: hero
-    container_width: full
     class: gradient
     title: How Chobble Tickets compares
     lead: >-
