@@ -178,6 +178,15 @@
     "payment_processing_fixed": 0,
     "fee_note": "FIXR Pro fees: 4.99% + £0.49 per ticket (£1 minimum) + VAT (includes payment processing). Student & Charity tier: 3.99% + £0.49. Fees are typically paid by the ticket buyer but can be absorbed by the organiser. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: fixr.co/pricing (March 2026)."
   },
+  "fooevents": {
+    "name": "FooEvents (Basic Bundle)",
+    "annual_cost": 110,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "FooEvents Basic Bundle: $139/year (approx. £110) for the plugin subscription, which includes 12 months of support and updates. Premium Bundle: $199 (approx. £160). Bookings Bundle: $169 (approx. £135). Point of Sale Bundle: $349 (approx. £275). No per-ticket fees. Payment processing is handled by your own WooCommerce payment gateway (e.g. Stripe 1.5% + 20p in the UK). Running FooEvents also requires a WordPress + WooCommerce site, which has its own hosting costs (typically £5-£25/month). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: fooevents.com/pricing (April 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,
