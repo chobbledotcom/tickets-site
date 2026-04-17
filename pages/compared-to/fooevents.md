@@ -94,15 +94,6 @@ blocks:
       Stripe or Square processing fees on top. Charities and community
       groups pay £25/year. Self-hosting is free.
 
-      The price comparator below uses the FooEvents Basic Bundle at
-      approximately £103/year as the platform cost, with Stripe at 1.5% +
-      20p for payment processing. It does not include your WordPress
-      hosting bill, which is an extra cost on top of the FooEvents
-      subscription.
-
-  - type: include
-    file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
