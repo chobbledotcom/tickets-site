@@ -45,6 +45,9 @@ blocks:
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/fatsoma/">vs Fatsoma</a>'
         description: Popular with student events and nightlife - compare fees, features, and data ownership.
+      - icon: "hugeicons:ticket-01"
+        title: '<a href="/compared-to/fooevents/">vs FooEvents</a>'
+        description: A WordPress plugin that adds ticketing to WooCommerce - compare a dedicated platform with a plugin bolted onto an existing shop.
       - icon: "hugeicons:file-02"
         title: '<a href="/compared-to/google-forms/">vs Google Forms</a>'
         description: Free and flexible, but not built for ticketing - see the differences.
