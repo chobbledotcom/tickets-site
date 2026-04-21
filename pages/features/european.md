@@ -210,7 +210,7 @@ blocks:
       ## References
 
       - [Bunny.net - About](https://bunny.net/about/) - headquartered in Ljubljana, Slovenia
-      - [Bunny.net - Edge Storage regions](https://docs.bunny.net/docs/storage-regions) - configure which regions your data lives in
+      - [Bunny.net - Edge Storage regions](https://docs.bunny.net/docs/edge-storage-overview) - configure which regions your data lives in
       - [Njalla](https://njal.la) - domain registrar operating from Sweden
       - [Mailgun - Data regions](https://www.mailgun.com/regions/) - US and EU endpoints
       - [UK Community Interest Companies guidance](https://www.gov.uk/government/publications/community-interest-companies-introduction)
