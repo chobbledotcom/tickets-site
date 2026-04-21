@@ -20,7 +20,7 @@ blocks:
     content: |
       ## Pricing comparison
 
-      [Wix Events](https://www.wix.com/app-market/wix-events) charges a 2.5%
+      [Wix Events](https://www.wix.com/app-market/web-solution/events) charges a 2.5%
       ticket service fee on every paid ticket sold. That's on top of a
       mandatory Wix Business & eCommerce plan starting at $29/month
       (approximately £23/month or £276/year), plus Wix Payments processing
@@ -244,7 +244,6 @@ blocks:
       - [Wix Events: Creating a Recurring Event](https://support.wix.com/en/article/wix-events-creating-a-recurring-event-2644272) - recurring event support
       - [Wix Events: Creating a Seating Map](https://support.wix.com/en/article/wix-events-creating-a-seating-map) - reserved seating with interactive maps
       - [Check-in by Wix](https://support.wix.com/en/article/check-in-by-wix-an-overview) - dedicated check-in app with offline scanning
-      - [Wix Events: Creating Event Coupons](https://support.wix.com/en/article/wix-events-creating-event-coupons) - discount codes for tickets
       - [Wix Events API](https://dev.wix.com/docs/api-reference/business-solutions/events/introduction) - developer API for custom apps
       - [Wix.com on Wikipedia](https://en.wikipedia.org/wiki/Wix.com) - company history and ownership
       - [Chobble Tickets features](/features/)

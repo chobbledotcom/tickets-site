@@ -262,7 +262,7 @@ blocks:
 
       - [Eventbrite pricing for organisers](https://www.eventbrite.co.uk/organizer/pricing/) - 6.95% + £0.59 per ticket (UK)
       - [Eventbrite ticketing fees (Help Centre)](https://www.eventbrite.co.uk/help/en-gb/articles/755615/how-much-does-it-cost-for-organizers-to-use-eventbrite/)
-      - [Eventbrite all features](https://www.eventbrite.com/l/all-features/)
+      - [Eventbrite all features](https://www.eventbrite.com/organizer/features/all-features/)
       - [Eventbrite features - sell tickets](https://www.eventbrite.com/organizer/features/sell-tickets/)
       - [Eventbrite AI-powered marketing tools](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/) - 17% CPC and 30% campaign launch claims
       - [Eventbrite retargeting ROI](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/) - 6x average ROI claim

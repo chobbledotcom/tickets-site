@@ -207,7 +207,7 @@ blocks:
         before it goes live (clause 1.2) - subsequent events do not
 
       The consumer-facing eventim.co.uk has a
-      [3.7-star rating on Trustpilot](https://www.trustpilot.com/review/eventim.co.uk)
+      [3.7-star rating on Trustpilot](https://uk.trustpilot.com/review/eventim.co.uk)
       (UK), though reviews are mixed - common complaints include refund
       difficulties and customer service responsiveness. While EVENTIM.Light
       is a separate product, buyer issues are typically directed back to the
@@ -312,7 +312,7 @@ blocks:
       - [EVENTIM.Light UK FAQ](https://www.eventim-light.co.uk/faq/) - frequently asked questions for organisers
       - [EVENTIM.Light UK terms of use](https://www.eventim-light.com/uk/api/legal/terms?format=pdf&lang=en) - organiser terms (PDF)
       - [EVENTIM.Light overview](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/) - B2B product page (250M+ tickets in 2019)
-      - [Eventim UK on Trustpilot](https://www.trustpilot.com/review/eventim.co.uk) - consumer reviews
+      - [Eventim UK on Trustpilot](https://uk.trustpilot.com/review/eventim.co.uk) - consumer reviews
       - [Chobble Tickets features](/features/)
 
   - type: cta
