@@ -29,8 +29,8 @@ blocks:
       organisers, artists, and small-to-medium promoters who want to create and
       sell tickets without negotiating an enterprise deal.
 
-      It's a solid platform backed by serious infrastructure. But the trade-offs
-      - particularly around fees, data ownership, and flexibility - are worth
+      It's a solid platform backed by serious infrastructure. But the trade-offs -
+      particularly around fees, data ownership, and flexibility - are worth
       understanding before you commit.
 
   - type: markdown
