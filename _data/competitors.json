@@ -187,6 +187,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "FooEvents Basic Bundle: $139/year (approx. £103) for a Single Domain plugin licence, which includes 12 months of support and updates. Bookings Bundle: $169 (approx. £125). Premium Bundle: $199 (approx. £147). Point of Sale Bundle: $349 (approx. £258). Licences for multiple or unlimited domains cost more. No per-ticket fees. Payment processing is handled by your own WooCommerce payment gateway (e.g. Stripe 1.5% + 20p in the UK). Running FooEvents also requires a WordPress + WooCommerce site, which has its own hosting costs (typically £5-£25/month). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: fooevents.com/pricing (April 2026)."
   },
+  "resova": {
+    "name": "Resova (Pro)",
+    "annual_cost": 685,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Resova Pro plan: $72/month billed annually (approx. £685/year), covering up to 300 bookings per month. Lite ($40/month = approx. £380/year, up to 100 bookings/month) and Premium ($108/month = approx. £1025/year, up to 600 bookings/month) tiers also available, plus custom Enterprise pricing. Overage: $0.20 per booking (approx. 16p) above the monthly limit. Payment processing via Stripe, PayPal, Square, or Resova's own SpeedPay is charged separately (Stripe 1.5% + 20p in the UK). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: get.resova.com/pricing (April 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,

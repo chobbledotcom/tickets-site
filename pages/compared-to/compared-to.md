@@ -66,6 +66,9 @@ blocks:
       - icon: "hugeicons:music-note-03"
         title: '<a href="/compared-to/resident-advisor/">vs Resident Advisor</a>'
         description: The electronic music ticketing platform - compare fees, data ownership, and features.
+      - icon: "hugeicons:calendar-03"
+        title: '<a href="/compared-to/resova/">vs Resova</a>'
+        description: A UK booking platform for escape rooms, tours, and activities - compare a monthly-subscription activity tool with flat-rate event ticketing.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/signupgenius/">vs SignUpGenius</a>'
         description: The volunteer sign-up sheet tool that added ticketing - compare purpose-built ticketing vs a coordination platform.
