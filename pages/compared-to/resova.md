@@ -56,11 +56,9 @@ blocks:
       - Online booking with payment processing
       - Apple Pay and Google Pay at checkout (via Stripe)
       - QR code scanning for check-in
-      - Email confirmations and reminders
-      - Capacity management
-      - Refund processing
-      - Gift vouchers and promo codes (Chobble supports gift-style flows
-        through custom event setup; Resova has a built-in voucher system)
+      - Email confirmations to attendees after booking
+      - Capacity management to prevent overselling
+      - Refund processing from the admin panel
       - Recurring events and timed slots
       - Custom questions at checkout
       - Reporting on bookings and revenue
@@ -75,29 +73,29 @@ blocks:
         escape rooms, climbing, axe-throwing, and similar activities
       - **SMS reminders** - send text-message confirmations and reminders
         to customers, not just email
-      - **Built-in CRM** - persistent customer profiles that track repeat
-        visitors, total lifetime spend, and booking history across every
-        experience you run
-      - **Abandoned booking recovery** - automated emails to people who
-        started a booking but did not complete checkout
-      - **Walk-in and phone booking tools** - a dedicated back-office
-        interface for taking bookings at the door or over the phone,
-        including taking payment from a physical card reader
+      - **Built-in CRM** - persistent customer profiles with notes, custom
+        fields, and activity tracking across every booking
+      - **Abandoned booking recovery** - automated follow-up emails to
+        people who started a booking but did not complete checkout
+      - **Walk-in bookings** - take bookings at the door through the
+        admin interface alongside online bookings
       - **Gift voucher system** - sell monetary or experience-specific
         vouchers online that customers redeem at checkout
-      - **Deposit and part-payment options** - take a deposit at booking
-        and collect the balance later, useful for group activities
-      - **Multi-location management** - run bookings across several venues
-        from one account, with staff permissions scoped per location
-      - **SpeedPay** - Resova's own card-processing product as an
-        alternative to Stripe, with tap-to-pay and split-payment support
-      - **Mailchimp, Zapier, and Facebook integrations** - connect bookings
-        to existing marketing and automation tools out of the box
-      - **White-glove onboarding** - a setup consultant walks you through
-        configuring the platform, included with every plan
-      - **Multi-currency and international support** - US, Canadian,
-        European, British, and Australian pricing with localised payment
-        methods
+      - **Promo codes** - create discount codes and promotional offers
+        for specific campaigns
+      - **Deposits** - take a deposit at booking instead of the full
+        amount up front
+      - **Multi-location management** - run bookings across several
+        venues from one account
+      - **SpeedPay** - Resova's own payment-processing product as an
+        alternative to integrating Stripe, PayPal, or Square
+      - **Mailchimp and Facebook integrations** - connect bookings to
+        existing marketing tools out of the box
+      - **Google Analytics** - built-in tracking for bookings and
+        conversions
+      - **Multi-currency subscriptions** - pay for your Resova plan in
+        US dollars, Canadian dollars, euros, pounds, or Australian
+        dollars
 
       **Chobble Tickets has features Resova doesn't:**
 
@@ -173,8 +171,8 @@ blocks:
       - You need resource scheduling across rooms, guides, or equipment
       - You want a built-in CRM that tracks repeat customers
       - You want SMS reminders in addition to email
-      - You need walk-in and phone booking tools for a physical box office
-      - You want a dedicated onboarding consultant
+      - You want to take walk-in bookings alongside online bookings
+      - You want to take deposits rather than full payment at booking
       - You are running multiple venues and want unified reporting
       - You sell well over 600 bookings a month and still want a single
         flat plan
@@ -201,9 +199,9 @@ blocks:
       ## Who owns Resova?
 
       Resova is run by Resova Ltd, a UK-registered company (Company No.
-      09559910). It is a private company focused on the escape room,
-      activity, and attractions market, with roughly 1,500 customers at
-      the time of writing.
+      09559910), incorporated in April 2015 and previously named
+      Bookify Ltd until March 2017. It is a private company focused on
+      the escape room, activity, and attractions market.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
