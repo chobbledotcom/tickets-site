@@ -9,16 +9,17 @@ eleventyNavigation:
   parent: Perfect For
   order: 4
 blocks:
-  - type: hero
-    class: gradient
-    title: Ticketing for workshops
-    lead: >-
-      Ticketing for workshops and classes with no per-ticket fees, where
-      attendees can book without creating an account or downloading an app.
+  - type: image-background
+    image: /assets/background-yoga.png
+    parallax: true
+    content: >-
+      # Ticketing for workshops and classes
+
+      With no per-ticket fees, where attendees can book
+      without creating an account or downloading an app.
 
   - type: split-icon-links
     title: When fees eat your margins
-    reveal_content: left
     content: |
       You're running a Saturday cookery class for 12 people at £15 a head.
       That's £180 in ticket sales. On a typical platform you'll lose around
@@ -44,7 +45,6 @@ blocks:
 
   - type: split-icon-links
     title: Stop coordinating over email
-    reveal_content: right
     content: |
       Picture this: you've planned a pottery workshop for next month. You post
       about it on social media, and the replies start coming in. "Can I bring a
@@ -69,7 +69,6 @@ blocks:
 
   - type: split-icon-links
     title: Attendee data is encrypted and private
-    reveal_content: left
     content: |
       If you're running a workshop on something personal, like a mental health
       peer support session, a recovery group craft afternoon, or a financial

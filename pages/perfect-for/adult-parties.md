@@ -18,7 +18,6 @@ blocks:
 
   - type: split-icon-links
     title: Your attendees have real reasons for privacy
-    reveal_content: left
     content: |
       If you're running any kind of 18+ event, your attendees are trusting
       you with sensitive
@@ -45,7 +44,6 @@ blocks:
 
   - type: split-icon-links
     title: What happens on commercial platforms
-    reveal_content: right
     content: |
       Commercial ticketing platforms make money by connecting attendees with
       more events. That means your attendees' data is an asset to the platform,
@@ -72,7 +70,6 @@ blocks:
 
   - type: split-icon-links
     title: Your event, your branding
-    reveal_content: left
     content: |
       Chobble Tickets is white-labelled by default. Your attendees see your
       event name and your branding on the booking page, not a ticketing

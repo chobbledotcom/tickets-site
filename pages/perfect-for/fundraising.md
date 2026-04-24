@@ -18,7 +18,6 @@ blocks:
 
   - type: split-icon-links
     title: More money for your cause
-    reveal_content: left
     content: |
       Most payment collection platforms take a percentage of every
       transaction. On a £10,000 fundraiser, that's hundreds of pounds going

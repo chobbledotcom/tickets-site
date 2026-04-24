@@ -18,7 +18,6 @@ blocks:
 
   - type: split-icon-links
     title: Privacy by design
-    reveal_content: left
     content: |
       Chobble Tickets encrypts all personally identifiable information at rest
       using

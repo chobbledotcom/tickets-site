@@ -2,9 +2,10 @@
 @use "sass:color";
 
 :root {
-  --color-bg: #2f0c3a;
-  --body-background: #561d68;
-  --body-background-alt: #2f0c3a;
+  --color-bg: #260132;
+  --body-background: #1b0523;
+  --body-background-alt: #190220;
+  --color-dark-bg-alt: linear-gradient(35deg, rgb(20, 24, 28), #060329);
   --color-card-bg: #3d1a4d;
   --color-text: #d6eadf;
   --color-text-muted: #eac4d5;
@@ -302,5 +303,20 @@ th {
 
   .platform-grid__link {
     margin-top: 0;
+  }
+}
+
+.design-system {
+  .cta,
+  .feature,
+  .icon,
+  .badge {
+    border-radius: 4px;
+  }
+  .cta {
+    background: linear-gradient(135deg, var(--color-link) 0%, #200129 100%);
+  }
+  footer {
+    background: #000;
   }
 }

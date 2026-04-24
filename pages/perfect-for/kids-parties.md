@@ -18,7 +18,6 @@ blocks:
 
   - type: split-icon-links
     title: Simple for parents
-    reveal_content: left
     content: |
       Parents get a clean booking page where they can reserve spots for their
       kids without needing to create an account or download an app.

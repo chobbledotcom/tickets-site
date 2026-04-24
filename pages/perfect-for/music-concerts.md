@@ -9,16 +9,17 @@ eleventyNavigation:
   parent: Perfect For
   order: 1
 blocks:
-  - type: hero
-    class: gradient
-    title: Ticketing for music concerts
-    lead: >-
-      Sell tickets directly to your fans with no per-ticket fees, for a flat
+  - type: image-background
+    parallax: true
+    image: /assets/background-club.png
+    content: >-
+      # Sell tickets directly to your fans
+
+      With no per-ticket fees, for a flat
       annual fee of £50/year.
 
   - type: split-icon-links
     title: Keep your revenue
-    reveal_content: left
     content: |
       Most ticketing platforms take a cut of every sale - sometimes £1-2 per
       ticket plus a percentage. For a 200-capacity gig at £15 a ticket, that
