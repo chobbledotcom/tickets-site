@@ -76,6 +76,9 @@ blocks:
         title: '<a href="/compared-to/swicket/">vs Swicket</a>'
         description: The managed service built on open source alf.io - compare features, pricing model, and data ownership.
       - icon: "hugeicons:ticket-01"
+        title: '<a href="/compared-to/tessera-tickets/">vs Tessera Tickets</a>'
+        description: A US ticketing platform for music venues, theatres, and comedy clubs, built around WordPress - compare pricing, features, and data ownership.
+      - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/ticket-tailor/">vs Ticket Tailor</a>'
         description: An independently owned, B Corp ticketing platform from London with flat per-ticket fees - compare pricing, features, and data ownership.
       - icon: "hugeicons:ticket-01"

@@ -196,6 +196,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "Resova Pro plan: $72/month billed annually (approx. £685/year), covering up to 300 bookings per month. Lite ($40/month = approx. £380/year, up to 100 bookings/month) and Premium ($108/month = approx. £1025/year, up to 600 bookings/month) tiers also available, plus custom Enterprise pricing. Overage: $0.20 per booking (approx. 16p) above the monthly limit. Payment processing via Stripe, PayPal, Square, or Resova's own SpeedPay is charged separately (Stripe 1.5% + 20p in the UK). Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: get.resova.com/pricing (April 2026)."
   },
+  "tessera_tickets": {
+    "name": "Tessera Tickets",
+    "annual_cost": 1200,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Tessera Tickets subscription: from $125/month (approx. £1,200/year) for up to 10,000 tickets per year, rising to $667/month (approx. £6,400/year) for up to 100,000 tickets per year. Volumes above that are quoted on request. WordPress hosting for the public-facing website is a separate $150-$400/month (approx. £1,440-£3,840/year). One-off setup fees range from free (do-it-yourself) to $3,500 for the Template Plus theme, $6,000+ for a custom design, or $10,000+ for a complete redesign. Seating chart setup costs $500-$1,000 extra, point-of-sale hardware around $300 per device, and barcode reader licensing from $100/month for up to five devices. Payment processing via Stripe (1.5% + 20p in the UK) or Authorize.net is charged separately. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Source: tessera-tickets.com/pricing (April 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,
