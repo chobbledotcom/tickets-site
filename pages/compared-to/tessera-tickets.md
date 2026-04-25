@@ -28,14 +28,16 @@ blocks:
       and the published tiers go up to $667/month (about £6,400/year) for up
       to 100,000 tickets per year. Larger volumes are quoted on request.
 
-      Because Tessera runs through WordPress, you also need WordPress
-      hosting, which Tecture sells separately at $150-$400/month (about
-      £1,440-£3,840/year). One-off setup fees range from free for the
-      do-it-yourself option to $3,500 for the Template Plus theme, with
-      custom designs starting at $6,000 and full redesigns starting at
-      $10,000. Seating chart setup is $500-$1,000 extra, point-of-sale
-      hardware is around $300 per device, and the barcode reader app is
-      from $100/month for up to five devices.
+      Because the standard Tessera setup uses a WordPress-based public
+      website, you also pay separately for WordPress hosting from Tecture
+      at $150-$400/month (about £1,440-£3,840/year). The do-it-yourself
+      option lets you skip the WordPress hosting and build your own
+      front-end against Tessera's API instead. One-off setup fees range
+      from free for the do-it-yourself option to $3,500 for the Template
+      Plus theme, with custom designs starting at $6,000 and full
+      redesigns starting at $10,000. Seating chart setup is $500-$1,000
+      extra, point-of-sale hardware is around $300 per device, and the
+      barcode reader app is from $100/month for up to five devices.
 
       Payment processing through Stripe or Authorize.net is charged
       separately on top.
@@ -53,10 +55,10 @@ blocks:
       ## Feature comparison
 
       Tessera Tickets is built for venues that run their own programme of
-      shows - typically a few hundred events a year with assigned seating,
-      a box office, and on-site merchandise sales. Chobble Tickets is built
-      for organisers who want a flat-rate platform without the box-office
-      hardware and venue-management features. Here is an honest breakdown:
+      shows, with assigned seating, a box office, and on-site merchandise
+      sales. Chobble Tickets is built for organisers who want a flat-rate
+      platform without the box-office hardware and venue-management
+      features. Here is an honest breakdown:
 
       **Both platforms share some features:**
 
@@ -66,8 +68,6 @@ blocks:
       - Capacity management to prevent overselling
       - Free event support with no payment setup required
       - Refund processing from the admin panel
-      - Pre-sales with passwords or scheduled on-sale dates
-      - Custom questions on the registration form
       - CSV data export
       - Multi-user access for staff
       - REST API access for custom integrations
@@ -80,7 +80,7 @@ blocks:
       - **Table sales** - sell whole tables as a unit instead of
         individual seats, useful for cabaret and comedy club layouts
       - **Merchandise store** - sell merchandise alongside tickets through
-        an integrated WooCommerce-style ecommerce store with product
+        a dedicated merchandise ecommerce store with configurable product
         attributes and inventory tracking
       - **On-site point-of-sale** - dedicated POS hardware integration
         with Stripe card readers for box-office and walk-up sales
@@ -91,12 +91,16 @@ blocks:
         a refund
       - **Authorize.net support** - accept cards through Authorize.net as
         well as Stripe (Chobble Tickets supports Stripe and Square only)
-      - **Saved customer accounts** - returning customers can save payment
-        methods and see their order history (PCI-compliant card storage)
+      - **Saved customer accounts** - returning customers can save credit
+        cards to their account for faster future purchases (PCI-compliant
+        card storage)
       - **Coupon and promo codes** - site-wide discount codes for
         marketing campaigns
-      - **External ticket links** - link out to external ticketing sites
-        when an event sells out, so the listing still drives traffic
+      - **Password-protected pre-sales** - schedule date-range pre-sales
+        and protect specific ticket tiers with passwords
+      - **External ticket links** - link an event listing out to a
+        third-party ticketing platform when needed, for example when
+        moving a popular show to a larger venue
       - **Per-customer notes** - attach internal notes to customer and
         order records
       - **Granular role-based permissions** - separate roles for will-call,
@@ -104,10 +108,10 @@ blocks:
       - **WordPress integration** - the public-facing website is a
         WordPress site with event cards, filtering, fuzzy text search, and
         a sidebar cart pane
-      - **Custom HTML/CSS for cart and admin** - full HTML/CSS
-        customisation across the cart, admin, and confirmation pages
-      - **US-based phone support** - Tessera is run by a Chicago web
-        agency, so support is in US business hours
+      - **Custom HTML/CSS for cart and admin** - edit HTML and CSS
+        elements for emails, cart, and admin screens
+      - **US-based vendor** - Tessera is built by a Chicago web agency,
+        so the company runs on US business hours
 
       **Chobble Tickets has features Tessera Tickets doesn't:**
 
@@ -140,6 +144,10 @@ blocks:
         API keys for full event CRUD and reading private data
       - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for custom integrations
+      - **[Custom questions at checkout](/features/custom-questions/)** -
+        add multiple-choice questions to your events and collect
+        structured answers from each attendee, visible across the admin,
+        CSV exports, and webhooks
       - **[Embeddable widget](/features/embeddable-widget/)** - drop an
         iframe into any website without needing WordPress
       - **[Custom domain included](/features/custom-domain/)** - point
@@ -180,7 +188,7 @@ blocks:
         built on the same stack
       - You sell at high volumes and want a single subscription rather
         than per-ticket fees
-      - You are based in the US and want US business-hours phone support
+      - You prefer working with a US-based vendor in US business hours
 
       ## When Chobble Tickets is the better choice
 
