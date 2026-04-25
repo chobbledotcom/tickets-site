@@ -50,6 +50,11 @@
 		"answer": "Your site goes into read-only mode. You can still log in and export your data, but attendees can no longer sign up and you cannot add them through the admin area. Your data is not deleted."
 	},
 	{
+		"section": "Pricing and fees",
+		"question": "When do I receive the money from ticket sales?",
+		"answer": "Money from ticket sales goes directly to your <a href=\"/features/stripe-and-square/\">Stripe or Square account</a>. Chobble never holds the funds and does not take a cut. Payout timing is set by your payment processor. Stripe typically pays out within 2 to 7 days in the UK, and you can adjust the schedule from your Stripe dashboard. Square has its own schedule, set in your Square account."
+	},
+	{
 		"section": "Data privacy and security",
 		"question": "Is my attendee data safe?",
 		"answer": "Chobble Tickets <a href=\"/features/encrypted/\">encrypts</a> all personally identifiable information at rest using hybrid RSA-OAEP + AES-256-GCM encryption. Names, emails, phone numbers, and addresses are encrypted before they are written to the database. Even if someone gained access to the database, they could not read the data without the encryption keys. Payment identifiers and API credentials are also encrypted with AES-256-GCM, and passwords are hashed with PBKDF2 using 600,000 iterations. The platform also includes CSRF protection, rate limiting on login attempts, and session tokens with 24-hour expiry."
@@ -153,6 +158,21 @@
 		"section": "Features and customisation",
 		"question": "Can I integrate Chobble Tickets with other tools?",
 		"answer": "Yes. Chobble Tickets has a <a href=\"/features/public-api/\">public JSON API</a> for event listings and booking (no authentication required), an <a href=\"/features/admin-api/\">admin API</a> with HMAC-secured keys for full event management, and <a href=\"/features/webhooks/\">webhooks</a> that send a POST request on every booking. Webhooks can connect to Slack, Zapier, CRMs, or any service that accepts HTTP requests. There are also <a href=\"/features/rss-and-calendar-feeds/\">ICS calendar feeds and RSS feeds</a> for event listings."
+	},
+	{
+		"section": "Features and customisation",
+		"question": "Can I collect custom information from attendees at checkout?",
+		"answer": "Yes. <a href=\"/features/custom-questions/\">Custom questions</a> let you add multiple-choice questions to any event, and attendees answer them during booking. This is useful for meal preferences, t-shirt sizes, transport options, or accessibility requirements. Answers appear in the admin event view, the attendees table, CSV exports, and webhook payloads. For multi-event group bookings, the same question is only asked once. Free-text questions are not currently supported."
+	},
+	{
+		"section": "Features and customisation",
+		"question": "Can I set capacity limits for events?",
+		"answer": "Yes. Each event has a capacity that you set when creating it. The <a href=\"/features/overbooking-prevention/\">overbooking prevention</a> system uses five-minute payment holds to reserve places during checkout, so two people cannot buy the last ticket at the same time. When an event is full, the booking form is disabled and a sold-out message is shown. <a href=\"/features/daily-events/\">Daily events</a> have separate capacity for each date, with optional holiday and blackout dates."
+	},
+	{
+		"section": "Features and customisation",
+		"question": "Can I embed ticket sales on my own website?",
+		"answer": "Yes. The <a href=\"/features/embeddable-widget/\">embeddable widget</a> adds your event listings to any website with a single line of HTML. The iframe automatically resizes to fit the content. Content Security Policy headers are configurable, so you can control which domains are allowed to embed your booking pages. If you prefer to build your own integration, the <a href=\"/features/public-api/\">public JSON API</a> is available with no authentication required."
 	},
 	{
 		"section": "Features and customisation",
