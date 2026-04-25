@@ -2,7 +2,7 @@
 	{
 		"section": "Pricing and fees",
 		"question": "Which ticketing platforms don't charge per-ticket fees?",
-		"answer": "Most ticketing platforms charge a percentage or fixed fee on every ticket sold. The more tickets you sell, the more you pay. Chobble Tickets charges a flat annual fee of £50 with no per-ticket charges. Money from ticket sales goes directly to your <a href=\"/features/stripe-and-square/\">Stripe or Square account</a>. The only per-transaction cost is the payment processor's own fee (for example, Stripe charges 1.5% + 20p in the UK)."
+		"answer": "Most ticketing platforms charge a percentage or fixed fee on every ticket sold. The more tickets you sell, the more you pay. A small number of platforms charge a flat annual fee instead, with no per-ticket charges.</p><p>Chobble Tickets is one of these. The annual fee is £50, and money from ticket sales goes directly to your <a href=\"/features/stripe-and-square/\">Stripe or Square account</a>. The only per-transaction cost is the payment processor's own fee (for example, Stripe charges 1.5% + 20p in the UK).</p><p>Other ticketing platforms that don't charge per-ticket fees are <a href=\"/compared-to/fooevents/\">FooEvents</a> (£103/year), <a href=\"/compared-to/hi-events/\">Hi.Events self-hosted</a> (£420/year), <a href=\"/compared-to/pretix/\">Pretix Enterprise</a> (£420/year), <a href=\"/compared-to/resova/\">Resova</a> (£685/year), and <a href=\"/compared-to/tessera-tickets/\">Tessera Tickets</a> (£1,200/year). Each charges separately for payment processing."
 	},
 	{
 		"section": "Pricing and fees",
@@ -11,33 +11,13 @@
 	},
 	{
 		"section": "Pricing and fees",
-		"question": "Is there a flat-rate alternative to Eventbrite?",
-		"answer": "Chobble Tickets is a flat-rate alternative to Eventbrite. You pay £50 per year for managed hosting with no per-ticket fees, no commission, and no percentage cuts. Every feature is included at every price point. The software is <a href=\"/features/open-source/\">open source</a>, so you can also <a href=\"/hosting/\">self-host</a> it for free."
-	},
-	{
-		"section": "Pricing and fees",
 		"question": "What is the cheapest ticketing platform for small events?",
-		"answer": "For small events, per-ticket fees from other platforms can take a large share of your revenue. A 6-7% fee on a £5 ticket leaves noticeably less for the organiser. Chobble Tickets costs £50 per year with no per-ticket fees, which makes it cost-effective for events of any size. Charities, community groups, artists, and musicians get a 50% discount, bringing the cost to £25 per year. You can <a href=\"/compared-to/compare-all/\">compare fees across 17 platforms</a> using the interactive calculator."
-	},
-	{
-		"section": "Pricing and fees",
-		"question": "Can I sell tickets without paying commission?",
-		"answer": "With Chobble Tickets, you pay no commission on ticket sales. You connect your own <a href=\"/features/stripe-and-square/\">Stripe or Square account</a> and money from sales goes directly to you. The only cost is the flat annual hosting fee of £50. Chobble is a <a href=\"/features/open-source/\">community interest company</a>. Its income comes from the annual fee, not from taking a cut of your sales."
+		"answer": "It depends on how many tickets you sell. Per-ticket platforms have no annual cost, so for very small events with few sales they can work out cheapest. Flat-rate platforms have an upfront fee but no per-ticket charge, so they get cheaper per ticket as you sell more. Chobble Tickets costs £50 per year, or £25 for charities, community groups, artists, and musicians. You can <a href=\"/compared-to/compare-all/\">compare fees across 17+ platforms</a> using the interactive calculator to see which works out cheapest for your event size."
 	},
 	{
 		"section": "Pricing and fees",
 		"question": "Why does Chobble charge a flat fee instead of per-ticket commission?",
-		"answer": "It costs Chobble the same to process a £5 ticket as a £500 ticket. A percentage fee on each sale does not reflect the cost of providing the service - it is rent. The actual work involved in hosting a ticketing site is setting it up (about two minutes) and providing support over the course of the year. Infrastructure costs across all hosted sites have not exceeded £1 per site. The £50 annual fee is priced to cover that labour at a fair rate, not to extract a share of your revenue. One of <a href=\"https://chobble.com/principles\">Chobble's founding principles</a> is 'own, not rent' - income should come from doing work, not from charging rent on someone else's sales."
-	},
-	{
-		"section": "Pricing and fees",
-		"question": "Where does the £50 annual fee go?",
-		"answer": "The fee covers the actual cost of providing the service. Setting up a new ticketing site takes about two minutes. Ongoing support averages about ten minutes per customer per year. Infrastructure costs (hosting, database, CDN) have not exceeded £1 per site so far. The £50 is priced to fairly pay for that work at the rate of an experienced developer, not to extract a percentage of your ticket sales. As Chobble Tickets grows, the goal is to make these costs as transparent as possible and show exactly where the money goes."
-	},
-	{
-		"section": "Pricing and fees",
-		"question": "What is the actual cost per ticket with Chobble Tickets?",
-		"answer": "Chobble Tickets charges no per-ticket fee. The only per-transaction cost is the payment processor's fee. Stripe charges 1.5% + 20p per transaction in the UK. Square's fees are similar. On a £15 ticket, that is about 43p to Stripe. On platforms like Eventbrite, the same ticket would cost £1 to £2 in platform fees on top of payment processing."
+		"answer": "It costs Chobble the same to process a £5 ticket as a £500 ticket. A percentage fee on each sale does not reflect the cost of providing the service - it is rent. Setting up a new ticketing site takes about two minutes, and ongoing support averages about ten minutes per customer per year. Infrastructure costs (hosting, database, CDN) have not exceeded £1 per site so far. The £50 annual fee is priced to cover that labour at a fair rate, not to extract a share of your revenue. One of <a href=\"https://chobble.com/principles\">Chobble's founding principles</a> is 'own, not rent' - income should come from doing work, not from charging rent on someone else's sales."
 	},
 	{
 		"section": "Pricing and fees",
