@@ -3,12 +3,12 @@
 	"url": "https://tickets.chobble.com",
 	"socials": {
 		"Github": "https://github.com/chobbledotcom/tickets",
-		"Facebook": null,
+		"Facebook": "https://www.facebook.com/ChobbleDotCom",
 		"Instagram": null,
 		"TikTok": null,
-		"Google": null,
+		"Google": "https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8",
 		"WhatsApp": null,
-		"RSS": "/feed.xml"
+		"RSS": null
 	},
 	"sticky_mobile_nav": true,
 	"horizontal_nav": true,
