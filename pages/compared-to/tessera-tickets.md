@@ -32,7 +32,7 @@ blocks:
       website, you also pay separately for WordPress hosting from Tecture
       at $150-$400/month (about £1,440-£3,840/year). The do-it-yourself
       option lets you skip the WordPress hosting and build your own
-      front-end against Tessera's API instead. One-off setup fees range
+      customer-facing website against Tessera's API instead. One-off setup fees range
       from free for the do-it-yourself option to $3,500 for the Template
       Plus theme, with custom designs starting at $6,000 and full
       redesigns starting at $10,000. Seating chart setup is $500-$1,000
@@ -103,7 +103,7 @@ blocks:
         moving a popular show to a larger venue
       - **Per-customer notes** - attach internal notes to customer and
         order records
-      - **Granular role-based permissions** - separate roles for will-call,
+      - **Role-based permissions** - separate user roles for will-call,
         financial reporting, point-of-sale, and inventory management
       - **WordPress integration** - the public-facing website is a
         WordPress site with event cards, filtering, fuzzy text search, and
@@ -184,8 +184,8 @@ blocks:
       - You want on-site point-of-sale hardware for box-office sales
       - You want to accept cards through Authorize.net rather than Stripe
         or Square
-      - You already run a WordPress site and want the ticketing platform
-        built on the same stack
+      - You already run a WordPress site and want a ticketing platform
+        built on top of WordPress
       - You sell at high volumes and want a single subscription rather
         than per-ticket fees
       - You prefer working with a US-based vendor in US business hours
@@ -214,9 +214,9 @@ blocks:
 
       Tessera Tickets is built and run by Tecture, a custom web
       development agency based in Chicago, Illinois. Tecture was founded
-      in 2002 by Ben Rowland and builds web software for businesses,
-      startups, and nonprofits, with Tessera as its in-house ticketing
-      product for venues.
+      in 2002 and builds web software for businesses, startups, and
+      nonprofits, with Tessera as its in-house ticketing product for
+      venues.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
