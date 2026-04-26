@@ -26,7 +26,7 @@ blocks:
         description: Collect donations, sell raffle tickets, and take payments for anything that doesn't require physical attendance.
       - icon: "hugeicons:clock-01"
         title: '<a href="/features/overbooking-prevention/">Overbooking prevention</a>'
-        description: 5-minute payment holds reserve places while attendees complete checkout, so you never oversell.
+        description: If two payments race for the last ticket, the second is refunded automatically, so you never oversell.
       - icon: "hugeicons:money-receive-square"
         title: '<a href="/features/refunds/">Refunds</a>'
         description: Process individual or bulk refunds directly from the admin panel with automatic payment provider sync.
