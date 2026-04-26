@@ -50,9 +50,7 @@ blocks:
 
       Set a maximum number of sign-ups per event, and Chobble Tickets
       handles the rest. Once all places are filled, the form closes
-      automatically. If you enable
-      [waitlists](/features/overbooking-prevention/), latecomers can
-      join a queue in case someone drops out.
+      automatically.
 
       For events with multiple roles or shifts, use
       [groups](/features/groups/) to create separate sign-up forms with
