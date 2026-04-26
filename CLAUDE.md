@@ -277,6 +277,9 @@ Write neutral, factual statements. Do not:
 - Use filler words ("simply", "just", "of course", "easily")
 - Use three-word punchy slogans
 - Use alliteration for effect
+- Use em dashes (—). Rewrite the sentence instead. A comma, full stop,
+  or pair of brackets almost always works better. Hyphens (-) for
+  compound words are fine; en dashes (–) for number ranges are fine.
 - Use strings of short punchy sentences as a substitute for prose ("Pay
   a flat annual fee. No per-ticket charges. Attendee data stays with
   you.") - this pattern feels like a sales pitch. Write in complete
