@@ -38,7 +38,7 @@ blocks:
 
       Use **max attendees per group** to set a shared capacity cap across
       multiple events in a group. This lets you create tiered ticket types
-      that share the same stock - for example:
+      that share the same stock. For example:
 
       - **VIP + General Admission** - create two events in a group with a
         shared cap of 200. Set the VIP event to a max of 50 and price it
@@ -63,7 +63,7 @@ blocks:
 
       ## Organisation
 
-      Groups help you keep your admin tidy too - you can filter and manage
+      Groups help you keep your admin tidy too. You can filter and manage
       events by group in the dashboard, and each group gets its own public
       page listing all its events.
 

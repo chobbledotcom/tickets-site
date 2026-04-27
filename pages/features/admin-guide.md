@@ -31,8 +31,8 @@ blocks:
 
       The guide walks through every feature: creating events, managing
       attendees, processing refunds, configuring settings, and more. It's
-      written to be easy to understand - but there's nerdy technical
-      details in there too if you're interested.
+      written to be easy to understand, with nerdy technical details in
+      there too if you are interested.
 
       ## Onboard new team members
 

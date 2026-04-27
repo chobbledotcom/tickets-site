@@ -26,7 +26,7 @@ blocks:
       Chobble Tickets charges a flat **£25/year** for charities and
       community groups (£50/year for others) with no per-transaction
       platform fees. You pay Stripe's processing fees (around 1.5% + 20p
-      in the UK), but nothing extra to Chobble - no matter how much you
+      in the UK), but nothing extra to Chobble, no matter how much you
       raise.
 
       With [purchasable events](/features/purchasable-events/), you can

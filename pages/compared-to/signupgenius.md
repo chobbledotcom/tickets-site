@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: signupgenius
 title: Chobble Tickets vs SignUpGenius
 meta_title: Open Source Alternative to SignUpGenius | Chobble Tickets
-meta_description: Looking for a ticketing alternative to SignUpGenius? Chobble Tickets offers purpose-built event ticketing with flat annual pricing, encryption, and no ads on your event pages.
+meta_description: Chobble Tickets is a ticketing alternative to SignUpGenius, with purpose-built event ticketing, flat annual pricing, encryption, and no ads on your event pages.
 permalink: /compared-to/signupgenius/
 eleventyNavigation:
   key: vs SignUpGenius

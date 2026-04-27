@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: pta_events
 title: Chobble Tickets vs PTA Events
 meta_title: Affordable Alternative to PTA Events for School Ticketing | Chobble Tickets
-meta_description: Looking for an alternative to PTA Events for school and PTA ticketing? Chobble Tickets offers flat pricing from £25/year with no per-ticket fees.
+meta_description: Chobble Tickets is an alternative to PTA Events for school and PTA ticketing, with flat pricing from £25/year and no per-ticket fees.
 permalink: /compared-to/pta-events/
 eleventyNavigation:
   key: vs PTA Events

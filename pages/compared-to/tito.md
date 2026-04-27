@@ -32,9 +32,9 @@ blocks:
 
       Chobble Tickets is a flat £50/year with [no per-ticket fees](/features/no-per-ticket-fees/),
       so the maths is simple: if you sell more than a few dozen tickets
-      a year, Chobble Tickets is cheaper. With Tito, your costs scale linearly
-      with revenue - a £15 ticket costs you 45p in Tito fees alone, and that
-      adds up quickly at volume.
+      a year, Chobble Tickets is cheaper. With Tito, your costs scale
+      linearly with revenue. A £15 ticket costs you 45p in Tito fees alone,
+      and that adds up quickly at volume.
 
   - type: include
     file: price-comparator.html
@@ -139,8 +139,8 @@ blocks:
 
       ## Data ownership
 
-      Tito is a proprietary platform - your event data lives on their servers,
-      and you depend on their continued operation. While Tito has a good
+      Tito is a proprietary platform. Your event data lives on their
+      servers, and you depend on their continued operation. While Tito has a good
       reputation and offers comprehensive API access and CSV exports, your
       ticketing setup is tied to their platform.
 

@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: resident_advisor
 title: Chobble Tickets vs Resident Advisor
 meta_title: Open Source Alternative to Resident Advisor | Chobble Tickets
-meta_description: Looking for an alternative to Resident Advisor (RA)? Chobble Tickets offers flat annual pricing with no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
+meta_description: Chobble Tickets is an alternative to Resident Advisor (RA), with flat annual pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
 permalink: /compared-to/resident-advisor/
 eleventyNavigation:
   key: vs Resident Advisor

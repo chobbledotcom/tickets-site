@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: eventim_light
 title: Chobble Tickets vs EVENTIM.Light
 meta_title: Open Source Alternative to EVENTIM.Light | Chobble Tickets
-meta_description: Looking for an alternative to EVENTIM.Light? Chobble Tickets offers flat annual pricing with no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
+meta_description: Chobble Tickets is an alternative to EVENTIM.Light, with flat annual pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
 permalink: /compared-to/eventim-light/
 eleventyNavigation:
   key: vs EVENTIM.Light

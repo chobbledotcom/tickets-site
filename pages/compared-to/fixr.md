@@ -43,7 +43,7 @@ blocks:
     content: |
       ## Data ownership and privacy
 
-      FIXR operates an event discovery marketplace - their website and app
+      FIXR operates an event discovery marketplace. Their website and app
       let attendees browse and discover events. This means your attendees
       become part of FIXR's audience, and your events sit alongside
       competitors' listings.

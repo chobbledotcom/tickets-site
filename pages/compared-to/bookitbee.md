@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: bookitbee
 title: Chobble Tickets vs BookitBee
 meta_title: No-Fee Alternative to BookitBee | Chobble Tickets
-meta_description: Looking for a no-fee alternative to BookitBee? Chobble Tickets charges a flat annual fee with no per-ticket costs, and it's fully open source.
+meta_description: Chobble Tickets is a no-fee alternative to BookitBee, with a flat annual fee, no per-ticket costs, and fully open source code.
 permalink: /compared-to/bookitbee/
 eleventyNavigation:
   key: vs BookitBee
@@ -13,7 +13,7 @@ blocks:
     class: gradient
     title: Chobble Tickets vs BookitBee
     lead: >-
-      BookitBee is a UK-based ticketing platform - here is how it compares to
+      BookitBee is a UK-based ticketing platform. This page compares it to
       Chobble Tickets.
 
   - type: markdown

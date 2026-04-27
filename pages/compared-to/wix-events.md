@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: wix_events
 title: Chobble Tickets vs Wix Events
 meta_title: Open Source Alternative to Wix Events | Chobble Tickets
-meta_description: Looking for an alternative to Wix Events? Chobble Tickets offers flat annual pricing with no per-ticket fees, full data ownership, and no platform lock-in.
+meta_description: Chobble Tickets is an alternative to Wix Events, with flat annual pricing, no per-ticket fees, full data ownership, and no platform lock-in.
 permalink: /compared-to/wix-events/
 eleventyNavigation:
   key: vs Wix Events

@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: resova
 title: Chobble Tickets vs Resova
 meta_title: Open Source Alternative to Resova | Chobble Tickets
-meta_description: Looking for an alternative to Resova? Chobble Tickets offers flat annual pricing with no monthly booking limits, encrypted attendee data, and open source code.
+meta_description: Chobble Tickets is an alternative to Resova, with flat annual pricing, no monthly booking limits, encrypted attendee data, and open source code.
 permalink: /compared-to/resova/
 eleventyNavigation:
   key: vs Resova

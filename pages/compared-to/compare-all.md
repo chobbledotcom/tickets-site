@@ -14,7 +14,7 @@ blocks:
     title: Compare all ticketing platforms
     lead: >-
       Adjust the sliders to see how much money you keep after fees with every
-      platform - all in one view.
+      platform, all in one view.
 
   - type: include
     file: platform-comparison-grid.html
@@ -27,7 +27,7 @@ blocks:
       from your total ticket sales for a year. Fees include annual subscription
       costs, per-ticket platform fees, and payment processing charges.
 
-      Platforms are sorted by total cost - lowest fees first. Chobble Tickets
+      Platforms are sorted by total cost, with the lowest fees first. Chobble Tickets
       is highlighted in purple so you can spot it quickly.
 
       Click **Compare** on any platform to see a detailed side-by-side breakdown.

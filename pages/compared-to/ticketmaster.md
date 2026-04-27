@@ -205,7 +205,7 @@ blocks:
       ## Pricing sources
 
       Ticketmaster does not publish a standard public fee schedule for
-      organisers - fees vary by event, venue, and contract. The pricing
+      organisers. Fees vary by event, venue, and contract. The pricing
       estimate used on this page is approximate. Check the link below for
       the latest information.
 

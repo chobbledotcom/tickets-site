@@ -109,12 +109,12 @@ blocks:
 
       Each host controls:
 
-      - **Pricing** -- what to charge customers, if anything
-      - **Infrastructure** -- which Bunny account, which region, which plan
-      - **Email** -- which email provider sends confirmations (Resend, Postmark,
-        SendGrid, or Mailgun)
-      - **Updates** -- when to deploy new versions of the software
-      - **Support** -- how to help the organisers they host for
+      - **Pricing**: what to charge customers, if anything
+      - **Infrastructure**: which Bunny account, which region, which plan
+      - **Email**: which email provider sends confirmations (Resend,
+        Postmark, SendGrid, or Mailgun)
+      - **Updates**: when to deploy new versions of the software
+      - **Support**: how to help the organisers they host for
 
       Attendee data is encrypted and stays in each site's own database. Hosts
       cannot read their customers' attendee data. The encryption key is

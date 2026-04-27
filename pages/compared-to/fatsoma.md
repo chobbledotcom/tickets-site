@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: fatsoma
 title: Chobble Tickets vs Fatsoma
 meta_title: Open Source Alternative to Fatsoma | Chobble Tickets
-meta_description: Looking for an alternative to Fatsoma? Chobble Tickets offers flat annual pricing with no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
+meta_description: Chobble Tickets is an alternative to Fatsoma, with flat annual pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
 permalink: /compared-to/fatsoma/
 eleventyNavigation:
   key: vs Fatsoma
@@ -24,7 +24,7 @@ blocks:
       [Fatsoma](https://ticketing.fatsoma.com) charges 10% per ticket with a
       minimum of £1, plus Stripe payment processing fees (1.5% + 20p in the
       UK). So on a £15 ticket, that's £1.50 to Fatsoma plus roughly 43p to
-      Stripe - £1.93 gone per ticket before you see a penny.
+      Stripe, totalling £1.93 gone per ticket before you see a penny.
 
       Chobble Tickets is a flat £50/year (£25 for charities and community
       groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
@@ -53,7 +53,7 @@ blocks:
 
       ## Payouts
 
-      Fatsoma pays out after your event ends - typically 2 or more days
+      Fatsoma pays out after your event ends, typically 2 or more days
       after. You're essentially lending Fatsoma your ticket revenue until
       they decide to release it.
 
