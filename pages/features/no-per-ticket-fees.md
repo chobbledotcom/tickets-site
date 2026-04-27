@@ -59,10 +59,9 @@ blocks:
       cost structure: fixed costs covered by a fixed price. There is no
       per-ticket cost to pass on, so there is no per-ticket fee.
 
-      Chobble is a [community interest company](/features/open-source/), not a
-      venture-funded startup. Its income comes from annual fees, not from
-      taking a cut of ticket sales. There is no advertising revenue and no
-      data economy subsidising the price.
+      Chobble is a [community interest company](/features/open-source/).
+      Income comes only from the annual fees organisers pay. There is no
+      advertising revenue and no data economy subsidising the price.
 
   - type: stats
     dark: true

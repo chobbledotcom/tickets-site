@@ -12,8 +12,8 @@ blocks:
     class: gradient
     title: How Chobble Tickets compares
     lead: >-
-      Every ticketing option has trade-offs, so here's an honest look at how
-      Chobble Tickets stacks up against the alternatives.
+      Every ticketing option has trade-offs. Each page below compares Chobble
+      Tickets to one platform on pricing, features, and data ownership.
 
   - type: features
     header_intro: |
@@ -53,7 +53,7 @@ blocks:
         description: Free and flexible, but not built for ticketing - see the differences.
       - icon: "hugeicons:source-code"
         title: '<a href="/compared-to/hi-events/">vs Hi.Events</a>'
-        description: Another open source option - an honest comparison of two similar platforms.
+        description: Another open source option - compare features, hosting models, and pricing.
       - icon: "hugeicons:ticket-01"
         title: '<a href="/compared-to/pta-events/">vs PTA Events</a>'
         description: Purpose-built for school PTAs with fundraising tools - compare features and fees.
@@ -96,7 +96,7 @@ blocks:
 
   - type: cta
     title: Try it yourself
-    description: The best comparison is trying it - sign up for managed hosting at £50/year or check out the source code on GitHub and self-host for free.
+    description: Sign up for managed hosting at £50/year, or check out the source code on GitHub and self-host for free.
     button:
       text: Sign Up
       href: https://tix.chobble.com/ticket/register
