@@ -203,7 +203,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [Fatsoma pricing](https://ticketing.fatsoma.com/pricing) - 10% per ticket (minimum £1), plus Stripe processing
       - [Fatsoma for Business](https://ticketing.fatsoma.com/) - event ticketing and promotion platform

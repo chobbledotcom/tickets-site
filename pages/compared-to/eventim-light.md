@@ -305,7 +305,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [EVENTIM.Light UK pricing](https://www.eventim-light.co.uk/pricing/) - 8% per ticket (includes payment processing)
       - [EVENTIM.Light UK features](https://www.eventim-light.co.uk/features/) - full feature list

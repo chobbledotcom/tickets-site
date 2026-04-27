@@ -190,7 +190,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
-      Fees may change - check the links below for the latest figures.
+      Fees may change. Check the links below for the latest figures.
 
       - [FIXR pricing](https://fixr.co/pricing) - Pro: 4.99% + £0.49 per ticket; Student & Charity: 3.99% + £0.49
       - [FIXR for organisers](https://fixr.co/p/event-organisers) - event ticketing and promotion platform

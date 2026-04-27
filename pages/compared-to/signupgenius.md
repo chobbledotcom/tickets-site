@@ -311,7 +311,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
-      Fees may change - check the links below for the latest figures.
+      Fees may change. Check the links below for the latest figures.
 
       - [SignUpGenius pricing](https://www.signupgenius.com/pricing) - Free, Silver ($8.99/month), Gold ($22.49/month), Platinum ($44.99/month), Enterprise
       - [SignUpGenius cost FAQ](https://www.signupgenius.com/support/sign-up-genius-cost) - payment collection fees: 5% + $0.50 per transaction

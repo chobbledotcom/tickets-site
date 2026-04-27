@@ -232,7 +232,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [Wix Events: About Wix Ticket Service Fees](https://support.wix.com/en/article/wix-events-about-wix-ticket-service-fees) - 2.5% ticket service fee
       - [Wix Payments: Service Fees](https://support.wix.com/en/article/wix-payments-service-fees) - 2.1% + 20p per transaction (UK)

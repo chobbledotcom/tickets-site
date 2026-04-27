@@ -214,7 +214,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [PTA Events fees](https://ptaevents.freshdesk.com/support/solutions/articles/17000091635-what-fees-are-charged-) - 3.95% (Starter) or 1.5% (Premium)
       - [PTA Events Premium plan benefits](https://ptaevents.freshdesk.com/support/solutions/articles/17000091633-what-are-the-benefits-of-the-premium-plan-) - Qflow scanning, advertising tools, reduced fees

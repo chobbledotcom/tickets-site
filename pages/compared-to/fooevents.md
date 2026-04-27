@@ -334,7 +334,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in April
-      2026. Fees may change - check the links below for the latest
+      2026. Fees may change. Check the links below for the latest
       figures.
 
       - [FooEvents pricing](https://www.fooevents.com/pricing/) -

@@ -233,7 +233,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
-      Fees may change - check the links below for the latest figures.
+      Fees may change. Check the links below for the latest figures.
 
       - [Cheddar Up pricing](https://www.cheddarup.com/pricing/) - Basic (free), Pro ($20/month), Team ($48/month)
       - [Cheddar Up fees explained](https://www.cheddarup.com/blog/cheddar-up-fees/) - 3.59% + $0.59 per transaction on Pro/Team, 3.95% + $0.95 on Basic

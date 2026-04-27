@@ -183,7 +183,7 @@ blocks:
 
       ## Different philosophies
 
-      The biggest difference isn't features - it's approach.
+      The two platforms differ most in their underlying approach.
 
       **Hi.Events** is built on PHP/Laravel with a React frontend. It's a
       full-featured web application with a polished, modern UI aimed at
@@ -281,7 +281,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [Hi.Events pricing](https://hi.events/pricing) - 0.75% + 40¢ per ticket (cloud)
       - [Hi.Events open source / self-hosted](https://hi.events/open-source-event-ticketing) - $499 single domain commercial licence

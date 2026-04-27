@@ -206,7 +206,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [Tito pricing](https://ti.to/pricing) - 3% per ticket, capped at €25 per ticket (reduced rates for non-profits and charities)
       - [Tito features](https://ti.to/features) - full feature list

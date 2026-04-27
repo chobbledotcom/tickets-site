@@ -231,7 +231,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in April 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [Ticket Tailor pricing](https://www.tickettailor.com/pricing) - £0.60 per paid ticket pay-as-you-go, from £0.22 with prepaid credits
       - [Ticket Tailor help centre: how much does it cost](https://help.tickettailor.com/en/articles/6731528-how-much-does-ticket-tailor-cost-and-how-will-i-be-charged)

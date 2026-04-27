@@ -230,7 +230,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in April 2026.
-      Fees may change - check the links below for the latest figures.
+      Fees may change. Check the links below for the latest figures.
 
       - [Tessera Tickets pricing](https://www.tessera-tickets.com/pricing/) -
         subscription tiers, hosting, setup fees, and add-ons

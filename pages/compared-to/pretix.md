@@ -237,7 +237,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [Pretix hosted pricing](https://pretix.eu/about/en/pricing) - 2.5% of ticket price (excl. taxes), capped at €15/ticket, plus payment provider fees
       - [Pretix self-hosted/enterprise pricing](https://pretix.eu/about/en/pricing/selfhosted) - from €499/year (Enterprise Starter)

@@ -198,7 +198,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [BookitBee pricing](https://bookitbee.com/pricing/) - from 3.5% per ticket
       - [BookitBee features](https://www.bookitbee.com/features/)

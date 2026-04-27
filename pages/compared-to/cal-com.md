@@ -391,7 +391,7 @@ blocks:
       ## Sources
 
       The information on this page was verified in April 2026. Pricing
-      and licensing may change - check the links below for the latest
+      and licensing may change. Check the links below for the latest
       figures.
 
       - [Cal.com closed source announcement](https://cal.com/blog/cal-com-goes-closed-source-why) - the original blog post, dated 14 April 2026
