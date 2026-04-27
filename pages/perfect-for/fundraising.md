@@ -52,7 +52,7 @@ blocks:
         description: Let supporters choose their own contribution above a minimum, so supporters can contribute more than the minimum if they choose to.
       - icon: "hugeicons:ticket-01"
         title: Raffle ticket sales
-        description: Sell numbered raffle entries with quantity selection - supporters can buy multiple tickets in a single checkout.
+        description: Sell numbered raffle entries with quantity selection, so supporters can buy multiple tickets in a single checkout.
       - icon: "hugeicons:user-multiple"
         title: '<a href="/features/users/">Team access</a>'
         description: Invite volunteers and committee members as managers so your whole team can help without sharing one login.
@@ -76,8 +76,8 @@ blocks:
         payments, and class photo money without spreadsheets and cash
       - **Sports clubs** collecting membership dues, kit deposits, and
         tournament entry fees from members
-      - **Community groups** - Scout troops, Rotary clubs, neighbourhood
-        associations - running raffles and community fundraisers
+      - **Community groups** (Scout troops, Rotary clubs, neighbourhood
+        associations) running raffles and community fundraisers
       - **Churches and faith groups** accepting gift-aided donations and
         special appeal contributions
 

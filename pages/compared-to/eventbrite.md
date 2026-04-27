@@ -61,7 +61,7 @@ blocks:
       - API access for custom integrations
       - Custom questions on the registration form
       - Event grouping into collections for multi-event bookings
-      - Multiple ticket types per event - use event groups with shared
+      - Multiple ticket types per event: use event groups with shared
         capacity limits to create VIP, general admission, early bird, and
         other tiers with different prices
 
@@ -152,7 +152,7 @@ blocks:
         attendee data is encrypted with a key derived from your admin
         password using hybrid RSA-OAEP + AES-256-GCM. A database dump
         and the server's environment encryption key together are still
-        not enough to decrypt attendee data - an attacker would also
+        not enough to decrypt attendee data, since an attacker would also
         need your password. If you forget it, the data is permanently
         unrecoverable.
       - **[Open source](/features/open-source/)** - every line of code is

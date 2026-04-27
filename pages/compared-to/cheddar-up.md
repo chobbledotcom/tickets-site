@@ -109,8 +109,7 @@ blocks:
 
       - **[Purchasable events](/features/purchasable-events/)** - collect
         donations, sell raffle tickets, take membership dues, and run any
-        kind of payment collection without an event to attend - not just
-        ticketing
+        kind of payment collection without an event to attend
       - **[Sign-up forms](/features/sign-up-forms/)** - create volunteer
         sign-up sheets, potluck coordinators, and other form-based
         collections by setting an event as free with custom questions

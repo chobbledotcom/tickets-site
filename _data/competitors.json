@@ -32,7 +32,7 @@
     "per_ticket_fee_fixed": 2.5,
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
-    "fee_note": "Ticketmaster fees vary by event and venue - this estimate uses approximately 10% + £2.50 per ticket (bundled). Actual fees may be higher or lower. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
+    "fee_note": "Ticketmaster fees vary by event and venue. This estimate uses approximately 10% + £2.50 per ticket (bundled). Actual fees may be higher or lower. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
   },
   "hi_events": {
     "name": "Hi.Events",
@@ -50,7 +50,7 @@
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "Hi.Events Single Domain commercial license: $499 (approx. £420). AGPL edition is free but requires 'Powered by Hi.Events' branding. Multi-tenant licenses available at higher tiers - contact Hi.Events for pricing. Chobble Tickets self-hosted: free, no license fee + Stripe processing (1.5% + 20p). Source: hi.events/pricing and hi.events/open-source-event-ticketing (March 2026)."
+    "fee_note": "Hi.Events Single Domain commercial license: $499 (approx. £420). AGPL edition is free but requires 'Powered by Hi.Events' branding. Multi-tenant licenses are available at higher tiers; contact Hi.Events for pricing. Chobble Tickets self-hosted: free, no license fee + Stripe processing (1.5% + 20p). Source: hi.events/pricing and hi.events/open-source-event-ticketing (March 2026)."
   },
   "pretix_hosted": {
     "name": "Pretix Hosted",
@@ -86,7 +86,7 @@
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
-    "fee_note": "Resident Advisor fees: approximately 10% per ticket (includes payment processing). RA does not publicly list exact fees - they are negotiated with promoters. The 10% figure is widely cited by third-party comparison sites. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Sources: weticket.com, support.ra.co (March 2026)."
+    "fee_note": "Resident Advisor fees: approximately 10% per ticket (includes payment processing). RA does not publicly list exact fees; they are negotiated with promoters. The 10% figure is widely cited by third-party comparison sites. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p). Sources: weticket.com, support.ra.co (March 2026)."
   },
   "dice": {
     "name": "DICE",
@@ -122,7 +122,7 @@
     "per_ticket_fee_fixed": 4,
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
-    "fee_note": "Ticketek fees vary by event and venue - this estimate uses approximately AU$8 per transaction (converted to GBP) as a typical service and handling fee. Actual fees may be higher or lower. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
+    "fee_note": "Ticketek fees vary by event and venue. This estimate uses approximately AU$8 per transaction (converted to GBP) as a typical service and handling fee. Actual fees may be higher or lower. Chobble Tickets: £50/year flat + Stripe processing (1.5% + 20p)."
   },
   "tito": {
     "name": "Tito",

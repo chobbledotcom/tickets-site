@@ -192,7 +192,7 @@ blocks:
       (clause 9.5). In practice, this means:
 
       - EVENTIM can send **personalised mailings about similar events** to
-        your ticket buyers - their
+        your ticket buyers. Their
         [UK terms](https://www.eventim-light.com/uk/api/legal/terms?format=pdf&lang=en)
         (clause 9.2) confirm they may contact buyers about "events which are
         identical or similar to the one for which the customer purchased a
@@ -209,7 +209,7 @@ blocks:
 
       The consumer-facing eventim.co.uk has a
       [3.7-star rating on Trustpilot](https://uk.trustpilot.com/review/eventim.co.uk)
-      (UK), though reviews are mixed - common complaints include refund
+      (UK), though reviews are mixed. Common complaints include refund
       difficulties and customer service responsiveness. While EVENTIM.Light
       is a separate product, buyer issues are typically directed back to the
       event organiser rather than EVENTIM's support team.

@@ -226,7 +226,7 @@ blocks:
         attendee data is encrypted with a key derived from your admin
         password using hybrid RSA-OAEP and AES-256-GCM. A database
         dump and the server's encryption key together are still not
-        enough to decrypt attendee data - an attacker would also need
+        enough to decrypt attendee data, since an attacker would also need
         your password. If you forget your password, the data is
         permanently unrecoverable.
       - **[Open source production code](/features/open-source/)** - the
@@ -248,7 +248,7 @@ blocks:
       - **[Liquid email templates with full HTML control](/features/email-templates/)** -
         edit the subject, HTML body, and text body of confirmation
         emails. Combined with a custom email provider, the email is
-        fully white-label - it does not mention Chobble at all.
+        fully white-label, with no mention of Chobble.
       - **[Full custom domain](/features/custom-domain/)** - run the
         ticketing site on your own domain (Cal.com offers
         yourcompany.cal.com subdomains on the Organizations plan but
@@ -397,7 +397,7 @@ blocks:
       - [Cal.com closed source announcement](https://cal.com/blog/cal-com-goes-closed-source-why) - the original blog post, dated 14 April 2026
       - [Cal.com pricing](https://cal.com/pricing) - Free, Teams ($12/user/month), Organizations ($28/user/month), Enterprise
       - [Cal.ai](https://cal.com/ai) and [Cal.ai credit pricing](https://cal.com/help/billing-and-usage/messaging-credits) - $0.29 per minute (29 credits), 750 credits per Teams seat, 1000 credits per Organizations seat, no included credits on Free
-      - Cal.diy - the new MIT-licensed community version, announced alongside the closed source change
+      - Cal.diy: the new MIT-licensed community version, announced alongside the closed source change
       - [Cal.com Series A funding announcement (April 2022)](https://venturebeat.com/business/open-source-calendly-rival-cal-com-raises-25m) - $25 million Series A led by Seven Seven Six, on top of a previous $7.4 million seed
       - [Chobble Tickets features](/features/)
       - [Chobble Tickets source code on GitHub](https://github.com/chobbledotcom/tickets)

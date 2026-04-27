@@ -46,7 +46,7 @@ blocks:
 
       ## Pricing comparison
 
-      **alf.io self-hosted** is free - you pay only for your own server
+      **alf.io self-hosted** is free. You pay only for your own server
       infrastructure and payment processing fees. The GPLv3 licence has no
       commercial restrictions beyond the copyleft requirement.
 
@@ -164,8 +164,8 @@ blocks:
 
       - You're a community group, school, charity, or independent venue
       - You want transparent, flat-rate pricing with no per-ticket fees
-      - Privacy and [encryption](/features/encrypted/) matter to you - not
-        just row-level security but end-to-end encryption
+      - Privacy and [encryption](/features/encrypted/) matter to you (with
+        end-to-end encryption rather than only row-level security)
       - You want to start immediately without a sales call or contract
       - You want [calendar feeds](/features/rss-and-calendar-feeds/) or
         [RSS](/features/rss-and-calendar-feeds/)

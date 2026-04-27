@@ -21,8 +21,8 @@ blocks:
     content: |
       ## Pricing comparison
 
-      [DICE](https://dice.fm) doesn't put its prices on its website - you have
-      to talk to them and agree a deal. Industry estimates suggest fees of
+      [DICE](https://dice.fm) doesn't put its prices on its website. You
+      have to talk to them and agree a deal. Industry estimates suggest fees of
       around 10% per ticket, but what you pay will depend on your
       agreement.
 
@@ -79,8 +79,8 @@ blocks:
       - Capacity management to prevent overselling
       - Refund processing
       - Apple Pay and Google Pay at checkout
-      - Upfront, all-in pricing (the price you see is the price you pay - no
-        surprise fees at checkout)
+      - Upfront, all-in pricing (the price you see is the price you pay,
+        with no surprise fees at checkout)
 
       DICE has some features Chobble Tickets doesn't, and vice versa:
 

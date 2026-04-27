@@ -32,7 +32,7 @@ blocks:
       each in a year, Chobble Tickets is already cheaper.
 
       On higher-priced tickets the gap grows quickly. A £30 ticket costs you
-      £3.00 in Fatsoma platform fees alone - that's 60 tickets to break even
+      £3.00 in Fatsoma platform fees alone, meaning 60 tickets to break even
       against a full year of Chobble Tickets.
 
   - type: include

@@ -21,7 +21,7 @@ blocks:
     content: |
       ## Pricing comparison
 
-      [FIXR](https://fixr.co) is free for organisers - ticket buyers pay a
+      [FIXR](https://fixr.co) is free for organisers. Ticket buyers pay a
       booking fee of 4.99% + £0.49 per ticket (£1 minimum) + VAT on the
       Pro tier, or 3.99% + £0.49 on the Student & Charity tier. These fees
       include payment processing, and organisers can optionally absorb them.
@@ -33,7 +33,7 @@ blocks:
       £10 each in a year, Chobble Tickets is already cheaper.
 
       On higher-priced tickets the gap grows quickly. A £30 ticket costs
-      £1.99 in FIXR fees - that's about 38 tickets to break even against
+      £1.99 in FIXR fees, meaning about 38 tickets to break even against
       a full year of Chobble Tickets.
 
   - type: include

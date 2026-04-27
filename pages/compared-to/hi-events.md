@@ -5,7 +5,7 @@ selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: hi_events_selfhosted
 title: Chobble Tickets vs Hi.Events
 meta_title: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared
-meta_description: Comparing two open source ticketing platforms - Chobble Tickets and Hi.Events - on pricing, features, philosophy, and which is better for your events.
+meta_description: Comparing two open source ticketing platforms (Chobble Tickets and Hi.Events) on pricing, features, philosophy, and which is better for your events.
 permalink: /compared-to/hi-events/
 eleventyNavigation:
   key: vs Hi.Events
@@ -38,7 +38,7 @@ blocks:
       per ticket sold, plus Stripe processing fees. You can pass these to the
       buyer or absorb them yourself. Free events are completely free.
 
-      **Hi.Events Self-Hosted** has no platform fees at all - you only pay
+      **Hi.Events Self-Hosted** has no platform fees at all. You only pay
       Stripe processing and your own server costs (roughly £16-32/month for
       hosting).
 
@@ -176,8 +176,8 @@ blocks:
         Hi.Events" branding unless you buy a $499+ commercial licence
       - **Serverless edge deployment** - Chobble compiles to a single JS
         file that runs on Bunny.net edge scripts with a Bunny.net edge
-        database - no server to manage, no scaling to configure, no
-        database replication to maintain. Hi.Events needs a traditional
+        database, so there is no server to manage, no scaling to configure,
+        and no database replication to maintain. Hi.Events needs a traditional
         server (2 CPU, 4GB RAM minimum) that you're responsible for
         keeping online, updated, and backed up
 

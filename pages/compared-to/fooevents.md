@@ -179,7 +179,7 @@ blocks:
         software that requires a paid subscription to use
       - **[Self-host for free](/features/open-source/)** - Chobble
         Tickets can be self-hosted at no cost with every feature
-        included. FooEvents has no free tier - even self-installed,
+        included. FooEvents has no free tier; even self-installed,
         you need to buy a bundle
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets straight to their phone wallet
