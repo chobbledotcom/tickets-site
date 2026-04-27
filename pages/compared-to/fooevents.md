@@ -41,7 +41,7 @@ blocks:
 
       FooEvents is sold as annual bundles. Each bundle includes the
       listed plugins plus 12 months of support and updates. The prices
-      below are for a Single Domain licence - licences for multiple or
+      below are for a Single Domain licence. Licences for multiple or
       unlimited domains cost more.
 
       **Basic Bundle** - $139/year (approx. £103)
@@ -100,7 +100,7 @@ blocks:
 
       Not every FooEvents feature is in every bundle. Seating, Bookings,
       Multi-day, Custom Attendee Fields, and POS are separate plugins
-      that only come with the higher-tier bundles - so the Basic Bundle
+      that only come with the higher-tier bundles, so the Basic Bundle
       covers a much smaller feature set than the POS Bundle.
 
       **Both platforms share some features:**
@@ -239,7 +239,7 @@ blocks:
       encrypts attendee personal data so the operator cannot read it
       without your private key. If you want full control of the
       infrastructure, you can [self-host](/features/open-source/)
-      Chobble Tickets instead - the code is AGPLv3 with no paid tier.
+      Chobble Tickets instead. The code is AGPLv3 with no paid tier.
 
   - type: markdown
     content: |

@@ -27,8 +27,8 @@ blocks:
       fees of 2.1% + 20p per transaction in the UK.
 
       So for a £15 ticket, Wix takes 37p in ticket service fees, plus 51p
-      in payment processing - 88p per ticket before you've even factored in
-      the monthly subscription.
+      in payment processing, totalling 88p per ticket before you've even
+      factored in the monthly subscription.
 
       Chobble Tickets is a flat £50/year regardless of how many tickets you
       sell, with Stripe processing at 1.5% + 20p. [No per-ticket platform
@@ -41,9 +41,10 @@ blocks:
     content: |
       ## Feature comparison
 
-      Wix Events is tightly integrated into the Wix website builder,
-      which gives it some advantages if you're already a Wix user - but also
-      means it's locked into that platform. Here is the breakdown:
+      Wix Events is tightly integrated into the Wix website builder.
+      That gives it some advantages if you are already a Wix user, but it
+      also means the ticketing is locked into that platform. Here is the
+      breakdown:
 
       **Both platforms share some features:**
 
@@ -169,7 +170,7 @@ blocks:
       servers within their proprietary platform. If you stop paying your
       monthly Wix subscription, you lose access to your ticketing setup,
       event pages, and attendee data. Your events are also tied to the Wix
-      website builder - there's no way to take your ticketing to another
+      website builder. There is no way to take your ticketing to another
       platform without starting over.
 
       With Chobble Tickets, attendee data is encrypted and stays under your

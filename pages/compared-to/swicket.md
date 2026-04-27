@@ -13,8 +13,8 @@ blocks:
     title: Chobble Tickets vs Swicket
     lead: >-
       Swicket is the commercial, managed version of the open source alf.io
-      ticketing platform - built for large conferences and medical congresses.
-      Here's how it compares to Chobble Tickets for independent event
+      ticketing platform, built for large conferences and medical congresses.
+      This page compares it to Chobble Tickets for independent event
       organisers.
 
   - type: markdown
@@ -24,8 +24,8 @@ blocks:
       [Swicket](https://swicket.io) is the enterprise managed service built on
       top of [alf.io](https://alf.io), a GPLv3-licensed open source event
       attendance management system. Swicket is run by Vivento Lab (based in
-      Lugano, Switzerland), and one of Swicket's co-founders - Celestino
-      Bellone - is also a co-creator of alf.io itself.
+      Lugano, Switzerland), and one of Swicket's co-founders (Celestino
+      Bellone) is also a co-creator of alf.io itself.
 
       **alf.io** is the open source engine: a Java/Spring Boot application
       that handles ticket reservation, payment processing, and check-in. It's

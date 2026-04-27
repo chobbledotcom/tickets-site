@@ -14,9 +14,8 @@ blocks:
     title: Chobble Tickets vs SignUpGenius
     lead: >-
       SignUpGenius is the go-to tool for volunteer sign-up sheets and group
-      coordination, used by over 70 million people a year. But it wasn't
-      built for event ticketing - so here is how it compares to a platform
-      that was.
+      coordination, used by over 70 million people a year. It wasn't built
+      for event ticketing. This page compares it to a platform that was.
 
   - type: markdown
     content: |
@@ -189,8 +188,8 @@ blocks:
       the free tier. When you share a sign-up page with participants, they
       see third-party display ads alongside your content. Users
       consistently report these ads as distracting, unprofessional, and
-      sometimes inappropriate - not ideal when you're sharing a page with
-      parents, church members, or professional contacts.
+      sometimes inappropriate, which is not ideal when you are sharing a
+      page with parents, church members, or professional contacts.
 
       Removing ads requires at least the Silver plan ($8.99/month annual,
       $11.99/month monthly), which works out to $107.88-$143.88 per year
@@ -268,7 +267,7 @@ blocks:
 
       SignUpGenius was founded in October 2008 by Dan Rutledge in
       Charlotte, North Carolina. Rutledge built it to solve a problem he
-      encountered organising volunteers at his church - the classic
+      encountered organising volunteers at his church: the classic
       clipboard-passed-around-a-room scenario. His wife, Angel Rutledge,
       joined as COO and CMO in 2011. The company grew from 98,000 users in
       2009 to over 66 million unique visitors by 2016, entirely as a

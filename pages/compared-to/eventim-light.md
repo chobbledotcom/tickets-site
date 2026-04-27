@@ -22,16 +22,17 @@ blocks:
       ## What is EVENTIM.Light?
 
       [EVENTIM.Light](https://www.eventim-light.co.uk/) is the self-serve
-      ticketing arm of CTS EVENTIM - the parent company behind eventim.co.uk and
-      one of the largest ticketing operations in Europe, with [250+ million
-      tickets sold in 2019](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/)
+      ticketing arm of CTS EVENTIM, the parent company behind eventim.co.uk
+      and one of the largest ticketing operations in Europe, with [250+
+      million tickets sold in
+      2019](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/)
       and operations across 23+ countries. EVENTIM.Light is aimed at independent
       organisers, artists, and small-to-medium promoters who want to create and
       sell tickets without negotiating an enterprise deal.
 
-      It's a solid platform backed by serious infrastructure. But the trade-offs -
-      particularly around fees, data ownership, and flexibility - are worth
-      understanding before you commit.
+      It is a solid platform backed by serious infrastructure. The
+      trade-offs (particularly around fees, data ownership, and flexibility)
+      are worth understanding before you commit.
 
   - type: markdown
     content: |
@@ -81,7 +82,7 @@ blocks:
       Chobble Tickets uses Stripe or Square directly, so payments flow straight
       to your own payment processor account with standard processing times
       (typically 2–3 business days from each sale). You control your own
-      payout schedule through Stripe or Square - not through the ticketing
+      payout schedule through Stripe or Square, not through the ticketing
       platform.
 
   - type: markdown

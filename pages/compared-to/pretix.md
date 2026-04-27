@@ -5,7 +5,7 @@ selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: pretix_selfhosted
 title: Chobble Tickets vs Pretix
 meta_title: Open Source Alternative to Pretix | Chobble Tickets
-meta_description: Comparing two open source ticketing platforms - Chobble Tickets and Pretix. See how hosted and self-hosted costs compare for your event.
+meta_description: Comparing two open source ticketing platforms, Chobble Tickets and Pretix. See how hosted and self-hosted costs compare for your event.
 permalink: /compared-to/pretix/
 eleventyNavigation:
   key: vs Pretix
@@ -15,8 +15,8 @@ blocks:
     class: gradient
     title: Chobble Tickets vs Pretix
     lead: >-
-      Two open source ticketing platforms with very different models - here's
-      how they compare on cost, complexity, and approach.
+      Two open source ticketing platforms with very different models. This
+      page compares them on cost, complexity, and approach.
 
   - type: markdown
     content: |
@@ -67,20 +67,21 @@ blocks:
 
       Both platforms can be self-hosted, but the licensing models differ.
 
-      Chobble Tickets is fully open source with **no license fee** - you get
-      every feature for free when you self-host. There's no "community vs
-      enterprise" split. And because Chobble compiles to a single JavaScript
-      file that runs on Bunny.net edge scripts with a Bunny.net edge database,
-      there's no server to manage, no scaling to configure, and no database
-      replication to maintain - it's all built into the Bunny platform.
+      Chobble Tickets is fully open source with **no license fee**. You get
+      every feature for free when you self-host. There is no "community vs
+      enterprise" split. Because Chobble compiles to a single JavaScript
+      file that runs on Bunny.net edge scripts with a Bunny.net edge
+      database, there is no server to manage, no scaling to configure, and
+      no database replication to maintain. The Bunny platform handles all
+      of that.
 
       Pretix offers a free Community edition, but its proprietary plugins
       (seating, lead scanning, POS, resellers, and more) require a Pretix
       Enterprise license starting at €499/year (approx. £420). The full-featured
       Enterprise Professional tier is €750/year, and Ultimate is €950/year.
-      Self-hosting Pretix also means running a traditional server with Python,
-      PostgreSQL, Redis, and a reverse proxy - infrastructure you need to
-      manage, update, and keep online yourself.
+      Self-hosting Pretix also means running a traditional server with
+      Python, PostgreSQL, Redis, and a reverse proxy. That is infrastructure
+      you need to manage, update, and keep online yourself.
 
   - type: include
     file: price-comparator-selfhosted.html
@@ -166,14 +167,14 @@ blocks:
 
       ## When Chobble Tickets is the better choice
 
-      If you're a smaller organiser - running community events, school fairs,
-      local gigs, charity fundraisers - Chobble Tickets is simpler and cheaper.
+      For smaller organisers running community events, school fairs, local
+      gigs, or charity fundraisers, Chobble Tickets is simpler and cheaper.
       There's no percentage fee eating into your revenue, no complex plugin
       licensing to navigate, and no enterprise sales process.
 
-      The flat £50/year hosted plan means your costs are predictable. And if you
-      self-host, it's completely free - no license tiers, no feature gates, no
-      catches.
+      The flat £50/year hosted plan means your costs are predictable. If
+      you self-host, it is completely free, with no license tiers, no
+      feature gates, and no catches.
 
       ## Feature comparison at a glance
 
@@ -215,8 +216,8 @@ blocks:
 
       Pretix was created by Raphael Michel, who started writing it in 2014
       while working as a freelance developer in Heidelberg, Germany. The
-      company behind it - [pretix GmbH](https://pretix.eu/about/en/company)
-      (formerly rami.io GmbH, renamed in 2025) - is owner-led with no
+      company behind it ([pretix GmbH](https://pretix.eu/about/en/company),
+      formerly rami.io GmbH, renamed in 2025) is owner-led with no
       external investors. Their website states the company has "grown
       organically through customers without any pressure by investors or
       creditors." The team has grown to approximately 28 people.

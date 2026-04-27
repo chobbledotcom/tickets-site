@@ -29,7 +29,7 @@ blocks:
       Chobble Tickets is a flat £50/year (£25 for charities and community
       groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
       processing fees on top. If you sell more than a few dozen tickets in a
-      year at typical prices, Chobble Tickets is already cheaper - and the
+      year at typical prices, Chobble Tickets is already cheaper, and the
       savings grow the more you sell.
 
   - type: include
@@ -59,7 +59,7 @@ blocks:
 
       ## The app
 
-      DICE is built around its mobile app - tickets live in the app as a QR
+      DICE is built around its mobile app. Tickets live in the app as a QR
       code tied to your phone number. This is how their anti-scalping system
       works: tickets are locked to the app, so they cannot be screenshotted
       and resold. If you can't use the app, DICE does offer limited web
@@ -204,7 +204,7 @@ blocks:
     content: |
       ## Pricing sources
 
-      DICE does not publicly disclose its fees - the estimate used here is
+      DICE does not publicly disclose its fees. The estimate used here is
       based on industry analysis and publicly available comparisons. Check
       the links below for the latest information.
 
