@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Purchasable Events - Chobble Tickets
 meta_title: Collect Donations & Payments Without Ticketing - Chobble Tickets
-meta_description: Use Chobble Tickets for fundraising, donations, raffle ticket sales, and general payment collection - not just event ticketing.
+meta_description: Use Chobble Tickets for fundraising, donations, raffle ticket sales, and general payment collection without an event to attend.
 permalink: /features/purchasable-events/
 eleventyNavigation:
   key: Purchasable Events
@@ -14,7 +14,7 @@ blocks:
     title: Purchasable events
     lead: >-
       Collect donations, sell raffle tickets, take membership dues, or run
-      any kind of payment collection - not just event ticketing.
+      any kind of payment collection without an event to attend.
 
   - type: markdown
     content: |
@@ -44,8 +44,8 @@ blocks:
       ## How it works
 
       When you mark an event as purchase-only, the public listing shows a
-      **Buy now** button instead of the usual **Book now** - a small but
-      important signal that no attendance is involved.
+      **Buy now** button instead of the usual **Book now**, signalling that
+      no attendance is involved.
 
       Everything else works exactly as normal: Stripe or Square processes
       the payment, the buyer gets an email confirmation, and all purchases
@@ -68,10 +68,10 @@ blocks:
 
       ## Still encrypted, still yours
 
-      Purchaser data - names, emails, any custom question answers - is
-      encrypted at rest the same as regular attendee data. No marketing
-      to your supporters, no cross-promotion, no platform taking a
-      percentage cut beyond the flat annual fee.
+      Purchaser data (names, emails, and any custom question answers) is
+      encrypted at rest the same as regular attendee data. There is no
+      marketing to your supporters, no cross-promotion, and no platform fee
+      beyond the flat annual subscription.
 
   - type: cta
     title: Start collecting payments

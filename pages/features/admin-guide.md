@@ -23,8 +23,9 @@ blocks:
       ## Documentation where you need it
 
       The admin guide is built right into your Chobble Tickets installation
-      at `/admin/guide`. There's no need to search external docs or
-      bookmarked wiki pages - help is one click away from any admin screen.
+      at `/admin/guide`. There is no need to search external docs or
+      bookmarked wiki pages, since help is one click away from any admin
+      screen.
 
       ## Covers every feature
 

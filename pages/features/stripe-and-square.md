@@ -32,14 +32,14 @@ blocks:
       community events, fundraisers, or any situation where you want to let
       people contribute what they can.
 
-      Free events are supported too - just set the price to zero and
-      attendees can register without entering payment details.
+      Free events are supported too. Set the price to zero and attendees
+      can register without entering payment details.
 
       ## Automatic refunds
 
       When you process a refund from the admin panel, the payment provider
-      refund happens automatically. There's no need to log into Stripe or
-      Square separately - it's all handled in one place.
+      refund happens automatically. There is no need to log into Stripe or
+      Square separately. The refund is handled in one place.
 
   - type: markdown
     content: |

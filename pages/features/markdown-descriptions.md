@@ -21,9 +21,8 @@ blocks:
       ## Simple formatting
 
       Use Markdown to format your event descriptions with headings, bold
-      text, links, lists, and more. There's no WYSIWYG editor to wrestle
-      with - just write your content and the platform renders it
-      beautifully on your event page.
+      text, links, lists, and more. There is no WYSIWYG editor. Write the
+      content as Markdown and the platform renders it on your event page.
 
       ## Header images
 

@@ -125,8 +125,8 @@ blocks:
 
       Money from ticket sales goes straight to your Stripe or Square account.
 
-      You can also self-host for free - it's open source with one-click
-      deploy to DigitalOcean, Heroku, Koyeb, and Render. Or use
+      You can also self-host for free. The source code is on GitHub, with
+      one-click deploy to DigitalOcean, Heroku, Koyeb, and Render. Or use
       [GitHub-controlled deployments](/features/open-source/) for extra
       security where you approve every update.
     figure_items:

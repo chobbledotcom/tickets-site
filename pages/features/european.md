@@ -162,9 +162,9 @@ blocks:
       requirements that the CLOUD Act does not.
 
       For most organisers this is background detail. For groups running
-      events that might attract official attention - political
-      organising, campaigns on contested issues, migrant and refugee
-      support, reproductive healthcare - it is a more immediate concern.
+      events that might attract official attention (political organising,
+      campaigns on contested issues, migrant and refugee support, and
+      reproductive healthcare) it is a more immediate concern.
 
   - type: markdown
     content: |

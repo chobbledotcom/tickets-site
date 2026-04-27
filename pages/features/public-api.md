@@ -21,9 +21,9 @@ blocks:
     content: |
       ## Build what you need
 
-      The public API gives you access to event listings, availability data, and
-      booking functionality. No API key required for public endpoints - just
-      make HTTP requests and get JSON back.
+      The public API gives you access to event listings, availability data,
+      and booking functionality. No API key is required for public endpoints.
+      Make HTTP requests and get JSON back.
 
       This means you can build your own event listing page on your existing
       website, create a custom booking flow, or pull event data into any system
@@ -33,8 +33,8 @@ blocks:
 
       Admins can create API keys to access private data and manage their
       site programmatically. The [admin API](/features/admin-api/) gives
-      you full CRUD control over events - create, update, list, delete,
-      and toggle active state - with attendee endpoints coming next.
+      you full CRUD control over events (create, update, list, delete, and
+      toggle active state), with attendee endpoints coming next.
 
       API keys are stored securely using HMAC hashing (the same approach
       used for passwords), so the raw key is never stored. See the
@@ -43,8 +43,8 @@ blocks:
       ## Embeddable widget
 
       If you don't want to build a custom integration, Chobble Tickets also
-      includes an embeddable iframe widget - just drop a snippet of HTML into
-      your website and your events appear inline.
+      includes an embeddable iframe widget. Drop a snippet of HTML into your
+      website and your events appear inline.
 
       Check the [embed documentation](https://chobbledotcom.github.io/tickets/docs/embed.ts)
       for widget setup, and the full

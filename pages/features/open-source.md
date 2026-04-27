@@ -39,10 +39,10 @@ blocks:
 
       ### 1. Managed hosting
 
-      [Sign up](https://tix.chobble.com/ticket/register) and we handle everything -
-      infrastructure, updates, backups, and support - for £50/year (50% off for
-      charities, community groups, artists, and musicians). No per-ticket fees,
-      unlimited events, unlimited tickets.
+      [Sign up](https://tix.chobble.com/ticket/register) and Chobble handles
+      everything (infrastructure, updates, backups, and support) for £50/year
+      (50% off for charities, community groups, artists, and musicians). No
+      per-ticket fees, unlimited events, unlimited tickets.
 
       ### 2. GitHub-controlled deployments
 
@@ -65,10 +65,11 @@ blocks:
       Unlike other self-hosted ticketing platforms that require you to set up
       and maintain a traditional server, Chobble Tickets compiles to a single
       JavaScript file that runs on [Bunny.net](https://bunny.net) edge scripts
-      with a Bunny.net edge database. There's no server to manage, no scaling
-      to worry about, and no database replication to configure - it's all
-      handled by the Bunny platform. This makes self-hosting Chobble Tickets
-      closer to deploying a static site than running a web application.
+      with a Bunny.net edge database. There is no server to manage, no scaling
+      to worry about, and no database replication to configure, since the
+      Bunny platform handles all of that. This makes self-hosting Chobble
+      Tickets closer to deploying a static site than running a web
+      application.
 
   - type: markdown
     content: |
