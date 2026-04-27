@@ -29,11 +29,10 @@ blocks:
       PTO Events, Clubs Hub, and Charity Hub services.
 
       Chobble Tickets is a general-purpose ticketing platform run as a
-      Community Interest Company. It focuses on doing core ticketing well -
-      with flat pricing, open source code, and encrypted attendee data - but
-      doesn't have PTA-specific features like prize draws or auctions,
-      though free events with custom questions can serve as volunteer
-      sign-up sheets.
+      Community Interest Company. It focuses on core ticketing (flat
+      pricing, open source code, and encrypted attendee data) and does not
+      include PTA-specific features like prize draws or auctions, though free
+      events with custom questions can serve as volunteer sign-up sheets.
 
       ## Pricing comparison
 
@@ -49,7 +48,7 @@ blocks:
         included at no extra cost.
 
       Both plans let you pass fees on to buyers, so the PTA itself may pay
-      nothing - though this means attendees pay more per ticket.
+      nothing, though this means attendees pay more per ticket.
 
       With Chobble Tickets, it's a flat £50/year (£25 for charities and
       community groups), with [no per-ticket fees](/features/no-per-ticket-fees/) or platform commission. You
@@ -105,8 +104,8 @@ blocks:
         reports to help claim back 25% from HMRC on eligible donations
         (the PTA is responsible for submitting claims to HMRC)
 
-      Chobble Tickets doesn't have any of these fundraising tools - it's
-      focused purely on event ticketing.
+      Chobble Tickets does not have any of these fundraising tools, since it
+      is focused purely on event ticketing.
 
       ### Volunteer management
 
@@ -136,8 +135,8 @@ blocks:
 
       ### Data and privacy
 
-      PTA Events is a proprietary platform - you can't inspect how your data
-      is stored or processed. Chobble Tickets is [open
+      PTA Events is a proprietary platform, so you cannot inspect how your
+      data is stored or processed. Chobble Tickets is [open
       source](/features/open-source/) and
       [encrypts](/features/encrypted/) all attendee data at rest using hybrid
       RSA-OAEP and AES-256-GCM encryption. You can inspect the code,
@@ -162,10 +161,10 @@ blocks:
 
       ## When PTA Events makes more sense
 
-      If your PTA needs the full fundraising toolkit - prize draws,
-      auctions, 100 clubs, advanced volunteer task management, merchandise
-      sales, Gift Aid collection, and parent communications - then PTA Events is
-      purpose-built for that. It's designed specifically for the school
+      If your PTA needs the full fundraising toolkit (prize draws, auctions,
+      100 clubs, advanced volunteer task management, merchandise sales, Gift
+      Aid collection, and parent communications), PTA Events is purpose-built
+      for that. It's designed specifically for the school
       fundraising context and its features reflect years of feedback from
       PTAs. The ability to pass platform fees to buyers means the PTA's
       direct costs can be kept low.
@@ -180,8 +179,8 @@ blocks:
       and doesn't need auctions, raffles, or advanced volunteer task
       management, Chobble Tickets is simpler and cheaper. At
       £25/year for community groups with no per-ticket fees, the savings
-      add up quickly - especially for popular events
-      where percentage fees eat into your fundraising total.
+      add up quickly, especially for popular events where percentage fees
+      eat into your fundraising total.
 
       It's also a better fit if you care about data privacy and encryption,
       want to use your own domain, need API integrations or webhook
@@ -198,13 +197,13 @@ blocks:
       was incorporated in 2015 and is based in Bedford. It was founded by
       David Cooke, who built the platform in 2013 for his children's school
       PTA. The company is owned by David Cooke, Geraldine Cooke, and James
-      Stonor - all individuals, with no corporate shareholders.
+      Stonor, all individuals, with no corporate shareholders.
 
       PTA Events is an independently owned private limited company.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.

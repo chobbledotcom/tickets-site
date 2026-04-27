@@ -29,9 +29,9 @@ blocks:
       that need a fee.
 
       Chobble Tickets is an event ticketing platform. It is designed for
-      events with a fixed date and capacity - workshops, gigs, club
-      nights, charity dinners, kids' parties - where attendees buy a
-      ticket, get a QR code, and scan in at the door.
+      events with a fixed date and capacity (workshops, gigs, club nights,
+      charity dinners, and kids' parties) where attendees buy a ticket, get
+      a QR code, and scan in at the door.
 
       The two platforms overlap when you need to charge people to book a
       time. If your "event" is a 30-minute slot in your calendar, Cal.com
@@ -56,8 +56,8 @@ blocks:
 
       This is one view. The more common response among open source
       projects to AI-assisted vulnerability scanning has been to invite
-      more scrutiny rather than less - publish more tests, accept more
-      reports, fix issues faster. Closing the code does not make
+      more scrutiny rather than less, by publishing more tests, accepting
+      more reports, and fixing issues faster. Closing the code does not make
       vulnerabilities go away; it makes them harder for defenders to
       find and fix.
 
@@ -280,7 +280,7 @@ blocks:
       your admin password. The data is decrypted only when you log in
       and view it. A database dump on its own is not enough to read
       attendee data, and a database dump combined with the server's
-      environment encryption key is still not enough - an attacker
+      environment encryption key is still not enough, since an attacker
       would also need your password. Chobble staff cannot read your
       attendee data, even on managed hosting. The full code is public,
       so you can verify how the encryption works.
@@ -364,9 +364,9 @@ blocks:
 
       **Community Interest Company asset lock.** Chobble is a UK
       Community Interest Company. The software is owned by the company,
-      not by any individual. A CIC has an "asset lock" - the company's
-      assets, including the source code, cannot be transferred to a
-      private owner. They can only be transferred to another
+      not by any individual. A CIC has an "asset lock", meaning the
+      company's assets, including the source code, cannot be transferred to
+      a private owner. They can only be transferred to another
       asset-locked body, such as another CIC or a registered charity.
 
       **AGPLv3 with no premium tiers.** Every line of code that runs
@@ -377,8 +377,8 @@ blocks:
       licence.
 
       **Reinvested profits.** A CIC must reinvest its profits in its
-      stated mission - building software for small organisations and
-      independent groups - after paying its workers a reasonable wage.
+      stated mission (building software for small organisations and
+      independent groups) after paying its workers a reasonable wage.
       There are no shareholders to pay dividends to, because the
       structure does not allow them.
 
