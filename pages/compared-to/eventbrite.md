@@ -46,7 +46,7 @@ blocks:
       ## Feature comparison
 
       Eventbrite is a massive platform with features Chobble Tickets doesn't
-      have, and vice versa. Here's an honest breakdown:
+      have, and vice versa. Here's the breakdown:
 
       **Both sites share some features:**
 
@@ -189,13 +189,13 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain - either way, not eventbrite.co.uk
+        domain. Eventbrite events run on eventbrite.co.uk by default.
       - **No marketing to your attendees** - your audience stays yours,
         with no cross-promotion of competing events
-      - **Community Interest Company** - run by a CIC, not a company
-        owned by a private equity firm
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
       ## Data ownership
 

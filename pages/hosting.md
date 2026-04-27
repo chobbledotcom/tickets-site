@@ -29,6 +29,11 @@ blocks:
       serves the organisers they know personally. No single point of control, no
       single company that can change the rules for everyone.
 
+      Decentralisation is the design goal. Any alternative to Eventbrite that
+      runs on a single company's servers becomes another centralised platform.
+      Chobble Tickets only counts as an alternative if many people run their
+      own independent copies.
+
   - type: markdown
     dark: true
     content: |
