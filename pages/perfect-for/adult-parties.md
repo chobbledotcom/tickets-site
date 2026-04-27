@@ -26,8 +26,8 @@ blocks:
 
       On a commercial ticketing platform, that data sits in plain text on
       someone else's servers. Platform staff and contractors can access it.
-      A data breach would expose not just names and emails but a record of
-      which events each person attended.
+      A data breach would expose names, emails, and a record of which
+      events each person attended.
 
       Chobble Tickets encrypts all personally identifiable information at rest
       using
@@ -46,8 +46,8 @@ blocks:
     title: What happens on commercial platforms
     content: |
       Commercial ticketing platforms make money by connecting attendees with
-      more events. That means your attendees' data is an asset to the platform,
-      not just a record of a transaction.
+      more events. The platform treats your attendees' data as a marketing
+      asset.
 
       On Eventbrite, attendees who buy a ticket to your event will see
       recommendations for "similar events" and receive marketing emails based
