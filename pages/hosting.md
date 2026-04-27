@@ -14,7 +14,7 @@ blocks:
     lead: >-
       Chobble Tickets is designed so that anyone with some technical knowledge
       can run it for the event organisers they know. More hosts means a
-      genuinely decentralised alternative to the big ticketing platforms.
+      decentralised alternative to the big ticketing platforms.
 
   - type: markdown
     content: |
@@ -28,10 +28,6 @@ blocks:
       is built so that many different people can run it independently. Each host
       serves the organisers they know personally. No single point of control, no
       single company that can change the rules for everyone.
-
-      This is not an accident of the design. It is the design. A real
-      alternative to Eventbrite and the rest cannot be another centralised
-      platform. It has to be software that many people run.
 
   - type: markdown
     dark: true

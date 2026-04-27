@@ -62,7 +62,7 @@ blocks:
         description: Send confirmations through your choice of Resend, Postmark, SendGrid, or Mailgun.
       - icon: "hugeicons:globe-02"
         title: Self-Hostable
-        description: Run it on your own infrastructure or let us host it for you - either way, you're in control.
+        description: Run Chobble Tickets on your own servers, or use the £50/year managed hosting at tix.chobble.com.
 
   - type: markdown
     dark: true
@@ -98,7 +98,7 @@ blocks:
       - **[Music Concerts](/perfect-for/music-concerts/)** - Sell tickets directly, keep all the revenue
       - **[Charity Events](/perfect-for/charity-events/)** - 50% discount for charities and community groups
       - **[Political Organising](/perfect-for/political-organising/)** - Privacy-first event management
-    right_title: Powerful features
+    right_title: Features
     right_content: |
       - **[Open Source](/features/open-source/)** - AGPLv3, no hidden proprietary bits
       - **[Encrypted](/features/encrypted/)** - PII encrypted at rest
@@ -106,7 +106,7 @@ blocks:
       - **[Public & Admin API](/features/public-api/)** - Build your own integrations
       - **[Webhooks](/features/webhooks/)** - Get notified on every booking
       - **[Custom Domain](/features/custom-domain/)** - Nice URL from day one, own domain when ready
-      - **[Apple & Google Wallet](/features/apple-wallet/)** - Tickets in your pocket
+      - **[Apple & Google Wallet](/features/apple-wallet/)** - Add tickets to Apple Wallet and Google Wallet
       - **[Custom Questions](/features/custom-questions/)** - Collect answers at checkout
       - **[Event Groups](/features/groups/)** - Multi-event bookings, single checkout
       - **[Email Templates](/features/email-providers/)** - Customise confirmations with Liquid syntax
@@ -123,8 +123,7 @@ blocks:
 
       **50% discount** for charities, community groups, artists, and musicians.
 
-      Money from ticket sales goes straight to your Stripe or Square account
-      and we never touch your revenue.
+      Money from ticket sales goes straight to your Stripe or Square account.
 
       You can also self-host for free - it's open source with one-click
       deploy to DigitalOcean, Heroku, Koyeb, and Render. Or use
@@ -134,9 +133,9 @@ blocks:
       - icon: "hugeicons:money-receive-square"
         text: "£50/year"
       - icon: "hugeicons:ticket-01"
-        text: "Unlimited events. Unlimited tickets."
+        text: "Unlimited events and tickets"
       - icon: "hugeicons:credit-card"
-        text: "No commission. No hidden fees."
+        text: "No commission, no per-ticket fees"
 
   - type: cta
     title: Get started
