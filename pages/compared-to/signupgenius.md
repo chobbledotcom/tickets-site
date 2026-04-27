@@ -54,8 +54,8 @@ blocks:
       sell, with [no per-ticket platform fees](/features/no-per-ticket-fees/). You pay Stripe's processing
       fees (1.5% + 20p in the UK) separately.
 
-      For the comparison below, we use SignUpGenius Tickets pricing ($0.25
-      per ticket, approx. 20p, plus Stripe processing).
+      The comparison below uses SignUpGenius Tickets pricing ($0.25 per
+      ticket, approx. 20p, plus Stripe processing).
 
   - type: include
     file: price-comparator.html
@@ -66,8 +66,8 @@ blocks:
 
       SignUpGenius is a group coordination platform that added ticketing.
       Chobble Tickets is a ticketing platform from the ground up. They
-      overlap in some areas but serve fundamentally different needs, so
-      Here is an honest breakdown:
+      overlap in some areas but serve fundamentally different needs. Here
+      is the breakdown:
 
       **Both platforms share some features:**
 
@@ -226,8 +226,8 @@ blocks:
       ## When SignUpGenius might be the better choice
 
       - You need advanced volunteer coordination with slot swapping, task
-        assignments, and automatic slot filling - this is what SignUpGenius
-        was built for and it's genuinely excellent at it
+        assignments, and automatic slot filling, which is what SignUpGenius
+        was built for
       - You want RSVP-style responses (yes/no/maybe) rather than ticket
         sales
       - You need slot swapping so participants can trade shifts without

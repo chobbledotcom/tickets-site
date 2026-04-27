@@ -61,8 +61,8 @@ blocks:
 
       DICE is built around its mobile app - tickets live in the app as a QR
       code tied to your phone number. This is how their anti-scalping system
-      works: tickets can't easily be screenshotted and resold because they're
-      locked to the app. If you can't use the app, DICE does offer limited web
+      works: tickets are locked to the app, so they cannot be screenshotted
+      and resold. If you can't use the app, DICE does offer limited web
       access as a fallback, but the app is very much the main event.
 
       Chobble Tickets works in any browser on any device. Attendees get their
@@ -95,8 +95,8 @@ blocks:
         recommendations based on fans' listening history, plus the option
         to buy tickets through Spotify
       - **Anti-scalping via app lock** - tickets are tied to the DICE app
-        and can't easily be screenshotted or forwarded, making them very
-        hard to resell on secondary markets
+        and cannot be screenshotted or forwarded, making them very hard to
+        resell on secondary markets
       - **Waiting list with face-value resale** - fans can join a waitlist
         for sold-out events, and if a ticket holder can't attend, DICE
         automatically resells their ticket at the original price

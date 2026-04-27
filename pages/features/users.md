@@ -46,8 +46,8 @@ blocks:
       for details on session management and user settings.
 
   - type: cta
-    title: Collaborate easily
-    description: Invite your team and start managing events together.
+    title: Manage events as a team
+    description: Invite volunteers and committee members so everyone can manage events without sharing a single login.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register

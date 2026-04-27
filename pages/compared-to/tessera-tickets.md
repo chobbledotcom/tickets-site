@@ -58,7 +58,7 @@ blocks:
       shows, with assigned seating, a box office, and on-site merchandise
       sales. Chobble Tickets is built for organisers who want a flat-rate
       platform without the box-office hardware and venue-management
-      features. Here is an honest breakdown:
+      features. Here is the breakdown:
 
       **Both platforms share some features:**
 

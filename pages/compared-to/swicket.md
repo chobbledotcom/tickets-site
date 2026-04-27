@@ -41,7 +41,7 @@ blocks:
       [Spring I/O](https://reg.springio.net)), medical congresses, and
       association meetings.
 
-      So there are really two comparisons here: **Chobble Tickets vs alf.io
+      So there are two comparisons here: **Chobble Tickets vs alf.io
       self-hosted**, and **Chobble Tickets vs Swicket managed**.
 
       ## Pricing comparison

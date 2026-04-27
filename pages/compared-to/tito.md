@@ -44,8 +44,8 @@ blocks:
       ## Feature comparison
 
       Tito is a polished, developer-friendly platform with a strong reputation
-      in the tech conference world. Both platforms take different approaches,
-      so here's an honest breakdown:
+      in the tech conference world. Both platforms take different approaches.
+      Here's the breakdown:
 
       **Both platforms share some features:**
 

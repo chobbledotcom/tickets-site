@@ -49,7 +49,7 @@ blocks:
       - **Third-party add-ons** - third-party add-ons can add features like
         response limits, email notifications, and more
       - **Templates** - start from pre-built templates for common use cases
-      - **Embedded anywhere** - easily embed in any website
+      - **Embedded anywhere** - embed in any website with an iframe snippet
 
       ## What Google Forms doesn't do
 

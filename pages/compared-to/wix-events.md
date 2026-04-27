@@ -43,7 +43,7 @@ blocks:
 
       Wix Events is tightly integrated into the Wix website builder,
       which gives it some advantages if you're already a Wix user - but also
-      means it's locked into that platform. Here is an honest breakdown:
+      means it's locked into that platform. Here is the breakdown:
 
       **Both platforms share some features:**
 

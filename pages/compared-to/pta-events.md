@@ -14,7 +14,8 @@ blocks:
     title: Chobble Tickets vs PTA Events
     lead: >-
       PTA Events is a popular platform built specifically for PTAs and school
-      fundraising. Here's an honest look at how Chobble Tickets compares.
+      fundraising. This page compares Chobble Tickets against it on pricing,
+      features, and data ownership.
 
   - type: markdown
     content: |
@@ -92,7 +93,7 @@ blocks:
 
       ### Fundraising tools
 
-      This is where PTA Events really shines for PTAs. It includes:
+      This is where PTA Events focuses its feature set. It includes:
 
       - **Prize draws and raffles** with automatic random winner allocation,
         ticket bundles, and prize listings

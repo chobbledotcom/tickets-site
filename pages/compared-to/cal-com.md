@@ -129,9 +129,8 @@ blocks:
       size.
 
       For a community group running events with a fixed date and
-      capacity, Cal.com is not really designed for the job. You would
-      end up creating one event type per event date, which gets messy
-      quickly.
+      capacity, Cal.com is not designed for the job. You would end up
+      creating one event type per event date, which gets messy quickly.
 
   - type: markdown
     content: |
@@ -165,7 +164,7 @@ blocks:
       Cal.com is a scheduling platform with payment support. Chobble
       Tickets is a ticketing platform. They share some basics but the
       core jobs are different, so a feature-by-feature comparison only
-      goes so far. Here is an honest breakdown:
+      goes so far. Here is the breakdown:
 
       **Both platforms share some features:**
 

@@ -34,9 +34,8 @@ blocks:
       you sell, with [no per-ticket platform fees](/features/no-per-ticket-fees/). You pay Stripe's
       processing fees (1.5% + 20p in the UK) separately.
 
-      For the price comparison below, we use the Team plan ($420/year,
-      approx. £335) since that's what's required for ticketing with QR
-      codes.
+      The price comparison below uses the Team plan ($420/year, approx.
+      £335) since that's what's required for ticketing with QR codes.
 
   - type: include
     file: price-comparator.html
@@ -48,7 +47,7 @@ blocks:
       Cheddar Up is a general-purpose payment collection platform that
       added ticketing in 2023. Chobble Tickets is a purpose-built
       ticketing platform. Both serve community groups but take different
-      approaches. Here is an honest breakdown:
+      approaches. Here is the breakdown:
 
       **Both platforms share some features:**
 

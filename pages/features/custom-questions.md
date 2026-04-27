@@ -20,9 +20,9 @@ blocks:
     content: |
       ## Collect what you need to know
 
-      Sometimes you need more than just a name and email. Custom questions let
-      you add multiple-choice questions to any event, so attendees answer them
-      during the booking process.
+      Custom questions let you collect additional information beyond name and
+      email at checkout. You add multiple-choice questions to any event, and
+      attendees answer them during the booking process.
 
       Admins create questions with a set of answer options, then assign them to
       one or more events. For multi-event group bookings, questions are

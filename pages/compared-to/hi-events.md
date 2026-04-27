@@ -5,7 +5,7 @@ selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: hi_events_selfhosted
 title: Chobble Tickets vs Hi.Events
 meta_title: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared
-meta_description: Comparing two open source ticketing platforms - Chobble Tickets and Hi.Events. An honest look at pricing, features, philosophy, and which is better for your events.
+meta_description: Comparing two open source ticketing platforms - Chobble Tickets and Hi.Events - on pricing, features, philosophy, and which is better for your events.
 permalink: /compared-to/hi-events/
 eleventyNavigation:
   key: vs Hi.Events
@@ -23,13 +23,12 @@ blocks:
     content: |
       ## Two open source options
 
-      It's rare to have two genuinely open source ticketing platforms to choose
-      from, so let's be upfront: [Hi.Events](https://hi.events) is a solid project. It's got 3,600+
-      GitHub stars, 35+ contributors, and a modern React/Laravel stack. If you're
-      looking for open source ticketing, both platforms deserve your attention.
+      [Hi.Events](https://hi.events) is another open source ticketing
+      platform, with 3,600+ GitHub stars, 35+ contributors, and a React and
+      Laravel stack.
 
-      This page is an honest comparison to help you decide which fits your needs
-      better.
+      This page compares the two platforms to help you decide which fits your
+      needs.
 
       ## Pricing comparison
 

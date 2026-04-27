@@ -52,7 +52,7 @@ blocks:
       ## Feature comparison
 
       Ticket Tailor has been running since 2010 and has a broader feature
-      set than Chobble Tickets in several areas. Here's an honest breakdown:
+      set than Chobble Tickets in several areas. Here's the breakdown:
 
       **Both platforms share some features:**
 
