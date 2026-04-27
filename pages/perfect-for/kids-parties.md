@@ -40,7 +40,7 @@ blocks:
     items:
       - icon: "hugeicons:user-list"
         title: Configurable contact fields
-        description: Choose which contact details to collect - email, phone, postal address - plus a special instructions field for dietary needs or allergies.
+        description: Choose which contact details to collect (email, phone, and postal address) plus a special instructions field for dietary needs or allergies.
       - icon: "hugeicons:money-receive-square"
         title: Free or paid events
         description: If you're running a free party you can skip payment setup entirely, and if you're charging a fee the money goes straight to your account.
@@ -59,7 +59,7 @@ blocks:
 
   - type: cta
     title: Set up your party
-    description: Get started with Chobble Tickets - managed hosting is £50/year with unlimited events.
+    description: Get started with Chobble Tickets. Managed hosting is £50/year with unlimited events.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register

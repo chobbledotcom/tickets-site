@@ -27,8 +27,8 @@ blocks:
       organisations that want control over their ticketing.
 
       If you're selling tickets at the MCG or Qudos Bank Arena, Ticketek is
-      probably unavoidable - many large venues are contractually locked to
-      them. But if you're running a 200-capacity gig, a charity trivia night,
+      probably unavoidable, since many large venues are contractually locked
+      to them. But if you're running a 200-capacity gig, a charity trivia night,
       or a community workshop, you don't need (or want) Ticketek.
 
       ## Fees and pricing
@@ -42,8 +42,8 @@ blocks:
 
       Chobble Tickets charges a flat £50/year (approximately AU$95) with
       [no per-ticket fees](/features/no-per-ticket-fees/). Payment processing
-      fees from Stripe or Square are the only other cost - which go directly
-      to the payment processor, not to us.
+      fees from Stripe or Square are the only other cost, and they go
+      directly to the payment processor.
 
   - type: include
     file: price-comparator.html
@@ -145,21 +145,21 @@ blocks:
         domain, not the platform's
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         host-provided subdomain instantly, or point your own domain
       - **Apple Pay and Google Pay** - accept wallet payments at checkout
         via Stripe
       - **Transparent pricing** - no hidden fees, no negotiations, no drip
         pricing
-      - **Community Interest Company** - run by a CIC, not a private equity
-        portfolio company
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
       ## Data ownership and security
 
       In May 2024, Ticketek suffered a
       [major data breach](https://ia.acs.org.au/article/2024/30m-users--data-leaked-after-ticketek-breach.html)
-      that exposed the personal information of up to 30 million users -
-      including names, dates of birth, and email addresses - through a
+      that exposed the personal information of up to 30 million users
+      (including names, dates of birth, and email addresses) through a
       compromised third-party cloud platform. The stolen database was listed
       for sale on a cybercrime forum.
 
@@ -204,8 +204,8 @@ blocks:
       TEG (Ticketek Entertainment Group).
 
       In 2019, US-based private equity firm
-      [Silver Lake](https://www.silverlake.com) - which specialises in
-      technology investing - acquired TEG for a reported A$1.3 billion.
+      [Silver Lake](https://www.silverlake.com), which specialises in
+      technology investing, acquired TEG for a reported A$1.3 billion.
       TEG's empire now spans ticketing, live entertainment, data analytics,
       and venue operations across Australia, New Zealand, Southeast Asia,
       and the UK, including brands like TEG Live, TEG Dainty, Qudos Bank
@@ -221,7 +221,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
@@ -230,7 +230,7 @@ blocks:
     content: |
       ## Pricing sources
 
-      Ticketek does not publish a standard public fee schedule - fees vary
+      Ticketek does not publish a standard public fee schedule. Fees vary
       by event, venue, and contract. The pricing estimates used on this page
       are based on publicly reported figures. Check the links below for the
       latest information.

@@ -22,7 +22,7 @@ blocks:
 
       When you sign up for managed hosting, you can choose a
       host-provided subdomain like **yourname.tix.chobble.net** straight
-      away - no DNS changes needed. It's a permanent, readable URL that
+      away, with no DNS changes needed. It's a permanent, readable URL that
       replaces the default Bunny CDN address, so you can start sharing
       your ticketing site immediately.
 

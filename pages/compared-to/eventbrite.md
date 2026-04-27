@@ -46,7 +46,7 @@ blocks:
       ## Feature comparison
 
       Eventbrite is a massive platform with features Chobble Tickets doesn't
-      have, and vice versa. Here's an honest breakdown:
+      have, and vice versa. Here's the breakdown:
 
       **Both sites share some features:**
 
@@ -61,7 +61,7 @@ blocks:
       - API access for custom integrations
       - Custom questions on the registration form
       - Event grouping into collections for multi-event bookings
-      - Multiple ticket types per event - use event groups with shared
+      - Multiple ticket types per event: use event groups with shared
         capacity limits to create VIP, general admission, early bird, and
         other tiers with different prices
 
@@ -152,7 +152,7 @@ blocks:
         attendee data is encrypted with a key derived from your admin
         password using hybrid RSA-OAEP + AES-256-GCM. A database dump
         and the server's environment encryption key together are still
-        not enough to decrypt attendee data - an attacker would also
+        not enough to decrypt attendee data, since an attacker would also
         need your password. If you forget it, the data is permanently
         unrecoverable.
       - **[Open source](/features/open-source/)** - every line of code is
@@ -189,13 +189,13 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain - either way, not eventbrite.co.uk
+        domain. Eventbrite events run on eventbrite.co.uk by default.
       - **No marketing to your attendees** - your audience stays yours,
         with no cross-promotion of competing events
-      - **Community Interest Company** - run by a CIC, not a company
-        owned by a private equity firm
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
       ## Data ownership
 
@@ -258,7 +258,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [Eventbrite pricing for organisers](https://www.eventbrite.co.uk/organizer/pricing/) - 6.95% + £0.59 per ticket (UK)
       - [Eventbrite ticketing fees (Help Centre)](https://www.eventbrite.co.uk/help/en-gb/articles/755615/how-much-does-it-cost-for-organizers-to-use-eventbrite/)

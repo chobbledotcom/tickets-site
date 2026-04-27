@@ -268,22 +268,140 @@ condescending. It means:
 
 ### Tone
 
-Write neutral, factual statements. Do not:
+Write like Wikipedia. Neutral, factual, third-person. The facts make the
+argument; the prose stays out of the way. Every sentence should be one a
+disinterested encyclopaedist could have written.
 
-- Use exclamation marks
-- Use rhetorical questions ("Ready to take control?")
-- Make emotional appeals
-- Use superlatives ("the best", "the most powerful", "unlike anyone else")
-- Use filler words ("simply", "just", "of course", "easily")
-- Use three-word punchy slogans
-- Use alliteration for effect
-- Use em dashes (—). Rewrite the sentence instead. A comma, full stop,
-  or pair of brackets almost always works better. Hyphens (-) for
-  compound words are fine; en dashes (–) for number ranges are fine.
-- Use strings of short punchy sentences as a substitute for prose ("Pay
-  a flat annual fee. No per-ticket charges. Attendee data stays with
-  you.") - this pattern feels like a sales pitch. Write in complete
-  sentences instead.
+#### Voice and point of view
+
+Refer to the product as "Chobble Tickets" and to the company as "Chobble".
+Do not use "we", "our", or "us". The site speaks about Chobble, not from
+inside it.
+
+"You" and "your" are fine when addressing the reader (the event organiser).
+They are the most direct way to describe what the reader can do.
+
+**Bad:** "We don't collect attendee data. Our income comes from the annual fee
+you pay."
+**Good:** "Chobble does not collect attendee data. Its income comes from the
+annual fee organisers pay."
+
+**Bad:** "We believe in giving you full control."
+**Good:** "You can run Chobble Tickets on your own servers."
+
+#### Things to never do
+
+- Exclamation marks
+- Rhetorical questions ("Ready to take control?")
+- Emotional appeals
+- Superlatives ("the best", "the most powerful", "unlike anyone else")
+- Filler words ("simply", "just", "of course", "easily")
+- Three-word punchy slogans
+- Alliteration for effect
+- Em dashes (—). Rewrite the sentence. A comma, full stop, or pair of
+  brackets almost always works better. Hyphens (-) for compound words are
+  fine; en dashes (–) for number ranges are fine.
+- Strings of short punchy sentences as a substitute for prose ("Pay a flat
+  annual fee. No per-ticket charges. Attendee data stays with you."). This
+  pattern feels like a sales pitch. Write in complete sentences.
+
+#### Banned rhetorical patterns
+
+These patterns sound like marketing copy, not encyclopaedic prose. Avoid them
+all, including subtle variations.
+
+**"Not just X, it's Y" and contrast-flips.** Any sentence that sets up
+something to knock it down is rhetorical, not factual. This includes
+"It's not about X, it's about Y", "more than just a Z", and "not another W".
+
+**Bad:** "Chobble Tickets isn't just a ticketing platform, it's a way to take
+back control of your data."
+**Bad:** "It's not about features. It's about freedom."
+**Bad:** "More than just ticketing software."
+**Good:** "Chobble Tickets is ticketing software. Organisers keep all attendee
+data on infrastructure they control."
+
+**Hypotheticals and "imagine" framing.** Do not invite the reader into a
+daydream. State what is true now. This includes "imagine if", "picture this",
+"what if", and second-person hypotheticals about the reader's life.
+
+**Bad:** "Imagine running an event without losing 30% to fees."
+**Bad:** "Picture an event platform where you actually own your data."
+**Bad:** "What if your ticketing platform worked for you, not against you?"
+**Good:** "Chobble Tickets charges a flat annual fee. There is no per-ticket
+commission."
+
+**First-person mission and belief statements.** Beliefs, missions, values, and
+"what we stand for" are vague and unverifiable. They also re-introduce the "we"
+voice, which is banned. Replace with the structural fact behind the belief.
+
+**Bad:** "We believe event organisers deserve better."
+**Bad:** "Our mission is to put control back in the hands of organisers."
+**Bad:** "We're passionate about open source."
+**Bad:** "We stand for data ownership."
+**Good:** "Chobble Tickets is a community interest company. Profit cannot be
+extracted by shareholders."
+**Good:** "All Chobble Tickets source code is published under the AGPL-3.0
+licence."
+
+**Vague time and era framing.** "Today's world", "in 2026", "modern
+organisers", "the future of ticketing", "the next generation of" are filler.
+Cut them.
+
+**Bad:** "In today's world, event organisers need a platform they can trust."
+**Bad:** "The future of ticketing is open source."
+**Bad:** "Modern event organisers expect more."
+**Good:** "Chobble Tickets is open source. Organisers can read the source
+code, fork it, or run their own copy."
+
+#### Abstract product adjectives
+
+Words like "powerful", "flexible", "comprehensive", "streamlined",
+"effortless", "reliable", "scalable", "intuitive", "smart", and "advanced" are
+claims, not facts. They are also interchangeable across every product on the
+internet, which is why they carry no information.
+
+Use them only when the next sentence (or the same sentence) gives the concrete
+fact that backs them up. Without backup, cut the adjective entirely.
+
+**Bad:** "A powerful ticketing platform."
+**Bad:** "Flexible event setup."
+**Bad:** "Comprehensive reporting."
+**Good:** "Chobble Tickets supports timed entry, multi-day events, donations,
+and pay-what-you-want pricing."
+**Good:** "Each event can have up to 50 ticket types. Each type has its own
+price, capacity, and sale window."
+**Good:** "Reporting covers tickets sold, revenue by ticket type, attendance
+on the day, and refunds. All reports can be exported as CSV."
+
+#### Calls to action and button labels
+
+CTAs describe the action the reader is about to take. They do not promise an
+emotional reward, invite the reader to "join" anything, or imply a journey.
+
+**Use:** "Get started", "Sign up", "See pricing", "Read the docs", "Book a
+demo", "Contact us", "Compare plans", "Try the demo", "View the source code".
+
+**Do not use:** "Take control", "Join the movement", "Start your journey",
+"Reclaim your data", "Make the switch", "Be part of something", "Get the
+platform you deserve", "Free your tickets", "Get started in seconds", "Begin
+your adventure".
+
+If a button or link needs more than three or four words, the surrounding
+prose is doing the wrong job. Fix the prose, not the label.
+
+#### Paragraph length and repetition
+
+Paragraphs are at most three sentences. If a paragraph runs longer, split it
+or cut it.
+
+Each paragraph must introduce a new fact. Do not restate the previous
+paragraph in different words. Do not write a summary paragraph at the end of
+a section that recaps what the section already said.
+
+If a page can be cut in half without losing any fact, cut it in half.
+
+#### General principle
 
 State what is true. Let the facts make the argument.
 
@@ -291,13 +409,15 @@ State what is true. Let the facts make the argument.
 **Good:** "Open source event ticketing with no per-ticket fees"
 
 **Bad:** "Keep your data, your revenue, and your sanity"
-**Good:** "Your attendee data stays with you"
+**Good:** "Attendee data stays on infrastructure organisers control, and
+Chobble Tickets does not take a percentage of ticket revenue."
 
 **Bad:** "Ready to sell tickets?"
 **Good:** "Get started" or "Sign up"
 
 **Bad:** "A platform that respects your customers"
-**Good:** "Attendee data is encrypted and only you can read it"
+**Good:** "Attendee data is encrypted. Only the organiser's private key can
+decrypt it."
 
 ---
 
@@ -321,8 +441,8 @@ market other events to them"
 When explaining why Chobble works differently, give the structural reason:
 
 **Bad:** "We have no interest in your data"
-**Good:** "We don't collect attendee data. Our income comes from the annual fee
-you pay, not from advertising or data sales."
+**Good:** "Chobble does not collect attendee data. Its income comes from the
+annual fee organisers pay, not from advertising or data sales."
 
 The structural facts are:
 - Chobble is funded by flat annual fees

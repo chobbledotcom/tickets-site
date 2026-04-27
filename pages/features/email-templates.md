@@ -34,8 +34,9 @@ blocks:
 
       ## Works with your email provider
 
-      Templates work with whichever [email provider](/features/email-providers/)
-      you've configured - Resend, Postmark, SendGrid, or Mailgun. The
+      Templates work with whichever
+      [email provider](/features/email-providers/) you have configured
+      (Resend, Postmark, SendGrid, or Mailgun). The
       template is rendered before sending, so the provider just delivers
       the final HTML.
 

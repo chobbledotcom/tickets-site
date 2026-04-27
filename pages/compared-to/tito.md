@@ -32,9 +32,9 @@ blocks:
 
       Chobble Tickets is a flat £50/year with [no per-ticket fees](/features/no-per-ticket-fees/),
       so the maths is simple: if you sell more than a few dozen tickets
-      a year, Chobble Tickets is cheaper. With Tito, your costs scale linearly
-      with revenue - a £15 ticket costs you 45p in Tito fees alone, and that
-      adds up quickly at volume.
+      a year, Chobble Tickets is cheaper. With Tito, your costs scale
+      linearly with revenue. A £15 ticket costs you 45p in Tito fees alone,
+      and that adds up quickly at volume.
 
   - type: include
     file: price-comparator.html
@@ -44,8 +44,8 @@ blocks:
       ## Feature comparison
 
       Tito is a polished, developer-friendly platform with a strong reputation
-      in the tech conference world. Both platforms take different approaches,
-      so here's an honest breakdown:
+      in the tech conference world. Both platforms take different approaches.
+      Here's the breakdown:
 
       **Both platforms share some features:**
 
@@ -99,7 +99,7 @@ blocks:
         attendee data is encrypted with a key derived from your admin
         password using hybrid RSA-OAEP + AES-256-GCM. A database dump
         and the server's environment encryption key together are still
-        not enough to decrypt attendee data - an attacker would also
+        not enough to decrypt attendee data, since an attacker would also
         need your password. If you forget it, the data is permanently
         unrecoverable.
       - **[Open source](/features/open-source/)** - every line of code is
@@ -129,18 +129,18 @@ blocks:
         fully white-label experience
       - **[Admin API](/features/admin-api/)** - authenticated API with
         API keys for full event CRUD and reading private data
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain - either way, not ti.to
+        domain
       - **No marketing to your attendees** - your audience stays yours,
         with no cross-promotion of competing events
-      - **Community Interest Company** - run by a CIC, not a for-profit
-        company
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
       ## Data ownership
 
-      Tito is a proprietary platform - your event data lives on their servers,
-      and you depend on their continued operation. While Tito has a good
+      Tito is a proprietary platform. Your event data lives on their
+      servers, and you depend on their continued operation. While Tito has a good
       reputation and offers comprehensive API access and CSV exports, your
       ticketing setup is tied to their platform.
 
@@ -196,7 +196,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
@@ -206,7 +206,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [Tito pricing](https://ti.to/pricing) - 3% per ticket, capped at €25 per ticket (reduced rates for non-profits and charities)
       - [Tito features](https://ti.to/features) - full feature list

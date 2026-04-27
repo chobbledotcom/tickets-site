@@ -9,4 +9,4 @@ permalink: /bunnycdn_errors/404.html
 
 ## Page not found
 
-Whoops! It looks like you followed an invalid link - **[click here to go back to the homepage](/)**.
+This link is no longer valid. **[Go back to the homepage](/)**.

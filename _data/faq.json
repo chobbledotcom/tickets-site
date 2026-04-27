@@ -47,7 +47,7 @@
 	{
 		"section": "Data privacy and security",
 		"question": "Does Chobble market to my attendees?",
-		"answer": "No. Chobble does not collect attendee data, build audience profiles, or send marketing emails to your attendees. Attendees do not need a Chobble account, are not prompted to download an app, and are not added to any mailing list. Many ticketing platforms encourage attendees to follow other events on the platform, and attendees receive emails about other organisers' events. Chobble does not do this. You are getting ticketing software, not a marketplace. Read more on the <a href=\"/features/no-spying/\">no spying</a> page."
+		"answer": "No. Chobble does not collect attendee data, build audience profiles, or send marketing emails to your attendees. Attendees do not need a Chobble account, are not prompted to download an app, and are not added to any mailing list. Many ticketing platforms encourage attendees to follow other events on the platform, and attendees receive emails about other organisers' events. Chobble does not do this. Read more on the <a href=\"/features/no-spying/\">no spying</a> page."
 	},
 	{
 		"section": "Data privacy and security",
@@ -72,7 +72,7 @@
 	{
 		"section": "Open source and self-hosting",
 		"question": "Why is Chobble Tickets open source?",
-		"answer": "One of <a href=\"https://chobble.com/principles\">Chobble's founding principles</a> is transparency: the tools customers rely on should be theirs to keep. Making the code open source means you can see exactly how the platform works, verify the security claims yourself, and take the software with you if you choose to leave. Some platforms create dependency by making it difficult to understand or replicate what they do. Open source code prevents this. The entire codebase is publicly available on <a href=\"https://github.com/chobbledotcom/tickets\">GitHub</a> under the AGPLv3 licence. Unlike some platforms that call themselves open source but keep key features proprietary, Chobble Tickets includes every feature in the open source version. The managed hosting and the self-hosted version are exactly the same code."
+		"answer": "One of <a href=\"https://chobble.com/principles\">Chobble's founding principles</a> is transparency: the tools customers rely on should be theirs to keep. Making the code open source means you can see exactly how the platform works, verify the security claims yourself, and take the software with you if you choose to leave. Some platforms create dependency by making it difficult to understand or replicate what they do. Open source code prevents this. The entire codebase is publicly available on <a href=\"https://github.com/chobbledotcom/tickets\">GitHub</a> under the AGPLv3 licence. Some platforms call themselves open source but keep key features in a proprietary paid version. Chobble Tickets includes every feature in the open source version, and the managed hosting and the self-hosted version are exactly the same code."
 	},
 	{
 		"section": "Open source and self-hosting",
@@ -157,6 +157,6 @@
 	{
 		"section": "Features and customisation",
 		"question": "What features does Chobble Tickets not have?",
-		"answer": "Chobble Tickets does not have an event discovery marketplace, built-in email marketing campaigns, social media advertising tools, promo codes, reserved seating with venue maps, waitlists, multi-currency support, virtual event hosting, a mobile app for organisers, or phone support. Many of these features exist on other platforms to justify a per-ticket fee. A discovery marketplace and social advertising tools give the platform a reason to take a percentage of your sales. Chobble does not take a cut, so it does not need to build those features. For event discovery and email marketing, dedicated tools like Songkick and Mailchimp do those jobs better than any ticketing platform could. If you need event discovery to find new audiences, or venue-specific seating maps, a larger platform like Eventbrite may be a better fit - see the <a href=\"/compared-to/eventbrite/\">full comparison</a>. Chobble is limited to the features that event organisers need the most."
+		"answer": "Chobble Tickets does not have an event discovery marketplace, built-in email marketing campaigns, social media advertising tools, promo codes, reserved seating with venue maps, waitlists, multi-currency support, virtual event hosting, a mobile app for organisers, or phone support. Many of these features exist on other platforms to justify a per-ticket fee. A discovery marketplace and social advertising tools give the platform a reason to take a percentage of your sales. Chobble does not take a cut, so it does not need to build those features. For event discovery and email marketing, dedicated tools like Songkick and Mailchimp are built specifically for those jobs. If you need event discovery to find new audiences, or venue-specific seating maps, a larger platform like Eventbrite may be a better fit - see the <a href=\"/compared-to/eventbrite/\">full comparison</a>. Chobble is limited to the features that event organisers need the most."
 	}
 ]

@@ -51,7 +51,7 @@ blocks:
         your session cookie with a CSRF token header.
 
       API key authentication means you can integrate with CI/CD pipelines,
-      cron jobs, or any system that can make HTTP requests - no browser
+      cron jobs, or any system that can make HTTP requests, with no browser
       session needed.
 
   - type: markdown
@@ -74,8 +74,9 @@ blocks:
     content: |
       ## What's next
 
-      Attendee management endpoints are coming next - read, edit, and
-      export attendees via the API, just like you can for events today.
+      Attendee management endpoints are coming next, with read, edit, and
+      export operations available via the API, just like you can for events
+      today.
 
       Combined with the [public API](/features/public-api/) (which needs
       no authentication for read-only event listings), the

@@ -21,7 +21,7 @@ blocks:
   - type: split-icon-links
     title: Keep your revenue
     content: |
-      Most ticketing platforms take a cut of every sale - sometimes £1-2 per
+      Most ticketing platforms take a cut of every sale, sometimes £1-2 per
       ticket plus a percentage. For a 200-capacity gig at £15 a ticket, that
       can mean losing hundreds of pounds to the platform.
 

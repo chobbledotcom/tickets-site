@@ -14,7 +14,7 @@ blocks:
     lead: >-
       Chobble Tickets is designed so that anyone with some technical knowledge
       can run it for the event organisers they know. More hosts means a
-      genuinely decentralised alternative to the big ticketing platforms.
+      decentralised alternative to the big ticketing platforms.
 
   - type: markdown
     content: |
@@ -29,9 +29,10 @@ blocks:
       serves the organisers they know personally. No single point of control, no
       single company that can change the rules for everyone.
 
-      This is not an accident of the design. It is the design. A real
-      alternative to Eventbrite and the rest cannot be another centralised
-      platform. It has to be software that many people run.
+      Decentralisation is the design goal. Any alternative to Eventbrite that
+      runs on a single company's servers becomes another centralised platform.
+      Chobble Tickets only counts as an alternative if many people run their
+      own independent copies.
 
   - type: markdown
     dark: true
@@ -108,12 +109,12 @@ blocks:
 
       Each host controls:
 
-      - **Pricing** -- what to charge customers, if anything
-      - **Infrastructure** -- which Bunny account, which region, which plan
-      - **Email** -- which email provider sends confirmations (Resend, Postmark,
-        SendGrid, or Mailgun)
-      - **Updates** -- when to deploy new versions of the software
-      - **Support** -- how to help the organisers they host for
+      - **Pricing**: what to charge customers, if anything
+      - **Infrastructure**: which Bunny account, which region, which plan
+      - **Email**: which email provider sends confirmations (Resend,
+        Postmark, SendGrid, or Mailgun)
+      - **Updates**: when to deploy new versions of the software
+      - **Support**: how to help the organisers they host for
 
       Attendee data is encrypted and stays in each site's own database. Hosts
       cannot read their customers' attendee data. The encryption key is

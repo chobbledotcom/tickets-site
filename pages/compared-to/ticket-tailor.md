@@ -52,7 +52,7 @@ blocks:
       ## Feature comparison
 
       Ticket Tailor has been running since 2010 and has a broader feature
-      set than Chobble Tickets in several areas. Here's an honest breakdown:
+      set than Chobble Tickets in several areas. Here's the breakdown:
 
       **Both platforms share some features:**
 
@@ -221,7 +221,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on
       Chobble as a company.
@@ -231,7 +231,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in April 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [Ticket Tailor pricing](https://www.tickettailor.com/pricing) - £0.60 per paid ticket pay-as-you-go, from £0.22 with prepaid credits
       - [Ticket Tailor help centre: how much does it cost](https://help.tickettailor.com/en/articles/6731528-how-much-does-ticket-tailor-cost-and-how-will-i-be-charged)

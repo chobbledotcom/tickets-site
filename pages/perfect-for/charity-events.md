@@ -28,9 +28,9 @@ blocks:
       percentage cuts, so all the ticket revenue goes straight to your Stripe
       or Square account.
 
-      Running a free event? You don't even need to set up payment processing.
-      Running a fundraising collection or raffle? Use
-      [purchasable events](/features/purchasable-events/) to collect
+      For free events, you do not need to set up payment processing. For
+      fundraising collections and raffles,
+      [purchasable events](/features/purchasable-events/) let you collect
       donations and payments without a physical event to attend.
     figure_items:
       - icon: "hugeicons:money-receive-square"

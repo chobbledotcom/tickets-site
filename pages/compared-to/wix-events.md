@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: wix_events
 title: Chobble Tickets vs Wix Events
 meta_title: Open Source Alternative to Wix Events | Chobble Tickets
-meta_description: Looking for an alternative to Wix Events? Chobble Tickets offers flat annual pricing with no per-ticket fees, full data ownership, and no platform lock-in.
+meta_description: Chobble Tickets is an alternative to Wix Events, with flat annual pricing, no per-ticket fees, full data ownership, and no platform lock-in.
 permalink: /compared-to/wix-events/
 eleventyNavigation:
   key: vs Wix Events
@@ -27,8 +27,8 @@ blocks:
       fees of 2.1% + 20p per transaction in the UK.
 
       So for a £15 ticket, Wix takes 37p in ticket service fees, plus 51p
-      in payment processing - 88p per ticket before you've even factored in
-      the monthly subscription.
+      in payment processing, totalling 88p per ticket before you've even
+      factored in the monthly subscription.
 
       Chobble Tickets is a flat £50/year regardless of how many tickets you
       sell, with Stripe processing at 1.5% + 20p. [No per-ticket platform
@@ -41,9 +41,10 @@ blocks:
     content: |
       ## Feature comparison
 
-      Wix Events is tightly integrated into the Wix website builder,
-      which gives it some advantages if you're already a Wix user - but also
-      means it's locked into that platform. Here is an honest breakdown:
+      Wix Events is tightly integrated into the Wix website builder.
+      That gives it some advantages if you are already a Wix user, but it
+      also means the ticketing is locked into that platform. Here is the
+      breakdown:
 
       **Both platforms share some features:**
 
@@ -155,13 +156,13 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain - either way, not a wix.com URL
+        domain
       - **No marketing to your attendees** - your audience stays yours,
         with no cross-promotion or Wix branding
-      - **Community Interest Company** - run by a CIC, not a publicly
-        traded corporation
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
       ## Data ownership
 
@@ -169,7 +170,7 @@ blocks:
       servers within their proprietary platform. If you stop paying your
       monthly Wix subscription, you lose access to your ticketing setup,
       event pages, and attendee data. Your events are also tied to the Wix
-      website builder - there's no way to take your ticketing to another
+      website builder. There is no way to take your ticketing to another
       platform without starting over.
 
       With Chobble Tickets, attendee data is encrypted and stays under your
@@ -222,7 +223,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
@@ -232,7 +233,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [Wix Events: About Wix Ticket Service Fees](https://support.wix.com/en/article/wix-events-about-wix-ticket-service-fees) - 2.5% ticket service fee
       - [Wix Payments: Service Fees](https://support.wix.com/en/article/wix-payments-service-fees) - 2.1% + 20p per transaction (UK)

@@ -14,7 +14,7 @@ blocks:
     title: No spying
     lead: >-
       Chobble does not collect attendee data or use your events to market to
-      your attendees. You are getting a ticketing platform, not a marketplace.
+      your attendees.
 
   - type: markdown
     content: |
@@ -34,8 +34,9 @@ blocks:
       follow other events on the platform. Your attendees will receive emails
       from those platforms about other organisers' events.
 
-      Chobble does not do this. Attendees do not need a Chobble account. They
-      are not prompted to download an app. They are not added to a mailing list.
+      Chobble does not do this. Attendees do not need a Chobble account, they
+      are not prompted to download an app, and they are not added to a mailing
+      list.
 
       ## No rights to your data
 

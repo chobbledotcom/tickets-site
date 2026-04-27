@@ -34,9 +34,8 @@ blocks:
       you sell, with [no per-ticket platform fees](/features/no-per-ticket-fees/). You pay Stripe's
       processing fees (1.5% + 20p in the UK) separately.
 
-      For the price comparison below, we use the Team plan ($420/year,
-      approx. £335) since that's what's required for ticketing with QR
-      codes.
+      The price comparison below uses the Team plan ($420/year, approx.
+      £335) since that's what's required for ticketing with QR codes.
 
   - type: include
     file: price-comparator.html
@@ -48,7 +47,7 @@ blocks:
       Cheddar Up is a general-purpose payment collection platform that
       added ticketing in 2023. Chobble Tickets is a purpose-built
       ticketing platform. Both serve community groups but take different
-      approaches. Here is an honest breakdown:
+      approaches. Here is the breakdown:
 
       **Both platforms share some features:**
 
@@ -110,8 +109,7 @@ blocks:
 
       - **[Purchasable events](/features/purchasable-events/)** - collect
         donations, sell raffle tickets, take membership dues, and run any
-        kind of payment collection without an event to attend - not just
-        ticketing
+        kind of payment collection without an event to attend
       - **[Sign-up forms](/features/sign-up-forms/)** - create volunteer
         sign-up sheets, potluck coordinators, and other form-based
         collections by setting an event as free with custom questions
@@ -152,13 +150,13 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain - either way, not cheddarup.com
+        domain
       - **No marketing to your attendees** - your audience stays yours,
         with no cross-promotion of competing events
-      - **Community Interest Company** - run by a CIC, not a
-        venture-backed startup
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
       ## Data ownership
 
@@ -224,7 +222,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3,
       and the platform can be self-hosted by anyone without depending on
       Chobble as a company.
@@ -234,7 +232,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
-      Fees may change - check the links below for the latest figures.
+      Fees may change. Check the links below for the latest figures.
 
       - [Cheddar Up pricing](https://www.cheddarup.com/pricing/) - Basic (free), Pro ($20/month), Team ($48/month)
       - [Cheddar Up fees explained](https://www.cheddarup.com/blog/cheddar-up-fees/) - 3.59% + $0.59 per transaction on Pro/Team, 3.95% + $0.95 on Basic

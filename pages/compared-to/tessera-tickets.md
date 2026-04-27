@@ -58,7 +58,7 @@ blocks:
       shows, with assigned seating, a box office, and on-site merchandise
       sales. Chobble Tickets is built for organisers who want a flat-rate
       platform without the box-office hardware and venue-management
-      features. Here is an honest breakdown:
+      features. Here is the breakdown:
 
       **Both platforms share some features:**
 
@@ -220,7 +220,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3,
       and the platform can be self-hosted by anyone without depending on
       Chobble as a company.
@@ -230,7 +230,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in April 2026.
-      Fees may change - check the links below for the latest figures.
+      Fees may change. Check the links below for the latest figures.
 
       - [Tessera Tickets pricing](https://www.tessera-tickets.com/pricing/) -
         subscription tiers, hosting, setup fees, and add-ons

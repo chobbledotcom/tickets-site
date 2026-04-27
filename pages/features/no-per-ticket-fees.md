@@ -30,8 +30,8 @@ blocks:
       processor's standard fee (1.5% + 20p per transaction in the UK).
 
       Charities, community groups, artists, and musicians pay £25/year (50%
-      discount). If you self-host, the software is free - you only pay Stripe's
-      processing fees.
+      discount). If you self-host, the software is free, and you only pay
+      Stripe's processing fees.
 
   - type: markdown
     dark: true
@@ -46,8 +46,8 @@ blocks:
       That means the actual cost of running a ticketing platform does not go up
       meaningfully with each ticket sold. A platform that sells 100 tickets a
       month and one that sells 10,000 tickets a month have similar hosting
-      costs. The expensive parts - building the software, maintaining it,
-      providing support - are fixed costs that do not depend on ticket volume.
+      costs. The expensive parts (building the software, maintaining it, and
+      providing support) are fixed costs that do not depend on ticket volume.
 
       Per-ticket fees on other platforms are not driven by per-ticket costs.
       They are a business model choice. Percentage-based pricing lets a platform
@@ -59,10 +59,9 @@ blocks:
       cost structure: fixed costs covered by a fixed price. There is no
       per-ticket cost to pass on, so there is no per-ticket fee.
 
-      Chobble is a [community interest company](/features/open-source/), not a
-      venture-funded startup. Its income comes from annual fees, not from
-      taking a cut of ticket sales. There is no advertising revenue and no
-      data economy subsidising the price.
+      Chobble is a [community interest company](/features/open-source/).
+      Income comes only from the annual fees organisers pay. There is no
+      advertising revenue and no data economy subsidising the price.
 
   - type: stats
     dark: true
@@ -97,9 +96,9 @@ blocks:
       | **Cost per ticket** | **£1.29** | **£1.35** |
       | **You keep** | **£435.75** | **£432.50** |
 
-      At very low volumes, a per-ticket platform is slightly cheaper - £3.25
-      per year in this example. The breakeven point for £10 tickets is around
-      54 tickets per year.
+      At very low volumes, a per-ticket platform is slightly cheaper, by
+      £3.25 per year in this example. The breakeven point for £10 tickets is
+      around 54 tickets per year.
 
       ### 500 tickets per year at £15 each
 

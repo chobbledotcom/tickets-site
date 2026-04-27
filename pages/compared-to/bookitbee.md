@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: bookitbee
 title: Chobble Tickets vs BookitBee
 meta_title: No-Fee Alternative to BookitBee | Chobble Tickets
-meta_description: Looking for a no-fee alternative to BookitBee? Chobble Tickets charges a flat annual fee with no per-ticket costs, and it's fully open source.
+meta_description: Chobble Tickets is a no-fee alternative to BookitBee, with a flat annual fee, no per-ticket costs, and fully open source code.
 permalink: /compared-to/bookitbee/
 eleventyNavigation:
   key: vs BookitBee
@@ -13,16 +13,16 @@ blocks:
     class: gradient
     title: Chobble Tickets vs BookitBee
     lead: >-
-      BookitBee is a UK-based ticketing platform - here is how it compares to
+      BookitBee is a UK-based ticketing platform. This page compares it to
       Chobble Tickets.
 
   - type: markdown
     content: |
       ## Pricing comparison
 
-      [BookitBee](https://www.bookitbee.com) charges per ticket sold - starting from 3.5% per ticket
-      (up to 6.5% for advanced features), with a minimum fee of £1 and a cap
-      of £19.95 per ticket. For high-volume events those fees add up quickly.
+      [BookitBee](https://www.bookitbee.com) charges per ticket sold,
+      starting from 3.5% per ticket (up to 6.5% for advanced features),
+      with a minimum fee of £1 and a cap of £19.95 per ticket. For high-volume events those fees add up quickly.
 
       Chobble Tickets charges a flat £50/year (£25 for charities) with [no
       per-ticket fees](/features/no-per-ticket-fees/) or percentage cuts, which works out significantly
@@ -49,7 +49,7 @@ blocks:
       - Free event support with no payment setup required
       - Refund processing from the admin panel
       - Custom questions at checkout
-      - Multiple ticket types per event - both platforms let you create
+      - Multiple ticket types per event: both platforms let you create
         VIP, early bird, group, and standard tiers with different prices
 
       **[BookitBee](https://www.bookitbee.com/features/) has features
@@ -136,13 +136,13 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain whenever you're ready
+        domain whenever you are ready
       - **[Embeddable widget](/features/embeddable-widget/)** - drop an
         iframe into your website
       - **No marketing to your attendees** - your audience stays yours
-      - **Community Interest Company** - run by a CIC, not a for-profit
+      - **Community Interest Company** - run by a CIC, with profits reinvested rather than distributed to shareholders
 
       ## When BookitBee might be better
 
@@ -188,7 +188,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
@@ -198,7 +198,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [BookitBee pricing](https://bookitbee.com/pricing/) - from 3.5% per ticket
       - [BookitBee features](https://www.bookitbee.com/features/)

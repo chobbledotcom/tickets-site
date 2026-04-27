@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: eventim_light
 title: Chobble Tickets vs EVENTIM.Light
 meta_title: Open Source Alternative to EVENTIM.Light | Chobble Tickets
-meta_description: Looking for an alternative to EVENTIM.Light? Chobble Tickets offers flat annual pricing with no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
+meta_description: Chobble Tickets is an alternative to EVENTIM.Light, with flat annual pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
 permalink: /compared-to/eventim-light/
 eleventyNavigation:
   key: vs EVENTIM.Light
@@ -22,16 +22,17 @@ blocks:
       ## What is EVENTIM.Light?
 
       [EVENTIM.Light](https://www.eventim-light.co.uk/) is the self-serve
-      ticketing arm of CTS EVENTIM - the parent company behind eventim.co.uk and
-      one of the largest ticketing operations in Europe, with [250+ million
-      tickets sold in 2019](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/)
+      ticketing arm of CTS EVENTIM, the parent company behind eventim.co.uk
+      and one of the largest ticketing operations in Europe, with [250+
+      million tickets sold in
+      2019](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/)
       and operations across 23+ countries. EVENTIM.Light is aimed at independent
       organisers, artists, and small-to-medium promoters who want to create and
       sell tickets without negotiating an enterprise deal.
 
-      It's a solid platform backed by serious infrastructure. But the trade-offs -
-      particularly around fees, data ownership, and flexibility - are worth
-      understanding before you commit.
+      It is a solid platform backed by serious infrastructure. The
+      trade-offs (particularly around fees, data ownership, and flexibility)
+      are worth understanding before you commit.
 
   - type: markdown
     content: |
@@ -81,7 +82,7 @@ blocks:
       Chobble Tickets uses Stripe or Square directly, so payments flow straight
       to your own payment processor account with standard processing times
       (typically 2–3 business days from each sale). You control your own
-      payout schedule through Stripe or Square - not through the ticketing
+      payout schedule through Stripe or Square, not through the ticketing
       platform.
 
   - type: markdown
@@ -170,16 +171,16 @@ blocks:
         Postmark, SendGrid, or Mailgun so emails come from your domain
       - **[Customisable email templates](/features/email-templates/)** - full
         control over confirmation emails with Liquid syntax
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain - either way, not eventim-light.co.uk
+        domain
       - **Automatic refunds** - process refunds directly from the admin panel
       - **[CSV export](/features/csv-export/)** - download attendee lists for
         your own records
       - **No marketing to your attendees** - your audience stays yours, with
         no cross-promotion of other events on the platform
-      - **Community Interest Company** - run by a CIC, not a subsidiary of a
-        publicly traded entertainment conglomerate
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
   - type: markdown
     content: |
@@ -191,7 +192,7 @@ blocks:
       (clause 9.5). In practice, this means:
 
       - EVENTIM can send **personalised mailings about similar events** to
-        your ticket buyers - their
+        your ticket buyers. Their
         [UK terms](https://www.eventim-light.com/uk/api/legal/terms?format=pdf&lang=en)
         (clause 9.2) confirm they may contact buyers about "events which are
         identical or similar to the one for which the customer purchased a
@@ -208,7 +209,7 @@ blocks:
 
       The consumer-facing eventim.co.uk has a
       [3.7-star rating on Trustpilot](https://uk.trustpilot.com/review/eventim.co.uk)
-      (UK), though reviews are mixed - common complaints include refund
+      (UK), though reviews are mixed. Common complaints include refund
       difficulties and customer service responsiveness. While EVENTIM.Light
       is a separate product, buyer issues are typically directed back to the
       event organiser rather than EVENTIM's support team.
@@ -295,7 +296,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
@@ -305,7 +306,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [EVENTIM.Light UK pricing](https://www.eventim-light.co.uk/pricing/) - 8% per ticket (includes payment processing)
       - [EVENTIM.Light UK features](https://www.eventim-light.co.uk/features/) - full feature list

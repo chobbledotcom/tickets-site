@@ -36,7 +36,7 @@ blocks:
       ## Webhook payload
 
       The webhook includes attendee information, event details, ticket URLs,
-      and payment data - everything you need to integrate with external
+      and payment data: everything you need to integrate with external
       systems.
 
       See the [webhooks documentation](https://chobbledotcom.github.io/tickets/docs/webhooks.ts)

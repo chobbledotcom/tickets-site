@@ -41,7 +41,7 @@ blocks:
 
       FooEvents is sold as annual bundles. Each bundle includes the
       listed plugins plus 12 months of support and updates. The prices
-      below are for a Single Domain licence - licences for multiple or
+      below are for a Single Domain licence. Licences for multiple or
       unlimited domains cost more.
 
       **Basic Bundle** - $139/year (approx. £103)
@@ -100,7 +100,7 @@ blocks:
 
       Not every FooEvents feature is in every bundle. Seating, Bookings,
       Multi-day, Custom Attendee Fields, and POS are separate plugins
-      that only come with the higher-tier bundles - so the Basic Bundle
+      that only come with the higher-tier bundles, so the Basic Bundle
       covers a much smaller feature set than the POS Bundle.
 
       **Both platforms share some features:**
@@ -179,7 +179,7 @@ blocks:
         software that requires a paid subscription to use
       - **[Self-host for free](/features/open-source/)** - Chobble
         Tickets can be self-hosted at no cost with every feature
-        included. FooEvents has no free tier - even self-installed,
+        included. FooEvents has no free tier; even self-installed,
         you need to buy a bundle
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets straight to their phone wallet
@@ -239,7 +239,7 @@ blocks:
       encrypts attendee personal data so the operator cannot read it
       without your private key. If you want full control of the
       infrastructure, you can [self-host](/features/open-source/)
-      Chobble Tickets instead - the code is AGPLv3 with no paid tier.
+      Chobble Tickets instead. The code is AGPLv3 with no paid tier.
 
   - type: markdown
     content: |
@@ -324,7 +324,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3
       with no paid tier, and the platform can be self-hosted by anyone
       without depending on Chobble as a company.
@@ -334,7 +334,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in April
-      2026. Fees may change - check the links below for the latest
+      2026. Fees may change. Check the links below for the latest
       figures.
 
       - [FooEvents pricing](https://www.fooevents.com/pricing/) -

@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Chobble Tickets vs Swicket
 meta_title: Independent Alternative to Swicket & alf.io | Chobble Tickets
-meta_description: Looking for an alternative to Swicket or alf.io? Chobble Tickets offers flat annual pricing, AGPLv3 open source code, and no enterprise contracts - for community groups, schools, and independent event organisers.
+meta_description: Chobble Tickets is an alternative to Swicket and alf.io for community groups, schools, and independent event organisers, with flat annual pricing, AGPLv3 open source code, and no enterprise contracts.
 permalink: /compared-to/swicket/
 eleventyNavigation:
   key: vs Swicket
@@ -13,8 +13,8 @@ blocks:
     title: Chobble Tickets vs Swicket
     lead: >-
       Swicket is the commercial, managed version of the open source alf.io
-      ticketing platform - built for large conferences and medical congresses.
-      Here's how it compares to Chobble Tickets for independent event
+      ticketing platform, built for large conferences and medical congresses.
+      This page compares it to Chobble Tickets for independent event
       organisers.
 
   - type: markdown
@@ -24,8 +24,8 @@ blocks:
       [Swicket](https://swicket.io) is the enterprise managed service built on
       top of [alf.io](https://alf.io), a GPLv3-licensed open source event
       attendance management system. Swicket is run by Vivento Lab (based in
-      Lugano, Switzerland), and one of Swicket's co-founders - Celestino
-      Bellone - is also a co-creator of alf.io itself.
+      Lugano, Switzerland), and one of Swicket's co-founders (Celestino
+      Bellone) is also a co-creator of alf.io itself.
 
       **alf.io** is the open source engine: a Java/Spring Boot application
       that handles ticket reservation, payment processing, and check-in. It's
@@ -41,12 +41,12 @@ blocks:
       [Spring I/O](https://reg.springio.net)), medical congresses, and
       association meetings.
 
-      So there are really two comparisons here: **Chobble Tickets vs alf.io
+      So there are two comparisons here: **Chobble Tickets vs alf.io
       self-hosted**, and **Chobble Tickets vs Swicket managed**.
 
       ## Pricing comparison
 
-      **alf.io self-hosted** is free - you pay only for your own server
+      **alf.io self-hosted** is free. You pay only for your own server
       infrastructure and payment processing fees. The GPLv3 licence has no
       commercial restrictions beyond the copyleft requirement.
 
@@ -142,8 +142,8 @@ blocks:
       - **[Event groups](/features/groups/)** - organise related events into
         collections for multi-event bookings with a single checkout
       - **No marketing to your attendees** - your audience stays yours
-      - **Community Interest Company** - run by a CIC, not a commercial
-        software studio
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
       ## When Swicket / alf.io might be the better choice
 
@@ -164,8 +164,8 @@ blocks:
 
       - You're a community group, school, charity, or independent venue
       - You want transparent, flat-rate pricing with no per-ticket fees
-      - Privacy and [encryption](/features/encrypted/) matter to you - not
-        just row-level security but end-to-end encryption
+      - Privacy and [encryption](/features/encrypted/) matter to you (with
+        end-to-end encryption rather than only row-level security)
       - You want to start immediately without a sales call or contract
       - You want [calendar feeds](/features/rss-and-calendar-feeds/) or
         [RSS](/features/rss-and-calendar-feeds/)
@@ -197,7 +197,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.

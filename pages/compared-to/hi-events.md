@@ -5,7 +5,7 @@ selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: hi_events_selfhosted
 title: Chobble Tickets vs Hi.Events
 meta_title: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared
-meta_description: Comparing two open source ticketing platforms - Chobble Tickets and Hi.Events. An honest look at pricing, features, philosophy, and which is better for your events.
+meta_description: Comparing two open source ticketing platforms (Chobble Tickets and Hi.Events) on pricing, features, philosophy, and which is better for your events.
 permalink: /compared-to/hi-events/
 eleventyNavigation:
   key: vs Hi.Events
@@ -23,13 +23,12 @@ blocks:
     content: |
       ## Two open source options
 
-      It's rare to have two genuinely open source ticketing platforms to choose
-      from, so let's be upfront: [Hi.Events](https://hi.events) is a solid project. It's got 3,600+
-      GitHub stars, 35+ contributors, and a modern React/Laravel stack. If you're
-      looking for open source ticketing, both platforms deserve your attention.
+      [Hi.Events](https://hi.events) is another open source ticketing
+      platform, with 3,600+ GitHub stars, 35+ contributors, and a React and
+      Laravel stack.
 
-      This page is an honest comparison to help you decide which fits your needs
-      better.
+      This page compares the two platforms to help you decide which fits your
+      needs.
 
       ## Pricing comparison
 
@@ -39,7 +38,7 @@ blocks:
       per ticket sold, plus Stripe processing fees. You can pass these to the
       buyer or absorb them yourself. Free events are completely free.
 
-      **Hi.Events Self-Hosted** has no platform fees at all - you only pay
+      **Hi.Events Self-Hosted** has no platform fees at all. You only pay
       Stripe processing and your own server costs (roughly £16-32/month for
       hosting).
 
@@ -48,9 +47,9 @@ blocks:
       processing fees on top.
 
       For small numbers of tickets, Hi.Events Cloud is cheaper since there's
-      no annual fee. But as volume grows, Chobble's flat fee becomes better
-      value - if you sell more than about 150 tickets at £15 each in a year,
-      you'll pay less with Chobble Tickets.
+      no annual fee. As volume grows, Chobble's flat fee becomes better
+      value: if you sell more than about 150 tickets at £15 each in a year,
+      you will pay less with Chobble Tickets.
 
   - type: include
     file: price-comparator.html
@@ -177,14 +176,14 @@ blocks:
         Hi.Events" branding unless you buy a $499+ commercial licence
       - **Serverless edge deployment** - Chobble compiles to a single JS
         file that runs on Bunny.net edge scripts with a Bunny.net edge
-        database - no server to manage, no scaling to configure, no
-        database replication to maintain. Hi.Events needs a traditional
+        database, so there is no server to manage, no scaling to configure,
+        and no database replication to maintain. Hi.Events needs a traditional
         server (2 CPU, 4GB RAM minimum) that you're responsible for
         keeping online, updated, and backed up
 
       ## Different philosophies
 
-      The biggest difference isn't features - it's approach.
+      The two platforms differ most in their underlying approach.
 
       **Hi.Events** is built on PHP/Laravel with a React frontend. It's a
       full-featured web application with a polished, modern UI aimed at
@@ -194,14 +193,14 @@ blocks:
       4GB RAM.
 
       **Chobble Tickets** is built on Deno and compiles to a single
-      JavaScript file that runs as an edge script on Bunny.net - no
+      JavaScript file that runs as an edge script on Bunny.net, with no
       traditional server required. It uses a Bunny.net edge database, so
       there's no server to manage, no scaling to worry about, and no
       database replication to configure. It prioritises simplicity, privacy
       (hybrid RSA/AES encryption for attendee data), and predictable
-      flat-rate pricing. It's aimed at community groups, schools, small
+      flat-rate pricing. It is aimed at community groups, schools, small
       organisers, and anyone who values data ownership over feature density.
-      It's run by a Community Interest Company, not a traditional startup.
+      It is run by a Community Interest Company.
 
       ## Licensing and self-hosted costs
 
@@ -216,9 +215,9 @@ blocks:
       - **Multi-Tenant (SaaS)** - available at higher tiers for running your
         own ticketing platform (contact Hi.Events for pricing)
 
-      **Chobble Tickets** is open source with no branding requirements and no
-      commercial licence needed. Self-host for free, modify as you like, and
-      use your own domain - no extra cost.
+      **Chobble Tickets** is open source with no branding requirements and
+      no commercial licence needed. Self-host for free, modify as you like,
+      and use your own domain at no extra cost.
 
   - type: include
     file: price-comparator-selfhosted.html
@@ -227,9 +226,9 @@ blocks:
     content: |
       The self-hosted comparison above uses the Hi.Events Single Domain
       commercial licence ($499/~£420) since most organisations will want to
-      remove the "Powered by" branding. Note that the Single Domain licence
-      is perpetual for the covered version - you don't pay annually. If
-      you're happy keeping the branding, Hi.Events self-hosted is free -
+      remove the "Powered by" branding. The Single Domain licence is
+      perpetual for the covered version, so there is no annual fee. If
+      you are happy keeping the branding, Hi.Events self-hosted is free,
       just like Chobble Tickets.
 
       ## When Hi.Events might be better
@@ -272,7 +271,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3 with
       no attribution requirement, and the platform can be self-hosted by
       anyone without depending on Chobble as a company.
@@ -282,7 +281,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [Hi.Events pricing](https://hi.events/pricing) - 0.75% + 40¢ per ticket (cloud)
       - [Hi.Events open source / self-hosted](https://hi.events/open-source-event-ticketing) - $499 single domain commercial licence

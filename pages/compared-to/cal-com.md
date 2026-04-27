@@ -29,9 +29,9 @@ blocks:
       that need a fee.
 
       Chobble Tickets is an event ticketing platform. It is designed for
-      events with a fixed date and capacity - workshops, gigs, club
-      nights, charity dinners, kids' parties - where attendees buy a
-      ticket, get a QR code, and scan in at the door.
+      events with a fixed date and capacity (workshops, gigs, club nights,
+      charity dinners, and kids' parties) where attendees buy a ticket, get
+      a QR code, and scan in at the door.
 
       The two platforms overlap when you need to charge people to book a
       time. If your "event" is a 30-minute slot in your calendar, Cal.com
@@ -56,8 +56,8 @@ blocks:
 
       This is one view. The more common response among open source
       projects to AI-assisted vulnerability scanning has been to invite
-      more scrutiny rather than less - publish more tests, accept more
-      reports, fix issues faster. Closing the code does not make
+      more scrutiny rather than less, by publishing more tests, accepting
+      more reports, and fixing issues faster. Closing the code does not make
       vulnerabilities go away; it makes them harder for defenders to
       find and fix.
 
@@ -129,9 +129,8 @@ blocks:
       size.
 
       For a community group running events with a fixed date and
-      capacity, Cal.com is not really designed for the job. You would
-      end up creating one event type per event date, which gets messy
-      quickly.
+      capacity, Cal.com is not designed for the job. You would end up
+      creating one event type per event date, which gets messy quickly.
 
   - type: markdown
     content: |
@@ -165,7 +164,7 @@ blocks:
       Cal.com is a scheduling platform with payment support. Chobble
       Tickets is a ticketing platform. They share some basics but the
       core jobs are different, so a feature-by-feature comparison only
-      goes so far. Here is an honest breakdown:
+      goes so far. Here is the breakdown:
 
       **Both platforms share some features:**
 
@@ -227,7 +226,7 @@ blocks:
         attendee data is encrypted with a key derived from your admin
         password using hybrid RSA-OAEP and AES-256-GCM. A database
         dump and the server's encryption key together are still not
-        enough to decrypt attendee data - an attacker would also need
+        enough to decrypt attendee data, since an attacker would also need
         your password. If you forget your password, the data is
         permanently unrecoverable.
       - **[Open source production code](/features/open-source/)** - the
@@ -249,7 +248,7 @@ blocks:
       - **[Liquid email templates with full HTML control](/features/email-templates/)** -
         edit the subject, HTML body, and text body of confirmation
         emails. Combined with a custom email provider, the email is
-        fully white-label - it does not mention Chobble at all.
+        fully white-label, with no mention of Chobble.
       - **[Full custom domain](/features/custom-domain/)** - run the
         ticketing site on your own domain (Cal.com offers
         yourcompany.cal.com subdomains on the Organizations plan but
@@ -281,7 +280,7 @@ blocks:
       your admin password. The data is decrypted only when you log in
       and view it. A database dump on its own is not enough to read
       attendee data, and a database dump combined with the server's
-      environment encryption key is still not enough - an attacker
+      environment encryption key is still not enough, since an attacker
       would also need your password. Chobble staff cannot read your
       attendee data, even on managed hosting. The full code is public,
       so you can verify how the encryption works.
@@ -349,7 +348,7 @@ blocks:
 
       Chobble Tickets is run by one person as a UK
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a legal structure that locks the company's assets for
+      (CIC), a legal structure that locks the company's assets for
       community benefit. There is no per-user pricing and no AI add-on.
       Income comes from the £50 annual fee paid by managed-hosting
       customers.
@@ -365,9 +364,9 @@ blocks:
 
       **Community Interest Company asset lock.** Chobble is a UK
       Community Interest Company. The software is owned by the company,
-      not by any individual. A CIC has an "asset lock" - the company's
-      assets, including the source code, cannot be transferred to a
-      private owner. They can only be transferred to another
+      not by any individual. A CIC has an "asset lock", meaning the
+      company's assets, including the source code, cannot be transferred to
+      a private owner. They can only be transferred to another
       asset-locked body, such as another CIC or a registered charity.
 
       **AGPLv3 with no premium tiers.** Every line of code that runs
@@ -378,8 +377,8 @@ blocks:
       licence.
 
       **Reinvested profits.** A CIC must reinvest its profits in its
-      stated mission - building software for small organisations and
-      independent groups - after paying its workers a reasonable wage.
+      stated mission (building software for small organisations and
+      independent groups) after paying its workers a reasonable wage.
       There are no shareholders to pay dividends to, because the
       structure does not allow them.
 
@@ -392,13 +391,13 @@ blocks:
       ## Sources
 
       The information on this page was verified in April 2026. Pricing
-      and licensing may change - check the links below for the latest
+      and licensing may change. Check the links below for the latest
       figures.
 
       - [Cal.com closed source announcement](https://cal.com/blog/cal-com-goes-closed-source-why) - the original blog post, dated 14 April 2026
       - [Cal.com pricing](https://cal.com/pricing) - Free, Teams ($12/user/month), Organizations ($28/user/month), Enterprise
       - [Cal.ai](https://cal.com/ai) and [Cal.ai credit pricing](https://cal.com/help/billing-and-usage/messaging-credits) - $0.29 per minute (29 credits), 750 credits per Teams seat, 1000 credits per Organizations seat, no included credits on Free
-      - Cal.diy - the new MIT-licensed community version, announced alongside the closed source change
+      - Cal.diy: the new MIT-licensed community version, announced alongside the closed source change
       - [Cal.com Series A funding announcement (April 2022)](https://venturebeat.com/business/open-source-calendly-rival-cal-com-raises-25m) - $25 million Series A led by Seven Seven Six, on top of a previous $7.4 million seed
       - [Chobble Tickets features](/features/)
       - [Chobble Tickets source code on GitHub](https://github.com/chobbledotcom/tickets)

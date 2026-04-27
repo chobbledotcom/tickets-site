@@ -7,4 +7,4 @@ no_index: true
 
 ## Thank you
 
-Your message has been sent - we will be in touch.
+Your message has been sent. Chobble will be in touch.

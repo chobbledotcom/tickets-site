@@ -150,12 +150,12 @@ blocks:
         domain, not the platform's
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         host-provided subdomain instantly, or point your own domain
       - **Apple Pay and Google Pay** - accept wallet payments at checkout
         via Stripe
       - **Transparent pricing** - no hidden fees, no negotiations
-      - **Community Interest Company** - run by a CIC, not a publicly traded company
+      - **Community Interest Company** - run by a CIC, with profits reinvested rather than distributed to shareholders
 
       ## An independent alternative
 
@@ -205,7 +205,7 @@ blocks:
       ## Pricing sources
 
       Ticketmaster does not publish a standard public fee schedule for
-      organisers - fees vary by event, venue, and contract. The pricing
+      organisers. Fees vary by event, venue, and contract. The pricing
       estimate used on this page is approximate. Check the link below for
       the latest information.
 

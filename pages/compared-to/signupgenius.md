@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: signupgenius
 title: Chobble Tickets vs SignUpGenius
 meta_title: Open Source Alternative to SignUpGenius | Chobble Tickets
-meta_description: Looking for a ticketing alternative to SignUpGenius? Chobble Tickets offers purpose-built event ticketing with flat annual pricing, encryption, and no ads on your event pages.
+meta_description: Chobble Tickets is a ticketing alternative to SignUpGenius, with purpose-built event ticketing, flat annual pricing, encryption, and no ads on your event pages.
 permalink: /compared-to/signupgenius/
 eleventyNavigation:
   key: vs SignUpGenius
@@ -14,9 +14,8 @@ blocks:
     title: Chobble Tickets vs SignUpGenius
     lead: >-
       SignUpGenius is the go-to tool for volunteer sign-up sheets and group
-      coordination, used by over 70 million people a year. But it wasn't
-      built for event ticketing - so here is how it compares to a platform
-      that was.
+      coordination, used by over 70 million people a year. It wasn't built
+      for event ticketing. This page compares it to a platform that was.
 
   - type: markdown
     content: |
@@ -54,8 +53,8 @@ blocks:
       sell, with [no per-ticket platform fees](/features/no-per-ticket-fees/). You pay Stripe's processing
       fees (1.5% + 20p in the UK) separately.
 
-      For the comparison below, we use SignUpGenius Tickets pricing ($0.25
-      per ticket, approx. 20p, plus Stripe processing).
+      The comparison below uses SignUpGenius Tickets pricing ($0.25 per
+      ticket, approx. 20p, plus Stripe processing).
 
   - type: include
     file: price-comparator.html
@@ -66,8 +65,8 @@ blocks:
 
       SignUpGenius is a group coordination platform that added ticketing.
       Chobble Tickets is a ticketing platform from the ground up. They
-      overlap in some areas but serve fundamentally different needs, so
-      Here is an honest breakdown:
+      overlap in some areas but serve fundamentally different needs. Here
+      is the breakdown:
 
       **Both platforms share some features:**
 
@@ -171,15 +170,15 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain - either way, not signupgenius.com
+        domain
       - **[Embeddable ticket widgets](/features/embeddable-widget/)** -
         embed inline ticket sales on your own website
       - **No marketing to your attendees** - your audience stays yours,
         with no cross-promotion of competing events or third-party ads
-      - **Community Interest Company** - run by a CIC, not a
-        private-equity-backed platform
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
   - type: markdown
     content: |
@@ -189,8 +188,8 @@ blocks:
       the free tier. When you share a sign-up page with participants, they
       see third-party display ads alongside your content. Users
       consistently report these ads as distracting, unprofessional, and
-      sometimes inappropriate - not ideal when you're sharing a page with
-      parents, church members, or professional contacts.
+      sometimes inappropriate, which is not ideal when you are sharing a
+      page with parents, church members, or professional contacts.
 
       Removing ads requires at least the Silver plan ($8.99/month annual,
       $11.99/month monthly), which works out to $107.88-$143.88 per year
@@ -226,8 +225,8 @@ blocks:
       ## When SignUpGenius might be the better choice
 
       - You need advanced volunteer coordination with slot swapping, task
-        assignments, and automatic slot filling - this is what SignUpGenius
-        was built for and it's genuinely excellent at it
+        assignments, and automatic slot filling, which is what SignUpGenius
+        was built for
       - You want RSVP-style responses (yes/no/maybe) rather than ticket
         sales
       - You need slot swapping so participants can trade shifts without
@@ -268,7 +267,7 @@ blocks:
 
       SignUpGenius was founded in October 2008 by Dan Rutledge in
       Charlotte, North Carolina. Rutledge built it to solve a problem he
-      encountered organising volunteers at his church - the classic
+      encountered organising volunteers at his church: the classic
       clipboard-passed-around-a-room scenario. His wife, Angel Rutledge,
       joined as COO and CMO in 2011. The company grew from 98,000 users in
       2009 to over 66 million unique visitors by 2016, entirely as a
@@ -301,7 +300,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on
       Chobble as a company.
@@ -311,7 +310,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
-      Fees may change - check the links below for the latest figures.
+      Fees may change. Check the links below for the latest figures.
 
       - [SignUpGenius pricing](https://www.signupgenius.com/pricing) - Free, Silver ($8.99/month), Gold ($22.49/month), Platinum ($44.99/month), Enterprise
       - [SignUpGenius cost FAQ](https://www.signupgenius.com/support/sign-up-genius-cost) - payment collection fees: 5% + $0.50 per transaction

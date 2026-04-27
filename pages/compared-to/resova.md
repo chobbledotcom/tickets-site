@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: resova
 title: Chobble Tickets vs Resova
 meta_title: Open Source Alternative to Resova | Chobble Tickets
-meta_description: Looking for an alternative to Resova? Chobble Tickets offers flat annual pricing with no monthly booking limits, encrypted attendee data, and open source code.
+meta_description: Chobble Tickets is an alternative to Resova, with flat annual pricing, no monthly booking limits, encrypted attendee data, and open source code.
 permalink: /compared-to/resova/
 eleventyNavigation:
   key: vs Resova
@@ -145,8 +145,8 @@ blocks:
         iframe into your website
       - **No booking limits** - sell as many tickets as you like on one
         plan, with no overage charges
-      - **Community Interest Company** - run by a CIC, not a
-        privately-owned for-profit company
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
   - type: markdown
     content: |
@@ -205,7 +205,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on
       Chobble as a company.
@@ -215,7 +215,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in April 2026. Fees
-      may change - check the links below for the latest figures.
+      may change. Check the links below for the latest figures.
 
       - [Resova pricing](https://get.resova.com/pricing/) - Lite, Pro,
         Premium, and Enterprise plans
