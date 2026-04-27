@@ -348,7 +348,7 @@ blocks:
 
       Chobble Tickets is run by one person as a UK
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a legal structure that locks the company's assets for
+      (CIC), a legal structure that locks the company's assets for
       community benefit. There is no per-user pricing and no AI add-on.
       Income comes from the £50 annual fee paid by managed-hosting
       customers.

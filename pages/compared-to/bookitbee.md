@@ -136,13 +136,13 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain whenever you're ready
+        domain whenever you are ready
       - **[Embeddable widget](/features/embeddable-widget/)** - drop an
         iframe into your website
       - **No marketing to your attendees** - your audience stays yours
-      - **Community Interest Company** - run by a CIC, not a for-profit
+      - **Community Interest Company** - run by a CIC, with profits reinvested rather than distributed to shareholders
 
       ## When BookitBee might be better
 
@@ -188,7 +188,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.

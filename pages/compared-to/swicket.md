@@ -142,8 +142,8 @@ blocks:
       - **[Event groups](/features/groups/)** - organise related events into
         collections for multi-event bookings with a single checkout
       - **No marketing to your attendees** - your audience stays yours
-      - **Community Interest Company** - run by a CIC, not a commercial
-        software studio
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
       ## When Swicket / alf.io might be the better choice
 
@@ -197,7 +197,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.

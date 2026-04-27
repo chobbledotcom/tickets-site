@@ -145,8 +145,8 @@ blocks:
         iframe into your website
       - **No booking limits** - sell as many tickets as you like on one
         plan, with no overage charges
-      - **Community Interest Company** - run by a CIC, not a
-        privately-owned for-profit company
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
   - type: markdown
     content: |
@@ -205,7 +205,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on
       Chobble as a company.

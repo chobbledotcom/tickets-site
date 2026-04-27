@@ -145,14 +145,14 @@ blocks:
         domain, not the platform's
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         host-provided subdomain instantly, or point your own domain
       - **Apple Pay and Google Pay** - accept wallet payments at checkout
         via Stripe
       - **Transparent pricing** - no hidden fees, no negotiations, no drip
         pricing
-      - **Community Interest Company** - run by a CIC, not a private equity
-        portfolio company
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
       ## Data ownership and security
 
@@ -221,7 +221,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.

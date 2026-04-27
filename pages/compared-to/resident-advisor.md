@@ -133,7 +133,7 @@ blocks:
         attendees choose their price
       - **[Daily/recurring event support](/features/daily-events/)** - built
         for events that repeat on a schedule with per-date capacity
-      - **[Custom domain support](/features/custom-domain/)** - get a nice
+      - **[Custom domain support](/features/custom-domain/)** - get a
         host-provided subdomain instantly, or point your own domain
       - **Self-hosting option** - run the platform on your own servers for
         free
@@ -203,7 +203,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a type of UK company that has to use its money to help the
+      (CIC), a type of UK company that has to use its money to help the
       community. All of Chobble's code is public, and anyone can run the
       platform on their own computers without depending on Chobble as a
       company.

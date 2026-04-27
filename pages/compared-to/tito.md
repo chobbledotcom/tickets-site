@@ -129,13 +129,13 @@ blocks:
         fully white-label experience
       - **[Admin API](/features/admin-api/)** - authenticated API with
         API keys for full event CRUD and reading private data
-      - **[Custom domain](/features/custom-domain/)** - get a nice
+      - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain - either way, not ti.to
+        domain
       - **No marketing to your attendees** - your audience stays yours,
         with no cross-promotion of competing events
-      - **Community Interest Company** - run by a CIC, not a for-profit
-        company
+      - **Community Interest Company** - run by a CIC, with profits
+        reinvested rather than distributed to shareholders
 
       ## Data ownership
 
@@ -196,7 +196,7 @@ blocks:
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC) - a UK legal structure that locks the company's assets for
+      (CIC), a UK legal structure that locks the company's assets for
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.

@@ -128,7 +128,7 @@ blocks:
         description: RESTful JSON API for building custom integrations, plus authenticated admin API with API keys for reading and editing private data.
       - icon: "hugeicons:dashboard-square-edit"
         title: '<a href="/features/admin-api/">Admin API</a>'
-        description: Full CRUD for events via API keys - create, update, list, delete, and toggle events programmatically with JSON.
+        description: Full CRUD for events via API keys (create, update, list, delete, and toggle events) programmatically with JSON.
       - icon: "hugeicons:notification-03"
         title: '<a href="/features/webhooks/">Webhooks</a>'
         description: Get POST notifications on every booking to integrate with your tools.

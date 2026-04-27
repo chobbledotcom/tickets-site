@@ -226,7 +226,7 @@ blocks:
 
   - type: cta
     title: Simple school event ticketing
-    description: Flat pricing with no per-ticket fees - more of your fundraising goes where it should.
+    description: Flat pricing with no per-ticket fees, so more of your fundraising goes to the cause.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
