@@ -14,8 +14,7 @@ blocks:
     title: Chobble Tickets vs Ticket Tailor
     lead: >-
       Ticket Tailor is an independently owned ticketing platform from
-      London, running since 2010, so here's how a small, open source
-      alternative compares.
+      London, running since 2010. This page compares it to Chobble Tickets.
 
   - type: markdown
     content: |
@@ -57,6 +56,7 @@ blocks:
       **Both platforms share some features:**
 
       - Online ticket sales with payment processing via Stripe or Square
+      - Apple Pay and Google Pay at checkout (via Stripe)
       - QR code scanning for check-in at the door
       - Email confirmations to attendees after booking
       - Capacity management to prevent overselling
@@ -80,9 +80,6 @@ blocks:
         you upload a venue floor plan and trace seats over it, so attendees
         can pick their own seat. Reserved seating consumes two credits per
         paid seated ticket
-      - **Multiple ticket types in one event** - sell Adult, Child, and
-        Concession tickets from a single event page (Chobble Tickets
-        achieves this by grouping separate events together)
       - **On-site point-of-sale** - the Ticket Tailor check-in app sells
         tickets in person and accepts card payments via the BBPOS WisePOS E
         terminal through Stripe Terminal, plus Tap to Pay or cash
@@ -98,8 +95,6 @@ blocks:
       - **Direct marketing integrations** - built-in connectors for
         Mailchimp, HubSpot, Constant Contact, and ActiveCampaign (Chobble
         Tickets connects to these tools through webhooks or Zapier)
-      - **Apple Pay and Google Pay** - documented support for digital
-        wallet payments through Stripe at checkout
       - **WordPress plugin** - official plugin for embedding events in
         WordPress sites
       - **PayPal support** - accept PayPal alongside card payments
@@ -112,7 +107,7 @@ blocks:
       - **Heat map for recurring events** - shows which dates and times
         are busiest at a glance
       - **B Corp certification** - Ticket Tailor is a certified B
-        Corporation, with an impact score of 123
+        Corporation
 
       **Chobble Tickets has features Ticket Tailor doesn't:**
 
@@ -122,11 +117,11 @@ blocks:
         AES-256 encryption at rest, but the data remains readable by
         Ticket Tailor staff
       - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3, no proprietary lock-in
-      - **Self-hosting option** - run the platform on your own servers for
-        free, with no licence fee
-      - **Flat annual pricing** - £50/year with no per-ticket fees, no
-        matter how many you sell, and no credit bundles to top up
+        public under AGPLv3
+      - **Self-hosting option** - run the platform on your own servers,
+        with no licence fee
+      - **Flat annual pricing** - £50/year with no per-ticket fees and no
+        credit bundles to top up
       - **[Subscribable ICS calendar feed](/features/rss-and-calendar-feeds/)** -
         a single feed that lists all your events, so subscribers get
         automatic updates when you add new ones (Ticket Tailor offers
