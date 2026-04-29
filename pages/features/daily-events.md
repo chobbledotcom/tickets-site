@@ -22,8 +22,9 @@ blocks:
 
       Daily events are designed for classes, workshops, and recurring sessions
       where each date has its own capacity. Attendees pick their date from a
-      calendar picker, and the system tracks availability per day so you never
-      overbook a session.
+      calendar picker, and the system tracks availability for each date
+      independently. The same [overbooking checks](/features/overbooking-prevention/)
+      apply to each date.
 
       ## Holiday and blackout dates
 

@@ -58,7 +58,8 @@ blocks:
       - **[Online payments](/features/stripe-and-square/)** - accept card
         payments via Stripe or Square
       - **[Capacity management](/features/overbooking-prevention/)** -
-        automatic limits so you never oversell
+        automatic capacity limits with refunds if two payments race for
+        the last ticket
       - **[QR code check-in](/features/qr-code-check-ins/)** - scan
         attendees in with any phone camera
       - **[Email confirmations](/features/email-templates/)** - automatic

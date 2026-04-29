@@ -33,7 +33,7 @@ blocks:
         description: Create volunteer sign-up sheets, potluck coordinators, and other form-based collections by setting an event as free.
       - icon: "hugeicons:clock-01"
         title: '<a href="/features/overbooking-prevention/">Overbooking prevention</a>'
-        description: If two payments race for the last ticket, the second is refunded automatically, so you never oversell.
+        description: If two payments race for the last ticket, the second is refunded automatically.
       - icon: "hugeicons:money-receive-square"
         title: '<a href="/features/refunds/">Refunds</a>'
         description: Process individual or bulk refunds directly from the admin panel with automatic payment provider sync.

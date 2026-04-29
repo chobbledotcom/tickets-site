@@ -147,7 +147,7 @@
 	{
 		"section": "Features and customisation",
 		"question": "Can I set capacity limits for events?",
-		"answer": "Yes. Each event has a capacity that you set when creating it. The <a href=\"/features/overbooking-prevention/\">overbooking prevention</a> system uses five-minute payment holds to reserve places during checkout, so two people cannot buy the last ticket at the same time. When an event is full, the booking form is disabled and a sold-out message is shown. <a href=\"/features/daily-events/\">Daily events</a> have separate capacity for each date, with optional holiday and blackout dates."
+		"answer": "Yes. Each event has a capacity that you set when creating it. The <a href=\"/features/overbooking-prevention/\">overbooking prevention</a> system uses five-minute payment holds to reserve places during checkout. If two people race for the last ticket, the second payment is refunded automatically. When an event is full, the booking form is disabled and a sold-out message is shown. The checks are a best effort and not a guarantee against bugs or infrastructure failures. <a href=\"/features/daily-events/\">Daily events</a> have separate capacity for each date, with optional holiday and blackout dates."
 	},
 	{
 		"section": "Features and customisation",
