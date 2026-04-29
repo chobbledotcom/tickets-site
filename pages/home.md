@@ -38,7 +38,7 @@ blocks:
         label: Open Source
 
   - type: features
-    header_intro: |
+    intro_content: |
       ## Why Chobble Tickets?
 
       Chobble is a community interest company. There is no venture capital

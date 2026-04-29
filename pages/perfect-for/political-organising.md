@@ -39,7 +39,7 @@ blocks:
 
   - type: features
     dark: true
-    header_intro: "## Features for political organisers"
+    intro_content: "## Features for political organisers"
     items:
       - icon: "hugeicons:source-code"
         title: Fully auditable

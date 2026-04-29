@@ -45,7 +45,7 @@ blocks:
 
   - type: features
     dark: true
-    header_intro: "## Built for fundraising"
+    intro_content: "## Built for fundraising"
     items:
       - icon: "hugeicons:money-receive-square"
         title: '<a href="/features/stripe-and-square/">Pay what you want</a>'

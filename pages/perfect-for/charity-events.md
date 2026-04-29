@@ -40,7 +40,7 @@ blocks:
 
   - type: features
     dark: true
-    header_intro: "## Features for charities"
+    intro_content: "## Features for charities"
     items:
       - icon: "hugeicons:user-multiple"
         title: Team access

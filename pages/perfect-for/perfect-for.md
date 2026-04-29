@@ -16,7 +16,7 @@ blocks:
       Tickets keeps things simple and affordable.
 
   - type: features
-    header_intro: "## Who uses Chobble Tickets?"
+    intro_content: "## Who uses Chobble Tickets?"
     items:
       - icon: "hugeicons:heart-check"
         title: '<a href="/perfect-for/charity-events/">Charity events</a>'

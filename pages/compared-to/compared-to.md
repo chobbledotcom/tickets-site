@@ -16,7 +16,7 @@ blocks:
       Tickets to one platform on pricing, features, and data ownership.
 
   - type: features
-    header_intro: |
+    intro_content: |
       ## Alternatives
 
       Click through to see a detailed comparison with each platform.

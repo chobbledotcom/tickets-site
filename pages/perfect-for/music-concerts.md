@@ -38,7 +38,7 @@ blocks:
 
   - type: features
     dark: true
-    header_intro: "## Built for live music"
+    intro_content: "## Built for live music"
     items:
       - icon: "hugeicons:qr-code"
         title: QR code door list

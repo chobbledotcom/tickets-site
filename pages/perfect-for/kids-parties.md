@@ -37,7 +37,7 @@ blocks:
 
   - type: features
     dark: true
-    header_intro: "## Features for party organisers"
+    intro_content: "## Features for party organisers"
     items:
       - icon: "hugeicons:user-list"
         title: Configurable contact fields

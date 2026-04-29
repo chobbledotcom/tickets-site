@@ -95,7 +95,7 @@ blocks:
 
   - type: features
     dark: true
-    header_intro: "## Built for small-scale events"
+    intro_content: "## Built for small-scale events"
     items:
       - icon: "hugeicons:money-receive-square"
         title: No per-ticket fees
