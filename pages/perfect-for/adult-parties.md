@@ -94,7 +94,7 @@ blocks:
 
   - type: features
     dark: true
-    header_intro: "## Built for events where discretion matters"
+    intro_content: "## Built for events where discretion matters"
     items:
       - icon: "hugeicons:security-check"
         title: Encrypted attendee data
@@ -107,7 +107,7 @@ blocks:
         description: One-click deploy to DigitalOcean, Heroku, Koyeb, or Render, or run it in Docker, on Fly.io, or on Bunny Edge Scripting. No attendee data needs to leave your infrastructure.
 
   - type: features
-    header_intro: "## No advertising, no data sales"
+    intro_content: "## No advertising, no data sales"
     items:
       - icon: "hugeicons:view-off"
         title: No data harvesting

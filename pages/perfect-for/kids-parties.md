@@ -25,9 +25,10 @@ blocks:
       Chobble Tickets sends a confirmation email with a QR code ticket, and
       at the door you scan with your phone to check guests in.
 
-      You can set capacity limits so you never end up with more kids than you
-      planned for, and the system holds spots for 5 minutes during payment to
-      prevent overbooking.
+      You can set capacity limits, and the system holds spots for 5 minutes
+      during payment so two parents are unlikely to buy the last spot at the
+      same time. If a race does happen, the second payment is refunded
+      automatically.
     figure_items:
       - icon: "hugeicons:smart-phone-01"
         text: "Parents book online without an account."
@@ -36,7 +37,7 @@ blocks:
 
   - type: features
     dark: true
-    header_intro: "## Features for party organisers"
+    intro_content: "## Features for party organisers"
     items:
       - icon: "hugeicons:user-list"
         title: Configurable contact fields
