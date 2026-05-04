@@ -16,12 +16,12 @@ blocks:
       Chobble Tickets is an open source ticketing platform with a flat annual
       fee, no booking fees or commission, and no attendee data collection.
     buttons:
-      - text: GitHub
-        href: https://github.com/chobbledotcom/tickets
+      - text: Sign Up
+        href: https://tix.chobble.com/ticket/register
         variant: primary
         size: lg
-      - text: Live Demo
-        href: https://tix.chobble.com
+      - text: GitHub
+        href: https://github.com/chobbledotcom/tickets
         variant: secondary
         size: lg
 
@@ -37,13 +37,65 @@ blocks:
       - value: "100%"
         label: Open Source
 
+  - type: split-icon-links
+    title: Pricing
+    subtitle: Flat annual fee. No per-ticket charges.
+    reverse: true
+    reveal_content: right
+    content: |
+      Managed hosting costs £50 per year. There are no service charges, no percentage cuts, and no surprise fees.
+
+      Charities, community groups, artists, and musicians receive a 50% discount.
+
+      Money from ticket sales goes directly to your Stripe or Square account. Chobble does not handle or touch your revenue.
+
+      The source code is available on GitHub for self-hosting. One-click deployment is available for DigitalOcean, Heroku, Koyeb, and Render.
+
+      [Compare all ticketing platforms](/compared-to/compare-all/) to see how Chobble Tickets' pricing works out against 20+ alternatives.
+    figure_items:
+      - icon: "hugeicons:money-receive-square"
+        text: "£50/year"
+        url: /compared-to/compare-all/
+      - icon: "hugeicons:ticket-01"
+        text: "Unlimited events and tickets"
+        url: /compared-to/compare-all/
+      - icon: "hugeicons:credit-card"
+        text: "No commission, no per-ticket fees"
+        url: /compared-to/compare-all/
+      - icon: "hugeicons:discount"
+        text: "50% discount for charities and artists"
+        url: /compared-to/compare-all/
+
   - type: features
     intro_content: |
-      ## Why Chobble Tickets?
+      ## Platform comparisons
 
-      Chobble is a community interest company. There is no venture capital
-      investment and no requirement to grow at the expense of users. The
-      software is funded by flat annual subscriptions.
+      Read how Chobble Tickets compares to other ticketing platforms on pricing, features, and data ownership.
+    items:
+      - icon: "hugeicons:chart-bar-line"
+        title: '[Compare all platforms](/compared-to/compare-all/)'
+        description: See every platform side by side with an interactive fee calculator.
+      - icon: "hugeicons:ticket-01"
+        title: '[vs Eventbrite](/compared-to/eventbrite/)'
+        description: The big name in ticketing. Compare fees, features, and data ownership.
+      - icon: "hugeicons:ticket-01"
+        title: '[vs Ticket Tailor](/compared-to/ticket-tailor/)'
+        description: An independently owned platform with flat per-ticket fees. Compare pricing models.
+      - icon: "hugeicons:ticket-01"
+        title: '[vs Fatsoma](/compared-to/fatsoma/)'
+        description: Popular with student events and nightlife. Compare fees and features.
+      - icon: "hugeicons:ticket-01"
+        title: '[vs BookitBee](/compared-to/bookitbee/)'
+        description: A UK-focused ticketing platform with per-ticket fees. Compare pricing and features.
+      - icon: "hugeicons:source-code"
+        title: '[vs Hi.Events](/compared-to/hi-events/)'
+        description: Another open source option. Compare features, hosting models, and pricing.
+
+  - type: features
+    intro_content: |
+      ## Features
+
+      Chobble Tickets includes every feature as standard. There are no paid add-ons or tiered plans.
     items:
       - icon: "hugeicons:lock"
         title: Encrypted by default
@@ -61,7 +113,7 @@ blocks:
         title: Your email provider
         description: Send confirmations through your choice of Resend, Postmark, SendGrid, or Mailgun.
       - icon: "hugeicons:globe-02"
-        title: Self-Hostable
+        title: Self-hostable
         description: Run Chobble Tickets on your own servers, or use the £50/year managed hosting at tix.chobble.com.
 
   - type: markdown
@@ -84,58 +136,7 @@ blocks:
       > unique to the user - so you can't have someone share a screenshot of
       > the QR code and scam free tickets."
 
-      [Read more reviews &rarr;](/reviews/)
-
-  - type: split-full
-    variant: dark-left
-    reveal_left: left
-    reveal_right: right
-    left_title: Perfect for
-    left_content: |
-      Chobble Tickets works for all kinds of events and organisations:
-
-      - **[Kids Parties](/perfect-for/kids-parties/)** - Simple booking for parents
-      - **[Music Concerts](/perfect-for/music-concerts/)** - Sell tickets directly, keep all the revenue
-      - **[Charity Events](/perfect-for/charity-events/)** - 50% discount for charities and community groups
-      - **[Political Organising](/perfect-for/political-organising/)** - Privacy-first event management
-    right_title: Features
-    right_content: |
-      - **[Open Source](/features/open-source/)** - AGPLv3, no hidden proprietary bits
-      - **[Encrypted](/features/encrypted/)** - PII encrypted at rest
-      - **[QR Code Check-ins](/features/qr-code-check-ins/)** - Scan to verify tickets
-      - **[Public & Admin API](/features/public-api/)** - Build your own integrations
-      - **[Webhooks](/features/webhooks/)** - Get notified on every booking
-      - **[Custom Domain](/features/custom-domain/)** - Nice URL from day one, own domain when ready
-      - **[Apple & Google Wallet](/features/apple-wallet/)** - Add tickets to Apple Wallet and Google Wallet
-      - **[Custom Questions](/features/custom-questions/)** - Collect answers at checkout
-      - **[Event Groups](/features/groups/)** - Multi-event bookings, single checkout
-      - **[Email Templates](/features/email-providers/)** - Customise confirmations with Liquid syntax
-      - **[All Features](/features/)** - Refunds, CSV exports, activity logs, and more
-      - **[FAQ](/faq/)** - Common questions about pricing, fees, and features
-
-  - type: split-icon-links
-    title: Flat, fair pricing
-    reverse: true
-    reveal_content: right
-    content: |
-      **[Managed hosting is £50/year](https://tix.chobble.com/ticket/register)** with no per-ticket fees, no
-      percentage cuts, and no surprise charges.
-
-      **50% discount** for charities, community groups, artists, and musicians.
-
-      Money from ticket sales goes straight to your Stripe or Square account.
-
-      You can also self-host for free. The source code is on GitHub, with
-      one-click deploy to DigitalOcean, Heroku, Koyeb, and Render. Or use
-      [GitHub-controlled deployments](/features/open-source/) for extra
-      security where you approve every update.
-    figure_items:
-      - icon: "hugeicons:money-receive-square"
-        text: "£50/year"
-      - icon: "hugeicons:ticket-01"
-        text: "Unlimited events and tickets"
-      - icon: "hugeicons:credit-card"
-        text: "No commission, no per-ticket fees"
+      [Read more reviews](/reviews/)
 
   - type: cta
     title: Get started
