@@ -73,22 +73,22 @@ blocks:
       Read how Chobble Tickets compares to other ticketing platforms on pricing, features, and data ownership.
     items:
       - icon: "hugeicons:chart-bar-line"
-        title: '[Compare all platforms](/compared-to/compare-all/)'
+        title: '<a href="/compared-to/compare-all/">Compare all platforms</a>'
         description: See every platform side by side with an interactive fee calculator.
       - icon: "hugeicons:ticket-01"
-        title: '[vs Eventbrite](/compared-to/eventbrite/)'
+        title: '<a href="/compared-to/eventbrite/">vs Eventbrite</a>'
         description: The big name in ticketing. Compare fees, features, and data ownership.
       - icon: "hugeicons:ticket-01"
-        title: '[vs Ticket Tailor](/compared-to/ticket-tailor/)'
+        title: '<a href="/compared-to/ticket-tailor/">vs Ticket Tailor</a>'
         description: An independently owned platform with flat per-ticket fees. Compare pricing models.
       - icon: "hugeicons:ticket-01"
-        title: '[vs Fatsoma](/compared-to/fatsoma/)'
+        title: '<a href="/compared-to/fatsoma/">vs Fatsoma</a>'
         description: Popular with student events and nightlife. Compare fees and features.
       - icon: "hugeicons:ticket-01"
-        title: '[vs BookitBee](/compared-to/bookitbee/)'
+        title: '<a href="/compared-to/bookitbee/">vs BookitBee</a>'
         description: A UK-focused ticketing platform with per-ticket fees. Compare pricing and features.
       - icon: "hugeicons:source-code"
-        title: '[vs Hi.Events](/compared-to/hi-events/)'
+        title: '<a href="/compared-to/hi-events/">vs Hi.Events</a>'
         description: Another open source option. Compare features, hosting models, and pricing.
 
   - type: features
