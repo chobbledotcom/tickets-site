@@ -20,10 +20,9 @@ blocks:
     content: |
       ## Stefan Burke
 
-      ![Photo of Stefan Burke](https://chobble.com/img/4aj6l_LXN3-200.png)
-
       Stefan Burke (known as Stef) has worked as a software developer for over
-      20 years. He runs Chobble from Prestwich, Manchester.
+      20 years. He runs Chobble from Prestwich, Manchester. A photo and short
+      profile is on [chobble.com/principles](https://chobble.com/principles).
 
       Before Chobble, Stef spent five years at
       [Bandcamp](https://bandcamp.com), the online music shop that pays out
@@ -84,15 +83,12 @@ blocks:
     content: |
       ## Registered office
 
-      Chobble CIC
-      27 The Crescent
-      Prestwich
-      Manchester M25 1FL
-      United Kingdom
+      Chobble CIC's registered office is at 27 The Crescent, Prestwich,
+      Manchester M25 1FL, United Kingdom.
 
       ## Company registration
 
-      Community Interest Company number: 17050113
+      Community Interest Company number: 17050113.
 
       ## Data protection
 
@@ -102,7 +98,7 @@ blocks:
       of personal data, including the data of event attendees on managed
       hosting.
 
-      | | |
+      | Item | Value |
       |---|---|
       | Registration reference | [ZC097497](https://ico.org.uk/ESDWebPages/Entry/ZC097497) |
       | Date registered | 24 February 2026 |
