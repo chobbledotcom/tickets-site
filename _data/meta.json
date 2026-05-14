@@ -6,16 +6,23 @@
 		"foundingDate": "2020",
 		"founders": [
 			{
-				"name": "Stef"
+				"name": "Stefan Burke",
+				"givenName": "Stefan",
+				"familyName": "Burke",
+				"jobTitle": "Founder",
+				"description": "Software developer with over 20 years of experience. Spent five years on the payments and growth teams at Bandcamp, and ten years as the lead developer at Bouncy Castle Network.",
+				"url": "https://stefn.co.uk",
+				"image": "https://chobble.com/img/4aj6l_LXN3-200.png"
 			}
 		],
 		"address": {
-			"streetAddress": "",
-			"addressLocality": "Manchester",
+			"streetAddress": "27 The Crescent",
+			"addressLocality": "Prestwich",
 			"addressRegion": "Greater Manchester",
-			"postalCode": "",
+			"postalCode": "M25 1FL",
 			"addressCountry": "GB"
 		},
+		"identifier": "17050113",
 		"contactPoint": [
 			{
 				"contactType": "customer service",
