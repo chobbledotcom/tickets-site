@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Fully open source
-    lead: >-
-      Every line of code is public and every feature is included, licensed
-      under AGPLv3 with no proprietary extensions.
-
+    lead: Every line of code is public and every feature is included, licensed under AGPLv3 with no proprietary extensions.
+    name: Fully open source
   - type: markdown
     content: |
       ## The full codebase is open source
@@ -70,7 +67,6 @@ blocks:
       Bunny platform handles all of that. This makes self-hosting Chobble
       Tickets closer to deploying a static site than running a web
       application.
-
   - type: markdown
     content: |
       ## References
@@ -79,13 +75,15 @@ blocks:
       - [Chobble Tickets on GitHub](https://github.com/chobbledotcom/tickets)
       - [Bunny.net Edge Scripting](https://bunny.net/blog/introducing-bunny-edge-scripting-a-better-way-to-build-and-deploy-applications-at-the-edge/) - the serverless platform used for self-hosting
       - [Deno runtime](https://deno.com/) - the JavaScript runtime Chobble Tickets is built on
-
   - type: cta
-    title: Get started
-    description: Sign up for managed hosting at £50/year, or grab the source from GitHub and self-host for free.
     button:
       text: Sign Up
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
+    content: |-
+      ## Get started
+
+      Sign up for managed hosting at £50/year, or grab the source from GitHub and self-host for free.
+name: Open Source Ticketing - Chobble Tickets
 ---

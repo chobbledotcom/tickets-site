@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: QR code check-ins
-    lead: >-
-      Every ticket gets a unique QR code that staff can scan with their phone
-      camera, with no app to install or special hardware needed.
-
+    lead: Every ticket gets a unique QR code that staff can scan with their phone camera, with no app to install or special hardware needed.
+    name: QR code check-ins
   - type: markdown
     content: |
       ## How it works
@@ -42,7 +39,6 @@ blocks:
 
       Read the [tickets documentation](https://chobbledotcom.github.io/tickets/docs/tickets.ts)
       for details on QR code generation and SVG ticket rendering.
-
   - type: markdown
     content: |
       ## What organisers say
@@ -59,13 +55,15 @@ blocks:
       > outs."
 
       [Read more reviews &rarr;](/reviews/)
-
   - type: cta
-    title: Scan tickets at the door
-    description: All you need is a phone camera to scan QR codes at the door.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Scan tickets at the door
+
+      All you need is a phone camera to scan QR codes at the door.
+name: QR Code Check-ins - Chobble Tickets
 ---

@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Light & dark themes
-    lead: >-
-      Built-in public site with light and dark theme options, so your booking
-      pages match your brand.
-
+    lead: Built-in public site with light and dark theme options, so your booking pages match your brand.
+    name: Light & dark themes
   - type: markdown
     content: |
       ## Choose your look
@@ -36,13 +33,15 @@ blocks:
       Both themes are responsive and work on phones, tablets, and desktops.
       The layout adapts to the screen size so your events look great on
       every device.
-
   - type: cta
-    title: Match your brand
-    description: Choose a light or dark theme for your public booking pages.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Match your brand
+
+      Choose a light or dark theme for your public booking pages.
+name: Light & Dark Themes - Chobble Tickets
 ---

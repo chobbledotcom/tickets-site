@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Public & Admin API
-    lead: >-
-      A RESTful JSON API with public endpoints for event listings and an
-      authenticated admin API for reading and editing private data, so you
-      can build custom frontends, integrations, and automations.
-
+    lead: A RESTful JSON API with public endpoints for event listings and an authenticated admin API for reading and editing private data, so you can build custom frontends, integrations, and automations.
+    name: Public & Admin API
   - type: markdown
     content: |
       ## Build what you need
@@ -50,13 +46,15 @@ blocks:
       for widget setup, and the full
       [API documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html)
       for endpoint details.
-
   - type: cta
-    title: Integrate anywhere
-    description: Use the API to build exactly what you need.
     button:
       text: Read the API Docs
       href: https://chobbledotcom.github.io/tickets/doc.ts/index.html
       variant: secondary
       size: lg
+    content: |-
+      ## Integrate anywhere
+
+      Use the API to build exactly what you need.
+name: Public & Admin API - Chobble Tickets
 ---

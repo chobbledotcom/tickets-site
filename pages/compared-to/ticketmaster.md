@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Ticketmaster
-    lead: >-
-      Ticketmaster handles ticketing for large venues and arenas. Here is how
-      Chobble Tickets compares for smaller events.
-
+    lead: Ticketmaster handles ticketing for large venues and arenas. Here is how Chobble Tickets compares for smaller events.
+    name: Chobble Tickets vs Ticketmaster
   - type: markdown
     content: |
       ## Completely different scale
@@ -39,10 +36,8 @@ blocks:
       fees](/features/no-per-ticket-fees/), and payment processing fees from
       Stripe or Square are the only other cost (which go directly to the
       payment processor, not to us).
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -182,7 +177,6 @@ blocks:
         feeds](/features/rss-and-calendar-feeds/), or a [public
         API](/features/public-api/)
       - You don't want a platform marketing competing events to your audience
-
   - type: markdown
     content: |
       ## Who owns Ticketmaster?
@@ -199,7 +193,6 @@ blocks:
       a type of UK company that exists to benefit the community. All of
       Chobble's code is public, and anyone can run the platform on their
       own servers.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -213,13 +206,15 @@ blocks:
       - [Ticketmaster Business Solutions](https://business.ticketmaster.com/solutions/) - features for venues and organisers
       - [SafeTix](https://www.ticketmaster.com/safetix) - encrypted barcode technology
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Independent ticketing
-    description: Flat annual pricing with no per-ticket fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Independent ticketing
+
+      Flat annual pricing with no per-ticket fees.
+name: Independent Alternative to Ticketmaster | Chobble Tickets
 ---

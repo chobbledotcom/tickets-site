@@ -10,10 +10,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Reviews
-    lead: >-
-      What organisers say about Chobble Tickets.
-
+    lead: What organisers say about Chobble Tickets.
+    name: Reviews
   - type: markdown
     content: |
       ## Elliott's Bouncy Castle Hire
@@ -56,7 +54,6 @@ blocks:
       > to pay £50 a year for Chobble, but that cost is absorbed in less than
       > the first event. It's literally paying for itself on the first event
       > and still saving nearly £100."
-
   - type: markdown
     content: |
       ## Paul
@@ -67,13 +64,15 @@ blocks:
       > it's a game changer. Saves us a few bob and made it easier for
       > customers! The QR system is a game changer! No more holding data on
       > paper, it's now all simple."
-
   - type: cta
-    title: Try it yourself
-    description: See why event organisers are switching to Chobble Tickets.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try it yourself
+
+      See why event organisers are switching to Chobble Tickets.
+name: Reviews - Chobble Tickets
 ---

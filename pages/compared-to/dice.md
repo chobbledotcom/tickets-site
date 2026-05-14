@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs DICE
-    lead: >-
-      DICE is a mobile-first ticketing platform popular with music venues and
-      live events. Here is how Chobble Tickets compares on pricing, features,
-      and data ownership.
-
+    lead: DICE is a mobile-first ticketing platform popular with music venues and live events. Here is how Chobble Tickets compares on pricing, features, and data ownership.
+    name: Chobble Tickets vs DICE
   - type: markdown
     content: |
       ## Pricing comparison
@@ -31,10 +27,8 @@ blocks:
       processing fees on top. If you sell more than a few dozen tickets in a
       year at typical prices, Chobble Tickets is already cheaper, and the
       savings grow the more you sell.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Data ownership and privacy
@@ -182,7 +176,6 @@ blocks:
       - You value open source and the ability to self-host
       - You want full control over your brand and checkout experience
       - You're selling enough tickets that per-ticket fees add up quickly
-
   - type: markdown
     content: |
       ## Who owns DICE?
@@ -199,7 +192,6 @@ blocks:
       a type of UK company that exists to benefit the community, not to
       make profit for shareholders. All of Chobble's code is public, and
       anyone can run the platform on their own servers.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -214,13 +206,15 @@ blocks:
       - [DICE Ticket Holders API](https://partners-endpoint.dice.fm/graphql/docs/index.html) - GraphQL API documentation
       - [Hi.Events DICE comparison](https://hi.events/dice-alternative) - third-party comparison estimating DICE fees
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Flat pricing, encrypted data, no app required, and no per-ticket fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Flat pricing, encrypted data, no app required, and no per-ticket fees.
+name: Open Source Alternative to DICE | Chobble Tickets
 ---

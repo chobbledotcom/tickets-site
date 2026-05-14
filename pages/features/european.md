@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: European infrastructure
-    lead: >-
-      Chobble is a UK company hosted on Bunny.net in Slovenia. Attendee
-      data stays in the EU, so processing is covered by UK-GDPR and EU
-      data protection law rather than the US CLOUD Act.
-
+    lead: Chobble is a UK company hosted on Bunny.net in Slovenia. Attendee data stays in the EU, so processing is covered by UK-GDPR and EU data protection law rather than the US CLOUD Act.
+    name: European infrastructure
   - type: markdown
     content: |
       ## Where each part of Chobble is based
@@ -38,7 +34,6 @@ blocks:
       registered in England. A community interest company cannot distribute
       profit to shareholders, and its assets are locked to its stated social
       purpose.
-
   - type: markdown
     dark: true
     content: |
@@ -61,7 +56,6 @@ blocks:
       configured to keep data in EU regions. You can also
       [run your own instance](/hosting/) and pick whichever region suits
       you.
-
   - type: markdown
     content: |
       ## What this means for GDPR
@@ -87,7 +81,6 @@ blocks:
       The [UK has an adequacy decision with the EU](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en),
       so attendee data can flow between Chobble (UK) and Bunny (Slovenia)
       without additional safeguards.
-
   - type: markdown
     dark: true
     content: |
@@ -112,7 +105,6 @@ blocks:
       third party sees attendee email addresses. Attendees still receive
       their tickets on the confirmation page and can add them to Apple or
       Google Wallet.
-
   - type: markdown
     content: |
       ## Where Chobble cannot avoid US companies
@@ -139,7 +131,6 @@ blocks:
       Microsoft. GitHub holds the code, not attendee data. The code is also
       mirrored on [git.chobble.com](https://git.chobble.com), a self-hosted
       Forgejo instance. You can fork from either one.
-
   - type: markdown
     dark: true
     content: |
@@ -165,7 +156,6 @@ blocks:
       events that might attract official attention (political organising,
       campaigns on contested issues, migrant and refugee support, and
       reproductive healthcare) it is a more immediate concern.
-
   - type: markdown
     content: |
       ## A note on the domain registrar
@@ -187,7 +177,6 @@ blocks:
       with a small Swedish operator rather than a US-based registrar,
       which is consistent with the rest of the stack. If you self-host,
       you pick your own registrar.
-
   - type: markdown
     content: |
       ## For self-hosters
@@ -203,7 +192,6 @@ blocks:
       Madrid, Paris, Stockholm, and Warsaw),
       [Scaleway](https://www.scaleway.com) in France, or
       [Hetzner](https://www.hetzner.com) in Germany and Finland.
-
   - type: markdown
     dark: true
     content: |
@@ -216,13 +204,15 @@ blocks:
       - [UK Community Interest Companies guidance](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       - [US CLOUD Act (Wikipedia)](https://en.wikipedia.org/wiki/CLOUD_Act)
       - [UK-EU adequacy decision](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en)
-
   - type: cta
-    title: Run events on European infrastructure
-    description: Sign up for managed hosting at £50/year, or self-host in the region of your choice.
     button:
       text: Sign Up
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
+    content: |-
+      ## Run events on European infrastructure
+
+      Sign up for managed hosting at £50/year, or self-host in the region of your choice.
+name: European Hosting and Data - Chobble Tickets
 ---

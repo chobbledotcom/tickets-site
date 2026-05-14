@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Fatsoma
-    lead: >-
-      Fatsoma is popular with student events and nightlife promoters. Here's
-      how a small, open source alternative compares on pricing, features,
-      and data ownership.
-
+    lead: Fatsoma is popular with student events and nightlife promoters. Here's how a small, open source alternative compares on pricing, features, and data ownership.
+    name: Chobble Tickets vs Fatsoma
   - type: markdown
     content: |
       ## Pricing comparison
@@ -34,10 +30,8 @@ blocks:
       On higher-priced tickets the gap grows quickly. A £30 ticket costs you
       £3.00 in Fatsoma platform fees alone, meaning 60 tickets to break even
       against a full year of Chobble Tickets.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Data ownership and privacy
@@ -177,7 +171,6 @@ blocks:
       - You want Apple/Google Wallet integration, calendar feeds, or RSS
       - You value open source and the ability to self-host
       - You're selling enough tickets that 10% per ticket adds up quickly
-
   - type: markdown
     content: |
       ## Who owns Fatsoma?
@@ -197,7 +190,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -211,13 +203,15 @@ blocks:
       - [The Fatsoma App](https://ticketing.fatsoma.com/f/the-fatsoma-app) - consumer mobile app
       - [Chobble Tickets features](/features/)
       - [Fatsoma Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/05495880) - corporate structure
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Flat pricing, encrypted data, and no per-ticket fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Flat pricing, encrypted data, and no per-ticket fees.
+name: Open Source Alternative to Fatsoma | Chobble Tickets
 ---

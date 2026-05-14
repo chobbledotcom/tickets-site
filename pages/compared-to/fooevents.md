@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs FooEvents
-    lead: >-
-      FooEvents is a set of WordPress plugins that adds ticket sales to a
-      WooCommerce shop. Chobble Tickets is a dedicated ticketing platform.
-      Here is how they compare.
-
+    lead: FooEvents is a set of WordPress plugins that adds ticket sales to a WooCommerce shop. Chobble Tickets is a dedicated ticketing platform. Here is how they compare.
+    name: Chobble Tickets vs FooEvents
   - type: markdown
     content: |
       ## Two different approaches
@@ -34,7 +30,6 @@ blocks:
       Which one is right depends on whether you already run a WordPress
       shop and want ticketing to sit inside it, or whether you want
       ticketing as its own thing.
-
   - type: markdown
     content: |
       ## Pricing comparison
@@ -93,7 +88,6 @@ blocks:
       [no per-ticket fees](/features/no-per-ticket-fees/). You pay
       Stripe or Square processing fees on top. Charities and community
       groups pay £25/year. Self-hosting is free.
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -113,7 +107,6 @@ blocks:
       - Refund processing (via the payment gateway)
       - Support for free events
       - Custom domain support for event pages
-
   - type: markdown
     content: |
       **FooEvents has features Chobble Tickets doesn't:**
@@ -161,7 +154,6 @@ blocks:
         WooCommerce plugin, you can add any of the thousands of
         WooCommerce extensions to extend checkout, marketing,
         shipping, or reporting
-
   - type: markdown
     content: |
       **Chobble Tickets has features FooEvents doesn't:**
@@ -214,7 +206,6 @@ blocks:
         with an edge database, so there is no server to patch.
         FooEvents runs on your WordPress site, which you are
         responsible for keeping patched and online
-
   - type: markdown
     content: |
       ## Setup and hosting
@@ -240,7 +231,6 @@ blocks:
       without your private key. If you want full control of the
       infrastructure, you can [self-host](/features/open-source/)
       Chobble Tickets instead. The code is AGPLv3 with no paid tier.
-
   - type: markdown
     content: |
       ## Licensing tiers
@@ -255,7 +245,6 @@ blocks:
       Chobble Tickets does not use per-domain licensing. The £50/year
       hosted plan covers your account, and self-hosting the AGPLv3
       code costs nothing regardless of how many sites you run.
-
   - type: markdown
     content: |
       ## Data and attendee privacy
@@ -274,7 +263,6 @@ blocks:
       personal data with RSA-OAEP + AES-256-GCM, so an attacker who
       reaches the database still cannot read it without the private
       key.
-
   - type: markdown
     content: |
       ## When FooEvents might be the better choice
@@ -310,7 +298,6 @@ blocks:
       - You prefer to work with a
         [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
         rather than a commercial plugin vendor
-
   - type: markdown
     content: |
       ## Who builds FooEvents?
@@ -328,7 +315,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3
       with no paid tier, and the platform can be self-hosted by anyone
       without depending on Chobble as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -356,13 +342,15 @@ blocks:
       - [FooEvents 24-hour demo](https://fooevents.com/24-hour-demo/) -
         test the plugin in a sandbox
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Flat annual pricing, encrypted attendee data, and no WordPress site required.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Flat annual pricing, encrypted attendee data, and no WordPress site required.
+name: Chobble Tickets vs FooEvents | Hosted Ticketing vs a WooCommerce Plugin
 ---

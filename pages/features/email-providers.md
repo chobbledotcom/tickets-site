@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Choose your email provider
-    lead: >-
-      Send confirmation emails through the provider you already use, whether
-      that's Resend, Postmark, SendGrid, or Mailgun (including Mailgun EU).
-
+    lead: Send confirmation emails through the provider you already use, whether that's Resend, Postmark, SendGrid, or Mailgun (including Mailgun EU).
+    name: Choose your email provider
   - type: markdown
     content: |
       ## Your provider, your deliverability
@@ -43,7 +40,6 @@ blocks:
 
       See the [email documentation](https://chobbledotcom.github.io/tickets/docs/email.ts)
       for details on templates and provider configuration.
-
   - type: markdown
     content: |
       ## References
@@ -52,13 +48,15 @@ blocks:
       - [Postmark](https://postmarkapp.com/) - transactional email service
       - [SendGrid](https://sendgrid.com/) - email delivery platform
       - [Mailgun](https://www.mailgun.com/) - email API service (US and EU regions)
-
   - type: cta
-    title: Better email delivery
-    description: Use your own email provider for reliable ticket delivery.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Better email delivery
+
+      Use your own email provider for reliable ticket delivery.
+name: Email Provider Integration - Chobble Tickets
 ---

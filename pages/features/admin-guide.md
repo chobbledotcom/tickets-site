@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Built-in admin guide
-    lead: >-
-      Integrated documentation at /admin/guide covers every feature, so new
-      team members can get up to speed fast.
-
+    lead: Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
+    name: Built-in admin guide
   - type: markdown
     content: |
       ![The built-in admin guide with expandable FAQ sections](/images/screenshots/guide.png)
@@ -38,13 +35,15 @@ blocks:
 
       When you invite a new manager or owner, point them at the guide and
       they can learn the system at their own pace.
-
   - type: cta
-    title: Easy to learn
-    description: Get your team up to speed with the built-in admin guide.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Easy to learn
+
+      Get your team up to speed with the built-in admin guide.
+name: Built-in Admin Guide - Chobble Tickets
 ---

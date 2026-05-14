@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs PTA Events
-    lead: >-
-      PTA Events is a popular platform built specifically for PTAs and school
-      fundraising. This page compares Chobble Tickets against it on pricing,
-      features, and data ownership.
-
+    lead: PTA Events is a popular platform built specifically for PTAs and school fundraising. This page compares Chobble Tickets against it on pricing, features, and data ownership.
+    name: Chobble Tickets vs PTA Events
   - type: markdown
     content: |
       ## Different platforms, different approaches
@@ -60,10 +56,8 @@ blocks:
       you'd pay only the payment
       processing fee (roughly 35p on a £10 ticket via Stripe). The more
       tickets you sell, the bigger the difference.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -187,7 +181,6 @@ blocks:
       automations, or want a platform that works for non-school events too.
       And because it's open source, you can self-host for free if you want
       full control.
-
   - type: markdown
     content: |
       ## Who owns PTA Events?
@@ -207,7 +200,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -223,13 +215,15 @@ blocks:
       - [PTA Events website](https://www.pta-events.co.uk/)
       - [Chobble Tickets features](/features/)
       - [PTA Events Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/09404586) - corporate structure
-
   - type: cta
-    title: Simple school event ticketing
-    description: Flat pricing with no per-ticket fees, so more of your fundraising goes to the cause.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Simple school event ticketing
+
+      Flat pricing with no per-ticket fees, so more of your fundraising goes to the cause.
+name: Affordable Alternative to PTA Events for School Ticketing | Chobble Tickets
 ---

@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Ticketek
-    lead: >-
-      Ticketek handles ticketing for large venues across Australia and New
-      Zealand. Here is how Chobble Tickets compares for smaller events.
-
+    lead: Ticketek handles ticketing for large venues across Australia and New Zealand. Here is how Chobble Tickets compares for smaller events.
+    name: Chobble Tickets vs Ticketek
   - type: markdown
     content: |
       ## Different markets
@@ -44,10 +41,8 @@ blocks:
       [no per-ticket fees](/features/no-per-ticket-fees/). Payment processing
       fees from Stripe or Square are the only other cost, and they go
       directly to the payment processor.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -193,7 +188,6 @@ blocks:
         API](/features/public-api/)
       - You don't want a platform marketing competing events to your
         audience
-
   - type: markdown
     content: |
       ## Who owns Ticketek?
@@ -225,7 +219,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -248,13 +241,15 @@ blocks:
       - [TEG - The TEG Story](https://www.teg.com.au/the-teg-story/) -
         company history and ownership
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Independent ticketing
-    description: Flat annual pricing with no per-ticket fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Independent ticketing
+
+      Flat annual pricing with no per-ticket fees.
+name: Independent Alternative to Ticketek | Chobble Tickets
 ---

@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Stripe & Square payments
-    lead: >-
-      Accept card payments through Stripe or Square with fixed pricing or
-      pay-what-you-want, and process refunds directly from the admin panel.
-
+    lead: Accept card payments through Stripe or Square with fixed pricing or pay-what-you-want, and process refunds directly from the admin panel.
+    name: Stripe & Square payments
   - type: markdown
     content: |
       ## Two payment providers, your choice
@@ -40,20 +37,21 @@ blocks:
       When you process a refund from the admin panel, the payment provider
       refund happens automatically. There is no need to log into Stripe or
       Square separately. The refund is handled in one place.
-
   - type: markdown
     content: |
       ## References
 
       - [Stripe UK pricing](https://stripe.com/gb/pricing) - 1.5% + 20p per transaction
       - [Square UK pricing](https://squareup.com/gb/en/pricing)
-
   - type: cta
-    title: Start accepting payments
-    description: Connect Stripe or Square and start selling tickets in minutes.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Start accepting payments
+
+      Connect Stripe or Square and start selling tickets in minutes.
+name: Stripe & Square Payments - Chobble Tickets
 ---

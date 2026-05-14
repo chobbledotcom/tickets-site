@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Refunds
-    lead: >-
-      Process individual or bulk refunds directly from the admin panel, with
-      automatic payment provider sync through Stripe or Square.
-
+    lead: Process individual or bulk refunds directly from the admin panel, with automatic payment provider sync through Stripe or Square.
+    name: Refunds
   - type: markdown
     content: |
       ## One-click refunds
@@ -37,13 +34,15 @@ blocks:
       Refunded attendees are clearly marked in the admin panel so you can
       see at a glance who has been refunded and who hasn't, and the
       activity log records every refund for your audit trail.
-
   - type: cta
-    title: Hassle-free refunds
-    description: Process refunds in seconds from the admin panel.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Hassle-free refunds
+
+      Process refunds in seconds from the admin panel.
+name: Refunds - Chobble Tickets
 ---

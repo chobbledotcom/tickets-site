@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs EVENTIM.Light
-    lead: >-
-      EVENTIM.Light is the self-service ticketing platform from Europe's largest
-      ticketing company. Here's how a small, open source alternative compares
-      on pricing, features, and data ownership.
-
+    lead: EVENTIM.Light is the self-service ticketing platform from Europe's largest ticketing company. Here's how a small, open source alternative compares on pricing, features, and data ownership.
+    name: Chobble Tickets vs EVENTIM.Light
   - type: markdown
     content: |
       ## What is EVENTIM.Light?
@@ -33,7 +29,6 @@ blocks:
       It is a solid platform backed by serious infrastructure. The
       trade-offs (particularly around fees, data ownership, and flexibility)
       are worth understanding before you commit.
-
   - type: markdown
     content: |
       ## Pricing comparison
@@ -64,10 +59,8 @@ blocks:
       Also be aware that if you opt into the EVENTIM network distribution
       (selling through eventim.co.uk), buyers may incur an **additional
       advance booking fee on top of the 8%**.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Payouts
@@ -84,7 +77,6 @@ blocks:
       (typically 2–3 business days from each sale). You control your own
       payout schedule through Stripe or Square, not through the ticketing
       platform.
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -129,7 +121,6 @@ blocks:
         Apple Pay and Google Pay via Stripe, plus Square, but not PayPal)
       - **Video tutorials and quick guides** - step-by-step help resources
         built into the platform
-
   - type: markdown
     content: |
       **Chobble Tickets has features EVENTIM.Light doesn't:**
@@ -181,7 +172,6 @@ blocks:
         no cross-promotion of other events on the platform
       - **Community Interest Company** - run by a CIC, with profits
         reinvested rather than distributed to shareholders
-
   - type: markdown
     content: |
       ## Data ownership and privacy
@@ -218,7 +208,6 @@ blocks:
       encryption and stays entirely under your control. There's no platform
       marketing to your attendees, no joint data controller arrangement, and
       no third party with access to your customer data.
-
   - type: markdown
     content: |
       ## Flexibility and lock-in
@@ -241,7 +230,6 @@ blocks:
       Chobble Tickets lets you edit event details at any time before the event.
       There's no approval process, no locked settings, and no dependency on
       syncing windows.
-
   - type: markdown
     content: |
       ## When EVENTIM.Light might be the better choice
@@ -256,7 +244,6 @@ blocks:
       - You have very low volume and prefer paying 8% per ticket over an
         annual fee
       - You want promotion codes for marketing campaigns
-
   - type: markdown
     content: |
       ## When Chobble Tickets is the better choice
@@ -278,7 +265,6 @@ blocks:
         without restrictions
       - You sell enough tickets that 8% per ticket adds up to more than
         £50/year
-
   - type: markdown
     content: |
       ## Who owns CTS EVENTIM?
@@ -300,7 +286,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -315,13 +300,15 @@ blocks:
       - [EVENTIM.Light overview](https://www.eventimb2b.co.uk/ticketing-technology/eventim-light/) - B2B product page (250M+ tickets in 2019)
       - [Eventim UK on Trustpilot](https://uk.trustpilot.com/review/eventim.co.uk) - consumer reviews
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Flat pricing, encrypted data, and no per-ticket fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Flat pricing, encrypted data, and no per-ticket fees.
+name: Open Source Alternative to EVENTIM.Light | Chobble Tickets
 ---

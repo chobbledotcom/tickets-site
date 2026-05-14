@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Event groups
-    lead: >-
-      Organise related events together, let attendees book multiple events
-      in a single checkout, and create tiered ticket types with shared
-      capacity.
-
+    lead: Organise related events together, let attendees book multiple events in a single checkout, and create tiered ticket types with shared capacity.
+    name: Event groups
   - type: markdown
     content: |
       ![The groups management page for organising related events](/images/screenshots/groups.png)
@@ -69,13 +65,15 @@ blocks:
 
       See the [events documentation](https://chobbledotcom.github.io/tickets/docs/events.ts)
       for details on event grouping and availability management.
-
   - type: cta
-    title: Organise your events
-    description: Group events together for a better booking experience.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Organise your events
+
+      Group events together for a better booking experience.
+name: Event Groups & Tiered Ticket Types - Chobble Tickets
 ---

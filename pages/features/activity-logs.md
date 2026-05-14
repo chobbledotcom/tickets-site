@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Activity logs
-    lead: >-
-      Track all admin actions and booking activity with a built-in audit
-      trail.
-
+    lead: Track all admin actions and booking activity with a built-in audit trail.
+    name: Activity logs
   - type: markdown
     content: |
       ![The activity log showing a timeline of admin actions](/images/screenshots/activity-log.png)
@@ -38,13 +35,15 @@ blocks:
       When something goes wrong or an attendee has a question, the activity
       log lets you trace exactly what happened, so there's no guesswork
       involved.
-
   - type: cta
-    title: Full visibility
-    description: Track every action with built-in activity logs.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Full visibility
+
+      Track every action with built-in activity logs.
+name: Activity Logs - Chobble Tickets
 ---

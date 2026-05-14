@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Overbooking prevention
-    lead: >-
-      Capacity is checked when each payment is confirmed. If two people
-      race for the last ticket, the second is refunded automatically.
-
+    lead: Capacity is checked when each payment is confirmed. If two people race for the last ticket, the second is refunded automatically.
+    name: Overbooking prevention
   - type: markdown
     content: |
       ## How it works
@@ -50,13 +47,15 @@ blocks:
       database outage, or a delayed payment confirmation from Stripe or
       Square could still let an oversell through. If that happens,
       Chobble Tickets refunds the affected customer.
-
   - type: cta
-    title: Sell with confidence
-    description: Built-in capacity management for fixed-date and daily events.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Sell with confidence
+
+      Built-in capacity management for fixed-date and daily events.
+name: Overbooking Prevention - Chobble Tickets
 ---

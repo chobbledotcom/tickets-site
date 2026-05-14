@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs BookitBee
-    lead: >-
-      BookitBee is a UK-based ticketing platform. This page compares it to
-      Chobble Tickets.
-
+    lead: BookitBee is a UK-based ticketing platform. This page compares it to Chobble Tickets.
+    name: Chobble Tickets vs BookitBee
   - type: markdown
     content: |
       ## Pricing comparison
@@ -27,10 +24,8 @@ blocks:
       Chobble Tickets charges a flat £50/year (£25 for charities) with [no
       per-ticket fees](/features/no-per-ticket-fees/) or percentage cuts, which works out significantly
       cheaper for most event organisers.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -171,7 +166,6 @@ blocks:
         API](/features/public-api/)
       - You don't want a platform marketing to your attendees
       - You're selling enough tickets that percentage fees add up quickly
-
   - type: markdown
     content: |
       ## Who owns BookitBee?
@@ -192,7 +186,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -204,13 +197,15 @@ blocks:
       - [BookitBee features](https://www.bookitbee.com/features/)
       - [Chobble Tickets features](/features/)
       - [Live It Group Ltd on Companies House](https://find-and-update.company-information.service.gov.uk/company/08432364) - corporate structure
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Flat pricing with open source code and no lock-in.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Flat pricing with open source code and no lock-in.
+name: No-Fee Alternative to BookitBee | Chobble Tickets
 ---

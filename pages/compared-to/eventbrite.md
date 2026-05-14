@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Eventbrite
-    lead: >-
-      Eventbrite is the biggest name in event ticketing, so here's how a
-      small, open source alternative compares.
-
+    lead: Eventbrite is the biggest name in event ticketing, so here's how a small, open source alternative compares.
+    name: Chobble Tickets vs Eventbrite
   - type: markdown
     content: |
       ## Pricing comparison
@@ -28,7 +25,6 @@ blocks:
       Chobble Tickets is a flat £50/year with [no per-ticket fees](/features/no-per-ticket-fees/),
       so the maths is simple: if you sell more than a few dozen tickets
       a year, Chobble Tickets is cheaper.
-
   - type: markdown
     content: |
       > "Eventbrite takes £275 per event, but Chobble is £87.50. Sure, I have
@@ -37,10 +33,8 @@ blocks:
       > and still saving nearly £100."
 
       [Read more reviews &rarr;](/reviews/)
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -236,7 +230,6 @@ blocks:
         API](/features/public-api/)
       - You value [open source](/features/open-source/) and the ability to
         self-host
-
   - type: markdown
     content: |
       ## Who owns Eventbrite?
@@ -252,7 +245,6 @@ blocks:
       a type of UK company that exists to benefit the community. All of
       Chobble's code is public, and anyone can run the platform on their
       own servers.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -267,13 +259,15 @@ blocks:
       - [Eventbrite AI-powered marketing tools](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/) - 17% CPC and 30% campaign launch claims
       - [Eventbrite retargeting ROI](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/) - 6x average ROI claim
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Sign up for managed hosting at £50/year, or self-host for free.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Sign up for managed hosting at £50/year, or self-host for free.
+name: Open Source Alternative to Eventbrite | Chobble Tickets
 ---

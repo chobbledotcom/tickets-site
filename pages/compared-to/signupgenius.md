@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs SignUpGenius
-    lead: >-
-      SignUpGenius is the go-to tool for volunteer sign-up sheets and group
-      coordination, used by over 70 million people a year. It wasn't built
-      for event ticketing. This page compares it to a platform that was.
-
+    lead: SignUpGenius is the go-to tool for volunteer sign-up sheets and group coordination, used by over 70 million people a year. It wasn't built for event ticketing. This page compares it to a platform that was.
+    name: Chobble Tickets vs SignUpGenius
   - type: markdown
     content: |
       ## Different tools for different jobs
@@ -55,10 +51,8 @@ blocks:
 
       The comparison below uses SignUpGenius Tickets pricing ($0.25 per
       ticket, approx. 20p, plus Stripe processing).
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -179,7 +173,6 @@ blocks:
         with no cross-promotion of competing events or third-party ads
       - **Community Interest Company** - run by a CIC, with profits
         reinvested rather than distributed to shareholders
-
   - type: markdown
     content: |
       ## The ads problem
@@ -197,7 +190,6 @@ blocks:
 
       Chobble Tickets has no ads on any plan. Your event pages are always
       clean, professional, and free of third-party tracking.
-
   - type: markdown
     content: |
       ## Data ownership
@@ -219,7 +211,6 @@ blocks:
       under your control. The entire platform is open source, so you can
       self-host it and never depend on a third party. A full REST API and
       webhooks give you programmatic access to all your data.
-
   - type: markdown
     content: |
       ## When SignUpGenius might be the better choice
@@ -238,7 +229,6 @@ blocks:
       - You need text message reminders to participants
       - You're coordinating complex group activities with slot swapping
         and task management (e.g. weekly volunteer rotas with shift trades)
-
   - type: markdown
     content: |
       ## When Chobble Tickets is the better choice
@@ -260,7 +250,6 @@ blocks:
       - You value [open source](/features/open-source/) and the ability to
         self-host
       - You need webhooks or an API for custom integrations
-
   - type: markdown
     content: |
       ## Who owns SignUpGenius?
@@ -304,7 +293,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on
       Chobble as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -323,13 +311,15 @@ blocks:
       - [L Squared recapitalisation](https://psgequity.com/news/l-squared-recapitalizes-lumaverse-technologies) - 2023 recapitalisation alongside PSG
       - [SignUpGenius 100 million participants](https://www.signupgenius.com/news/signupgenius-empowers-organizers-to-engage-over-100-million-participants-through-comprehensive-group-management-platform) - 2025 growth announcement
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Ticketing and sign-up forms with no ads and no per-ticket fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Ticketing and sign-up forms with no ads and no per-ticket fees.
+name: Open Source Alternative to SignUpGenius | Chobble Tickets
 ---

@@ -158,5 +158,15 @@
 		"section": "Features and customisation",
 		"question": "What features does Chobble Tickets not have?",
 		"answer": "Chobble Tickets does not have an event discovery marketplace, built-in email marketing campaigns, social media advertising tools, promo codes, reserved seating with venue maps, waitlists, multi-currency support, virtual event hosting, a mobile app for organisers, or phone support. Many of these features exist on other platforms to justify a per-ticket fee. A discovery marketplace and social advertising tools give the platform a reason to take a percentage of your sales. Chobble does not take a cut, so it does not need to build those features. For event discovery and email marketing, dedicated tools like Songkick and Mailchimp are built specifically for those jobs. If you need event discovery to find new audiences, or venue-specific seating maps, a larger platform like Eventbrite may be a better fit - see the <a href=\"/compared-to/eventbrite/\">full comparison</a>. Chobble is limited to the features that event organisers need the most."
+	},
+	{
+		"section": "About Chobble",
+		"question": "Who runs Chobble Tickets?",
+		"answer": "Chobble Tickets is built and run by Stefan Burke, a software developer with over 20 years of experience. He spent five years at <a href=\"https://bandcamp.com\">Bandcamp</a> on the payments and growth teams, and ten years as the lead developer at Bouncy Castle Network. Chobble is registered as Chobble CIC (Community Interest Company number 17050113). The registered office is 27 The Crescent, Prestwich, Manchester M25 1FL. Chobble is registered with the Information Commissioner's Office under reference <a href=\"https://ico.org.uk/ESDWebPages/Entry/ZC097497\">ZC097497</a>. Read more on the <a href=\"/about/\">about page</a>."
+	},
+	{
+		"section": "About Chobble",
+		"question": "Where is Chobble Tickets based?",
+		"answer": "Chobble CIC is registered in England with its office at 27 The Crescent, Prestwich, Manchester M25 1FL. The platform itself runs on <a href=\"https://bunny.net\">Bunny.net</a> infrastructure in the EU. Read more about hosting locations on the <a href=\"/features/european/\">European</a> page, and more about the company on the <a href=\"/about/\">about page</a>."
 	}
 ]

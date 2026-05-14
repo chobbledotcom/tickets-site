@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Registration deadlines
-    lead: >-
-      Set cut-off times for bookings and configure purchase limits per event
-      or per attendee.
-
+    lead: Set cut-off times for bookings and configure purchase limits per event or per attendee.
+    name: Registration deadlines
   - type: markdown
     content: |
       ## Booking cut-off times
@@ -35,13 +32,15 @@ blocks:
       When the deadline passes or the capacity is reached, the booking form
       is automatically disabled. There's no manual intervention required -
       the system handles it for you.
-
   - type: cta
-    title: Control your bookings
-    description: Set deadlines and limits to manage your events effectively.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Control your bookings
+
+      Set deadlines and limits to manage your events effectively.
+name: Registration Deadlines - Chobble Tickets
 ---

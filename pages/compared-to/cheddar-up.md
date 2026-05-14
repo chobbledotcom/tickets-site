@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Cheddar Up
-    lead: >-
-      Cheddar Up is a payment collection platform popular with PTAs,
-      nonprofits, and community groups in the US. Here is how Chobble
-      Tickets compares.
-
+    lead: Cheddar Up is a payment collection platform popular with PTAs, nonprofits, and community groups in the US. Here is how Chobble Tickets compares.
+    name: Chobble Tickets vs Cheddar Up
   - type: markdown
     content: |
       ## Pricing comparison
@@ -36,10 +32,8 @@ blocks:
 
       The price comparison below uses the Team plan ($420/year, approx.
       £335) since that's what's required for ticketing with QR codes.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -196,7 +190,6 @@ blocks:
       - You value [open source](/features/open-source/) and the ability
         to self-host
       - You need an API or webhooks for custom integrations
-
   - type: markdown
     content: |
       ## Who owns Cheddar Up?
@@ -226,7 +219,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3,
       and the platform can be self-hosted by anyone without depending on
       Chobble as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -245,13 +237,15 @@ blocks:
       - [Cheddar Up custom branding](https://www.cheddarup.com/custom-branding/) - Brand Kit details
       - [Cheddar Up on Crunchbase](https://www.crunchbase.com/organization/cheddar-up) - funding and company details
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Flat annual pricing, open source code, and encrypted attendee data.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Flat annual pricing, open source code, and encrypted attendee data.
+name: Open Source Alternative to Cheddar Up | Chobble Tickets
 ---

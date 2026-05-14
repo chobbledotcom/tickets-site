@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Custom redirects
-    lead: >-
-      Send attendees to a custom URL after booking, perfect for thank-you
-      pages or post-purchase instructions.
-
+    lead: Send attendees to a custom URL after booking, perfect for thank-you pages or post-purchase instructions.
+    name: Custom redirects
   - type: markdown
     content: |
       ## Post-booking experience
@@ -36,13 +33,15 @@ blocks:
 
       Set the redirect URL in your event settings and it applies
       immediately, with no code changes or template editing required.
-
   - type: cta
-    title: Control the journey
-    description: Send attendees wherever you want after they book.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Control the journey
+
+      Send attendees wherever you want after they book.
+name: Custom Redirects - Chobble Tickets
 ---

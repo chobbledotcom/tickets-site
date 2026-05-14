@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Custom domain
-    lead: >-
-      Get a nice URL straight away with a host-provided subdomain, then
-      add your own custom domain whenever you're ready.
-
+    lead: Get a nice URL straight away with a host-provided subdomain, then add your own custom domain whenever you're ready.
+    name: Custom domain
   - type: markdown
     content: |
       ## A nice URL from day one
@@ -60,13 +57,15 @@ blocks:
       subscribe to your events in their calendar app or feed reader, and you
       can customise the homepage and contact page content directly from the
       admin panel.
-
   - type: cta
-    title: Get a nice URL today
-    description: Choose your host-provided subdomain and start selling tickets under your own brand.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Get a nice URL today
+
+      Choose your host-provided subdomain and start selling tickets under your own brand.
+name: Custom Domain - Chobble Tickets
 ---

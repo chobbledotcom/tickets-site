@@ -11,14 +11,12 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Fundraising and donations
-    lead: >-
-      Collect donations, sell raffle tickets, and run fundraising campaigns
-      with no per-transaction platform fees eating into what you raise.
-
+    lead: Collect donations, sell raffle tickets, and run fundraising campaigns with no per-transaction platform fees eating into what you raise.
+    name: Fundraising and donations
   - type: split-icon-links
-    title: More money for your cause
     content: |
+      ## More money for your cause
+
       Most payment collection platforms take a percentage of every
       transaction. On a £10,000 fundraiser, that's hundreds of pounds going
       to the platform rather than your fundraising total.
@@ -34,38 +32,36 @@ blocks:
       donations, raffle entries, club dues, school trip contributions, and
       more.
     figure_items:
-      - icon: "hugeicons:calendar-03"
+      - icon: hugeicons:calendar-03
         text: "Event name: Summer Appeal 2026"
-      - icon: "hugeicons:ticket-01"
+      - icon: hugeicons:ticket-01
         text: "Purchase only: ✓"
-      - icon: "hugeicons:money-receive-square"
+      - icon: hugeicons:money-receive-square
         text: "Price: Pay what you want"
-      - icon: "hugeicons:credit-card"
+      - icon: hugeicons:credit-card
         text: "Min: £5 · Suggested: £25"
-
   - type: features
     dark: true
     intro_content: "## Built for fundraising"
     items:
-      - icon: "hugeicons:money-receive-square"
-        title: '<a href="/features/stripe-and-square/">Pay what you want</a>'
+      - icon: hugeicons:money-receive-square
         description: Let supporters choose their own contribution above a minimum, so supporters can contribute more than the minimum if they choose to.
-      - icon: "hugeicons:ticket-01"
-        title: Raffle ticket sales
+        name: <a href="/features/stripe-and-square/">Pay what you want</a>
+      - icon: hugeicons:ticket-01
         description: Sell numbered raffle entries with quantity selection, so supporters can buy multiple tickets in a single checkout.
-      - icon: "hugeicons:user-multiple"
-        title: '<a href="/features/users/">Team access</a>'
+        name: Raffle ticket sales
+      - icon: hugeicons:user-multiple
         description: Invite volunteers and committee members as managers so your whole team can help without sharing one login.
-      - icon: "hugeicons:notification-03"
-        title: '<a href="/features/webhooks/">Webhooks</a>'
+        name: <a href="/features/users/">Team access</a>
+      - icon: hugeicons:notification-03
         description: Get notified instantly when someone contributes and pipe the data into your CRM or thank-you workflow.
-      - icon: "hugeicons:csv-02"
-        title: '<a href="/features/csv-export/">CSV export</a>'
+        name: <a href="/features/webhooks/">Webhooks</a>
+      - icon: hugeicons:csv-02
         description: Download a full list of supporters with their contributions and contact details for follow-up.
-      - icon: "hugeicons:help-circle"
-        title: '<a href="/features/custom-questions/">Custom questions</a>'
+        name: <a href="/features/csv-export/">CSV export</a>
+      - icon: hugeicons:help-circle
         description: Collect gift aid declarations, mailing list opt-ins, or any other information alongside the payment.
-
+        name: <a href="/features/custom-questions/">Custom questions</a>
   - type: markdown
     content: |
       ## Who uses Chobble Tickets for fundraising?
@@ -84,13 +80,15 @@ blocks:
       Fundraising collections work alongside regular ticketed events on the
       same account, so you can run a sponsored walk *and* sell tickets to
       the celebration party from the same place.
-
   - type: cta
-    title: Get the charity discount
-    description: Sign up for managed hosting at £25/year for charities and community groups.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Get the charity discount
+
+      Sign up for managed hosting at £25/year for charities and community groups.
+name: Online Fundraising & Donation Collection - Chobble Tickets
 ---

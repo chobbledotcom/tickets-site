@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: No spying
-    lead: >-
-      Chobble does not collect attendee data or use your events to market to
-      your attendees.
-
+    lead: Chobble does not collect attendee data or use your events to market to your attendees.
+    name: No spying
   - type: markdown
     content: |
       ## Your attendee data
@@ -61,13 +58,15 @@ blocks:
       information on Chobble Tickets compared to Eventbrite, Ticketmaster,
       and See Tickets, read
       [who can see your attendee data](/features/who-can-see-your-data/).
-
   - type: cta
-    title: Attendee data is not collected or shared
-    description: Sign up for managed hosting at £50/year, or self-host and keep everything on your own infrastructure.
     button:
       text: Sign Up
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
+    content: |-
+      ## Attendee data is not collected or shared
+
+      Sign up for managed hosting at £50/year, or self-host and keep everything on your own infrastructure.
+name: No Spying - Chobble Tickets
 ---

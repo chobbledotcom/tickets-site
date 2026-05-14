@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: RSS & calendar feeds
-    lead: >-
-      ICS calendar and RSS feeds for your events, so attendees can subscribe
-      in their calendar app or feed reader.
-
+    lead: ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.
+    name: RSS & calendar feeds
   - type: markdown
     content: |
       ## Calendar subscriptions
@@ -43,7 +40,6 @@ blocks:
       installation works as an external source in
       [Mobilizon](https://joinmobilizon.org/), the federated event
       platform, so your events can be discoverable across the fediverse.
-
   - type: markdown
     content: |
       ## References
@@ -51,13 +47,15 @@ blocks:
       - [RFC 5545](https://datatracker.ietf.org/doc/html/rfc5545) - iCalendar (ICS) specification
       - [RSS 2.0 specification](https://www.rssboard.org/rss-specification)
       - [Mobilizon](https://joinmobilizon.org/) - federated event platform by Framasoft
-
   - type: cta
-    title: Keep attendees informed
-    description: Let attendees subscribe to your events via calendar or RSS.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Keep attendees informed
+
+      Let attendees subscribe to your events via calendar or RSS.
+name: RSS & Calendar Feeds - Chobble Tickets
 ---

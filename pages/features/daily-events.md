@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Daily events
-    lead: >-
-      Run events on specific dates with per-date capacity, a built-in calendar
-      picker, and configurable holiday and blackout dates.
-
+    lead: Run events on specific dates with per-date capacity, a built-in calendar picker, and configurable holiday and blackout dates.
+    name: Daily events
   - type: markdown
     content: |
       ## Perfect for recurring bookings
@@ -40,13 +37,15 @@ blocks:
       left, and who's attending each session.
 
       ![The admin calendar view for managing daily events](/images/screenshots/calendar.png)
-
   - type: cta
-    title: Manage recurring events
-    description: Set up daily events with per-date capacity and blackout dates.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Manage recurring events
+
+      Set up daily events with per-date capacity and blackout dates.
+name: Daily Events - Chobble Tickets
 ---

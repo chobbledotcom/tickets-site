@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Email templates
-    lead: >-
-      Customise confirmation emails with Liquid syntax, including built-in
-      currency and pluralise filters.
-
+    lead: Customise confirmation emails with Liquid syntax, including built-in currency and pluralise filters.
+    name: Email templates
   - type: markdown
     content: |
       ## Full control over emails
@@ -42,13 +39,15 @@ blocks:
 
       See the [email documentation](https://chobbledotcom.github.io/tickets/docs/email.ts)
       for template variables and filter details.
-
   - type: cta
-    title: Branded emails
-    description: Customise your confirmation emails to match your brand.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Branded emails
+
+      Customise your confirmation emails to match your brand.
+name: Email Templates - Chobble Tickets
 ---

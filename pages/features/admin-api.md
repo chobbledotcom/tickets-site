@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Admin API
-    lead: >-
-      A RESTful JSON API for managing your events programmatically. Create,
-      update, list, and delete events with API key authentication, so you
-      can automate your workflow and build custom integrations.
-
+    lead: A RESTful JSON API for managing your events programmatically. Create, update, list, and delete events with API key authentication, so you can automate your workflow and build custom integrations.
+    name: Admin API
   - type: markdown
     content: |
       ## Full event management
@@ -37,7 +33,6 @@ blocks:
       Every change is recorded in the
       [activity log](/features/activity-logs/), so you have a full audit
       trail of programmatic actions alongside manual ones.
-
   - type: markdown
     content: |
       ## Authentication
@@ -53,7 +48,6 @@ blocks:
       API key authentication means you can integrate with CI/CD pipelines,
       cron jobs, or any system that can make HTTP requests, with no browser
       session needed.
-
   - type: markdown
     content: |
       ## Every event option
@@ -69,7 +63,6 @@ blocks:
 
       You send JSON, you get JSON back. No form encoding or multipart
       uploads to worry about.
-
   - type: markdown
     content: |
       ## What's next
@@ -83,13 +76,15 @@ blocks:
       [webhooks](/features/webhooks/) system, and the
       [embeddable widget](/features/embeddable-widget/), you can build
       exactly the integration you need.
-
   - type: cta
-    title: Automate your events
-    description: Use the admin API to manage events from scripts, dashboards, or any tool that speaks HTTP.
     button:
       text: Read the API Docs
       href: https://chobbledotcom.github.io/tickets/doc.ts/index.html
       variant: secondary
       size: lg
+    content: |-
+      ## Automate your events
+
+      Use the admin API to manage events from scripts, dashboards, or any tool that speaks HTTP.
+name: Admin API - Chobble Tickets
 ---

@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Sign-up forms
-    lead: >-
-      Create volunteer sign-up sheets, potluck coordinators, and other
-      form-based collections by setting an event as free.
-
+    lead: Create volunteer sign-up sheets, potluck coordinators, and other form-based collections by setting an event as free.
+    name: Sign-up forms
   - type: markdown
     content: |
       ## How it works
@@ -81,13 +78,15 @@ blocks:
       assignments, a dedicated tool like SignUpGenius has features
       built specifically for that. See the
       [full comparison](/compared-to/signupgenius/).
-
   - type: cta
-    title: Create a sign-up form
-    description: Sign up for managed hosting at £50/year, or self-host for free.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Create a sign-up form
+
+      Sign up for managed hosting at £50/year, or self-host for free.
+name: Volunteer Sign-up Forms & Potluck Sheets | Chobble Tickets
 ---

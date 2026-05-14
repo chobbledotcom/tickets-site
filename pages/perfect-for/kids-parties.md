@@ -11,14 +11,12 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Ticketing for kids parties
-    lead: >-
-      Set up your event, share the booking link, and parents can register
-      online without creating an account.
-
+    lead: Set up your event, share the booking link, and parents can register online without creating an account.
+    name: Ticketing for kids parties
   - type: split-icon-links
-    title: Simple for parents
     content: |
+      ## Simple for parents
+
       Parents get a clean booking page where they can reserve spots for their
       kids without needing to create an account or download an app.
 
@@ -30,25 +28,23 @@ blocks:
       same time. If a race does happen, the second payment is refunded
       automatically.
     figure_items:
-      - icon: "hugeicons:smart-phone-01"
-        text: "Parents book online without an account."
-      - icon: "hugeicons:qr-code"
-        text: "You get a QR code door list."
-
+      - icon: hugeicons:smart-phone-01
+        text: Parents book online without an account.
+      - icon: hugeicons:qr-code
+        text: You get a QR code door list.
   - type: features
     dark: true
     intro_content: "## Features for party organisers"
     items:
-      - icon: "hugeicons:user-list"
-        title: Configurable contact fields
+      - icon: hugeicons:user-list
         description: Choose which contact details to collect (email, phone, and postal address) plus a special instructions field for dietary needs or allergies.
-      - icon: "hugeicons:money-receive-square"
-        title: Free or paid events
+        name: Configurable contact fields
+      - icon: hugeicons:money-receive-square
         description: If you're running a free party you can skip payment setup entirely, and if you're charging a fee the money goes straight to your account.
-      - icon: "hugeicons:csv-02"
-        title: Export guest lists
+        name: Free or paid events
+      - icon: hugeicons:csv-02
         description: Download your attendee list as a CSV anytime, useful for making name tags or planning catering.
-
+        name: Export guest lists
   - type: markdown
     content: |
       > "Most stay and plays are somewhere between £1–£4 a ticket. If you add
@@ -57,13 +53,15 @@ blocks:
       > should it go to the ticket platform? It's better off in your pocket."
 
       [Read more reviews &rarr;](/reviews/)
-
   - type: cta
-    title: Set up your party
-    description: Get started with Chobble Tickets. Managed hosting is £50/year with unlimited events.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Set up your party
+
+      Get started with Chobble Tickets. Managed hosting is £50/year with unlimited events.
+name: Ticketing for Kids Parties - Chobble Tickets
 ---

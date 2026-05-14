@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs FIXR
-    lead: >-
-      FIXR dominates UK student nightlife and event discovery. Here's how
-      a small, open source alternative compares on pricing, features, and
-      data ownership.
-
+    lead: FIXR dominates UK student nightlife and event discovery. Here's how a small, open source alternative compares on pricing, features, and data ownership.
+    name: Chobble Tickets vs FIXR
   - type: markdown
     content: |
       ## Pricing comparison
@@ -35,10 +31,8 @@ blocks:
       On higher-priced tickets the gap grows quickly. A £30 ticket costs
       £1.99 in FIXR fees, meaning about 38 tickets to break even against
       a full year of Chobble Tickets.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Data ownership and privacy
@@ -52,7 +46,6 @@ blocks:
       encryption and stays under your control. There's no marketplace
       showing competing events next to yours, and no marketing emails sent
       to your attendees by the platform.
-
   - type: markdown
     content: |
       ## Payouts
@@ -63,7 +56,6 @@ blocks:
       Chobble Tickets uses Stripe or Square directly, so payments go
       straight to your account with standard processing times. You're
       always in control of your own payment processor account.
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -140,7 +132,6 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax
       - **No marketing emails to attendees** - your audience stays yours
-
   - type: markdown
     content: |
       ## When FIXR might be better
@@ -164,7 +155,6 @@ blocks:
       - You want Apple/Google Wallet integration, calendar feeds, or RSS
       - You value open source and the ability to self-host
       - You're selling enough tickets that percentage fees add up quickly
-
   - type: markdown
     content: |
       ## Who owns FIXR?
@@ -184,7 +174,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3,
       and the platform can be self-hosted by anyone without depending on
       Chobble as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -197,13 +186,15 @@ blocks:
       - [FIXR event ticketing](https://fixr.co/p/event-ticketing) - ticketing features overview
       - [Chobble Tickets features](/features/)
       - [VIPR Digital Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/08184813) - corporate structure
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Flat pricing, encrypted data, and no per-ticket fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Flat pricing, encrypted data, and no per-ticket fees.
+name: Open Source Alternative to FIXR | Chobble Tickets
 ---
