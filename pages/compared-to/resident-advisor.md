@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Resident Advisor
-    lead: >-
-      Resident Advisor is the go-to ticketing platform for the electronic music
-      scene. Here's how a small, open source alternative compares on pricing,
-      features, and data ownership.
-
+    lead: Resident Advisor is the go-to ticketing platform for the electronic music scene. Here's how a small, open source alternative compares on pricing, features, and data ownership.
+    name: Chobble Tickets vs Resident Advisor
   - type: markdown
     content: |
       ## Pricing comparison
@@ -31,10 +27,8 @@ blocks:
       groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
       processing fees on top. Once you're selling more than a handful of
       events a year, Chobble Tickets usually works out cheaper.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Data ownership and privacy
@@ -187,7 +181,6 @@ blocks:
       - You value open source and the ability to self-host
       - You already have your own audience and don't need a platform to
         help people find you
-
   - type: markdown
     content: |
       ## Who owns Resident Advisor?
@@ -207,7 +200,6 @@ blocks:
       community. All of Chobble's code is public, and anyone can run the
       platform on their own computers without depending on Chobble as a
       company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -222,13 +214,15 @@ blocks:
       - [RA Pro](https://pro.ra.co/) - information for promoters selling tickets on RA
       - [RA About](https://ra.co/about) - company information
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Flat pricing, encrypted data, and no per-ticket fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Flat pricing, encrypted data, and no per-ticket fees.
+name: Open Source Alternative to Resident Advisor | Chobble Tickets
 ---

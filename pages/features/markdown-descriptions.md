@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Markdown descriptions
-    lead: >-
-      Write event descriptions in Markdown with header image uploads, so your
-      events look great without a page builder.
-
+    lead: Write event descriptions in Markdown with header image uploads, so your events look great without a page builder.
+    name: Markdown descriptions
   - type: markdown
     content: |
       ## Simple formatting
@@ -35,13 +32,15 @@ blocks:
       Markdown keeps you focused on what you're writing rather than how
       it looks. The built-in theme handles typography and layout, so your
       event descriptions are consistent and readable on every device.
-
   - type: cta
-    title: Beautiful event pages
-    description: Write event descriptions in Markdown and let the theme handle the rest.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Beautiful event pages
+
+      Write event descriptions in Markdown and let the theme handle the rest.
+name: Markdown Descriptions - Chobble Tickets
 ---

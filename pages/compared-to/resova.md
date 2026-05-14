@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Resova
-    lead: >-
-      Resova is an activity booking platform built for escape rooms, tours,
-      and experiences. Here is how a general-purpose, open source ticketing
-      platform compares.
-
+    lead: Resova is an activity booking platform built for escape rooms, tours, and experiences. Here is how a general-purpose, open source ticketing platform compares.
+    name: Chobble Tickets vs Resova
   - type: markdown
     content: |
       ## Pricing comparison
@@ -36,10 +32,8 @@ blocks:
       fees](/features/no-per-ticket-fees/) and no monthly booking limits,
       plus Stripe processing at 1.5% + 20p. Registered charities, schools,
       and community groups pay £25/year.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -147,7 +141,6 @@ blocks:
         plan, with no overage charges
       - **Community Interest Company** - run by a CIC, with profits
         reinvested rather than distributed to shareholders
-
   - type: markdown
     content: |
       ## Data ownership
@@ -193,7 +186,6 @@ blocks:
         feeds](/features/rss-and-calendar-feeds/), or a [public
         API](/features/public-api/)
       - You don't want a platform marketing to your attendees
-
   - type: markdown
     content: |
       ## Who owns Resova?
@@ -209,7 +201,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on
       Chobble as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -223,13 +214,15 @@ blocks:
       - [Resova Ltd on Companies House](https://find-and-update.company-information.service.gov.uk/company/09559910) -
         corporate structure
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Flat annual pricing, open source code, and no booking limits.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Flat annual pricing, open source code, and no booking limits.
+name: Open Source Alternative to Resova | Chobble Tickets
 ---

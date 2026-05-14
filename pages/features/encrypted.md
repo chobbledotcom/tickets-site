@@ -11,13 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Encrypted by default
-    lead: >-
-      Chobble Tickets encrypts your attendees' personal data with a
-      key that only your admin password can unlock. Even Chobble
-      staff cannot read your attendee data, because they do not have
-      your password. Every plan includes this encryption.
-
+    lead: Chobble Tickets encrypts your attendees' personal data with a key that only your admin password can unlock. Even Chobble staff cannot read your attendee data, because they do not have your password. Every plan includes this encryption.
+    name: Encrypted by default
   - type: markdown
     content: |
       ## How the encryption works
@@ -89,7 +84,6 @@ blocks:
       [who can see your attendee data](/features/who-can-see-your-data/)
       for a list of every company that can access your attendees'
       information.
-
   - type: markdown
     content: |
       ## References
@@ -110,13 +104,15 @@ blocks:
         check-in records, API credentials): AES-256-GCM.
       - **Password hashing and key derivation**: PBKDF2-SHA256 with
         600,000 iterations.
-
   - type: cta
-    title: Security you can audit
-    description: Sign up for managed hosting at £50/year, or read the encryption code yourself.
     button:
       text: Sign Up
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
+    content: |-
+      ## Security you can audit
+
+      Sign up for managed hosting at £50/year, or read the encryption code yourself.
+name: Encrypted Ticketing - Chobble Tickets
 ---

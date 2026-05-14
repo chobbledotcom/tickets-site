@@ -13,11 +13,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Pretix
-    lead: >-
-      Two open source ticketing platforms with very different models. This
-      page compares them on cost, complexity, and approach.
-
+    lead: Two open source ticketing platforms with very different models. This page compares them on cost, complexity, and approach.
+    name: Chobble Tickets vs Pretix
   - type: markdown
     content: |
       ## Two open source projects, two approaches
@@ -57,10 +54,8 @@ blocks:
 
       Chobble Tickets charges a flat £50/year regardless of how many tickets you
       sell or what you charge for them. No percentage cut, [no per-ticket fees](/features/no-per-ticket-fees/).
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Self-hosted pricing comparison
@@ -82,10 +77,8 @@ blocks:
       Self-hosting Pretix also means running a traditional server with
       Python, PostgreSQL, Redis, and a reverse proxy. That is infrastructure
       you need to manage, update, and keep online yourself.
-
   - type: include
     file: price-comparator-selfhosted.html
-
   - type: markdown
     content: |
       ## When Pretix might be the better choice
@@ -209,7 +202,6 @@ blocks:
       | [Daily events](/features/daily-events/) | Yes | Yes (with series) |
       | Badge printing | No | Yes (enterprise plugin) |
       | Lead scanning | No | Yes (enterprise plugin) |
-
   - type: markdown
     content: |
       ## Who builds Pretix?
@@ -232,7 +224,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3 with
       no enterprise tier or feature gates, and the platform can be
       self-hosted by anyone without depending on Chobble as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -248,13 +239,15 @@ blocks:
       - [Pretix plugin marketplace](https://marketplace.pretix.eu/) - 160+ official and third-party plugins
       - [Chobble Tickets features](/features/)
       - [Pretix company page](https://pretix.eu/about/en/company) - team and company information
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Simple, flat-rate ticketing with no percentage fees and no lock-in.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Simple, flat-rate ticketing with no percentage fees and no lock-in.
+name: Open Source Alternative to Pretix | Chobble Tickets
 ---

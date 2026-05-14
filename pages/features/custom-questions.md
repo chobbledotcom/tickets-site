@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Custom Questions
-    lead: >-
-      Create multiple-choice questions and assign them to events, so you can
-      collect the information you need from attendees at checkout.
-
+    lead: Create multiple-choice questions and assign them to events, so you can collect the information you need from attendees at checkout.
+    name: Custom Questions
   - type: markdown
     content: |
       ## Collect what you need to know
@@ -30,7 +27,6 @@ blocks:
       even if the same question is assigned to multiple events in the group.
 
       All questions are required, keeping your data complete and consistent.
-
   - type: markdown
     content: |
       ## Answers everywhere you need them
@@ -43,7 +39,6 @@ blocks:
       - **Attendees table** - answers appear as columns in the attendee list
       - **CSV export** - answers included in exported data
       - **Webhooks** - answers sent with webhook payloads for integrations
-
   - type: markdown
     content: |
       ## Multiple choice for now
@@ -55,13 +50,15 @@ blocks:
 
       Free-text questions and questions that affect booking values may come in
       the future.
-
   - type: cta
-    title: Collect the answers you need
-    description: Add custom questions to your events and see answers across your admin interface.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Collect the answers you need
+
+      Add custom questions to your events and see answers across your admin interface.
+name: Custom Questions - Chobble Tickets
 ---

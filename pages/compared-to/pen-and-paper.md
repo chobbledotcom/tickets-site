@@ -10,11 +10,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Pen and Paper
-    lead: >-
-      A clipboard and a guest list work for small gatherings. This page covers
-      what dedicated ticketing software adds.
-
+    lead: A clipboard and a guest list work for small gatherings. This page covers what dedicated ticketing software adds.
+    name: Chobble Tickets vs Pen and Paper
   - type: markdown
     content: |
       **Both approaches share some things:**
@@ -76,13 +73,15 @@ blocks:
         when you need a spreadsheet
       - **[Activity logs](/features/activity-logs/)** - see who did what
         and when
-
   - type: cta
-    title: Get started when you're ready
-    description: Start with managed hosting at £50/year, or self-host for free.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Get started when you're ready
+
+      Start with managed hosting at £50/year, or self-host for free.
+name: Digital Alternative to Paper Ticketing | Chobble Tickets
 ---

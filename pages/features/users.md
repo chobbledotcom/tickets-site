@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Multi-user management
-    lead: >-
-      Invite team members as managers so everyone gets their own login instead
-      of sharing passwords.
-
+    lead: Invite team members as managers so everyone gets their own login instead of sharing passwords.
+    name: Multi-user management
   - type: markdown
     content: |
       ![The users management page showing team members and their roles](/images/screenshots/users.png)
@@ -44,13 +41,15 @@ blocks:
 
       Read the [config documentation](https://chobbledotcom.github.io/tickets/docs/config.ts)
       for details on session management and user settings.
-
   - type: cta
-    title: Manage events as a team
-    description: Invite volunteers and committee members so everyone can manage events without sharing a single login.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Manage events as a team
+
+      Invite volunteers and committee members so everyone can manage events without sharing a single login.
+name: Multi-User Management - Chobble Tickets
 ---

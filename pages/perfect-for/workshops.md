@@ -12,15 +12,13 @@ blocks:
   - type: image-background
     image: /assets/background-yoga.png
     parallax: true
-    content: >-
+    content: |-
       # Ticketing for workshops and classes
-
-      With no per-ticket fees, where attendees can book
-      without creating an account or downloading an app.
-
+      With no per-ticket fees, where attendees can book without creating an account or downloading an app.
   - type: split-icon-links
-    title: When fees eat your margins
     content: |
+      ## When fees eat your margins
+
       You're running a Saturday cookery class for 12 people at £15 a head.
       That's £180 in ticket sales. On a typical platform you'll lose around
       £15 in service fees and payment processing before you've bought a single
@@ -36,16 +34,16 @@ blocks:
       attendees don't share their home address, phone number, and card details
       with a third-party platform.
     figure_items:
-      - icon: "hugeicons:ticket-01"
-        text: "12 seats × £15 = £180"
-      - icon: "hugeicons:money-send-02"
+      - icon: hugeicons:ticket-01
+        text: 12 seats × £15 = £180
+      - icon: hugeicons:money-send-02
         text: "Platform fees elsewhere: ~£15 per session"
-      - icon: "hugeicons:money-receive-square"
+      - icon: hugeicons:money-receive-square
         text: "Chobble Tickets: £0 per session"
-
   - type: split-icon-links
-    title: Stop coordinating over email
     content: |
+      ## Stop coordinating over email
+
       Picture this: you've planned a pottery workshop for next month. You post
       about it on social media, and the replies start coming in. "Can I bring a
       friend?" "Is there still space?" "Can you save me two spots?" Now you're
@@ -62,14 +60,14 @@ blocks:
       arrived and who hasn't. It turns a chaotic process into something you
       barely have to think about.
     figure_items:
-      - icon: "hugeicons:mail-01"
-        text: 'Before: DMs, emails, spreadsheets, "am I booked?"'
-      - icon: "hugeicons:smart-phone-01"
+      - icon: hugeicons:mail-01
+        text: "Before: DMs, emails, spreadsheets, \"am I booked?\""
+      - icon: hugeicons:smart-phone-01
         text: "After: One link. Self-service booking."
-
   - type: split-icon-links
-    title: Attendee data is encrypted and private
     content: |
+      ## Attendee data is encrypted and private
+
       If you're running a workshop on something personal, like a mental health
       peer support session, a recovery group craft afternoon, or a financial
       literacy class, your attendees might not want their name and email sitting
@@ -80,11 +78,10 @@ blocks:
       doesn't build marketing profiles from your attendee list. You collect only
       what you need, like a name and email, and nothing else leaves the system.
     figure_items:
-      - icon: "hugeicons:user-list"
+      - icon: hugeicons:user-list
         text: "You choose: name, email, and nothing else."
-      - icon: "hugeicons:lock"
-        text: "Data is encrypted at rest with no marketing profiles."
-
+      - icon: hugeicons:lock
+        text: Data is encrypted at rest with no marketing profiles.
   - type: markdown
     content: |
       > "From start to finish the first set-up took 20 minutes (including
@@ -92,27 +89,28 @@ blocks:
       > took under a minute each time."
 
       [Read more reviews &rarr;](/reviews/)
-
   - type: features
     dark: true
     intro_content: "## Built for small-scale events"
     items:
-      - icon: "hugeicons:money-receive-square"
-        title: No per-ticket fees
+      - icon: hugeicons:money-receive-square
         description: A flat annual price means you keep all of your ticket revenue, which matters when tickets are £5-£20.
-      - icon: "hugeicons:qr-code"
-        title: QR code check-in
+        name: No per-ticket fees
+      - icon: hugeicons:qr-code
         description: Each attendee gets a QR code ticket by email. Scan them on arrival with your phone so you know exactly who's in the room.
-      - icon: "hugeicons:calendar-03"
-        title: Recurring sessions
+        name: QR code check-in
+      - icon: hugeicons:calendar-03
         description: For recurring sessions like weekly yoga classes or monthly supper clubs, set up daily events with per-date capacity and let people book the session that suits them.
-
+        name: Recurring sessions
   - type: cta
-    title: Start selling tickets to your workshop
-    description: Flat annual pricing from £50/year. No per-ticket fees, no percentage cuts.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Start selling tickets to your workshop
+
+      Flat annual pricing from £50/year. No per-ticket fees, no percentage cuts.
+name: Ticketing for Workshops - Chobble Tickets
 ---

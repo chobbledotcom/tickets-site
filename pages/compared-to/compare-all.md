@@ -11,14 +11,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Compare all ticketing platforms
-    lead: >-
-      Adjust the sliders to see how much money you keep after fees with every
-      platform, all in one view.
-
+    lead: Adjust the sliders to see how much money you keep after fees with every platform, all in one view.
+    name: Compare all ticketing platforms
   - type: include
     file: platform-comparison-grid.html
-
   - type: markdown
     content: |
       ## How fees are calculated
@@ -35,13 +31,15 @@ blocks:
       You can also find Chobble Tickets on
       [AlternativeTo](https://alternativeto.net/software/chobble-tickets/)
       to see how it compares with other ticketing software.
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Sign up for managed hosting at £50/year or self-host for free.
     button:
       text: Sign Up
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Sign up for managed hosting at £50/year or self-host for free.
+name: Ticketing Platform Fee Calculator - Compare All Platforms
 ---

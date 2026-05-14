@@ -11,15 +11,13 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Ticketing for charity events
-    lead: >-
-      More of your fundraising goes to the cause instead of the ticketing
-      platform, with a 50% discount for charities and community groups.
-
+    lead: More of your fundraising goes to the cause instead of the ticketing platform, with a 50% discount for charities and community groups.
+    name: Ticketing for charity events
   - type: split-icon-links
-    title: Built for charities
     reveal_content: left
     content: |
+      ## Built for charities
+
       Most ticketing platforms take a percentage of every ticket sold. On a
       £10 ticket, that can mean losing 50p–£1 per sale to the platform.
 
@@ -33,31 +31,32 @@ blocks:
       [purchasable events](/features/purchasable-events/) let you collect
       donations and payments without a physical event to attend.
     figure_items:
-      - icon: "hugeicons:money-receive-square"
-        text: "£25/year for charities"
-      - icon: "hugeicons:credit-card"
-        text: "Every penny of ticket sales goes to you"
-
+      - icon: hugeicons:money-receive-square
+        text: £25/year for charities
+      - icon: hugeicons:credit-card
+        text: Every penny of ticket sales goes to you
   - type: features
     dark: true
     intro_content: "## Features for charities"
     items:
-      - icon: "hugeicons:user-multiple"
-        title: Team access
+      - icon: hugeicons:user-multiple
         description: Invite volunteers and committee members as managers so everyone can help without sharing a single login.
-      - icon: "hugeicons:calendar-03"
-        title: Daily events
+        name: Team access
+      - icon: hugeicons:calendar-03
         description: Use daily events for recurring bookings like quiz nights or monthly meetups, with per-date capacity, a calendar picker, and holiday blackout dates.
-      - icon: "hugeicons:notification-03"
-        title: Webhooks
+        name: Daily events
+      - icon: hugeicons:notification-03
         description: Get notified instantly when someone books and integrate with your existing tools and workflows.
-
+        name: Webhooks
   - type: cta
-    title: Get the charity discount
-    description: Sign up for managed hosting at £25/year for charities and community groups.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Get the charity discount
+
+      Sign up for managed hosting at £25/year for charities and community groups.
+name: Ticketing for Charity Events - Chobble Tickets
 ---

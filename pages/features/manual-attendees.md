@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Manual attendees
-    lead: >-
-      Add walk-ins and complimentary tickets directly from the admin panel, and
-      edit attendee details or reassign events as needed.
-
+    lead: Add walk-ins and complimentary tickets directly from the admin panel, and edit attendee details or reassign events as needed.
+    name: Manual attendees
   - type: markdown
     content: |
       ## Walk-ins and comp tickets
@@ -36,13 +33,15 @@ blocks:
       Manually added attendees appear alongside online bookings in your
       attendee lists, CSV exports, and check-in screens, so you always have
       one complete picture of who's coming.
-
   - type: cta
-    title: Flexible attendee management
-    description: Handle walk-ins and comp tickets alongside online bookings.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Flexible attendee management
+
+      Handle walk-ins and comp tickets alongside online bookings.
+name: Manual Attendees - Chobble Tickets
 ---

@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: CSV export
-    lead: >-
-      Export your attendee lists as CSV files, filtered by date and check-in
-      status, for use in spreadsheets or other tools.
-
+    lead: Export your attendee lists as CSV files, filtered by date and check-in status, for use in spreadsheets or other tools.
+    name: CSV export
   - type: markdown
     content: |
       ## Get your data out
@@ -32,13 +29,15 @@ blocks:
       information out of Chobble Tickets and into whatever system you need,
       whether that's a mailing list, a CRM, or a simple spreadsheet for your
       records.
-
   - type: cta
-    title: Export your attendee data
-    description: Export attendee data whenever you need it.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Export your attendee data
+
+      Export attendee data whenever you need it.
+name: CSV Export - Chobble Tickets
 ---

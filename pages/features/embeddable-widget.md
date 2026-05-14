@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Embeddable widget
-    lead: >-
-      Drop an iframe snippet into your existing website to show your events
-      inline, with configurable Content Security Policy headers.
-
+    lead: Drop an iframe snippet into your existing website to show your events inline, with configurable Content Security Policy headers.
+    name: Embeddable widget
   - type: markdown
     content: |
       ## Events on your website
@@ -39,13 +36,15 @@ blocks:
 
       See the [embed documentation](https://chobbledotcom.github.io/tickets/docs/embed.ts)
       for widget setup and configuration details.
-
   - type: cta
-    title: Embed your events
-    description: Show your events on your existing website with one line of HTML.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Embed your events
+
+      Show your events on your existing website with one line of HTML.
+name: Embeddable Widget - Chobble Tickets
 ---

@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Webhooks
-    lead: >-
-      Get a POST request every time someone books a ticket, and connect
-      Chobble Tickets to Slack, Zapier, your CRM, or anything else.
-
+    lead: Get a POST request every time someone books a ticket, and connect Chobble Tickets to Slack, Zapier, your CRM, or anything else.
+    name: Webhooks
   - type: markdown
     content: |
       ## Real-time notifications
@@ -41,7 +38,6 @@ blocks:
 
       See the [webhooks documentation](https://chobbledotcom.github.io/tickets/docs/webhooks.ts)
       for payload format and delivery details.
-
   - type: markdown
     content: |
       > "Webhooks allow you to set up connections and integrate with other
@@ -50,13 +46,15 @@ blocks:
       > development and it has sooo much potential."
 
       [Read more reviews &rarr;](/reviews/)
-
   - type: cta
-    title: Automate your workflow
-    description: Connect Chobble Tickets to your existing tools with webhooks.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Automate your workflow
+
+      Connect Chobble Tickets to your existing tools with webhooks.
+name: Webhooks - Chobble Tickets
 ---

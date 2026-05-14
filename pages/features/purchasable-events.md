@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Purchasable events
-    lead: >-
-      Collect donations, sell raffle tickets, take membership dues, or run
-      any kind of payment collection without an event to attend.
-
+    lead: Collect donations, sell raffle tickets, take membership dues, or run any kind of payment collection without an event to attend.
+    name: Purchasable events
   - type: markdown
     content: |
       ## Beyond ticketing
@@ -72,13 +69,15 @@ blocks:
       encrypted at rest the same as regular attendee data. There is no
       marketing to your supporters, no cross-promotion, and no platform fee
       beyond the flat annual subscription.
-
   - type: cta
-    title: Start collecting payments
-    description: Sign up for managed hosting at £50/year, or self-host for free.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Start collecting payments
+
+      Sign up for managed hosting at £50/year, or self-host for free.
+name: Collect Donations & Payments Without Ticketing - Chobble Tickets
 ---

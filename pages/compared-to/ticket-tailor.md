@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Ticket Tailor
-    lead: >-
-      Ticket Tailor is an independently owned ticketing platform from
-      London, running since 2010. This page compares it to Chobble Tickets.
-
+    lead: Ticket Tailor is an independently owned ticketing platform from London, running since 2010. This page compares it to Chobble Tickets.
+    name: Chobble Tickets vs Ticket Tailor
   - type: markdown
     content: |
       ## Pricing comparison
@@ -42,10 +39,8 @@ blocks:
       84 paid tickets a year. Even at Ticket Tailor's lowest prepaid rate of
       22p per ticket, Chobble Tickets is cheaper once you sell more than
       about 230 tickets a year.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -198,7 +193,6 @@ blocks:
         confirmation emails come from your own domain
       - You value [open source](/features/open-source/) and the ability to
         self-host
-
   - type: markdown
     content: |
       ## Who owns Ticket Tailor?
@@ -220,7 +214,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on
       Chobble as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -239,13 +232,15 @@ blocks:
       - [Ticket Tailor API docs](https://developers.tickettailor.com/docs/api/ticket-tailor-api/)
       - [Ticket Tailor our story](https://www.tickettailor.com/our-story) - founded 2010 by Jonny White, bought back from Time Out
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Sign up for managed hosting at £50/year, or self-host for free.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Sign up for managed hosting at £50/year, or self-host for free.
+name: Open Source Alternative to Ticket Tailor | Chobble Tickets
 ---

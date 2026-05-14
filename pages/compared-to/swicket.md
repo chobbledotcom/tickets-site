@@ -10,13 +10,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Swicket
-    lead: >-
-      Swicket is the commercial, managed version of the open source alf.io
-      ticketing platform, built for large conferences and medical congresses.
-      This page compares it to Chobble Tickets for independent event
-      organisers.
-
+    lead: Swicket is the commercial, managed version of the open source alf.io ticketing platform, built for large conferences and medical congresses. This page compares it to Chobble Tickets for independent event organisers.
+    name: Chobble Tickets vs Swicket
   - type: markdown
     content: |
       ## What is Swicket?
@@ -173,7 +168,6 @@ blocks:
       - You're a charity or community group (£25/year)
       - You want [webhooks](/features/webhooks/), a [public
         API](/features/public-api/), or an [admin API](/features/admin-api/)
-
   - type: markdown
     content: |
       ## Who owns Swicket and alf.io?
@@ -201,7 +195,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
-
   - type: markdown
     content: |
       ## Sources
@@ -215,13 +208,15 @@ blocks:
       - [alf.io on Open Collective](https://opencollective.com/alfio) - project finances
       - [Vivento Lab and Swicket partnership](https://vivento.ch/en/blog/vivento-lab-and-swicket-a-strategic-partnership-bringing-technological-innovation-to-the-world-of-events) - partnership announcement
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Flat pricing, encrypted data, and no enterprise contracts required.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Flat pricing, encrypted data, and no enterprise contracts required.
+name: Independent Alternative to Swicket & alf.io | Chobble Tickets
 ---

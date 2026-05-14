@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Terms & conditions
-    lead: >-
-      Set global terms that attendees must agree to before booking, with
-      configurable contact fields and special instructions.
-
+    lead: Set global terms that attendees must agree to before booking, with configurable contact fields and special instructions.
+    name: Terms & conditions
   - type: markdown
     content: |
       ## Require agreement before booking
@@ -40,13 +37,15 @@ blocks:
       Add a special instructions text field to the booking form so attendees
       can provide dietary requirements, accessibility needs, or any other
       information you need to know before the event.
-
   - type: cta
-    title: Set your terms
-    description: Make sure attendees agree to your terms before booking.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Set your terms
+
+      Make sure attendees agree to your terms before booking.
+name: Terms & Conditions - Chobble Tickets
 ---

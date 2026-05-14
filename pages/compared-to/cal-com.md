@@ -10,13 +10,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Cal.com
-    lead: >-
-      Cal.com is a scheduling platform that built its reputation as the
-      open source alternative to Calendly. On 14 April 2026, the company
-      announced its production codebase is moving closed source. Here is
-      how it compares to Chobble Tickets.
-
+    lead: Cal.com is a scheduling platform that built its reputation as the open source alternative to Calendly. On 14 April 2026, the company announced its production codebase is moving closed source. Here is how it compares to Chobble Tickets.
+    name: Chobble Tickets vs Cal.com
   - type: markdown
     content: |
       ## Different tools for different jobs
@@ -42,7 +37,6 @@ blocks:
       payments for events and are now reconsidering after the closed
       source announcement, or who are choosing between a scheduling tool
       and a ticketing tool for the first time.
-
   - type: markdown
     content: |
       ## The closed source announcement
@@ -89,7 +83,6 @@ blocks:
       [GitHub repository](https://github.com/chobbledotcom/tickets).
       You can read it, fork it, and run the same software on your own
       server.
-
   - type: markdown
     content: |
       ## Pricing comparison
@@ -131,7 +124,6 @@ blocks:
       For a community group running events with a fixed date and
       capacity, Cal.com is not designed for the job. You would end up
       creating one event type per event date, which gets messy quickly.
-
   - type: markdown
     content: |
       ## Cal.ai is a separate paid add-on
@@ -156,7 +148,6 @@ blocks:
       charge AI usage fees. Confirmation emails are sent through your
       chosen email provider with [customisable
       templates](/features/email-templates/).
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -261,7 +252,6 @@ blocks:
       - **[No per-user pricing](/features/users/)** - add as many
         manager accounts (for door staff, volunteers, or co-organisers)
         as you need without changing the bill
-
   - type: markdown
     content: |
       ## Data ownership
@@ -293,7 +283,6 @@ blocks:
       software that runs tix.chobble.com runs on a self-hosted server.
       There is no separate "community version" with rewritten core
       systems.
-
   - type: markdown
     content: |
       ## When Cal.com is the better choice
@@ -309,7 +298,6 @@ blocks:
       - You need an AI phone agent and are happy to pay per minute
       - You need enterprise features like SCIM, SAML SSO, or HIPAA
         compliance and have the budget for the Organizations plan
-
   - type: markdown
     content: |
       ## When Chobble Tickets is the better choice
@@ -329,7 +317,6 @@ blocks:
         [your own email provider](/features/email-providers/)
       - You want to add door staff, volunteers, or co-organisers as
         manager accounts without paying per-user fees
-
   - type: markdown
     content: |
       ## About Cal.com
@@ -352,7 +339,6 @@ blocks:
       community benefit. There is no per-user pricing and no AI add-on.
       Income comes from the £50 annual fee paid by managed-hosting
       customers.
-
   - type: markdown
     content: |
       ## Why this cannot happen to Chobble Tickets
@@ -385,7 +371,6 @@ blocks:
       The combined effect is that there is no version of "Chobble
       Tickets goes closed source" that produces a buyout or a payout
       for anyone. The exit does not exist.
-
   - type: markdown
     content: |
       ## Sources
@@ -401,13 +386,15 @@ blocks:
       - [Cal.com Series A funding announcement (April 2022)](https://venturebeat.com/business/open-source-calendly-rival-cal-com-raises-25m) - $25 million Series A led by Seven Seven Six, on top of a previous $7.4 million seed
       - [Chobble Tickets features](/features/)
       - [Chobble Tickets source code on GitHub](https://github.com/chobbledotcom/tickets)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Open source event ticketing with flat annual pricing and no per-user fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Open source event ticketing with flat annual pricing and no per-user fees.
+name: Open Source Ticketing vs Cal.com Scheduling | Chobble Tickets
 ---

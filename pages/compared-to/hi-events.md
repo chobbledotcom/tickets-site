@@ -13,12 +13,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Hi.Events
-    lead: >-
-      Hi.Events is another open source ticketing platform, so this is a
-      comparison between two projects with similar values but different
-      approaches.
-
+    lead: Hi.Events is another open source ticketing platform, so this is a comparison between two projects with similar values but different approaches.
+    name: Chobble Tickets vs Hi.Events
   - type: markdown
     content: |
       ## Two open source options
@@ -50,10 +46,8 @@ blocks:
       no annual fee. As volume grows, Chobble's flat fee becomes better
       value: if you sell more than about 150 tickets at £15 each in a year,
       you will pay less with Chobble Tickets.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -218,10 +212,8 @@ blocks:
       **Chobble Tickets** is open source with no branding requirements and
       no commercial licence needed. Self-host for free, modify as you like,
       and use your own domain at no extra cost.
-
   - type: include
     file: price-comparator-selfhosted.html
-
   - type: markdown
     content: |
       The self-hosted comparison above uses the Hi.Events Single Domain
@@ -249,7 +241,6 @@ blocks:
       - You're a community group, charity, or school (£25/year)
       - You want Apple/Google Wallet integration, calendar feeds, or RSS
       - You value a Community Interest Company over a traditional startup
-
   - type: markdown
     content: |
       ## Who builds Hi.Events?
@@ -275,7 +266,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3 with
       no attribution requirement, and the platform can be self-hosted by
       anyone without depending on Chobble as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -289,13 +279,15 @@ blocks:
       - [Hi.Events on GitHub](https://github.com/HiEventsDev/Hi.Events)
       - [Chobble Tickets features](/features/)
       - [Hi.Events on Hacker News](https://news.ycombinator.com/item?id=40897962) - Show HN launch discussion
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Flat pricing, encrypted data, and no per-ticket fees.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Flat pricing, encrypted data, and no per-ticket fees.
+name: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared
 ---

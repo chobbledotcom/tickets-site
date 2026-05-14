@@ -10,12 +10,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Host Chobble Tickets for others
-    lead: >-
-      Chobble Tickets is designed so that anyone with some technical knowledge
-      can run it for the event organisers they know. More hosts means a
-      decentralised alternative to the big ticketing platforms.
-
+    lead: Chobble Tickets is designed so that anyone with some technical knowledge can run it for the event organisers they know. More hosts means a decentralised alternative to the big ticketing platforms.
+    name: Host Chobble Tickets for others
   - type: markdown
     content: |
       ## Why decentralised hosting matters
@@ -33,7 +29,6 @@ blocks:
       runs on a single company's servers becomes another centralised platform.
       Chobble Tickets only counts as an alternative if many people run their
       own independent copies.
-
   - type: markdown
     dark: true
     content: |
@@ -69,7 +64,6 @@ blocks:
       product is still in beta and does not yet have a public API. Once it
       does, the entire flow from "organiser signs up" to "site is live" will
       be fully automatic with no manual steps.
-
   - type: markdown
     content: |
       ## Host a single site
@@ -96,7 +90,6 @@ blocks:
 
       Because you control the fork, you choose when to pull in updates from the
       main project. No update reaches your site without your approval.
-
   - type: markdown
     dark: true
     content: |
@@ -119,7 +112,6 @@ blocks:
       Attendee data is encrypted and stays in each site's own database. Hosts
       cannot read their customers' attendee data. The encryption key is
       generated per site and only the site's admin can decrypt it.
-
   - type: markdown
     content: |
       ## Getting started
@@ -136,15 +128,15 @@ blocks:
 
       If you have questions about hosting, open an issue on the
       [GitHub repository](https://github.com/chobbledotcom/tickets/issues).
-
   - type: cta
-    title: View the source code
-    description: >-
-      Chobble Tickets is open source under AGPLv3. Browse the code, fork it,
-      and deploy your own instance.
     button:
       text: GitHub
       href: https://github.com/chobbledotcom/tickets
       variant: primary
       size: lg
+    content: |-
+      ## View the source code
+
+      Chobble Tickets is open source under AGPLv3. Browse the code, fork it, and deploy your own instance.
+name: Host Chobble Tickets for Others
 ---

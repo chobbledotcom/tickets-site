@@ -11,14 +11,12 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Ticketing for political organising
-    lead: >-
-      Attendee data is encrypted at rest, and you can run the platform on your
-      own servers so no data leaves your infrastructure.
-
+    lead: Attendee data is encrypted at rest, and you can run the platform on your own servers so no data leaves your infrastructure.
+    name: Ticketing for political organising
   - type: split-icon-links
-    title: Privacy by design
     content: |
+      ## Privacy by design
+
       Chobble Tickets encrypts all personally identifiable information at rest
       using
       [hybrid RSA-OAEP + AES-256-GCM encryption](https://chobbledotcom.github.io/tickets/docs/crypto.ts).
@@ -30,33 +28,34 @@ blocks:
       You can run Chobble Tickets on your own servers, so no data leaves your
       infrastructure.
     figure_items:
-      - icon: "hugeicons:lock"
-        text: "Attendee data is encrypted at rest."
-      - icon: "hugeicons:source-code"
-        text: "All code is public under AGPLv3."
-      - icon: "hugeicons:cloud-server"
-        text: "Deploy on your own servers."
-
+      - icon: hugeicons:lock
+        text: Attendee data is encrypted at rest.
+      - icon: hugeicons:source-code
+        text: All code is public under AGPLv3.
+      - icon: hugeicons:cloud-server
+        text: Deploy on your own servers.
   - type: features
     dark: true
     intro_content: "## Features for political organisers"
     items:
-      - icon: "hugeicons:source-code"
-        title: Fully auditable
+      - icon: hugeicons:source-code
         description: Every line of code is public under AGPLv3, so there are no black boxes, no hidden data collection, and no surprises.
-      - icon: "hugeicons:cloud-server"
-        title: Self-Hostable
+        name: Fully auditable
+      - icon: hugeicons:cloud-server
         description: One-click deploy to DigitalOcean, Heroku, Koyeb, or Render, or run it in Docker, on Fly.io, or on Bunny Edge Scripting.
-      - icon: "hugeicons:security-check"
-        title: No data harvesting
+        name: Self-Hostable
+      - icon: hugeicons:security-check
         description: Built by a community interest company. There is no advertising revenue and no data economy subsidising the price.
-
+        name: No data harvesting
   - type: cta
-    title: Get started with encrypted event ticketing
-    description: Self-host for free, or get managed hosting from £25/year for community groups.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Get started with encrypted event ticketing
+
+      Self-host for free, or get managed hosting from £25/year for community groups.
+name: Ticketing for Political Organising - Chobble Tickets
 ---

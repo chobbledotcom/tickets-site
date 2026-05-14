@@ -10,11 +10,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Google Forms
-    lead: >-
-      Google Forms is free and everyone knows how to use it, but it wasn't
-      built for event ticketing.
-
+    lead: Google Forms is free and everyone knows how to use it, but it wasn't built for event ticketing.
+    name: Chobble Tickets vs Google Forms
   - type: markdown
     content: |
       ## What Google Forms gives you
@@ -130,7 +127,6 @@ blocks:
       the £50/year. It also supports free events without payment setup, so
       you can start with the same simplicity as Google Forms and add payments
       later when you need them.
-
   - type: markdown
     content: |
       ## Sources
@@ -138,13 +134,15 @@ blocks:
       - [Google Forms](https://docs.google.com/forms) - free to use with a Google account
       - [Google Forms help](https://support.google.com/docs/answer/6281888) - feature overview
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Purpose-built ticketing
-    description: Everything Google Forms does for RSVPs, plus payments, tickets, and check-in.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Purpose-built ticketing
+
+      Everything Google Forms does for RSVPs, plus payments, tickets, and check-in.
+name: Ticketing Alternative to Google Forms | Chobble Tickets
 ---

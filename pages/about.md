@@ -10,12 +10,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Who runs Chobble Tickets
-    lead: >-
-      Chobble Tickets is built and run by Stefan Burke, a software developer in
-      Prestwich, Manchester. Chobble is a community interest company registered
-      in England.
-
+    lead: Chobble Tickets is built and run by Stefan Burke, a software developer in Prestwich, Manchester. Chobble is a community interest company registered in England.
+    name: Who runs Chobble Tickets
   - type: markdown
     content: |
       ## Stefan Burke
@@ -35,7 +31,6 @@ blocks:
       Stef supports several Manchester community projects, including Blue Pits
       and Vegan Prestwich. The full CV is at
       [stefn.co.uk](https://stefn.co.uk).
-
   - type: markdown
     dark: true
     content: |
@@ -59,7 +54,6 @@ blocks:
 
       The full statement of each principle is at
       [chobble.com/principles](https://chobble.com/principles).
-
   - type: markdown
     content: |
       ## Chobble as a community interest company
@@ -77,7 +71,6 @@ blocks:
       [Against Malaria Foundation](https://www.againstmalaria.com). The full
       social impact statement is at
       [chobble.com/social-impact](https://chobble.com/social-impact).
-
   - type: markdown
     dark: true
     content: |
@@ -109,13 +102,15 @@ blocks:
 
       For privacy queries, write to Stefan Burke at the registered office
       above.
-
   - type: cta
-    title: Get started
-    description: Sign up for managed hosting at £50/year, or download the source code from GitHub and self-host for free.
     button:
       text: Sign Up
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
+    content: |-
+      ## Get started
+
+      Sign up for managed hosting at £50/year, or download the source code from GitHub and self-host for free.
+name: About Chobble Tickets
 ---

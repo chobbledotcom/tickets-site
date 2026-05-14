@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Tessera Tickets
-    lead: >-
-      Tessera Tickets is a US ticketing platform built around WordPress for
-      music venues, theatres, and comedy clubs. Here is how a small, open
-      source alternative compares.
-
+    lead: Tessera Tickets is a US ticketing platform built around WordPress for music venues, theatres, and comedy clubs. Here is how a small, open source alternative compares.
+    name: Chobble Tickets vs Tessera Tickets
   - type: markdown
     content: |
       ## Pricing comparison
@@ -46,10 +42,8 @@ blocks:
       fees](/features/no-per-ticket-fees/), no monthly subscription, and no
       ticket-volume tiers, plus Stripe processing at 1.5% + 20p. Registered
       charities, schools, and community groups pay £25/year.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -207,7 +201,6 @@ blocks:
         confirmation emails come from your own domain
       - You value [open source](/features/open-source/) and the ability
         to self-host
-
   - type: markdown
     content: |
       ## Who runs Tessera Tickets?
@@ -224,7 +217,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3,
       and the platform can be self-hosted by anyone without depending on
       Chobble as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -239,13 +231,15 @@ blocks:
       - [Tecture](https://www.tecture.com/) - the Chicago web agency that
         builds Tessera
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Sign up for managed hosting at £50/year, or self-host for free.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Sign up for managed hosting at £50/year, or self-host for free.
+name: Open Source Alternative to Tessera Tickets | Chobble Tickets
 ---

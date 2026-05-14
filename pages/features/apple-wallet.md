@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Apple & Google Wallet
-    lead: >-
-      Attendees can add their ticket to Apple Wallet or Google Wallet so
-      it's right there on their phone when they arrive at the event.
-
+    lead: Attendees can add their ticket to Apple Wallet or Google Wallet so it's right there on their phone when they arrive at the event.
+    name: Apple & Google Wallet
   - type: markdown
     content: |
       ## Tickets in your pocket
@@ -33,13 +30,15 @@ blocks:
 
       See the [tickets documentation](https://chobbledotcom.github.io/tickets/docs/tickets.ts)
       for details on wallet pass generation and QR code rendering.
-
   - type: cta
-    title: Modern ticketing
-    description: Give your attendees the convenience of Apple Wallet and Google Wallet passes.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Modern ticketing
+
+      Give your attendees the convenience of Apple Wallet and Google Wallet passes.
+name: Apple & Google Wallet Integration - Chobble Tickets
 ---

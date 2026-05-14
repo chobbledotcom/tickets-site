@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Chobble Tickets vs Tito
-    lead: >-
-      Tito is a well-regarded, developer-friendly ticketing platform from
-      Ireland, so here's how a small, open source alternative compares.
-
+    lead: Tito is a well-regarded, developer-friendly ticketing platform from Ireland, so here's how a small, open source alternative compares.
+    name: Chobble Tickets vs Tito
   - type: markdown
     content: |
       ## Pricing comparison
@@ -35,10 +32,8 @@ blocks:
       a year, Chobble Tickets is cheaper. With Tito, your costs scale
       linearly with revenue. A £15 ticket costs you 45p in Tito fees alone,
       and that adds up quickly at volume.
-
   - type: include
     file: price-comparator.html
-
   - type: markdown
     content: |
       ## Feature comparison
@@ -173,7 +168,6 @@ blocks:
         API](/features/public-api/)
       - You value [open source](/features/open-source/) and the ability to
         self-host
-
   - type: markdown
     content: |
       ## Who owns Tito?
@@ -200,7 +194,6 @@ blocks:
       community benefit. All of Chobble's code is public under AGPLv3, and
       the platform can be self-hosted by anyone without depending on Chobble
       as a company.
-
   - type: markdown
     content: |
       ## Pricing sources
@@ -218,13 +211,15 @@ blocks:
       - [Team Tito Limited](https://teamtito.com/about) - company information
       - [Tito investment announcement](https://blog.tito.io/posts/some-investment-news/) - €1.25M from Lachy Groom (2020)
       - [Chobble Tickets features](/features/)
-
   - type: cta
-    title: Try Chobble Tickets
-    description: Sign up for managed hosting at £50/year, or self-host for free.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Try Chobble Tickets
+
+      Sign up for managed hosting at £50/year, or self-host for free.
+name: Open Source Alternative to Tito | Chobble Tickets
 ---

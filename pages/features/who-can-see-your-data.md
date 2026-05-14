@@ -11,12 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Who can see your attendee data
-    lead: >-
-      On most ticketing platforms, dozens of companies can access your
-      attendees' personal information. Here is exactly who can see what on
-      Chobble Tickets, and how that compares to other platforms.
-
+    lead: On most ticketing platforms, dozens of companies can access your attendees' personal information. Here is exactly who can see what on Chobble Tickets, and how that compares to other platforms.
+    name: Who can see your attendee data
   - type: markdown
     content: |
       ## Chobble Tickets (managed hosting)
@@ -45,7 +41,6 @@ blocks:
       processor is not involved because there is no payment. The email
       provider is not involved because there are no emails. The data sits
       encrypted in the database, readable only by someone with your password.
-
   - type: markdown
     content: |
       ## Chobble Tickets (self-hosted)
@@ -63,7 +58,6 @@ blocks:
       none. You can inspect every line of the
       [open source code](https://github.com/chobbledotcom/tickets) to verify
       this.
-
   - type: markdown
     dark: true
     content: |
@@ -98,7 +92,6 @@ blocks:
       time. The underlying pattern does not: platforms that make money from
       advertising and audience data have trackers, and platforms that do
       not make money from advertising and audience data do not.
-
   - type: markdown
     content: |
       ## Why the difference is structural
@@ -125,7 +118,6 @@ blocks:
       monopoly. The more independent hosts there are, the harder it is for
       any single company to build a database of every event attendee in the
       country.
-
   - type: markdown
     content: |
       ## What your email provider can see
@@ -150,7 +142,6 @@ blocks:
       events without collecting emails and without configuring an email
       provider. Attendees still receive their tickets via the confirmation
       page and can add them to Apple or Google Wallet.
-
   - type: markdown
     content: |
       ## What Stripe and Square can see
@@ -167,7 +158,6 @@ blocks:
       If you run free events, no payment processor is involved. Combined
       with not collecting emails, this means the only person who can see
       your attendee records is you.
-
   - type: markdown
     content: |
       ## Sources
@@ -183,13 +173,15 @@ blocks:
       - [WhoTracks.me - See Tickets](https://www.ghostery.com/whotracksme/websites/seetickets.com)
       - [WhoTracks.me - Ticket Tailor](https://www.ghostery.com/whotracksme/websites/tickettailor.com)
       - [Chobble Tickets encryption documentation](https://chobbledotcom.github.io/tickets/docs/crypto.ts)
-
   - type: cta
-    title: Zero trackers, encrypted by default
-    description: Sign up for managed hosting at £50/year, or self-host and keep everything on your own infrastructure.
     button:
       text: Sign Up
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
+    content: |-
+      ## Zero trackers, encrypted by default
+
+      Sign up for managed hosting at £50/year, or self-host and keep everything on your own infrastructure.
+name: Who Can See Your Attendee Data | Chobble Tickets
 ---

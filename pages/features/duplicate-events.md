@@ -11,11 +11,8 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Duplicate events
-    lead: >-
-      Clone an existing event to quickly set up similar bookings without
-      re-entering all the details.
-
+    lead: Clone an existing event to quickly set up similar bookings without re-entering all the details.
+    name: Duplicate events
   - type: markdown
     content: |
       ## Save time on setup
@@ -31,13 +28,15 @@ blocks:
       weekly class or a monthly meetup, duplicating means every instance
       has the same description, terms, and configuration without retyping
       anything.
-
   - type: cta
-    title: Quick event setup
-    description: Clone events to save time on setup.
     button:
       text: Get Started
       href: https://tix.chobble.com/ticket/register
       variant: secondary
       size: lg
+    content: |-
+      ## Quick event setup
+
+      Clone events to save time on setup.
+name: Duplicate Events - Chobble Tickets
 ---

@@ -11,44 +11,43 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    title: Platform & integrations
-    lead: >-
-      Open source and encrypted by default, with a public API, webhooks,
-      Apple Wallet, and calendar feeds to connect your existing tools.
-
+    lead: Open source and encrypted by default, with a public API, webhooks, Apple Wallet, and calendar feeds to connect your existing tools.
+    name: Platform & integrations
   - type: features
     items:
-      - icon: "hugeicons:source-code"
-        title: '<a href="/features/open-source/">Open source</a>'
+      - icon: hugeicons:source-code
         description: AGPLv3 licensed with every feature included and no open-core model.
-      - icon: "hugeicons:lock"
-        title: '<a href="/features/encrypted/">Encrypted</a>'
+        name: <a href="/features/open-source/">Open source</a>
+      - icon: hugeicons:lock
         description: All personal data encrypted at rest with hybrid RSA-OAEP + AES-256-GCM.
-      - icon: "hugeicons:global"
-        title: '<a href="/features/european/">European</a>'
+        name: <a href="/features/encrypted/">Encrypted</a>
+      - icon: hugeicons:global
         description: UK company, Slovenian hosting. Attendee data stays in the EU, under UK-GDPR and EU data protection law.
-      - icon: "hugeicons:smart-phone-01"
-        title: '<a href="/features/apple-wallet/">Apple Wallet</a>'
+        name: <a href="/features/european/">European</a>
+      - icon: hugeicons:smart-phone-01
         description: Attendees can add tickets to Apple Wallet for easy access at the door.
-      - icon: "hugeicons:mail-01"
-        title: '<a href="/features/email-providers/">Email providers</a>'
+        name: <a href="/features/apple-wallet/">Apple Wallet</a>
+      - icon: hugeicons:mail-01
         description: Choose from Resend, Postmark, SendGrid, or Mailgun (US and EU) for notifications.
-      - icon: "hugeicons:api"
-        title: '<a href="/features/public-api/">Public API</a>'
+        name: <a href="/features/email-providers/">Email providers</a>
+      - icon: hugeicons:api
         description: RESTful JSON API for building custom integrations and frontends.
-      - icon: "hugeicons:notification-03"
-        title: '<a href="/features/webhooks/">Webhooks</a>'
+        name: <a href="/features/public-api/">Public API</a>
+      - icon: hugeicons:notification-03
         description: Get POST notifications on every booking to integrate with your tools.
-      - icon: "hugeicons:rss"
-        title: '<a href="/features/rss-and-calendar-feeds/">RSS & calendar feeds</a>'
+        name: <a href="/features/webhooks/">Webhooks</a>
+      - icon: hugeicons:rss
         description: ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.
-
+        name: <a href="/features/rss-and-calendar-feeds/">RSS & calendar feeds</a>
   - type: cta
-    title: Explore the platform
-    description: Sign up for managed hosting at £50/year, or browse the full technical documentation.
     button:
       text: Sign Up
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
+    content: |-
+      ## Explore the platform
+
+      Sign up for managed hosting at £50/year, or browse the full technical documentation.
+name: Platform & Integrations - Chobble Tickets
 ---

@@ -11,10 +11,7 @@ blocks:
   - type: hero
     class: gradient
     badge: Open Source & Encrypted
-    title: Open source event ticketing with no per-ticket fees
-    lead: >-
-      Chobble Tickets is an open source ticketing platform with a flat annual
-      fee, no booking fees or commission, and no attendee data collection.
+    lead: Chobble Tickets is an open source ticketing platform with a flat annual fee, no booking fees or commission, and no attendee data collection.
     buttons:
       - text: Sign Up
         href: https://tix.chobble.com/ticket/register
@@ -24,25 +21,25 @@ blocks:
         href: https://github.com/chobbledotcom/tickets
         variant: secondary
         size: lg
-
+    name: Open source event ticketing with no per-ticket fees
   - type: stats
     dark: true
     items:
-      - value: "\u00A350"
+      - value: £50
         label: Per Year
-      - value: "\u221E"
+      - value: ∞
         label: Events & Tickets
-      - value: "0%"
+      - value: 0%
         label: Commission
-      - value: "100%"
+      - value: 100%
         label: Open Source
-
   - type: split-icon-links
-    title: Pricing
     subtitle: Flat annual fee. No per-ticket charges.
     reverse: true
     reveal_content: right
     content: |
+      ## Pricing
+
       Managed hosting costs £50 per year. There are no service charges, no percentage cuts, and no surprise fees.
 
       Charities, community groups, artists, and musicians receive a 50% discount.
@@ -53,69 +50,66 @@ blocks:
 
       [Compare all ticketing platforms](/compared-to/compare-all/) to see how Chobble Tickets' pricing works out against 20+ alternatives.
     figure_items:
-      - icon: "hugeicons:money-receive-square"
-        text: "£50/year"
+      - icon: hugeicons:money-receive-square
+        text: £50/year
         url: /compared-to/compare-all/
-      - icon: "hugeicons:ticket-01"
-        text: "Unlimited events and tickets"
+      - icon: hugeicons:ticket-01
+        text: Unlimited events and tickets
         url: /compared-to/compare-all/
-      - icon: "hugeicons:credit-card"
-        text: "No commission, no per-ticket fees"
+      - icon: hugeicons:credit-card
+        text: No commission, no per-ticket fees
         url: /compared-to/compare-all/
-      - icon: "hugeicons:discount"
-        text: "50% discount for charities and artists"
+      - icon: hugeicons:discount
+        text: 50% discount for charities and artists
         url: /compared-to/compare-all/
-
   - type: features
     intro_content: |
       ## Platform comparisons
 
       Read how Chobble Tickets compares to other ticketing platforms on pricing, features, and data ownership.
     items:
-      - icon: "hugeicons:chart-bar-line"
-        title: '<a href="/compared-to/compare-all/">Compare all platforms</a>'
+      - icon: hugeicons:chart-bar-line
         description: See every platform side by side with an interactive fee calculator.
-      - icon: "hugeicons:ticket-01"
-        title: '<a href="/compared-to/eventbrite/">vs Eventbrite</a>'
+        name: <a href="/compared-to/compare-all/">Compare all platforms</a>
+      - icon: hugeicons:ticket-01
         description: The big name in ticketing. Compare fees, features, and data ownership.
-      - icon: "hugeicons:ticket-01"
-        title: '<a href="/compared-to/ticket-tailor/">vs Ticket Tailor</a>'
+        name: <a href="/compared-to/eventbrite/">vs Eventbrite</a>
+      - icon: hugeicons:ticket-01
         description: An independently owned platform with flat per-ticket fees. Compare pricing models.
-      - icon: "hugeicons:ticket-01"
-        title: '<a href="/compared-to/fatsoma/">vs Fatsoma</a>'
+        name: <a href="/compared-to/ticket-tailor/">vs Ticket Tailor</a>
+      - icon: hugeicons:ticket-01
         description: Popular with student events and nightlife. Compare fees and features.
-      - icon: "hugeicons:ticket-01"
-        title: '<a href="/compared-to/bookitbee/">vs BookitBee</a>'
+        name: <a href="/compared-to/fatsoma/">vs Fatsoma</a>
+      - icon: hugeicons:ticket-01
         description: A UK-focused ticketing platform with per-ticket fees. Compare pricing and features.
-      - icon: "hugeicons:source-code"
-        title: '<a href="/compared-to/hi-events/">vs Hi.Events</a>'
+        name: <a href="/compared-to/bookitbee/">vs BookitBee</a>
+      - icon: hugeicons:source-code
         description: Another open source option. Compare features, hosting models, and pricing.
-
+        name: <a href="/compared-to/hi-events/">vs Hi.Events</a>
   - type: features
     intro_content: |
       ## Features
 
       Chobble Tickets includes every feature as standard. There are no paid add-ons or tiered plans.
     items:
-      - icon: "hugeicons:lock"
-        title: Encrypted by default
+      - icon: hugeicons:lock
         description: All personal information is encrypted at rest using hybrid RSA-OAEP + AES-256-GCM encryption.
-      - icon: "hugeicons:source-code"
-        title: Fully open source
+        name: Encrypted by default
+      - icon: hugeicons:source-code
         description: AGPLv3 licensed with every feature included and no open-core bait-and-switch. Browse the code on GitHub.
-      - icon: "hugeicons:credit-card"
-        title: No per-ticket fees
+        name: Fully open source
+      - icon: hugeicons:credit-card
         description: Pay a flat annual fee with no service charges or commission. Money from ticket sales goes directly to your Stripe or Square account.
-      - icon: "hugeicons:smart-phone-01"
-        title: QR code check-ins
+        name: No per-ticket fees
+      - icon: hugeicons:smart-phone-01
         description: Every ticket gets a unique QR code that you can scan with any phone camera, with no app required.
-      - icon: "hugeicons:mail-01"
-        title: Your email provider
+        name: QR code check-ins
+      - icon: hugeicons:mail-01
         description: Send confirmations through your choice of Resend, Postmark, SendGrid, or Mailgun.
-      - icon: "hugeicons:globe-02"
-        title: Self-hostable
+        name: Your email provider
+      - icon: hugeicons:globe-02
         description: Run Chobble Tickets on your own servers, or use the £50/year managed hosting at tix.chobble.com.
-
+        name: Self-hostable
   - type: markdown
     dark: true
     content: |
@@ -137,13 +131,15 @@ blocks:
       > the QR code and scam free tickets."
 
       [Read more reviews](/reviews/)
-
   - type: cta
-    title: Get started
-    description: Sign up for managed hosting at £50/year, or download the source code from GitHub and self-host for free.
     button:
       text: Sign Up
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
+    content: |-
+      ## Get started
+
+      Sign up for managed hosting at £50/year, or download the source code from GitHub and self-host for free.
+name: Chobble Tickets - Open Source Event Ticketing
 ---
