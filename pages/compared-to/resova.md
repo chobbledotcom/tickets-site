@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: resova
 title: Chobble Tickets vs Resova
 meta_title: Open Source Alternative to Resova | Chobble Tickets
-meta_description: Chobble Tickets is an alternative to Resova, with flat annual pricing, no monthly booking limits, encrypted attendee data, and open source code.
+meta_description: Chobble Tickets is an alternative to Resova, with flat pricing, no monthly booking limits, encrypted attendee data, and open source code.
 permalink: /compared-to/resova/
 eleventyNavigation:
   key: vs Resova
@@ -28,7 +28,7 @@ blocks:
       Payment processing is separate, through Stripe, PayPal, Square, or
       Resova's own SpeedPay product.
 
-      Chobble Tickets is a flat £50/year with [no per-ticket
+      Chobble Tickets is a flat £50/year or £5/month with [no per-ticket
       fees](/features/no-per-ticket-fees/) and no monthly booking limits,
       plus Stripe processing at 1.5% + 20p. Registered charities, schools,
       and community groups pay £25/year.
@@ -100,8 +100,8 @@ blocks:
         public under AGPLv3
       - **Self-hosting option** - run the platform on your own servers for
         free, with no licence fee and no per-booking cap
-      - **Flat annual pricing** - £50/year with no per-booking caps, no
-        overage fees, and no monthly subscription
+      - **Flat pricing** - £50/year or £5/month with no per-booking caps and
+        no overage fees
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to both Apple Wallet and Google Wallet
       - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
@@ -223,6 +223,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Flat annual pricing, open source code, and no booking limits.
+      Flat pricing, open source code, and no booking limits.
 name: Open Source Alternative to Resova | Chobble Tickets
 ---

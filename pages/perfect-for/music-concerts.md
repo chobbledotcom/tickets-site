@@ -14,7 +14,7 @@ blocks:
     image: /assets/background-club.png
     content: |-
       # Sell tickets directly to your fans
-      With no per-ticket fees, for a flat annual fee of £50/year.
+      With no per-ticket fees, for a flat fee of £50/year or £5/month.
   - type: split-icon-links
     content: |
       ## Keep your revenue
@@ -23,14 +23,14 @@ blocks:
       ticket plus a percentage. For a 200-capacity gig at £15 a ticket, that
       can mean losing hundreds of pounds to the platform.
 
-      Chobble Tickets charges a flat £50/year, and Stripe or Square process
+      Chobble Tickets charges a flat £50/year or £5/month, and Stripe or Square process
       the payments so the money goes directly to your account. You
       can set fixed prices or enable pay-what-you-want for donation-based gigs.
 
-      **50% discount for musicians and artists** - £25/year.
+      **50% discount for musicians and artists** - £25/year on the annual plan.
     figure_items:
       - icon: hugeicons:money-receive-square
-        text: £50/year flat fee.
+        text: £50/year or £5/month flat fee.
       - icon: hugeicons:credit-card
         text: No commission on ticket sales.
   - type: features

@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: ticket_tailor
 title: Chobble Tickets vs Ticket Tailor
 meta_title: Open Source Alternative to Ticket Tailor | Chobble Tickets
-meta_description: "Chobble Tickets vs Ticket Tailor: flat annual pricing with no per-ticket fees, encrypted attendee data, and open source code."
+meta_description: "Chobble Tickets vs Ticket Tailor: flat pricing with no per-ticket fees, encrypted attendee data, and open source code."
 permalink: /compared-to/ticket-tailor/
 eleventyNavigation:
   key: vs Ticket Tailor
@@ -32,7 +32,7 @@ blocks:
       rather than one, which doubles the per-ticket cost on the seating
       chart features.
 
-      Chobble Tickets is a flat £50/year with
+      Chobble Tickets is a flat £50/year or £5/month, with
       [no per-ticket fees](/features/no-per-ticket-fees/). Community groups,
       charities, and schools pay £25/year. On Ticket Tailor's pay-as-you-go
       rate, Chobble Tickets works out cheaper once you sell more than about
@@ -115,7 +115,7 @@ blocks:
         public under AGPLv3
       - **Self-hosting option** - run the platform on your own servers,
         with no licence fee
-      - **Flat annual pricing** - £50/year with no per-ticket fees and no
+      - **Flat pricing** - £50/year or £5/month with no per-ticket fees and no
         credit bundles to top up
       - **[Subscribable ICS calendar feed](/features/rss-and-calendar-feeds/)** -
         a single feed that lists all your events, so subscribers get
@@ -142,8 +142,8 @@ blocks:
       - **[Admin API](/features/admin-api/)** - authenticated API with
         API keys for full event CRUD and reading private data
       - **Custom domain included** - pointing your own domain is part of
-        the £50/year plan (Ticket Tailor bundles custom domains with its
-        White Label add-on at around £7/month)
+        the £50/year (or £5/month) plan (Ticket Tailor bundles custom
+        domains with its White Label add-on at around £7/month)
       - **Community Interest Company** - run by a CIC, a UK legal
         structure that locks the company's assets for community benefit
 
@@ -173,7 +173,7 @@ blocks:
       - You sell in multiple currencies for international events
       - You need built-in discount codes or voucher codes
       - You want to accept PayPal alongside Stripe
-      - You prefer paying a flat fee per ticket over an annual fee, and
+      - You prefer paying a flat fee per ticket over a recurring fee, and
         sell fewer than about 84 paid tickets a year
       - You want a platform that has been running since 2010
 
@@ -241,6 +241,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Sign up for managed hosting at £50/year, or self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or self-host for free.
 name: Open Source Alternative to Ticket Tailor | Chobble Tickets
 ---

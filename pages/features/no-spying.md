@@ -46,11 +46,12 @@ blocks:
       ## How Chobble makes money
 
       Many platforms offer a free tier. Their income comes from advertising and
-      from selling or using attendee data. Chobble's income comes from the
-      annual fee you pay. There is no advertising revenue and no data economy.
+      from selling or using attendee data. Chobble's income comes from the flat
+      fee you pay (£50/year or £5/month). There is no advertising revenue and
+      no data economy.
 
       As a community interest company, Chobble cannot distribute profit to
-      shareholders. The annual fee covers running costs.
+      shareholders. The flat fee covers running costs.
 
       ## See exactly who can access your data
 
@@ -67,6 +68,6 @@ blocks:
     content: |-
       ## Attendee data is not collected or shared
 
-      Sign up for managed hosting at £50/year, or self-host and keep everything on your own infrastructure.
+      Sign up for managed hosting at £50/year or £5/month, or self-host and keep everything on your own infrastructure.
 name: No Spying - Chobble Tickets
 ---

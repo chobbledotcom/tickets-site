@@ -46,8 +46,8 @@ blocks:
       Both plans let you pass fees on to buyers, so the PTA itself may pay
       nothing, though this means attendees pay more per ticket.
 
-      With Chobble Tickets, it's a flat £50/year (£25 for charities and
-      community groups), with [no per-ticket fees](/features/no-per-ticket-fees/) or platform commission. You
+      With Chobble Tickets, it's a flat £50/year or £5/month (£25/year for charities and
+      community groups on the annual plan), with [no per-ticket fees](/features/no-per-ticket-fees/) or platform commission. You
       only pay Stripe or Square processing. Whether you sell 50 tickets or
       5,000, the cost stays the same.
 

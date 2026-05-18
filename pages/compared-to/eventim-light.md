@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: eventim_light
 title: Chobble Tickets vs EVENTIM.Light
 meta_title: Open Source Alternative to EVENTIM.Light | Chobble Tickets
-meta_description: Chobble Tickets is an alternative to EVENTIM.Light, with flat annual pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
+meta_description: Chobble Tickets is an alternative to EVENTIM.Light, with flat pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
 permalink: /compared-to/eventim-light/
 eleventyNavigation:
   key: vs EVENTIM.Light
@@ -41,14 +41,14 @@ blocks:
       So on a £15 ticket, that's **£1.20** going to EVENTIM per sale. On a £30
       ticket, it's **£2.40**. Those numbers climb fast at volume.
 
-      Chobble Tickets is a flat **£50/year** (£25 for charities and community
-      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
+      Chobble Tickets is a flat **£50/year or £5/month** (£25/year for charities and community
+      groups on the annual plan) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
       processing fees (1.5% + 20p) on top. If you sell more than about 65
       tickets at £15 in a year, Chobble Tickets is already cheaper.
 
       It's worth noting that EVENTIM.Light's 8% is competitive compared to some
       platforms (Eventbrite charges 6.95% + 59p, Fatsoma charges 10%), but it's
-      still a percentage that grows with every ticket sold. A flat annual fee
+      still a percentage that grows with every ticket sold. A flat fee
       doesn't.
 
       One important detail: according to [EVENTIM.Light's German
@@ -132,7 +132,7 @@ blocks:
         public under AGPLv3, fully auditable, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for
         free, with no licence fee
-      - **Flat annual pricing** - £50/year with no per-ticket fees, no matter
+      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, no matter
         how many you sell
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -241,8 +241,8 @@ blocks:
       - You want Facebook event integration and ad pixel tracking built in
       - You prefer the backing and brand recognition of a large, established
         ticketing company
-      - You have very low volume and prefer paying 8% per ticket over an
-        annual fee
+      - You have very low volume and prefer paying 8% per ticket over a
+        flat fee
       - You want promotion codes for marketing campaigns
   - type: markdown
     content: |

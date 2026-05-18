@@ -103,23 +103,23 @@ blocks:
       There are no per-booking platform fees. Stripe payment processing
       is charged separately at the standard rate (1.5% + 20p in the UK).
 
-      Chobble Tickets is a flat **£50 per year** for the whole site, with
-      [no per-ticket fees](/features/no-per-ticket-fees/) and no per-user
-      charge. Community groups, charities, and schools pay £25/year.
-      Stripe processing is charged separately at the standard 1.5% + 20p.
-      Self-hosting is free.
+      Chobble Tickets is a flat **£50/year (or £5/month)** for the whole
+      site, with [no per-ticket fees](/features/no-per-ticket-fees/) and no
+      per-user charge. Community groups, charities, and schools pay £25/year
+      on the annual plan. Stripe processing is charged separately at the
+      standard 1.5% + 20p. Self-hosting is free.
 
       ### Which one is cheaper depends on what you're doing
 
       For a single freelancer running a Free Cal.com account, taking
       payment for one-to-one sessions, Cal.com costs nothing in platform
-      fees. Stripe takes its 1.5% + 20p. Chobble Tickets would cost £50
-      a year in addition to the same Stripe fees.
+      fees. Stripe takes its 1.5% + 20p. Chobble Tickets would cost £50/year
+      (or £5/month) in addition to the same Stripe fees.
 
       For a team of five people running paid sessions on Cal.com Teams
       ($12/user/month), the platform cost is around $720/year (about
-      £575/year). Chobble Tickets stays at £50/year regardless of team
-      size.
+      £575/year). Chobble Tickets stays at £50/year (or £5/month)
+      regardless of team size.
 
       For a community group running events with a fixed date and
       capacity, Cal.com is not designed for the job. You would end up
@@ -222,7 +222,7 @@ blocks:
         permanently unrecoverable.
       - **[Open source production code](/features/open-source/)** - the
         same code that runs tix.chobble.com is public under AGPLv3
-      - **Flat annual pricing** - £50/year regardless of how many
+      - **Flat pricing** - £50/year or £5/month regardless of how many
         tickets you sell or how many staff you have
       - **[Tiered ticket types via groups](/features/groups/)** - VIP,
         early bird, general admission, and other tiers sharing one
@@ -305,7 +305,7 @@ blocks:
       - You are selling tickets to events with a fixed date and
         capacity
       - You need QR code check-in at the door
-      - You want flat annual pricing that does not scale with team size
+      - You want flat pricing that does not scale with team size
         or ticket volume
       - You want the production code itself to be open source, not a
         separate diverged community version
@@ -337,7 +337,7 @@ blocks:
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       (CIC), a legal structure that locks the company's assets for
       community benefit. There is no per-user pricing and no AI add-on.
-      Income comes from the £50 annual fee paid by managed-hosting
+      Income comes from the £50/year (or £5/month) fee paid by managed-hosting
       customers.
   - type: markdown
     content: |
@@ -395,6 +395,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Open source event ticketing with flat annual pricing and no per-user fees.
+      Open source event ticketing with flat pricing and no per-user fees.
 name: Open Source Ticketing vs Cal.com Scheduling | Chobble Tickets
 ---

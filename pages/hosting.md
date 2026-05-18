@@ -56,8 +56,8 @@ blocks:
       The whole process takes a few seconds once your account is configured.
 
       You can charge your customers whatever you like for hosting. Chobble
-      charges £50/year with no per-ticket fees, but that is one choice among
-      many. You might charge more, less, or nothing at all.
+      charges £50/year (or £5/month) with no per-ticket fees, but that is
+      one choice among many. You might charge more, less, or nothing at all.
 
       At the moment, one step in the setup requires manual clicking: creating
       the database for each new site in the Bunny dashboard. Bunny's database

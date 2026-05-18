@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: ticketek
 title: Chobble Tickets vs Ticketek
 meta_title: Independent Alternative to Ticketek | Chobble Tickets
-meta_description: "Chobble Tickets vs Ticketek: flat annual pricing with no per-ticket fees, encrypted attendee data, and no exclusive venue contracts."
+meta_description: "Chobble Tickets vs Ticketek: flat pricing with no per-ticket fees, encrypted attendee data, and no exclusive venue contracts."
 permalink: /compared-to/ticketek/
 eleventyNavigation:
   key: vs Ticketek
@@ -37,7 +37,7 @@ blocks:
       some cases the service fee can
       [exceed the ticket price itself](https://www.sbs.com.au/news/article/ticketek-service-fee-cost-more-than-childs-ticket-to-the-cricket/ei66dfk3t).
 
-      Chobble Tickets charges a flat £50/year (approximately AU$95) with
+      Chobble Tickets charges a flat £50/year or £5/month (approximately AU$95) with
       [no per-ticket fees](/features/no-per-ticket-fees/). Payment processing
       fees from Stripe or Square are the only other cost, and they go
       directly to the payment processor.
@@ -111,7 +111,7 @@ blocks:
         public under AGPLv3
       - **Self-hosting option** - run the platform on your own servers for
         free
-      - **Flat annual pricing** - £50/year with no per-ticket fees, compared
+      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, compared
         to Ticketek's ~$7–8 service fee per transaction
       - **Full data ownership** - you control your attendee data, not
         Ticketek
@@ -250,6 +250,6 @@ blocks:
     content: |-
       ## Independent ticketing
 
-      Flat annual pricing with no per-ticket fees.
+      Flat pricing with no per-ticket fees.
 name: Independent Alternative to Ticketek | Chobble Tickets
 ---

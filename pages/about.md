@@ -111,6 +111,6 @@ blocks:
     content: |-
       ## Get started
 
-      Sign up for managed hosting at £50/year, or download the source code from GitHub and self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or download the source code from GitHub and self-host for free.
 name: About Chobble Tickets
 ---

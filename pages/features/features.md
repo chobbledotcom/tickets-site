@@ -10,7 +10,7 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Everything you need to run events, built into one open source platform with a flat annual fee, no booking fees, and no feature gating.
+    lead: Everything you need to run events, built into one open source platform with a flat fee, no booking fees, and no feature gating.
     name: Features
   - type: markdown
     content: |
@@ -137,6 +137,6 @@ blocks:
     content: |-
       ## See it in action
 
-      Sign up for managed hosting at £50/year, or browse the source code and documentation on GitHub.
+      Sign up for managed hosting at £50/year or £5/month, or browse the source code and documentation on GitHub.
 name: Features - Chobble Tickets
 ---

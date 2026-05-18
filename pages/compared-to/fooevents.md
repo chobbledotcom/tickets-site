@@ -84,7 +84,7 @@ blocks:
       (typically £5 to £25 per month for shared or managed WordPress
       hosting).
 
-      Chobble Tickets is a flat £50/year for hosted use, with
+      Chobble Tickets is a flat £50/year or £5/month for hosted use, with
       [no per-ticket fees](/features/no-per-ticket-fees/). You pay
       Stripe or Square processing fees on top. Charities and community
       groups pay £25/year. Self-hosting is free.
@@ -243,8 +243,8 @@ blocks:
       account.
 
       Chobble Tickets does not use per-domain licensing. The £50/year
-      hosted plan covers your account, and self-hosting the AGPLv3
-      code costs nothing regardless of how many sites you run.
+      (or £5/month) hosted plan covers your account, and self-hosting
+      the AGPLv3 code costs nothing regardless of how many sites you run.
   - type: markdown
     content: |
       ## Data and attendee privacy
@@ -287,8 +287,8 @@ blocks:
 
       - You do not want to run a WordPress site just to sell tickets
       - You want attendee personal data encrypted at rest
-      - You want predictable flat-rate pricing (£50/year, or £25/year
-        for charities and community groups)
+      - You want predictable flat-rate pricing (£50/year or £5/month,
+        or £25/year for charities and community groups on the annual plan)
       - You value open source code with no paid tier or feature gates
       - You want [Apple and Google Wallet](/features/apple-wallet/),
         [calendar feeds](/features/rss-and-calendar-feeds/), or an
@@ -351,6 +351,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Flat annual pricing, encrypted attendee data, and no WordPress site required.
+      Flat pricing, encrypted attendee data, and no WordPress site required.
 name: Chobble Tickets vs FooEvents | Hosted Ticketing vs a WooCommerce Plugin
 ---

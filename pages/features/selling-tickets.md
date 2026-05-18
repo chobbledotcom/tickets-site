@@ -42,6 +42,6 @@ blocks:
     content: |-
       ## Start selling tickets
 
-      Sign up for managed hosting at £50/year, or browse the full technical documentation.
+      Sign up for managed hosting at £50/year or £5/month, or browse the full technical documentation.
 name: Selling Tickets - Chobble Tickets
 ---

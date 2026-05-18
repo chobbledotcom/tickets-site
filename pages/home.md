@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Chobble Tickets - Open Source Event Ticketing
 meta_title: Chobble Tickets - Open Source Event Ticketing
-meta_description: Event ticketing for £50/year with no per-ticket fees or commission. Keep all your ticket revenue. Open source, encrypted, and self-hostable.
+meta_description: Event ticketing from £50/year or £5/month with no per-ticket fees or commission. Keep all your ticket revenue. Open source, encrypted, and self-hostable.
 permalink: /
 eleventyNavigation:
   key: Home
@@ -11,7 +11,7 @@ blocks:
   - type: hero
     class: gradient
     badge: Open Source & Encrypted
-    lead: Chobble Tickets is an open source ticketing platform with a flat annual fee, no booking fees or commission, and no attendee data collection.
+    lead: Chobble Tickets is an open source ticketing platform with a flat fee, no booking fees or commission, and no attendee data collection.
     buttons:
       - text: Sign Up
         href: https://tix.chobble.com/ticket/register
@@ -26,7 +26,7 @@ blocks:
     dark: true
     items:
       - value: £50
-        label: Per Year
+        label: Per Year (or £5/month)
       - value: ∞
         label: Events & Tickets
       - value: 0%
@@ -34,15 +34,15 @@ blocks:
       - value: 100%
         label: Open Source
   - type: split-icon-links
-    subtitle: Flat annual fee. No per-ticket charges.
+    subtitle: Flat fee. No per-ticket charges.
     reverse: true
     reveal_content: right
     content: |
       ## Pricing
 
-      Managed hosting costs £50 per year. There are no service charges, no percentage cuts, and no surprise fees.
+      Managed hosting costs £50/year, or £5/month if you prefer monthly billing. There are no service charges, no percentage cuts, and no surprise fees.
 
-      Charities, community groups, artists, and musicians receive a 50% discount.
+      Charities, community groups, artists, and musicians receive a 50% discount on the annual plan, bringing the cost to £25/year.
 
       Money from ticket sales goes directly to your Stripe or Square account. Chobble does not handle or touch your revenue.
 
@@ -51,7 +51,7 @@ blocks:
       [Compare all ticketing platforms](/compared-to/compare-all/) to see how Chobble Tickets' pricing works out against 20+ alternatives.
     figure_items:
       - icon: hugeicons:money-receive-square
-        text: £50/year
+        text: £50/year or £5/month
         url: /compared-to/compare-all/
       - icon: hugeicons:ticket-01
         text: Unlimited events and tickets
@@ -60,7 +60,7 @@ blocks:
         text: No commission, no per-ticket fees
         url: /compared-to/compare-all/
       - icon: hugeicons:discount
-        text: 50% discount for charities and artists
+        text: 50% discount for charities and artists on annual
         url: /compared-to/compare-all/
   - type: features
     intro_content: |
@@ -99,7 +99,7 @@ blocks:
         description: AGPLv3 licensed with every feature included and no open-core bait-and-switch. Browse the code on GitHub.
         name: Fully open source
       - icon: hugeicons:credit-card
-        description: Pay a flat annual fee with no service charges or commission. Money from ticket sales goes directly to your Stripe or Square account.
+        description: Pay a flat fee with no service charges or commission. Money from ticket sales goes directly to your Stripe or Square account.
         name: No per-ticket fees
       - icon: hugeicons:smart-phone-01
         description: Every ticket gets a unique QR code that you can scan with any phone camera, with no app required.
@@ -108,7 +108,7 @@ blocks:
         description: Send confirmations through your choice of Resend, Postmark, SendGrid, or Mailgun.
         name: Your email provider
       - icon: hugeicons:globe-02
-        description: Run Chobble Tickets on your own servers, or use the £50/year managed hosting at tix.chobble.com.
+        description: Run Chobble Tickets on your own servers, or use the £50/year (or £5/month) managed hosting at tix.chobble.com.
         name: Self-hostable
   - type: markdown
     dark: true
@@ -140,6 +140,6 @@ blocks:
     content: |-
       ## Get started
 
-      Sign up for managed hosting at £50/year, or download the source code from GitHub and self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or download the source code from GitHub and self-host for free.
 name: Chobble Tickets - Open Source Event Ticketing
 ---

@@ -105,7 +105,7 @@ blocks:
       networks. They charge you, and they track your attendees. They do
       both.
 
-      Chobble's income comes from the flat annual fee you pay. There is no
+      Chobble's income comes from the flat fee you pay (£50/year or £5/month). There is no
       advertising revenue, no data partnerships, and no investor expecting
       growth at your attendees' expense. As a
       [community interest company](https://www.gov.uk/government/publications/community-interest-companies-introduction),
@@ -182,6 +182,6 @@ blocks:
     content: |-
       ## Zero trackers, encrypted by default
 
-      Sign up for managed hosting at £50/year, or self-host and keep everything on your own infrastructure.
+      Sign up for managed hosting at £50/year or £5/month, or self-host and keep everything on your own infrastructure.
 name: Who Can See Your Attendee Data | Chobble Tickets
 ---

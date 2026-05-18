@@ -99,6 +99,6 @@ blocks:
     content: |-
       ## Try it yourself
 
-      Sign up for managed hosting at £50/year, or check out the source code on GitHub and self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or check out the source code on GitHub and self-host for free.
 name: Open Source Alternatives to Popular Ticketing Platforms
 ---

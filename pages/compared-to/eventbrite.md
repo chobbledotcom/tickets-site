@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: eventbrite
 title: Chobble Tickets vs Eventbrite
 meta_title: Open Source Alternative to Eventbrite | Chobble Tickets
-meta_description: "Chobble Tickets vs Eventbrite: flat annual pricing with no per-ticket fees, encrypted attendee data, and no attendee data collection."
+meta_description: "Chobble Tickets vs Eventbrite: flat pricing with no per-ticket fees, encrypted attendee data, and no attendee data collection."
 permalink: /compared-to/eventbrite/
 eleventyNavigation:
   key: vs Eventbrite
@@ -22,7 +22,7 @@ blocks:
       upward), so for a £15 ticket you might lose £1-2 per sale to the
       platform.
 
-      Chobble Tickets is a flat £50/year with [no per-ticket fees](/features/no-per-ticket-fees/),
+      Chobble Tickets is a flat £50/year or £5/month, with [no per-ticket fees](/features/no-per-ticket-fees/),
       so the maths is simple: if you sell more than a few dozen tickets
       a year, Chobble Tickets is cheaper.
   - type: markdown
@@ -153,7 +153,7 @@ blocks:
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for
         free, with no licence fee
-      - **Flat annual pricing** - £50/year with no per-ticket fees, no
+      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, no
         matter how many you sell
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -208,7 +208,7 @@ blocks:
       - You need reserved seating with venue maps
       - You're running international events in multiple currencies
       - You want an app marketplace with 100+ integrations
-      - You have very low volume and prefer paying per ticket over an annual fee
+      - You have very low volume and prefer paying per ticket over a flat fee
 
       > "I've launched my first tickets with it and have already done things
       > like switch tickets to other time slots, issued refunds, amended the
@@ -268,6 +268,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Sign up for managed hosting at £50/year, or self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or self-host for free.
 name: Open Source Alternative to Eventbrite | Chobble Tickets
 ---

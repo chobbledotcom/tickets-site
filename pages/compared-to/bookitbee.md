@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: bookitbee
 title: Chobble Tickets vs BookitBee
 meta_title: No-Fee Alternative to BookitBee | Chobble Tickets
-meta_description: Chobble Tickets is a no-fee alternative to BookitBee, with a flat annual fee, no per-ticket costs, and fully open source code.
+meta_description: Chobble Tickets is a no-fee alternative to BookitBee, with a flat fee, no per-ticket costs, and fully open source code.
 permalink: /compared-to/bookitbee/
 eleventyNavigation:
   key: vs BookitBee
@@ -21,7 +21,7 @@ blocks:
       starting from 3.5% per ticket (up to 6.5% for advanced features),
       with a minimum fee of £1 and a cap of £19.95 per ticket. For high-volume events those fees add up quickly.
 
-      Chobble Tickets charges a flat £50/year (£25 for charities) with [no
+      Chobble Tickets charges a flat £50/year or £5/month (£25/year for charities on the annual plan) with [no
       per-ticket fees](/features/no-per-ticket-fees/) or percentage cuts, which works out significantly
       cheaper for most event organisers.
   - type: include
@@ -99,7 +99,7 @@ blocks:
         public under AGPLv3
       - **Self-hosting option** - run the platform on your own servers for
         free
-      - **Flat annual pricing** - £50/year with no per-ticket fees at all,
+      - **Flat pricing** - £50/year or £5/month with no per-ticket fees at all,
         compared to BookitBee's 3.5-6.5% per ticket
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -151,8 +151,8 @@ blocks:
         support
       - You want PayPal as a payment option alongside Stripe
       - You prefer a box office POS for on-the-door sales
-      - You have very low volume and prefer paying per ticket over an annual
-        fee
+      - You have very low volume and prefer paying per ticket over a
+        flat fee
 
       ## When Chobble Tickets is the better choice
 

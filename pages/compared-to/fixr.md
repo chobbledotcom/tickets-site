@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: fixr
 title: Chobble Tickets vs FIXR
 meta_title: Open Source Alternative to FIXR | Chobble Tickets
-meta_description: Looking for an alternative to FIXR? Chobble Tickets offers flat annual pricing with no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
+meta_description: Looking for an alternative to FIXR? Chobble Tickets offers flat pricing with no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
 permalink: /compared-to/fixr/
 eleventyNavigation:
   key: vs FIXR
@@ -23,7 +23,7 @@ blocks:
       include payment processing, and organisers can optionally absorb them.
       Enterprise pricing is negotiated separately.
 
-      Chobble Tickets is a flat £50/year (£25 for charities and community
+      Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
       groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
       processing fees on top. If you sell more than about 77 tickets at
       £10 each in a year, Chobble Tickets is already cheaper.

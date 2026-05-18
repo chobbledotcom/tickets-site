@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: resident_advisor
 title: Chobble Tickets vs Resident Advisor
 meta_title: Open Source Alternative to Resident Advisor | Chobble Tickets
-meta_description: Chobble Tickets is an alternative to Resident Advisor (RA), with flat annual pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
+meta_description: Chobble Tickets is an alternative to Resident Advisor (RA), with flat pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
 permalink: /compared-to/resident-advisor/
 eleventyNavigation:
   key: vs Resident Advisor
@@ -23,7 +23,7 @@ blocks:
       tickets more expensive for fans. RA doesn't publish exact fee rates
       and negotiates with promoters individually.
 
-      Chobble Tickets is a flat £50/year (£25 for charities and community
+      Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
       groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
       processing fees on top. Once you're selling more than a handful of
       events a year, Chobble Tickets usually works out cheaper.
@@ -154,7 +154,7 @@ blocks:
         iframe into your existing website
       - **No marketing to your attendees** - Chobble does not market to
         your customers
-      - **Flat annual pricing** - no per-ticket fees, no matter how many you
+      - **Flat pricing** - no per-ticket fees, no matter how many you
         sell
 
       ## When Resident Advisor might be better
@@ -167,7 +167,7 @@ blocks:
       - You want your events connected to the RA brand and its reputation
         in the electronic music world
       - You only sell a small number of tickets per year and prefer paying
-        per ticket over an annual fee
+        per ticket over a flat fee
 
       ## When Chobble Tickets might be better
 

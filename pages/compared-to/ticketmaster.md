@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: ticketmaster
 title: Chobble Tickets vs Ticketmaster
 meta_title: Independent Alternative to Ticketmaster | Chobble Tickets
-meta_description: "Chobble Tickets vs Ticketmaster: flat annual pricing with no per-ticket fees, encrypted attendee data, and no exclusive venue contracts."
+meta_description: "Chobble Tickets vs Ticketmaster: flat pricing with no per-ticket fees, encrypted attendee data, and no exclusive venue contracts."
 permalink: /compared-to/ticketmaster/
 eleventyNavigation:
   key: vs Ticketmaster
@@ -32,7 +32,7 @@ blocks:
       Fees vary by event, venue, and contract, and as an organiser you may
       have little control over the fees charged to your attendees.
 
-      Chobble Tickets charges a flat £50/year with [no per-ticket
+      Chobble Tickets charges a flat £50/year or £5/month with [no per-ticket
       fees](/features/no-per-ticket-fees/), and payment processing fees from
       Stripe or Square are the only other cost (which go directly to the
       payment processor, not to us).
@@ -116,7 +116,7 @@ blocks:
         public under AGPLv3
       - **Self-hosting option** - run the platform on your own servers for
         free
-      - **Flat annual pricing** - £50/year with no per-ticket fees,
+      - **Flat pricing** - £50/year or £5/month with no per-ticket fees,
         compared to Ticketmaster's ~10% + £2.50 per ticket
       - **Full data ownership** - you control your attendee data, not
         Ticketmaster
@@ -215,6 +215,6 @@ blocks:
     content: |-
       ## Independent ticketing
 
-      Flat annual pricing with no per-ticket fees.
+      Flat pricing with no per-ticket fees.
 name: Independent Alternative to Ticketmaster | Chobble Tickets
 ---

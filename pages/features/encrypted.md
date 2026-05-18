@@ -113,6 +113,6 @@ blocks:
     content: |-
       ## Security you can audit
 
-      Sign up for managed hosting at £50/year, or read the encryption code yourself.
+      Sign up for managed hosting at £50/year or £5/month, or read the encryption code yourself.
 name: Encrypted Ticketing - Chobble Tickets
 ---
