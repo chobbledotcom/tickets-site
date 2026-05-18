@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: signupgenius
 title: Chobble Tickets vs SignUpGenius
 meta_title: Open Source Alternative to SignUpGenius | Chobble Tickets
-meta_description: Chobble Tickets is a ticketing alternative to SignUpGenius, with purpose-built event ticketing, flat annual pricing, encryption, and no ads on your event pages.
+meta_description: Chobble Tickets is a ticketing alternative to SignUpGenius, with purpose-built event ticketing, flat pricing, encryption, and no ads on your event pages.
 permalink: /compared-to/signupgenius/
 eleventyNavigation:
   key: vs SignUpGenius
@@ -45,7 +45,7 @@ blocks:
       5% + $0.50 per transaction. The newer SignUpGenius Tickets product
       charges $0.25 per ticket plus Stripe processing fees.
 
-      Chobble Tickets is a flat £50/year regardless of how many tickets you
+      Chobble Tickets is a flat £50/year or £5/month regardless of how many tickets you
       sell, with [no per-ticket platform fees](/features/no-per-ticket-fees/). You pay Stripe's processing
       fees (1.5% + 20p in the UK) separately.
 
@@ -128,7 +128,7 @@ blocks:
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for
         free, with no licence fee
-      - **Flat annual pricing** - £50/year with no per-ticket fees, no
+      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, no
         matter how many you sell
       - **No ads, ever** - your event pages are clean and professional,
         with no third-party advertisements (SignUpGenius free tier displays

@@ -68,7 +68,7 @@ blocks:
       Purchaser data (names, emails, and any custom question answers) is
       encrypted at rest the same as regular attendee data. There is no
       marketing to your supporters, no cross-promotion, and no platform fee
-      beyond the flat annual subscription.
+      beyond the flat subscription.
   - type: cta
     button:
       text: Get Started
@@ -78,6 +78,6 @@ blocks:
     content: |-
       ## Start collecting payments
 
-      Sign up for managed hosting at £50/year, or self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or self-host for free.
 name: Collect Donations & Payments Without Ticketing - Chobble Tickets
 ---

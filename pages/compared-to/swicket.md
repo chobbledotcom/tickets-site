@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Chobble Tickets vs Swicket
 meta_title: Independent Alternative to Swicket & alf.io | Chobble Tickets
-meta_description: Chobble Tickets is an alternative to Swicket and alf.io for community groups, schools, and independent event organisers, with flat annual pricing, AGPLv3 open source code, and no enterprise contracts.
+meta_description: Chobble Tickets is an alternative to Swicket and alf.io for community groups, schools, and independent event organisers, with flat pricing, AGPLv3 open source code, and no enterprise contracts.
 permalink: /compared-to/swicket/
 eleventyNavigation:
   key: vs Swicket
@@ -49,9 +49,10 @@ blocks:
       market (enterprise clients like CERN and Devoxx), costs are negotiated
       per contract via a sales call.
 
-      **Chobble Tickets managed** is £50/year (£25 for charities and community
-      groups) with [no per-ticket fees](/features/no-per-ticket-fees/). Self-hosted Chobble Tickets is free
-      under AGPLv3. No sales call required for either option.
+      **Chobble Tickets managed** is £50/year or £5/month (£25/year for
+      charities and community groups on the annual plan) with [no per-ticket
+      fees](/features/no-per-ticket-fees/). Self-hosted Chobble Tickets is
+      free under AGPLv3. No sales call required for either option.
 
       ## Feature comparison
 
@@ -115,8 +116,8 @@ blocks:
       - **[End-to-end encryption](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just
         row-level database security
-      - **Transparent flat pricing** - £50/year managed hosting with no
-        per-ticket fees, no sales calls, no contract negotiation
+      - **Transparent flat pricing** - £50/year or £5/month managed hosting
+        with no per-ticket fees, no sales calls, no contract negotiation
       - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
         subscribers get automatic calendar updates
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate your

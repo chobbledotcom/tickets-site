@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: tito
 title: Chobble Tickets vs Tito
 meta_title: Open Source Alternative to Tito | Chobble Tickets
-meta_description: "Chobble Tickets vs Tito: flat annual pricing with no per-ticket fees, encrypted attendee data, and open source code."
+meta_description: "Chobble Tickets vs Tito: flat pricing with no per-ticket fees, encrypted attendee data, and open source code."
 permalink: /compared-to/tito/
 eleventyNavigation:
   key: vs Tito
@@ -27,7 +27,7 @@ blocks:
       via [Stripe](https://stripe.com) or
       [PayPal](https://paypal.com) is charged separately by those providers.
 
-      Chobble Tickets is a flat £50/year with [no per-ticket fees](/features/no-per-ticket-fees/),
+      Chobble Tickets is a flat £50/year or £5/month, with [no per-ticket fees](/features/no-per-ticket-fees/),
       so the maths is simple: if you sell more than a few dozen tickets
       a year, Chobble Tickets is cheaper. With Tito, your costs scale
       linearly with revenue. A £15 ticket costs you 45p in Tito fees alone,
@@ -101,7 +101,7 @@ blocks:
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for
         free, with no licence fee
-      - **Flat annual pricing** - £50/year with no per-ticket fees, no
+      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, no
         matter how many you sell
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -153,7 +153,7 @@ blocks:
       - You need multilingual event pages for international audiences
       - You sell very high-value tickets and benefit from the €25 fee cap
       - You want native Google Analytics integration
-      - You prefer paying per ticket over an annual fee and sell fewer than
+      - You prefer paying per ticket over a flat fee and sell fewer than
         ~30 tickets a year
 
       ## When Chobble Tickets is the better choice
@@ -220,6 +220,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Sign up for managed hosting at £50/year, or self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or self-host for free.
 name: Open Source Alternative to Tito | Chobble Tickets
 ---

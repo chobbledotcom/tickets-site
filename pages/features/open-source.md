@@ -38,8 +38,9 @@ blocks:
 
       [Sign up](https://tix.chobble.com/ticket/register) and Chobble handles
       everything (infrastructure, updates, backups, and support) for £50/year
-      (50% off for charities, community groups, artists, and musicians). No
-      per-ticket fees, unlimited events, unlimited tickets.
+      or £5/month (50% off the annual rate for charities, community groups,
+      artists, and musicians). No per-ticket fees, unlimited events,
+      unlimited tickets.
 
       ### 2. GitHub-controlled deployments
 
@@ -84,6 +85,6 @@ blocks:
     content: |-
       ## Get started
 
-      Sign up for managed hosting at £50/year, or grab the source from GitHub and self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or grab the source from GitHub and self-host for free.
 name: Open Source Ticketing - Chobble Tickets
 ---

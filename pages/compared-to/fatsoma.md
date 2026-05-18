@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: fatsoma
 title: Chobble Tickets vs Fatsoma
 meta_title: Open Source Alternative to Fatsoma | Chobble Tickets
-meta_description: Chobble Tickets is an alternative to Fatsoma, with flat annual pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
+meta_description: Chobble Tickets is an alternative to Fatsoma, with flat pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
 permalink: /compared-to/fatsoma/
 eleventyNavigation:
   key: vs Fatsoma
@@ -22,7 +22,7 @@ blocks:
       UK). So on a £15 ticket, that's £1.50 to Fatsoma plus roughly 43p to
       Stripe, totalling £1.93 gone per ticket before you see a penny.
 
-      Chobble Tickets is a flat £50/year (£25 for charities and community
+      Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
       groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
       processing fees on top. If you sell more than about 50 tickets at £15
       each in a year, Chobble Tickets is already cheaper.
@@ -160,7 +160,7 @@ blocks:
       - You want your events listed on a discovery platform aimed at
         students
       - You have very low volume (under ~50 tickets/year) and prefer paying
-        per ticket over an annual fee
+        per ticket over a flat fee
 
       ## When Chobble Tickets might be better
 

@@ -52,7 +52,7 @@ blocks:
       total cost per ticket is higher than 2.5%. That's manageable for a
       handful of tickets, but costs rise quickly at volume.
 
-      Chobble Tickets charges a flat £50/year regardless of how many tickets you
+      Chobble Tickets charges a flat £50/year or £5/month regardless of how many tickets you
       sell or what you charge for them. No percentage cut, [no per-ticket fees](/features/no-per-ticket-fees/).
   - type: include
     file: price-comparator.html
@@ -165,7 +165,7 @@ blocks:
       There's no percentage fee eating into your revenue, no complex plugin
       licensing to navigate, and no enterprise sales process.
 
-      The flat £50/year hosted plan means your costs are predictable. If
+      The flat £50/year or £5/month hosted plan means your costs are predictable. If
       you self-host, it is completely free, with no license tiers, no
       feature gates, and no catches.
 
@@ -174,7 +174,7 @@ blocks:
       | | Chobble Tickets | Pretix |
       |---|---|---|
       | Open source | AGPLv3 (all features) | AGPLv3 (core only) |
-      | Hosted pricing | £50/year flat | 2.5% per ticket + payment provider fees |
+      | Hosted pricing | £50/year or £5/month flat | 2.5% per ticket + payment provider fees |
       | Self-hosted cost | Free (all features) | Free (core) / €499+/yr (enterprise) |
       | Self-hosted infrastructure | Serverless (Bunny.net edge) | Traditional server (Python, PostgreSQL, Redis) |
       | Per-ticket fees | None | 2.5% + payment provider fees (hosted) |

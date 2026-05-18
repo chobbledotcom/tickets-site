@@ -54,6 +54,6 @@ blocks:
     content: |-
       ## Start managing events
 
-      Sign up for managed hosting at £50/year, or browse the full technical documentation.
+      Sign up for managed hosting at £50/year or £5/month, or browse the full technical documentation.
 name: Managing Events - Chobble Tickets
 ---

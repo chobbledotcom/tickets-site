@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: dice
 title: Chobble Tickets vs DICE
 meta_title: Open Source Alternative to DICE | Chobble Tickets
-meta_description: "Chobble Tickets vs DICE: flat annual pricing with no per-ticket fees, encrypted attendee data, and no app required."
+meta_description: "Chobble Tickets vs DICE: flat pricing with no per-ticket fees, encrypted attendee data, and no app required."
 permalink: /compared-to/dice/
 eleventyNavigation:
   key: vs DICE
@@ -22,7 +22,7 @@ blocks:
       around 10% per ticket, but what you pay will depend on your
       agreement.
 
-      Chobble Tickets is a flat £50/year (£25 for charities and community
+      Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
       groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
       processing fees on top. If you sell more than a few dozen tickets in a
       year at typical prices, Chobble Tickets is already cheaper, and the

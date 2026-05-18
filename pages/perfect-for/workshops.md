@@ -25,7 +25,7 @@ blocks:
       ingredient. Run a few sessions a month and that's over £50 quietly
       disappearing into someone else's pocket.
 
-      Chobble Tickets charges a flat annual fee with no per-ticket cuts, so
+      Chobble Tickets charges a flat fee with no per-ticket cuts, so
       every pound your attendees pay goes straight to your Stripe or Square
       account. For low-cost events the difference is dramatic: you keep your
       margins, and your attendees pay exactly the ticket price.
@@ -94,7 +94,7 @@ blocks:
     intro_content: "## Built for small-scale events"
     items:
       - icon: hugeicons:money-receive-square
-        description: A flat annual price means you keep all of your ticket revenue, which matters when tickets are £5-£20.
+        description: A flat price means you keep all of your ticket revenue, which matters when tickets are £5-£20.
         name: No per-ticket fees
       - icon: hugeicons:qr-code
         description: Each attendee gets a QR code ticket by email. Scan them on arrival with your phone so you know exactly who's in the room.
@@ -111,6 +111,6 @@ blocks:
     content: |-
       ## Start selling tickets to your workshop
 
-      Flat annual pricing from £50/year. No per-ticket fees, no percentage cuts.
+      Flat pricing: £50/year or £5/month. No per-ticket fees, no percentage cuts.
 name: Ticketing for Workshops - Chobble Tickets
 ---

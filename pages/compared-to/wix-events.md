@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: wix_events
 title: Chobble Tickets vs Wix Events
 meta_title: Open Source Alternative to Wix Events | Chobble Tickets
-meta_description: Chobble Tickets is an alternative to Wix Events, with flat annual pricing, no per-ticket fees, full data ownership, and no platform lock-in.
+meta_description: Chobble Tickets is an alternative to Wix Events, with flat pricing, no per-ticket fees, full data ownership, and no platform lock-in.
 permalink: /compared-to/wix-events/
 eleventyNavigation:
   key: vs Wix Events
@@ -27,9 +27,10 @@ blocks:
       in payment processing, totalling 88p per ticket before you've even
       factored in the monthly subscription.
 
-      Chobble Tickets is a flat £50/year regardless of how many tickets you
+      Chobble Tickets is a flat £50/year or £5/month regardless of how many tickets you
       sell, with Stripe processing at 1.5% + 20p. [No per-ticket platform
-      fees](/features/no-per-ticket-fees/), no monthly subscription treadmill.
+      fees](/features/no-per-ticket-fees/), and the fee does not depend on a
+      separate website-builder subscription.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -114,9 +115,10 @@ blocks:
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for
         free, with no licence fee
-      - **Flat annual pricing** - £50/year with no per-ticket fees, no
+      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, no
         matter how many you sell
-      - **No monthly subscription** - pay once a year, not every month
+      - **No bundled website subscription required** - Wix Events requires a
+        Wix Business & eCommerce plan; Chobble Tickets does not
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to both Apple Wallet and Google Wallet
         natively, without third-party apps
@@ -181,7 +183,6 @@ blocks:
       - You need reserved seating with interactive venue maps
       - You need online event hosting via Wix Video or Zoom
       - You want membership-gated events tied to your Wix site
-      - You sell very few tickets and prefer spreading costs monthly
 
       ## When Chobble Tickets is the better choice
 
@@ -250,6 +251,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Flat annual pricing, open source code, and encrypted attendee data.
+      Flat pricing, open source code, and encrypted attendee data.
 name: Open Source Alternative to Wix Events | Chobble Tickets
 ---

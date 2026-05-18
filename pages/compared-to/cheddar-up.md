@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: cheddar_up
 title: Chobble Tickets vs Cheddar Up
 meta_title: Open Source Alternative to Cheddar Up | Chobble Tickets
-meta_description: Looking for an alternative to Cheddar Up? Chobble Tickets offers flat annual pricing with no per-ticket fees, full data ownership, and no platform lock-in.
+meta_description: Looking for an alternative to Cheddar Up? Chobble Tickets offers flat pricing with no per-ticket fees, full data ownership, and no platform lock-in.
 permalink: /compared-to/cheddar-up/
 eleventyNavigation:
   key: vs Cheddar Up
@@ -26,7 +26,7 @@ blocks:
       These fees include Stripe payment processing and can be passed to
       payers or absorbed by the organiser.
 
-      Chobble Tickets is a flat £50/year regardless of how many tickets
+      Chobble Tickets is a flat £50/year or £5/month regardless of how many tickets
       you sell, with [no per-ticket platform fees](/features/no-per-ticket-fees/). You pay Stripe's
       processing fees (1.5% + 20p in the UK) separately.
 
@@ -114,7 +114,7 @@ blocks:
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers
         for free, with no licence fee
-      - **Flat annual pricing** - £50/year with no per-ticket fees, no
+      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, no
         matter how many you sell
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -246,6 +246,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Flat annual pricing, open source code, and encrypted attendee data.
+      Flat pricing, open source code, and encrypted attendee data.
 name: Open Source Alternative to Cheddar Up | Chobble Tickets
 ---

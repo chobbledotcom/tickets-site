@@ -82,6 +82,6 @@ blocks:
     content: |-
       ## Get started when you're ready
 
-      Start with managed hosting at £50/year, or self-host for free.
+      Start with managed hosting at £50/year or £5/month, or self-host for free.
 name: Digital Alternative to Paper Ticketing | Chobble Tickets
 ---

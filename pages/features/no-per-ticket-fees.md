@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: No Per-Ticket Fees - Chobble Tickets
 meta_title: No Per-Ticket Fees | Flat Annual Fee Event Ticketing
-meta_description: Chobble Tickets charges a flat £50/year with no per-ticket fees or percentage cuts. See worked examples at 50, 500, and 5,000 tickets to compare the cost against percentage-based platforms.
+meta_description: Chobble Tickets charges a flat £50/year (or £5/month) with no per-ticket fees or percentage cuts. See worked examples at 50, 500, and 5,000 tickets to compare the cost against percentage-based platforms.
 permalink: /features/no-per-ticket-fees/
 eleventyNavigation:
   key: No Per-Ticket Fees
@@ -11,7 +11,7 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Chobble Tickets charges a flat £50/year regardless of how many tickets you sell. There is no percentage cut, no per-ticket charge, and no hidden fees.
+    lead: Chobble Tickets charges a flat £50/year, or £5/month, regardless of how many tickets you sell. There is no percentage cut, no per-ticket charge, and no hidden fees.
     name: No per-ticket fees
   - type: markdown
     content: |
@@ -21,14 +21,20 @@ blocks:
       fixed fee per ticket. The more tickets you sell, the more you pay. If you
       raise your ticket prices, your fees go up too.
 
-      Chobble Tickets works differently. You pay £50/year for managed hosting.
-      That covers unlimited events and unlimited tickets. Money from ticket sales
-      goes directly to your Stripe or Square account, minus only the payment
-      processor's standard fee (1.5% + 20p per transaction in the UK).
+      Chobble Tickets works differently. You pay £50/year for managed hosting,
+      or £5/month if you prefer monthly billing. That covers unlimited events
+      and unlimited tickets. Money from ticket sales goes directly to your
+      Stripe or Square account, minus only the payment processor's standard
+      fee (1.5% + 20p per transaction in the UK).
 
-      Charities, community groups, artists, and musicians pay £25/year (50%
-      discount). If you self-host, the software is free, and you only pay
-      Stripe's processing fees.
+      Monthly billing works out at £60 over a year, which is £10 more than the
+      annual rate. The difference covers the extra Stripe transaction fees on
+      the additional charges and the admin overhead of failed payments.
+
+      Charities, community groups, artists, and musicians pay £25/year on the
+      annual plan (50% discount). The discount applies to annual billing only.
+      If you self-host, the software is free, and you only pay Stripe's
+      processing fees.
   - type: markdown
     dark: true
     content: |
@@ -51,18 +57,18 @@ blocks:
       prices, even though the platform's cost of processing each ticket is the
       same.
 
-      Chobble Tickets charges a flat annual fee because that reflects the actual
+      Chobble Tickets charges a flat fee because that reflects the actual
       cost structure: fixed costs covered by a fixed price. There is no
       per-ticket cost to pass on, so there is no per-ticket fee.
 
       Chobble is a [community interest company](/features/open-source/).
-      Income comes only from the annual fees organisers pay. There is no
+      Income comes only from the flat fees organisers pay. There is no
       advertising revenue and no data economy subsidising the price.
   - type: stats
     dark: true
     items:
       - value: £50
-        label: Per Year
+        label: Per Year (or £5/month)
       - value: ∞
         label: Events
       - value: ∞
@@ -75,8 +81,10 @@ blocks:
 
       These examples compare the total annual cost of Chobble Tickets against
       a platform charging 6.95% + £0.59 per ticket (a common rate among large
-      UK ticketing providers). Chobble's payment processing (Stripe: 1.5% +
-      20p) is shown separately. The per-ticket platform's fee includes payment
+      UK ticketing providers). The examples use the £50/year annual plan.
+      Monthly billing (£5/month, total £60/year) adds £10 to the Chobble
+      Tickets total. Chobble's payment processing (Stripe: 1.5% + 20p) is
+      shown separately. The per-ticket platform's fee includes payment
       processing.
 
       ### 50 tickets per year at £10 each
@@ -106,8 +114,8 @@ blocks:
       | **You keep** | **£6,683.75** | **£7,237.50** |
 
       At 500 tickets, you keep £553.75 more with Chobble Tickets. The cost
-      per ticket drops to 53p because the £50 annual fee is spread across
-      more sales.
+      per ticket drops to 53p because the £50/year annual fee is spread
+      across more sales.
 
       ### 5,000 tickets per year at £20 each
 
@@ -136,8 +144,8 @@ blocks:
 
       **Fees are hard to predict.** When your costs depend on how many tickets
       you sell and at what price, you cannot know your costs in advance. With a
-      flat annual fee, your platform cost is £50 whether you sell 10 tickets or
-      10,000.
+      flat fee, your platform cost is £50/year (or £5/month) whether you sell
+      10 tickets or 10,000.
 
       **Fees discourage low-cost tickets.** If your event charges £3 per ticket,
       a £0.59 fixed fee per ticket is nearly 20% of the ticket price. This
@@ -178,14 +186,15 @@ blocks:
 
       | Cost | Amount |
       |---|---|
-      | Chobble Tickets (managed hosting) | £50/year |
+      | Chobble Tickets (managed hosting, annual) | £50/year |
+      | Chobble Tickets (managed hosting, monthly) | £5/month (£60/year) |
       | Chobble Tickets (self-hosted) | Free |
       | Stripe payment processing | 1.5% + 20p per transaction |
       | Per-ticket platform fee | None |
 
       Because the infrastructure cost per ticket is less than a penny, there is
-      no reason to charge you more when you sell more. The £50/year covers
-      hosting, software updates, and support.
+      no reason to charge you more when you sell more. The £50/year (or
+      £5/month) covers hosting, software updates, and support.
   - type: markdown
     dark: true
     content: |
@@ -195,13 +204,13 @@ blocks:
       handful of tickets per year. It works particularly well for:
 
       - **Regular event runners** who sell tickets every week or month, because
-        the £50 cost is spread across all events
+        the £50/year (or £5/month) cost is spread across all events
       - **High-volume events** where per-ticket fees would add up to hundreds
         or thousands of pounds
       - **Low-price events** (under £5 per ticket) where a fixed per-ticket fee
         would be a large proportion of the ticket price
-      - **Charities and community groups** who pay £25/year and want every pound
-        from ticket sales to go towards their cause
+      - **Charities and community groups** who pay £25/year on the annual plan
+        and want every pound from ticket sales to go towards their cause
 
       If you run one small event per year with fewer than about 60 tickets, a
       per-ticket platform may cost less. The [fee calculator above](#compare-fees-across-platforms) can
@@ -215,6 +224,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Sign up for managed hosting at £50/year with no per-ticket fees, or self-host for free.
+      Sign up for managed hosting at £50/year or £5/month with no per-ticket fees, or self-host for free.
 name: No Per-Ticket Fees | Flat Annual Fee Event Ticketing
 ---

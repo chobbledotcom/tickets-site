@@ -124,7 +124,8 @@ blocks:
 
       Once you need payments, capacity limits, QR code tickets, or data
       privacy, a dedicated ticketing platform like Chobble Tickets is worth
-      the £50/year. It also supports free events without payment setup, so
+      the £50/year (or £5/month). It also supports free events without
+      payment setup, so
       you can start with the same simplicity as Google Forms and add payments
       later when you need them.
   - type: markdown

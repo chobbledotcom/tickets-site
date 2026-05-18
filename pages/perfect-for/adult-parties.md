@@ -112,8 +112,8 @@ blocks:
         description: There is no discovery page, no "events near you" feature, and no way for anyone to browse a list of events hosted on the platform. Your event is only visible to people you share the link with.
         name: No public event directory
       - icon: hugeicons:credit-card
-        description: Chobble charges a flat annual fee with no per-ticket charges. The business model is based on the fee you pay, not on monetising your attendees' data.
-        name: Flat annual fee
+        description: Chobble charges a flat fee with no per-ticket charges. The business model is based on the fee you pay, not on monetising your attendees' data.
+        name: Flat fee
   - type: cta
     button:
       text: Get Started

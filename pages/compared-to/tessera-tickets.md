@@ -3,7 +3,7 @@ layout: design-system-base.html
 competitor_key: tessera_tickets
 title: Chobble Tickets vs Tessera Tickets
 meta_title: Open Source Alternative to Tessera Tickets | Chobble Tickets
-meta_description: "Chobble Tickets vs Tessera Tickets: flat annual pricing with no monthly subscription, encrypted attendee data, and open source code."
+meta_description: "Chobble Tickets vs Tessera Tickets: flat pricing with no ticket-volume tiers, encrypted attendee data, and open source code."
 permalink: /compared-to/tessera-tickets/
 eleventyNavigation:
   key: vs Tessera Tickets
@@ -38,10 +38,10 @@ blocks:
       Payment processing through Stripe or Authorize.net is charged
       separately on top.
 
-      Chobble Tickets is a flat £50/year with [no per-ticket
-      fees](/features/no-per-ticket-fees/), no monthly subscription, and no
-      ticket-volume tiers, plus Stripe processing at 1.5% + 20p. Registered
-      charities, schools, and community groups pay £25/year.
+      Chobble Tickets is a flat £50/year or £5/month, with [no per-ticket
+      fees](/features/no-per-ticket-fees/) and no ticket-volume tiers, plus
+      Stripe processing at 1.5% + 20p. Registered charities, schools, and
+      community groups pay £25/year on the annual plan.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -115,9 +115,9 @@ blocks:
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for
-        free, with no licence fee and no monthly subscription
-      - **Flat annual pricing** - £50/year with no per-ticket fees, no
-        monthly subscription, and no ticket-volume tiers
+        free, with no licence fee
+      - **Flat pricing** - £50/year or £5/month with no per-ticket fees and
+        no ticket-volume tiers
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can save tickets to both Apple Wallet and Google Wallet
       - **[Subscribable ICS calendar feed](/features/rss-and-calendar-feeds/)** -
@@ -240,6 +240,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Sign up for managed hosting at £50/year, or self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or self-host for free.
 name: Open Source Alternative to Tessera Tickets | Chobble Tickets
 ---

@@ -38,8 +38,8 @@ blocks:
       Stripe processing and your own server costs (roughly £16-32/month for
       hosting).
 
-      **Chobble Tickets** charges a flat £50/year (£25 for charities and
-      community groups) with [no per-ticket fees](/features/no-per-ticket-fees/). You pay Stripe or Square
+      **Chobble Tickets** charges a flat £50/year or £5/month (£25/year for charities and
+      community groups on the annual plan) with [no per-ticket fees](/features/no-per-ticket-fees/). You pay Stripe or Square
       processing fees on top.
 
       For small numbers of tickets, Hi.Events Cloud is cheaper since there's
