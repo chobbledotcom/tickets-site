@@ -146,8 +146,8 @@ blocks:
       - **Shipping** - physical product delivery management
       - **Virtual event support** - Venueless integration for hybrid and
         virtual events
-      - **160+ plugins** - a [plugin
-        marketplace](https://marketplace.pretix.eu/) with 160+ official and
+      - **150+ plugins** - a [plugin
+        marketplace](https://marketplace.pretix.eu/) with 150+ official and
         third-party plugins extending every aspect of the platform
       - **Multi-event organisers** - manage multiple events under one
         organisation with shared settings and branding
@@ -212,7 +212,7 @@ blocks:
       formerly rami.io GmbH, renamed in 2025) is owner-led with no
       external investors. Their website states the company has "grown
       organically through customers without any pressure by investors or
-      creditors." The team has grown to approximately 28 people.
+      creditors." The team has grown to approximately 31 people.
 
       Pretix received a German federal government grant through the
       Prototype Fund (funded by the BMBF) in 2017–2018, but has no
@@ -228,7 +228,7 @@ blocks:
     content: |
       ## Pricing sources
 
-      The pricing information on this page was verified in March 2026. Fees
+      The pricing information on this page was verified in June 2026. Fees
       may change. Check the links below for the latest figures.
 
       - [Pretix hosted pricing](https://pretix.eu/about/en/pricing) - 2.5% of ticket price (excl. taxes), capped at €15/ticket, plus payment provider fees
@@ -236,7 +236,7 @@ blocks:
       - [Pretix on GitHub](https://github.com/pretix/pretix)
       - [Pretix features - shop](https://pretix.eu/about/en/features/shop) - ticketing and shop features
       - [Pretix features - check-in](https://pretix.eu/about/en/features/checkin) - scanning and on-site tools
-      - [Pretix plugin marketplace](https://marketplace.pretix.eu/) - 160+ official and third-party plugins
+      - [Pretix plugin marketplace](https://marketplace.pretix.eu/) - 150+ official and third-party plugins
       - [Chobble Tickets features](/features/)
       - [Pretix company page](https://pretix.eu/about/en/company) - team and company information
   - type: cta
