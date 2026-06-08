@@ -94,7 +94,7 @@ blocks:
         integrations](https://www.eventbrite.com/apps/) including Zoom,
         Mailchimp, Salesforce, Zapier, HubSpot, and more
       - **Multi-currency support** - sell in different currencies for
-        international events across 180+ countries
+        international events across nearly 180 countries
       - **Virtual event support** - integrations with Zoom, livestreaming
         tools, and online event hosting
       - **Collections** - group related events for easier discovery and
@@ -249,7 +249,7 @@ blocks:
     content: |
       ## Pricing sources
 
-      The pricing information on this page was verified in March 2026. Fees
+      The pricing information on this page was verified in June 2026. Fees
       may change. Check the links below for the latest figures.
 
       - [Eventbrite pricing for organisers](https://www.eventbrite.co.uk/organizer/pricing/) - 6.95% + £0.59 per ticket (UK)
