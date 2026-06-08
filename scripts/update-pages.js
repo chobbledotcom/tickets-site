@@ -131,4 +131,4 @@ With --customise --regenerate, runs non-interactively using saved config.`);
   });
 }
 
-export { customisePages, fetchPages, updatePages };
+export { updatePages, fetchPages, customisePages };
