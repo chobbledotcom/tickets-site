@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Perfect For - Chobble Tickets
 meta_title: Perfect For - Chobble Tickets
-meta_description: Chobble Tickets works for charity events, kids parties, music concerts, political organising, adult parties, workshops, and more.
+meta_description: Chobble Tickets works for charity events, kids parties, stay and play sessions, music concerts, political organising, adult parties, workshops, and more.
 permalink: /perfect-for/
 eleventyNavigation:
   key: Perfect For
@@ -24,6 +24,9 @@ blocks:
       - icon: hugeicons:balloons
         description: Simple booking for parents where you can collect the info you need, send confirmations, and check guests in at the door.
         name: <a href="/perfect-for/kids-parties/">Kids parties</a>
+      - icon: hugeicons:baby-01
+        description: Daily session booking where parents pick a day from a calendar, with per-date capacity and no per-ticket fees on low-cost sessions.
+        name: <a href="/perfect-for/stay-and-play/">Stay and play</a>
       - icon: hugeicons:music-note-01
         description: Sell tickets directly to fans and keep all the revenue, with no platform taking a cut of every sale.
         name: <a href="/perfect-for/music-concerts/">Music concerts</a>
