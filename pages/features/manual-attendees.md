@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Manual Attendees - Chobble Tickets
 meta_title: Manual Attendees - Chobble Tickets
 meta_description: Add walk-ins and comp tickets directly from the admin panel, and edit attendee details or reassign events.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Add walk-ins and complimentary tickets directly from the admin panel, and edit attendee details or reassign events as needed.
-    name: Manual attendees
+    content: |-
+      # Manual attendees
+
+      Add walk-ins and complimentary tickets directly from the admin panel, and edit attendee details or reassign events as needed.
   - type: markdown
     content: |
       ## Walk-ins and comp tickets
@@ -79,5 +80,4 @@ blocks:
       ## Attendee records
 
       Handle walk-ins and comp tickets alongside online bookings.
-name: Manual Attendees - Chobble Tickets
----
+name: Manual Attendees - Chobble Tickets---

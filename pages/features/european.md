@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: European - Chobble Tickets
 meta_title: European Hosting and Data - Chobble Tickets
 meta_description: Chobble Tickets is a UK community interest company hosted on Bunny.net in Slovenia. Attendee data stays in the EU, which simplifies GDPR compliance and keeps processing outside the US CLOUD Act.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Chobble is a UK company hosted on Bunny.net in Slovenia. Attendee data stays in the EU, so processing is covered by UK-GDPR and EU data protection law rather than the US CLOUD Act.
-    name: European infrastructure
+    content: |-
+      # European infrastructure
+
+      Chobble is a UK company hosted on Bunny.net in Slovenia. Attendee data stays in the EU, so processing is covered by UK-GDPR and EU data protection law rather than the US CLOUD Act.
   - type: markdown
     content: |
       ## Where each part of Chobble is based
@@ -214,5 +215,4 @@ blocks:
       ## Run events on European infrastructure
 
       Sign up for managed hosting at £50/year or £5/month, or self-host in the region of your choice.
-name: European Hosting and Data - Chobble Tickets
----
+name: European Hosting and Data - Chobble Tickets---

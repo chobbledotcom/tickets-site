@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: hi_events
 selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: hi_events_selfhosted
@@ -13,8 +12,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Hi.Events is another open source ticketing platform, so this is a comparison between two projects with similar values but different approaches.
-    name: Chobble Tickets vs Hi.Events
+    content: |-
+      # Chobble Tickets vs Hi.Events
+
+      Hi.Events is another open source ticketing platform, so this is a comparison between two projects with similar values but different approaches.
   - type: markdown
     content: |
       ## Two open source options
@@ -290,5 +291,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no per-ticket fees.
-name: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared
----
+name: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared---

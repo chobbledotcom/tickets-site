@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: wix_events
 title: Chobble Tickets vs Wix Events
 meta_title: Open Source Alternative to Wix Events | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Wix Events is a ticketing add-on built into the Wix website builder. Here is how a dedicated, open source ticketing platform compares.
-    name: Chobble Tickets vs Wix Events
+    content: |-
+      # Chobble Tickets vs Wix Events
+
+      Wix Events is a ticketing add-on built into the Wix website builder. Here is how a dedicated, open source ticketing platform compares.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -253,5 +254,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and encrypted attendee data.
-name: Open Source Alternative to Wix Events | Chobble Tickets
----
+name: Open Source Alternative to Wix Events | Chobble Tickets---

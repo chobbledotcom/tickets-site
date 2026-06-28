@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Reviews - Chobble Tickets
 meta_title: Reviews - Chobble Tickets
 meta_description: Reviews from event organisers who use Chobble Tickets.
@@ -10,8 +9,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: What organisers say about Chobble Tickets.
-    name: Reviews
+    content: |-
+      # Reviews
+
+      What organisers say about Chobble Tickets.
   - type: markdown
     content: |
       ## Elliott's Bouncy Castle Hire
@@ -74,5 +75,4 @@ blocks:
       ## Try it yourself
 
       See why event organisers are switching to Chobble Tickets.
-name: Reviews - Chobble Tickets
----
+name: Reviews - Chobble Tickets---

@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Custom Domain - Chobble Tickets
 meta_title: Custom Domain - Chobble Tickets
 meta_description: Get a nice URL instantly with a host-provided subdomain, then upgrade to your own custom domain whenever you're ready.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Get a nice URL straight away with a host-provided subdomain, then add your own custom domain whenever you're ready.
-    name: Custom domain
+    content: |-
+      # Custom domain
+
+      Get a nice URL straight away with a host-provided subdomain, then add your own custom domain whenever you're ready.
   - type: markdown
     content: |
       ## A nice URL from day one
@@ -67,5 +68,4 @@ blocks:
       ## Get a nice URL today
 
       Choose your host-provided subdomain and start selling tickets under your own brand.
-name: Custom Domain - Chobble Tickets
----
+name: Custom Domain - Chobble Tickets---

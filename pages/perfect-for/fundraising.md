@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Fundraising & Donations - Chobble Tickets
 meta_title: Online Fundraising & Donation Collection - Chobble Tickets
 meta_description: Collect donations, sell raffle tickets, and run fundraising campaigns online with flat-rate pricing and no per-transaction platform fees.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Collect donations, sell raffle tickets, and run fundraising campaigns with no per-transaction platform fees eating into what you raise.
-    name: Fundraising and donations
+    content: |-
+      # Fundraising and donations
+
+      Collect donations, sell raffle tickets, and run fundraising campaigns with no per-transaction platform fees eating into what you raise.
   - type: split-icon-links
     content: |
       ## More money for your cause
@@ -90,5 +91,4 @@ blocks:
       ## Get the charity discount
 
       Sign up for managed hosting at £25/year for charities and community groups.
-name: Online Fundraising & Donation Collection - Chobble Tickets
----
+name: Online Fundraising & Donation Collection - Chobble Tickets---

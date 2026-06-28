@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Chobble Tickets - Open Source Event Ticketing
 meta_title: Chobble Tickets - Open Source Event Ticketing
 meta_description: Event ticketing from £50/year or £5/month with no per-ticket fees or commission. Keep all your ticket revenue. Open source, encrypted, and self-hostable.
@@ -11,7 +10,10 @@ blocks:
   - type: hero
     class: gradient
     badge: Open Source & Encrypted
-    lead: Chobble Tickets is an open source ticketing platform with a flat fee, no booking fees or commission, and no attendee data collection.
+    content: |-
+      # Open source event ticketing with no per-ticket fees
+
+      Chobble Tickets is an open source ticketing platform with a flat fee, no booking fees or commission, and no attendee data collection.
     buttons:
       - text: Sign Up
         href: https://tix.chobble.com/ticket/register
@@ -21,7 +23,6 @@ blocks:
         href: https://github.com/chobbledotcom/tickets
         variant: secondary
         size: lg
-    name: Open source event ticketing with no per-ticket fees
   - type: stats
     dark: true
     items:
@@ -144,5 +145,4 @@ blocks:
       ## Get started
 
       Sign up for managed hosting at £50/year or £5/month, or download the source code from GitHub and self-host for free.
-name: Chobble Tickets - Open Source Event Ticketing
----
+name: Chobble Tickets - Open Source Event Ticketing---

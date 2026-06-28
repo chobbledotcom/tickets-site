@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: eventbrite
 title: Chobble Tickets vs Eventbrite
 meta_title: Open Source Alternative to Eventbrite | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Eventbrite is the biggest name in event ticketing, so here's how a small, open source alternative compares.
-    name: Chobble Tickets vs Eventbrite
+    content: |-
+      # Chobble Tickets vs Eventbrite
+
+      Eventbrite is the biggest name in event ticketing, so here's how a small, open source alternative compares.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -271,5 +272,4 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Open Source Alternative to Eventbrite | Chobble Tickets
----
+name: Open Source Alternative to Eventbrite | Chobble Tickets---

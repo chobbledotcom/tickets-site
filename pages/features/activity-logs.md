@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Activity Logs - Chobble Tickets
 meta_title: Activity Logs - Chobble Tickets
 meta_description: Track all admin actions and booking activity with a built-in audit trail.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Track all admin actions and booking activity with a built-in audit trail.
-    name: Activity logs
+    content: |-
+      # Activity logs
+
+      Track all admin actions and booking activity with a built-in audit trail.
   - type: markdown
     content: |
       ![The activity log showing a timeline of admin actions](/images/screenshots/activity-log.png)
@@ -63,5 +64,4 @@ blocks:
       ## Activity records
 
       Track admin and booking activity with built-in activity logs.
-name: Activity Logs - Chobble Tickets
----
+name: Activity Logs - Chobble Tickets---

@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: fatsoma
 title: Chobble Tickets vs Fatsoma
 meta_title: Open Source Alternative to Fatsoma | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Fatsoma is popular with student events and nightlife promoters. Here's how a small, open source alternative compares on pricing, features, and data ownership.
-    name: Chobble Tickets vs Fatsoma
+    content: |-
+      # Chobble Tickets vs Fatsoma
+
+      Fatsoma is popular with student events and nightlife promoters. Here's how a small, open source alternative compares on pricing, features, and data ownership.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -216,5 +217,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no per-ticket fees.
-name: Open Source Alternative to Fatsoma | Chobble Tickets
----
+name: Open Source Alternative to Fatsoma | Chobble Tickets---

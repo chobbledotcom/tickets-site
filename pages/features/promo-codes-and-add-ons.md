@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Promo Codes and Add-ons - Chobble Tickets
 meta_title: Promo Codes, Discount Codes & Add-ons - Chobble Tickets
 meta_description: Offer promo codes, discount codes, surcharges, and opt-in add-ons at checkout. Stock limits, scoping, and a live running total come built in.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Offer promo codes, discount codes, surcharges, and opt-in add-ons at checkout. Stock limits, scoping, and a live running total are built in.
-    name: Promo codes and add-ons
+    content: |-
+      # Promo codes and add-ons
+
+      Offer promo codes, discount codes, surcharges, and opt-in add-ons at checkout. Stock limits, scoping, and a live running total are built in.
   - type: markdown
     content: |
       ## Discounts and extras at checkout
@@ -110,5 +111,4 @@ blocks:
       ## Offer discounts and extras
 
       Promo codes, discount codes, and add-ons are included on every plan.
-name: Promo Codes, Discount Codes & Add-ons - Chobble Tickets
----
+name: Promo Codes, Discount Codes & Add-ons - Chobble Tickets---

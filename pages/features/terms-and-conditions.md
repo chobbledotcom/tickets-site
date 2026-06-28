@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Terms & Conditions - Chobble Tickets
 meta_title: Terms & Conditions - Chobble Tickets
 meta_description: Set global terms that attendees must agree to before booking, with configurable contact fields and special instructions.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Set global terms that attendees must agree to before booking, with configurable contact fields and special instructions.
-    name: Terms & conditions
+    content: |-
+      # Terms & conditions
+
+      Set global terms that attendees must agree to before booking, with configurable contact fields and special instructions.
   - type: markdown
     content: |
       ## Require agreement before booking
@@ -47,5 +48,4 @@ blocks:
       ## Set your terms
 
       Make sure attendees agree to your terms before booking.
-name: Terms & Conditions - Chobble Tickets
----
+name: Terms & Conditions - Chobble Tickets---

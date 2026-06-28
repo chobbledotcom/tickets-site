@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Groups - Chobble Tickets
 meta_title: Event Groups & Tiered Ticket Types - Chobble Tickets
 meta_description: Organise events into groups for multi-event bookings, single checkout, and tiered ticket types with shared capacity using Chobble Tickets.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Organise related events together, let attendees book multiple events in a single checkout, and create tiered ticket types with shared capacity.
-    name: Event groups
+    content: |-
+      # Event groups
+
+      Organise related events together, let attendees book multiple events in a single checkout, and create tiered ticket types with shared capacity.
   - type: markdown
     content: |
       ![The groups management page for organising related events](/images/screenshots/groups.png)
@@ -75,5 +76,4 @@ blocks:
       ## Organise your events
 
       Group events together for a better booking experience.
-name: Event Groups & Tiered Ticket Types - Chobble Tickets
----
+name: Event Groups & Tiered Ticket Types - Chobble Tickets---

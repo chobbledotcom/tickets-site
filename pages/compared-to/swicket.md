@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Chobble Tickets vs Swicket
 meta_title: Independent Alternative to Swicket & alf.io | Chobble Tickets
 meta_description: Chobble Tickets is an alternative to Swicket and alf.io for community groups, schools, and independent event organisers, with flat pricing, AGPLv3 open source code, and no enterprise contracts.
@@ -10,8 +9,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Swicket is the commercial, managed version of the open source alf.io ticketing platform, built for large conferences and medical congresses. This page compares it to Chobble Tickets for independent event organisers.
-    name: Chobble Tickets vs Swicket
+    content: |-
+      # Chobble Tickets vs Swicket
+
+      Swicket is the commercial, managed version of the open source alf.io ticketing platform, built for large conferences and medical congresses. This page compares it to Chobble Tickets for independent event organisers.
   - type: markdown
     content: |
       ## What is Swicket?
@@ -219,5 +220,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no enterprise contracts required.
-name: Independent Alternative to Swicket & alf.io | Chobble Tickets
----
+name: Independent Alternative to Swicket & alf.io | Chobble Tickets---

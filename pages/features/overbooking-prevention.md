@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Overbooking Prevention - Chobble Tickets
 meta_title: Overbooking Prevention - Chobble Tickets
 meta_description: Capacity is checked when each payment is confirmed. If two people race for the last ticket, the second is refunded automatically.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Capacity is checked when each payment is confirmed. If two people race for the last ticket, the second is refunded automatically.
-    name: Overbooking prevention
+    content: |-
+      # Overbooking prevention
+
+      Capacity is checked when each payment is confirmed. If two people race for the last ticket, the second is refunded automatically.
   - type: markdown
     content: |
       ## How it works
@@ -57,5 +58,4 @@ blocks:
       ## Sell with confidence
 
       Built-in capacity management for fixed-date and daily events.
-name: Overbooking Prevention - Chobble Tickets
----
+name: Overbooking Prevention - Chobble Tickets---

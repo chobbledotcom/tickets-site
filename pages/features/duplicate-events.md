@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Duplicate Events - Chobble Tickets
 meta_title: Duplicate Events - Chobble Tickets
 meta_description: Clone existing events to quickly set up similar bookings without re-entering all the details.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Clone an existing event to quickly set up similar bookings without re-entering all the details.
-    name: Duplicate events
+    content: |-
+      # Duplicate events
+
+      Clone an existing event to quickly set up similar bookings without re-entering all the details.
   - type: markdown
     content: |
       ## Save time on setup
@@ -38,5 +39,4 @@ blocks:
       ## Quick event setup
 
       Clone events to save time on setup.
-name: Duplicate Events - Chobble Tickets
----
+name: Duplicate Events - Chobble Tickets---

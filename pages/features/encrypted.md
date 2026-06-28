@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Encrypted - Chobble Tickets
 meta_title: Encrypted Ticketing - Chobble Tickets
 meta_description: Chobble Tickets encrypts attendee personal data so it can only be read from an admin session unlocked with the organiser's password. Chobble staff cannot read it.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Chobble Tickets encrypts attendee personal data so it can only be read from an admin session unlocked with the organiser's password. Chobble staff cannot read attendee data, because they do not have the organiser's password. Every plan includes this encryption.
-    name: Encrypted by default
+    content: |-
+      # Encrypted by default
+
+      Chobble Tickets encrypts attendee personal data so it can only be read from an admin session unlocked with the organiser's password. Chobble staff cannot read attendee data, because they do not have the organiser's password. Every plan includes this encryption.
   - type: markdown
     content: |
       ## How the encryption works
@@ -144,5 +145,4 @@ blocks:
       ## Security you can audit
 
       Sign up for managed hosting at £50/year or £5/month, or read the encryption code yourself.
-name: Encrypted Ticketing - Chobble Tickets
----
+name: Encrypted Ticketing - Chobble Tickets---

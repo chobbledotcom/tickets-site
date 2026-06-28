@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: pta_events
 title: Chobble Tickets vs PTA Events
 meta_title: Affordable Alternative to PTA Events for School Ticketing | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: PTA Events is a popular platform built specifically for PTAs and school fundraising. This page compares Chobble Tickets against it on pricing, features, and data ownership.
-    name: Chobble Tickets vs PTA Events
+    content: |-
+      # Chobble Tickets vs PTA Events
+
+      PTA Events is a popular platform built specifically for PTAs and school fundraising. This page compares Chobble Tickets against it on pricing, features, and data ownership.
   - type: markdown
     content: |
       ## Different platforms, different approaches
@@ -225,5 +226,4 @@ blocks:
       ## Simple school event ticketing
 
       Flat pricing with no per-ticket fees, so more of your fundraising goes to the cause.
-name: Affordable Alternative to PTA Events for School Ticketing | Chobble Tickets
----
+name: Affordable Alternative to PTA Events for School Ticketing | Chobble Tickets---

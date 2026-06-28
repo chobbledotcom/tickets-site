@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Light & Dark Themes - Chobble Tickets
 meta_title: Light & Dark Themes - Chobble Tickets
 meta_description: Built-in public site with light and dark theme options, so your booking pages match your brand.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Built-in public site with light and dark theme options, so your booking pages match your brand.
-    name: Light & dark themes
+    content: |-
+      # Light & dark themes
+
+      Built-in public site with light and dark theme options, so your booking pages match your brand.
   - type: markdown
     content: |
       ## Choose your look
@@ -50,5 +51,4 @@ blocks:
       ## Match your brand
 
       Choose a light or dark theme for your public booking pages.
-name: Light & Dark Themes - Chobble Tickets
----
+name: Light & Dark Themes - Chobble Tickets---

@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Compared To - Chobble Tickets
 meta_title: Open Source Alternatives to Popular Ticketing Platforms
 meta_description: See how Chobble Tickets, an open source, no-fee ticketing option, compares to Eventbrite, Ticketmaster, BookitBee, and other platforms.
@@ -10,8 +9,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Every ticketing option has trade-offs. Each page below compares Chobble Tickets to one platform on pricing, features, and data ownership.
-    name: How Chobble Tickets compares
+    content: |-
+      # How Chobble Tickets compares
+
+      Every ticketing option has trade-offs. Each page below compares Chobble Tickets to one platform on pricing, features, and data ownership.
   - type: features
     intro_content: |
       ## Alternatives
@@ -100,5 +101,4 @@ blocks:
       ## Try it yourself
 
       Sign up for managed hosting at £50/year or £5/month, or check out the source code on GitHub and self-host for free.
-name: Open Source Alternatives to Popular Ticketing Platforms
----
+name: Open Source Alternatives to Popular Ticketing Platforms---

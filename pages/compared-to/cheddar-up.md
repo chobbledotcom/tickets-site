@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: cheddar_up
 title: Chobble Tickets vs Cheddar Up
 meta_title: Open Source Alternative to Cheddar Up | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Cheddar Up is a payment collection platform popular with PTAs, nonprofits, and community groups in the US. Here is how Chobble Tickets compares.
-    name: Chobble Tickets vs Cheddar Up
+    content: |-
+      # Chobble Tickets vs Cheddar Up
+
+      Cheddar Up is a payment collection platform popular with PTAs, nonprofits, and community groups in the US. Here is how Chobble Tickets compares.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -245,5 +246,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and encrypted attendee data.
-name: Open Source Alternative to Cheddar Up | Chobble Tickets
----
+name: Open Source Alternative to Cheddar Up | Chobble Tickets---

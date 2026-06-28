@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: dice
 title: Chobble Tickets vs DICE
 meta_title: Open Source Alternative to DICE | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: DICE is a mobile-first ticketing platform popular with music venues and live events. Here is how Chobble Tickets compares on pricing, features, and data ownership.
-    name: Chobble Tickets vs DICE
+    content: |-
+      # Chobble Tickets vs DICE
+
+      DICE is a mobile-first ticketing platform popular with music venues and live events. Here is how Chobble Tickets compares on pricing, features, and data ownership.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -216,5 +217,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, no app required, and no per-ticket fees.
-name: Open Source Alternative to DICE | Chobble Tickets
----
+name: Open Source Alternative to DICE | Chobble Tickets---

@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Frequently Asked Questions - Chobble Tickets
 meta_title: FAQ - Chobble Tickets Pricing, Fees, and Features
 meta_description: Answers to common questions about Chobble Tickets, including pricing, per-ticket fees, data privacy, encryption, open source, self-hosting, and how it compares to other platforms.
@@ -10,8 +9,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Common questions about pricing, data privacy, open source, self-hosting, and how Chobble Tickets compares to other ticketing platforms.
-    name: Frequently asked questions
+    content: |-
+      # Frequently asked questions
+
+      Common questions about pricing, data privacy, open source, self-hosting, and how Chobble Tickets compares to other ticketing platforms.
   - type: include
     file: faq-content.html
   - type: cta
@@ -24,5 +25,4 @@ blocks:
       ## Get started
 
       Sign up for managed hosting at £50/year or £5/month, or download the source code from GitHub and self-host for free.
-name: FAQ - Chobble Tickets Pricing, Fees, and Features
----
+name: FAQ - Chobble Tickets Pricing, Fees, and Features---

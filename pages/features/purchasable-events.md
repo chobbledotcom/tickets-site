@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Purchasable Events - Chobble Tickets
 meta_title: Collect Donations & Payments Without Ticketing - Chobble Tickets
 meta_description: Use Chobble Tickets for fundraising, donations, raffle ticket sales, and general payment collection without an event to attend.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Collect donations, sell raffle tickets, take membership dues, or run any kind of payment collection without an event to attend.
-    name: Purchasable events
+    content: |-
+      # Purchasable events
+
+      Collect donations, sell raffle tickets, take membership dues, or run any kind of payment collection without an event to attend.
   - type: markdown
     content: |
       ## Beyond ticketing
@@ -79,5 +80,4 @@ blocks:
       ## Start collecting payments
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Collect Donations & Payments Without Ticketing - Chobble Tickets
----
+name: Collect Donations & Payments Without Ticketing - Chobble Tickets---

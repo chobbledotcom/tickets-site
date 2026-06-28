@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: RSS & Calendar Feeds - Chobble Tickets
 meta_title: RSS & Calendar Feeds - Chobble Tickets
 meta_description: ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.
-    name: RSS & calendar feeds
+    content: |-
+      # RSS & calendar feeds
+
+      ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.
   - type: markdown
     content: |
       ## Calendar subscriptions
@@ -57,5 +58,4 @@ blocks:
       ## Keep attendees informed
 
       Let attendees subscribe to your events via calendar or RSS.
-name: RSS & Calendar Feeds - Chobble Tickets
----
+name: RSS & Calendar Feeds - Chobble Tickets---

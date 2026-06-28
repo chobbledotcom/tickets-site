@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: signupgenius
 title: Chobble Tickets vs SignUpGenius
 meta_title: Open Source Alternative to SignUpGenius | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: SignUpGenius is the go-to tool for volunteer sign-up sheets and group coordination, used by over 70 million people a year. It wasn't built for event ticketing. This page compares it to a platform that was.
-    name: Chobble Tickets vs SignUpGenius
+    content: |-
+      # Chobble Tickets vs SignUpGenius
+
+      SignUpGenius is the go-to tool for volunteer sign-up sheets and group coordination, used by over 70 million people a year. It wasn't built for event ticketing. This page compares it to a platform that was.
   - type: markdown
     content: |
       ## Different tools for different jobs
@@ -319,5 +320,4 @@ blocks:
       ## Try Chobble Tickets
 
       Ticketing and sign-up forms with no ads and no per-ticket fees.
-name: Open Source Alternative to SignUpGenius | Chobble Tickets
----
+name: Open Source Alternative to SignUpGenius | Chobble Tickets---

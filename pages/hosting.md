@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Hosting - Chobble Tickets
 meta_title: Host Chobble Tickets for Others
 meta_description: Run Chobble Tickets for the event organisers you know. The platform is designed so that anyone with some technical knowledge can become a host.
@@ -10,8 +9,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Chobble Tickets is designed so that anyone with some technical knowledge can run it for the event organisers they know. More hosts means a decentralised alternative to the big ticketing platforms.
-    name: Host Chobble Tickets for others
+    content: |-
+      # Host Chobble Tickets for others
+
+      Chobble Tickets is designed so that anyone with some technical knowledge can run it for the event organisers they know. More hosts means a decentralised alternative to the big ticketing platforms.
   - type: markdown
     content: |
       ## Why decentralised hosting matters
@@ -158,5 +159,4 @@ blocks:
       ## View the source code
 
       Chobble Tickets is open source under AGPLv3. Browse the code, fork it, and deploy your own instance.
-name: Host Chobble Tickets for Others
----
+name: Host Chobble Tickets for Others---

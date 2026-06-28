@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: ticket_tailor
 title: Chobble Tickets vs Ticket Tailor
 meta_title: Open Source Alternative to Ticket Tailor | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Ticket Tailor is an independently owned ticketing platform from London, running since 2010. This page compares it to Chobble Tickets.
-    name: Chobble Tickets vs Ticket Tailor
+    content: |-
+      # Chobble Tickets vs Ticket Tailor
+
+      Ticket Tailor is an independently owned ticketing platform from London, running since 2010. This page compares it to Chobble Tickets.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -242,5 +243,4 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Open Source Alternative to Ticket Tailor | Chobble Tickets
----
+name: Open Source Alternative to Ticket Tailor | Chobble Tickets---

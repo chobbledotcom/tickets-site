@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Refunds - Chobble Tickets
 meta_title: Refunds - Chobble Tickets
 meta_description: Process individual or bulk refunds directly from the admin panel with automatic payment provider sync.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Process individual or bulk refunds directly from the admin panel, with automatic payment provider sync through Stripe or Square.
-    name: Refunds
+    content: |-
+      # Refunds
+
+      Process individual or bulk refunds directly from the admin panel, with automatic payment provider sync through Stripe or Square.
   - type: markdown
     content: |
       ## One-click refunds
@@ -44,5 +45,4 @@ blocks:
       ## Hassle-free refunds
 
       Process refunds in seconds from the admin panel.
-name: Refunds - Chobble Tickets
----
+name: Refunds - Chobble Tickets---

@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: fooevents
 title: Chobble Tickets vs FooEvents
 meta_title: Chobble Tickets vs FooEvents | Hosted Ticketing vs a WooCommerce Plugin
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: FooEvents is a set of WordPress plugins that adds ticket sales to a WooCommerce shop. Chobble Tickets is a dedicated ticketing platform. Here is how they compare.
-    name: Chobble Tickets vs FooEvents
+    content: |-
+      # Chobble Tickets vs FooEvents
+
+      FooEvents is a set of WordPress plugins that adds ticket sales to a WooCommerce shop. Chobble Tickets is a dedicated ticketing platform. Here is how they compare.
   - type: markdown
     content: |
       ## Two different approaches
@@ -357,5 +358,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted attendee data, and no WordPress site required.
-name: Chobble Tickets vs FooEvents | Hosted Ticketing vs a WooCommerce Plugin
----
+name: Chobble Tickets vs FooEvents | Hosted Ticketing vs a WooCommerce Plugin---

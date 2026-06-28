@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Ledger - Chobble Tickets
 meta_title: Double-entry Ledger - Chobble Tickets
 meta_description: Every income figure, refund, and balance comes from a single double-entry ledger. Filter by date and listing, view per-account statements, and record cash payments.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Every income figure, refund, and balance in Chobble Tickets comes from a single double-entry ledger. Filter by date and listing, view per-account statements, and record payments taken outside the checkout.
-    name: Accounting ledger
+    content: |-
+      # Accounting ledger
+
+      Every income figure, refund, and balance in Chobble Tickets comes from a single double-entry ledger. Filter by date and listing, view per-account statements, and record payments taken outside the checkout.
   - type: markdown
     content: |
       ## One source of truth for money
@@ -90,5 +91,4 @@ blocks:
       ## Ledger-backed totals
 
       Income, refunds, costs, and balances are derived from one ledger.
-name: Double-entry Ledger - Chobble Tickets
----
+name: Double-entry Ledger - Chobble Tickets---

@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: fixr
 title: Chobble Tickets vs FIXR
 meta_title: Open Source Alternative to FIXR | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: FIXR dominates UK student nightlife and event discovery. Here's how a small, open source alternative compares on pricing, features, and data ownership.
-    name: Chobble Tickets vs FIXR
+    content: |-
+      # Chobble Tickets vs FIXR
+
+      FIXR dominates UK student nightlife and event discovery. Here's how a small, open source alternative compares on pricing, features, and data ownership.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -200,5 +201,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no per-ticket fees.
-name: Open Source Alternative to FIXR | Chobble Tickets
----
+name: Open Source Alternative to FIXR | Chobble Tickets---

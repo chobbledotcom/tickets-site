@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Stripe & Square - Chobble Tickets
 meta_title: Stripe & Square Payments - Chobble Tickets
 meta_description: Accept payments via Stripe or Square with fixed pricing or pay-what-you-want, and automatic refunds.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Accept card payments through Stripe or Square with fixed pricing or pay-what-you-want, and process refunds directly from the admin panel.
-    name: Stripe & Square payments
+    content: |-
+      # Stripe & Square payments
+
+      Accept card payments through Stripe or Square with fixed pricing or pay-what-you-want, and process refunds directly from the admin panel.
   - type: markdown
     content: |
       ## Two payment providers, your choice
@@ -53,5 +54,4 @@ blocks:
       ## Start accepting payments
 
       Connect Stripe or Square and start selling tickets in minutes.
-name: Stripe & Square Payments - Chobble Tickets
----
+name: Stripe & Square Payments - Chobble Tickets---

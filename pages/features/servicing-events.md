@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Servicing Events - Chobble Tickets
 meta_title: Block Capacity for Maintenance - Chobble Tickets
 meta_description: Block out event capacity for servicing, maintenance, deep cleans, or staff holds without creating a customer booking. Capacity is consumed and customers see nothing.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Block out capacity for servicing, maintenance, deep cleans, or staff holds without creating a customer booking. The capacity is consumed, but customers never see the booking.
-    name: Servicing events
+    content: |-
+      # Servicing events
+
+      Block out capacity for servicing, maintenance, deep cleans, or staff holds without creating a customer booking. The capacity is consumed, but customers never see the booking.
   - type: markdown
     content: |
       ## Capacity holds for anything that is not a customer
@@ -72,5 +73,4 @@ blocks:
       ## Capacity holds for operations
 
       Hold dates for maintenance without adding customer bookings.
-name: Block Capacity for Maintenance - Chobble Tickets
----
+name: Block Capacity for Maintenance - Chobble Tickets---

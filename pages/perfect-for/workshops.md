@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Workshops - Chobble Tickets
 meta_title: Ticketing for Workshops - Chobble Tickets
 meta_description: Ticketing for workshops and classes with no per-ticket fees. Attendees book online without creating an account, and their data is encrypted at rest.

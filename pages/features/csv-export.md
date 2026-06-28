@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: CSV Export - Chobble Tickets
 meta_title: CSV Export - Chobble Tickets
 meta_description: Export attendee lists as CSV with date and check-in status filtering.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Export your attendee lists as CSV files, filtered by date and check-in status, for use in spreadsheets or other tools.
-    name: CSV export
+    content: |-
+      # CSV export
+
+      Export your attendee lists as CSV files, filtered by date and check-in status, for use in spreadsheets or other tools.
   - type: markdown
     content: |
       ## Get your data out
@@ -39,5 +40,4 @@ blocks:
       ## Export your attendee data
 
       Export attendee data whenever you need it.
-name: CSV Export - Chobble Tickets
----
+name: CSV Export - Chobble Tickets---

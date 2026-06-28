@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: eventim_light
 title: Chobble Tickets vs EVENTIM.Light
 meta_title: Open Source Alternative to EVENTIM.Light | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: EVENTIM.Light is the self-service ticketing platform from Europe's largest ticketing company. Here's how a small, open source alternative compares on pricing, features, and data ownership.
-    name: Chobble Tickets vs EVENTIM.Light
+    content: |-
+      # Chobble Tickets vs EVENTIM.Light
+
+      EVENTIM.Light is the self-service ticketing platform from Europe's largest ticketing company. Here's how a small, open source alternative compares on pricing, features, and data ownership.
   - type: markdown
     content: |
       ## What is EVENTIM.Light?
@@ -310,5 +311,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no per-ticket fees.
-name: Open Source Alternative to EVENTIM.Light | Chobble Tickets
----
+name: Open Source Alternative to EVENTIM.Light | Chobble Tickets---

@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Who Can See Your Attendee Data - Chobble Tickets
 meta_title: Who Can See Your Attendee Data | Chobble Tickets
 meta_description: A breakdown of exactly which companies can access your attendees' personal information on Chobble Tickets compared to Eventbrite, Ticketmaster, and See Tickets.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: On most ticketing platforms, dozens of companies can access your attendees' personal information. Here is exactly who can see what on Chobble Tickets, and how that compares to other platforms.
-    name: Who can see your attendee data
+    content: |-
+      # Who can see your attendee data
+
+      On most ticketing platforms, dozens of companies can access your attendees' personal information. Here is exactly who can see what on Chobble Tickets, and how that compares to other platforms.
   - type: markdown
     content: |
       ## Chobble Tickets (managed hosting)
@@ -183,5 +184,4 @@ blocks:
       ## Zero trackers, encrypted by default
 
       Sign up for managed hosting at £50/year or £5/month, or self-host and keep everything on your own infrastructure.
-name: Who Can See Your Attendee Data | Chobble Tickets
----
+name: Who Can See Your Attendee Data | Chobble Tickets---

@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Registration Deadlines - Chobble Tickets
 meta_title: Registration Deadlines - Chobble Tickets
 meta_description: Set cut-off times for bookings and configure purchase limits per event or per attendee.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Set cut-off times for bookings and configure purchase limits per event or per attendee.
-    name: Registration deadlines
+    content: |-
+      # Registration deadlines
+
+      Set cut-off times for bookings and configure purchase limits per event or per attendee.
   - type: markdown
     content: |
       ## Booking cut-off times
@@ -42,5 +43,4 @@ blocks:
       ## Control your bookings
 
       Set deadlines and limits to manage your events effectively.
-name: Registration Deadlines - Chobble Tickets
----
+name: Registration Deadlines - Chobble Tickets---

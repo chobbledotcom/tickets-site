@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Users - Chobble Tickets
 meta_title: Multi-User Management - Chobble Tickets
 meta_description: Invite team members as owners, managers, or logistics agents to manage sessions and track activity in Chobble Tickets.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Invite team members as owners, managers, or logistics agents so everyone gets their own login instead of sharing passwords.
-    name: Multi-user management
+    content: |-
+      # Multi-user management
+
+      Invite team members as owners, managers, or logistics agents so everyone gets their own login instead of sharing passwords.
   - type: markdown
     content: |
       ![The users management page showing team members and their roles](/images/screenshots/users.png)
@@ -63,5 +64,4 @@ blocks:
       ## Manage events as a team
 
       Invite volunteers and committee members so everyone can manage events without sharing a single login.
-name: Multi-User Management - Chobble Tickets
----
+name: Multi-User Management - Chobble Tickets---

@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Custom Questions - Chobble Tickets
 meta_title: Custom Questions - Chobble Tickets
 meta_description: Add multiple-choice or free-text questions to your events and collect answers from attendees at checkout, with answers visible throughout the admin interface.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Add custom questions to your events and collect the information you need from attendees at checkout. Choose from multiple-choice or free-text answers.
-    name: Custom Questions
+    content: |-
+      # Custom Questions
+
+      Add custom questions to your events and collect the information you need from attendees at checkout. Choose from multiple-choice or free-text answers.
   - type: markdown
     content: |
       ## Collect what you need to know
@@ -85,5 +86,4 @@ blocks:
       ## Collect the answers you need
 
       Add custom questions to your events and see answers across your admin interface.
-name: Custom Questions - Chobble Tickets
----
+name: Custom Questions - Chobble Tickets---

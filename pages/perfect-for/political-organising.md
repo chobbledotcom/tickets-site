@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Political Organising - Chobble Tickets
 meta_title: Ticketing for Political Organising - Chobble Tickets
 meta_description: Event ticketing for political groups with encrypted attendee data, open source and self-hostable.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Attendee data is encrypted at rest, and you can run the platform on your own servers so no data leaves your infrastructure.
-    name: Ticketing for political organising
+    content: |-
+      # Ticketing for political organising
+
+      Attendee data is encrypted at rest, and you can run the platform on your own servers so no data leaves your infrastructure.
   - type: split-icon-links
     content: |
       ## Privacy by design
@@ -57,5 +58,4 @@ blocks:
       ## Get started with encrypted event ticketing
 
       Self-host for free, or get managed hosting from £25/year for community groups.
-name: Ticketing for Political Organising - Chobble Tickets
----
+name: Ticketing for Political Organising - Chobble Tickets---

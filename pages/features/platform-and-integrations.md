@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Platform & Integrations - Chobble Tickets
 meta_title: Platform & Integrations - Chobble Tickets
 meta_description: Open source, encrypted, with a public API, webhooks, Apple Wallet, and calendar feeds to connect your tools.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Open source and encrypted by default, with a public API, webhooks, Apple Wallet, and calendar feeds to connect your existing tools.
-    name: Platform & integrations
+    content: |-
+      # Platform & integrations
+
+      Open source and encrypted by default, with a public API, webhooks, Apple Wallet, and calendar feeds to connect your existing tools.
   - type: features
     items:
       - icon: hugeicons:source-code
@@ -49,5 +50,4 @@ blocks:
       ## Explore the platform
 
       Sign up for managed hosting at £50/year or £5/month, or browse the full technical documentation.
-name: Platform & Integrations - Chobble Tickets
----
+name: Platform & Integrations - Chobble Tickets---

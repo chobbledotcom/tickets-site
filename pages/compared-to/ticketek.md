@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: ticketek
 title: Chobble Tickets vs Ticketek
 meta_title: Independent Alternative to Ticketek | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Ticketek handles ticketing for large venues across Australia and New Zealand. Here is how Chobble Tickets compares for smaller events.
-    name: Chobble Tickets vs Ticketek
+    content: |-
+      # Chobble Tickets vs Ticketek
+
+      Ticketek handles ticketing for large venues across Australia and New Zealand. Here is how Chobble Tickets compares for smaller events.
   - type: markdown
     content: |
       ## Different markets
@@ -251,5 +252,4 @@ blocks:
       ## Independent ticketing
 
       Flat pricing with no per-ticket fees.
-name: Independent Alternative to Ticketek | Chobble Tickets
----
+name: Independent Alternative to Ticketek | Chobble Tickets---

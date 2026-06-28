@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: tito
 title: Chobble Tickets vs Tito
 meta_title: Open Source Alternative to Tito | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Tito is a well-regarded, developer-friendly ticketing platform from Ireland, so here's how a small, open source alternative compares.
-    name: Chobble Tickets vs Tito
+    content: |-
+      # Chobble Tickets vs Tito
+
+      Tito is a well-regarded, developer-friendly ticketing platform from Ireland, so here's how a small, open source alternative compares.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -224,5 +225,4 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Open Source Alternative to Tito | Chobble Tickets
----
+name: Open Source Alternative to Tito | Chobble Tickets---

@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: pretix_hosted
 selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: pretix_selfhosted
@@ -13,8 +12,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Two open source ticketing platforms with very different models. This page compares them on cost, complexity, and approach.
-    name: Chobble Tickets vs Pretix
+    content: |-
+      # Chobble Tickets vs Pretix
+
+      Two open source ticketing platforms with very different models. This page compares them on cost, complexity, and approach.
   - type: markdown
     content: |
       ## Two open source projects, two approaches
@@ -259,5 +260,4 @@ blocks:
       ## Try Chobble Tickets
 
       Simple, flat-rate ticketing with no percentage fees and no lock-in.
-name: Open Source Alternative to Pretix | Chobble Tickets
----
+name: Open Source Alternative to Pretix | Chobble Tickets---

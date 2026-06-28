@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: resova
 title: Chobble Tickets vs Resova
 meta_title: Open Source Alternative to Resova | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Resova is an activity booking platform built for escape rooms, tours, and experiences. Here is how a general-purpose, open source ticketing platform compares.
-    name: Chobble Tickets vs Resova
+    content: |-
+      # Chobble Tickets vs Resova
+
+      Resova is an activity booking platform built for escape rooms, tours, and experiences. Here is how a general-purpose, open source ticketing platform compares.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -225,5 +226,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and no booking limits.
-name: Open Source Alternative to Resova | Chobble Tickets
----
+name: Open Source Alternative to Resova | Chobble Tickets---

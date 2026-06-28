@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Logistics - Chobble Tickets
 meta_title: Delivery, Collection & Logistics - Chobble Tickets
 meta_description: Manage deliveries, equipment hire, transport, set-up and teardown at customer locations. Assign agents, view a run sheet, and mark legs done.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Manage deliveries, equipment hire, transport, set-up and teardown at customer locations. Assign logistics agents, give them a run sheet, and track each drop-off and collection to done.
-    name: Logistics
+    content: |-
+      # Logistics
+
+      Manage deliveries, equipment hire, transport, set-up and teardown at customer locations. Assign logistics agents, give them a run sheet, and track each drop-off and collection to done.
   - type: markdown
     content: |
       ## For events with a physical delivery
@@ -67,5 +68,4 @@ blocks:
       ## Delivery records in the admin panel
 
       Deliveries, collections, and assigned agents are shown in one place.
-name: Delivery, Collection & Logistics - Chobble Tickets
----
+name: Delivery, Collection & Logistics - Chobble Tickets---
