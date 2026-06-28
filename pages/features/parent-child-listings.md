@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Parent/Child Listings - Chobble Tickets
 meta_title: Required Child Listings - Chobble Tickets
-meta_description: A parent listing can require buyers to choose child listings - add-ons, options, or bundled items - before they can check out.
+meta_description: A parent listing can require buyers to choose child listings - required extras, options, or bundled items - before they can check out.
 permalink: /features/parent-child-listings/
 eleventyNavigation:
   key: Parent/Child Listings
@@ -11,7 +11,7 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: A parent listing can require buyers to choose child listings before they can check out. Useful for upsells, bundled items, and any booking where one thing requires another.
+    lead: A parent listing can require buyers to choose child listings before they can check out. Useful for required extras, bundled items, and any booking where one thing requires another.
     name: Parent/child listings
   - type: markdown
     content: |

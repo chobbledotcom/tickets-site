@@ -70,7 +70,7 @@ blocks:
         [Pro](https://www.eventbrite.com/organizer/pricing/), including
         audience segmentation and automated event reminders
       - **Social media ad tools** - launch Facebook and Instagram ad
-        campaigns directly from Eventbrite with smart audience targeting
+        campaigns directly from Eventbrite with audience targeting
         and [retargeting](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/)
         (Eventbrite claim 6x average ROI on retargeting campaigns)
       - **Hidden ticket tiers** - ticket types hidden behind access codes

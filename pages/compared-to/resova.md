@@ -66,7 +66,7 @@ blocks:
         time and store them against the customer record, which matters for
         escape rooms, climbing, axe-throwing, and similar activities
       - **SMS reminders** - send text-message confirmations and reminders
-        to customers, not just email
+        to customers as well as email
       - **Built-in CRM** - persistent customer profiles with notes, custom
         fields, and activity tracking across every booking
       - **Abandoned booking recovery** - automated follow-up emails to
@@ -92,8 +92,8 @@ blocks:
       **Chobble Tickets has features Resova doesn't:**
 
       - **[End-to-end encryption](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just
-        stored in a database
+        stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
+        plain database rows
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3
       - **Self-hosting option** - run the platform on your own servers for

@@ -32,10 +32,9 @@ blocks:
       can serve as sign-up sheets for volunteers, potluck contributions,
       or other form-based collections.
 
-      SignUpGenius has more advanced coordination features like slot
-      swapping and task assignments. If you need those, it's probably the
-      right tool. If you need event ticketing, or straightforward sign-up
-      forms, read on.
+      SignUpGenius has more coordination features like slot swapping and
+      task assignments. If you need those, it may be the right tool. If you
+      need event ticketing, or straightforward sign-up forms, read on.
 
       ## Pricing comparison
 
@@ -75,7 +74,7 @@ blocks:
 
       **SignUpGenius has features Chobble Tickets doesn't:**
 
-      - **Advanced sign-up coordination** - SignUpGenius goes beyond basic
+      - **Sign-up coordination** - SignUpGenius goes beyond basic
         sign-up sheets with time-slot management, task assignments, item
         requests for potlucks, and automatic slot filling across volunteer
         shifts, carpools, and group activities. (Chobble Tickets can handle
@@ -121,8 +120,8 @@ blocks:
         (SignUpGenius Tickets has basic ticketing, but the core sign-up
         product does not issue scannable tickets)
       - **[End-to-end encryption](/features/encrypted/)** - attendee data
-        is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just
-        stored in a database
+        is stored with hybrid RSA-OAEP + AES-256-GCM encryption rather
+        than plain database rows
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for
@@ -185,7 +184,7 @@ blocks:
 
       Removing ads requires at least the Silver plan ($8.99/month annual,
       $11.99/month monthly), which works out to $107.88-$143.88 per year
-      just to have clean pages.
+      to have pages without ads.
 
       Chobble Tickets has no ads on any plan. Your event pages are always
       clean, professional, and free of third-party tracking.
@@ -214,7 +213,7 @@ blocks:
     content: |
       ## When SignUpGenius might be the better choice
 
-      - You need advanced volunteer coordination with slot swapping, task
+      - You need volunteer coordination with slot swapping, task
         assignments, and automatic slot filling, which is what SignUpGenius
         was built for
       - You want RSVP-style responses (yes/no/maybe) rather than ticket
@@ -235,7 +234,7 @@ blocks:
       - You need event ticketing with QR code check-in and capacity
         management
       - You want sign-up forms for volunteers or potluck contributions
-        without paying for advanced coordination features you don't need
+        without paying for coordination features you don't need
       - You're selling tickets and want flat, predictable pricing with no
         per-ticket fees
       - You want clean, ad-free event pages from day one

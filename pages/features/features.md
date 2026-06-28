@@ -43,7 +43,7 @@ blocks:
         description: Offer promo codes, discount codes, surcharges, and opt-in add-ons at checkout with stock limits and a live running total.
         name: <a href="/features/promo-codes-and-add-ons/">Promo codes & add-ons</a>
       - icon: hugeicons:link-04
-        description: Require buyers to choose child listings, like add-ons or options, when booking a parent event.
+        description: Require buyers to choose child listings, like required extras or options, when booking a parent event.
         name: <a href="/features/parent-child-listings/">Parent/child listings</a>
   - type: features
     dark: true
@@ -68,7 +68,7 @@ blocks:
         description: Manage deliveries, equipment hire, and collections at customer locations with a deliveries run sheet for agents.
         name: <a href="/features/logistics/">Logistics</a>
       - icon: hugeicons:wrench-01
-        description: Block out capacity for servicing, maintenance, or staff holds without creating a fake customer.
+        description: Block out capacity for servicing, maintenance, or staff holds without creating a customer booking.
         name: <a href="/features/servicing-events/">Servicing events</a>
       - icon: hugeicons:copy-01
         description: Clone existing events to quickly set up similar bookings without re-entering all the details.

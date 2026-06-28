@@ -53,8 +53,8 @@ blocks:
       Each event page shows an "Income & ledger" reconciliation. It explains
       how gross ticket sales relate to recognised income, how refunds reduce
       it, and how costs paid outside the checkout affect the net balance. The
-      two figures - what was sold and what is in the ledger - are shown side
-      by side so you can see they match.
+      page shows the figures side by side and explains how refunds, manual
+      income, and costs affect the net balance.
 
       ## Record cash and offline payments
 
@@ -64,8 +64,7 @@ blocks:
       a timestamp for when it happened.
 
       You can also record costs paid for an event - venue hire, equipment,
-      catering - so the ledger reflects the true net position, not just
-      income.
+      catering - so the ledger reflects costs as well as income.
 
       Manual entries you can record include:
 
@@ -88,9 +87,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Money you can trust
+      ## Ledger-backed totals
 
-      Every figure comes from one ledger. No reconciliation headaches, no
-      drifting totals.
+      Income, refunds, costs, and balances are derived from one ledger.
 name: Double-entry Ledger - Chobble Tickets
 ---

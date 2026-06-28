@@ -2,7 +2,7 @@
 layout: design-system-base.html
 title: Servicing Events - Chobble Tickets
 meta_title: Block Capacity for Maintenance - Chobble Tickets
-meta_description: Block out event capacity for servicing, maintenance, deep cleans, or staff holds without creating a fake customer. Capacity is consumed and customers see nothing.
+meta_description: Block out event capacity for servicing, maintenance, deep cleans, or staff holds without creating a customer booking. Capacity is consumed and customers see nothing.
 permalink: /features/servicing-events/
 eleventyNavigation:
   key: Servicing Events
@@ -11,7 +11,7 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Block out capacity for servicing, maintenance, deep cleans, or staff holds without creating a fake customer. The capacity is consumed, but customers never see the booking.
+    lead: Block out capacity for servicing, maintenance, deep cleans, or staff holds without creating a customer booking. The capacity is consumed, but customers never see the booking.
     name: Servicing events
   - type: markdown
     content: |
@@ -20,14 +20,14 @@ blocks:
       Equipment goes out for repair. A venue needs a deep clean. A boiler is
       serviced. Staff need a hold on a date for an internal event.
 
-      Without a way to reserve capacity, an organiser either creates a fake
-      booking (which clutters the attendee list and triggers confirmations)
-      or leaves the capacity open and hopes no one books it.
+      Without a way to reserve capacity, an organiser either creates a
+      customer booking (which clutters the attendee list and triggers
+      confirmations) or leaves the capacity open and hopes no one books it.
 
-      Servicing events solve this. A servicing event consumes capacity just
-      like a real booking, but it is not a customer. There is no QR code, no
-      ticket email, no contact record, and no payment. Customers never see
-      it.
+      Servicing events solve this. A servicing event consumes capacity the
+      same way as a real booking, but it is not a customer. There is no QR
+      code, no ticket email, no contact record, and no payment. Customers
+      never see it.
 
       ## How it works
 
@@ -56,10 +56,10 @@ blocks:
 
       A servicing event can have costs recorded against it - the price of the
       repair, the cleaning crew's fee, the part that was replaced. Each cost
-      posts to the [ledger](/features/ledger/) against the event, so the
-      event's net position reflects both income and outgoings.
+      posts to the [ledger](/features/ledger/) against the listing it affects,
+      so the listing's profit reflects both income and costs.
 
-      Costs are recorded with an amount, a memo, and the event they relate
+      Costs are recorded with an amount, a memo, and the listing they relate
       to. Editing a cost later adds an adjustment leg rather than rewriting
       history, so the ledger stays auditable.
   - type: cta
@@ -69,8 +69,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Block capacity cleanly
+      ## Capacity holds for operations
 
-      Hold dates for maintenance without fake bookings or messy workarounds.
+      Hold dates for maintenance without adding customer bookings.
 name: Block Capacity for Maintenance - Chobble Tickets
 ---

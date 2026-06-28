@@ -162,7 +162,7 @@ blocks:
 
       - **No WordPress required** - Chobble Tickets runs on its own,
         so you do not need to install, update, or secure a WordPress
-        site just to sell tickets
+        site for ticket sales
       - **[End-to-end encryption](/features/encrypted/)** - Chobble
         encrypts attendee personal data at rest with a hybrid
         RSA-OAEP + AES-256-GCM scheme, so the server operator cannot
@@ -290,7 +290,7 @@ blocks:
 
       ## When Chobble Tickets is the better choice
 
-      - You do not want to run a WordPress site just to sell tickets
+      - You do not want to run a WordPress site for ticket sales
       - You want attendee personal data encrypted at rest
       - You want predictable flat-rate pricing (£50/year or £5/month,
         or £25/year for charities and community groups on the annual plan)

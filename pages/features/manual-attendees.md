@@ -76,7 +76,7 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Flexible attendee management
+      ## Attendee records
 
       Handle walk-ins and comp tickets alongside online bookings.
 name: Manual Attendees - Chobble Tickets

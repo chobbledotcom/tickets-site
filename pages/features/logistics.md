@@ -64,8 +64,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Run the day, not the spreadsheet
+      ## Delivery records in the admin panel
 
-      Deliveries, collections, and agents in one place.
+      Deliveries, collections, and assigned agents are shown in one place.
 name: Delivery, Collection & Logistics - Chobble Tickets
 ---

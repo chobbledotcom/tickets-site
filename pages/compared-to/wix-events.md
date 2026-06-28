@@ -60,8 +60,8 @@ blocks:
       **Wix Events has features Chobble Tickets doesn't:**
 
       - **Full website builder** - Wix Events is part of the Wix platform, so
-        you get a complete website with drag-and-drop design tools, not just
-        a ticketing page
+        you get a complete website with drag-and-drop design tools as well
+        as a ticketing page
       - **RSVP events** - create free RSVP events for weddings, parties, and
         gatherings with guest tracking and
         [waitlists](https://support.wix.com/en/article/wix-events-limiting-registration-and-creating-waitlists-for-rsvp-events),
@@ -110,8 +110,8 @@ blocks:
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
       - **[End-to-end encryption](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
-        in a database
+        stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
+        plain database rows
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for
@@ -187,9 +187,9 @@ blocks:
 
       ## When Chobble Tickets is the better choice
 
-      - You already have your own website and just need ticketing
+      - You already have your own website and only need ticketing
       - You want predictable, flat-rate pricing with no per-ticket fees
-      - You don't want to pay £276+/year for a Wix plan just to sell tickets
+      - You don't want to pay £276+/year for a Wix plan only to sell tickets
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
       - You're a community group, charity, or school (£25/year)

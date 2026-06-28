@@ -138,9 +138,9 @@ blocks:
       ## Data ownership
 
       Tito is a proprietary platform. Your event data lives on their
-      servers, and you depend on their continued operation. While Tito has a good
-      reputation and offers comprehensive API access and CSV exports, your
-      ticketing setup is tied to their platform.
+      servers, and you depend on their continued operation. While Tito has a
+      good reputation and offers API access and CSV exports, your ticketing
+      setup is tied to their platform.
 
       With Chobble Tickets, attendee data is encrypted and stays under your
       control. The entire platform is open source, so you can self-host it

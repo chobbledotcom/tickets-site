@@ -106,8 +106,8 @@ blocks:
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
       - **[End-to-end encryption](/features/encrypted/)** - attendee data
-        is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not
-        just stored in a database
+        is stored with hybrid RSA-OAEP + AES-256-GCM encryption rather
+        than plain database rows
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers

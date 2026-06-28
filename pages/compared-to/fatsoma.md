@@ -38,7 +38,7 @@ blocks:
 
       Fatsoma markets to your attendees and uses your event data to promote
       other events on their platform. Your attendees become Fatsoma's
-      audience, not just yours.
+      audience as well as yours.
 
       With Chobble Tickets, attendee data is encrypted with hybrid RSA/AES
       encryption and stays under your control. There's no platform trying to
@@ -87,7 +87,7 @@ blocks:
       - **Push notifications** - [event
         announcements](https://ticketing.fatsoma.com/f/event-announcements)
         hit followers' phones via push notification and email
-      - **Cross-sell** - [upsell your other
+      - **Cross-sell** - [promote your other
         events](https://ticketing.fatsoma.com/f/cross-sell) on the order
         confirmation screen after each purchase
       - **Ad pixel tracking** - built-in [retargeting and lookalike
@@ -106,8 +106,8 @@ blocks:
       - **Custom branded apps** - on the Professional tier (~£1,500),
         Fatsoma builds custom branded iOS/Android apps and websites for
         your events
-      - **Fast 3-tap checkout** - streamlined checkout with saved card
-        details via the Fatsoma app
+      - **Fast 3-tap checkout** - checkout with saved card details via the
+        Fatsoma app
 
       **Chobble Tickets has features Fatsoma doesn't:**
 

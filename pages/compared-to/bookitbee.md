@@ -18,7 +18,7 @@ blocks:
       ## Pricing comparison
 
       [BookitBee](https://www.bookitbee.com) charges per ticket sold,
-      starting from 3.5% per ticket (up to 6.5% for advanced features),
+      starting from 3.5% per ticket (up to 6.5% for higher-tier features),
       with a minimum fee of £1 and a cap of £19.95 per ticket. For high-volume events those fees add up quickly.
 
       Chobble Tickets charges a flat £50/year or £5/month (£25/year for charities on the annual plan) with [no
@@ -64,7 +64,7 @@ blocks:
       - **Renewable membership system** - multi-tier memberships with
         pro-rata mid-year additions, self-service upgrades/downgrades,
         cancellations, and members-only event gating
-      - **Cross-selling during checkout** - upsell merchandise, parking
+      - **Cross-selling during checkout** - sell merchandise, parking
         passes, drinks tokens, and other events inline during the ticket
         purchase flow
       - **Box office POS** - a web-based point-of-sale app for on-the-door

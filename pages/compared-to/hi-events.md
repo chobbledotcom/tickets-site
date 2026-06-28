@@ -75,7 +75,7 @@ blocks:
       **Hi.Events has features Chobble Tickets doesn't:**
 
       - **Drag-and-drop event page builder** - a visual editor for designing
-        event pages with flexible layouts, images, and custom sections
+        event pages with custom layouts, images, and sections
       - **Affiliate and referral tracking** - track which promoters and
         links are driving ticket sales with commission tracking
       - **Product add-ons** - sell merchandise, parking, meal upgrades, or
@@ -85,7 +85,7 @@ blocks:
       - **Multi-currency support** - sell in different currencies for
         international events
       - **Donation and tiered ticket types** - offer donation options and
-        flexible pricing tiers beyond fixed and pay-what-you-want
+        pricing tiers beyond fixed and pay-what-you-want
       - **Tax and custom fee management** - configure VAT rates, add service
         fees, and manage tax reporting per event
       - **Real-time sales dashboard** - live analytics showing ticket sales,
@@ -130,8 +130,8 @@ blocks:
       **Chobble Tickets has features Hi.Events doesn't:**
 
       - **[End-to-end encryption](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
-        in a database
+        stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
+        plain database rows
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
@@ -222,7 +222,7 @@ blocks:
       remove the "Powered by" branding. The Single Domain licence is
       perpetual for the covered version, so there is no annual fee. If
       you are happy keeping the branding, Hi.Events self-hosted is free,
-      just like Chobble Tickets.
+      as Chobble Tickets is.
 
       ## When Hi.Events might be better
 

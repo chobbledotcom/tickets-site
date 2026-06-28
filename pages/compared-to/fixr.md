@@ -87,8 +87,8 @@ blocks:
       - **Hidden ticket access codes** - reveal specific ticket types only
         when attendees enter an access code, useful for presale
         allocations or exclusive ticket tiers
-      - **Fast checkout** - streamlined checkout with saved card details
-        via the FIXR app
+      - **Fast checkout** - checkout with saved card details via the
+        FIXR app
       - **Push notifications** - event announcements via push notification
         to followers
       - **Custom branded apps** - on the Enterprise tier, FIXR builds

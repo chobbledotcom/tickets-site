@@ -97,7 +97,7 @@
 	{
 		"section": "Open source and self-hosting",
 		"question": "Can I switch away from Chobble Tickets?",
-		"answer": "Yes, and the platform is designed to make this straightforward. You can <a href=\"/features/csv-export/\">export your attendee data as CSV</a> at any time. The codebase is open source, so you can fork it and run it independently. There are no long-term contracts and no exit fees. One of <a href=\"https://chobble.com/principles\">Chobble's principles</a> is honesty: if another provider would suit you better, Chobble's position is that you should use them. The platform does not create lock-in through proprietary data formats, mandatory contracts, or features that only work within the Chobble ecosystem."
+		"answer": "Yes, and the platform is designed to make this straightforward. You can <a href=\"/features/csv-export/\">export your attendee data as CSV</a> at any time. The codebase is open source, so you can fork it and run it independently. There are no long-term contracts and no exit fees. One of <a href=\"https://chobble.com/principles\">Chobble's principles</a> is honesty: if another provider would suit you better, Chobble's position is that you should use them. The platform does not create lock-in through proprietary data formats, mandatory contracts, or features that only work inside Chobble."
 	},
 	{
 		"section": "Open source and self-hosting",

@@ -24,10 +24,8 @@ blocks:
       You can create:
 
       - **Promo codes** - buyers enter a code at checkout to get a discount
-      - **Discount codes** - same as a promo code, applied automatically when
-        the code is entered
-      - **Surcharge codes** - a code that adds to the total instead of
-        reducing it
+      - **Discount codes** - code-triggered discounts that reduce the total
+      - **Surcharge codes** - code-triggered charges that add to the total
       - **Opt-in add-ons** - the buyer picks a quantity, like "add a meal for
         £5" or "add a parking pass"
       - **Automatic discounts** - a discount that applies to every order, with
@@ -54,8 +52,8 @@ blocks:
       ## Promo codes
 
       When you create a promo code, Chobble stores the code encrypted and
-      matches it to the buyer's input by a blind index. The code itself is
-      never visible in the database or in network traffic in a readable form.
+      matches it to the buyer's input by a blind index. The database stores
+      the encrypted code and the blind index, not the readable code.
 
       The checkout form shows a promo-code field only when a code modifier
       exists. When the buyer enters a code, the order summary updates to show

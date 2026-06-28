@@ -108,7 +108,7 @@ blocks:
       - **30+ payment methods** - Stripe, PayPal, Mollie, Adyen, Apple
         Pay, Google Pay, WeChat Pay, Alipay, Klarna, SEPA, Bitcoin
         (BitPay), bank transfer, and many regional methods
-      - **Voucher system** - Pretix has a more comprehensive voucher system
+      - **Voucher system** - Pretix has a voucher system with more options
         than Chobble Tickets: percentage and fixed-amount discounts,
         time-limited, single or multi-use, tied to specific products, with
         seat reservation and exclusive product access. Chobble Tickets now
@@ -138,7 +138,7 @@ blocks:
       - **Newsletter integration** - MailChimp and Newsletter2Go
         connectors
       - **Zapier integration** - connect to 5,000+ apps
-      - **Advanced checkout questions** - file uploads, choice questions,
+      - **Checkout questions** - file uploads, choice questions,
         and statistical overview per ticket type (Chobble supports
         multiple-choice and free-text custom questions)
       - **Check-in lists with permissions** - multiple independent
@@ -155,7 +155,7 @@ blocks:
         organisation with shared settings and branding
       - **Tax management** - configure VAT rates per product and country
 
-      Note: many of Pretix's advanced features (seating, POS, lead
+      Note: many of Pretix's larger-event features (seating, POS, lead
       scanning, badges, resellers, and others) are only available with a
       Pretix Enterprise licence starting at €499/year. The free Community
       edition includes core ticketing but lacks these plugins.

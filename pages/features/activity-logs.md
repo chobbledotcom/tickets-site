@@ -31,9 +31,8 @@ blocks:
       its detail page to see only the actions related to that event.
 
       The global log shows Attendee and Event columns, each linking to the
-      relevant record, so you jump straight from a log entry to the person
-      or event it concerns. Per-event and per-attendee views omit these
-      columns, since every row already relates to the same record.
+      related person or event record. Per-event and per-attendee views omit
+      these columns, since every row already relates to the same record.
 
       ## Encrypted at rest
 
@@ -61,8 +60,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Full visibility
+      ## Activity records
 
-      Track every action with built-in activity logs.
+      Track admin and booking activity with built-in activity logs.
 name: Activity Logs - Chobble Tickets
 ---
