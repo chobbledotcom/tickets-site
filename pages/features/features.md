@@ -39,6 +39,12 @@ blocks:
       - icon: hugeicons:timer-01
         description: Set cut-off times for bookings and configure purchase limits per event or per attendee.
         name: <a href="/features/registration-deadlines/">Registration deadlines</a>
+      - icon: hugeicons:tag-01
+        description: Offer promo codes, discount codes, surcharges, and opt-in add-ons at checkout with stock limits and a live running total.
+        name: <a href="/features/promo-codes-and-add-ons/">Promo codes & add-ons</a>
+      - icon: hugeicons:link-04
+        description: Require buyers to choose child listings, like add-ons or options, when booking a parent event.
+        name: <a href="/features/parent-child-listings/">Parent/child listings</a>
   - type: features
     dark: true
     intro_content: "## Managing events"
@@ -53,16 +59,22 @@ blocks:
         description: Organise events into groups for multi-event bookings and single checkout.
         name: <a href="/features/groups/">Groups</a>
       - icon: hugeicons:user-multiple
-        description: Invite team members as owners or managers, each with their own login and session.
+        description: Invite team members as owners, managers, or logistics agents, each with their own login and session.
         name: <a href="/features/users/">Multi-user</a>
       - icon: hugeicons:user-add-01
         description: Add walk-ins and comp tickets directly from the admin panel, and edit attendee details or reassign events as needed.
         name: <a href="/features/manual-attendees/">Manual attendees</a>
+      - icon: hugeicons:delivery-truck-02
+        description: Manage deliveries, equipment hire, and collections at customer locations with a deliveries run sheet for agents.
+        name: <a href="/features/logistics/">Logistics</a>
+      - icon: hugeicons:wrench-01
+        description: Block out capacity for servicing, maintenance, or staff holds without creating a fake customer.
+        name: <a href="/features/servicing-events/">Servicing events</a>
       - icon: hugeicons:copy-01
         description: Clone existing events to quickly set up similar bookings without re-entering all the details.
         name: <a href="/features/duplicate-events/">Duplicate events</a>
       - icon: hugeicons:help-circle
-        description: Add multiple-choice questions to events and collect structured answers from attendees at checkout, with answers visible across the admin interface.
+        description: Add multiple-choice or free-text questions to events and collect structured answers from attendees at checkout, with answers visible across the admin interface.
         name: <a href="/features/custom-questions/">Custom questions</a>
       - icon: hugeicons:csv-02
         description: Export attendee lists as CSV with date and check-in status filtering.
@@ -70,6 +82,9 @@ blocks:
       - icon: hugeicons:activity-01
         description: Track all admin actions and booking activity with a built-in audit trail and calendar views.
         name: <a href="/features/activity-logs/">Activity logs</a>
+      - icon: hugeicons:coins-hand
+        description: Every income figure, refund, and balance comes from a single double-entry ledger. Record cash and offline payments too.
+        name: <a href="/features/ledger/">Accounting ledger</a>
       - icon: hugeicons:book-open-01
         description: Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
         name: <a href="/features/admin-guide/">Built-in admin guide</a>

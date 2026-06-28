@@ -71,9 +71,6 @@ blocks:
       - **[Reserved seating](https://support.wix.com/en/article/wix-events-creating-a-seating-map)**
         - built-in seating map builder with rows, tables, and general
         admission areas, letting guests pick their seats at checkout
-      - **Discount and promo codes** - create fixed-amount or percentage
-        discount codes, optionally scoped to specific ticket types or
-        events, with usage limits
       - **[Dedicated check-in app](https://support.wix.com/en/article/check-in-by-wix-an-overview)**
         - "Check-in by Wix" app with offline scanning, up to 100 staff per
         event, and ticket-type filtering (Chobble uses browser-based QR
@@ -103,11 +100,15 @@ blocks:
       - **Apple Wallet passes** - guests on iOS can add tickets to Apple
         Wallet (Google Wallet requires a third-party app like
         [PassKit](https://integrations.passkit.com/wix/))
-      - **Custom registration form field types** - free-text fields,
-        dropdowns, checkboxes, and other field types beyond multiple choice
+      - **Custom registration form field types** - conditional logic,
+        dependent fields, and other field types beyond the free-text and
+        multiple-choice questions Chobble Tickets supports
 
       **Chobble Tickets has features Wix Events doesn't:**
 
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[End-to-end encryption](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
         in a database
@@ -135,9 +136,9 @@ blocks:
       - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
       - **[Custom questions](/features/custom-questions/)** - add
-        multiple-choice questions to events and collect structured answers
-        at checkout, with answers visible across the admin interface, CSV
-        exports, and webhooks
+        multiple-choice and free-text questions to events and collect
+        structured answers at checkout, with answers visible across the
+        admin interface, CSV exports, and webhooks
       - **[Admin API](/features/admin-api/)** - full CRUD for events via
         API keys, so you can automate event management from scripts or
         external tools (Wix has a [developer

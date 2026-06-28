@@ -97,8 +97,6 @@ blocks:
         and checking in participants
       - **Text message reminders** - SMS notifications to participants on
         higher-tier plans
-      - **Free-text custom questions** - add open-ended questions beyond
-        multiple choice (Chobble supports multiple-choice custom questions)
       - **Built-in themes and templates** - choose from pre-designed
         themes to style your sign-up pages (paid tiers)
       - **Multi-administrator access** - invite up to 10 administrators
@@ -106,8 +104,6 @@ blocks:
         own login
       - **Enterprise portal pages** - branded landing pages consolidating
         all your organisation's sign-ups in one place
-      - **Discount codes** - create percentage or fixed-amount discounts
-        for payment collections
       - **Free tier** - basic sign-up sheet creation at no cost
         (ad-supported)
 
@@ -117,6 +113,9 @@ blocks:
         sign-up sheets, potluck coordinators, and other collections by
         setting an event as free with custom questions, with capacity
         limits and encrypted data included
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[QR code tickets](/features/qr-code-check-ins/)** - every
         attendee gets a unique, scannable QR code for check-in at the door
         (SignUpGenius Tickets has basic ticketing, but the core sign-up

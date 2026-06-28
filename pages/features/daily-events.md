@@ -30,6 +30,18 @@ blocks:
       classes, weekly meetups that skip bank holidays, or any event with a
       recurring schedule that has exceptions.
 
+      ## Multi-day bookings
+
+      A daily event can be booked for more than one day at once. Set a
+      duration in days on the event, and the capacity engine checks every
+      day in the range against both the event and group caps. The calendar
+      picker excludes start dates whose full range would hit a non-bookable
+      day, so a buyer cannot pick a Wednesday start for a three-day booking
+      that runs into a blackout Friday.
+
+      Per-day remaining capacity is shown for grouped daily events, so you
+      can see how many places are left on each date at a glance.
+
       ## Admin calendar
 
       The admin dashboard includes a calendar view for daily events, so you

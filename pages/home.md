@@ -101,6 +101,9 @@ blocks:
       - icon: hugeicons:credit-card
         description: Pay a flat fee with no service charges or commission. Money from ticket sales goes directly to your Stripe or Square account.
         name: No per-ticket fees
+      - icon: hugeicons:tag-01
+        description: Offer promo codes, discount codes, and opt-in add-ons at checkout, with stock limits and a live running total.
+        name: Promo codes & add-ons
       - icon: hugeicons:smart-phone-01
         description: Every ticket gets a unique QR code that you can scan with any phone camera, with no app required.
         name: QR code check-ins

@@ -30,6 +30,25 @@ blocks:
       `/admin/log`, or drill down into a specific event's activity from
       its detail page to see only the actions related to that event.
 
+      The global log shows Attendee and Event columns, each linking to the
+      relevant record, so you jump straight from a log entry to the person
+      or event it concerns. Per-event and per-attendee views omit these
+      columns, since every row already relates to the same record.
+
+      ## Encrypted at rest
+
+      The entire activity log is encrypted with your owner key, the same
+      key that protects attendee personal data. A database dump on its own,
+      or a database dump together with the server's environment key, cannot
+      decrypt the log. Only an admin signed in with the password can read
+      it. Legacy entries are re-encrypted in the background after the
+      update.
+
+      This means the audit trail is subject to the same access control as
+      the data it describes. If you [lose your admin password](/features/encrypted/),
+      the activity log becomes permanently unreadable, alongside the
+      attendee data.
+
       ## Debugging and support
 
       When something goes wrong or an attendee has a question, the activity

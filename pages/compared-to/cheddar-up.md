@@ -85,11 +85,6 @@ blocks:
       - **Nonprofit features** - verified 501(c)(3) groups get a badge
         and can automatically send tax-deductible receipts with IRS
         language (Team only)
-      - **Free-text custom questions** - add open-ended questions
-        alongside multiple choice on registration forms (Chobble supports
-        multiple-choice custom questions only)
-      - **Discount codes** - create percentage or fixed-amount discount
-        codes for collections (Pro and Team)
       - **Scheduled access** - set start and end times for collection
         pages with a countdown timer (Pro and Team)
       - **Visitor reports** - collect names and emails of page visitors
@@ -107,6 +102,9 @@ blocks:
       - **[Sign-up forms](/features/sign-up-forms/)** - create volunteer
         sign-up sheets, potluck coordinators, and other form-based
         collections by setting an event as free with custom questions
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[End-to-end encryption](/features/encrypted/)** - attendee data
         is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not
         just stored in a database

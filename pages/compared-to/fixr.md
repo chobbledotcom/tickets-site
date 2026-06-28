@@ -84,8 +84,9 @@ blocks:
         for age-restricted or student-only events
       - **Ad pixel tracking** - retargeting and lookalike audience support
         for Facebook and other ad platforms
-      - **Promo codes** - discount codes, presale codes, and hidden ticket
-        access codes
+      - **Hidden ticket access codes** - reveal specific ticket types only
+        when attendees enter an access code, useful for presale
+        allocations or exclusive ticket tiers
       - **Fast checkout** - streamlined checkout with saved card details
         via the FIXR app
       - **Push notifications** - event announcements via push notification
@@ -97,6 +98,9 @@ blocks:
 
       **Chobble Tickets has features FIXR doesn't:**
 
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[End-to-end encryption](/features/encrypted/)** - attendee data
         is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
@@ -116,8 +120,8 @@ blocks:
       - **[Open source](/features/open-source/)** - inspect, modify, and
         contribute to the code under AGPLv3
       - **[Custom questions](/features/custom-questions/)** - add
-        multiple-choice questions to events and collect structured
-        answers at checkout
+        multiple-choice and free-text questions to events and collect
+        structured answers at checkout
       - **[Public & admin API](/features/public-api/)** - RESTful JSON
         API for building custom integrations, plus [authenticated admin
         API](/features/admin-api/) with full event CRUD via API keys

@@ -76,9 +76,6 @@ blocks:
 
       - **Drag-and-drop event page builder** - a visual editor for designing
         event pages with flexible layouts, images, and custom sections
-      - **Promo codes and discount management** - create percentage and
-        fixed-amount discount codes with usage limits, expiry dates, and
-        codes tied to specific ticket types
       - **Affiliate and referral tracking** - track which promoters and
         links are driving ticket sales with commission tracking
       - **Product add-ons** - sell merchandise, parking, meal upgrades, or
@@ -95,9 +92,10 @@ blocks:
         revenue, and check-in rates as they happen
       - **Stripe Connect instant payouts** - receive payments directly to
         your Stripe account with faster payout times
-      - **Custom registration questions with free-text fields** - add
+      - **Custom registration questions with more field types** - add
         free-text, date, and other custom field types beyond multiple choice
-        per ticket type (Chobble supports multiple-choice custom questions)
+        per ticket type (Chobble supports multiple-choice and free-text
+        custom questions)
       - **Bulk messaging by ticket type** - send targeted emails and
         updates to attendees based on which ticket type they bought
       - **Waitlists** - automatic notifications when places open up on
@@ -134,6 +132,9 @@ blocks:
       - **[End-to-end encryption](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
         in a database
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
       - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
@@ -226,7 +227,7 @@ blocks:
       ## When Hi.Events might be better
 
       - You want a polished, modern UI with a visual page builder
-      - You need promo codes, affiliate tracking, or merchandise sales
+      - You need affiliate tracking, or merchandise sales
       - You prefer a pay-per-ticket model with no upfront cost
       - You're running large nightlife events or festivals and want instant
         payouts

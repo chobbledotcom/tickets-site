@@ -63,7 +63,7 @@ blocks:
       - Embeddable ticket widgets for your own website
       - REST API access for custom integrations
       - Webhooks for real-time event notifications
-      - Custom questions on the registration form
+      - Custom questions on the registration form (multiple-choice and free-text)
       - CSV data export
       - Apple Wallet passes for tickets
       - Recurring events with per-date capacity
@@ -81,8 +81,6 @@ blocks:
       - **Native check-in apps** - dedicated iOS and Android apps that
         download attendee lists for offline scanning
       - **Waitlists** - built-in waitlist support for sold-out events
-      - **Discount codes** - set up promo codes and voucher codes to give
-        attendees a discount at checkout
       - **Ticket bundles** - combine tickets and add-ons into a single
         bundle at a discounted price (for example, two adults plus a child)
       - **Tracking links** - generate UTM-tagged links to see which
@@ -106,6 +104,9 @@ blocks:
 
       **Chobble Tickets has features Ticket Tailor doesn't:**
 
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[End-to-end encryption](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, where only
         the organiser holds the private key. Ticket Tailor uses standard
@@ -171,7 +172,6 @@ blocks:
       - You want direct built-in integrations with Mailchimp, HubSpot, or
         Constant Contact without setting up webhooks
       - You sell in multiple currencies for international events
-      - You need built-in discount codes or voucher codes
       - You want to accept PayPal alongside Stripe
       - You prefer paying a flat fee per ticket over a recurring fee, and
         sell fewer than about 84 paid tickets a year

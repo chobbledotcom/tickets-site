@@ -33,6 +33,13 @@ blocks:
       Both themes are responsive and work on phones, tablets, and desktops.
       The layout adapts to the screen size so your events look great on
       every device.
+
+      ## Link styling
+
+      Links are blue by default and gain an underline on hover or focus. If
+      you prefer links to be underlined all the time, there is an "Underline
+      links" toggle on the theme form. When on, every link on the public site
+      carries an underline, including navigation.
   - type: cta
     button:
       text: Get Started

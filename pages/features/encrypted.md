@@ -18,19 +18,38 @@ blocks:
       ## How the encryption works
 
       Chobble Tickets encrypts your attendees' personal data,
-      including names, emails, phone numbers, and addresses, before
-      saving it to the database. If someone copied the database,
-      they could not read the data without your password.
+      including names, emails, phone numbers, addresses, and
+      free-text custom question answers, before saving it to the
+      database. If someone copied the database, they could not read
+      the data without your password.
 
       The encryption keys themselves are also encrypted. The key
-      that unlocks them comes from your admin password. When you
-      log in, Chobble Tickets uses your password to unlock the keys
+      that unlocks them is derived from your admin password, combined
+      with a per-account salt and the server's environment key. When
+      you log in, Chobble Tickets uses your password to unlock the keys
       for that session, and forgets them when you log out.
 
       This means a database dump on its own cannot reveal attendee
       data. A database dump together with the server's environment
       key still cannot reveal attendee data. An attacker would also
       need your password.
+
+      ## Three layers
+
+      Chobble Tickets stores data in three layers:
+
+      - **Personal data** (names, emails, phone numbers, addresses,
+        free-text answers) is protected by two keys at once - the
+        server's encryption key and a key derived from your account
+        password. A stolen copy of the database, even together with the
+        server's key, cannot reveal them. Only an admin signed in with
+        the password can decrypt them.
+      - **Listing details** (names, descriptions, locations, dates)
+        are encrypted at rest with the server's encryption key.
+      - **Operational numbers** (income, availability, capacity) are
+        stored as plain values, because the database itself has to
+        total them, compare them, and check remaining places. They
+        hold no personal information.
 
       The exact algorithms (RSA-OAEP, AES-256-GCM, and PBKDF2 with
       600,000 iterations) follow current OWASP, NIST, and IETF
@@ -72,11 +91,18 @@ blocks:
       hosting, because they do not have your password. If you self
       host, the same is true for everyone except you.
 
+      When you invite a team member, they set their own password at
+      a self-activation link. The invite is single-use, and the keys
+      are re-wrapped under the new password as part of joining. The
+      person who sent the invite never sees the new password.
+
       **Important**: if you lose your admin password, the
       encryption keys cannot be recovered and admin passwords
       cannot be reset. There is no backdoor and no master key. A
       lost password means the attendee data on that account
-      becomes permanently unreadable.
+      becomes permanently unreadable. This is the trade-off for
+      binding the keys to your password rather than to a system
+      Chobble controls.
 
       Read the full
       [cryptography documentation](https://chobbledotcom.github.io/tickets/docs/crypto.ts)
@@ -97,9 +123,11 @@ blocks:
 
       For anyone who wants to verify the technical claims:
 
-      - **Personal data** (names, emails, phone numbers, addresses):
-        hybrid encryption using RSA-OAEP to wrap a per-record
-        AES-256-GCM data key.
+      - **Personal data** (names, emails, phone numbers, addresses,
+        free-text answers): hybrid encryption using RSA-OAEP to wrap a
+        per-record AES-256-GCM data key. The data key itself is wrapped
+        under a key derived from your password, so the database and the
+        server key together are not enough to decrypt it.
       - **Other sensitive data** (payment identifiers, pricing,
         check-in records, API credentials): AES-256-GCM.
       - **Password hashing and key derivation**: PBKDF2-SHA256 with

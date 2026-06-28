@@ -96,9 +96,9 @@ blocks:
       - **Structured customer profiles** - structured data capture (age,
         gender, social handles, phone, location) with [profile
         saving](https://ticketing.fatsoma.com/f/customer-questions) across
-        events (Chobble supports multiple-choice custom questions per event)
-      - **Promo codes** - discount codes, presale codes, and hidden ticket
-        access codes
+        events (Chobble supports multiple-choice and free-text custom questions per event)
+      - **Hidden ticket access codes** - tickets hidden behind access codes
+        for presales, VIP access, or invite-only events
       - **Event discovery platform** - Fatsoma's website and app function
         as a marketplace where attendees browse and discover events,
         particularly strong in student and nightlife markets
@@ -125,14 +125,17 @@ blocks:
         for events that repeat on a schedule with per-date capacity
       - **[Custom domain support](/features/custom-domain/)** - get a
         host-provided subdomain instantly, or point your own domain
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **Self-hosting option** - run the platform on your own servers for
         free
       - **[Open source](/features/open-source/)** - inspect, modify, and
         contribute to the code under AGPLv3
       - **[Custom questions](/features/custom-questions/)** - add
-        multiple-choice questions to events and collect structured answers
-        at checkout, with answers visible across the admin interface, CSV
-        exports, and webhooks
+        multiple-choice and free-text questions to events and collect
+        structured answers at checkout, with answers visible across the
+        admin interface, CSV exports, and webhooks
       - **[Public & admin API](/features/public-api/)** - RESTful JSON API
         for building custom integrations, plus [authenticated admin
         API](/features/admin-api/) with full event CRUD via API keys

@@ -75,8 +75,6 @@ blocks:
         admin interface alongside online bookings
       - **Gift voucher system** - sell monetary or experience-specific
         vouchers online that customers redeem at checkout
-      - **Promo codes** - create discount codes and promotional offers
-        for specific campaigns
       - **Deposits** - take a deposit at booking instead of the full
         amount up front
       - **Multi-location management** - run bookings across several
@@ -119,6 +117,9 @@ blocks:
         multiple-choice questions to events and collect structured answers
         at checkout, with answers visible across the admin interface, CSV
         exports, and webhooks
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[Public & admin API](/features/public-api/)** - RESTful JSON API
         for building custom integrations, plus [authenticated admin
         API](/features/admin-api/) with full event CRUD via API keys

@@ -116,6 +116,9 @@ blocks:
         attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
