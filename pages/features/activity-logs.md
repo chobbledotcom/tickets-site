@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Activity Logs - Chobble Tickets
 meta_title: Activity Logs - Chobble Tickets
 meta_description: Track all admin actions and booking activity with a built-in audit trail.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Track all admin actions and booking activity with a built-in audit trail.
-    name: Activity logs
+    content: |-
+      # Activity logs
+
+      Track all admin actions and booking activity with a built-in audit trail.
   - type: markdown
     content: |
       ![The activity log showing a timeline of admin actions](/images/screenshots/activity-log.png)
@@ -30,6 +31,24 @@ blocks:
       `/admin/log`, or drill down into a specific event's activity from
       its detail page to see only the actions related to that event.
 
+      The global log shows Attendee and Event columns, each linking to the
+      related person or event record. Per-event and per-attendee views omit
+      these columns, since every row already relates to the same record.
+
+      ## Encrypted at rest
+
+      The entire activity log is encrypted with your owner key, the same
+      key that protects attendee personal data. A database dump on its own,
+      or a database dump together with the server's environment key, cannot
+      decrypt the log. Only an admin signed in with the password can read
+      it. Legacy entries are re-encrypted in the background after the
+      update.
+
+      This means the audit trail is subject to the same access control as
+      the data it describes. If you [lose your admin password](/features/encrypted/),
+      the activity log becomes permanently unreadable, alongside the
+      attendee data.
+
       ## Debugging and support
 
       When something goes wrong or an attendee has a question, the activity
@@ -42,8 +61,7 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Full visibility
+      ## Activity records
 
-      Track every action with built-in activity logs.
-name: Activity Logs - Chobble Tickets
----
+      Track admin and booking activity with built-in activity logs.
+name: Activity Logs - Chobble Tickets---

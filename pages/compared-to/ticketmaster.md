@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: ticketmaster
 title: Chobble Tickets vs Ticketmaster
 meta_title: Independent Alternative to Ticketmaster | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Ticketmaster handles ticketing for large venues and arenas. Here is how Chobble Tickets compares for smaller events.
-    name: Chobble Tickets vs Ticketmaster
+    content: |-
+      # Chobble Tickets vs Ticketmaster
+
+      Ticketmaster handles ticketing for large venues and arenas. Here is how Chobble Tickets compares for smaller events.
   - type: markdown
     content: |
       ## Completely different scale
@@ -216,5 +217,4 @@ blocks:
       ## Independent ticketing
 
       Flat pricing with no per-ticket fees.
-name: Independent Alternative to Ticketmaster | Chobble Tickets
----
+name: Independent Alternative to Ticketmaster | Chobble Tickets---

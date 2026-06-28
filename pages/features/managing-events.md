@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Managing Events - Chobble Tickets
 meta_title: Managing Events - Chobble Tickets
 meta_description: Daily scheduling, team access, attendee management, check-ins, and reporting tools to run your events smoothly.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Daily scheduling, team access, attendee management, check-ins, and reporting tools to run your events smoothly.
-    name: Managing events
+    content: |-
+      # Managing events
+
+      Daily scheduling, team access, attendee management, check-ins, and reporting tools to run your events smoothly.
   - type: markdown
     content: |
       ![The event creation form with fields for name, type, description, pricing, and more](/images/screenshots/create-event-form.png)
@@ -55,5 +56,4 @@ blocks:
       ## Start managing events
 
       Sign up for managed hosting at £50/year or £5/month, or browse the full technical documentation.
-name: Managing Events - Chobble Tickets
----
+name: Managing Events - Chobble Tickets---

@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: bookitbee
 title: Chobble Tickets vs BookitBee
 meta_title: No-Fee Alternative to BookitBee | Chobble Tickets
@@ -11,14 +10,16 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: BookitBee is a UK-based ticketing platform. This page compares it to Chobble Tickets.
-    name: Chobble Tickets vs BookitBee
+    content: |-
+      # Chobble Tickets vs BookitBee
+
+      BookitBee is a UK-based ticketing platform. This page compares it to Chobble Tickets.
   - type: markdown
     content: |
       ## Pricing comparison
 
       [BookitBee](https://www.bookitbee.com) charges per ticket sold,
-      starting from 3.5% per ticket (up to 6.5% for advanced features),
+      starting from 3.5% per ticket (up to 6.5% for higher-tier features),
       with a minimum fee of £1 and a cap of £19.95 per ticket. For high-volume events those fees add up quickly.
 
       Chobble Tickets charges a flat £50/year or £5/month (£25/year for charities on the annual plan) with [no
@@ -64,10 +65,7 @@ blocks:
       - **Renewable membership system** - multi-tier memberships with
         pro-rata mid-year additions, self-service upgrades/downgrades,
         cancellations, and members-only event gating
-      - **Promo codes and discounts** - create percentage-off discount
-        codes, promotional offers, and campaign-specific URLs with sales
-        tracking
-      - **Cross-selling during checkout** - upsell merchandise, parking
+      - **Cross-selling during checkout** - sell merchandise, parking
         passes, drinks tokens, and other events inline during the ticket
         purchase flow
       - **Box office POS** - a web-based point-of-sale app for on-the-door
@@ -81,9 +79,10 @@ blocks:
         (LIVE IT Payments) without setting up your own account
       - **Invite-only events** - restrict bookings by email address or
         domain
-      - **Custom registration questions with free-text fields** - free
+      - **Custom registration questions with more field types** - free
         text, date selection, and other field types beyond multiple choice
-        (Chobble supports multiple-choice custom questions)
+        (Chobble supports multiple-choice and free-text custom questions,
+        but BookitBee may still offer more field types)
       - **Facebook Pixel, Google Analytics, and Tag Manager** - built-in
         tracking and conversion attribution
       - **Mailchimp and Slack integrations** - connect to your existing
@@ -95,6 +94,9 @@ blocks:
 
       - **[End-to-end encryption](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3
       - **Self-hosting option** - run the platform on your own servers for
@@ -115,9 +117,9 @@ blocks:
       - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
       - **[Custom questions](/features/custom-questions/)** - add
-        multiple-choice questions to events and collect structured answers
-        at checkout, with answers visible across the admin interface, CSV
-        exports, and webhooks
+        multiple-choice and free-text questions to events and collect
+        structured answers at checkout, with answers visible across the
+        admin interface, CSV exports, and webhooks
       - **[Public & admin API](/features/public-api/)** - RESTful JSON API
         for building custom integrations, plus [authenticated admin
         API](/features/admin-api/) with full event CRUD via API keys
@@ -207,5 +209,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing with open source code and no lock-in.
-name: No-Fee Alternative to BookitBee | Chobble Tickets
----
+name: No-Fee Alternative to BookitBee | Chobble Tickets---

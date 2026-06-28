@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Hosting - Chobble Tickets
 meta_title: Host Chobble Tickets for Others
 meta_description: Run Chobble Tickets for the event organisers you know. The platform is designed so that anyone with some technical knowledge can become a host.
@@ -10,8 +9,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Chobble Tickets is designed so that anyone with some technical knowledge can run it for the event organisers they know. More hosts means a decentralised alternative to the big ticketing platforms.
-    name: Host Chobble Tickets for others
+    content: |-
+      # Host Chobble Tickets for others
+
+      Chobble Tickets is designed so that anyone with some technical knowledge can run it for the event organisers they know. More hosts means a decentralised alternative to the big ticketing platforms.
   - type: markdown
     content: |
       ## Why decentralised hosting matters
@@ -48,22 +49,42 @@ blocks:
 
       - Downloads the latest release of Chobble Tickets from GitHub
       - Creates a new server on Bunny's network
+      - Provisions the database automatically, selecting the best region
       - Sets up the database connection and generates a fresh encryption key
       - Copies your shared settings across (your email provider, image storage,
         and wallet pass configuration)
       - Publishes the site live
 
-      The whole process takes a few seconds once your account is configured.
+      The whole process takes a few seconds once your account is configured,
+      with no manual steps.
+
+      ## Update channels
+
+      Each site you host can be on an update channel: alpha, beta, or
+      release. A risky build ships to alpha sites first. Once it is stable,
+      it goes to beta. Release is the most stable channel.
+
+      When you trigger a deploy, you choose a tier. A release-tier deploy
+      reaches every site; a beta deploy reaches beta and alpha sites; an
+      alpha deploy reaches alpha sites only. So you can roll out a new
+      version to one or two sites, watch for problems, and then promote it
+      to everyone.
+
+      ## Backups and restore
+
+      A backup is taken before every deploy, and the deploy is blocked if
+      no backup exists from the last hour. Backups run out of band, so they
+      do not slow down the deploy or the site.
+
+      Each backup records the exact version of the code the site was running.
+      If something goes wrong, you can restore a site to a point in time:
+      both the data and the code return to the state they were in when the
+      backup was taken. A restore only ever redeploys a commit from the
+      project's own history, never code from an uploaded file.
 
       You can charge your customers whatever you like for hosting. Chobble
       charges £50/year (or £5/month) with no per-ticket fees, but that is
       one choice among many. You might charge more, less, or nothing at all.
-
-      At the moment, one step in the setup requires manual clicking: creating
-      the database for each new site in the Bunny dashboard. Bunny's database
-      product is still in beta and does not yet have a public API. Once it
-      does, the entire flow from "organiser signs up" to "site is live" will
-      be fully automatic with no manual steps.
   - type: markdown
     content: |
       ## Host a single site
@@ -138,5 +159,4 @@ blocks:
       ## View the source code
 
       Chobble Tickets is open source under AGPLv3. Browse the code, fork it, and deploy your own instance.
-name: Host Chobble Tickets for Others
----
+name: Host Chobble Tickets for Others---

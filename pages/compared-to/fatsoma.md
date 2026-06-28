@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: fatsoma
 title: Chobble Tickets vs Fatsoma
 meta_title: Open Source Alternative to Fatsoma | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Fatsoma is popular with student events and nightlife promoters. Here's how a small, open source alternative compares on pricing, features, and data ownership.
-    name: Chobble Tickets vs Fatsoma
+    content: |-
+      # Chobble Tickets vs Fatsoma
+
+      Fatsoma is popular with student events and nightlife promoters. Here's how a small, open source alternative compares on pricing, features, and data ownership.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -38,7 +39,7 @@ blocks:
 
       Fatsoma markets to your attendees and uses your event data to promote
       other events on their platform. Your attendees become Fatsoma's
-      audience, not just yours.
+      audience as well as yours.
 
       With Chobble Tickets, attendee data is encrypted with hybrid RSA/AES
       encryption and stays under your control. There's no platform trying to
@@ -87,7 +88,7 @@ blocks:
       - **Push notifications** - [event
         announcements](https://ticketing.fatsoma.com/f/event-announcements)
         hit followers' phones via push notification and email
-      - **Cross-sell** - [upsell your other
+      - **Cross-sell** - [promote your other
         events](https://ticketing.fatsoma.com/f/cross-sell) on the order
         confirmation screen after each purchase
       - **Ad pixel tracking** - built-in [retargeting and lookalike
@@ -96,9 +97,9 @@ blocks:
       - **Structured customer profiles** - structured data capture (age,
         gender, social handles, phone, location) with [profile
         saving](https://ticketing.fatsoma.com/f/customer-questions) across
-        events (Chobble supports multiple-choice custom questions per event)
-      - **Promo codes** - discount codes, presale codes, and hidden ticket
-        access codes
+        events (Chobble supports multiple-choice and free-text custom questions per event)
+      - **Hidden ticket access codes** - tickets hidden behind access codes
+        for presales, VIP access, or invite-only events
       - **Event discovery platform** - Fatsoma's website and app function
         as a marketplace where attendees browse and discover events,
         particularly strong in student and nightlife markets
@@ -106,8 +107,8 @@ blocks:
       - **Custom branded apps** - on the Professional tier (~£1,500),
         Fatsoma builds custom branded iOS/Android apps and websites for
         your events
-      - **Fast 3-tap checkout** - streamlined checkout with saved card
-        details via the Fatsoma app
+      - **Fast 3-tap checkout** - checkout with saved card details via the
+        Fatsoma app
 
       **Chobble Tickets has features Fatsoma doesn't:**
 
@@ -125,14 +126,17 @@ blocks:
         for events that repeat on a schedule with per-date capacity
       - **[Custom domain support](/features/custom-domain/)** - get a
         host-provided subdomain instantly, or point your own domain
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **Self-hosting option** - run the platform on your own servers for
         free
       - **[Open source](/features/open-source/)** - inspect, modify, and
         contribute to the code under AGPLv3
       - **[Custom questions](/features/custom-questions/)** - add
-        multiple-choice questions to events and collect structured answers
-        at checkout, with answers visible across the admin interface, CSV
-        exports, and webhooks
+        multiple-choice and free-text questions to events and collect
+        structured answers at checkout, with answers visible across the
+        admin interface, CSV exports, and webhooks
       - **[Public & admin API](/features/public-api/)** - RESTful JSON API
         for building custom integrations, plus [authenticated admin
         API](/features/admin-api/) with full event CRUD via API keys
@@ -213,5 +217,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no per-ticket fees.
-name: Open Source Alternative to Fatsoma | Chobble Tickets
----
+name: Open Source Alternative to Fatsoma | Chobble Tickets---

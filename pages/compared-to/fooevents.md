@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: fooevents
 title: Chobble Tickets vs FooEvents
 meta_title: Chobble Tickets vs FooEvents | Hosted Ticketing vs a WooCommerce Plugin
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: FooEvents is a set of WordPress plugins that adds ticket sales to a WooCommerce shop. Chobble Tickets is a dedicated ticketing platform. Here is how they compare.
-    name: Chobble Tickets vs FooEvents
+    content: |-
+      # Chobble Tickets vs FooEvents
+
+      FooEvents is a set of WordPress plugins that adds ticket sales to a WooCommerce shop. Chobble Tickets is a dedicated ticketing platform. Here is how they compare.
   - type: markdown
     content: |
       ## Two different approaches
@@ -130,13 +131,15 @@ blocks:
       - **Custom PDF ticket designs** - the FooEvents Stationery
         Builder lets you design your own printed tickets, badges, and
         name cards inside the WordPress admin
-      - **Coupons and discount codes** - WooCommerce coupon codes work
-        on ticket products
+      - **WooCommerce coupons** - WooCommerce coupon codes work on ticket
+        products (Chobble now has its own promo codes and discount codes,
+        but WooCommerce coupons specifically integrate with the wider
+        WooCommerce shop)
       - **Custom attendee fields** - the FooEvents Custom Attendee
         Fields plugin adds free-text, dropdown, and other field types
         to the registration form (included in the Bookings, Premium,
-        and POS bundles; Chobble supports multiple-choice custom
-        questions)
+        and POS bundles; Chobble supports multiple-choice and free-text
+        custom questions)
       - **Dedicated Check-ins mobile app** - the free FooEvents
         Check-ins app runs on iOS and Android with barcode and QR
         scanning (Chobble uses browser-based QR scanning)
@@ -160,11 +163,14 @@ blocks:
 
       - **No WordPress required** - Chobble Tickets runs on its own,
         so you do not need to install, update, or secure a WordPress
-        site just to sell tickets
+        site for ticket sales
       - **[End-to-end encryption](/features/encrypted/)** - Chobble
         encrypts attendee personal data at rest with a hybrid
         RSA-OAEP + AES-256-GCM scheme, so the server operator cannot
         read attendee data without your private key
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[Open source](/features/open-source/) under AGPLv3** - every
         line of Chobble Tickets code is public, with no paid editions
         or feature gates. FooEvents is commercial, closed-source
@@ -285,7 +291,7 @@ blocks:
 
       ## When Chobble Tickets is the better choice
 
-      - You do not want to run a WordPress site just to sell tickets
+      - You do not want to run a WordPress site for ticket sales
       - You want attendee personal data encrypted at rest
       - You want predictable flat-rate pricing (£50/year or £5/month,
         or £25/year for charities and community groups on the annual plan)
@@ -352,5 +358,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted attendee data, and no WordPress site required.
-name: Chobble Tickets vs FooEvents | Hosted Ticketing vs a WooCommerce Plugin
----
+name: Chobble Tickets vs FooEvents | Hosted Ticketing vs a WooCommerce Plugin---

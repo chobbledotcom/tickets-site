@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Compare All Ticketing Platforms - Chobble Tickets
 meta_title: Ticketing Platform Fee Calculator - Compare All Platforms
 meta_description: Compare fees across 17+ ticketing platforms at once. Adjust ticket volume and price to see exactly how much you keep with each provider.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Adjust the sliders to see how much money you keep after fees with every platform, all in one view.
-    name: Compare all ticketing platforms
+    content: |-
+      # Compare all ticketing platforms
+
+      Adjust the sliders to see how much money you keep after fees with every platform, all in one view.
   - type: include
     file: platform-comparison-grid.html
   - type: markdown
@@ -41,5 +42,4 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Ticketing Platform Fee Calculator - Compare All Platforms
----
+name: Ticketing Platform Fee Calculator - Compare All Platforms---

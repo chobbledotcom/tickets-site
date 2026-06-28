@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: hi_events
 selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: hi_events_selfhosted
@@ -13,8 +12,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Hi.Events is another open source ticketing platform, so this is a comparison between two projects with similar values but different approaches.
-    name: Chobble Tickets vs Hi.Events
+    content: |-
+      # Chobble Tickets vs Hi.Events
+
+      Hi.Events is another open source ticketing platform, so this is a comparison between two projects with similar values but different approaches.
   - type: markdown
     content: |
       ## Two open source options
@@ -75,10 +76,7 @@ blocks:
       **Hi.Events has features Chobble Tickets doesn't:**
 
       - **Drag-and-drop event page builder** - a visual editor for designing
-        event pages with flexible layouts, images, and custom sections
-      - **Promo codes and discount management** - create percentage and
-        fixed-amount discount codes with usage limits, expiry dates, and
-        codes tied to specific ticket types
+        event pages with custom layouts, images, and sections
       - **Affiliate and referral tracking** - track which promoters and
         links are driving ticket sales with commission tracking
       - **Product add-ons** - sell merchandise, parking, meal upgrades, or
@@ -88,16 +86,17 @@ blocks:
       - **Multi-currency support** - sell in different currencies for
         international events
       - **Donation and tiered ticket types** - offer donation options and
-        flexible pricing tiers beyond fixed and pay-what-you-want
+        pricing tiers beyond fixed and pay-what-you-want
       - **Tax and custom fee management** - configure VAT rates, add service
         fees, and manage tax reporting per event
       - **Real-time sales dashboard** - live analytics showing ticket sales,
         revenue, and check-in rates as they happen
       - **Stripe Connect instant payouts** - receive payments directly to
         your Stripe account with faster payout times
-      - **Custom registration questions with free-text fields** - add
+      - **Custom registration questions with more field types** - add
         free-text, date, and other custom field types beyond multiple choice
-        per ticket type (Chobble supports multiple-choice custom questions)
+        per ticket type (Chobble supports multiple-choice and free-text
+        custom questions)
       - **Bulk messaging by ticket type** - send targeted emails and
         updates to attendees based on which ticket type they bought
       - **Waitlists** - automatic notifications when places open up on
@@ -132,8 +131,11 @@ blocks:
       **Chobble Tickets has features Hi.Events doesn't:**
 
       - **[End-to-end encryption](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
-        in a database
+        stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
+        plain database rows
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
       - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
@@ -221,12 +223,12 @@ blocks:
       remove the "Powered by" branding. The Single Domain licence is
       perpetual for the covered version, so there is no annual fee. If
       you are happy keeping the branding, Hi.Events self-hosted is free,
-      just like Chobble Tickets.
+      as Chobble Tickets is.
 
       ## When Hi.Events might be better
 
       - You want a polished, modern UI with a visual page builder
-      - You need promo codes, affiliate tracking, or merchandise sales
+      - You need affiliate tracking, or merchandise sales
       - You prefer a pay-per-ticket model with no upfront cost
       - You're running large nightlife events or festivals and want instant
         payouts
@@ -289,5 +291,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no per-ticket fees.
-name: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared
----
+name: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared---

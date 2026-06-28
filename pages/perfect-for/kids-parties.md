@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Kids Parties - Chobble Tickets
 meta_title: Ticketing for Kids Parties - Chobble Tickets
 meta_description: Simple event ticketing for kids parties where you can collect RSVPs, manage capacity, and check guests in with QR codes.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Set up your event, share the booking link, and parents can register online without creating an account.
-    name: Ticketing for kids parties
+    content: |-
+      # Ticketing for kids parties
+
+      Set up your event, share the booking link, and parents can register online without creating an account.
   - type: split-icon-links
     content: |
       ## Simple for parents
@@ -63,5 +64,4 @@ blocks:
       ## Set up your party
 
       Get started with Chobble Tickets. Managed hosting is £50/year or £5/month with unlimited events.
-name: Ticketing for Kids Parties - Chobble Tickets
----
+name: Ticketing for Kids Parties - Chobble Tickets---

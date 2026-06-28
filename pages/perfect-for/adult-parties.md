@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Adult Parties - Chobble Tickets
 meta_title: Ticketing for Adult Parties - Chobble Tickets
 meta_description: Event ticketing for adult parties with encrypted attendee data, no data sharing, and self-hosting options.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Attendee data is encrypted at rest and never shared with third parties. Your guest list stays private.
-    name: Ticketing for adult parties
+    content: |-
+      # Ticketing for adult parties
+
+      Attendee data is encrypted at rest and never shared with third parties. Your guest list stays private.
   - type: split-icon-links
     content: |
       ## Your attendees have real reasons for privacy
@@ -124,5 +125,4 @@ blocks:
       ## Get started with private event ticketing
 
       Self-host for free, or get managed hosting from £25/year for community groups.
-name: Ticketing for Adult Parties - Chobble Tickets
----
+name: Ticketing for Adult Parties - Chobble Tickets---

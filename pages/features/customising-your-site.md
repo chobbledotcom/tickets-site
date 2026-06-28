@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Customising Your Site - Chobble Tickets
 meta_title: Customising Your Site - Chobble Tickets
 meta_description: Use your own domain, choose themes, customise emails, embed widgets, and make your ticketing site match your brand.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Use your own domain, choose themes, customise emails, embed widgets, and make your ticketing site match your brand.
-    name: Customising your site
+    content: |-
+      # Customising your site
+
+      Use your own domain, choose themes, customise emails, embed widgets, and make your ticketing site match your brand.
   - type: markdown
     content: |
       ![The settings page with options for header image, payment provider, themes, and more](/images/screenshots/settings.png)
@@ -46,5 +47,4 @@ blocks:
       ## Make it yours
 
       Sign up for managed hosting at £50/year or £5/month, or browse the full technical documentation.
-name: Customising Your Site - Chobble Tickets
----
+name: Customising Your Site - Chobble Tickets---

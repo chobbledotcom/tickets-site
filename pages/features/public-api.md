@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Public & Admin API - Chobble Tickets
 meta_title: Public & Admin API - Chobble Tickets
 meta_description: RESTful JSON API for building custom integrations and frontends, plus an authenticated admin API with API keys for reading and editing private data.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: A RESTful JSON API with public endpoints for event listings and an authenticated admin API for reading and editing private data, so you can build custom frontends, integrations, and automations.
-    name: Public & Admin API
+    content: |-
+      # Public & Admin API
+
+      A RESTful JSON API with public endpoints for event listings and an authenticated admin API for reading and editing private data, so you can build custom frontends, integrations, and automations.
   - type: markdown
     content: |
       ## Build what you need
@@ -56,5 +57,4 @@ blocks:
       ## Integrate anywhere
 
       Use the API to build exactly what you need.
-name: Public & Admin API - Chobble Tickets
----
+name: Public & Admin API - Chobble Tickets---

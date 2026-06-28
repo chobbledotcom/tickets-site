@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Chobble Tickets vs Pen and Paper
 meta_title: Digital Alternative to Paper Ticketing | Chobble Tickets
 meta_description: Chobble Tickets is a digital alternative to pen-and-paper ticketing, with payments, capacity management, QR code check-in, and encrypted attendee data.
@@ -10,8 +9,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: A clipboard and a guest list work for small gatherings. This page covers what dedicated ticketing software adds.
-    name: Chobble Tickets vs Pen and Paper
+    content: |-
+      # Chobble Tickets vs Pen and Paper
+
+      A clipboard and a guest list work for small gatherings. This page covers what dedicated ticketing software adds.
   - type: markdown
     content: |
       **Both approaches share some things:**
@@ -83,5 +84,4 @@ blocks:
       ## Get started when you're ready
 
       Start with managed hosting at £50/year or £5/month, or self-host for free.
-name: Digital Alternative to Paper Ticketing | Chobble Tickets
----
+name: Digital Alternative to Paper Ticketing | Chobble Tickets---

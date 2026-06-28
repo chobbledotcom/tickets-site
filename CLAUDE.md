@@ -1,3 +1,8 @@
+---
+permalink: false
+layout: null
+---
+
 # CLAUDE.md - AI Assistant Guide for Chobble Client
 
 ## Project Overview
@@ -7,6 +12,7 @@
 ### Architecture
 
 This project separates content from template:
+
 - **This repo** (`chobble-client`): Site content, custom styles, build scripts
 - **Chobble Template**: Eleventy SSG, themes, components, collections
 
@@ -17,6 +23,7 @@ At build time, GitHub Actions merges both repos via sparse-checkout, then runs E
 ## Quick Reference
 
 ### Essential Commands
+
 ```bash
 bun install          # Install dependencies (MUST use bun, not npm)
 bun run build        # Build the site
@@ -28,6 +35,7 @@ bun run cpd          # Copy-paste detection on scripts/
 ```
 
 ### Directory Structure
+
 ```
 chobble-client/
 ├── scripts/         # Build utilities and tooling
@@ -76,53 +84,53 @@ import { sortBy } from "#fp/sorting";
 
 ### Core Composition
 
-| Function | Purpose | Example |
-|----------|---------|---------|
+| Function       | Purpose                         | Example                        |
+| -------------- | ------------------------------- | ------------------------------ |
 | `pipe(...fns)` | Compose functions left-to-right | `pipe(filter(x), map(y))(arr)` |
 
 ### Curried Array Operations
 
-| Function | Purpose | Example |
-|----------|---------|---------|
-| `filter(pred)` | Curried array filter | `filter(x => x > 0)(arr)` |
-| `map(fn)` | Curried array map | `map(x => x * 2)(arr)` |
-| `flatMap(fn)` | Curried array flatMap | `flatMap(x => [x, x])(arr)` |
-| `reduce(fn, init)` | Curried array reduce | `reduce((a, x) => a + x, 0)(arr)` |
-| `sort(cmp)` | Non-mutating sort | `sort((a, b) => a - b)(arr)` |
-| `sortBy(key)` | Sort by property/getter | `sortBy('name')(users)` |
+| Function           | Purpose                 | Example                           |
+| ------------------ | ----------------------- | --------------------------------- |
+| `filter(pred)`     | Curried array filter    | `filter(x => x > 0)(arr)`         |
+| `map(fn)`          | Curried array map       | `map(x => x * 2)(arr)`            |
+| `flatMap(fn)`      | Curried array flatMap   | `flatMap(x => [x, x])(arr)`       |
+| `reduce(fn, init)` | Curried array reduce    | `reduce((a, x) => a + x, 0)(arr)` |
+| `sort(cmp)`        | Non-mutating sort       | `sort((a, b) => a - b)(arr)`      |
+| `sortBy(key)`      | Sort by property/getter | `sortBy('name')(users)`           |
 
 ### Deduplication & Filtering
 
-| Function | Purpose | Example |
-|----------|---------|---------|
-| `unique(arr)` | Remove duplicates | `unique([1, 1, 2])` → `[1, 2]` |
-| `uniqueBy(fn)` | Dedupe by key | `uniqueBy(x => x.id)(arr)` |
-| `compact(arr)` | Remove falsy values | `compact([1, null, 2])` → `[1, 2]` |
+| Function              | Purpose                  | Example                                  |
+| --------------------- | ------------------------ | ---------------------------------------- |
+| `unique(arr)`         | Remove duplicates        | `unique([1, 1, 2])` → `[1, 2]`           |
+| `uniqueBy(fn)`        | Dedupe by key            | `uniqueBy(x => x.id)(arr)`               |
+| `compact(arr)`        | Remove falsy values      | `compact([1, null, 2])` → `[1, 2]`       |
 | `filterMap(pred, fn)` | Filter + map in one pass | `filterMap(x => x > 0, x => x * 2)(arr)` |
 
 ### Membership & Exclusion
 
-| Function | Purpose | Example |
-|----------|---------|---------|
-| `memberOf(vals)` | Membership predicate | `filter(memberOf(['a', 'b']))(arr)` |
-| `notMemberOf(vals)` | Exclusion predicate | `filter(notMemberOf(['x']))(arr)` |
-| `exclude(vals)` | Filter out values | `exclude(['a'])(arr)` |
-| `pick(keys)` | Extract object keys | `pick(['a', 'b'])(obj)` |
+| Function            | Purpose              | Example                             |
+| ------------------- | -------------------- | ----------------------------------- |
+| `memberOf(vals)`    | Membership predicate | `filter(memberOf(['a', 'b']))(arr)` |
+| `notMemberOf(vals)` | Exclusion predicate  | `filter(notMemberOf(['x']))(arr)`   |
+| `exclude(vals)`     | Filter out values    | `exclude(['a'])(arr)`               |
+| `pick(keys)`        | Extract object keys  | `pick(['a', 'b'])(obj)`             |
 
 ### Caching & Memoization
 
-| Function | Purpose | Example |
-|----------|---------|---------|
-| `memoize(fn, opts?)` | Cache results | `memoize(fn, { cacheKey })` |
-| `indexBy(getKey)` | Build cached lookup | `indexBy(x => x.id)(arr)` |
+| Function               | Purpose               | Example                              |
+| ---------------------- | --------------------- | ------------------------------------ |
+| `memoize(fn, opts?)`   | Cache results         | `memoize(fn, { cacheKey })`          |
+| `indexBy(getKey)`      | Build cached lookup   | `indexBy(x => x.id)(arr)`            |
 | `groupByWithCache(fn)` | Build cached grouping | `groupByWithCache(x => x.tags)(arr)` |
 
 ### Utilities
 
-| Function | Purpose | Example |
-|----------|---------|---------|
-| `pluralize(s, p?)` | Format count | `pluralize('item')(3)` → `"3 items"` |
-| `accumulate(fn)` | Safe array building in reduce | See below |
+| Function           | Purpose                       | Example                              |
+| ------------------ | ----------------------------- | ------------------------------------ |
+| `pluralize(s, p?)` | Format count                  | `pluralize('item')(3)` → `"3 items"` |
+| `accumulate(fn)`   | Safe array building in reduce | See below                            |
 
 ### Example: Processing Content
 
@@ -131,15 +139,15 @@ import { pipe, filter, map, sortBy, unique } from "#fp";
 
 // Process blog posts: filter drafts, extract tags, sort by date
 const processedPosts = pipe(
-  filter(post => !post.draft),
-  sortBy('date'),
-  map(post => ({ ...post, tags: post.tags || [] }))
+  filter((post) => !post.draft),
+  sortBy("date"),
+  map((post) => ({ ...post, tags: post.tags || [] })),
 )(posts);
 
 // Get all unique tags
 const allTags = pipe(
-  flatMap(post => post.tags),
-  unique
+  flatMap((post) => post.tags),
+  unique,
 )(processedPosts);
 ```
 
@@ -149,8 +157,10 @@ Avoid the `noAccumulatingSpread` lint error:
 
 ```javascript
 // BAD - O(n^2) performance
-const ids = items.reduce((acc, item) =>
-  item.id ? [...acc, item.id] : acc, []);
+const ids = items.reduce(
+  (acc, item) => (item.id ? [...acc, item.id] : acc),
+  [],
+);
 
 // GOOD - O(n) performance
 import { accumulate } from "#fp";
@@ -168,21 +178,22 @@ The project enforces strict code quality via Biome.
 
 ### Must Follow
 
-| Rule | Requirement |
-|------|-------------|
-| `useArrowFunction` | Use arrow functions |
-| `useTemplate` | Use template literals |
-| `useConst` | Use const (or let when reassignment needed) |
-| `noVar` | Never use var |
-| `noDoubleEquals` | Use `===`, not `==` |
-| `noForEach` | Use `for...of` or curried `map`/`filter` |
-| `noAccumulatingSpread` | Use `accumulate()` helper |
-| `noUnusedImports` | Remove unused imports |
-| `noUnusedVariables` | Remove unused variables |
-| `noExcessiveCognitiveComplexity` | Max complexity: 7 (30 in tests) |
-| `noConsole` | No console.log except in scripts/ |
+| Rule                             | Requirement                                 |
+| -------------------------------- | ------------------------------------------- |
+| `useArrowFunction`               | Use arrow functions                         |
+| `useTemplate`                    | Use template literals                       |
+| `useConst`                       | Use const (or let when reassignment needed) |
+| `noVar`                          | Never use var                               |
+| `noDoubleEquals`                 | Use `===`, not `==`                         |
+| `noForEach`                      | Use `for...of` or curried `map`/`filter`    |
+| `noAccumulatingSpread`           | Use `accumulate()` helper                   |
+| `noUnusedImports`                | Remove unused imports                       |
+| `noUnusedVariables`              | Remove unused variables                     |
+| `noExcessiveCognitiveComplexity` | Max complexity: 7 (30 in tests)             |
+| `noConsole`                      | No console.log except in scripts/           |
 
 ### Formatting
+
 - 2-space indentation
 - Run `bun run lint:fix` to auto-format
 
@@ -241,19 +252,19 @@ condescending. It means:
 
 **Avoid these words and phrases entirely:**
 
-| Avoid | Use instead |
-|-------|-------------|
-| utilise | use |
-| leverage | use |
-| ecosystem | platform, or be specific |
-| empower | be specific about what the person can do |
-| seamlessly | remove it |
-| robust | be specific about what makes it reliable |
-| intuitive | remove it |
-| cutting-edge | remove it |
-| best-in-class | remove it |
-| solution | tool, platform, or software |
-| actually | remove it - speculative and inauthentic |
+| Avoid         | Use instead                              |
+| ------------- | ---------------------------------------- |
+| utilise       | use                                      |
+| leverage      | use                                      |
+| ecosystem     | platform, or be specific                 |
+| empower       | be specific about what the person can do |
+| seamlessly    | remove it                                |
+| robust        | be specific about what makes it reliable |
+| intuitive     | remove it                                |
+| cutting-edge  | remove it                                |
+| best-in-class | remove it                                |
+| solution      | tool, platform, or software              |
+| actually      | remove it - speculative and inauthentic  |
 
 ---
 
@@ -428,6 +439,7 @@ motive or intent to other companies - just state observable facts about what
 happens.
 
 The facts to state are:
+
 - What data is collected
 - Who holds it
 - What happens with it
@@ -445,6 +457,7 @@ When explaining why Chobble works differently, give the structural reason:
 annual fee organisers pay, not from advertising or data sales."
 
 The structural facts are:
+
 - Chobble is funded by flat annual fees
 - There is no advertising revenue
 - There is no data economy subsidising the price

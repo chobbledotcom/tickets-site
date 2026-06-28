@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: tessera_tickets
 title: Chobble Tickets vs Tessera Tickets
 meta_title: Open Source Alternative to Tessera Tickets | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Tessera Tickets is a US ticketing platform built around WordPress for music venues, theatres, and comedy clubs. Here is how a small, open source alternative compares.
-    name: Chobble Tickets vs Tessera Tickets
+    content: |-
+      # Chobble Tickets vs Tessera Tickets
+
+      Tessera Tickets is a US ticketing platform built around WordPress for music venues, theatres, and comedy clubs. Here is how a small, open source alternative compares.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -88,8 +89,6 @@ blocks:
       - **Saved customer accounts** - returning customers can save credit
         cards to their account for faster future purchases (PCI-compliant
         card storage)
-      - **Coupon and promo codes** - site-wide discount codes for
-        marketing campaigns
       - **Password-protected pre-sales** - schedule date-range pre-sales
         and protect specific ticket tiers with passwords
       - **External ticket links** - link an event listing out to a
@@ -109,6 +108,9 @@ blocks:
 
       **Chobble Tickets has features Tessera Tickets doesn't:**
 
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[End-to-end encryption](/features/encrypted/)** - attendee data
         is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, where
         only the organiser holds the private key
@@ -139,9 +141,9 @@ blocks:
       - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for custom integrations
       - **[Custom questions at checkout](/features/custom-questions/)** -
-        add multiple-choice questions to your events and collect
-        structured answers from each attendee, visible across the admin,
-        CSV exports, and webhooks
+        add multiple-choice and free-text questions to your events and
+        collect structured answers from each attendee, visible across the
+        admin, CSV exports, and webhooks
       - **[Embeddable widget](/features/embeddable-widget/)** - drop an
         iframe into any website without needing WordPress
       - **[Custom domain included](/features/custom-domain/)** - point
@@ -241,5 +243,4 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Open Source Alternative to Tessera Tickets | Chobble Tickets
----
+name: Open Source Alternative to Tessera Tickets | Chobble Tickets---

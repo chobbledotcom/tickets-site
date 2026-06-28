@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Music Concerts - Chobble Tickets
 meta_title: Ticketing for Music Concerts - Chobble Tickets
 meta_description: Sell concert tickets directly to fans with no per-ticket fees so you keep all your revenue with Chobble Tickets.

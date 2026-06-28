@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: cheddar_up
 title: Chobble Tickets vs Cheddar Up
 meta_title: Open Source Alternative to Cheddar Up | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Cheddar Up is a payment collection platform popular with PTAs, nonprofits, and community groups in the US. Here is how Chobble Tickets compares.
-    name: Chobble Tickets vs Cheddar Up
+    content: |-
+      # Chobble Tickets vs Cheddar Up
+
+      Cheddar Up is a payment collection platform popular with PTAs, nonprofits, and community groups in the US. Here is how Chobble Tickets compares.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -85,11 +86,6 @@ blocks:
       - **Nonprofit features** - verified 501(c)(3) groups get a badge
         and can automatically send tax-deductible receipts with IRS
         language (Team only)
-      - **Free-text custom questions** - add open-ended questions
-        alongside multiple choice on registration forms (Chobble supports
-        multiple-choice custom questions only)
-      - **Discount codes** - create percentage or fixed-amount discount
-        codes for collections (Pro and Team)
       - **Scheduled access** - set start and end times for collection
         pages with a countdown timer (Pro and Team)
       - **Visitor reports** - collect names and emails of page visitors
@@ -107,9 +103,12 @@ blocks:
       - **[Sign-up forms](/features/sign-up-forms/)** - create volunteer
         sign-up sheets, potluck coordinators, and other form-based
         collections by setting an event as free with custom questions
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[End-to-end encryption](/features/encrypted/)** - attendee data
-        is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not
-        just stored in a database
+        is stored with hybrid RSA-OAEP + AES-256-GCM encryption rather
+        than plain database rows
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers
@@ -247,5 +246,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and encrypted attendee data.
-name: Open Source Alternative to Cheddar Up | Chobble Tickets
----
+name: Open Source Alternative to Cheddar Up | Chobble Tickets---

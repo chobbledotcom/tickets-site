@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Built-in Admin Guide - Chobble Tickets
 meta_title: Built-in Admin Guide - Chobble Tickets
 meta_description: Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
-    name: Built-in admin guide
+    content: |-
+      # Built-in admin guide
+
+      Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
   - type: markdown
     content: |
       ![The built-in admin guide with expandable FAQ sections](/images/screenshots/guide.png)
@@ -45,5 +46,4 @@ blocks:
       ## Easy to learn
 
       Get your team up to speed with the built-in admin guide.
-name: Built-in Admin Guide - Chobble Tickets
----
+name: Built-in Admin Guide - Chobble Tickets---

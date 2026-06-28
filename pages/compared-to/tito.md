@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: tito
 title: Chobble Tickets vs Tito
 meta_title: Open Source Alternative to Tito | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Tito is a well-regarded, developer-friendly ticketing platform from Ireland, so here's how a small, open source alternative compares.
-    name: Chobble Tickets vs Tito
+    content: |-
+      # Chobble Tickets vs Tito
+
+      Tito is a well-regarded, developer-friendly ticketing platform from Ireland, so here's how a small, open source alternative compares.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -116,6 +117,9 @@ blocks:
         attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's
@@ -135,9 +139,9 @@ blocks:
       ## Data ownership
 
       Tito is a proprietary platform. Your event data lives on their
-      servers, and you depend on their continued operation. While Tito has a good
-      reputation and offers comprehensive API access and CSV exports, your
-      ticketing setup is tied to their platform.
+      servers, and you depend on their continued operation. While Tito has a
+      good reputation and offers API access and CSV exports, your ticketing
+      setup is tied to their platform.
 
       With Chobble Tickets, attendee data is encrypted and stays under your
       control. The entire platform is open source, so you can self-host it
@@ -221,5 +225,4 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Open Source Alternative to Tito | Chobble Tickets
----
+name: Open Source Alternative to Tito | Chobble Tickets---

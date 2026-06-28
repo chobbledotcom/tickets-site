@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Admin API - Chobble Tickets
 meta_title: Admin API - Chobble Tickets
 meta_description: Manage events programmatically with a RESTful JSON admin API. Create, update, delete, and list events using API keys or session authentication.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: A RESTful JSON API for managing your events programmatically. Create, update, list, and delete events with API key authentication, so you can automate your workflow and build custom integrations.
-    name: Admin API
+    content: |-
+      # Admin API
+
+      A RESTful JSON API for managing your events programmatically. Create, update, list, and delete events with API key authentication, so you can automate your workflow and build custom integrations.
   - type: markdown
     content: |
       ## Full event management
@@ -86,5 +87,4 @@ blocks:
       ## Automate your events
 
       Use the admin API to manage events from scripts, dashboards, or any tool that speaks HTTP.
-name: Admin API - Chobble Tickets
----
+name: Admin API - Chobble Tickets---

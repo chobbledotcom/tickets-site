@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Custom Redirects - Chobble Tickets
 meta_title: Custom Redirects - Chobble Tickets
 meta_description: Send attendees to a custom URL after booking, perfect for thank-you pages or post-purchase instructions.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Send attendees to a custom URL after booking, perfect for thank-you pages or post-purchase instructions.
-    name: Custom redirects
+    content: |-
+      # Custom redirects
+
+      Send attendees to a custom URL after booking, perfect for thank-you pages or post-purchase instructions.
   - type: markdown
     content: |
       ## Post-booking experience
@@ -43,5 +44,4 @@ blocks:
       ## Control the journey
 
       Send attendees wherever you want after they book.
-name: Custom Redirects - Chobble Tickets
----
+name: Custom Redirects - Chobble Tickets---

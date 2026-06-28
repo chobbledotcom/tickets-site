@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: eventbrite
 title: Chobble Tickets vs Eventbrite
 meta_title: Open Source Alternative to Eventbrite | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Eventbrite is the biggest name in event ticketing, so here's how a small, open source alternative compares.
-    name: Chobble Tickets vs Eventbrite
+    content: |-
+      # Chobble Tickets vs Eventbrite
+
+      Eventbrite is the biggest name in event ticketing, so here's how a small, open source alternative compares.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -70,11 +71,9 @@ blocks:
         [Pro](https://www.eventbrite.com/organizer/pricing/), including
         audience segmentation and automated event reminders
       - **Social media ad tools** - launch Facebook and Instagram ad
-        campaigns directly from Eventbrite with smart audience targeting
+        campaigns directly from Eventbrite with audience targeting
         and [retargeting](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/)
         (Eventbrite claim 6x average ROI on retargeting campaigns)
-      - **Promo codes and discounts** - create early bird pricing, discount
-        codes, group discounts, and limited-time offers with usage limits
       - **Hidden ticket tiers** - ticket types hidden behind access codes
         or time-limited availability windows for presales and invite-only
         access
@@ -101,25 +100,6 @@ blocks:
         cross-promotion
       - **Attendee messaging** - send updates and messages to ticket holders
         before and after events
-      - **Custom registration forms with free-text fields** - add free-text
-        questions and custom field types beyond multiple choice to the
-        checkout process (Chobble supports multiple-choice custom questions)
-      - **Nonprofit discount** - 50% off Pro plans and discounted fees on
-        donation tickets for qualifying organisations
-      - **Sell add-ons** - offer merchandise, parking, meal upgrades, or
-        other extras alongside tickets
-      - **Tap to Pay** - accept contactless on-site payments at the door
-        using NFC
-      - **Tracking pixels and links** - add conversion tracking pixels and
-        attribution links across ad platforms
-      - **Sell through social platforms** - sell tickets directly through
-        Facebook, TikTok, and LinkedIn without attendees leaving those apps
-      - **1:1 onboarding and phone support** - Pro customers get
-        onboarding sessions and 24/7 phone and live chat support
-      - **AI Marketing Copilot** - AI-generated ad copy, email campaigns,
-        event images, and descriptions ([Eventbrite
-        claim](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/)
-        30% faster campaign launches and 17% better CPC)
       - **Conditional logic questions** - follow-up registration questions
         that appear based on previous answers
       - **Attendee self-service transfers** - attendees can change ticket
@@ -137,11 +117,34 @@ blocks:
         for international audiences
       - **On-site mobile box office** - sell tickets and merchandise in
         person with credit card processing via the organiser app
+      - **Tap to Pay** - accept contactless on-site payments at the door
+        using NFC
+      - **Tracking pixels and links** - add conversion tracking pixels and
+        attribution links across ad platforms
+      - **Sell through social platforms** - sell tickets directly through
+        Facebook, TikTok, and LinkedIn without attendees leaving those apps
+      - **1:1 onboarding and phone support** - Pro customers get
+        onboarding sessions and 24/7 phone and live chat support
+      - **AI Marketing Copilot** - AI-generated ad copy, email campaigns,
+        event images, and descriptions ([Eventbrite
+        claim](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/)
+        30% faster campaign launches and 17% better CPC)
+      - **Nonprofit discount** - 50% off Pro plans and discounted fees on
+        donation tickets for qualifying organisations
       - **Automated pre-event reminders** - series of emails at 48 hours,
         2 hours, and 10 minutes before the event with "Join Now" links
 
       **Chobble Tickets has features Eventbrite doesn't:**
 
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
+      - **[Custom questions with free-text answers](/features/custom-questions/)**
+        - add multiple-choice or free-text questions to events, and link
+        answers to price changes for tiered pricing
+      - **[Parent/child listings](/features/parent-child-listings/)** - require
+        buyers to choose child listings (add-ons, options) when booking a
+        parent
       - **[Password-derived encryption](/features/encrypted/)** -
         attendee data is encrypted with a key derived from your admin
         password using hybrid RSA-OAEP + AES-256-GCM. A database dump
@@ -169,9 +172,9 @@ blocks:
       - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
       - **[Custom questions](/features/custom-questions/)** - add
-        multiple-choice questions to events and collect structured answers
-        at checkout, with answers visible across the admin interface, CSV
-        exports, and webhooks
+        multiple-choice and free-text questions to events and collect
+        structured answers at checkout, with answers visible across the
+        admin interface, CSV exports, and webhooks
       - **[Admin API](/features/admin-api/)** - full CRUD for events via
         API keys, so you can automate event management from scripts or
         external tools
@@ -269,5 +272,4 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Open Source Alternative to Eventbrite | Chobble Tickets
----
+name: Open Source Alternative to Eventbrite | Chobble Tickets---

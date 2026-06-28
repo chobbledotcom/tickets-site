@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: wix_events
 title: Chobble Tickets vs Wix Events
 meta_title: Open Source Alternative to Wix Events | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Wix Events is a ticketing add-on built into the Wix website builder. Here is how a dedicated, open source ticketing platform compares.
-    name: Chobble Tickets vs Wix Events
+    content: |-
+      # Chobble Tickets vs Wix Events
+
+      Wix Events is a ticketing add-on built into the Wix website builder. Here is how a dedicated, open source ticketing platform compares.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -60,8 +61,8 @@ blocks:
       **Wix Events has features Chobble Tickets doesn't:**
 
       - **Full website builder** - Wix Events is part of the Wix platform, so
-        you get a complete website with drag-and-drop design tools, not just
-        a ticketing page
+        you get a complete website with drag-and-drop design tools as well
+        as a ticketing page
       - **RSVP events** - create free RSVP events for weddings, parties, and
         gatherings with guest tracking and
         [waitlists](https://support.wix.com/en/article/wix-events-limiting-registration-and-creating-waitlists-for-rsvp-events),
@@ -71,9 +72,6 @@ blocks:
       - **[Reserved seating](https://support.wix.com/en/article/wix-events-creating-a-seating-map)**
         - built-in seating map builder with rows, tables, and general
         admission areas, letting guests pick their seats at checkout
-      - **Discount and promo codes** - create fixed-amount or percentage
-        discount codes, optionally scoped to specific ticket types or
-        events, with usage limits
       - **[Dedicated check-in app](https://support.wix.com/en/article/check-in-by-wix-an-overview)**
         - "Check-in by Wix" app with offline scanning, up to 100 staff per
         event, and ticket-type filtering (Chobble uses browser-based QR
@@ -103,14 +101,18 @@ blocks:
       - **Apple Wallet passes** - guests on iOS can add tickets to Apple
         Wallet (Google Wallet requires a third-party app like
         [PassKit](https://integrations.passkit.com/wix/))
-      - **Custom registration form field types** - free-text fields,
-        dropdowns, checkboxes, and other field types beyond multiple choice
+      - **Custom registration form field types** - conditional logic,
+        dependent fields, and other field types beyond the free-text and
+        multiple-choice questions Chobble Tickets supports
 
       **Chobble Tickets has features Wix Events doesn't:**
 
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[End-to-end encryption](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
-        in a database
+        stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
+        plain database rows
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3, no proprietary lock-in
       - **Self-hosting option** - run the platform on your own servers for
@@ -135,9 +137,9 @@ blocks:
       - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
       - **[Custom questions](/features/custom-questions/)** - add
-        multiple-choice questions to events and collect structured answers
-        at checkout, with answers visible across the admin interface, CSV
-        exports, and webhooks
+        multiple-choice and free-text questions to events and collect
+        structured answers at checkout, with answers visible across the
+        admin interface, CSV exports, and webhooks
       - **[Admin API](/features/admin-api/)** - full CRUD for events via
         API keys, so you can automate event management from scripts or
         external tools (Wix has a [developer
@@ -186,9 +188,9 @@ blocks:
 
       ## When Chobble Tickets is the better choice
 
-      - You already have your own website and just need ticketing
+      - You already have your own website and only need ticketing
       - You want predictable, flat-rate pricing with no per-ticket fees
-      - You don't want to pay £276+/year for a Wix plan just to sell tickets
+      - You don't want to pay £276+/year for a Wix plan only to sell tickets
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
       - You're a community group, charity, or school (£25/year)
@@ -252,5 +254,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and encrypted attendee data.
-name: Open Source Alternative to Wix Events | Chobble Tickets
----
+name: Open Source Alternative to Wix Events | Chobble Tickets---

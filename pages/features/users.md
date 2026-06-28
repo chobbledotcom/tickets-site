@@ -1,8 +1,7 @@
 ---
-layout: design-system-base.html
 title: Users - Chobble Tickets
 meta_title: Multi-User Management - Chobble Tickets
-meta_description: Invite team members as owners or managers to manage sessions and track activity in Chobble Tickets.
+meta_description: Invite team members as owners, managers, or logistics agents to manage sessions and track activity in Chobble Tickets.
 permalink: /features/users/
 eleventyNavigation:
   key: Users
@@ -11,13 +10,15 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Invite team members as managers so everyone gets their own login instead of sharing passwords.
-    name: Multi-user management
+    content: |-
+      # Multi-user management
+
+      Invite team members as owners, managers, or logistics agents so everyone gets their own login instead of sharing passwords.
   - type: markdown
     content: |
       ![The users management page showing team members and their roles](/images/screenshots/users.png)
 
-      ## Two roles: owners and managers
+      ## Two roles, plus a logistics role
 
       Running events often involves a team, so Chobble Tickets lets you
       invite team members via email with a 7-day expiring access link where
@@ -27,6 +28,18 @@ blocks:
       logs. **Managers** can see events and the calendar, making them ideal
       for door staff or volunteers who need to check people in without
       accessing sensitive settings.
+
+      When you enable [logistics](/features/logistics/), a third role becomes
+      available. **Agents** see only the deliveries run sheet - their
+      drop-offs and collections for today and tomorrow, with a done toggle for
+      each leg. They cannot see events, attendees, settings, or logs. This is
+      useful for drivers or crew who only need their day's jobs and should
+      not see anything else.
+
+      Team members set their own password when they accept an invite. The
+      invite is single-use, and the encryption keys are re-wrapped under
+      the new password as part of joining, so the person who sent the
+      invite never sees it.
 
       The admin dashboard tracks activity per user so you can see who did
       what, and sessions expire after 24 hours with HttpOnly cookies for
@@ -51,5 +64,4 @@ blocks:
       ## Manage events as a team
 
       Invite volunteers and committee members so everyone can manage events without sharing a single login.
-name: Multi-User Management - Chobble Tickets
----
+name: Multi-User Management - Chobble Tickets---

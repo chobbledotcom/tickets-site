@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Stay and Play Sessions - Chobble Tickets
 meta_title: Ticketing for Stay and Play Sessions - Chobble Tickets
 meta_description: Daily session ticketing for stay and play with no per-ticket fees. Parents pick a day from a calendar, and organisers keep all the revenue.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Set up your weekly sessions, choose which days you run, and let parents book online without creating an account.
-    name: Ticketing for stay and play sessions
+    content: |-
+      # Ticketing for stay and play sessions
+
+      Set up your weekly sessions, choose which days you run, and let parents book online without creating an account.
   - type: split-icon-links
     content: |
       ## No per-ticket fees on low-cost sessions
@@ -92,5 +93,4 @@ blocks:
       ## Set up your sessions
 
       Get started with Chobble Tickets. Managed hosting is £50/year or £5/month with unlimited events.
-name: Ticketing for Stay and Play Sessions - Chobble Tickets
----
+name: Ticketing for Stay and Play Sessions - Chobble Tickets---

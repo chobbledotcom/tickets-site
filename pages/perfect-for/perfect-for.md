@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Perfect For - Chobble Tickets
 meta_title: Perfect For - Chobble Tickets
 meta_description: Chobble Tickets works for charity events, kids parties, stay and play sessions, music concerts, political organising, adult parties, workshops, and more.
@@ -10,8 +9,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Whether you're running a school fundraiser or a music festival, Chobble Tickets keeps things simple and affordable.
-    name: Perfect for all kinds of events
+    content: |-
+      # Perfect for all kinds of events
+
+      Whether you're running a school fundraiser or a music festival, Chobble Tickets keeps things simple and affordable.
   - type: features
     intro_content: "## Who uses Chobble Tickets?"
     items:
@@ -49,5 +50,4 @@ blocks:
       ## Get started
 
       Sign up for managed hosting at £50/year or £5/month, or grab the source code from GitHub and self-host for free.
-name: Perfect For - Chobble Tickets
----
+name: Perfect For - Chobble Tickets---

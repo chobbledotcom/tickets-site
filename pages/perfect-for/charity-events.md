@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Charity Events - Chobble Tickets
 meta_title: Ticketing for Charity Events - Chobble Tickets
 meta_description: Affordable event ticketing for charities and community groups with a 50% discount and no per-ticket fees.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: More of your fundraising goes to the cause instead of the ticketing platform, with a 50% discount for charities and community groups.
-    name: Ticketing for charity events
+    content: |-
+      # Ticketing for charity events
+
+      More of your fundraising goes to the cause instead of the ticketing platform, with a 50% discount for charities and community groups.
   - type: split-icon-links
     reveal_content: left
     content: |
@@ -60,5 +61,4 @@ blocks:
       ## Get the charity discount
 
       Sign up for managed hosting at £25/year for charities and community groups, or £5/month at the standard rate.
-name: Ticketing for Charity Events - Chobble Tickets
----
+name: Ticketing for Charity Events - Chobble Tickets---

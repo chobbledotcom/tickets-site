@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Email Templates - Chobble Tickets
 meta_title: Email Templates - Chobble Tickets
 meta_description: Customise confirmation emails with Liquid syntax, including built-in currency and pluralise filters.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Customise confirmation emails with Liquid syntax, including built-in currency and pluralise filters.
-    name: Email templates
+    content: |-
+      # Email templates
+
+      Customise confirmation emails with Liquid syntax, including built-in currency and pluralise filters.
   - type: markdown
     content: |
       ## Full control over emails
@@ -49,5 +50,4 @@ blocks:
       ## Branded emails
 
       Customise your confirmation emails to match your brand.
-name: Email Templates - Chobble Tickets
----
+name: Email Templates - Chobble Tickets---

@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: resident_advisor
 title: Chobble Tickets vs Resident Advisor
 meta_title: Open Source Alternative to Resident Advisor | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Resident Advisor is the go-to ticketing platform for the electronic music scene. Here's how a small, open source alternative compares on pricing, features, and data ownership.
-    name: Chobble Tickets vs Resident Advisor
+    content: |-
+      # Chobble Tickets vs Resident Advisor
+
+      Resident Advisor is the go-to ticketing platform for the electronic music scene. Here's how a small, open source alternative compares on pricing, features, and data ownership.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -224,5 +225,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no per-ticket fees.
-name: Open Source Alternative to Resident Advisor | Chobble Tickets
----
+name: Open Source Alternative to Resident Advisor | Chobble Tickets---

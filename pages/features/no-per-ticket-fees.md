@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: No Per-Ticket Fees - Chobble Tickets
 meta_title: No Per-Ticket Fees | Flat Annual Fee Event Ticketing
 meta_description: Chobble Tickets charges a flat £50/year (or £5/month) with no per-ticket fees or percentage cuts. See worked examples at 50, 500, and 5,000 tickets to compare the cost against percentage-based platforms.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Chobble Tickets charges a flat £50/year, or £5/month, regardless of how many tickets you sell. There is no percentage cut, no per-ticket charge, and no hidden fees.
-    name: No per-ticket fees
+    content: |-
+      # No per-ticket fees
+
+      Chobble Tickets charges a flat £50/year, or £5/month, regardless of how many tickets you sell. There is no percentage cut, no per-ticket charge, and no hidden fees.
   - type: markdown
     content: |
       ## How flat-fee ticketing works
@@ -225,5 +226,4 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month with no per-ticket fees, or self-host for free.
-name: No Per-Ticket Fees | Flat Annual Fee Event Ticketing
----
+name: No Per-Ticket Fees | Flat Annual Fee Event Ticketing---

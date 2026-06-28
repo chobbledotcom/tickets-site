@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Selling Tickets - Chobble Tickets
 meta_title: Selling Tickets - Chobble Tickets
 meta_description: Accept payments, prevent overbooking, handle refunds, and set booking rules for your events.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Accept payments, prevent overbooking, handle refunds, and set your own booking rules.
-    name: Selling tickets
+    content: |-
+      # Selling tickets
+
+      Accept payments, prevent overbooking, handle refunds, and set your own booking rules.
   - type: features
     items:
       - icon: hugeicons:credit-card
@@ -43,5 +44,4 @@ blocks:
       ## Start selling tickets
 
       Sign up for managed hosting at £50/year or £5/month, or browse the full technical documentation.
-name: Selling Tickets - Chobble Tickets
----
+name: Selling Tickets - Chobble Tickets---

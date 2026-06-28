@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Apple & Google Wallet - Chobble Tickets
 meta_title: Apple & Google Wallet Integration - Chobble Tickets
 meta_description: Attendees can add tickets to Apple Wallet or Google Wallet for quick access at the door.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Attendees can add their ticket to Apple Wallet or Google Wallet so it's right there on their phone when they arrive at the event.
-    name: Apple & Google Wallet
+    content: |-
+      # Apple & Google Wallet
+
+      Attendees can add their ticket to Apple Wallet or Google Wallet so it's right there on their phone when they arrive at the event.
   - type: markdown
     content: |
       ## Tickets in your pocket
@@ -40,5 +41,4 @@ blocks:
       ## Modern ticketing
 
       Give your attendees the convenience of Apple Wallet and Google Wallet passes.
-name: Apple & Google Wallet Integration - Chobble Tickets
----
+name: Apple & Google Wallet Integration - Chobble Tickets---

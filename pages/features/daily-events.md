@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Daily Events - Chobble Tickets
 meta_title: Daily Events - Chobble Tickets
 meta_description: Per-date capacity with a calendar picker and configurable holiday and blackout dates for classes and recurring bookings.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Run events on specific dates with per-date capacity, a built-in calendar picker, and configurable holiday and blackout dates.
-    name: Daily events
+    content: |-
+      # Daily events
+
+      Run events on specific dates with per-date capacity, a built-in calendar picker, and configurable holiday and blackout dates.
   - type: markdown
     content: |
       ## Perfect for recurring bookings
@@ -29,6 +30,18 @@ blocks:
       bookings on days you're not running. This is ideal for term-time
       classes, weekly meetups that skip bank holidays, or any event with a
       recurring schedule that has exceptions.
+
+      ## Multi-day bookings
+
+      A daily event can be booked for more than one day at once. Set a
+      duration in days on the event, and the capacity engine checks every
+      day in the range against both the event and group caps. The calendar
+      picker excludes start dates whose full range would hit a non-bookable
+      day, so a buyer cannot pick a Wednesday start for a three-day booking
+      that runs into a blackout Friday.
+
+      Per-day remaining capacity is shown for grouped daily events, so you
+      can see how many places are left on each date at a glance.
 
       ## Admin calendar
 
@@ -47,5 +60,4 @@ blocks:
       ## Manage recurring events
 
       Set up daily events with per-date capacity and blackout dates.
-name: Daily Events - Chobble Tickets
----
+name: Daily Events - Chobble Tickets---

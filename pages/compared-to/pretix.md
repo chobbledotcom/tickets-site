@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: pretix_hosted
 selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: pretix_selfhosted
@@ -13,8 +12,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Two open source ticketing platforms with very different models. This page compares them on cost, complexity, and approach.
-    name: Chobble Tickets vs Pretix
+    content: |-
+      # Chobble Tickets vs Pretix
+
+      Two open source ticketing platforms with very different models. This page compares them on cost, complexity, and approach.
   - type: markdown
     content: |
       ## Two open source projects, two approaches
@@ -108,9 +109,11 @@ blocks:
       - **30+ payment methods** - Stripe, PayPal, Mollie, Adyen, Apple
         Pay, Google Pay, WeChat Pay, Alipay, Klarna, SEPA, Bitcoin
         (BitPay), bank transfer, and many regional methods
-      - **Voucher and promo codes** - percentage and fixed-amount
-        discounts, time-limited, single or multi-use, tied to specific
-        products, with seat reservation and exclusive product access
+      - **Voucher system** - Pretix has a voucher system with more options
+        than Chobble Tickets: percentage and fixed-amount discounts,
+        time-limited, single or multi-use, tied to specific products, with
+        seat reservation and exclusive product access. Chobble Tickets now
+        has basic promo codes and discount codes
       - **Automatic invoicing** - EU reverse charge support, ZUGFeRD
         invoices, and Peppol e-invoicing for B2B compliance
       - **Waitlists** - automatic notifications when places open up, with
@@ -136,9 +139,9 @@ blocks:
       - **Newsletter integration** - MailChimp and Newsletter2Go
         connectors
       - **Zapier integration** - connect to 5,000+ apps
-      - **Advanced checkout questions** - free-text, file uploads, and
-        statistical overview per ticket type (Chobble supports
-        multiple-choice custom questions)
+      - **Checkout questions** - file uploads, choice questions,
+        and statistical overview per ticket type (Chobble supports
+        multiple-choice and free-text custom questions)
       - **Check-in lists with permissions** - multiple independent
         check-in lists per gate or area with custom fields at scan
       - **Digital content delivery** - attach downloadable content to
@@ -153,10 +156,18 @@ blocks:
         organisation with shared settings and branding
       - **Tax management** - configure VAT rates per product and country
 
-      Note: many of Pretix's advanced features (seating, POS, lead
+      Note: many of Pretix's larger-event features (seating, POS, lead
       scanning, badges, resellers, and others) are only available with a
       Pretix Enterprise licence starting at €499/year. The free Community
       edition includes core ticketing but lacks these plugins.
+
+      **Chobble Tickets has features Pretix doesn't:**
+
+      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
 
       ## When Chobble Tickets is the better choice
 
@@ -194,9 +205,9 @@ blocks:
       | [Event groups](/features/groups/) | Yes | Yes (with series) |
       | Tiered ticket types | Yes (via groups with shared capacity) | Yes (product variations) |
       | [White-label emails](/features/email-providers/) | Yes (own domain + templates) | Partial |
-      | Custom questions | Yes (multiple choice) | Yes (free-text, files, more) |
+      | Custom questions | Yes (multiple choice, free-text) | Yes (free-text, files, more) |
       | [Admin API](/features/admin-api/) | Yes (API keys) | Yes |
-      | Promo codes | No | Yes |
+      | Promo codes | Yes | Yes |
       | Waitlists | No | Yes |
       | [Custom domain](/features/custom-domain/) | Yes | Yes (enterprise) |
       | [Daily events](/features/daily-events/) | Yes | Yes (with series) |
@@ -249,5 +260,4 @@ blocks:
       ## Try Chobble Tickets
 
       Simple, flat-rate ticketing with no percentage fees and no lock-in.
-name: Open Source Alternative to Pretix | Chobble Tickets
----
+name: Open Source Alternative to Pretix | Chobble Tickets---

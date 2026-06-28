@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 competitor_key: resova
 title: Chobble Tickets vs Resova
 meta_title: Open Source Alternative to Resova | Chobble Tickets
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Resova is an activity booking platform built for escape rooms, tours, and experiences. Here is how a general-purpose, open source ticketing platform compares.
-    name: Chobble Tickets vs Resova
+    content: |-
+      # Chobble Tickets vs Resova
+
+      Resova is an activity booking platform built for escape rooms, tours, and experiences. Here is how a general-purpose, open source ticketing platform compares.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -66,7 +67,7 @@ blocks:
         time and store them against the customer record, which matters for
         escape rooms, climbing, axe-throwing, and similar activities
       - **SMS reminders** - send text-message confirmations and reminders
-        to customers, not just email
+        to customers as well as email
       - **Built-in CRM** - persistent customer profiles with notes, custom
         fields, and activity tracking across every booking
       - **Abandoned booking recovery** - automated follow-up emails to
@@ -75,8 +76,6 @@ blocks:
         admin interface alongside online bookings
       - **Gift voucher system** - sell monetary or experience-specific
         vouchers online that customers redeem at checkout
-      - **Promo codes** - create discount codes and promotional offers
-        for specific campaigns
       - **Deposits** - take a deposit at booking instead of the full
         amount up front
       - **Multi-location management** - run bookings across several
@@ -94,8 +93,8 @@ blocks:
       **Chobble Tickets has features Resova doesn't:**
 
       - **[End-to-end encryption](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just
-        stored in a database
+        stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
+        plain database rows
       - **[Open source](/features/open-source/)** - every line of code is
         public under AGPLv3
       - **Self-hosting option** - run the platform on your own servers for
@@ -119,6 +118,9 @@ blocks:
         multiple-choice questions to events and collect structured answers
         at checkout, with answers visible across the admin interface, CSV
         exports, and webhooks
+      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
+        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[Public & admin API](/features/public-api/)** - RESTful JSON API
         for building custom integrations, plus [authenticated admin
         API](/features/admin-api/) with full event CRUD via API keys
@@ -224,5 +226,4 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and no booking limits.
-name: Open Source Alternative to Resova | Chobble Tickets
----
+name: Open Source Alternative to Resova | Chobble Tickets---

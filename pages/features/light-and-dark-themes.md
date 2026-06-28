@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Light & Dark Themes - Chobble Tickets
 meta_title: Light & Dark Themes - Chobble Tickets
 meta_description: Built-in public site with light and dark theme options, so your booking pages match your brand.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Built-in public site with light and dark theme options, so your booking pages match your brand.
-    name: Light & dark themes
+    content: |-
+      # Light & dark themes
+
+      Built-in public site with light and dark theme options, so your booking pages match your brand.
   - type: markdown
     content: |
       ## Choose your look
@@ -33,6 +34,13 @@ blocks:
       Both themes are responsive and work on phones, tablets, and desktops.
       The layout adapts to the screen size so your events look great on
       every device.
+
+      ## Link styling
+
+      Links are blue by default and gain an underline on hover or focus. If
+      you prefer links to be underlined all the time, there is an "Underline
+      links" toggle on the theme form. When on, every link on the public site
+      carries an underline, including navigation.
   - type: cta
     button:
       text: Get Started
@@ -43,5 +51,4 @@ blocks:
       ## Match your brand
 
       Choose a light or dark theme for your public booking pages.
-name: Light & Dark Themes - Chobble Tickets
----
+name: Light & Dark Themes - Chobble Tickets---

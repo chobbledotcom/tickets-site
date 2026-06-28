@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: No Spying - Chobble Tickets
 meta_title: No Spying - Chobble Tickets
 meta_description: Chobble does not collect attendee data or use your events to market to your attendees.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Chobble does not collect attendee data or use your events to market to your attendees.
-    name: No spying
+    content: |-
+      # No spying
+
+      Chobble does not collect attendee data or use your events to market to your attendees.
   - type: markdown
     content: |
       ## Your attendee data
@@ -69,5 +70,4 @@ blocks:
       ## Attendee data is not collected or shared
 
       Sign up for managed hosting at £50/year or £5/month, or self-host and keep everything on your own infrastructure.
-name: No Spying - Chobble Tickets
----
+name: No Spying - Chobble Tickets---

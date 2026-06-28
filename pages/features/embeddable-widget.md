@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Embeddable Widget - Chobble Tickets
 meta_title: Embeddable Widget - Chobble Tickets
 meta_description: Drop an iframe snippet into your website to show events inline, with configurable CSP.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Drop an iframe snippet into your existing website to show your events inline, with configurable Content Security Policy headers.
-    name: Embeddable widget
+    content: |-
+      # Embeddable widget
+
+      Drop an iframe snippet into your existing website to show your events inline, with configurable Content Security Policy headers.
   - type: markdown
     content: |
       ## Events on your website
@@ -46,5 +47,4 @@ blocks:
       ## Embed your events
 
       Show your events on your existing website with one line of HTML.
-name: Embeddable Widget - Chobble Tickets
----
+name: Embeddable Widget - Chobble Tickets---

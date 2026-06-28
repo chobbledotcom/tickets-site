@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Markdown Descriptions - Chobble Tickets
 meta_title: Markdown Descriptions - Chobble Tickets
 meta_description: Write event descriptions in Markdown with header image uploads, so your events look great without a page builder.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Write event descriptions in Markdown with header image uploads, so your events look great without a page builder.
-    name: Markdown descriptions
+    content: |-
+      # Markdown descriptions
+
+      Write event descriptions in Markdown with header image uploads, so your events look great without a page builder.
   - type: markdown
     content: |
       ## Simple formatting
@@ -42,5 +43,4 @@ blocks:
       ## Beautiful event pages
 
       Write event descriptions in Markdown and let the theme handle the rest.
-name: Markdown Descriptions - Chobble Tickets
----
+name: Markdown Descriptions - Chobble Tickets---

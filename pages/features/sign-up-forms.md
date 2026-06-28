@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Sign-up Forms - Chobble Tickets
 meta_title: Volunteer Sign-up Forms & Potluck Sheets | Chobble Tickets
 meta_description: Use Chobble Tickets as a sign-up form for volunteers, potluck contributions, and other collections. Create a free event, add custom questions, and share the link.
@@ -11,8 +10,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Create volunteer sign-up sheets, potluck coordinators, and other form-based collections by setting an event as free.
-    name: Sign-up forms
+    content: |-
+      # Sign-up forms
+
+      Create volunteer sign-up sheets, potluck coordinators, and other form-based collections by setting an event as free.
   - type: markdown
     content: |
       ## How it works
@@ -88,5 +89,4 @@ blocks:
       ## Create a sign-up form
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Volunteer Sign-up Forms & Potluck Sheets | Chobble Tickets
----
+name: Volunteer Sign-up Forms & Potluck Sheets | Chobble Tickets---

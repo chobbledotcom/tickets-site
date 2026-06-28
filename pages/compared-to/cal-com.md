@@ -1,5 +1,4 @@
 ---
-layout: design-system-base.html
 title: Chobble Tickets vs Cal.com
 meta_title: Open Source Ticketing vs Cal.com Scheduling | Chobble Tickets
 meta_description: Cal.com is a scheduling platform that took its production code closed source in April 2026. See how Chobble Tickets compares for paid bookings and event ticketing.
@@ -10,8 +9,10 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
-    lead: Cal.com is a scheduling platform that built its reputation as the open source alternative to Calendly. On 14 April 2026, the company announced its production codebase is moving closed source. Here is how it compares to Chobble Tickets.
-    name: Chobble Tickets vs Cal.com
+    content: |-
+      # Chobble Tickets vs Cal.com
+
+      Cal.com is a scheduling platform that built its reputation as the open source alternative to Calendly. On 14 April 2026, the company announced its production codebase is moving closed source. Here is how it compares to Chobble Tickets.
   - type: markdown
     content: |
       ## Different tools for different jobs
@@ -396,5 +397,4 @@ blocks:
       ## Try Chobble Tickets
 
       Open source event ticketing with flat pricing and no per-user fees.
-name: Open Source Ticketing vs Cal.com Scheduling | Chobble Tickets
----
+name: Open Source Ticketing vs Cal.com Scheduling | Chobble Tickets---
