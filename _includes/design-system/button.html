@@ -1,0 +1,17 @@
+{%- comment -%}
+Local override: add the data attribute required by the tix.chobble.com
+external order module while preserving the plain href fallback.
+{%- endcomment -%}
+
+{%- assign chobble_order_listing = "https://tix.chobble.com/ticket/register" -%}
+
+{%- assign _text = text | default: button.text -%}
+{%- assign _href = href | default: button.href -%}
+{%- assign _variant = variant | default: button.variant | default: "primary" -%}
+{%- assign _size = btn_size | default: button.size -%}
+{%- assign _download = download | default: button.download -%}
+{%- if _text and _href -%}
+  {%- capture _class -%}btn btn--{{ _variant }}{%- if _size == "sm" or _size == "lg" %} btn--{{ _size }}{%- endif -%}{%- endcapture -%}
+  {%- assign _clean_href = _href | strip -%}
+  <a href="{{ _href }}" class="{{ _class }}"{% if _clean_href == chobble_order_listing %} data-add-listing="{{ _href }}"{% endif %}{% if _download %} download{% endif %}>{{ _text }}</a>
+{%- endif -%}
