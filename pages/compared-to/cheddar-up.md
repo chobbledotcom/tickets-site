@@ -58,6 +58,7 @@ blocks:
       - Apple Pay and Google Pay at checkout (via Stripe)
 
       **Cheddar Up has features Chobble Tickets doesn't:**
+
       - **In-person point-of-sale** - sell tickets, merchandise, and
         concessions at the door with a Bluetooth card reader ($79) or Tap
         on Mobile (NFC), with all sales synced to your online dashboard
