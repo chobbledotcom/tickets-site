@@ -91,6 +91,9 @@ blocks:
       - icon: hugeicons:ticket-01
         description: The ticketing add-on inside Wix's website builder. Compare fees, platform lock-in, and data ownership.
         name: <a href="/compared-to/wix-events/">vs Wix Events</a>
+      - icon: hugeicons:package
+        description: Self-hosted software for building rental marketplaces. Compare a multi-vendor rental platform with hire bookings for a single operator.
+        name: <a href="/compared-to/yo-rent/">vs Yo!Rent</a>
   - type: cta
     button:
       text: Sign Up
