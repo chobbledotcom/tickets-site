@@ -30,9 +30,7 @@ blocks:
       the default options to hire ones. Combined with delivery and
       collection scheduling and the ability to block out items that are out
       of action, this lets a single operator take bookings for their own
-      equipment. One of Chobble Tickets' customers,
-      [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review),
-      runs a hire business on it.
+      equipment.
 
       The difference is scale and model. Yo!Rent is for building a rental
       business where the public, or many separate vendors, browse a
@@ -206,8 +204,8 @@ blocks:
       with access to the database cannot read names or emails without your
       key.
 
-      Both approaches give strong data ownership when self-hosted. The
-      difference is that Yo!Rent charges a large one-time fee for a
+      Self-hosting either product keeps customer data on your own server.
+      The difference is that Yo!Rent charges a large one-time fee for a
       proprietary licence, while Chobble Tickets is free to self-host
       under an open source licence.
   - type: markdown
