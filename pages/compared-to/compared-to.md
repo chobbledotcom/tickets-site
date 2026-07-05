@@ -83,6 +83,9 @@ blocks:
         description: Australia and New Zealand's dominant ticketing platform. Compare fees, data security, and independence.
         name: <a href="/compared-to/ticketek/">vs Ticketek</a>
       - icon: hugeicons:ticket-01
+        description: A UK ticketing platform with zero booking fees for fans and tiered plans for organisers. Compare pricing, features, and data ownership.
+        name: <a href="/compared-to/tickts/">vs tickts</a>
+      - icon: hugeicons:ticket-01
         description: Developer-friendly ticketing from Ireland with per-ticket fees. Compare pricing, features, and data ownership.
         name: <a href="/compared-to/tito/">vs Tito</a>
       - icon: hugeicons:ticket-01

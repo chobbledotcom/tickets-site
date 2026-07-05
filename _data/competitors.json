@@ -205,6 +205,24 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "Tessera Tickets subscription: from $125/month (approx. £1,200/year) for up to 10,000 tickets per year, rising to $667/month (approx. £6,400/year) for up to 100,000 tickets per year. Volumes above that are quoted on request. WordPress hosting for the public-facing website is a separate $150-$400/month (approx. £1,440-£3,840/year). One-off setup fees range from free (do-it-yourself) to $3,500 for the Template Plus theme, $6,000+ for a custom design, or $10,000+ for a complete redesign. Seating chart setup costs $500-$1,000 extra, point-of-sale hardware around $300 per device, and barcode reader licensing from $100/month for up to five devices. Payment processing via Stripe (1.5% + 20p in the UK) or Authorize.net is charged separately. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: tessera-tickets.com/pricing (April 2026)."
   },
+  "tickts_starter": {
+    "name": "tickts (Starter)",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "tickts Starter fees: free plan with 0% commission and no booking fees for fans, plus Stripe processing (1.5% + 20p). Advanced features (payment plans, waitlists, season passes, white-label, full API) require Growth (£290/year) or Pro (£690/year). Chobble Tickets: £50/year or £5/month flat (£25/year for charities on the annual plan), all features included + Stripe processing (1.5% + 20p). Source: tickts.co.uk/pricing (July 2026)."
+  },
+  "tickts_pro": {
+    "name": "tickts (Pro)",
+    "annual_cost": 690,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "tickts Pro fees: £690/year (annual billing) or £69/month (monthly billing, £828/year). 0% commission and no booking fees for fans, plus Stripe processing (1.5% + 20p). Pro adds season passes, white-label subdomain, queue system, fan CRM, full API access, and removing tickts branding. Chobble Tickets: £50/year or £5/month flat (£25/year for charities on the annual plan), all features included + Stripe processing (1.5% + 20p). Source: tickts.co.uk/pricing (July 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,
