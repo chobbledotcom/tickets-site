@@ -1,7 +1,7 @@
 ---
 title: Chobble Tickets - Open Source Event Ticketing
 meta_title: Chobble Tickets - Open Source Event Ticketing
-meta_description: Event ticketing from £50/year or £5/month with no per-ticket fees or commission. Keep all your ticket revenue. Open source, encrypted, and self-hostable.
+meta_description: Ticketing, equipment hire, and booking software from £50/year or £5/month with no per-ticket fees or commission. Open source, encrypted, and self-hostable.
 permalink: /
 eleventyNavigation:
   key: Home
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Open source event ticketing with no per-ticket fees
 
-      Chobble Tickets is an open source ticketing platform with a flat fee, no booking fees or commission, and no attendee data collection.
+      Chobble Tickets is an open source platform for event tickets, equipment hire, and session bookings. It charges a flat fee, adds no booking fees or commission, and collects no attendee data.
     buttons:
       - text: Sign Up
         href: https://tix.chobble.com/ticket/register
@@ -45,7 +45,7 @@ blocks:
 
       Charities, community groups, artists, and musicians receive a 50% discount on the annual plan, bringing the cost to £25/year.
 
-      Money from ticket sales goes directly to your Stripe or Square account. Chobble does not handle or touch your revenue.
+      Money from ticket sales goes directly to your Stripe, Square, or SumUp account. Chobble does not handle or touch your revenue.
 
       The source code is available on GitHub for self-hosting. One-click deployment is available for DigitalOcean, Heroku, Koyeb, and Render.
 
@@ -100,7 +100,7 @@ blocks:
         description: AGPLv3 licensed with every feature included and no open-core bait-and-switch. Browse the code on GitHub.
         name: Fully open source
       - icon: hugeicons:credit-card
-        description: Pay a flat fee with no service charges or commission. Money from ticket sales goes directly to your Stripe or Square account.
+        description: Pay a flat fee with no service charges or commission. Money from ticket sales goes directly to your Stripe, Square, or SumUp account.
         name: No per-ticket fees
       - icon: hugeicons:tag-01
         description: Offer promo codes, discount codes, and opt-in add-ons at checkout, with stock limits and a live running total.
@@ -114,6 +114,25 @@ blocks:
       - icon: hugeicons:globe-02
         description: Run Chobble Tickets on your own servers, or use the £50/year (or £5/month) managed hosting at tix.chobble.com.
         name: Self-hostable
+  - type: features
+    dark: true
+    intro_content: |
+      ## Hire and booking businesses
+
+      Chobble Tickets also handles bookings that are not tickets. Multi-day hire with per-day prices, delivery and collection run sheets, deposits with balance payments, and servicing holds are built in.
+    items:
+      - icon: hugeicons:castle-01
+        description: Delivery run sheets for drivers, servicing events for inspections, and deposits with a pay-later balance link.
+        name: <a href="/perfect-for/bouncy-castle-hire/">Bouncy castle hire</a>
+      - icon: hugeicons:delivery-truck-02
+        description: Per-day pricing, customer-chosen hire lengths, and drop-off and collection scheduling for anything that goes out and comes back.
+        name: <a href="/perfect-for/equipment-hire/">Equipment hire</a>
+      - icon: hugeicons:ferris-wheel
+        description: Per-date capacity with a calendar picker, QR check-ins at the gate, and a flat fee however many admissions you sell.
+        name: <a href="/perfect-for/attractions-and-days-out/">Attractions & days out</a>
+      - icon: hugeicons:mortarboard-01
+        description: Recurring sessions, registration deadlines, and bulk email to the whole class list.
+        name: <a href="/perfect-for/classes-and-courses/">Classes & courses</a>
   - type: markdown
     dark: true
     content: |

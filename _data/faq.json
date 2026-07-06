@@ -173,5 +173,25 @@
 		"section": "About Chobble",
 		"question": "Where is Chobble Tickets based?",
 		"answer": "Chobble CIC is registered in England with its office at 27 The Crescent, Prestwich, Manchester M25 1FL. The platform itself runs on <a href=\"https://bunny.net\">Bunny.net</a> infrastructure in the EU. Read more about hosting locations on the <a href=\"/features/european/\">European</a> page, and more about the company on the <a href=\"/about/\">about page</a>."
+	},
+	{
+		"section": "Features and customisation",
+		"question": "Can Chobble Tickets handle equipment hire and deliveries?",
+		"answer": "Yes. Listings can span multiple days with a separate price for each day, and customers can choose how long to hire for. Bookings that need a delivery get a drop-off and collection assignment, and drivers see a run sheet of their day's jobs.</p><p>See the <a href=\"/features/logistics/\">logistics</a>, <a href=\"/features/multi-day-hire/\">multi-day hire</a>, and <a href=\"/features/servicing-events/\">servicing events</a> pages, or the <a href=\"/perfect-for/bouncy-castle-hire/\">bouncy castle hire</a> and <a href=\"/perfect-for/equipment-hire/\">equipment hire</a> pages."
+	},
+	{
+		"section": "Features and customisation",
+		"question": "Can customers pay a deposit and settle the balance later?",
+		"answer": "Yes. A booking can be taken as a reservation with a deposit, and the customer receives a link to a balance page where they can pay the rest later. Payments taken outside the checkout, such as cash or bank transfer, can be recorded against the same balance.</p><p>See the <a href=\"/features/deposits-and-balance-payments/\">deposits and balance payments</a> page."
+	},
+	{
+		"section": "Features and customisation",
+		"question": "Can Chobble Tickets sell bundles or packages?",
+		"answer": "Yes. A group of listings can be sold as a package with a single price, booked together in one checkout. Package members can have fixed quantities and their own price overrides.</p><p>See the <a href=\"/features/packages/\">packages</a> page."
+	},
+	{
+		"section": "Features and customisation",
+		"question": "Can bookings be taken from an existing website?",
+		"answer": "Yes, in two ways. An iframe snippet shows listings inline on any page, and a single JavaScript file turns links on an existing website into add-to-cart buttons with a floating cart.</p><p>See the <a href=\"/features/embeddable-widget/\">embeddable widget</a> and <a href=\"/features/order-widget/\">order widget</a> pages."
 	}
 ]
