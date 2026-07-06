@@ -73,8 +73,11 @@ blocks:
     description: Organise events into groups for multi-event bookings and single checkout.
     name: <a href="/features/groups/">Groups</a>
   - icon: hugeicons:user-multiple
-    description: Invite team members as owners, managers, or logistics agents, each with their own login and session.
+    description: Invite team members as owners, managers, editors, or logistics agents, each with their own login and session.
     name: <a href="/features/users/">Multi-user</a>
+  - icon: hugeicons:user-edit-01
+    description: A content-only login that can write your listings and site copy but cannot decrypt attendee data.
+    name: <a href="/features/editors/">Editors</a>
   - icon: hugeicons:user-add-01
     description: Add walk-ins and comp tickets directly from the admin panel, and edit attendee details or reassign events as needed.
     name: <a href="/features/manual-attendees/">Manual attendees</a>
