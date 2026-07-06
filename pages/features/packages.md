@@ -26,7 +26,7 @@ blocks:
       that item one package includes. Booking two packages books two of
       everything.
 
-      A hire company could sell a party package of one bouncy castle, ten
+      A hire company could sell a party package of one marquee, ten
       chairs, and one generator. A venue could sell a ticket and meal
       bundle, where every booking includes one ticket and one meal.
   - type: markdown

@@ -91,29 +91,74 @@ blocks:
     intro_content: |
       ## Features
 
-      Chobble Tickets includes every feature as standard. There are no paid add-ons or tiered plans.
+      Chobble Tickets includes every feature as standard. There are no paid add-ons or tiered plans. [See the full feature list](/features/).
     items:
       - icon: hugeicons:lock
         description: All personal information is encrypted at rest using hybrid RSA-OAEP + AES-256-GCM encryption.
-        name: Encrypted by default
+        name: <a href="/features/encrypted/">Encrypted by default</a>
       - icon: hugeicons:source-code
         description: AGPLv3 licensed with every feature included and no open-core bait-and-switch. Browse the code on GitHub.
-        name: Fully open source
+        name: <a href="/features/open-source/">Fully open source</a>
       - icon: hugeicons:credit-card
         description: Pay a flat fee with no service charges or commission. Money from ticket sales goes directly to your Stripe, Square, or SumUp account.
-        name: No per-ticket fees
+        name: <a href="/features/no-per-ticket-fees/">No per-ticket fees</a>
       - icon: hugeicons:tag-01
         description: Offer promo codes, discount codes, and opt-in add-ons at checkout, with stock limits and a live running total.
-        name: Promo codes & add-ons
+        name: <a href="/features/promo-codes-and-add-ons/">Promo codes & add-ons</a>
       - icon: hugeicons:smart-phone-01
         description: Every ticket gets a unique QR code that you can scan with any phone camera, with no app required.
-        name: QR code check-ins
+        name: <a href="/features/qr-code-check-ins/">QR code check-ins</a>
+      - icon: hugeicons:wallet-01
+        description: Attendees can add tickets to Apple Wallet or Google Wallet for quick access at the door.
+        name: <a href="/features/apple-wallet/">Apple & Google Wallet</a>
+      - icon: hugeicons:calendar-03
+        description: Per-date capacity with a calendar picker, plus holiday and blackout dates, for sessions and recurring bookings.
+        name: <a href="/features/daily-events/">Daily events</a>
+      - icon: hugeicons:package
+        description: Bundle several listings into one package with a single price, booked together in one checkout.
+        name: <a href="/features/packages/">Packages</a>
+      - icon: hugeicons:wallet-02
+        description: Take a deposit at booking and send customers a link to pay the outstanding balance later.
+        name: <a href="/features/deposits-and-balance-payments/">Deposits & balances</a>
+      - icon: hugeicons:mail-send-01
+        description: Send targeted email campaigns to attendee segments, with previews, drafts, and a public unsubscribe link.
+        name: <a href="/features/bulk-email/">Bulk email</a>
       - icon: hugeicons:mail-01
         description: Send confirmations through your choice of Resend, Postmark, SendGrid, or Mailgun.
-        name: Your email provider
+        name: <a href="/features/email-providers/">Your email provider</a>
+      - icon: hugeicons:coins-01
+        description: Every income figure, refund, and balance comes from a single double-entry ledger, with cash payments recorded too.
+        name: <a href="/features/ledger/">Accounting ledger</a>
+      - icon: hugeicons:api
+        description: A public JSON API, an authenticated admin API, and webhooks that POST on every booking.
+        name: <a href="/features/public-api/">API & webhooks</a>
       - icon: hugeicons:globe-02
         description: Run Chobble Tickets on your own servers, or use the £50/year (or £5/month) managed hosting at tix.chobble.com.
-        name: Self-hostable
+        name: <a href="/hosting/">Self-hostable</a>
+  - type: split-icon-links
+    subtitle: Bookings on your own website
+    reveal_content: left
+    content: |
+      ## Sell from your own website
+
+      Every Chobble Tickets account includes a [public booking website](/features/your-public-website/) with a homepage, contact page, and content pages, served on a [custom domain](/features/custom-domain/) if you have one.
+
+      If you already have a website, you can keep it. An [iframe snippet](/features/embeddable-widget/) shows your listings inline, and the [order widget](/features/order-widget/) turns links on any page into add-to-cart buttons with a floating cart.
+
+      Attendees book without leaving your site, and their data lands encrypted on your Chobble Tickets instance rather than with a third-party ticketing company.
+    figure_items:
+      - icon: hugeicons:layout-01
+        text: A booking website is included
+        url: /features/your-public-website/
+      - icon: hugeicons:code
+        text: Embed listings with one line of HTML
+        url: /features/embeddable-widget/
+      - icon: hugeicons:shopping-cart-01
+        text: Add-to-cart buttons on your existing site
+        url: /features/order-widget/
+      - icon: hugeicons:globe-02
+        text: Your own domain name
+        url: /features/custom-domain/
   - type: features
     dark: true
     intro_content: |
@@ -121,9 +166,6 @@ blocks:
 
       Chobble Tickets also handles bookings that are not tickets. Multi-day hire with per-day prices, delivery and collection run sheets, deposits with balance payments, and servicing holds are built in.
     items:
-      - icon: hugeicons:castle-01
-        description: Delivery run sheets for drivers, servicing events for inspections, and deposits with a pay-later balance link.
-        name: <a href="/perfect-for/bouncy-castle-hire/">Bouncy castle hire</a>
       - icon: hugeicons:delivery-truck-02
         description: Per-day pricing, customer-chosen hire lengths, and drop-off and collection scheduling for anything that goes out and comes back.
         name: <a href="/perfect-for/equipment-hire/">Equipment hire</a>

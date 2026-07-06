@@ -1,7 +1,7 @@
 ---
 title: Perfect For - Chobble Tickets
 meta_title: Perfect For - Chobble Tickets
-meta_description: Chobble Tickets works for charity events, kids parties, bouncy castle hire, equipment hire, attractions, classes, schools, sports clubs, festivals, theatre, and more.
+meta_description: Chobble Tickets works for charity events, kids parties, equipment hire, attractions, classes, schools, sports clubs, festivals, theatre, and more.
 permalink: /perfect-for/
 eleventyNavigation:
   key: Perfect For
@@ -12,7 +12,7 @@ blocks:
     content: |-
       # Perfect for events, hire, and bookings
 
-      Chobble Tickets handles ticketed events, equipment hire with delivery, and session bookings. Whether you run a school fundraiser, a bouncy castle hire business, or a music festival, the price is the same flat fee.
+      Chobble Tickets handles ticketed events, equipment hire with delivery, and session bookings. Whether you run a school fundraiser, an equipment hire business, or a music festival, the price is the same flat fee.
   - type: features
     intro_content: "## Who uses Chobble Tickets?"
     items:
@@ -40,9 +40,6 @@ blocks:
       - icon: hugeicons:presentation-podium
         description: Low-cost ticketing for classes and workshops where platform fees eat into margins and attendees shouldn't need to hand over personal data.
         name: <a href="/perfect-for/workshops/">Workshops</a>
-      - icon: hugeicons:castle-01
-        description: Multi-day hire with per-day prices, delivery run sheets for drivers, and servicing events for inspections and repairs.
-        name: <a href="/perfect-for/bouncy-castle-hire/">Bouncy castle hire</a>
       - icon: hugeicons:delivery-truck-02
         description: Booking, delivery, and collection for marquees, sound systems, and any equipment that goes out and comes back.
         name: <a href="/perfect-for/equipment-hire/">Equipment hire</a>
