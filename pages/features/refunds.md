@@ -13,14 +13,14 @@ blocks:
     content: |-
       # Refunds
 
-      Process individual or bulk refunds directly from the admin panel, with automatic payment provider sync through Stripe or Square.
+      Process individual or bulk refunds directly from the admin panel, with automatic payment provider sync through Stripe, Square, or SumUp.
   - type: markdown
     content: |
       ## One-click refunds
 
       Refund individual attendees or process bulk refunds for an entire
       event directly from the admin panel. When you issue a refund, the
-      payment provider (Stripe or Square) processes it automatically, so
+      payment provider (Stripe, Square, or SumUp) processes it automatically, so
       there's no need to log into a separate dashboard.
 
       ## Bulk refunds
@@ -45,4 +45,5 @@ blocks:
       ## Hassle-free refunds
 
       Process refunds in seconds from the admin panel.
-name: Refunds - Chobble Tickets---
+name: Refunds - Chobble Tickets
+---

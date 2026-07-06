@@ -2,7 +2,7 @@
 	{
 		"section": "Pricing and fees",
 		"question": "Which ticketing platforms don't charge per-ticket fees?",
-		"answer": "Most ticketing platforms charge a percentage or fixed fee on every ticket sold. The more tickets you sell, the more you pay. A small number of platforms charge a flat fee instead, with no per-ticket charges.</p><p>Chobble Tickets is one of these. The fee is £50/year, or £5/month if you prefer to pay monthly. Money from ticket sales goes directly to your <a href=\"/features/stripe-and-square/\">Stripe or Square account</a>. The only per-transaction cost is the payment processor's own fee (for example, Stripe charges 1.5% + 20p in the UK).</p><p>Other ticketing platforms that don't charge per-ticket fees are <a href=\"/compared-to/fooevents/\">FooEvents</a> (£103/year), <a href=\"/compared-to/hi-events/\">Hi.Events self-hosted</a> (£420/year), <a href=\"/compared-to/pretix/\">Pretix Enterprise</a> (£420/year), <a href=\"/compared-to/resova/\">Resova</a> (£685/year), and <a href=\"/compared-to/tessera-tickets/\">Tessera Tickets</a> (£1,200/year). Each charges separately for payment processing."
+		"answer": "Most ticketing platforms charge a percentage or fixed fee on every ticket sold. The more tickets you sell, the more you pay. A small number of platforms charge a flat fee instead, with no per-ticket charges.</p><p>Chobble Tickets is one of these. The fee is £50/year, or £5/month if you prefer to pay monthly. Money from ticket sales goes directly to your <a href=\"/features/stripe-and-square/\">Stripe, Square, or SumUp account</a>. The only per-transaction cost is the payment processor's own fee (for example, Stripe charges 1.5% + 20p in the UK).</p><p>Other ticketing platforms that don't charge per-ticket fees are <a href=\"/compared-to/fooevents/\">FooEvents</a> (£103/year), <a href=\"/compared-to/hi-events/\">Hi.Events self-hosted</a> (£420/year), <a href=\"/compared-to/pretix/\">Pretix Enterprise</a> (£420/year), <a href=\"/compared-to/resova/\">Resova</a> (£685/year), and <a href=\"/compared-to/tessera-tickets/\">Tessera Tickets</a> (£1,200/year). Each charges separately for payment processing."
 	},
 	{
 		"section": "Pricing and fees",
@@ -37,7 +37,7 @@
 	{
 		"section": "Pricing and fees",
 		"question": "When do I receive the money from ticket sales?",
-		"answer": "Money from ticket sales goes directly to your <a href=\"/features/stripe-and-square/\">Stripe or Square account</a>. Chobble never holds the funds and does not take a cut. Payout timing is set by your payment processor. Stripe typically pays out within 2 to 7 days in the UK, and you can adjust the schedule from your Stripe dashboard. Square has its own schedule, set in your Square account."
+		"answer": "Money from ticket sales goes directly to your <a href=\"/features/stripe-and-square/\">Stripe, Square, or SumUp account</a>. Chobble never holds the funds and does not take a cut. Payout timing is set by your payment processor. Stripe typically pays out within 2 to 7 days in the UK, and you can adjust the schedule from your Stripe dashboard. Square has its own schedule, set in your Square account."
 	},
 	{
 		"section": "Data privacy and security",
@@ -72,7 +72,7 @@
 	{
 		"section": "Data privacy and security",
 		"question": "Is Chobble affected by the US CLOUD Act?",
-		"answer": "The <a href=\"https://en.wikipedia.org/wiki/CLOUD_Act\">US CLOUD Act</a> allows US authorities to compel US-based companies to hand over data regardless of where it is stored. Chobble itself is a UK community interest company and is not subject to it. Chobble's hosting provider (Bunny.net) is headquartered in Slovenia and is not a US company. The payment processors Chobble supports (<a href=\"/features/stripe-and-square/\">Stripe and Square</a>) are US-domiciled, so payment data they hold is in scope. If you run free events, no payment processor is involved. Read the full breakdown on the <a href=\"/features/european/\">European</a> page."
+		"answer": "The <a href=\"https://en.wikipedia.org/wiki/CLOUD_Act\">US CLOUD Act</a> allows US authorities to compel US-based companies to hand over data regardless of where it is stored. Chobble itself is a UK community interest company and is not subject to it. Chobble's hosting provider (Bunny.net) is headquartered in Slovenia and is not a US company. The payment processors Chobble supports (<a href=\"/features/stripe-and-square/\">Stripe, Square, and SumUp</a>) are US-domiciled, so payment data they hold is in scope. If you run free events, no payment processor is involved. Read the full breakdown on the <a href=\"/features/european/\">European</a> page."
 	},
 	{
 		"section": "Open source and self-hosting",
@@ -137,7 +137,7 @@
 	{
 		"section": "Features and customisation",
 		"question": "What payment providers does Chobble Tickets support?",
-		"answer": "Chobble Tickets supports <a href=\"/features/stripe-and-square/\">Stripe and Square</a>. You enter your API key in the admin settings and the webhook endpoint configures itself automatically. You can set fixed prices, pay-what-you-want pricing with optional minimum and maximum amounts, or run free events with no payment setup needed. <a href=\"/features/refunds/\">Refunds</a> can be issued individually or in bulk from the admin area."
+		"answer": "Chobble Tickets supports <a href=\"/features/stripe-and-square/\">Stripe, Square, and SumUp</a>. You enter your API key in the admin settings and the webhook endpoint configures itself automatically. You can set fixed prices, pay-what-you-want pricing with optional minimum and maximum amounts, or run free events with no payment setup needed. <a href=\"/features/refunds/\">Refunds</a> can be issued individually or in bulk from the admin area."
 	},
 	{
 		"section": "Features and customisation",
@@ -162,7 +162,7 @@
 	{
 		"section": "Features and customisation",
 		"question": "What features does Chobble Tickets not have?",
-		"answer": "Chobble Tickets does not have an event discovery marketplace, built-in email marketing campaigns, social media advertising tools, reserved seating with venue maps, waitlists, multi-currency support, virtual event hosting, a mobile app for organisers, or phone support. Many of these features exist on other platforms to justify a per-ticket fee. A discovery marketplace and social advertising tools give the platform a reason to take a percentage of your sales. Chobble does not take a cut, so it does not need to build those features. For event discovery and email marketing, dedicated tools like Songkick and Mailchimp are built specifically for those jobs. If you need event discovery to find new audiences, or venue-specific seating maps, a larger platform like Eventbrite may be a better fit - see the <a href=\"/compared-to/eventbrite/\">full comparison</a>. For discounts and add-ons, Chobble has <a href=\"/features/promo-codes-and-add-ons/\">promo codes, discount codes, and opt-in add-ons</a> built in. Chobble is limited to the features that event organisers need the most."
+		"answer": "Chobble Tickets does not have an event discovery marketplace, social media advertising tools, reserved seating with venue maps, waitlists, multi-currency support, virtual event hosting, a mobile app for organisers, or phone support. Many of these features exist on other platforms to justify a per-ticket fee. A discovery marketplace and social advertising tools give the platform a reason to take a percentage of your sales. Chobble does not take a cut, so it does not need to build those features. For emailing people who have booked with you, <a href=\"/features/bulk-email/\">bulk email</a> is built in. For wider marketing lists and event discovery, dedicated tools like Mailchimp and Songkick are built specifically for those jobs. If you need event discovery to find new audiences, or venue-specific seating maps, a larger platform like Eventbrite may be a better fit - see the <a href=\"/compared-to/eventbrite/\">full comparison</a>. For discounts and add-ons, Chobble has <a href=\"/features/promo-codes-and-add-ons/\">promo codes, discount codes, and opt-in add-ons</a> built in. Chobble is limited to the features that event organisers need the most."
 	},
 	{
 		"section": "About Chobble",
@@ -173,5 +173,25 @@
 		"section": "About Chobble",
 		"question": "Where is Chobble Tickets based?",
 		"answer": "Chobble CIC is registered in England with its office at 27 The Crescent, Prestwich, Manchester M25 1FL. The platform itself runs on <a href=\"https://bunny.net\">Bunny.net</a> infrastructure in the EU. Read more about hosting locations on the <a href=\"/features/european/\">European</a> page, and more about the company on the <a href=\"/about/\">about page</a>."
+	},
+	{
+		"section": "Features and customisation",
+		"question": "Can Chobble Tickets handle equipment hire and deliveries?",
+		"answer": "Yes. Listings can span multiple days with a separate price for each day, and customers can choose how long to hire for. Bookings that need a delivery get a drop-off and collection assignment, and drivers see a run sheet of their day's jobs.</p><p>See the <a href=\"/features/logistics/\">logistics</a>, <a href=\"/features/multi-day-hire/\">multi-day hire</a>, and <a href=\"/features/servicing-events/\">servicing events</a> pages, or the <a href=\"/perfect-for/equipment-hire/\">equipment hire</a> page."
+	},
+	{
+		"section": "Features and customisation",
+		"question": "Can customers pay a deposit and settle the balance later?",
+		"answer": "Yes. A booking can be taken as a reservation with a deposit, and the customer receives a link to a balance page where they can pay the rest later. Payments taken outside the checkout, such as cash or bank transfer, can be recorded against the same balance.</p><p>See the <a href=\"/features/deposits-and-balance-payments/\">deposits and balance payments</a> page."
+	},
+	{
+		"section": "Features and customisation",
+		"question": "Can Chobble Tickets sell bundles or packages?",
+		"answer": "Yes. A group of listings can be sold as a package with a single price, booked together in one checkout. Package members can have fixed quantities and their own price overrides.</p><p>See the <a href=\"/features/packages/\">packages</a> page."
+	},
+	{
+		"section": "Features and customisation",
+		"question": "Can bookings be taken from an existing website?",
+		"answer": "Yes, in two ways. An iframe snippet shows listings inline on any page, and a single JavaScript file turns links on an existing website into add-to-cart buttons with a floating cart.</p><p>See the <a href=\"/features/embeddable-widget/\">embeddable widget</a> and <a href=\"/features/order-widget/\">order widget</a> pages."
 	}
 ]

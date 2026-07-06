@@ -22,7 +22,7 @@ blocks:
       ticket plus a percentage. For a 200-capacity gig at £15 a ticket, that
       can mean losing hundreds of pounds to the platform.
 
-      Chobble Tickets charges a flat £50/year or £5/month, and Stripe or Square process
+      Chobble Tickets charges a flat £50/year or £5/month, and Stripe, Square, or SumUp process
       the payments so the money goes directly to your account. You
       can set fixed prices or enable pay-what-you-want for donation-based gigs.
 

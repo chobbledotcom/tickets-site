@@ -226,4 +226,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and no booking limits.
-name: Open Source Alternative to Resova | Chobble Tickets---
+name: Open Source Alternative to Resova | Chobble Tickets
+---

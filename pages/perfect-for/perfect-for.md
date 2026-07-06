@@ -1,7 +1,7 @@
 ---
 title: Perfect For - Chobble Tickets
 meta_title: Perfect For - Chobble Tickets
-meta_description: Chobble Tickets works for charity events, kids parties, stay and play sessions, music concerts, political organising, adult parties, workshops, and more.
+meta_description: Chobble Tickets works for charity events, kids parties, equipment hire, attractions, classes, schools, sports clubs, festivals, theatre, and more.
 permalink: /perfect-for/
 eleventyNavigation:
   key: Perfect For
@@ -10,9 +10,9 @@ blocks:
   - type: hero
     class: gradient
     content: |-
-      # Perfect for all kinds of events
+      # Perfect for events, hire, and bookings
 
-      Whether you're running a school fundraiser or a music festival, Chobble Tickets keeps things simple and affordable.
+      Chobble Tickets handles ticketed events, equipment hire with delivery, and session bookings. Whether you run a school fundraiser, an equipment hire business, or a music festival, the price is the same flat fee.
   - type: features
     intro_content: "## Who uses Chobble Tickets?"
     items:
@@ -40,6 +40,30 @@ blocks:
       - icon: hugeicons:presentation-podium
         description: Low-cost ticketing for classes and workshops where platform fees eat into margins and attendees shouldn't need to hand over personal data.
         name: <a href="/perfect-for/workshops/">Workshops</a>
+      - icon: hugeicons:tent
+        description: Multi-day marquee bookings with deposits, site questions at checkout, and run sheets for set-up and teardown crews.
+        name: <a href="/perfect-for/marquee-hire/">Marquee hire</a>
+      - icon: hugeicons:delivery-truck-02
+        description: Booking, delivery, and collection for marquees, sound systems, and any equipment that goes out and comes back.
+        name: <a href="/perfect-for/equipment-hire/">Equipment hire</a>
+      - icon: hugeicons:ferris-wheel
+        description: Per-date capacity with a calendar picker, QR check-ins at the gate, and a flat fee however many admissions you sell.
+        name: <a href="/perfect-for/attractions-and-days-out/">Attractions & days out</a>
+      - icon: hugeicons:mortarboard-01
+        description: Recurring sessions with per-date capacity, registration deadlines, and bulk email to the whole class list.
+        name: <a href="/perfect-for/classes-and-courses/">Classes & courses</a>
+      - icon: hugeicons:school-01
+        description: No per-ticket fees on low-priced tickets, encrypted attendee data, and a 50% discount for PTAs and community groups.
+        name: <a href="/perfect-for/schools-and-ptas/">Schools & PTAs</a>
+      - icon: hugeicons:football
+        description: Match tickets, training session bookings, membership dues, and a ledger the treasurer can reconcile.
+        name: <a href="/perfect-for/sports-clubs/">Sports clubs</a>
+      - icon: hugeicons:tent
+        description: Multi-day passes, camping add-ons via parent/child listings, and promo code allocations with stock limits.
+        name: <a href="/perfect-for/festivals/">Festivals</a>
+      - icon: hugeicons:mask-theater-01
+        description: Multiple performance dates, QR check-ins front of house, and no booking fee added to attendees' totals.
+        name: <a href="/perfect-for/theatre-and-performing-arts/">Theatre & performing arts</a>
   - type: cta
     button:
       text: Sign Up
@@ -50,4 +74,5 @@ blocks:
       ## Get started
 
       Sign up for managed hosting at £50/year or £5/month, or grab the source code from GitHub and self-host for free.
-name: Perfect For - Chobble Tickets---
+name: Perfect For - Chobble Tickets
+---

@@ -68,4 +68,5 @@ blocks:
       ## Get a nice URL today
 
       Choose your host-provided subdomain and start selling tickets under your own brand.
-name: Custom Domain - Chobble Tickets---
+name: Custom Domain - Chobble Tickets
+---

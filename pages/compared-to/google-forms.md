@@ -78,7 +78,7 @@ blocks:
       things Google Forms can't:
 
       - **[Payment processing](/features/stripe-and-square/)** - accept
-        payments via Stripe or Square, including pay-what-you-want pricing
+        payments via Stripe, Square, or SumUp, including pay-what-you-want pricing
       - **[Capacity management](/features/overbooking-prevention/)** -
         automatic capacity limits with 5-minute payment holds to prevent
         overbooking
@@ -146,4 +146,5 @@ blocks:
       ## Purpose-built ticketing
 
       Everything Google Forms does for RSVPs, plus payments, tickets, and check-in.
-name: Ticketing Alternative to Google Forms | Chobble Tickets---
+name: Ticketing Alternative to Google Forms | Chobble Tickets
+---

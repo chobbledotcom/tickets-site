@@ -47,4 +47,5 @@ blocks:
       ## Embed your events
 
       Show your events on your existing website with one line of HTML.
-name: Embeddable Widget - Chobble Tickets---
+name: Embeddable Widget - Chobble Tickets
+---

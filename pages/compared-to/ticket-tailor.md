@@ -51,7 +51,7 @@ blocks:
 
       **Both platforms share some features:**
 
-      - Online ticket sales with payment processing via Stripe or Square
+      - Online ticket sales with payment processing via Stripe, Square, or SumUp
       - Apple Pay and Google Pay at checkout (via Stripe)
       - QR code scanning for check-in at the door
       - Email confirmations to attendees after booking
@@ -92,7 +92,7 @@ blocks:
       - **WordPress plugin** - official plugin for embedding events in
         WordPress sites
       - **PayPal support** - accept PayPal alongside card payments
-        (Chobble Tickets supports Stripe and Square, but not PayPal)
+        (Chobble Tickets supports Stripe, Square, and SumUp, but not PayPal)
       - **Multi-currency support** - sell tickets in different currencies
         on the same account (Chobble Tickets uses one currency per instance,
         set at setup)
@@ -243,4 +243,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Open Source Alternative to Ticket Tailor | Chobble Tickets---
+name: Open Source Alternative to Ticket Tailor | Chobble Tickets
+---

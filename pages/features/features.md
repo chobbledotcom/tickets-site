@@ -2,7 +2,7 @@
 
 title: Features - Chobble Tickets
 meta_title: Features - Chobble Tickets
-meta_description: All features included at every price with no booking fees or commission. Open source event ticketing with encryption, QR codes, webhooks, and API access.
+meta_description: All features included at every price with no booking fees or commission. Open source ticketing, hire, and booking software with encryption, QR codes, webhooks, and API access.
 permalink: /features/
 eleventyNavigation:
   key: Features
@@ -13,7 +13,7 @@ blocks:
   content: |-
     # Features
 
-    Everything you need to run events, built into one open source platform with a flat fee, no booking fees, and no feature gating.
+    Everything you need to sell tickets, take bookings, and run a hire business, built into one open source platform with a flat fee, no booking fees, and no feature gating.
 - type: markdown
   content: |
     ![The Chobble Tickets admin dashboard](/images/screenshots/dashboard.png)
@@ -21,8 +21,8 @@ blocks:
   intro_content: "## Selling tickets"
   items:
   - icon: hugeicons:credit-card
-    description: Accept payments via Stripe or Square with fixed pricing or pay-what-you-want, and automatic refunds.
-    name: <a href="/features/stripe-and-square/">Stripe & Square</a>
+    description: Accept payments via Stripe, Square, or SumUp with fixed pricing or pay-what-you-want, and automatic refunds.
+    name: <a href="/features/stripe-and-square/">Stripe, Square & SumUp</a>
   - icon: hugeicons:ticket-01
     description: Collect donations, sell raffle tickets, and take payments for anything that doesn't require physical attendance.
     name: <a href="/features/purchasable-events/">Purchasable events</a>
@@ -47,6 +47,18 @@ blocks:
   - icon: hugeicons:link-04
     description: Require buyers to choose child listings, like required extras or options, when booking a parent event.
     name: <a href="/features/parent-child-listings/">Parent/child listings</a>
+  - icon: hugeicons:package
+    description: Bundle several listings into one package with a single price, booked together in one checkout.
+    name: <a href="/features/packages/">Packages</a>
+  - icon: hugeicons:wallet-02
+    description: Take a deposit at booking and send customers a link to pay the outstanding balance later.
+    name: <a href="/features/deposits-and-balance-payments/">Deposits & balances</a>
+  - icon: hugeicons:calendar-add-01
+    description: Let customers choose how many days to book, with a separate price for each day of the hire.
+    name: <a href="/features/multi-day-hire/">Multi-day hire</a>
+  - icon: hugeicons:location-01
+    description: Customers type their postcode and pick their address from a list, with results cached encrypted.
+    name: <a href="/features/postcode-lookup/">Postcode lookup</a>
 - type: features
   dark: true
   intro_content: "## Managing events"
@@ -61,8 +73,11 @@ blocks:
     description: Organise events into groups for multi-event bookings and single checkout.
     name: <a href="/features/groups/">Groups</a>
   - icon: hugeicons:user-multiple
-    description: Invite team members as owners, managers, or logistics agents, each with their own login and session.
+    description: Invite team members as owners, managers, editors, or logistics agents, each with their own login and session.
     name: <a href="/features/users/">Multi-user</a>
+  - icon: hugeicons:user-edit-01
+    description: A content-only login that can write your listings and site copy but cannot decrypt attendee data.
+    name: <a href="/features/editors/">Editors</a>
   - icon: hugeicons:user-add-01
     description: Add walk-ins and comp tickets directly from the admin panel, and edit attendee details or reassign events as needed.
     name: <a href="/features/manual-attendees/">Manual attendees</a>
@@ -90,6 +105,9 @@ blocks:
   - icon: hugeicons:book-open-01
     description: Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
     name: <a href="/features/admin-guide/">Built-in admin guide</a>
+  - icon: hugeicons:mail-send-01
+    description: Send targeted email campaigns to attendee segments, with previews, drafts, and a public unsubscribe link.
+    name: <a href="/features/bulk-email/">Bulk email</a>
 - type: features
   intro_content: "## Customising your site"
   items:
@@ -111,6 +129,15 @@ blocks:
   - icon: hugeicons:link-03
     description: Send attendees to a custom URL after booking, perfect for thank-you pages or post-purchase instructions.
     name: <a href="/features/custom-redirects/">Custom redirects</a>
+  - icon: hugeicons:image-02
+    description: Upload images to listings and groups, with thumbnails, alt text, and automatic WebP conversion on upload.
+    name: <a href="/features/images/">Images</a>
+  - icon: hugeicons:layout-01
+    description: Every site includes a public website with a homepage, contact page, content pages, and custom CSS.
+    name: <a href="/features/your-public-website/">Your public website</a>
+  - icon: hugeicons:shopping-cart-01
+    description: One JavaScript file turns links on your existing website into add-to-cart buttons with a floating cart.
+    name: <a href="/features/order-widget/">Order widget</a>
 - type: features
   dark: true
   intro_content: "## Platform & integrations"
@@ -145,6 +172,12 @@ blocks:
   - icon: hugeicons:rss
     description: ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.
     name: <a href="/features/rss-and-calendar-feeds/">RSS & calendar feeds</a>
+  - icon: hugeicons:message-01
+    description: Send and receive SMS messages from your own Android phone and number, with replies recorded per contact.
+    name: <a href="/features/sms-messages/">SMS messages</a>
+  - icon: hugeicons:database-restore
+    description: Full database backups to a single zip file, with point-in-time restore. Updates refuse to run without a recent backup.
+    name: <a href="/features/backups/">Backups & restore</a>
 - type: cta
   button:
     text: Sign Up
@@ -155,4 +188,5 @@ blocks:
     ## See it in action
 
     Sign up for managed hosting at £50/year or £5/month, or browse the source code and documentation on GitHub.
-name: Features - Chobble Tickets---
+name: Features - Chobble Tickets
+---

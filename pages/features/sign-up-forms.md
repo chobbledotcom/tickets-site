@@ -26,7 +26,7 @@ blocks:
       responses in your admin panel.
 
       No payment setup is required for free events. You do not need to
-      connect Stripe or Square.
+      connect Stripe, Square, or SumUp.
 
       ## What you can collect
 
@@ -89,4 +89,5 @@ blocks:
       ## Create a sign-up form
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Volunteer Sign-up Forms & Potluck Sheets | Chobble Tickets---
+name: Volunteer Sign-up Forms & Potluck Sheets | Chobble Tickets
+---

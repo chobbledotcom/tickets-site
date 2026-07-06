@@ -86,4 +86,5 @@ blocks:
       ## Collect the answers you need
 
       Add custom questions to your events and see answers across your admin interface.
-name: Custom Questions - Chobble Tickets---
+name: Custom Questions - Chobble Tickets
+---

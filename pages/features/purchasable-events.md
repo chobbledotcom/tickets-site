@@ -45,7 +45,7 @@ blocks:
       **Buy now** button instead of the usual **Book now**, signalling that
       no attendance is involved.
 
-      Everything else works exactly as normal: Stripe or Square processes
+      Everything else works exactly as normal: Stripe, Square, or SumUp processes
       the payment, the buyer gets an email confirmation, and all purchases
       appear in your admin panel with full CSV export. You can still set
       capacity limits (for example, limiting a raffle to 200 tickets), use
@@ -80,4 +80,5 @@ blocks:
       ## Start collecting payments
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Collect Donations & Payments Without Ticketing - Chobble Tickets---
+name: Collect Donations & Payments Without Ticketing - Chobble Tickets
+---

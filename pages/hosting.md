@@ -159,4 +159,5 @@ blocks:
       ## View the source code
 
       Chobble Tickets is open source under AGPLv3. Browse the code, fork it, and deploy your own instance.
-name: Host Chobble Tickets for Others---
+name: Host Chobble Tickets for Others
+---

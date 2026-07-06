@@ -260,4 +260,5 @@ blocks:
       ## Try Chobble Tickets
 
       Simple, flat-rate ticketing with no percentage fees and no lock-in.
-name: Open Source Alternative to Pretix | Chobble Tickets---
+name: Open Source Alternative to Pretix | Chobble Tickets
+---

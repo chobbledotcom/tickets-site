@@ -50,4 +50,5 @@ blocks:
       ## Branded emails
 
       Customise your confirmation emails to match your brand.
-name: Email Templates - Chobble Tickets---
+name: Email Templates - Chobble Tickets
+---

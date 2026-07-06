@@ -25,7 +25,7 @@ blocks:
       and negotiates with promoters individually.
 
       Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
-      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
+      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe, Square, or SumUp
       processing fees on top. Once you're selling more than a handful of
       events a year, Chobble Tickets usually works out cheaper.
   - type: include
@@ -48,7 +48,7 @@ blocks:
       and typically take a few more business days to reach your bank account.
       That means your ticket money is locked up until after the event.
 
-      Chobble Tickets uses Stripe or Square directly, so payments go straight
+      Chobble Tickets uses Stripe, Square, or SumUp directly, so payments go straight
       to your account with standard processing times. You're always in control
       of your own payment processor account.
 
@@ -225,4 +225,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no per-ticket fees.
-name: Open Source Alternative to Resident Advisor | Chobble Tickets---
+name: Open Source Alternative to Resident Advisor | Chobble Tickets
+---

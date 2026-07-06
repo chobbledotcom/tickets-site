@@ -73,4 +73,5 @@ blocks:
       ## Capacity holds for operations
 
       Hold dates for maintenance without adding customer bookings.
-name: Block Capacity for Maintenance - Chobble Tickets---
+name: Block Capacity for Maintenance - Chobble Tickets
+---

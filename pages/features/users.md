@@ -1,7 +1,7 @@
 ---
 title: Users - Chobble Tickets
 meta_title: Multi-User Management - Chobble Tickets
-meta_description: Invite team members as owners, managers, or logistics agents to manage sessions and track activity in Chobble Tickets.
+meta_description: Invite team members as owners, managers, editors, or logistics agents to manage sessions and track activity in Chobble Tickets.
 permalink: /features/users/
 eleventyNavigation:
   key: Users
@@ -13,12 +13,12 @@ blocks:
     content: |-
       # Multi-user management
 
-      Invite team members as owners, managers, or logistics agents so everyone gets their own login instead of sharing passwords.
+      Invite team members as owners, managers, editors, or logistics agents so everyone gets their own login instead of sharing passwords.
   - type: markdown
     content: |
       ![The users management page showing team members and their roles](/images/screenshots/users.png)
 
-      ## Two roles, plus a logistics role
+      ## Four roles
 
       Running events often involves a team, so Chobble Tickets lets you
       invite team members via email with a 7-day expiring access link where
@@ -29,12 +29,18 @@ blocks:
       for door staff or volunteers who need to check people in without
       accessing sensitive settings.
 
-      When you enable [logistics](/features/logistics/), a third role becomes
-      available. **Agents** see only the deliveries run sheet - their
-      drop-offs and collections for today and tomorrow, with a done toggle for
-      each leg. They cannot see events, attendees, settings, or logs. This is
-      useful for drivers or crew who only need their day's jobs and should
-      not see anything else.
+      **[Editors](/features/editors/)** are content-only accounts. They can
+      write listings, groups, and your public site content, but they hold
+      no decryption key, so attendee data is unreadable to them. This suits
+      an SEO consultant or copywriter who works on your content and has no
+      reason to see your bookings.
+
+      When you enable [logistics](/features/logistics/), a fourth role
+      becomes available. **Agents** see only the deliveries run sheet -
+      their drop-offs and collections for today and tomorrow, with a done
+      toggle for each leg. They cannot see events, attendees, settings, or
+      logs. This is useful for drivers or crew who only need their day's
+      jobs and should not see anything else.
 
       Team members set their own password when they accept an invite. The
       invite is single-use, and the encryption keys are re-wrapped under
@@ -64,4 +70,5 @@ blocks:
       ## Manage events as a team
 
       Invite volunteers and committee members so everyone can manage events without sharing a single login.
-name: Multi-User Management - Chobble Tickets---
+name: Multi-User Management - Chobble Tickets
+---

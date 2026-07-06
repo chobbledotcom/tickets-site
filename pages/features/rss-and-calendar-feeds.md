@@ -58,4 +58,5 @@ blocks:
       ## Keep attendees informed
 
       Let attendees subscribe to your events via calendar or RSS.
-name: RSS & Calendar Feeds - Chobble Tickets---
+name: RSS & Calendar Feeds - Chobble Tickets
+---

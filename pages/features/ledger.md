@@ -91,4 +91,5 @@ blocks:
       ## Ledger-backed totals
 
       Income, refunds, costs, and balances are derived from one ledger.
-name: Double-entry Ledger - Chobble Tickets---
+name: Double-entry Ledger - Chobble Tickets
+---

@@ -75,4 +75,5 @@ blocks:
       ## Try it yourself
 
       See why event organisers are switching to Chobble Tickets.
-name: Reviews - Chobble Tickets---
+name: Reviews - Chobble Tickets
+---

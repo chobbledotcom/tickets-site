@@ -85,7 +85,7 @@ blocks:
       **alf.io / Swicket has features Chobble Tickets doesn't:**
 
       - **Multiple payment gateways** - Stripe, Mollie, Revolut, PayPal, bank
-        transfer, and on-site payments, compared to Chobble's Stripe or Square
+        transfer, and on-site payments, compared to Chobble's Stripe, Square, or SumUp
       - **14 languages** (alf.io) / **50+ languages** (Swicket) - built-in
         internationalisation for multilingual events
       - **Offline check-in stations** - alf.io-PI runs on Raspberry Pi
@@ -220,4 +220,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no enterprise contracts required.
-name: Independent Alternative to Swicket & alf.io | Chobble Tickets---
+name: Independent Alternative to Swicket & alf.io | Chobble Tickets
+---

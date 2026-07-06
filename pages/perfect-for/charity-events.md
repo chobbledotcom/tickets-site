@@ -24,8 +24,8 @@ blocks:
 
       Chobble Tickets charges a flat **£25/year** for charities and community
       groups (50% off the standard £50/year price) with no per-ticket fees or
-      percentage cuts, so all the ticket revenue goes straight to your Stripe
-      or Square account. The discount applies to annual billing. Monthly
+      percentage cuts, so all the ticket revenue goes straight to your Stripe, Square,
+      or SumUp account. The discount applies to annual billing. Monthly
       billing is also available at £5/month for all organisers, including
       charities.
 
@@ -61,4 +61,5 @@ blocks:
       ## Get the charity discount
 
       Sign up for managed hosting at £25/year for charities and community groups, or £5/month at the standard rate.
-name: Ticketing for Charity Events - Chobble Tickets---
+name: Ticketing for Charity Events - Chobble Tickets
+---

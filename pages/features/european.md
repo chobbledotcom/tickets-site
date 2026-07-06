@@ -215,4 +215,5 @@ blocks:
       ## Run events on European infrastructure
 
       Sign up for managed hosting at £50/year or £5/month, or self-host in the region of your choice.
-name: European Hosting and Data - Chobble Tickets---
+name: European Hosting and Data - Chobble Tickets
+---

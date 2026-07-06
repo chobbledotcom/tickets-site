@@ -50,4 +50,5 @@ blocks:
       ## Explore the platform
 
       Sign up for managed hosting at £50/year or £5/month, or browse the full technical documentation.
-name: Platform & Integrations - Chobble Tickets---
+name: Platform & Integrations - Chobble Tickets
+---

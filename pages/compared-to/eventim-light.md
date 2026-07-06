@@ -43,7 +43,7 @@ blocks:
       ticket, it's **£2.40**. Those numbers climb fast at volume.
 
       Chobble Tickets is a flat **£50/year or £5/month** (£25/year for charities and community
-      groups on the annual plan) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
+      groups on the annual plan) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe, Square, or SumUp
       processing fees (1.5% + 20p) on top. If you sell more than about 65
       tickets at £15 in a year, Chobble Tickets is already cheaper.
 
@@ -73,10 +73,10 @@ blocks:
       settlement only happens after all buyer refund claims are resolved -
       which could take considerably longer.
 
-      Chobble Tickets uses Stripe or Square directly, so payments flow straight
+      Chobble Tickets uses Stripe, Square, or SumUp directly, so payments flow straight
       to your own payment processor account with standard processing times
       (typically 2–3 business days from each sale). You control your own
-      payout schedule through Stripe or Square, not through the ticketing
+      payout schedule through Stripe, Square, or SumUp, not through the ticketing
       platform.
   - type: markdown
     content: |
@@ -311,4 +311,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no per-ticket fees.
-name: Open Source Alternative to EVENTIM.Light | Chobble Tickets---
+name: Open Source Alternative to EVENTIM.Light | Chobble Tickets
+---

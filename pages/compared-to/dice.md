@@ -24,7 +24,7 @@ blocks:
       agreement.
 
       Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
-      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
+      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe, Square, or SumUp
       processing fees on top. If you sell more than a few dozen tickets in a
       year at typical prices, Chobble Tickets is already cheaper, and the
       savings grow the more you sell.
@@ -48,7 +48,7 @@ blocks:
       DICE pays out after your event ends. You're essentially lending DICE
       your ticket revenue until the event is over.
 
-      Chobble Tickets uses Stripe or Square directly, so payments go straight
+      Chobble Tickets uses Stripe, Square, or SumUp directly, so payments go straight
       to your account with standard processing times. You're always in control
       of your own payment processor account.
 
@@ -217,4 +217,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, no app required, and no per-ticket fees.
-name: Open Source Alternative to DICE | Chobble Tickets---
+name: Open Source Alternative to DICE | Chobble Tickets
+---

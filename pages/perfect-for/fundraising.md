@@ -91,4 +91,5 @@ blocks:
       ## Get the charity discount
 
       Sign up for managed hosting at £25/year for charities and community groups.
-name: Online Fundraising & Donation Collection - Chobble Tickets---
+name: Online Fundraising & Donation Collection - Chobble Tickets
+---

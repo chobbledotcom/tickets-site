@@ -43,6 +43,9 @@ blocks:
       Users assigned to an agent see a deliveries run sheet showing today's
       and tomorrow's drop-offs and collections. Each entry shows the booking
       details, the address, phone number, a map link, and the ticket token.
+      With [postcode lookup](/features/postcode-lookup/) enabled, customers
+      pick their address from a list at checkout, so the address on the run
+      sheet is accurate.
 
       Each leg has a "Mark done" toggle, so the agent can confirm a delivery
       or collection as it happens, from any device with a browser.
@@ -70,4 +73,5 @@ blocks:
 
       Deliveries, collections, and assigned agents are shown in one place.
 
-name: Delivery, Collection & Logistics - Chobble Tickets---
+name: Delivery, Collection & Logistics - Chobble Tickets
+---

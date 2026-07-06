@@ -70,4 +70,5 @@ blocks:
       ## Attendee data is not collected or shared
 
       Sign up for managed hosting at £50/year or £5/month, or self-host and keep everything on your own infrastructure.
-name: No Spying - Chobble Tickets---
+name: No Spying - Chobble Tickets
+---

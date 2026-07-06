@@ -1,24 +1,24 @@
 ---
-title: Stripe & Square - Chobble Tickets
-meta_title: Stripe & Square Payments - Chobble Tickets
-meta_description: Accept payments via Stripe or Square with fixed pricing or pay-what-you-want, and automatic refunds.
+title: Stripe, Square & SumUp - Chobble Tickets
+meta_title: Stripe, Square & SumUp Payments - Chobble Tickets
+meta_description: Accept payments via Stripe, Square, or SumUp with fixed pricing or pay-what-you-want, and automatic refunds.
 permalink: /features/stripe-and-square/
 eleventyNavigation:
-  key: Stripe & Square
+  key: Stripe, Square & SumUp
   parent: Selling Tickets
   order: 0
 blocks:
   - type: hero
     class: gradient
     content: |-
-      # Stripe & Square payments
+      # Stripe, Square & SumUp payments
 
-      Accept card payments through Stripe or Square with fixed pricing or pay-what-you-want, and process refunds directly from the admin panel.
+      Accept card payments through Stripe, Square, or SumUp with fixed pricing or pay-what-you-want, and process refunds directly from the admin panel.
   - type: markdown
     content: |
-      ## Two payment providers, your choice
+      ## Three payment providers, your choice
 
-      Chobble Tickets supports both Stripe and Square as payment providers.
+      Chobble Tickets supports Stripe, Square, and SumUp as payment providers.
       Connect your existing account by adding your API keys in the settings,
       and the platform handles checkout, payment confirmation, and refund
       processing automatically.
@@ -36,14 +36,15 @@ blocks:
       ## Automatic refunds
 
       When you process a refund from the admin panel, the payment provider
-      refund happens automatically. There is no need to log into Stripe or
-      Square separately. The refund is handled in one place.
+      refund happens automatically. There is no need to log into your
+      payment provider separately. The refund is handled in one place.
   - type: markdown
     content: |
       ## References
 
       - [Stripe UK pricing](https://stripe.com/gb/pricing) - 1.5% + 20p per transaction
       - [Square UK pricing](https://squareup.com/gb/en/pricing)
+      - [SumUp UK pricing](https://www.sumup.com/en-gb/pricing/)
   - type: cta
     button:
       text: Get Started
@@ -53,5 +54,6 @@ blocks:
     content: |-
       ## Start accepting payments
 
-      Connect Stripe or Square and start selling tickets in minutes.
-name: Stripe & Square Payments - Chobble Tickets---
+      Connect Stripe, Square, or SumUp and start selling tickets in minutes.
+name: Stripe, Square & SumUp Payments - Chobble Tickets
+---

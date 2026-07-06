@@ -397,4 +397,5 @@ blocks:
       ## Try Chobble Tickets
 
       Open source event ticketing with flat pricing and no per-user fees.
-name: Open Source Ticketing vs Cal.com Scheduling | Chobble Tickets---
+name: Open Source Ticketing vs Cal.com Scheduling | Chobble Tickets
+---

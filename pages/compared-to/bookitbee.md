@@ -209,4 +209,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing with open source code and no lock-in.
-name: No-Fee Alternative to BookitBee | Chobble Tickets---
+name: No-Fee Alternative to BookitBee | Chobble Tickets
+---
