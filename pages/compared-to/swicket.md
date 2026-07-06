@@ -220,4 +220,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no enterprise contracts required.
-name: Independent Alternative to Swicket & alf.io | Chobble Tickets---
+name: Independent Alternative to Swicket & alf.io | Chobble Tickets
+---

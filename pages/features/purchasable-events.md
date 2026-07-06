@@ -80,4 +80,5 @@ blocks:
       ## Start collecting payments
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Collect Donations & Payments Without Ticketing - Chobble Tickets---
+name: Collect Donations & Payments Without Ticketing - Chobble Tickets
+---

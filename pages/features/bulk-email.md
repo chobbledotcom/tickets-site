@@ -73,4 +73,5 @@ blocks:
       ## Email your attendees
 
       Sign up for managed hosting at £50/year or £5/month and send campaigns through your own email provider.
-name: Bulk Email - Chobble Tickets---
+name: Bulk Email - Chobble Tickets
+---

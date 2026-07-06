@@ -358,4 +358,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted attendee data, and no WordPress site required.
-name: Chobble Tickets vs FooEvents | Hosted Ticketing vs a WooCommerce Plugin---
+name: Chobble Tickets vs FooEvents | Hosted Ticketing vs a WooCommerce Plugin
+---

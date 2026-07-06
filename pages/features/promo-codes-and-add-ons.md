@@ -111,4 +111,5 @@ blocks:
       ## Offer discounts and extras
 
       Promo codes, discount codes, and add-ons are included on every plan.
-name: Promo Codes, Discount Codes & Add-ons - Chobble Tickets---
+name: Promo Codes, Discount Codes & Add-ons - Chobble Tickets
+---

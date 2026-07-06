@@ -274,4 +274,5 @@ blocks:
       ## Try Chobble Tickets
 
       Open source ticketing and hire bookings with flat pricing and no per-booking fees.
-name: Hire Bookings vs Yo!Rent Rental Software | Chobble Tickets---
+name: Hire Bookings vs Yo!Rent Rental Software | Chobble Tickets
+---

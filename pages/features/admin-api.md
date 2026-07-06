@@ -87,4 +87,5 @@ blocks:
       ## Automate your events
 
       Use the admin API to manage events from scripts, dashboards, or any tool that speaks HTTP.
-name: Admin API - Chobble Tickets---
+name: Admin API - Chobble Tickets
+---

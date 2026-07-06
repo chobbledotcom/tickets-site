@@ -46,4 +46,5 @@ blocks:
       ## Easy to learn
 
       Get your team up to speed with the built-in admin guide.
-name: Built-in Admin Guide - Chobble Tickets---
+name: Built-in Admin Guide - Chobble Tickets
+---

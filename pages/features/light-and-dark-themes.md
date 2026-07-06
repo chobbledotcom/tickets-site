@@ -51,4 +51,5 @@ blocks:
       ## Match your brand
 
       Choose a light or dark theme for your public booking pages.
-name: Light & Dark Themes - Chobble Tickets---
+name: Light & Dark Themes - Chobble Tickets
+---

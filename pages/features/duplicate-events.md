@@ -39,4 +39,5 @@ blocks:
       ## Quick event setup
 
       Clone events to save time on setup.
-name: Duplicate Events - Chobble Tickets---
+name: Duplicate Events - Chobble Tickets
+---

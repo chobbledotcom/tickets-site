@@ -311,4 +311,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no per-ticket fees.
-name: Open Source Alternative to EVENTIM.Light | Chobble Tickets---
+name: Open Source Alternative to EVENTIM.Light | Chobble Tickets
+---

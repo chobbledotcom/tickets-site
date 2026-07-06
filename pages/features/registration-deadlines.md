@@ -43,4 +43,5 @@ blocks:
       ## Control your bookings
 
       Set deadlines and limits to manage your events effectively.
-name: Registration Deadlines - Chobble Tickets---
+name: Registration Deadlines - Chobble Tickets
+---

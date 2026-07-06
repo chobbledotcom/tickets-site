@@ -76,4 +76,5 @@ blocks:
       ## Bookings that come as a set
 
       Require child listings at checkout, without a separate add-on flow.
-name: Required Child Listings - Chobble Tickets---
+name: Required Child Listings - Chobble Tickets
+---

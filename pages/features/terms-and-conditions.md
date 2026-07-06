@@ -48,4 +48,5 @@ blocks:
       ## Set your terms
 
       Make sure attendees agree to your terms before booking.
-name: Terms & Conditions - Chobble Tickets---
+name: Terms & Conditions - Chobble Tickets
+---

@@ -59,4 +59,5 @@ blocks:
       ## Better email delivery
 
       Use your own email provider for reliable ticket delivery.
-name: Email Provider Integration - Chobble Tickets---
+name: Email Provider Integration - Chobble Tickets
+---

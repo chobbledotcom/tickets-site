@@ -252,4 +252,5 @@ blocks:
       ## Independent ticketing
 
       Flat pricing with no per-ticket fees.
-name: Independent Alternative to Ticketek | Chobble Tickets---
+name: Independent Alternative to Ticketek | Chobble Tickets
+---

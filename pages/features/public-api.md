@@ -57,4 +57,5 @@ blocks:
       ## Integrate anywhere
 
       Use the API to build exactly what you need.
-name: Public & Admin API - Chobble Tickets---
+name: Public & Admin API - Chobble Tickets
+---

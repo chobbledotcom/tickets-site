@@ -66,4 +66,5 @@ blocks:
       ## Scan tickets at the door
 
       All you need is a phone camera to scan QR codes at the door.
-name: QR Code Check-ins - Chobble Tickets---
+name: QR Code Check-ins - Chobble Tickets
+---

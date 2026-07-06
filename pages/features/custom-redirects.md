@@ -44,4 +44,5 @@ blocks:
       ## Control the journey
 
       Send attendees wherever you want after they book.
-name: Custom Redirects - Chobble Tickets---
+name: Custom Redirects - Chobble Tickets
+---

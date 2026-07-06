@@ -70,4 +70,5 @@ blocks:
       ## Manage events as a team
 
       Invite volunteers and committee members so everyone can manage events without sharing a single login.
-name: Multi-User Management - Chobble Tickets---
+name: Multi-User Management - Chobble Tickets
+---

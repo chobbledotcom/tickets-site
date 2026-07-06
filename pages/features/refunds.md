@@ -45,4 +45,5 @@ blocks:
       ## Hassle-free refunds
 
       Process refunds in seconds from the admin panel.
-name: Refunds - Chobble Tickets---
+name: Refunds - Chobble Tickets
+---

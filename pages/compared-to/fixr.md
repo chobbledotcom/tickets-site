@@ -201,4 +201,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no per-ticket fees.
-name: Open Source Alternative to FIXR | Chobble Tickets---
+name: Open Source Alternative to FIXR | Chobble Tickets
+---

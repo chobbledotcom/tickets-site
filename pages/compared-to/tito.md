@@ -225,4 +225,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host for free.
-name: Open Source Alternative to Tito | Chobble Tickets---
+name: Open Source Alternative to Tito | Chobble Tickets
+---

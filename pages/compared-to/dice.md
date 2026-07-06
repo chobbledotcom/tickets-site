@@ -217,4 +217,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, no app required, and no per-ticket fees.
-name: Open Source Alternative to DICE | Chobble Tickets---
+name: Open Source Alternative to DICE | Chobble Tickets
+---

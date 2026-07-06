@@ -61,4 +61,5 @@ blocks:
       ## Get the charity discount
 
       Sign up for managed hosting at £25/year for charities and community groups, or £5/month at the standard rate.
-name: Ticketing for Charity Events - Chobble Tickets---
+name: Ticketing for Charity Events - Chobble Tickets
+---

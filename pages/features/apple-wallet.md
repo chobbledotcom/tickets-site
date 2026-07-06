@@ -41,4 +41,5 @@ blocks:
       ## Modern ticketing
 
       Give your attendees the convenience of Apple Wallet and Google Wallet passes.
-name: Apple & Google Wallet Integration - Chobble Tickets---
+name: Apple & Google Wallet Integration - Chobble Tickets
+---

@@ -76,4 +76,5 @@ blocks:
       ## Organise your events
 
       Group events together for a better booking experience.
-name: Event Groups & Tiered Ticket Types - Chobble Tickets---
+name: Event Groups & Tiered Ticket Types - Chobble Tickets
+---

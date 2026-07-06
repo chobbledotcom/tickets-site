@@ -125,4 +125,5 @@ blocks:
       ## Get started with private event ticketing
 
       Self-host for free, or get managed hosting from £25/year for community groups.
-name: Ticketing for Adult Parties - Chobble Tickets---
+name: Ticketing for Adult Parties - Chobble Tickets
+---

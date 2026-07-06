@@ -61,4 +61,5 @@ blocks:
       ## A website included
 
       Sign up for managed hosting at £50/year or £5/month and get a public website alongside your ticketing.
-name: Your Public Website - Chobble Tickets---
+name: Your Public Website - Chobble Tickets
+---

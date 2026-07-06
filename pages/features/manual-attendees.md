@@ -80,4 +80,5 @@ blocks:
       ## Attendee records
 
       Handle walk-ins and comp tickets alongside online bookings.
-name: Manual Attendees - Chobble Tickets---
+name: Manual Attendees - Chobble Tickets
+---

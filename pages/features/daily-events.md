@@ -60,4 +60,5 @@ blocks:
       ## Manage recurring events
 
       Set up daily events with per-date capacity and blackout dates.
-name: Daily Events - Chobble Tickets---
+name: Daily Events - Chobble Tickets
+---

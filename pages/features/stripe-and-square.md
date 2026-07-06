@@ -55,4 +55,5 @@ blocks:
       ## Start accepting payments
 
       Connect Stripe, Square, or SumUp and start selling tickets in minutes.
-name: Stripe, Square & SumUp Payments - Chobble Tickets---
+name: Stripe, Square & SumUp Payments - Chobble Tickets
+---

@@ -226,4 +226,5 @@ blocks:
       ## Simple school event ticketing
 
       Flat pricing with no per-ticket fees, so more of your fundraising goes to the cause.
-name: Affordable Alternative to PTA Events for School Ticketing | Chobble Tickets---
+name: Affordable Alternative to PTA Events for School Ticketing | Chobble Tickets
+---

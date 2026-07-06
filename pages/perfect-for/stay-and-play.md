@@ -92,4 +92,5 @@ blocks:
       ## Set up your sessions
 
       Get started with Chobble Tickets. Managed hosting is £50/year or £5/month with unlimited events.
-name: Ticketing for Stay and Play Sessions - Chobble Tickets---
+name: Ticketing for Stay and Play Sessions - Chobble Tickets
+---

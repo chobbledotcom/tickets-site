@@ -57,4 +57,5 @@ blocks:
       ## Automate your workflow
 
       Connect Chobble Tickets to your existing tools with webhooks.
-name: Webhooks - Chobble Tickets---
+name: Webhooks - Chobble Tickets
+---

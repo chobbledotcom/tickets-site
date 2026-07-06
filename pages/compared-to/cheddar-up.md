@@ -247,4 +247,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and encrypted attendee data.
-name: Open Source Alternative to Cheddar Up | Chobble Tickets---
+name: Open Source Alternative to Cheddar Up | Chobble Tickets
+---

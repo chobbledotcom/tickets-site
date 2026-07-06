@@ -64,4 +64,5 @@ blocks:
       ## Sell from your own site
 
       Sign up for managed hosting at £50/year or £5/month and add the order widget to the website you already have.
-name: Order Widget - Chobble Tickets---
+name: Order Widget - Chobble Tickets
+---

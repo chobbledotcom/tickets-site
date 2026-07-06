@@ -291,4 +291,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no per-ticket fees.
-name: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared---
+name: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared
+---

@@ -64,4 +64,5 @@ blocks:
       ## Activity records
 
       Track admin and booking activity with built-in activity logs.
-name: Activity Logs - Chobble Tickets---
+name: Activity Logs - Chobble Tickets
+---

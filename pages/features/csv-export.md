@@ -40,4 +40,5 @@ blocks:
       ## Export your attendee data
 
       Export attendee data whenever you need it.
-name: CSV Export - Chobble Tickets---
+name: CSV Export - Chobble Tickets
+---

@@ -61,4 +61,5 @@ blocks:
       ## Text from your own number
 
       Sign up for managed hosting at £50/year or £5/month and connect a spare Android phone.
-name: SMS Messages - Chobble Tickets---
+name: SMS Messages - Chobble Tickets
+---

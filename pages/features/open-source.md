@@ -87,4 +87,5 @@ blocks:
       ## Get started
 
       Sign up for managed hosting at £50/year or £5/month, or grab the source from GitHub and self-host for free.
-name: Open Source Ticketing - Chobble Tickets---
+name: Open Source Ticketing - Chobble Tickets
+---

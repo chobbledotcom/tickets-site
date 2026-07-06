@@ -43,4 +43,5 @@ blocks:
       ## Beautiful event pages
 
       Write event descriptions in Markdown and let the theme handle the rest.
-name: Markdown Descriptions - Chobble Tickets---
+name: Markdown Descriptions - Chobble Tickets
+---

@@ -184,4 +184,5 @@ blocks:
       ## Zero trackers, encrypted by default
 
       Sign up for managed hosting at £50/year or £5/month, or self-host and keep everything on your own infrastructure.
-name: Who Can See Your Attendee Data | Chobble Tickets---
+name: Who Can See Your Attendee Data | Chobble Tickets
+---

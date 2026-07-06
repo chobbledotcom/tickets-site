@@ -217,4 +217,5 @@ blocks:
       ## Independent ticketing
 
       Flat pricing with no per-ticket fees.
-name: Independent Alternative to Ticketmaster | Chobble Tickets---
+name: Independent Alternative to Ticketmaster | Chobble Tickets
+---
