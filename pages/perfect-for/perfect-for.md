@@ -40,6 +40,9 @@ blocks:
       - icon: hugeicons:presentation-podium
         description: Low-cost ticketing for classes and workshops where platform fees eat into margins and attendees shouldn't need to hand over personal data.
         name: <a href="/perfect-for/workshops/">Workshops</a>
+      - icon: hugeicons:tent
+        description: Multi-day marquee bookings with deposits, site questions at checkout, and run sheets for set-up and teardown crews.
+        name: <a href="/perfect-for/marquee-hire/">Marquee hire</a>
       - icon: hugeicons:delivery-truck-02
         description: Booking, delivery, and collection for marquees, sound systems, and any equipment that goes out and comes back.
         name: <a href="/perfect-for/equipment-hire/">Equipment hire</a>

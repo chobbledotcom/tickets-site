@@ -56,6 +56,9 @@ blocks:
   - icon: hugeicons:calendar-add-01
     description: Let customers choose how many days to book, with a separate price for each day of the hire.
     name: <a href="/features/multi-day-hire/">Multi-day hire</a>
+  - icon: hugeicons:location-01
+    description: Customers type their postcode and pick their address from a list, with results cached encrypted.
+    name: <a href="/features/postcode-lookup/">Postcode lookup</a>
 - type: features
   dark: true
   intro_content: "## Managing events"

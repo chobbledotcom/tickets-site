@@ -45,6 +45,8 @@ blocks:
       The built-in [logistics system](/features/logistics/) gives every
       booking a drop-off agent and a collection agent, with optional times
       for each. An agent can be a driver, a van, or a crew.
+      [Postcode lookup](/features/postcode-lookup/) fills in the delivery
+      address at checkout, so drivers are not sent to a mistyped street.
 
       Drivers get their own agent-class login. They see only their run
       sheet, not your finances or customer records, and they mark each
