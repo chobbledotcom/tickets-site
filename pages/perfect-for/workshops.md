@@ -25,7 +25,7 @@ blocks:
       disappearing into someone else's pocket.
 
       Chobble Tickets charges a flat fee with no per-ticket cuts, so
-      every pound your attendees pay goes straight to your Stripe or Square
+      every pound your attendees pay goes straight to your Stripe, Square, or SumUp
       account. For low-cost events the difference is dramatic: you keep your
       margins, and your attendees pay exactly the ticket price.
 

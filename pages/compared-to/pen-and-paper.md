@@ -54,7 +54,7 @@ blocks:
       management, and check-in features. Here is what you get:
 
       - **[Online payments](/features/stripe-and-square/)** - accept card
-        payments via Stripe or Square
+        payments via Stripe, Square, or SumUp
       - **[Capacity management](/features/overbooking-prevention/)** -
         automatic capacity limits with refunds if two payments race for
         the last ticket

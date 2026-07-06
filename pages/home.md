@@ -145,7 +145,7 @@ blocks:
 
       If you already have a website, you can keep it. An [iframe snippet](/features/embeddable-widget/) shows your listings inline, and the [order widget](/features/order-widget/) turns links on any page into add-to-cart buttons with a floating cart.
 
-      Attendees book without leaving your site, and their data lands encrypted on your Chobble Tickets instance rather than with a third-party ticketing company.
+      With the iframe embed, attendees book inside the page they are already on. With the order widget, they build their order on your site and finish checkout on your booking page. Either way, their data lands encrypted on your Chobble Tickets instance rather than with a third-party ticketing company.
     figure_items:
       - icon: hugeicons:layout-01
         text: A booking website is included

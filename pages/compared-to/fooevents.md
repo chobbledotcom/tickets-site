@@ -87,7 +87,7 @@ blocks:
 
       Chobble Tickets is a flat £50/year or £5/month for hosted use, with
       [no per-ticket fees](/features/no-per-ticket-fees/). You pay
-      Stripe or Square processing fees on top. Charities and community
+      Stripe, Square, or SumUp processing fees on top. Charities and community
       groups pay £25/year. Self-hosting is free.
   - type: markdown
     content: |
@@ -277,7 +277,7 @@ blocks:
         ticketing inside it
       - You want to mix tickets with other WooCommerce products in
         the same cart
-      - You need a payment gateway that Stripe and Square do not
+      - You need a payment gateway that Stripe, Square, and SumUp do not
         cover, and your gateway has a WooCommerce plugin
       - You need seating plans, in-person point of sale, or booking
         time slots

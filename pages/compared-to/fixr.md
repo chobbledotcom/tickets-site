@@ -25,7 +25,7 @@ blocks:
       Enterprise pricing is negotiated separately.
 
       Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
-      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe or Square
+      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe, Square, or SumUp
       processing fees on top. If you sell more than about 77 tickets at
       £10 each in a year, Chobble Tickets is already cheaper.
 
@@ -54,7 +54,7 @@ blocks:
       FIXR handles payment processing as part of their booking fee and
       manages payouts to organisers.
 
-      Chobble Tickets uses Stripe or Square directly, so payments go
+      Chobble Tickets uses Stripe, Square, or SumUp directly, so payments go
       straight to your account with standard processing times. You're
       always in control of your own payment processor account.
   - type: markdown

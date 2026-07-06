@@ -40,7 +40,7 @@ blocks:
 
       Chobble Tickets charges a flat £50/year or £5/month (approximately AU$95) with
       [no per-ticket fees](/features/no-per-ticket-fees/). Payment processing
-      fees from Stripe or Square are the only other cost, and they go
+      fees from Stripe, Square, or SumUp are the only other cost, and they go
       directly to the payment processor.
   - type: include
     file: price-comparator.html

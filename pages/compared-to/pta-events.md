@@ -49,7 +49,7 @@ blocks:
 
       With Chobble Tickets, it's a flat £50/year or £5/month (£25/year for charities and
       community groups on the annual plan), with [no per-ticket fees](/features/no-per-ticket-fees/) or platform commission. You
-      only pay Stripe or Square processing. Whether you sell 50 tickets or
+      only pay Stripe, Square, or SumUp processing. Whether you sell 50 tickets or
       5,000, the cost stays the same.
 
       For a £10 ticket on PTA Events' Starter plan, combined platform and

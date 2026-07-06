@@ -31,7 +31,7 @@ blocks:
       |-----|-------------------|-----|
       | **You** (the organiser) | Names, emails, phone numbers, addresses, custom question answers | You log in and decrypt the data with your password |
       | **Your email provider** (if configured) | Email addresses and names on confirmation emails | Mailgun, Resend, Postmark, or SendGrid delivers the email you choose to send |
-      | **Stripe or Square** | Payment card details, email, name | The payment processor handles the transaction |
+      | **Stripe, Square, or SumUp** | Payment card details, email, name | The payment processor handles the transaction |
       | **Chobble** | Encrypted data on the server, decrypted only when you view it | Chobble hosts the database but does not access, share, or use attendee data |
 
       That is the complete list. There are no advertising networks, no
@@ -52,7 +52,7 @@ blocks:
       |-----|-------------------|-----|
       | **You** (the organiser) | Everything you choose to collect | Your server, your encryption keys |
       | **Your email provider** (if you configure one) | Email addresses and names on confirmation emails | You choose the provider, or choose not to send emails at all |
-      | **Stripe or Square** (if you charge for tickets) | Payment details | You connect your own payment account, or run free events without one |
+      | **Stripe, Square, or SumUp** (if you charge for tickets) | Payment details | You connect your own payment account, or run free events without one |
 
       Chobble has no access at all. The encryption keys never leave your
       infrastructure. You can choose whichever email provider you want, or
@@ -145,14 +145,14 @@ blocks:
       page and can add them to Apple or Google Wallet.
   - type: markdown
     content: |
-      ## What Stripe and Square can see
+      ## What Stripe, Square, and SumUp can see
 
       If you charge for tickets, the payment processor
       ([Stripe](/features/stripe-and-square/) or Square) handles the
       transaction. They see the attendee's payment card details, name, and
       email address as part of processing the payment.
 
-      Stripe and Square are payment processors, not advertising companies.
+      Stripe, Square, and SumUp are payment processors, not advertising companies.
       They do not market other events to your attendees or share payment
       data with advertising networks.
 

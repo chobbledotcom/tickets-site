@@ -49,15 +49,16 @@ blocks:
       address at checkout, so drivers are not sent to a mistyped street.
 
       Drivers get their own agent-class login. They see only their run
-      sheet, not your finances or customer records, and they mark each
-      drop-off and collection done as they go.
+      sheet, with the delivery address and contact details for each job,
+      and they mark each drop-off and collection done as they go. They do
+      not see your finances, settings, or the full attendee records.
 
       When equipment needs maintenance, a
       [servicing event](/features/servicing-events/) takes it out of
       availability without creating a customer booking. If you already have
       a website, the [order widget](/features/order-widget/) turns links on
-      it into add-to-cart buttons, so customers book without leaving your
-      site.
+      it into add-to-cart buttons. Customers build their order on your
+      site, then finish checkout on your booking page.
     figure_items:
       - icon: hugeicons:delivery-truck-02
         text: Drivers see only their own run sheet.

@@ -40,7 +40,7 @@ blocks:
       hosting).
 
       **Chobble Tickets** charges a flat £50/year or £5/month (£25/year for charities and
-      community groups on the annual plan) with [no per-ticket fees](/features/no-per-ticket-fees/). You pay Stripe or Square
+      community groups on the annual plan) with [no per-ticket fees](/features/no-per-ticket-fees/). You pay Stripe, Square, or SumUp
       processing fees on top.
 
       For small numbers of tickets, Hi.Events Cloud is cheaper since there's
@@ -166,7 +166,7 @@ blocks:
       - **[Activity logs](/features/activity-logs/)** - full audit trail of
         all admin actions and booking activity
       - **[Square payment support](/features/stripe-and-square/)** -
-        Chobble supports both Stripe and Square; Hi.Events is Stripe-only
+        Chobble supports Stripe, Square, and SumUp; Hi.Events is Stripe-only
       - **No branding requirements** - Chobble's AGPLv3 licence has no
         "Powered by" requirement; Hi.Events requires visible "Powered by
         Hi.Events" branding unless you buy a $499+ commercial licence

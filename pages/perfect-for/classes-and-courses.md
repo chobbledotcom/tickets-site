@@ -20,8 +20,8 @@ blocks:
 
       [Daily events](/features/daily-events/) run a class on the days you
       choose, with a separate capacity for each session. Students pick
-      their session from a calendar, and holiday dates skip half term and
-      bank holidays automatically.
+      their session from a calendar, and you can block out half term and
+      bank holidays with holiday dates.
 
       [Registration deadlines](/features/registration-deadlines/) close
       bookings before each session starts, so you have time to prepare.

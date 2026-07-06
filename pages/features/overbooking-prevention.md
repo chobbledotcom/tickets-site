@@ -25,7 +25,7 @@ blocks:
       ## What happens if two people pay for the last ticket
 
       Two people can both reach the payment page for the last ticket at
-      the same time. When their payments come back from Stripe or Square,
+      the same time. When their payments come back from Stripe, Square, or SumUp,
       Chobble Tickets checks capacity again. The first payment to arrive
       gets the ticket. The second is refunded automatically and the
       customer sees the message:
@@ -45,8 +45,7 @@ blocks:
 
       These checks are a best effort. They prevent overbooking under
       normal operation, but they are not a guarantee. A software bug, a
-      database outage, or a delayed payment confirmation from Stripe or
-      Square could still let an oversell through. If that happens,
+      database outage, or a delayed payment confirmation from Stripe, Square, or SumUp could still let an oversell through. If that happens,
       Chobble Tickets refunds the affected customer.
   - type: cta
     button:

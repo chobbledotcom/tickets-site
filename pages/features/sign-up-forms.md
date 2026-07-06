@@ -26,7 +26,7 @@ blocks:
       responses in your admin panel.
 
       No payment setup is required for free events. You do not need to
-      connect Stripe or Square.
+      connect Stripe, Square, or SumUp.
 
       ## What you can collect
 

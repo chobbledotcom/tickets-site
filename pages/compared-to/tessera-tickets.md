@@ -85,7 +85,7 @@ blocks:
         admin alongside card refunds, plus issue store credit instead of
         a refund
       - **Authorize.net support** - accept cards through Authorize.net as
-        well as Stripe (Chobble Tickets supports Stripe and Square only)
+        well as Stripe (Chobble Tickets supports Stripe, Square, and SumUp only)
       - **Saved customer accounts** - returning customers can save credit
         cards to their account for faster future purchases (PCI-compliant
         card storage)
@@ -178,8 +178,8 @@ blocks:
       - You sell merchandise alongside tickets and want it in the same
         cart
       - You want on-site point-of-sale hardware for box-office sales
-      - You want to accept cards through Authorize.net rather than Stripe
-        or Square
+      - You want to accept cards through Authorize.net rather than Stripe, Square,
+        or SumUp
       - You already run a WordPress site and want a ticketing platform
         built on top of WordPress
       - You sell at high volumes and want a single subscription rather

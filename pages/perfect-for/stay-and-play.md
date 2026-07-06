@@ -21,8 +21,7 @@ blocks:
       Stay and play sessions typically charge between £1 and £4 a ticket. On
       other platforms, a per-ticket fee of £1 can double the cost for parents.
       Chobble Tickets charges a flat annual fee with no per-ticket cut, so
-      every pound parents pay goes straight to the organiser's Stripe or
-      Square account.
+      every pound parents pay goes straight to the organiser's Stripe, Square, or SumUp account.
 
       For sessions at the lower end of that range the difference is
       significant. A £1 ticket on another platform can cost a parent £2, and
