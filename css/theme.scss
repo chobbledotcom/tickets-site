@@ -1,26 +1,72 @@
 @charset "utf-8";
 @use "sass:color";
 
-/*
-:root {
-  --color-bg: #260132;
-  --body-background: #1b0523;
-  --body-background-alt: #190220;
-  --color-dark-bg-alt: linear-gradient(35deg, rgb(20, 24, 28), #060329);
-  --color-card-bg: #3d1a4d;
-  --color-text: #d6eadf;
-  --color-text-muted: #eac4d5;
-  --color-link: #d56c10;
-  --color-link-hover: #b35300;
-  --color-tint: #4a2260;
-  --color-secondary: #ad44ce;
-  --color-accent: #eac4d5;
-  --color-hover-bg: rgba(86, 29, 104, 0.1);
-  --color-error: #c00;
-  --border: 2px solid #561d68;
-  --list-marker-color: #d56c10;
+// =============================================================================
+// FONTS - Marcellus (classy serif, self-hosted from Bunny Fonts)
+// =============================================================================
+// Used for headings and navigation via --font-family-heading below.
+
+$latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+  U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191,
+  U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+/* latin */
+@font-face {
+  font-family: "Marcellus";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url("/assets/fonts/marcellus-latin-400-normal.woff2") format("woff2"),
+    url("/assets/fonts/marcellus-latin-400-normal.woff") format("woff");
+  unicode-range: #{$latin-unicode-range};
 }
-*/
+
+/* latin-ext */
+@font-face {
+  font-family: "Marcellus";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url("/assets/fonts/marcellus-latin-ext-400-normal.woff2") format("woff2"),
+    url("/assets/fonts/marcellus-latin-ext-400-normal.woff") format("woff");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+// =============================================================================
+// THEME - slight purple tint over the light default, classy serif headings
+// =============================================================================
+// theme.scss loads last in the bundle, so these :root values override the
+// design-system defaults from the template's _base.scss.
+
+:root {
+  // Classy serif for headings and nav
+  --font-family-heading: "Marcellus", georgia, "Times New Roman", serif;
+
+  // Slight purple theme
+  --color-bg: #faf8fc;
+  --body-background: #faf8fc;
+  --body-background-alt: #f2ecf9;
+  --color-card-bg: #fff;
+  --color-text: #241a30;
+  --color-text-muted: #6c6379;
+  --color-link: #7c3aed;
+  --color-link-hover: #6421d4;
+  --color-tint: #e9ddfb;
+  --color-secondary: #a855f7;
+  --color-accent: #ece4f6;
+  --color-hover-bg: rgb(124 58 237 / 7%);
+
+  // Purple glow for buttons
+  --glow-purple: 0 0 12px rgb(124 58 237 / 35%);
+  --glow-purple-strong: 0 0 22px rgb(168 85 247 / 55%);
+
+  // Tighten spacing a bit (8px base unit -> 7px, ~12% tighter throughout)
+  --space-unit: 7px;
+}
 
 .price-comparator {
   margin: 2rem 0;
@@ -320,5 +366,24 @@ th {
   }
   footer {
     background: #000;
+  }
+
+  // Classy serif for the navigation, matching the headings
+  nav {
+    font-family: var(--font-family-heading);
+    letter-spacing: 0.02em;
+  }
+
+  // Purple glows on buttons
+  .btn--primary {
+    box-shadow: var(--glow-purple);
+
+    &:hover:not(:disabled) {
+      box-shadow: var(--glow-purple-strong);
+    }
+  }
+
+  .cta .btn--primary {
+    box-shadow: var(--glow-purple-strong);
   }
 }
