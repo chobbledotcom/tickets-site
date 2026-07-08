@@ -110,6 +110,6 @@ blocks:
     content: |-
       ## Start selling tickets to your workshop
 
-      Flat pricing: £50/year or £5/month. No per-ticket fees, no percentage cuts.
+      Sign up for managed hosting at £50/year or £5/month. No per-ticket fees, no percentage cuts.
 name: Ticketing for Workshops - Chobble Tickets
 ---

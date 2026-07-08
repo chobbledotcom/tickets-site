@@ -75,6 +75,6 @@ blocks:
     content: |-
       ## Take deposits without extra fees
 
-      Reservations and balance payments are included on every plan. Managed hosting costs £50/year or £5/month.
+      Sign up for managed hosting at £50/year or £5/month. Reservations and balance payments are included on every plan.
 name: Deposits, Reservations & Balance Payments - Chobble Tickets
 ---

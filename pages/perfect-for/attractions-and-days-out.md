@@ -87,6 +87,6 @@ blocks:
     content: |-
       ## Sell admission tickets online
 
-      Managed hosting is £50/year or £5/month with no per-ticket fees. Ticket revenue goes directly to your own Stripe, Square, or SumUp account.
+      Sign up for managed hosting at £50/year or £5/month with no per-ticket fees. Ticket revenue goes directly to your own Stripe, Square, or SumUp account.
 name: Attraction Booking System for Farm Parks & Museums - Chobble Tickets
 ---

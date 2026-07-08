@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Marquee hire booking software
 
-      Take marquee bookings online with per-day pricing, delivery and set-up scheduling, and deposits. Managed hosting is £50/year or £5/month, with no commission on bookings.
+      Take marquee bookings online with per-day pricing, delivery and set-up scheduling, and deposits. [Managed hosting](https://tix.chobble.com/ticket/register) is £50/year or £5/month, with no commission on bookings.
   - type: split-icon-links
     content: |
       ## Weekend hires, deposits, and site details
@@ -91,6 +91,6 @@ blocks:
     content: |-
       ## Put your marquees online
 
-      Managed hosting is £50/year or £5/month with no per-booking fees. Payments go directly to your own Stripe, Square, or SumUp account. For other kinds of hire stock, see the [equipment hire](/perfect-for/equipment-hire/) page.
+      Sign up for managed hosting at £50/year or £5/month with no per-booking fees. Payments go directly to your own Stripe, Square, or SumUp account. For other kinds of hire stock, see the [equipment hire](/perfect-for/equipment-hire/) page.
 name: Marquee Hire Booking Software - Chobble Tickets
 ---

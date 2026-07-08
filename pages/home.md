@@ -41,7 +41,7 @@ blocks:
     content: |
       ## Pricing
 
-      Managed hosting costs £50/year, or £5/month if you prefer monthly billing. There are no service charges, no percentage cuts, and no surprise fees.
+      [Managed hosting](https://tix.chobble.com/ticket/register) costs £50/year, or £5/month if you prefer monthly billing. There are no service charges, no percentage cuts, and no surprise fees.
 
       Charities, community groups, artists, and musicians receive a 50% discount on the annual plan, bringing the cost to £25/year.
 

@@ -68,6 +68,6 @@ blocks:
     content: |-
       ## Images on every plan
 
-      Image uploads and attachments are included on every plan. Managed hosting costs £50/year or £5/month.
+      Sign up for managed hosting at £50/year or £5/month. Image uploads and attachments are included on every plan.
 name: Image Uploads, Thumbnails & Attachments - Chobble Tickets
 ---

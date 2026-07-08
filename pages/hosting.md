@@ -12,10 +12,19 @@ blocks:
     content: |-
       # Host Chobble Tickets for others
 
-      Chobble Tickets is designed so that anyone with some technical knowledge can run it for the event organisers they know. More hosts means a decentralised alternative to the big ticketing platforms.
+      I offer managed hosting through [tix.chobble.com](https://tix.chobble.com/ticket/register) for £5 per month or £50 per year. You can also run your own Chobble Tickets host for the event organisers you know.
+    buttons:
+      - text: Get Hosting
+        href: https://tix.chobble.com/ticket/register
+        variant: primary
+        size: lg
   - type: markdown
     content: |
       ## Why decentralised hosting matters
+
+      If you want Chobble to host your ticketing site, [sign up at
+      tix.chobble.com](https://tix.chobble.com/ticket/register). Managed
+      hosting costs £5 per month or £50 per year, with no per-ticket fees.
 
       The big ticketing platforms are centralised. One company runs the
       infrastructure, holds the data, and sets the terms. If they change their
@@ -118,7 +127,7 @@ blocks:
 
       Every host runs the same open source code. Chobble does not have a
       special version with extra features. The hosted version at
-      [tix.chobble.com](https://tix.chobble.com) and the code on
+      [tix.chobble.com](https://tix.chobble.com/ticket/register) and the code on
       [GitHub](https://github.com/chobbledotcom/tickets) are identical.
 
       Each host controls:

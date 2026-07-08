@@ -54,6 +54,6 @@ blocks:
     content: |-
       ## Start selling tickets
 
-      Managed hosting from £25/year for musicians, or self-host for free.
+      Sign up for managed hosting from £25/year for musicians, or self-host for free.
 name: Ticketing for Music Concerts - Chobble Tickets
 ---

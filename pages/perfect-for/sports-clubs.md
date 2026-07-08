@@ -84,6 +84,6 @@ blocks:
     content: |-
       ## Set up your club
 
-      Managed hosting costs £25/year for community sports clubs, or £5/month at the standard rate.
+      Sign up for managed hosting at £25/year for community sports clubs, or £5/month at the standard rate.
 name: Sports Club Ticketing & Membership Payments - Chobble Tickets
 ---

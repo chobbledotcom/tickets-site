@@ -74,6 +74,6 @@ blocks:
     content: |-
       ## Built for hire businesses
 
-      Multi-day hire is included on every plan. Managed hosting costs £50/year or £5/month.
+      Sign up for managed hosting at £50/year or £5/month. Multi-day hire is included on every plan.
 name: Multi-day Hire & Rental Bookings - Chobble Tickets
 ---

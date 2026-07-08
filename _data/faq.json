@@ -2,17 +2,17 @@
 	{
 		"section": "Pricing and fees",
 		"question": "Which ticketing platforms don't charge per-ticket fees?",
-		"answer": "Most ticketing platforms charge a percentage or fixed fee on every ticket sold. The more tickets you sell, the more you pay. A small number of platforms charge a flat fee instead, with no per-ticket charges.</p><p>Chobble Tickets is one of these. The fee is £50/year, or £5/month if you prefer to pay monthly. Money from ticket sales goes directly to your <a href=\"/features/stripe-and-square/\">Stripe, Square, or SumUp account</a>. The only per-transaction cost is the payment processor's own fee (for example, Stripe charges 1.5% + 20p in the UK).</p><p>Other ticketing platforms that don't charge per-ticket fees are <a href=\"/compared-to/fooevents/\">FooEvents</a> (£103/year), <a href=\"/compared-to/hi-events/\">Hi.Events self-hosted</a> (£420/year), <a href=\"/compared-to/pretix/\">Pretix Enterprise</a> (£420/year), <a href=\"/compared-to/resova/\">Resova</a> (£685/year), and <a href=\"/compared-to/tessera-tickets/\">Tessera Tickets</a> (£1,200/year). Each charges separately for payment processing."
+		"answer": "Most ticketing platforms charge a percentage or fixed fee on every ticket sold. The more tickets you sell, the more you pay. A small number of platforms charge a flat fee instead, with no per-ticket charges.</p><p>Chobble Tickets is one of these. <a href=\"https://tix.chobble.com/ticket/register\">Managed hosting</a> is £50/year, or £5/month if you prefer to pay monthly. Money from ticket sales goes directly to your <a href=\"/features/stripe-and-square/\">Stripe, Square, or SumUp account</a>. The only per-transaction cost is the payment processor's own fee (for example, Stripe charges 1.5% + 20p in the UK).</p><p>Other ticketing platforms that don't charge per-ticket fees are <a href=\"/compared-to/fooevents/\">FooEvents</a> (£103/year), <a href=\"/compared-to/hi-events/\">Hi.Events self-hosted</a> (£420/year), <a href=\"/compared-to/pretix/\">Pretix Enterprise</a> (£420/year), <a href=\"/compared-to/resova/\">Resova</a> (£685/year), and <a href=\"/compared-to/tessera-tickets/\">Tessera Tickets</a> (£1,200/year). Each charges separately for payment processing."
 	},
 	{
 		"section": "Pricing and fees",
 		"question": "How much does Eventbrite charge per ticket?",
-		"answer": "Eventbrite charges organisers a percentage-based fee on each paid ticket, plus a fixed fee per ticket. In the UK this is typically 6.95% + £0.59 per ticket. For a £15 ticket, that means £1 to £2 goes to Eventbrite on each sale. You can see a detailed breakdown on the <a href=\"/compared-to/eventbrite/\">Eventbrite comparison page</a>. Chobble Tickets charges no per-ticket fees. You pay £50/year (or £5/month) regardless of how many tickets you sell."
+		"answer": "Eventbrite charges organisers a percentage-based fee on each paid ticket, plus a fixed fee per ticket. In the UK this is typically 6.95% + £0.59 per ticket. For a £15 ticket, that means £1 to £2 goes to Eventbrite on each sale. You can see a detailed breakdown on the <a href=\"/compared-to/eventbrite/\">Eventbrite comparison page</a>. Chobble Tickets charges no per-ticket fees. <a href=\"https://tix.chobble.com/ticket/register\">Managed hosting</a> is £50/year (or £5/month) regardless of how many tickets you sell."
 	},
 	{
 		"section": "Pricing and fees",
 		"question": "What is the cheapest ticketing platform for small events?",
-		"answer": "It depends on how many tickets you sell. Per-ticket platforms have no annual cost, so for very small events with few sales they can work out cheapest. Flat-rate platforms have an upfront fee but no per-ticket charge, so they get cheaper per ticket as you sell more. Chobble Tickets costs £50/year, or £5/month if you prefer monthly billing. Charities, community groups, artists, and musicians pay £25/year on the annual plan. You can <a href=\"/compared-to/compare-all/\">compare fees across 17+ platforms</a> using the interactive calculator to see which works out cheapest for your event size."
+		"answer": "It depends on how many tickets you sell. Per-ticket platforms have no annual cost, so for very small events with few sales they can work out cheapest. Flat-rate platforms have an upfront fee but no per-ticket charge, so they get cheaper per ticket as you sell more. <a href=\"https://tix.chobble.com/ticket/register\">Managed hosting</a> costs £50/year, or £5/month if you prefer monthly billing. Charities, community groups, artists, and musicians pay £25/year on the annual plan. You can <a href=\"/compared-to/compare-all/\">compare fees across 17+ platforms</a> using the interactive calculator to see which works out cheapest for your event size."
 	},
 	{
 		"section": "Pricing and fees",
@@ -22,12 +22,12 @@
 	{
 		"section": "Pricing and fees",
 		"question": "Is there a discount for charities or community groups?",
-		"answer": "Charities, community groups, artists, and musicians get a 50% discount on the annual plan, bringing the cost to £25/year. The discount applies to annual billing only. Monthly billing stays at £5/month for all organisers. There are no per-ticket fees on either plan. You can also self-host for free, since the entire codebase is open source under AGPLv3."
+		"answer": "Charities, community groups, artists, and musicians get a 50% discount on the annual plan, bringing the cost to £25/year. The discount applies to annual billing only. Monthly billing stays at £5/month for all organisers. There are no per-ticket fees on either plan. You can <a href=\"https://tix.chobble.com/ticket/register\">sign up for managed hosting</a>, or self-host for free since the entire codebase is open source under AGPLv3."
 	},
 	{
 		"section": "Pricing and fees",
 		"question": "Can I pay monthly instead of annually?",
-		"answer": "Yes. Chobble Tickets is £50/year if you pay annually, or £5/month if you pay monthly. Monthly billing works out at £60 over a year, which is £10 more than the annual rate. This covers the extra Stripe transaction fees on the additional charges and the admin overhead of handling failed payments and retries. Monthly billing can be cancelled at any time and there are no exit fees. The 50% charity, community, artist, and musician discount applies to the annual plan only."
+		"answer": "Yes. <a href=\"https://tix.chobble.com/ticket/register\">Managed hosting</a> is £50/year if you pay annually, or £5/month if you pay monthly. Monthly billing works out at £60 over a year, which is £10 more than the annual rate. This covers the extra Stripe transaction fees on the additional charges and the admin overhead of handling failed payments and retries. Monthly billing can be cancelled at any time and there are no exit fees. The 50% charity, community, artist, and musician discount applies to the annual plan only."
 	},
 	{
 		"section": "Pricing and fees",

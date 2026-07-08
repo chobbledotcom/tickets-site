@@ -90,6 +90,6 @@ blocks:
     content: |-
       ## Take class bookings online
 
-      Managed hosting is £50/year or £5/month with no per-booking fees. Charities and community groups pay £25/year.
+      Sign up for managed hosting at £50/year or £5/month with no per-booking fees. Charities and community groups pay £25/year.
 name: Class and Course Booking Software - Chobble Tickets
 ---

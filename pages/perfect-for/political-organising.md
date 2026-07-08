@@ -57,6 +57,6 @@ blocks:
     content: |-
       ## Get started with encrypted event ticketing
 
-      Self-host for free, or get managed hosting from £25/year for community groups.
+      Sign up for managed hosting from £25/year for community groups, or self-host for free.
 name: Ticketing for Political Organising - Chobble Tickets
 ---

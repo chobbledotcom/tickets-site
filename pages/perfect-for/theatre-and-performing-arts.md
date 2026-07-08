@@ -83,6 +83,6 @@ blocks:
     content: |-
       ## Set up your box office
 
-      Managed hosting costs £25/year for community theatre groups, or £5/month at the standard rate.
+      Sign up for managed hosting at £25/year for community theatre groups, or £5/month at the standard rate.
 name: Theatre Ticketing for Amateur Dramatics - Chobble Tickets
 ---

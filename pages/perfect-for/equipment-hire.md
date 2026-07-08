@@ -88,6 +88,6 @@ blocks:
     content: |-
       ## Put your hire stock online
 
-      Managed hosting is £50/year or £5/month with no per-booking fees. Payments go directly to your own Stripe, Square, or SumUp account.
+      Sign up for managed hosting at £50/year or £5/month with no per-booking fees. Payments go directly to your own Stripe, Square, or SumUp account.
 name: Equipment Hire Booking Software - Chobble Tickets
 ---

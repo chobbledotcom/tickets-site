@@ -82,6 +82,6 @@ blocks:
     content: |-
       ## Get the community discount
 
-      Managed hosting costs £25/year for PTAs and community groups, or £5/month at the standard rate.
+      Sign up for managed hosting at £25/year for PTAs and community groups, or £5/month at the standard rate.
 name: School Event & PTA Fundraiser Ticketing - Chobble Tickets
 ---

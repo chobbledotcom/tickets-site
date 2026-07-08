@@ -24,7 +24,7 @@ blocks:
       than 10,000 sites.
 
       Chobble Tickets is a standalone ticketing platform. You sign up at
-      [tix.chobble.com](https://tix.chobble.com) and run events from the
+      [tix.chobble.com](https://tix.chobble.com/ticket/register) and run events from the
       admin area, or [self-host the code](/features/open-source/) on
       your own server. There is no WordPress site required.
 
@@ -85,7 +85,7 @@ blocks:
       (typically £5 to £25 per month for shared or managed WordPress
       hosting).
 
-      Chobble Tickets is a flat £50/year or £5/month for hosted use, with
+      Hosted Chobble Tickets is a flat £50/year or £5/month, with
       [no per-ticket fees](/features/no-per-ticket-fees/). You pay
       Stripe, Square, or SumUp processing fees on top. Charities and community
       groups pay £25/year. Self-hosting is free.

@@ -22,11 +22,12 @@ blocks:
       fixed fee per ticket. The more tickets you sell, the more you pay. If you
       raise your ticket prices, your fees go up too.
 
-      Chobble Tickets works differently. You pay £50/year for managed hosting,
-      or £5/month if you prefer monthly billing. That covers unlimited events
-      and unlimited tickets. Money from ticket sales goes directly to your
-      Stripe, Square, or SumUp account, minus only the payment processor's standard
-      fee (1.5% + 20p per transaction in the UK).
+      Chobble Tickets works differently. You pay £50/year for
+      [managed hosting](https://tix.chobble.com/ticket/register), or £5/month
+      if you prefer monthly billing. That covers unlimited events and unlimited
+      tickets. Money from ticket sales goes directly to your Stripe, Square, or
+      SumUp account, minus only the payment processor's standard fee (1.5% + 20p
+      per transaction in the UK).
 
       Monthly billing works out at £60 over a year, which is £10 more than the
       annual rate. The difference covers the extra Stripe transaction fees on
