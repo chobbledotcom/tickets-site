@@ -38,11 +38,8 @@ blocks:
         description: Collect multiple-choice or free-text answers and include them in administration views, reports and webhooks.
         name: <a href="/features/custom-questions/">Custom questions</a>
       - icon: hugeicons:copy-01
-        description: Copy one listing or duplicate a whole group with name replacement and shifted dates.
-        name: <a href="/features/duplicate-events/">Duplicate events and groups</a>
-      - icon: hugeicons:layers-01
-        description: Apply shared defaults and activate or deactivate several related listings together.
-        name: <a href="/features/bulk-event-management/">Bulk event management</a>
+        description: Copy one listing, duplicate a whole group with shifted dates, apply shared defaults and change several listing statuses together.
+        name: <a href="/features/bulk-event-management/">Duplicate and bulk-manage events</a>
       - icon: hugeicons:file-import
         description: Export a listing or group as JSON and import its prices, memberships and structure into another site.
         name: <a href="/features/catalogue-import-export/">Catalogue transfer</a>

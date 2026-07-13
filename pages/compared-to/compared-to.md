@@ -22,6 +22,9 @@ blocks:
       - icon: hugeicons:chart-bar-line
         description: See every platform side by side with an interactive fee calculator. Adjust the sliders to compare them all at once.
         name: <a href="/compared-to/compare-all/">Compare all platforms</a>
+      - icon: hugeicons:money-receive-square
+        description: See the annual, monthly, discounted and self-hosted prices, what managed hosting includes, and the main product limits.
+        name: <a href="/pricing/">Pricing and fees</a>
       - icon: hugeicons:ticket-01
         description: A UK-focused ticketing platform with per-ticket fees. Compare pricing and features.
         name: <a href="/compared-to/bookitbee/">vs BookitBee</a>

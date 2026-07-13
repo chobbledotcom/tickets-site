@@ -36,11 +36,8 @@ blocks:
     description: Process individual or bulk refunds directly from the admin panel with automatic payment provider sync.
     name: <a href="/features/refunds/">Refunds</a>
   - icon: hugeicons:file-validation
-    description: Set global terms that attendees must agree to before booking, with configurable contact fields and special instructions.
-    name: <a href="/features/terms-and-conditions/">Terms & conditions</a>
-  - icon: hugeicons:timer-01
-    description: Set cut-off times for bookings and configure purchase limits per event or per attendee.
-    name: <a href="/features/registration-deadlines/">Registration deadlines</a>
+    description: Set <a href="/features/terms-and-conditions/">terms and required contact fields</a>, plus <a href="/features/registration-deadlines/">booking cut-offs and purchase limits</a>.
+    name: Booking rules
   - icon: hugeicons:tag-01
     description: Offer promo codes, discount codes, surcharges, and opt-in add-ons at checkout with stock limits and a live running total.
     name: <a href="/features/promo-codes-and-add-ons/">Promo codes & add-ons</a>
@@ -81,6 +78,9 @@ blocks:
   - icon: hugeicons:user-add-01
     description: Add walk-ins and comp tickets directly from the admin panel, and edit attendee details or reassign events as needed.
     name: <a href="/features/manual-attendees/">Manual attendees</a>
+  - icon: hugeicons:user-switch
+    description: Compare two attendee records and choose which contact details, answers and bookings to retain, with payment conflicts handled explicitly.
+    name: <a href="/features/manual-attendees/#merge-duplicate-attendees">Merge duplicate attendees</a>
   - icon: hugeicons:delivery-truck-02
     description: Manage deliveries, equipment hire, and collections at customer locations with a deliveries run sheet for agents.
     name: <a href="/features/logistics/">Logistics</a>
@@ -172,9 +172,6 @@ blocks:
   - icon: hugeicons:api
     description: Public JSON endpoints for listings and booking, plus authenticated administration of listings, groups and holidays.
     name: <a href="/features/public-api/">Public & Admin API</a>
-  - icon: hugeicons:dashboard-square-edit
-    description: Full CRUD for events via API keys (create, update, list, delete, and toggle events) programmatically with JSON.
-    name: <a href="/features/admin-api/">Admin API</a>
   - icon: hugeicons:notification-03
     description: Get POST notifications on every booking to integrate with your tools.
     name: <a href="/features/webhooks/">Webhooks</a>

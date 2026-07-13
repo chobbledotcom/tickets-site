@@ -40,9 +40,6 @@ blocks:
       - icon: hugeicons:api
         description: Use public JSON endpoints for listings and bookings, or authenticated administration for listings, groups and holidays.
         name: <a href="/features/public-api/">Public and admin APIs</a>
-      - icon: hugeicons:dashboard-square-edit
-        description: Create, update, list and change the status of listings through HMAC-authenticated requests.
-        name: <a href="/features/admin-api/">Admin API</a>
       - icon: hugeicons:notification-03
         description: Get POST notifications on every booking to integrate with your tools.
         name: <a href="/features/webhooks/">Webhooks</a>

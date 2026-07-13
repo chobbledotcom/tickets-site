@@ -47,11 +47,8 @@ blocks:
         description: Issue full or partial refunds and keep the payment provider and accounting ledger in sync.
         name: <a href="/features/refunds/">Refunds</a>
       - icon: hugeicons:file-validation
-        description: Set terms, required contact fields and instructions that apply before a booking is submitted.
-        name: <a href="/features/terms-and-conditions/">Terms and contact fields</a>
-      - icon: hugeicons:timer-01
-        description: Set booking cut-offs and limits for an order, listing or attendee.
-        name: <a href="/features/registration-deadlines/">Booking deadlines and limits</a>
+        description: Set <a href="/features/terms-and-conditions/">terms and required contact fields</a>, plus <a href="/features/registration-deadlines/">booking cut-offs and purchase limits</a>.
+        name: Booking rules
       - icon: hugeicons:location-01
         description: Let customers search for an address by postcode, with cached results stored in encrypted form.
         name: <a href="/features/postcode-lookup/">Postcode lookup</a>

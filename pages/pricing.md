@@ -52,6 +52,12 @@ blocks:
       - icon: hugeicons:source-code
         name: Self-hosting, free
         description: The software is free under the AGPL-3.0 licence. You arrange the infrastructure, deployment, updates and support.
+      - icon: hugeicons:server-stack-01
+        name: <a href="/hosting/#run-hosting-for-several-organisers">Host it for others</a>
+        description: Technical providers can use the built-in site builder and update channels to run separate sites for organisers they support.
+      - icon: hugeicons:customer-service-02
+        name: <a href="https://chobble.com/contact">Hire Chobble as a consultant</a>
+        description: Chobble provides paid technical work for setup, integrations, deployment and changes to the open source software.
   - type: split-image
     dark: true
     subtitle: Included with managed hosting
@@ -112,6 +118,12 @@ blocks:
       - icon: hugeicons:customer-service
         name: Written support
         description: Managed hosting includes written support. Chobble Tickets does not offer a telephone support centre.
+      - icon: hugeicons:credit-card
+        name: One card provider
+        description: Each site uses one active card provider at a time. Organisers can choose Stripe, Square or SumUp.
+      - icon: hugeicons:user-question-01
+        name: No waiting lists
+        description: Chobble Tickets shows when capacity is full but does not maintain a waiting list for cancelled places.
   - type: cta
     button:
       text: Start for £5

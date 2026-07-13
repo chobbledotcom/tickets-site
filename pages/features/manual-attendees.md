@@ -1,7 +1,7 @@
 ---
 title: Manual Attendees - Chobble Tickets
 meta_title: Manual Attendees - Chobble Tickets
-meta_description: Add walk-ins and comp tickets directly from the admin panel, and edit attendee details or reassign events.
+meta_description: Add walk-ins and comp tickets, edit bookings, merge duplicate attendee records and keep offline payments with the same event record.
 permalink: /features/manual-attendees/
 eleventyNavigation:
   key: Manual Attendees
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Manual attendees
 
-      Add walk-ins and complimentary tickets directly from the admin panel, and edit attendee details or reassign events as needed.
+      Add walk-ins and complimentary tickets, edit booking records, and merge duplicate attendees from the administration area.
   - type: markdown
     content: |
       ## Walk-ins and comp tickets
@@ -47,6 +47,16 @@ blocks:
       expandable summary at the top of the event's attendee list and the
       global attendee list, so outstanding issues are visible without
       opening every record.
+
+      ## Merge duplicate attendees
+
+      Administrators can compare two records and choose which contact details,
+      answers and bookings to keep. Bookings and ledger entries move to the
+      retained record in one operation.
+
+      If both records contain payments that conflict, Chobble Tickets requires
+      an explicit credit or write-off choice before completing the merge. This
+      prevents a duplicate record from silently changing the account balance.
 
       ## Bookings summary
 

@@ -17,11 +17,8 @@ blocks:
     intro_content: "## Who uses Chobble Tickets?"
     items:
       - icon: hugeicons:heart-check
-        description: 50% discount for charities and community groups, so more of your money goes to the cause instead of the ticketing platform.
-        name: <a href="/perfect-for/charity-events/">Charity events</a>
-      - icon: hugeicons:money-send-02
-        description: Collect donations, sell raffle tickets, and take payments for anything that doesn't require physical attendance.
-        name: <a href="/perfect-for/fundraising/">Fundraising & donations</a>
+        description: Charities and community groups receive a 50% annual discount. Chobble Tickets can also <a href="/perfect-for/fundraising/">collect donations and sell raffle tickets</a> without per-ticket fees.
+        name: <a href="/perfect-for/charity-events/">Charity events and fundraising</a>
       - icon: hugeicons:balloons
         description: Simple booking for parents where you can collect the info you need, send confirmations, and check guests in at the door.
         name: <a href="/perfect-for/kids-parties/">Kids parties</a>
