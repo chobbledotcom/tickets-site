@@ -1,7 +1,7 @@
 ---
 title: Promo Codes and Add-ons - Chobble Tickets
 meta_title: Promo Codes, Discount Codes & Add-ons - Chobble Tickets
-meta_description: Offer promo codes, discount codes, surcharges, and opt-in add-ons at checkout. Stock limits, scoping, and a live running total come built in.
+meta_description: Offer promo codes, returning-customer discounts, surcharges and opt-in add-ons. Set stock, order and audience rules with a live checkout total.
 permalink: /features/promo-codes-and-add-ons/
 eleventyNavigation:
   key: Promo Codes & Add-ons
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Promo codes and add-ons
 
-      Offer promo codes, discount codes, surcharges, and opt-in add-ons at checkout. Stock limits, scoping, and a live running total are built in.
+      Offer promo codes, returning-customer discounts, surcharges and opt-in add-ons at checkout. Stock limits, price rules and a live running total are built in.
   - type: markdown
     content: |
       ## Discounts and extras at checkout
@@ -31,6 +31,8 @@ blocks:
         £5" or "add a parking pass"
       - **Automatic discounts** - a discount that applies to every order, with
         an optional minimum spend
+      - **Returning-customer discounts** - require a minimum number of earlier
+        bookings without making attendees create an account
       - **Tiered pricing** - link a discount or surcharge to a
         [custom question answer](/features/custom-questions/), so picking
         "VIP upgrade" changes the price automatically
@@ -48,6 +50,13 @@ blocks:
       Modifiers can be scoped to the whole order, to specific events, or to
       specific groups. A minimum-spend threshold can be set, so a discount
       only applies above a certain total.
+  - type: markdown
+    content: |
+      ## Returning-customer rules
+
+      A modifier can require a set number of previous bookings. Chobble Tickets recognises the email address or phone number through an irreversible index rather than an attendee account or a readable contact index.
+
+      The organiser sets the booking threshold and the price change. The same modifier can also be limited to selected listings or groups.
   - type: markdown
     content: |
       ## Promo codes

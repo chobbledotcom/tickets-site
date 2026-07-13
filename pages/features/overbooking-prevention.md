@@ -41,6 +41,17 @@ blocks:
       each date independently. A class on Monday filling up does not
       affect Tuesday's availability.
 
+      ## Other checks after payment
+
+      The confirmation step also checks prices, listing status, package
+      members, required child choices and add-ons again. It does not rely on
+      the values sent by the browser.
+
+      If a paid order can no longer be honoured, Chobble Tickets keeps a
+      quantity-zero record, issues the refund, records the cash movement and
+      adds a note for the organiser. This leaves an audit trail of the failed
+      booking without counting it against capacity.
+
       ## Limitations
 
       These checks are a best effort. They prevent overbooking under
@@ -54,7 +65,7 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Sell with confidence
+      ## Capacity checks included
 
       Built-in capacity management for fixed-date and daily events.
 name: Overbooking Prevention - Chobble Tickets

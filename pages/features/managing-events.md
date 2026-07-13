@@ -1,7 +1,7 @@
 ---
 title: Managing Events - Chobble Tickets
-meta_title: Managing Events - Chobble Tickets
-meta_description: Daily scheduling, team access, attendee management, check-ins, and reporting tools to run your events smoothly.
+meta_title: Event Management, Check-In and Reporting | Chobble Tickets
+meta_description: Manage event dates, staff, attendees, QR check-in, bulk setup, communications, refunds and CSV reporting from one administration area.
 permalink: /features/managing-events/
 eleventyNavigation:
   key: Managing Events
@@ -11,50 +11,71 @@ blocks:
   - type: hero
     class: gradient
     content: |-
-      # Managing events
+      # Manage events after they go on sale
 
-      Daily scheduling, team access, attendee management, check-ins, and reporting tools to run your events smoothly.
+      Schedule dates, give staff separate access, manage attendee changes, check people in and export operational or financial reports.
   - type: markdown
     content: |
-      ![The event creation form with fields for name, type, description, pricing, and more](/images/screenshots/create-event-form.png)
+      ![The event creation form with fields for name, type, description, pricing and booking rules](/images/screenshots/create-event-form.png)
   - type: features
     items:
       - icon: hugeicons:qr-code
-        description: Every ticket gets a unique QR code that you can scan with any phone camera.
-        name: <a href="/features/qr-code-check-ins/">QR code check-ins</a>
+        description: Scan each ticket with a phone camera or the built-in scanner. Staff can check a person in or out and see duplicate-scan warnings.
+        name: <a href="/features/qr-code-check-ins/">QR check-in and check-out</a>
       - icon: hugeicons:calendar-03
-        description: Per-date capacity with a calendar picker and configurable holiday and blackout dates, which is perfect for classes and recurring bookings.
-        name: <a href="/features/daily-events/">Daily events</a>
+        description: Give each date its own capacity and block bookings on holidays or closed dates.
+        name: <a href="/features/daily-events/">Daily and repeating events</a>
       - icon: hugeicons:folder-02
-        description: Organise events into groups for multi-event bookings and single checkout.
+        description: Put related listings in one public group, share capacity or sell them together as a package.
         name: <a href="/features/groups/">Groups</a>
       - icon: hugeicons:user-multiple
-        description: Invite team members as owners or managers, each with their own login and session.
-        name: <a href="/features/users/">Multi-user</a>
+        description: Invite owners, managers, editors and logistics agents with separate accounts and role-based access.
+        name: <a href="/features/users/">Team accounts</a>
       - icon: hugeicons:user-add-01
-        description: Add walk-ins and comp tickets directly from the admin panel, and edit attendee details or reassign events as needed.
-        name: <a href="/features/manual-attendees/">Manual attendees</a>
+        description: Add walk-ins and complimentary tickets, edit contact details, change quantities and move registrations.
+        name: <a href="/features/manual-attendees/">Attendee administration</a>
+      - icon: hugeicons:help-circle
+        description: Collect multiple-choice or free-text answers and include them in administration views, reports and webhooks.
+        name: <a href="/features/custom-questions/">Custom questions</a>
       - icon: hugeicons:copy-01
-        description: Clone existing events to quickly set up similar bookings without re-entering all the details.
-        name: <a href="/features/duplicate-events/">Duplicate events</a>
+        description: Copy one listing or duplicate a whole group with name replacement and shifted dates.
+        name: <a href="/features/duplicate-events/">Duplicate events and groups</a>
+      - icon: hugeicons:layers-01
+        description: Apply shared defaults and activate or deactivate several related listings together.
+        name: <a href="/features/bulk-event-management/">Bulk event management</a>
+      - icon: hugeicons:file-import
+        description: Export a listing or group as JSON and import its prices, memberships and structure into another site.
+        name: <a href="/features/catalogue-import-export/">Catalogue transfer</a>
+      - icon: hugeicons:delivery-truck-02
+        description: Assign delivery and collection work, give agents a run sheet and record each completed leg.
+        name: <a href="/features/logistics/">Logistics</a>
+      - icon: hugeicons:wrench-01
+        description: Hold capacity for servicing, maintenance or staff use without creating a customer booking.
+        name: <a href="/features/servicing-events/">Servicing holds</a>
       - icon: hugeicons:csv-02
-        description: Export attendee lists as CSV with date and check-in status filtering.
-        name: <a href="/features/csv-export/">CSV export</a>
+        description: Export listing, attendee and calendar data including revenue, payments, check-in state, answers and locations.
+        name: <a href="/features/csv-export/">CSV reports</a>
+      - icon: hugeicons:mail-send-01
+        description: Email one listing or a wider attendee segment with previews, saved drafts and unsubscribe handling.
+        name: <a href="/features/bulk-email/">Attendee email</a>
       - icon: hugeicons:activity-01
-        description: Track all admin actions and booking activity with a built-in audit trail and calendar views.
+        description: Record bookings and administration changes with the responsible account and related listing or attendee.
         name: <a href="/features/activity-logs/">Activity logs</a>
+      - icon: hugeicons:coins-01
+        description: Use one double-entry ledger for card income, offline payments, refunds and outstanding balances.
+        name: <a href="/features/ledger/">Accounting ledger</a>
       - icon: hugeicons:book-open-01
-        description: Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
-        name: <a href="/features/admin-guide/">Built-in admin guide</a>
+        description: Read the administration guide inside each site when setting up a feature or training another team member.
+        name: <a href="/features/admin-guide/">Built-in guide</a>
   - type: cta
     button:
-      text: Sign Up
+      text: Start for £5
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
     content: |-
-      ## Start managing events
+      ## Run events on a hosted site
 
-      Sign up for managed hosting at £50/year or £5/month, or browse the full technical documentation.
-name: Managing Events - Chobble Tickets
+      Managed hosting costs £5 a month or £50 a year and includes every administration feature.
+name: Event Management, Check-In and Reporting | Chobble Tickets
 ---

@@ -70,6 +70,8 @@
           "pretix_hosted": "/compared-to/pretix/",
           "pretix_selfhosted": "/compared-to/pretix/",
           "hi_events_selfhosted": "/compared-to/hi-events/",
+          "tickts_starter": "/compared-to/tickts/",
+          "tickts_pro": "/compared-to/tickts/",
           "chobble": ""
         };
         var link = r.key in linkMap

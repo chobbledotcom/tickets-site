@@ -5,7 +5,7 @@ meta_description: See how Chobble Tickets, an open source, no-fee ticketing opti
 permalink: /compared-to/
 eleventyNavigation:
   key: Compared To
-  order: 2
+  order: 3
 blocks:
   - type: hero
     class: gradient

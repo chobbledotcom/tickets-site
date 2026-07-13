@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0"
+>
+
+{%- assign social_title = meta_title | default: title -%}
+{%- assign social_description = meta_description | default: site.description -%}
+{%- assign canonical_url = page.url | canonicalUrl -%}
+{%- assign social_image = site.url | append: "/images/screenshots/dashboard.png" -%}
+
+<title>{{ social_title | escape }}</title>
+
+{%- if social_description -%}
+  <meta name="description" content="{{ social_description | escape }}">
+{%- endif -%}
+
+<meta name="generator" content="{{ eleventy.generator }}">
+<meta name="theme-color" content="#7c3aed">
+
+{%- if no_index -%}
+  <meta name="robots" content="noindex,nofollow">
+{%- else -%}
+  <link rel="canonical" href="{{ canonical_url }}">
+{%- endif -%}
+
+<meta property="og:site_name" content="Chobble Tickets">
+<meta property="og:locale" content="en_GB">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ social_title | escape }}">
+<meta property="og:description" content="{{ social_description | escape }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:image" content="{{ social_image }}">
+<meta property="og:image:alt" content="Chobble Tickets event administration dashboard">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ social_title | escape }}">
+<meta name="twitter:description" content="{{ social_description | escape }}">
+<meta name="twitter:image" content="{{ social_image }}">

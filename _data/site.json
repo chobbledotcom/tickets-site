@@ -1,6 +1,7 @@
 {
 	"name": "Chobble Tickets",
 	"url": "https://tickets.chobble.com",
+	"description": "Open source event ticketing software with managed hosting, no per-ticket platform fees, payments, QR check-in, refunds and reporting.",
 	"socials": {
 		"Github": "https://github.com/chobbledotcom/tickets",
 		"Facebook": "https://www.facebook.com/ChobbleDotCom",

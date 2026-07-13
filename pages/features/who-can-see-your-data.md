@@ -32,10 +32,12 @@ blocks:
       | **You** (the organiser) | Names, emails, phone numbers, addresses, custom question answers | You log in and decrypt the data with your password |
       | **Your email provider** (if configured) | Email addresses and names on confirmation emails | Mailgun, Resend, Postmark, or SendGrid delivers the email you choose to send |
       | **Stripe, Square, or SumUp** | Payment card details, email, name | The payment processor handles the transaction |
-      | **Chobble** | Encrypted data on the server, decrypted only when you view it | Chobble hosts the database but does not access, share, or use attendee data |
+      | **Chobble managed hosting** | Encrypted records at rest; the application processes decrypted fields when an authorised organiser views them | Chobble runs the hosting but does not use attendee data for advertising or other event marketing |
 
-      That is the complete list. There are no advertising networks, no
-      analytics trackers, no data brokers, and no audience profiling.
+      That is the complete list for the public booking site. It contains no
+      advertising networks, audience profiling or third-party analytics
+      trackers. This marketing website uses privacy-focused GoatCounter
+      analytics, which is separate from organisers' booking sites.
 
       If you run a free event and choose not to collect email addresses,
       nobody other than you can see your attendee records. The payment

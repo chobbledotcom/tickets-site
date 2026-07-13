@@ -68,6 +68,57 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
   --space-unit: 7px;
 }
 
+.design-system .product-hero {
+  min-height: clamp(28rem, 70vh, 44rem);
+  background:
+    radial-gradient(circle at 20% 20%, rgb(168 85 247 / 22%), transparent 34%),
+    radial-gradient(circle at 80% 75%, rgb(124 58 237 / 18%), transparent 32%);
+}
+
+.design-system .product-hero h1 {
+  max-width: 16ch;
+  font-size: clamp(2.75rem, 7vw, 5.75rem);
+  line-height: 0.98;
+}
+
+.design-system .nav-brand {
+  font-weight: 700;
+}
+
+.design-system .nav-signup {
+  align-self: center;
+}
+
+.design-system footer .footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 769px) {
+  .design-system.horizontal-nav nav > ul {
+    align-items: center;
+  }
+
+  .design-system.horizontal-nav nav .nav-brand {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .design-system .product-hero {
+    min-height: 34rem;
+  }
+
+  .design-system .nav-signup {
+    align-self: flex-end;
+  }
+}
+
 .price-comparator {
   margin: 2rem 0;
   padding: 1.5rem;

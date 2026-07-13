@@ -52,17 +52,17 @@
 	{
 		"section": "Data privacy and security",
 		"question": "Does Chobble market to my attendees?",
-		"answer": "No. Chobble does not collect attendee data, build audience profiles, or send marketing emails to your attendees. Attendees do not need a Chobble account, are not prompted to download an app, and are not added to any mailing list. Many ticketing platforms encourage attendees to follow other events on the platform, and attendees receive emails about other organisers' events. Chobble does not do this. Read more on the <a href=\"/features/no-spying/\">no spying</a> page."
+		"answer": "No. Managed hosting stores the encrypted booking records that organisers collect, but Chobble does not use those records to build audience profiles, advertise, or market other events. Attendees do not need a Chobble account, are not prompted to download an app, and are not added to a Chobble mailing list. Read more on the <a href=\"/features/no-spying/\">no attendee marketing</a> page."
 	},
 	{
 		"section": "Data privacy and security",
 		"question": "Who owns the attendee data?",
-		"answer": "You do. You are the data controller. Chobble does not claim any rights to your attendee data. It is not used for analytics, advertising, or product development, and it is not shared with third parties. You can <a href=\"/features/csv-export/\">export your attendee lists as CSV</a> at any time. If you leave Chobble, you take your data with you."
+		"answer": "The organiser is the data controller. Chobble does not claim rights to attendee data or use it for advertising, audience profiles, or product analytics. A payment or email provider processes the details needed when the organiser enables that service. Organisers can <a href=\"/features/csv-export/\">export attendee records as CSV</a> and set <a href=\"/features/privacy-controls/\">retention controls</a>."
 	},
 	{
 		"section": "Data privacy and security",
 		"question": "What happens if I lose my admin password?",
-		"answer": "Your attendee data becomes permanently inaccessible. There is no password reset, no backdoor, and no master key. This is a deliberate design decision. It means that nobody, including Chobble, can access your data without your password. Keep a secure backup of your credentials."
+		"answer": "The encrypted attendee data becomes permanently inaccessible. There is no password reset that can recreate the private key protected by the password. Keep a secure backup of the owner credentials before adding bookings."
 	},
 	{
 		"section": "Data privacy and security",
@@ -147,12 +147,12 @@
 	{
 		"section": "Features and customisation",
 		"question": "Can I collect custom information from attendees at checkout?",
-		"answer": "Yes. <a href=\"/features/custom-questions/\">Custom questions</a> let you add multiple-choice questions to any event, and attendees answer them during booking. This is useful for meal preferences, t-shirt sizes, transport options, or accessibility requirements. Answers appear in the admin event view, the attendees table, CSV exports, and webhook payloads. For multi-event group bookings, the same question is only asked once. Free-text questions are not currently supported."
+		"answer": "Yes. <a href=\"/features/custom-questions/\">Custom questions</a> can be multiple-choice or free text. This supports meal preferences, clothing sizes, transport choices, access requirements, and other information needed for the event. Answers appear in administration views, CSV exports, and webhook payloads. For multi-event group bookings, the same question is only asked once."
 	},
 	{
 		"section": "Features and customisation",
 		"question": "Can I set capacity limits for events?",
-		"answer": "Yes. Each event has a capacity that you set when creating it. The <a href=\"/features/overbooking-prevention/\">overbooking prevention</a> system uses five-minute payment holds to reserve places during checkout. If two people race for the last ticket, the second payment is refunded automatically. When an event is full, the booking form is disabled and a sold-out message is shown. The checks are a best effort and not a guarantee against bugs or infrastructure failures. <a href=\"/features/daily-events/\">Daily events</a> have separate capacity for each date, with optional holiday and blackout dates."
+		"answer": "Yes. Each event has a capacity set by the organiser. Chobble Tickets checks capacity before checkout and again when payment is confirmed. If two payments race for the last ticket, the second is refunded automatically and recorded for the organiser. When an event is full, the booking form shows a sold-out message. The checks are a best effort rather than a guarantee against software or infrastructure failures. <a href=\"/features/daily-events/\">Daily events</a> have separate capacity for each date, with holiday and blackout dates."
 	},
 	{
 		"section": "Features and customisation",

@@ -5,7 +5,7 @@ meta_description: Chobble Tickets works for charity events, kids parties, equipm
 permalink: /perfect-for/
 eleventyNavigation:
   key: Perfect For
-  order: 3
+  order: 4
 blocks:
   - type: hero
     class: gradient

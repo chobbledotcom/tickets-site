@@ -41,23 +41,15 @@ blocks:
         text: "Chobble Tickets: £0 per session"
   - type: split-icon-links
     content: |
-      ## Stop coordinating over email
+      ## Replace email booking lists
 
-      Picture this: you've planned a pottery workshop for next month. You post
-      about it on social media, and the replies start coming in. "Can I bring a
-      friend?" "Is there still space?" "Can you save me two spots?" Now you're
-      juggling a spreadsheet, a group chat, and an inbox full of "just checking
-      I'm still booked in?" messages.
+      A workshop page holds the date, capacity, price and booking questions in
+      one place. Attendees use one link to book and receive a confirmation with
+      their QR code.
 
-      With Chobble Tickets you set up an event page in minutes, set your
-      capacity, and share one link. People book their own spot, get an email
-      confirmation with a QR code ticket, and you get a clean attendee list.
-      No back-and-forth, no chasing payments, no "I thought I'd replied to
-      that message."
-
-      When the day comes, scan QR codes at the door and you know exactly who's
-      arrived and who hasn't. It turns a chaotic process into something you
-      barely have to think about.
+      The organiser receives a current attendee list rather than combining
+      replies from social media, email and group chats. Staff can scan tickets
+      at the door and see who has arrived.
     figure_items:
       - icon: hugeicons:mail-01
         text: "Before: DMs, emails, spreadsheets, \"am I booked?\""

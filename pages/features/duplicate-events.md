@@ -1,7 +1,7 @@
 ---
 title: Duplicate Events - Chobble Tickets
 meta_title: Duplicate Events - Chobble Tickets
-meta_description: Clone existing events to quickly set up similar bookings without re-entering all the details.
+meta_description: Copy one event or duplicate a complete event group with name replacement and shifted dates.
 permalink: /features/duplicate-events/
 eleventyNavigation:
   key: Duplicate Events
@@ -13,22 +13,24 @@ blocks:
     content: |-
       # Duplicate events
 
-      Clone an existing event to quickly set up similar bookings without re-entering all the details.
+      Copy one event, or duplicate a complete group and shift all its dates together.
   - type: markdown
     content: |
       ## Save time on setup
 
-      Running a similar event to one you've already created? Hit
-      "Duplicate" and you get a pre-filled form with the same description,
-      pricing, capacity, and settings. Just give it a new name, adjust any
-      details that have changed, and submit.
+      The Duplicate action opens a pre-filled form with the same description,
+      pricing, capacity and settings. Give the copy a new name, change the
+      fields that differ and submit it.
 
       ## Consistent events
 
-      Duplicating ensures consistency across similar events. If you run a
-      weekly class or a monthly meetup, duplicating means every instance
-      has the same description, terms, and configuration without retyping
-      anything.
+      A whole group can also be duplicated. Chobble Tickets can replace text
+      in the copied names and shift every copied date by the same number of
+      days while preserving links within the copied group.
+
+      [Bulk event management](/features/bulk-event-management/) also provides
+      shared listing defaults and group status changes. For another site, use
+      [catalogue import and export](/features/catalogue-import-export/).
   - type: cta
     button:
       text: Get Started

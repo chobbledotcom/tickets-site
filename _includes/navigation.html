@@ -1,0 +1,28 @@
+<nav aria-label="Main navigation">
+  {%- if config.sticky_mobile_nav -%}
+    <input
+      type="checkbox"
+      id="nav-toggle"
+      class="toggle"
+      autocomplete="off"
+      aria-label="Toggle navigation menu"
+    >
+    <label
+      for="nav-toggle"
+      class="toggle-label"
+      aria-hidden="true"
+    >
+      <span></span>
+    </label>
+  {%- endif -%}
+  <ul class="nav-thumbnails">
+    <li class="nav-brand"><a href="/"{% if page.url == "/" %} class="active"{% endif %}><span>Chobble Tickets</span></a></li>
+    <li><a href="/features/"{% if page.url contains "/features/" %} class="active"{% endif %}><span>Features</span></a></li>
+    <li><a href="/pricing/"{% if page.url == "/pricing/" %} class="active"{% endif %}><span>Pricing</span></a></li>
+    <li><a href="/perfect-for/"{% if page.url contains "/perfect-for/" %} class="active"{% endif %}><span>Uses</span></a></li>
+    <li><a href="/compared-to/"{% if page.url contains "/compared-to/" %} class="active"{% endif %}><span>Compare</span></a></li>
+    <li><a href="/reviews/"{% if page.url == "/reviews/" %} class="active"{% endif %}><span>Reviews</span></a></li>
+    <li><a href="/about/"{% if page.url == "/about/" %} class="active"{% endif %}><span>About</span></a></li>
+    <li class="nav-signup">{%- include "design-system/button.html", text: "Start for £5", href: "https://tix.chobble.com/ticket/register", variant: "primary", btn_size: "sm" -%}</li>
+  </ul>
+</nav>

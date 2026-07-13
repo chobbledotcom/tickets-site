@@ -37,6 +37,15 @@ blocks:
       - icon: hugeicons:link-03
         description: Send attendees to a custom URL after booking, perfect for thank-you pages or post-purchase instructions.
         name: <a href="/features/custom-redirects/">Custom redirects</a>
+      - icon: hugeicons:image-02
+        description: Upload listing and group images with alt text, thumbnails and automatic WebP conversion.
+        name: <a href="/features/images/">Images</a>
+      - icon: hugeicons:layout-01
+        description: Use the included homepage, listing pages, news posts, contact page, content pages and custom CSS.
+        name: <a href="/features/your-public-website/">Public booking website</a>
+      - icon: hugeicons:shopping-cart-01
+        description: Turn links on an existing website into add-to-cart buttons with a floating cart.
+        name: <a href="/features/order-widget/">Order widget</a>
   - type: cta
     button:
       text: Sign Up
@@ -44,7 +53,7 @@ blocks:
       variant: primary
       size: lg
     content: |-
-      ## Make it yours
+      ## Configure the booking site
 
       Sign up for managed hosting at £50/year or £5/month, or browse the full technical documentation.
 name: Customising Your Site - Chobble Tickets

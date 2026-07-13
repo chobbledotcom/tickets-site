@@ -1,5 +1,49 @@
-<link rel="icon" type="image/png" href="/favicon.png" />
+<link rel="icon" type="image/png" href="/favicon.png">
 {% include "faq-schema.html" %}
+{%- if page.url == "/" or page.url == "/pricing/" or page.url == "/features/" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://tickets.chobble.com/#software",
+  "name": "Chobble Tickets",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Event ticketing software",
+  "operatingSystem": "Web",
+  "url": "https://tickets.chobble.com/",
+  "image": "https://tickets.chobble.com/images/screenshots/dashboard.png",
+  "description": "Open source event ticketing software with managed hosting, no per-ticket platform fees, payments, QR check-in, refunds and reporting.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Chobble CIC",
+    "url": "https://chobble.com/"
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Annual managed hosting",
+      "price": "50.00",
+      "priceCurrency": "GBP",
+      "url": "https://tickets.chobble.com/pricing/"
+    },
+    {
+      "@type": "Offer",
+      "name": "Monthly managed hosting",
+      "price": "5.00",
+      "priceCurrency": "GBP",
+      "url": "https://tix.chobble.com/ticket/register?q_17=1"
+    },
+    {
+      "@type": "Offer",
+      "name": "Self-hosted software",
+      "price": "0",
+      "priceCurrency": "GBP",
+      "url": "https://github.com/chobbledotcom/tickets"
+    }
+  ]
+}
+</script>
+{%- endif -%}
 <script
   data-goatcounter="https://tix-analytics.chobble.com/count"
   async
@@ -7,5 +51,5 @@
 ></script>
 <script
   type="module"
-  src="https://tix.chobble.com/order.js?debug=true"
+  src="https://tix.chobble.com/order.js"
 ></script>

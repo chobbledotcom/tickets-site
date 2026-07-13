@@ -5,7 +5,7 @@ meta_description: Chobble Tickets is built and run by Stefan Burke, a software d
 permalink: /about/
 eleventyNavigation:
   key: About
-  order: 6
+  order: 7
 blocks:
   - type: hero
     class: gradient

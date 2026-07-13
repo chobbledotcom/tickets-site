@@ -1,210 +1,196 @@
 ---
-title: Chobble Tickets - Open Source Event Ticketing
-meta_title: Chobble Tickets - Open Source Event Ticketing
-meta_description: Ticketing, equipment hire, and booking software from £50/year or £5/month with no per-ticket fees or commission. Open source, encrypted, and self-hostable.
+title: Chobble Tickets - Event Ticketing Software
+meta_title: Event Ticketing Software UK | Chobble Tickets
+meta_description: Sell event tickets for £50 a year or £5 a month with no per-ticket platform fees. Includes payments, QR check-in, refunds, reporting and a hosted booking site.
 permalink: /
 eleventyNavigation:
   key: Home
   order: 0
 blocks:
   - type: hero
-    class: gradient
-    badge: Open Source & Encrypted
+    class: gradient product-hero
+    badge: Open source event ticketing
     content: |-
-      # Open source event ticketing with no per-ticket fees
+      # Event ticketing software with no per-ticket fees
 
-      Chobble Tickets is an open source platform for event tickets, equipment hire, and session bookings. It charges a flat fee, adds no booking fees or commission, and collects no attendee data.
+      Chobble Tickets handles paid and free events, repeating sessions, packages, donations and equipment hire. Managed hosting costs £50 a year or £5 a month. Ticket income goes to your own Stripe, Square or SumUp account.
     buttons:
-      - text: Sign Up
+      - text: Start for £5
         href: https://tix.chobble.com/ticket/register
         variant: primary
         size: lg
-      - text: GitHub
-        href: https://github.com/chobbledotcom/tickets
+      - text: See pricing
+        href: /pricing/
         variant: secondary
         size: lg
   - type: stats
     dark: true
     items:
       - value: £50
-        label: Per Year (or £5/month)
-      - value: ∞
-        label: Events & Tickets
+        label: Managed hosting per year
       - value: 0%
-        label: Commission
-      - value: 100%
-        label: Open Source
+        label: Platform commission
+      - value: No limit
+        label: Events and tickets
+      - value: All
+        label: Features included
+  - type: split-image
+    subtitle: One system from sale to check-in
+    content: |
+      ## Run the whole booking process
+
+      Create fixed-date, repeating or multi-day listings. Each listing can have its own price, capacity, booking window, questions and terms.
+
+      After sales open, staff can check people in and out, issue full or partial refunds, email attendee groups and export operational or financial data. The activity log records changes made by each administrator.
+    button:
+      text: See all features
+      href: /features/
+      variant: secondary
+    figure_src: /images/screenshots/dashboard.png
+    figure_alt: Chobble Tickets administration dashboard showing event and attendee totals
+    figure_caption: The administration dashboard links sales, attendees, reports and site settings.
+  - type: features
+    dark: true
+    intro_content: |
+      ## More than a basic ticket form
+
+      The same platform covers one-off events, timed entry, regular sessions and bookings that need deposits, delivery or collection.
+    items:
+      - icon: hugeicons:ticket-01
+        description: Sell fixed-price, free or pay-what-you-want tickets. Group ticket types, sell packages, or require buyers to choose linked extras.
+        name: <a href="/features/selling-tickets/">Ticket and booking options</a>
+      - icon: hugeicons:tag-01
+        description: Apply promo codes, automatic price rules, returning-customer discounts, stock-limited offers and optional add-ons.
+        name: <a href="/features/promo-codes-and-add-ons/">Prices, discounts and add-ons</a>
+      - icon: hugeicons:wallet-02
+        description: Take a deposit at booking, record cash or bank transfers, and give the customer a link to pay the remaining balance.
+        name: <a href="/features/deposits-and-balance-payments/">Deposits and balance payments</a>
+      - icon: hugeicons:calendar-03
+        description: Set capacity for each date, block holidays, price each day of a hire, and assign delivery and collection work to staff.
+        name: <a href="/features/daily-events/">Repeating and multi-day bookings</a>
+      - icon: hugeicons:clock-01
+        description: Prices, capacity and booking rules are checked again after payment. A booking that can no longer be honoured is refunded and recorded for the organiser.
+        name: <a href="/features/overbooking-prevention/">Payment and capacity checks</a>
+      - icon: hugeicons:copy-01
+        description: Set defaults for new listings, duplicate whole groups with shifted dates, and move a catalogue between Chobble Tickets sites.
+        name: <a href="/features/bulk-event-management/">Bulk event management</a>
+      - icon: hugeicons:user-multiple
+        description: Give owners, managers, editors and logistics staff separate accounts. Editors can change content without seeing attendee details.
+        name: <a href="/features/users/">Team access</a>
+      - icon: hugeicons:csv-02
+        description: Export listings, attendee records and staff calendars. Reports include revenue, capacity, check-in state, answers and payment references.
+        name: <a href="/features/csv-export/">CSV reports</a>
+      - icon: hugeicons:lock
+        description: Personal data is encrypted in the database. Retention controls remove old orphaned records, and Chobble does not use attendee data for advertising.
+        name: <a href="/features/privacy-controls/">Privacy controls</a>
   - type: split-icon-links
-    subtitle: Flat fee. No per-ticket charges.
+    subtitle: Managed hosting
     reverse: true
     reveal_content: right
     content: |
-      ## Pricing
+      ## Start with a separate hosted site
 
-      [Managed hosting](https://tix.chobble.com/ticket/register) costs £50/year, or £5/month if you prefer monthly billing. There are no service charges, no percentage cuts, and no surprise fees.
+      Payment creates a separate Chobble Tickets site and sends its setup link by email. The site includes every feature, a hosted web address and support for your own domain.
 
-      Charities, community groups, artists, and musicians receive a 50% discount on the annual plan, bringing the cost to £25/year.
-
-      Money from ticket sales goes directly to your Stripe, Square, or SumUp account. Chobble does not handle or touch your revenue.
-
-      The source code is available on GitHub for self-hosting. One-click deployment is available for DigitalOcean, Heroku, Koyeb, and Render.
-
-      [Compare all ticketing platforms](/compared-to/compare-all/) to see how Chobble Tickets' pricing works out against 20+ alternatives.
+      Chobble maintains the software and hosting. There are no feature tiers and the price does not change with ticket volume.
+    button:
+      text: Start hosted site
+      href: https://tix.chobble.com/ticket/register
+      variant: primary
     figure_items:
-      - icon: hugeicons:money-receive-square
-        text: £50/year or £5/month
-        url: /compared-to/compare-all/
-      - icon: hugeicons:ticket-01
-        text: Unlimited events and tickets
-        url: /compared-to/compare-all/
-      - icon: hugeicons:credit-card
-        text: No commission, no per-ticket fees
-        url: /compared-to/compare-all/
-      - icon: hugeicons:discount
-        text: 50% discount for charities and artists on annual
-        url: /compared-to/compare-all/
-  - type: features
-    intro_content: |
-      ## Platform comparisons
-
-      Read how Chobble Tickets compares to other ticketing platforms on pricing, features, and data ownership.
-    items:
-      - icon: hugeicons:chart-bar-line
-        description: See every platform side by side with an interactive fee calculator.
-        name: <a href="/compared-to/compare-all/">Compare all platforms</a>
-      - icon: hugeicons:ticket-01
-        description: The big name in ticketing. Compare fees, features, and data ownership.
-        name: <a href="/compared-to/eventbrite/">vs Eventbrite</a>
-      - icon: hugeicons:ticket-01
-        description: An independently owned platform with flat per-ticket fees. Compare pricing models.
-        name: <a href="/compared-to/ticket-tailor/">vs Ticket Tailor</a>
-      - icon: hugeicons:ticket-01
-        description: Popular with student events and nightlife. Compare fees and features.
-        name: <a href="/compared-to/fatsoma/">vs Fatsoma</a>
-      - icon: hugeicons:ticket-01
-        description: A UK-focused ticketing platform with per-ticket fees. Compare pricing and features.
-        name: <a href="/compared-to/bookitbee/">vs BookitBee</a>
-      - icon: hugeicons:source-code
-        description: Another open source option. Compare features, hosting models, and pricing.
-        name: <a href="/compared-to/hi-events/">vs Hi.Events</a>
-  - type: features
-    intro_content: |
-      ## Features
-
-      Chobble Tickets includes every feature as standard. There are no paid add-ons or tiered plans. [See the full feature list](/features/).
-    items:
-      - icon: hugeicons:lock
-        description: All personal information is encrypted at rest using hybrid RSA-OAEP + AES-256-GCM encryption.
-        name: <a href="/features/encrypted/">Encrypted by default</a>
-      - icon: hugeicons:source-code
-        description: AGPLv3 licensed with every feature included and no open-core bait-and-switch. Browse the code on GitHub.
-        name: <a href="/features/open-source/">Fully open source</a>
-      - icon: hugeicons:credit-card
-        description: Pay a flat fee with no service charges or commission. Money from ticket sales goes directly to your Stripe, Square, or SumUp account.
-        name: <a href="/features/no-per-ticket-fees/">No per-ticket fees</a>
-      - icon: hugeicons:tag-01
-        description: Offer promo codes, discount codes, and opt-in add-ons at checkout, with stock limits and a live running total.
-        name: <a href="/features/promo-codes-and-add-ons/">Promo codes & add-ons</a>
-      - icon: hugeicons:smart-phone-01
-        description: Every ticket gets a unique QR code that you can scan with any phone camera, with no app required.
-        name: <a href="/features/qr-code-check-ins/">QR code check-ins</a>
-      - icon: hugeicons:wallet-01
-        description: Attendees can add tickets to Apple Wallet or Google Wallet for quick access at the door.
-        name: <a href="/features/apple-wallet/">Apple & Google Wallet</a>
-      - icon: hugeicons:calendar-03
-        description: Per-date capacity with a calendar picker, plus holiday and blackout dates, for sessions and recurring bookings.
-        name: <a href="/features/daily-events/">Daily events</a>
-      - icon: hugeicons:package
-        description: Bundle several listings into one package with a single price, booked together in one checkout.
-        name: <a href="/features/packages/">Packages</a>
-      - icon: hugeicons:wallet-02
-        description: Take a deposit at booking and send customers a link to pay the outstanding balance later.
-        name: <a href="/features/deposits-and-balance-payments/">Deposits & balances</a>
-      - icon: hugeicons:mail-send-01
-        description: Send targeted email campaigns to attendee segments, with previews, drafts, and a public unsubscribe link.
-        name: <a href="/features/bulk-email/">Bulk email</a>
-      - icon: hugeicons:mail-01
-        description: Send confirmations through your choice of Resend, Postmark, SendGrid, or Mailgun.
-        name: <a href="/features/email-providers/">Your email provider</a>
-      - icon: hugeicons:coins-01
-        description: Every income figure, refund, and balance comes from a single double-entry ledger, with cash payments recorded too.
-        name: <a href="/features/ledger/">Accounting ledger</a>
-      - icon: hugeicons:api
-        description: A public JSON API, an authenticated admin API, and webhooks that POST on every booking.
-        name: <a href="/features/public-api/">API & webhooks</a>
+      - icon: hugeicons:flash
+        text: Setup link sent after payment
+        url: /hosting/
       - icon: hugeicons:globe-02
-        description: Run Chobble Tickets on your own servers, or use the £50/year (or £5/month) managed hosting at tix.chobble.com.
-        name: <a href="/hosting/">Self-hostable</a>
+        text: Hosted address and custom domains
+        url: /features/custom-domain/
+      - icon: hugeicons:database-restore
+        text: Updates and backup tools included
+        url: /features/backups/
+      - icon: hugeicons:source-code
+        text: Same open source code as self-hosting
+        url: /features/open-source/
   - type: split-icon-links
     subtitle: Bookings on your own website
     reveal_content: left
     content: |
-      ## Sell from your own website
+      ## Use the included site or your existing one
 
-      Every Chobble Tickets account includes a [public booking website](/features/your-public-website/) with a homepage, contact page, and content pages, served on a [custom domain](/features/custom-domain/) if you have one.
+      Each account includes a public website for listings, news and content pages. You can add your own domain and change the colours, images, wording and email templates.
 
-      If you already have a website, you can keep it. An [iframe snippet](/features/embeddable-widget/) shows your listings inline, and the [order widget](/features/order-widget/) turns links on any page into add-to-cart buttons with a floating cart.
-
-      With the iframe embed, attendees book inside the page they are already on. With the order widget, they build their order on your site and finish checkout on your booking page. Either way, their data lands encrypted on your Chobble Tickets instance rather than with a third-party ticketing company.
+      An iframe places the booking pages inside an existing site. The order widget can instead turn links into add-to-cart buttons and send the finished order to checkout.
     figure_items:
       - icon: hugeicons:layout-01
-        text: A booking website is included
+        text: Public booking website included
         url: /features/your-public-website/
       - icon: hugeicons:code
         text: Embed listings with one line of HTML
         url: /features/embeddable-widget/
       - icon: hugeicons:shopping-cart-01
-        text: Add-to-cart buttons on your existing site
+        text: Add a cart to an existing site
         url: /features/order-widget/
       - icon: hugeicons:globe-02
-        text: Your own domain name
+        text: Connect your own domain
         url: /features/custom-domain/
   - type: features
-    dark: true
     intro_content: |
-      ## Hire and booking businesses
+      ## Compare the cost and trade-offs
 
-      Chobble Tickets also handles bookings that are not tickets. Multi-day hire with per-day prices, delivery and collection run sheets, deposits with balance payments, and servicing holds are built in.
+      Chobble Tickets has no discovery marketplace, reserved seating plan or organiser mobile app. The comparison pages explain when another platform may suit an event better.
     items:
-      - icon: hugeicons:delivery-truck-02
-        description: Per-day pricing, customer-chosen hire lengths, and drop-off and collection scheduling for anything that goes out and comes back.
-        name: <a href="/perfect-for/equipment-hire/">Equipment hire</a>
-      - icon: hugeicons:ferris-wheel
-        description: Per-date capacity with a calendar picker, QR check-ins at the gate, and a flat fee however many admissions you sell.
-        name: <a href="/perfect-for/attractions-and-days-out/">Attractions & days out</a>
-      - icon: hugeicons:mortarboard-01
-        description: Recurring sessions, registration deadlines, and bulk email to the whole class list.
-        name: <a href="/perfect-for/classes-and-courses/">Classes & courses</a>
+      - icon: hugeicons:chart-bar-line
+        description: Enter ticket volume and price to compare estimated annual costs across more than 20 platforms.
+        name: <a href="/compared-to/compare-all/">Compare platform fees</a>
+      - icon: hugeicons:ticket-01
+        description: Compare organiser fees, attendee marketing, event discovery and features with Eventbrite.
+        name: <a href="/compared-to/eventbrite/">Chobble Tickets and Eventbrite</a>
+      - icon: hugeicons:source-code
+        description: Compare the features, licence, setup work and hosted costs of two open source ticketing systems.
+        name: <a href="/compared-to/hi-events/">Chobble Tickets and Hi.Events</a>
   - type: markdown
     dark: true
     content: |
-      ## What organisers say
+      ## What one organiser found
 
-      > "The user journey is incredibly slick, reassuring, easy and fast - you
-      > get them from thinking about it to having gone through and done it
-      > within moments."
+      Elliott's Bouncy Castle Hire moved from Eventbrite after using it for 12 years. Its first setup, including Stripe, took 20 minutes. The organiser reported that three more tickets for the same event each took under a minute to create.
 
-      > "Saves us a few bob and made it easier for customers! The QR system
-      > is a game changer! No more holding data on paper, it's now all
-      > simple."
+      > "Eventbrite takes £275 per event, but Chobble is £87.50. Sure, I have to pay £50 a year for Chobble, but that cost is absorbed in less than the first event."
 
-      > "It honestly has all the settings and functionality that comes from a
-      > matured system - but it's just getting started!"
+      [Read the full independent review](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review) or [see more organiser reviews](/reviews/).
+  - type: split-icon-links
+    subtitle: Free and open source
+    content: |
+      ## Self-host the same software
 
-      > "It's super quick and efficient, plus it also means that the code is
-      > unique to the user - so you can't have someone share a screenshot of
-      > the QR code and scam free tickets."
+      The full source code is published under the AGPL-3.0 licence. Technical users can run it on their own infrastructure without paying Chobble.
 
-      [Read more reviews](/reviews/)
+      Managed hosting and self-hosting use the same code. The hosted fee pays for setup, infrastructure, updates and support rather than access to extra product features.
+    button:
+      text: View hosting options
+      href: /hosting/
+      variant: secondary
+    figure_items:
+      - icon: hugeicons:github
+        text: Source code on GitHub
+        url: https://github.com/chobbledotcom/tickets
+      - icon: hugeicons:code
+        text: Technical documentation
+        url: https://chobbledotcom.github.io/tickets/doc.ts/index.html
+      - icon: hugeicons:download-01
+        text: Catalogue import and export
+        url: /features/catalogue-import-export/
+      - icon: hugeicons:api
+        text: Public API, admin API and webhooks
+        url: /features/public-api/
   - type: cta
     button:
-      text: Sign Up
+      text: Start for £5
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
     content: |-
-      ## Get started
+      ## Create a hosted ticketing site
 
-      Sign up for managed hosting at £50/year or £5/month, or download the source code from GitHub and self-host for free.
-name: Chobble Tickets - Open Source Event Ticketing
+      The first month costs £5. The setup link is sent after payment, and every product feature is included.
+name: Event Ticketing Software UK | Chobble Tickets
 ---

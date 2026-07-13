@@ -5,7 +5,7 @@ meta_description: Reviews from event organisers who use Chobble Tickets.
 permalink: /reviews/
 eleventyNavigation:
   key: Reviews
-  order: 50
+  order: 8
 blocks:
   - type: hero
     class: gradient

@@ -5,7 +5,7 @@ meta_description: Answers to common questions about Chobble Tickets, including p
 permalink: /faq/
 eleventyNavigation:
   key: FAQ
-  order: 5
+  order: 6
 blocks:
   - type: hero
     class: gradient

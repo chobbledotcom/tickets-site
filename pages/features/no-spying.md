@@ -1,74 +1,55 @@
 ---
-title: No Spying - Chobble Tickets
-meta_title: No Spying - Chobble Tickets
-meta_description: Chobble does not collect attendee data or use your events to market to your attendees.
+title: No Attendee Marketing - Chobble Tickets
+meta_title: Ticketing Without Attendee Marketing | Chobble Tickets
+meta_description: Chobble Tickets stores encrypted booking records but does not use attendee data for advertising, audience profiles or marketing other organisers' events.
 permalink: /features/no-spying/
 eleventyNavigation:
-  key: No Spying
+  key: No Attendee Marketing
   parent: Platform & Integrations
   order: 2
 blocks:
   - type: hero
     class: gradient
     content: |-
-      # No spying
+      # No attendee marketing
 
-      Chobble does not collect attendee data or use your events to market to your attendees.
+      Chobble Tickets stores the booking records an organiser needs. Chobble does not use those records for advertising, audience profiles or marketing other events.
   - type: markdown
     content: |
-      ## Your attendee data
+      ## Managed hosting and attendee data
 
-      Chobble is a community interest company that provides ticketing software.
-      Chobble does not collect attendee data, build audience profiles, or
-      market to your attendees.
+      Managed hosting stores attendee records in a database run for the organiser. Names, email addresses, phone numbers, addresses and custom answers are encrypted before storage.
 
-      Attendee data is not stored by Chobble as it passes through the platform.
-      Your attendees' personal information is encrypted at rest and only
-      decrypted when you, the event organiser, choose to view it.
+      The application decrypts these fields when an authorised organiser views them. Chobble operates the hosting but does not use attendee records for its own marketing, advertising or product analytics.
 
-      ## No attendee accounts or marketing
+      ## No attendee account
 
-      Many ticketing platforms encourage attendees to create accounts and
-      follow other events on the platform. Your attendees will receive emails
-      from those platforms about other organisers' events.
+      Attendees do not need a Chobble account and are not asked to follow events on a Chobble marketplace. They are not added to a Chobble mailing list.
 
-      Chobble does not do this. Attendees do not need a Chobble account, they
-      are not prompted to download an app, and they are not added to a mailing
-      list.
+      Organisers decide which contact fields to collect. They can run free events without a payment provider and can make email addresses optional.
 
-      ## No rights to your data
+      ## Service providers
 
-      Chobble does not use attendee data for analytics, advertising, or product
-      development. It is not shared with third parties or aggregated.
+      A connected payment provider processes the details needed for paid bookings. A connected email provider receives the names and addresses needed to send messages chosen by the organiser.
 
-      You are the data controller. If you leave Chobble, you take your attendee
-      data with you.
+      Chobble Tickets supports Stripe, Square and SumUp for payments. Organisers can configure Resend, Postmark, SendGrid or Mailgun for email, or run without those services when the event does not need them.
 
-      ## How Chobble makes money
+      ## How Chobble is funded
 
-      Many platforms offer a free tier. Their income comes from advertising and
-      from selling or using attendee data. Chobble's income comes from the flat
-      fee you pay (£50/year or £5/month). There is no advertising revenue and
-      no data economy.
+      Chobble's hosted service is funded by annual or monthly organiser fees. It has no advertising income and does not sell attendee data.
 
-      As a community interest company, Chobble cannot distribute profit to
-      shareholders. The flat fee covers running costs.
+      Chobble is a community interest company. Its asset lock prevents profits and assets from being distributed to shareholders.
 
-      ## See exactly who can access your data
-
-      For a detailed breakdown of every company that can see your attendees'
-      information on Chobble Tickets compared to Eventbrite, Ticketmaster,
-      and See Tickets, read
-      [who can see your attendee data](/features/who-can-see-your-data/).
+      [Who can see attendee data](/features/who-can-see-your-data/) gives a service-by-service breakdown. [Privacy controls](/features/privacy-controls/) explains export, retention and contact-erasure tools.
   - type: cta
     button:
-      text: Sign Up
+      text: Start for £5
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
     content: |-
-      ## Attendee data is not collected or shared
+      ## Use managed hosting
 
-      Sign up for managed hosting at £50/year or £5/month, or self-host and keep everything on your own infrastructure.
-name: No Spying - Chobble Tickets
+      Managed hosting processes encrypted booking records without using them to market other events.
+name: Ticketing Without Attendee Marketing | Chobble Tickets
 ---

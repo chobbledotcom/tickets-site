@@ -61,8 +61,10 @@ blocks:
       emails were attempted and whether any batch failed.
 
       Because the emails come from your own provider account and your own
-      sending address, deliverability and sending history stay under your
-      control. If no provider is configured, bulk sending is unavailable.
+      sending address, its delivery records stay in that account. If no
+      provider is configured, the preview can open a prepared message in your
+      email program with recipients placed in BCC, or show the address list for
+      copying.
   - type: cta
     button:
       text: Get Started

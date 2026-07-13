@@ -2,7 +2,7 @@
 
 title: Features - Chobble Tickets
 meta_title: Features - Chobble Tickets
-meta_description: All features included at every price with no booking fees or commission. Open source ticketing, hire, and booking software with encryption, QR codes, webhooks, and API access.
+meta_description: Event ticketing software with payments, packages, QR check-in, refunds, bulk event tools, reports, privacy controls, APIs and a hosted booking website.
 permalink: /features/
 eleventyNavigation:
   key: Features
@@ -13,7 +13,7 @@ blocks:
   content: |-
     # Features
 
-    Everything you need to sell tickets, take bookings, and run a hire business, built into one open source platform with a flat fee, no booking fees, and no feature gating.
+    Chobble Tickets covers sales, event operations, reporting, public booking pages and integrations. Every hosted and self-hosted site includes the same product features.
 - type: markdown
   content: |
     ![The Chobble Tickets admin dashboard](/images/screenshots/dashboard.png)
@@ -88,13 +88,19 @@ blocks:
     description: Block out capacity for servicing, maintenance, or staff holds without creating a customer booking.
     name: <a href="/features/servicing-events/">Servicing events</a>
   - icon: hugeicons:copy-01
-    description: Clone existing events to quickly set up similar bookings without re-entering all the details.
+    description: Copy one listing, or duplicate a whole group with name replacement and date shifting.
     name: <a href="/features/duplicate-events/">Duplicate events</a>
+  - icon: hugeicons:layers-01
+    description: Set inherited listing defaults, duplicate whole groups, and activate or deactivate related listings together.
+    name: <a href="/features/bulk-event-management/">Bulk event management</a>
+  - icon: hugeicons:file-import
+    description: Move listings and groups between sites as validated JSON, including prices, memberships, packages and parent references.
+    name: <a href="/features/catalogue-import-export/">Catalogue import and export</a>
   - icon: hugeicons:help-circle
     description: Add multiple-choice or free-text questions to events and collect structured answers from attendees at checkout, with answers visible across the admin interface.
     name: <a href="/features/custom-questions/">Custom questions</a>
   - icon: hugeicons:csv-02
-    description: Export attendee lists as CSV with date and check-in status filtering.
+    description: Export listings, attendees and staff calendars with revenue, capacity, payment, answer, check-in and location fields.
     name: <a href="/features/csv-export/">CSV export</a>
   - icon: hugeicons:activity-01
     description: Track all admin actions and booking activity with a built-in audit trail and calendar views.
@@ -146,11 +152,14 @@ blocks:
     description: AGPLv3 licensed with every feature included and no open-core model.
     name: <a href="/features/open-source/">Open source</a>
   - icon: hugeicons:view-off
-    description: Chobble does not collect attendee data, build audience profiles, or market to your attendees.
-    name: <a href="/features/no-spying/">No spying</a>
+    description: Managed hosting processes encrypted attendee records but does not use them for audience profiles, advertising or other event marketing.
+    name: <a href="/features/no-spying/">No attendee marketing</a>
   - icon: hugeicons:lock
     description: All personal data encrypted at rest with hybrid RSA-OAEP + AES-256-GCM.
     name: <a href="/features/encrypted/">Encrypted</a>
+  - icon: hugeicons:delete-02
+    description: Set retention for orphaned records, erase contact history and export the attendee records held by the organiser.
+    name: <a href="/features/privacy-controls/">Privacy controls</a>
   - icon: hugeicons:global
     description: UK company, Slovenian hosting. Attendee data stays in the EU, under UK-GDPR and EU data protection law.
     name: <a href="/features/european/">European</a>
@@ -161,7 +170,7 @@ blocks:
     description: Choose from Resend, Postmark, SendGrid, or Mailgun (US and EU) for notifications.
     name: <a href="/features/email-providers/">Email providers</a>
   - icon: hugeicons:api
-    description: RESTful JSON API for building custom integrations, plus authenticated admin API with API keys for reading and editing private data.
+    description: Public JSON endpoints for listings and booking, plus authenticated administration of listings, groups and holidays.
     name: <a href="/features/public-api/">Public & Admin API</a>
   - icon: hugeicons:dashboard-square-edit
     description: Full CRUD for events via API keys (create, update, list, delete, and toggle events) programmatically with JSON.
