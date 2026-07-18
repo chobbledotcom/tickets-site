@@ -1,37 +1,10 @@
 import {
   createListing,
+  createQuestion,
   enableFeature,
   publicPathFor,
   setFormValues,
 } from "./helpers.js";
-
-const createQuestion = async (
-  { page, submit },
-  { answers = [], displayType, text },
-) => {
-  await page.goto("/admin/questions");
-  const createForm = 'form[action="/admin/questions"]';
-  await setFormValues(page, createForm, {
-    display_type: displayType,
-    text,
-  });
-  await submit(createForm);
-
-  const questionId = page.url().match(/\/admin\/questions\/(\d+)/)?.[1];
-  if (!questionId) throw new Error(`Could not create question: ${text}`);
-
-  const answerForm = `form[action="/admin/questions/${questionId}/answers"]`;
-  for (const answer of answers) {
-    await setFormValues(page, answerForm, { text: answer });
-    await submit(answerForm);
-  }
-  const listingsForm = `form[action="/admin/questions/${questionId}/listings"]`;
-  await page
-    .locator(`${listingsForm} [name="assign_all"]`)
-    .evaluate((input) => Reflect.set(input, "checked", true));
-  await submit(listingsForm);
-  return questionId;
-};
 
 export default {
   css: `

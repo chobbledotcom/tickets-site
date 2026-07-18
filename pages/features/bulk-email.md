@@ -26,7 +26,8 @@ blocks:
       The listing and single-attendee targets are reachable from the
       relevant admin pages, so you can start an email from the listing
       or attendee you are already looking at.
-
+  - type: split-image
+    content: |
       ## Preview before sending
 
       Sending is a two-step process. You compose the email, then Chobble
@@ -37,7 +38,11 @@ blocks:
       Your draft is saved between the compose and preview steps, encrypted
       with your account's key. You can also save subject and body pairs as
       reusable templates for future campaigns.
-
+    figure_src: /images/screenshots/bulk-email-preview.png
+    figure_alt: A mobile bulk email preview for Saturday's Fun Run showing the audience, subject, recipient count, and weather update
+    figure_caption: Check the audience, recipient count, subject, and rendered message before anything is sent.
+  - type: markdown
+    content: |
       ## Unsubscribe and contact history
 
       Every marketing email includes an unsubscribe link. The link leads to

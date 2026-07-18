@@ -38,7 +38,7 @@ blocks:
         text: £25/year for PTAs and community groups
       - icon: hugeicons:credit-card
         text: No booking fee added to a £3 disco ticket
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## Children's data is encrypted
 
@@ -55,11 +55,9 @@ blocks:
       Not every parent pays online. [Manual attendees](/features/manual-attendees/)
       let you record cash sales taken at the school office, so the door
       list stays complete.
-    figure_items:
-      - icon: hugeicons:lock
-        text: Attendee data is encrypted at rest
-      - icon: hugeicons:user-list
-        text: Collect class names and allergy details at checkout
+    figure_src: /images/screenshots/oakfield-primary-summer-disco-checkout.png
+    figure_alt: The Oakfield Primary Summer Disco checkout filled in with a child's name, class, and allergy details
+    figure_caption: Parents can add the class and allergy details you need when they book.
   - type: features
     dark: true
     intro_content: "## Features for school events"

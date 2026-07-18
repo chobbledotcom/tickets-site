@@ -1,12 +1,8 @@
-import { createListing, setFormValues } from "./helpers.js";
-
-const attendeeIdFromCurrentPage = (page) => {
-  const attendeeId = new URL(page.url()).pathname.match(
-    /^\/admin\/attendees\/(\d+)(?:\/|$)/,
-  )?.[1];
-  if (!attendeeId) throw new Error("Could not find the new attendee ID.");
-  return attendeeId;
-};
+import {
+  createAttendee,
+  createListing,
+  setFormValues,
+} from "./helpers.js";
 
 export default {
   css: `
@@ -61,29 +57,12 @@ export default {
       },
     });
 
-    await page.goto(`/admin/attendees/new?select_${listingId}=1`);
-    const attendeeFormSelector = 'form[action="/admin/attendees/new"]';
-    const attendeeForm = page.locator(attendeeFormSelector);
-    const lineFieldName = await attendeeForm
-      .locator(`[name^="line_listing_"][value="${listingId}"]`)
-      .getAttribute("name");
-    const lineIndex = lineFieldName?.match(/^line_listing_(\d+)$/)?.[1];
-    if (!lineIndex) {
-      throw new Error(
-        `Could not find the attendee line for listing ${listingId}.`,
-      );
-    }
-    const statusId = await attendeeForm
-      .locator('[name="status_id"]')
-      .inputValue();
-    if (!statusId) throw new Error("Could not find the attendee status.");
-    await setFormValues(page, attendeeFormSelector, {
-      name: "Alex Morgan",
-      [`qty_${lineIndex}`]: "1",
-      status_id: statusId,
+    const attendeeId = await createAttendee(context, {
+      listingId,
+      values: {
+        name: "Alex Morgan",
+      },
     });
-    await submit(attendeeFormSelector);
-    const attendeeId = attendeeIdFromCurrentPage(page);
 
     const moneyPath = `/admin/ledger/attendee/${attendeeId}/add`;
     await page.goto(moneyPath);

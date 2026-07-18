@@ -37,7 +37,8 @@ blocks:
       On the attendee record, you can keep one shared pair of agents for the
       whole booking, or split them so each delivered event has its own
       drop-off and collection agent.
-
+  - type: split-image
+    content: |
       ## The deliveries run sheet
 
       Users assigned to an agent see a deliveries run sheet showing today's
@@ -53,7 +54,11 @@ blocks:
       Owners and managers reach the run sheet from the calendar menu. The
       calendar also gains an agent filter, so you can see only the bookings a
       specific agent is handling.
-
+    figure_src: /images/screenshots/logistics-deliveries.png
+    figure_alt: Mobile delivery run sheet showing Maya Patel's marquee drop-off and collection
+    figure_caption: Each delivery day keeps the customer details, map links, times, assigned agent, and completion controls together.
+  - type: markdown
+    content: |
       ## Agent-class users
 
       You can invite a team member as an agent-class user. An agent sees only

@@ -419,6 +419,11 @@ th {
     background: #000;
   }
 
+  section.dark {
+    --primary: #c4b5fd;
+    --primary-dark: #ddd6fe;
+  }
+
   // Classy serif for the navigation, matching the headings
   nav {
     font-family: var(--font-family-heading);

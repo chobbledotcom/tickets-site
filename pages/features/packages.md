@@ -29,7 +29,7 @@ blocks:
       A hire company could sell a party package of one marquee, ten
       chairs, and one generator. A venue could sell a ticket and meal
       bundle, where every booking includes one ticket and one meal.
-  - type: markdown
+  - type: split-image
     content: |
       ## Package pricing
 
@@ -46,6 +46,9 @@ blocks:
       The public package page shows one bundle total. For a customisable
       package, each offered day count is shown with its own whole-bundle
       price.
+    figure_src: /images/screenshots/garden-party-package-checkout.png
+    figure_alt: A mobile checkout for a garden party package with one gazebo, twenty chairs, and two festoon-light sets
+    figure_caption: Buyers choose the number of complete packages and see one total for every item included.
   - type: markdown
     content: |
       ## Hidden members
