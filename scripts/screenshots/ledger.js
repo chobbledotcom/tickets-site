@@ -1,8 +1,4 @@
-import {
-  createAttendee,
-  createListing,
-  setFormValues,
-} from "./helpers.js";
+import { createAttendee, createListing, setFormValues } from "./helpers.js";
 
 const addListingMoney = async (context, listingId, entryType, amount) => {
   const path = `/admin/ledger/revenue/${listingId}/add`;
@@ -92,8 +88,7 @@ body {
 }
 
 .page-regions.admin-page .ledger-date-range {
-  gap: 0.45rem;
-  margin-bottom: 0.45rem;
+  display: none;
 }
 
 .page-regions.admin-page .ledger-date-field,
@@ -107,6 +102,7 @@ body {
   border-color: #bdc9bd;
   font-size: 0.75rem;
   table-layout: fixed;
+  white-space: normal;
   width: 100%;
 }
 
@@ -120,7 +116,7 @@ body {
 
 .page-regions.admin-page .page-block th:first-child,
 .page-regions.admin-page .page-block td:first-child {
-  width: 4.75rem;
+  display: none;
 }
 
 .page-regions.admin-page .page-block th:last-child,

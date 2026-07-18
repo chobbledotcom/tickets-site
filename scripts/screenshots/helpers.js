@@ -46,7 +46,9 @@ export const createAttendee = async (
   });
   await submit(formSelector);
   const attendeeId = page.url().match(/\/admin\/attendees\/(\d+)/)?.[1];
-  if (!attendeeId) throw new Error(`Could not create attendee for ${listingId}.`);
+  if (!attendeeId) {
+    throw new Error(`Could not create attendee for ${listingId}.`);
+  }
   return attendeeId;
 };
 

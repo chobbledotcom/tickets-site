@@ -1,8 +1,4 @@
-import {
-  createAttendee,
-  createListing,
-  setFormValues,
-} from "./helpers.js";
+import { createAttendee, createListing, setFormValues } from "./helpers.js";
 
 const ATTENDEES = [
   ["Amira Khan", "amira.khan@example.com"],
@@ -58,7 +54,7 @@ body {
   background: #eef2f7;
 }
 
-main {
+.page-regions.admin-page {
   background: #ffffff;
   border: 1px solid #d8dee8;
   box-shadow: 0 16px 38px var(--color-shadow);
@@ -68,7 +64,7 @@ main {
   padding: 1.35rem;
 }
 
-main h1 {
+.page-regions.admin-page h1 {
   color: #123b91;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.8rem;
@@ -76,20 +72,20 @@ main h1 {
   margin-bottom: 1rem;
 }
 
-main > p:has(.btn),
+.page-regions.admin-page > p:has(.btn),
 .email-preview ~ * {
   display: none;
 }
 
-main .prose {
+.page-regions.admin-page .prose {
   color: var(--color-text-secondary);
 }
 
-main .prose strong {
+.page-regions.admin-page .prose strong {
   color: var(--color-text);
 }
 
-main .prose h2 {
+.page-regions.admin-page .prose h2 {
   color: #123b91;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.3rem;
@@ -113,7 +109,7 @@ main .prose h2 {
   margin-bottom: 0;
 }
 `,
-  elementSelector: "main",
+  elementSelector: ".page-regions.admin-page",
   name: "bulk-email-preview",
   run: async (context) => {
     const { page, submit } = context;

@@ -100,6 +100,7 @@ body {
   font-size: 0.78rem;
   font-weight: 800;
   padding: 0.35rem 0.7rem;
+  text-decoration: none;
 }
 `,
   elementSelector: ".delivery-day:has(.delivery-bookings)",

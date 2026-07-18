@@ -1,8 +1,4 @@
-import {
-  createAttendee,
-  createListing,
-  setFormValues,
-} from "./helpers.js";
+import { createAttendee, createListing, setFormValues } from "./helpers.js";
 
 export default {
   css: `

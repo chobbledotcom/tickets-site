@@ -1,5 +1,4 @@
 ---
-
 title: Logistics - Chobble Tickets
 meta_title: Delivery, Collection & Logistics - Chobble Tickets
 meta_description: Manage deliveries, equipment hire, transport, set-up and teardown at customer locations. Assign agents, view a run sheet, and mark legs done.
