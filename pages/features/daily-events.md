@@ -49,7 +49,7 @@ blocks:
       can see at a glance which dates have bookings, how many places are
       left, and who's attending each session.
 
-      ![The admin calendar view for managing daily events](/images/screenshots/calendar.png)
+      ![The admin calendar for Little Acorns Stay and Play, with four of twelve places remaining](/images/screenshots/daily-events-calendar.png)
   - type: cta
     button:
       text: Get Started

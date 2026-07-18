@@ -1,33 +1,4 @@
-const listingIdFrom = async (page, name) => {
-  await page.goto("/admin/");
-  const href = await page
-    .getByRole("link", { exact: true, name })
-    .first()
-    .getAttribute("href");
-  const id = href?.match(/^\/admin\/listing\/(\d+)/)?.[1];
-  if (!id) throw new Error(`Could not find listing: ${name}`);
-  return id;
-};
-
-const createListing = async ({ page, submit }, { name, price }) => {
-  await page.goto("/admin/listing/new?template=custom");
-  const values = {
-    location: "Meadowfield Community Park",
-    max_attendees: "300",
-    max_quantity: "10",
-    name,
-    unit_price: price,
-  };
-  for (const [field, value] of Object.entries(values)) {
-    await page
-      .locator(`[name="${field}"]`)
-      .first()
-      .fill(value, { force: true });
-  }
-  await page.locator('[name="fields"][value="email"]').check();
-  await submit('form[action="/admin/listing"]');
-  return listingIdFrom(page, name);
-};
+import { createListing, publicPathFrom } from "./helpers.js";
 
 const createGroup = async ({ page, submit }, listingIds) => {
   await page.goto("/admin/groups/new");
@@ -48,13 +19,7 @@ const openFilledCheckout = async (
   adultListingId,
   childListingId,
 ) => {
-  await page.goto(`/admin/groups/${groupId}`);
-  const href = await page
-    .locator('a[href*="/ticket/"]:not([href$="/qr"])')
-    .first()
-    .getAttribute("href");
-  if (!href) throw new Error("Could not find the fundraiser checkout link.");
-  await page.goto(new URL(href, page.url()).pathname);
+  await page.goto(await publicPathFrom(page, `/admin/groups/${groupId}`));
   await page.locator('[name="name"]').fill("Jane Example");
   await page.locator('[name="email"]').fill("jane@example.com");
   await page
@@ -66,7 +31,6 @@ const openFilledCheckout = async (
   await page
     .getByText("you'll owe £12", { exact: false })
     .waitFor({ state: "attached" });
-  await page.setViewportSize({ height: 760, width: 1440 });
 };
 
 export default {
@@ -114,6 +78,13 @@ table {
   border-radius: 20px;
 }
 
+@media (max-width: 600px) {
+  main {
+    margin-block: 0.75rem;
+    padding: 1.25rem;
+  }
+}
+
 .order-summary-message {
   display: none;
 }
@@ -122,12 +93,24 @@ table {
   name: "charity-family-fun-day-checkout",
   run: async (context) => {
     const adultListingId = await createListing(context, {
+      fields: ["email"],
       name: "Adults Tickets (£5)",
-      price: "5.00",
+      values: {
+        location: "Meadowfield Community Park",
+        max_attendees: "300",
+        max_quantity: "10",
+        unit_price: "5.00",
+      },
     });
     const childListingId = await createListing(context, {
+      fields: ["email"],
       name: "Kids Tickets (£1)",
-      price: "1.00",
+      values: {
+        location: "Meadowfield Community Park",
+        max_attendees: "300",
+        max_quantity: "10",
+        unit_price: "1.00",
+      },
     });
     const groupId = await createGroup(context, [
       adultListingId,

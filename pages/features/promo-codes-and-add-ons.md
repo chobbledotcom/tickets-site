@@ -36,6 +36,8 @@ blocks:
       - **Tiered pricing** - link a discount or surcharge to a
         [custom question answer](/features/custom-questions/), so picking
         "VIP upgrade" changes the price automatically
+
+      ![An Autumn Food Fair checkout with two tickets, an EARLY10 discount code and a parking pass](/images/screenshots/promo-codes-and-add-ons-checkout.png)
   - type: markdown
     content: |
       ## How pricing works
