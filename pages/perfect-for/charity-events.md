@@ -14,6 +14,9 @@ blocks:
       # Ticketing for charity events
 
       More of your fundraising goes to the cause instead of the ticketing platform, with a 50% discount for charities and community groups.
+  - type: markdown
+    content: |
+      ![A family fun day checkout with two adult tickets and two kids tickets selected](/images/screenshots/charity-family-fun-day-checkout.png)
   - type: split-icon-links
     reveal_content: left
     content: |
