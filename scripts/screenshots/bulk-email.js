@@ -23,7 +23,11 @@ const unsubscribeFromAttendee = async (context, attendeeId) => {
   const oneWayCode = historyPath?.match(/^\/admin\/history\/(.+)$/)?.[1];
   if (!oneWayCode) return false;
 
-  await page.goto(`/unsubscribe?email=${encodeURIComponent(oneWayCode)}`);
+  const base64Code = oneWayCode
+    .replaceAll("-", "+")
+    .replaceAll("_", "/")
+    .padEnd(Math.ceil(oneWayCode.length / 4) * 4, "=");
+  await page.goto(`/unsubscribe?email=${encodeURIComponent(base64Code)}`);
   const unsubscribeForm = page.locator("#action-unsubscribe");
   if ((await unsubscribeForm.count()) === 0) return false;
   await submit("#action-unsubscribe");

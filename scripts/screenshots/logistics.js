@@ -44,10 +44,6 @@ export default {
 
 body {
   background-color: #dcecf2;
-  background-image:
-    linear-gradient(#ffffff55 1px, transparent 1px),
-    linear-gradient(90deg, #ffffff55 1px, transparent 1px);
-  background-size: 28px 28px;
 }
 
 .delivery-day {
@@ -118,7 +114,8 @@ body {
     await submit(agentForm);
 
     const agentHref = await page
-      .getByRole("link", { name: "Van 2 - Alex Morgan", exact: true })
+      .locator('a[href^="/admin/logistics/"]')
+      .filter({ hasText: "Van 2 - Alex Morgan" })
       .getAttribute("href");
     const agentId = agentHref?.match(/^\/admin\/logistics\/(\d+)$/)?.[1];
     if (!agentId) throw new Error("Could not find the logistics agent.");
@@ -170,7 +167,7 @@ body {
     const deliveryDay = page
       .locator(".delivery-day")
       .filter({ hasText: "Maya Patel" });
-    await deliveryDay.getByText("Willow Marquee Hire", { exact: true })
+    await deliveryDay.getByText("Willow Marquee Hire", { exact: false })
       .waitFor();
     await deliveryDay.getByText("08:30", { exact: false }).waitFor();
     await deliveryDay.getByText("17:00", { exact: false }).waitFor();
