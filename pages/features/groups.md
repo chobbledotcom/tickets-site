@@ -16,7 +16,7 @@ blocks:
       Organise related events together, let attendees book multiple events in a single checkout, and create tiered ticket types with shared capacity.
   - type: markdown
     content: |
-      ![The groups management page for organising related events](/images/screenshots/groups.png)
+      ![The Tempest group checkout with two adult tickets and one child ticket, showing £30 owed](/images/screenshots/the-tempest-group-checkout.png)
 
       ## Multi-event bookings
 

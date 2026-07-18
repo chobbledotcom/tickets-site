@@ -1,37 +1,8 @@
-import { createListing, publicPathFrom } from "./helpers.js";
-
-const createGroup = async ({ page, submit }, listingIds) => {
-  await page.goto("/admin/groups/new");
-  await page.locator('[name="name"]').fill("Family Fun Day Fundraiser");
-  await submit('form[action="/admin/groups"]');
-  const groupId = page.url().match(/\/admin\/groups\/(\d+)/)?.[1];
-  if (!groupId) throw new Error("Could not find the new fundraiser group.");
-  for (const listingId of listingIds) {
-    await page.locator(`[name="listing_ids"][value="${listingId}"]`).check();
-  }
-  await submit(`form[action="/admin/groups/${groupId}/add-listings"]`);
-  return groupId;
-};
-
-const openFilledCheckout = async (
-  { page },
-  groupId,
-  adultListingId,
-  childListingId,
-) => {
-  await page.goto(await publicPathFrom(page, `/admin/groups/${groupId}`));
-  await page.locator('[name="name"]').fill("Jane Example");
-  await page.locator('[name="email"]').fill("jane@example.com");
-  await page
-    .locator(`[name="quantity_${adultListingId}"]`)
-    .selectOption("2");
-  await page
-    .locator(`[name="quantity_${childListingId}"]`)
-    .selectOption("2");
-  await page
-    .getByText("you'll owe £12", { exact: false })
-    .waitFor({ state: "attached" });
-};
+import {
+  createGroup,
+  createListing,
+  openFilledGroupCheckout,
+} from "./helpers.js";
 
 export default {
   css: `
@@ -112,10 +83,19 @@ table {
         unit_price: "1.00",
       },
     });
-    const groupId = await createGroup(context, [
-      adultListingId,
-      childListingId,
-    ]);
-    await openFilledCheckout(context, groupId, adultListingId, childListingId);
+    const groupId = await createGroup(context, {
+      listingIds: [adultListingId, childListingId],
+      name: "Family Fun Day Fundraiser",
+    });
+    await openFilledGroupCheckout(context, {
+      email: "jane@example.com",
+      expectedText: "you'll owe £12",
+      groupId,
+      name: "Jane Example",
+      quantities: [
+        [adultListingId, "2"],
+        [childListingId, "2"],
+      ],
+    });
   },
 };

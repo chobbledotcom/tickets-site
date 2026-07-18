@@ -1,4 +1,4 @@
-import { createListing } from "./helpers.js";
+import { createListing, setFormValues } from "./helpers.js";
 
 const dateParts = () => {
   const now = new Date();
@@ -22,21 +22,7 @@ const addBooking = async (
 ) => {
   await page.goto(`/admin/listing/${listingId}/attendees`);
   const form = `form[action="/admin/listing/${listingId}/attendee"]`;
-  for (
-    const [field, value] of Object.entries({
-      date,
-      email,
-      name,
-      quantity,
-    })
-  ) {
-    await page
-      .locator(`${form} [name="${field}"]`)
-      .evaluate(
-        (input, nextValue) => Reflect.set(input, "value", nextValue),
-        value,
-      );
-  }
+  await setFormValues(page, form, { date, email, name, quantity });
   await submit(form);
 };
 

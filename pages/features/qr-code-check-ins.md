@@ -23,6 +23,8 @@ blocks:
       their phone and scan the code, and the system instantly shows whether
       the ticket is valid and marks the attendee as checked in.
 
+      ![The mobile scanner showing Alex Morgan checked in with two tickets](/images/screenshots/qr-code-check-in.png)
+
       The scanner detects duplicate scans and cross-event mismatches, so you
       can spot problems immediately.
 

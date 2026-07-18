@@ -11,7 +11,7 @@ blocks:
   - type: hero
     class: gradient
     content: |-
-      # Custom Questions
+      # Custom questions
 
       Add custom questions to your events and collect the information you need from attendees at checkout. Choose from multiple-choice or free-text answers.
   - type: markdown
@@ -30,6 +30,8 @@ blocks:
       group.
 
       All questions are required, keeping your data complete and consistent.
+
+      ![The Saturday Bread Workshop checkout filled in with bread-making experience and food allergy answers](/images/screenshots/custom-questions-checkout.png)
   - type: markdown
     content: |
       ## Two answer types

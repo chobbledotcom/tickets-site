@@ -10,19 +10,27 @@ export const listingIdFrom = async (page, name) => {
   return id;
 };
 
+export const setFormValues = async (page, formSelector, values) => {
+  const form = page.locator(formSelector);
+  for (const [field, value] of Object.entries(values)) {
+    await form
+      .locator(`[name="${field}"]`)
+      .first()
+      .evaluate(
+        (input, nextValue) => Reflect.set(input, "value", nextValue),
+        value,
+      );
+  }
+};
+
 export const createListing = async (
   { page, submit },
   { choices = {}, fields = [], name, template = "custom", values },
 ) => {
   await page.goto(`/admin/listing/new?template=${template}`);
-  const form = page.locator('form[action="/admin/listing"]');
-  for (const [field, value] of Object.entries(values)) {
-    const control = form.locator(`[name="${field}"]`).first();
-    await control.evaluate(
-      (input, nextValue) => Reflect.set(input, "value", nextValue),
-      value,
-    );
-  }
+  const formSelector = 'form[action="/admin/listing"]';
+  const form = page.locator(formSelector);
+  await setFormValues(page, formSelector, values);
   for (const [field, values] of Object.entries(choices)) {
     for (const value of values) {
       await form
@@ -35,9 +43,7 @@ export const createListing = async (
       .locator(`[name="fields"][value="${field}"]`)
       .evaluate((input) => Reflect.set(input, "checked", true));
   }
-  await form
-    .locator('[name="name"]')
-    .evaluate((input, value) => Reflect.set(input, "value", value), name);
+  await setFormValues(page, formSelector, { name });
   const submittedName = await form.evaluate((element) =>
     String(new FormData(element).get("name"))
   );
@@ -72,12 +78,47 @@ export const enableFeature = async ({ page, submit }, feature) => {
   await submit(`form[action="/admin/features/${feature}"]`);
 };
 
+export const createGroup = async (
+  { page, submit },
+  { listingIds, name },
+) => {
+  await page.goto("/admin/groups/new");
+  await setFormValues(page, 'form[action="/admin/groups"]', { name });
+  await submit('form[action="/admin/groups"]');
+  const groupId = page.url().match(/\/admin\/groups\/(\d+)/)?.[1];
+  if (!groupId) throw new Error(`Could not find group: ${name}`);
+  for (const listingId of listingIds) {
+    await page
+      .locator(`[name="listing_ids"][value="${listingId}"]`)
+      .evaluate((input) => Reflect.set(input, "checked", true));
+  }
+  await submit(`form[action="/admin/groups/${groupId}/add-listings"]`);
+  return groupId;
+};
+
+export const openFilledGroupCheckout = async (
+  context,
+  { email, expectedText, groupId, name, quantities },
+) => {
+  const { page } = context;
+  await page.goto(await publicPathFrom(page, `/admin/groups/${groupId}`));
+  await page.locator('[name="name"]').fill(name);
+  await page.locator('[name="email"]').fill(email);
+  for (const [listingId, quantity] of quantities) {
+    await page
+      .locator(`[name="quantity_${listingId}"]`)
+      .selectOption(quantity);
+  }
+  await page.getByText(expectedText, { exact: false }).waitFor();
+};
+
 export const createModifier = async (
   { page, submit },
   { calcKind, code = "", direction, name, trigger, value },
 ) => {
   await page.goto("/admin/modifiers/new");
-  const form = page.locator('form[action="/admin/modifiers"]');
+  const formSelector = 'form[action="/admin/modifiers"]';
+  const form = page.locator(formSelector);
   const values = {
     calc_kind: calcKind,
     calc_value: value,
@@ -87,14 +128,7 @@ export const createModifier = async (
     scope: "all",
     trigger,
   };
-  for (const [field, fieldValue] of Object.entries(values)) {
-    await form
-      .locator(`[name="${field}"]`)
-      .evaluate(
-        (input, nextValue) => Reflect.set(input, "value", nextValue),
-        fieldValue,
-      );
-  }
+  await setFormValues(page, formSelector, values);
   await form
     .locator('[name="active"][value="1"]')
     .evaluate((input) => Reflect.set(input, "checked", true));

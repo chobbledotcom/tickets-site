@@ -14,7 +14,7 @@ blocks:
       # Equipment hire booking software
 
       Take online bookings for marquees, sound systems, portable toilets, tools, and props. Customers choose their dates, pay a deposit or the full price, and your drivers get a run sheet for deliveries and collections.
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## Per-day pricing and stock control
 
@@ -31,13 +31,9 @@ blocks:
       price at booking, with a link for the customer to pay the balance
       later. Payments go through Stripe, Square, or SumUp directly to your
       own account, and Chobble Tickets takes no percentage.
-    figure_items:
-      - icon: hugeicons:calendar-add-01
-        text: Customers choose their hire dates and duration.
-      - icon: hugeicons:package
-        text: Capacity per date works as stock control.
-      - icon: hugeicons:money-receive-square
-        text: No commission on hire bookings.
+    figure_src: /images/screenshots/equipment-hire-booking.png
+    figure_alt: A mobile booking form for a portable PA system with a three-day hire selected
+    figure_caption: Customers choose an available start date and the number of days they need the equipment.
   - type: split-icon-links
     content: |
       ## Drop-offs, collections, and drivers

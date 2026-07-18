@@ -49,6 +49,8 @@ blocks:
       then takes the customer to your payment provider to pay the
       outstanding balance.
 
+      ![A Weekend Pottery Course balance page showing a £120 order, £30 paid and £90 left to pay](/images/screenshots/deposits-and-balance-payments.png)
+
       The link is signed, so it cannot be guessed, and it contains no
       personal data. Once the balance is settled, the page reports that
       there is nothing left to pay, and the booking moves to your
