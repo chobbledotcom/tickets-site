@@ -14,11 +14,7 @@ blocks:
       # Ticketing for charity events
 
       More of your fundraising goes to the cause instead of the ticketing platform, with a 50% discount for charities and community groups.
-  - type: markdown
-    content: |
-      ![A family fun day checkout with two adult tickets and two kids tickets selected](/images/screenshots/charity-family-fun-day-checkout.png)
-  - type: split-icon-links
-    reveal_content: left
+  - type: split-image
     content: |
       ## Built for charities
 
@@ -36,11 +32,9 @@ blocks:
       fundraising collections and raffles,
       [purchasable events](/features/purchasable-events/) let you collect
       donations and payments without a physical event to attend.
-    figure_items:
-      - icon: hugeicons:money-receive-square
-        text: £25/year for charities
-      - icon: hugeicons:credit-card
-        text: Every penny of ticket sales goes to you
+    figure_src: /images/screenshots/charity-family-fun-day-checkout.png
+    figure_alt: A family fun day checkout with two adult tickets and two kids tickets selected
+    figure_caption: One group checkout can offer several ticket types in the same booking.
   - type: features
     dark: true
     intro_content: "## Features for charities"

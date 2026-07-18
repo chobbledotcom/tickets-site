@@ -63,7 +63,9 @@ const openFilledCheckout = async (
   await page
     .locator(`[name="quantity_${childListingId}"]`)
     .selectOption("2");
-  await page.getByText("you'll owe £12", { exact: false }).waitFor();
+  await page
+    .getByText("you'll owe £12", { exact: false })
+    .waitFor({ state: "attached" });
   await page.setViewportSize({ height: 760, width: 1440 });
 };
 
@@ -83,13 +85,6 @@ export default {
   --color-text: #46334f;
   --color-text-secondary: #846f89;
   --font-family: "Trebuchet MS", "Arial Rounded MT Bold", sans-serif;
-}
-
-body {
-  background:
-    radial-gradient(circle at 8% 12%, #f8d9a9 0 5rem, transparent 5.1rem),
-    radial-gradient(circle at 92% 18%, #ccece4 0 7rem, transparent 7.1rem),
-    var(--color-bg);
 }
 
 main {
@@ -118,7 +113,12 @@ fieldset,
 table {
   border-radius: 20px;
 }
+
+.order-summary-message {
+  display: none;
+}
 `,
+  elementSelector: "main",
   name: "charity-family-fun-day-checkout",
   run: async (context) => {
     const adultListingId = await createListing(context, {
