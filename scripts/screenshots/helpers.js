@@ -108,6 +108,15 @@ export const publicPathFrom = async (page, adminPath) => {
 export const publicPathFor = (page, listingId) =>
   publicPathFrom(page, `/admin/listing/${listingId}`);
 
+export const openFilledListingCheckout = async (
+  { page },
+  { email, listingId, name },
+) => {
+  await page.goto(await publicPathFor(page, listingId));
+  await page.locator('[name="name"]').fill(name);
+  await page.locator('[name="email"]').fill(email);
+};
+
 export const enableFeature = async ({ page, submit }, feature) => {
   await page.goto(`/admin/features/${feature}`);
   await page

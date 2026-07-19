@@ -110,7 +110,7 @@ export default {
     }
     if (
       (await form.locator(`[name="quantity_${listingId}"]`).inputValue()) !==
-        "4"
+      "4"
     ) {
       throw new Error("Could not save the service event quantity.");
     }

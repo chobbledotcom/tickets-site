@@ -1,4 +1,8 @@
-import { createListing, publicPathFor, setFormValues } from "./helpers.js";
+import {
+  createListing,
+  openFilledListingCheckout,
+  setFormValues,
+} from "./helpers.js";
 
 const BOOKABLE_DAYS = [
   "Monday",
@@ -120,9 +124,11 @@ fieldset {
     });
     await context.submit(editForm);
 
-    await context.page.goto(await publicPathFor(context.page, listingId));
-    await context.page.locator('[name="name"]').fill("Alex Morgan");
-    await context.page.locator('[name="email"]').fill("alex@example.com");
+    await openFilledListingCheckout(context, {
+      email: "alex@example.com",
+      listingId,
+      name: "Alex Morgan",
+    });
     await context.page
       .locator('[name="date"]')
       .selectOption(await futureFridayFrom(context.page));

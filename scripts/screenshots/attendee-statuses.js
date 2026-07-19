@@ -133,7 +133,7 @@ export default {
 
     const rows = await page.locator("tbody tr").allTextContents();
     const names = rows.map((row) =>
-      ["Reserved", "Confirmed", "Collected"].find((name) => row.includes(name))
+      ["Reserved", "Confirmed", "Collected"].find((name) => row.includes(name)),
     );
     if (names.join(",") !== "Reserved,Confirmed,Collected") {
       throw new Error(`Unexpected attendee status order: ${names.join(",")}`);

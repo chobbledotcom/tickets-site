@@ -1,7 +1,7 @@
 import {
   blurActiveElement,
   createListing,
-  publicPathFor,
+  openFilledListingCheckout,
 } from "./helpers.js";
 
 export default {
@@ -91,8 +91,7 @@ main .order-summary-message {
       },
     });
 
-    const childrenForm =
-      `form[action="/admin/listing/${festivalPassId}/children"]`;
+    const childrenForm = `form[action="/admin/listing/${festivalPassId}/children"]`;
     await context.page.goto(`/admin/listing/${festivalPassId}/edit`);
     await context.page
       .locator(
@@ -106,9 +105,11 @@ main .order-summary-message {
       .check();
     await context.submit(childrenForm);
 
-    await context.page.goto(await publicPathFor(context.page, festivalPassId));
-    await context.page.locator('[name="name"]').fill("Alex Morgan");
-    await context.page.locator('[name="email"]').fill("alex@example.com");
+    await openFilledListingCheckout(context, {
+      email: "alex@example.com",
+      listingId: festivalPassId,
+      name: "Alex Morgan",
+    });
     await context.page
       .locator(`[name="quantity_${festivalPassId}"]`)
       .selectOption("2");

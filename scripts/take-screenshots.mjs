@@ -1,10 +1,9 @@
 import { chromium } from "/opt/node22/lib/node_modules/playwright/index.mjs";
 import { readdirSync } from "fs";
 import { join } from "path";
-import sharp from "sharp";
+import { SCREENSHOTS_DIR, trimScreenshot } from "./screenshot-helpers.mjs";
 
 const BASE_URL = "https://tickets-demo-1.chobble.com";
-const SCREENSHOTS_DIR = join(import.meta.dirname, "..", "images", "screenshots");
 const TIMEOUT = 90000;
 
 const getProxyConfig = () => {
@@ -34,72 +33,19 @@ const hideUiChrome = (page) =>
     }
   });
 
-const TRIM_MARGIN = 24;
-
-const isNonWhite = (buf, idx) =>
-  buf[idx] < 250 || buf[idx + 1] < 250 || buf[idx + 2] < 250;
-
-const findContentTop = async (filePath, width, height) => {
-  const chunkSize = 20;
-  for (let y = 0; y < height; y += chunkSize) {
-    const rowH = Math.min(chunkSize, height - y);
-    const buf = await sharp(filePath)
-      .extract({ left: 0, top: y, width, height: rowH })
-      .raw()
-      .toBuffer();
-    for (let row = 0; row < rowH; row++) {
-      for (let x = 0; x < width; x++) {
-        if (isNonWhite(buf, (row * width + x) * 3)) return y + row;
-      }
-    }
-  }
-  return 0;
-};
-
-const findContentBottom = async (filePath, width, height) => {
-  const chunkSize = 20;
-  for (let y = height - chunkSize; y >= 0; y -= chunkSize) {
-    const rowH = Math.min(chunkSize, height - y);
-    const buf = await sharp(filePath)
-      .extract({ left: 0, top: y, width, height: rowH })
-      .raw()
-      .toBuffer();
-    for (let row = rowH - 1; row >= 0; row--) {
-      for (let x = 0; x < width; x++) {
-        if (isNonWhite(buf, (row * width + x) * 3)) return y + row + 1;
-      }
-    }
-  }
-  return height;
-};
-
-const trimImage = async (filePath) => {
-  const image = sharp(filePath);
-  const { width, height } = await image.metadata();
-  const contentTop = await findContentTop(filePath, width, height);
-  const contentBottom = await findContentBottom(filePath, width, height);
-  const top = Math.max(0, contentTop - TRIM_MARGIN);
-  const bottom = Math.min(height, contentBottom + TRIM_MARGIN);
-  const cropH = bottom - top;
-  if (cropH >= height) return;
-  const { unlinkSync } = await import("fs");
-  const tmpPath = filePath.replace(".png", ".trimmed.png");
-  await sharp(filePath)
-    .extract({ left: 0, top, width, height: cropH })
-    .toFile(tmpPath);
-  await sharp(tmpPath).toFile(filePath);
-  unlinkSync(tmpPath);
-  const saved = Math.round((1 - cropH / height) * 100);
-  console.log(`     trimmed ${width}x${height} -> ${width}x${cropH} (${saved}% shorter)`);
-};
-
 const screenshot = async (page, name) => {
   await hideUiChrome(page);
   const filePath = join(SCREENSHOTS_DIR, `${name}.png`);
   await page.screenshot({ path: filePath, fullPage: true });
   console.log(`  >> ${name}.png`);
   try {
-    await trimImage(filePath);
+    const result = await trimScreenshot(filePath);
+    if (result) {
+      const { width, height, cropHeight, saved } = result;
+      console.log(
+        `     trimmed ${width}x${height} -> ${width}x${cropHeight} (${saved}% shorter)`,
+      );
+    }
   } catch (err) {
     console.log(`     trim failed: ${err.message.slice(0, 80)}`);
   }

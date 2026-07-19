@@ -1,9 +1,16 @@
 #!/usr/bin/env bun
 
+/* jscpd:ignore-start */
 import { join } from "node:path";
-import { exists, fs, loadEnv, path, readJson, write } from "./utils.js";
+import {
+  fetchApifyDataset,
+  loadApifySiteConfig,
+  runMain,
+  saveFetchedItems,
+} from "./apify.js";
+import { exists, fs, path, write } from "./utils.js";
 
-await loadEnv();
+/* jscpd:ignore-end */
 
 const CONFIG = {
   siteConfig: path("_data", "site.json"),
@@ -22,24 +29,12 @@ const extractUsername = (instagramUrl) => {
 };
 
 const fetchPosts = async (profileUrl) => {
-  const url = `https://api.apify.com/v2/acts/${CONFIG.actorId}/run-sync-get-dataset-items?token=${process.env.APIFY_API_TOKEN}`;
-
   console.log(`Fetching posts for ${profileUrl}...`);
-
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      directUrls: [profileUrl],
-      resultsType: "posts",
-      resultsLimit: CONFIG.resultsLimit,
-    }),
+  const results = await fetchApifyDataset(CONFIG.actorId, {
+    directUrls: [profileUrl],
+    resultsType: "posts",
+    resultsLimit: CONFIG.resultsLimit,
   });
-
-  if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
-
-  const results = await res.json();
-  if (!Array.isArray(results)) throw new Error("Invalid API response format");
 
   return results
     .filter((p) => p.timestamp && p.displayUrl && p.url)
@@ -79,18 +74,7 @@ const savePost = async (post) => {
 };
 
 const main = async () => {
-  if (!process.env.APIFY_API_TOKEN) {
-    console.error("Error: APIFY_API_TOKEN required in .env file");
-    console.error("Get token: https://console.apify.com/account/integrations");
-    process.exit(1);
-  }
-
-  if (!(await exists(CONFIG.siteConfig))) {
-    console.error(`Error: ${CONFIG.siteConfig} not found`);
-    process.exit(1);
-  }
-
-  const siteConfig = await readJson(CONFIG.siteConfig);
+  const siteConfig = await loadApifySiteConfig(CONFIG.siteConfig);
   const instagramUrl = siteConfig.socials?.Instagram;
   if (!instagramUrl || !extractUsername(instagramUrl)) {
     console.error("Error: socials.Instagram missing or invalid in site.json");
@@ -101,18 +85,7 @@ const main = async () => {
   fs.mkdir(CONFIG.imagesDir);
 
   const posts = await fetchPosts(instagramUrl);
-  console.log(`Found ${posts.length} posts`);
-
-  const saved = (await Promise.all(posts.map(savePost))).filter(Boolean).length;
-
-  console.log(
-    `\nSaved ${saved} new posts (${posts.length - saved} already existed)`,
-  );
+  await saveFetchedItems(posts, "posts", savePost);
 };
 
-if (import.meta.main) {
-  main().catch((err) => {
-    console.error("Error:", err.message);
-    process.exit(1);
-  });
-}
+runMain(import.meta.main, main);

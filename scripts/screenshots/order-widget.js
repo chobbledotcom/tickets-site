@@ -47,19 +47,17 @@ const shopPage = (baseUrl, listings) =>
       <h1>Make something by hand</h1>
       <p class="intro">Small-group workshops and studio sessions in a working pottery. Choose your sessions here, then book through the studio ticket page.</p>
       <section class="workshops" aria-label="Studio sessions">
-        ${
-    listings
-      .map(
-        ({ description, name, path, price }) => `
+        ${listings
+          .map(
+            ({ description, name, path, price }) => `
         <article>
           <span class="price">${price}</span>
           <h2>${name}</h2>
           <p>${description}</p>
           <a href="${baseUrl}${path}" data-add-listing="${baseUrl}${path}">Add to booking</a>
         </article>`,
-      )
-      .join("")
-  }
+          )
+          .join("")}
       </section>
     </main>
     <footer>Northlight Studio · Open Thursday to Sunday</footer>

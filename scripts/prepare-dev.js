@@ -19,14 +19,14 @@ import {
 const build = path(buildDir);
 const template = path(buildDir, "template");
 const dev = path(buildDir, "dev");
-const localTemplate = join(root, "..", "chobble-template");
+const localTemplate = join(root, "chobble-template");
 
 export const prep = () => {
   console.log("Preparing build...");
   fs.mkdir(build);
 
   if (fs.exists(localTemplate)) {
-    console.log("Using local template from ../chobble-template...");
+    console.log("Using pinned template from ./chobble-template...");
     copyDir(localTemplate, template, {
       delete: true,
       exclude: templateExcludes,
@@ -50,10 +50,8 @@ export const prep = () => {
 
   sync();
 
-  if (!fs.exists(join(dev, "node_modules"))) {
-    console.log("Installing dependencies...");
-    bun.install(dev);
-  }
+  console.log("Installing dependencies...");
+  bun.install(dev);
 
   fs.rm(join(dev, "_site"));
   console.log("Build ready.");

@@ -1,9 +1,16 @@
 #!/usr/bin/env bun
 
+/* jscpd:ignore-start */
 import { join } from "node:path";
-import { exists, fs, loadEnv, path, readJson, write } from "./utils.js";
+import {
+  fetchApifyDataset,
+  loadApifySiteConfig,
+  runMain,
+  saveFetchedItems,
+} from "./apify.js";
+import { exists, fs, path, write } from "./utils.js";
 
-await loadEnv();
+/* jscpd:ignore-end */
 
 const CONFIG = {
   siteConfig: path("_data", "site.json"),
@@ -22,27 +29,15 @@ const formatFilename = (name, date) => {
 };
 
 const fetchReviews = async (placeId, opts = {}) => {
-  const url = `https://api.apify.com/v2/acts/${CONFIG.actorId}/run-sync-get-dataset-items?token=${process.env.APIFY_API_TOKEN}`;
-
   console.log("Fetching all available reviews...");
-
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      startUrls: [
-        { url: `https://www.google.com/maps/place/?q=place_id:${placeId}` },
-      ],
-      maxReviews: opts.maxReviews || CONFIG.maxReviews,
-      reviewsSort: opts.sort || "newest",
-      language: opts.language || "en",
-    }),
+  const results = await fetchApifyDataset(CONFIG.actorId, {
+    startUrls: [
+      { url: `https://www.google.com/maps/place/?q=place_id:${placeId}` },
+    ],
+    maxReviews: opts.maxReviews || CONFIG.maxReviews,
+    reviewsSort: opts.sort || "newest",
+    language: opts.language || "en",
   });
-
-  if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
-
-  const results = await res.json();
-  if (!Array.isArray(results)) throw new Error("Invalid API response format");
 
   return results
     .flatMap((item) => item.reviews || [])
@@ -79,18 +74,7 @@ ${review.content}
 };
 
 const main = async () => {
-  if (!process.env.APIFY_API_TOKEN) {
-    console.error("Error: APIFY_API_TOKEN required in .env file");
-    console.error("Get token: https://console.apify.com/account/integrations");
-    process.exit(1);
-  }
-
-  if (!(await exists(CONFIG.siteConfig))) {
-    console.error(`Error: ${CONFIG.siteConfig} not found`);
-    process.exit(1);
-  }
-
-  const siteConfig = await readJson(CONFIG.siteConfig);
+  const siteConfig = await loadApifySiteConfig(CONFIG.siteConfig);
   if (!siteConfig.google_place_id) {
     console.error("Error: google_place_id missing from site.json");
     process.exit(1);
@@ -99,20 +83,9 @@ const main = async () => {
   fs.mkdir(CONFIG.reviewsDir);
 
   const reviews = await fetchReviews(siteConfig.google_place_id);
-  console.log(`Found ${reviews.length} reviews`);
-
-  const saved = (
-    await Promise.all(reviews.map((r) => saveReview(r, CONFIG.reviewsDir)))
-  ).filter(Boolean).length;
-
-  console.log(
-    `\nSaved ${saved} new reviews (${reviews.length - saved} already existed)`,
+  await saveFetchedItems(reviews, "reviews", (review) =>
+    saveReview(review, CONFIG.reviewsDir),
   );
 };
 
-if (import.meta.main) {
-  main().catch((err) => {
-    console.error("Error:", err.message);
-    process.exit(1);
-  });
-}
+runMain(import.meta.main, main);
