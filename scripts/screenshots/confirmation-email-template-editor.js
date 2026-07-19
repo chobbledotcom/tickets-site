@@ -10,7 +10,7 @@ const TEMPLATE = {
     "  <p>We look forward to welcoming you.</p>",
     "</div>",
   ].join("\n"),
-  subject: "Your {{ listing_names }} booking is confirmed",
+  subject: "Your {{ listing_names }} tickets",
   text: [
     "Hello {{ attendee.name }},",
     "",
@@ -76,6 +76,13 @@ export default {
   font-size: 0.78rem;
   line-height: 1.35;
   padding: 0.55rem;
+  width: 100%;
+}
+
+#settings-email-tpl-confirmation > label {
+  display: grid;
+  gap: 0.3rem;
+  grid-template-columns: minmax(0, 1fr);
 }
 
 #settings-email-tpl-confirmation #confirmation_html {
@@ -109,6 +116,8 @@ export default {
     if (subject !== TEMPLATE.subject) {
       throw new Error("Could not save the confirmation email template.");
     }
+    await page.goto("/admin/settings-advanced#settings-email-tpl-confirmation");
+    await page.locator(form).waitFor();
     await blurActiveElement(page);
   },
 };

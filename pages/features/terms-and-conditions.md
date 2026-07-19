@@ -24,12 +24,13 @@ blocks:
       conduct agreements, or any policy you need attendees to acknowledge.
 
       You can also set per-group terms and conditions that override the
-       global ones, so different types of events can have their own specific
-       terms with whatever context you like.
+      global ones, so different types of events can have their own specific
+      terms with whatever context you like.
     figure_src: /images/screenshots/workshop-terms-checkout.png
     figure_alt: Wheel-throwing taster workshop checkout filled for Maya Patel with two places and the workshop terms agreement selected
     figure_caption: Show the terms at checkout and require agreement before the booking can continue.
-
+  - type: markdown
+    content: |
       ## Configurable contact fields
 
       Choose which contact information to collect from attendees. Enable or

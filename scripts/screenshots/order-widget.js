@@ -1,7 +1,5 @@
 import { createListing, publicPathFor } from "./helpers.js";
 
-const SHOP_ORIGIN = "http://localhost:43210";
-
 const shopPage = (baseUrl, listings) =>
   `<!doctype html>
 <html lang="en">
@@ -65,7 +63,7 @@ const shopPage = (baseUrl, listings) =>
       </section>
     </main>
     <footer>Northlight Studio · Open Thursday to Sunday</footer>
-    <script type="module" src="${baseUrl}/order.js?debug=true"></script>
+    <script type="module" src="${baseUrl}/order.js"></script>
   </body>
 </html>`;
 
@@ -130,27 +128,30 @@ export default {
       .check();
     await context.submit('form[action="/admin/settings/external-order"]');
 
+    const shopServer = Deno.serve(
+      {
+        hostname: "127.0.0.1",
+        onListen: () => {},
+        port: 0,
+      },
+      () =>
+        new Response(shopPage(context.baseUrl, listings), {
+          headers: { "content-type": "text/html; charset=utf-8" },
+        }),
+    );
+    shopServer.unref();
+    const shopOrigin = `http://127.0.0.1:${shopServer.addr.port}`;
+
     const moduleResponse = await context.page.request.get(
       `${context.baseUrl}/order.js`,
-      { headers: { origin: SHOP_ORIGIN } },
+      { headers: { origin: shopOrigin } },
     );
     const moduleBody = await moduleResponse.text();
     if (!moduleBody.includes("Mug-making workshop")) {
       throw new Error(`The order module has no listing catalog: ${moduleBody}`);
     }
 
-    await context.page.route(`${SHOP_ORIGIN}/**`, (route) =>
-      route.fulfill({
-        body: shopPage(context.baseUrl, listings),
-        contentType: "text/html",
-      }));
-    context.page.on("console", (message) =>
-      console.log(`Order widget: ${message.text()}`)
-    );
-    context.page.on("pageerror", (error) =>
-      console.log(`Order widget error: ${error.message}`)
-    );
-    await context.page.goto(`${SHOP_ORIGIN}/workshops`, {
+    await context.page.goto(`${shopOrigin}/workshops`, {
       waitUntil: "networkidle",
     });
     await context.page

@@ -38,10 +38,11 @@ article:has(#attendees) .table-scroll {
 
 article:has(#attendees) table {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.76rem;
+  font-size: 0.7rem;
   table-layout: fixed;
   white-space: normal;
-  width: 100%;
+  width: 100% !important;
+  min-width: 0;
 }
 
 article:has(#attendees) th,
@@ -54,6 +55,21 @@ article:has(#attendees) td {
 article:has(#attendees) th:nth-child(n + 5),
 article:has(#attendees) td:nth-child(n + 5) {
   display: none;
+}
+
+article:has(#attendees) th:first-child,
+article:has(#attendees) td:first-child { width: 22%; }
+
+article:has(#attendees) th:nth-child(2),
+article:has(#attendees) td:nth-child(2) { width: 23%; }
+
+article:has(#attendees) th:nth-child(3),
+article:has(#attendees) td:nth-child(3) { width: 43%; }
+
+article:has(#attendees) th:nth-child(4),
+article:has(#attendees) td:nth-child(4) {
+  text-align: center;
+  width: 12%;
 }
 
 article:has(#attendees) tbody tr {
@@ -83,13 +99,13 @@ article:has(#attendees) button {
       listingId,
       quantity: "3",
       values: {
-        email: "maya.patel@example.com",
+        email: "maya@example.com",
         name: "Maya Patel",
       },
     });
     await context.page.goto(`/admin/listing/${listingId}/attendees`);
     const roster = context.page.locator("article:has(#attendees)");
     await roster.getByText("Maya Patel", { exact: true }).waitFor();
-    await roster.getByText("maya.patel@example.com", { exact: true }).waitFor();
+    await roster.getByText("maya@example.com", { exact: true }).waitFor();
   },
 };

@@ -2,7 +2,7 @@ import { createListing, publicPathFor } from "./helpers.js";
 
 export default {
   css: "",
-  elementSelector: "main",
+  fullPage: true,
   name: "moonlight-cinema-dark-checkout",
   run: async (context) => {
     const { page, submit } = context;

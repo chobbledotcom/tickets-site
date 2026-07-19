@@ -13,10 +13,14 @@ const createStatus = async (
     reservation_amount: reservationAmount ?? "0",
   });
   if (reservationAmount) {
-    await page.locator(`${form} [name="is_reservation"]`).check();
+    await page
+      .locator(`${form} [name="is_reservation"]`)
+      .evaluate((input) => Reflect.set(input, "checked", true));
   }
   if (publicDefault) {
-    await page.locator(`${form} [name="is_public_default"]`).check();
+    await page
+      .locator(`${form} [name="is_public_default"]`)
+      .evaluate((input) => Reflect.set(input, "checked", true));
   }
   await submit(form);
   const row = page.locator("tbody tr").filter({ hasText: name });
@@ -45,44 +49,51 @@ export default {
   --font-family: Arial, sans-serif;
 }
 
-main {
+.admin-page .table-scroll {
   background: #fafbf8;
   border: 1px solid #cbd4cc;
   border-top: 5px solid var(--color-secondary);
   box-shadow: 0 10px 24px var(--color-shadow);
-  padding: 1.25rem;
+  overflow: visible;
+  padding: 0;
 }
 
-main h1 {
-  color: #294c43;
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: 600;
-}
-
-main .table-scroll {
+.admin-page .table-scroll {
   border: 1px solid #c5d0c8;
   border-radius: 6px;
 }
 
-main table {
-  font-size: 0.92rem;
+.admin-page table {
+  font-size: 0.72rem;
+  table-layout: fixed;
   margin: 0;
   min-width: 0;
   white-space: normal;
+  width: 100% !important;
 }
 
-main th {
+.admin-page th {
   background: #476d62;
   color: #fff;
 }
 
-main td,
-main th {
-  padding: 0.6rem;
+.admin-page td,
+.admin-page th {
+  box-sizing: border-box;
+  padding: 0.45rem 0.35rem;
   vertical-align: middle;
 }
 
-main .badge {
+.admin-page th:first-child,
+.admin-page td:first-child { width: 24%; }
+
+.admin-page th:nth-child(2),
+.admin-page td:nth-child(2) { width: 28%; }
+
+.admin-page th:nth-child(3),
+.admin-page td:nth-child(3) { width: 48%; }
+
+.admin-page .badge {
   background: #e4ece6;
   border: 1px solid #aebfb4;
   border-radius: 999px;
@@ -92,23 +103,24 @@ main .badge {
   padding: 0.15rem 0.55rem;
 }
 
-main .col-reorder form {
+.admin-page .col-reorder form {
   display: inline;
 }
 
-main .col-reorder button {
+.admin-page .col-reorder button {
   background: #f4f7f4;
   border: 1px solid #9eb0a5;
   color: #315c51;
-  margin: 0.1rem;
-  padding: 0.25rem 0.45rem;
+  font-size: 0.65rem;
+  margin: 0.05rem;
+  min-width: 1.5rem;
+  padding: 0.2rem;
 }
 `,
-  elementSelector: "main",
+  elementSelector: ".admin-page .table-scroll",
   name: "attendee-statuses",
   run: async (context) => {
     const { page, submit } = context;
-    await page.setViewportSize({ height: 900, width: 720 });
     const reservedId = await createStatus(context, {
       name: "Reserved",
       publicDefault: true,
