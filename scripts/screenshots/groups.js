@@ -85,7 +85,7 @@ main .order-summary-message {
     });
     await openFilledGroupCheckout(context, {
       email: "alex@example.com",
-      expectedText: "you'll owe £30",
+      expectedTotal: "£30",
       groupId,
       name: "Alex Morgan",
       quantities: [

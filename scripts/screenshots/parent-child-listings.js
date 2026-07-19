@@ -2,6 +2,7 @@ import {
   blurActiveElement,
   createListing,
   openFilledListingCheckout,
+  waitForOrderTotal,
 } from "./helpers.js";
 
 export default {
@@ -119,7 +120,18 @@ main .order-summary-message {
     await context.page
       .locator(`[name="child_qty_${festivalPassId}_${quietCampingId}"]`)
       .selectOption("1");
-    await context.page.getByText("you'll owe £120", { exact: false }).waitFor();
+    const parentWidth = await context.page
+      .locator(`[name="quantity_${festivalPassId}"]`)
+      .evaluate((select) => select.getBoundingClientRect().width);
+    const childWidth = await context.page
+      .locator(`[name="child_qty_${festivalPassId}_${generalCampingId}"]`)
+      .evaluate((select) => select.getBoundingClientRect().width);
+    if (parentWidth !== childWidth) {
+      throw new Error(
+        `Quantity controls have different widths: ${parentWidth}px and ${childWidth}px`,
+      );
+    }
+    await waitForOrderTotal(context.page, "£120");
     await blurActiveElement(context.page);
   },
 };

@@ -89,7 +89,7 @@ table {
     });
     await openFilledGroupCheckout(context, {
       email: "jane@example.com",
-      expectedText: "you'll owe £12",
+      expectedTotal: "£12",
       groupId,
       name: "Jane Example",
       quantities: [

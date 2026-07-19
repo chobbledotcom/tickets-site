@@ -1,4 +1,4 @@
-import { createListing, publicPathFor } from "./helpers.js";
+import { createListing, publicPathFor, waitForOrderTotal } from "./helpers.js";
 
 export default {
   css: "",
@@ -41,7 +41,7 @@ export default {
     if (theme !== "dark") {
       throw new Error(`Expected the built-in dark theme, received: ${theme}`);
     }
-    await page.getByText("you'll owe £19", { exact: false }).waitFor();
+    await waitForOrderTotal(page, "£19");
     const focusedTag = await page.evaluate(
       () => document.activeElement?.tagName,
     );

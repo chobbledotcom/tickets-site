@@ -4,6 +4,7 @@ import {
   enableFeature,
   publicPathFor,
   setFormValues,
+  waitForOrderTotal,
 } from "./helpers.js";
 
 export default {
@@ -101,6 +102,6 @@ main .order-summary-message {
     await context.page
       .locator(`[name="quantity_${listingId}"]`)
       .selectOption("1");
-    await context.page.getByText("you'll owe £3", { exact: false }).waitFor();
+    await waitForOrderTotal(context.page, "£3");
   },
 };

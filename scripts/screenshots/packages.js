@@ -3,6 +3,7 @@ import {
   createListing,
   publicPathFrom,
   setFormValues,
+  waitForOrderTotal,
 } from "./helpers.js";
 
 export default {
@@ -132,6 +133,6 @@ main .order-summary-message {
     await page
       .locator(`[name="package_quantity_${groupId}"]`)
       .selectOption("1");
-    await page.getByText("you'll owe £295", { exact: false }).waitFor();
+    await waitForOrderTotal(page, "£295");
   },
 };

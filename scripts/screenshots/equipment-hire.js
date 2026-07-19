@@ -2,6 +2,7 @@ import {
   createListing,
   openFilledListingCheckout,
   setFormValues,
+  waitForOrderTotal,
 } from "./helpers.js";
 
 const BOOKABLE_DAYS = [
@@ -133,6 +134,6 @@ fieldset {
       .locator('[name="date"]')
       .selectOption(await futureFridayFrom(context.page));
     await context.page.locator('[name="day_count"]').selectOption("3");
-    await context.page.getByText("you'll owe £135", { exact: false }).waitFor();
+    await waitForOrderTotal(context.page, "£135");
   },
 };

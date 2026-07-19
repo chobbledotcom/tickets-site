@@ -30,6 +30,12 @@ export const blurActiveElement = (page) =>
     }
   });
 
+export const waitForOrderTotal = (page, amount) =>
+  page
+    .locator(".order-summary-total")
+    .getByText(amount, { exact: true })
+    .waitFor();
+
 export const createAttendee = async (
   { page, submit },
   { listingId, quantity = "1", startDate, values },
@@ -178,7 +184,7 @@ export const createGroup = async (
 
 export const openFilledGroupCheckout = async (
   context,
-  { email, expectedText, groupId, name, quantities },
+  { email, expectedTotal, groupId, name, quantities },
 ) => {
   const { page } = context;
   await page.goto(await publicPathFrom(page, `/admin/groups/${groupId}`));
@@ -187,7 +193,7 @@ export const openFilledGroupCheckout = async (
   for (const [listingId, quantity] of quantities) {
     await page.locator(`[name="quantity_${listingId}"]`).selectOption(quantity);
   }
-  await page.getByText(expectedText, { exact: false }).waitFor();
+  await waitForOrderTotal(page, expectedTotal);
 };
 
 export const createModifier = async (
