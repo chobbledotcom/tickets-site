@@ -21,13 +21,18 @@ blocks:
       Site owners can set default booking days, notice periods, logistics settings, webhooks, redirects and public visibility. A new listing can inherit these values instead of repeating the same setup.
 
       Inherited values remain linked to the default. Changing a default updates every listing that still uses it, while a listing with its own value remains unchanged.
-
+  - type: split-image
+    content: |
       ## Duplicate a complete group
 
       A group and its listings can be copied together. The copy tool can replace text in their names and shift the dates by a set number of days.
 
       This supports a new term of classes, another festival day or a repeated programme with the same prices and booking rules. Links between the copied group and its copied listings remain in place.
-
+    figure_src: /images/screenshots/group-bulk-actions.png
+    figure_alt: Duplicate group form previewing new Spring Printmaking listing names and shifted dates
+    figure_caption: Preview every new name and date before duplicating the group.
+  - type: markdown
+    content: |
       ## Bulk status changes
 
       Selected groups can be activated or deactivated together. This provides one control for opening or closing a collection of related listings.

@@ -14,6 +14,16 @@ blocks:
       # Daily events
 
       Run events on specific dates with per-date capacity, a built-in calendar picker, and configurable holiday and blackout dates.
+  - type: split-image
+    content: |
+      ## Admin calendar
+
+      The admin dashboard includes a calendar view for daily events, so you
+      can see at a glance which dates have bookings, how many places are
+      left, and who's attending each session.
+    figure_src: /images/screenshots/daily-events-calendar.png
+    figure_alt: Admin calendar for Little Acorns Stay and Play, with four of twelve places remaining
+    figure_caption: Check each date's bookings and remaining places from the calendar.
   - type: markdown
     content: |
       ## Perfect for recurring bookings
@@ -43,13 +53,6 @@ blocks:
       Per-day remaining capacity is shown for grouped daily events, so you
       can see how many places are left on each date at a glance.
 
-      ## Admin calendar
-
-      The admin dashboard includes a calendar view for daily events, so you
-      can see at a glance which dates have bookings, how many places are
-      left, and who's attending each session.
-
-      ![The admin calendar for Little Acorns Stay and Play, with four of twelve places remaining](/images/screenshots/daily-events-calendar.png)
   - type: cta
     button:
       text: Get Started

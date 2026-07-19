@@ -14,7 +14,7 @@ blocks:
       # Order widget
 
       Add one JavaScript file to your existing website and its links become add-to-cart buttons. A floating cart shows a running total, and checkout hands off to your hosted booking page.
-  - type: markdown
+  - type: split-image
     content: |
       ## One script, your own buttons
 
@@ -40,6 +40,11 @@ blocks:
       chosen items and quantities filled in, where payment and attendee
       details are collected as normal.
 
+    figure_src: /images/screenshots/order-widget-cart.png
+    figure_alt: A pottery studio website with the ticket cart open over its workshop cards
+    figure_caption: The cart runs on the organiser's website and sends the chosen quantities to the hosted checkout.
+  - type: markdown
+    content: |
       ## Controlled by a domain allowlist
 
       The widget is off by default. You switch it on and list the domains

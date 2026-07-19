@@ -14,7 +14,7 @@ blocks:
       # Custom questions
 
       Add custom questions to your events and collect the information you need from attendees at checkout. Choose from multiple-choice or free-text answers.
-  - type: markdown
+  - type: split-image
     content: |
       ## Collect what you need to know
 
@@ -27,11 +27,12 @@ blocks:
       them to one or more events. For multi-event group bookings, questions
       are automatically deduplicated so attendees only answer each question
       once, even if the same question is assigned to multiple events in the
-      group.
+       group.
 
       All questions are required, keeping your data complete and consistent.
-
-      ![The Saturday Bread Workshop checkout filled in with bread-making experience and food allergy answers](/images/screenshots/custom-questions-checkout.png)
+    figure_src: /images/screenshots/custom-questions-checkout.png
+    figure_alt: Saturday Bread Workshop checkout filled in with bread-making experience and food allergy answers
+    figure_caption: Collect structured choices and free-text details during booking.
   - type: markdown
     content: |
       ## Two answer types

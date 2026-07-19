@@ -14,7 +14,7 @@ blocks:
       # Light & dark themes
 
       Built-in public site with light and dark theme options, so your booking pages match your brand.
-  - type: markdown
+  - type: split-image
     content: |
       ## Choose your look
 
@@ -41,6 +41,9 @@ blocks:
       you prefer links to be underlined all the time, there is an "Underline
       links" toggle on the theme form. When on, every link on the public site
       carries an underline, including navigation.
+    figure_src: /images/screenshots/moonlight-cinema-dark-checkout.png
+    figure_alt: Moonlight Cinema checkout in the built-in dark theme with two tickets for The General and a £19 order total
+    figure_caption: The built-in dark theme keeps every public booking page clear and consistent.
   - type: cta
     button:
       text: Get Started

@@ -14,20 +14,21 @@ blocks:
       # QR code check-ins
 
       Every ticket gets a unique QR code that staff can scan with their phone camera, with no app to install or special hardware needed.
-  - type: markdown
+  - type: split-image
     content: |
       ## How it works
 
       When someone books a ticket, they receive an email with a unique ticket
       URL and QR code. At the event, your staff open the built-in scanner on
-      their phone and scan the code, and the system instantly shows whether
-      the ticket is valid and marks the attendee as checked in.
-
-      ![The mobile scanner showing Alex Morgan checked in with two tickets](/images/screenshots/qr-code-check-in.png)
-
+       their phone and scan the code, and the system instantly shows whether
+       the ticket is valid and marks the attendee as checked in.
       The scanner detects duplicate scans and cross-event mismatches, so you
       can spot problems immediately.
-
+    figure_src: /images/screenshots/qr-code-check-in.png
+    figure_alt: Mobile scanner showing Alex Morgan checked in with two tickets
+    figure_caption: Scan a ticket and see its check-in result immediately.
+  - type: markdown
+    content: |
       ## Event QR codes for posters
 
       Each event also gets its own QR code SVG (at `/ticket/:slug/qr`) that

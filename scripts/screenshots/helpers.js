@@ -23,6 +23,13 @@ export const setFormValues = async (page, formSelector, values) => {
   }
 };
 
+export const blurActiveElement = (page) =>
+  page.evaluate(() => {
+    if (document.activeElement instanceof HTMLElement) {
+      document.activeElement.blur();
+    }
+  });
+
 export const createAttendee = async (
   { page, submit },
   { listingId, quantity = "1", startDate, values },

@@ -14,14 +14,17 @@ blocks:
       # Email templates
 
       Customise confirmation emails with Liquid syntax, including built-in currency and pluralise filters.
-  - type: markdown
+  - type: split-image
     content: |
       ## Full control over emails
 
       Customise the subject line, HTML body, and plain text body of your
       confirmation emails using Liquid template syntax. You can include
       attendee details, event information, ticket URLs, and QR codes
-      exactly where you want them.
+       exactly where you want them.
+    figure_src: /images/screenshots/confirmation-email-template-editor.png
+    figure_alt: Confirmation email template editor with a workshop booking subject and HTML and plain text messages using attendee and ticket variables
+    figure_caption: Edit the subject, HTML message and plain text message from one settings form.
 
       ## Built-in template filters
 

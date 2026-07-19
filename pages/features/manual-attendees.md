@@ -14,6 +14,16 @@ blocks:
       # Manual attendees
 
       Add walk-ins and complimentary tickets, edit booking records, and merge duplicate attendees from the administration area.
+  - type: split-image
+    content: |
+      ## One list for every guest
+
+      Add a name, contact details, and ticket quantity from the admin area.
+      The new record appears in the same event list as online bookings, ready
+      for check-in and export.
+    figure_src: /images/screenshots/manual-attendee-community-supper.png
+    figure_alt: Community Supper attendee list showing Maya Patel with three tickets
+    figure_caption: Add walk-ins and complimentary places straight to the event list.
   - type: markdown
     content: |
       ## Walk-ins and comp tickets

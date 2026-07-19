@@ -14,9 +14,16 @@ blocks:
     # Features
 
     Chobble Tickets covers sales, event operations, reporting, public booking pages and integrations. Every hosted and self-hosted site includes the same product features.
-- type: markdown
+- type: split-image
   content: |
-    ![The Chobble Tickets admin dashboard](/images/screenshots/dashboard.png)
+    ## One place to run your events
+
+    Create listings, manage bookings, check people in, send updates and review
+    your money from one administration area. Every feature is included on
+    hosted and self-hosted sites.
+  figure_src: /images/screenshots/dashboard.png
+  figure_alt: Chobble Tickets administration dashboard showing listings and booking totals
+  figure_caption: Keep event setup, bookings and day-to-day work together.
 - type: features
   intro_content: "## Selling tickets"
   items:

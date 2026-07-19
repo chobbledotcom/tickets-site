@@ -14,7 +14,7 @@ blocks:
       # Parent/child listings
 
       A parent listing can require buyers to choose child listings before they can check out. Useful for required extras, bundled items, and any booking where one thing requires another.
-  - type: markdown
+  - type: split-image
     content: |
       ## When one booking needs another
 
@@ -40,6 +40,11 @@ blocks:
       have to do anything. Children that do not fit the chosen date or
       duration are disabled, so a buyer cannot pick an incompatible option.
 
+    figure_src: /images/screenshots/required-child-listings-checkout.png
+    figure_alt: A festival pass checkout with two passes and one place each in general and quiet camping, totalling £120
+    figure_caption: The child quantities must add up to the number of parent tickets before checkout can continue.
+  - type: markdown
+    content: |
       ## Children are only seen through the parent
 
       A child listing is not advertised on its own. It does not appear in

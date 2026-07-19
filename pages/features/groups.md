@@ -14,10 +14,8 @@ blocks:
       # Event groups
 
       Organise related events together, let attendees book multiple events in a single checkout, and create tiered ticket types with shared capacity.
-  - type: markdown
+  - type: split-image
     content: |
-      ![The Tempest group checkout with two adult tickets and one child ticket, showing £30 owed](/images/screenshots/the-tempest-group-checkout.png)
-
       ## Multi-event bookings
 
       For a festival with multiple stages, a conference with multiple
@@ -28,9 +26,13 @@ blocks:
       combined-event URLs (like `/ticket/event1+event2`), so attendees can
       book multiple events in one form and one payment.
 
-      This is also useful for recurring events like a weekly class, a monthly
-      meetup, or a season of concerts where grouping makes booking easy.
-
+       This is also useful for recurring events like a weekly class, a monthly
+       meetup, or a season of concerts where grouping makes booking easy.
+    figure_src: /images/screenshots/the-tempest-group-checkout.png
+    figure_alt: The Tempest group checkout with two adult tickets and one child ticket, showing £30 owed
+    figure_caption: Let attendees choose several ticket types in one checkout.
+  - type: markdown
+    content: |
       ## Tiered ticket types with shared capacity
 
       Use **max attendees per group** to set a shared capacity cap across

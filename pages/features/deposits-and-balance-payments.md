@@ -27,7 +27,7 @@ blocks:
       A deposit of zero is also valid, which means the customer reserves
       now and pays the whole amount later. The deposit is always capped
       at the full order price.
-  - type: markdown
+  - type: split-image
     content: |
       ## Attendee statuses
 
@@ -40,21 +40,24 @@ blocks:
       status can be flagged as a reservation with its own deposit rule.
       A fresh account starts with a single "Confirmed" status, so
       bookings are paid in full unless you set up reservations.
-  - type: markdown
+    figure_src: /images/screenshots/attendee-statuses.png
+    figure_alt: Attendee statuses table with Reserved, Confirmed and Collected in order, including reservation, public default and paid badges
+    figure_caption: Set clear booking stages, choose the defaults, and arrange them in the order your team uses.
+  - type: split-image
     content: |
       ## The customer payment link
 
       Each reserved booking has a payment link at a tokenised URL. The
       page shows what was booked, what has been paid, and what is left,
       then takes the customer to your payment provider to pay the
-      outstanding balance.
-
-      ![A Weekend Pottery Course balance page showing a £120 order, £30 paid and £90 left to pay](/images/screenshots/deposits-and-balance-payments.png)
-
+       outstanding balance.
       The link is signed, so it cannot be guessed, and it contains no
       personal data. Once the balance is settled, the page reports that
       there is nothing left to pay, and the booking moves to your
       paid status.
+    figure_src: /images/screenshots/deposits-and-balance-payments.png
+    figure_alt: Weekend Pottery Course balance page showing a £120 order, £30 paid and £90 left to pay
+    figure_caption: Customers can see what they paid and settle the exact balance online.
   - type: markdown
     content: |
       ## Balance tracking and offline payments

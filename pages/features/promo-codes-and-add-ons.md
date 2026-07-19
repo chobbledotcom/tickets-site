@@ -14,7 +14,7 @@ blocks:
       # Promo codes and add-ons
 
       Offer promo codes, returning-customer discounts, surcharges and opt-in add-ons at checkout. Stock limits, price rules and a live running total are built in.
-  - type: markdown
+  - type: split-image
     content: |
       ## Discounts and extras at checkout
 
@@ -33,11 +33,12 @@ blocks:
         an optional minimum spend
       - **Returning-customer discounts** - require a minimum number of earlier
         bookings without making attendees create an account
-      - **Tiered pricing** - link a discount or surcharge to a
-        [custom question answer](/features/custom-questions/), so picking
-        "VIP upgrade" changes the price automatically
-
-      ![An Autumn Food Fair checkout with two tickets, an EARLY10 discount code and a parking pass](/images/screenshots/promo-codes-and-add-ons-checkout.png)
+       - **Tiered pricing** - link a discount or surcharge to a
+         [custom question answer](/features/custom-questions/), so picking
+         "VIP upgrade" changes the price automatically
+    figure_src: /images/screenshots/promo-codes-and-add-ons-checkout.png
+    figure_alt: Autumn Food Fair checkout with two tickets, an EARLY10 discount code and a parking pass
+    figure_caption: Combine ticket quantities, optional extras and promo codes in one checkout.
   - type: markdown
     content: |
       ## How pricing works
