@@ -168,7 +168,8 @@ body {
     const deliveryDay = page
       .locator(".delivery-day")
       .filter({ hasText: "Maya Patel" });
-    await deliveryDay.getByText("Willow Marquee Hire", { exact: false })
+    await deliveryDay
+      .getByText("Willow Marquee Hire", { exact: false })
       .waitFor();
     await deliveryDay.getByText("08:30", { exact: false }).waitFor();
     await deliveryDay.getByText("17:00", { exact: false }).waitFor();

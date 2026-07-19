@@ -85,8 +85,7 @@ button {
         unit_price: "18.00",
       },
     });
-    const addAttendeeForm =
-      `form[action="/admin/listing/${listingId}/attendee"]`;
+    const addAttendeeForm = `form[action="/admin/listing/${listingId}/attendee"]`;
     await page.goto(`/admin/listing/${listingId}/attendees`);
     await setFormValues(page, addAttendeeForm, {
       email: "alex@example.com",

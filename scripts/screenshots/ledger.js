@@ -12,9 +12,7 @@ const addListingMoney = async (context, listingId, entryType, amount) => {
   const resultPath = new URL(context.page.url()).pathname;
   if (resultPath !== `/admin/ledger/revenue/${listingId}`) {
     const message = await context.page.locator("main").textContent();
-    throw new Error(
-      `Could not add ${entryType} at ${resultPath}: ${message}`,
-    );
+    throw new Error(`Could not add ${entryType} at ${resultPath}: ${message}`);
   }
 };
 
@@ -150,18 +148,8 @@ body {
       values: { name: "Alex Morgan" },
     });
 
-    await addListingMoney(
-      context,
-      listingId,
-      "manual_listing_income",
-      "75.00",
-    );
-    await addListingMoney(
-      context,
-      listingId,
-      "manual_listing_cost",
-      "30.00",
-    );
+    await addListingMoney(context, listingId, "manual_listing_income", "75.00");
+    await addListingMoney(context, listingId, "manual_listing_cost", "30.00");
 
     await context.page.goto(`/admin/ledger?listing=${listingId}`);
     await context.page

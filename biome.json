@@ -6,7 +6,7 @@
     "useIgnoreFile": true
   },
   "files": {
-    "includes": ["scripts/**/*.js"],
+    "includes": ["scripts/**/*.js", "!!chobble-template"],
     "ignoreUnknown": true
   },
   "formatter": {

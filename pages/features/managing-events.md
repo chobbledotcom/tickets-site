@@ -14,9 +14,16 @@ blocks:
       # Manage events after they go on sale
 
       Schedule dates, give staff separate access, manage attendee changes, check people in and export operational or financial reports.
-  - type: markdown
+  - type: split-image
     content: |
-      ![The event creation form with fields for name, type, description, pricing and booking rules](/images/screenshots/create-event-form.png)
+      ## Create and update listings
+
+      Start with a focused listing type or open every option. Set the date,
+      location, capacity and price from the same form, then return later to
+      update the listing.
+    figure_src: /images/screenshots/summer-sessions-listing-form.png
+    figure_alt: Mobile listing form for Summer Sessions 2026 showing its description, date and Bristol venue
+    figure_caption: Add the details attendees need from one mobile-friendly form.
   - type: features
     items:
       - icon: hugeicons:qr-code

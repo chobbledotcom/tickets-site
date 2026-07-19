@@ -84,7 +84,7 @@ main .running-total {
         unit_price: "35.00",
       },
     });
-    const experienceQuestionId = await createQuestion(context, {
+    await createQuestion(context, {
       answers: ["Beginner", "Experienced baker"],
       displayType: "radio",
       text: "What is your bread-making experience?",

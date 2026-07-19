@@ -14,17 +14,19 @@ blocks:
       # Built-in admin guide
 
       Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
-  - type: markdown
+  - type: split-image
     content: |
-      ![The built-in admin guide with expandable FAQ sections](/images/screenshots/guide.png)
-
       ## Documentation where you need it
 
       The admin guide is built right into your Chobble Tickets installation
       at `/admin/guide`. There is no need to search external docs or
-      bookmarked wiki pages, since help is one click away from any admin
-      screen.
-
+       bookmarked wiki pages, since help is one click away from any admin
+       screen.
+    figure_src: /images/screenshots/admin-guide-listings.png
+    figure_alt: Mobile admin guide with an answer about standard and daily listings expanded
+    figure_caption: Open an answer while you work, without leaving your ticket site.
+  - type: markdown
+    content: |
       ## Covers every feature
 
       The guide walks through every feature: creating events, managing

@@ -14,17 +14,19 @@ blocks:
       # Activity logs
 
       Track all admin actions and booking activity with a built-in audit trail.
-  - type: markdown
+  - type: split-image
     content: |
-      ![The activity log showing a timeline of admin actions](/images/screenshots/activity-log.png)
-
       ## Full audit trail
 
       Every action in the admin panel is logged: bookings, check-ins,
       refunds, event changes, and user management. See who did what and
-      when, which is essential for accountability when multiple team members
-      are managing events.
-
+       when, which is essential for accountability when multiple team members
+       are managing events.
+    figure_src: /images/screenshots/activity-log-summer-arts-fair.png
+    figure_alt: Mobile activity log showing a listing created and Maya Patel added as an attendee
+    figure_caption: See recent bookings, listing changes and settings updates in one audit trail.
+  - type: markdown
+    content: |
       ## Global and per-event views
 
       View the full activity log across your entire installation at

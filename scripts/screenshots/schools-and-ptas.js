@@ -101,8 +101,6 @@ main .order-summary-message {
     await context.page
       .locator(`[name="quantity_${listingId}"]`)
       .selectOption("1");
-    await context.page
-      .getByText("you'll owe £3", { exact: false })
-      .waitFor();
+    await context.page.getByText("you'll owe £3", { exact: false }).waitFor();
   },
 };

@@ -134,10 +134,7 @@ body {
       );
     }
 
-    const unsubscribed = await unsubscribeFromAttendee(
-      context,
-      attendeeIds[0],
-    );
+    const unsubscribed = await unsubscribeFromAttendee(context, attendeeIds[0]);
 
     await page.goto(`/admin/emails?listing=${listingId}`);
     const composeForm = 'form[action="/admin/emails/preview"]';

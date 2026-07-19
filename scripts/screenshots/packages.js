@@ -126,9 +126,7 @@ main .order-summary-message {
     });
     await submit(editForm);
 
-    await page.goto(
-      await publicPathFrom(page, `/admin/groups/${groupId}`),
-    );
+    await page.goto(await publicPathFrom(page, `/admin/groups/${groupId}`));
     await page.locator('[name="name"]').fill("Alex Morgan");
     await page.locator('[name="email"]').fill("alex@example.com");
     await page

@@ -83,7 +83,8 @@ select {
     await context.page
       .getByRole("spinbutton", { name: "Parking pass — Quantity" })
       .fill("1");
-    await context.page.getByText("you'll owe £25.60", { exact: false })
+    await context.page
+      .getByText("you'll owe £25.60", { exact: false })
       .waitFor();
   },
 };

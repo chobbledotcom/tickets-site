@@ -14,14 +14,25 @@ blocks:
       # Multi-user management
 
       Invite team members as owners, managers, editors, or logistics agents so everyone gets their own login instead of sharing passwords.
+  - type: split-image
+    content: |
+      ## Invite your team
+
+      Create a separate account for each person and send them a private invite
+      link. The link expires after seven days.
+
+      Choose the role that matches their work. Delivery agents can also be
+      assigned to a named van, driver or crew.
+    figure_src: /images/screenshots/riverside-events-team.png
+    figure_alt: Mobile users table showing an owner and invites for a manager, editor and delivery agent assigned to Van 2
+    figure_caption: Give each team member their own role and login.
   - type: markdown
     content: |
-      ![The users management page showing team members and their roles](/images/screenshots/users.png)
 
       ## Four roles
 
       Running events often involves a team, so Chobble Tickets lets you
-      invite team members via email with a 7-day expiring access link where
+       invite team members with a 7-day expiring access link where
       each person gets their own account and session.
 
       **Owners** have full access: events, calendar, users, settings, and
@@ -56,9 +67,7 @@ blocks:
       View and manage active sessions from the admin panel, and if someone's
       access needs to be revoked you can do it immediately.
 
-      ![The sessions management page showing active user sessions](/images/screenshots/sessions.png)
-
-      Read the [config documentation](https://chobbledotcom.github.io/tickets/docs/config.ts)
+       Read the [config documentation](https://chobbledotcom.github.io/tickets/docs/config.ts)
       for details on session management and user settings.
   - type: cta
     button:

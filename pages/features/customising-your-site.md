@@ -14,9 +14,19 @@ blocks:
       # Customising your site
 
       Use your own domain, choose themes, customise emails, embed widgets, and make your ticketing site match your brand.
-  - type: markdown
+  - type: split-image
     content: |
-      ![The settings page with options for header image, payment provider, themes, and more](/images/screenshots/settings.png)
+      ## Make the booking site yours
+
+      Set your site title and write your homepage in Markdown. Add your own
+      pages, choose a light or dark theme, upload a header image, or use custom
+      CSS to change colours, fonts and spacing.
+
+      Your settings apply across the public site, booking pages and ticket
+      pages.
+    figure_src: /images/screenshots/oakfield-homepage-editor.png
+    figure_alt: Mobile homepage editor showing the Oakfield Community Events site title and homepage text
+    figure_caption: Set the title and homepage content from one simple form.
   - type: features
     items:
       - icon: hugeicons:globe-02

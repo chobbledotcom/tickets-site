@@ -74,7 +74,7 @@ export const createListing = async (
   }
   await setFormValues(page, formSelector, { name });
   const submittedName = await form.evaluate((element) =>
-    String(new FormData(element).get("name"))
+    String(new FormData(element).get("name")),
   );
   if (submittedName !== name) {
     throw new Error(`Could not fill listing name: ${submittedName}`);
@@ -128,8 +128,7 @@ export const createQuestion = async (
     await submit(answerForm);
   }
   if (assignAll) {
-    const listingsForm =
-      `form[action="/admin/questions/${questionId}/listings"]`;
+    const listingsForm = `form[action="/admin/questions/${questionId}/listings"]`;
     await page
       .locator(`${listingsForm} [name="assign_all"]`)
       .evaluate((input) => Reflect.set(input, "checked", true));
@@ -170,9 +169,7 @@ export const openFilledGroupCheckout = async (
   await page.locator('[name="name"]').fill(name);
   await page.locator('[name="email"]').fill(email);
   for (const [listingId, quantity] of quantities) {
-    await page
-      .locator(`[name="quantity_${listingId}"]`)
-      .selectOption(quantity);
+    await page.locator(`[name="quantity_${listingId}"]`).selectOption(quantity);
   }
   await page.getByText(expectedText, { exact: false }).waitFor();
 };
