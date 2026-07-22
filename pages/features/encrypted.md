@@ -1,7 +1,7 @@
 ---
 title: Encrypted - Chobble Tickets
 meta_title: Encrypted Ticketing - Chobble Tickets
-meta_description: Chobble Tickets encrypts attendee personal data so it can only be read from an admin session unlocked with the organiser's password. Chobble staff cannot read it.
+meta_description: Chobble Tickets encrypts attendee names, contact details, payment references, ticket tokens, and free-text answers for keyed admin sessions.
 permalink: /features/encrypted/
 eleventyNavigation:
   key: Encrypted
@@ -13,27 +13,24 @@ blocks:
     content: |-
       # Encrypted by default
 
-      Chobble Tickets encrypts attendee personal data so it can only be read from an admin session unlocked with the organiser's password. Chobble staff cannot read attendee data, because they do not have the organiser's password. Every plan includes this encryption.
+      Chobble Tickets encrypts attendee names, contact details, payment references, ticket tokens, special instructions, and free-text answers for keyed administration sessions. Each authorised user has separate credentials, and organisers can choose whether to enable a recovery owner account. Every plan includes this encryption.
   - type: markdown
     content: |
       ## How the encryption works
 
-      Chobble Tickets encrypts attendee personal data,
-      including names, emails, phone numbers, addresses, and
-      free-text custom question answers, before saving it to the
-      database. If someone copied the database, they could not read
-      the data without the password-bound key material.
+      Chobble Tickets encrypts names, emails, phone numbers, addresses,
+      payment identifiers, ticket tokens, special instructions, and
+      free-text custom question answers before saving them. Reading these
+      fields requires a keyed administration session.
 
-      The encryption keys themselves are also encrypted. Chobble
-      Tickets uses the organiser's password, a per-account salt, and
-      the server's environment key to unlock the private key for an
-      admin session. The session keeps a wrapped copy of the data key
-      and Chobble Tickets forgets it when the session ends.
+      The encryption keys themselves are also encrypted. Each keyed user
+      has a protected copy of the site's data key. An administration
+      session unwraps that key after login and Chobble Tickets forgets it
+      when the session ends.
 
-      This means a database dump on its own cannot reveal attendee
-      data. A database dump together with the server's environment
-      key still cannot reveal attendee data. The attacker would also
-      need the organiser's password.
+      A database dump on its own cannot reveal these protected fields.
+      Access requires the additional key material held by a keyed
+      administration session.
 
       ## Three layers
 
@@ -42,15 +39,17 @@ blocks:
       - **Personal data** (names, emails, phone numbers, addresses,
         free-text answers) is encrypted with a per-record AES-256-GCM
         key. RSA-OAEP wraps that key with the site owner's public key.
-        The matching private key is encrypted and only an admin session
-        unlocked with the password can use it.
+        The matching private key is encrypted and only a keyed admin
+        session can use it.
       - **Listing and site details** (names, descriptions, locations,
         images, site text, email settings, and payment-provider secrets)
         are encrypted at rest with the server's encryption key.
-      - **Operational numbers** (income, availability, capacity) are
-        stored as plain values, because the database itself has to
-        total them, compare them, and check remaining places. They
-        hold no personal information.
+      - **Booking and operational metadata** (relationships, dates,
+        quantities, selected choice identifiers, income, availability,
+        and capacity) is stored as plain values because the application
+        has to total and compare it. This excludes direct contact fields,
+        but selected identifiers can reveal information if someone also
+        knows the corresponding form choices.
 
       The exact algorithms (RSA-OAEP, AES-256-GCM, and PBKDF2 with
       600,000 iterations) follow current OWASP, NIST, and IETF
@@ -82,29 +81,34 @@ blocks:
         SameSite=Strict, so other websites and scripts cannot read
         or send it.
 
-      ## You hold the keys
+      ## Keyed accounts and recovery
 
-      Attendee data is only readable while an admin is signed in. The
-      server unlocks the keys with the admin password at the start of
-      each session, and discards them when the session ends.
+      Protected attendee fields are readable while a keyed administrator
+      is signed in. The server unlocks the user's wrapped data key at the
+      start of each session and discards it when the session ends.
 
-      Chobble staff cannot read your attendee data on managed
-      hosting, because they do not have the organiser's password. If
-      you self host, the same is true for everyone except the people
-      who hold admin credentials.
+      Chobble staff do not receive the passwords for organiser-created
+      accounts as part of managed hosting. Owners, managers, and
+      logistics agents have their own credentials and key material.
+      [Content-only editors](/features/editors/) receive no attendee
+      data key and cannot decrypt bookings.
 
       When you invite a team member, they set their own password at
       a self-activation link. The invite is single-use, and the keys
       are re-wrapped under the new password as part of joining. The
       person who sent the invite never sees the new password.
 
-      **Important**: if you lose your admin password, the
-      encryption keys cannot be recovered and admin passwords
-      cannot be reset. There is no backdoor and no master key. A
-      lost password means the attendee data on that account
-      becomes permanently unreadable. This is the trade-off for
-      binding the keys to your password rather than to a system
-      Chobble controls.
+      An owner can choose to enable a recovery owner account when the
+      host has configured a valid recovery email address and email
+      delivery works. Chobble Tickets creates separate random
+      credentials, wraps the same site data key for that account, and
+      emails the credentials to the host-configured recovery address.
+      Whoever controls those credentials can decrypt protected attendee
+      fields and invite a replacement owner.
+
+      Organisers need to retain at least one keyed account or the enabled
+      recovery credentials. Losing one person's password does not cause
+      data loss while another keyed account remains available.
 
       Read the full
       [cryptography documentation](https://chobbledotcom.github.io/tickets/docs/crypto.ts)
@@ -120,6 +124,8 @@ blocks:
       - [NIST SP 800-38D](https://csrc.nist.gov/pubs/sp/800/38/d/final) - AES-GCM specification
       - [RFC 7518 §4.3](https://datatracker.ietf.org/doc/html/rfc7518#section-4.3) - RSA-OAEP key wrapping
       - [Chobble Tickets cryptography source](https://chobbledotcom.github.io/tickets/docs/crypto.ts)
+      - [Chobble Tickets recovery owner source](https://github.com/chobbledotcom/tickets/blob/main/src/features/admin/settings-superuser.ts)
+      - [Chobble Tickets attendee schema](https://github.com/chobbledotcom/tickets/blob/main/src/shared/db/migrations/schema/tables-attendees.ts#L71-L107)
 
       ## Algorithms in detail
 

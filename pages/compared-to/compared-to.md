@@ -35,6 +35,9 @@ blocks:
         description: A US payment collection platform with event ticketing. Compare pricing, features, and data ownership.
         name: <a href="/compared-to/cheddar-up/">vs Cheddar Up</a>
       - icon: hugeicons:ticket-01
+        description: A ticketing marketplace whose provider describes itself as a not-for-profit worker co-operative. Compare community tools, operations, data handling, and source licences.
+        name: <a href="/compared-to/dandelion/">vs Dandelion</a>
+      - icon: hugeicons:ticket-01
         description: Mobile-first music ticketing. Compare fees, app requirements, and data ownership.
         name: <a href="/compared-to/dice/">vs DICE</a>
       - icon: hugeicons:ticket-01

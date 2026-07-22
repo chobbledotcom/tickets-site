@@ -20,8 +20,9 @@ blocks:
 
       Every money figure in the platform - listing income, attendee balances,
       modifier revenue, refunds, and booking fees - is derived from a single
-      append-only ledger. There are no separate running totals that can drift
-      out of sync.
+      double-entry ledger. Automated checkout and refund entries are
+      append-only. Owner-created manual entries can be edited or deleted with
+      confirmation controls.
 
       When you view an event's income, an attendee's balance, or a promo
       code's revenue, the figure is calculated from the ledger at that moment.

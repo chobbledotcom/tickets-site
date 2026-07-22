@@ -97,6 +97,15 @@
     "payment_processing_fixed": 0,
     "fee_note": "DICE fees are negotiated per partnership and not publicly disclosed. This estimate uses approximately 10% per ticket (bundled, including payment processing). Actual fees may vary. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p)."
   },
+  "dandelion": {
+    "name": "Dandelion",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Dandelion has no annual subscription or mandatory fee on tickets sold through Dandelion. This calculation includes UK Stripe processing (1.5% + 20p) and assumes one ticket per payment transaction. It excludes Dandelion's normally requested 1% organiser contribution, optional buyer donations, promotion contributions, and event boosts. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p), using the same one-ticket-per-transaction assumption. Sources: dandelion.events/docs/events and current source code (22 July 2026)."
+  },
   "pta_events": {
     "name": "PTA Events",
     "annual_cost": 0,

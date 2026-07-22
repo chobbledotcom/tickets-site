@@ -19,31 +19,32 @@ blocks:
       ## Chobble Tickets (managed hosting)
 
       On Chobble's managed hosting, attendee data is
-      [encrypted at rest](/features/encrypted/) with strong encryption
-      derived from your admin password. When an attendee registers for
-      your event, their personal information is encrypted before it is
-      written to the database. It is only decrypted when you log in and
-      view it.
+      [encrypted at rest](/features/encrypted/) for keyed administration
+      sessions. The encryption page explains which fields are protected and
+      how organisers can choose whether to enable recovery credentials.
 
       Here is exactly who can access your attendees' personal information:
 
       | Who | What they can see | Why |
       |-----|-------------------|-----|
-      | **You** (the organiser) | Names, emails, phone numbers, addresses, custom question answers | You log in and decrypt the data with your password |
+      | **Authorised keyed users** | Names, emails, phone numbers, addresses, custom question answers | Each user logs in with separate credentials that unlock their wrapped copy of the site data key |
       | **Your email provider** (if configured) | Email addresses and names on confirmation emails | Mailgun, Resend, Postmark, or SendGrid delivers the email you choose to send |
       | **Stripe, Square, or SumUp** | Payment card details, email, name | The payment processor handles the transaction |
       | **Chobble managed hosting** | Encrypted records at rest; the application processes decrypted fields when an authorised organiser views them | Chobble runs the hosting but does not use attendee data for advertising or other event marketing |
+
+      If the organiser enables a recovery owner, its credentials are sent to a
+      host-configured recovery address. Whoever controls those credentials is
+      an authorised keyed user and can decrypt the protected attendee fields.
 
       That is the complete list for the public booking site. It contains no
       advertising networks, audience profiling or third-party analytics
       trackers. This marketing website uses privacy-focused GoatCounter
       analytics, which is separate from organisers' booking sites.
 
-      If you run a free event and choose not to collect email addresses,
-      nobody other than you can see your attendee records. The payment
-      processor is not involved because there is no payment. The email
-      provider is not involved because there are no emails. The data sits
-      encrypted in the database, readable only by someone with your password.
+      If you run a free event and choose not to collect email addresses, no
+      payment or email provider receives attendee records. The data sits
+      encrypted in the database and is readable only in a keyed administration
+      session, including an optional recovery owner if one was enabled.
   - type: markdown
     content: |
       ## Chobble Tickets (self-hosted)

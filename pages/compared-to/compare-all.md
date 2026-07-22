@@ -1,7 +1,7 @@
 ---
 title: Compare All Ticketing Platforms - Chobble Tickets
 meta_title: Ticketing Platform Fee Calculator - Compare All Platforms
-meta_description: Compare fees across 17+ ticketing platforms at once. Adjust ticket volume and price to see exactly how much you keep with each provider.
+meta_description: Compare fees across 25+ ticketing options at once. Adjust ticket volume and price to see how much you keep with each provider.
 permalink: /compared-to/compare-all/
 eleventyNavigation:
   key: Compare All
