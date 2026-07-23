@@ -1,8 +1,8 @@
 ---
 competitor_key: bookitbee
 title: Chobble Tickets vs BookitBee
-meta_title: No-Fee Alternative to BookitBee | Chobble Tickets
-meta_description: Chobble Tickets is a no-fee alternative to BookitBee, with a flat fee, no per-ticket costs, and fully open source code.
+meta_title: Chobble Tickets vs BookitBee | Fees and Features
+meta_description: Compare BookitBee and Chobble Tickets on organiser and buyer fees, payment providers, ticketing features, attendee data and self-hosting.
 permalink: /compared-to/bookitbee/
 eleventyNavigation:
   key: vs BookitBee
@@ -92,16 +92,16 @@ blocks:
 
       **Chobble Tickets has features BookitBee doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3
-      - **Self-hosting option** - run the platform on your own servers for
-        free
-      - **Flat pricing** - £50/year or £5/month with no per-ticket fees at all,
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
+      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fee,
         compared to BookitBee's 3.5-6.5% per ticket
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -158,7 +158,7 @@ blocks:
 
       ## When Chobble Tickets is the better choice
 
-      - You want predictable, flat-rate pricing with no per-ticket fees
+      - You want predictable, flat-rate pricing with no per-ticket platform fees
       - Privacy and [encryption](/features/encrypted/) matter to you
       - You value [open source](/features/open-source/) and the ability to
         self-host
@@ -208,6 +208,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Flat pricing with open source code and no lock-in.
-name: No-Fee Alternative to BookitBee | Chobble Tickets
+      Flat pricing with open source code and no per-ticket platform fee.
+name: Chobble Tickets vs BookitBee | Fees and Features
 ---

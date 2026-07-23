@@ -21,7 +21,7 @@ blocks:
 
       Percentage-based platforms cost more the more tickets a festival
       sells. Chobble Tickets charges a flat £50/year or £5/month with
-      [no per-ticket fees](/features/no-per-ticket-fees/), so the price is
+      [no per-ticket platform fees](/features/no-per-ticket-fees/), so the price is
       the same whether the festival sells 100 tickets or 10,000.
 
       Payments go through Stripe, Square, or SumUp directly to the

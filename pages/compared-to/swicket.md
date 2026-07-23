@@ -1,7 +1,7 @@
 ---
 title: Chobble Tickets vs Swicket
 meta_title: Independent Alternative to Swicket & alf.io | Chobble Tickets
-meta_description: Chobble Tickets is an alternative to Swicket and alf.io for community groups, schools, and independent event organisers, with flat pricing, AGPLv3 open source code, and no enterprise contracts.
+meta_description: Compare Chobble Tickets with Swicket and alf.io on managed and self-hosted pricing, enterprise features, deployment, source licences and attendee data.
 permalink: /compared-to/swicket/
 eleventyNavigation:
   key: vs Swicket
@@ -39,6 +39,12 @@ blocks:
 
       So there are two comparisons here: **Chobble Tickets vs alf.io
       self-hosted**, and **Chobble Tickets vs Swicket managed**.
+
+      Other open source comparisons cover
+      [Hi.Events](/compared-to/hi-events/) and
+      [Pretix](/compared-to/pretix/). The
+      [open source page](/features/open-source/) describes Chobble Tickets
+      without a competitor comparison.
 
       ## Pricing comparison
 
@@ -114,11 +120,11 @@ blocks:
 
       **Chobble Tickets has features alf.io / Swicket doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just
         row-level database security
       - **Transparent flat pricing** - £50/year or £5/month managed hosting
-        with no per-ticket fees, no sales calls, no contract negotiation
+        with no per-ticket platform fees, no sales calls, no contract negotiation
       - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
         subscribers get automatic calendar updates
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate your
@@ -160,9 +166,9 @@ blocks:
       ## When Chobble Tickets is the better choice
 
       - You're a community group, school, charity, or independent venue
-      - You want transparent, flat-rate pricing with no per-ticket fees
+      - You want transparent, flat-rate pricing with no per-ticket platform fees
       - Privacy and [encryption](/features/encrypted/) matter to you (with
-        end-to-end encryption rather than only row-level security)
+        organiser-key encryption for protected fields)
       - You want to start immediately without a sales call or contract
       - You want [calendar feeds](/features/rss-and-calendar-feeds/) or
         [RSS](/features/rss-and-calendar-feeds/)
@@ -194,9 +200,10 @@ blocks:
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      community benefit. Chobble Tickets is published under
+      [AGPL-3.0-only](/features/open-source/), and the platform can be
+      self-hosted by anyone without depending on Chobble as a company. The
+      [hosting page](/hosting/) describes its deployment options.
   - type: markdown
     content: |
       ## Sources

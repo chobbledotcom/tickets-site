@@ -116,18 +116,18 @@ blocks:
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
-      - **[QR code tickets](/features/qr-code-check-ins/)** - every
-        attendee gets a unique, scannable QR code for check-in at the door
+      - **[QR code tickets](/features/qr-code-check-ins/)** - each booking
+        gets a unique, scannable QR code for check-in at the door
         (SignUpGenius Tickets has basic ticketing, but the core sign-up
         product does not issue scannable tickets)
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data
+      - **[Encryption at rest](/features/encrypted/)** - attendee data
         is stored with hybrid RSA-OAEP + AES-256-GCM encryption rather
         than plain database rows
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3, no proprietary lock-in
-      - **Self-hosting option** - run the platform on your own servers for
-        free, with no licence fee
-      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, no
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only with no proprietary feature tier
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
+      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fees, no
         matter how many you sell
       - **No ads, ever** - your event pages are clean and professional,
         with no third-party advertisements (SignUpGenius free tier displays
@@ -319,6 +319,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Ticketing and sign-up forms with no ads and no per-ticket fees.
+      Ticketing and sign-up forms with no ads and no per-ticket platform fee.
 name: Open Source Alternative to SignUpGenius | Chobble Tickets
 ---

@@ -1,8 +1,8 @@
 ---
 competitor_key: fixr
 title: Chobble Tickets vs FIXR
-meta_title: Open Source Alternative to FIXR | Chobble Tickets
-meta_description: Looking for an alternative to FIXR? Chobble Tickets offers flat pricing with no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
+meta_title: Chobble Tickets vs FIXR | Fees, Discovery and Features
+meta_description: Compare FIXR and Chobble Tickets on buyer fees, organiser costs, event discovery, attendee marketing, payouts and ticketing features.
 permalink: /compared-to/fixr/
 eleventyNavigation:
   key: vs FIXR
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Chobble Tickets vs FIXR
 
-      FIXR dominates UK student nightlife and event discovery. Here's how a small, open source alternative compares on pricing, features, and data ownership.
+      FIXR is a UK ticketing and event-discovery platform used for student and nightlife events. This page compares it with Chobble Tickets on pricing, features and data handling.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -25,7 +25,7 @@ blocks:
       Enterprise pricing is negotiated separately.
 
       Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
-      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe, Square, or SumUp
+      groups) with [no per-ticket platform fees](/features/no-per-ticket-fees/). You also pay Stripe, Square or SumUp
       processing fees on top. If you sell more than about 77 tickets at
       £10 each in a year, Chobble Tickets is already cheaper.
 
@@ -102,7 +102,7 @@ blocks:
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data
+      - **[Encryption at rest](/features/encrypted/)** - attendee data
         is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -116,8 +116,8 @@ blocks:
         built for events that repeat on a schedule with per-date capacity
       - **[Custom domain support](/features/custom-domain/)** - get a
         nice host-provided subdomain instantly, or point your own domain
-      - **Self-hosting option** - run the platform on your own servers
-        for free
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
       - **[Open source](/features/open-source/)** - inspect, modify, and
         contribute to the code under AGPLv3
       - **[Custom questions](/features/custom-questions/)** - add
@@ -152,7 +152,7 @@ blocks:
 
       ## When Chobble Tickets might be better
 
-      - You want predictable, flat-rate pricing with no per-ticket fees
+      - You want predictable, flat-rate pricing with no per-ticket platform fees
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees or showing
         competing events alongside yours
@@ -200,6 +200,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Flat pricing, encrypted data, and no per-ticket fees.
-name: Open Source Alternative to FIXR | Chobble Tickets
+      Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
+name: Chobble Tickets vs FIXR | Fees, Discovery and Features
 ---

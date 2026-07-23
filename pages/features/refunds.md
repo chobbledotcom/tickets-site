@@ -1,7 +1,7 @@
 ---
 title: Refunds - Chobble Tickets
 meta_title: Refunds - Chobble Tickets
-meta_description: Process individual or bulk refunds directly from the admin panel with automatic payment provider sync.
+meta_description: Issue a full refund for one booking or full refunds in bulk through Stripe, Square or SumUp. Partial refunds use the provider dashboard.
 permalink: /features/refunds/
 eleventyNavigation:
   key: Refunds
@@ -13,15 +13,18 @@ blocks:
     content: |-
       # Refunds
 
-      Process individual or bulk refunds directly from the admin panel, with automatic payment provider sync through Stripe, Square, or SumUp.
+      Issue a full refund for one booking or full refunds in bulk from the admin panel. Stripe, Square or SumUp processes each refund.
   - type: markdown
     content: |
       ## One-click refunds
 
-      Refund individual attendees or process bulk refunds for an entire
+      Fully refund an individual booking or process full refunds for an entire
       event directly from the admin panel. When you issue a refund, the
       payment provider (Stripe, Square, or SumUp) processes it automatically, so
       there's no need to log into a separate dashboard.
+
+      Partial refunds are not issued by Chobble Tickets. Use the payment
+      provider's dashboard when only part of a payment should be returned.
 
       ## Bulk refunds
 
@@ -42,8 +45,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Hassle-free refunds
+      ## Refund bookings
 
-      Process refunds in seconds from the admin panel.
+      Issue full refunds from the admin panel and keep the ledger in sync.
 name: Refunds - Chobble Tickets
 ---

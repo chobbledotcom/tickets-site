@@ -44,7 +44,7 @@ blocks:
         description: Recheck prices, capacity and booking rules after payment, with an automatic refund and operator record when an order cannot be honoured.
         name: <a href="/features/overbooking-prevention/">Payment and capacity checks</a>
       - icon: hugeicons:money-receive-square
-        description: Issue full or partial refunds and keep the payment provider and accounting ledger in sync.
+        description: Issue full refunds for individual bookings or in bulk and keep the payment provider and accounting ledger in sync.
         name: <a href="/features/refunds/">Refunds</a>
       - icon: hugeicons:file-validation
         description: Set <a href="/features/terms-and-conditions/">terms and required contact fields</a>, plus <a href="/features/registration-deadlines/">booking cut-offs and purchase limits</a>.

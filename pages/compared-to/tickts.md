@@ -29,7 +29,7 @@ blocks:
 
       Chobble Tickets charges a flat £50/year or £5/month (£25/year for
       charities, community groups, and schools) with
-      [no per-ticket fees](/features/no-per-ticket-fees/) and no tier
+      [no per-ticket platform fees](/features/no-per-ticket-fees/) and no tier
       upgrades. Every feature is included in the base plan, including the
       ones tickts gates behind Growth or Pro: API access, season passes,
       waitlists, and custom domains.
@@ -129,16 +129,15 @@ blocks:
 
       **Chobble Tickets has features tickts doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee
-        personal data is encrypted at rest with hybrid RSA-OAEP +
-        AES-256-GCM. Only the organiser holds the private key. tickts
-        holds attendee data in its database and can read it; Chobble
-        cannot
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3 with no proprietary add-ons. tickts is closed
-        source
-      - **Self-hosting option** - run the platform on your own servers at
-        no licence fee. tickts is hosted-only
+      - **[Encryption at rest](/features/encrypted/)** - attendee personal
+        data uses hybrid RSA-OAEP + AES-256-GCM and requires an authorised
+        keyed user, including an optional recovery owner if enabled. tickts
+        handles attendee data under its own privacy policy
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only with no proprietary feature tier.
+        tickts is closed source
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee. tickts is hosted-only
       - **Flat pricing with all features included** - £50/year or
         £5/month covers everything, with no tier upgrades for waitlists,
         season passes, API access, or white-label
@@ -198,12 +197,11 @@ blocks:
       on aggregating audience attention to sell to brands.
 
       With Chobble Tickets, [attendee data is encrypted at rest](/features/encrypted/)
-      with the organiser's public key. Chobble staff cannot read it
-      because they do not hold the private key. The platform is open
-      source under AGPLv3, so anyone can run the same code on their own
-      infrastructure. Chobble does not run a marketplace and has no plans
-      to introduce advertising or sponsorship revenue. Its income comes
-      from the flat fee organisers pay.
+      with the site's public key. An authorised keyed user can decrypt it,
+      including an optional recovery owner if enabled. The product is
+      published under AGPL-3.0-only, so it can run on independently selected
+      infrastructure. Chobble does not run an event marketplace or use
+      attendee records for advertising.
   - type: markdown
     content: |
       ## When tickts might be the better choice
@@ -230,10 +228,9 @@ blocks:
     content: |
       ## When Chobble Tickets is the better choice
 
-      - You want [end-to-end encryption](/features/encrypted/) of
-        attendee data
-      - You value [open source](/features/open-source/) code and the
-        ability to self-host at no licence fee
+      - You want [attendee data encrypted at rest](/features/encrypted/)
+      - You value [open source](/features/open-source/) code and the ability to
+        self-host without a Chobble software licence fee
       - You want flat, predictable pricing with no tier upgrades
       - You need [API access](/features/public-api/) on the base plan
         rather than paying for Pro
@@ -294,6 +291,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Sign up for managed hosting at £50/year or £5/month, or self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
 name: Open Source Alternative to tickts | Chobble Tickets
 ---

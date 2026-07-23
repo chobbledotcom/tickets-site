@@ -27,8 +27,8 @@ blocks:
 
       - **Fundraising collections** - accept contributions for a cause with
         a named amount or pay-what-you-want pricing
-      - **Raffle ticket sales** - sell numbered entries online with quantity
-        selection so supporters can buy multiple tickets at once
+      - **Raffle entry sales** - sell entries online with quantity selection,
+        then allocate numbers and run the draw outside Chobble Tickets
       - **Club dues and membership fees** - collect annual or seasonal
         payments from members without an event to attend
       - **School and PTA collections** - book fees, trip contributions,
@@ -54,8 +54,8 @@ blocks:
       ## Buying multiple at once
 
       Purchasable events support quantity selection, so a supporter can buy
-      5 raffle tickets or contribute multiple units in a single checkout.
-      Set a maximum quantity per purchase to keep things fair.
+      five raffle entries or contribute multiple units in a single checkout.
+      Set a maximum quantity per purchase where needed.
 
       ## Pay what you want
 
@@ -79,6 +79,6 @@ blocks:
     content: |-
       ## Start collecting payments
 
-      Sign up for managed hosting at £50/year or £5/month, or self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
 name: Collect Donations & Payments Without Ticketing - Chobble Tickets
 ---

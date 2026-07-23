@@ -49,7 +49,7 @@ blocks:
         description: Let supporters choose their own contribution above a minimum, so supporters can contribute more than the minimum if they choose to.
         name: <a href="/features/stripe-and-square/">Pay what you want</a>
       - icon: hugeicons:ticket-01
-        description: Sell numbered raffle entries with quantity selection, so supporters can buy multiple tickets in a single checkout.
+        description: Sell raffle entries with quantity selection, then allocate numbers and run the draw outside Chobble Tickets.
         name: Raffle ticket sales
       - icon: hugeicons:user-multiple
         description: Invite volunteers and committee members as managers so your whole team can help without sharing one login.
@@ -69,8 +69,9 @@ blocks:
 
       - **Charities and nonprofits** running annual appeals or emergency
         fundraisers, who need to keep as much of what they raise as possible
-      - **PTAs and school groups** collecting trip contributions, book fair
-        payments, and class photo money without spreadsheets and cash
+      - **[PTAs and school groups](/perfect-for/schools-and-ptas/)** collecting
+        trip contributions, book fair payments, and class photo money without
+        spreadsheets and cash
       - **Sports clubs** collecting membership dues, kit deposits, and
         tournament entry fees from members
       - **Community groups** (Scout troops, Rotary clubs, neighbourhood

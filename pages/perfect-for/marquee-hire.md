@@ -1,7 +1,7 @@
 ---
 title: Marquee Hire - Chobble Tickets
 meta_title: Marquee Hire Booking Software - Chobble Tickets
-meta_description: Booking software for marquee hire with multi-day pricing, delivery and set-up scheduling, deposits, site questions at checkout, and no commission.
+meta_description: Booking software for marquee hire with duration pricing, delivery and set-up scheduling, deposits, site questions and no platform commission.
 permalink: /perfect-for/marquee-hire/
 eleventyNavigation:
   key: Marquee Hire
@@ -13,16 +13,15 @@ blocks:
     content: |-
       # Marquee hire booking software
 
-      Take marquee bookings online with per-day pricing, delivery and set-up scheduling, and deposits. [Managed hosting](https://tix.chobble.com/ticket/register) is £50/year or £5/month, with no commission on bookings.
+      Take marquee bookings online with duration pricing, delivery and set-up scheduling, and deposits. [Managed hosting](/pricing/) is £50/year or £5/month, with no Chobble commission on bookings.
   - type: split-icon-links
     content: |
       ## Weekend hires, deposits, and site details
 
-      Each marquee is a [daily listing](/features/daily-events/) with its
-      own capacity per date, so the same marquee cannot be booked twice for
-      the same weekend. With [multi-day hire](/features/multi-day-hire/),
-      the customer chooses how long to keep it, and each day of the hire
-      can have its own price.
+      Each marquee type is a [daily listing](/features/daily-events/) with a
+      capacity per date. With [multi-day hire](/features/multi-day-hire/), the
+      customer chooses how long to keep it and the complete date range counts
+      against capacity. You set a total price for each offered duration.
 
       Marquee hires are large bookings, so
       [deposits](/features/deposits-and-balance-payments/) matter. Take
@@ -33,8 +32,8 @@ blocks:
       at checkout, such as ground type, access width, and whether the
       ground can be pegged. Customers agree to your
       [terms and conditions](/features/terms-and-conditions/) before they
-      can book, and [postcode lookup](/features/postcode-lookup/) fills in
-      the site address so your crew is not sent to a mistyped street.
+      can book, and [postcode lookup](/features/postcode-lookup/) reduces the
+      amount of address information the customer needs to type.
     figure_items:
       - icon: hugeicons:calendar-add-01
         text: Customers choose hire dates and duration.
@@ -74,7 +73,7 @@ blocks:
     intro_content: "## Features for marquee hire"
     items:
       - icon: hugeicons:calendar-add-01
-        description: Customers pick how many days to hire, with a separate price for each day and availability checked across the whole range.
+        description: Customers pick how many days to hire, with a total price for each offered duration and capacity checked across the whole range.
         name: <a href="/features/multi-day-hire/">Multi-day hire</a>
       - icon: hugeicons:delivery-truck-02
         description: Schedule set-up and teardown, assign each to a crew, and track every job to done.
@@ -91,6 +90,6 @@ blocks:
     content: |-
       ## Put your marquees online
 
-      Sign up for managed hosting at £50/year or £5/month with no per-booking fees. Payments go directly to your own Stripe, Square, or SumUp account. For other kinds of hire stock, see the [equipment hire](/perfect-for/equipment-hire/) page.
+      Sign up for managed hosting at £50/year or £5/month with no Chobble per-booking platform fee. Payments go directly to your own Stripe, Square or SumUp account. For other kinds of hire stock, see the [equipment hire](/perfect-for/equipment-hire/) page.
 name: Marquee Hire Booking Software - Chobble Tickets
 ---

@@ -92,13 +92,13 @@ blocks:
 
       **Chobble Tickets has features Resova doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
         plain database rows
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3
-      - **Self-hosting option** - run the platform on your own servers for
-        free, with no licence fee and no per-booking cap
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee or application booking cap
       - **Flat pricing** - £50/year or £5/month with no per-booking caps and
         no overage fees
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
@@ -153,11 +153,11 @@ blocks:
       product, so you depend on the company continuing to operate and on
       paying your subscription every month.
 
-      With Chobble Tickets, attendee data is encrypted at rest, so even
-      someone with database access cannot read names, emails, or custom
-      question answers without your private key. The entire platform is
-      open source under AGPLv3, so if Chobble ever shut down, you could
-      run the exact same software on your own servers.
+      With Chobble Tickets, attendee data is encrypted at rest. Stored names,
+      emails and free-text answers require credentials for an authorised keyed
+      user, including an optional recovery owner if enabled. The complete
+      product source is published under AGPL-3.0-only and can run on
+      independently selected infrastructure.
 
       ## When Resova might be the better choice
 

@@ -1,7 +1,7 @@
 ---
 title: Pricing - Chobble Tickets
 meta_title: Event Ticketing Software Pricing | Chobble Tickets
-meta_description: Managed event ticketing for £50 a year or £5 a month with no per-ticket platform fees. All features, events and tickets are included. Self-hosting is free.
+meta_description: Managed event ticketing costs £50 a year or £5 a month with no per-ticket platform fee. Self-hosting has no Chobble software licence fee.
 permalink: /pricing/
 eleventyNavigation:
   key: Pricing
@@ -38,7 +38,7 @@ blocks:
     intro_content: |
       ## Choose how to run Chobble Tickets
 
-      Every option uses the complete open source product. There are no paid feature tiers.
+      Every option uses the [complete open source product](/features/open-source/). There are no paid feature tiers.
     items:
       - icon: hugeicons:calendar-03
         name: Annual hosting, £50
@@ -50,10 +50,10 @@ blocks:
         name: Discounted annual hosting, £25
         description: Charities, community groups, artists and musicians receive 50% off annual hosting. The discount does not apply to monthly billing.
       - icon: hugeicons:source-code
-        name: Self-hosting, free
-        description: The software is free under the AGPL-3.0 licence. You arrange the infrastructure, deployment, updates and support.
+        name: Self-hosting, no Chobble licence fee
+        description: Chobble charges no licence fee for the AGPL-3.0-only software. You arrange and pay for infrastructure, deployment, updates and support.
       - icon: hugeicons:server-stack-01
-        name: <a href="/hosting/#run-hosting-for-several-organisers">Host it for others</a>
+        name: <a href="/hosting/">Host it for others</a>
         description: Technical providers can use the built-in site builder and update channels to run separate sites for organisers they support.
       - icon: hugeicons:customer-service-02
         name: <a href="https://chobble.com/contact">Hire Chobble as a consultant</a>

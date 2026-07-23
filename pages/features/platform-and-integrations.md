@@ -17,7 +17,7 @@ blocks:
   - type: features
     items:
       - icon: hugeicons:source-code
-        description: AGPLv3 licensed with every feature included and no open-core model.
+        description: Published under AGPL-3.0-only with every product feature included and no proprietary feature tier.
         name: <a href="/features/open-source/">Open source</a>
       - icon: hugeicons:lock
         description: Personal data is encrypted before it is stored. The technical documentation explains the RSA-OAEP and AES-256-GCM design.
@@ -29,8 +29,8 @@ blocks:
         description: Set retention for orphaned records, erase contact history and export attendee records.
         name: <a href="/features/privacy-controls/">Privacy controls</a>
       - icon: hugeicons:global
-        description: Chobble is a UK company and managed hosting uses EU infrastructure. Payment and optional email providers process data under their own terms.
-        name: <a href="/features/european/">European</a>
+        description: Chobble is a UK company using Bunny managed infrastructure. Database replicas and optional providers operate in several jurisdictions.
+        name: <a href="/features/european/">Hosting and data</a>
       - icon: hugeicons:smart-phone-01
         description: Attendees can download passes for Apple Wallet or Google Wallet and present their ticket at the door.
         name: <a href="/features/apple-wallet/">Apple and Google Wallet</a>

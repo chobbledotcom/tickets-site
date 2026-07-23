@@ -2,7 +2,7 @@
 competitor_key: ticketek
 title: Chobble Tickets vs Ticketek
 meta_title: Independent Alternative to Ticketek | Chobble Tickets
-meta_description: "Chobble Tickets vs Ticketek: flat pricing with no per-ticket fees, encrypted attendee data, and no exclusive venue contracts."
+meta_description: Compare Chobble Tickets and Ticketek on buyer and organiser fees, reserved seating, event discovery, attendee data and ticketing features.
 permalink: /compared-to/ticketek/
 eleventyNavigation:
   key: vs Ticketek
@@ -39,7 +39,7 @@ blocks:
       [exceed the ticket price itself](https://www.sbs.com.au/news/article/ticketek-service-fee-cost-more-than-childs-ticket-to-the-cricket/ei66dfk3t).
 
       Chobble Tickets charges a flat £50/year or £5/month (approximately AU$95) with
-      [no per-ticket fees](/features/no-per-ticket-fees/). Payment processing
+      [no per-ticket platform fees](/features/no-per-ticket-fees/). Payment processing
       fees from Stripe, Square, or SumUp are the only other cost, and they go
       directly to the payment processor.
   - type: include
@@ -103,16 +103,16 @@ blocks:
       **Chobble Tickets has features Ticketek doesn't offer small
       organisers:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM (notable given
         Ticketek's
         [2024 data breach](https://ia.acs.org.au/article/2024/30m-users--data-leaked-after-ticketek-breach.html)
         that exposed up to 30 million users' data)
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3
-      - **Self-hosting option** - run the platform on your own servers for
-        free
-      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, compared
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
+      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fees, compared
         to Ticketek's ~$7–8 service fee per transaction
       - **Full data ownership** - you control your attendee data, not
         Ticketek
@@ -251,6 +251,6 @@ blocks:
     content: |-
       ## Independent ticketing
 
-      Flat pricing with no per-ticket fees.
+      Flat pricing with no per-ticket platform fee.
 name: Independent Alternative to Ticketek | Chobble Tickets
 ---

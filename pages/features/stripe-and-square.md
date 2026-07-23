@@ -18,10 +18,11 @@ blocks:
     content: |
       ## Three payment providers, your choice
 
-      Chobble Tickets supports Stripe, Square, and SumUp as payment providers.
-      Connect your existing account by adding your API keys in the settings,
-      and the platform handles checkout, payment confirmation, and refund
-      processing automatically.
+      Chobble Tickets supports Stripe, Square and SumUp as payment providers,
+      with one active provider per site. Connect your existing account by
+      adding its credentials in the settings. Paid bookings continue to the
+      provider's hosted checkout, and Chobble Tickets records payment
+      confirmation and refund results.
 
       ## Flexible pricing
 
@@ -35,9 +36,9 @@ blocks:
 
       ## Automatic refunds
 
-      When you process a refund from the admin panel, the payment provider
-      refund happens automatically. There is no need to log into your
-      payment provider separately. The refund is handled in one place.
+      Chobble Tickets can issue a full refund for one booking or full refunds
+      in bulk. The selected payment provider processes each refund and reports
+      the result. Partial refunds must be handled in the provider's dashboard.
   - type: markdown
     content: |
       ## References

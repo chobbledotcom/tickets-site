@@ -1,7 +1,7 @@
 ---
-title: Perfect For - Chobble Tickets
-meta_title: Perfect For - Chobble Tickets
-meta_description: Chobble Tickets works for charity events, kids parties, equipment hire, attractions, classes, schools, sports clubs, festivals, theatre, and more.
+title: Ticketing Software for Events, Classes and Hire - Chobble Tickets
+meta_title: Ticketing Software for Events, Classes and Hire | Chobble Tickets
+meta_description: See how Chobble Tickets handles charity events, school fundraisers, classes, equipment hire, festivals, theatre and other bookings.
 permalink: /perfect-for/
 eleventyNavigation:
   key: Perfect For
@@ -23,10 +23,10 @@ blocks:
         description: Simple booking for parents where you can collect the info you need, send confirmations, and check guests in at the door.
         name: <a href="/perfect-for/kids-parties/">Kids parties</a>
       - icon: hugeicons:baby-01
-        description: Daily session booking where parents pick a day from a calendar, with per-date capacity and no per-ticket fees on low-cost sessions.
+        description: Daily session booking where parents pick a day from a calendar, with per-date capacity and no Chobble per-ticket platform fee.
         name: <a href="/perfect-for/stay-and-play/">Stay and play</a>
       - icon: hugeicons:music-note-01
-        description: Sell tickets directly to fans and keep all the revenue, with no platform taking a cut of every sale.
+        description: Sell tickets through your own payment account with no Chobble per-ticket platform fee. Payment-provider charges remain separate.
         name: <a href="/perfect-for/music-concerts/">Music concerts</a>
       - icon: hugeicons:megaphone-01
         description: Privacy-first ticketing with encrypted attendee data, so your supporters' information stays protected.
@@ -50,7 +50,7 @@ blocks:
         description: Recurring sessions with per-date capacity, registration deadlines, and bulk email to the whole class list.
         name: <a href="/perfect-for/classes-and-courses/">Classes & courses</a>
       - icon: hugeicons:school-01
-        description: No per-ticket fees on low-priced tickets, encrypted attendee data, and a 50% discount for PTAs and community groups.
+        description: No Chobble per-ticket platform fee, attendee data encrypted at rest and a 50% annual discount for PTAs and community groups.
         name: <a href="/perfect-for/schools-and-ptas/">Schools & PTAs</a>
       - icon: hugeicons:football
         description: Match tickets, training session bookings, membership dues, and a ledger the treasurer can reconcile.
@@ -59,7 +59,7 @@ blocks:
         description: Multi-day passes, camping add-ons via parent/child listings, and promo code allocations with stock limits.
         name: <a href="/perfect-for/festivals/">Festivals</a>
       - icon: hugeicons:mask-theater-01
-        description: Multiple performance dates, QR check-ins front of house, and no booking fee added to attendees' totals.
+        description: Multiple performance dates, QR check-ins front of house and no Chobble per-ticket platform fee.
         name: <a href="/perfect-for/theatre-and-performing-arts/">Theatre & performing arts</a>
   - type: cta
     button:
@@ -70,6 +70,6 @@ blocks:
     content: |-
       ## Get started
 
-      Sign up for managed hosting at £50/year or £5/month, or grab the source code from GitHub and self-host for free.
-name: Perfect For - Chobble Tickets
+      Sign up for managed hosting at £50/year or £5/month, or run the source code without paying Chobble a licence fee.
+name: Ticketing Software for Events, Classes and Hire | Chobble Tickets
 ---

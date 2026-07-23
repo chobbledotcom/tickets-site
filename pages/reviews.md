@@ -1,7 +1,7 @@
 ---
-title: Reviews - Chobble Tickets
-meta_title: Reviews - Chobble Tickets
-meta_description: Reviews from event organisers who use Chobble Tickets.
+title: Chobble Tickets Reviews from Event Organisers
+meta_title: Chobble Tickets Reviews from Event Organisers
+meta_description: Read independent and Google reviews from event organisers using Chobble Tickets for ticket sales, QR check-in and event administration.
 permalink: /reviews/
 eleventyNavigation:
   key: Reviews
@@ -75,5 +75,5 @@ blocks:
       ## Try it yourself
 
       See why event organisers are switching to Chobble Tickets.
-name: Reviews - Chobble Tickets
+name: Chobble Tickets Reviews from Event Organisers
 ---

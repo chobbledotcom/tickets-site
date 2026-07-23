@@ -1,7 +1,7 @@
 ---
-title: Open Source - Chobble Tickets
-meta_title: Open Source Ticketing - Chobble Tickets
-meta_description: Chobble Tickets is fully open source under AGPLv3 with every feature included and no open-core bait-and-switch.
+title: Open Source Event Ticketing - Chobble Tickets
+meta_title: Open Source Event Ticketing | Chobble Tickets
+meta_description: Chobble Tickets publishes its complete product source under AGPL-3.0-only. Managed hosting and self-hosted deployments use the same product code.
 permalink: /features/open-source/
 eleventyNavigation:
   key: Open Source
@@ -11,69 +11,68 @@ blocks:
   - type: hero
     class: gradient
     content: |-
-      # Fully open source
+      # Open source event ticketing
 
-      Every line of code is public and every feature is included, licensed under AGPLv3 with no proprietary extensions.
+      The complete product source is published under AGPL-3.0-only. Managed hosting and self-hosted deployments use the same product code.
   - type: markdown
     content: |
       ## The full codebase is open source
 
-      Some ticketing platforms release only part of their code under an open
-      source licence, then charge for the features you need. The
-      hosted version and the self-hosted version of Chobble Tickets are exactly
-      the same code.
-
-      The entire codebase is on
-      [GitHub](https://github.com/chobbledotcom/tickets) under the AGPLv3
-      licence. You can read it, fork it, modify it, and run it yourself.
+      The product repository is on
+      [GitHub](https://github.com/chobbledotcom/tickets) under the
+      AGPL-3.0-only licence. The licence permits people to read, fork, modify
+      and run the software, subject to its terms. There is no separate
+      proprietary product tier.
 
       ## Built by a community interest company
 
-      Chobble is a community interest company (CIC), not a VC-funded startup.
-      There are no investors expecting a return, and no incentive to make
-      switching away difficult.
+      Chobble began as Stefan Burke's freelance business in 2024. Chobble CIC
+      was incorporated in 2026 and now operates Chobble Tickets. A community
+      interest company has an asset lock and must report on how its work
+      benefits the community.
+
+      Chobble receives income from managed hosting and technical work.
+      It does not carry advertising or sell attendee data.
 
       ## Three ways to deploy
 
       ### 1. Managed hosting
 
-      [Sign up](https://tix.chobble.com/ticket/register) and Chobble handles
-      everything (infrastructure, updates, backups, and support) for £50/year
-      or £5/month (50% off the annual rate for charities, community groups,
-      artists, and musicians). No per-ticket fees, unlimited events,
-      unlimited tickets.
+      Chobble handles infrastructure, updates, backups and support for
+      [£50/year or £5/month](/pricing/). Charities, community groups, artists
+      and musicians receive 50% off the annual rate. There is no per-ticket
+      platform fee or application limit on events and tickets.
 
       ### 2. GitHub-controlled deployments
 
       For extra security, fork the
       [repository](https://github.com/chobbledotcom/tickets/fork) on GitHub.
-      We manage the infrastructure, but you control exactly when code updates
-      are deployed through GitHub Actions. No update can reach your instance
-      without your explicit approval.
+      Chobble manages the infrastructure, while the repository owner controls
+      when code updates are deployed through GitHub Actions.
 
-      ### 3. Fully self-hosted (free)
+      ### 3. Self-hosted
 
-      Deploy on any Deno-compatible environment with one-click deploy buttons
-      for DigitalOcean, Heroku, Koyeb, and Render (plus Fly.io, Docker, and
-      Bunny Edge Scripting). You own and control everything. Follow the
+      Run Chobble Tickets on Bunny Edge, Deno Deploy or a Docker-capable host.
+      Chobble charges no software licence fee for self-hosting, but the
+      operator pays for any infrastructure and services it uses. Follow the
       [README](https://github.com/chobbledotcom/tickets) to get started, or
       browse the
       [technical documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html)
       for implementation details.
 
-      Unlike other self-hosted ticketing platforms that require you to set up
-      and maintain a traditional server, Chobble Tickets compiles to a single
-      JavaScript file that runs on [Bunny.net](https://bunny.net) edge scripts
-      with a Bunny.net edge database. There is no server to manage, no scaling
-      to worry about, and no database replication to configure, since the
-      Bunny platform handles all of that. This makes self-hosting Chobble
-      Tickets closer to deploying a static site than running a web
-      application.
+      The recommended Bunny deployment compiles the application to a single
+      JavaScript file for a Bunny Edge Script and uses a Bunny database. Docker
+      deployments can use local SQLite or a remote libSQL database. The
+      [hosting page](/hosting/) describes the managed and self-hosted options.
+
+      The comparison pages cover other open source ticketing systems, including
+      [Hi.Events](/compared-to/hi-events/), [Pretix](/compared-to/pretix/) and
+      [Swicket with alf.io](/compared-to/swicket/).
   - type: markdown
     content: |
       ## References
 
-      - [AGPLv3 licence text](https://www.gnu.org/licenses/agpl-3.0.en.html) - the licence Chobble Tickets uses
+      - [AGPL version 3 licence text](https://www.gnu.org/licenses/agpl-3.0.en.html) - the licence Chobble Tickets uses without the "or later" option
       - [Chobble Tickets on GitHub](https://github.com/chobbledotcom/tickets)
       - [Bunny.net Edge Scripting](https://bunny.net/blog/introducing-bunny-edge-scripting-a-better-way-to-build-and-deploy-applications-at-the-edge/) - the serverless platform used for self-hosting
       - [Deno runtime](https://deno.com/) - the JavaScript runtime Chobble Tickets is built on
@@ -86,6 +85,6 @@ blocks:
     content: |-
       ## Get started
 
-      Sign up for managed hosting at £50/year or £5/month, or grab the source from GitHub and self-host for free.
-name: Open Source Ticketing - Chobble Tickets
+      Sign up for managed hosting at £50/year or £5/month, or use the source code to run a self-hosted deployment.
+name: Open Source Event Ticketing | Chobble Tickets
 ---

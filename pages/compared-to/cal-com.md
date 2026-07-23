@@ -105,10 +105,10 @@ blocks:
       is charged separately at the standard rate (1.5% + 20p in the UK).
 
       Chobble Tickets is a flat **£50/year (or £5/month)** for the whole
-      site, with [no per-ticket fees](/features/no-per-ticket-fees/) and no
+      site, with [no per-ticket platform fees](/features/no-per-ticket-fees/) and no
       per-user charge. Community groups, charities, and schools pay £25/year
       on the annual plan. Stripe processing is charged separately at the
-      standard 1.5% + 20p. Self-hosting is free.
+      standard 1.5% + 20p. Self-hosting has no Chobble licence fee.
 
       ### Which one is cheaper depends on what you're doing
 
@@ -210,7 +210,7 @@ blocks:
         sold-out handling and 5-minute payment holds to prevent
         double-booking
       - **[QR code tickets and check-in](/features/qr-code-check-ins/)** -
-        every attendee gets a unique scannable QR code, with a
+        each booking gets a unique scannable QR code, with a
         check-in interface for the door
       - **[Apple and Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to the Wallet app on their phone
@@ -267,20 +267,17 @@ blocks:
       with the data. Like most hosted SaaS platforms, Cal.com staff can
       access booking data on the server.
 
-      Chobble Tickets encrypts attendee data with a key derived from
-      your admin password. The data is decrypted only when you log in
-      and view it. A database dump on its own is not enough to read
-      attendee data, and a database dump combined with the server's
-      environment encryption key is still not enough, since an attacker
-      would also need your password. Chobble staff cannot read your
-      attendee data, even on managed hosting. The full code is public,
-      so you can verify how the encryption works.
+      Chobble Tickets encrypts attendee data with a site data key. Each keyed
+      user's copy of that key is protected with credentials derived from their
+      password. A database dump combined with the server's environment key is
+      not enough to read those protected fields without keyed credentials.
+      An optional recovery owner can also decrypt them if the organiser enables
+      it. The product source documents how this works.
 
-      The trade-off is that there is no password reset and no
-      backdoor. If you lose your password, the attendee data tied to
-      that account becomes permanently unreadable.
+      Without another keyed owner or an enabled recovery owner, losing the last
+      keyed password makes the protected attendee data inaccessible.
 
-      Chobble Tickets can also be self-hosted under AGPLv3. The same
+      Chobble Tickets can also be self-hosted under AGPL-3.0-only. The same
       software that runs tix.chobble.com runs on a self-hosted server.
       There is no separate "community version" with rewritten core
       systems.
@@ -356,12 +353,9 @@ blocks:
       a private owner. They can only be transferred to another
       asset-locked body, such as another CIC or a registered charity.
 
-      **AGPLv3 with no premium tiers.** Every line of code that runs
-      at tix.chobble.com is licensed under AGPLv3. There is no "open
-      core" model where features are held back behind a commercial
-      licence. Anyone can fork the code, modify it, and run it
-      themselves, provided they release their changes under the same
-      licence.
+      **AGPL-3.0-only with no proprietary feature tier.** The complete product
+      source is published under AGPL-3.0-only. Anyone can fork, modify and run
+      it subject to the licence terms.
 
       **Reinvested profits.** A CIC must reinvest its profits in its
       stated mission (building software for small organisations and

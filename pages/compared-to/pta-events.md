@@ -1,8 +1,8 @@
 ---
 competitor_key: pta_events
 title: Chobble Tickets vs PTA Events
-meta_title: Affordable Alternative to PTA Events for School Ticketing | Chobble Tickets
-meta_description: Chobble Tickets is an alternative to PTA Events for school and PTA ticketing, with flat pricing from £25/year and no per-ticket fees.
+meta_title: PTA Events Alternative for School Ticketing | Chobble Tickets
+meta_description: Compare PTA Events and Chobble Tickets on school event fees, QR entry, volunteer sign-ups, fundraising tools, attendee data and annual pricing.
 permalink: /compared-to/pta-events/
 eleventyNavigation:
   key: vs PTA Events
@@ -48,7 +48,7 @@ blocks:
       nothing, though this means attendees pay more per ticket.
 
       With Chobble Tickets, it's a flat £50/year or £5/month (£25/year for charities and
-      community groups on the annual plan), with [no per-ticket fees](/features/no-per-ticket-fees/) or platform commission. You
+      community groups on the annual plan), with [no per-ticket platform fee](/features/no-per-ticket-fees/) or commission. You
       only pay Stripe, Square, or SumUp processing. Whether you sell 50 tickets or
       5,000, the cost stays the same.
 
@@ -99,8 +99,10 @@ blocks:
         reports to help claim back 25% from HMRC on eligible donations
         (the PTA is responsible for submitting claims to HMRC)
 
-      Chobble Tickets does not have any of these fundraising tools, since it
-      is focused purely on event ticketing.
+      Chobble Tickets can collect donations and sell raffle entries through
+      [purchasable events](/features/purchasable-events/), but it does not
+      allocate raffle numbers or winners, run auctions or 100 clubs, or
+      provide PTA Events' dedicated Gift Aid reports.
 
       ### Volunteer management
 
@@ -170,18 +172,19 @@ blocks:
 
       ## When Chobble Tickets makes more sense
 
-      If your PTA mainly runs ticketed events and basic volunteer sign-ups,
+      If your PTA mainly needs [school event ticketing](/perfect-for/schools-and-ptas/)
+      and basic volunteer sign-ups,
       and doesn't need auctions, raffles, or advanced volunteer task
       management, Chobble Tickets is simpler and cheaper. At
-      £25/year for community groups with no per-ticket fees, the savings
+      £25/year for community groups with no per-ticket platform fees, the savings
       add up quickly, especially for popular events where percentage fees
       eat into your fundraising total.
 
       It's also a better fit if you care about data privacy and encryption,
       want to use your own domain, need API integrations or webhook
       automations, or want a platform that works for non-school events too.
-      And because it's open source, you can self-host for free if you want
-      full control.
+      Because the product is open source, you can self-host without paying
+      Chobble a licence fee.
   - type: markdown
     content: |
       ## Who owns PTA Events?
@@ -225,6 +228,6 @@ blocks:
     content: |-
       ## Simple school event ticketing
 
-      Flat pricing with no per-ticket fees, so more of your fundraising goes to the cause.
-name: Affordable Alternative to PTA Events for School Ticketing | Chobble Tickets
+      Flat pricing with no per-ticket platform fee. Payment-provider charges remain separate.
+name: PTA Events Alternative for School Ticketing | Chobble Tickets
 ---

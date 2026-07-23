@@ -1,7 +1,7 @@
 ---
 title: Sports Clubs - Chobble Tickets
 meta_title: Sports Club Ticketing & Membership Payments - Chobble Tickets
-meta_description: Match day tickets, membership payments, and training session bookings for sports clubs, with no per-ticket fees and a flat £50/year price.
+meta_description: Match-day tickets, membership payments and training-session bookings for sports clubs, with £50 annual hosting and no Chobble per-ticket platform fee.
 permalink: /perfect-for/sports-clubs/
 eleventyNavigation:
   key: Sports Clubs
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Ticketing for sports clubs
 
-      Sell match day tickets, collect membership payments, and take training session bookings for a flat £50/year, with no per-ticket fees.
+      Sell match day tickets, collect membership payments and take training session bookings for a flat £50/year, with no Chobble per-ticket platform fee.
   - type: split-icon-links
     reveal_content: left
     content: |

@@ -1,8 +1,8 @@
 ---
 competitor_key: eventim_light
 title: Chobble Tickets vs EVENTIM.Light
-meta_title: Open Source Alternative to EVENTIM.Light | Chobble Tickets
-meta_description: Chobble Tickets is an alternative to EVENTIM.Light, with flat pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
+meta_title: Chobble Tickets vs EVENTIM.Light | Fees and Features
+meta_description: Compare EVENTIM.Light and Chobble Tickets on organiser and buyer fees, payments, event discovery, attendee data, ticketing features and self-hosting.
 permalink: /compared-to/eventim-light/
 eleventyNavigation:
   key: vs EVENTIM.Light
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Chobble Tickets vs EVENTIM.Light
 
-      EVENTIM.Light is the self-service ticketing platform from Europe's largest ticketing company. Here's how a small, open source alternative compares on pricing, features, and data ownership.
+      EVENTIM.Light is the self-service platform from CTS EVENTIM. This page compares it with Chobble Tickets on pricing, features and data handling.
   - type: markdown
     content: |
       ## What is EVENTIM.Light?
@@ -43,7 +43,7 @@ blocks:
       ticket, it's **£2.40**. Those numbers climb fast at volume.
 
       Chobble Tickets is a flat **£50/year or £5/month** (£25/year for charities and community
-      groups on the annual plan) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe, Square, or SumUp
+      groups on the annual plan) with [no per-ticket platform fees](/features/no-per-ticket-fees/). You also pay Stripe, Square or SumUp
       processing fees (1.5% + 20p) on top. If you sell more than about 65
       tickets at £15 in a year, Chobble Tickets is already cheaper.
 
@@ -126,14 +126,14 @@ blocks:
     content: |
       **Chobble Tickets has features EVENTIM.Light doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
         in a database
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3, fully auditable, no proprietary lock-in
-      - **Self-hosting option** - run the platform on your own servers for
-        free, with no licence fee
-      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, no matter
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only with no proprietary feature tier
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
+      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fees, no matter
         how many you sell
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -250,7 +250,7 @@ blocks:
       ## When Chobble Tickets is the better choice
 
       - You already have your own audience and don't need a discovery platform
-      - You want predictable, flat-rate pricing with no per-ticket fees
+      - You want predictable, flat-rate pricing with no per-ticket platform fees
       - Privacy and encryption matter to you
       - You want a [public API](/features/public-api/) or
         [webhooks](/features/webhooks/) for custom integrations (EVENTIM.Light
@@ -310,6 +310,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Flat pricing, encrypted data, and no per-ticket fees.
-name: Open Source Alternative to EVENTIM.Light | Chobble Tickets
+      Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
+name: Chobble Tickets vs EVENTIM.Light | Fees and Features
 ---

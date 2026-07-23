@@ -1,7 +1,7 @@
 ---
 title: Your Public Website - Chobble Tickets
 meta_title: Your Public Website - Chobble Tickets
-meta_description: Every Chobble Tickets site includes a public website with a homepage, contact page, and your own content pages, or you can switch it off entirely.
+meta_description: Enable a public website with a homepage, listings, news, content pages and an optional contact page, or switch it off and use direct booking links.
 permalink: /features/your-public-website/
 eleventyNavigation:
   key: Your Public Website
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Your public website
 
-      Every Chobble Tickets site includes a public website: a homepage, a contact page, and content pages you write yourself. If you already have a website, you can switch the public site off and share booking links directly.
+      A Chobble Tickets site can provide a homepage, listings, news, content pages and an optional contact page. If you already have a website, you can switch the public site off and share booking links directly.
   - type: markdown
     content: |
       ## Pages you compose
@@ -40,8 +40,8 @@ blocks:
 
       ## Contact form
 
-      The contact page can include a contact form, switched on or off
-      from the admin panel. Spam protection is available through
+      The contact page appears when it has contact content or an enabled form.
+      The form can be switched on or off from the admin panel. Spam protection is available through
       Botpoison, a service that makes each sender's browser solve a small
       computational puzzle before the form submits.
 

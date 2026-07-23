@@ -1,7 +1,7 @@
 ---
 title: Chobble Tickets vs Google Forms
 meta_title: Ticketing Alternative to Google Forms | Chobble Tickets
-meta_description: Using Google Forms for event ticketing? Chobble Tickets is a purpose-built alternative with payments, capacity management, QR code check-in, and encrypted data.
+meta_description: Compare Google Forms and Chobble Tickets for event registration, payments, capacity limits, confirmation emails, QR entry and attendee data.
 permalink: /compared-to/google-forms/
 eleventyNavigation:
   key: vs Google Forms
@@ -82,8 +82,8 @@ blocks:
       - **[Capacity management](/features/overbooking-prevention/)** -
         automatic capacity limits with 5-minute payment holds to prevent
         overbooking
-      - **[QR code tickets](/features/qr-code-check-ins/)** - every
-        attendee gets a unique QR code for check-in at the door
+      - **[QR code tickets](/features/qr-code-check-ins/)** - each booking
+        gets a unique QR code for check-in at the door
       - **[Apple & Google Wallet](/features/apple-wallet/)** - attendees
         can add tickets to their phone wallet
       - **[Encryption](/features/encrypted/)** - attendee data is encrypted

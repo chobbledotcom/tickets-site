@@ -2,7 +2,7 @@
 competitor_key: ticketmaster
 title: Chobble Tickets vs Ticketmaster
 meta_title: Independent Alternative to Ticketmaster | Chobble Tickets
-meta_description: "Chobble Tickets vs Ticketmaster: flat pricing with no per-ticket fees, encrypted attendee data, and no exclusive venue contracts."
+meta_description: Compare Chobble Tickets and Ticketmaster on buyer and organiser fees, reserved seating, event discovery, attendee data and ticketing features.
 permalink: /compared-to/ticketmaster/
 eleventyNavigation:
   key: vs Ticketmaster
@@ -111,13 +111,13 @@ blocks:
       **Chobble Tickets has features Ticketmaster doesn't offer small
       organisers:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3
-      - **Self-hosting option** - run the platform on your own servers for
-        free
-      - **Flat pricing** - £50/year or £5/month with no per-ticket fees,
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
+      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fees,
         compared to Ticketmaster's ~10% + £2.50 per ticket
       - **Full data ownership** - you control your attendee data, not
         Ticketmaster
@@ -216,6 +216,6 @@ blocks:
     content: |-
       ## Independent ticketing
 
-      Flat pricing with no per-ticket fees.
+      Flat pricing with no per-ticket platform fee.
 name: Independent Alternative to Ticketmaster | Chobble Tickets
 ---

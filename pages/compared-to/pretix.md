@@ -26,6 +26,12 @@ blocks:
       match. Chobble Tickets is built for smaller organisers who want something
       simple, affordable, and transparent.
 
+      Other open source comparisons cover
+      [Hi.Events](/compared-to/hi-events/) and
+      [Swicket with alf.io](/compared-to/swicket/). The
+      [open source page](/features/open-source/) describes Chobble Tickets
+      without a competitor comparison.
+
       **Both sites share some features:**
 
       - Open source under AGPLv3
@@ -54,7 +60,7 @@ blocks:
       handful of tickets, but costs rise quickly at volume.
 
       Chobble Tickets charges a flat £50/year or £5/month regardless of how many tickets you
-      sell or what you charge for them. No percentage cut, [no per-ticket fees](/features/no-per-ticket-fees/).
+      sell or what you charge for them. No percentage cut or [per-ticket platform fee](/features/no-per-ticket-fees/).
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -163,7 +169,7 @@ blocks:
 
       **Chobble Tickets has features Pretix doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         - create promo codes, discount codes, surcharges, and opt-in add-ons
@@ -176,20 +182,20 @@ blocks:
       There's no percentage fee eating into your revenue, no complex plugin
       licensing to navigate, and no enterprise sales process.
 
-      The flat £50/year or £5/month hosted plan means your costs are predictable. If
-      you self-host, it is completely free, with no license tiers, no
-      feature gates, and no catches.
+      The flat £50/year or £5/month hosted plan means your costs are predictable.
+      Self-hosting has no Chobble software licence fee or feature tier, while
+      infrastructure and configured services remain separate costs.
 
       ## Feature comparison at a glance
 
       | | Chobble Tickets | Pretix |
       |---|---|---|
-      | Open source | AGPLv3 (all features) | AGPLv3 (core only) |
+      | Open source | AGPL-3.0-only (all features) | AGPLv3 (core only) |
       | Hosted pricing | £50/year or £5/month flat | 2.5% per ticket + payment provider fees |
-      | Self-hosted cost | Free (all features) | Free (core) / €499+/yr (enterprise) |
+      | Self-hosted software licence | No Chobble licence fee | Free (core) / €499+/yr (enterprise) |
       | Self-hosted infrastructure | Serverless (Bunny.net edge) | Traditional server (Python, PostgreSQL, Redis) |
-      | Per-ticket fees | None | 2.5% + payment provider fees (hosted) |
-      | Payment providers | [Stripe, Square](/features/stripe-and-square/) | Stripe, PayPal, Mollie, Adyen, 30+ methods |
+      | Per-ticket platform fees | None | 2.5% + payment provider fees (hosted) |
+      | Payment providers | [Stripe, Square, SumUp](/features/stripe-and-square/) | Stripe, PayPal, Mollie, Adyen, 30+ methods |
       | Target audience | Small-medium organisers | Conferences & enterprise |
       | Seating plans | No | Yes (enterprise plugin) |
       | Point of sale | No | Yes (enterprise plugin) |
@@ -232,9 +238,11 @@ blocks:
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3 with
-      no enterprise tier or feature gates, and the platform can be
-      self-hosted by anyone without depending on Chobble as a company.
+      community benefit. Chobble Tickets is published under
+      [AGPL-3.0-only](/features/open-source/) with no enterprise tier or
+      feature gates, and the platform can be self-hosted by anyone without
+      depending on Chobble as a company. The [hosting page](/hosting/)
+      describes its deployment options.
   - type: markdown
     content: |
       ## Pricing sources
@@ -259,6 +267,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Simple, flat-rate ticketing with no percentage fees and no lock-in.
+      Flat-rate ticketing with published AGPL-3.0-only product source.
 name: Open Source Alternative to Pretix | Chobble Tickets
 ---

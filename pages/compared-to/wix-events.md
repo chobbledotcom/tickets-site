@@ -2,7 +2,7 @@
 competitor_key: wix_events
 title: Chobble Tickets vs Wix Events
 meta_title: Open Source Alternative to Wix Events | Chobble Tickets
-meta_description: Chobble Tickets is an alternative to Wix Events, with flat pricing, no per-ticket fees, full data ownership, and no platform lock-in.
+meta_description: Compare Wix Events and Chobble Tickets on subscriptions, ticket fees, website integration, branding, attendee data and self-hosting.
 permalink: /compared-to/wix-events/
 eleventyNavigation:
   key: vs Wix Events
@@ -110,14 +110,14 @@ blocks:
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
         plain database rows
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3, no proprietary lock-in
-      - **Self-hosting option** - run the platform on your own servers for
-        free, with no licence fee
-      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, no
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only with no proprietary feature tier
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
+      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fees, no
         matter how many you sell
       - **No bundled website subscription required** - Wix Events requires a
         Wix Business & eCommerce plan; Chobble Tickets does not
@@ -189,7 +189,7 @@ blocks:
       ## When Chobble Tickets is the better choice
 
       - You already have your own website and only need ticketing
-      - You want predictable, flat-rate pricing with no per-ticket fees
+      - You want predictable, flat-rate pricing with no per-ticket platform fees
       - You don't want to pay £276+/year for a Wix plan only to sell tickets
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees

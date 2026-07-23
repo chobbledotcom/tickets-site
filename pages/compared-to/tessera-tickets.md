@@ -111,14 +111,14 @@ blocks:
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data
-        is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, where
-        only the organiser holds the private key
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3, no proprietary lock-in
-      - **Self-hosting option** - run the platform on your own servers for
-        free, with no licence fee
-      - **Flat pricing** - £50/year or £5/month with no per-ticket fees and
+      - **[Encryption at rest](/features/encrypted/)** - attendee data uses
+        hybrid RSA-OAEP + AES-256-GCM and requires an authorised keyed user,
+        including an optional recovery owner if enabled
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only with no proprietary feature tier
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
+      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fees and
         no ticket-volume tiers
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can save tickets to both Apple Wallet and Google Wallet
@@ -162,12 +162,11 @@ blocks:
       attendees. The website does not publish details on encryption at
       rest, GDPR processes, or what happens to your data if you cancel.
 
-      With Chobble Tickets, attendee data is encrypted at rest, so even
-      someone with database access cannot read names, emails, or custom
-      question answers without your private key. The entire platform is
-      open source under AGPLv3, so you can self-host it and never depend
-      on a third party. If Chobble Tickets stopped operating tomorrow,
-      you could run the same code on your own server.
+      With Chobble Tickets, attendee data is encrypted at rest. Stored names,
+      emails and free-text answers require credentials for an authorised keyed
+      user, including an optional recovery owner if enabled. The complete
+      product source is published under AGPL-3.0-only and can run on
+      independently selected infrastructure.
 
       ## When Tessera Tickets might be the better choice
 
@@ -190,7 +189,7 @@ blocks:
 
       - You sell a modest number of tickets and don't want a four-figure
         annual subscription
-      - You want predictable, flat-rate pricing with no per-ticket fees
+      - You want predictable, flat-rate pricing with no per-ticket platform fees
         and no ticket-volume tiers
       - You don't want to run and host a separate WordPress site
       - Privacy and [encryption](/features/encrypted/) matter to you
@@ -242,6 +241,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Sign up for managed hosting at £50/year or £5/month, or self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
 name: Open Source Alternative to Tessera Tickets | Chobble Tickets
 ---

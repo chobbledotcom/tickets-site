@@ -1,8 +1,8 @@
 ---
 competitor_key: cheddar_up
 title: Chobble Tickets vs Cheddar Up
-meta_title: Open Source Alternative to Cheddar Up | Chobble Tickets
-meta_description: Looking for an alternative to Cheddar Up? Chobble Tickets offers flat pricing with no per-ticket fees, full data ownership, and no platform lock-in.
+meta_title: Chobble Tickets vs Cheddar Up | Fees and Ticketing
+meta_description: Compare Cheddar Up and Chobble Tickets on subscription and transaction fees, payment collection, QR ticketing, integrations and attendee data.
 permalink: /compared-to/cheddar-up/
 eleventyNavigation:
   key: vs Cheddar Up
@@ -107,14 +107,14 @@ blocks:
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data
+      - **[Encryption at rest](/features/encrypted/)** - attendee data
         is stored with hybrid RSA-OAEP + AES-256-GCM encryption rather
         than plain database rows
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3, no proprietary lock-in
-      - **Self-hosting option** - run the platform on your own servers
-        for free, with no licence fee
-      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, no
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only with no proprietary feature tier
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
+      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fees, no
         matter how many you sell
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -158,8 +158,8 @@ blocks:
       data lives on their servers, and there is no API to programmatically
       access it. Integrations are limited to what Zapier supports. The
       platform uses standard security practices and Stripe for payment
-      processing, but does not offer end-to-end encryption of attendee
-      data.
+      processing. Its public documentation does not describe the same
+      organiser-key encryption model for attendee data.
 
       With Chobble Tickets, attendee data is encrypted at rest and stays
       under your control. The entire platform is open source, so you can
@@ -180,7 +180,7 @@ blocks:
 
       - You need event ticketing *and* general payment collection (donations,
         fundraisers, dues, raffles) in one place
-      - You want predictable, flat-rate pricing with no per-ticket fees
+      - You want predictable, flat-rate pricing with no per-ticket platform fees
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
       - You're a community group, charity, or school (£25/year)
@@ -247,5 +247,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and encrypted attendee data.
-name: Open Source Alternative to Cheddar Up | Chobble Tickets
+name: Chobble Tickets vs Cheddar Up | Fees and Ticketing
 ---

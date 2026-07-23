@@ -1,7 +1,7 @@
 ---
 title: Equipment Hire - Chobble Tickets
 meta_title: Equipment Hire Booking Software - Chobble Tickets
-meta_description: Booking software for equipment and party hire. Per-day pricing, delivery scheduling, driver run sheets, stock control by capacity, and no commission.
+meta_description: Booking software for equipment and party hire, with duration pricing, capacity across booked dates, deposits, delivery scheduling and driver run sheets.
 permalink: /perfect-for/equipment-hire/
 eleventyNavigation:
   key: Equipment Hire
@@ -16,16 +16,17 @@ blocks:
       Take online bookings for marquees, sound systems, portable toilets, tools, and props. Customers choose their dates, pay a deposit or the full price, and your drivers get a run sheet for deliveries and collections.
   - type: split-image
     content: |
-      ## Per-day pricing and stock control
+      ## Duration pricing and stock control
 
-      Each item you hire out is a [daily listing](/features/daily-events/)
-      with a capacity per date. Set the capacity to the number of units you
-      own, and the same unit cannot be booked twice for the same day.
+      Each item type is a [daily listing](/features/daily-events/) with a
+      capacity per date. Set the capacity to the number of units available.
+      Chobble Tickets prevents accepted bookings from exceeding that total
+      across the booked dates, but it does not assign serialised units.
 
       With [multi-day hire](/features/multi-day-hire/), the customer chooses
-      how many days to keep the equipment, and each day of the hire can have
-      its own price. The calendar picker only offers start dates where every
-      day in the range is available.
+      how many days to keep the equipment. You set a total price for each
+      offered duration, such as one day for £50 or three days for £120. The
+      complete date range is checked before the booking is accepted.
 
       [Deposits](/features/deposits-and-balance-payments/) take part of the
       price at booking, with a link for the customer to pay the balance
@@ -38,11 +39,12 @@ blocks:
     content: |
       ## Drop-offs, collections, and drivers
 
-      The built-in [logistics system](/features/logistics/) gives every
-      booking a drop-off agent and a collection agent, with optional times
-      for each. An agent can be a driver, a van, or a crew.
-      [Postcode lookup](/features/postcode-lookup/) fills in the delivery
-      address at checkout, so drivers are not sent to a mistyped street.
+      The built-in [logistics system](/features/logistics/) lets an
+      administrator assign a drop-off agent, a collection agent and optional
+      times to a booking. An agent can be a driver, a van or a crew.
+      [Postcode lookup](/features/postcode-lookup/) reduces address typing at
+      checkout. Organisers can review the selected address before assigning
+      delivery work.
 
       Drivers get their own agent-class login. They see only their run
       sheet, with the delivery address and contact details for each job,
@@ -67,7 +69,7 @@ blocks:
     intro_content: "## Features for hire businesses"
     items:
       - icon: hugeicons:calendar-add-01
-        description: Customers pick how many days to hire, with a separate price for each day and availability checked across the whole range.
+        description: Customers pick how many days to hire, with a total price for each offered duration and capacity checked across the whole range.
         name: <a href="/features/multi-day-hire/">Multi-day hire</a>
       - icon: hugeicons:delivery-truck-02
         description: Schedule drop-offs and collections, assign them to agents, and track each leg to done.
@@ -84,6 +86,6 @@ blocks:
     content: |-
       ## Put your hire stock online
 
-      Sign up for managed hosting at £50/year or £5/month with no per-booking fees. Payments go directly to your own Stripe, Square, or SumUp account.
+      Sign up for managed hosting at £50/year or £5/month with no Chobble per-booking platform fee. Payments go directly to your own Stripe, Square or SumUp account.
 name: Equipment Hire Booking Software - Chobble Tickets
 ---

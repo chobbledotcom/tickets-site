@@ -1,8 +1,8 @@
 ---
 competitor_key: fooevents
 title: Chobble Tickets vs FooEvents
-meta_title: Chobble Tickets vs FooEvents | Hosted Ticketing vs a WooCommerce Plugin
-meta_description: FooEvents is a WordPress plugin that adds ticketing to WooCommerce sites. Chobble Tickets is a purpose-built ticketing platform. See how they compare on pricing, features, and setup.
+meta_title: Chobble Tickets vs FooEvents | Ticketing Compared
+meta_description: Compare Chobble Tickets and FooEvents on pricing, WordPress and WooCommerce requirements, check-in, payment providers, features and self-hosting.
 permalink: /compared-to/fooevents/
 eleventyNavigation:
   key: vs FooEvents
@@ -86,9 +86,9 @@ blocks:
       hosting).
 
       Hosted Chobble Tickets is a flat £50/year or £5/month, with
-      [no per-ticket fees](/features/no-per-ticket-fees/). You pay
+      [no per-ticket platform fees](/features/no-per-ticket-fees/). You pay
       Stripe, Square, or SumUp processing fees on top. Charities and community
-      groups pay £25/year. Self-hosting is free.
+      groups pay £25/year. Self-hosting has no Chobble licence fee.
   - type: markdown
     content: |
       ## Feature comparison
@@ -164,21 +164,21 @@ blocks:
       - **No WordPress required** - Chobble Tickets runs on its own,
         so you do not need to install, update, or secure a WordPress
         site for ticket sales
-      - **[End-to-end encryption](/features/encrypted/)** - Chobble
+      - **[Encryption at rest](/features/encrypted/)** - Chobble
         encrypts attendee personal data at rest with a hybrid
-        RSA-OAEP + AES-256-GCM scheme, so the server operator cannot
-        read attendee data without your private key
+        RSA-OAEP + AES-256-GCM scheme, so stored attendee details require
+        credentials for an authorised keyed user
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
-      - **[Open source](/features/open-source/) under AGPLv3** - every
-        line of Chobble Tickets code is public, with no paid editions
-        or feature gates. FooEvents is commercial, closed-source
+      - **[Open source](/features/open-source/) under AGPL-3.0-only** - the
+        complete Chobble Tickets product source is public, with no proprietary
+        editions or feature gates. FooEvents is commercial, closed-source
         software that requires a paid subscription to use
-      - **[Self-host for free](/features/open-source/)** - Chobble
-        Tickets can be self-hosted at no cost with every feature
-        included. FooEvents has no free tier; even self-installed,
-        you need to buy a bundle
+      - **[No Chobble self-hosting licence fee](/features/open-source/)** -
+        every product feature is included, while the operator pays for
+        infrastructure and configured services. FooEvents requires a paid
+        bundle even when it is self-installed
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets straight to their phone wallet
       - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
@@ -232,11 +232,12 @@ blocks:
 
       Chobble Tickets hosted is the opposite trade-off: you sign up,
       log in, and create an event. There is no WordPress, no
-      WooCommerce, no plugin updates, and no server patching. Chobble
-      encrypts attendee personal data so the operator cannot read it
-      without your private key. If you want full control of the
-      infrastructure, you can [self-host](/features/open-source/)
-      Chobble Tickets instead. The code is AGPLv3 with no paid tier.
+      WooCommerce, no plugin updates, and no server patching. Chobble Tickets
+      encrypts attendee personal data at rest. Stored details require
+      credentials for an authorised keyed user, including an optional recovery
+      owner if enabled. For independently selected infrastructure, you can
+      [self-host](/hosting/) Chobble Tickets. The complete product source is
+      published under AGPL-3.0-only with no proprietary feature tier.
   - type: markdown
     content: |
       ## Licensing tiers
@@ -299,7 +300,7 @@ blocks:
       - You want [Apple and Google Wallet](/features/apple-wallet/),
         [calendar feeds](/features/rss-and-calendar-feeds/), or an
         [embeddable widget](/features/embeddable-widget/)
-      - You would rather self-host for free than pay an annual plugin
+      - You would rather self-host without a Chobble licence fee than pay an annual plugin
         licence
       - You prefer to work with a
         [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
@@ -358,5 +359,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted attendee data, and no WordPress site required.
-name: Chobble Tickets vs FooEvents | Hosted Ticketing vs a WooCommerce Plugin
+name: Chobble Tickets vs FooEvents | Ticketing Compared
 ---

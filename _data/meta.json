@@ -1,16 +1,16 @@
 {
 	"language": "en-GB",
 	"organization": {
-		"description": "Open source event ticketing with a flat annual or monthly fee and no per-ticket charges, encrypted, self-hostable, and built on Deno.",
+		"description": "Open source event ticketing with flat-price managed hosting, no per-ticket platform fee, self-hosting, and attendee personal data encrypted at rest.",
 		"legalName": "Chobble CIC",
-		"foundingDate": "2020",
+		"foundingDate": "2026-02-24",
 		"founders": [
 			{
 				"name": "Stefan Burke",
 				"givenName": "Stefan",
 				"familyName": "Burke",
 				"jobTitle": "Founder",
-				"description": "Software developer with over 20 years of experience. Spent five years on the payments and growth teams at Bandcamp, and ten years as the lead developer at Bouncy Castle Network.",
+				"description": "Software developer who has worked in software and web technology since around 2007, including five years at Bandcamp and ten years as the lead developer at Bouncy Castle Network.",
 				"url": "https://stefn.co.uk",
 				"image": "https://chobble.com/img/4aj6l_LXN3-200.png"
 			}

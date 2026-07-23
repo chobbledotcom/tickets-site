@@ -1,7 +1,7 @@
 ---
 title: Adult Parties - Chobble Tickets
 meta_title: Ticketing for Adult Parties - Chobble Tickets
-meta_description: Event ticketing for adult parties with encrypted attendee data, no data sharing, and self-hosting options.
+meta_description: Event ticketing for adult parties with attendee data encrypted at rest, no attendee marketing, optional self-hosting and no public event marketplace.
 permalink: /perfect-for/adult-parties/
 eleventyNavigation:
   key: Adult Parties
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Ticketing for adult parties
 
-      Attendee data is encrypted at rest and never shared with third parties. Your guest list stays private.
+      Attendee personal data is encrypted at rest. Chobble Tickets does not use it for attendee marketing or list events in a public marketplace.
   - type: split-icon-links
     content: |
       ## Your attendees have real reasons for privacy
@@ -23,23 +23,20 @@ blocks:
       information. Their name, email address, and the fact that they attended
       your event are all things they may not want anyone else to know about.
 
-      On a commercial ticketing platform, that data sits in plain text on
-      someone else's servers. Platform staff and contractors can access it.
-      A data breach would expose names, emails, and a record of which
-      events each person attended.
-
       Chobble Tickets encrypts all personally identifiable information at rest
       using
       [hybrid RSA-OAEP + AES-256-GCM encryption](https://chobbledotcom.github.io/tickets/docs/crypto.ts).
       Even if someone gained access to the database, they could not read
-      attendee names or contact details without your private key.
+      attendee names or contact details without credentials for an authorised
+      keyed user. The application decrypts those fields when an authorised
+      owner or manager needs to use them.
     figure_items:
       - icon: hugeicons:lock
         text: Attendee data is encrypted at rest.
       - icon: hugeicons:security-check
-        text: Only you hold the decryption key.
+        text: Authorised keyed users can decrypt attendee details.
       - icon: hugeicons:view-off
-        text: No platform staff can read your guest list.
+        text: Stored database records do not contain readable guest details.
   - type: split-icon-links
     content: |
       ## What happens on commercial platforms
@@ -75,10 +72,10 @@ blocks:
       platform's logo. There is no public event directory linking your event
       to a wider catalogue.
 
-      If you self-host, your booking page runs on your own domain. Attendees
-      interact with your site and your site only. There is no redirect to a
-      third-party checkout, no "Powered by" banner, and no account creation
-      required.
+      If you self-host, the booking page can run on your own domain. Chobble
+      Tickets does not require an attendee account or add a public event
+      directory. Paid bookings continue to the hosted checkout of the
+      organiser's selected Stripe, Square or SumUp account.
 
       For events where attendees prefer not to have the name of a ticketing
       platform appearing in their email inbox or bank statement alongside the
@@ -95,13 +92,13 @@ blocks:
     intro_content: "## Built for events where discretion matters"
     items:
       - icon: hugeicons:security-check
-        description: All personally identifiable information is encrypted at rest. Even if someone gained access to the server, they could not read attendee names or contact details without your private key.
+        description: Attendee personal information is encrypted at rest. Stored names and contact details require credentials for an authorised keyed user, including an optional recovery owner if enabled.
         name: Encrypted attendee data
       - icon: hugeicons:source-code
-        description: Every line of code is public under AGPLv3. You can verify exactly what data is collected, how it is stored, and that there is no hidden tracking or data collection.
+        description: The complete product source is published under AGPL-3.0-only, so its collection, storage and integration code can be inspected.
         name: Fully auditable
       - icon: hugeicons:cloud-server
-        description: One-click deploy to DigitalOcean, Heroku, Koyeb, or Render, or run it in Docker, on Fly.io, or on Bunny Edge Scripting. No attendee data needs to leave your infrastructure.
+        description: Run Chobble Tickets on Bunny Edge, Deno Deploy or a Docker-capable host. Configured payment, email and integration providers receive the data needed for their services.
         name: Self-hostable
   - type: features
     intro_content: "## No advertising, no data sales"
@@ -124,6 +121,6 @@ blocks:
     content: |-
       ## Get started with private event ticketing
 
-      Sign up for managed hosting from £25/year for community groups, or self-host for free.
+      Sign up for managed hosting from £25/year for community groups, or self-host without paying Chobble a licence fee.
 name: Ticketing for Adult Parties - Chobble Tickets
 ---

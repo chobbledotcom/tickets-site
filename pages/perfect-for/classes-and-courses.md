@@ -1,7 +1,7 @@
 ---
 title: Classes and Courses - Chobble Tickets
 meta_title: Class and Course Booking Software - Chobble Tickets
-meta_description: Class booking system for recurring sessions and multi-week courses. Per-session capacity, registration deadlines, custom questions, and no per-booking fees.
+meta_description: Class booking system for recurring sessions and multi-week courses, with per-session capacity, registration deadlines and no Chobble per-booking platform fee.
 permalink: /perfect-for/classes-and-courses/
 eleventyNavigation:
   key: Classes & Courses
@@ -90,6 +90,6 @@ blocks:
     content: |-
       ## Take class bookings online
 
-      Sign up for managed hosting at £50/year or £5/month with no per-booking fees. Charities and community groups pay £25/year.
+      Sign up for managed hosting at £50/year or £5/month with no Chobble per-booking platform fee. Charities and community groups pay £25/year.
 name: Class and Course Booking Software - Chobble Tickets
 ---

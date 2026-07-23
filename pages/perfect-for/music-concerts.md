@@ -1,7 +1,7 @@
 ---
 title: Music Concerts - Chobble Tickets
 meta_title: Ticketing for Music Concerts - Chobble Tickets
-meta_description: Sell concert tickets directly to fans with no per-ticket fees so you keep all your revenue with Chobble Tickets.
+meta_description: Sell concert tickets through your own payment account with no Chobble per-ticket platform fee. Includes QR entry, ticket groups, discounts and email updates.
 permalink: /perfect-for/music-concerts/
 eleventyNavigation:
   key: Music Concerts
@@ -13,7 +13,7 @@ blocks:
     image: /assets/background-club.png
     content: |-
       # Sell tickets directly to your fans
-      With no per-ticket fees, for a flat fee of £50/year or £5/month.
+      Managed hosting is £50/year or £5/month, with no Chobble per-ticket platform fee.
   - type: split-icon-links
     content: |
       ## Keep your revenue
@@ -54,6 +54,6 @@ blocks:
     content: |-
       ## Start selling tickets
 
-      Sign up for managed hosting from £25/year for musicians, or self-host for free.
+      Sign up for managed hosting from £25/year for musicians, or self-host without paying Chobble a licence fee.
 name: Ticketing for Music Concerts - Chobble Tickets
 ---

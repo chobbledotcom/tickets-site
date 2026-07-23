@@ -1,7 +1,7 @@
 ---
 title: Multi-day Hire - Chobble Tickets
 meta_title: Multi-day Hire & Rental Bookings - Chobble Tickets
-meta_description: Take hire bookings that span several days, with per-day pricing, buyer-chosen durations, booking windows, and collections on the run sheet.
+meta_description: Take hire bookings across consecutive days, price each offered duration, check capacity across the booked range and add collections to staff run sheets.
 permalink: /features/multi-day-hire/
 eleventyNavigation:
   key: Multi-day Hire
@@ -24,10 +24,12 @@ blocks:
 
       Capacity is tracked per day, so a three-day hire starting on Monday
       uses one unit of stock on Monday, Tuesday, and Wednesday. Two
-      bookings cannot overlap on the same unit.
+      accepted bookings cannot exceed the listing's total capacity on any
+      occupied date. Chobble Tickets does not assign individual serialised
+      units.
   - type: markdown
     content: |
-      ## Buyer-chosen durations and per-day pricing
+      ## Buyer-chosen durations and duration pricing
 
       A listing can let the buyer choose how many days to book, up to the
       maximum duration you set. You price each day count separately, so

@@ -1,7 +1,7 @@
 ---
 title: Chobble Tickets vs Yo!Rent
 meta_title: Hire Bookings vs Yo!Rent Rental Software | Chobble Tickets
-meta_description: Both Chobble Tickets and Yo!Rent can handle rentals. Yo!Rent builds multi-vendor rental marketplaces. Chobble Tickets handles hire bookings for a single operator. See how they compare.
+meta_description: Compare Chobble Tickets and Yo!Rent on single-operator hire bookings, multi-vendor marketplaces, pricing, logistics, deployment and source licences.
 permalink: /compared-to/yo-rent/
 eleventyNavigation:
   key: vs Yo!Rent
@@ -90,15 +90,16 @@ blocks:
       gateways), which charges its own fees on top.
 
       Chobble Tickets is a flat **£50/year (or £5/month)** for the whole
-      site, with [no per-booking fees](/features/no-per-ticket-fees/).
+      site, with [no per-booking platform fees](/features/no-per-ticket-fees/).
       Community groups, charities, and schools pay £25/year on the annual
       plan. Stripe processing is charged separately at the standard 1.5% +
-      20p. Self-hosting Chobble Tickets is free, because the code is open
-      source under AGPLv3 with no licence fee.
+      20p. Self-hosting Chobble Tickets has no Chobble software licence fee.
+      Infrastructure and other configured services remain separate costs.
 
       The two pricing models are hard to compare directly. Yo!Rent is a
       large one-time payment for a rental platform you keep forever.
-      Chobble Tickets is a small recurring fee, or free if you self-host.
+      Chobble Tickets is a small recurring managed-hosting fee, or software
+      without a Chobble licence fee if you self-host.
       The right comparison is the scale of business each one suits.
   - type: markdown
     content: |
@@ -167,7 +168,7 @@ blocks:
         customers pick their own price above a minimum
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)** -
         create promo codes, surcharges, and opt-in add-ons with stock limits
-      - **[End-to-end encryption](/features/encrypted/)** - customer data
+      - **[Encryption at rest](/features/encrypted/)** - customer data
         is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, so a
         database dump on its own cannot be read
       - **[Open source under AGPLv3](/features/open-source/)** - every line
@@ -196,18 +197,18 @@ blocks:
       freely redistribute the code, and the higher tiers charge extra for
       the mobile app source code.
 
-      Chobble Tickets is open source under AGPLv3. Every line of code that
-      runs at tix.chobble.com is in the public
-      [GitHub repository](https://github.com/chobbledotcom/tickets). You
-      can read it, fork it, and run the same software on your own server
-      for free. Customer data is also encrypted at rest, so even someone
-      with access to the database cannot read names or emails without your
-      key.
+      The complete Chobble Tickets product source is published under
+      AGPL-3.0-only in a public
+      [GitHub repository](https://github.com/chobbledotcom/tickets). You can
+      read it, fork it and run the software without paying Chobble a licence
+      fee. The operator still pays for infrastructure and configured services.
+      Customer data is encrypted at rest, so stored names and emails require
+      credentials for an authorised keyed user.
 
       Self-hosting either product keeps customer data on your own server.
       The difference is that Yo!Rent charges a large one-time fee for a
-      proprietary licence, while Chobble Tickets is free to self-host
-      under an open source licence.
+      proprietary licence, while Chobble Tickets has no Chobble software
+      licence fee for self-hosting.
   - type: markdown
     content: |
       ## When Yo!Rent is the better choice
@@ -232,8 +233,8 @@ blocks:
       - You need delivery and collection scheduling with a driver run sheet
       - You want [QR check-in](/features/qr-code-check-ins/) and
         [Apple or Google Wallet](/features/apple-wallet/) passes
-      - You want a small flat fee, or free self-hosting, rather than a
-        large one-time payment
+      - You want a small managed-hosting fee or self-hosting without a Chobble
+        software licence fee, rather than a large one-time payment
       - You value [open source](/features/open-source/) code and
         [encryption](/features/encrypted/)
       - You are a community group, charity, or school (£25/year)
@@ -273,6 +274,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Open source ticketing and hire bookings with flat pricing and no per-booking fees.
+      Open source ticketing and hire bookings with flat pricing and no Chobble per-booking platform fee.
 name: Hire Bookings vs Yo!Rent Rental Software | Chobble Tickets
 ---

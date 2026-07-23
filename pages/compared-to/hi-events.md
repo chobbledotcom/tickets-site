@@ -3,8 +3,8 @@ competitor_key: hi_events
 selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: hi_events_selfhosted
 title: Chobble Tickets vs Hi.Events
-meta_title: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared
-meta_description: Comparing two open source ticketing platforms (Chobble Tickets and Hi.Events) on pricing, features, philosophy, and which is better for your events.
+meta_title: Chobble Tickets vs Hi.Events | Open Source Ticketing
+meta_description: Compare Chobble Tickets and Hi.Events on cloud and self-hosted pricing, licences, server requirements, branding rules and event features.
 permalink: /compared-to/hi-events/
 eleventyNavigation:
   key: vs Hi.Events
@@ -27,6 +27,12 @@ blocks:
       This page compares the two platforms to help you decide which fits your
       needs.
 
+      Other open source comparisons cover
+      [Pretix](/compared-to/pretix/) and
+      [Swicket with alf.io](/compared-to/swicket/). The
+      [open source page](/features/open-source/) describes Chobble Tickets
+      without a competitor comparison.
+
       ## Pricing comparison
 
       The pricing models are quite different:
@@ -40,7 +46,7 @@ blocks:
       hosting).
 
       **Chobble Tickets** charges a flat £50/year or £5/month (£25/year for charities and
-      community groups on the annual plan) with [no per-ticket fees](/features/no-per-ticket-fees/). You pay Stripe, Square, or SumUp
+      community groups on the annual plan) with [no per-ticket platform fees](/features/no-per-ticket-fees/). You also pay Stripe, Square or SumUp
       processing fees on top.
 
       For small numbers of tickets, Hi.Events Cloud is cheaper since there's
@@ -130,7 +136,7 @@ blocks:
 
       **Chobble Tickets has features Hi.Events doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
         plain database rows
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
@@ -237,7 +243,7 @@ blocks:
 
       ## When Chobble Tickets might be better
 
-      - You want predictable, flat-rate pricing with no per-ticket fees
+      - You want predictable, flat-rate pricing with no per-ticket platform fees
       - Privacy and encryption matter to you
       - You prefer a serverless, edge-deployed platform with no server management
       - You're a community group, charity, or school (£25/year)
@@ -265,9 +271,11 @@ blocks:
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3 with
-      no attribution requirement, and the platform can be self-hosted by
-      anyone without depending on Chobble as a company.
+      community benefit. Chobble Tickets is published under
+      [AGPL-3.0-only](/features/open-source/) with no attribution requirement,
+      and the platform can be self-hosted by anyone without depending on
+      Chobble as a company. The [hosting page](/hosting/) describes its
+      deployment options.
   - type: markdown
     content: |
       ## Pricing sources
@@ -290,6 +298,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Flat pricing, encrypted data, and no per-ticket fees.
-name: Chobble Tickets vs Hi.Events | Two Open Source Ticketing Platforms Compared
+      Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
+name: Chobble Tickets vs Hi.Events | Open Source Ticketing
 ---

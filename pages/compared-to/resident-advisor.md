@@ -1,8 +1,8 @@
 ---
 competitor_key: resident_advisor
 title: Chobble Tickets vs Resident Advisor
-meta_title: Open Source Alternative to Resident Advisor | Chobble Tickets
-meta_description: Chobble Tickets is an alternative to Resident Advisor (RA), with flat pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
+meta_title: Chobble Tickets vs Resident Advisor | Ticketing Compared
+meta_description: Compare Chobble Tickets and Resident Advisor on organiser and buyer fees, payouts, event discovery, attendee marketing, features and self-hosting.
 permalink: /compared-to/resident-advisor/
 eleventyNavigation:
   key: vs Resident Advisor
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Chobble Tickets vs Resident Advisor
 
-      Resident Advisor is the go-to ticketing platform for the electronic music scene. Here's how a small, open source alternative compares on pricing, features, and data ownership.
+      Resident Advisor is a ticketing and event-discovery platform for electronic music. This page compares it with Chobble Tickets on pricing, features and data handling.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -25,7 +25,7 @@ blocks:
       and negotiates with promoters individually.
 
       Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
-      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe, Square, or SumUp
+      groups) with [no per-ticket platform fees](/features/no-per-ticket-fees/). You also pay Stripe, Square or SumUp
       processing fees on top. Once you're selling more than a handful of
       events a year, Chobble Tickets usually works out cheaper.
   - type: include
@@ -116,7 +116,7 @@ blocks:
 
       **Chobble Tickets has features Resident Advisor doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -130,8 +130,8 @@ blocks:
         for events that repeat on a schedule with per-date capacity
       - **[Custom domain support](/features/custom-domain/)** - get a
         host-provided subdomain instantly, or point your own domain
-      - **Self-hosting option** - run the platform on your own servers for
-        free
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
       - **[Open source](/features/open-source/)** - inspect, modify, and
         contribute to the code under AGPLv3
       - **[Custom questions](/features/custom-questions/)** - add
@@ -155,7 +155,7 @@ blocks:
         iframe into your existing website
       - **No marketing to your attendees** - Chobble does not market to
         your customers
-      - **Flat pricing** - no per-ticket fees, no matter how many you
+      - **Flat pricing** - no per-ticket platform fees, no matter how many you
         sell
 
       ## When Resident Advisor might be better
@@ -172,7 +172,7 @@ blocks:
 
       ## When Chobble Tickets might be better
 
-      - You want simple, flat-rate pricing with no per-ticket fees
+      - You want simple, flat-rate pricing with no per-ticket platform fees
       - Privacy and encryption matter to you
       - You don't want a platform marketing its own stuff to your customers
       - You run events outside the electronic music scene (or a mix of
@@ -224,6 +224,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Flat pricing, encrypted data, and no per-ticket fees.
-name: Open Source Alternative to Resident Advisor | Chobble Tickets
+      Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
+name: Chobble Tickets vs Resident Advisor | Ticketing Compared
 ---

@@ -1,7 +1,7 @@
 ---
 title: Theatre and Performing Arts - Chobble Tickets
 meta_title: Theatre Ticketing for Amateur Dramatics - Chobble Tickets
-meta_description: Box office software for amateur dramatics and community theatre. No booking fees on tickets, QR check-ins front of house, and a flat £50/year price.
+meta_description: Box-office software for amateur dramatics and community theatre, with QR check-in, £50 annual hosting and no Chobble per-ticket platform fee.
 permalink: /perfect-for/theatre-and-performing-arts/
 eleventyNavigation:
   key: Theatre and Performing Arts
@@ -13,15 +13,15 @@ blocks:
     content: |-
       # Ticketing for theatre and performing arts
 
-      Sell tickets for amateur dramatics, community theatre, and dance shows with no booking fees added to ticket prices, for a flat £50/year.
+      Sell tickets for amateur dramatics, community theatre and dance shows for £50/year with no Chobble per-ticket platform fee.
   - type: split-icon-links
     reveal_content: left
     content: |
-      ## No booking fee on top of the ticket
+      ## No Chobble fee added per ticket
 
       Many ticketing platforms add a booking fee of £1-2 to each ticket,
       so a £10 ticket costs the audience £11 or more. Chobble Tickets adds
-      [no booking fee](/features/no-per-ticket-fees/), so the audience
+      [no Chobble per-ticket platform fee](/features/no-per-ticket-fees/), so the audience
       pays the ticket price you set and nothing else.
 
       The platform costs a flat £50/year or £5/month, with a 50% discount

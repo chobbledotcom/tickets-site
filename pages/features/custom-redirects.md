@@ -1,7 +1,7 @@
 ---
 title: Custom Redirects - Chobble Tickets
 meta_title: Custom Redirects - Chobble Tickets
-meta_description: Send attendees to a custom URL after booking, perfect for thank-you pages or post-purchase instructions.
+meta_description: Send attendees to a custom URL after booking for a thank-you page, post-purchase instructions or another organiser-controlled destination.
 permalink: /features/custom-redirects/
 eleventyNavigation:
   key: Custom Redirects

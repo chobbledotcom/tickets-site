@@ -1,7 +1,7 @@
 ---
 title: Workshops - Chobble Tickets
 meta_title: Ticketing for Workshops - Chobble Tickets
-meta_description: Ticketing for workshops and classes with no per-ticket fees. Attendees book online without creating an account, and their data is encrypted at rest.
+meta_description: Ticketing for workshops and classes with no Chobble per-ticket platform fee, attendee data encrypted at rest and no attendee account required.
 permalink: /perfect-for/workshops/
 eleventyNavigation:
   key: Workshops
@@ -13,7 +13,7 @@ blocks:
     parallax: true
     content: |-
       # Ticketing for workshops and classes
-      With no per-ticket fees, where attendees can book without creating an account or downloading an app.
+      There is no Chobble per-ticket platform fee, and attendees can book without creating an account or downloading an app.
   - type: split-icon-links
     content: |
       ## When fees eat your margins
@@ -86,7 +86,7 @@ blocks:
     items:
       - icon: hugeicons:money-receive-square
         description: A flat price means you keep all of your ticket revenue, which matters when tickets are £5-£20.
-        name: No per-ticket fees
+        name: No per-ticket platform fees
       - icon: hugeicons:qr-code
         description: Each attendee gets a QR code ticket by email. Scan them on arrival with your phone so you know exactly who's in the room.
         name: QR code check-in
@@ -102,6 +102,6 @@ blocks:
     content: |-
       ## Start selling tickets to your workshop
 
-      Sign up for managed hosting at £50/year or £5/month. No per-ticket fees, no percentage cuts.
+      Sign up for managed hosting at £50/year or £5/month. Chobble adds no per-ticket platform fee or percentage cut.
 name: Ticketing for Workshops - Chobble Tickets
 ---

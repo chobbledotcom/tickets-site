@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Ticketing for political organising
 
-      Attendee data is encrypted at rest, and you can run the platform on your own servers so no data leaves your infrastructure.
+      Attendee personal data is encrypted at rest, and organisations can run the platform on infrastructure they select.
   - type: split-icon-links
     content: |
       ## Privacy by design
@@ -22,17 +22,18 @@ blocks:
       using
       [hybrid RSA-OAEP + AES-256-GCM encryption](https://chobbledotcom.github.io/tickets/docs/crypto.ts).
 
-      Commercial ticketing platforms store attendee data and use it for
-      marketing. Chobble Tickets is open source. Every line of code is
-      public under AGPLv3 and you can read it yourself.
+      Some ticketing platforms use attendee records for event marketing.
+      Chobble Tickets does not. Its complete product source is published under
+      AGPL-3.0-only and can be inspected.
 
-      You can run Chobble Tickets on your own servers, so no data leaves your
-      infrastructure.
+      You can run Chobble Tickets on your own infrastructure. Payment, email,
+      SMS, address lookup and webhook providers receive data only when those
+      optional services are configured.
     figure_items:
       - icon: hugeicons:lock
         text: Attendee data is encrypted at rest.
       - icon: hugeicons:source-code
-        text: All code is public under AGPLv3.
+        text: Product source published under AGPL-3.0-only.
       - icon: hugeicons:cloud-server
         text: Deploy on your own servers.
   - type: features
@@ -40,10 +41,10 @@ blocks:
     intro_content: "## Features for political organisers"
     items:
       - icon: hugeicons:source-code
-        description: Every line of code is public under AGPLv3, so there are no black boxes, no hidden data collection, and no surprises.
+        description: The complete product source is published under AGPL-3.0-only, so its data handling can be inspected.
         name: Fully auditable
       - icon: hugeicons:cloud-server
-        description: One-click deploy to DigitalOcean, Heroku, Koyeb, or Render, or run it in Docker, on Fly.io, or on Bunny Edge Scripting.
+        description: Run Chobble Tickets on Bunny Edge, Deno Deploy or a Docker-capable host, with infrastructure and integrations selected by the operator.
         name: Self-Hostable
       - icon: hugeicons:security-check
         description: Built by a community interest company. There is no advertising revenue and no data economy subsidising the price.
@@ -57,6 +58,6 @@ blocks:
     content: |-
       ## Get started with encrypted event ticketing
 
-      Sign up for managed hosting from £25/year for community groups, or self-host for free.
+      Sign up for managed hosting from £25/year for community groups, or self-host without paying Chobble a licence fee.
 name: Ticketing for Political Organising - Chobble Tickets
 ---

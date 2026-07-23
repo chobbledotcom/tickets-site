@@ -50,7 +50,7 @@
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "Hi.Events Single Domain commercial license: $499 (approx. £420). AGPL edition is free but requires 'Powered by Hi.Events' branding. Multi-tenant licenses are available at higher tiers; contact Hi.Events for pricing. Chobble Tickets self-hosted: free, no license fee + Stripe processing (1.5% + 20p). Source: hi.events/pricing and hi.events/open-source-event-ticketing (March 2026)."
+    "fee_note": "Hi.Events Single Domain commercial license: $499 (approx. £420). AGPL edition is free but requires 'Powered by Hi.Events' branding. Multi-tenant licenses are available at higher tiers; contact Hi.Events for pricing. Chobble Tickets self-hosting has no Chobble software licence fee; infrastructure and payment processing remain separate. Source: hi.events/pricing and hi.events/open-source-event-ticketing (March 2026)."
   },
   "pretix_hosted": {
     "name": "Pretix Hosted",
@@ -68,7 +68,7 @@
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "Pretix Enterprise Starter license: €499/year (approx. £420). Community edition is free but lacks proprietary plugins. Chobble Tickets self-hosted: free, no license fee + Stripe processing (1.5% + 20p)."
+    "fee_note": "Pretix Enterprise Starter license: €499/year (approx. £420). Community edition is free but lacks proprietary plugins. Chobble Tickets self-hosting has no Chobble software licence fee; infrastructure and payment processing remain separate."
   },
   "fatsoma": {
     "name": "Fatsoma",

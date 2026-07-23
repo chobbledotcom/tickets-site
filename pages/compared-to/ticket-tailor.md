@@ -2,7 +2,7 @@
 competitor_key: ticket_tailor
 title: Chobble Tickets vs Ticket Tailor
 meta_title: Open Source Alternative to Ticket Tailor | Chobble Tickets
-meta_description: "Chobble Tickets vs Ticket Tailor: flat pricing with no per-ticket fees, encrypted attendee data, and open source code."
+meta_description: Compare Chobble Tickets and Ticket Tailor on organiser fees, payment options, event discovery, ticketing features, attendee data and source licensing.
 permalink: /compared-to/ticket-tailor/
 eleventyNavigation:
   key: vs Ticket Tailor
@@ -34,7 +34,7 @@ blocks:
       chart features.
 
       Chobble Tickets is a flat £50/year or £5/month, with
-      [no per-ticket fees](/features/no-per-ticket-fees/). Community groups,
+      [no per-ticket platform fees](/features/no-per-ticket-fees/). Community groups,
       charities, and schools pay £25/year. On Ticket Tailor's pay-as-you-go
       rate, Chobble Tickets works out cheaper once you sell more than about
       84 paid tickets a year. Even at Ticket Tailor's lowest prepaid rate of
@@ -108,16 +108,16 @@ blocks:
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, where only
         the organiser holds the private key. Ticket Tailor uses standard
         AES-256 encryption at rest, but the data remains readable by
         Ticket Tailor staff
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3
-      - **Self-hosting option** - run the platform on your own servers,
-        with no licence fee
-      - **Flat pricing** - £50/year or £5/month with no per-ticket fees and no
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
+      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fees and no
         credit bundles to top up
       - **[Subscribable ICS calendar feed](/features/rss-and-calendar-feeds/)** -
         a single feed that lists all your events, so subscribers get
@@ -182,7 +182,7 @@ blocks:
 
       - You already have your own audience and don't need a discovery
         platform
-      - You want predictable, flat-rate pricing with no per-ticket fees and
+      - You want predictable, flat-rate pricing with no per-ticket platform fees and
         no credit bundles to manage
       - Privacy and encryption matter to you
       - You're a community group, charity, or school (£25/year)
@@ -242,6 +242,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Sign up for managed hosting at £50/year or £5/month, or self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
 name: Open Source Alternative to Ticket Tailor | Chobble Tickets
 ---

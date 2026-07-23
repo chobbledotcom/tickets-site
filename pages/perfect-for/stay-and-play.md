@@ -1,7 +1,7 @@
 ---
 title: Stay and Play Sessions - Chobble Tickets
 meta_title: Ticketing for Stay and Play Sessions - Chobble Tickets
-meta_description: Daily session ticketing for stay and play with no per-ticket fees. Parents pick a day from a calendar, and organisers keep all the revenue.
+meta_description: Daily session ticketing for stay and play with per-date capacity, phone-based QR entry and no Chobble per-ticket platform fee.
 permalink: /perfect-for/stay-and-play/
 eleventyNavigation:
   key: Stay and Play
@@ -16,7 +16,7 @@ blocks:
       Set up your weekly sessions, choose which days you run, and let parents book online without creating an account.
   - type: split-icon-links
     content: |
-      ## No per-ticket fees on low-cost sessions
+      ## No per-ticket platform fees on low-cost sessions
 
       Stay and play sessions typically charge between £1 and £4 a ticket. On
       other platforms, a per-ticket fee of £1 can double the cost for parents.

@@ -11,7 +11,7 @@ blocks:
     class: gradient product-hero
     badge: Open source event ticketing
     content: |-
-      # Event ticketing software with no per-ticket fees
+      # Event ticketing software with no per-ticket platform fees
 
       Chobble Tickets handles paid and free events, repeating sessions, packages, donations and equipment hire. Managed hosting costs £50 a year or £5 a month. Ticket income goes to your own Stripe, Square or SumUp account.
     buttons:
@@ -41,7 +41,7 @@ blocks:
 
       Create fixed-date, repeating or multi-day listings. Each listing can have its own price, capacity, booking window, questions and terms.
 
-      After sales open, staff can check people in and out, issue full or partial refunds, email attendee groups and export operational or financial data. The activity log records changes made by each administrator.
+      After sales open, staff can [check bookings in](/features/qr-code-check-ins/), reverse a check-in, issue [full refunds](/features/refunds/), email attendee groups and export operational or financial data. The activity log records changes made by each administrator.
     button:
       text: See all features
       href: /features/
@@ -66,7 +66,7 @@ blocks:
         description: Take a deposit at booking, record cash or bank transfers, and give the customer a link to pay the remaining balance.
         name: <a href="/features/deposits-and-balance-payments/">Deposits and balance payments</a>
       - icon: hugeicons:calendar-03
-        description: Set capacity for each date, block holidays, price each day of a hire, and assign delivery and collection work to staff.
+        description: Set capacity for each date, block holidays, price each offered hire duration, and assign delivery and collection work to staff.
         name: <a href="/features/daily-events/">Repeating and multi-day bookings</a>
       - icon: hugeicons:clock-01
         description: Prices, capacity and booking rules are checked again after payment. A booking that can no longer be honoured is refunded and recorded for the organiser.
@@ -92,7 +92,7 @@ blocks:
 
       Payment creates a separate Chobble Tickets site and sends its setup link by email. The site includes every feature, a hosted web address and support for your own domain.
 
-      Chobble maintains the software and hosting. There are no feature tiers and the price does not change with ticket volume.
+      Chobble maintains the software and hosting. There are no feature tiers and [the price does not change with ticket volume](/features/no-per-ticket-fees/).
     button:
       text: Start hosted site
       href: https://tix.chobble.com/ticket/register
@@ -162,7 +162,7 @@ blocks:
     content: |
       ## Self-host the same software
 
-      The full source code is published under the AGPL-3.0 licence. Technical users can run it on their own infrastructure without paying Chobble.
+      The complete product source is published under AGPL-3.0-only. Technical users can run it on their own infrastructure without paying a licence fee to Chobble.
 
       Managed hosting and self-hosting use the same code. The hosted fee pays for setup, infrastructure, updates and support rather than access to extra product features.
     button:

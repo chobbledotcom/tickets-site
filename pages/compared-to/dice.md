@@ -2,7 +2,7 @@
 competitor_key: dice
 title: Chobble Tickets vs DICE
 meta_title: Open Source Alternative to DICE | Chobble Tickets
-meta_description: "Chobble Tickets vs DICE: flat pricing with no per-ticket fees, encrypted attendee data, and no app required."
+meta_description: Compare Chobble Tickets and DICE on buyer and organiser fees, app requirements, event discovery, resale, attendee data and ticketing features.
 permalink: /compared-to/dice/
 eleventyNavigation:
   key: vs DICE
@@ -24,7 +24,7 @@ blocks:
       agreement.
 
       Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
-      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe, Square, or SumUp
+      groups) with [no per-ticket platform fees](/features/no-per-ticket-fees/). You also pay Stripe, Square or SumUp
       processing fees on top. If you sell more than a few dozen tickets in a
       year at typical prices, Chobble Tickets is already cheaper, and the
       savings grow the more you sell.
@@ -114,7 +114,7 @@ blocks:
 
       **Chobble Tickets has features DICE doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
       - **No app required** - tickets work in any browser on any device
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
@@ -130,7 +130,7 @@ blocks:
       - **[Custom domain support](/features/custom-domain/)** - get a
         host-provided subdomain instantly, or point your own domain
       - **Fully brandable checkout** - your brand, not DICE's
-      - **Self-hosting option** - run the platform on your own servers for free
+      - **Self-hosting option** - run the platform on selected infrastructure without a Chobble software licence fee
       - **[Open source](/features/open-source/)** - inspect, modify, and
         contribute to the code under AGPLv3
       - **[Custom questions](/features/custom-questions/)** - add
@@ -167,7 +167,7 @@ blocks:
 
       ## When Chobble Tickets might be better
 
-      - You want predictable, flat-rate pricing with no per-ticket fees
+      - You want predictable, flat-rate pricing with no per-ticket platform fees
       - You don't want attendees forced to download an app
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees or promoting
@@ -216,6 +216,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Flat pricing, encrypted data, no app required, and no per-ticket fees.
+      Flat pricing, attendee data encrypted at rest, no attendee app requirement and no per-ticket platform fee.
 name: Open Source Alternative to DICE | Chobble Tickets
 ---

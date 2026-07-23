@@ -1,7 +1,7 @@
 ---
 title: About Chobble Tickets
 meta_title: About Chobble Tickets
-meta_description: Chobble Tickets is built and run by Stefan Burke, a software developer in Prestwich, Manchester. Chobble is a UK community interest company registered with Companies House and the ICO.
+meta_description: Chobble began as Stefan Burke's freelance business in Manchester in 2024. Chobble CIC was incorporated in 2026 and operates Chobble Tickets.
 permalink: /about/
 eleventyNavigation:
   key: About
@@ -17,9 +17,10 @@ blocks:
     content: |
       ## Stefan Burke
 
-      Stefan Burke (known as Stef) has worked as a software developer for over
-      20 years. He runs Chobble from Prestwich, Manchester. A photo and short
-      profile is on [chobble.com/principles](https://chobble.com/principles).
+      Stefan Burke (known as Stef) has worked in software and web technology
+      since around 2007. He runs Chobble from Prestwich, Manchester. A photo
+      and short profile is on
+      [chobble.com/principles](https://chobble.com/principles).
 
       Before Chobble, Stef spent five years at
       [Bandcamp](https://bandcamp.com), the online music shop that pays out
@@ -32,6 +33,11 @@ blocks:
       Stef supports several Manchester community projects, including Blue Pits
       and Vegan Prestwich. The full CV is at
       [stefn.co.uk](https://stefn.co.uk).
+
+      ## From freelance work to Chobble CIC
+
+      Stef began trading as Chobble in 2024. Chobble CIC was incorporated in
+      England on 24 February 2026 and now operates Chobble Tickets.
   - type: markdown
     dark: true
     content: |
@@ -65,8 +71,9 @@ blocks:
 
       A community interest company is a UK legal structure for businesses with
       a social purpose. The structure includes an asset lock, which means
-      profit and assets cannot be paid out to shareholders. If Chobble is wound
-      up, the remaining assets transfer to another community-interest body.
+      Chobble CIC is limited by guarantee without share capital, so it has no
+      shareholders. Its asset lock restricts how company assets can be
+      transferred, including if the company is wound up.
 
       Chobble donates 10% of its income to the
       [Against Malaria Foundation](https://www.againstmalaria.com). The full
@@ -112,6 +119,6 @@ blocks:
     content: |-
       ## Get started
 
-      Sign up for managed hosting at £50/year or £5/month, or download the source code from GitHub and self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or run the source code without paying Chobble a licence fee.
 name: About Chobble Tickets
 ---

@@ -2,7 +2,7 @@
 competitor_key: fatsoma
 title: Chobble Tickets vs Fatsoma
 meta_title: Open Source Alternative to Fatsoma | Chobble Tickets
-meta_description: Chobble Tickets is an alternative to Fatsoma, with flat pricing, no per-ticket fees, full data ownership, and encrypted attendee data. Compare pricing and features.
+meta_description: Compare Fatsoma and Chobble Tickets on buyer fees, event discovery, follower marketing, payouts, ticketing features and self-hosting.
 permalink: /compared-to/fatsoma/
 eleventyNavigation:
   key: vs Fatsoma
@@ -24,7 +24,7 @@ blocks:
       Stripe, totalling £1.93 gone per ticket before you see a penny.
 
       Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
-      groups) with [no per-ticket fees](/features/no-per-ticket-fees/) at all. You only pay Stripe, Square, or SumUp
+      groups) with [no per-ticket platform fees](/features/no-per-ticket-fees/). You also pay Stripe, Square or SumUp
       processing fees on top. If you sell more than about 50 tickets at £15
       each in a year, Chobble Tickets is already cheaper.
 
@@ -112,7 +112,7 @@ blocks:
 
       **Chobble Tickets has features Fatsoma doesn't:**
 
-      - **[End-to-end encryption](/features/encrypted/)** - attendee data is
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -129,8 +129,8 @@ blocks:
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
-      - **Self-hosting option** - run the platform on your own servers for
-        free
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
       - **[Open source](/features/open-source/)** - inspect, modify, and
         contribute to the code under AGPLv3
       - **[Custom questions](/features/custom-questions/)** - add
@@ -168,7 +168,7 @@ blocks:
 
       ## When Chobble Tickets might be better
 
-      - You want predictable, flat-rate pricing with no per-ticket fees
+      - You want predictable, flat-rate pricing with no per-ticket platform fees
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
       - You're a community group, charity, or school (£25/year)
@@ -216,6 +216,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Flat pricing, encrypted data, and no per-ticket fees.
+      Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
 name: Open Source Alternative to Fatsoma | Chobble Tickets
 ---

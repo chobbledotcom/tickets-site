@@ -1,7 +1,7 @@
 ---
 title: Charity Events - Chobble Tickets
 meta_title: Ticketing for Charity Events - Chobble Tickets
-meta_description: Affordable event ticketing for charities and community groups with a 50% discount and no per-ticket fees.
+meta_description: Event ticketing for charities and community groups with a £25 annual managed-hosting rate and no Chobble per-ticket platform fee.
 permalink: /perfect-for/charity-events/
 eleventyNavigation:
   key: Charity Events
@@ -22,7 +22,7 @@ blocks:
       £10 ticket, that can mean losing 50p–£1 per sale to the platform.
 
       Chobble Tickets charges a flat **£25/year** for charities and community
-      groups (50% off the standard £50/year price) with no per-ticket fees or
+      groups (50% off the standard £50/year price) with no per-ticket platform fee or
       percentage cuts, so all the ticket revenue goes straight to your Stripe, Square,
       or SumUp account. The discount applies to annual billing. Monthly
       billing is also available at £5/month for all organisers, including

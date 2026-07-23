@@ -1,7 +1,7 @@
 ---
-title: QR Code Check-ins - Chobble Tickets
-meta_title: QR Code Check-ins - Chobble Tickets
-meta_description: Every ticket gets a unique QR code that you can scan with any phone camera, with no app required.
+title: QR Code Ticket Check-In - Chobble Tickets
+meta_title: QR Code Ticket Check-In | Chobble Tickets
+meta_description: Each booking receives a QR code. Staff use an authenticated browser and phone camera to check it in and see duplicate or wrong-event warnings.
 permalink: /features/qr-code-check-ins/
 eleventyNavigation:
   key: QR Code Check-ins
@@ -11,19 +11,22 @@ blocks:
   - type: hero
     class: gradient
     content: |-
-      # QR code check-ins
+      # QR code ticket check-in
 
-      Every ticket gets a unique QR code that staff can scan with their phone camera, with no app to install or special hardware needed.
+      Each booking receives a unique QR code. Staff can scan it through an authenticated browser on a phone with a camera, without a native app or dedicated scanner.
   - type: split-image
     content: |
       ## How it works
 
-      When someone books a ticket, they receive an email with a unique ticket
-      URL and QR code. At the event, your staff open the built-in scanner on
-       their phone and scan the code, and the system instantly shows whether
-       the ticket is valid and marks the attendee as checked in.
-      The scanner detects duplicate scans and cross-event mismatches, so you
-      can spot problems immediately.
+      When someone books, they receive an email with a unique booking URL and
+      QR code. At the event, authorised staff open the built-in scanner in
+      their browser and scan the code. The system validates the booking and
+      marks its entry for the event being scanned as checked in.
+
+      The scanner warns when a booking was already checked in or belongs to a
+      different event. Check-in requires a network connection to the Chobble
+      Tickets site. A manual name and token search is available when a camera
+      cannot be used.
     figure_src: /images/screenshots/qr-code-check-in.png
     figure_alt: Mobile scanner showing Alex Morgan checked in with two tickets
     figure_caption: Scan a ticket and see its check-in result immediately.
@@ -68,6 +71,6 @@ blocks:
     content: |-
       ## Scan tickets at the door
 
-      All you need is a phone camera to scan QR codes at the door.
-name: QR Code Check-ins - Chobble Tickets
+      Use the browser-based scanner to check bookings in at the door.
+name: QR Code Ticket Check-In | Chobble Tickets
 ---

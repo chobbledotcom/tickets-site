@@ -19,8 +19,9 @@ blocks:
 
       - Keeping a list of who's coming
       - Checking people in at the door
-      - Working without an internet connection (pen and paper always works;
-        Chobble Tickets QR codes work offline once loaded)
+      - Keeping a local copy for use without an internet connection (pen and
+        paper works offline; Chobble Tickets check-in requires a connection to
+        the ticketing site)
       - No mandatory attendee account required
 
       ## When pen and paper works
@@ -83,6 +84,6 @@ blocks:
     content: |-
       ## Get started when you're ready
 
-      Start with managed hosting at £50/year or £5/month, or self-host for free.
+      Start with managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
 name: Digital Alternative to Paper Ticketing | Chobble Tickets
 ---

@@ -1,7 +1,7 @@
 ---
 
-title: Features - Chobble Tickets
-meta_title: Features - Chobble Tickets
+title: Event Ticketing Software Features - Chobble Tickets
+meta_title: Event Ticketing Software Features | Chobble Tickets
 meta_description: Event ticketing software with payments, packages, QR check-in, refunds, bulk event tools, reports, privacy controls, APIs and a hosted booking website.
 permalink: /features/
 eleventyNavigation:
@@ -11,7 +11,7 @@ blocks:
 - type: hero
   class: gradient
   content: |-
-    # Features
+    # Event ticketing software features
 
     Chobble Tickets covers sales, event operations, reporting, public booking pages and integrations. Every hosted and self-hosted site includes the same product features.
 - type: split-image
@@ -40,7 +40,7 @@ blocks:
     description: If two payments race for the last ticket, the second is refunded automatically.
     name: <a href="/features/overbooking-prevention/">Overbooking prevention</a>
   - icon: hugeicons:money-receive-square
-    description: Process individual or bulk refunds directly from the admin panel with automatic payment provider sync.
+    description: Process full refunds for one booking or an event directly from the admin panel with automatic payment provider sync.
     name: <a href="/features/refunds/">Refunds</a>
   - icon: hugeicons:file-validation
     description: Set <a href="/features/terms-and-conditions/">terms and required contact fields</a>, plus <a href="/features/registration-deadlines/">booking cut-offs and purchase limits</a>.
@@ -58,17 +58,17 @@ blocks:
     description: Take a deposit at booking and send customers a link to pay the outstanding balance later.
     name: <a href="/features/deposits-and-balance-payments/">Deposits & balances</a>
   - icon: hugeicons:calendar-add-01
-    description: Let customers choose how many days to book, with a separate price for each day of the hire.
+    description: Let customers choose how many days to book, with a separate total price for each offered duration.
     name: <a href="/features/multi-day-hire/">Multi-day hire</a>
   - icon: hugeicons:location-01
     description: Customers type their postcode and pick their address from a list, with results cached encrypted.
     name: <a href="/features/postcode-lookup/">Postcode lookup</a>
 - type: features
   dark: true
-  intro_content: "## Managing events"
+  intro_content: "## [Managing events](/features/managing-events/)"
   items:
   - icon: hugeicons:qr-code
-    description: Every ticket gets a unique QR code that you can scan with any phone camera.
+    description: Each booking gets a unique QR code that authorised staff can scan in a connected browser with a phone camera.
     name: <a href="/features/qr-code-check-ins/">QR code check-ins</a>
   - icon: hugeicons:calendar-03
     description: Per-date capacity with a calendar picker and configurable holiday and blackout dates, which is perfect for classes and recurring bookings.
@@ -87,7 +87,7 @@ blocks:
     name: <a href="/features/manual-attendees/">Manual attendees</a>
   - icon: hugeicons:user-switch
     description: Compare two attendee records and choose which contact details, answers and bookings to retain, with payment conflicts handled explicitly.
-    name: <a href="/features/manual-attendees/#merge-duplicate-attendees">Merge duplicate attendees</a>
+    name: <a href="/features/manual-attendees/">Merge duplicate attendees</a>
   - icon: hugeicons:delivery-truck-02
     description: Manage deliveries, equipment hire, and collections at customer locations with a deliveries run sheet for agents.
     name: <a href="/features/logistics/">Logistics</a>
@@ -122,7 +122,7 @@ blocks:
     description: Send targeted email campaigns to attendee segments, with previews, drafts, and a public unsubscribe link.
     name: <a href="/features/bulk-email/">Bulk email</a>
 - type: features
-  intro_content: "## Customising your site"
+  intro_content: "## [Customising your site](/features/customising-your-site/)"
   items:
   - icon: hugeicons:globe-02
     description: Get a host-provided subdomain instantly, then add your own custom domain whenever you're ready.
@@ -146,17 +146,17 @@ blocks:
     description: Upload images to listings and groups, with thumbnails, alt text, and automatic WebP conversion on upload.
     name: <a href="/features/images/">Images</a>
   - icon: hugeicons:layout-01
-    description: Every site includes a public website with a homepage, contact page, content pages, and custom CSS.
+    description: Each site can provide a homepage, listings, news, content pages, an optional contact page and custom CSS.
     name: <a href="/features/your-public-website/">Your public website</a>
   - icon: hugeicons:shopping-cart-01
     description: One JavaScript file turns links on your existing website into add-to-cart buttons with a floating cart.
     name: <a href="/features/order-widget/">Order widget</a>
 - type: features
   dark: true
-  intro_content: "## Platform & integrations"
+  intro_content: "## [Platform and integrations](/features/platform-and-integrations/)"
   items:
   - icon: hugeicons:source-code
-    description: AGPLv3 licensed with every feature included and no open-core model.
+    description: Published under AGPL-3.0-only with every product feature included and no proprietary feature tier.
     name: <a href="/features/open-source/">Open source</a>
   - icon: hugeicons:view-off
     description: Managed hosting processes encrypted attendee records but does not use them for audience profiles, advertising or other event marketing.
@@ -168,8 +168,8 @@ blocks:
     description: Set retention for orphaned records, erase contact history and export the attendee records held by the organiser.
     name: <a href="/features/privacy-controls/">Privacy controls</a>
   - icon: hugeicons:global
-    description: UK company, Slovenian hosting. Attendee data stays in the EU, under UK-GDPR and EU data protection law.
-    name: <a href="/features/european/">European</a>
+    description: UK company using Bunny managed infrastructure. Database replicas may run across Bunny regions, and optional providers have their own data terms.
+    name: <a href="/features/european/">Hosting and data</a>
   - icon: hugeicons:smart-phone-01
     description: Attendees can add tickets to Apple Wallet or Google Wallet for easy access at the door.
     name: <a href="/features/apple-wallet/">Apple & Google Wallet</a>
@@ -201,5 +201,5 @@ blocks:
     ## See it in action
 
     Sign up for managed hosting at £50/year or £5/month, or browse the source code and documentation on GitHub.
-name: Features - Chobble Tickets
+name: Event Ticketing Software Features | Chobble Tickets
 ---

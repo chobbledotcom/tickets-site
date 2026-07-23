@@ -2,7 +2,7 @@
 competitor_key: eventbrite
 title: Chobble Tickets vs Eventbrite
 meta_title: Open Source Alternative to Eventbrite | Chobble Tickets
-meta_description: "Chobble Tickets vs Eventbrite: flat pricing with no per-ticket fees, encrypted attendee data, and no attendee data collection."
+meta_description: Compare Chobble Tickets and Eventbrite on organiser and buyer fees, event discovery, attendee marketing, payments and ticketing features.
 permalink: /compared-to/eventbrite/
 eleventyNavigation:
   key: vs Eventbrite
@@ -23,7 +23,7 @@ blocks:
       upward), so for a £15 ticket you might lose £1-2 per sale to the
       platform.
 
-      Chobble Tickets is a flat £50/year or £5/month, with [no per-ticket fees](/features/no-per-ticket-fees/),
+      Chobble Tickets is a flat £50/year or £5/month, with [no per-ticket platform fee](/features/no-per-ticket-fees/),
       so the maths is simple: if you sell more than a few dozen tickets
       a year, Chobble Tickets is cheaper.
   - type: markdown
@@ -152,11 +152,11 @@ blocks:
         not enough to decrypt attendee data, since an attacker would also
         need your password. If you forget it, the data is permanently
         unrecoverable.
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3, no proprietary lock-in
-      - **Self-hosting option** - run the platform on your own servers for
-        free, with no licence fee
-      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, no
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only with no proprietary feature tier
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
+      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fees, no
         matter how many you sell
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -224,7 +224,7 @@ blocks:
       ## When Chobble Tickets is the better choice
 
       - You already have your own audience and don't need a discovery platform
-      - You want predictable, flat-rate pricing with no per-ticket fees
+      - You want predictable, flat-rate pricing with no per-ticket platform fees
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
       - You're a community group, charity, or school (£25/year)
@@ -271,6 +271,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Sign up for managed hosting at £50/year or £5/month, or self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
 name: Open Source Alternative to Eventbrite | Chobble Tickets
 ---

@@ -2,7 +2,7 @@
 competitor_key: tito
 title: Chobble Tickets vs Tito
 meta_title: Open Source Alternative to Tito | Chobble Tickets
-meta_description: "Chobble Tickets vs Tito: flat pricing with no per-ticket fees, encrypted attendee data, and open source code."
+meta_description: Compare Chobble Tickets and Tito on ticket fees, payment providers, event features, attendee data, integrations and source licensing.
 permalink: /compared-to/tito/
 eleventyNavigation:
   key: vs Tito
@@ -28,7 +28,7 @@ blocks:
       via [Stripe](https://stripe.com) or
       [PayPal](https://paypal.com) is charged separately by those providers.
 
-      Chobble Tickets is a flat £50/year or £5/month, with [no per-ticket fees](/features/no-per-ticket-fees/),
+      Chobble Tickets is a flat £50/year or £5/month, with [no per-ticket platform fees](/features/no-per-ticket-fees/),
       so the maths is simple: if you sell more than a few dozen tickets
       a year, Chobble Tickets is cheaper. With Tito, your costs scale
       linearly with revenue. A £15 ticket costs you 45p in Tito fees alone,
@@ -98,11 +98,11 @@ blocks:
         not enough to decrypt attendee data, since an attacker would also
         need your password. If you forget it, the data is permanently
         unrecoverable.
-      - **[Open source](/features/open-source/)** - every line of code is
-        public under AGPLv3, no proprietary lock-in
-      - **Self-hosting option** - run the platform on your own servers for
-        free, with no licence fee
-      - **Flat pricing** - £50/year or £5/month with no per-ticket fees, no
+      - **[Open source](/features/open-source/)** - the complete product source
+        is published under AGPL-3.0-only with no proprietary feature tier
+      - **Self-hosting option** - run the platform on selected infrastructure
+        without a Chobble software licence fee
+      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fees, no
         matter how many you sell
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -163,7 +163,7 @@ blocks:
       ## When Chobble Tickets is the better choice
 
       - You already have your own audience and don't need a discovery platform
-      - You want predictable, flat-rate pricing with no per-ticket fees
+      - You want predictable, flat-rate pricing with no per-ticket platform fees
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
       - You're a community group, charity, or school (£25/year)
@@ -224,6 +224,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Sign up for managed hosting at £50/year or £5/month, or self-host for free.
+      Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
 name: Open Source Alternative to Tito | Chobble Tickets
 ---

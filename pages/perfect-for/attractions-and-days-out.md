@@ -1,6 +1,6 @@
 ---
 title: Attractions and Days Out - Chobble Tickets
-meta_title: Attraction Booking System for Farm Parks & Museums - Chobble Tickets
+meta_title: Farm Park & Museum Booking Software | Chobble Tickets
 meta_description: Booking system for farm parks, museums, and grottos. Dated entry with per-date capacity, QR check-ins at the gate, and a flat £50/year fee.
 permalink: /perfect-for/attractions-and-days-out/
 eleventyNavigation:
@@ -43,10 +43,10 @@ blocks:
     content: |
       ## Check-in at the gate
 
-      Every ticket carries a unique
-      [QR code](/features/qr-code-check-ins/) that staff scan with any
-      phone camera. There is no scanner hardware to buy and no app for
-      visitors to install.
+      Each booking carries a unique
+      [QR code](/features/qr-code-check-ins/) that authorised staff scan in a
+      connected browser with a phone camera. There is no dedicated scanner
+      hardware to buy and no app for visitors to install.
 
       Visitors can add their tickets to
       [Apple Wallet or Google Wallet](/features/apple-wallet/), so the code
@@ -54,7 +54,7 @@ blocks:
       date and check-in status, giving you a visitor list for any day of
       the season.
 
-      Chobble Tickets charges a flat £50/year with no per-ticket fees. An
+      Chobble Tickets charges a flat £50/year with no per-ticket platform fee. An
       attraction selling 10,000 admissions in a season pays £50 for the
       year, while a platform charging £1 per ticket would collect £10,000
       from the same sales.
@@ -73,7 +73,7 @@ blocks:
         description: Per-date capacity with a calendar picker and configurable holiday and blackout dates for your opening season.
         name: <a href="/features/daily-events/">Daily events</a>
       - icon: hugeicons:qr-code
-        description: Every ticket gets a unique QR code that staff scan at the gate with any phone camera.
+        description: Each booking gets a unique QR code that authorised staff scan at the gate through a connected browser with a phone camera.
         name: <a href="/features/qr-code-check-ins/">QR code check-ins</a>
       - icon: hugeicons:csv-02
         description: Export visitor lists as CSV, filtered by date and check-in status, for staffing and planning.
@@ -87,6 +87,6 @@ blocks:
     content: |-
       ## Sell admission tickets online
 
-      Sign up for managed hosting at £50/year or £5/month with no per-ticket fees. Ticket revenue goes directly to your own Stripe, Square, or SumUp account.
-name: Attraction Booking System for Farm Parks & Museums - Chobble Tickets
+      Sign up for managed hosting at £50/year or £5/month with no per-ticket platform fee. Ticket revenue goes directly to your own Stripe, Square or SumUp account.
+name: Farm Park & Museum Booking Software | Chobble Tickets
 ---

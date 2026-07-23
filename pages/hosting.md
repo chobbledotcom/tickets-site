@@ -1,7 +1,7 @@
 ---
 title: Hosting Options - Chobble Tickets
 meta_title: Managed and Self-Hosted Event Ticketing | Chobble Tickets
-meta_description: Use Chobble managed hosting for £50 a year or £5 a month, or run the complete open source event ticketing platform on your own infrastructure for free.
+meta_description: Use Chobble managed hosting for £50 a year or £5 a month, or run the open source platform with no Chobble licence fee and separate infrastructure costs.
 permalink: /hosting/
 eleventyNavigation:
   key: Hosting
@@ -59,7 +59,7 @@ blocks:
         description: Database backups can be downloaded as zip files. Restores report the source-code version that matches the restored data.
       - icon: hugeicons:source-code
         name: No hosted-only features
-        description: Managed hosting runs the same AGPL-3.0 code published on GitHub. The fee pays for hosting and maintenance.
+        description: Managed hosting runs the <a href="/features/open-source/">same AGPL-3.0-only code</a> published on GitHub. The fee pays for hosting and maintenance.
   - type: markdown
     content: |
       ## Managed hosting or self-hosting
@@ -70,7 +70,7 @@ blocks:
       | Initial deployment | Chobble | Organiser or technical provider |
       | Infrastructure account | Chobble | Organiser or technical provider |
       | Software updates | Chobble | Organiser or technical provider |
-      | Source code | Complete AGPL-3.0 product | Complete AGPL-3.0 product |
+      | Source code | Complete AGPL-3.0-only product | Complete AGPL-3.0-only product |
       | Event and attendee administration | Organiser | Organiser |
       | Payment account | Organiser | Organiser |
       | Email provider settings | Organiser | Organiser |
