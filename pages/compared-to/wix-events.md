@@ -108,7 +108,7 @@ blocks:
       **Chobble Tickets has features Wix Events doesn't:**
 
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
@@ -159,7 +159,7 @@ blocks:
         yourname.tix.chobble.net subdomain instantly, or point your own
         domain
       - **[Public-facing website and CMS](/features/your-public-website/)**
-        - a homepage, content pages, news posts, and a contact form with
+        a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel in Markdown with
         [custom CSS](/features/customising-your-site/). Wix is a full
         website builder with drag-and-drop design; Chobble's CMS is a

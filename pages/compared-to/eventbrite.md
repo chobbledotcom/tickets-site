@@ -137,7 +137,7 @@ blocks:
       **Chobble Tickets has features Eventbrite doesn't:**
 
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
       - **[Custom questions with free-text answers](/features/custom-questions/)**
         - add multiple-choice or free-text questions to events, and link
@@ -190,7 +190,7 @@ blocks:
         yourname.tix.chobble.net subdomain instantly, or point your own
         domain. Eventbrite events run on eventbrite.co.uk by default.
       - **[Public-facing website and CMS](/features/your-public-website/)**
-        - a homepage, content pages, news posts, and a contact form with
+        a homepage, content pages, news posts, and a contact form with
         spam protection, all edited from the admin panel with Markdown and
         [custom CSS](/features/customising-your-site/). Eventbrite provides
         an event page but not a full website with pages you can compose

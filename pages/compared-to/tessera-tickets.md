@@ -109,7 +109,7 @@ blocks:
       **Chobble Tickets has features Tessera Tickets doesn't:**
 
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
       - **[Encryption at rest](/features/encrypted/)** - attendee data uses
         hybrid RSA-OAEP + AES-256-GCM and requires an authorised keyed user,
@@ -149,7 +149,7 @@ blocks:
       - **[Custom domain included](/features/custom-domain/)** - point
         your own domain at no extra cost
       - **[Public-facing website and CMS](/features/your-public-website/)**
-        - a homepage, content pages, news posts, and a contact form with
+        a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel in Markdown with
         [custom CSS](/features/customising-your-site/). Tessera's public
         site runs on WordPress; Chobble's is built in

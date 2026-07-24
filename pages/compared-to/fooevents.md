@@ -165,7 +165,7 @@ blocks:
         so you do not need to install, update, or secure a WordPress
         site for ticket sales
       - **[Public-facing website and CMS](/features/your-public-website/)**
-        - a homepage, content pages, news posts, and a contact form with
+        a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel in Markdown with
         [custom CSS](/features/customising-your-site/). FooEvents requires
         a WordPress site for its public pages
@@ -174,7 +174,7 @@ blocks:
         RSA-OAEP + AES-256-GCM scheme, so stored attendee details require
         credentials for an authorised keyed user
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
       - **[Open source](/features/open-source/) under AGPL-3.0-only** - the
         complete Chobble Tickets product source is public, with no proprietary

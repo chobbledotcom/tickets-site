@@ -118,7 +118,7 @@ blocks:
       - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
       - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
@@ -132,7 +132,7 @@ blocks:
         yourname.tix.chobble.net subdomain instantly, or point your own
         domain
       - **[Public-facing website and CMS](/features/your-public-website/)**
-        - a homepage, content pages, news posts, and a contact form with
+        a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel in Markdown with
         [custom CSS](/features/customising-your-site/)
       - **No marketing to your attendees** - your audience stays yours,

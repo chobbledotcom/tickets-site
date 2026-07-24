@@ -131,7 +131,7 @@ blocks:
       - **[Custom domain support](/features/custom-domain/)** - get a
         host-provided subdomain instantly, or point your own domain
       - **[Public-facing website and CMS](/features/your-public-website/)**
-        - a homepage, content pages, news posts, and a contact form with
+        a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel in Markdown with
         [custom CSS](/features/customising-your-site/)
       - **Self-hosting option** - run the platform on selected infrastructure

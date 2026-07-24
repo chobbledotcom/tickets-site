@@ -140,7 +140,7 @@ blocks:
         stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
         plain database rows
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
@@ -170,7 +170,7 @@ blocks:
       - **[Custom domain support](/features/custom-domain/)** - use your own
         domain name
       - **[Public-facing website and CMS](/features/your-public-website/)**
-        - a homepage, content pages, news posts, and a contact form with
+        a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel in Markdown with
         [custom CSS](/features/customising-your-site/). Hi.Events provides
         event pages but not a full composable website

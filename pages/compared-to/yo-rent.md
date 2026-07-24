@@ -179,7 +179,7 @@ blocks:
       - **[Liquid email templates](/features/email-templates/)** - full
         control over the subject and body of confirmation emails
       - **[Public-facing website and CMS](/features/your-public-website/)**
-        - a homepage, content pages, news posts, and a contact form with
+        a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel in Markdown with
         [custom CSS](/features/customising-your-site/). Yo!Rent's
         storefront runs on WordPress; Chobble's is built in

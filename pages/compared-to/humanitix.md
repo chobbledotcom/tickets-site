@@ -149,16 +149,16 @@ blocks:
       - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for custom integrations
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        - create promo codes, discount codes, surcharges, and opt-in
-        add-ons with stock limits and a live running total
+        create promo codes, discount codes, surcharges, and opt-in add-ons
+        with stock limits and a live running total
       - **[Custom questions with price-linked answers](/features/custom-questions/)**
-        - link answers to price changes for tiered pricing
+        link answers to price changes for tiered pricing
       - **[Daily and recurring events](/features/daily-events/)** -
         per-date capacity with a calendar picker
       - **[Custom domain included](/features/custom-domain/)** - pointing
         your own domain is part of the base price, with TLS handled for you
       - **[Public-facing website and CMS](/features/your-public-website/)**
-        - a homepage, content pages, news posts, and a contact form with
+        a homepage, content pages, news posts, and a contact form with
         spam protection, all edited from the admin panel with Markdown.
         Write your own [custom CSS](/features/customising-your-site/) for
         colours, fonts and spacing. Humanitix customises the event page

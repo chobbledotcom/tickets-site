@@ -100,7 +100,7 @@ blocks:
       **Chobble Tickets has features FIXR doesn't:**
 
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        - create promo codes, discount codes, surcharges, and opt-in add-ons
+        create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
       - **[Encryption at rest](/features/encrypted/)** - attendee data
         is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
@@ -117,7 +117,7 @@ blocks:
       - **[Custom domain support](/features/custom-domain/)** - get a
         nice host-provided subdomain instantly, or point your own domain
       - **[Public-facing website and CMS](/features/your-public-website/)**
-        - a homepage, content pages, news posts, and a contact form with
+        a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel in Markdown with
         [custom CSS](/features/customising-your-site/)
       - **Self-hosting option** - run the platform on selected infrastructure
