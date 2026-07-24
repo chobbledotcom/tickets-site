@@ -51,6 +51,34 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Sell related tickets together",
     body: "Put related listings in one public checkout and set a shared capacity across the whole group.",
   },
+  "industry-catering": {
+    heading: "Take catering requirements online",
+    body: "Customers book a published service, provide dietary and venue details, and add paid extras to the same order.",
+  },
+  "industry-childrens-entertainer": {
+    heading: "Require an entertainer choice",
+    body: "A party package can require the customer to choose one clown, mascot or entertainer before checkout.",
+  },
+  "industry-folk-club": {
+    heading: "Record folk club income",
+    body: "Keep advance sales, door income, refunds and club-night costs in one ledger-backed statement.",
+  },
+  "industry-personal-stylist": {
+    heading: "Take styling bookings online",
+    body: "Customers choose an offered consultation date and provide their preferences before payment.",
+  },
+  "industry-personal-trainer": {
+    heading: "Take training session bookings",
+    body: "Publish individual or group sessions with per-date capacity, intake questions and online payment.",
+  },
+  "industry-skip-hire": {
+    heading: "Take skip hire bookings",
+    body: "Customers choose a start date and published hire length, with capacity checked across every booked day.",
+  },
+  "industry-venue-hire": {
+    heading: "Take day-based venue bookings",
+    body: "Customers choose an available start date and one of the whole-day or multi-day prices the venue publishes.",
+  },
   ledger: {
     heading: "Keep one accounting ledger",
     body: "Track card income, offline payments, refunds, recognised income and outstanding balances in one place.",

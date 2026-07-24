@@ -40,6 +40,7 @@ const stripJsExtension = (name) => name.replace(/\.js$/, "");
 const isScenarioFile = (entry) =>
   entry.isFile() &&
   entry.name.endsWith(".js") &&
+  !entry.name.startsWith("_") &&
   !NON_SCENARIO_FILES.has(entry.name);
 
 const listScenarios = () =>
@@ -62,21 +63,26 @@ const resolveRequested = (requested) => {
   return all.filter((name) => wanted.has(name));
 };
 
+const parseArg = (args, index) => {
+  const arg = args[index];
+  if (arg === "--no-social") return { advance: 0, social: null };
+  if (arg === "--social") {
+    const social = args[index + 1];
+    if (!social) throw new Error("--social needs a value");
+    return { advance: 1, social };
+  }
+  if (arg.startsWith("--")) throw new Error(`Unknown option: ${arg}`);
+  return { advance: 0, requested: arg };
+};
+
 const parseArgs = (args) => {
   const requested = [];
   let social = DEFAULT_SOCIAL;
   for (let i = 0; i < args.length; i++) {
-    const arg = args[i];
-    if (arg === "--no-social") {
-      social = null;
-    } else if (arg === "--social") {
-      social = args[++i];
-      if (!social) throw new Error("--social needs a value");
-    } else if (arg.startsWith("--")) {
-      throw new Error(`Unknown option: ${arg}`);
-    } else {
-      requested.push(arg);
-    }
+    const parsed = parseArg(args, i);
+    if (parsed.requested) requested.push(parsed.requested);
+    else social = parsed.social;
+    i += parsed.advance;
   }
   return { requested, social };
 };

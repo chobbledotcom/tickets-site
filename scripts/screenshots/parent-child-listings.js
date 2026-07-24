@@ -2,6 +2,7 @@ import {
   blurActiveElement,
   createListing,
   openFilledListingCheckout,
+  setRequiredChildren,
   waitForOrderTotal,
 } from "./helpers.js";
 
@@ -92,19 +93,10 @@ main .order-summary-message {
       },
     });
 
-    const childrenForm = `form[action="/admin/listing/${festivalPassId}/children"]`;
-    await context.page.goto(`/admin/listing/${festivalPassId}/edit`);
-    await context.page
-      .locator(
-        `${childrenForm} [name="child_listing_ids"][value="${generalCampingId}"]`,
-      )
-      .check();
-    await context.page
-      .locator(
-        `${childrenForm} [name="child_listing_ids"][value="${quietCampingId}"]`,
-      )
-      .check();
-    await context.submit(childrenForm);
+    await setRequiredChildren(context, festivalPassId, [
+      generalCampingId,
+      quietCampingId,
+    ]);
 
     await openFilledListingCheckout(context, {
       email: "alex@example.com",

@@ -36,6 +36,27 @@ export const waitForOrderTotal = (page, amount) =>
     .getByText(amount, { exact: true })
     .waitFor();
 
+export const addListingMoney = async (
+  context,
+  listingId,
+  entryType,
+  amount,
+) => {
+  const path = `/admin/ledger/revenue/${listingId}/add`;
+  await context.page.goto(path);
+  const formSelector = `form[action="${path}"]`;
+  await setFormValues(context.page, formSelector, {
+    amount,
+    entry_type: entryType,
+  });
+  await context.submit(formSelector);
+  const resultPath = new URL(context.page.url()).pathname;
+  if (resultPath !== `/admin/ledger/revenue/${listingId}`) {
+    const message = await context.page.locator("main").textContent();
+    throw new Error(`Could not add ${entryType} at ${resultPath}: ${message}`);
+  }
+};
+
 export const createAttendee = async (
   { page, submit },
   { listingId, quantity = "1", startDate, values },
@@ -121,6 +142,21 @@ export const openFilledListingCheckout = async (
   await page.goto(await publicPathFor(page, listingId));
   await page.locator('[name="name"]').fill(name);
   await page.locator('[name="email"]').fill(email);
+};
+
+export const setRequiredChildren = async (
+  { page, submit },
+  parentId,
+  childIds,
+) => {
+  const form = `form[action="/admin/listing/${parentId}/children"]`;
+  await page.goto(`/admin/listing/${parentId}/edit`);
+  for (const childId of childIds) {
+    await page
+      .locator(`${form} [name="child_listing_ids"][value="${childId}"]`)
+      .check();
+  }
+  await submit(form);
 };
 
 export const enableFeature = async ({ page, submit }, feature) => {

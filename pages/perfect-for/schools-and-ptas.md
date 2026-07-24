@@ -1,7 +1,7 @@
 ---
-title: Schools and PTAs - Chobble Tickets
-meta_title: School Event & PTA Fundraiser Ticketing - Chobble Tickets
-meta_description: School disco, fair and PTA fundraiser ticketing with a £25 annual community rate, no per-ticket platform fee, encrypted attendee data and phone-based QR entry.
+title: School Events and PTAs - Chobble Tickets
+meta_title: PTA and School Event Ticketing | Chobble Tickets
+meta_description: Sell school event tickets, raffles and donations with a £25 community rate, ledger-backed reports and no Chobble per-ticket platform fee.
 permalink: /perfect-for/schools-and-ptas/
 eleventyNavigation:
   key: Schools and PTAs
@@ -10,76 +10,86 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
+    badge: For schools and parent groups
     content: |-
-      # Ticketing for schools and PTAs
+      # Ticketing and payment records for school events and PTAs
 
-      Sell tickets for school discos, fairs and performances with no per-ticket platform fee and a 50% annual discount for PTAs and other community groups.
-  - type: split-icon-links
-    reveal_content: left
-    content: |
-      ## Low-priced tickets without fees
-
-      School event tickets are usually cheap. A £3 disco ticket loses a
-      large share of its price to a platform that charges a booking fee or
-      a percentage on every sale.
-
-      Chobble Tickets charges a flat fee with
-      [no per-ticket platform fee](/features/no-per-ticket-fees/). PTAs and
-      community groups pay [**£25/year**](/pricing/) (50% off the standard £50/year),
-      and payments go through Stripe, Square, or SumUp directly to your
-      own account.
-
-      Fundraising that has no event to attend, such as raffles, donations,
-      and trip contributions, works through
-      [purchasable events](/features/purchasable-events/). Chobble Tickets
-      also has a [comparison with PTA Events](/compared-to/pta-events/).
-    figure_items:
-      - icon: hugeicons:money-receive-square
-        text: £25/year for PTAs and community groups
-      - icon: hugeicons:credit-card
-        text: No Chobble per-ticket platform fee
+      Sell tickets for discos, fairs and performances, collect donations and raffle payments, and keep online and cash income in one ledger. Eligible PTAs and community groups pay £25 a year for managed hosting.
+    buttons:
+      - text: Start for £5
+        href: https://tix.chobble.com/ticket/register
+        variant: primary
+        size: lg
+      - text: See pricing
+        href: /pricing/
+        variant: secondary
+        size: lg
+  - type: stats
+    dark: true
+    items:
+      - value: £25
+        label: Annual community rate
+      - value: 0%
+        label: Chobble platform commission
+      - value: One ledger
+        label: Card, cash, refunds and costs
+      - value: Encrypted
+        label: Attendee details in the database
   - type: split-image
     content: |
-      ## Children's data is encrypted
+      ## Collect the details needed for each event
 
-      School events mean holding data about children, such as names, class
-      names, and allergy details. Chobble Tickets
-      [encrypts attendee data at rest](/features/encrypted/), and it does
-      not use attendee details for marketing.
+      [Custom questions](/features/custom-questions/) can ask for a child’s class, allergy information or collection arrangements. The answers appear with the booking and in CSV exports.
 
-      [Custom questions](/features/custom-questions/) collect the details
-      you need at checkout, such as the child's class or allergy
-      information. Answers appear on the attendee record and in
-      [CSV exports](/features/csv-export/).
+      Each event has its own price, capacity, sale window and terms. Parents can book for more than one child in one order, and office staff can add cash sales as [manual attendees](/features/manual-attendees/) so the door list stays complete.
 
-      Not every parent pays online. [Manual attendees](/features/manual-attendees/)
-      let you record cash sales taken at the school office, so the door
-      list stays complete.
+      Personal data is [encrypted in the database](/features/encrypted/). Chobble does not use attendee details to advertise other events.
     figure_src: /images/screenshots/oakfield-primary-summer-disco-checkout.png
-    figure_alt: The Oakfield Primary Summer Disco checkout filled in with a child's name, class, and allergy details
-    figure_caption: Parents can add the class and allergy details you need when they book.
+    figure_alt: School disco checkout asking for a child's class and allergy information
+    figure_caption: A school can collect the class and allergy details it needs when a parent books.
+  - type: split-icon-links
+    reverse: true
+    content: |
+      ## Give the treasurer a complete money record
+
+      Card payments, refunds, booking balances and manual entries feed the [double-entry ledger](/features/ledger/). Owners can record cash takings, bank transfers and event costs, then filter the ledger and export records for the committee.
+
+      [Purchasable listings](/features/purchasable-events/) handle raffle entries, donations, merchandise and trip contributions that do not need a door check. Chobble Tickets sells raffle entries but does not run the draw.
+
+      Owners control Money and bulk email. Editors can update event and website content without decrypting attendee details or seeing the Money area.
+    figure_items:
+      - icon: hugeicons:money-receive-square
+        text: Ledger-backed income and costs
+        url: /features/ledger/
+      - icon: hugeicons:ticket-01
+        text: Raffles and payment collections
+        url: /features/purchasable-events/
+      - icon: hugeicons:user-multiple
+        text: Separate accounts for committee members
+        url: /features/users/
   - type: features
     dark: true
-    intro_content: "## Features for school events"
+    intro_content: |
+      ## Features for school events
     items:
       - icon: hugeicons:qr-code
-        description: Each booking has a unique QR code. Authorised volunteers scan it in a connected browser with a phone camera, with no native app to install.
-        name: <a href="/features/qr-code-check-ins/">QR check-ins on the door</a>
-      - icon: hugeicons:money-send-02
-        description: Sell raffle tickets, collect donations, and take trip contributions without a physical event to attend.
-        name: <a href="/features/purchasable-events/">Raffles and collections</a>
+        description: Staff with check-in access can scan ticket QR codes through a connected browser or find a booking by name.
+        name: <a href="/features/qr-code-check-ins/">Door check-in</a>
+      - icon: hugeicons:package
+        description: Combine adult and child tickets into family bundles, with fixed quantities and a separate package price.
+        name: <a href="/features/packages/">Family packages</a>
       - icon: hugeicons:csv-02
-        description: Download attendee lists as CSV files for registers, catering counts, or the PTA treasurer.
-        name: <a href="/features/csv-export/">CSV export</a>
+        description: Export attendance, answers, payment references and ledger records for registers and committee reporting.
+        name: <a href="/features/csv-export/">CSV reports</a>
   - type: cta
     button:
-      text: Get Started
+      text: Start for £5
       href: https://tix.chobble.com/ticket/register
-      variant: secondary
+      variant: primary
       size: lg
     content: |-
-      ## Get the community discount
+      ## Set up school event ticketing
 
-      Sign up for managed hosting at £25/year for PTAs and community groups, or £5/month at the standard rate.
-name: School Event & PTA Fundraiser Ticketing - Chobble Tickets
+      Eligible PTAs and community groups pay £25 a year. The standard monthly price is £5, and payment-provider charges remain separate.
+name: PTA and School Event Ticketing | Chobble Tickets
 ---

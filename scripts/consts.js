@@ -21,6 +21,7 @@ export const sourceExcludes = [
   "scripts",
   "chobble-template",
   "node_modules",
+  "_site",
   "package*.json",
   "bun.lock",
   "old_site",

@@ -14,7 +14,6 @@ blocks:
 
       Each screenshot is a real Chobble Tickets page on a phone. Scroll the gallery to see how listings, checkouts, attendees, staff tools and reporting fit together.
   - type: gallery
-    horizontal: true
     aspect_ratio: "1200/630"
     items:
       - image: /images/screenshots/oakfield-homepage-editor__facebook.png
@@ -23,6 +22,10 @@ blocks:
         caption: A listing form with the name, date, venue and price of a new event.
       - image: /images/screenshots/daily-events-calendar__facebook.png
         caption: A daily events calendar showing how many places are left on each date.
+      - image: /images/screenshots/industry-personal-trainer-booking__facebook.png
+        caption: A personal training checkout with an offered date and an intake question.
+      - image: /images/screenshots/industry-personal-stylist-booking__facebook.png
+        caption: A styling consultation checkout collecting the customer's preferences.
       - image: /images/screenshots/charity-family-fun-day-checkout__facebook.png
         caption: Group checkout for a family fun day — adult and child tickets in one basket.
       - image: /images/screenshots/garden-party-package-checkout__facebook.png
@@ -31,10 +34,14 @@ blocks:
         caption: The Tempest group checkout with adult and child tickets, £30 owed.
       - image: /images/screenshots/required-child-listings-checkout__facebook.png
         caption: A festival pass that requires each camper to pick a camping option.
+      - image: /images/screenshots/industry-childrens-entertainer-booking__facebook.png
+        caption: A children's party package that requires one entertainer choice.
       - image: /images/screenshots/promo-codes-and-add-ons-checkout__facebook.png
         caption: An early-booking discount code and a parking pass added to an order.
       - image: /images/screenshots/custom-questions-checkout__facebook.png
         caption: Custom questions at checkout — bread experience and food allergies.
+      - image: /images/screenshots/industry-catering-booking__facebook.png
+        caption: A catering checkout with guest requirements and a paid crockery extra.
       - image: /images/screenshots/deposits-and-balance-payments__facebook.png
         caption: A balance page — £120 order, £30 paid, £90 left to pay.
       - image: /images/screenshots/workshop-terms-checkout__facebook.png
@@ -47,6 +54,10 @@ blocks:
         caption: Service events hold places without adding a customer to the list.
       - image: /images/screenshots/equipment-hire-booking__facebook.png
         caption: Equipment hire booking — pick dates and quantities for each item.
+      - image: /images/screenshots/industry-skip-hire-booking__facebook.png
+        caption: A skip hire checkout with a customer-selected start date and seven-day price.
+      - image: /images/screenshots/industry-venue-hire-booking__facebook.png
+        caption: A venue hire checkout with an available date and two-day price.
       - image: /images/screenshots/manual-attendee-community-supper__facebook.png
         caption: A manually-added attendee appears next to the online bookings.
       - image: /images/screenshots/attendee-statuses__facebook.png
@@ -63,6 +74,8 @@ blocks:
         caption: The confirmation email editor with attendee and ticket placeholders.
       - image: /images/screenshots/summer-arts-fair-ledger__facebook.png
         caption: The ledger — gross sales, recognised income and the net balance.
+      - image: /images/screenshots/industry-folk-club-ledger__facebook.png
+        caption: A folk club ledger combining advance sales, door income and event costs.
       - image: /images/screenshots/group-bulk-actions__facebook.png
         caption: Duplicate a group of listings and shift their dates in one step.
       - image: /images/screenshots/catalogue-import__facebook.png

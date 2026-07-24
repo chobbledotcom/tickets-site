@@ -45,9 +45,7 @@ const rgbFromHex = (hex) => {
 const luminance = (colour) => {
   const [red, green, blue] = colour.map((channel) => {
     const value = channel / 255;
-    return value <= 0.04045
-      ? value / 12.92
-      : ((value + 0.055) / 1.055) ** 2.4;
+    return value <= 0.04045 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4;
   });
   return red * 0.2126 + green * 0.7152 + blue * 0.0722;
 };
@@ -76,6 +74,21 @@ const differsFrom = (data, index, background) =>
   Math.abs(data[index + 1] - background[1]) > EDGE_TOLERANCE ||
   Math.abs(data[index + 2] - background[2]) > EDGE_TOLERANCE;
 
+const countColumnDifferences = (
+  { channels, data, height, width },
+  x,
+  background,
+  required,
+) => {
+  let differences = 0;
+  for (let y = 0; y < height; y++) {
+    const pixelIndex = (y * width + x) * channels;
+    if (differsFrom(data, pixelIndex, background)) differences++;
+    if (differences >= required) return differences;
+  }
+  return differences;
+};
+
 export const findSolidRegionWidth = ({ data, height, width }) => {
   const channels = data.length / (width * height);
   const background = [data[0], data[1], data[2]];
@@ -83,12 +96,12 @@ export const findSolidRegionWidth = ({ data, height, width }) => {
   const firstColumn = Math.round(width * 0.25);
 
   for (let x = firstColumn; x < width; x++) {
-    let differences = 0;
-    for (let y = 0; y < height; y++) {
-      const index = (y * width + x) * channels;
-      if (differsFrom(data, index, background)) differences++;
-      if (differences >= requiredDifferences) return x;
-    }
+    const image = { channels, data, height, width };
+    if (
+      countColumnDifferences(image, x, background, requiredDifferences) >=
+      requiredDifferences
+    )
+      return x;
   }
 
   throw new Error("Could not find the edge of the solid background.");
@@ -110,7 +123,9 @@ export const renderSocialScreenshotText = async (
   if (!copy) throw new Error(`No social copy is defined for ${scenarioName}.`);
 
   const image = sharp(filePath);
-  const { data, info } = await image.raw().toBuffer({ resolveWithObject: true });
+  const { data, info } = await image
+    .raw()
+    .toBuffer({ resolveWithObject: true });
   const solidWidth = findSolidRegionWidth({ data, ...info });
   const background = [data[0], data[1], data[2]];
   const darkBackground = isDark(background);

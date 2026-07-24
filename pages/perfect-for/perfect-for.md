@@ -1,7 +1,7 @@
 ---
 title: Ticketing Software for Events, Classes and Hire - Chobble Tickets
 meta_title: Ticketing Software for Events, Classes and Hire | Chobble Tickets
-meta_description: See how Chobble Tickets handles charity events, school fundraisers, classes, equipment hire, festivals, theatre and other bookings.
+meta_description: See how Chobble Tickets handles soft play, personal training, folk clubs, school events, venue and skip hire, catering and other bookings.
 permalink: /perfect-for/
 eleventyNavigation:
   key: Perfect For
@@ -10,66 +10,87 @@ blocks:
   - type: hero
     class: gradient
     content: |-
-      # Perfect for events, hire, and bookings
+      # Ticketing software for events, hire and service bookings
 
-      Chobble Tickets handles ticketed events, equipment hire with delivery, and session bookings. Whether you run a school fundraiser, an equipment hire business, or a music festival, the price is the same flat fee.
+      Chobble Tickets handles ticketed events, repeating sessions, day-based hire, payment collections and bookings that need deposits or delivery records. Managed hosting has the same flat price across these uses.
   - type: features
-    intro_content: "## Who uses Chobble Tickets?"
+    intro_content: "## Uses for Chobble Tickets"
     items:
+      - icon: hugeicons:baby-01
+        description: Publish each regular session time, set capacity for every date and scan bookings at the door with a phone.
+        name: <a href="/perfect-for/stay-and-play/">Soft play and stay-and-play</a>
+      - icon: hugeicons:football
+        description: Take one-to-one or group session bookings with intake questions, deposits and returning-customer price rules.
+        name: <a href="/perfect-for/personal-trainers/">Personal trainers</a>
+      - icon: hugeicons:music-note-01
+        description: Take weekly admission, sell raffle entries and record advance sales, door income and costs in one ledger.
+        name: <a href="/perfect-for/folk-music-clubs/">Folk music clubs</a>
+      - icon: hugeicons:delivery-truck-02
+        description: Price each offered hire length, check stock across booked days and assign delivery and collection work.
+        name: <a href="/perfect-for/skip-hire/">Skip hire companies</a>
+      - icon: hugeicons:restaurant-01
+        description: Sell fixed menus and packages, collect dietary requirements and give delivery or setup crews a run sheet.
+        name: <a href="/perfect-for/caterers/">Caterers</a>
+      - icon: hugeicons:tag-01
+        description: Take dated consultation bookings with preference questions, extras, deposits and encrypted customer details.
+        name: <a href="/perfect-for/personal-stylists/">Personal stylists</a>
+      - icon: hugeicons:school-01
+        description: Sell school event tickets, raffles and donations with ledger-backed reports and a reduced community rate.
+        name: <a href="/perfect-for/schools-and-ptas/">Schools and PTAs</a>
+      - icon: hugeicons:balloons
+        description: Sell party packages that require the customer to choose one clown, mascot or entertainer.
+        name: <a href="/perfect-for/childrens-entertainers/">Children's entertainers</a>
+      - icon: hugeicons:location-01
+        description: Take whole-day or multi-day room bookings with date-range capacity, questions, deposits and maintenance holds.
+        name: <a href="/perfect-for/venue-hire/">Venue and room hire</a>
       - icon: hugeicons:heart-check
-        description: Charities and community groups receive a 50% annual discount. Chobble Tickets can also <a href="/perfect-for/fundraising/">collect donations and sell raffle tickets</a> without per-ticket fees.
+        description: Charities and community groups receive a reduced annual price and can collect donations or sell raffle entries.
         name: <a href="/perfect-for/charity-events/">Charity events and fundraising</a>
       - icon: hugeicons:balloons
-        description: Simple booking for parents where you can collect the info you need, send confirmations, and check guests in at the door.
-        name: <a href="/perfect-for/kids-parties/">Kids parties</a>
-      - icon: hugeicons:baby-01
-        description: Daily session booking where parents pick a day from a calendar, with per-date capacity and no Chobble per-ticket platform fee.
-        name: <a href="/perfect-for/stay-and-play/">Stay and play</a>
+        description: Collect parent details, manage capacity and send QR code tickets for free or paid children's parties.
+        name: <a href="/perfect-for/kids-parties/">Children's parties</a>
       - icon: hugeicons:music-note-01
-        description: Sell tickets through your own payment account with no Chobble per-ticket platform fee. Payment-provider charges remain separate.
+        description: Sell concert tickets through the organiser's payment account and check attendees in at the door.
         name: <a href="/perfect-for/music-concerts/">Music concerts</a>
       - icon: hugeicons:megaphone-01
-        description: Privacy-first ticketing with encrypted attendee data, so your supporters' information stays protected.
+        description: Run paid or free political events with encrypted attendee details and no attendee advertising by Chobble.
         name: <a href="/perfect-for/political-organising/">Political organising</a>
       - icon: hugeicons:lock
-        description: Encrypted attendee data and no data sharing for events where your guest list needs to stay private.
-        name: <a href="/perfect-for/adult-parties/">Adult parties</a>
+        description: Use encrypted attendee data and configurable contact fields for events with private guest lists.
+        name: <a href="/perfect-for/adult-parties/">Private adult events</a>
       - icon: hugeicons:presentation-podium
-        description: Low-cost ticketing for classes and workshops where platform fees eat into margins and attendees shouldn't need to hand over personal data.
+        description: Take workshop bookings with capacity, questions, registration deadlines and confirmation emails.
         name: <a href="/perfect-for/workshops/">Workshops</a>
       - icon: hugeicons:tent
-        description: Multi-day marquee bookings with deposits, site questions at checkout, and run sheets for set-up and teardown crews.
+        description: Take multi-day marquee bookings with deposits, site questions and run sheets for setup and teardown crews.
         name: <a href="/perfect-for/marquee-hire/">Marquee hire</a>
       - icon: hugeicons:delivery-truck-02
-        description: Booking, delivery, and collection for marquees, sound systems, and any equipment that goes out and comes back.
+        description: Manage day-based equipment hire with duration prices, overlapping capacity and delivery records.
         name: <a href="/perfect-for/equipment-hire/">Equipment hire</a>
       - icon: hugeicons:ferris-wheel
-        description: Per-date capacity with a calendar picker, QR check-ins at the gate, and a flat fee however many admissions you sell.
-        name: <a href="/perfect-for/attractions-and-days-out/">Attractions & days out</a>
+        description: Sell dated admission with per-date capacity, phone-based QR check-in and attendance exports.
+        name: <a href="/perfect-for/attractions-and-days-out/">Attractions and days out</a>
       - icon: hugeicons:mortarboard-01
-        description: Recurring sessions with per-date capacity, registration deadlines, and bulk email to the whole class list.
-        name: <a href="/perfect-for/classes-and-courses/">Classes & courses</a>
-      - icon: hugeicons:school-01
-        description: No Chobble per-ticket platform fee, attendee data encrypted at rest and a 50% annual discount for PTAs and community groups.
-        name: <a href="/perfect-for/schools-and-ptas/">Schools & PTAs</a>
+        description: Publish regular session times with per-date capacity, booking deadlines and class-list email.
+        name: <a href="/perfect-for/classes-and-courses/">Classes and courses</a>
       - icon: hugeicons:football
-        description: Match tickets, training session bookings, membership dues, and a ledger the treasurer can reconcile.
+        description: Sell match tickets, take one-off membership payments and record training-session bookings.
         name: <a href="/perfect-for/sports-clubs/">Sports clubs</a>
       - icon: hugeicons:tent
-        description: Multi-day passes, camping add-ons via parent/child listings, and promo code allocations with stock limits.
+        description: Sell passes, camping choices and add-ons with capacity controls and phone-based gate check-in.
         name: <a href="/perfect-for/festivals/">Festivals</a>
       - icon: hugeicons:mask-theater-01
-        description: Multiple performance dates, QR check-ins front of house and no Chobble per-ticket platform fee.
-        name: <a href="/perfect-for/theatre-and-performing-arts/">Theatre & performing arts</a>
+        description: Sell tickets for several performance dates and give front-of-house staff QR check-in tools.
+        name: <a href="/perfect-for/theatre-and-performing-arts/">Theatre and performing arts</a>
   - type: cta
     button:
-      text: Sign Up
+      text: Start for £5
       href: https://tix.chobble.com/ticket/register
       variant: primary
       size: lg
     content: |-
-      ## Get started
+      ## Set up a hosted booking site
 
-      Sign up for managed hosting at £50/year or £5/month, or run the source code without paying Chobble a licence fee.
+      Managed hosting costs £50 a year or £5 a month. Eligible charities and community groups pay £25 a year.
 name: Ticketing Software for Events, Classes and Hire | Chobble Tickets
 ---

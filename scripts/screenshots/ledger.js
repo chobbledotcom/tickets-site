@@ -1,20 +1,4 @@
-import { createAttendee, createListing, setFormValues } from "./helpers.js";
-
-const addListingMoney = async (context, listingId, entryType, amount) => {
-  const path = `/admin/ledger/revenue/${listingId}/add`;
-  await context.page.goto(path);
-  const formSelector = `form[action="${path}"]`;
-  await setFormValues(context.page, formSelector, {
-    amount,
-    entry_type: entryType,
-  });
-  await context.submit(formSelector);
-  const resultPath = new URL(context.page.url()).pathname;
-  if (resultPath !== `/admin/ledger/revenue/${listingId}`) {
-    const message = await context.page.locator("main").textContent();
-    throw new Error(`Could not add ${entryType} at ${resultPath}: ${message}`);
-  }
-};
+import { addListingMoney, createAttendee, createListing } from "./helpers.js";
 
 const assertRow = async (table, label, amount) => {
   const row = table.getByRole("row").filter({ hasText: label });

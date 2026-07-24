@@ -1,7 +1,7 @@
 ---
-title: Stay and Play Sessions - Chobble Tickets
-meta_title: Ticketing for Stay and Play Sessions - Chobble Tickets
-meta_description: Daily session ticketing for stay and play with per-date capacity, phone-based QR entry and no Chobble per-ticket platform fee.
+title: Soft Play and Stay-and-Play Sessions - Chobble Tickets
+meta_title: Soft Play Booking System | Chobble Tickets
+meta_description: Take online bookings for soft play and stay-and-play sessions with per-date capacity, family packages, QR check-in and no Chobble per-ticket fee.
 permalink: /perfect-for/stay-and-play/
 eleventyNavigation:
   key: Stay and Play
@@ -10,87 +10,84 @@ eleventyNavigation:
 blocks:
   - type: hero
     class: gradient
+    badge: For soft play centres
     content: |-
-      # Ticketing for stay and play sessions
+      # Booking software for soft play and stay-and-play sessions
 
-      Set up your weekly sessions, choose which days you run, and let parents book online without creating an account.
-  - type: split-icon-links
+      Publish each regular session, limit places for every date and let families book without creating an account. Managed hosting costs £50 a year or £5 a month, with no Chobble per-ticket platform fee.
+    buttons:
+      - text: Start for £5
+        href: https://tix.chobble.com/ticket/register
+        variant: primary
+        size: lg
+      - text: See pricing
+        href: /pricing/
+        variant: secondary
+        size: lg
+  - type: stats
+    dark: true
+    items:
+      - value: £50
+        label: Managed hosting per year
+      - value: 0%
+        label: Chobble platform commission
+      - value: Each date
+        label: Has its own capacity
+      - value: Phone camera
+        label: Used for QR check-in
+  - type: split-image
     content: |
-      ## No per-ticket platform fees on low-cost sessions
+      ## One listing for each session time
 
-      Stay and play sessions typically charge between £1 and £4 a ticket. On
-      other platforms, a per-ticket fee of £1 can double the cost for parents.
-      Chobble Tickets charges a flat annual fee with no per-ticket cut, so
-      every pound parents pay goes straight to the organiser's Stripe, Square, or SumUp account.
+      Create separate [daily listings](/features/daily-events/) such as “09:30 Stay and Play” and “11:30 Stay and Play”. Choose the weekdays for each listing, then set its capacity, booking notice and maximum places per order.
 
-      For sessions at the lower end of that range the difference is
-      significant. A £1 ticket on another platform can cost a parent £2, and
-      half of what they pay never reaches the organiser.
+      Families choose a date from the listing calendar. Capacity resets for each date, and holiday ranges stop bookings during bank holidays, closures or school breaks.
 
-      Chobble Tickets also only collects the contact fields the organiser
-      chooses, so parents do not share their home address and phone number
-      with a third-party platform.
-    figure_items:
-      - icon: hugeicons:ticket-01
-        text: Tickets from £1–£4
-      - icon: hugeicons:money-send-02
-        text: "Other platforms: up to £1 per ticket"
-      - icon: hugeicons:money-receive-square
-        text: "Chobble Tickets: £0 per ticket"
+      Adult, child and sibling admission can be shown together through a group or the public order page. [Packages](/features/packages/) can also sell a fixed family bundle at its own price.
+    figure_src: /images/screenshots/daily-events-calendar.png
+    figure_alt: Calendar for Little Acorns Stay and Play showing bookings and remaining capacity by date
+    figure_caption: The calendar shows bookings and remaining places for every session date.
   - type: split-icon-links
+    reverse: true
     content: |
-      ## Parents pick a day and book
+      ## Run the door list and session records
 
-      Chobble Tickets has a daily events feature where organisers set which
-      days of the week they run. Parents see a calendar picker and choose the
-      day that suits them. Each day has its own capacity, and the same
-      overbooking checks apply to each date independently.
+      Each booking receives a QR code by email. Staff can [scan it with a phone](/features/qr-code-check-ins/), find a booking by name or add a walk-in from the administration area.
 
-      Holiday and blackout dates prevent bookings on days the venue is
-      unavailable, such as bank holidays and half term. The admin dashboard
-      includes a calendar view showing bookings per date, so organisers can
-      see at a glance which sessions are full and which have spaces.
-
-      When the session starts, scan QR code tickets at the door with a phone.
-      Parents do not need to download an app, and there are no paper lists to
-      manage.
+      Attendance lists and question answers can be [exported as CSV](/features/csv-export/) for staffing and session records. Chobble Tickets does not provide a single timetable where customers choose any clock time, so each offered session time is published as its own listing.
     figure_items:
-      - icon: hugeicons:calendar-03
-        text: Parents pick a day from a calendar.
-      - icon: hugeicons:user-list
-        text: Per-date capacity prevents overbooking.
       - icon: hugeicons:qr-code
-        text: Scan QR codes at the door to check in.
+        text: QR and manual check-in
+        url: /features/qr-code-check-ins/
+      - icon: hugeicons:user-add-01
+        text: Add walk-ins at the venue
+        url: /features/manual-attendees/
+      - icon: hugeicons:csv-02
+        text: Export each session list
+        url: /features/csv-export/
   - type: features
     dark: true
-    intro_content: "## Features for session organisers"
+    intro_content: |
+      ## Features for soft play sessions
     items:
       - icon: hugeicons:calendar-03
-        description: Block bank holidays, half term, and days when the venue is unavailable. Parents can only book on days you are running.
-        name: Holiday and blackout dates
-      - icon: hugeicons:smart-phone-01
-        description: Parents book from a link in their browser without creating an account or downloading an app.
-        name: No app required
-      - icon: hugeicons:csv-02
-        description: Download a CSV of bookings for any date, useful for planning staffing and resources.
-        name: Export attendee lists
-  - type: markdown
-    content: |
-      > "Most stay and plays are somewhere between £1–£4 a ticket. If you add
-      > a ticket fee of £1 to it, then in some cases you're literally double
-      > the cost to the user - and if they are happy to pay that, then why
-      > should it go to the ticket platform? It's better off in your pocket."
-
-      [Read more reviews &rarr;](/reviews/)
+        description: Set the days each session runs, give every date its own capacity and block dates when the venue is closed.
+        name: <a href="/features/daily-events/">Per-date booking</a>
+      - icon: hugeicons:user-multiple
+        description: Put adult and child admissions together, set a shared capacity or sell a family bundle with fixed quantities.
+        name: <a href="/features/groups/">Family bookings</a>
+      - icon: hugeicons:money-receive-square
+        description: Payments go to the organiser's Stripe, Square or SumUp account. Chobble does not add a per-ticket platform fee.
+        name: <a href="/features/no-per-ticket-fees/">Flat platform price</a>
   - type: cta
     button:
-      text: Get Started
+      text: Start for £5
       href: https://tix.chobble.com/ticket/register
-      variant: secondary
+      variant: primary
       size: lg
     content: |-
-      ## Set up your sessions
+      ## Put session bookings online
 
-      Sign up for managed hosting at £50/year or £5/month with unlimited events.
-name: Ticketing for Stay and Play Sessions - Chobble Tickets
+      Managed hosting costs £50 a year or £5 a month. Every booking and administration feature is included.
+name: Soft Play Booking System | Chobble Tickets
 ---

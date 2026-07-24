@@ -16,10 +16,7 @@ const main = async () => {
     const { default: scenario } = await import(
       `./screenshots/${scenarioName}.js`
     );
-    const filePath = join(
-      SCREENSHOTS_DIR,
-      `${scenario.name}__facebook.png`,
-    );
+    const filePath = join(SCREENSHOTS_DIR, `${scenario.name}__facebook.png`);
     const { solidWidth } = await renderSocialScreenshotText(
       filePath,
       scenarioName,
