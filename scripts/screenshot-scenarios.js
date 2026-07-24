@@ -27,6 +27,7 @@
 
 import { readdirSync, statSync } from "node:fs";
 import { join, resolve } from "node:path";
+import { renderSocialScreenshotText } from "./render-social-screenshot-text.js";
 import { path, root, spawn } from "./utils.js";
 
 const SCENARIOS_DIR = path("scripts", "screenshots");
@@ -89,7 +90,21 @@ const exists = (p) => {
   }
 };
 
-const runScenario = (scenarioName, social) => {
+const addSocialText = async (scenarioName, social) => {
+  if (!social?.split(",").includes("facebook") && social !== "all") return;
+  const { default: scenario } = await import(
+    `./screenshots/${scenarioName}.js`
+  );
+  const filePath = join(OUTPUT_DIR, `${scenario.name}__facebook.png`);
+  const { solidWidth } = await renderSocialScreenshotText(
+    filePath,
+    scenarioName,
+    scenario.css,
+  );
+  console.log(`  text:     ${solidWidth}px solid region`);
+};
+
+const runScenario = async (scenarioName, social) => {
   const scenarioPath = join(SCENARIOS_DIR, `${scenarioName}.js`);
   console.log(`\n=== ${scenarioName} ===`);
   console.log(`  scenario: ${scenarioPath}`);
@@ -110,11 +125,11 @@ const runScenario = (scenarioName, social) => {
   ];
   if (social) cmd.push("--social", social);
   const proc = spawn(cmd, { cwd: TICKETS_REPO });
-  return proc.exited.then((code) => {
-    if (code !== 0) {
-      throw new Error(`Scenario ${scenarioName} exited with code ${code}`);
-    }
-  });
+  const code = await proc.exited;
+  if (code !== 0) {
+    throw new Error(`Scenario ${scenarioName} exited with code ${code}`);
+  }
+  await addSocialText(scenarioName, social);
 };
 
 const main = async () => {

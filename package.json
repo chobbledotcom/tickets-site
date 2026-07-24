@@ -15,6 +15,7 @@
 		"fetch-google-reviews": "bun scripts/fetch-google-reviews.js",
 		"screenshot": "bun scripts/screenshot.js",
 		"screenshot:scenarios": "bun scripts/screenshot-scenarios.js",
+		"screenshot:text": "bun scripts/add-social-screenshot-text.js",
 		"clean": "rm -rf .build _site",
 		"test": "bun scripts/test.js",
 		"precommit": "bun scripts/precommit.js",
