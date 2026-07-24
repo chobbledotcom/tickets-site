@@ -118,6 +118,7 @@ export const renderSocialScreenshotText = async (
   filePath,
   scenarioName,
   scenarioCss = "",
+  knownSolidWidth,
 ) => {
   const copy = SOCIAL_SCREENSHOT_COPY[scenarioName];
   if (!copy) throw new Error(`No social copy is defined for ${scenarioName}.`);
@@ -126,7 +127,7 @@ export const renderSocialScreenshotText = async (
   const { data, info } = await image
     .raw()
     .toBuffer({ resolveWithObject: true });
-  const solidWidth = findSolidRegionWidth({ data, ...info });
+  const solidWidth = knownSolidWidth ?? findSolidRegionWidth({ data, ...info });
   const background = [data[0], data[1], data[2]];
   const darkBackground = isDark(background);
   const contrastFallback = darkBackground ? "#f6f5f4" : "#241a30";

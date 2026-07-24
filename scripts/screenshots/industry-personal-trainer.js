@@ -26,6 +26,7 @@ export default {
   run: async (context) => {
     await enableFeature(context, "questions");
     const listingId = await createDailyIndustryListing(context, {
+      bookableDays: ["Tuesday"],
       name: "Tuesday 18:00 Strength Session",
       values: {
         location: "Northside Training Studio",

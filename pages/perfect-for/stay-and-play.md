@@ -29,12 +29,12 @@ blocks:
     items:
       - value: £50
         label: Managed hosting per year
-      - value: 0%
-        label: Chobble platform commission
-      - value: Each date
-        label: Has its own capacity
-      - value: Phone camera
-        label: Used for QR check-in
+      - value: No commission
+        label: 0% Chobble platform fee
+      - value: Per-date limits
+        label: Capacity resets for each session
+      - value: Scan by phone
+        label: Use the browser camera
   - type: split-image
     content: |
       ## One listing for each session time
@@ -65,6 +65,12 @@ blocks:
       - icon: hugeicons:csv-02
         text: Export each session list
         url: /features/csv-export/
+      - icon: hugeicons:calendar-03
+        text: Manage bookings by date
+        url: /features/daily-events/
+      - icon: hugeicons:mail-send-01
+        text: Email session attendees
+        url: /features/bulk-email/
   - type: features
     dark: true
     intro_content: |

@@ -27,12 +27,12 @@ blocks:
   - type: stats
     dark: true
     items:
-      - value: 1 place
-        label: For private consultations
-      - value: Per date
-        label: Capacity for workshops
-      - value: Encrypted
-        label: Customer details and answers
+      - value: Private sessions
+        label: Set capacity to one
+      - value: Group workshops
+        label: Set a higher capacity
+      - value: Encrypted details
+        label: Customer data and answers
       - value: £50
         label: Managed hosting per year
   - type: split-image
@@ -67,6 +67,12 @@ blocks:
       - icon: hugeicons:discount
         text: Extras and returning-customer prices
         url: /features/promo-codes-and-add-ons/
+      - icon: hugeicons:calendar-03
+        text: Publish offered consultation dates
+        url: /features/daily-events/
+      - icon: hugeicons:lock
+        text: Encrypt customer details
+        url: /features/encrypted/
   - type: features
     dark: true
     intro_content: |

@@ -9,6 +9,8 @@ const rootExcludes = [
   "*.nix",
   "README.md",
   ".build",
+  "_site",
+  "facts",
   "scripts",
   "node_modules",
   "package.json",

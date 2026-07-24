@@ -28,13 +28,13 @@ blocks:
     dark: true
     items:
       - value: £25
-        label: Annual community rate
-      - value: 0%
-        label: Chobble platform commission
+        label: Eligible community annual rate
+      - value: No commission
+        label: 0% Chobble platform fee
       - value: One ledger
         label: Card, cash, refunds and costs
-      - value: Encrypted
-        label: Attendee details in the database
+      - value: Encrypted details
+        label: Attendee data in the database
   - type: split-image
     content: |
       ## Collect the details needed for each event
@@ -67,6 +67,12 @@ blocks:
       - icon: hugeicons:user-multiple
         text: Separate accounts for committee members
         url: /features/users/
+      - icon: hugeicons:lock
+        text: Encrypted attendee details
+        url: /features/encrypted/
+      - icon: hugeicons:csv-02
+        text: Export attendance and money records
+        url: /features/csv-export/
   - type: features
     dark: true
     intro_content: |

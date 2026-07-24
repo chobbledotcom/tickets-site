@@ -27,12 +27,12 @@ blocks:
   - type: stats
     dark: true
     items:
-      - value: 1 place
-        label: For one-to-one sessions
-      - value: Per date
-        label: Capacity for group sessions
-      - value: 0 or part
-        label: Deposit at booking
+      - value: One-to-one
+        label: Set capacity to one
+      - value: Group sessions
+        label: Set a higher capacity
+      - value: Take deposits
+        label: Or require full payment
       - value: £50
         label: Managed hosting per year
   - type: split-image
@@ -67,6 +67,12 @@ blocks:
       - icon: hugeicons:discount
         text: Returning-customer discounts
         url: /features/promo-codes-and-add-ons/
+      - icon: hugeicons:calendar-03
+        text: Publish regular session times
+        url: /features/daily-events/
+      - icon: hugeicons:mail-edit-01
+        text: Change confirmation emails
+        url: /features/email-templates/
   - type: features
     dark: true
     intro_content: |

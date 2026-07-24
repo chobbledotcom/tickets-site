@@ -27,12 +27,12 @@ blocks:
   - type: stats
     dark: true
     items:
-      - value: Capacity 1
-        label: Prevents overlapping room hire
-      - value: Full range
-        label: Checked for multi-day bookings
-      - value: 0 or part
-        label: Deposit at reservation
+      - value: Prevent overlaps
+        label: Set room capacity to one
+      - value: Check every day
+        label: Capacity across the full date range
+      - value: Take deposits
+        label: Or require full payment
       - value: £50
         label: Managed hosting per year
   - type: split-image
@@ -67,6 +67,12 @@ blocks:
       - icon: hugeicons:wrench-01
         text: Cleaning and maintenance holds
         url: /features/servicing-events/
+      - icon: hugeicons:calendar-add-01
+        text: Price one-day and multi-day hire
+        url: /features/multi-day-hire/
+      - icon: hugeicons:security-check
+        text: Require agreement to booking terms
+        url: /features/terms-and-conditions/
   - type: features
     dark: true
     intro_content: |

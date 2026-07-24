@@ -27,13 +27,13 @@ blocks:
   - type: stats
     dark: true
     items:
-      - value: One choice
-        label: Required for each package unit
-      - value: Shared
-        label: Entertainer can appear under several packages
-      - value: Part payment
-        label: Available through deposits
-      - value: Two legs
+      - value: Choose an entertainer
+        label: One for each package unit
+      - value: Reuse choices
+        label: Offer an entertainer in several packages
+      - value: Take deposits
+        label: Or require full payment
+      - value: Plan both legs
         label: Setup and teardown records
   - type: split-image
     content: |
@@ -67,6 +67,12 @@ blocks:
       - icon: hugeicons:delivery-truck-02
         text: Travel and setup run sheets
         url: /features/logistics/
+      - icon: hugeicons:link-04
+        text: Require an entertainer choice
+        url: /features/parent-child-listings/
+      - icon: hugeicons:tag-01
+        text: Offer optional party extras
+        url: /features/promo-codes-and-add-ons/
   - type: features
     dark: true
     intro_content: |

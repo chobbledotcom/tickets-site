@@ -27,12 +27,12 @@ blocks:
   - type: stats
     dark: true
     items:
-      - value: Weekly
-        label: Repeating club admission
+      - value: Weekly admission
+        label: Use a repeating listing
       - value: Card and cash
-        label: Recorded in one ledger
-      - value: No check-in
-        label: Available for raffle entries
+        label: Record both in the ledger
+      - value: Sell raffle entries
+        label: No check-in ticket needed
       - value: £25
         label: Eligible community rate
   - type: split-image
@@ -67,6 +67,12 @@ blocks:
       - icon: hugeicons:user-add-01
         text: Add walk-ins and cash sales
         url: /features/manual-attendees/
+      - icon: hugeicons:money-receive-square
+        text: Record income and costs
+        url: /features/ledger/
+      - icon: hugeicons:csv-02
+        text: Export attendance and payments
+        url: /features/csv-export/
   - type: features
     dark: true
     intro_content: |

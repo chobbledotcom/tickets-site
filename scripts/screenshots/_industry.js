@@ -24,10 +24,10 @@ export const selectFirstFutureDate = async (page) => {
 
 export const createDailyIndustryListing = (
   context,
-  { fields = ["email", "phone"], name, values },
+  { bookableDays = BOOKABLE_DAYS, fields = ["email", "phone"], name, values },
 ) =>
   createListing(context, {
-    choices: { bookable_days: BOOKABLE_DAYS },
+    choices: { bookable_days: bookableDays },
     fields,
     name,
     values: {

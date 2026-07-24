@@ -27,14 +27,14 @@ blocks:
   - type: stats
     dark: true
     items:
-      - value: One order
-        label: Can contain several services
+      - value: Several services
+        label: Put them in one order
       - value: Fixed bundles
-        label: Available as packages
-      - value: Required answers
-        label: Collected at checkout
-      - value: Two legs
-        label: Setup and collection records
+        label: Sell them as packages
+      - value: Collect requirements
+        label: Required answers at checkout
+      - value: Plan logistics
+        label: Assign delivery and collection
   - type: split-image
     content: |
       ## Sell menus, services and extras together
@@ -67,6 +67,12 @@ blocks:
       - icon: hugeicons:shopping-cart-01
         text: Multi-item orders
         url: /features/order-widget/
+      - icon: hugeicons:package
+        text: Sell fixed catering packages
+        url: /features/packages/
+      - icon: hugeicons:help-circle
+        text: Collect customer requirements
+        url: /features/custom-questions/
   - type: features
     dark: true
     intro_content: |

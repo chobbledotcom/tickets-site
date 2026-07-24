@@ -29,9 +29,9 @@ blocks:
     items:
       - value: Up to 90 days
         label: Maximum hire duration
-      - value: Full range
-        label: Checked against capacity
-      - value: Two legs
+      - value: Check every day
+        label: Capacity across the full hire range
+      - value: Plan both legs
         label: Delivery and collection
       - value: £50
         label: Managed hosting per year
@@ -67,6 +67,12 @@ blocks:
       - icon: hugeicons:wrench-01
         text: Hold stock for maintenance
         url: /features/servicing-events/
+      - icon: hugeicons:wallet-02
+        text: Take deposits and balances
+        url: /features/deposits-and-balance-payments/
+      - icon: hugeicons:help-circle
+        text: Collect waste and access details
+        url: /features/custom-questions/
   - type: features
     dark: true
     intro_content: |

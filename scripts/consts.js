@@ -19,6 +19,7 @@ export const sourceExcludes = [
   "*.nix",
   "README.md",
   "scripts",
+  "facts",
   "chobble-template",
   "node_modules",
   "_site",

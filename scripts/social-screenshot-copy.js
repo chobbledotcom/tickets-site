@@ -1,23 +1,23 @@
 export const SOCIAL_SCREENSHOT_COPY = {
   "activity-log": {
-    heading: "A record of every change",
-    body: "The activity log records bookings and administration changes, along with the account responsible for each one.",
+    heading: "Booking and admin activity",
+    body: "See recent booking and administration activity, with the time and any related attendee or listing.",
   },
   "admin-guide": {
     heading: "Help inside the admin area",
-    body: "The built-in guide explains each part of Chobble Tickets without taking staff away from the page they are using.",
+    body: "The built-in FAQ guide covers the main admin tasks. Help links on many admin pages open the relevant guide section.",
   },
   "attendee-statuses": {
-    heading: "Track each booking",
-    body: "Set custom statuses for each booking.",
+    heading: "Track attendee status",
+    body: "Create, reorder and assign custom statuses to attendee records.",
   },
   "bulk-email": {
     heading: "Email the right attendees",
-    body: "Send an email to one listing or a saved group of attendees. Preview the message before it is sent.",
+    body: "Email one attendee, a listing's attendees, or a built-in audience. Preview the message before sending.",
   },
   "catalogue-import": {
-    heading: "Move a catalogue between sites",
-    body: "Export listings and groups as JSON, then import their prices, memberships and structure into another site.",
+    heading: "Move a listing or group",
+    body: "Export one listing or group as JSON, then import it on another site. Named relationships require matching records there.",
   },
   "charity-events": {
     heading: "Sell tickets for fundraisers",
@@ -29,7 +29,7 @@ export const SOCIAL_SCREENSHOT_COPY = {
   },
   "custom-questions": {
     heading: "Ask questions at checkout",
-    body: "Collect multiple-choice or written answers and include them in admin views, reports and webhooks.",
+    body: "Collect multiple-choice or written answers and show them in admin attendee views and CSV exports.",
   },
   "daily-events": {
     heading: "Manage events by date",
@@ -41,27 +41,27 @@ export const SOCIAL_SCREENSHOT_COPY = {
   },
   "equipment-hire": {
     heading: "Take equipment hire bookings",
-    body: "Customers choose their dates and quantities. Prices can change with the length of the hire.",
+    body: "Customers choose a start date and an offered hire length. Each length can have its own price.",
   },
   "group-bulk-actions": {
-    heading: "Update events in bulk",
-    body: "Duplicate a group of listings, shift their dates and change several listing statuses in one step.",
+    heading: "Manage grouped listings in bulk",
+    body: "Duplicate every listing in a group with shifted dates, or deactivate and reactivate the group's listings together.",
   },
   groups: {
     heading: "Sell related tickets together",
-    body: "Put related listings in one public checkout and set a shared capacity across the whole group.",
+    body: "Put related listings on one public booking page and, if needed, set one capacity limit across the group.",
   },
   "industry-catering": {
     heading: "Take catering requirements online",
-    body: "Customers book a published service, provide dietary and venue details, and add paid extras to the same order.",
+    body: "Customers book a published service, provide dietary details and an address, and add paid extras to the same order.",
   },
   "industry-childrens-entertainer": {
     heading: "Require an entertainer choice",
-    body: "A party package can require the customer to choose one clown, mascot or entertainer before checkout.",
+    body: "Customers choose one clown, mascot or entertainer for each party package before payment.",
   },
   "industry-folk-club": {
     heading: "Record folk club income",
-    body: "Keep advance sales, door income, refunds and club-night costs in one ledger-backed statement.",
+    body: "Track gross ticket sales, income received another way, refunds and listing costs in one money statement.",
   },
   "industry-personal-stylist": {
     heading: "Take styling bookings online",
@@ -77,11 +77,11 @@ export const SOCIAL_SCREENSHOT_COPY = {
   },
   "industry-venue-hire": {
     heading: "Take day-based venue bookings",
-    body: "Customers choose an available start date and one of the whole-day or multi-day prices the venue publishes.",
+    body: "Customers choose a start date and a published one-day or multi-day option. Capacity is checked across the chosen days.",
   },
   ledger: {
     heading: "Keep one accounting ledger",
-    body: "Track card income, offline payments, refunds, recognised income and outstanding balances in one place.",
+    body: "Track booking income, offline payments, refunds, costs and outstanding balances in the same ledger.",
   },
   "listing-management": {
     heading: "Create and update listings",
@@ -93,7 +93,7 @@ export const SOCIAL_SCREENSHOT_COPY = {
   },
   "manual-attendees": {
     heading: "Add attendees by hand",
-    body: "Add walk-ins, telephone bookings and complimentary tickets alongside bookings made online.",
+    body: "Add walk-ins and telephone bookings alongside online bookings. Waive the price in Money when a place is complimentary.",
   },
   "moonlight-cinema-dark-checkout": {
     heading: "Light and dark themes",
@@ -105,23 +105,23 @@ export const SOCIAL_SCREENSHOT_COPY = {
   },
   packages: {
     heading: "Sell packages of listings",
-    body: "Combine several listings in one package, with one price and one checkout for the customer.",
+    body: "Combine listings into one bundle. Set each member's price and quantity, then let customers choose a package count.",
   },
   "parent-child-listings": {
-    heading: "Require a related choice",
-    body: "A parent listing can require each customer to choose an option from a related set of listings.",
+    heading: "Require an add-on for each unit",
+    body: "For each parent unit, customers choose one child listing from a set. A sole available child is added automatically.",
   },
   "promo-codes-and-add-ons": {
     heading: "Discounts and add-ons",
     body: "Apply a promotion code at checkout and offer optional extras, such as parking, with the same order.",
   },
   "qr-code-check-ins": {
-    heading: "Check tickets with a phone",
-    body: "Scan each ticket with a phone camera. Staff see successful, duplicate and invalid scans at once.",
+    heading: "Check bookings with a phone",
+    body: "Scan a booking QR code with a phone camera. See checked in, already checked in, refunded, wrong listing and not found results.",
   },
   "schools-and-ptas": {
     heading: "Ticketing for school events",
-    body: "Sell tickets for discos, fairs and fundraisers. Parents can book for more than one child in one order.",
+    body: "Sell tickets for discos, fairs and fundraisers. Parents can buy several places in one booking.",
   },
   "servicing-events": {
     heading: "Hold capacity for servicing",
@@ -132,11 +132,11 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "Set the site title, write the homepage and change colours, fonts and spacing with custom CSS.",
   },
   "team-users": {
-    heading: "Give staff separate accounts",
-    body: "Give each staff member a role-based account.",
+    heading: "Give team members separate accounts",
+    body: "Invite users as owners, managers, editors or delivery agents, each with a separate login and fixed permissions.",
   },
   "workshop-terms-checkout": {
-    heading: "Show terms before payment",
-    body: "Add terms to a listing and require the customer to agree to them before completing checkout.",
+    heading: "Require agreement before booking",
+    body: "Set site-wide terms, or replace them on a group page. Customers must agree before completing the booking.",
   },
 };

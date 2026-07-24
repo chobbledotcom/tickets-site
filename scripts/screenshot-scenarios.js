@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 
 /**
- * Re-take every screenshot scenario through the tickets-4 screenshot runner.
+ * Re-take every screenshot scenario through the Tickets screenshot runner.
  *
  * Each scenario file in scripts/screenshots/ is run in turn against a fresh
  * throwaway tickets app the runner starts locally. The runner writes two
@@ -21,18 +21,22 @@
  * Pass --social instagram-portrait (or a comma-separated list, or all) to
  * choose different social sizes; the default is facebook.
  *
- * Requires the tickets-4 repo checked out next to this one (../tickets-4)
+ * Requires the Tickets repo checked out next to this one (../tickets)
  * and `nix develop` available for the Deno runner.
  */
 
 import { readdirSync, statSync } from "node:fs";
 import { join, resolve } from "node:path";
+import {
+  createSocialScreenshot,
+  SOCIAL_TARGET_SIZES,
+} from "./create-social-screenshot.js";
 import { renderSocialScreenshotText } from "./render-social-screenshot-text.js";
 import { path, root, spawn } from "./utils.js";
 
 const SCENARIOS_DIR = path("scripts", "screenshots");
 const OUTPUT_DIR = resolve(root, "images", "screenshots");
-const TICKETS_REPO = resolve(root, "..", "tickets-4");
+const TICKETS_REPO = resolve(root, "..", "tickets");
 const DEFAULT_SOCIAL = "facebook";
 const NON_SCENARIO_FILES = new Set(["helpers.js"]);
 
@@ -96,22 +100,48 @@ const exists = (p) => {
   }
 };
 
-const addSocialText = async (scenarioName, social) => {
-  if (!social?.split(",").includes("facebook") && social !== "all") return;
-  const { default: scenario } = await import(
-    `./screenshots/${scenarioName}.js`
-  );
+const getSocialTargets = (social) => {
+  if (!social) return [];
+  const targets =
+    social === "all" ? Object.keys(SOCIAL_TARGET_SIZES) : social.split(",");
+  const invalid = targets.filter((target) => !SOCIAL_TARGET_SIZES[target]);
+  if (invalid.length > 0) {
+    throw new Error(`Unknown social target: ${invalid.join(", ")}`);
+  }
+  return targets;
+};
+
+const createSocialScreenshots = async (scenario, social) => {
+  const inputPath = join(OUTPUT_DIR, `${scenario.name}.png`);
+  const results = {};
+  for (const target of getSocialTargets(social)) {
+    const outputPath = join(OUTPUT_DIR, `${scenario.name}__${target}.png`);
+    results[target] = await createSocialScreenshot(
+      inputPath,
+      outputPath,
+      target,
+    );
+  }
+  return results;
+};
+
+const addSocialText = async (scenarioName, scenario, social, socialResults) => {
+  if (!getSocialTargets(social).includes("facebook")) return;
   const filePath = join(OUTPUT_DIR, `${scenario.name}__facebook.png`);
   const { solidWidth } = await renderSocialScreenshotText(
     filePath,
     scenarioName,
     scenario.css,
+    socialResults.facebook.solidWidth,
   );
   console.log(`  text:     ${solidWidth}px solid region`);
 };
 
 const runScenario = async (scenarioName, social) => {
   const scenarioPath = join(SCENARIOS_DIR, `${scenarioName}.js`);
+  const { default: scenario } = await import(
+    `./screenshots/${scenarioName}.js`
+  );
   console.log(`\n=== ${scenarioName} ===`);
   console.log(`  scenario: ${scenarioPath}`);
   console.log(`  output:   ${OUTPUT_DIR}`);
@@ -129,25 +159,25 @@ const runScenario = async (scenarioName, social) => {
     "--output",
     OUTPUT_DIR,
   ];
-  if (social) cmd.push("--social", social);
   const proc = spawn(cmd, { cwd: TICKETS_REPO });
   const code = await proc.exited;
   if (code !== 0) {
     throw new Error(`Scenario ${scenarioName} exited with code ${code}`);
   }
-  await addSocialText(scenarioName, social);
+  const socialResults = await createSocialScreenshots(scenario, social);
+  await addSocialText(scenarioName, scenario, social, socialResults);
 };
 
 const main = async () => {
   if (!exists(TICKETS_REPO)) {
     throw new Error(
-      `Could not find the tickets-4 repo at ${TICKETS_REPO}. ` +
+      `Could not find the Tickets repo at ${TICKETS_REPO}. ` +
         "Clone chobbledotcom/tickets next to this repo and retry.",
     );
   }
   if (!exists(join(TICKETS_REPO, "flake.nix"))) {
     throw new Error(
-      `${TICKETS_REPO} does not look like the tickets-4 repo (no flake.nix).`,
+      `${TICKETS_REPO} does not look like the Tickets repo (no flake.nix).`,
     );
   }
 
