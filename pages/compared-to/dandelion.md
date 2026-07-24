@@ -128,6 +128,11 @@ blocks:
       - **[Custom domains](/features/custom-domain/)** - managed hosting can
         use the organiser's own domain. Dandelion documents embeds but not
         custom domains for its hosted service
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel in Markdown with
+        [custom CSS](/features/customising-your-site/). Dandelion events
+        live on its marketplace rather than a standalone site
       - **[Apple and Google Wallet passes](/features/apple-wallet/)** - an
         attendee can save a Chobble ticket in either phone wallet
       - **[Email provider and templates](/features/email-providers/)** - use

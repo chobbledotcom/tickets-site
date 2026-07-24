@@ -174,6 +174,11 @@ blocks:
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         - create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel with Markdown and
+        [custom CSS](/features/customising-your-site/). Pretix provides a
+        shop front but not a composable website with pages and a form
 
       ## When Chobble Tickets is the better choice
 
@@ -216,6 +221,7 @@ blocks:
       | Promo codes | Yes | Yes |
       | Waitlists | No | Yes |
       | [Custom domain](/features/custom-domain/) | Yes | Yes (enterprise) |
+      | [Public website & CMS](/features/your-public-website/) | Yes | No (shop front only) |
       | [Daily events](/features/daily-events/) | Yes | Yes (with series) |
       | Badge printing | No | Yes (enterprise plugin) |
       | Lead scanning | No | Yes (enterprise plugin) |

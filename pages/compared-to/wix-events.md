@@ -158,6 +158,13 @@ blocks:
       - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
         domain
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel in Markdown with
+        [custom CSS](/features/customising-your-site/). Wix is a full
+        website builder with drag-and-drop design; Chobble's CMS is a
+        simpler set of pages and Markdown content built into the
+        ticketing platform
       - **No marketing to your attendees** - your audience stays yours,
         with no cross-promotion or Wix branding
       - **Community Interest Company** - run by a CIC, with profits

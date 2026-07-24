@@ -130,6 +130,10 @@ blocks:
         for events that repeat on a schedule with per-date capacity
       - **[Custom domain support](/features/custom-domain/)** - get a
         host-provided subdomain instantly, or point your own domain
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel in Markdown with
+        [custom CSS](/features/customising-your-site/)
       - **Self-hosting option** - run the platform on selected infrastructure
         without a Chobble software licence fee
       - **[Open source](/features/open-source/)** - inspect, modify, and

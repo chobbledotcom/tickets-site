@@ -169,6 +169,11 @@ blocks:
         - write content in markdown with header image uploads
       - **[Custom domain support](/features/custom-domain/)** - use your own
         domain name
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel in Markdown with
+        [custom CSS](/features/customising-your-site/). Hi.Events provides
+        event pages but not a full composable website
       - **[Activity logs](/features/activity-logs/)** - full audit trail of
         all admin actions and booking activity
       - **[Square payment support](/features/stripe-and-square/)** -

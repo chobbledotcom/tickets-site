@@ -137,6 +137,10 @@ blocks:
       - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
         domain
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel in Markdown with
+        [custom CSS](/features/customising-your-site/)
       - **[Embeddable widget](/features/embeddable-widget/)** - drop an
         iframe into your website
       - **No booking limits** - sell as many tickets as you like on one

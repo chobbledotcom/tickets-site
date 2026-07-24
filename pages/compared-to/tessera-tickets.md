@@ -148,6 +148,11 @@ blocks:
         iframe into any website without needing WordPress
       - **[Custom domain included](/features/custom-domain/)** - point
         your own domain at no extra cost
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel in Markdown with
+        [custom CSS](/features/customising-your-site/). Tessera's public
+        site runs on WordPress; Chobble's is built in
       - **No website hosting required** - Chobble Tickets hosts both the
         ticketing platform and the event listing pages
       - **Community Interest Company** - run by a CIC, a UK legal

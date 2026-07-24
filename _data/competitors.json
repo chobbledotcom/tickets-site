@@ -232,6 +232,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "tickts Pro fees: £690/year (annual billing) or £69/month (monthly billing, £828/year). 0% commission and no booking fees for fans, plus Stripe processing (1.5% + 20p). Pro adds season passes, white-label subdomain, queue system, fan CRM, full API access, and removing tickts branding. Chobble Tickets: £50/year or £5/month flat (£25/year for charities on the annual plan), all features included + Stripe processing (1.5% + 20p). Source: tickts.co.uk/pricing (July 2026)."
   },
+  "humanitix": {
+    "name": "Humanitix",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 4.67,
+    "per_ticket_fee_fixed": 0.46,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0,
+    "fee_note": "Humanitix Standard fees: 4.67% + £0.46 per paid ticket (excl. VAT, includes payment processing via Humanitix Payments or Stripe). Charities and schools pay 3.33% + £0.25. Free events are free. There is no annual subscription fee. Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p). Source: humanitix.com/gb/pricing (July 2026)."
+  },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
     "annual_cost": 0,

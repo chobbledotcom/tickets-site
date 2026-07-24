@@ -189,6 +189,11 @@ blocks:
       - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
         domain. Eventbrite events run on eventbrite.co.uk by default.
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, all edited from the admin panel with Markdown and
+        [custom CSS](/features/customising-your-site/). Eventbrite provides
+        an event page but not a full website with pages you can compose
       - **No marketing to your attendees** - your audience stays yours,
         with no cross-promotion of competing events
       - **Community Interest Company** - run by a CIC, with profits

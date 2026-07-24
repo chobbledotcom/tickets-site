@@ -117,8 +117,10 @@ blocks:
       PTA Events has built-in messaging for committee members, class
       representatives, and parents, plus a newsletter tool and news article
       CMS. Chobble Tickets offers [customisable email
-      templates](/features/email-templates/) for ticket confirmations but
-      doesn't include a newsletter or CMS.
+      templates](/features/email-templates/) for ticket confirmations and a
+      [public-facing website with content pages and a contact
+      form](/features/your-public-website/), but does not include a
+      newsletter tool or a parent-messaging system.
 
       ### Check-in and entry
 
@@ -143,6 +145,8 @@ blocks:
 
       Chobble Tickets offers [custom domains](/features/custom-domain/)
       (with a host-provided subdomain from day one),
+      a [built-in public website with content pages and a contact
+      form](/features/your-public-website/),
       light and dark themes, markdown event descriptions with image uploads,
       [customisable email templates](/features/email-templates/), an
       [embeddable widget](/features/embeddable-widget/), a [public

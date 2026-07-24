@@ -164,6 +164,11 @@ blocks:
       - **No WordPress required** - Chobble Tickets runs on its own,
         so you do not need to install, update, or secure a WordPress
         site for ticket sales
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel in Markdown with
+        [custom CSS](/features/customising-your-site/). FooEvents requires
+        a WordPress site for its public pages
       - **[Encryption at rest](/features/encrypted/)** - Chobble
         encrypts attendee personal data at rest with a hybrid
         RSA-OAEP + AES-256-GCM scheme, so stored attendee details require

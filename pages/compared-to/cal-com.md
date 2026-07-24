@@ -246,6 +246,11 @@ blocks:
         yourcompany.cal.com subdomains on the Organizations plan but
         does not support a custom apex or subdomain on your own
         domain)
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel in Markdown with
+        [custom CSS](/features/customising-your-site/). Cal.com books
+        appointments; it does not include a public event website
       - **[Activity logs](/features/activity-logs/)** - full audit
         trail of all admin actions
       - **[CSV export](/features/csv-export/)** of attendee lists with

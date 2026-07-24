@@ -55,6 +55,9 @@ blocks:
       - icon: hugeicons:ticket-01
         description: A WordPress plugin that adds ticketing to WooCommerce. Compare a standalone platform with a shop plugin.
         name: <a href="/compared-to/fooevents/">vs FooEvents</a>
+      - icon: hugeicons:ticket-01
+        description: A registered charity ticketing platform that donates its profits to education. Compare pricing, features and data handling.
+        name: <a href="/compared-to/humanitix/">vs Humanitix</a>
       - icon: hugeicons:file-02
         description: Free and flexible, but not built for ticketing. See the differences.
         name: <a href="/compared-to/google-forms/">vs Google Forms</a>

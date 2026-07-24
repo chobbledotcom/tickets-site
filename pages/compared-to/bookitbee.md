@@ -136,6 +136,11 @@ blocks:
       - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
         domain whenever you are ready
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel in Markdown with
+        [custom CSS](/features/customising-your-site/). BookitBee provides
+        event pages but not a composable public website
       - **[Embeddable widget](/features/embeddable-widget/)** - drop an
         iframe into your website
       - **No marketing to your attendees** - your audience stays yours

@@ -75,6 +75,11 @@ blocks:
         when you need a spreadsheet
       - **[Activity logs](/features/activity-logs/)** - see who did what
         and when
+      - **[Public-facing website with a contact
+        form](/features/your-public-website/)** - a homepage, content
+        pages, and a contact form, all edited from the admin panel in
+        Markdown, running on your own [domain](/features/custom-domain/)
+        with [custom CSS](/features/customising-your-site/)
   - type: cta
     button:
       text: Get Started

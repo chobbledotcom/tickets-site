@@ -114,6 +114,13 @@ blocks:
         full control over confirmation emails with Liquid syntax
       - **Apple Pay and Google Pay** - accept wallet payments at checkout
         via Stripe
+      - **[Public-facing website with a contact
+        form](/features/your-public-website/)** - a homepage, content
+        pages, news posts, and a contact form with spam protection,
+        edited from the admin panel in Markdown with
+        [custom CSS](/features/customising-your-site/), running on your
+        own [domain](/features/custom-domain/). A Google Form is a
+        single standalone page with no site around it
 
       ## When Google Forms is fine
 

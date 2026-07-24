@@ -166,6 +166,11 @@ blocks:
       - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
         domain
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel in Markdown with
+        [custom CSS](/features/customising-your-site/). EVENTIM.Light
+        provides event pages on the eventim-light.com domain
       - **Automatic refunds** - process refunds directly from the admin panel
       - **[CSV export](/features/csv-export/)** - download attendee lists for
         your own records

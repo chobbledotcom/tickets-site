@@ -143,6 +143,10 @@ blocks:
         full control over confirmation emails with Liquid syntax
       - **[Custom domain](/features/custom-domain/)** - get a
         host-provided subdomain instantly, or point your own domain
+      - **[Public-facing website and CMS](/features/your-public-website/)**
+        - a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel in Markdown with
+        [custom CSS](/features/customising-your-site/)
       - **Apple Pay and Google Pay** - accept wallet payments at checkout
         via Stripe
       - **Transparent pricing** - no hidden fees, no negotiations, no drip
