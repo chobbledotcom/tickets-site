@@ -1,3 +1,8 @@
+---
+permalink: false
+layout: null
+---
+
 # Presentation facts
 
 ## Icon-link splits need at least five items

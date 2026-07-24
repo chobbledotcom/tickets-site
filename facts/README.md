@@ -1,3 +1,8 @@
+---
+permalink: false
+layout: null
+---
+
 # Product facts
 
 This directory records concrete claims used by the marketing site. It is

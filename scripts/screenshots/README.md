@@ -1,3 +1,8 @@
+---
+permalink: false
+layout: null
+---
+
 # Screenshot scenarios
 
 Each `.js` file in this directory is a retained scenario for the Tickets app.

@@ -1,3 +1,8 @@
+---
+permalink: false
+layout: null
+---
+
 # Chobble Client Site Builder
 
 Quick static site generator that combines the [Chobble Template](https://git.chobble.com/chobble/chobble-template/) with your content.
