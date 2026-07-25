@@ -39,6 +39,26 @@
             shellHook = ''
               export LD_LIBRARY_PATH="${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH"
 
+              install_precommit_hook() {
+                if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+                  return
+                fi
+
+                hook_path="$(git rev-parse --git-path hooks/pre-commit)"
+                hook_marker="# Installed by tickets flake.nix"
+
+                if [ -e "$hook_path" ] && ! grep -Fqx "$hook_marker" "$hook_path"; then
+                  echo "  pre-commit hook already exists; leaving it unchanged"
+                  return
+                fi
+
+                mkdir -p "$(dirname "$hook_path")"
+                printf '%s\n' '#!/usr/bin/env sh' "$hook_marker" 'exec bun run precommit "$@"' > "$hook_path"
+                chmod +x "$hook_path"
+                echo "  installed pre-commit hook - bun run precommit"
+              }
+              install_precommit_hook
+
               cat <<EOF
 
               Available commands:
