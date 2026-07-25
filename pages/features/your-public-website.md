@@ -14,6 +14,16 @@ blocks:
       # Your public website
 
       A Chobble Tickets site can provide a homepage, listings, news, content pages and an optional contact page. If you already have a website, you can switch the public site off and share booking links directly.
+  - type: split-image
+    content: |
+      ## Listings alongside your own pages
+
+      Publish booking cards under your own site title. The same public site can
+      link to pages you write, news posts and contact details, giving attendees
+      one place to find the event and book it.
+    figure_src: /images/screenshots/oakfield-public-website.png
+    figure_alt: Oakfield Community Events public listings page with navigation and booking cards for Summer Sessions and Oakfield Primary Disco
+    figure_caption: Publish listing cards alongside organiser pages, news and contact details.
   - type: markdown
     content: |
       ## Pages you compose

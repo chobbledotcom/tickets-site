@@ -14,6 +14,16 @@ blocks:
       # Sign-up forms
 
       Create volunteer sign-up sheets, potluck coordinators, and other form-based collections by setting an event as free.
+  - type: split-image
+    content: |
+      ## Capacity for each shift
+
+      Create each shift as a free listing, give it its own place limit and put
+      the shifts together on one group page. Custom questions can collect access
+      needs or other information with the sign-up.
+    figure_src: /images/screenshots/summer-fair-volunteer-form.png
+    figure_alt: Oakfield Primary volunteer form with the set-up shift selected, a step-free access answer and a £0 total
+    figure_caption: Each shift is a separate free listing with its own eight-place limit.
   - type: markdown
     content: |
       ## How it works

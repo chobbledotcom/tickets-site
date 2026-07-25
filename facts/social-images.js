@@ -1,5 +1,5 @@
 export const AUDITED_TICKETS_COMMIT =
-  "a70a953915864118ca8d471e7f6c29f148ebe608";
+  "5c4194e7a3eb20712526769c8a1821525c94aa47";
 
 export const SOCIAL_IMAGE_FACTS = {
   "activity-log": [
@@ -161,6 +161,23 @@ export const SOCIAL_IMAGE_FACTS = {
       sources: [
         "../tickets/src/features/public/balance.ts:32-115",
         "../tickets/src/ui/templates/public/balance.tsx:33-51",
+      ],
+    },
+  ],
+  "duplicate-event": [
+    {
+      fact: "The duplicate-group form previews the original and replacement name and date for every listing before submission.",
+      sources: [
+        "../tickets/src/ui/templates/admin/bulk-actions.tsx:174-189",
+        "../tickets/src/ui/templates/admin/bulk-actions.tsx:192-304",
+        "../tickets/src/ui/client/admin/duplicate-preview.ts:18-63",
+      ],
+    },
+    {
+      fact: "Group duplication applies one literal name replacement and one date offset to every cloned listing.",
+      sources: [
+        "../tickets/src/features/admin/bulk-actions.ts:179-220",
+        "../tickets/src/shared/bulk-replace.ts:39-83",
       ],
     },
   ],
@@ -367,6 +384,21 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "oakfield-public-website": [
+    {
+      fact: "The public listings page displays active listing names, dates, locations, descriptions and booking links.",
+      sources: [
+        "../tickets/src/ui/templates/public/homepage.tsx:183-220",
+        "../tickets/src/ui/templates/public/homepage.tsx:313-334",
+      ],
+    },
+    {
+      fact: "Public navigation includes Home and Listings and can include organiser pages, News and Contact when configured.",
+      sources: [
+        "../tickets/src/ui/templates/public/shared.tsx:56-97",
+      ],
+    },
+  ],
   "order-widget": [
     {
       fact: "The external order script turns eligible listing links into add-to-cart controls and displays a floating cart.",
@@ -405,6 +437,22 @@ export const SOCIAL_IMAGE_FACTS = {
       fact: "A sole bookable child is added automatically.",
       sources: [
         "../tickets/src/ui/templates/public/reservations/child-block.ts:203-247",
+      ],
+    },
+  ],
+  "payment-provider-choice": [
+    {
+      fact: "An organiser selects one payment provider from Stripe, Square and SumUp, or disables payments.",
+      sources: [
+        "../tickets/src/ui/templates/admin/settings/payment.tsx:28-56",
+      ],
+    },
+    {
+      fact: "Switching the selected payment provider retains saved credentials for the other providers without using them.",
+      sources: [
+        "../tickets/src/locales/en/settings.json:18",
+        "../tickets/src/ui/templates/admin/settings/payment.tsx:184-240",
+        "../tickets/src/ui/templates/admin/settings/payment.tsx:302-320",
       ],
     },
   ],
@@ -460,6 +508,37 @@ export const SOCIAL_IMAGE_FACTS = {
         "../tickets/src/features/admin/site.ts:131-156",
         "../tickets/src/shared/settings/forms.ts:116-133",
         "../tickets/src/ui/templates/layout.tsx:65-72",
+      ],
+    },
+  ],
+  "summer-appeal-purchase": [
+    {
+      fact: "A pay-more listing accepts an attendee-entered amount between its configured minimum and maximum.",
+      sources: [
+        "../tickets/src/ui/templates/fields/listing.ts:201-235",
+        "../tickets/src/ui/templates/public/reservations/controls.ts:73-110",
+      ],
+    },
+    {
+      fact: "Public custom questions support radio, select and free-text answers and are required when shown at checkout.",
+      sources: [
+        "../tickets/src/shared/db/question-types.ts:12-29",
+        "../tickets/src/ui/templates/public/reservations/questions.tsx:40-58",
+      ],
+    },
+  ],
+  "summer-fair-volunteer-form": [
+    {
+      fact: "A public group booking page presents the group's active listings in one checkout.",
+      sources: [
+        "../tickets/src/features/public/groups.ts:19-60",
+        "../tickets/src/features/public/groups.ts:98-110",
+      ],
+    },
+    {
+      fact: "A zero-total checkout creates the attendee record directly and saves custom-question answers without provider checkout.",
+      sources: [
+        "../tickets/src/features/public/ticket-submit/paths.ts:92-172",
       ],
     },
   ],

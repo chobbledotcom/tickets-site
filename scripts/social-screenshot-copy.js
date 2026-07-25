@@ -39,6 +39,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Take deposits and balances",
     body: "Record a deposit when an order is made, then collect and track the remaining balance later.",
   },
+  "duplicate-event": {
+    heading: "Copy a course and shift its dates",
+    body: "Review every copied listing name and date before duplicating a group.",
+  },
   "equipment-hire": {
     heading: "Take equipment hire bookings",
     body: "Customers choose a start date and an offered hire length. Each length can have its own price.",
@@ -99,6 +103,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Light and dark themes",
     body: "Choose the built-in dark theme for public pages, booking pages and ticket pages.",
   },
+  "oakfield-public-website": {
+    heading: "Publish a complete event website",
+    body: "Show listings and booking links alongside the organiser's own pages, news and contact details.",
+  },
   "order-widget": {
     heading: "Sell from an existing website",
     body: "Turn links on your website into add-to-cart buttons and show the order in a floating cart.",
@@ -110,6 +118,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
   "parent-child-listings": {
     heading: "Require an add-on for each unit",
     body: "For each parent unit, customers choose one child listing from a set. A sole available child is added automatically.",
+  },
+  "payment-provider-choice": {
+    heading: "Choose a payment provider",
+    body: "Select Stripe, Square or SumUp. Saved credentials remain available when the organiser switches provider.",
   },
   "promo-codes-and-add-ons": {
     heading: "Discounts and add-ons",
@@ -130,6 +142,14 @@ export const SOCIAL_SCREENSHOT_COPY = {
   "site-customisation": {
     heading: "Make the booking site yours",
     body: "Set the site title, write the homepage and change colours, fonts and spacing with custom CSS.",
+  },
+  "summer-appeal-purchase": {
+    heading: "Collect flexible contributions",
+    body: "Set a minimum amount, let supporters pay more and collect a required consent answer before payment.",
+  },
+  "summer-fair-volunteer-form": {
+    heading: "Take volunteer sign-ups",
+    body: "Give each shift its own place limit, collect access needs and accept a booking with a £0 total.",
   },
   "team-users": {
     heading: "Give team members separate accounts",

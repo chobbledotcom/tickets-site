@@ -14,6 +14,16 @@ blocks:
       # Stripe, Square & SumUp payments
 
       Accept card payments through Stripe, Square, or SumUp with fixed pricing or pay-what-you-want, and process refunds directly from the admin panel.
+  - type: split-image
+    content: |
+      ## Choose one provider
+
+      Select Stripe, Square or SumUp for paid bookings. Credentials for the
+      other providers remain saved when you switch, and the settings identify
+      whether a configured key accepts test or live payments.
+    figure_src: /images/screenshots/payment-provider-choice.png
+    figure_alt: Payment Provider settings with Stripe selected among Square, Stripe and SumUp and a configured Stripe test key
+    figure_caption: Choose one active provider and keep saved credentials available when switching.
   - type: markdown
     content: |
       ## Three payment providers, your choice

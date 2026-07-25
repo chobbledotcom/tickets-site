@@ -14,6 +14,16 @@ blocks:
       # Purchasable events
 
       Collect donations, sell raffle tickets, take membership dues, or run any kind of payment collection without an event to attend.
+  - type: split-image
+    content: |
+      ## Flexible contributions without check-in
+
+      Set a minimum contribution and let each supporter enter a higher amount.
+      No Check-In listings collect the payment and any required answers without
+      creating a door-entry workflow.
+    figure_src: /images/screenshots/summer-appeal-purchase.png
+    figure_alt: Meadowfield Summer Appeal checkout with £25 entered above a £5 minimum, a Yes email choice and a £25 total
+    figure_caption: Supporters can enter £25 above the £5 minimum and answer a consent question before continuing to payment.
   - type: markdown
     content: |
       ## Beyond ticketing

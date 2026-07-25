@@ -14,6 +14,16 @@ blocks:
       # Duplicate events
 
       Copy one event, or duplicate a complete group and shift all its dates together.
+  - type: split-image
+    content: |
+      ## Review the whole group first
+
+      Replace part of every copied event name and shift all dates by one offset.
+      The live preview shows each original and replacement before you create the
+      new group.
+    figure_src: /images/screenshots/duplicate-event.png
+    figure_alt: Duplicate Group form changing Spring Printmaking to Autumn and previewing six shifted dates
+    figure_caption: Review every copied name and date before duplicating the group.
   - type: markdown
     content: |
       ## Save time on setup
