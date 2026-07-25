@@ -1,9 +1,9 @@
 #!/usr/bin/env bun
 
 /**
- * Re-take every screenshot scenario through the Tickets screenshot runner.
+ * Re-take every legacy screenshot scenario through the Tickets screenshot runner.
  *
- * Each scenario file in scripts/screenshots/ is run in turn against a fresh
+ * Each retained scenario file in scripts/screenshots/ is run in turn against a fresh
  * throwaway tickets app the runner starts locally. The runner writes two
  * files per scenario into images/screenshots/:
  *
@@ -20,6 +20,10 @@
  * Pass --no-social to skip the social variants and only re-take originals.
  * Pass --social instagram-portrait (or a comma-separated list, or all) to
  * choose different social sizes; the default is facebook.
+ *
+ * Cucumber screenshot evidence is imported with `bun run evidence:import`.
+ * Evidence captures are owned by the Tickets app and are deliberately not
+ * discoverable here as site-owned scenarios.
  *
  * Requires the Tickets repo checked out next to this one (../tickets)
  * and `nix develop` available for the Deno runner.

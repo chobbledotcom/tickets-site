@@ -3,6 +3,7 @@ title: Servicing Events - Chobble Tickets
 meta_title: Block Capacity for Maintenance - Chobble Tickets
 meta_description: Block out event capacity for servicing, maintenance, deep cleans, or staff holds without creating a customer booking. Capacity is consumed and customers see nothing.
 permalink: /features/servicing-events/
+ticket_evidence_capture: servicing-studio-floor-hold
 eleventyNavigation:
   key: Servicing Events
   parent: Managing Events
@@ -14,16 +15,8 @@ blocks:
       # Servicing events
 
       Block out capacity for servicing, maintenance, deep cleans, or staff holds without creating a customer booking. The capacity is consumed, but customers never see the booking.
-  - type: split-image
-    content: |
-      ## Hold the space your work needs
-
-      Choose the dates, number of days, and quantity to hold. The saved service
-      event reduces availability at once without adding a customer to the
-      attendee list.
-    figure_src: /images/screenshots/servicing-studio-floor-hold.png
-    figure_alt: Service event form holding four Ceramics Studio Session places for a two-day floor treatment
-    figure_caption: Reserve capacity for maintenance across one day or several days.
+  - type: include
+    file: ticket-evidence.html
   - type: markdown
     content: |
       ## Capacity holds for anything that is not a customer

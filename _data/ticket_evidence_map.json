@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "captures": {
+    "servicing-studio-floor-hold": {
+      "page": "pages/features/servicing-events.md",
+      "legacyDestinationPath": "images/screenshots/servicing-studio-floor-hold.png",
+      "assetProfile": "mobile",
+      "caseId": "servicing.hold-on-dashboard",
+      "summary": "Hold capacity without adding a customer booking",
+      "alt": "Chobble Tickets admin area showing a service event that holds capacity",
+      "caption": "The organiser can see the hold in the admin area while customers cannot see it.",
+      "socialKey": "servicing-events",
+      "visibility": "summary-with-steps"
+    }
+  }
+}

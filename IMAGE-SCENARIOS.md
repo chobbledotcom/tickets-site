@@ -33,8 +33,12 @@ pages are listed separately at the end.
   names should be reused where they make the site feel coherent.
 - Product screenshots belong in `images/screenshots/`. Proposed editorial
   diagrams can use `images/illustrations/`.
-- A new Tickets screenshot scenario also needs matching social copy and an
-  audited fact record if a Facebook image will be generated.
+- Cucumber evidence screenshots come from the Tickets app evidence artifact.
+  Import them with `bun run evidence:import --from <artifact-dir>`. Do not add
+  a matching site-owned scenario.
+- Legacy product screenshots still need a site-owned scenario. They also need
+  matching social copy and an audited fact record if a Facebook image will be
+  generated.
 - Paid checkout must never be illustrated as reserving capacity. Capacity is
   used only when payment confirmation arrives.
 

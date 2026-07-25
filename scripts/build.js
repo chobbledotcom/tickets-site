@@ -1,10 +1,12 @@
 import { join } from "node:path";
+import { validateCommittedEvidence } from "./evidence/store.js";
 import { prep } from "./prepare-dev.js";
-import { bun, fs, path } from "./utils.js";
+import { bun, fs, path, root } from "./utils.js";
 
 const dev = path(".build", "dev");
 const output = path("_site");
 
+await validateCommittedEvidence({ root });
 prep();
 
 console.log("Building site...");

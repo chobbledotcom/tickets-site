@@ -1,0 +1,76 @@
+name: Update ticket evidence
+
+on:
+  schedule:
+    - cron: "23 8 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: update-ticket-evidence
+  cancel-in-progress: false
+
+permissions:
+  actions: read
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the site
+        uses: actions/checkout@v4
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.2.13
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Download the latest app evidence
+        id: evidence
+        env:
+          GH_TOKEN: ${{ secrets.TICKETS_EVIDENCE_TOKEN || github.token }}
+        run: |
+          run_id=$(gh api "repos/chobbledotcom/tickets/actions/workflows/spec-evidence.yml/runs?branch=main&status=success&per_page=1" --jq '.workflow_runs[0].id // empty')
+          if [ -z "$run_id" ]; then
+            echo "No successful evidence workflow run was found." >&2
+            exit 1
+          fi
+          download="$RUNNER_TEMP/ticket-evidence"
+          mkdir -p "$download"
+          gh run download "$run_id" --repo chobbledotcom/tickets --dir "$download"
+          mapfile -t manifests < <(find "$download" -type f -name manifest.json)
+          if [ "${#manifests[@]}" -ne 1 ]; then
+            echo "Expected one evidence manifest, found ${#manifests[@]}." >&2
+            exit 1
+          fi
+          echo "directory=$(dirname "${manifests[0]}")" >> "$GITHUB_OUTPUT"
+
+      - name: Import evidence
+        run: bun run evidence:import --from "${{ steps.evidence.outputs.directory }}"
+
+      - name: Test
+        run: bun run test
+
+      - name: Run precommit checks
+        run: bun run precommit
+
+      - name: Create or update the review pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/update-ticket-evidence
+          delete-branch: true
+          commit-message: Update ticket screenshot evidence
+          title: Update ticket screenshot evidence
+          body: |
+            This pull request imports the latest tested screenshot evidence from the Tickets app.
+
+            Review the screenshot, organiser-facing text and test steps before merging.
+          add-paths: |
+            _data/ticket_evidence.json
+            _data/ticket_evidence_lock.json
+            images/screenshots/servicing-studio-floor-hold.png
+            images/screenshots/servicing-studio-floor-hold__facebook.png

@@ -1,0 +1,13 @@
+{
+  "app": {
+    "commit": "2baa5755285b36a4511f1bc5daf74aaa1d5d361b",
+    "repository": "chobbledotcom/tickets"
+  },
+  "artifactSha256": "850bd2a795131c11bc65af4c28788d6ea04c550f180c92c25c0330b015a33be3",
+  "files": {
+    "_data/ticket_evidence.json": "e479dece5124ed8a1f8666f2c2256a8149906e05b7bbeca45a5add2a85adbc8a",
+    "images/screenshots/servicing-studio-floor-hold.png": "358ff57d95980e50244cd14c8d18cc8c1a848b5cc7b089ff8ac10427a4ddd3c4",
+    "images/screenshots/servicing-studio-floor-hold__facebook.png": "34b8da10d7e62d12b973b43549744e8874a2786f9b8d298eb4aae45b8c49da0a"
+  },
+  "schemaVersion": 1
+}

@@ -9,6 +9,7 @@ const IMAGE_PATTERNS = [
   /(?:^|\n)\s*-\s+type:\s+(?:gallery|image-background)\s*$/m,
   /!\[[^\]]*\]\([^)]+\)/,
   /<img(?:\s|>)/i,
+  /(?:^|\n)\s*file:\s*ticket-evidence\.html\s*$/m,
 ];
 
 const contentFiles = CONTENT_DIRECTORIES.flatMap((directory) => {
