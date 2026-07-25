@@ -82,7 +82,7 @@ blocks:
       - Apple Pay and Google Pay at checkout
       - QR code or barcode scanning for entry
       - Email confirmations to ticket holders
-      - Capacity management to prevent overselling
+      - Event capacity limits
       - Embeddable ticket widgets for your own website
       - Refund processing
 

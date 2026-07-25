@@ -1,7 +1,7 @@
 ---
 title: Selling Tickets - Chobble Tickets
 meta_title: Sell Event Tickets Online | Chobble Tickets
-meta_description: Take card and offline payments, sell packages, set price rules, collect deposits, prevent overselling and issue refunds from one event ticketing system.
+meta_description: Take card and offline payments, sell packages, set price rules, collect deposits, check capacity when payment is confirmed and issue refunds.
 permalink: /features/selling-tickets/
 eleventyNavigation:
   key: Selling Tickets
@@ -41,7 +41,7 @@ blocks:
         description: Let a customer choose a booking length, with a separate price and capacity check for each day.
         name: <a href="/features/multi-day-hire/">Multi-day bookings</a>
       - icon: hugeicons:clock-01
-        description: Recheck prices, capacity and booking rules after payment, with an automatic refund and operator record when an order cannot be honoured.
+        description: Paid checkout does not reserve capacity. Recheck prices, capacity and booking rules when payment confirmation arrives, with an automatic refund when an order cannot be honoured.
         name: <a href="/features/overbooking-prevention/">Payment and capacity checks</a>
       - icon: hugeicons:money-receive-square
         description: Issue full refunds for individual bookings or in bulk and keep the payment provider and accounting ledger in sync.

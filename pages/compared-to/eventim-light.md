@@ -111,7 +111,7 @@ blocks:
       - Online ticket sales with payment processing
       - QR code scanning for check-in at the door
       - Email confirmations to attendees
-      - Capacity management to prevent overselling
+      - Event capacity limits
       - Embeddable ticket shop for your own website (iframe)
       - Box office / door sales support
       - Real-time sales reporting and dashboards

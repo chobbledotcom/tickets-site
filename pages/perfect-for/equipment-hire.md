@@ -20,13 +20,15 @@ blocks:
 
       Each item type is a [daily listing](/features/daily-events/) with a
       capacity per date. Set the capacity to the number of units available.
-      Chobble Tickets prevents accepted bookings from exceeding that total
-      across the booked dates, but it does not assign serialised units.
+      For a paid hire, the complete range is rechecked when payment
+      confirmation arrives. A confirmed booking then uses capacity on every
+      occupied date. Chobble Tickets does not assign serialised units.
 
       With [multi-day hire](/features/multi-day-hire/), the customer chooses
       how many days to keep the equipment. You set a total price for each
       offered duration, such as one day for £50 or three days for £120. The
-      complete date range is checked before the booking is accepted.
+      complete date range is checked before payment and again when payment
+      confirmation arrives. The first check does not reserve any equipment.
 
       [Deposits](/features/deposits-and-balance-payments/) take part of the
       price at booking, with a link for the customer to pay the balance

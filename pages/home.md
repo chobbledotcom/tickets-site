@@ -69,7 +69,7 @@ blocks:
         description: Set capacity for each date, block holidays, price each offered hire duration, and assign delivery and collection work to staff.
         name: <a href="/features/daily-events/">Repeating and multi-day bookings</a>
       - icon: hugeicons:clock-01
-        description: Prices, capacity and booking rules are checked again after payment. A booking that can no longer be honoured is refunded and recorded for the organiser.
+        description: Paid checkout does not reserve capacity. Prices, capacity and booking rules are checked when payment confirmation arrives, and an order that cannot be honoured is refunded.
         name: <a href="/features/overbooking-prevention/">Payment and capacity checks</a>
       - icon: hugeicons:copy-01
         description: Set defaults for new listings, duplicate whole groups with shifted dates, and move a catalogue between Chobble Tickets sites.

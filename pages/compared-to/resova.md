@@ -73,7 +73,7 @@ blocks:
       - Apple Pay and Google Pay at checkout (via Stripe)
       - QR code scanning for check-in
       - Email confirmations to attendees after booking
-      - Capacity management to prevent overselling
+      - Event capacity limits
       - Refund processing from the admin panel
       - Recurring events and timed slots
       - Custom questions at checkout

@@ -90,7 +90,7 @@ blocks:
       - Online ticket sales with payment processing
       - QR code scanning for check-in at the door
       - Email confirmations to attendees after booking
-      - Capacity management to prevent overselling
+      - Event capacity limits
       - Refund processing
       - Free event support
       - Open source code (alf.io: GPLv3; Chobble Tickets: AGPLv3)

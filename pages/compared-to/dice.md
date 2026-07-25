@@ -88,7 +88,7 @@ blocks:
       - Online ticket sales with payment processing
       - QR code or barcode scanning for entry
       - Email or in-app confirmations to ticket holders
-      - Capacity management to prevent overselling
+      - Event capacity limits
       - Refund processing
       - Apple Pay and Google Pay at checkout
       - Upfront, all-in pricing (the price you see is the price you pay,

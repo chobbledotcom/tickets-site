@@ -19,9 +19,10 @@ blocks:
       ## Dated entry with per-date capacity
 
       [Daily events](/features/daily-events/) give each date its own
-      capacity, and visitors choose their day from a calendar picker. The
-      same overbooking checks apply to every date, so a busy Saturday cannot
-      be oversold while a quiet Tuesday sits empty.
+      capacity, and visitors choose their day from a calendar picker. For paid
+      admission, each date uses capacity only when payment confirmation
+      arrives. If confirmed payments exceed a date's capacity, the later order
+      is refunded automatically.
 
       Holiday and blackout dates stop bookings on days the attraction is
       closed. [Registration deadlines](/features/registration-deadlines/)

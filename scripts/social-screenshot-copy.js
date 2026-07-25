@@ -73,11 +73,11 @@ export const SOCIAL_SCREENSHOT_COPY = {
   },
   "industry-skip-hire": {
     heading: "Take skip hire bookings",
-    body: "Customers choose a start date and published hire length, with capacity checked across every booked day.",
+    body: "Customers choose a start date and hire length. Paid bookings use capacity across those days after payment confirmation.",
   },
   "industry-venue-hire": {
     heading: "Take day-based venue bookings",
-    body: "Customers choose a start date and a published one-day or multi-day option. Capacity is checked across the chosen days.",
+    body: "Customers choose a start date and a one-day or multi-day option. Paid bookings use capacity after payment confirmation.",
   },
   ledger: {
     heading: "Keep one accounting ledger",

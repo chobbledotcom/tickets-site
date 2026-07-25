@@ -82,7 +82,7 @@ blocks:
       - Online ticket sales with payment processing via Stripe
       - QR code scanning for check-in at the door
       - Email confirmations to attendees after booking
-      - Capacity management to prevent overselling
+      - Event capacity limits
       - Free event support with no payment setup required
       - Refund processing from the admin panel
       - CSV data export

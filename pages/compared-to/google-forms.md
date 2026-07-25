@@ -96,8 +96,9 @@ blocks:
       - **[Payment processing](/features/stripe-and-square/)** - accept
         payments via Stripe, Square, or SumUp, including pay-what-you-want pricing
       - **[Capacity management](/features/overbooking-prevention/)** -
-        automatic capacity limits with 5-minute payment holds to prevent
-        overbooking
+        capacity is rechecked when payment is confirmed. Nothing is reserved
+        during paid checkout, and an order that cannot be honoured is refunded
+        automatically
       - **[QR code tickets](/features/qr-code-check-ins/)** - each booking
         gets a unique QR code for check-in at the door
       - **[Apple & Google Wallet](/features/apple-wallet/)** - attendees

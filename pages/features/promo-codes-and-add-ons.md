@@ -77,8 +77,9 @@ blocks:
       ## Opt-in add-ons
 
       Add-ons let the buyer choose a quantity. You can cap an add-on's stock,
-      and two buyers cannot oversell the last available unit. An add-on can be
-      scoped to the whole order, to specific events, or to groups.
+      and its availability is rechecked when payment confirmation arrives. If a
+      paid order can no longer be fulfilled, it is refunded automatically. An
+      add-on can be scoped to the whole order, to specific events, or to groups.
 
       Common uses include meals, parking, merchandise, workshops add-ons, or
       optional extras on a ticket.

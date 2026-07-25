@@ -93,7 +93,7 @@ blocks:
       - QR code scanning for check-in at the door
       - API access for custom integrations
       - Custom questions at checkout
-      - Capacity management to prevent overselling
+      - Event capacity limits
       - Email confirmations to attendees after booking
       - Free event support with no payment setup required
       - Refund processing

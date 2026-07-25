@@ -22,13 +22,16 @@ blocks:
       number of confirmed attendees against the event capacity. If the
       event is full, the form is replaced with a sold-out message.
 
+      For a paid booking, this check does not reserve a ticket or use capacity.
+      Capacity is checked again and used only when payment confirmation arrives.
+
       ## What happens if two people pay for the last ticket
 
-      Two people can both reach the payment page for the last ticket at
-      the same time. When their payments come back from Stripe, Square, or SumUp,
-      Chobble Tickets checks capacity again. The first payment to arrive
-      gets the ticket. The second is refunded automatically and the
-      customer sees the message:
+      Two people can both reach the payment page for the last ticket at the
+      same time because neither checkout reserves it. When their payment
+      confirmations arrive from Stripe, Square or SumUp, Chobble Tickets checks
+      capacity again. The first confirmed payment gets the ticket. The later
+      payment is refunded automatically and the customer sees the message:
 
       > Sorry, this event sold out while you were completing payment.
 

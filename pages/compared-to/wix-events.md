@@ -71,7 +71,7 @@ blocks:
       - Apple Pay and Google Pay at checkout
       - QR code scanning for check-in via mobile app
       - Email confirmations to attendees after booking
-      - Capacity management to prevent overselling
+      - Event capacity limits
       - Free event support with no ticket service fee
       - Multiple ticket types per event with different pricing tiers
       - Pay-what-you-want ticket pricing

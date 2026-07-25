@@ -229,9 +229,9 @@ blocks:
       **Chobble Tickets has features Cal.com does not:**
 
       - **[Capacity management for fixed-date events](/features/overbooking-prevention/)** -
-        sell a fixed number of tickets for an event with automatic
-        sold-out handling and 5-minute payment holds to prevent
-        double-booking
+        sell a fixed number of tickets and show a sold-out message when
+        confirmed bookings fill the event. Paid checkout does not reserve
+        capacity; a booking uses capacity only after payment confirmation
       - **[QR code tickets and check-in](/features/qr-code-check-ins/)** -
         each booking gets a unique scannable QR code, with a
         check-in interface for the door

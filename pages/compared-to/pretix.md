@@ -67,7 +67,7 @@ blocks:
       - Apple Pay and Google Pay at checkout (via Stripe)
       - QR code scanning for check-in at the door
       - API access for custom integrations
-      - Capacity management to prevent overselling
+      - Event capacity limits
       - Email confirmations to attendees after booking
       - Free event support with no payment setup required
       - Daily and recurring event support

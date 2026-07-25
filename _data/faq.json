@@ -127,7 +127,7 @@
 	{
 		"section": "Features and customisation",
 		"question": "Can I sell different ticket tiers like VIP and general admission?",
-		"answer": "Yes, using <a href=\"/features/groups/\">event groups</a>. You create separate events for each tier and group them together. Groups can share capacity, so selling a VIP ticket reduces the number of general admission tickets available. Attendees see all the options in a single checkout. This also works for early bird and standard pricing, or adult and child tickets."
+		"answer": "Yes, using <a href=\"/features/groups/\">event groups</a>. You create separate events for each tier and group them together. Groups can share capacity, so a confirmed VIP booking reduces the number of general admission tickets available. Attendees see all the options in a single checkout. This also works for early bird and standard pricing, or adult and child tickets."
 	},
 	{
 		"section": "Features and customisation",
@@ -152,7 +152,7 @@
 	{
 		"section": "Features and customisation",
 		"question": "Can I set capacity limits for events?",
-		"answer": "Yes. Each event has a capacity set by the organiser. Chobble Tickets checks capacity before checkout and again when payment is confirmed. If two payments race for the last ticket, the second is refunded automatically and recorded for the organiser. When an event is full, the booking form shows a sold-out message. The checks are a best effort rather than a guarantee against software or infrastructure failures. <a href=\"/features/daily-events/\">Daily events</a> have separate capacity for each date, with holiday and blackout dates."
+		"answer": "Yes. Each event has a capacity set by the organiser. Chobble Tickets checks capacity before checkout, but this does not reserve anything or use capacity. For a paid booking, capacity is checked again and used only when payment confirmation arrives. If two payments race for the last ticket, the later one is refunded automatically and recorded for the organiser. When an event is full, the booking form shows a sold-out message. The checks are a best effort rather than a guarantee against software or infrastructure failures. <a href=\"/features/daily-events/\">Daily events</a> have separate capacity for each date, with holiday and blackout dates."
 	},
 	{
 		"section": "Features and customisation",
@@ -177,12 +177,12 @@
 	{
 		"section": "Features and customisation",
 		"question": "Can Chobble Tickets handle equipment hire and deliveries?",
-		"answer": "Yes. Listings can span consecutive days with a total price for each offered duration. Capacity is checked across the booked range. Administrators can assign drop-off and collection work, and logistics agents receive a browser-based run sheet.</p><p>See the <a href=\"/features/logistics/\">logistics</a>, <a href=\"/features/multi-day-hire/\">multi-day hire</a>, and <a href=\"/features/servicing-events/\">servicing events</a> pages, or the <a href=\"/perfect-for/equipment-hire/\">equipment hire</a> page."
+		"answer": "Yes. Listings can span consecutive days with a total price for each offered duration. For a paid booking, capacity across every occupied date is checked and used when payment confirmation arrives. Administrators can assign drop-off and collection work, and logistics agents receive a browser-based run sheet.</p><p>See the <a href=\"/features/logistics/\">logistics</a>, <a href=\"/features/multi-day-hire/\">multi-day hire</a>, and <a href=\"/features/servicing-events/\">servicing events</a> pages, or the <a href=\"/perfect-for/equipment-hire/\">equipment hire</a> page."
 	},
 	{
 		"section": "Features and customisation",
 		"question": "Can customers pay a deposit and settle the balance later?",
-		"answer": "Yes. A booking can be taken as a reservation with a deposit, and the customer receives a link to a balance page where they can pay the rest later. Payments taken outside the checkout, such as cash or bank transfer, can be recorded against the same balance.</p><p>See the <a href=\"/features/deposits-and-balance-payments/\">deposits and balance payments</a> page."
+		"answer": "Yes. Once the deposit payment is confirmed, Chobble Tickets creates the reserved booking and uses capacity. The customer receives a link to a balance page where they can pay the rest later. Payments taken outside the checkout, such as cash or bank transfer, can be recorded against the same balance.</p><p>See the <a href=\"/features/deposits-and-balance-payments/\">deposits and balance payments</a> page."
 	},
 	{
 		"section": "Features and customisation",

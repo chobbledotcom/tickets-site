@@ -37,9 +37,9 @@ blocks:
         label: Managed hosting per year
   - type: split-image
     content: |
-      ## Prevent overlapping day-based bookings
+      ## Manage overlapping day-based bookings
 
-      Create a daily listing for each room, hall or shared venue space. Capacity one prevents two accepted bookings from using the same listing on the same occupied date.
+      Create a daily listing for each room, hall or shared venue space. A confirmed booking uses capacity on every occupied date. Capacity one normally leaves room for one confirmed booking; a later paid order that no longer fits is refunded automatically.
 
       For multi-day use, customers choose from the durations and total prices the venue publishes. The availability check covers every day in the range, including shared capacity limits across a group of spaces.
 

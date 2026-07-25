@@ -24,9 +24,13 @@ blocks:
       amount for the whole order (such as "10"), or an amount per item
       booked (such as "10x").
 
+      For a paid reservation, the booking is created and uses capacity only
+      when the deposit payment is confirmed. Opening checkout does not reserve
+      the place.
+
       A deposit of zero is also valid, which means the customer reserves
-      now and pays the whole amount later. The deposit is always capped
-      at the full order price.
+      without opening a payment-provider checkout and pays the whole amount
+      later. The deposit is always capped at the full order price.
   - type: split-image
     content: |
       ## Attendee statuses

@@ -90,7 +90,7 @@ blocks:
       - Online ticket sales via Stripe
       - Apple Pay and Google Pay at checkout (via Stripe)
       - Email confirmations to attendees
-      - Capacity management to prevent overselling
+      - Event capacity limits
       - Free event support (no payment setup needed)
       - Attendee data export (CSV on Chobble, 14 built-in reports on
         PTA Events)

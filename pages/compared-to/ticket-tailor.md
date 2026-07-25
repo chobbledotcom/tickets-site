@@ -79,7 +79,7 @@ blocks:
       - Apple Pay and Google Pay at checkout (via Stripe)
       - QR code scanning for check-in at the door
       - Email confirmations to attendees after booking
-      - Capacity management to prevent overselling
+      - Event capacity limits
       - Shared capacity caps across multiple ticket tiers (Ticket Tailor
         does this with ticket types inside one event; Chobble Tickets does
         it by grouping separate events together)

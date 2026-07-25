@@ -152,8 +152,9 @@ blocks:
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
       - **[Capacity management](/features/overbooking-prevention/)** -
-        automatic capacity limits with 5-minute payment holds to prevent
-        overbooking
+        capacity is rechecked when payment is confirmed. Nothing is reserved
+        during paid checkout, and an order that cannot be honoured is refunded
+        automatically
       - **[Refund processing](/features/refunds/)** - process individual
         or bulk refunds directly from the admin panel
       - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -

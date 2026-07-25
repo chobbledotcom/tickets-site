@@ -52,7 +52,7 @@ blocks:
     content: |
       ## Take a deposit and send the follow-up
 
-      A stylist can take full payment or reserve the booking with a [deposit](/features/deposits-and-balance-payments/). The customer receives a private link showing the amount paid and the balance remaining.
+      A stylist can take full payment or a [deposit](/features/deposits-and-balance-payments/). Once that payment is confirmed, Chobble Tickets creates the reserved booking and the customer receives a private link showing the amount paid and the balance remaining.
 
       Confirmation emails can include service details and preparation notes. A listing can also provide a file through an attendee-specific, expiring link, such as a guide supplied after payment.
 

@@ -54,7 +54,7 @@ blocks:
 
       [Custom questions](/features/custom-questions/) can collect goals, experience or access needs. Personal answers are encrypted in the database and can be included in operational exports.
 
-      A session can be paid in full or reserved with a [deposit](/features/deposits-and-balance-payments/). The client receives a private link for the remaining balance, while cash and bank transfers can be recorded in the same ledger.
+      A session can be paid in full or booked with a [deposit](/features/deposits-and-balance-payments/). Once that payment is confirmed, Chobble Tickets creates the reserved booking. The client receives a private link for the remaining balance, while cash and bank transfers can be recorded in the same ledger.
 
       Returning-customer price rules can apply after a set number of earlier bookings. The system does not provide recurring subscriptions, redeemable session credits, automatic reminders or customer rescheduling.
     figure_items:

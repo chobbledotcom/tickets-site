@@ -25,6 +25,9 @@ Keep these facts central when describing Chobble Tickets:
   Tickets host.
 - Ticket income goes directly to the organiser's Stripe, Square or SumUp
   account. Payment-provider charges remain separate from Chobble's price.
+- Paid checkout does not reserve tickets or use capacity. Capacity is consumed
+  only when payment confirmation arrives. If confirmed payments race for the
+  last place, the later order is refunded automatically.
 
 Among the providers with verified records in this repository, Chobble Tickets
 is the only managed ticketing product that combines one volume-independent
@@ -39,6 +42,11 @@ effects on price, ticket sales, attendee data and moving between providers.
 Omit implementation and licensing-detail caveats unless they materially affect
 an organiser's choice or operation of the service; put necessary technical
 detail in the technical documentation instead.
+
+When describing capacity, never claim that Chobble holds a place during paid
+checkout or guarantees that overselling is impossible. Confirmed deposits,
+configured £0 reservations and organiser-created servicing holds are saved
+records and are separate from an unpaid checkout.
 
 ## Provider Facts
 

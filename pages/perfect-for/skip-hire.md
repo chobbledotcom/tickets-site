@@ -43,7 +43,7 @@ blocks:
 
       Each duration has an explicit total price. Chobble Tickets does not multiply a daily rate, and it does not assign a serial number to an individual skip.
 
-      A booking occupies capacity on every day in its range. [Multi-day availability checks](/features/multi-day-hire/) prevent accepted bookings from taking the stock above its limit on an overlapping date.
+      A confirmed booking uses capacity on every day in its range. For a paid hire, [multi-day availability](/features/multi-day-hire/) is rechecked when payment confirmation arrives. An order that no longer fits is refunded automatically.
     figure_src: /images/screenshots/industry-skip-hire-booking.png
     figure_alt: Skip hire checkout with a start date and seven-day or fourteen-day prices
     figure_caption: Customers choose from the hire lengths and total prices the company has published.

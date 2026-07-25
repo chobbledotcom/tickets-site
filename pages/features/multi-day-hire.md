@@ -23,10 +23,10 @@ blocks:
       many consecutive days from the chosen start date.
 
       Capacity is tracked per day, so a three-day hire starting on Monday
-      uses one unit of stock on Monday, Tuesday, and Wednesday. Two
-      accepted bookings cannot exceed the listing's total capacity on any
-      occupied date. Chobble Tickets does not assign individual serialised
-      units.
+      uses one unit of stock on Monday, Tuesday, and Wednesday. For a paid hire,
+      the complete range is rechecked and uses capacity when payment
+      confirmation arrives. A paid order that no longer fits is refunded
+      automatically. Chobble Tickets does not assign individual serialised units.
   - type: markdown
     content: |
       ## Buyer-chosen durations and duration pricing

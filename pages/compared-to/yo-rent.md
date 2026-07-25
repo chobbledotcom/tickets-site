@@ -59,8 +59,9 @@ blocks:
       A hire booking works like an event booking with a date and a limited
       number of units. When you set a listing's type to hire, the options
       default to hire settings rather than ticket ones. A customer picks a
-      date, and the item is held for that booking so it cannot be
-      double-booked.
+      date. For a paid hire, the booking uses capacity only when payment
+      confirmation arrives. If two payments race for the last unit, Chobble
+      Tickets refunds the later payment automatically.
 
       Three features make this work for a hire business:
 
@@ -127,8 +128,8 @@ blocks:
 
       **Both platforms share some features:**
 
-      - Rentals booked for a date, with the item held so it cannot be
-        double-booked
+      - Rentals booked for a date, with confirmed bookings reducing
+        availability
       - Online payment collection through a payment gateway
       - A self-hosting option, so data can stay on your own server
       - White-label branding, so the platform carries your name

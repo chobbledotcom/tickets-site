@@ -278,7 +278,7 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
     {
-      fact: "Multi-day capacity is checked across every occupied day.",
+      fact: "A confirmed paid booking uses capacity across every occupied day.",
       sources: [
         "../tickets/src/shared/db/capacity.ts:276-309",
         "../tickets/src/shared/db/attendees/capacity/remaining.ts:91-104",
@@ -287,7 +287,7 @@ export const SOCIAL_IMAGE_FACTS = {
   ],
   "industry-venue-hire": [
     {
-      fact: "A direct booking page offers calendar-valid start dates, then checks capacity when the chosen span is submitted.",
+      fact: "Submitting a paid booking checks the chosen span but reserves nothing; capacity is used after payment confirmation.",
       sources: [
         "../tickets/src/features/public/ticket-payment.ts:540-555",
         "../tickets/src/shared/dates.ts:122-204",

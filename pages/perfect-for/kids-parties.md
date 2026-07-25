@@ -18,15 +18,15 @@ blocks:
     content: |
       ## Simple for parents
 
-      Parents get a clean booking page where they can reserve spots for their
+      Parents get a clean booking page where they can book places for their
       kids without needing to create an account or download an app.
 
       Chobble Tickets sends a confirmation email with a QR code ticket, and
       at the door you scan with your phone to check guests in.
 
-      You can set capacity limits, and the system holds spots for 5 minutes
-      during payment so two parents are unlikely to buy the last spot at the
-      same time. If a race does happen, the second payment is refunded
+      You can set capacity limits. Paid checkout does not reserve places or use
+      capacity; a booking uses capacity only when payment confirmation arrives.
+      If two parents pay for the last place, the later payment is refunded
       automatically.
     figure_items:
       - icon: hugeicons:smart-phone-01

@@ -50,8 +50,8 @@ blocks:
         same event, all counting against one venue limit.
 
       Each event in the group can have its own price, description, and
-      individual cap, while the group-level max ensures you never exceed
-      your venue's total capacity.
+      individual cap. The group maximum is rechecked when payment confirmation
+      arrives. A paid order that no longer fits is refunded automatically.
 
       ## Daily events
 

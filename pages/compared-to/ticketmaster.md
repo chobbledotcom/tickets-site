@@ -68,7 +68,7 @@ blocks:
       - Online ticket sales with payment processing
       - QR code or barcode scanning for entry
       - Email confirmations to ticket holders
-      - Capacity management to prevent overselling
+      - Event capacity limits
       - Refund processing
       - Mobile-friendly booking experience
 
