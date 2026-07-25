@@ -7,6 +7,26 @@ permalink: /compared-to/resova/
 eleventyNavigation:
   key: vs Resova
   parent: Compared To
+provider_facts:
+  name: Resova
+  kind: adjacent-software
+  calculator_keys:
+    - resova
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - not-documented
+  per_ticket_platform_fee: allowance-overage
+  managed_pricing: allowance-overage
+  white_label: not-documented
+  custom_domain: not-documented
+  public_website: hosted-booking-pages
+  self_hosting: not-offered
+  source_code: proprietary
+  event_marketplace: not-documented
+  attendee_cross_marketing: not-documented
+  notes:
+    per_ticket_platform_fee: "Published plans include a monthly booking allowance, then charge a fixed amount for each extra booking; Enterprise lists unlimited bookings."
+    managed_pricing: "Published subscription tiers carry different monthly booking allowances and overage charges. The custom Enterprise plan lists unlimited bookings."
 blocks:
   - type: hero
     class: gradient
@@ -25,6 +45,7 @@ blocks:
       (approximately £380/year) with a 100-bookings-per-month limit, and the
       Premium plan is $108/month (approximately £1025/year) with a 600-bookings
       limit. Bookings above your plan's limit cost $0.20 (about 16p) each.
+      The custom-priced Enterprise plan lists unlimited bookings.
 
       Payment processing is separate, through Stripe, PayPal, Square, or
       Resova's own SpeedPay product.

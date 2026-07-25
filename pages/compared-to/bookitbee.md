@@ -7,6 +7,23 @@ permalink: /compared-to/bookitbee/
 eleventyNavigation:
   key: vs BookitBee
   parent: Compared To
+provider_facts:
+  name: BookitBee
+  kind: ticketing
+  calculator_keys:
+    - bookitbee
+  last_reviewed: null
+  ethical_basis:
+    - not-reviewed
+  per_ticket_platform_fee: not-reviewed
+  managed_pricing: not-reviewed
+  white_label: not-reviewed
+  custom_domain: not-reviewed
+  public_website: not-reviewed
+  self_hosting: not-reviewed
+  source_code: not-reviewed
+  event_marketplace: not-reviewed
+  attendee_cross_marketing: not-reviewed
 blocks:
   - type: hero
     class: gradient

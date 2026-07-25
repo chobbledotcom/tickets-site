@@ -7,6 +7,30 @@ permalink: /compared-to/ticket-tailor/
 eleventyNavigation:
   key: vs Ticket Tailor
   parent: Compared To
+provider_facts:
+  name: Ticket Tailor
+  kind: ticketing
+  calculator_keys:
+    - ticket_tailor
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - certified-b-corporation
+    - independently-owned
+  per_ticket_platform_fee: fixed
+  managed_pricing: per-sale
+  white_label: paid-add-on
+  custom_domain: paid-add-on
+  public_website: hosted-booking-pages
+  self_hosting: not-offered
+  source_code: proprietary
+  event_marketplace: built-in
+  attendee_cross_marketing: none
+  notes:
+    per_ticket_platform_fee: "Paid tickets use credits; prepaid bundles and eligible discounts reduce the fixed rate."
+    managed_pricing: "Ticket Tailor charges for each paid ticket rather than charging a recurring managed-service subscription."
+    white_label: "The £39/month White Label add-on includes custom-domain support; a custom domain is also available separately for £7/month."
+    public_website: "Ticket Tailor supplies hosted box-office pages and embeddable event-listing, calendar and checkout widgets."
+    event_marketplace: "Ticket Tailor operates a public Discover events area."
 blocks:
   - type: hero
     class: gradient
@@ -144,14 +168,14 @@ blocks:
       - **[Admin API](/features/admin-api/)** - authenticated API with
         API keys for full event CRUD and reading private data
       - **Custom domain included** - pointing your own domain is part of
-        the £50/year (or £5/month) plan (Ticket Tailor bundles custom
-        domains with its White Label add-on at around £7/month)
+        the £50/year (or £5/month) plan. Ticket Tailor charges £7/month for a
+        custom domain or includes it in the £39/month White Label add-on
       - **[Public-facing website and CMS](/features/your-public-website/)**
         a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel with Markdown and
-        [custom CSS](/features/customising-your-site/). Ticket Tailor
-        provides event pages and a widget but not a full website with
-        composable pages
+        [custom CSS](/features/customising-your-site/). Ticket Tailor provides
+        hosted box-office pages and embeddable event-listing, calendar and
+        checkout widgets
       - **Community Interest Company** - run by a CIC, a UK legal
         structure that locks the company's assets for community benefit
 
@@ -159,10 +183,11 @@ blocks:
 
       Ticket Tailor is a proprietary platform. Your event data lives on
       their servers, and you depend on their continued operation. Unlike
-      some larger platforms, Ticket Tailor does not run a consumer
-      marketplace and does not email attendees about other organisers'
-      events. CSV exports and a full API are available for getting your
-      data out.
+      some larger platforms, Ticket Tailor states that it does not email
+      attendees about other organisers' events. It now runs a public Discover
+      events area. Its terms state that it processes ticket-buyer data on the
+      organiser's behalf and does not sell or otherwise use that data. CSV
+      exports and a full API are available for getting data out.
 
       With Chobble Tickets, attendee data is encrypted at rest and stays
       under your control. The entire platform is open source under AGPLv3,
@@ -207,8 +232,7 @@ blocks:
       Ticket Tailor was started by Jonny White in London in 2010 and
       launched in January 2011. The company was sold to Time Out in 2012
       and bought back by the founder in 2014. It has operated
-      independently since, without venture capital or private equity
-      funding.
+      independently since. Its current B Lab profile records no investors.
 
       Ticket Tailor is a [certified B
       Corporation](https://www.bcorporation.net/en-us/find-a-b-corp/company/ticket-tailor/),
@@ -225,7 +249,7 @@ blocks:
     content: |
       ## Pricing sources
 
-      The pricing information on this page was verified in April 2026. Fees
+      The pricing information on this page was checked again on 25 July 2026. Fees
       may change. Check the links below for the latest figures.
 
       - [Ticket Tailor pricing](https://www.tickettailor.com/pricing) - £0.60 per paid ticket pay-as-you-go, from £0.22 with prepaid credits
@@ -234,7 +258,9 @@ blocks:
       - [Ticket Tailor help centre: charity discount](https://help.tickettailor.com/en/articles/950033-i-run-a-charity-not-for-profit-organisation-do-i-get-a-discount) - 50% off for registered charities
       - [Ticket Tailor help centre: all discounts](https://help.tickettailor.com/en/articles/8687492-what-discounts-do-we-offer) - 20% off for PTAs and B Corps
       - [Ticket Tailor help centre: Stripe, PayPal, Square fees](https://help.tickettailor.com/en/articles/959959-how-much-do-stripe-paypal-and-square-charge)
-      - [Ticket Tailor help centre: custom domain and white-label](https://help.tickettailor.com/en/articles/9361210-top-tips-for-using-a-widget-and-a-custom-domain) - ~£7/month for white-label (includes custom domain)
+      - [Ticket Tailor help centre: custom domain](https://intercom.help/ticket-tailor/en/articles/6758421-how-can-i-add-my-custom-domain-to-my-box-office) - £7/month separately or included with the £39/month White Label add-on
+      - [Ticket Tailor Discover events](https://www.tickettailor.com/discover) - public event listings
+      - [Ticket Tailor terms](https://www.tickettailor.com/legal/terms-and-conditions) - ticket-buyer data terms
       - [Ticket Tailor features](https://www.tickettailor.com/features) - full feature list
       - [Ticket Tailor API docs](https://developers.tickettailor.com/docs/api/ticket-tailor-api/)
       - [Ticket Tailor our story](https://www.tickettailor.com/our-story) - founded 2010 by Jonny White, bought back from Time Out

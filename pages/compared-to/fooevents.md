@@ -7,6 +7,28 @@ permalink: /compared-to/fooevents/
 eleventyNavigation:
   key: vs FooEvents
   parent: Compared To
+provider_facts:
+  name: FooEvents
+  kind: ticketing
+  calculator_keys:
+    - fooevents
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - not-documented
+  per_ticket_platform_fee: none
+  managed_pricing: not-offered
+  white_label: not-documented
+  custom_domain: host-platform-dependent
+  public_website: host-platform-dependent
+  self_hosting: plugin-on-self-hosted-platform
+  source_code: proprietary
+  event_marketplace: none
+  attendee_cross_marketing: none
+  notes:
+    per_ticket_platform_fee: "Annual plugin licences, WordPress hosting and payment processing remain separate costs."
+    managed_pricing: "FooEvents is installed on WordPress and does not offer a managed ticketing service."
+    custom_domain: "The event pages use the domain of the WordPress site where the plugin is installed."
+    public_website: "Public pages come from the organiser's WordPress and WooCommerce site."
 blocks:
   - type: hero
     class: gradient
@@ -35,10 +57,10 @@ blocks:
     content: |
       ## Pricing comparison
 
-      FooEvents is sold as annual bundles. Each bundle includes the
-      listed plugins plus 12 months of support and updates. The prices
-      below are for a Single Domain licence. Licences for multiple or
-      unlimited domains cost more.
+      The core FooEvents for WooCommerce plugin starts at $69/year. Bundles add
+      ticket PDFs, calendars, bookings, check-in and other plugins. Each
+      purchase includes 12 months of support and updates. The bundle prices
+      below are for one domain; licences for more domains cost extra.
 
       **Basic Bundle** - $139/year (approx. £103)
 
@@ -179,7 +201,7 @@ blocks:
       - **[Open source](/features/open-source/) under AGPL-3.0-only** - the
         complete Chobble Tickets product source is public, with no proprietary
         editions or feature gates. FooEvents is commercial, closed-source
-        software that requires a paid subscription to use
+        software sold with 12 months of updates and support
       - **[No Chobble self-hosting licence fee](/features/open-source/)** -
         every product feature is included, while the operator pays for
         infrastructure and configured services. FooEvents requires a paid
@@ -314,9 +336,9 @@ blocks:
     content: |
       ## Who builds FooEvents?
 
-      FooEvents is a commercial WordPress plugin from FooEvents.com.
-      It is closed-source paid software sold as an annual
-      subscription, with bundles from $139 to $349 per domain.
+      FooEvents is a commercial WordPress plugin from FooEvents.com. The core
+      plugin starts at $69 with 12 months of updates and support, while bundles
+      range from $139 to $349 for one domain.
       Payments are processed in US dollars by Stripe, in South African
       rand by Paystack for South African customers, and PayPal is
       offered in most other countries.
@@ -331,9 +353,8 @@ blocks:
     content: |
       ## Pricing sources
 
-      The pricing information on this page was verified in April
-      2026. Fees may change. Check the links below for the latest
-      figures.
+      The pricing information on this page was checked again on 25 July
+      2026. Fees may change. Check the links below for the latest figures.
 
       - [FooEvents pricing](https://www.fooevents.com/pricing/) -
         bundle prices from $139 to $349 per year

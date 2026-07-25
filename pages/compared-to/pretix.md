@@ -9,6 +9,33 @@ permalink: /compared-to/pretix/
 eleventyNavigation:
   key: vs Pretix
   parent: Compared To
+provider_facts:
+  name: Pretix
+  kind: ticketing
+  calculator_keys:
+    - pretix_hosted
+    - pretix_selfhosted
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - owner-led
+    - self-described-independent
+  per_ticket_platform_fee: percentage
+  managed_pricing: per-sale
+  white_label: partial
+  custom_domain: by-arrangement
+  public_website: organiser-microsite
+  self_hosting: community-edition
+  source_code: open-source-core
+  event_marketplace: none
+  attendee_cross_marketing: not-documented
+  notes:
+    per_ticket_platform_fee: "Pretix Hosted charges 2.5% of ticket value, capped per ticket; payment processing is separate."
+    ethical_basis: "Pretix describes itself as owner-led and says it operates without pressure from investors or creditors."
+    managed_pricing: "Pretix Hosted charges for each paid ticket rather than using a volume-independent subscription."
+    custom_domain: "Pretix Hosted supports organiser-owned domains by arrangement; self-hosted deployments use the operator's configured domain."
+    public_website: "Pretix supplies organiser profiles, event shops and mini-CMS pages for static content."
+    self_hosting: "The Community edition is free; proprietary enterprise plugins require a paid licence."
+    source_code: "Core ticketing is AGPLv3, while several enterprise plugins are proprietary."
 blocks:
   - type: hero
     class: gradient
@@ -177,8 +204,8 @@ blocks:
       - **[Public-facing website and CMS](/features/your-public-website/)**
         a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel with Markdown and
-        [custom CSS](/features/customising-your-site/). Pretix provides a
-        shop front but not a composable website with pages and a form
+        [custom CSS](/features/customising-your-site/). Pretix provides
+        organiser profiles, event shops and mini-CMS pages for static content
 
       ## When Chobble Tickets is the better choice
 
@@ -221,7 +248,7 @@ blocks:
       | Promo codes | Yes | Yes |
       | Waitlists | No | Yes |
       | [Custom domain](/features/custom-domain/) | Yes | Yes (enterprise) |
-      | [Public website & CMS](/features/your-public-website/) | Yes | No (shop front only) |
+      | [Public website & CMS](/features/your-public-website/) | Full site | Event shop with mini-CMS pages |
       | [Daily events](/features/daily-events/) | Yes | Yes (with series) |
       | Badge printing | No | Yes (enterprise plugin) |
       | Lead scanning | No | Yes (enterprise plugin) |
@@ -232,10 +259,10 @@ blocks:
       Pretix was created by Raphael Michel, who started writing it in 2014
       while working as a freelance developer in Heidelberg, Germany. The
       company behind it ([pretix GmbH](https://pretix.eu/about/en/company),
-      formerly rami.io GmbH, renamed in 2025) is owner-led with no
-      external investors. Their website states the company has "grown
-      organically through customers without any pressure by investors or
-      creditors." The team has grown to approximately 31 people.
+      formerly rami.io GmbH, renamed in 2025) is owner-led. Its website states
+      that the company has grown through customers "without any pressure by
+      investors or creditors." This does not establish that the company has
+      never had any creditor relationship.
 
       Pretix received a German federal government grant through the
       Prototype Fund (funded by the BMBF) in 2017–2018, but has no

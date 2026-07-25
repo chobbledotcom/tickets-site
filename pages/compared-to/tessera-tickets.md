@@ -7,6 +7,28 @@ permalink: /compared-to/tessera-tickets/
 eleventyNavigation:
   key: vs Tessera Tickets
   parent: Compared To
+provider_facts:
+  name: Tessera Tickets
+  kind: ticketing
+  calculator_keys:
+    - tessera_tickets
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - not-documented
+  per_ticket_platform_fee: none
+  managed_pricing: ticket-volume-tiered
+  white_label: partial
+  custom_domain: host-platform-dependent
+  public_website: host-platform-dependent
+  self_hosting: not-offered
+  source_code: proprietary
+  event_marketplace: none
+  attendee_cross_marketing: none
+  notes:
+    managed_pricing: "Monthly subscription tiers rise with annual ticket volume."
+    white_label: "Custom HTML and CSS are available, but complete removal of provider branding was not established."
+    custom_domain: "The usual public site is separately hosted WordPress; the do-it-yourself option uses Tessera's API."
+    public_website: "A separately priced WordPress site or an organiser-built API client supplies the public website."
 blocks:
   - type: hero
     class: gradient

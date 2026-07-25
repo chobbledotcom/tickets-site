@@ -7,6 +7,28 @@ permalink: /compared-to/pta-events/
 eleventyNavigation:
   key: vs PTA Events
   parent: Compared To
+provider_facts:
+  name: PTA Events
+  kind: ticketing
+  calculator_keys:
+    - pta_events
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - not-documented
+  per_ticket_platform_fee: per-transaction-percentage
+  managed_pricing: per-sale
+  white_label: partial
+  custom_domain: not-documented
+  public_website: built-in-full
+  self_hosting: not-offered
+  source_code: proprietary
+  event_marketplace: not-documented
+  attendee_cross_marketing: not-documented
+  notes:
+    per_ticket_platform_fee: "The percentage platform fee applies per transaction; Stripe processing is separate."
+    managed_pricing: "The free Starter plan and annual Premium plan carry different per-transaction platform-fee rates."
+    white_label: "PTA Events supplies organiser branding, but complete removal of provider branding was not established."
+    public_website: "The service supplies a branded fundraising website with news, custom pages, events, products, volunteer management and committee listings."
 blocks:
   - type: hero
     class: gradient
@@ -156,9 +178,10 @@ blocks:
       Wallet](/features/apple-wallet/) support, and a choice of [email
       providers](/features/email-providers/).
 
-      PTA Events provides a branded microsite for your PTA, advertising and
-      sponsorship tools (Premium plan), 14 built-in reports, and a
-      community pages CMS.
+      PTA Events provides a branded fundraising website with news, custom
+      pages, events, products, volunteer management and committee listings. It
+      also provides advertising and sponsorship tools on Premium and 14
+      built-in reports.
 
       ## When PTA Events makes more sense
 

@@ -6,6 +6,29 @@ permalink: /compared-to/cal-com/
 eleventyNavigation:
   key: vs Cal.com
   parent: Compared To
+provider_facts:
+  name: Cal.com
+  kind: adjacent-software
+  calculator_keys: []
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - not-documented
+  per_ticket_platform_fee: none
+  managed_pricing: per-user-tiered-volume-independent
+  white_label: not-documented
+  custom_domain: not-offered
+  public_website: hosted-booking-pages
+  self_hosting: different-community-edition
+  source_code: proprietary-production-with-open-source-community-edition
+  event_marketplace: not-documented
+  attendee_cross_marketing: not-documented
+  notes:
+    per_ticket_platform_fee: "Payment processing for paid bookings remains separate."
+    managed_pricing: "Paid managed plans are feature-tiered and charged per user, not per booking."
+    custom_domain: "The Organizations plan offers a cal.com subdomain, not an organiser-owned domain."
+    public_website: "Cal.com supplies appointment-booking pages, not a public event website."
+    self_hosting: "Cal.diy is a community version that has diverged from the hosted production code."
+    source_code: "The production code became proprietary in April 2026; Cal.diy remains MIT-licensed."
 blocks:
   - type: hero
     class: gradient

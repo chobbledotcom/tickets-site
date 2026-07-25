@@ -6,6 +6,28 @@ permalink: /compared-to/swicket/
 eleventyNavigation:
   key: vs Swicket
   parent: Compared To
+provider_facts:
+  name: Swicket
+  kind: ticketing
+  calculator_keys: []
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - not-documented
+  per_ticket_platform_fee: not-documented
+  managed_pricing: quote-based
+  white_label: not-documented
+  custom_domain: not-documented
+  public_website: hosted-event-pages
+  self_hosting: related-project
+  source_code: related-open-source-project
+  event_marketplace: not-documented
+  attendee_cross_marketing: not-documented
+  notes:
+    ethical_basis: "No charitable, co-operative or certified structure was established for Swicket. The related alf.io project has public finances on Open Collective."
+    managed_pricing: "Swicket publishes no managed-service price and quotes contracts individually."
+    public_website: "Swicket and alf.io provide hosted event-registration pages."
+    self_hosting: "alf.io, the engine beneath Swicket, can be self-hosted; Swicket is the separate managed service."
+    source_code: "alf.io is GPL-3.0; the page does not establish that all Swicket service additions share that licence."
 blocks:
   - type: hero
     class: gradient
@@ -184,22 +206,16 @@ blocks:
     content: |
       ## Who owns Swicket and alf.io?
 
-      [Swicket Sagl](https://swicket.io/about) is a Swiss limited liability
-      company founded in 2018 by Celestino Bellone, based in Viganello
-      (Lugano), Switzerland. Bellone is also the founder and lead developer
-      of [alf.io](https://github.com/alfio-event/alf.io), the open source
-      ticketing engine that Swicket is built on. The other core alf.io
-      maintainer is Sylvain Jermini.
-
-      In December 2024, Swicket established a "strategic partnership" with
-      [Vivento Lab](https://vivento.ch) - a separate Swiss company (formerly
-      CRYMS Sagl) backed by Tinext Group. While Vivento Lab describes
-      Swicket as "part of Vivento" on some marketing material, the Swiss
-      commercial register shows them as separate legal entities.
+      Swicket presents itself as a product of Vivento Lab. Celestino Bellone,
+      one of the people behind Swicket, is also a creator of
+      [alf.io](https://github.com/alfio-event/alf.io), the open source engine
+      beneath the managed service. Sylvain Jermini is another alf.io project
+      administrator.
 
       alf.io itself is a community open source project licensed under
-      GPL-3.0, with transparent finances on Open Collective and no formal
-      governance foundation.
+      GPL-3.0, with public finances on Open Collective. Open Collective lists
+      Bellone and Jermini as administrators and Open Source Collective as the
+      fiscal host.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)

@@ -99,7 +99,7 @@ blocks:
 
       A platform with no annual charge can cost less for one small event. A flat annual fee tends to cost less as ticket volume or ticket price rises.
 
-      The [worked pricing examples](/features/no-per-ticket-fees/) cover events selling 50, 500 and 5,000 tickets. The [platform fee calculator](/compared-to/compare-all/) lets organisers enter their own ticket price and annual volume.
+      The [flat-rate ticketing guide](/guide/choosing-a-ticket-platform/flat-rate-ticketing/) compares subscriptions, feature tiers, volume tiers and per-sale pricing. The [worked pricing examples](/features/no-per-ticket-fees/) cover events selling 50, 500 and 5,000 tickets, while the [platform fee calculator](/compared-to/compare-all/) lets organisers enter their own ticket price and annual volume.
   - type: features
     intro_content: |
       ## Before signing up

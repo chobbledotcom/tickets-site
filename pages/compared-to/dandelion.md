@@ -7,6 +7,31 @@ permalink: /compared-to/dandelion/
 eleventyNavigation:
   key: vs Dandelion
   parent: Compared To
+provider_facts:
+  name: Dandelion
+  kind: ticketing
+  calculator_keys:
+    - dandelion
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - self-described-worker-co-operative
+    - company-limited-by-guarantee
+  per_ticket_platform_fee: voluntary-contributions
+  managed_pricing: no-mandatory-price
+  white_label: not-documented
+  custom_domain: not-documented
+  public_website: marketplace-pages
+  self_hosting: source-available-internal-use
+  source_code: source-available-delayed-open
+  event_marketplace: built-in
+  attendee_cross_marketing: personalised-recommendations
+  notes:
+    ethical_basis: "Symbiota describes itself as a not-for-profit worker co-operative; Companies House records a company limited by guarantee."
+    per_ticket_platform_fee: "Dandelion normally requests a voluntary 1% organiser contribution and buyer donations."
+    managed_pricing: "Dandelion asks for voluntary contributions. Some off-platform listings and marketplace boosts have separate charges."
+    custom_domain: "The hosted-service documentation does not list custom domains."
+    self_hosting: "The Functional Source License permits internal use but restricts competing services for two years."
+    source_code: "The Functional Source License adds Apache 2.0 as an additional licence after two years."
 blocks:
   - type: hero
     class: gradient

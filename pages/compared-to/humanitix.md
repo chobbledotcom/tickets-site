@@ -7,6 +7,27 @@ permalink: /compared-to/humanitix/
 eleventyNavigation:
   key: vs Humanitix
   parent: Compared To
+provider_facts:
+  name: Humanitix
+  kind: ticketing
+  calculator_keys:
+    - humanitix
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - registered-charity
+  per_ticket_platform_fee: percentage-plus-fixed
+  managed_pricing: per-sale
+  white_label: not-documented
+  custom_domain: not-documented
+  public_website: hosted-event-pages
+  self_hosting: not-offered
+  source_code: proprietary
+  event_marketplace: built-in
+  attendee_cross_marketing: personalised-recommendations
+  notes:
+    per_ticket_platform_fee: "The published ticket fee includes payment processing."
+    managed_pricing: "Humanitix has no recurring subscription and charges for each paid ticket."
+    attendee_cross_marketing: "The privacy notice describes personalised recommendations and says direct marketing requires an explicit attendee opt-in."
 blocks:
   - type: hero
     class: gradient
@@ -161,17 +182,16 @@ blocks:
         a homepage, content pages, news posts, and a contact form with
         spam protection, all edited from the admin panel with Markdown.
         Write your own [custom CSS](/features/customising-your-site/) for
-        colours, fonts and spacing. Humanitix customises the event page
-        branding but does not include a full website with pages and a
-        contact form
+        colours, fonts and spacing. Humanitix supplies customisable event
+        pages and widgets that can sell tickets on an existing website
 
       ## Data ownership
 
       Humanitix stores attendee data on its servers. Like most hosted
       platforms, attendee details are readable by the platform. Humanitix
-      also runs a discovery marketplace, so your events appear alongside
-      other organisers' events, and attendees may receive emails about
-      other events on the platform.
+      also runs a discovery marketplace and makes personalised
+      recommendations. Its privacy notice says direct marketing is sent only
+      when an attendee explicitly opts in.
 
       With Chobble Tickets, attendee data is encrypted at rest and stays
       under your control. The organiser holds the only private key that
@@ -238,6 +258,7 @@ blocks:
       - [Humanitix pricing (UK)](https://humanitix.com/gb/pricing) - Standard 4.67% + £0.46, Charities & Schools 3.33% + £0.25 per paid ticket (excl. VAT), free events free
       - [Humanitix features](https://humanitix.com/gb/features) - full feature list including seating, waitlists, scanning app, integrations
       - [Humanitix about us](https://humanitix.com/gb/about-us) - registered charity, founders, impact
+      - [Humanitix privacy and cookie policy](https://static.humanitix.com/pdfs/privacy_and_cookie_policy.html) - recommendations and marketing choices
       - [Chobble Tickets features](/features/)
   - type: cta
     button:

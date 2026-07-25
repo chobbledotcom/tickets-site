@@ -7,6 +7,28 @@ permalink: /compared-to/resident-advisor/
 eleventyNavigation:
   key: vs Resident Advisor
   parent: Compared To
+provider_facts:
+  name: Resident Advisor
+  kind: ticketing
+  calculator_keys:
+    - resident_advisor
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - certified-b-corporation
+    - self-described-independent
+  per_ticket_platform_fee: amount-not-published
+  managed_pricing: per-sale
+  white_label: not-documented
+  custom_domain: not-documented
+  public_website: marketplace-pages
+  self_hosting: not-offered
+  source_code: proprietary
+  event_marketplace: built-in
+  attendee_cross_marketing: provider-content-and-events
+  notes:
+    ethical_basis: "Resident Advisor describes itself as independent. Companies House lists two founders as its only active people with significant control, but this does not establish complete ownership."
+    per_ticket_platform_fee: "Resident Advisor says buyers pay a service fee on each ticket but does not publish a general rate schedule."
+    managed_pricing: "Resident Advisor says promoters pay no fee because buyers cover the per-ticket service fee."
 blocks:
   - type: hero
     class: gradient
@@ -21,8 +43,8 @@ blocks:
       [Resident Advisor](https://ra.co) (RA) adds a service fee on top of
       every ticket sold. The buyer pays this fee, not the promoter, so RA
       says it is free for promoters to sell tickets. But the fee still makes
-      tickets more expensive for fans. RA doesn't publish exact fee rates
-      and negotiates with promoters individually.
+      tickets more expensive for fans. RA does not publish a general fee
+      schedule.
 
       Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
       groups) with [no per-ticket platform fees](/features/no-per-ticket-fees/). You also pay Stripe, Square or SumUp
@@ -194,10 +216,13 @@ blocks:
       website about dance music. It grew into a big global platform and is
       now based in London, with offices in several cities around the world
       including Berlin, New York, Los Angeles, and Tokyo. The company is
-      independently owned by its founders, with no outside investors,
-      and is a
+      described by RA as independent and is a
       [certified B Corporation](https://www.bcorporation.net/en-us/find-a-b-corp/company/resident-advisor/),
       which means it meets certain social and environmental standards.
+
+      Companies House lists founders Nicholas Sabine and Paul Clement as its
+      only active people with significant control. This does not establish
+      that they own every share or that there are no minority investors.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
@@ -209,15 +234,17 @@ blocks:
     content: |
       ## Pricing sources
 
-      Resident Advisor does not publicly list exact fee rates. They are
-      negotiated with promoters. Fees may change, so check the links below
-      for the latest information.
+      Resident Advisor says promoters pay no ticketing fee because buyers
+      cover a service fee on each ticket. It does not publish a general rate
+      schedule. Fees may change, so check the links below for current details.
 
       - [RA Ticket Fees](https://support.ra.co/article/177-service-fees) - RA's support article on service fees
       - [RA Tickets](https://pro.ra.co/ra-tickets) - RA's ticketing features for promoters
       - [RA Pro for Promoters](https://pro.ra.co/promoter) - promoter tools, analytics, and marketing
       - [RA Pro](https://pro.ra.co/) - information for promoters selling tickets on RA
       - [RA About](https://ra.co/about) - company information
+      - [Resident Advisor on Companies House](https://find-and-update.company-information.service.gov.uk/company/05871093/persons-with-significant-control) - people with significant control
+      - [RA privacy policy](https://ra.co/privacy) - marketing and data use
       - [Chobble Tickets features](/features/)
   - type: cta
     button:

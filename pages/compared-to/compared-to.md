@@ -12,7 +12,7 @@ blocks:
     content: |-
       # How Chobble Tickets compares
 
-      Every ticketing option has trade-offs. Each page below compares Chobble Tickets to one platform on pricing, features and data handling. The [pricing](/pricing/), [hosting](/hosting/) and [open source](/features/open-source/) pages describe Chobble Tickets without a competitor comparison.
+      Every ticketing option has trade-offs. Each page below compares Chobble Tickets to one platform on pricing, features and data handling. The [ticketing guides](/guide/choosing-a-ticket-platform/), [pricing](/pricing/), [hosting](/hosting/) and [open source](/features/open-source/) pages group providers by topic or describe Chobble Tickets without a competitor comparison.
   - type: features
     intro_content: |
       ## Alternatives

@@ -9,6 +9,32 @@ permalink: /compared-to/hi-events/
 eleventyNavigation:
   key: vs Hi.Events
   parent: Compared To
+provider_facts:
+  name: Hi.Events
+  kind: ticketing
+  calculator_keys:
+    - hi_events
+    - hi_events_selfhosted
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - independently-maintained
+  per_ticket_platform_fee: percentage-plus-fixed
+  managed_pricing: per-sale
+  white_label: paid-add-on
+  custom_domain: self-hosted
+  public_website: hosted-event-pages
+  self_hosting: same-product-with-conditions
+  source_code: open-source-with-additional-terms
+  event_marketplace: not-documented
+  attendee_cross_marketing: not-documented
+  notes:
+    ethical_basis: "Hi.Events is operated by Hi.Events Ltd. Dave Earley accounted for most repository contributions when checked on 25 July 2026; public sources reviewed did not establish its funding status."
+    per_ticket_platform_fee: "The cloud ticket fee is separate from Stripe payment processing."
+    managed_pricing: "Hi.Events Cloud charges a percentage and fixed amount for each paid ticket."
+    white_label: "Free self-hosting requires visible attribution; a commercial licence removes it."
+    custom_domain: "A self-hosted deployment can use its configured domain; hosted custom-domain support was not established."
+    public_website: "Hi.Events supplies a branded organiser homepage and event pages."
+    source_code: "The self-hosted code uses AGPL-3.0 with additional attribution terms."
 blocks:
   - type: hero
     class: gradient
@@ -20,9 +46,9 @@ blocks:
     content: |
       ## Two open source options
 
-      [Hi.Events](https://hi.events) is another open source ticketing
-      platform, with 3,600+ GitHub stars, 35+ contributors, and a React and
-      Laravel stack.
+      [Hi.Events](https://hi.events) is another source-published ticketing
+      platform, built with React and Laravel. Free self-hosting uses AGPL-3.0
+      with additional attribution terms.
 
       This page compares the two platforms to help you decide which fits your
       needs.
@@ -258,20 +284,16 @@ blocks:
     content: |
       ## Who builds Hi.Events?
 
-      Hi.Events is created and maintained by Dave Earley, a developer based
-      in Dublin, Ireland. He describes it as a "passion project" built
-      primarily during evenings over approximately one year. There is no
-      known company entity behind the project, and it has no venture
-      funding. Earley previously created Attendize, another open source
-      ticketing platform, which he sold in 2018 (the new owners
-      subsequently abandoned it). Hi.Events is a ground-up rewrite, not a
-      fork.
+      Hi.Events is operated by Hi.Events Ltd, an Irish company with company
+      number 795885. Dave Earley is the main repository contributor and
+      previously created Attendize. Public sources checked on 25 July 2026 did
+      not establish the company's funding status.
 
-      The project has 3,600+ GitHub stars and 41 contributors, but Earley
-      is overwhelmingly the primary contributor. It is licensed under
-      AGPL-3.0 with an additional attribution requirement (a "Powered by
-      Hi.Events" link must remain visible unless you buy a $499+ commercial
-      licence).
+      Free self-hosting uses AGPL-3.0 with an additional attribution
+      requirement. A "Powered by Hi.Events" link must remain visible unless
+      the operator buys a commercial licence. The $499 Single Domain licence
+      covers the licensee's own events; providing ticketing to other organisers
+      requires a different licence.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
@@ -285,15 +307,15 @@ blocks:
     content: |
       ## Pricing sources
 
-      The pricing information on this page was verified in March 2026. Fees
+      The pricing and company information was checked again on 25 July 2026. Fees
       may change. Check the links below for the latest figures.
 
       - [Hi.Events pricing](https://hi.events/pricing) - 0.75% + 40¢ per ticket (cloud)
       - [Hi.Events open source / self-hosted](https://hi.events/open-source-event-ticketing) - $499 single domain commercial licence
       - [Hi.Events Single Domain licence terms](https://hi.events/single-domain-licence)
       - [Hi.Events on GitHub](https://github.com/HiEventsDev/Hi.Events)
+      - [Hi.Events terms](https://hi.events/terms-of-service) - Hi.Events Ltd company details
       - [Chobble Tickets features](/features/)
-      - [Hi.Events on Hacker News](https://news.ycombinator.com/item?id=40897962) - Show HN launch discussion
   - type: cta
     button:
       text: Get Started

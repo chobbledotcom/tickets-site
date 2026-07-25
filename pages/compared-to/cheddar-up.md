@@ -7,6 +7,29 @@ permalink: /compared-to/cheddar-up/
 eleventyNavigation:
   key: vs Cheddar Up
   parent: Compared To
+provider_facts:
+  name: Cheddar Up
+  kind: ticketing
+  calculator_keys:
+    - cheddar_up
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - not-documented
+  per_ticket_platform_fee: per-transaction-percentage-plus-fixed
+  managed_pricing: per-sale
+  white_label: higher-tier
+  custom_domain: not-offered
+  public_website: organiser-microsite
+  self_hosting: not-offered
+  source_code: proprietary
+  event_marketplace: not-documented
+  attendee_cross_marketing: not-documented
+  notes:
+    per_ticket_platform_fee: "The convenience fee is per transaction and includes Stripe payment processing."
+    managed_pricing: "QR-code ticketing requires the Team subscription, and a convenience fee also applies to each transaction."
+    white_label: "The Team plan includes a Brand Kit; complete removal of provider branding was not established."
+    custom_domain: "Website buttons lead to Cheddar Up hosted collection pages."
+    public_website: "The Team plan supplies a branded Group Page rather than a full content website."
 blocks:
   - type: hero
     class: gradient

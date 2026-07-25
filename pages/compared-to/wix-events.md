@@ -7,6 +7,28 @@ permalink: /compared-to/wix-events/
 eleventyNavigation:
   key: vs Wix Events
   parent: Compared To
+provider_facts:
+  name: Wix Events
+  kind: ticketing
+  calculator_keys:
+    - wix_events
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - not-documented
+  per_ticket_platform_fee: percentage
+  managed_pricing: per-sale
+  white_label: not-documented
+  custom_domain: included
+  public_website: platform-full
+  self_hosting: not-offered
+  source_code: proprietary
+  event_marketplace: not-documented
+  attendee_cross_marketing: not-documented
+  notes:
+    per_ticket_platform_fee: "The ticket service fee is separate from Wix Payments processing."
+    managed_pricing: "Ticket sales require a paid Wix Business and eCommerce website plan, and Wix also charges a percentage on each paid ticket."
+    custom_domain: "The domain belongs to the required Wix website rather than a standalone ticketing product."
+    public_website: "Wix Events runs inside the full Wix website builder."
 blocks:
   - type: hero
     class: gradient
@@ -126,7 +148,8 @@ blocks:
         natively, without third-party apps
       - **[Embeddable ticket widget](/features/embeddable-widget/)** - drop
         an iframe snippet into any external website to show your events
-        inline (Wix Events only works within Wix sites)
+        inline. Wix Events is documented as an app for Wix websites; the
+        reviewed Wix material does not describe an external inline widget
       - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
         subscribers get automatic calendar updates
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate your

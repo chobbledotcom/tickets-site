@@ -7,6 +7,30 @@ permalink: /compared-to/eventim-light/
 eleventyNavigation:
   key: vs EVENTIM.Light
   parent: Compared To
+provider_facts:
+  name: EVENTIM.Light
+  kind: ticketing
+  calculator_keys:
+    - eventim_light
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - not-documented
+  per_ticket_platform_fee: percentage
+  managed_pricing: per-sale
+  white_label: partial
+  custom_domain: not-documented
+  public_website: hosted-event-pages
+  self_hosting: not-offered
+  source_code: proprietary
+  event_marketplace: optional-network
+  attendee_cross_marketing: provider-events
+  notes:
+    per_ticket_platform_fee: "The 8% ticket fee includes payment processing."
+    managed_pricing: "EVENTIM.Light charges for each paid ticket and has no recurring subscription."
+    white_label: "Ticket shops support organiser branding but remain on the EVENTIM.Light service."
+    custom_domain: "The reviewed public documentation describes hosted ticket shops but does not establish organiser-owned domain support."
+    event_marketplace: "Organisers can opt into distribution through the EVENTIM network."
+    attendee_cross_marketing: "The UK terms permit personalised mailings about identical or similar events."
 blocks:
   - type: hero
     class: gradient
@@ -169,8 +193,8 @@ blocks:
       - **[Public-facing website and CMS](/features/your-public-website/)**
         a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel in Markdown with
-        [custom CSS](/features/customising-your-site/). EVENTIM.Light
-        provides event pages on the eventim-light.com domain
+        [custom CSS](/features/customising-your-site/). EVENTIM.Light provides
+        hosted ticket shops, direct links and iframe embeds
       - **Automatic refunds** - process refunds directly from the admin panel
       - **[CSV export](/features/csv-export/)** - download attendee lists for
         your own records

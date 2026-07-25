@@ -7,6 +7,30 @@ permalink: /compared-to/tickts/
 eleventyNavigation:
   key: vs tickts
   parent: Compared To
+provider_facts:
+  name: tickts
+  kind: ticketing
+  calculator_keys:
+    - tickts_starter
+    - tickts_pro
+  last_reviewed: "2026-07-25"
+  ethical_basis:
+    - not-documented
+  per_ticket_platform_fee: none
+  managed_pricing: feature-tiered-volume-independent
+  white_label: higher-tier
+  custom_domain: higher-tier
+  public_website: hosted-event-pages
+  self_hosting: not-offered
+  source_code: proprietary
+  event_marketplace: built-in
+  attendee_cross_marketing: not-documented
+  notes:
+    per_ticket_platform_fee: "Stripe payment processing remains separate on every plan."
+    white_label: "White-label subdomains and removal of tickts branding require the Pro plan."
+    custom_domain: "The pricing page lists a tickts.co.uk subdomain, while the white-label feature page says Pro users can point an organiser-owned domain by CNAME. Confirm availability before purchase."
+    public_website: "The Pro plan supplies a branded event-listing storefront."
+    attendee_cross_marketing: "Marketplace and social promotion do not establish use of attendee contact details for other organisers' events."
 blocks:
   - type: hero
     class: gradient
@@ -30,9 +54,9 @@ blocks:
       Chobble Tickets charges a flat £50/year or £5/month (£25/year for
       charities, community groups, and schools) with
       [no per-ticket platform fees](/features/no-per-ticket-fees/) and no tier
-      upgrades. Every feature is included in the base plan, including the
-      ones tickts gates behind Growth or Pro: API access, season passes,
-      waitlists, and custom domains.
+      upgrades. API access and custom domains are included without a higher
+      Chobble plan. Chobble Tickets does not currently provide tickts features
+      such as season passes or waitlists.
 
       For an organiser needing only what tickts offers on Starter, tickts
       is free. For an organiser needing features behind paid tiers, the
@@ -138,9 +162,9 @@ blocks:
         tickts is closed source
       - **Self-hosting option** - run the platform on selected infrastructure
         without a Chobble software licence fee. tickts is hosted-only
-      - **Flat pricing with all features included** - £50/year or
-        £5/month covers everything, with no tier upgrades for waitlists,
-        season passes, API access, or white-label
+      - **Flat pricing with all Chobble features included** - £50/year or
+        £5/month covers every current Chobble feature, with no higher tier for
+        API access, custom domains or white-label pages
       - **[Public JSON API](/features/public-api/) on every plan** - read
         listings and availability, no API key required. tickts gates API
         access behind Pro
@@ -282,6 +306,7 @@ blocks:
       - [tickts pricing](https://tickts.co.uk/pricing) - Starter free, Growth £29/month or £290/year, Pro £69/month or £690/year
       - [tickts for organisers](https://tickts.co.uk/for-organisers) - feature breakdown and fee comparisons
       - [tickts features](https://tickts.co.uk/features) - full feature list
+      - [tickts white-label feature](https://tickts.co.uk/features/white-label) - Pro branding, storefront and domain options
       - [tickts how we make money](https://tickts.co.uk/how-we-make-money) - revenue model details including planned sponsorship and ad placement
       - [tickts about](https://tickts.co.uk/about) - UK-based and Ireland (tickts.ie) information
       - [TICKTS LTD on Companies House](https://find-and-update.company-information.service.gov.uk/company/17029682) - company number 17029682
