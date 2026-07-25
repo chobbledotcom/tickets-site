@@ -32,8 +32,12 @@ jobs:
       - name: Download the latest app evidence
         id: evidence
         env:
-          GH_TOKEN: ${{ secrets.TICKETS_EVIDENCE_TOKEN || github.token }}
+          GH_TOKEN: ${{ secrets.TICKETS_EVIDENCE_TOKEN }}
         run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "Add TICKETS_EVIDENCE_TOKEN with Actions read access to chobbledotcom/tickets." >&2
+            exit 1
+          fi
           run_id=$(gh api "repos/chobbledotcom/tickets/actions/workflows/spec-evidence.yml/runs?branch=main&status=success&per_page=1" --jq '.workflow_runs[0].id // empty')
           if [ -z "$run_id" ]; then
             echo "No successful evidence workflow run was found." >&2
