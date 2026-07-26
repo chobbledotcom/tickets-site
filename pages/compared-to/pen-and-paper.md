@@ -1,6 +1,6 @@
 ---
-title: Chobble Tickets vs Pen and Paper
-meta_title: Digital Alternative to Paper Ticketing | Chobble Tickets
+title: Paper Ticket Alternative
+meta_title: Digital Alternative to Paper Tickets | Chobble Tickets
 meta_description: Chobble Tickets is a digital alternative to pen-and-paper ticketing, with payments, capacity management, QR code check-in, and encrypted attendee data.
 permalink: /compared-to/pen-and-paper/
 eleventyNavigation:
@@ -15,7 +15,20 @@ blocks:
       A clipboard and a guest list work for small gatherings. This page covers what dedicated ticketing software adds.
   - type: markdown
     content: |
-      **Both approaches share some things:**
+      ## Digital alternative to paper tickets
+
+      Paper tickets and a cash box work, and for a village hall raffle they
+      may still be the right answer. They stop working when an event sells
+      out twice over, when someone loses the list, or when the money and the
+      names live in different places.
+
+      Chobble Tickets takes payment before the event, emails each attendee a
+      ticket with a QR code, and stops selling when the event is full. It
+      costs £50/year or £5/month, or £25/year for charities, community groups
+      and schools on the annual plan.
+  - type: markdown
+    content: |
+      ### Both approaches share some things
 
       - Keeping a list of who's coming
       - Checking people in at the door
@@ -23,14 +36,16 @@ blocks:
         paper works offline; Chobble Tickets check-in requires a connection to
         the ticketing site)
       - No mandatory attendee account required
-
+  - type: markdown
+    content: |
       ## When pen and paper works
 
       For a small gathering where you know everyone, pen and paper is fine.
       There's no learning curve, no setup time, and no annual fee, so if
       you're running a dinner party for 20 people you don't need ticketing
       software.
-
+  - type: markdown
+    content: |
       ## When software helps
 
       Pen and paper starts to struggle when:
@@ -47,7 +62,8 @@ blocks:
         refund gets messy on paper
       - **Multiple people are managing the event** - Shared spreadsheets get out
         of sync
-
+  - type: markdown
+    content: |
       ## What Chobble Tickets adds over pen and paper
 
       Chobble Tickets supports free events without payment setup, so even if
@@ -90,5 +106,5 @@ blocks:
       ## Get started when you're ready
 
       Start with managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Digital Alternative to Paper Ticketing | Chobble Tickets
+name: Digital Alternative to Paper Tickets | Chobble Tickets
 ---

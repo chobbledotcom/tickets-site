@@ -1,7 +1,7 @@
 ---
 competitor_key: cheddar_up
-title: Chobble Tickets vs Cheddar Up
-meta_title: Chobble Tickets vs Cheddar Up | Fees and Ticketing
+title: Cheddar Up Alternative
+meta_title: Open Source Cheddar Up Alternative | Chobble Tickets
 meta_description: Compare Cheddar Up and Chobble Tickets on subscription and transaction fees, payment collection, QR ticketing, integrations and attendee data.
 permalink: /compared-to/cheddar-up/
 eleventyNavigation:
@@ -39,6 +39,18 @@ blocks:
       Cheddar Up is a payment collection platform popular with PTAs, nonprofits, and community groups in the US. Here is how Chobble Tickets compares.
   - type: markdown
     content: |
+      ## Open source Cheddar Up alternative
+
+      Chobble Tickets source code is published under the AGPL-3.0-only
+      licence, so anyone can read it, fork it, or run their own copy.
+      Cheddar Up does not publish its source code.
+
+      Cheddar Up puts ticketing with QR check-in on its Team plan at
+      $420/year, and adds a per-transaction fee of 3.59% + $0.59. Chobble
+      Tickets includes check-in scanning at £50/year or £5/month and takes no
+      per-ticket fee.
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       [Cheddar Up](https://www.cheddarup.com) has three plans: Basic
@@ -66,8 +78,9 @@ blocks:
       added ticketing in 2023. Chobble Tickets is a purpose-built
       ticketing platform. Both serve community groups but take different
       approaches. Here is the breakdown:
-
-      **Both platforms share some features:**
+  - type: markdown
+    content: |
+      ### Both platforms share some features
 
       - Online ticket sales with payment processing via Stripe
       - QR code scanning for check-in at the door
@@ -79,8 +92,9 @@ blocks:
       - CSV data export
       - Waitlists for sold-out events
       - Apple Pay and Google Pay at checkout (via Stripe)
-
-      **Cheddar Up has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### Cheddar Up has features Chobble Tickets doesn't
 
       - **In-person point-of-sale** - sell tickets, merchandise, and
         concessions at the door with a Bluetooth card reader ($79) or Tap
@@ -118,8 +132,9 @@ blocks:
         Mailchimp, QuickBooks, Xero, HubSpot, WordPress, and more
       - **Mobile app** - native iOS and Android app for managing
         collections, scanning tickets, and taking payments
-
-      **Chobble Tickets has features Cheddar Up doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Cheddar Up doesn't
 
       - **[Purchasable events](/features/purchasable-events/)** - collect
         donations, sell raffle tickets, take membership dues, and run any
@@ -178,7 +193,8 @@ blocks:
         with no cross-promotion of competing events
       - **Community Interest Company** - run by a CIC, with profits
         reinvested rather than distributed to shareholders
-
+  - type: markdown
+    content: |
       ## Data ownership
 
       Cheddar Up is a proprietary, closed-source platform. Your event
@@ -192,7 +208,8 @@ blocks:
       under your control. The entire platform is open source, so you can
       self-host it and never depend on a third party. A full REST API and
       webhooks give you programmatic access to all your data.
-
+  - type: markdown
+    content: |
       ## When Cheddar Up might be the better choice
 
       - You want in-person point-of-sale with a card reader for door
@@ -202,7 +219,8 @@ blocks:
       - You need recurring payment collection for tuition or membership
         dues
       - You need a native mobile app for on-site management
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You need event ticketing *and* general payment collection (donations,
@@ -274,5 +292,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and encrypted attendee data.
-name: Chobble Tickets vs Cheddar Up | Fees and Ticketing
+name: Open Source Cheddar Up Alternative | Chobble Tickets
 ---

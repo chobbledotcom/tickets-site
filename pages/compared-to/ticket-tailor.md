@@ -1,7 +1,7 @@
 ---
 competitor_key: ticket_tailor
-title: Chobble Tickets vs Ticket Tailor
-meta_title: Open Source Alternative to Ticket Tailor | Chobble Tickets
+title: Ticket Tailor Alternative
+meta_title: Open Source Ticket Tailor Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Ticket Tailor on organiser fees, payment options, event discovery, ticketing features, attendee data and source licensing.
 permalink: /compared-to/ticket-tailor/
 eleventyNavigation:
@@ -40,6 +40,19 @@ blocks:
       Ticket Tailor is an independently owned ticketing platform from London, running since 2010. This page compares it to Chobble Tickets.
   - type: markdown
     content: |
+      ## Open source Ticket Tailor alternative
+
+      Chobble Tickets source code is published under the AGPL-3.0-only
+      licence, so anyone can read it, fork it, or run their own copy. Ticket
+      Tailor does not publish its source code.
+
+      Ticket Tailor charges 60p per paid ticket pay-as-you-go, dropping to
+      around 22p per ticket on the largest credit bundles, with 50% off for
+      registered charities. Chobble Tickets charges £50/year or £5/month
+      whatever the volume, so the two cross over at a few hundred tickets a
+      year.
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       [Ticket Tailor](https://www.tickettailor.com) charges a flat fee per
@@ -72,8 +85,9 @@ blocks:
 
       Ticket Tailor has been running since 2010 and has a broader feature
       set than Chobble Tickets in several areas. Here's the breakdown:
-
-      **Both platforms share some features:**
+  - type: markdown
+    content: |
+      ### Both platforms share some features
 
       - Online ticket sales with payment processing via Stripe, Square, or SumUp
       - Apple Pay and Google Pay at checkout (via Stripe)
@@ -93,8 +107,9 @@ blocks:
       - Apple Wallet passes for tickets
       - Recurring events with per-date capacity
       - Custom domain support
-
-      **Ticket Tailor has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### Ticket Tailor has features Chobble Tickets doesn't
 
       - **Reserved seating** - drag-and-drop seating chart designer where
         you upload a venue floor plan and trace seats over it, so attendees
@@ -126,8 +141,9 @@ blocks:
         are busiest at a glance
       - **B Corp certification** - Ticket Tailor is a certified B
         Corporation
-
-      **Chobble Tickets has features Ticket Tailor doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Ticket Tailor doesn't
 
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         create promo codes, discount codes, surcharges, and opt-in add-ons
@@ -178,7 +194,8 @@ blocks:
         checkout widgets
       - **Community Interest Company** - run by a CIC, a UK legal
         structure that locks the company's assets for community benefit
-
+  - type: markdown
+    content: |
       ## Data ownership
 
       Ticket Tailor is a proprietary platform. Your event data lives on
@@ -194,7 +211,8 @@ blocks:
       so you can self-host it and never depend on a third party. If
       Chobble Tickets stopped operating tomorrow, you could run the same
       code on your own server.
-
+  - type: markdown
+    content: |
       ## When Ticket Tailor might be the better choice
 
       - You need reserved seating with a visual seat picker
@@ -208,7 +226,8 @@ blocks:
       - You prefer paying a flat fee per ticket over a recurring fee, and
         sell fewer than about 84 paid tickets a year
       - You want a platform that has been running since 2010
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You already have your own audience and don't need a discovery
@@ -275,5 +294,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Open Source Alternative to Ticket Tailor | Chobble Tickets
+name: Open Source Ticket Tailor Alternative | Chobble Tickets
 ---

@@ -1,7 +1,7 @@
 ---
 competitor_key: tito
-title: Chobble Tickets vs Tito
-meta_title: Open Source Alternative to Tito | Chobble Tickets
+title: Tito Alternative
+meta_title: Open Source Tito Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Tito on ticket fees, payment providers, event features, attendee data, integrations and source licensing.
 permalink: /compared-to/tito/
 eleventyNavigation:
@@ -33,6 +33,18 @@ blocks:
       Tito is a well-regarded, developer-friendly ticketing platform from Ireland, so here's how a small, open source alternative compares.
   - type: markdown
     content: |
+      ## Open source Tito alternative
+
+      Chobble Tickets source code is published under the AGPL-3.0-only
+      licence, so anyone can read it, fork it, or run their own copy. Tito
+      does not publish its source code.
+
+      Tito charges 3% per paid ticket, capped at €25, with reduced rates for
+      non-profits and charities. Chobble Tickets charges £50/year or
+      £5/month, so a £15 ticket costs 45p in Tito fees and nothing per ticket
+      with Chobble Tickets.
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       [Tito](https://ti.to) charges 3% per paid ticket, capped at €25 per
@@ -59,8 +71,9 @@ blocks:
       Tito is a polished, developer-friendly platform with a strong reputation
       in the tech conference world. Both platforms take different approaches.
       Here's the breakdown:
-
-      **Both platforms share some features:**
+  - type: markdown
+    content: |
+      ### Both platforms share some features
 
       - Online ticket sales with payment processing via Stripe
       - QR code scanning for check-in at the door
@@ -76,8 +89,9 @@ blocks:
       - Team management with role-based access
       - CSV data export
       - Supports Stripe and PayPal payment gateways
-
-      **Tito has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### Tito has features Chobble Tickets doesn't
 
       - **Established track record** - Tito has processed [over $1 billion in
         ticket sales](https://ti.to/home) since 2012, trusted by events like
@@ -105,8 +119,9 @@ blocks:
         exposed for custom CSS styling
       - **Per-ticket fee cap** - Tito caps its fee at €25 per ticket,
         benefiting high-value tickets (above ~€833)
-
-      **Chobble Tickets has features Tito doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Tito doesn't
 
       - **[Password-derived encryption](/features/encrypted/)** -
         attendee data is encrypted with a key derived from your admin
@@ -156,7 +171,8 @@ blocks:
         with no cross-promotion of competing events
       - **Community Interest Company** - run by a CIC, with profits
         reinvested rather than distributed to shareholders
-
+  - type: markdown
+    content: |
       ## Data ownership
 
       Tito is a proprietary platform. Your event data lives on their
@@ -167,7 +183,8 @@ blocks:
       With Chobble Tickets, attendee data is encrypted and stays under your
       control. The entire platform is open source, so you can self-host it
       and never depend on a third party.
-
+  - type: markdown
+    content: |
       ## When Tito might be the better choice
 
       - You're running tech conferences and want a platform with deep roots
@@ -180,7 +197,8 @@ blocks:
       - You want native Google Analytics integration
       - You prefer paying per ticket over a flat fee and sell fewer than
         ~30 tickets a year
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You already have your own audience and don't need a discovery platform
@@ -246,5 +264,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Open Source Alternative to Tito | Chobble Tickets
+name: Open Source Tito Alternative | Chobble Tickets
 ---

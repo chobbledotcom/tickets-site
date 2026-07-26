@@ -1,7 +1,7 @@
 ---
 competitor_key: fatsoma
-title: Chobble Tickets vs Fatsoma
-meta_title: Open Source Alternative to Fatsoma | Chobble Tickets
+title: Fatsoma Alternative
+meta_title: Open Source Fatsoma Alternative | Chobble Tickets
 meta_description: Compare Fatsoma and Chobble Tickets on buyer fees, event discovery, follower marketing, payouts, ticketing features and self-hosting.
 permalink: /compared-to/fatsoma/
 eleventyNavigation:
@@ -33,6 +33,18 @@ blocks:
       Fatsoma is popular with student events and nightlife promoters. Here's how a small, open source alternative compares on pricing, features, and data ownership.
   - type: markdown
     content: |
+      ## Open source Fatsoma alternative
+
+      Chobble Tickets source code is published under the AGPL-3.0-only
+      licence, so anyone can read it, fork it, or run their own copy. Fatsoma
+      does not publish its source code.
+
+      Fatsoma charges 10% per ticket with a £1 minimum, plus Stripe
+      processing. Chobble Tickets charges £50/year or £5/month, so an
+      organiser selling more than about 50 tickets at £15 in a year pays
+      less.
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       [Fatsoma](https://ticketing.fatsoma.com) charges 10% per ticket with a
@@ -62,7 +74,8 @@ blocks:
       encryption and stays under your control. There's no platform trying to
       cross-promote other events to your audience, and no marketing emails
       sent to your attendees.
-
+  - type: markdown
+    content: |
       ## Payouts
 
       Fatsoma pays out after your event ends, typically 2 or more days
@@ -72,10 +85,12 @@ blocks:
       Chobble Tickets uses Stripe, Square, or SumUp directly, so payments go
       straight to your account with standard processing times. You're always
       in control of your own payment processor account.
-
+  - type: markdown
+    content: |
       ## Feature comparison
-
-      **Both sites share some features:**
+  - type: markdown
+    content: |
+      ### Both sites share some features
 
       - Online ticket sales with Stripe payment processing
       - Apple Pay and Google Pay at checkout (via Stripe)
@@ -87,8 +102,9 @@ blocks:
       - Custom questions at checkout
 
       Fatsoma has some features Chobble Tickets doesn't, and vice versa:
-
-      **Fatsoma has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### Fatsoma has features Chobble Tickets doesn't
 
       - **Rep/affiliate network** - a built-in system where promoters sell
         tickets on your behalf and earn configurable commission per ticket
@@ -126,8 +142,9 @@ blocks:
         your events
       - **Fast 3-tap checkout** - checkout with saved card details via the
         Fatsoma app
-
-      **Chobble Tickets has features Fatsoma doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Fatsoma doesn't
 
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
@@ -176,7 +193,8 @@ blocks:
       - **[Embeddable widget](/features/embeddable-widget/)** - drop an
         iframe into your existing website
       - **No marketing emails to attendees** - your audience stays yours
-
+  - type: markdown
+    content: |
       ## When Fatsoma might be better
 
       - You're running student events or university nightlife and want
@@ -186,7 +204,8 @@ blocks:
         students
       - You have very low volume (under ~50 tickets/year) and prefer paying
         per ticket over a flat fee
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets might be better
 
       - You want predictable, flat-rate pricing with no per-ticket platform fees
@@ -238,5 +257,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Open Source Alternative to Fatsoma | Chobble Tickets
+name: Open Source Fatsoma Alternative | Chobble Tickets
 ---

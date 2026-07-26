@@ -1,7 +1,7 @@
 ---
 competitor_key: resova
-title: Chobble Tickets vs Resova
-meta_title: Open Source Alternative to Resova | Chobble Tickets
+title: Resova Alternative
+meta_title: Open Source Resova Alternative | Chobble Tickets
 meta_description: Chobble Tickets is an alternative to Resova, with flat pricing, no monthly booking limits, encrypted attendee data, and open source code.
 permalink: /compared-to/resova/
 eleventyNavigation:
@@ -36,6 +36,18 @@ blocks:
       Resova is an activity booking platform built for escape rooms, tours, and experiences. Here is how a general-purpose, open source ticketing platform compares.
   - type: markdown
     content: |
+      ## Open source Resova alternative
+
+      Chobble Tickets source code is published under the AGPL-3.0-only
+      licence, so anyone can read it, fork it, or run their own copy. Resova
+      does not publish its source code.
+
+      Resova's Pro plan is $72/month, about £685 a year, and caps you at 300
+      bookings a month, with 16p per booking above that. Chobble Tickets
+      charges £50/year or £5/month with no booking cap and no per-booking
+      fee.
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       [Resova](https://get.resova.com/pricing/) charges a flat monthly
@@ -66,8 +78,9 @@ blocks:
       with equipment to track, a museum with timed-entry tickets. Chobble
       Tickets is built for one-off and recurring events where the focus is
       the event itself, not the resource scheduling behind it.
-
-      **Both platforms share some features:**
+  - type: markdown
+    content: |
+      ### Both platforms share some features
 
       - Online booking with payment processing
       - Apple Pay and Google Pay at checkout (via Stripe)
@@ -78,8 +91,9 @@ blocks:
       - Recurring events and timed slots
       - Custom questions at checkout
       - Reporting on bookings and revenue
-
-      **Resova has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### Resova has features Chobble Tickets doesn't
 
       - **Resource scheduling** - assign bookings to specific rooms,
         instructors, boats, or pieces of equipment, and prevent
@@ -110,8 +124,9 @@ blocks:
       - **Multi-currency subscriptions** - pay for your Resova plan in
         US dollars, Canadian dollars, euros, pounds, or Australian
         dollars
-
-      **Chobble Tickets has features Resova doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Resova doesn't
 
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
@@ -183,7 +198,8 @@ blocks:
       user, including an optional recovery owner if enabled. The complete
       product source is published under AGPL-3.0-only and can run on
       independently selected infrastructure.
-
+  - type: markdown
+    content: |
       ## When Resova might be the better choice
 
       - You run an escape room, activity, tour, or timed-entry experience
@@ -196,7 +212,8 @@ blocks:
       - You are running multiple venues and want unified reporting
       - You sell well over 600 bookings a month and still want a single
         flat plan
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You run events, gigs, conferences, classes, or one-off bookings
@@ -251,5 +268,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and no booking limits.
-name: Open Source Alternative to Resova | Chobble Tickets
+name: Open Source Resova Alternative | Chobble Tickets
 ---

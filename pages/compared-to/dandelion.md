@@ -1,7 +1,7 @@
 ---
 competitor_key: dandelion
-title: Chobble Tickets vs Dandelion
-meta_title: Dandelion Events Alternative | Chobble Tickets
+title: Dandelion Alternative
+meta_title: Flat Fee Dandelion Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Dandelion on fees, community tools, deposits, logistics, accounting, data handling, source licences, and self-hosting.
 permalink: /compared-to/dandelion/
 eleventyNavigation:
@@ -41,6 +41,20 @@ blocks:
       Dandelion is a ticketing and community platform provided by Symbiota, which describes itself as a not-for-profit worker co-operative. Dandelion does not charge an annual subscription or a mandatory fee on tickets sold through the platform. It also provides a public event marketplace.
   - type: markdown
     content: |
+      ## Flat fee Dandelion alternative
+
+      Both platforms are open source and both are run by organisations that
+      cannot pay out profits to shareholders. The difference is how they are
+      funded. Dandelion asks organisers for a voluntary contribution of
+      around 1% of ticket sales and asks buyers for a donation at checkout.
+      Chobble Tickets charges a fixed £50/year or £5/month, or £25/year for
+      charities, community groups, artists and musicians on the annual plan.
+
+      Dandelion also runs a public marketplace, where booking records feed
+      shared attendee profiles and event recommendations. Chobble Tickets has
+      no marketplace and does not build profiles across organisers.
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       [Dandelion](https://dandelion.events/) has no annual subscription or
@@ -74,8 +88,9 @@ blocks:
   - type: markdown
     content: |
       ## Feature comparison
-
-      **Both platforms offer:**
+  - type: markdown
+    content: |
+      ### Both platforms offer
 
       - Free, fixed-price, and pay-what-you-want tickets
       - Several ticket prices or tiers with capacity limits
@@ -87,8 +102,9 @@ blocks:
       - Sales, attendance, and CSV reports
       - Organiser-issued refunds
       - Bulk email to event attendees with a preview before sending
-
-      **Dandelion has features Chobble Tickets does not:**
+  - type: markdown
+    content: |
+      ### Dandelion has features Chobble Tickets does not
 
       - **Public event marketplace** - visitors can search by date, keyword,
         location, tag, or map. Signed-in users also receive event and people
@@ -118,8 +134,9 @@ blocks:
       - **Organisation growth tools** - affiliate links can give attendees
         credit towards future tickets. Organisations can also import events
         from supported calendars while bookings stay on the original platform
-
-      **Chobble Tickets has different booking and operations tools:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has different booking and operations tools
 
       - **[Deposits and balance payments](/features/deposits-and-balance-payments/)** -
         take a deposit or reserve a place for £0, then send the customer a link
@@ -144,8 +161,9 @@ blocks:
       - **[Content-only editor accounts](/features/editors/)** - editors can
         manage listings and site content without access to attendee details.
         Delivery staff can be limited to their assigned run sheet
-
-      **Chobble Tickets also has these platform features:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets also has these platform features
 
       - **[Encrypted attendee details](/features/encrypted/)** - names, contact
         details, ticket links, payment references, and written answers are
@@ -296,5 +314,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or use the self-hosted software with no Chobble charge.
-name: Dandelion Events Alternative | Chobble Tickets
+name: Flat Fee Dandelion Alternative | Chobble Tickets
 ---

@@ -1,7 +1,7 @@
 ---
 competitor_key: signupgenius
-title: Chobble Tickets vs SignUpGenius
-meta_title: Open Source Alternative to SignUpGenius | Chobble Tickets
+title: SignUpGenius Alternative
+meta_title: Ad Free SignUpGenius Alternative | Chobble Tickets
 meta_description: Chobble Tickets is a ticketing alternative to SignUpGenius, with purpose-built event ticketing, flat pricing, encryption, and no ads on your event pages.
 permalink: /compared-to/signupgenius/
 eleventyNavigation:
@@ -33,6 +33,18 @@ blocks:
       SignUpGenius is the go-to tool for volunteer sign-up sheets and group coordination, used by over 70 million people a year. It wasn't built for event ticketing. This page compares it to a platform that was.
   - type: markdown
     content: |
+      ## Ad free SignUpGenius alternative
+
+      The free SignUpGenius tier shows adverts to everyone who opens a
+      sign-up page, and removing them means moving to a paid plan from
+      $8.99/month. Chobble Tickets shows no adverts on any plan.
+
+      SignUpGenius Tickets charges $0.25 per ticket plus Stripe processing.
+      Chobble Tickets charges £50/year or £5/month, or £25/year for
+      charities, community groups and schools on the annual plan, and its
+      [source code](/features/open-source/) is published under AGPL-3.0-only.
+  - type: markdown
+    content: |
       ## Different tools for different jobs
 
       [SignUpGenius](https://www.signupgenius.com) is primarily a sign-up
@@ -53,7 +65,8 @@ blocks:
       SignUpGenius has more coordination features like slot swapping and
       task assignments. If you need those, it may be the right tool. If you
       need event ticketing, or straightforward sign-up forms, read on.
-
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       SignUpGenius has a free tier (ad-supported) and paid plans: Silver
@@ -78,8 +91,9 @@ blocks:
       Chobble Tickets is a ticketing platform from the ground up. They
       overlap in some areas but serve fundamentally different needs. Here
       is the breakdown:
-
-      **Both platforms share some features:**
+  - type: markdown
+    content: |
+      ### Both platforms share some features
 
       - Online event registration
       - Payment collection via Stripe
@@ -89,8 +103,9 @@ blocks:
       - Custom questions on registration forms
       - Multiple event/slot types
       - CSV data export
-
-      **SignUpGenius has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### SignUpGenius has features Chobble Tickets doesn't
 
       - **Sign-up coordination** - SignUpGenius goes beyond basic
         sign-up sheets with time-slot management, task assignments, item
@@ -123,8 +138,9 @@ blocks:
         all your organisation's sign-ups in one place
       - **Free tier** - basic sign-up sheet creation at no cost
         (ad-supported)
-
-      **Chobble Tickets has features SignUpGenius doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features SignUpGenius doesn't
 
       - **[Sign-up forms](/features/sign-up-forms/)** - create volunteer
         sign-up sheets, potluck coordinators, and other collections by
@@ -342,5 +358,5 @@ blocks:
       ## Try Chobble Tickets
 
       Ticketing and sign-up forms with no ads and no per-ticket platform fee.
-name: Open Source Alternative to SignUpGenius | Chobble Tickets
+name: Ad Free SignUpGenius Alternative | Chobble Tickets
 ---

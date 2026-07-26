@@ -1,6 +1,6 @@
 ---
-title: Chobble Tickets vs Yo!Rent
-meta_title: Hire Bookings vs Yo!Rent Rental Software | Chobble Tickets
+title: Yo!Rent Alternative
+meta_title: Flat Fee Yo!Rent Alternative for Hire Bookings | Chobble Tickets
 meta_description: Compare Chobble Tickets and Yo!Rent on single-operator hire bookings, multi-vendor marketplaces, pricing, logistics, deployment and source licences.
 permalink: /compared-to/yo-rent/
 eleventyNavigation:
@@ -29,6 +29,19 @@ blocks:
       # Chobble Tickets vs Yo!Rent
 
       Both platforms can handle rentals, but at different scales. Yo!Rent builds full rental marketplaces. Chobble Tickets handles hire bookings for a single operator.
+  - type: markdown
+    content: |
+      ## Flat fee Yo!Rent alternative for hire bookings
+
+      Yo!Rent is self-hosted software for building a multi-vendor rental
+      marketplace, sold as a one-time licence from $1,499. Chobble Tickets
+      handles hire bookings for a single operator, charges £50/year or
+      £5/month, and has no licence fee if you self-host it.
+
+      The two suit different scales. An organisation renting out its own
+      equipment, rooms or castles pays a small recurring fee with Chobble
+      Tickets, while Yo!Rent is a large upfront purchase for running a
+      marketplace of other people's stock.
   - type: markdown
     content: |
       ## Two approaches to rentals
@@ -125,8 +138,9 @@ blocks:
       Both platforms handle rentals, but Yo!Rent is built for running a
       rental marketplace and Chobble Tickets for a single operator hiring
       out their own items. Here is the breakdown:
-
-      **Both platforms share some features:**
+  - type: markdown
+    content: |
+      ### Both platforms share some features
 
       - Rentals booked for a date, with confirmed bookings reducing
         availability
@@ -136,8 +150,9 @@ blocks:
       - An admin dashboard for managing bookings
       - Email confirmations to customers
       - No per-transaction platform commission
-
-      **Yo!Rent has features Chobble Tickets does not:**
+  - type: markdown
+    content: |
+      ### Yo!Rent has features Chobble Tickets does not
 
       - **Multi-vendor marketplaces** - let many sellers list their own
         items and take a commission on each rental
@@ -164,8 +179,9 @@ blocks:
       - **Reviews and ratings** - customers rate items and sellers
       - **Rent-and-sell hybrid** - list some items for sale and others for
         rent on the same site
-
-      **Chobble Tickets has features Yo!Rent does not:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Yo!Rent does not
 
       - **[Delivery and collection run sheets](/features/logistics/)** -
         assign each drop-off and collection to an agent, who sees a phone
@@ -245,7 +261,8 @@ blocks:
       - You want native mobile apps for your customers
       - You are happy to pay a large one-time fee and host the software
         yourself
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You are one business hiring out your own items, such as bouncy
@@ -297,5 +314,5 @@ blocks:
       ## Try Chobble Tickets
 
       Open source ticketing and hire bookings with flat pricing and no Chobble per-booking platform fee.
-name: Hire Bookings vs Yo!Rent Rental Software | Chobble Tickets
+name: Flat Fee Yo!Rent Alternative for Hire Bookings | Chobble Tickets
 ---

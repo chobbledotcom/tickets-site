@@ -1,7 +1,7 @@
 ---
 competitor_key: eventbrite
-title: Chobble Tickets vs Eventbrite
-meta_title: Open Source Alternative to Eventbrite | Chobble Tickets
+title: Eventbrite Alternative
+meta_title: Open Source Eventbrite Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Eventbrite on organiser and buyer fees, event discovery, attendee marketing, payments and ticketing features.
 permalink: /compared-to/eventbrite/
 eleventyNavigation:
@@ -33,6 +33,18 @@ blocks:
       Eventbrite is the biggest name in event ticketing, so here's how a small, open source alternative compares.
   - type: markdown
     content: |
+      ## Open source Eventbrite alternative
+
+      Chobble Tickets source code is published under the AGPL-3.0-only
+      licence, so anyone can read it, fork it, or run their own copy.
+      Eventbrite does not publish its source code.
+
+      Eventbrite charges 6.95% + £0.59 per ticket in the UK and markets other
+      organisers' events to your attendees. Chobble Tickets charges £50/year
+      or £5/month with no per-ticket platform fee, and sends no marketing to
+      your attendees.
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       [Eventbrite](https://www.eventbrite.co.uk) charges a percentage plus a fixed fee per ticket, and their
@@ -59,8 +71,9 @@ blocks:
 
       Eventbrite is a massive platform with features Chobble Tickets doesn't
       have, and vice versa. Here's the breakdown:
-
-      **Both sites share some features:**
+  - type: markdown
+    content: |
+      ### Both sites share some features
 
       - Online ticket sales with payment processing via Stripe
       - Apple Pay and Google Pay at checkout (via Stripe)
@@ -76,8 +89,9 @@ blocks:
       - Multiple ticket types per event: use event groups with shared
         capacity limits to create VIP, general admission, early bird, and
         other tiers with different prices
-
-      **Eventbrite has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### Eventbrite has features Chobble Tickets doesn't
 
       - **Event discovery marketplace** - [90 million+ active ticket
         buyers](https://www.eventbrite.com/organizer/features/sell-tickets/)
@@ -150,8 +164,9 @@ blocks:
         donation tickets for qualifying organisations
       - **Automated pre-event reminders** - series of emails at 48 hours,
         2 hours, and 10 minutes before the event with "Join Now" links
-
-      **Chobble Tickets has features Eventbrite doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Eventbrite doesn't
 
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         create promo codes, discount codes, surcharges, and opt-in add-ons
@@ -215,7 +230,8 @@ blocks:
         with no cross-promotion of competing events
       - **Community Interest Company** - run by a CIC, with profits
         reinvested rather than distributed to shareholders
-
+  - type: markdown
+    content: |
       ## Data ownership
 
       Eventbrite stores attendee data and uses it to market other events to
@@ -225,7 +241,8 @@ blocks:
       With Chobble Tickets, attendee data is encrypted and stays under your
       control. Chobble Tickets does not market to your attendees or promote
       other events to them.
-
+  - type: markdown
+    content: |
       ## When Eventbrite might be the better choice
 
       - You need a discovery platform to help attendees find your events
@@ -242,7 +259,8 @@ blocks:
       > with far more potential and a fraction of the cost."
       >
       > - [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You already have your own audience and don't need a discovery platform
@@ -294,5 +312,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Open Source Alternative to Eventbrite | Chobble Tickets
+name: Open Source Eventbrite Alternative | Chobble Tickets
 ---

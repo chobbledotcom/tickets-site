@@ -2,8 +2,8 @@
 competitor_key: hi_events
 selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: hi_events_selfhosted
-title: Chobble Tickets vs Hi.Events
-meta_title: Chobble Tickets vs Hi.Events | Open Source Ticketing
+title: Hi.Events Alternative
+meta_title: Flat Fee Hi.Events Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Hi.Events on cloud and self-hosted pricing, licences, server requirements, branding rules and event features.
 permalink: /compared-to/hi-events/
 eleventyNavigation:
@@ -44,6 +44,19 @@ blocks:
       Hi.Events is another open source ticketing platform, so this is a comparison between two projects with similar values but different approaches.
   - type: markdown
     content: |
+      ## Flat fee Hi.Events alternative
+
+      Both platforms publish their source code, and both can be self-hosted.
+      The hosted pricing differs: Hi.Events Cloud takes 0.75% + 40¢ per
+      ticket sold, while Chobble Tickets charges a flat £50/year or £5/month
+      with no per-ticket platform fee. Above roughly 150 tickets at £15 a
+      year, the flat fee costs less.
+
+      Chobble Tickets runs on serverless edge hosting, so there is no server
+      to manage. Hi.Events self-hosting is AGPL-3.0 with additional
+      attribution terms, and needs a server you maintain.
+  - type: markdown
+    content: |
       ## Two open source options
 
       [Hi.Events](https://hi.events) is another source-published ticketing
@@ -58,7 +71,8 @@ blocks:
       [Swicket with alf.io](/compared-to/swicket/). The
       [open source page](/features/open-source/) describes Chobble Tickets
       without a competitor comparison.
-
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       The pricing models are quite different:
@@ -84,8 +98,9 @@ blocks:
   - type: markdown
     content: |
       ## Feature comparison
-
-      **Both sites share some features:**
+  - type: markdown
+    content: |
+      ### Both sites share some features
 
       - Open source with self-hosting option
       - Stripe payment processing
@@ -104,8 +119,9 @@ blocks:
 
       Both platforms cover the core ticketing basics well, but they differ in
       focus and extras:
-
-      **Hi.Events has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### Hi.Events has features Chobble Tickets doesn't
 
       - **Drag-and-drop event page builder** - a visual editor for designing
         event pages with custom layouts, images, and sections
@@ -159,8 +175,9 @@ blocks:
         transfer, or other non-digital payments
       - **Marketing opt-in** - checkbox during checkout for attendees to
         opt into marketing communications
-
-      **Chobble Tickets has features Hi.Events doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Hi.Events doesn't
 
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
@@ -213,7 +230,8 @@ blocks:
         and no database replication to maintain. Hi.Events needs a traditional
         server (2 CPU, 4GB RAM minimum) that you're responsible for
         keeping online, updated, and backed up
-
+  - type: markdown
+    content: |
       ## Different philosophies
 
       The two platforms differ most in their underlying approach.
@@ -234,7 +252,8 @@ blocks:
       flat-rate pricing. It is aimed at community groups, schools, small
       organisers, and anyone who values data ownership over feature density.
       It is run by a Community Interest Company.
-
+  - type: markdown
+    content: |
       ## Licensing and self-hosted costs
 
       Both platforms are open source, but with very different licences and
@@ -261,7 +280,8 @@ blocks:
       perpetual for the covered version, so there is no annual fee. If
       you are happy keeping the branding, Hi.Events self-hosted is free,
       as Chobble Tickets is.
-
+  - type: markdown
+    content: |
       ## When Hi.Events might be better
 
       - You want a polished, modern UI with a visual page builder
@@ -271,7 +291,8 @@ blocks:
         payouts
       - You need multi-currency support
       - You want a more feature-rich platform and don't mind the complexity
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets might be better
 
       - You want predictable, flat-rate pricing with no per-ticket platform fees
@@ -326,5 +347,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Chobble Tickets vs Hi.Events | Open Source Ticketing
+name: Flat Fee Hi.Events Alternative | Chobble Tickets
 ---

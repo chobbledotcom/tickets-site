@@ -1,7 +1,7 @@
 ---
 competitor_key: dice
-title: Chobble Tickets vs DICE
-meta_title: Open Source Alternative to DICE | Chobble Tickets
+title: DICE Alternative
+meta_title: Open Source DICE Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and DICE on buyer and organiser fees, app requirements, event discovery, resale, attendee data and ticketing features.
 permalink: /compared-to/dice/
 eleventyNavigation:
@@ -33,6 +33,19 @@ blocks:
       DICE is a mobile-first ticketing platform popular with music venues and live events. Here is how Chobble Tickets compares on pricing, features, and data ownership.
   - type: markdown
     content: |
+      ## Open source DICE alternative
+
+      Chobble Tickets source code is published under the AGPL-3.0-only
+      licence, so anyone can read it, fork it, or run their own copy. DICE
+      does not publish its source code.
+
+      DICE does not publish its fees, so rates are agreed case by case, and
+      tickets live in the DICE app. Chobble Tickets costs £50/year or
+      £5/month, and tickets are sent by email with [Apple and Google Wallet
+      passes](/features/apple-wallet/), so attendees do not need to install
+      an app.
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       [DICE](https://dice.fm) doesn't put its prices on its website. You
@@ -59,7 +72,8 @@ blocks:
       encryption and stays under your control. Chobble Tickets does not
       market other events to your attendees and does not send them marketing
       emails.
-
+  - type: markdown
+    content: |
       ## Payouts
 
       DICE pays out after your event ends. You're essentially lending DICE
@@ -68,7 +82,8 @@ blocks:
       Chobble Tickets uses Stripe, Square, or SumUp directly, so payments go straight
       to your account with standard processing times. You're always in control
       of your own payment processor account.
-
+  - type: markdown
+    content: |
       ## The app
 
       DICE is built around its mobile app. Tickets live in the app as a QR
@@ -80,10 +95,12 @@ blocks:
       Chobble Tickets works in any browser on any device. Attendees get their
       tickets via email with a QR code, and can add them to Apple or Google
       Wallet. No app download required.
-
+  - type: markdown
+    content: |
       ## Feature comparison
-
-      **Both sites share some features:**
+  - type: markdown
+    content: |
+      ### Both sites share some features
 
       - Online ticket sales with payment processing
       - QR code or barcode scanning for entry
@@ -128,8 +145,9 @@ blocks:
       - **Partner API** - a [GraphQL Ticket Holders
         API](https://partners-endpoint.dice.fm/graphql/docs/index.html)
         for reading events, tickets, orders, returns, and transfers
-
-      **Chobble Tickets has features DICE doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features DICE doesn't
 
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
@@ -175,7 +193,8 @@ blocks:
         iframe into your existing website
       - **No marketing emails to attendees** - your audience stays yours
       - **Transparent pricing** - no negotiations, no surprises
-
+  - type: markdown
+    content: |
       ## When DICE might be better
 
       - You want access to DICE's event discovery platform and mobile app
@@ -185,7 +204,8 @@ blocks:
       - You have very low volume and prefer negotiated per-ticket fees over
         an annual subscription
       - You want DICE's built-in waitlist and face-value resale features
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets might be better
 
       - You want predictable, flat-rate pricing with no per-ticket platform fees
@@ -238,5 +258,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest, no attendee app requirement and no per-ticket platform fee.
-name: Open Source Alternative to DICE | Chobble Tickets
+name: Open Source DICE Alternative | Chobble Tickets
 ---

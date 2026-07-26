@@ -1,6 +1,6 @@
 ---
-title: Chobble Tickets vs Swicket
-meta_title: Independent Alternative to Swicket & alf.io | Chobble Tickets
+title: Swicket Alternative
+meta_title: Flat Fee Swicket and alf.io Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets with Swicket and alf.io on managed and self-hosted pricing, enterprise features, deployment, source licences and attendee data.
 permalink: /compared-to/swicket/
 eleventyNavigation:
@@ -37,6 +37,19 @@ blocks:
       Swicket is the commercial, managed version of the open source alf.io ticketing platform, built for large conferences and medical congresses. This page compares it to Chobble Tickets for independent event organisers.
   - type: markdown
     content: |
+      ## Flat fee Swicket and alf.io alternative
+
+      Swicket is the managed service built on alf.io, the GPLv3 open source
+      ticketing engine, and it is aimed at conferences and congresses of
+      2,000 to 15,000 attendees. Pricing is quoted through a sales
+      conversation.
+
+      Chobble Tickets is aimed at smaller organisers. It costs £50/year or
+      £5/month, or £25/year for charities and community groups on the annual
+      plan, you can sign up without talking to anyone, and the [source
+      code](/features/open-source/) is published under AGPL-3.0-only.
+  - type: markdown
+    content: |
       ## What is Swicket?
 
       [Swicket](https://swicket.io) is the enterprise managed service built on
@@ -67,7 +80,8 @@ blocks:
       [Pretix](/compared-to/pretix/). The
       [open source page](/features/open-source/) describes Chobble Tickets
       without a competitor comparison.
-
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       **alf.io self-hosted** is free. You pay only for your own server
@@ -82,10 +96,12 @@ blocks:
       charities and community groups on the annual plan) with [no per-ticket
       fees](/features/no-per-ticket-fees/). Self-hosted Chobble Tickets is
       free under AGPLv3. No sales call required for either option.
-
+  - type: markdown
+    content: |
       ## Feature comparison
-
-      **Both alf.io / Swicket and Chobble Tickets handle:**
+  - type: markdown
+    content: |
+      ### Both alf.io / Swicket and Chobble Tickets handle
 
       - Online ticket sales with payment processing
       - QR code scanning for check-in at the door
@@ -109,8 +125,9 @@ blocks:
         and SMTP (configured at the server level), while Chobble Tickets managed
         lets you switch between Resend, Postmark, SendGrid, and Mailgun through
         the admin UI so emails come from your own domain
-
-      **alf.io / Swicket has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### alf.io / Swicket has features Chobble Tickets doesn't
 
       - **Multiple payment gateways** - Stripe, Mollie, Revolut, PayPal, bank
         transfer, and on-site payments, compared to Chobble's Stripe, Square, or SumUp
@@ -139,8 +156,9 @@ blocks:
         support
       - **Enterprise SLA** (Swicket) - 99.95% uptime guarantee with 24/7
         monitoring and dedicated account management
-
-      **Chobble Tickets has features alf.io / Swicket doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features alf.io / Swicket doesn't
 
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just
@@ -173,7 +191,8 @@ blocks:
       - **No marketing to your attendees** - your audience stays yours
       - **Community Interest Company** - run by a CIC, with profits
         reinvested rather than distributed to shareholders
-
+  - type: markdown
+    content: |
       ## When Swicket / alf.io might be the better choice
 
       - You're running a large conference or medical congress with thousands of
@@ -188,7 +207,8 @@ blocks:
       - You require enterprise SLAs and dedicated support (Swicket managed)
       - Budget is not a concern and you want a fully managed enterprise
         solution
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You're a community group, school, charity, or independent venue
@@ -247,5 +267,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no enterprise contracts required.
-name: Independent Alternative to Swicket & alf.io | Chobble Tickets
+name: Flat Fee Swicket and alf.io Alternative | Chobble Tickets
 ---

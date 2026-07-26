@@ -1,7 +1,7 @@
 ---
 competitor_key: ticketmaster
-title: Chobble Tickets vs Ticketmaster
-meta_title: Independent Alternative to Ticketmaster | Chobble Tickets
+title: Ticketmaster Alternative
+meta_title: Independent Ticketmaster Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Ticketmaster on buyer and organiser fees, reserved seating, event discovery, attendee data and ticketing features.
 permalink: /compared-to/ticketmaster/
 eleventyNavigation:
@@ -33,6 +33,19 @@ blocks:
       Ticketmaster handles ticketing for large venues and arenas. Here is how Chobble Tickets compares for smaller events.
   - type: markdown
     content: |
+      ## Independent Ticketmaster alternative
+
+      Ticketmaster is owned by Live Nation, sells through its own
+      marketplace, and sets attendee fees through venue and promoter
+      contracts that organisers have limited say over. It does not publish a
+      standard fee schedule.
+
+      Chobble Tickets is run by a community interest company and sells only
+      through the organiser's own site, so the organiser sets the price the
+      buyer pays. It costs £50/year or £5/month, and the [source
+      code](/features/open-source/) is published under AGPL-3.0-only.
+  - type: markdown
+    content: |
       ## Completely different scale
 
       Let's be upfront: [Ticketmaster](https://www.ticketmaster.co.uk) and Chobble Tickets serve very different
@@ -43,7 +56,8 @@ blocks:
       If you're booking a 50,000-seat stadium, Ticketmaster is probably
       unavoidable, but if you're running a 200-capacity gig, a charity quiz
       night, or a community workshop, you don't need (or want) Ticketmaster.
-
+  - type: markdown
+    content: |
       ## Fees and control
 
       Ticketmaster does not publish a standard fee schedule for organisers.
@@ -53,7 +67,7 @@ blocks:
       Chobble Tickets charges a flat £50/year or £5/month with [no per-ticket
       fees](/features/no-per-ticket-fees/), and payment processing fees from
       Stripe, Square, or SumUp are the only other cost (which go directly to the
-      payment processor, not to us).
+      payment processor, not to Chobble).
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -62,8 +76,9 @@ blocks:
 
       Ticketmaster is built for a completely different market. Here is what
       each platform offers:
-
-      **Both sites share some features:**
+  - type: markdown
+    content: |
+      ### Both sites share some features
 
       - Online ticket sales with payment processing
       - QR code or barcode scanning for entry
@@ -71,8 +86,9 @@ blocks:
       - Event capacity limits
       - Refund processing
       - Mobile-friendly booking experience
-
-      **Ticketmaster has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### Ticketmaster has features Chobble Tickets doesn't
 
       - **Massive distribution network** - Ticketmaster reaches millions of
         buyers through its website, mobile app, retail outlets, and call
@@ -173,13 +189,15 @@ blocks:
         via Stripe
       - **Transparent pricing** - no hidden fees, no negotiations
       - **Community Interest Company** - run by a CIC, with profits reinvested rather than distributed to shareholders
-
+  - type: markdown
+    content: |
       ## An independent alternative
 
       With Chobble Tickets, you control your ticketing setup. Your attendee
       data is encrypted and stays with you, you use your own domain, and there
       are no exclusive venue contracts.
-
+  - type: markdown
+    content: |
       ## When Ticketmaster makes sense
 
       - You're running events at large venues that require Ticketmaster
@@ -187,7 +205,8 @@ blocks:
       - You need reserved seating for thousands of seats with interactive maps
       - You want access to Ticketmaster's massive buyer network
       - You need dynamic pricing or verified fan presales for high-demand events
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You're an independent venue, community group, or small organiser
@@ -238,5 +257,5 @@ blocks:
       ## Independent ticketing
 
       Flat pricing with no per-ticket platform fee.
-name: Independent Alternative to Ticketmaster | Chobble Tickets
+name: Independent Ticketmaster Alternative | Chobble Tickets
 ---
