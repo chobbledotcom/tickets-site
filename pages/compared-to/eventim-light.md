@@ -48,8 +48,12 @@ blocks:
       copy. EVENTIM.Light does not publish its source code.
 
       EVENTIM.Light charges 8% per ticket in the UK, which is £1.20 on a £15
-      ticket. Chobble Tickets charges £50/year or £5/month, so an organiser
-      selling more than about 65 tickets at £15 in a year pays less.
+      ticket, with payment processing included. Chobble Tickets charges
+      £50/year or £5/month and payment processing is separate.
+
+      Taking Stripe's UK rate of 1.5% + 20p as the processing cost, an
+      organiser selling more than about 65 tickets at £15 in a year pays less
+      with Chobble Tickets. Square or SumUp rates give a different figure.
   - type: markdown
     content: |
       ## What is EVENTIM.Light?
