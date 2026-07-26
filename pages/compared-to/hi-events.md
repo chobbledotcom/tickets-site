@@ -53,7 +53,7 @@ blocks:
       Both platforms publish their source code, and both can be self-hosted.
       The hosted pricing differs: Hi.Events Cloud takes 0.75% + 40¢ per
       ticket sold, while Chobble Tickets charges a flat £50/year or £5/month
-      with no per-ticket platform fee. Above roughly 150 tickets at £15 a
+      with no per-ticket platform fee. Above roughly 116 tickets at £15 a
       year, the flat fee costs less.
 
       Chobble Tickets runs on serverless edge hosting, so there is no server
@@ -95,7 +95,7 @@ blocks:
 
       For small numbers of tickets, Hi.Events Cloud is cheaper since there's
       no annual fee. As volume grows, Chobble's flat fee becomes better
-      value: if you sell more than about 150 tickets at £15 each in a year,
+      value: if you sell more than about 116 tickets at £15 each in a year,
       you will pay less with Chobble Tickets.
   - type: include
     file: price-comparator.html

@@ -50,8 +50,8 @@ blocks:
       Ticket Tailor charges 60p per paid ticket pay-as-you-go, dropping to
       around 22p per ticket on the largest credit bundles, with 50% off for
       registered charities. Chobble Tickets charges £50/year or £5/month
-      whatever the volume, so the two cross over at a few hundred tickets a
-      year.
+      whatever the volume, so on the pay-as-you-go rate the two cross over at
+      about 84 paid tickets a year, or about 230 at the lowest prepaid rate.
   - type: markdown
     content: |
       ## Pricing comparison
