@@ -1,6 +1,17 @@
 {
   "schemaVersion": 1,
   "captures": {
+    "payment-provider-choice": {
+      "page": "pages/features/stripe-and-square.md",
+      "legacyDestinationPath": "images/screenshots/payment-provider-choice.png",
+      "assetProfile": "mobile",
+      "caseId": "payments.select-saved-stripe",
+      "summary": "Choose one provider",
+      "alt": "Payment Provider settings with Stripe selected among Square, Stripe and SumUp and a configured Stripe test key",
+      "caption": "Choose one active provider and keep saved credentials available when switching.",
+      "socialKey": "payment-provider-choice",
+      "visibility": "summary-with-steps"
+    },
     "servicing-studio-floor-hold": {
       "page": "pages/features/servicing-events.md",
       "legacyDestinationPath": "images/screenshots/servicing-studio-floor-hold.png",

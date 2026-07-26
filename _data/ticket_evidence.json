@@ -1,9 +1,54 @@
 {
   "app": {
-    "commit": "2baa5755285b36a4511f1bc5daf74aaa1d5d361b",
+    "commit": "f44541595a52b325e60ccb80a7d0b2ed4ffa88dc",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
+    "payment-provider-choice": {
+      "case": {
+        "id": "payments.select-saved-stripe",
+        "name": "The organiser switches back to a saved Stripe test setup"
+      },
+      "id": "payment-provider-choice",
+      "image": {
+        "height": 2542,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "16351e8205d04077e16137b4a9825d734824a6ada000522946d9fa6ce7034f78",
+        "src": "/images/screenshots/payment-provider-choice.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 826
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "Selecting a provider makes it active without removing its saved key.",
+        "id": "payments.saved-provider-can-be-selected",
+        "name": "A saved test setup remains available after switching providers"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "a Stripe test key is saved while Square takes payments"
+        },
+        {
+          "keyword": "When",
+          "text": "the organiser changes the payment provider to Stripe"
+        },
+        {
+          "keyword": "Then",
+          "text": "the payment settings show Stripe selected with its saved key in test mode"
+        }
+      ],
+      "story": {
+        "description": "An organiser can switch between supported payment providers.\nA saved provider setup remains available when selected again.",
+        "id": "payments.provider-choice",
+        "name": "An organiser chooses a payment provider"
+      }
+    },
     "servicing-studio-floor-hold": {
       "case": {
         "id": "servicing.hold-on-dashboard",

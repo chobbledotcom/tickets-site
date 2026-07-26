@@ -3,6 +3,7 @@ title: Stripe, Square & SumUp - Chobble Tickets
 meta_title: Stripe, Square & SumUp Payments - Chobble Tickets
 meta_description: Accept payments via Stripe, Square, or SumUp with fixed pricing or pay-what-you-want, and automatic refunds.
 permalink: /features/stripe-and-square/
+ticket_evidence_capture: payment-provider-choice
 eleventyNavigation:
   key: Stripe, Square & SumUp
   parent: Selling Tickets
@@ -14,25 +15,20 @@ blocks:
       # Stripe, Square & SumUp payments
 
       Accept card payments through Stripe, Square, or SumUp with fixed pricing or pay-what-you-want, and process refunds directly from the admin panel.
-  - type: split-image
-    content: |
-      ## Choose one provider
-
-      Select Stripe, Square or SumUp for paid bookings. Credentials for the
-      other providers remain saved when you switch, and the settings identify
-      whether a configured key accepts test or live payments.
-    figure_src: /images/screenshots/payment-provider-choice.png
-    figure_alt: Payment Provider settings with Stripe selected among Square, Stripe and SumUp and a configured Stripe test key
-    figure_caption: Choose one active provider and keep saved credentials available when switching.
+  - type: include
+    file: ticket-evidence.html
   - type: markdown
     content: |
       ## Three payment providers, your choice
 
       Chobble Tickets supports Stripe, Square and SumUp as payment providers,
       with one active provider per site. Connect your existing account by
-      adding its credentials in the settings. Paid bookings continue to the
-      provider's hosted checkout, and Chobble Tickets records payment
-      confirmation and refund results.
+      adding its credentials in the settings. Credentials for the other
+      providers remain saved when you switch. The settings also identify
+      whether a configured key accepts test or live payments.
+
+      Paid bookings continue to the provider's hosted checkout. Chobble
+      Tickets records payment confirmation and refund results.
 
       ## Flexible pricing
 

@@ -29,7 +29,11 @@
   { "key": "order-widget", "classification": "legacy-product-screenshot" },
   { "key": "packages", "classification": "legacy-product-screenshot" },
   { "key": "parent-child-listings", "classification": "legacy-product-screenshot" },
-  { "key": "payment-provider-choice", "classification": "legacy-product-screenshot" },
+  {
+    "key": "payment-provider-choice",
+    "classification": "linked-evidence",
+    "captureId": "payment-provider-choice"
+  },
   { "key": "promo-codes-and-add-ons", "classification": "legacy-product-screenshot" },
   { "key": "qr-code-check-ins", "classification": "legacy-product-screenshot" },
   { "key": "schools-and-ptas", "classification": "legacy-product-screenshot" },

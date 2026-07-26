@@ -5,7 +5,6 @@ import { SOCIAL_IMAGE_FACTS } from "../facts/social-images.js";
 import { SOCIAL_SCREENSHOT_COPY } from "../scripts/social-screenshot-copy.js";
 
 const ROOT = resolve(import.meta.dir, "..");
-const CAPTURE_ID = "servicing-studio-floor-hold";
 const readJson = (relativePath) =>
   JSON.parse(readFileSync(join(ROOT, relativePath), "utf8"));
 const inventory = readJson("_data/screenshot_inventory.json");
@@ -64,12 +63,18 @@ describe("screenshot inventory", () => {
 });
 
 describe("ticket evidence component", () => {
+  const evidencePages = [
+    {
+      captureId: "payment-provider-choice",
+      path: "pages/features/stripe-and-square.md",
+    },
+    {
+      captureId: "servicing-studio-floor-hold",
+      path: "pages/features/servicing-events.md",
+    },
+  ];
   const component = readFileSync(
     join(ROOT, "_includes/ticket-evidence.html"),
-    "utf8",
-  );
-  const page = readFileSync(
-    join(ROOT, "pages/features/servicing-events.md"),
     "utf8",
   );
 
@@ -91,12 +96,16 @@ describe("ticket evidence component", () => {
     expect(component).not.toContain("/admin/");
   });
 
-  test("replaces the ordinary servicing split image", () => {
-    expect(page).toContain("ticket_evidence_capture: servicing-studio-floor-hold");
-    expect(page).toContain("file: ticket-evidence.html");
-    expect(page).not.toContain("type: split-image");
-    expect(mapping.captures[CAPTURE_ID].legacyDestinationPath).toBe(
-      "images/screenshots/servicing-studio-floor-hold.png",
-    );
+  test("replaces each ordinary screenshot with its tested evidence", () => {
+    for (const { captureId, path } of evidencePages) {
+      const page = readFileSync(join(ROOT, path), "utf8");
+      expect(page).toContain(`ticket_evidence_capture: ${captureId}`);
+      expect(page).toContain("file: ticket-evidence.html");
+      expect(page).not.toContain("type: split-image");
+      expect(mapping.captures[captureId].page).toBe(path);
+      expect(mapping.captures[captureId].legacyDestinationPath).toBe(
+        `images/screenshots/${captureId}.png`,
+      );
+    }
   });
 });

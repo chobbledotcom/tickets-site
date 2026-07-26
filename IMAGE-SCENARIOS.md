@@ -227,10 +227,14 @@ These pages are rendered but excluded from the sitemap and main editorial total.
 ### Completed scenario files
 
 - [x] `scripts/screenshots/oakfield-public-website.js`
-- [x] `scripts/screenshots/payment-provider-choice.js`
 - [x] `scripts/screenshots/summer-appeal-purchase.js`
 - [x] `scripts/screenshots/summer-fair-volunteer-form.js`
 - [x] `scripts/screenshots/duplicate-event.js`
+
+### Completed Cucumber evidence captures
+
+- [x] `payment-provider-choice`
+- [x] `servicing-studio-floor-hold`
 
 ### Highest-value diagrams and comparison templates
 
