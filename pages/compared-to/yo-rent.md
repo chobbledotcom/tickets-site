@@ -35,8 +35,7 @@ blocks:
 
       Chobble Tickets is made in the UK by a community interest company, with
       its [source code](/features/open-source/) published under the
-      AGPL-3.0-only licence. Yo!Rent ships its source under a commercial
-      licence.
+      AGPL-3.0-only licence.
 
       Yo!Rent is self-hosted software for building a multi-vendor rental
       marketplace, sold as a one-time licence from $1,499. Chobble Tickets

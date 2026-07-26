@@ -35,10 +35,10 @@ blocks:
     content: |
       ## Independent & open source Ticketek alternative
 
-      Ticketek is part of TEG, sells through its own marketplace, and
-      negotiates fees venue by venue without publishing a standard schedule.
-      Service and handling fees are typically around AU$7 to AU$8 per
-      transaction, before delivery, reissue and card surcharges.
+      Ticketek sells through its own marketplace and negotiates fees venue by
+      venue without publishing a standard schedule. Service and handling fees
+      are typically around AU$7 to AU$8 per transaction, before delivery,
+      reissue and card surcharges.
 
       Chobble Tickets is run by a community interest company and sells only
       through the organiser's own site. It costs £50/year or £5/month,

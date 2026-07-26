@@ -39,7 +39,6 @@ blocks:
       community interest company, so profit cannot be paid out to
       shareholders. Its source code is published under the AGPL-3.0-only
       licence, so anyone can read it, fork it, or run their own copy.
-      Eventbrite does not publish its source code.
 
       Eventbrite charges 6.95% + £0.59 per ticket in the UK and markets other
       organisers' events to your attendees. Chobble Tickets charges £50/year

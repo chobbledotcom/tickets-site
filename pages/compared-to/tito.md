@@ -38,7 +38,7 @@ blocks:
       Chobble Tickets is a white label ticketing platform made in the UK by a
       community interest company. Its source code is published under the
       AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Tito does not publish its source code.
+      copy.
 
       Tito charges 3% per paid ticket, capped at €25, with reduced rates for
       non-profits and charities. Chobble Tickets charges £50/year or

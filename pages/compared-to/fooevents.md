@@ -47,10 +47,10 @@ blocks:
       FooEvents is a set of plugins that add ticketing to WooCommerce, so it
       needs a WordPress site, WooCommerce, hosting, and updates for each
       plugin. Chobble Tickets is a standalone platform with a [public website
-      and CMS](/features/your-public-website/) included, so there is nothing
-      to install.
+      and CMS](/features/your-public-website/) included, so on managed
+      hosting there is nothing to install.
 
-      FooEvents bundles cost $139 to $199 a year for one domain, and features
+      FooEvents bundles cost $139 to $349 a year for one domain, and features
       are split across licence tiers. Chobble Tickets costs £50/year or
       £5/month with every feature included.
   - type: markdown

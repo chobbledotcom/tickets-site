@@ -38,11 +38,11 @@ blocks:
       Chobble Tickets is a white label ticketing platform made in the UK by a
       community interest company. Its source code is published under the
       AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Fatsoma does not publish its source code.
+      copy.
 
       Fatsoma charges 10% per ticket with a £1 minimum, plus Stripe
       processing. Chobble Tickets charges £50/year or £5/month, so an
-      organiser selling more than about 50 tickets at £15 in a year pays
+      organiser selling more than about 34 tickets at £15 in a year pays
       less.
   - type: markdown
     content: |
@@ -55,12 +55,12 @@ blocks:
 
       Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community
       groups) with [no per-ticket platform fees](/features/no-per-ticket-fees/). You also pay Stripe, Square or SumUp
-      processing fees on top. If you sell more than about 50 tickets at £15
+      processing fees on top. If you sell more than about 34 tickets at £15
       each in a year, Chobble Tickets is already cheaper.
 
       On higher-priced tickets the gap grows quickly. A £30 ticket costs you
-      £3.00 in Fatsoma platform fees alone, meaning 60 tickets to break even
-      against a full year of Chobble Tickets.
+      £3.00 in Fatsoma platform fees alone, so 17 tickets cover a full year
+      of Chobble Tickets.
   - type: include
     file: price-comparator.html
   - type: markdown

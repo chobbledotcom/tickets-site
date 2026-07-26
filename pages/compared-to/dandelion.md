@@ -49,12 +49,17 @@ blocks:
       provider](/features/email-providers/), and there is no marketplace
       around them.
 
-      Both platforms are open source and both are run by organisations that
-      cannot pay out profits to shareholders. The difference is how they are
-      funded. Dandelion asks organisers for a voluntary contribution of
-      around 1% of ticket sales and asks buyers for a donation at checkout.
-      Chobble Tickets charges a fixed £50/year or £5/month, or £25/year for
-      charities, community groups, artists and musicians on the annual plan.
+      Both platforms publish their source code and both are run by
+      organisations that cannot pay out profits to shareholders. Dandelion
+      uses the Functional Source License, which restricts competing services
+      for two years before the code becomes Apache 2.0. Chobble Tickets uses
+      AGPL-3.0-only, with no such restriction.
+
+      Funding differs too. Dandelion asks organisers for a voluntary
+      contribution of around 1% of ticket sales and asks buyers for a
+      donation at checkout. Chobble Tickets charges a fixed £50/year or
+      £5/month, or £25/year for charities, community groups, artists and
+      musicians on the annual plan.
 
       Dandelion also runs a public marketplace, where booking records feed
       shared attendee profiles and event recommendations. Chobble Tickets has

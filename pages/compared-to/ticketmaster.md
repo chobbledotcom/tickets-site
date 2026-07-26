@@ -35,10 +35,9 @@ blocks:
     content: |
       ## Independent & open source Ticketmaster alternative
 
-      Ticketmaster is owned by Live Nation, sells through its own
-      marketplace, and sets attendee fees through venue and promoter
-      contracts that organisers have limited say over. It does not publish a
-      standard fee schedule.
+      Ticketmaster sells through its own marketplace, and sets attendee fees
+      through venue and promoter contracts that organisers have limited say
+      over. It does not publish a standard fee schedule.
 
       Chobble Tickets is run by a community interest company and sells only
       through the organiser's own site, so the organiser sets the price the

@@ -38,7 +38,7 @@ blocks:
       Chobble Tickets is a white label ticketing platform made in the UK by a
       community interest company. Its source code is published under the
       AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. BookitBee does not publish its source code.
+      copy.
 
       BookitBee charges from 3.5% per ticket, with a £1 minimum and a £19.95
       cap. Chobble Tickets charges £50/year or £5/month, or £25/year for

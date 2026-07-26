@@ -38,7 +38,7 @@ blocks:
       Chobble Tickets is a white label ticketing platform made in the UK by a
       community interest company. Its source code is published under the
       AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. DICE does not publish its source code.
+      copy.
 
       DICE does not publish its fees, so rates are agreed case by case, and
       tickets live in the DICE app. Chobble Tickets costs £50/year or
