@@ -116,8 +116,9 @@ blocks:
         access on Pro; Chobble includes full public and admin API on
         every plan)
 
-      **[tickts](https://tickts.co.uk/features) has features Chobble
-      Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### [tickts](https://tickts.co.uk/features) has features Chobble Tickets doesn't
 
       - **Native iOS and Android scanner apps** - dedicated apps for door
         staff that download attendee lists for offline scanning. Chobble

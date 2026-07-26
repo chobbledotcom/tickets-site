@@ -41,9 +41,9 @@ blocks:
       copy. Tito is closed source and does not publish its code.
 
       Tito charges 3% per paid ticket, capped at €25, with reduced rates for
-      non-profits and charities. Chobble Tickets charges £50/year or
-      £5/month, so a £15 ticket costs 45p in Tito fees and nothing per ticket
-      with Chobble Tickets.
+      non-profits and charities. A £15 ticket costs 45p in Tito platform fees
+      and nothing in Chobble platform fees. Both platforms charge payment
+      processing separately, so Stripe's UK rate applies either way.
   - type: markdown
     content: |
       ## Pricing comparison

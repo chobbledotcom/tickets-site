@@ -114,8 +114,9 @@ blocks:
 
       DICE has some features Chobble Tickets doesn't, and vice versa:
 
-      **[DICE](https://dice.fm/partners) has features Chobble Tickets
-      doesn't:**
+  - type: markdown
+    content: |
+      ### [DICE](https://dice.fm/partners) has features Chobble Tickets doesn't
 
       - **Event discovery app** - DICE's mobile app helps fans discover
         events in their area based on their music tastes, location, and

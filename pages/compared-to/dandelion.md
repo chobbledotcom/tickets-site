@@ -43,11 +43,11 @@ blocks:
     content: |
       ## White label & flat fee Dandelion alternative
 
-      Chobble Tickets is white label by default. Events run on the
-      organiser's own [domain](/features/custom-domain/), with the
-      organiser's branding and [email
-      provider](/features/email-providers/), and there is no marketplace
-      around them.
+      Chobble Tickets is white label by default. Events carry the organiser's
+      branding and [email provider](/features/email-providers/), with no
+      marketplace around them. New sites get a yourname.tix.chobble.net
+      address, and organisers can point their own
+      [domain](/features/custom-domain/) at it instead.
 
       Both platforms publish their source code and both are run by
       organisations that cannot pay out profits to shareholders. Dandelion

@@ -140,8 +140,9 @@ blocks:
       - **All-in pricing** - total cost shown upfront with no surprise
         fees at checkout
 
-      **Chobble Tickets has features Ticketmaster doesn't offer small
-      organisers:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Ticketmaster doesn't offer small organisers
 
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM

@@ -133,8 +133,9 @@ blocks:
       - **TEG Live integration** - connections to TEG's live entertainment
         group including concert promotion, venue operations, and touring
 
-      **Chobble Tickets has features Ticketek doesn't offer small
-      organisers:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Ticketek doesn't offer small organisers
 
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM (notable given

@@ -23,9 +23,12 @@ blocks:
       names live in different places.
 
       Chobble Tickets takes payment before the event, emails each attendee a
-      ticket with a QR code, and stops selling when the event is full. It
-      costs £50/year or £5/month, or £25/year for charities, community groups
-      and schools on the annual plan.
+      ticket with a QR code, and tracks capacity for you. Capacity is used up
+      when a payment is confirmed, and if two confirmed payments race for the
+      last place the later one is refunded automatically.
+
+      It costs £50/year or £5/month, or £25/year for charities, community
+      groups and schools on the annual plan.
   - type: markdown
     content: |
       ### Both approaches share some things

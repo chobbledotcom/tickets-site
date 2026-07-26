@@ -105,8 +105,9 @@ blocks:
       Resident Advisor has some features Chobble Tickets doesn't, and vice
       versa:
 
-      **[Resident Advisor](https://pro.ra.co/ra-tickets) has features
-      Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### [Resident Advisor](https://pro.ra.co/ra-tickets) has features Chobble Tickets doesn't
 
       - **Electronic music community** - RA reaches
         [millions of electronic music fans](https://pro.ra.co/promoter)

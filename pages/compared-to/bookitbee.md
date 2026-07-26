@@ -77,9 +77,9 @@ blocks:
       - Custom questions at checkout
       - Multiple ticket types per event: both platforms let you create
         VIP, early bird, group, and standard tiers with different prices
-
-      **[BookitBee](https://www.bookitbee.com/features/) has features
-      Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### [BookitBee](https://www.bookitbee.com/features/) has features Chobble Tickets doesn't
 
       - **Social Group Deals** - a viral marketing mechanic where buyers
         share a unique link, and once enough friends purchase, the original
