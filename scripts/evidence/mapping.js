@@ -3,7 +3,6 @@ import {
   ASSET_PROFILES,
   EVIDENCE_MAPPING_PATH,
   EVIDENCE_SCHEMA_VERSION,
-  VISIBILITY_POLICIES,
 } from "./constants.js";
 import {
   enumAt,
@@ -21,12 +20,14 @@ const MAPPING_FIELDS = [
   "legacyDestinationPath",
   "assetProfile",
   "caseId",
-  "summary",
   "alt",
   "caption",
+  "sourceUrl",
   "socialKey",
-  "visibility",
 ];
+
+const SOURCE_PREFIX =
+  "https://github.com/chobbledotcom/tickets/blob/main/specs/";
 
 const validateCaptureMapping = (captureId, value) => {
   const location = `evidence mapping ${captureId}`;
@@ -49,11 +50,18 @@ const validateCaptureMapping = (captureId, value) => {
   }
   enumAt(value.assetProfile, ASSET_PROFILES, `${location}.assetProfile`);
   idAt(value.caseId, `${location}.caseId`);
-  stringAt(value.summary, `${location}.summary`);
   stringAt(value.alt, `${location}.alt`);
   stringAt(value.caption, `${location}.caption`);
+  stringAt(value.sourceUrl, `${location}.sourceUrl`);
+  if (
+    !value.sourceUrl.startsWith(SOURCE_PREFIX) ||
+    !value.sourceUrl.endsWith(".feature")
+  ) {
+    throw new Error(
+      `${location}.sourceUrl: must link to a Feature on the Tickets main branch`,
+    );
+  }
   idAt(value.socialKey, `${location}.socialKey`, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
-  enumAt(value.visibility, VISIBILITY_POLICIES, `${location}.visibility`);
   return value;
 };
 
@@ -93,10 +101,20 @@ const validatePagePlacement = async (root, captureId, mapping) => {
       `${mapping.page}: does not select evidence capture ${captureId}`,
     );
   }
-  if (!content.includes("file: ticket-evidence.html")) {
+  if (!content.includes("type: split-image")) {
     throw new Error(
-      `${mapping.page}: does not render the ticket evidence component`,
+      `${mapping.page}: does not render the evidence as a split image`,
     );
+  }
+  const expectedParts = [
+    `figure_src: /${mapping.legacyDestinationPath}`,
+    `figure_alt: ${mapping.alt}`,
+    mapping.caption,
+    `<small><a href="${mapping.sourceUrl}">(src)</a></small>`,
+  ];
+  const missing = expectedParts.find((part) => !content.includes(part));
+  if (missing) {
+    throw new Error(`${mapping.page}: evidence block is missing ${missing}`);
   }
 };
 

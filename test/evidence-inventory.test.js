@@ -62,50 +62,19 @@ describe("screenshot inventory", () => {
   });
 });
 
-describe("ticket evidence component", () => {
-  const evidencePages = [
-    {
-      captureId: "payment-provider-choice",
-      path: "pages/features/stripe-and-square.md",
-    },
-    {
-      captureId: "servicing-studio-floor-hold",
-      path: "pages/features/servicing-events.md",
-    },
-  ];
-  const component = readFileSync(
-    join(ROOT, "_includes/ticket-evidence.html"),
-    "utf8",
-  );
-
-  test("uses mapped copy and imported Cucumber text", () => {
-    expect(component).toContain("evidence_mapping.summary");
-    expect(component).toContain("evidence_mapping.caption");
-    expect(component).toContain("How this was tested");
-    expect(component).toContain("evidence.story.name");
-    expect(component).toContain("evidence.rule.name");
-    expect(component).toContain("evidence.case.name");
-    expect(component).toContain("evidence.steps");
-  });
-
-  test("does not render raw provenance or internal locations", () => {
-    expect(component).not.toContain("evidence.story.id");
-    expect(component).not.toContain("evidence.rule.id");
-    expect(component).not.toContain("evidence.case.id");
-    expect(component).not.toContain("evidence.app");
-    expect(component).not.toContain("/admin/");
-  });
-
-  test("replaces each ordinary screenshot with its tested evidence", () => {
-    for (const { captureId, path } of evidencePages) {
-      const page = readFileSync(join(ROOT, path), "utf8");
+describe("ticket evidence placement", () => {
+  test("uses split images with a small Feature source link", () => {
+    for (const [captureId, capture] of Object.entries(mapping.captures)) {
+      const page = readFileSync(join(ROOT, capture.page), "utf8");
       expect(page).toContain(`ticket_evidence_capture: ${captureId}`);
-      expect(page).toContain("file: ticket-evidence.html");
-      expect(page).not.toContain("type: split-image");
-      expect(mapping.captures[captureId].page).toBe(path);
-      expect(mapping.captures[captureId].legacyDestinationPath).toBe(
-        `images/screenshots/${captureId}.png`,
+      expect(page).toContain("type: split-image");
+      expect(page).toContain(`figure_src: /${capture.legacyDestinationPath}`);
+      expect(page).toContain(`figure_alt: ${capture.alt}`);
+      expect(page).toContain(capture.caption);
+      expect(page).toContain(
+        `<small><a href="${capture.sourceUrl}">(src)</a></small>`,
       );
+      expect(page).not.toContain("file: ticket-evidence.html");
     }
   });
 });

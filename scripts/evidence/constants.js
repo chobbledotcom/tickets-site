@@ -8,4 +8,3 @@ export const EVIDENCE_MAPPING_PATH = "_data/ticket_evidence_map.json";
 export const PRESENTATIONS = ["canonical", "branded", "editorial"];
 export const ASSET_PROFILES = ["mobile"];
 export const STEP_KEYWORDS = ["Given", "When", "Then", "And", "But"];
-export const VISIBILITY_POLICIES = ["summary-with-steps"];

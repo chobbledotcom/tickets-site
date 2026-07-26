@@ -50,11 +50,11 @@ const mapping = (extraCaptures = {}) => ({
       legacyDestinationPath: DESTINATION,
       assetProfile: "mobile",
       caseId: CASE_ID,
-      summary: "Hold capacity without adding a customer booking",
       alt: "Admin area showing a service event",
       caption: "The organiser can see the hold while customers cannot.",
+      sourceUrl:
+        "https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/hold-and-cost.feature",
       socialKey: "servicing-events",
-      visibility: "summary-with-steps",
     },
     ...extraCaptures,
   },
@@ -137,7 +137,7 @@ const createSite = async () => {
   mkdirSync(dirname(page), { recursive: true });
   writeFileSync(
     page,
-    `---\nticket_evidence_capture: ${CAPTURE_ID}\nblocks:\n  - type: include\n    file: ticket-evidence.html\n---\n`,
+    `---\nticket_evidence_capture: ${CAPTURE_ID}\nblocks:\n  - type: split-image\n    figure_src: /${DESTINATION}\n    figure_alt: ${mapping().captures[CAPTURE_ID].alt}\n    figure_caption: '${mapping().captures[CAPTURE_ID].caption} <small><a href="${mapping().captures[CAPTURE_ID].sourceUrl}">(src)</a></small>'\n---\n`,
   );
   mkdirSync(join(root, "images/screenshots"), { recursive: true });
   writeFileSync(join(root, DESTINATION), await fixturePng());
@@ -531,6 +531,14 @@ describe("evidence mapping validation", () => {
     expect(() =>
       validateEvidenceMapping(mapping({ "second-capture": duplicate })),
     ).toThrow("duplicate value");
+  });
+
+  test("rejects a source outside the Tickets Feature catalog", () => {
+    const value = mapping();
+    value.captures[CAPTURE_ID].sourceUrl = "https://example.com/story.feature";
+    expect(() => validateEvidenceMapping(value)).toThrow(
+      "must link to a Feature on the Tickets main branch",
+    );
   });
 });
 
