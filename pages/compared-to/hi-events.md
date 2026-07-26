@@ -56,9 +56,10 @@ blocks:
       with no per-ticket platform fee. Above roughly 116 tickets at £15 a
       year, the flat fee costs less.
 
-      Chobble Tickets runs on serverless edge hosting, so there is no server
-      to manage. Hi.Events self-hosting is AGPL-3.0 with additional
-      attribution terms, and needs a server you maintain.
+      Chobble Tickets managed hosting runs on serverless edge infrastructure,
+      so the organiser has no server to manage. Self-hosting either platform
+      means running and updating your own infrastructure. Hi.Events
+      self-hosting is AGPL-3.0 with additional attribution terms.
   - type: markdown
     content: |
       ## Two open source options
