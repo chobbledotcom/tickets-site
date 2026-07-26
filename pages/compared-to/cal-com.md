@@ -1,6 +1,6 @@
 ---
-title: Chobble Tickets vs Cal.com
-meta_title: Open Source Ticketing vs Cal.com Scheduling | Chobble Tickets
+title: Cal.com Alternative
+meta_title: Open Source & Flat Fee Cal.com Alternative | Chobble Tickets
 meta_description: Cal.com is a scheduling platform that took its production code closed source in April 2026. See how Chobble Tickets compares for paid bookings and event ticketing.
 permalink: /compared-to/cal-com/
 eleventyNavigation:
@@ -36,6 +36,18 @@ blocks:
       # Chobble Tickets vs Cal.com
 
       Cal.com is a scheduling platform that built its reputation as the open source alternative to Calendly. On 14 April 2026, the company announced its production codebase is moving closed source. Here is how it compares to Chobble Tickets.
+  - type: markdown
+    content: |
+      ## Open source & flat fee Cal.com alternative
+
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence. Cal.com moved its production code to a closed
+      source licence in April 2026.
+
+      Cal.com bills per user, per month, starting at $12 per user on the
+      Teams plan. Chobble Tickets costs £50/year or £5/month for the whole
+      site, with no per-user charge and no per-booking cut.
   - type: markdown
     content: |
       ## Different tools for different jobs
@@ -180,8 +192,9 @@ blocks:
       Tickets is a ticketing platform. They share some basics but the
       core jobs are different, so a feature-by-feature comparison only
       goes so far. Here is the breakdown:
-
-      **Both platforms share some features:**
+  - type: markdown
+    content: |
+      ### Both platforms share some features
 
       - Online payment collection through Stripe
       - Email confirmations after booking
@@ -192,8 +205,9 @@ blocks:
       - Webhooks for integrations
       - REST API for automation
       - Free tier or self-hosting option
-
-      **Cal.com has features Chobble Tickets does not:**
+  - type: markdown
+    content: |
+      ### Cal.com has features Chobble Tickets does not
 
       - **Calendar availability sync** - Cal.com reads your Google,
         Outlook, iCloud, or other calendar to show only the times you
@@ -225,8 +239,9 @@ blocks:
         management (Organizations plan)
       - **HIPAA, SOC 2, ISO 27001 compliance certifications**
         (Organizations plan)
-
-      **Chobble Tickets has features Cal.com does not:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Cal.com does not
 
       - **[Capacity management for fixed-date events](/features/overbooking-prevention/)** -
         sell a fixed number of tickets and show a sold-out message when
@@ -419,5 +434,5 @@ blocks:
       ## Try Chobble Tickets
 
       Open source event ticketing with flat pricing and no per-user fees.
-name: Open Source Ticketing vs Cal.com Scheduling | Chobble Tickets
+name: Open Source & Flat Fee Cal.com Alternative | Chobble Tickets
 ---

@@ -1,7 +1,7 @@
 ---
 competitor_key: tickts_starter
-title: Chobble Tickets vs tickts
-meta_title: Open Source Alternative to tickts | Chobble Tickets
+title: tickts Alternative
+meta_title: Open Source & Flat Fee tickts Alternative | Chobble Tickets
 meta_description: "Chobble Tickets vs tickts: open source code, encrypted attendee data, and every feature in the £50/year plan with no tier upgrades."
 permalink: /compared-to/tickts/
 eleventyNavigation:
@@ -40,6 +40,20 @@ blocks:
       tickts is a UK ticketing platform with zero booking fees for buyers and a tiered subscription model for organisers. This page compares it to Chobble Tickets.
   - type: markdown
     content: |
+      ## Open source & flat fee tickts alternative
+
+      Both platforms are made in the UK and neither takes a cut of ticket
+      revenue. Chobble Tickets publishes its source code under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. tickts does not publish its source code.
+
+      tickts charges no booking fee and no commission, and splits features
+      across plans: free on Starter, £290/year on Growth, £690/year on Pro.
+      Chobble Tickets costs £50/year or £5/month with every feature included,
+      including the [admin API](/features/admin-api/) and [custom
+      domains](/features/custom-domain/).
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       [tickts](https://tickts.co.uk) charges no booking fees to buyers and
@@ -71,8 +85,9 @@ blocks:
       Both platforms handle event ticketing with no booking fees for
       buyers, but they take different approaches to feature access, data,
       and code. Here is the breakdown:
-
-      **Both platforms share some features:**
+  - type: markdown
+    content: |
+      ### Both platforms share some features
 
       - Online ticket sales with Stripe payment processing
       - Apple Pay and Google Pay at checkout (via Stripe)
@@ -101,8 +116,9 @@ blocks:
         access on Pro; Chobble includes full public and admin API on
         every plan)
 
-      **[tickts](https://tickts.co.uk/features) has features Chobble
-      Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### [tickts](https://tickts.co.uk/features) has features Chobble Tickets doesn't
 
       - **Native iOS and Android scanner apps** - dedicated apps for door
         staff that download attendee lists for offline scanning. Chobble
@@ -150,8 +166,9 @@ blocks:
         through tickts (100/month on Starter, 5,000 on Growth, 10,000 on
         Pro). Chobble sends bulk email through your own configured email
         provider rather than a shared platform one
-
-      **Chobble Tickets has features tickts doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features tickts doesn't
 
       - **[Encryption at rest](/features/encrypted/)** - attendee personal
         data uses hybrid RSA-OAEP + AES-256-GCM and requires an authorised
@@ -322,5 +339,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Open Source Alternative to tickts | Chobble Tickets
+name: Open Source & Flat Fee tickts Alternative | Chobble Tickets
 ---

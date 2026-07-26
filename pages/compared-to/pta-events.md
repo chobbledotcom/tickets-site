@@ -1,7 +1,7 @@
 ---
 competitor_key: pta_events
-title: Chobble Tickets vs PTA Events
-meta_title: PTA Events Alternative for School Ticketing | Chobble Tickets
+title: PTA Events Alternative
+meta_title: Open Source & Cheaper PTA Events Alternative | Chobble Tickets
 meta_description: Compare PTA Events and Chobble Tickets on school event fees, QR entry, volunteer sign-ups, fundraising tools, attendee data and annual pricing.
 permalink: /compared-to/pta-events/
 eleventyNavigation:
@@ -38,6 +38,19 @@ blocks:
       PTA Events is a popular platform built specifically for PTAs and school fundraising. This page compares Chobble Tickets against it on pricing, features, and data ownership.
   - type: markdown
     content: |
+      ## Open source & cheaper PTA Events alternative
+
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. PTA Events does not publish its source code.
+
+      PTA Events charges 3.95% per transaction on its free Starter plan, or
+      £299.99 + VAT a year for the Premium plan with a 1.5% fee. Chobble
+      Tickets charges £25/year for schools, charities and community groups on
+      the annual plan, with no percentage on top.
+  - type: markdown
+    content: |
       ## Different platforms, different approaches
 
       [PTA Events](https://www.pta-events.co.uk) is a dedicated platform for
@@ -52,7 +65,8 @@ blocks:
       pricing, open source code, and encrypted attendee data) and does not
       include PTA-specific features like prize draws or auctions, though free
       events with custom questions can serve as volunteer sign-up sheets.
-
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       PTA Events offers two plans:
@@ -84,8 +98,9 @@ blocks:
   - type: markdown
     content: |
       ## Feature comparison
-
-      **Both platforms offer:**
+  - type: markdown
+    content: |
+      ### Both platforms offer
 
       - Online ticket sales via Stripe
       - Apple Pay and Google Pay at checkout (via Stripe)
@@ -182,7 +197,8 @@ blocks:
       pages, events, products, volunteer management and committee listings. It
       also provides advertising and sponsorship tools on Premium and 14
       built-in reports.
-
+  - type: markdown
+    content: |
       ## When PTA Events makes more sense
 
       If your PTA needs the full fundraising toolkit (prize draws, auctions,
@@ -196,7 +212,8 @@ blocks:
       PTA Events is also a good choice if you want an all-in-one platform
       that covers ticketing, e-commerce, communications, and advanced
       volunteer coordination in a single tool.
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets makes more sense
 
       If your PTA mainly needs [school event ticketing](/perfect-for/schools-and-ptas/)
@@ -256,5 +273,5 @@ blocks:
       ## Simple school event ticketing
 
       Flat pricing with no per-ticket platform fee. Payment-provider charges remain separate.
-name: PTA Events Alternative for School Ticketing | Chobble Tickets
+name: Open Source & Cheaper PTA Events Alternative | Chobble Tickets
 ---

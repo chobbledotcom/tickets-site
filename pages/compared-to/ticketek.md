@@ -1,7 +1,7 @@
 ---
 competitor_key: ticketek
-title: Chobble Tickets vs Ticketek
-meta_title: Independent Alternative to Ticketek | Chobble Tickets
+title: Ticketek Alternative
+meta_title: Independent & Open Source Ticketek Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Ticketek on buyer and organiser fees, reserved seating, event discovery, attendee data and ticketing features.
 permalink: /compared-to/ticketek/
 eleventyNavigation:
@@ -33,6 +33,19 @@ blocks:
       Ticketek handles ticketing for large venues across Australia and New Zealand. Here is how Chobble Tickets compares for smaller events.
   - type: markdown
     content: |
+      ## Independent & open source Ticketek alternative
+
+      Ticketek sells through its own marketplace and negotiates fees venue by
+      venue without publishing a standard schedule. Service and handling fees
+      are typically around AU$7 to AU$8 per transaction, before delivery,
+      reissue and card surcharges.
+
+      Chobble Tickets is run by a community interest company and sells only
+      through the organiser's own site. It costs £50/year or £5/month,
+      roughly AU$95, with no per-ticket platform fee, and the [source
+      code](/features/open-source/) is published under AGPL-3.0-only.
+  - type: markdown
+    content: |
       ## Different markets
 
       Let's be upfront: [Ticketek](https://premier.ticketek.com.au) and
@@ -45,7 +58,8 @@ blocks:
       probably unavoidable, since many large venues are contractually locked
       to them. But if you're running a 200-capacity gig, a charity trivia night,
       or a community workshop, you don't need (or want) Ticketek.
-
+  - type: markdown
+    content: |
       ## Fees and pricing
 
       Ticketek does not publish a standard fee schedule, and fees vary by
@@ -67,8 +81,9 @@ blocks:
 
       Ticketek is built for a completely different market, but if you're
       Here is what each platform offers:
-
-      **Both platforms share some features:**
+  - type: markdown
+    content: |
+      ### Both platforms share some features
 
       - Online ticket sales with payment processing
       - QR code or barcode scanning for entry
@@ -76,8 +91,9 @@ blocks:
       - Event capacity limits
       - Mobile-friendly booking experience
       - Refund processing
-
-      **Ticketek has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### Ticketek has features Chobble Tickets doesn't
 
       - **Massive distribution network** - Ticketek sells over 23 million
         tickets to more than 20,000 events annually across Australia, New
@@ -117,8 +133,9 @@ blocks:
       - **TEG Live integration** - connections to TEG's live entertainment
         group including concert promotion, venue operations, and touring
 
-      **Chobble Tickets has features Ticketek doesn't offer small
-      organisers:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Ticketek doesn't offer small organisers
 
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM (notable given
@@ -170,7 +187,8 @@ blocks:
         pricing
       - **Community Interest Company** - run by a CIC, with profits
         reinvested rather than distributed to shareholders
-
+  - type: markdown
+    content: |
       ## Data ownership and security
 
       In May 2024, Ticketek suffered a
@@ -184,7 +202,8 @@ blocks:
       hybrid RSA-OAEP + AES-256-GCM. Even if someone accessed the database,
       the data would be unreadable without the encryption keys that only you
       hold.
-
+  - type: markdown
+    content: |
       ## When Ticketek makes sense
 
       - You're running events at large Australian venues that require
@@ -195,7 +214,8 @@ blocks:
         Australasia
       - You need box office POS, retail outlets, and phone sales
       - You're selling season passes for major sporting codes
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You're an independent venue, community group, or small organiser
@@ -273,5 +293,5 @@ blocks:
       ## Independent ticketing
 
       Flat pricing with no per-ticket platform fee.
-name: Independent Alternative to Ticketek | Chobble Tickets
+name: Independent & Open Source Ticketek Alternative | Chobble Tickets
 ---

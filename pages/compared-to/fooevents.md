@@ -1,7 +1,7 @@
 ---
 competitor_key: fooevents
-title: Chobble Tickets vs FooEvents
-meta_title: Chobble Tickets vs FooEvents | Ticketing Compared
+title: FooEvents Alternative
+meta_title: Open Source & Standalone FooEvents Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and FooEvents on pricing, WordPress and WooCommerce requirements, check-in, payment providers, features and self-hosting.
 permalink: /compared-to/fooevents/
 eleventyNavigation:
@@ -36,6 +36,23 @@ blocks:
       # Chobble Tickets vs FooEvents
 
       FooEvents is a set of WordPress plugins that adds ticket sales to a WooCommerce shop. Chobble Tickets is a dedicated ticketing platform. Here is how they compare.
+  - type: markdown
+    content: |
+      ## Open source & standalone FooEvents alternative
+
+      Chobble Tickets is a white label ticketing platform made in the UK,
+      with its [source code](/features/open-source/) published under the
+      AGPL-3.0-only licence and no feature held back for a higher tier.
+
+      FooEvents is a set of plugins that add ticketing to WooCommerce, so it
+      needs a WordPress site, WooCommerce, hosting, and updates for each
+      plugin. Chobble Tickets is a standalone platform with a [public website
+      and CMS](/features/your-public-website/) included, so on managed
+      hosting there is nothing to install.
+
+      FooEvents bundles cost $139 to $349 a year for one domain, and features
+      are split across licence tiers. Chobble Tickets costs £50/year or
+      £5/month with every feature included.
   - type: markdown
     content: |
       ## Two different approaches
@@ -119,8 +136,9 @@ blocks:
       Multi-day, Custom Attendee Fields, and POS are separate plugins
       that only come with the higher-tier bundles, so the Basic Bundle
       covers a much smaller feature set than the POS Bundle.
-
-      **Both platforms share some features:**
+  - type: markdown
+    content: |
+      ### Both platforms share some features
 
       - No commission or per-ticket platform fees
       - Unlimited ticket sending
@@ -132,7 +150,7 @@ blocks:
       - Custom domain support for event pages
   - type: markdown
     content: |
-      **FooEvents has features Chobble Tickets doesn't:**
+      ### FooEvents has features Chobble Tickets doesn't
 
       - **WooCommerce integration** - tickets sit alongside your other
         WooCommerce products, use the same cart and checkout, and
@@ -181,7 +199,7 @@ blocks:
         shipping, or reporting
   - type: markdown
     content: |
-      **Chobble Tickets has features FooEvents doesn't:**
+      ### Chobble Tickets has features FooEvents doesn't
 
       - **No WordPress required** - Chobble Tickets runs on its own,
         so you do not need to install, update, or secure a WordPress
@@ -316,7 +334,8 @@ blocks:
       - You want the checkout to appear in Afrikaans, Catalan, Czech,
         German, Spanish, French, Italian, Dutch, or Portuguese
         without custom translation work
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You do not want to run a WordPress site for ticket sales
@@ -385,5 +404,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted attendee data, and no WordPress site required.
-name: Chobble Tickets vs FooEvents | Ticketing Compared
+name: Open Source & Standalone FooEvents Alternative | Chobble Tickets
 ---

@@ -1,7 +1,7 @@
 ---
 competitor_key: resident_advisor
-title: Chobble Tickets vs Resident Advisor
-meta_title: Chobble Tickets vs Resident Advisor | Ticketing Compared
+title: Resident Advisor Alternative
+meta_title: No Booking Fee Resident Advisor Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Resident Advisor on organiser and buyer fees, payouts, event discovery, attendee marketing, features and self-hosting.
 permalink: /compared-to/resident-advisor/
 eleventyNavigation:
@@ -38,6 +38,19 @@ blocks:
       Resident Advisor is a ticketing and event-discovery platform for electronic music. This page compares it with Chobble Tickets on pricing, features and data handling.
   - type: markdown
     content: |
+      ## Open source & no booking fee Resident Advisor alternative
+
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. Resident Advisor does not publish its source code.
+
+      Resident Advisor adds a service fee to every ticket, paid by the buyer,
+      and does not publish a general fee schedule. Chobble Tickets adds
+      nothing to the ticket price, and the promoter pays £50/year or
+      £5/month.
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       [Resident Advisor](https://ra.co) (RA) adds a service fee on top of
@@ -63,7 +76,8 @@ blocks:
 
       With Chobble Tickets, attendee data is encrypted and stays under your
       control. Chobble does not market anything to your attendees.
-
+  - type: markdown
+    content: |
       ## Payouts
 
       RA pays promoters after the event. Payments are processed on Tuesdays
@@ -73,10 +87,12 @@ blocks:
       Chobble Tickets uses Stripe, Square, or SumUp directly, so payments go straight
       to your account with standard processing times. You're always in control
       of your own payment processor account.
-
+  - type: markdown
+    content: |
       ## Feature comparison
-
-      **Both sites share some features:**
+  - type: markdown
+    content: |
+      ### Both sites share some features
 
       - Online ticket sales with payment processing
       - Apple Pay and Google Pay at checkout
@@ -89,8 +105,9 @@ blocks:
       Resident Advisor has some features Chobble Tickets doesn't, and vice
       versa:
 
-      **[Resident Advisor](https://pro.ra.co/ra-tickets) has features
-      Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### [Resident Advisor](https://pro.ra.co/ra-tickets) has features Chobble Tickets doesn't
 
       - **Electronic music community** - RA reaches
         [millions of electronic music fans](https://pro.ra.co/promoter)
@@ -135,8 +152,9 @@ blocks:
         website
       - **B-Corp certified** - RA is a certified B-Corp, demonstrating
         commitment to social and environmental standards
-
-      **Chobble Tickets has features Resident Advisor doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Resident Advisor doesn't
 
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
@@ -183,7 +201,8 @@ blocks:
         your customers
       - **Flat pricing** - no per-ticket platform fees, no matter how many you
         sell
-
+  - type: markdown
+    content: |
       ## When Resident Advisor might be better
 
       - You're running electronic music events and want RA's big audience
@@ -195,7 +214,8 @@ blocks:
         in the electronic music world
       - You only sell a small number of tickets per year and prefer paying
         per ticket over a flat fee
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets might be better
 
       - You want simple, flat-rate pricing with no per-ticket platform fees
@@ -256,5 +276,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Chobble Tickets vs Resident Advisor | Ticketing Compared
+name: No Booking Fee Resident Advisor Alternative | Chobble Tickets
 ---

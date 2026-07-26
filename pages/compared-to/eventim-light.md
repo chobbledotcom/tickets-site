@@ -1,7 +1,7 @@
 ---
 competitor_key: eventim_light
-title: Chobble Tickets vs EVENTIM.Light
-meta_title: Chobble Tickets vs EVENTIM.Light | Fees and Features
+title: EVENTIM.Light Alternative
+meta_title: Open Source & Cheaper EVENTIM.Light Alternative | Chobble Tickets
 meta_description: Compare EVENTIM.Light and Chobble Tickets on organiser and buyer fees, payments, event discovery, attendee data, ticketing features and self-hosting.
 permalink: /compared-to/eventim-light/
 eleventyNavigation:
@@ -38,6 +38,22 @@ blocks:
       # Chobble Tickets vs EVENTIM.Light
 
       EVENTIM.Light is the self-service platform from CTS EVENTIM. This page compares it with Chobble Tickets on pricing, features and data handling.
+  - type: markdown
+    content: |
+      ## Open source & cheaper EVENTIM.Light alternative
+
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. EVENTIM.Light does not publish its source code.
+
+      EVENTIM.Light charges 8% per ticket in the UK, which is £1.20 on a £15
+      ticket, with payment processing included. Chobble Tickets charges
+      £50/year or £5/month and payment processing is separate.
+
+      Taking Stripe's UK rate of 1.5% + 20p as the processing cost, an
+      organiser selling more than about 65 tickets at £15 in a year pays less
+      with Chobble Tickets. Square or SumUp rates give a different figure.
   - type: markdown
     content: |
       ## What is EVENTIM.Light?
@@ -105,8 +121,9 @@ blocks:
   - type: markdown
     content: |
       ## Feature comparison
-
-      **Both platforms share some features:**
+  - type: markdown
+    content: |
+      ### Both platforms share some features
 
       - Online ticket sales with payment processing
       - QR code scanning for check-in at the door
@@ -119,8 +136,9 @@ blocks:
       - Event series / recurring events
       - Custom branding on your ticket shop
       - Custom checkout questions
-
-      **EVENTIM.Light has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### EVENTIM.Light has features Chobble Tickets doesn't
 
       - **EVENTIM network distribution** - your events get listed on
         [eventim.co.uk](https://www.eventim.co.uk) (500,000+ monthly visitors
@@ -148,7 +166,7 @@ blocks:
         built into the platform
   - type: markdown
     content: |
-      **Chobble Tickets has features EVENTIM.Light doesn't:**
+      ### Chobble Tickets has features EVENTIM.Light doesn't
 
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, not just stored
@@ -340,5 +358,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Chobble Tickets vs EVENTIM.Light | Fees and Features
+name: Open Source & Cheaper EVENTIM.Light Alternative | Chobble Tickets
 ---

@@ -1,7 +1,7 @@
 ---
 competitor_key: bookitbee
-title: Chobble Tickets vs BookitBee
-meta_title: Chobble Tickets vs BookitBee | Fees and Features
+title: BookitBee Alternative
+meta_title: Open Source & Cheaper BookitBee Alternative | Chobble Tickets
 meta_description: Compare BookitBee and Chobble Tickets on organiser and buyer fees, payment providers, ticketing features, attendee data and self-hosting.
 permalink: /compared-to/bookitbee/
 eleventyNavigation:
@@ -33,6 +33,18 @@ blocks:
       BookitBee is a UK-based ticketing platform. This page compares it to Chobble Tickets.
   - type: markdown
     content: |
+      ## Open source & cheaper BookitBee alternative
+
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. BookitBee is closed source and does not publish its code.
+
+      BookitBee charges from 3.5% per ticket, with a £1 minimum and a £19.95
+      cap. Chobble Tickets charges £50/year or £5/month, or £25/year for
+      charities on the annual plan, and takes no percentage of ticket sales.
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       [BookitBee](https://www.bookitbee.com) charges per ticket sold,
@@ -51,8 +63,9 @@ blocks:
       BookitBee and Chobble Tickets both handle event ticketing, but they
       focus on different things. Here is what each offers that the other
       doesn't:
-
-      **Both sites share some features:**
+  - type: markdown
+    content: |
+      ### Both sites share some features
 
       - Online ticket sales with Stripe payment processing
       - Apple Pay and Google Pay at checkout (via Stripe)
@@ -64,9 +77,9 @@ blocks:
       - Custom questions at checkout
       - Multiple ticket types per event: both platforms let you create
         VIP, early bird, group, and standard tiers with different prices
-
-      **[BookitBee](https://www.bookitbee.com/features/) has features
-      Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### [BookitBee](https://www.bookitbee.com/features/) has features Chobble Tickets doesn't
 
       - **Social Group Deals** - a viral marketing mechanic where buyers
         share a unique link, and once enough friends purchase, the original
@@ -106,8 +119,9 @@ blocks:
         marketing and communication tools
       - **Real-time sales dashboard** - live analytics showing ticket
         sales, revenue, and attendee demographics
-
-      **Chobble Tickets has features BookitBee doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features BookitBee doesn't
 
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
@@ -162,7 +176,8 @@ blocks:
         iframe into your website
       - **No marketing to your attendees** - your audience stays yours
       - **Community Interest Company** - run by a CIC, with profits reinvested rather than distributed to shareholders
-
+  - type: markdown
+    content: |
       ## When BookitBee might be better
 
       - You want Social Group Deals to drive viral ticket sales
@@ -177,7 +192,8 @@ blocks:
       - You prefer a box office POS for on-the-door sales
       - You have very low volume and prefer paying per ticket over a
         flat fee
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       - You want predictable, flat-rate pricing with no per-ticket platform fees
@@ -231,5 +247,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing with open source code and no per-ticket platform fee.
-name: Chobble Tickets vs BookitBee | Fees and Features
+name: Open Source & Cheaper BookitBee Alternative | Chobble Tickets
 ---

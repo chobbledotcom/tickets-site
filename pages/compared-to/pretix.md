@@ -2,8 +2,8 @@
 competitor_key: pretix_hosted
 selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: pretix_selfhosted
-title: Chobble Tickets vs Pretix
-meta_title: Open Source Alternative to Pretix | Chobble Tickets
+title: Pretix Alternative
+meta_title: UK Made & Flat Fee Pretix Alternative | Chobble Tickets
 meta_description: Comparing two open source ticketing platforms, Chobble Tickets and Pretix. See how hosted and self-hosted costs compare for your event.
 permalink: /compared-to/pretix/
 eleventyNavigation:
@@ -45,6 +45,23 @@ blocks:
       Two open source ticketing platforms with very different models. This page compares them on cost, complexity, and approach.
   - type: markdown
     content: |
+      ## UK made & flat fee Pretix alternative
+
+      Chobble Tickets is made in the UK by a community interest company and
+      priced in pounds. Pretix is made in Germany by pretix GmbH and priced
+      in euros.
+
+      Both platforms are open source and both can be self-hosted. Pretix
+      Hosted charges 2.5% of each ticket price, capped at €15 per ticket, on
+      top of payment provider fees. Chobble Tickets charges a flat £50/year
+      or £5/month however many tickets you sell.
+
+      Self-hosting differs too. Pretix keeps some features, such as seating
+      plans and point of sale, in enterprise plugins from €499 a year.
+      Chobble Tickets has one version with no licence fee and no feature
+      tier.
+  - type: markdown
+    content: |
       ## Two open source projects, two approaches
 
       [Pretix](https://pretix.eu) and Chobble Tickets are both open source event ticketing platforms,
@@ -58,8 +75,9 @@ blocks:
       [Swicket with alf.io](/compared-to/swicket/). The
       [open source page](/features/open-source/) describes Chobble Tickets
       without a competitor comparison.
-
-      **Both sites share some features:**
+  - type: markdown
+    content: |
+      ### Both sites share some features
 
       - Open source under AGPLv3
       - Self-hosting option with no licence fee for core features
@@ -77,7 +95,8 @@ blocks:
 
       The differences are in pricing, complexity, and who they're designed
       for.
-
+  - type: markdown
+    content: |
       ## Hosted pricing comparison
 
       Pretix Hosted charges 2.5% of each ticket's price (excl. taxes), capped
@@ -193,8 +212,9 @@ blocks:
       scanning, badges, resellers, and others) are only available with a
       Pretix Enterprise licence starting at €499/year. The free Community
       edition includes core ticketing but lacks these plugins.
-
-      **Chobble Tickets has features Pretix doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features Pretix doesn't
 
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
@@ -206,7 +226,8 @@ blocks:
         spam protection, edited from the admin panel with Markdown and
         [custom CSS](/features/customising-your-site/). Pretix provides
         organiser profiles, event shops and mini-CMS pages for static content
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets is the better choice
 
       For smaller organisers running community events, school fairs, local
@@ -217,7 +238,8 @@ blocks:
       The flat £50/year or £5/month hosted plan means your costs are predictable.
       Self-hosting has no Chobble software licence fee or feature tier, while
       infrastructure and configured services remain separate costs.
-
+  - type: markdown
+    content: |
       ## Feature comparison at a glance
 
       | | Chobble Tickets | Pretix |
@@ -301,5 +323,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat-rate ticketing with published AGPL-3.0-only product source.
-name: Open Source Alternative to Pretix | Chobble Tickets
+name: UK Made & Flat Fee Pretix Alternative | Chobble Tickets
 ---

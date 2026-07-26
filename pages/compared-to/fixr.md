@@ -1,7 +1,7 @@
 ---
 competitor_key: fixr
-title: Chobble Tickets vs FIXR
-meta_title: Chobble Tickets vs FIXR | Fees, Discovery and Features
+title: FIXR Alternative
+meta_title: Open Source & No Booking Fee FIXR Alternative | Chobble Tickets
 meta_description: Compare FIXR and Chobble Tickets on buyer fees, organiser costs, event discovery, attendee marketing, payouts and ticketing features.
 permalink: /compared-to/fixr/
 eleventyNavigation:
@@ -31,6 +31,22 @@ blocks:
       # Chobble Tickets vs FIXR
 
       FIXR is a UK ticketing and event-discovery platform used for student and nightlife events. This page compares it with Chobble Tickets on pricing, features and data handling.
+  - type: markdown
+    content: |
+      ## Open source & no booking fee FIXR alternative
+
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company, with its [source
+      code](/features/open-source/) published under the AGPL-3.0-only
+      licence.
+
+      FIXR is free for organisers because ticket buyers pay the booking fee:
+      4.99% + £0.49 per ticket plus VAT on the Pro tier, with a £1 minimum.
+      Chobble Tickets adds no booking fee to the ticket price, so buyers pay
+      what the organiser sets.
+
+      The organiser pays £50/year or £5/month instead, or £25/year for
+      charities and community groups on the annual plan.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -77,8 +93,9 @@ blocks:
   - type: markdown
     content: |
       ## Feature comparison
-
-      **Both platforms share some features:**
+  - type: markdown
+    content: |
+      ### Both platforms share some features
 
       - Online ticket sales
       - QR code scanning for check-in at the door
@@ -89,8 +106,9 @@ blocks:
       - Embeddable ticket widgets for your own website
 
       FIXR has some features Chobble Tickets doesn't, and vice versa:
-
-      **FIXR has features Chobble Tickets doesn't:**
+  - type: markdown
+    content: |
+      ### FIXR has features Chobble Tickets doesn't
 
       - **Event discovery app** - FIXR's consumer-facing app and website
         let attendees browse and discover events, with strong reach in
@@ -113,8 +131,9 @@ blocks:
         custom branded apps and websites for your events
       - **Business insights** - analytics on customer origination,
         journey, and lifecycle
-
-      **Chobble Tickets has features FIXR doesn't:**
+  - type: markdown
+    content: |
+      ### Chobble Tickets has features FIXR doesn't
 
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         create promo codes, discount codes, surcharges, and opt-in add-ons
@@ -170,7 +189,8 @@ blocks:
       - You need student verification for age-restricted events
       - You have very low volume and prefer buyer-pays fees over an
         annual subscription
-
+  - type: markdown
+    content: |
       ## When Chobble Tickets might be better
 
       - You want predictable, flat-rate pricing with no per-ticket platform fees
@@ -222,5 +242,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Chobble Tickets vs FIXR | Fees, Discovery and Features
+name: Open Source & No Booking Fee FIXR Alternative | Chobble Tickets
 ---
