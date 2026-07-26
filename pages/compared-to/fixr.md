@@ -1,7 +1,7 @@
 ---
 competitor_key: fixr
 title: FIXR Alternative
-meta_title: No Booking Fee FIXR Alternative | Chobble Tickets
+meta_title: Open Source & No Booking Fee FIXR Alternative | Chobble Tickets
 meta_description: Compare FIXR and Chobble Tickets on buyer fees, organiser costs, event discovery, attendee marketing, payouts and ticketing features.
 permalink: /compared-to/fixr/
 eleventyNavigation:
@@ -33,7 +33,12 @@ blocks:
       FIXR is a UK ticketing and event-discovery platform used for student and nightlife events. This page compares it with Chobble Tickets on pricing, features and data handling.
   - type: markdown
     content: |
-      ## FIXR alternative without buyer booking fees
+      ## Open source & no booking fee FIXR alternative
+
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company, with its [source
+      code](/features/open-source/) published under the AGPL-3.0-only
+      licence.
 
       FIXR is free for organisers because ticket buyers pay the booking fee:
       4.99% + £0.49 per ticket plus VAT on the Pro tier, with a £1 minimum.
@@ -41,8 +46,7 @@ blocks:
       what the organiser sets.
 
       The organiser pays £50/year or £5/month instead, or £25/year for
-      charities and community groups on the annual plan. The [source
-      code](/features/open-source/) is published under AGPL-3.0-only.
+      charities and community groups on the annual plan.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -238,5 +242,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: No Booking Fee FIXR Alternative | Chobble Tickets
+name: Open Source & No Booking Fee FIXR Alternative | Chobble Tickets
 ---

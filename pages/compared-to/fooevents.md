@@ -1,7 +1,7 @@
 ---
 competitor_key: fooevents
 title: FooEvents Alternative
-meta_title: FooEvents Alternative Without WordPress | Chobble Tickets
+meta_title: Open Source & Standalone FooEvents Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and FooEvents on pricing, WordPress and WooCommerce requirements, check-in, payment providers, features and self-hosting.
 permalink: /compared-to/fooevents/
 eleventyNavigation:
@@ -38,7 +38,11 @@ blocks:
       FooEvents is a set of WordPress plugins that adds ticket sales to a WooCommerce shop. Chobble Tickets is a dedicated ticketing platform. Here is how they compare.
   - type: markdown
     content: |
-      ## FooEvents alternative without WordPress
+      ## Open source & standalone FooEvents alternative
+
+      Chobble Tickets is a white label ticketing platform made in the UK,
+      with its [source code](/features/open-source/) published under the
+      AGPL-3.0-only licence and no feature held back for a higher tier.
 
       FooEvents is a set of plugins that add ticketing to WooCommerce, so it
       needs a WordPress site, WooCommerce, hosting, and updates for each
@@ -400,5 +404,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted attendee data, and no WordPress site required.
-name: FooEvents Alternative Without WordPress | Chobble Tickets
+name: Open Source & Standalone FooEvents Alternative | Chobble Tickets
 ---

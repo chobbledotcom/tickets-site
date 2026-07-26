@@ -1,7 +1,7 @@
 ---
 competitor_key: ticketmaster
 title: Ticketmaster Alternative
-meta_title: Independent Ticketmaster Alternative | Chobble Tickets
+meta_title: Independent & Open Source Ticketmaster Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Ticketmaster on buyer and organiser fees, reserved seating, event discovery, attendee data and ticketing features.
 permalink: /compared-to/ticketmaster/
 eleventyNavigation:
@@ -33,7 +33,7 @@ blocks:
       Ticketmaster handles ticketing for large venues and arenas. Here is how Chobble Tickets compares for smaller events.
   - type: markdown
     content: |
-      ## Independent Ticketmaster alternative
+      ## Independent & open source Ticketmaster alternative
 
       Ticketmaster is owned by Live Nation, sells through its own
       marketplace, and sets attendee fees through venue and promoter
@@ -191,7 +191,7 @@ blocks:
       - **Community Interest Company** - run by a CIC, with profits reinvested rather than distributed to shareholders
   - type: markdown
     content: |
-      ## An independent alternative
+      ## Control over your ticketing
 
       With Chobble Tickets, you control your ticketing setup. Your attendee
       data is encrypted and stays with you, you use your own domain, and there
@@ -257,5 +257,5 @@ blocks:
       ## Independent ticketing
 
       Flat pricing with no per-ticket platform fee.
-name: Independent Ticketmaster Alternative | Chobble Tickets
+name: Independent & Open Source Ticketmaster Alternative | Chobble Tickets
 ---

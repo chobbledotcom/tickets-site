@@ -1,7 +1,7 @@
 ---
 competitor_key: fatsoma
 title: Fatsoma Alternative
-meta_title: Open Source Fatsoma Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper Fatsoma Alternative | Chobble Tickets
 meta_description: Compare Fatsoma and Chobble Tickets on buyer fees, event discovery, follower marketing, payouts, ticketing features and self-hosting.
 permalink: /compared-to/fatsoma/
 eleventyNavigation:
@@ -33,11 +33,12 @@ blocks:
       Fatsoma is popular with student events and nightlife promoters. Here's how a small, open source alternative compares on pricing, features, and data ownership.
   - type: markdown
     content: |
-      ## Open source Fatsoma alternative
+      ## Open source & cheaper Fatsoma alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy. Fatsoma
-      does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. Fatsoma does not publish its source code.
 
       Fatsoma charges 10% per ticket with a £1 minimum, plus Stripe
       processing. Chobble Tickets charges £50/year or £5/month, so an
@@ -257,5 +258,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Open Source Fatsoma Alternative | Chobble Tickets
+name: Open Source & Cheaper Fatsoma Alternative | Chobble Tickets
 ---

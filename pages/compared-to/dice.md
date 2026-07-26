@@ -1,7 +1,7 @@
 ---
 competitor_key: dice
 title: DICE Alternative
-meta_title: Open Source DICE Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper DICE Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and DICE on buyer and organiser fees, app requirements, event discovery, resale, attendee data and ticketing features.
 permalink: /compared-to/dice/
 eleventyNavigation:
@@ -33,11 +33,12 @@ blocks:
       DICE is a mobile-first ticketing platform popular with music venues and live events. Here is how Chobble Tickets compares on pricing, features, and data ownership.
   - type: markdown
     content: |
-      ## Open source DICE alternative
+      ## Open source & cheaper DICE alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy. DICE
-      does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. DICE does not publish its source code.
 
       DICE does not publish its fees, so rates are agreed case by case, and
       tickets live in the DICE app. Chobble Tickets costs £50/year or
@@ -258,5 +259,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest, no attendee app requirement and no per-ticket platform fee.
-name: Open Source DICE Alternative | Chobble Tickets
+name: Open Source & Cheaper DICE Alternative | Chobble Tickets
 ---

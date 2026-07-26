@@ -1,6 +1,6 @@
 ---
 title: Swicket Alternative
-meta_title: Flat Fee Swicket and alf.io Alternative | Chobble Tickets
+meta_title: UK Made & Flat Fee Swicket Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets with Swicket and alf.io on managed and self-hosted pricing, enterprise features, deployment, source licences and attendee data.
 permalink: /compared-to/swicket/
 eleventyNavigation:
@@ -37,7 +37,11 @@ blocks:
       Swicket is the commercial, managed version of the open source alf.io ticketing platform, built for large conferences and medical congresses. This page compares it to Chobble Tickets for independent event organisers.
   - type: markdown
     content: |
-      ## Flat fee Swicket and alf.io alternative
+      ## UK made & flat fee Swicket and alf.io alternative
+
+      Chobble Tickets is made in the UK by a community interest company and
+      priced in pounds. Swicket is run by Vivento Lab in Lugano,
+      Switzerland.
 
       Swicket is the managed service built on alf.io, the GPLv3 open source
       ticketing engine, and it is aimed at conferences and congresses of
@@ -267,5 +271,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no enterprise contracts required.
-name: Flat Fee Swicket and alf.io Alternative | Chobble Tickets
+name: UK Made & Flat Fee Swicket Alternative | Chobble Tickets
 ---

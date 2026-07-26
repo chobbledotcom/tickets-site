@@ -1,7 +1,7 @@
 ---
 competitor_key: eventbrite
 title: Eventbrite Alternative
-meta_title: Open Source Eventbrite Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper Eventbrite Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Eventbrite on organiser and buyer fees, event discovery, attendee marketing, payments and ticketing features.
 permalink: /compared-to/eventbrite/
 eleventyNavigation:
@@ -33,9 +33,11 @@ blocks:
       Eventbrite is the biggest name in event ticketing, so here's how a small, open source alternative compares.
   - type: markdown
     content: |
-      ## Open source Eventbrite alternative
+      ## Open source & cheaper Eventbrite alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company, so profit cannot be paid out to
+      shareholders. Its source code is published under the AGPL-3.0-only
       licence, so anyone can read it, fork it, or run their own copy.
       Eventbrite does not publish its source code.
 
@@ -312,5 +314,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Open Source Eventbrite Alternative | Chobble Tickets
+name: Open Source & Cheaper Eventbrite Alternative | Chobble Tickets
 ---

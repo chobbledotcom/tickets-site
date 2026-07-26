@@ -1,7 +1,7 @@
 ---
 competitor_key: ticket_tailor
 title: Ticket Tailor Alternative
-meta_title: Open Source Ticket Tailor Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper Ticket Tailor Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Ticket Tailor on organiser fees, payment options, event discovery, ticketing features, attendee data and source licensing.
 permalink: /compared-to/ticket-tailor/
 eleventyNavigation:
@@ -40,11 +40,12 @@ blocks:
       Ticket Tailor is an independently owned ticketing platform from London, running since 2010. This page compares it to Chobble Tickets.
   - type: markdown
     content: |
-      ## Open source Ticket Tailor alternative
+      ## Open source & cheaper Ticket Tailor alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy. Ticket
-      Tailor does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. Ticket Tailor does not publish its source code.
 
       Ticket Tailor charges 60p per paid ticket pay-as-you-go, dropping to
       around 22p per ticket on the largest credit bundles, with 50% off for
@@ -294,5 +295,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Open Source Ticket Tailor Alternative | Chobble Tickets
+name: Open Source & Cheaper Ticket Tailor Alternative | Chobble Tickets
 ---

@@ -1,7 +1,7 @@
 ---
 competitor_key: ticketek
 title: Ticketek Alternative
-meta_title: Independent Ticketek Alternative | Chobble Tickets
+meta_title: Independent & Open Source Ticketek Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Ticketek on buyer and organiser fees, reserved seating, event discovery, attendee data and ticketing features.
 permalink: /compared-to/ticketek/
 eleventyNavigation:
@@ -33,7 +33,7 @@ blocks:
       Ticketek handles ticketing for large venues across Australia and New Zealand. Here is how Chobble Tickets compares for smaller events.
   - type: markdown
     content: |
-      ## Independent Ticketek alternative
+      ## Independent & open source Ticketek alternative
 
       Ticketek is part of TEG, sells through its own marketplace, and
       negotiates fees venue by venue without publishing a standard schedule.
@@ -292,5 +292,5 @@ blocks:
       ## Independent ticketing
 
       Flat pricing with no per-ticket platform fee.
-name: Independent Ticketek Alternative | Chobble Tickets
+name: Independent & Open Source Ticketek Alternative | Chobble Tickets
 ---

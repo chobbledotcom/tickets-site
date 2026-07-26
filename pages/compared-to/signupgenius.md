@@ -1,7 +1,7 @@
 ---
 competitor_key: signupgenius
 title: SignUpGenius Alternative
-meta_title: Ad Free SignUpGenius Alternative | Chobble Tickets
+meta_title: Ad Free & Open Source SignUpGenius Alternative | Chobble Tickets
 meta_description: Chobble Tickets is a ticketing alternative to SignUpGenius, with purpose-built event ticketing, flat pricing, encryption, and no ads on your event pages.
 permalink: /compared-to/signupgenius/
 eleventyNavigation:
@@ -33,7 +33,12 @@ blocks:
       SignUpGenius is the go-to tool for volunteer sign-up sheets and group coordination, used by over 70 million people a year. It wasn't built for event ticketing. This page compares it to a platform that was.
   - type: markdown
     content: |
-      ## Ad free SignUpGenius alternative
+      ## Ad free & open source SignUpGenius alternative
+
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company, with its [source
+      code](/features/open-source/) published under the AGPL-3.0-only
+      licence.
 
       The free SignUpGenius tier shows adverts to everyone who opens a
       sign-up page, and removing them means moving to a paid plan from
@@ -41,8 +46,7 @@ blocks:
 
       SignUpGenius Tickets charges $0.25 per ticket plus Stripe processing.
       Chobble Tickets charges £50/year or £5/month, or £25/year for
-      charities, community groups and schools on the annual plan, and its
-      [source code](/features/open-source/) is published under AGPL-3.0-only.
+      charities, community groups and schools on the annual plan.
   - type: markdown
     content: |
       ## Different tools for different jobs
@@ -358,5 +362,5 @@ blocks:
       ## Try Chobble Tickets
 
       Ticketing and sign-up forms with no ads and no per-ticket platform fee.
-name: Ad Free SignUpGenius Alternative | Chobble Tickets
+name: Ad Free & Open Source SignUpGenius Alternative | Chobble Tickets
 ---

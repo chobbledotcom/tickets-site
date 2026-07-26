@@ -1,6 +1,6 @@
 ---
 title: Google Forms Alternative
-meta_title: Google Forms Alternative for Event Ticketing | Chobble Tickets
+meta_title: Open Source & Full Ticketing Google Forms Alternative | Chobble Tickets
 meta_description: Compare Google Forms and Chobble Tickets for event registration, payments, capacity limits, confirmation emails, QR entry and attendee data.
 permalink: /compared-to/google-forms/
 eleventyNavigation:
@@ -31,7 +31,12 @@ blocks:
       Google Forms is free and everyone knows how to use it, but it wasn't built for event ticketing.
   - type: markdown
     content: |
-      ## Google Forms alternative for event ticketing
+      ## Open source & full ticketing Google Forms alternative
+
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company, with its [source
+      code](/features/open-source/) published under the AGPL-3.0-only
+      licence.
 
       Google Forms collects responses. It does not take payment, issue
       tickets, enforce a capacity limit, or scan anyone in at the door, so
@@ -190,5 +195,5 @@ blocks:
       ## Purpose-built ticketing
 
       Everything Google Forms does for RSVPs, plus payments, tickets, and check-in.
-name: Google Forms Alternative for Event Ticketing | Chobble Tickets
+name: Open Source & Full Ticketing Google Forms Alternative | Chobble Tickets
 ---

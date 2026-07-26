@@ -1,7 +1,7 @@
 ---
 competitor_key: pta_events
 title: PTA Events Alternative
-meta_title: Open Source PTA Events Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper PTA Events Alternative | Chobble Tickets
 meta_description: Compare PTA Events and Chobble Tickets on school event fees, QR entry, volunteer sign-ups, fundraising tools, attendee data and annual pricing.
 permalink: /compared-to/pta-events/
 eleventyNavigation:
@@ -38,11 +38,12 @@ blocks:
       PTA Events is a popular platform built specifically for PTAs and school fundraising. This page compares Chobble Tickets against it on pricing, features, and data ownership.
   - type: markdown
     content: |
-      ## Open source PTA Events alternative
+      ## Open source & cheaper PTA Events alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy. PTA
-      Events does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. PTA Events does not publish its source code.
 
       PTA Events charges 3.95% per transaction on its free Starter plan, or
       £299.99 + VAT a year for the Premium plan with a 1.5% fee. Chobble
@@ -272,5 +273,5 @@ blocks:
       ## Simple school event ticketing
 
       Flat pricing with no per-ticket platform fee. Payment-provider charges remain separate.
-name: Open Source PTA Events Alternative | Chobble Tickets
+name: Open Source & Cheaper PTA Events Alternative | Chobble Tickets
 ---

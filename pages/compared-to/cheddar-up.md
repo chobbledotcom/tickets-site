@@ -1,7 +1,7 @@
 ---
 competitor_key: cheddar_up
 title: Cheddar Up Alternative
-meta_title: Open Source Cheddar Up Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper Cheddar Up Alternative | Chobble Tickets
 meta_description: Compare Cheddar Up and Chobble Tickets on subscription and transaction fees, payment collection, QR ticketing, integrations and attendee data.
 permalink: /compared-to/cheddar-up/
 eleventyNavigation:
@@ -39,11 +39,12 @@ blocks:
       Cheddar Up is a payment collection platform popular with PTAs, nonprofits, and community groups in the US. Here is how Chobble Tickets compares.
   - type: markdown
     content: |
-      ## Open source Cheddar Up alternative
+      ## Open source & cheaper Cheddar Up alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy.
-      Cheddar Up does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. Cheddar Up does not publish its source code.
 
       Cheddar Up puts ticketing with QR check-in on its Team plan at
       $420/year, and adds a per-transaction fee of 3.59% + $0.59. Chobble
@@ -292,5 +293,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and encrypted attendee data.
-name: Open Source Cheddar Up Alternative | Chobble Tickets
+name: Open Source & Cheaper Cheddar Up Alternative | Chobble Tickets
 ---

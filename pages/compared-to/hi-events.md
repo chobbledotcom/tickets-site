@@ -3,7 +3,7 @@ competitor_key: hi_events
 selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: hi_events_selfhosted
 title: Hi.Events Alternative
-meta_title: Flat Fee Hi.Events Alternative | Chobble Tickets
+meta_title: UK Made & Flat Fee Hi.Events Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Hi.Events on cloud and self-hosted pricing, licences, server requirements, branding rules and event features.
 permalink: /compared-to/hi-events/
 eleventyNavigation:
@@ -44,7 +44,11 @@ blocks:
       Hi.Events is another open source ticketing platform, so this is a comparison between two projects with similar values but different approaches.
   - type: markdown
     content: |
-      ## Flat fee Hi.Events alternative
+      ## UK made & flat fee Hi.Events alternative
+
+      Chobble Tickets is made in the UK by a community interest company, so
+      prices are set in pounds and profit cannot be paid out to
+      shareholders.
 
       Both platforms publish their source code, and both can be self-hosted.
       The hosted pricing differs: Hi.Events Cloud takes 0.75% + 40¢ per
@@ -347,5 +351,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Flat Fee Hi.Events Alternative | Chobble Tickets
+name: UK Made & Flat Fee Hi.Events Alternative | Chobble Tickets
 ---

@@ -1,7 +1,7 @@
 ---
 competitor_key: tito
 title: Tito Alternative
-meta_title: Open Source Tito Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper Tito Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Tito on ticket fees, payment providers, event features, attendee data, integrations and source licensing.
 permalink: /compared-to/tito/
 eleventyNavigation:
@@ -33,11 +33,12 @@ blocks:
       Tito is a well-regarded, developer-friendly ticketing platform from Ireland, so here's how a small, open source alternative compares.
   - type: markdown
     content: |
-      ## Open source Tito alternative
+      ## Open source & cheaper Tito alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy. Tito
-      does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. Tito does not publish its source code.
 
       Tito charges 3% per paid ticket, capped at €25, with reduced rates for
       non-profits and charities. Chobble Tickets charges £50/year or
@@ -264,5 +265,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Open Source Tito Alternative | Chobble Tickets
+name: Open Source & Cheaper Tito Alternative | Chobble Tickets
 ---

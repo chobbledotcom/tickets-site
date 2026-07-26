@@ -1,7 +1,7 @@
 ---
 competitor_key: bookitbee
 title: BookitBee Alternative
-meta_title: Open Source BookitBee Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper BookitBee Alternative | Chobble Tickets
 meta_description: Compare BookitBee and Chobble Tickets on organiser and buyer fees, payment providers, ticketing features, attendee data and self-hosting.
 permalink: /compared-to/bookitbee/
 eleventyNavigation:
@@ -33,11 +33,12 @@ blocks:
       BookitBee is a UK-based ticketing platform. This page compares it to Chobble Tickets.
   - type: markdown
     content: |
-      ## Open source BookitBee alternative
+      ## Open source & cheaper BookitBee alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy.
-      BookitBee does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. BookitBee does not publish its source code.
 
       BookitBee charges from 3.5% per ticket, with a £1 minimum and a £19.95
       cap. Chobble Tickets charges £50/year or £5/month, or £25/year for
@@ -246,5 +247,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing with open source code and no per-ticket platform fee.
-name: Open Source BookitBee Alternative | Chobble Tickets
+name: Open Source & Cheaper BookitBee Alternative | Chobble Tickets
 ---

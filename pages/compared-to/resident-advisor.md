@@ -1,7 +1,7 @@
 ---
 competitor_key: resident_advisor
 title: Resident Advisor Alternative
-meta_title: Open Source Resident Advisor Alternative | Chobble Tickets
+meta_title: No Booking Fee Resident Advisor Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Resident Advisor on organiser and buyer fees, payouts, event discovery, attendee marketing, features and self-hosting.
 permalink: /compared-to/resident-advisor/
 eleventyNavigation:
@@ -38,11 +38,12 @@ blocks:
       Resident Advisor is a ticketing and event-discovery platform for electronic music. This page compares it with Chobble Tickets on pricing, features and data handling.
   - type: markdown
     content: |
-      ## Open source Resident Advisor alternative
+      ## Open source & no booking fee Resident Advisor alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy.
-      Resident Advisor does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. Resident Advisor does not publish its source code.
 
       Resident Advisor adds a service fee to every ticket, paid by the buyer,
       and does not publish a general fee schedule. Chobble Tickets adds
@@ -274,5 +275,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Open Source Resident Advisor Alternative | Chobble Tickets
+name: No Booking Fee Resident Advisor Alternative | Chobble Tickets
 ---

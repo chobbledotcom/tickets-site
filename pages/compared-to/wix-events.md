@@ -1,7 +1,7 @@
 ---
 competitor_key: wix_events
 title: Wix Events Alternative
-meta_title: Open Source Wix Events Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper Wix Events Alternative | Chobble Tickets
 meta_description: Compare Wix Events and Chobble Tickets on subscriptions, ticket fees, website integration, branding, attendee data and self-hosting.
 permalink: /compared-to/wix-events/
 eleventyNavigation:
@@ -38,11 +38,12 @@ blocks:
       Wix Events is a ticketing add-on built into the Wix website builder. Here is how a dedicated, open source ticketing platform compares.
   - type: markdown
     content: |
-      ## Open source Wix Events alternative
+      ## Open source & cheaper Wix Events alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy. Wix
-      does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. Wix does not publish its source code.
 
       Wix Events charges a 2.5% ticket service fee and needs a Wix Business
       and eCommerce plan from $29/month, about £276 a year. Chobble Tickets
@@ -303,5 +304,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and encrypted attendee data.
-name: Open Source Wix Events Alternative | Chobble Tickets
+name: Open Source & Cheaper Wix Events Alternative | Chobble Tickets
 ---

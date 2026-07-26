@@ -1,7 +1,7 @@
 ---
 competitor_key: dandelion
 title: Dandelion Alternative
-meta_title: Flat Fee Dandelion Alternative | Chobble Tickets
+meta_title: White Label & Flat Fee Dandelion Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Dandelion on fees, community tools, deposits, logistics, accounting, data handling, source licences, and self-hosting.
 permalink: /compared-to/dandelion/
 eleventyNavigation:
@@ -41,7 +41,13 @@ blocks:
       Dandelion is a ticketing and community platform provided by Symbiota, which describes itself as a not-for-profit worker co-operative. Dandelion does not charge an annual subscription or a mandatory fee on tickets sold through the platform. It also provides a public event marketplace.
   - type: markdown
     content: |
-      ## Flat fee Dandelion alternative
+      ## White label & flat fee Dandelion alternative
+
+      Chobble Tickets is white label by default. Events run on the
+      organiser's own [domain](/features/custom-domain/), with the
+      organiser's branding and [email
+      provider](/features/email-providers/), and there is no marketplace
+      around them.
 
       Both platforms are open source and both are run by organisations that
       cannot pay out profits to shareholders. The difference is how they are
@@ -314,5 +320,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or use the self-hosted software with no Chobble charge.
-name: Flat Fee Dandelion Alternative | Chobble Tickets
+name: White Label & Flat Fee Dandelion Alternative | Chobble Tickets
 ---

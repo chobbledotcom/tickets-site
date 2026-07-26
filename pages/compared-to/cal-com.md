@@ -1,6 +1,6 @@
 ---
-title: Cal.com Alternative for Ticketing
-meta_title: Open Source Cal.com Alternative for Ticketing | Chobble Tickets
+title: Cal.com Alternative
+meta_title: Open Source & Flat Fee Cal.com Alternative | Chobble Tickets
 meta_description: Cal.com is a scheduling platform that took its production code closed source in April 2026. See how Chobble Tickets compares for paid bookings and event ticketing.
 permalink: /compared-to/cal-com/
 eleventyNavigation:
@@ -38,17 +38,16 @@ blocks:
       Cal.com is a scheduling platform that built its reputation as the open source alternative to Calendly. On 14 April 2026, the company announced its production codebase is moving closed source. Here is how it compares to Chobble Tickets.
   - type: markdown
     content: |
-      ## Open source Cal.com alternative for ticketing
+      ## Open source & flat fee Cal.com alternative
 
-      Organisers looking for a Cal.com alternative usually want two things:
-      event ticketing rather than one-to-one scheduling, and source code that
-      stays open. Chobble Tickets is published under AGPL-3.0-only, and
-      Cal.com moved its production code to a closed source licence in April
-      2026.
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence. Cal.com moved its production code to a closed
+      source licence in April 2026.
 
       Cal.com bills per user, per month, starting at $12 per user on the
       Teams plan. Chobble Tickets costs £50/year or £5/month for the whole
-      site, with no per-user charge.
+      site, with no per-user charge and no per-booking cut.
   - type: markdown
     content: |
       ## Different tools for different jobs
@@ -435,5 +434,5 @@ blocks:
       ## Try Chobble Tickets
 
       Open source event ticketing with flat pricing and no per-user fees.
-name: Open Source Cal.com Alternative for Ticketing | Chobble Tickets
+name: Open Source & Flat Fee Cal.com Alternative | Chobble Tickets
 ---

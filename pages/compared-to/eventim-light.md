@@ -1,7 +1,7 @@
 ---
 competitor_key: eventim_light
 title: EVENTIM.Light Alternative
-meta_title: Open Source EVENTIM.Light Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper EVENTIM.Light Alternative | Chobble Tickets
 meta_description: Compare EVENTIM.Light and Chobble Tickets on organiser and buyer fees, payments, event discovery, attendee data, ticketing features and self-hosting.
 permalink: /compared-to/eventim-light/
 eleventyNavigation:
@@ -40,11 +40,12 @@ blocks:
       EVENTIM.Light is the self-service platform from CTS EVENTIM. This page compares it with Chobble Tickets on pricing, features and data handling.
   - type: markdown
     content: |
-      ## Open source EVENTIM.Light alternative
+      ## Open source & cheaper EVENTIM.Light alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy.
-      EVENTIM.Light does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. EVENTIM.Light does not publish its source code.
 
       EVENTIM.Light charges 8% per ticket in the UK, which is £1.20 on a £15
       ticket. Chobble Tickets charges £50/year or £5/month, so an organiser
@@ -353,5 +354,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Open Source EVENTIM.Light Alternative | Chobble Tickets
+name: Open Source & Cheaper EVENTIM.Light Alternative | Chobble Tickets
 ---

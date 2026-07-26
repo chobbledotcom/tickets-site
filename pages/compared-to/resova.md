@@ -1,7 +1,7 @@
 ---
 competitor_key: resova
 title: Resova Alternative
-meta_title: Open Source Resova Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper Resova Alternative | Chobble Tickets
 meta_description: Chobble Tickets is an alternative to Resova, with flat pricing, no monthly booking limits, encrypted attendee data, and open source code.
 permalink: /compared-to/resova/
 eleventyNavigation:
@@ -36,11 +36,12 @@ blocks:
       Resova is an activity booking platform built for escape rooms, tours, and experiences. Here is how a general-purpose, open source ticketing platform compares.
   - type: markdown
     content: |
-      ## Open source Resova alternative
+      ## Open source & cheaper Resova alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy. Resova
-      does not publish its source code.
+      Chobble Tickets is a white label booking and ticketing platform made in
+      the UK by a community interest company. Its source code is published
+      under the AGPL-3.0-only licence, so anyone can read it, fork it, or run
+      their own copy. Resova does not publish its source code.
 
       Resova's Pro plan is $72/month, about £685 a year, and caps you at 300
       bookings a month, with 16p per booking above that. Chobble Tickets
@@ -268,5 +269,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and no booking limits.
-name: Open Source Resova Alternative | Chobble Tickets
+name: Open Source & Cheaper Resova Alternative | Chobble Tickets
 ---

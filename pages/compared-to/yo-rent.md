@@ -1,6 +1,6 @@
 ---
 title: Yo!Rent Alternative
-meta_title: Flat Fee Yo!Rent Alternative for Hire Bookings | Chobble Tickets
+meta_title: Open Source & Low Cost Yo!Rent Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Yo!Rent on single-operator hire bookings, multi-vendor marketplaces, pricing, logistics, deployment and source licences.
 permalink: /compared-to/yo-rent/
 eleventyNavigation:
@@ -31,7 +31,12 @@ blocks:
       Both platforms can handle rentals, but at different scales. Yo!Rent builds full rental marketplaces. Chobble Tickets handles hire bookings for a single operator.
   - type: markdown
     content: |
-      ## Flat fee Yo!Rent alternative for hire bookings
+      ## Open source & low cost Yo!Rent alternative
+
+      Chobble Tickets is made in the UK by a community interest company, with
+      its [source code](/features/open-source/) published under the
+      AGPL-3.0-only licence. Yo!Rent ships its source under a commercial
+      licence.
 
       Yo!Rent is self-hosted software for building a multi-vendor rental
       marketplace, sold as a one-time licence from $1,499. Chobble Tickets
@@ -314,5 +319,5 @@ blocks:
       ## Try Chobble Tickets
 
       Open source ticketing and hire bookings with flat pricing and no Chobble per-booking platform fee.
-name: Flat Fee Yo!Rent Alternative for Hire Bookings | Chobble Tickets
+name: Open Source & Low Cost Yo!Rent Alternative | Chobble Tickets
 ---

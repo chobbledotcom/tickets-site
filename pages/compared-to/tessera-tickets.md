@@ -1,7 +1,7 @@
 ---
 competitor_key: tessera_tickets
 title: Tessera Tickets Alternative
-meta_title: Open Source Tessera Tickets Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper Tessera Tickets Alternative | Chobble Tickets
 meta_description: "Chobble Tickets vs Tessera Tickets: flat pricing with no ticket-volume tiers, encrypted attendee data, and open source code."
 permalink: /compared-to/tessera-tickets/
 eleventyNavigation:
@@ -38,11 +38,12 @@ blocks:
       Tessera Tickets is a US ticketing platform built around WordPress for music venues, theatres, and comedy clubs. Here is how a small, open source alternative compares.
   - type: markdown
     content: |
-      ## Open source Tessera Tickets alternative
+      ## Open source & cheaper Tessera Tickets alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy. Tessera
-      Tickets does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK by a
+      community interest company. Its source code is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. Tessera Tickets does not publish its source code.
 
       Tessera Tickets starts at $125/month, about £1,200 a year, and the
       standard setup adds WordPress hosting from Tecture at $150 to $400 a
@@ -287,5 +288,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Open Source Tessera Tickets Alternative | Chobble Tickets
+name: Open Source & Cheaper Tessera Tickets Alternative | Chobble Tickets
 ---

@@ -1,7 +1,7 @@
 ---
 competitor_key: humanitix
 title: Humanitix Alternative
-meta_title: Open Source Humanitix Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper Humanitix Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and Humanitix on per-ticket fees, charity structure, event discovery, ticketing features, attendee data and source licensing.
 permalink: /compared-to/humanitix/
 eleventyNavigation:
@@ -37,11 +37,12 @@ blocks:
       Humanitix is a registered charity that donates its booking fee profits to education projects. This page compares it to Chobble Tickets on pricing, features and data handling.
   - type: markdown
     content: |
-      ## Open source Humanitix alternative
+      ## Open source & cheaper Humanitix alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy.
-      Humanitix does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK. Its
+      source code is published under the AGPL-3.0-only licence, so anyone can
+      read it, fork it, or run their own copy. Humanitix does not publish its
+      source code.
 
       Humanitix charges 4.67% + £0.46 per paid ticket at the standard rate,
       or 3.33% + £0.25 for registered charities and schools, and donates its
@@ -289,5 +290,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Open Source Humanitix Alternative | Chobble Tickets
+name: Open Source & Cheaper Humanitix Alternative | Chobble Tickets
 ---

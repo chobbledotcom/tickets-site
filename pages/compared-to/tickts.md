@@ -1,7 +1,7 @@
 ---
 competitor_key: tickts_starter
 title: tickts Alternative
-meta_title: Open Source tickts Alternative | Chobble Tickets
+meta_title: Open Source & Flat Fee tickts Alternative | Chobble Tickets
 meta_description: "Chobble Tickets vs tickts: open source code, encrypted attendee data, and every feature in the £50/year plan with no tier upgrades."
 permalink: /compared-to/tickts/
 eleventyNavigation:
@@ -40,11 +40,12 @@ blocks:
       tickts is a UK ticketing platform with zero booking fees for buyers and a tiered subscription model for organisers. This page compares it to Chobble Tickets.
   - type: markdown
     content: |
-      ## Open source tickts alternative
+      ## Open source & flat fee tickts alternative
 
-      Chobble Tickets source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy. tickts
-      does not publish its source code.
+      Both platforms are made in the UK and neither takes a cut of ticket
+      revenue. Chobble Tickets publishes its source code under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      copy. tickts does not publish its source code.
 
       tickts charges no booking fee and no commission, and splits features
       across plans: free on Starter, £290/year on Growth, £690/year on Pro.
@@ -337,5 +338,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Open Source tickts Alternative | Chobble Tickets
+name: Open Source & Flat Fee tickts Alternative | Chobble Tickets
 ---
