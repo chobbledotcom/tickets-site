@@ -110,6 +110,10 @@ blocks:
       fixes. An organiser who buys once and never renews pays the licence
       price in year one and nothing after that, so their cost in later years
       is the WordPress hosting and payment processing alone.
+
+      The calculator counts the licence and payment processing only. WordPress
+      hosting is not in the totals, so an organiser who does not already run a
+      WordPress site should add £60 to £300 a year to the EventPrime figures.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -129,8 +133,10 @@ blocks:
       24 hours of it. Metagauss also states that prices can change without
       notice.
 
-      Chobble Tickets does not use per-site licensing. The hosted plan covers
-      your account, and the AGPL-3.0-only code can be self-hosted on any
+      Chobble Tickets does not use per-site licensing, and updates and support
+      continue for as long as you are a customer. Managed hosting is charged
+      per site, so £50/year covers one hosted ticketing site and a second site
+      is a second payment. The AGPL-3.0-only code can be self-hosted on any
       number of sites without a Chobble licence fee.
   - type: markdown
     content: |
@@ -228,9 +234,11 @@ blocks:
         registration
       - **[ICS calendar feeds and RSS feeds](/features/rss-and-calendar-feeds/)**
         that subscribers keep in sync automatically
-      - **[Custom email providers](/features/email-providers/)** - Resend,
-        Postmark, SendGrid or Mailgun, so confirmations come from your own
-        domain
+      - **[Custom email providers built in](/features/email-providers/)** -
+        pick Resend, Postmark, SendGrid or Mailgun in the admin so
+        confirmations come from your own domain. An EventPrime site can do
+        this too, by installing and configuring a separate WordPress mail
+        plugin
       - **[Liquid email templates](/features/email-templates/)** - control the
         subject, HTML and text of confirmation emails
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - buyers
