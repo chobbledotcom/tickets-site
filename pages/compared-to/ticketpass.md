@@ -276,27 +276,26 @@ blocks:
       behind the service, a private limited company registered in England
       (company number
       [16765338](https://find-and-update.company-information.service.gov.uk/company/16765338)).
-      Ticketpass says it was founded in 2017 by Rodrigo Bautista and describes
-      itself as an ethical ticketing platform. Its terms record a transitional
+      Ticketpass says it was founded in 2017 and describes itself as an
+      ethical ticketing platform. Its terms record a transitional
       notice: on 9 October 2025 Fanex Group Ltd acquired the assets and
       business operations of Ticketpass Limited and became the operator of the
       platform.
 
       Fanex Group Ltd has two people with significant control on the
       [public register](https://find-and-update.company-information.service.gov.uk/company/16765338/persons-with-significant-control),
-      both notified on 6 October 2025. Rodrigo Bautista Franco is recorded as
-      having significant influence or control. Philippe Marcel Etienne
-      Paillart is recorded as holding 75% or more of the shares and voting
-      rights, with the right to appoint and remove directors.
+      both notified on 6 October 2025. One is recorded as having significant
+      influence or control. The other is recorded as holding 75% or more of
+      the shares and voting rights, with the right to appoint and remove
+      directors.
 
-      The website of the investment firm
-      [Liberté Capital](https://liberte-capital.com/teams/philippe-paillart/)
-      lists Philippe Paillart as its executive chairman. Its profile describes
-      him as the former chief executive and vice chairman of DBS Bank in
-      Singapore, and as previously chairman and chief executive of Ford Credit
-      and Ford Financial Services, the founder of Citibank's personal banking
-      division, and a board member at Citibank Germany and Standard Chartered
-      Bank.
+      That majority shareholder is the executive chairman of the investment
+      firm [Liberté Capital](https://liberte-capital.com/). The firm's
+      published profile describes a career in international banking and
+      finance, including chief executive and vice chairman of DBS Bank in
+      Singapore, chairman and chief executive of Ford Credit and Ford
+      Financial Services, and board positions at Citibank Germany and Standard
+      Chartered Bank.
 
       An ordinary limited company can be sold, as the 2025 transfer of the
       Ticketpass business shows, and its owners can change its pricing and its
@@ -336,7 +335,7 @@ blocks:
       - [Ticketpass FAQs](https://ticketpass.org/pricing) - card processing included in the booking fee, fees absorbed or passed on, donation paid after the event in the next quarterly cycle
       - [Ticketpass privacy policy](https://ticketpass.org/privacy-policy) - operator, payment processor and marketing preferences
       - [Ticketpass terms and conditions](https://ticketpass.org/terms-and-conditions) - the 9 October 2025 transitional notice, and the pledge described as a commitment rather than a binding contractual obligation
-      - [Liberté Capital profile of Philippe Paillart](https://liberte-capital.com/teams/philippe-paillart/) - the executive chairman role and career described by the firm
+      - [Liberté Capital](https://liberte-capital.com/) - the firm's published profile of its executive chairman describes the banking and finance career summarised above
       - [Fanex Group Ltd people with significant control](https://find-and-update.company-information.service.gov.uk/company/16765338/persons-with-significant-control) - the ownership and voting-rights entries on the public register
       - [CIC business activities guidance](https://www.gov.uk/government/publications/community-interest-companies-business-activities/cic-business-activities-forms-and-step-by-step-guidelines) - a CIC can only stop being a CIC by dissolving or becoming a charity
       - [Chobble Tickets features](/features/)
