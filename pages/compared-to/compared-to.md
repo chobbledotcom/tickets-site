@@ -49,6 +49,9 @@ blocks:
         description: The self-service platform from CTS EVENTIM. Compare fees, features and data handling.
         name: <a href="/compared-to/eventim-light/">EVENTIM.Light alternative</a>
       - icon: hugeicons:ticket-01
+        description: A WordPress plugin that adds an events calendar, bookings and ticketing to your own site. Compare licence tiers with a standalone platform.
+        name: <a href="/compared-to/eventprime/">EventPrime alternative</a>
+      - icon: hugeicons:ticket-01
         description: Used for student events and nightlife. Compare fees, features and data handling.
         name: <a href="/compared-to/fatsoma/">Fatsoma alternative</a>
       - icon: hugeicons:ticket-01

@@ -70,6 +70,8 @@
           "pretix_hosted": "/compared-to/pretix/",
           "pretix_selfhosted": "/compared-to/pretix/",
           "hi_events_selfhosted": "/compared-to/hi-events/",
+          "eventprime_professional": "/compared-to/eventprime/",
+          "eventprime_business": "/compared-to/eventprime/",
           "tickts_starter": "/compared-to/tickts/",
           "tickts_pro": "/compared-to/tickts/",
           "ticketpass_essentials": "/compared-to/ticketpass/",
