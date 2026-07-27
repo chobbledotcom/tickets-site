@@ -33,8 +33,10 @@ blocks:
       ### Chobble Tickets
 
       [Chobble Tickets](/about/) is provided by Chobble CIC, a UK community
-      interest company limited by guarantee without share capital. Its asset
-      lock restricts how company assets can be transferred. Chobble's social
+      interest company limited by guarantee without share capital, so it has
+      no shares to sell. Its asset lock restricts how company assets can be
+      transferred, and a CIC can stop being a CIC only by dissolving or by
+      becoming a charity. Chobble's social
       impact page says it donates 10% of income to the Against Malaria
       Foundation; the linked foundation fundraiser describes the policy as 10%
       of profits.
@@ -119,9 +121,11 @@ blocks:
       ### Ticketpass
 
       [Ticketpass](/compared-to/ticketpass/) describes itself as an ethical
-      ticketing platform. Its privacy policy names Fanex Group Ltd as the
-      operator. The sources reviewed on 27 July 2026 did not document a
-      charitable, co-operative or certified structure.
+      ticketing platform. Its terms record that Fanex Group Ltd acquired the
+      Ticketpass business on 9 October 2025 and now operates the platform.
+      That company's entry on the Companies House register of people with
+      significant control records one person holding 75% or more of the shares
+      and voting rights, with the right to appoint and remove directors.
 
       Paid tickets carry a booking fee and a separate service fee at the same
       published rate, 1.9% + £0.20 each on the Essentials plan and 3.5% +
@@ -129,10 +133,11 @@ blocks:
       organisers can absorb the charges or pass them to buyers.
 
       Ticketpass donates up to 50% of the booking fee, but not the service
-      fee, to a project the organiser or the attendee selects. It also runs an
-      event marketplace, requires buyers to create an account, and says it may
-      send marketing about Ticketpass and selected parties in line with a
-      user's preferences.
+      fee, to a project the organiser or the attendee selects. Its terms
+      describe the pledge as a commitment rather than a binding contractual
+      obligation. It also runs an event marketplace, requires buyers to create
+      an account, and says it may send marketing about Ticketpass and selected
+      parties in line with a user's preferences.
 
   - type: markdown
     content: |

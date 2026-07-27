@@ -52,13 +52,43 @@ blocks:
 
       A percentage of profit therefore says how a surplus is divided. It does
       not say how large the surplus was, or how much was charged to produce
-      it. UK companies file accounts at Companies House, and those filings are
-      the record of what a percentage was applied to.
+      it. UK companies file accounts at Companies House, though small
+      companies and micro-entities can file without a profit and loss account,
+      so a filing shows what a percentage was applied to only when those
+      figures are included.
 
       Wording matters as well. "Up to 50%" and "50%" are different pledges,
       and a pledge on the booking fee is different from a pledge covering
       every charge the provider makes. Ticketpass, for example, applies its
       pledge to the booking fee and not to the separate service fee.
+  - type: markdown
+    content: |
+      ## A pledge is a policy, a legal form is a constraint
+
+      A published pledge is a decision the company has made and can revise.
+      Whoever controls the company controls the pledge, and control can move.
+      An ordinary limited company can be sold, and the buyer decides what the
+      new company does.
+
+      Ticketpass states this directly. Its terms describe the Give Back 50
+      pledge as "not a binding contractual obligation but a commitment in line
+      with Ticketpass's ethos of social responsibility". The same terms record
+      that Fanex Group Ltd acquired the Ticketpass business on 9 October 2025,
+      so the company making the pledge is not the company that started it.
+
+      Companies House records who controls a UK company. Its people with
+      significant control register lists anyone holding more than 25% of the
+      shares or voting rights, or the right to appoint and remove directors.
+      The Fanex Group Ltd register records one person holding 75% or more of
+      the shares and voting rights along with the right to appoint and remove
+      directors.
+
+      Legal forms work differently, because they restrict what the company is
+      permitted to do rather than what it intends to do. A registered charity
+      answers to the Charity Commission. A community interest company carries
+      an asset lock. A company limited by guarantee has no shares to sell.
+      None of these forms sets the size of a fee, so they answer a different
+      question from the one in the previous section.
   - type: markdown
     dark: true
     content: |
@@ -95,14 +125,27 @@ blocks:
 
       Chobble's social impact page says it donates 10% of income to the
       Against Malaria Foundation, and the linked foundation fundraiser
-      describes the policy as 10% of profits. That donation is funded by the
-      hosting fees organisers pay, so the same test applies to it as to any
-      other pledge on this page.
+      describes the policy as 10% of profits. That donation is funded from
+      Chobble's income, which comes from hosting fees and paid technical work,
+      so the same test applies to it as to any other pledge on this page.
 
       Chobble CIC is a community interest company limited by guarantee without
-      share capital. Its asset lock restricts how company assets can be
-      transferred, which constrains where money can go rather than promising
-      where it will go.
+      share capital. There are no shares to sell and no dividends to pay, so
+      the company cannot be bought by an investor who then changes what it
+      does with the money.
+
+      The asset lock means assets cannot be transferred out for less than
+      their market value except to another asset-locked body. Under section 53
+      of the Companies (Audit, Investigations and Community Enterprise) Act
+      2004, a CIC can stop being a CIC only by dissolving or by becoming a
+      charity, so it cannot convert into an ordinary company. It stays a UK
+      company, filing an annual community interest report with the CIC
+      Regulator that sets out how it served its stated community purpose.
+
+      These are restrictions on what the company may do, not promises about
+      what it will charge. The £50/year price and the 10% donation are still
+      decisions Chobble makes, and the questions below apply to them as much
+      as to any other provider.
   - type: markdown
     content: |
       ## Questions to compare
@@ -118,6 +161,7 @@ blocks:
         ledger?
       - Does a legal structure such as a charity, co-operative, community
         interest company or asset lock constrain where money can go?
+      - Who controls the company, and could a change of owner end the pledge?
       - Could the organiser reach the same cause by donating directly, or by
         collecting donations at checkout?
 

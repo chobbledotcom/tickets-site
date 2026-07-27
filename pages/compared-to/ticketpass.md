@@ -19,7 +19,7 @@ provider_facts:
   per_ticket_platform_fee: percentage-plus-fixed
   managed_pricing: per-sale
   white_label: higher-tier
-  custom_domain: higher-tier
+  custom_domain: not-documented
   public_website: marketplace-pages
   self_hosting: not-offered
   source_code: proprietary
@@ -91,11 +91,17 @@ blocks:
       donation is sent after the event has finished and refunds have settled,
       in the next quarterly payment cycle.
 
+      The [Ticketpass terms and conditions](https://ticketpass.org/terms-and-conditions)
+      state that the pledge "is not a binding contractual obligation but a
+      commitment in line with Ticketpass's ethos of social responsibility".
+      They also reserve the right to withhold, suspend or cancel a donation in
+      defined circumstances, such as a project no longer operating.
+
       The money donated is part of the fee charged on the ticket. On an
       Essentials £15 ticket the booking fee is about £0.49, so the donation is
-      up to about £0.24 and the rest of the £0.97 charge stays with the
-      platform. Across 500 tickets that is up to about £121 donated out of
-      about £485 charged.
+      up to about £0.24. The rest of the £0.97 charge is outside the pledge and
+      covers card processing and whatever else Ticketpass spends it on. Across
+      500 tickets that is up to about £121 donated out of about £485 charged.
 
       Chobble Tickets does not add a charge to tickets, so no part of a ticket
       price is directed to a charity by Chobble. Chobble CIC donates 10% of its
@@ -165,9 +171,10 @@ blocks:
       ### Chobble Tickets has features Ticketpass doesn't
 
       - **[Encryption at rest](/features/encrypted/)** - attendee personal data
-        uses hybrid RSA-OAEP + AES-256-GCM and can only be read by an
-        authorised keyed user. Ticketpass handles attendee data under its own
-        privacy policy
+        is stored scrambled, so someone reading the database directly cannot
+        read names or contact details. Only a user the organiser has
+        authorised can unlock it. Ticketpass handles attendee data under its
+        own privacy policy
       - **[Open source](/features/open-source/)** - the complete product source
         is published under AGPL-3.0-only with no proprietary feature tier.
         Ticketpass is closed source
@@ -267,17 +274,46 @@ blocks:
       behind the service, a private limited company registered in England
       (company number
       [16765338](https://find-and-update.company-information.service.gov.uk/company/16765338)).
-      Ticketpass says it was founded in 2017 and describes itself as an
-      ethical ticketing platform. The sources reviewed on 27 July 2026 did not
-      document a charitable, co-operative or certified company structure.
+      Ticketpass says it was founded in 2017 by Rodrigo Bautista and describes
+      itself as an ethical ticketing platform. Its terms record a transitional
+      notice: on 9 October 2025 Fanex Group Ltd acquired the assets and
+      business operations of Ticketpass Limited and became the operator of the
+      platform.
+
+      Fanex Group Ltd has two people with significant control on the
+      [public register](https://find-and-update.company-information.service.gov.uk/company/16765338/persons-with-significant-control),
+      both notified on 6 October 2025. Rodrigo Bautista Franco is recorded as
+      having significant influence or control. Philippe Marcel Etienne
+      Paillart is recorded as holding 75% or more of the shares and voting
+      rights, with the right to appoint and remove directors. The register
+      gives his country of residence as the United Arab Emirates. The website
+      of Liberté Capital, an investment firm, has a team page for a Philippe
+      Paillart describing him as chairman of a DIFC-based investment fund and
+      listing a career in international banking.
+
+      An ordinary limited company can be sold, as the 2025 transfer of the
+      Ticketpass business shows, and its owners can change its pricing and its
+      donation policy. Ticketpass's own terms describe the pledge as a
+      commitment rather than a binding obligation. The sources reviewed on
+      27 July 2026 did not document a charitable, co-operative or certified
+      structure.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       (CIC), a UK legal structure that locks the company's assets for
       community benefit. The registered name is Chobble CIC, company number
-      17050113, registered in Prestwich, Manchester. All of Chobble's code is
-      public under AGPLv3, and the platform can be self-hosted by anyone
-      without depending on Chobble as a company.
+      17050113, registered in Prestwich, Manchester.
+
+      Chobble CIC is limited by guarantee and has no share capital, so there
+      are no shares to sell and no dividends to pay. Under section 53 of the
+      Companies (Audit, Investigations and Community Enterprise) Act 2004, a
+      CIC can stop being a CIC only by dissolving or by becoming a charity, so
+      it cannot convert into an ordinary company. Assets cannot be transferred
+      out for less than their market value except to another asset-locked
+      body, and the CIC Regulator in the UK reviews the company's annual
+      community interest report. All of Chobble's code is public under AGPLv3,
+      and the platform can be self-hosted by anyone without depending on
+      Chobble as a company.
   - type: markdown
     content: |
       ## Pricing sources
@@ -291,6 +327,9 @@ blocks:
       - [Ticketpass Give Back 50](https://ticketpass.org/give-back-50) - up to 50% of the booking fee donated to a chosen project
       - [Ticketpass FAQs](https://ticketpass.org/pricing) - card processing included in the booking fee, fees absorbed or passed on, donation paid after the event in the next quarterly cycle
       - [Ticketpass privacy policy](https://ticketpass.org/privacy-policy) - operator, payment processor and marketing preferences
+      - [Ticketpass terms and conditions](https://ticketpass.org/terms-and-conditions) - the 9 October 2025 transitional notice, and the pledge described as a commitment rather than a binding contractual obligation
+      - [Fanex Group Ltd people with significant control](https://find-and-update.company-information.service.gov.uk/company/16765338/persons-with-significant-control) - the ownership and voting-rights entries on the public register
+      - [CIC business activities guidance](https://www.gov.uk/government/publications/community-interest-companies-business-activities/cic-business-activities-forms-and-step-by-step-guidelines) - a CIC can only stop being a CIC by dissolving or becoming a charity
       - [Chobble Tickets features](/features/)
       - [Chobble Tickets pricing and no-per-ticket-fees explanation](/features/no-per-ticket-fees/)
   - type: cta
