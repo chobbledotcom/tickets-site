@@ -25,6 +25,9 @@ blocks:
       - icon: hugeicons:view-off
         description: Chobble does not use attendee records for advertising, audience profiles or marketing other events.
         name: <a href="/features/no-spying/">No attendee marketing</a>
+      - icon: hugeicons:megaphone-01
+        description: How ticketing platforms are promoted online, and the rules Chobble follows on ads, reviews and comparison pages.
+        name: <a href="/features/honest-advertising/">Honest advertising</a>
       - icon: hugeicons:delete-02
         description: Set retention for orphaned records, erase contact history and export attendee records.
         name: <a href="/features/privacy-controls/">Privacy controls</a>
