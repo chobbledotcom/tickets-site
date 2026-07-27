@@ -14,6 +14,7 @@ provider_facts:
     - ticketpass_essentials
     - ticketpass_pro
   last_reviewed: "2026-07-27"
+  registration_country: united-kingdom
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: percentage-plus-fixed

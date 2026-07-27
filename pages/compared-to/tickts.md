@@ -14,6 +14,7 @@ provider_facts:
     - tickts_starter
     - tickts_pro
   last_reviewed: "2026-07-25"
+  registration_country: united-kingdom
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: none

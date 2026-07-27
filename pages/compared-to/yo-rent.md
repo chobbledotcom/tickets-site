@@ -11,6 +11,7 @@ provider_facts:
   kind: adjacent-software
   calculator_keys: []
   last_reviewed: null
+  registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
   per_ticket_platform_fee: not-reviewed

@@ -13,6 +13,7 @@ provider_facts:
   calculator_keys:
     - cheddar_up
   last_reviewed: "2026-07-25"
+  registration_country: not-documented
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: per-transaction-percentage-plus-fixed
@@ -25,6 +26,7 @@ provider_facts:
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   notes:
+    registration_country: "Cheddar Up was founded in Denver, Colorado; the registered legal entity is not recorded here."
     per_ticket_platform_fee: "The convenience fee is per transaction and includes Stripe payment processing."
     managed_pricing: "QR-code ticketing requires the Team subscription, and a convenience fee also applies to each transaction."
     white_label: "The Team plan includes a Brand Kit; complete removal of provider branding was not established."

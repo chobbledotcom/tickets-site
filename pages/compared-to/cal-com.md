@@ -11,6 +11,7 @@ provider_facts:
   kind: adjacent-software
   calculator_keys: []
   last_reviewed: "2026-07-25"
+  registration_country: not-documented
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: none
@@ -23,6 +24,7 @@ provider_facts:
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   notes:
+    registration_country: "Cal.com describes itself as a US-based company; no registered legal entity was established in the sources reviewed."
     per_ticket_platform_fee: "Payment processing for paid bookings remains separate."
     managed_pricing: "Paid managed plans are feature-tiered and charged per user, not per booking."
     custom_domain: "The Organizations plan offers a cal.com subdomain, not an organiser-owned domain."
