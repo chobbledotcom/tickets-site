@@ -132,8 +132,9 @@ blocks:
       ## What 500 tickets at £15 costs
 
       Working the charge out at a realistic volume shows what a pledge is a
-      share of. These figures use the published rates above and assume one
-      ticket per payment.
+      share of. These figures use the rates above, assume one ticket per
+      payment, and exclude VAT. Where a provider charges VAT on its fees, add
+      20% to the figures below.
 
       - EVENTIM.Light: £600 in platform fees, at 8% of £7,500 in sales
       - Humanitix: about £580 at the standard rate, about £375 for charities
