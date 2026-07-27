@@ -227,12 +227,24 @@ blocks:
       forum recommendations are all places where paid or undisclosed promotion
       turns up.
 
-      A Reddit account using the name **ichar10** has posted repeatedly about
-      Weezevent across event and business subreddits, recommending it in
-      threads asking which ticketing platform to use. The account posts about
-      Weezevent far more often than about anything else. Reddit does not
-      publish who is behind an account, so there is no way to establish from
-      the outside who runs it or whether Weezevent knows about it.
+      Five Reddit accounts have posted about Weezevent across ticketing,
+      event production, festival, conference, theatre, trade show, clubbing
+      and small business subreddits during 2026. Weezevent is recommended in
+      almost every post they have made.
+
+      Some are long comparison articles ending on Weezevent, such as
+      ["Eventbrite Alternative - 2026"](https://www.reddit.com/r/TicketingMasters/comments/1t5ci1u/eventbrite_alternative_2026/).
+      Others are questions with Weezevent already named in them, and one
+      account left
+      [the same opening sentence on three different threads](https://old.reddit.com/r/TicketingMasters/comments/1tjn05k/ticketspice_alternative/op3v9lb/)
+      on a single day. Several of the accounts describe their own use of
+      Weezevent in ways that contradict their earlier posts.
+
+      Reddit does not publish who is behind an account, so there is no way to
+      establish from the outside who runs them or whether Weezevent knows
+      about them. The
+      [honest advertising](/features/honest-advertising/) page sets out the
+      posts and the contradictions with links to each one.
 
       The wider pattern is easier to document. Ticketing companies buy search
       ads on competitors' names, pay for placement in "top 10 ticketing
