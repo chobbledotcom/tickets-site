@@ -103,6 +103,13 @@ blocks:
       [no per-ticket platform fee](/features/no-per-ticket-fees/). Ticket
       income goes straight to the organiser's own Stripe, Square or SumUp
       account, which charges its normal processing rate.
+  - type: markdown
+    content: |
+      The calculator below treats the EventPrime licence as renewed each year,
+      because a lapsed licence stops receiving updates, including security
+      fixes. An organiser who buys once and never renews pays the licence
+      price in year one and nothing after that, so their cost in later years
+      is the WordPress hosting and payment processing alone.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -208,10 +215,12 @@ blocks:
       - **Every feature on one price** - check-in, seating aside, reporting,
         payments and API access are all included, rather than split across
         Essential, Professional and Business plans
-      - **[Public-facing website and CMS](/features/your-public-website/)** -
+      - **[A public website and CMS without WordPress](/features/your-public-website/)** -
         a homepage, content pages, news posts and a contact form with spam
         protection, edited in Markdown with
-        [custom CSS](/features/customising-your-site/)
+        [custom CSS](/features/customising-your-site/). EventPrime's public
+        pages come from the WordPress site it is installed on, so the site,
+        theme and CMS are the organiser's to run
       - **[Apple & Google Wallet passes](/features/apple-wallet/)**
       - **[Admin API](/features/admin-api/) and
         [public API](/features/public-api/)** on every plan
@@ -262,11 +271,19 @@ blocks:
     content: |
       ## Data and attendee privacy
 
-      Neither product puts attendee data into a third-party marketing
-      database. EventPrime stores bookings in the organiser's own WordPress
-      database, and Metagauss says it emails customers about updates,
-      promotions and new features, with an opt-out. Those emails go to the
-      licence holder, not to attendees.
+      By default neither product sends attendee data to a third-party
+      marketing database. EventPrime stores bookings in the organiser's own
+      WordPress database, and Metagauss says it emails customers about
+      updates, promotions and new features, with an opt-out. Those emails go
+      to the licence holder, not to attendees.
+
+      Organisers can change that by choice on either product. EventPrime's
+      Mailchimp and MailPoet extensions subscribe attendees to the
+      organiser's own lists, which sends their contact details to those
+      services. Chobble Tickets sends confirmation emails through the
+      [email provider the organiser configures](/features/email-providers/).
+      In both cases the organiser picks the third party and the data goes to
+      the organiser's own account with it.
 
       EventPrime's security is the security of the WordPress site it sits on.
       The booking records share a database with every other plugin and theme
