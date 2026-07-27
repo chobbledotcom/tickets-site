@@ -210,8 +210,8 @@ blocks:
         is no WordPress site, theme or plugin stack to install, update and
         secure
       - **[Encryption at rest](/features/encrypted/)** - attendee personal
-        data is stored scrambled with RSA-OAEP + AES-256-GCM, so someone
-        reading the database directly cannot read names or contact details.
+        data is stored scrambled, so someone who reaches the database still
+        cannot read names or contact details without the site's private key.
         EventPrime stores bookings as ordinary WordPress posts in the site
         database
       - **[Open source](/features/open-source/) with no paid tier** - the
@@ -349,8 +349,8 @@ blocks:
 
       EventPrime is published by Metagauss Inc., which also sells the
       RegistrationMagic and ProfileGrid WordPress plugins. The free core
-      plugin has more than 7,000 active installations on WordPress.org and is
-      rated 4.5 out of 5 from 84 reviews. The Metagauss terms and conditions
+      plugin is listed on WordPress.org, where its current install count and
+      rating are published. The Metagauss terms and conditions
       state that the agreement is governed by the law of the Province of
       Ontario, Canada.
 
@@ -370,7 +370,7 @@ blocks:
       for the latest figures.
 
       - [EventPrime plans and extensions](https://theeventprime.com/all-extensions/) - Free, Essential $69/$129, Professional $99/$189 and Business $179/$349, with individual extensions from $29.95 to $99.95
-      - [EventPrime core plugin on WordPress.org](https://wordpress.org/plugins/eventprime-event-calendar-management/) - free core, GPLv2 or later, 7,000+ active installations, 4.5 out of 5 from 84 reviews
+      - [EventPrime core plugin on WordPress.org](https://wordpress.org/plugins/eventprime-event-calendar-management/) - free core under GPLv2 or later, with the current version, install count and rating
       - [Metagauss terms and conditions](https://metagauss.com/terms-and-conditions/) - one year of support and updates, the 24-hour refund window, the 20-site fair usage limit on unlimited plans, and Ontario law
       - [Metagauss privacy policy](https://metagauss.com/privacy-policy/) - what the vendor's own website collects
       - [Chobble Tickets features](/features/)
