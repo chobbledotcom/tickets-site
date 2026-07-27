@@ -1,9 +1,15 @@
 {
   "name": "Chobble Tickets",
   "kind": "ticketing",
-  "calculator_keys": ["chobble", "chobble_selfhosted"],
+  "calculator_keys": [
+    "chobble",
+    "chobble_selfhosted"
+  ],
   "last_reviewed": "2026-07-25",
-  "ethical_basis": ["community-interest-company"],
+  "registration_country": "united-kingdom",
+  "ethical_basis": [
+    "community-interest-company"
+  ],
   "per_ticket_platform_fee": "none",
   "managed_pricing": "flat-volume-independent",
   "white_label": "included",
@@ -18,6 +24,7 @@
     "ethical_basis": "Chobble's social-impact page says it donates 10% of income to the Against Malaria Foundation; the linked AMF fundraiser describes the policy as 10% of profits.",
     "per_ticket_platform_fee": "Payment processing is separate and charged by the organiser's selected provider.",
     "managed_pricing": "The managed fee pays for hosting, updates, backup tools and support. It does not vary by ticket value, ticket volume or feature use.",
-    "self_hosting": "Self-hosting has no Chobble software charge, but infrastructure and configured services remain separate."
+    "self_hosting": "Self-hosting has no Chobble software charge, but infrastructure and configured services remain separate.",
+    "registration_country": "Chobble CIC is a community interest company registered in England, number 17050113. Managed hosting and database regions are separate from where the company is registered."
   }
 }

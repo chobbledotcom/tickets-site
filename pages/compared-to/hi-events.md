@@ -16,6 +16,7 @@ provider_facts:
     - hi_events
     - hi_events_selfhosted
   last_reviewed: "2026-07-25"
+  registration_country: ireland
   ethical_basis:
     - independently-maintained
   per_ticket_platform_fee: percentage-plus-fixed

@@ -13,6 +13,7 @@ provider_facts:
   calculator_keys:
     - humanitix
   last_reviewed: "2026-07-25"
+  registration_country: not-documented
   ethical_basis:
     - registered-charity
   per_ticket_platform_fee: percentage-plus-fixed
@@ -25,6 +26,7 @@ provider_facts:
   event_marketplace: built-in
   attendee_cross_marketing: personalised-recommendations
   notes:
+    registration_country: "Humanitix was founded in Australia and is a registered charity; the legal entity and the jurisdiction of its charity registration were not established in the sources reviewed."
     per_ticket_platform_fee: "The published ticket fee includes payment processing."
     managed_pricing: "Humanitix has no recurring subscription and charges for each paid ticket."
     attendee_cross_marketing: "The privacy notice describes personalised recommendations and says direct marketing requires an explicit attendee opt-in."

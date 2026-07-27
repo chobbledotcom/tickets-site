@@ -13,6 +13,7 @@ provider_facts:
   calculator_keys:
     - ticket_tailor
   last_reviewed: "2026-07-25"
+  registration_country: not-documented
   ethical_basis:
     - certified-b-corporation
     - independently-owned
@@ -26,6 +27,7 @@ provider_facts:
   event_marketplace: built-in
   attendee_cross_marketing: none
   notes:
+    registration_country: "Ticket Tailor has run from London since 2010; no registered legal entity or company number was established in the sources reviewed."
     per_ticket_platform_fee: "Paid tickets use credits; prepaid bundles and eligible discounts reduce the fixed rate."
     managed_pricing: "Ticket Tailor charges for each paid ticket rather than charging a recurring managed-service subscription."
     white_label: "The £39/month White Label add-on includes custom-domain support; a custom domain is also available separately for £7/month."

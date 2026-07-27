@@ -13,6 +13,7 @@ provider_facts:
   calculator_keys:
     - wix_events
   last_reviewed: "2026-07-25"
+  registration_country: not-documented
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: percentage
@@ -25,6 +26,7 @@ provider_facts:
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   notes:
+    registration_country: "Wix.com Ltd. was founded in Tel Aviv, Israel and is listed on NASDAQ; its country of incorporation was not established in the sources reviewed."
     per_ticket_platform_fee: "The ticket service fee is separate from Wix Payments processing."
     managed_pricing: "Ticket sales require a paid Wix Business and eCommerce website plan, and Wix also charges a percentage on each paid ticket."
     custom_domain: "The domain belongs to the required Wix website rather than a standalone ticketing product."

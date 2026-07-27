@@ -13,6 +13,7 @@ provider_facts:
   calculator_keys:
     - resova
   last_reviewed: "2026-07-25"
+  registration_country: united-kingdom
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: allowance-overage
