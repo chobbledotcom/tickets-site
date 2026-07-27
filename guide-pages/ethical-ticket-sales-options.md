@@ -116,7 +116,7 @@ blocks:
   - type: markdown
     dark: true
     content: |
-      ## Donation pledges without a purpose-locked structure
+      ## Donation pledges without a documented purpose lock
 
       ### Ticketpass
 

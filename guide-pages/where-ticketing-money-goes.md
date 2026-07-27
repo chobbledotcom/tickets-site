@@ -53,17 +53,18 @@ blocks:
     content: |
       ## Providers funded another way
 
-      These providers publish no set share of each sale. The money comes from
-      voluntary payments, paid extras, a subscription that does not change
-      with sales, or a negotiated quote.
+      These providers publish no mandatory share of each sale. The money
+      comes from voluntary payments, paid extras, a subscription that does
+      not change with sales, or a negotiated quote.
 
       - [Dandelion](/compared-to/dandelion/) asks organisers for 1% of
         completed sales, asks buyers for a donation at checkout, charges £25
         for events that send buyers elsewhere, and sells listing boosts. None
         of the ticket charges are mandatory.
-      - [alf.io](/compared-to/swicket/) is an open source project with public
-        finances on Open Collective, so its income and spending can be read in
-        full. Swicket, the separate managed service built on it, is priced by
+      - [alf.io](/compared-to/swicket/) is an open source project that keeps
+        its finances on Open Collective, where every payment into and out of
+        that account is published. Swicket, the separate managed service built
+        on it, is priced by
         quote, and what that quote contains is not published.
       - [tickts](/compared-to/tickts/) takes no commission and charges for
         feature tiers instead, at £290 or £690 a year. It has stated plans to

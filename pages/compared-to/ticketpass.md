@@ -24,7 +24,7 @@ provider_facts:
   self_hosting: not-offered
   source_code: proprietary
   event_marketplace: built-in
-  attendee_cross_marketing: provider-content-and-events
+  attendee_cross_marketing: not-documented
   notes:
     ethical_basis: "Ticketpass describes itself as an ethical ticketing platform and pledges up to 50% of its booking fee to charity. The privacy policy names Fanex Group Ltd as the operator. No charitable, co-operative or certified structure was documented in the sources reviewed."
     per_ticket_platform_fee: "Paid tickets carry a booking fee and a separate service fee at the same published rate, both excluding VAT. Card processing is covered inside the booking fee."
