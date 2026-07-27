@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 132 rendered client pages. A page counts as illustrated
+This audit covers all 133 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 130 | 47 | 83 |
+| Editorial pages in the sitemap | 131 | 47 | 84 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **132** | **47** | **85** |
+| **All rendered pages** | **133** | **47** | **86** |
 
-The 83 editorial pages are the main illustration backlog. The two utility
+The 84 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -166,6 +166,7 @@ pages are listed separately at the end.
 | `pages/compared-to/tito.md` | Comparison graphic: `tito-conference-workflow` | Northstar Dev Day sells 400 €120 tickets. Compare shared API tools, Tito's conference and badge workflow and Chobble's flat price and self-hosting. | Puts conference operations beside cost rather than reducing the choice to fees. |
 | `pages/compared-to/tickts.md` | Comparison graphic: `tickts-plan-staircase` | Oakfield needs a custom domain, full API and white-label presentation. Show Starter, Growth and Pro steps with their features beside one Chobble level containing all current Chobble features. | Explains feature tiers without suggesting tickts charges commission. |
 | `pages/compared-to/ticketpass.md` | Comparison graphic: `ticketpass-fee-and-donation` | Meadowfield Fundraisers sells 500 £15 tickets. Split the Essentials charge into booking fee, service fee and the donated share, beside Chobble's community hosting fee with a direct donation shown separately. | Separates the size of the ticket charge from the share of it that is donated. |
+| `pages/compared-to/eventprime.md` | Comparison graphic: `eventprime-plan-tiers` | Oakfield Arts sells 300 £12 tickets and needs ticket generation, card payments and door check-in. Show which EventPrime plan each requirement lands in, with the WordPress site and gateway as separate costs, beside one Chobble level containing all current Chobble features. | Shows that the plugin price depends on which features an organiser needs. |
 | `pages/compared-to/pta-events.md` | Comparison graphic: `pta-events-school-year` | Oakfield Primary runs a disco, raffle, auction, volunteer rota and news page. Mark which jobs each product handles, then show transaction costs versus Chobble's community rate. | Shows when the wider fundraising suite may justify its cost. |
 | `pages/compared-to/tessera-tickets.md` | Comparison graphic: `tessera-venue-cost-stack` | The Old Playhouse sells 8,000 tickets and needs assigned seating and box-office hardware. Stack Tessera subscription, WordPress site, seating setup and scanners beside Chobble's general-admission model. | Makes the products' different venue scope visible. |
 | `pages/compared-to/resova.md` | Comparison graphic: `resova-resource-scheduling` | Riverside Escape Rooms has three rooms, six hourly slots and 420 monthly bookings. Show Resova assigning rooms and staff with allowance overage beside Chobble's recurring event capacity. | Helps operators decide whether specialist resource scheduling matters more than flat ticketing cost. |

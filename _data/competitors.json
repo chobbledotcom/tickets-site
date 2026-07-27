@@ -267,6 +267,24 @@
     "payment_processing_fixed": 0,
     "fee_note": "Ticketpass Pro fees: a booking fee of 3.5% + £0.35 and a separate service fee of 3.5% + £0.35 on each paid ticket, so 7% + 70p in total (excl. VAT). Pro adds reserved seating, waiting lists, memberships and a website widget. Card processing is covered inside the booking fee, and up to 50% of the booking fee is donated to a chosen charity project. Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p). Source: ticketpass.org/pricing (July 2026)."
   },
+  "eventprime_professional": {
+    "name": "EventPrime (Professional)",
+    "annual_cost": 73,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "EventPrime Professional: $99 (approx. £73) for a single site, or $189 (approx. £140) for unlimited sites, paid once. The tier adds Event Tickets, Stripe Payments, Square Payments, live seating, coupons and invoices. The licence is paid once and includes 12 months of support and updates; this calculator assumes it is renewed each year, because a lapsed licence stops receiving updates including security fixes. No per-ticket fees. Payment processing is handled by your own gateway (e.g. Stripe 1.5% + 20p in the UK). Running EventPrime also requires a WordPress site, which has its own hosting costs (typically £5-£25/month). Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p). Source: theeventprime.com/all-extensions (July 2026)."
+  },
+  "eventprime_business": {
+    "name": "EventPrime (Business)",
+    "annual_cost": 133,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "EventPrime Business: listed at $179 (approx. £133) for a single site and $349 (approx. £258) for unlimited sites, advertised at $119 and $229 during a sale in July 2026. The tier adds the seat plan builder, attendee check-in, RSVP, waiting lists, advanced reports and offline payments. The licence is paid once and includes 12 months of support and updates; this calculator assumes it is renewed each year, because a lapsed licence stops receiving updates including security fixes. No per-ticket fees. Payment processing is handled by your own gateway (e.g. Stripe 1.5% + 20p in the UK). Running EventPrime also requires a WordPress site, which has its own hosting costs (typically £5-£25/month). Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p). Source: theeventprime.com/all-extensions (July 2026)."
+  },
   "weezevent": {
     "name": "Weezevent",
     "annual_cost": 0,
