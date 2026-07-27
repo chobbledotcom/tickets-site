@@ -11,6 +11,16 @@
       "sourceUrl": "https://github.com/chobbledotcom/tickets/blob/main/specs/payments/payment-provider-choice.feature",
       "socialKey": "payment-provider-choice"
     },
+    "qr-code-check-in": {
+      "page": "pages/features/qr-code-check-ins.md",
+      "legacyDestinationPath": "images/screenshots/qr-code-check-in.png",
+      "assetProfile": "mobile",
+      "caseId": "door.someone-still-to-arrive-can-be-picked",
+      "alt": "Manual check-in search on a listing's scanner page, offering Alice and her one place",
+      "caption": "Look someone up by name when their ticket cannot be scanned.",
+      "sourceUrl": "https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/checking-people-in-at-the-door.feature",
+      "socialKey": "qr-code-check-ins"
+    },
     "servicing-studio-floor-hold": {
       "page": "pages/features/servicing-events.md",
       "legacyDestinationPath": "images/screenshots/servicing-studio-floor-hold.png",

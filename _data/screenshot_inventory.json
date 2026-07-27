@@ -35,7 +35,11 @@
     "captureId": "payment-provider-choice"
   },
   { "key": "promo-codes-and-add-ons", "classification": "legacy-product-screenshot" },
-  { "key": "qr-code-check-ins", "classification": "legacy-product-screenshot" },
+  {
+    "key": "qr-code-check-ins",
+    "classification": "linked-evidence",
+    "captureId": "qr-code-check-in"
+  },
   { "key": "schools-and-ptas", "classification": "legacy-product-screenshot" },
   {
     "key": "servicing-events",

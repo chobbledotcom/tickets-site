@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "7cc1d936def783f9e816c2be75785891ec875aa2",
+    "commit": "b22a33ddae8df6e7872e74537fdf9fe7320f384d",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -14,7 +14,7 @@
         "height": 2542,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "16351e8205d04077e16137b4a9825d734824a6ada000522946d9fa6ce7034f78",
+        "sha256": "5666e83e1414d6deb0cb39e20a73b3930364cfd2b7d93d269e479b73b380bbd8",
         "src": "/images/screenshots/payment-provider-choice.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -49,6 +49,47 @@
         "name": "An organiser chooses a payment provider"
       }
     },
+    "qr-code-check-in": {
+      "case": {
+        "id": "door.someone-still-to-arrive-can-be-picked",
+        "name": "The organiser looks for someone who has not arrived"
+      },
+      "id": "qr-code-check-in",
+      "image": {
+        "height": 607,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "2c71a0317281f3c5dd750a802168ca51f3c431181e42220400f178eba0bacce6",
+        "src": "/images/screenshots/qr-code-check-in.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 772
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "When a ticket cannot be read, the organiser can pick the person from a list.\nThat list holds only the people still to arrive, so nobody is let in twice\nand a refunded ticket cannot be waved through by hand.",
+        "id": "attendees.the-door-only-offers-people-who-are-not-in-yet",
+        "name": "Looking someone up by hand only offers people who are not in yet"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "Alice has a ticket for the Ceilidh"
+        },
+        {
+          "keyword": "Then",
+          "text": "the Ceilidh door offers Alice by name"
+        }
+      ],
+      "story": {
+        "description": "On the day, the organiser stands at the door with the listing's scanner open\nand reads each person's ticket. The site tells them who is in front of them,\nhow many places that ticket covers, and whether to let them through. It also\nkeeps the people already inside off the list, so nobody is counted twice.",
+        "id": "attendees.checking-people-in-at-the-door",
+        "name": "An organiser checks people in at the door"
+      }
+    },
     "servicing-studio-floor-hold": {
       "case": {
         "id": "servicing.hold-on-dashboard",
@@ -59,7 +100,7 @@
         "height": 742,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "358ff57d95980e50244cd14c8d18cc8c1a848b5cc7b089ff8ac10427a4ddd3c4",
+        "sha256": "5cd1d5fc03bf5a49fbf080e045ce7b913850aa30a0d74b35487fef7817edad4c",
         "src": "/images/screenshots/servicing-studio-floor-hold.png",
         "viewport": {
           "deviceScaleFactor": 2,
