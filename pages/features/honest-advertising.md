@@ -36,45 +36,95 @@ blocks:
     content: |
       ## An example on Reddit
 
-      Two Reddit accounts, **ichar10** and **King-RD9**, have posted
-      repeatedly about [Weezevent](/compared-to/weezevent/) across ticketing,
-      event production, clubbing, conference and party planning subreddits.
-      Weezevent is named favourably in every one of the posts listed below.
+      Five Reddit accounts have posted about [Weezevent](/compared-to/weezevent/)
+      across ticketing, event production, festival, conference, theatre,
+      museum, trade show, clubbing and small business subreddits during 2026.
+      They are **ichar10**, **King-RD9**, **Admirable_Barber2632**,
+      **AdOpening5010** and **InternalAd8940**.
 
-      Some are written as comparison articles. The
-      ["Eventbrite Alternative - 2026"](https://www.reddit.com/r/TicketingMasters/comments/1t5ci1u/eventbrite_alternative_2026/)
-      post by ichar10 runs through Weezevent's feature list and pricing at
-      length, and concludes that it is "one of the strongest options to look
-      at in 2026". The
-      ["Universe Ticketing: Best alternative?"](https://www.reddit.com/r/TicketingMasters/comments/1thqwjc/universe_ticketing_best_alternative/)
-      post by King-RD9 opens with "Our next alternative episode is", so it
-      belongs to a series, and reaches the same conclusion.
+      Weezevent is recommended in almost every post the five accounts have
+      made. The sections below set out what can be checked by reading the
+      threads.
+  - type: markdown
+    content: |
+      ### The same sentence on three threads
 
-      The
-      ["best potential alternative to TicketSource"](https://www.reddit.com/r/TicketingMasters/comments/1thpw3p/best_potential_alternative_to_ticketsource/)
-      post by ichar10 follows the same structure again.
+      On 1 June 2026, AdOpening5010 left a comment opening with the same
+      sentence on three separate threads: "for me is Weezevent. they cover all
+      the points you mentioned above and for a fair price". Each comment then
+      lists Weezevent features.
 
-      Others are written as questions from an organiser asking for help, with
-      Weezevent already named in the question. Examples include
-      [a university conference registration question](https://www.reddit.com/r/EventProduction/comments/1rcirew/event_registration_form_suggestions/),
-      [a student party question](https://old.reddit.com/r/partyplanning/comments/1sl6lau/event_ticketing_for_party/),
-      [a nightclub question](https://old.reddit.com/r/clubbing/comments/1rpxxjz/your_best_event_ticketing_purchase_experience_for/)
+      The three comments are on the
+      [TicketSource](https://old.reddit.com/r/TicketingMasters/comments/1thpw3p/best_potential_alternative_to_ticketsource/op3vdij/),
+      [TicketSpice](https://old.reddit.com/r/TicketingMasters/comments/1tjn05k/ticketspice_alternative/op3v9lb/)
       and
-      [a tech conference question](https://old.reddit.com/r/conferences/comments/1srpmaa/most_reliable_event_ticketing_solution/).
+      [Ticketmaster](https://old.reddit.com/r/TicketingMasters/comments/1tbyf5i/best_ticketmaster_alternative/op3v5ax/)
+      alternative threads.
+  - type: markdown
+    content: |
+      ### Questions and answers from the same group
 
-      Three details are checkable in the posts themselves. Weezevent's UK
-      pricing is quoted in the same words across several unrelated threads.
-      The two accounts appear in each other's threads, with ichar10 commenting
-      in support on King-RD9's Universe post and King-RD9 replying in
-      agreement.
+      Most of the activity is in one subreddit, r/TicketingMasters, where
+      several of the accounts ask the questions and others answer them.
+      InternalAd8940 posted
+      ["Best Ticketmaster alternative ?"](https://old.reddit.com/r/TicketingMasters/comments/1tbyf5i/best_ticketmaster_alternative/)
+      and
+      ["TicketSpice Alternative?"](https://old.reddit.com/r/TicketingMasters/comments/1tjn05k/ticketspice_alternative/),
+      both of which AdOpening5010 later answered with the template comment
+      above.
 
-      Several posts are also framed as first-time organisers seeking advice
-      while reciting a feature list.
+      Other threads are long comparison articles that end on Weezevent.
+      ichar10 wrote
+      ["Eventbrite Alternative - 2026"](https://www.reddit.com/r/TicketingMasters/comments/1t5ci1u/eventbrite_alternative_2026/),
+      and King-RD9 wrote
+      ["Universe Ticketing: Best alternative?"](https://www.reddit.com/r/TicketingMasters/comments/1thqwjc/universe_ticketing_best_alternative/),
+      which opens "Our next alternative episode is" and so belongs to a
+      series.
+
+      The accounts endorse each other in these threads. Admirable_Barber2632
+      replied to ichar10's Eventbrite article with
+      ["thanks for the research, I also use weezevent and I am happy about it so far"](https://old.reddit.com/r/TicketingMasters/comments/1t5ci1u/eventbrite_alternative_2026/oljfvdi/),
+      and ichar10 and King-RD9 agreed with one another under the Universe
+      post.
+  - type: markdown
+    content: |
+      ### Accounts that contradict themselves
+
+      The accounts describe their own experience in ways that do not hold
+      together. On 25 February 2026 Admirable_Barber2632 said of Weezevent
+      ["Been using that for my different gatherings"](https://old.reddit.com/r/EventProduction/comments/1rcirew/event_registration_form_suggestions/o7an8k6/).
+      On 10 March the same account said
+      ["I registered to the Weezevent platform yesterday and now I need to test it with a fake event"](https://old.reddit.com/r/conferences/comments/1rmb5ra/event_ticketing_solution_for_conference_any_advice/o9p1q0c/),
+      and on 12 March that it was
+      ["investigating Weezevent for my own event right now"](https://old.reddit.com/r/tradeshows/comments/1rr5zou/best_ticketing_option_for_trade_showsexhibitions/oa0a568/).
+
+      AdOpening5010 gives a different organisation each time. It runs
+      [stand-up comedy shows](https://old.reddit.com/r/Theatre/comments/umhy9j/ticketing_software_recomendations/o3r3tvd/),
+      is a
+      [Toronto organiser that switched to Weezevent](https://old.reddit.com/r/Torontoevents/comments/1qepr2a/event_organizers_quick_question_which_platform_do/o6xlbnv/),
+      has
+      [used it for a festival](https://old.reddit.com/r/festivals/comments/1pofk5o/what_is_the_best_ticketing_system_for_selling/o2dz6o1/)
+      and has
+      ["worked with it quite a bit"](https://old.reddit.com/r/musicfestivals/comments/1rsrk25/1st_edition_festival_any_advice_on_security/ob3yf2a/).
+      Two of those comments were left on threads that were already years old.
+
+      In one r/smallbusinessowner thread the accounts appear as strangers.
+      AdOpening5010
+      [recommended Weezevent](https://old.reddit.com/r/smallbusinessowner/comments/1rkq8e9/best_event_ticketing_solution_for_a_small_business/o8xqrrw/),
+      and ichar10 answered separately in the same thread saying "Haven't
+      tested Weezevent but they seem pretty complete", two months before
+      publishing its own detailed Weezevent feature and pricing article.
+  - type: markdown
+    content: |
+      ### What cannot be established
 
       Reddit does not publish who is behind an account. There is no way to
       establish from the outside who runs these accounts, whether they are
-      paid, or whether Weezevent knows about them. The observable facts are
-      the volume, the repetition and the shape of the posts.
+      paid, or whether Weezevent knows about them.
+
+      The observable facts are the volume, the repeated wording, the
+      contradictions between the accounts' own claims, and the questions and
+      answers coming from the same small group.
 
       This matters because an organiser reading one of those threads has no
       way to tell a recommendation from an advert. Reddit's rules require paid

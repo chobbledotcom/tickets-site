@@ -227,24 +227,24 @@ blocks:
       forum recommendations are all places where paid or undisclosed promotion
       turns up.
 
-      Two Reddit accounts, **ichar10** and **King-RD9**, have posted
-      repeatedly about Weezevent across ticketing, event production, clubbing,
-      conference and party planning subreddits. Some posts are long comparison
-      articles ending on Weezevent, such as
-      ["Eventbrite Alternative - 2026"](https://www.reddit.com/r/TicketingMasters/comments/1t5ci1u/eventbrite_alternative_2026/)
-      and
-      ["Universe Ticketing: Best alternative?"](https://www.reddit.com/r/TicketingMasters/comments/1thqwjc/universe_ticketing_best_alternative/).
-      Others are framed as an organiser asking for advice with Weezevent
-      already named in the question, such as
-      [this club venue post](https://old.reddit.com/r/clubbing/comments/1rpxxjz/your_best_event_ticketing_purchase_experience_for/)
-      and
-      [this conference post](https://old.reddit.com/r/conferences/comments/1srpmaa/most_reliable_event_ticketing_solution/).
+      Five Reddit accounts have posted about Weezevent across ticketing,
+      event production, festival, conference, theatre, trade show, clubbing
+      and small business subreddits during 2026. Weezevent is recommended in
+      almost every post they have made.
 
-      The same Weezevent pricing wording appears across several unrelated
-      threads, and the two accounts turn up in each other's threads agreeing.
+      Some are long comparison articles ending on Weezevent, such as
+      ["Eventbrite Alternative - 2026"](https://www.reddit.com/r/TicketingMasters/comments/1t5ci1u/eventbrite_alternative_2026/).
+      Others are questions with Weezevent already named in them, and one
+      account left
+      [the same opening sentence on three different threads](https://old.reddit.com/r/TicketingMasters/comments/1tjn05k/ticketspice_alternative/op3v9lb/)
+      on a single day. Several of the accounts describe their own use of
+      Weezevent in ways that contradict their earlier posts.
+
       Reddit does not publish who is behind an account, so there is no way to
       establish from the outside who runs them or whether Weezevent knows
-      about them.
+      about them. The
+      [honest advertising](/features/honest-advertising/) page sets out the
+      posts and the contradictions with links to each one.
 
       The wider pattern is easier to document. Ticketing companies buy search
       ads on competitors' names, pay for placement in "top 10 ticketing
