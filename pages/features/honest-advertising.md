@@ -36,23 +36,48 @@ blocks:
     content: |
       ## An example on Reddit
 
-      A Reddit account using the name **ichar10** has posted repeatedly about
-      [Weezevent](/compared-to/weezevent/) across event, festival and small
-      business subreddits, including in threads asking which ticketing
-      platform to use. Weezevent comes up in its posts far more often than any
-      other subject.
+      Two Reddit accounts, **ichar10** and **King-RD9**, have posted
+      repeatedly about [Weezevent](/compared-to/weezevent/) across ticketing,
+      event production, clubbing, conference and party planning subreddits.
+      Weezevent is named favourably in every one of the posts listed below.
+
+      Some are written as comparison articles. The
+      ["Eventbrite Alternative - 2026"](https://www.reddit.com/r/TicketingMasters/comments/1t5ci1u/eventbrite_alternative_2026/)
+      post by ichar10 runs through Weezevent's feature list and pricing at
+      length, and concludes that it is "one of the strongest options to look
+      at in 2026". The
+      ["Universe Ticketing: Best alternative?"](https://www.reddit.com/r/TicketingMasters/comments/1thqwjc/universe_ticketing_best_alternative/)
+      post by King-RD9 opens with "Our next alternative episode is", so it
+      belongs to a series, and reaches the same conclusion. The
+      ["best potential alternative to TicketSource"](https://www.reddit.com/r/TicketingMasters/comments/1thpw3p/best_potential_alternative_to_ticketsource/)
+      post by ichar10 follows the same structure again.
+
+      Others are written as questions from an organiser asking for help, with
+      Weezevent already named in the question. Examples include
+      [a university conference registration question](https://www.reddit.com/r/EventProduction/comments/1rcirew/event_registration_form_suggestions/),
+      [a student party question](https://old.reddit.com/r/partyplanning/comments/1sl6lau/event_ticketing_for_party/),
+      [a nightclub question](https://old.reddit.com/r/clubbing/comments/1rpxxjz/your_best_event_ticketing_purchase_experience_for/)
+      and
+      [a tech conference question](https://old.reddit.com/r/conferences/comments/1srpmaa/most_reliable_event_ticketing_solution/).
+
+      Three details are checkable in the posts themselves. Weezevent's UK
+      pricing is quoted in the same words across several unrelated threads.
+      The two accounts appear in each other's threads, with ichar10 commenting
+      in support on King-RD9's Universe post and King-RD9 replying in
+      agreement. Several posts are framed as first-time organisers seeking
+      advice while reciting a feature list.
 
       Reddit does not publish who is behind an account. There is no way to
-      establish from the outside who runs that account, whether it is paid, or
-      whether Weezevent is aware of it. The observable fact is the volume and
-      the consistency of the recommendation.
+      establish from the outside who runs these accounts, whether they are
+      paid, or whether Weezevent knows about them. The observable facts are
+      the volume, the repetition and the shape of the posts.
 
-      This matters because an organiser reading that thread has no way to tell
-      a recommendation from an advert. Reddit's own rules require paid
-      promotion to be disclosed, and unlabelled paid promotion also falls foul
-      of the UK
-      [Consumer Protection from Unfair Trading Regulations](https://www.legislation.gov.uk/uksi/2008/1277/contents),
-      which prohibit posing as a consumer.
+      This matters because an organiser reading one of those threads has no
+      way to tell a recommendation from an advert. Reddit's rules require paid
+      promotion to be disclosed, and the UK
+      [Digital Markets, Competition and Consumers Act 2024](https://www.legislation.gov.uk/ukpga/2024/13/contents)
+      prohibits traders from falsely presenting themselves as consumers and
+      from commissioning fake consumer reviews.
   - type: markdown
     content: |
       ## Misleading fee claims

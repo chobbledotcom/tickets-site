@@ -227,12 +227,24 @@ blocks:
       forum recommendations are all places where paid or undisclosed promotion
       turns up.
 
-      A Reddit account using the name **ichar10** has posted repeatedly about
-      Weezevent across event and business subreddits, recommending it in
-      threads asking which ticketing platform to use. The account posts about
-      Weezevent far more often than about anything else. Reddit does not
-      publish who is behind an account, so there is no way to establish from
-      the outside who runs it or whether Weezevent knows about it.
+      Two Reddit accounts, **ichar10** and **King-RD9**, have posted
+      repeatedly about Weezevent across ticketing, event production, clubbing,
+      conference and party planning subreddits. Some posts are long comparison
+      articles ending on Weezevent, such as
+      ["Eventbrite Alternative - 2026"](https://www.reddit.com/r/TicketingMasters/comments/1t5ci1u/eventbrite_alternative_2026/)
+      and
+      ["Universe Ticketing: Best alternative?"](https://www.reddit.com/r/TicketingMasters/comments/1thqwjc/universe_ticketing_best_alternative/).
+      Others are framed as an organiser asking for advice with Weezevent
+      already named in the question, such as
+      [this club venue post](https://old.reddit.com/r/clubbing/comments/1rpxxjz/your_best_event_ticketing_purchase_experience_for/)
+      and
+      [this conference post](https://old.reddit.com/r/conferences/comments/1srpmaa/most_reliable_event_ticketing_solution/).
+
+      The same Weezevent pricing wording appears across several unrelated
+      threads, and the two accounts turn up in each other's threads agreeing.
+      Reddit does not publish who is behind an account, so there is no way to
+      establish from the outside who runs them or whether Weezevent knows
+      about them.
 
       The wider pattern is easier to document. Ticketing companies buy search
       ads on competitors' names, pay for placement in "top 10 ticketing
