@@ -290,8 +290,8 @@ blocks:
       directors.
 
       That majority shareholder is the executive chairman of the investment
-      firm [Liberté Capital](https://liberte-capital.com/). The firm's
-      published profile describes a career in international banking and
+      firm [Liberté Capital](https://liberte-capital.com/teams/philippe-paillart/).
+      The firm's published profile describes a career in international banking and
       finance, including chief executive and vice chairman of DBS Bank in
       Singapore, chairman and chief executive of Ford Credit and Ford
       Financial Services, and board positions at Citibank Germany and Standard
@@ -335,7 +335,7 @@ blocks:
       - [Ticketpass FAQs](https://ticketpass.org/pricing) - card processing included in the booking fee, fees absorbed or passed on, donation paid after the event in the next quarterly cycle
       - [Ticketpass privacy policy](https://ticketpass.org/privacy-policy) - operator, payment processor and marketing preferences
       - [Ticketpass terms and conditions](https://ticketpass.org/terms-and-conditions) - the 9 October 2025 transitional notice, and the pledge described as a commitment rather than a binding contractual obligation
-      - [Liberté Capital](https://liberte-capital.com/) - the firm's published profile of its executive chairman describes the banking and finance career summarised above
+      - [Liberté Capital](https://liberte-capital.com/teams/philippe-paillart/) - the firm's published profile of its executive chairman describes the banking and finance career summarised above
       - [Fanex Group Ltd people with significant control](https://find-and-update.company-information.service.gov.uk/company/16765338/persons-with-significant-control) - the ownership and voting-rights entries on the public register
       - [CIC business activities guidance](https://www.gov.uk/government/publications/community-interest-companies-business-activities/cic-business-activities-forms-and-step-by-step-guidelines) - a CIC can only stop being a CIC by dissolving or becoming a charity
       - [Chobble Tickets features](/features/)
