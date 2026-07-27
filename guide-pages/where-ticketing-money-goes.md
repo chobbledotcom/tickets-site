@@ -1,8 +1,8 @@
 ---
 name: Where Ticketing Money Goes
-subtitle: Reading donation pledges, profit shares and fee levels as separate questions
+subtitle: What the reviewed providers charge, who pays it, and what their pledges and structures cover
 meta_title: Where Ticketing Money Goes | Chobble Tickets
-meta_description: How to compare ticketing providers that donate a share of the booking fee or a share of profit, including who pays the donation and what the fee costs per ticket.
+meta_description: Compare how reviewed ticketing providers are funded, what their charity pledges apply to, and what their company structures restrict, with published fees for each.
 guide-category: choosing-a-ticket-platform
 order: 5
 blocks:
@@ -10,164 +10,151 @@ blocks:
   - type: guide-navigation
   - type: markdown
     content: |
-      Several ticketing providers publish a pledge about where their money
-      goes. Some donate a share of the booking fee charged on each ticket.
-      Some donate a share of annual profit. Some lock their assets so profit
-      cannot be paid out to shareholders.
+      Ticketing providers describe where their money goes in different ways.
+      Some donate a share of the fee charged on each ticket. Some donate a
+      share of annual profit. Some publish their accounts, and some carry a
+      legal structure that restricts what can be done with the money.
 
-      A pledge describes what a provider does with money after it has been
-      collected. It does not describe how much was collected, or who paid it.
-      Those are separate questions, and an organiser can check each one
-      before signing up.
+      This guide sets those claims beside the charges that fund them. Figures
+      come from the linked comparison pages and were reviewed in July 2026.
   - type: markdown
     dark: true
     content: |
-      ## Who pays a booking fee donation
+      ## Providers funded by a share of each sale
 
-      A booking fee is charged on the ticket. The organiser can absorb it or
-      add it to the ticket price so the attendee pays it. Either way the money
-      comes from the sale, not from the provider's own funds.
+      For these providers, income rises with ticket price and ticket volume.
+      Whether the organiser or the attendee pays depends on the setting the
+      organiser chooses.
 
-      The provider sets two numbers: the size of the fee and the share of that
-      fee it donates. The person paying the fee sets neither. Raising the fee
-      and raising the donated share both increase the amount donated, and only
-      one of them costs the provider anything.
-
-      Ticketpass publishes both numbers. Its Essentials plan charges a booking
-      fee of 1.9% + £0.20 alongside a service fee of the same amount, and it
-      donates up to 50% of the booking fee. On a £15 ticket that is a total
-      charge of about £0.97, of which up to about £0.24 reaches a charity.
-      Humanitix is a registered charity and states that 100% of its profits go
-      to education, healthcare and community projects, funded by a fee of
-      4.67% + £0.46 on each standard paid ticket.
+      - [Humanitix](/compared-to/humanitix/) charges 4.67% + £0.46 on each
+        standard paid ticket, including payment processing, and 3.33% + £0.25
+        for registered charities and schools.
+      - [Ticketpass](/compared-to/ticketpass/) charges a booking fee and a
+        separate service fee at the same rate, 1.9% + £0.20 each on
+        Essentials, so 3.8% + 40p combined.
+      - [EVENTIM.Light](/compared-to/eventim-light/) charges 8% per ticket in
+        the UK with processing included, which is £1.20 on a £15 ticket.
+      - [FIXR](/compared-to/fixr/) is free to organisers, and buyers pay
+        4.99% + £0.49 plus VAT, or 3.99% + £0.49 on the student and charity
+        tier.
+      - [Resident Advisor](/compared-to/resident-advisor/) says promoters pay
+        no ticketing fee because buyers cover a service fee. It does not
+        publish a general rate schedule.
+      - [Ticket Tailor](/compared-to/ticket-tailor/) charges a fixed amount
+        rather than a percentage: 60p per paid ticket, falling to about 22p
+        with the largest prepaid credit bundles.
   - type: markdown
     content: |
-      ## What a share of profit measures
+      ## Providers funded another way
 
-      Profit is what remains after a company's costs, which include salaries,
-      marketing, software and any other spending the company chooses. Two
-      companies can donate the same percentage of profit and donate very
-      different amounts, because they decide what their costs are before the
-      percentage is applied.
+      These providers do not take a set share of each sale. The money comes
+      from voluntary payments, paid extras, or a subscription that does not
+      change with sales.
 
-      A percentage of profit therefore says how a surplus is divided. It does
-      not say how large the surplus was, or how much was charged to produce
-      it. UK companies file accounts at Companies House, though small
-      companies and micro-entities can file without a profit and loss account,
-      so a filing shows what a percentage was applied to only when those
-      figures are included.
+      - [Dandelion](/compared-to/dandelion/) asks organisers for 1% of
+        completed sales, asks buyers for a donation at checkout, charges £25
+        for events that send buyers elsewhere, and sells listing boosts. None
+        of the ticket charges are mandatory.
+      - [alf.io](/compared-to/swicket/) is an open source project with public
+        finances on Open Collective, so its income and spending can be read in
+        full. Swicket is the separate managed service built on it, priced by
+        quote.
+      - [Pretix](/compared-to/pretix/) charges a percentage per ticket for its
+        hosted service and sells proprietary plugins for several enterprise
+        features. It describes itself as owner-led and says it operates
+        without pressure from investors or creditors.
+      - [tickts](/compared-to/tickts/) takes no commission and charges for
+        feature tiers instead, at £290 or £690 a year. It has stated plans to
+        add sponsorship and advertising on category and venue pages.
+      - [Chobble Tickets](/features/no-per-ticket-fees/) charges £50/year or
+        £5/month, or £25/year for charities, community groups, artists and
+        musicians, and takes no share of ticket income.
+  - type: markdown
+    dark: true
+    content: |
+      ## What the pledges cover
 
-      Wording matters as well. "Up to 50%" and "50%" are different pledges,
-      and a pledge on the booking fee is different from a pledge covering
-      every charge the provider makes. Ticketpass, for example, applies its
-      pledge to the booking fee and not to the separate service fee.
+      A pledge applies to a specific part of what a provider collects, and the
+      part it leaves out is where most of the money usually is.
+
+      Ticketpass donates up to 50% of its booking fee. The service fee, which
+      is charged at the same rate as the booking fee, is not included. On a
+      £15 Essentials ticket that is up to about £0.24 donated out of about
+      £0.97 charged, or up to about £121 across 500 tickets.
+
+      Humanitix states that 100% of its profits go to education, healthcare
+      and community projects, and its charity structure is what makes that
+      binding. Chobble donates 10% of its income to the Against Malaria
+      Foundation, funded from hosting fees and paid technical work.
+
+      Several providers reduce the charge instead of donating a share of it.
+      Ticket Tailor takes 50% off for registered charities and 20% off for
+      PTAs and B Corps, Humanitix has a lower charity and school rate, FIXR
+      has a student and charity tier, and Chobble charges £25/year.
   - type: markdown
     content: |
       ## A pledge is a policy, a legal form is a constraint
 
-      A published pledge is a decision the company has made and can revise.
-      Whoever controls the company controls the pledge, and control can move.
-      An ordinary limited company can be sold, and the buyer decides what the
-      new company does.
+      Ticketpass states the difference in its own terms, which describe the
+      Give Back 50 pledge as "not a binding contractual obligation but a
+      commitment in line with Ticketpass's ethos of social responsibility".
+      The same terms record that Fanex Group Ltd acquired the Ticketpass
+      business on 9 October 2025, so the company making the pledge is not the
+      company that started it.
 
-      Ticketpass states this directly. Its terms describe the Give Back 50
-      pledge as "not a binding contractual obligation but a commitment in line
-      with Ticketpass's ethos of social responsibility". The same terms record
-      that Fanex Group Ltd acquired the Ticketpass business on 9 October 2025,
-      so the company making the pledge is not the company that started it.
+      Legal forms restrict what a company may do rather than what it intends
+      to do. Humanitix is a registered charity. Ticket Tailor and Resident
+      Advisor are certified B Corporations, assessed against B Lab's
+      standards. Symbiota, which provides Dandelion, describes itself as a
+      not-for-profit worker co-operative and is recorded at Companies House as
+      a company limited by guarantee.
 
-      Companies House records who controls a UK company. Its people with
-      significant control register lists anyone holding more than 25% of the
-      shares or voting rights, or the right to appoint and remove directors.
-      The Fanex Group Ltd register records one person holding 75% or more of
-      the shares and voting rights along with the right to appoint and remove
-      directors.
-
-      Legal forms work differently, because they restrict what the company is
-      permitted to do rather than what it intends to do. A registered charity
-      answers to the Charity Commission. A community interest company carries
-      an asset lock. A company limited by guarantee has no shares to sell.
-      None of these forms sets the size of a fee, so they answer a different
-      question from the one in the previous section.
+      Chobble CIC is a community interest company limited by guarantee without
+      share capital, so control cannot be acquired by purchasing a stake. Its
+      asset lock stops assets being transferred out below market value except
+      to another asset-locked body, and under section 53 of the Companies
+      (Audit, Investigations and Community Enterprise) Act 2004 a CIC can stop
+      being a CIC only by dissolving or by becoming a charity.
   - type: markdown
     dark: true
     content: |
-      ## Compare the charge before the pledge
+      ## What 500 tickets at £15 costs
 
-      The cost per ticket is the figure an organiser pays and the figure a
-      donation is taken from, so it is the practical place to start. Work out
-      the full charge on a typical ticket, then the annual total at the volume
-      you expect, then check what share of that total the pledge covers.
+      Working the charge out at a realistic volume shows what a pledge is a
+      share of. These figures use the published rates above and assume one
+      ticket per payment.
 
-      Some charges are easy to miss in this arithmetic. Percentage fees rise
-      with ticket price and volume, fixed components matter most on cheap
-      tickets, VAT may be added, and payment processing is sometimes separate
-      and sometimes included. The
-      [platform fee calculator](/compared-to/compare-all/) applies the
-      published rates of the listed providers to a ticket price and annual
-      volume.
+      - EVENTIM.Light: £600 in platform fees, at 8% of £7,500 in sales
+      - Humanitix: about £580 at the standard rate, about £375 for charities
+        and schools
+      - Ticketpass Essentials: about £485, of which up to about £121 is donated
+      - Ticket Tailor: about £300 at the pay-as-you-go rate, about £110 at the
+        lowest prepaid rate, plus payment processing
+      - Chobble Tickets: £50, or £25 at the community rate, plus payment
+        processing paid to the organiser's own provider
 
-      An organiser who wants a fixed amount to reach a specific cause can also
-      compare the pledge with donating that amount directly, or with
-      [pay-what-you-want pricing](/features/stripe-and-square/), where the
-      buyer chooses how much to pay above a minimum and the organiser decides
-      where the extra goes.
-  - type: markdown
-    content: |
-      ## What Chobble charges and gives
-
-      Chobble Tickets charges £50/year or £5/month for managed hosting, or
-      £25/year for charities, community groups, artists and musicians. Chobble
-      adds [no per-ticket platform fee](/features/no-per-ticket-fees/), so no
-      part of a ticket price is directed anywhere by Chobble. Ticket income
-      goes to the organiser's own Stripe, Square or SumUp account, and that
-      provider charges its own processing rate.
-
-      Chobble's social impact page says it donates 10% of income to the
-      Against Malaria Foundation, and the linked foundation fundraiser
-      describes the policy as 10% of profits. That donation is funded from
-      Chobble's income, which comes from hosting fees and paid technical work,
-      so the same test applies to it as to any other pledge on this page.
-
-      Chobble CIC is a community interest company limited by guarantee without
-      share capital. There are no shares to buy and no dividends to pay, so
-      control cannot be acquired by purchasing a stake. Membership and
-      directors can still change under the company's articles, so the asset
-      lock, rather than the absence of shares, is what limits an incoming
-      controller.
-
-      The asset lock means assets cannot be transferred out for less than
-      their market value except to another asset-locked body. Under section 53
-      of the Companies (Audit, Investigations and Community Enterprise) Act
-      2004, a CIC can stop being a CIC only by dissolving or by becoming a
-      charity, so it cannot convert into an ordinary company. It stays a UK
-      company, filing an annual community interest report with the CIC
-      Regulator that sets out how it served its stated community purpose.
-
-      These are restrictions on what the company may do, not promises about
-      what it will charge. The £50/year price and the 10% donation are still
-      decisions Chobble makes, and the questions below apply to them as much
-      as to any other provider.
+      Payment processing is included in some of these rates and separate in
+      others, which is why the last two lines name it. The
+      [platform fee calculator](/compared-to/compare-all/) applies each
+      provider's published rate to a ticket price and annual volume.
   - type: markdown
     content: |
       ## Questions to compare
 
-      - What is the total charge on a typical ticket, including every fee,
-        VAT and payment processing?
+      - What is the total charge on a typical ticket, including every fee, VAT
+        and payment processing?
       - Who pays that charge, the organiser or the attendee?
       - Which part of the charge does the pledge apply to, and is the share
         fixed or capped by "up to"?
       - Is the pledge measured on revenue, on booking fees, or on profit
-        calculated after the company's own costs?
-      - Are the underlying figures published, in filed accounts or in an open
-        ledger?
-      - Does a legal structure such as a charity, co-operative, community
-        interest company or asset lock constrain where money can go?
+        calculated after the company's own costs? Small companies and
+        micro-entities can file accounts without a profit and loss account, so
+        the figures behind a profit share are not always public.
       - Who controls the company, and could a change of owner end the pledge?
-      - Could the organiser reach the same cause by donating directly, or by
-        collecting donations at checkout?
+      - Would a lower fee, a charity rate, or donating directly send more
+        money to the cause than the pledge does?
 
       The [ethical ticket sales options guide](/guide/choosing-a-ticket-platform/ethical-ticket-sales-options/)
       lists the documented structures, funding models and source licences of
-      the providers reviewed here.
+      the providers named here.
 ---
