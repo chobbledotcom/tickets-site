@@ -53,15 +53,19 @@ blocks:
       | [Eventim Light](/compared-to/eventim-light/) | Operated in the UK by EVENTIM UK Ltd; its parent, CTS EVENTIM, is in Bremen, Germany | United Kingdom |
       | [PTA Events](/compared-to/pta-events/) | PTA Events Limited, [company 09404586](https://find-and-update.company-information.service.gov.uk/company/09404586) | Bedford |
       | [Resident Advisor](/compared-to/resident-advisor/) | Started in Australia, now based in London and self-described as independent | London |
-      | [Resova](/compared-to/resova/) | Resova Ltd, company 09559910 | United Kingdom |
       | [tickts](/compared-to/tickts/) | TICKTS LTD, [company 17029682](https://find-and-update.company-information.service.gov.uk/company/17029682) | London |
+
+      [Resova](/compared-to/resova/), run by Resova Ltd (company 09559910), is
+      also UK registered. It is classed here as adjacent software rather than a
+      ticketing product, because it sells bookings for escape rooms, tours and
+      activities.
 
       Four more providers are run from the UK but have unreviewed or
       undocumented registration records here. Their comparison pages give the
-      details: [BookitBee](/compared-to/bookitbee/) trades as Live It Group Ltd,
-      [Fatsoma](/compared-to/fatsoma/) has been in Manchester since 2005,
-      [FIXR](/compared-to/fixr/) trades as VIPR Digital Limited in London, and
-      [Ticket Tailor](/compared-to/ticket-tailor/) has run from London since
+      details: [BookitBee](/compared-to/bookitbee/) is operated by Live It Group
+      Ltd, [Fatsoma](/compared-to/fatsoma/) has been in Manchester since 2005,
+      [FIXR](/compared-to/fixr/) is operated by VIPR Digital Limited in London,
+      and [Ticket Tailor](/compared-to/ticket-tailor/) has run from London since
       2010 without a registered entity recorded here.
 
       Being UK based says nothing about fees, and the charge is not applied the
@@ -184,6 +188,6 @@ blocks:
       invoice, so check the legal entity named in the terms, on an invoice, or
       in the privacy notice instead.
 
-      The [full comparison pages](/compared-to/) record the sources and
-      checking date for each provider listed above.
+      The [full comparison pages](/compared-to/) record the sources behind
+      each entry, and give a checking date where one has been recorded.
 ---
