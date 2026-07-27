@@ -20,6 +20,11 @@ blocks:
       code does not, on its own, say who owns a company or where its income
       goes.
 
+      Some providers publish a pledge to donate a share of their booking fee
+      or profit instead of, or alongside, a company structure. The guide to
+      [where ticketing money goes](/guide/choosing-a-ticket-platform/where-ticketing-money-goes/)
+      sets out how to read those pledges against the fee they are taken from.
+
   - type: markdown
     dark: true
     content: |
@@ -28,8 +33,10 @@ blocks:
       ### Chobble Tickets
 
       [Chobble Tickets](/about/) is provided by Chobble CIC, a UK community
-      interest company limited by guarantee without share capital. Its asset
-      lock restricts how company assets can be transferred. Chobble's social
+      interest company limited by guarantee without share capital, so it has
+      no shares to sell. Its asset lock restricts how company assets can be
+      transferred, and a CIC can stop being a CIC only by dissolving or by
+      becoming a charity. Chobble's social
       impact page says it donates 10% of income to the Against Malaria
       Foundation; the linked foundation fundraiser describes the policy as 10%
       of profits.
@@ -108,6 +115,31 @@ blocks:
 
   - type: markdown
     dark: true
+    content: |
+      ## Donation pledges without a documented purpose lock
+
+      ### Ticketpass
+
+      [Ticketpass](/compared-to/ticketpass/) describes itself as an ethical
+      ticketing platform. Its terms record that Fanex Group Ltd acquired the
+      Ticketpass business on 9 October 2025 and now operates the platform.
+      That company's entry on the Companies House register of people with
+      significant control records one person holding 75% or more of the shares
+      and voting rights, with the right to appoint and remove directors.
+
+      Paid tickets carry a booking fee and a separate service fee at the same
+      published rate, 1.9% + £0.20 each on the Essentials plan and 3.5% +
+      £0.35 each on Pro, both excluding VAT. Free events have no fee, and
+      organisers can absorb the charges or pass them to buyers.
+
+      Ticketpass donates up to 50% of the booking fee, but not the service
+      fee, to a project the organiser or the attendee selects. Its terms
+      describe the pledge as a commitment rather than a binding contractual
+      obligation. It also runs an event marketplace, requires buyers to create
+      an account, and says it may send marketing about Ticketpass and selected
+      parties in line with a user's preferences.
+
+  - type: markdown
     content: |
       ## Open source and independent projects
 

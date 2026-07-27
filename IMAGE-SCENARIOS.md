@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 128 rendered client pages. A page counts as illustrated
+This audit covers all 130 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 126 | 47 | 79 |
+| Editorial pages in the sitemap | 128 | 47 | 81 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **128** | **47** | **81** |
+| **All rendered pages** | **130** | **47** | **83** |
 
-The 79 editorial pages are the main illustration backlog. The two utility
+The 81 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -131,6 +131,7 @@ pages are listed separately at the end.
 | `guide-pages/host-your-own-ticket-site.md` | Diagram: `domain-site-hosting-models` | Oakfield wants `tickets.oakfieldevents.org`. Show provider-hosted custom domain, complete managed public site and self-hosted software, with responsibility for updates and backups labelled. | Separates owning a web address from operating the server. |
 | `guide-pages/uk-made-ticket-platforms.md` | Diagram: `uk-registration-and-data-location` | Group the reviewed providers by documented country of company registration only. Beside that grouping, show Chobble's own stack as a separate strip: UK company, Bunny hosting headquartered in Slovenia, database primary and replica regions that may sit outside the UK and EU with storage region `eu-west-1`, and a self-hosted option. Do not assign a data-processing country to any other provider. | Separates where a company is registered from where attendee records are stored, without guessing storage locations. |
 | `guide-pages/flat-rate-ticketing.md` | Comparison graphic: `flat-rate-pricing-curves` | Riverside sells 50, 500 and 5,000 tickets. Compare volume-independent hosting, per-sale fees, ticket-volume subscriptions, booking allowances and feature tiers, with processing separate. | Shows how apparently fixed subscriptions can still change with volume or requirements. |
+| `guide-pages/where-ticketing-money-goes.md` | Comparison graphic: `donation-pledge-breakdown` | Break a £15 ticket into face value, booking fee, service fee, payment processing and the donated share for a pledge-funded plan, beside a flat hosting fee with the ticket charge left whole. | Shows which part of an organiser's cost a donation pledge is taken from. |
 
 ## Comparison Hubs
 
@@ -162,6 +163,7 @@ pages are listed separately at the end.
 | `pages/compared-to/bookitbee.md` | Comparison graphic: `bookitbee-fee-stack` | Riverside sells 250 £18 tickets. Show BookitBee's percentage tier and minimum fee beside Chobble's fixed price, with reserved seating and group deals as separate advantage cards. | Balances richer selling features against predictable platform cost. |
 | `pages/compared-to/tito.md` | Comparison graphic: `tito-conference-workflow` | Northstar Dev Day sells 400 €120 tickets. Compare shared API tools, Tito's conference and badge workflow and Chobble's flat price and self-hosting. | Puts conference operations beside cost rather than reducing the choice to fees. |
 | `pages/compared-to/tickts.md` | Comparison graphic: `tickts-plan-staircase` | Oakfield needs a custom domain, full API and white-label presentation. Show Starter, Growth and Pro steps with their features beside one Chobble level containing all current Chobble features. | Explains feature tiers without suggesting tickts charges commission. |
+| `pages/compared-to/ticketpass.md` | Comparison graphic: `ticketpass-fee-and-donation` | Meadowfield Fundraisers sells 500 £15 tickets. Split the Essentials charge into booking fee, service fee and the donated share, beside Chobble's community hosting fee with a direct donation shown separately. | Separates the size of the ticket charge from the share of it that is donated. |
 | `pages/compared-to/pta-events.md` | Comparison graphic: `pta-events-school-year` | Oakfield Primary runs a disco, raffle, auction, volunteer rota and news page. Mark which jobs each product handles, then show transaction costs versus Chobble's community rate. | Shows when the wider fundraising suite may justify its cost. |
 | `pages/compared-to/tessera-tickets.md` | Comparison graphic: `tessera-venue-cost-stack` | The Old Playhouse sells 8,000 tickets and needs assigned seating and box-office hardware. Stack Tessera subscription, WordPress site, seating setup and scanners beside Chobble's general-admission model. | Makes the products' different venue scope visible. |
 | `pages/compared-to/resova.md` | Comparison graphic: `resova-resource-scheduling` | Riverside Escape Rooms has three rooms, six hourly slots and 420 monthly bookings. Show Resova assigning rooms and staff with allowance overage beside Chobble's recurring event capacity. | Helps operators decide whether specialist resource scheduling matters more than flat ticketing cost. |

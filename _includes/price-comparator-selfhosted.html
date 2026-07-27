@@ -13,7 +13,7 @@
       </label>
       <label class="price-comparator__label">
         <span>Price per ticket: <strong>&pound;<span data-pc="ticket-price">10.00</span></strong></span>
-        <input type="range" data-pc="price" min="0" max="200" value="10" step="0.50">
+        <input type="range" data-pc="price" min="0.50" max="200" value="10" step="0.50">
       </label>
     </div>
     <div class="price-comparator__takings">
@@ -63,6 +63,14 @@
     </tbody>
   </table>
   <p class="price-comparator__savings" data-pc="savings"></p>
+  <p class="prose">
+    <em>"Your share" assumes the organiser pays the fees out of the ticket
+    price. Where a platform lets the organiser add its fees on top, the buyer
+    pays them and the organiser keeps more than the figure shown. These
+    figures exclude VAT and cover paid tickets. Several platforms charge
+    nothing for free tickets, and the notes below record that where it is
+    published.</em>
+  </p>
 </div>
 <script src="/assets/js/price-comparator.js"></script>
 {%- if co.fee_note -%}

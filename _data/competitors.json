@@ -248,5 +248,23 @@
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2
+  },
+  "ticketpass_essentials": {
+    "name": "Ticketpass (Essentials)",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 3.8,
+    "per_ticket_fee_fixed": 0.4,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0,
+    "fee_note": "Ticketpass Essentials fees: a booking fee of 1.9% + £0.20 and a separate service fee of 1.9% + £0.20 on each paid ticket, so 3.8% + 40p in total (excl. VAT). Card processing is covered inside the booking fee. Free events are free, and up to 50% of the booking fee is donated to a chosen charity project. Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p). Source: ticketpass.org/pricing (July 2026)."
+  },
+  "ticketpass_pro": {
+    "name": "Ticketpass (Pro)",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 7.0,
+    "per_ticket_fee_fixed": 0.7,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0,
+    "fee_note": "Ticketpass Pro fees: a booking fee of 3.5% + £0.35 and a separate service fee of 3.5% + £0.35 on each paid ticket, so 7% + 70p in total (excl. VAT). Pro adds reserved seating, waiting lists, memberships and a website widget. Card processing is covered inside the booking fee, and up to 50% of the booking fee is donated to a chosen charity project. Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p). Source: ticketpass.org/pricing (July 2026)."
   }
 }

@@ -72,6 +72,8 @@
           "hi_events_selfhosted": "/compared-to/hi-events/",
           "tickts_starter": "/compared-to/tickts/",
           "tickts_pro": "/compared-to/tickts/",
+          "ticketpass_essentials": "/compared-to/ticketpass/",
+          "ticketpass_pro": "/compared-to/ticketpass/",
           "chobble": ""
         };
         var link = r.key in linkMap
