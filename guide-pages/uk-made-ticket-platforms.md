@@ -89,7 +89,7 @@ blocks:
       | Provider | Registered or headquartered in |
       |---|---|
       | [Hi.Events](/compared-to/hi-events/) | Hi.Events Ltd, Ireland |
-      | [Humanitix](/compared-to/humanitix/) | Australia, operating as a registered charity |
+      | [Humanitix](/compared-to/humanitix/) | Founded in Australia and run as a registered charity |
       | [Pretix](/compared-to/pretix/) | Heidelberg, Germany |
       | [Swicket](/compared-to/swicket/) | Vivento Lab, Lugano, Switzerland |
       | [Tessera Tickets](/compared-to/tessera-tickets/) | Tecture, Chicago, Illinois |
