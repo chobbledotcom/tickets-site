@@ -16,7 +16,7 @@ provider_facts:
     - pretix_hosted
     - pretix_selfhosted
   last_reviewed: "2026-07-25"
-  registration_country: germany
+  registration_country: not-documented
   ethical_basis:
     - owner-led
     - self-described-independent
@@ -30,6 +30,7 @@ provider_facts:
   event_marketplace: none
   attendee_cross_marketing: not-documented
   notes:
+    registration_country: "pretix is developed from Heidelberg, Germany; no registered legal entity was established in the sources reviewed."
     per_ticket_platform_fee: "Pretix Hosted charges 2.5% of ticket value, capped per ticket; payment processing is separate."
     ethical_basis: "Pretix describes itself as owner-led and says it operates without pressure from investors or creditors."
     managed_pricing: "Pretix Hosted charges for each paid ticket rather than using a volume-independent subscription."

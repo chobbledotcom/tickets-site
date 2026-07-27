@@ -36,10 +36,10 @@ blocks:
         addresses and orders sit in a particular country, which may not be the
         country the company is registered in.
 
-      The tables below cover the first fact only, because company registration
-      is the one that is recorded publicly for every provider. Where the
-      software is built and where attendee data is stored are set out for
-      Chobble Tickets further down this page.
+      The tables below cover the first fact only, and say so where no
+      registered legal entity is recorded for a provider. Where the software is
+      built and where attendee data is stored are set out for Chobble Tickets
+      further down this page.
   - type: markdown
     content: |
       ## UK-based ticketing providers
@@ -79,6 +79,8 @@ blocks:
 
       Several platforms used by UK organisers are run from elsewhere. This
       matters for which company law applies and which courts hear disputes.
+      Some rows give a headquarters rather than a registration, because no
+      registered legal entity is recorded for that provider here.
 
       | Provider | Registered or headquartered in |
       |---|---|
@@ -143,9 +145,10 @@ blocks:
       - **[UK payment providers](/features/stripe-and-square/).** Organisers
         connect Stripe, Square or SumUp. SumUp is a UK company. Ticket income
         goes to the organiser's own account.
-      - **[Custom domains](/features/custom-domain/).** Events run on a domain
-        the organiser owns, including .co.uk and .uk domains, rather than a
-        provider's marketplace address.
+      - **[Custom domains](/features/custom-domain/).** An organiser can point
+        a domain they own at their site, including .co.uk and .uk domains. A
+        site starts on a host-provided subdomain such as
+        yourname.tix.chobble.net, and a custom domain is added on top of it.
   - type: markdown
     content: |
       ## UK data protection and company law

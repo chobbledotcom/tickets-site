@@ -13,7 +13,7 @@ provider_facts:
   calculator_keys:
     - cheddar_up
   last_reviewed: "2026-07-25"
-  registration_country: united-states
+  registration_country: not-documented
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: per-transaction-percentage-plus-fixed
