@@ -28,7 +28,8 @@ blocks:
 
       - **Company registration.** The business is incorporated in the UK and
         appears on the Companies House register, so it is subject to UK company
-        law and UK consumer law.
+        law. Whether UK consumer law also applies depends on the contract and
+        on whether the organiser is buying as a consumer or a business.
       - **Where the software is built.** The people writing and supporting the
         product work in the UK.
       - **Where attendee data is stored.** The servers holding names, email
@@ -103,7 +104,10 @@ blocks:
       without an authorised keyed user.
 
       An organiser who needs data to stay on specific infrastructure can
-      [self-host](/hosting/) the same product on a UK server. The
+      [self-host](/hosting/) the same product on a UK server. That covers the
+      application and its database. Payment, email and any other configured
+      services still receive the data they need to do their work, so those
+      providers have to be chosen with the same question in mind. The
       [hosting and data page](/features/european/) lists every company in the
       stack and where each is headquartered.
   - type: markdown
@@ -144,9 +148,9 @@ blocks:
       restricts how company assets can be transferred. There are no
       shareholders to pay.
 
-      Dandelion is the other UK provider listed here with a purpose-locked
-      structure. Symbiota Ltd is a company limited by guarantee and describes
-      itself as a not-for-profit worker co-operative.
+      Dandelion is provided by Symbiota Ltd, which Companies House records as a
+      company limited by guarantee. Symbiota describes itself as a
+      not-for-profit worker co-operative.
   - type: markdown
     dark: true
     content: |
