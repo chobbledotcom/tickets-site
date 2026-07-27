@@ -272,57 +272,62 @@ blocks:
         without moving to a higher tier
   - type: markdown
     content: |
-      ## Who runs Ticketpass?
+      ## Platforms change hands, and terms change with them
 
-      The Ticketpass privacy policy names Fanex Group Ltd as the company
-      behind the service, a private limited company registered in England
-      (company number
+      The service an organiser signs up to is the service as it stands that
+      day. Owners, prices, licences and policies can all change afterwards,
+      and several documented examples sit elsewhere on this site.
+
+      - Ticketpass itself changed operator. Its terms record that on
+        9 October 2025 Fanex Group Ltd acquired the assets and business
+        operations of Ticketpass Limited.
+      - [Cal.com](/compared-to/cal-com/) moved its production codebase closed
+        source on 14 April 2026, after building its reputation as the open
+        source alternative to Calendly. A separate community version
+        continues under the MIT licence.
+      - [tickts](/compared-to/tickts/) states on its own site that it plans to
+        add sponsorship and advertising on category and venue pages once it
+        reaches audience scale.
+      - [Dandelion](/compared-to/dandelion/) publishes its code under the
+        Functional Source License, which blocks competing commercial services
+        for two years before Apache 2.0 applies.
+
+      What limits a change is the structure underneath it. Ticketpass is
+      operated by Fanex Group Ltd, a private limited company registered in
+      England (company number
       [16765338](https://find-and-update.company-information.service.gov.uk/company/16765338)).
-      Ticketpass says it was founded in 2017 and describes itself as an
-      ethical ticketing platform. Its terms record a transitional
-      notice: on 9 October 2025 Fanex Group Ltd acquired the assets and
-      business operations of Ticketpass Limited and became the operator of the
-      platform.
-
-      Fanex Group Ltd has two people with significant control on the
-      [public register](https://find-and-update.company-information.service.gov.uk/company/16765338/persons-with-significant-control),
-      both notified on 6 October 2025. One is recorded as having significant
-      influence or control. The other is recorded as holding 75% or more of
-      the shares and voting rights, with the right to appoint and remove
-      directors.
+      Its entry on the
+      [register of people with significant control](https://find-and-update.company-information.service.gov.uk/company/16765338/persons-with-significant-control)
+      records one person holding 75% or more of the shares and voting rights,
+      with the right to appoint and remove directors.
 
       That majority shareholder is the executive chairman of the investment
-      firm [Liberté Capital](https://liberte-capital.com/teams/philippe-paillart/).
-      The firm's published profile describes a career in international banking and
-      finance, including chief executive and vice chairman of DBS Bank in
-      Singapore, chairman and chief executive of Ford Credit and Ford
-      Financial Services, and board positions at Citibank Germany and Standard
-      Chartered Bank.
-
-      An ordinary limited company can be sold, as the 2025 transfer of the
-      Ticketpass business shows, and its owners can change its pricing and its
-      donation policy. Ticketpass's own terms describe the pledge as a
-      commitment rather than a binding obligation. The sources reviewed on
+      firm [Liberté Capital](https://liberte-capital.com/teams/philippe-paillart/),
+      whose published profile describes a career in international banking and
+      finance. Ticketpass's own terms describe the Give Back 50 pledge as a
+      commitment rather than a binding obligation, and the sources reviewed on
       27 July 2026 did not document a charitable, co-operative or certified
       structure.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. The registered name is Chobble CIC, company number
-      17050113, registered in Prestwich, Manchester.
+      (CIC), registered as Chobble CIC, company number 17050113, in Prestwich,
+      Manchester. It is limited by guarantee and has no share capital, so
+      there are no shares to buy and no dividends to pay, and control cannot
+      be acquired by purchasing a stake.
 
-      Chobble CIC is limited by guarantee and has no share capital, so there
-      are no shares to buy and no dividends to pay, and control cannot be
-      acquired by purchasing a stake. Under section 53 of the
-      Companies (Audit, Investigations and Community Enterprise) Act 2004, a
-      CIC can stop being a CIC only by dissolving or by becoming a charity, so
-      it cannot convert into an ordinary company. Assets cannot be transferred
-      out for less than their market value except to another asset-locked
-      body, and the CIC Regulator in the UK reviews the company's annual
-      community interest report. All of Chobble's code is public under AGPLv3,
-      and the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      Under section 53 of the Companies (Audit, Investigations and Community
+      Enterprise) Act 2004, a CIC can stop being a CIC only by dissolving or
+      by becoming a charity, so it cannot convert into an ordinary company.
+      Assets cannot be transferred out below market value except to another
+      asset-locked body, and the CIC Regulator reviews the annual community
+      interest report.
+
+      None of that stops Chobble changing its own prices or policies. What it
+      changes is the exit: there is no stake to sell and no way to convert the
+      company into one that pays out. The code is published under AGPLv3, so
+      an organiser who dislikes a future change can run the same product
+      themselves.
   - type: markdown
     content: |
       ## Pricing sources
