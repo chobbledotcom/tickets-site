@@ -18,7 +18,7 @@ provider_facts:
     - not-documented
   per_ticket_platform_fee: percentage-plus-fixed
   managed_pricing: per-sale
-  white_label: higher-tier
+  white_label: not-documented
   custom_domain: not-documented
   public_website: marketplace-pages
   self_hosting: not-offered
@@ -29,7 +29,7 @@ provider_facts:
     ethical_basis: "Ticketpass describes itself as an ethical ticketing platform and pledges up to 50% of its booking fee to charity. The privacy policy names Fanex Group Ltd as the operator. No charitable, co-operative or certified structure was documented in the sources reviewed."
     per_ticket_platform_fee: "Paid tickets carry a booking fee and a separate service fee at the same published rate, both excluding VAT. Card processing is covered inside the booking fee."
     managed_pricing: "There is no subscription. Free events have no fee, and paid events are charged per ticket on the Essentials, Pro or Enterprise plan."
-    white_label: "Custom branding and custom tickets are listed on the Enterprise plan only."
+    white_label: "The features table lists custom branding and custom tickets on the Enterprise plan. Whether Ticketpass branding can be removed was not documented in the sources reviewed."
     custom_domain: "The features table lists an ethicalticketing.org domain on the Enterprise plan. An organiser-owned domain was not documented."
     public_website: "Organisers get an event page and an organiser profile page inside the Ticketpass marketplace."
     attendee_cross_marketing: "The privacy policy says Ticketpass may send marketing about Ticketpass and specially selected parties, in line with the attendee's marketing preferences."
@@ -161,7 +161,9 @@ blocks:
         (Ticketpass Pro plan and above)
       - **Managing multiple organiser accounts from one place** (Ticketpass Pro
         plan and above)
-      - **135 currencies** at checkout. Chobble uses one currency per instance
+      - **135 currencies** at checkout, so one account can sell in several at
+        once. A Chobble site picks its country and currency during setup and
+        sells in that one
       - **Live streaming and video on demand** (Ticketpass Enterprise plan)
       - **Box office hardware and ticket printers**, with onsite support,
         staff training and a dedicated account manager (Ticketpass Enterprise
@@ -245,7 +247,7 @@ blocks:
       - You need native iOS and Android scanning apps
       - You want waiting lists, memberships or season passes
       - You want a face-value resale route for attendees who cannot come
-      - You sell in currencies other than pounds
+      - You sell in several currencies from one account
       - You need live streaming, box office hardware or onsite event support
       - You sell few tickets a year and prefer paying per ticket to paying an
         annual fee
