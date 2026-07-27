@@ -75,10 +75,12 @@ blocks:
       card.
 
       On a £15 ticket, the Essentials charge is about £0.97 and the Pro charge
-      is about £1.75. Selling 500 of those tickets costs about £485 on
-      Essentials or about £875 on Pro. The same 500 tickets on Chobble Tickets
-      cost £50 in hosting, or £25 at the community rate, plus processing paid
-      to the organiser's own payment provider.
+      is about £1.75. Across 500 tickets that is about £485 on Essentials or
+      about £875 on Pro. An organiser who absorbs the charges pays that
+      amount, and an organiser who passes them on adds it to what attendees
+      pay. The same 500 tickets on Chobble Tickets cost £50 in hosting, or £25
+      at the community rate, plus processing paid to the organiser's own
+      payment provider.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -173,8 +175,8 @@ blocks:
       - **[Encryption at rest](/features/encrypted/)** - attendee personal data
         is stored scrambled, so someone reading the database directly cannot
         read names or contact details. Only a user the organiser has
-        authorised can unlock it. Ticketpass handles attendee data under its
-        own privacy policy
+        authorised can unlock it. Ticketpass does not document how it stores
+        attendee data at rest
       - **[Open source](/features/open-source/)** - the complete product source
         is published under AGPL-3.0-only with no proprietary feature tier.
         Ticketpass is closed source
@@ -251,8 +253,8 @@ blocks:
     content: |
       ## When Chobble Tickets is the better choice
 
-      - You want costs that stay the same as ticket prices and sales volume
-        grow
+      - You want a platform price that stays the same as ticket prices and
+        sales volume grow, with payment processing the only cost that scales
       - You want [attendee data encrypted at rest](/features/encrypted/)
       - You want ticket income paid straight into your own Stripe, Square or
         SumUp account
@@ -285,8 +287,7 @@ blocks:
       both notified on 6 October 2025. Rodrigo Bautista Franco is recorded as
       having significant influence or control. Philippe Marcel Etienne
       Paillart is recorded as holding 75% or more of the shares and voting
-      rights, with the right to appoint and remove directors. The register
-      gives his country of residence as the United Arab Emirates.
+      rights, with the right to appoint and remove directors.
 
       The website of the investment firm
       [Liberté Capital](https://liberte-capital.com/teams/philippe-paillart/)
@@ -311,7 +312,8 @@ blocks:
       17050113, registered in Prestwich, Manchester.
 
       Chobble CIC is limited by guarantee and has no share capital, so there
-      are no shares to sell and no dividends to pay. Under section 53 of the
+      are no shares to buy and no dividends to pay, and control cannot be
+      acquired by purchasing a stake. Under section 53 of the
       Companies (Audit, Investigations and Community Enterprise) Act 2004, a
       CIC can stop being a CIC only by dissolving or by becoming a charity, so
       it cannot convert into an ordinary company. Assets cannot be transferred

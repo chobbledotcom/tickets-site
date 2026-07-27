@@ -130,9 +130,11 @@ blocks:
       so the same test applies to it as to any other pledge on this page.
 
       Chobble CIC is a community interest company limited by guarantee without
-      share capital. There are no shares to sell and no dividends to pay, so
-      the company cannot be bought by an investor who then changes what it
-      does with the money.
+      share capital. There are no shares to buy and no dividends to pay, so
+      control cannot be acquired by purchasing a stake. Membership and
+      directors can still change under the company's articles, so the asset
+      lock, rather than the absence of shares, is what limits an incoming
+      controller.
 
       The asset lock means assets cannot be transferred out for less than
       their market value except to another asset-locked body. Under section 53
