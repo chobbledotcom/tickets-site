@@ -48,7 +48,9 @@ blocks:
       at in 2026". The
       ["Universe Ticketing: Best alternative?"](https://www.reddit.com/r/TicketingMasters/comments/1thqwjc/universe_ticketing_best_alternative/)
       post by King-RD9 opens with "Our next alternative episode is", so it
-      belongs to a series, and reaches the same conclusion. The
+      belongs to a series, and reaches the same conclusion.
+
+      The
       ["best potential alternative to TicketSource"](https://www.reddit.com/r/TicketingMasters/comments/1thpw3p/best_potential_alternative_to_ticketsource/)
       post by ichar10 follows the same structure again.
 
@@ -64,8 +66,10 @@ blocks:
       pricing is quoted in the same words across several unrelated threads.
       The two accounts appear in each other's threads, with ichar10 commenting
       in support on King-RD9's Universe post and King-RD9 replying in
-      agreement. Several posts are framed as first-time organisers seeking
-      advice while reciting a feature list.
+      agreement.
+
+      Several posts are also framed as first-time organisers seeking advice
+      while reciting a feature list.
 
       Reddit does not publish who is behind an account. There is no way to
       establish from the outside who runs these accounts, whether they are
