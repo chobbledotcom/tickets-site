@@ -286,10 +286,16 @@ blocks:
       having significant influence or control. Philippe Marcel Etienne
       Paillart is recorded as holding 75% or more of the shares and voting
       rights, with the right to appoint and remove directors. The register
-      gives his country of residence as the United Arab Emirates. The website
-      of Liberté Capital, an investment firm, has a team page for a Philippe
-      Paillart describing him as chairman of a DIFC-based investment fund and
-      listing a career in international banking.
+      gives his country of residence as the United Arab Emirates.
+
+      The website of the investment firm
+      [Liberté Capital](https://liberte-capital.com/teams/philippe-paillart/)
+      lists Philippe Paillart as its executive chairman. Its profile describes
+      him as the former chief executive and vice chairman of DBS Bank in
+      Singapore, and as previously chairman and chief executive of Ford Credit
+      and Ford Financial Services, the founder of Citibank's personal banking
+      division, and a board member at Citibank Germany and Standard Chartered
+      Bank.
 
       An ordinary limited company can be sold, as the 2025 transfer of the
       Ticketpass business shows, and its owners can change its pricing and its
@@ -328,6 +334,7 @@ blocks:
       - [Ticketpass FAQs](https://ticketpass.org/pricing) - card processing included in the booking fee, fees absorbed or passed on, donation paid after the event in the next quarterly cycle
       - [Ticketpass privacy policy](https://ticketpass.org/privacy-policy) - operator, payment processor and marketing preferences
       - [Ticketpass terms and conditions](https://ticketpass.org/terms-and-conditions) - the 9 October 2025 transitional notice, and the pledge described as a commitment rather than a binding contractual obligation
+      - [Liberté Capital profile of Philippe Paillart](https://liberte-capital.com/teams/philippe-paillart/) - the executive chairman role and career described by the firm
       - [Fanex Group Ltd people with significant control](https://find-and-update.company-information.service.gov.uk/company/16765338/persons-with-significant-control) - the ownership and voting-rights entries on the public register
       - [CIC business activities guidance](https://www.gov.uk/government/publications/community-interest-companies-business-activities/cic-business-activities-forms-and-step-by-step-guidelines) - a CIC can only stop being a CIC by dissolving or becoming a charity
       - [Chobble Tickets features](/features/)
