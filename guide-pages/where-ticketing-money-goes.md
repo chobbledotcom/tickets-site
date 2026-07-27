@@ -22,34 +22,40 @@ blocks:
     content: |
       ## Providers funded by a share of each sale
 
-      For these providers, income rises with ticket price and ticket volume.
-      Whether the organiser or the attendee pays depends on the setting the
-      organiser chooses.
+      For these providers, income rises with the number of tickets sold. Where
+      the charge is a percentage it rises with ticket price as well. Some let
+      the organiser choose whether to absorb the charge or add it to the
+      ticket price, and some always charge the buyer.
 
       - [Humanitix](/compared-to/humanitix/) charges 4.67% + £0.46 on each
         standard paid ticket, including payment processing, and 3.33% + £0.25
         for registered charities and schools.
       - [Ticketpass](/compared-to/ticketpass/) charges a booking fee and a
         separate service fee at the same rate, 1.9% + £0.20 each on
-        Essentials, so 3.8% + 40p combined.
+        Essentials, so 3.8% + 40p combined. The organiser chooses who pays.
       - [EVENTIM.Light](/compared-to/eventim-light/) charges 8% per ticket in
         the UK with processing included, which is £1.20 on a £15 ticket.
+      - [Pretix](/compared-to/pretix/) charges 2.5% of ticket value on its
+        hosted service, capped per ticket, with processing separate. Its
+        Community edition is open source and can be run by the organiser
+        instead.
       - [FIXR](/compared-to/fixr/) is free to organisers, and buyers pay
-        4.99% + £0.49 plus VAT, or 3.99% + £0.49 on the student and charity
-        tier.
+        4.99% + £0.49 plus VAT with a £1 minimum, or 3.99% + £0.49 on the
+        student and charity tier. Organisers can choose to absorb it.
       - [Resident Advisor](/compared-to/resident-advisor/) says promoters pay
-        no ticketing fee because buyers cover a service fee. It does not
-        publish a general rate schedule.
+        no ticketing fee because buyers cover a service fee, so the buyer
+        always pays. It does not publish a general rate schedule.
       - [Ticket Tailor](/compared-to/ticket-tailor/) charges a fixed amount
-        rather than a percentage: 60p per paid ticket, falling to about 22p
-        with the largest prepaid credit bundles.
+        rather than a percentage, so its charge does not rise with ticket
+        price: 60p per paid ticket, falling to about 22p with the largest
+        prepaid credit bundles.
   - type: markdown
     content: |
       ## Providers funded another way
 
-      These providers do not take a set share of each sale. The money comes
-      from voluntary payments, paid extras, or a subscription that does not
-      change with sales.
+      These providers publish no set share of each sale. The money comes from
+      voluntary payments, paid extras, a subscription that does not change
+      with sales, or a negotiated quote.
 
       - [Dandelion](/compared-to/dandelion/) asks organisers for 1% of
         completed sales, asks buyers for a donation at checkout, charges £25
@@ -57,12 +63,8 @@ blocks:
         of the ticket charges are mandatory.
       - [alf.io](/compared-to/swicket/) is an open source project with public
         finances on Open Collective, so its income and spending can be read in
-        full. Swicket is the separate managed service built on it, priced by
-        quote.
-      - [Pretix](/compared-to/pretix/) charges a percentage per ticket for its
-        hosted service and sells proprietary plugins for several enterprise
-        features. It describes itself as owner-led and says it operates
-        without pressure from investors or creditors.
+        full. Swicket, the separate managed service built on it, is priced by
+        quote, and what that quote contains is not published.
       - [tickts](/compared-to/tickts/) takes no commission and charges for
         feature tiers instead, at £290 or £690 a year. It has stated plans to
         add sponsorship and advertising on category and venue pages.
@@ -103,11 +105,15 @@ blocks:
       company that started it.
 
       Legal forms restrict what a company may do rather than what it intends
-      to do. Humanitix is a registered charity. Ticket Tailor and Resident
-      Advisor are certified B Corporations, assessed against B Lab's
-      standards. Symbiota, which provides Dandelion, describes itself as a
-      not-for-profit worker co-operative and is recorded at Companies House as
-      a company limited by guarantee.
+      to do. Humanitix is a registered charity, and Ticket Tailor and Resident
+      Advisor are certified B Corporations assessed against B Lab's standards.
+      Symbiota, which provides Dandelion, describes itself as a not-for-profit
+      worker co-operative and is recorded at Companies House as a company
+      limited by guarantee.
+
+      Pretix describes itself as owner-led and says it operates without
+      pressure from investors or creditors. That describes how the company is
+      run now rather than restricting what a later owner could do.
 
       Chobble CIC is a community interest company limited by guarantee without
       share capital, so control cannot be acquired by purchasing a stake. Its
@@ -128,13 +134,14 @@ blocks:
       - Humanitix: about £580 at the standard rate, about £375 for charities
         and schools
       - Ticketpass Essentials: about £485, of which up to about £121 is donated
-      - Ticket Tailor: about £300 at the pay-as-you-go rate, about £110 at the
-        lowest prepaid rate, plus payment processing
+      - Ticket Tailor: £300 at the pay-as-you-go rate, or £205 for a
+        500-credit bundle, plus payment processing. Its lowest rate of about
+        22p needs a larger bundle bought upfront
       - Chobble Tickets: £50, or £25 at the community rate, plus payment
         processing paid to the organiser's own provider
 
-      Payment processing is included in some of these rates and separate in
-      others, which is why the last two lines name it. The
+      These are the published rates before VAT, and payment processing is
+      included in some of them and separate in others. The
       [platform fee calculator](/compared-to/compare-all/) applies each
       provider's published rate to a ticket price and annual volume.
   - type: markdown
