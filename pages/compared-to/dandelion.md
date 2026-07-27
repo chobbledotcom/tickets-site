@@ -13,6 +13,7 @@ provider_facts:
   calculator_keys:
     - dandelion
   last_reviewed: "2026-07-25"
+  registration_country: united-kingdom
   ethical_basis:
     - self-described-worker-co-operative
     - company-limited-by-guarantee

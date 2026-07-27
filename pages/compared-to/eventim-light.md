@@ -13,6 +13,7 @@ provider_facts:
   calculator_keys:
     - eventim_light
   last_reviewed: "2026-07-25"
+  registration_country: united-kingdom
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: percentage
@@ -25,6 +26,7 @@ provider_facts:
   event_marketplace: optional-network
   attendee_cross_marketing: provider-events
   notes:
+    registration_country: "EVENTIM.Light is operated in the UK by EVENTIM UK Ltd; its parent, CTS EVENTIM, is headquartered in Bremen, Germany."
     per_ticket_platform_fee: "The 8% ticket fee includes payment processing."
     managed_pricing: "EVENTIM.Light charges for each paid ticket and has no recurring subscription."
     white_label: "Ticket shops support organiser branding but remain on the EVENTIM.Light service."

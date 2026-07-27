@@ -2,7 +2,7 @@
 name: UK Made Ticket Platforms
 subtitle: British ticket sales systems compared by company registration, pricing currency and data location
 meta_title: UK Made Ticket Platforms | Chobble Tickets
-meta_description: Compare British-made ticket sales systems by UK company registration, pound pricing, VAT, postcode lookup and where attendee data is stored.
+meta_description: Compare British-made ticket sales systems by UK company registration, pound pricing, postcode lookup and where attendee data is stored.
 guide-category: choosing-a-ticket-platform
 order: 5
 blocks:
@@ -44,17 +44,25 @@ blocks:
     content: |
       ## UK-based ticketing providers
 
+      These providers have a checked UK registration record on this site.
+
       | Provider | Registered company | Based in |
       |---|---|---|
       | **Chobble Tickets** | Chobble CIC, community interest company number 17050113 | Prestwich, Manchester |
-      | [BookitBee](/compared-to/bookitbee/) | Live It Group Ltd, [company 08432364](https://find-and-update.company-information.service.gov.uk/company/08432364) | United Kingdom |
       | [Dandelion](/compared-to/dandelion/) | Symbiota Ltd, company 09603539, a company limited by guarantee | United Kingdom |
-      | [Fatsoma](/compared-to/fatsoma/) | [Company 05495880](https://find-and-update.company-information.service.gov.uk/company/05495880), founded 2005 | Manchester |
-      | [FIXR](/compared-to/fixr/) | VIPR Digital Limited, [company 08184813](https://find-and-update.company-information.service.gov.uk/company/08184813) | London |
+      | [Eventim Light](/compared-to/eventim-light/) | Operated in the UK by EVENTIM UK Ltd; its parent, CTS EVENTIM, is in Bremen, Germany | United Kingdom |
       | [PTA Events](/compared-to/pta-events/) | PTA Events Limited, [company 09404586](https://find-and-update.company-information.service.gov.uk/company/09404586) | Bedford |
+      | [Resident Advisor](/compared-to/resident-advisor/) | Started in Australia, now based in London and self-described as independent | London |
       | [Resova](/compared-to/resova/) | Resova Ltd, company 09559910 | United Kingdom |
-      | [Ticket Tailor](/compared-to/ticket-tailor/) | Registered entity not recorded here; independently owned and running since 2010 | London |
       | [tickts](/compared-to/tickts/) | TICKTS LTD, [company 17029682](https://find-and-update.company-information.service.gov.uk/company/17029682) | London |
+
+      Four more providers are run from the UK but have unreviewed or
+      undocumented registration records here. Their comparison pages give the
+      details: [BookitBee](/compared-to/bookitbee/) trades as Live It Group Ltd,
+      [Fatsoma](/compared-to/fatsoma/) has been in Manchester since 2005,
+      [FIXR](/compared-to/fixr/) trades as VIPR Digital Limited in London, and
+      [Ticket Tailor](/compared-to/ticket-tailor/) has run from London since
+      2010 without a registered entity recorded here.
 
       Being UK based says nothing about fees, and the charge is not applied the
       same way by each provider. BookitBee, Fatsoma, FIXR and Ticket Tailor
@@ -72,21 +80,27 @@ blocks:
       Several platforms used by UK organisers are run from elsewhere. This
       matters for which company law applies and which courts hear disputes.
 
-      | Provider | Headquartered in |
+      | Provider | Registered or headquartered in |
       |---|---|
-      | [Eventbrite](/compared-to/eventbrite/) | Not a UK company; its current owner is recorded on the comparison page |
-      | [Eventim Light](/compared-to/eventim-light/) | CTS EVENTIM, Bremen, Germany |
       | [Hi.Events](/compared-to/hi-events/) | Hi.Events Ltd, Ireland |
       | [Humanitix](/compared-to/humanitix/) | Australia, operating as a registered charity |
       | [Pretix](/compared-to/pretix/) | Heidelberg, Germany |
       | [Swicket](/compared-to/swicket/) | Vivento Lab, Lugano, Switzerland |
       | [Tessera Tickets](/compared-to/tessera-tickets/) | Tecture, Chicago, Illinois |
-      | [Ticketek](/compared-to/ticketek/) | Australia and New Zealand |
-      | [Tito](/compared-to/tito/) | Dublin, Ireland |
+      | [Wix Events](/compared-to/wix-events/) | Wix.com Ltd., Tel Aviv, Israel |
+
+      Some records here are marked unreviewed, which means the registration has
+      not been checked for this site rather than that the provider is UK based.
+      [Eventbrite](/compared-to/eventbrite/),
+      [Ticketek](/compared-to/ticketek/),
+      [Ticketmaster](/compared-to/ticketmaster/) and
+      [Tito](/compared-to/tito/) fall into that group; their comparison pages
+      describe where each is run from.
 
       Two platforms are run from London without being small British companies.
       [DICE](/compared-to/dice/) began in London and now belongs to a larger
-      international group. [Resident Advisor](/compared-to/resident-advisor/)
+      international group; its registration is not recorded here.
+      [Resident Advisor](/compared-to/resident-advisor/)
       started in Australia and is now based in London, describes itself as
       independent, and has offices in several other countries.
   - type: markdown
@@ -119,9 +133,9 @@ blocks:
 
       - **Hosting priced in pounds.** Chobble Tickets costs £50/year or
         £5/month, with a £25 annual price for charities, community groups,
-        artists and musicians. A UK organiser is billed in the currency they
-        sell in. Each site's own country and currency are chosen during setup,
-        so a site selling in another currency is still invoiced in pounds.
+        artists and musicians. The hosting invoice is in pounds whatever
+        currency a site sells in, and each site's own country and currency are
+        chosen during setup.
       - **[Postcode lookup](/features/postcode-lookup/).** Customers type a UK
         postcode and pick their address from a list. Address data comes from
         [EasyPostcodes](https://easypostcodes.com/) using the organiser's own

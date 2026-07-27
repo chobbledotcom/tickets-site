@@ -13,6 +13,7 @@ provider_facts:
   calculator_keys:
     - tessera_tickets
   last_reviewed: "2026-07-25"
+  registration_country: united-states
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: none
@@ -25,6 +26,7 @@ provider_facts:
   event_marketplace: none
   attendee_cross_marketing: none
   notes:
+    registration_country: "Tessera Tickets is built by Tecture, based in Chicago, Illinois."
     managed_pricing: "Monthly subscription tiers rise with annual ticket volume."
     white_label: "Custom HTML and CSS are available, but complete removal of provider branding was not established."
     custom_domain: "The usual public site is separately hosted WordPress; the do-it-yourself option uses Tessera's API."

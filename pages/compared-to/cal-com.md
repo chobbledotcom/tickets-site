@@ -11,6 +11,7 @@ provider_facts:
   kind: adjacent-software
   calculator_keys: []
   last_reviewed: "2026-07-25"
+  registration_country: united-states
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: none

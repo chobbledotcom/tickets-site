@@ -13,6 +13,7 @@ provider_facts:
   calculator_keys:
     - fooevents
   last_reviewed: "2026-07-25"
+  registration_country: not-documented
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: none
@@ -25,6 +26,7 @@ provider_facts:
   event_marketplace: none
   attendee_cross_marketing: none
   notes:
+    registration_country: "FooEvents is sold from FooEvents.com; no registered legal entity was established in the sources reviewed."
     per_ticket_platform_fee: "Annual plugin licences, WordPress hosting and payment processing remain separate costs."
     managed_pricing: "FooEvents is installed on WordPress and does not offer a managed ticketing service."
     custom_domain: "The event pages use the domain of the WordPress site where the plugin is installed."

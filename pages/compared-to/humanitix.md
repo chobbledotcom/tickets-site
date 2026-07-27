@@ -13,6 +13,7 @@ provider_facts:
   calculator_keys:
     - humanitix
   last_reviewed: "2026-07-25"
+  registration_country: australia
   ethical_basis:
     - registered-charity
   per_ticket_platform_fee: percentage-plus-fixed

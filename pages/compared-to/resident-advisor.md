@@ -13,6 +13,7 @@ provider_facts:
   calculator_keys:
     - resident_advisor
   last_reviewed: "2026-07-25"
+  registration_country: united-kingdom
   ethical_basis:
     - certified-b-corporation
     - self-described-independent
@@ -26,6 +27,7 @@ provider_facts:
   event_marketplace: built-in
   attendee_cross_marketing: provider-content-and-events
   notes:
+    registration_country: "Resident Advisor started in Australia and is now based in London, with a Companies House record for its UK entity."
     ethical_basis: "Resident Advisor describes itself as independent. Companies House lists two founders as its only active people with significant control, but this does not establish complete ownership."
     per_ticket_platform_fee: "Resident Advisor says buyers pay a service fee on each ticket but does not publish a general rate schedule."
     managed_pricing: "Resident Advisor says promoters pay no fee because buyers cover the per-ticket service fee."

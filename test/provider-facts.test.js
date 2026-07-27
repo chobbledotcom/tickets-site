@@ -20,6 +20,7 @@ const FACT_FIELDS = [
   "source_code",
   "event_marketplace",
   "attendee_cross_marketing",
+  "registration_country",
 ];
 const CORE_FIELDS = [
   "name",
@@ -133,6 +134,17 @@ const ENUMS = {
     "not-documented",
     "not-reviewed",
     "optional-network",
+  ]),
+  registration_country: new Set([
+    "australia",
+    "germany",
+    "ireland",
+    "israel",
+    "not-documented",
+    "not-reviewed",
+    "switzerland",
+    "united-kingdom",
+    "united-states",
   ]),
   attendee_cross_marketing: new Set([
     "none",

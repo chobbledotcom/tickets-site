@@ -13,6 +13,7 @@ provider_facts:
   calculator_keys:
     - dice
   last_reviewed: null
+  registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
   per_ticket_platform_fee: not-reviewed

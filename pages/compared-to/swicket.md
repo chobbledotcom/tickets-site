@@ -11,6 +11,7 @@ provider_facts:
   kind: ticketing
   calculator_keys: []
   last_reviewed: "2026-07-25"
+  registration_country: switzerland
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: not-documented
@@ -23,6 +24,7 @@ provider_facts:
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   notes:
+    registration_country: "Swicket is run by Vivento Lab in Lugano, Switzerland."
     ethical_basis: "No charitable, co-operative or certified structure was established for Swicket. The related alf.io project has public finances on Open Collective."
     managed_pricing: "Swicket publishes no managed-service price and quotes contracts individually."
     public_website: "Swicket and alf.io provide hosted event-registration pages."
