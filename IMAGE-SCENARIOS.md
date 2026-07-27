@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 131 rendered client pages. A page counts as illustrated
+This audit covers all 133 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 129 | 47 | 82 |
+| Editorial pages in the sitemap | 131 | 47 | 84 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **131** | **47** | **84** |
+| **All rendered pages** | **133** | **47** | **86** |
 
-The 82 editorial pages are the main illustration backlog. The two utility
+The 84 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -94,6 +94,7 @@ pages are listed separately at the end.
 | `pages/features/european.md` | Diagram: `service-data-locations` | Oakfield uses managed hosting, Bunny Database, Mailgun EU and Stripe, with SMS and webhooks disabled. Separate company headquarters from processing and replica regions, including the documented non-EU database replicas. | Prevents organisers confusing provider headquarters with data location. |
 | `pages/features/encrypted.md` | Diagram: `attendee-field-encryption` | Alex's Riverside booking contains name, email, £36 reference, two tickets and a dietary note. Separate protected personal fields, site fields and readable operational values such as quantity. | Explains what an authorised organiser can unlock and what the application must still count. |
 | `pages/features/who-can-see-your-data.md` | Diagram: `configured-data-recipients` | Oakfield takes a paid Summer Disco booking with Stripe and Mailgun EU enabled and no webhook, SMS or postcode lookup. Branch data only to the keyed organiser and configured services; cross out disabled destinations. | Makes data access depend on actual organiser settings. |
+| `pages/features/honest-advertising.md` | Comparison graphic: `how-platforms-get-recommended` | Oakfield's organiser searches for a ticketing platform and meets a bought search ad, an affiliate listicle, an incentivised review and an undisclosed forum recommendation. Beside each, show the checkable equivalent: a dated fee source, a linked pricing page and a named comparison author. | Shows which promotion an organiser can verify and which it cannot. |
 | `pages/features/no-spying.md` | Comparison graphic: `attendee-relationship` | Amira books Oakfield Primary Summer Disco. Show direct booking and organiser confirmation with no provider account, related-event recommendations, advertising tracker or provider mailing list. | Shows the attendee experience behind the no-marketing policy. |
 | `pages/features/open-source.md` | Diagram: `same-product-deployments` | Oakfield's same event setup appears in managed hosting, a GitHub-controlled deployment and self-hosted Docker. Label who handles updates, infrastructure and configured services. | Shows product sameness while making operational responsibility clear. |
 
@@ -150,6 +151,7 @@ pages are listed separately at the end.
 | `pages/compared-to/fatsoma.md` | Comparison graphic: `fatsoma-volume-and-followers` | Riverside Student Arts Night sells 500 £15 tickets. Show the documented percentage fee rising with volume beside the marketplace follower and promotion relationship. | Combines cost growth with ownership of the attendee relationship. |
 | `pages/compared-to/fixr.md` | Comparison graphic: `fixr-buyer-fee` | Northside Student Union sells 300 £10 tickets on the Student and Charity tier. Separate face value, buyer fee, VAT and organiser proceeds, with a marketplace shelf beside it. | Shows that low organiser cost can mean a visible buyer charge. |
 | `pages/compared-to/eventim-light.md` | Comparison graphic: `eventim-fee-and-network` | The Old Playhouse sells 500 £15 tickets. Show the documented 8% fee reaching £600 and EVENTIM network distribution as a separate optional benefit. | Makes the volume effect clear without ignoring network reach. |
+| `pages/compared-to/weezevent.md` | Comparison graphic: `weezevent-fixed-fee-share` | Northside Community Cinema sells 400 tickets at £5, £15 and £30. Show the documented 2.5% + £0.99 charge as a share of each price beside Chobble's annual fee, with cashless bars, access hardware and crew management as a separate Weezevent advantage panel. | Shows that a fixed per-ticket charge weighs most on cheap tickets, without ignoring festival operations. |
 | `pages/compared-to/ticket-tailor.md` | Comparison graphic: `ticket-tailor-break-even` | The Tempest sells 84, 230 and 500 tickets. Compare pay-as-you-go and low prepaid-credit rates with Chobble's annual fee; show custom domain and reserved seating separately. | Visualises both break-even points and reasons an organiser may still choose Ticket Tailor. |
 | `pages/compared-to/humanitix.md` | Comparison graphic: `humanitix-purpose-and-fees` | Meadowfield Education Fund sells 500 £15 tickets. Compare per-ticket cost with Chobble's community rate, then separately compare charity and CIC structures. | Keeps organisational purpose separate from fee model. |
 | `pages/compared-to/dandelion.md` | Comparison graphic: `dandelion-contribution-model` | Northside Neighbours lists a £12 community supper. Show organiser contribution, buyer donation, listing boost and marketplace as separate optional or conditional pieces beside Chobble's fixed community hosting. | Contrasts two unusual models without treating voluntary payments as mandatory. |

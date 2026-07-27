@@ -161,6 +161,9 @@ blocks:
   - icon: hugeicons:view-off
     description: Managed hosting processes encrypted attendee records but does not use them for audience profiles, advertising or other event marketing.
     name: <a href="/features/no-spying/">No attendee marketing</a>
+  - icon: hugeicons:megaphone-01
+    description: How ticketing platforms are promoted online, and the rules Chobble follows on ads, reviews and comparison pages.
+    name: <a href="/features/honest-advertising/">Honest advertising</a>
   - icon: hugeicons:lock
     description: All personal data encrypted at rest with hybrid RSA-OAEP + AES-256-GCM.
     name: <a href="/features/encrypted/">Encrypted</a>

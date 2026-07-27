@@ -112,6 +112,9 @@ blocks:
         description: Ticketing for large venues and tours. Compare reserved seating, discovery, fees and organiser tools.
         name: <a href="/compared-to/ticketmaster/">Ticketmaster alternative</a>
       - icon: hugeicons:ticket-01
+        description: A French platform covering ticketing, cashless payments, access control and staff management. Compare fees, payouts and data handling.
+        name: <a href="/compared-to/weezevent/">Weezevent alternative</a>
+      - icon: hugeicons:ticket-01
         description: The ticketing add-on inside Wix's website builder. Compare fees, website integration and data handling.
         name: <a href="/compared-to/wix-events/">Wix Events alternative</a>
       - icon: hugeicons:package
