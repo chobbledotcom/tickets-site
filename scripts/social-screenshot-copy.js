@@ -129,7 +129,7 @@ export const SOCIAL_SCREENSHOT_COPY = {
   },
   "qr-code-check-ins": {
     heading: "Check bookings with a phone",
-    body: "Scan a booking QR code with a phone camera. See checked in, already checked in, refunded, wrong listing and not found results.",
+    body: "Scan a booking QR code with a phone camera, or pick the person from the list of those still to arrive when a camera cannot be used.",
   },
   "schools-and-ptas": {
     heading: "Ticketing for school events",

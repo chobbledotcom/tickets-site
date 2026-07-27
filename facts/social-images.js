@@ -480,6 +480,12 @@ export const SOCIAL_IMAGE_FACTS = {
         "../tickets/src/ui/client/scanner.js:142-169",
       ],
     },
+    {
+      fact: "When a ticket cannot be read, the organiser can pick the person from a list. That list holds only the people still to arrive.",
+      sources: [
+        "../tickets/specs/attendees/checking-people-in-at-the-door.feature:103-124",
+      ],
+    },
   ],
   "schools-and-ptas": [
     {
