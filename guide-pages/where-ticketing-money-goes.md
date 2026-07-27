@@ -85,9 +85,12 @@ blocks:
       £0.97 charged, or up to about £121 across 500 tickets.
 
       Humanitix states that 100% of its profits go to education, healthcare
-      and community projects, and its charity structure is what makes that
-      binding. Chobble donates 10% of its income to the Against Malaria
-      Foundation, funded from hosting fees and paid technical work.
+      and community projects. Its registered-charity status requires it to
+      apply its resources to its charitable purposes, though a charity can
+      still hold reserves and pay its own running costs, so the specific
+      pledge and the legal duty are not the same thing. Chobble donates 10% of
+      its income to the Against Malaria Foundation, funded from hosting fees
+      and paid technical work.
 
       Several providers reduce the charge instead of donating a share of it.
       Ticket Tailor takes 50% off for registered charities and 20% off for
