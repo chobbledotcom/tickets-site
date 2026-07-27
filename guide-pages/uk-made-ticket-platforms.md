@@ -16,8 +16,8 @@ blocks:
 
       Where a company is registered is a separate question from where it stores
       attendee data, who owns it, and what it charges. A UK registration does
-      not mean the servers are in the UK, and several UK-registered providers
-      hold investment from outside the country.
+      not mean the servers are in the UK, and it does not tell an organiser
+      what the service costs.
   - type: markdown
     dark: true
     content: |
@@ -35,12 +35,15 @@ blocks:
         addresses and orders sit in a particular country, which may not be the
         country the company is registered in.
 
-      Each entry below states which of these is documented.
+      The tables below cover the first fact only, because company registration
+      is the one that is recorded publicly for every provider. Where the
+      software is built and where attendee data is stored are set out for
+      Chobble Tickets further down this page.
   - type: markdown
     content: |
-      ## UK-registered ticketing providers
+      ## UK-based ticketing providers
 
-      | Provider | Company | Based in |
+      | Provider | Registered company | Based in |
       |---|---|---|
       | **Chobble Tickets** | Chobble CIC, community interest company number 17050113 | Prestwich, Manchester |
       | [BookitBee](/compared-to/bookitbee/) | Live It Group Ltd, [company 08432364](https://find-and-update.company-information.service.gov.uk/company/08432364) | United Kingdom |
@@ -49,40 +52,42 @@ blocks:
       | [FIXR](/compared-to/fixr/) | VIPR Digital Limited, [company 08184813](https://find-and-update.company-information.service.gov.uk/company/08184813) | London |
       | [PTA Events](/compared-to/pta-events/) | PTA Events Limited, [company 09404586](https://find-and-update.company-information.service.gov.uk/company/09404586) | Bedford |
       | [Resova](/compared-to/resova/) | Resova Ltd, company 09559910 | United Kingdom |
-      | [Ticket Tailor](/compared-to/ticket-tailor/) | Independently owned since 2014, running since 2010 | London |
+      | [Ticket Tailor](/compared-to/ticket-tailor/) | Registered entity not recorded here; independently owned and running since 2010 | London |
       | [tickts](/compared-to/tickts/) | TICKTS LTD, [company 17029682](https://find-and-update.company-information.service.gov.uk/company/17029682) | London |
 
-      Registration alone says nothing about fees. BookitBee, Fatsoma, FIXR,
-      Resova, Ticket Tailor and PTA Events all charge for each ticket sold, at
-      rates set out on their comparison pages. Chobble Tickets and tickts do
-      not add a [per-ticket platform fee](/features/no-per-ticket-fees/).
+      Being UK based says nothing about fees, and the charge is not applied the
+      same way by each provider. BookitBee, Fatsoma, FIXR and Ticket Tailor
+      charge for each paid ticket. PTA Events charges a percentage of each
+      transaction, so a buyer taking four tickets in one order is charged once.
+      Resova sells subscription plans with a monthly booking allowance and
+      charges for bookings above it. Chobble Tickets and tickts add no
+      [per-ticket platform fee](/features/no-per-ticket-fees/). Each comparison
+      page sets out the current rates.
   - type: markdown
     dark: true
     content: |
-      ## Providers registered outside the UK
+      ## Providers based outside the UK
 
       Several platforms used by UK organisers are run from elsewhere. This
-      matters for which company law applies, which courts hear disputes, and
-      which currency the provider prices in.
+      matters for which company law applies and which courts hear disputes.
 
-      | Provider | Registered or headquartered in |
+      | Provider | Headquartered in |
       |---|---|
-      | [Eventbrite](/compared-to/eventbrite/) | Owned by Bending Spoons, an Italian software company |
+      | [Eventbrite](/compared-to/eventbrite/) | Not a UK company; its current owner is recorded on the comparison page |
       | [Eventim Light](/compared-to/eventim-light/) | CTS EVENTIM, Bremen, Germany |
       | [Hi.Events](/compared-to/hi-events/) | Hi.Events Ltd, Ireland |
       | [Humanitix](/compared-to/humanitix/) | Australia, operating as a registered charity |
       | [Pretix](/compared-to/pretix/) | Heidelberg, Germany |
-      | [Swicket](/compared-to/swicket/) | Vivento Lab, Italy |
+      | [Swicket](/compared-to/swicket/) | Vivento Lab, Lugano, Switzerland |
       | [Tessera Tickets](/compared-to/tessera-tickets/) | Tecture, Chicago, Illinois |
       | [Ticketek](/compared-to/ticketek/) | Australia and New Zealand |
       | [Tito](/compared-to/tito/) | Dublin, Ireland |
 
-      Two platforms started in the UK and now sit inside larger groups.
-      [DICE](/compared-to/dice/) began in London, raised money from investors
-      including SoftBank, and was bought by Fever.
-      [Resident Advisor](/compared-to/resident-advisor/) started in Australia
-      and is now based in London with offices in Berlin, New York, Los Angeles
-      and Tokyo.
+      Two platforms are run from London without being small British companies.
+      [DICE](/compared-to/dice/) began in London and now belongs to a larger
+      international group. [Resident Advisor](/compared-to/resident-advisor/)
+      started in Australia and is now based in London, describes itself as
+      independent, and has offices in several other countries.
   - type: markdown
     content: |
       ## Where Chobble Tickets stores data
@@ -108,10 +113,11 @@ blocks:
 
       Some parts of the product are built around British conventions:
 
-      - **Prices in pounds.** Chobble Tickets costs £50/year or £5/month, with
-        a £25 annual price for charities, community groups, artists and
-        musicians. There is no currency conversion between the organiser's
-        price list and the invoice.
+      - **Hosting priced in pounds.** Chobble Tickets costs £50/year or
+        £5/month, with a £25 annual price for charities, community groups,
+        artists and musicians. A UK organiser is billed in the currency they
+        sell in. Each site's own country and currency are chosen during setup,
+        so a site selling in another currency is still invoiced in pounds.
       - **[Postcode lookup](/features/postcode-lookup/).** Customers type a UK
         postcode and pick their address from a list. Address data comes from
         [EasyPostcodes](https://easypostcodes.com/) using the organiser's own
@@ -152,9 +158,10 @@ blocks:
       with significant control and filed accounts. Searching a provider's name
       there shows who runs it and whether the company is active.
 
-      A provider's privacy notice states where it processes personal data. A
-      provider whose website prices in dollars or euros is usually not billing
-      from the UK, whatever the marketing says.
+      A provider's privacy notice states where it processes personal data. The
+      currency shown on a website does not establish which company issues the
+      invoice, so check the legal entity named in the terms, on an invoice, or
+      in the privacy notice instead.
 
       The [full comparison pages](/compared-to/) record the sources and
       checking date for each provider listed above.
