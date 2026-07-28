@@ -20,10 +20,17 @@ export const socialImagePath = (imagePath) =>
  * mapping does not hold, so a review that only shows the mapping's five fields
  * would let a reader accept a new story without seeing what it contradicts.
  */
-const evidenceBlock = (page, imagePath) =>
+/** Every block on a page that shows one image. More than one is a duplicated
+ * screenshot, whose second copy nothing else would check. */
+export const evidenceBlocks = (page, imagePath) =>
   page
     .split(/^ {2}- type: /m)
-    .find((section) => section.includes(`figure_src: /${imagePath}`)) ?? null;
+    .filter((section) => section.includes(`figure_src: /${imagePath}`));
+
+const evidenceBlock = (page, imagePath) => {
+  const blocks = evidenceBlocks(page, imagePath);
+  return blocks.length === 1 ? blocks[0] : null;
+};
 
 export const evidenceBlockProse = (page, imagePath) => {
   const block = evidenceBlock(page, imagePath);

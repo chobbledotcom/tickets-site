@@ -4,7 +4,7 @@ import {
   EVIDENCE_MAPPING_PATH,
   EVIDENCE_SCHEMA_VERSION,
 } from "./constants.js";
-import { evidenceBlockFields } from "./copy.js";
+import { evidenceBlockFields, evidenceBlocks } from "./copy.js";
 import {
   enumAt,
   exactKeys,
@@ -124,9 +124,10 @@ const validatePagePlacement = async (root, captureId, mapping) => {
       `${mapping.page}: does not render the evidence as a split image`,
     );
   }
-  if (!content.includes(`figure_src: /${mapping.legacyDestinationPath}`)) {
+  const blocks = evidenceBlocks(content, mapping.legacyDestinationPath);
+  if (blocks.length !== 1) {
     throw new Error(
-      `${mapping.page}: evidence block does not show /${mapping.legacyDestinationPath}`,
+      `${mapping.page}: shows /${mapping.legacyDestinationPath} in ${blocks.length} blocks, not one`,
     );
   }
   // Whole values, not substrings: a page that merely contains the mapping's

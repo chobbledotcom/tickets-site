@@ -34,7 +34,9 @@ const SITE_WORDS = [
 ];
 
 const capturesFromArtifact = async (mapping, artifactDir) => {
-  const { manifest } = await loadEvidenceArtifact(artifactDir, mapping);
+  const { manifest } = await loadEvidenceArtifact(artifactDir, mapping, {
+    requireCaseLink: false,
+  });
   return Object.fromEntries(
     manifest.captures.map((capture) => [capture.id, capture]),
   );

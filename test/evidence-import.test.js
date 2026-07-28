@@ -560,6 +560,38 @@ describe("evidence import", () => {
     ]);
   });
 
+  test("refuses a page that shows its screenshot twice", async () => {
+    const root = await createSite();
+    const page = join(root, "pages/features/servicing-events.md");
+    const content = readFileSync(page, "utf8");
+    const block = content.slice(content.indexOf("  - type: split-image"), -4);
+    writeFileSync(page, `${content}${block}`);
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "in 2 blocks, not one",
+    );
+  });
+
+  test("reviews an artifact whose case was renamed", async () => {
+    const artifactDir = await createArtifact((value) => ({
+      ...value,
+      captures: [
+        {
+          ...value.captures[0],
+          case: { ...value.captures[0].case, id: "servicing.renamed-case" },
+        },
+      ],
+    }));
+    const forReview = await loadEvidenceArtifact(artifactDir, mapping(), {
+      requireCaseLink: false,
+    });
+    expect(forReview.manifest.captures[0].case.id).toBe(
+      "servicing.renamed-case",
+    );
+    await expect(loadEvidenceArtifact(artifactDir, mapping())).rejects.toThrow(
+      "expected case",
+    );
+  });
+
   test("detects changed committed bytes", async () => {
     const root = await createSite();
     const artifactDir = await createArtifact();
