@@ -192,6 +192,22 @@ describe("evidence manifest validation", () => {
       "schemaVersion",
     ],
     [
+      "story uri climbing out of specs",
+      (value) => ({
+        ...value,
+        captures: [
+          {
+            ...value.captures[0],
+            story: {
+              ...value.captures[0].story,
+              uri: "specs/../../outside.feature",
+            },
+          },
+        ],
+      }),
+      "safe relative path",
+    ],
+    [
       "story uri",
       (value) => ({
         ...value,
@@ -651,6 +667,32 @@ describe("evidence import", () => {
     writeFileSync(join(root, DESTINATION), "changed");
     await expect(validateCommittedEvidence({ root })).rejects.toThrow(
       "SHA-256 mismatch",
+    );
+  });
+
+  test("checks each page before the first import, bar the link", async () => {
+    const root = await createSite();
+    const page = join(root, "pages/features/servicing-events.md");
+    const before = readFileSync(page, "utf8");
+    // The link cannot be known yet, so a wrong one is not what fails here.
+    writeFileSync(page, before.replace(SOURCE_URL, "https://example.com/x"));
+    expect(await validateCommittedEvidence({ root })).toMatchObject({
+      state: "awaiting-import",
+    });
+    // Everything else about the page still is.
+    writeFileSync(
+      page,
+      before.replace(
+        mapping().captures[CAPTURE_ID].alt,
+        "Something else entirely",
+      ),
+    );
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "the evidence alt is",
+    );
+    writeFileSync(page, `${before}\nAlso /${DESTINATION} again.\n`);
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "names its images",
     );
   });
 

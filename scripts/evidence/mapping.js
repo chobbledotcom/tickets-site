@@ -111,8 +111,15 @@ export const loadEvidenceMapping = async (root) =>
     await readJson(join(root, EVIDENCE_MAPPING_PATH), EVIDENCE_MAPPING_PATH),
   );
 
-const validatePagePlacement = async (root, captureId, mapping, sourceUrl) => {
-  const content = await Bun.file(join(root, mapping.page)).text();
+/** What a caption says, without the small source link it ends with. */
+const captionText = (caption) =>
+  caption === undefined || caption === null
+    ? caption
+    : caption.replace(/\s*<small><a href="[^"]*">\(src\)<\/a><\/small>$/, "");
+
+/** The page shows the capture's screenshot once, in one evidence block, and
+ * names its images nowhere else. */
+const validateOnePlacement = (content, captureId, mapping) => {
   if (!content.includes(`ticket_evidence_capture: ${captureId}`)) {
     throw new Error(
       `${mapping.page}: does not select evidence capture ${captureId}`,
@@ -139,20 +146,40 @@ const validatePagePlacement = async (root, captureId, mapping, sourceUrl) => {
       `${mapping.page}: names its images ${mentions} times, not once as the evidence block`,
     );
   }
-  // Whole values, not substrings: a page that merely contains the mapping's
-  // words can still say something else as well.
+};
+
+/**
+ * The page's words are the mapping's words, compared whole: a page that merely
+ * contains them can still say something else as well. Before the first import
+ * there is no story to say where the source link points, so that one
+ * comparison waits and the rest are made anyway.
+ */
+const validatePageWords = (content, mapping, sourceUrl) => {
   const fields = evidenceBlockFields(content, mapping.legacyDestinationPath);
-  const expected = {
-    alt: mapping.alt,
-    caption: `${mapping.caption} <small><a href="${sourceUrl}">(src)</a></small>`,
-  };
-  for (const [name, value] of Object.entries(expected)) {
-    if (fields?.[name] !== value) {
+  const linkIsKnown = sourceUrl !== null;
+  const pairs = [
+    ["alt", fields?.alt, mapping.alt],
+    [
+      "caption",
+      linkIsKnown ? fields?.caption : captionText(fields?.caption),
+      linkIsKnown
+        ? `${mapping.caption} <small><a href="${sourceUrl}">(src)</a></small>`
+        : mapping.caption,
+    ],
+  ];
+  for (const [name, actual, expected] of pairs) {
+    if (actual !== expected) {
       throw new Error(
-        `${mapping.page}: the evidence ${name} is "${fields?.[name]}" but the mapping says "${value}"`,
+        `${mapping.page}: the evidence ${name} is "${actual}" but the mapping says "${expected}"`,
       );
     }
   }
+};
+
+const validatePagePlacement = async (root, captureId, mapping, sourceUrl) => {
+  const content = await Bun.file(join(root, mapping.page)).text();
+  validateOnePlacement(content, captureId, mapping);
+  validatePageWords(content, mapping, sourceUrl);
 };
 
 export const validateMappingPlacements = async (root, mapping, sourceUrls) => {

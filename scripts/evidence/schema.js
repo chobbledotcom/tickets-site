@@ -41,8 +41,11 @@ const validateNamedPart = (value, location, extraKeys = []) => {
  * link from this rather than writing the path out again. */
 const validateStory = (value, location) => {
   validateNamedPart(value, location, ["uri"]);
-  stringAt(value.uri, `${location}.uri`);
-  if (!/^specs\/[\w./-]+\.feature$/.test(value.uri)) {
+  // A safe relative path, not just one that starts with specs/: a browser
+  // normalises "specs/../../outside.feature" out of the Feature directory
+  // altogether, which is how a link leaves the app's specs behind.
+  safeRelativePathAt(value.uri, `${location}.uri`);
+  if (!value.uri.startsWith("specs/") || !value.uri.endsWith(".feature")) {
     throw new Error(`${location}.uri: must be a specs/<path>.feature path`);
   }
   return value;

@@ -212,6 +212,10 @@ export const importEvidence = async ({
   return lock;
 };
 
+/** No story has been imported yet, so no link can be built from one. */
+const unknownSourceUrls = () =>
+  new Proxy({}, { get: () => null, has: () => true });
+
 /** Each capture's source link, built from the story it came from. */
 const sourceUrls = (captures) =>
   Object.fromEntries(
@@ -412,8 +416,9 @@ export const validateCommittedEvidence = async ({ root }) => {
   const dataExists = await fileExists(join(absoluteRoot, EVIDENCE_DATA_PATH));
   const lockExists = await fileExists(join(absoluteRoot, EVIDENCE_LOCK_PATH));
   if (!dataExists && !lockExists) {
-    // Before the first import there is no story to place a page against: the
-    // source link a caption must carry comes from the imported story's uri.
+    // Only the source link waits for the first import: it is built from the
+    // imported story's uri. Everything else about each page is checked now.
+    await validateMappingPlacements(absoluteRoot, mapping, unknownSourceUrls());
     await validateLegacyImages(absoluteRoot, mapping);
     return { state: "awaiting-import" };
   }
