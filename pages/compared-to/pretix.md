@@ -15,7 +15,7 @@ provider_facts:
   calculator_keys:
     - pretix_hosted
     - pretix_selfhosted
-  last_reviewed: "2026-07-25"
+  last_reviewed: "2026-07-28"
   registration_country: not-documented
   ethical_basis:
     - owner-led
@@ -79,21 +79,34 @@ blocks:
       without a competitor comparison.
   - type: markdown
     content: |
-      ### Both sites share some features
+      ### Both platforms share some features
 
       - Open source under AGPLv3
       - Self-hosting option with no licence fee for core features
-      - Stripe payment processing
+      - Stripe payment processing, paying the organiser directly
       - Apple Pay and Google Pay at checkout (via Stripe)
+      - Apple Wallet and Google Wallet passes
       - QR code scanning for check-in at the door
-      - API access for custom integrations
+      - A door list for checking attendees in by hand
       - Event capacity limits
-      - Email confirmations to attendees after booking
       - Free event support with no payment setup required
       - Daily and recurring event support
+      - Timed-entry sessions as well as general admission
+      - Custom questions on the booking form
+      - Promo codes and discount rules
+      - Optional extras sold alongside tickets
+      - Multiple admin users with different permissions
+      - Several events managed under one organisation
+      - Email confirmations to attendees after booking
+      - Editable email templates
       - Refund processing
+      - Bookings recorded by hand for cash and door sales
+      - CSV export of booking data
+      - A public API and an authenticated admin API
+      - Webhooks for real-time notifications
+      - An embeddable ticket widget for your own website
       - Custom domain support
-      - Webhooks for custom integrations
+      - Branding on your booking pages with your own colours and images
 
       The differences are in pricing, complexity, and who they're designed
       for.
@@ -109,6 +122,7 @@ blocks:
 
       Chobble Tickets charges a flat £50/year or £5/month regardless of how many tickets you
       sell or what you charge for them. No percentage cut or [per-ticket platform fee](/features/no-per-ticket-fees/).
+      Community groups, charities, artists and musicians pay £25/year.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -155,29 +169,37 @@ blocks:
         real time (enterprise plugin)
       - **Dedicated scanning apps** - pretixSCAN for Android, iOS,
         Windows, and Linux with offline mode and multi-device sync, plus
-        automatic badge printing after scan
+        automatic badge printing after scan. Chobble Tickets scans through
+        a phone browser, so the door needs a working connection
       - **15+ languages** - full multi-language support so attendees see
         the checkout in their preferred language (German, English, Arabic,
         Chinese, Danish, Dutch, French, Italian, Spanish, Turkish, and
-        more)
+        more). Chobble Tickets is English only, though an operator can
+        change the wording of any message
       - **30+ payment methods** - Stripe, PayPal, Mollie, Adyen, Apple
         Pay, Google Pay, WeChat Pay, Alipay, Klarna, SEPA, Bitcoin
-        (BitPay), bank transfer, and many regional methods
-      - **Voucher system** - Pretix has a voucher system with more options
-        than Chobble Tickets: percentage and fixed-amount discounts,
-        time-limited, single or multi-use, tied to specific products, with
-        seat reservation and exclusive product access. Chobble Tickets now
-        has basic promo codes and discount codes
+        (BitPay), bank transfer, and many regional methods. Chobble Tickets
+        supports [Stripe, Square and SumUp](/features/stripe-and-square/)
+      - **More than one currency** - different events can sell in
+        different currencies. A Chobble Tickets site uses one currency
       - **Automatic invoicing** - EU reverse charge support, ZUGFeRD
         invoices, and Peppol e-invoicing for B2B compliance
+      - **Tax management** - configure VAT rates per product and country
       - **Waitlists** - automatic notifications when places open up, with
         manual and auto-assignment modes
-      - **Product variations and add-ons** - per-product variations (sizes,
-        options) with add-on packages and bundled products (Chobble
-        supports tiered ticket types via event groups with shared capacity,
-        but not per-product variations or add-ons)
-      - **Customer accounts and memberships** - returning customer
-        discounts, membership models, and member-only products
+      - **Product variations** - options such as sizes within one product.
+        Chobble Tickets models these as separate listings in a
+        [group](/features/groups/), or as
+        [child listings](/features/parent-child-listings/) attached to a
+        parent
+      - **Customer accounts** - buyers log in to see and manage their past
+        orders. Chobble Tickets has no attendee login. Its
+        [returning-customer discounts](/features/promo-codes-and-add-ons/)
+        recognise a repeat buyer by a one-way code instead
+      - **Memberships** - membership models and member-only products
+      - **File-upload questions** - attendees can upload a file at
+        checkout. Chobble Tickets questions are multiple-choice or free
+        text
       - **Badge and name tag printing** - auto-generate and print attendee
         badges at check-in using custom designs (enterprise plugin)
       - **Certificates of attendance** - auto-generated certificates for
@@ -191,11 +213,10 @@ blocks:
       - **Campaign and affiliate tracking** - built-in analytics with
         Google Analytics and Facebook Pixel integration
       - **Newsletter integration** - MailChimp and Newsletter2Go
-        connectors
+        connectors. Chobble Tickets sends its own
+        [bulk email](/features/bulk-email/), or connects to other tools
+        through [webhooks](/features/webhooks/)
       - **Zapier integration** - connect to 5,000+ apps
-      - **Checkout questions** - file uploads, choice questions,
-        and statistical overview per ticket type (Chobble supports
-        multiple-choice and free-text custom questions)
       - **Check-in lists with permissions** - multiple independent
         check-in lists per gate or area with custom fields at scan
       - **Digital content delivery** - attach downloadable content to
@@ -206,9 +227,6 @@ blocks:
       - **150+ plugins** - a [plugin
         marketplace](https://marketplace.pretix.eu/) with 150+ official and
         third-party plugins extending every aspect of the platform
-      - **Multi-event organisers** - manage multiple events under one
-        organisation with shared settings and branding
-      - **Tax management** - configure VAT rates per product and country
 
       Note: many of Pretix's larger-event features (seating, POS, lead
       scanning, badges, resellers, and others) are only available with a
@@ -218,28 +236,91 @@ blocks:
     content: |
       ### Chobble Tickets has features Pretix doesn't
 
-      - **[Encryption at rest](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
-      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        create promo codes, discount codes, surcharges, and opt-in add-ons
-        with stock limits and a live running total
-      - **[Public-facing website and CMS](/features/your-public-website/)**
-        a homepage, content pages, news posts, and a contact form with
-        spam protection, edited from the admin panel with Markdown and
+      - **[Encryption at rest](/features/encrypted/)** - attendee names,
+        contact details, payment references and free-text answers are
+        encrypted before they are stored. Only the keys held by your own
+        administrator accounts, plus the optional recovery account you can
+        enable, unlock them
+      - **[Flat pricing](/features/no-per-ticket-fees/)** - £50/year or
+        £5/month whatever you sell, with no percentage taken from any
+        ticket
+      - **[Public-facing website and CMS](/features/your-public-website/)** -
+        a homepage, content pages, news posts, and a contact form with spam
+        protection, edited from the admin panel with Markdown and
         [custom CSS](/features/customising-your-site/). Pretix provides
-        organiser profiles, event shops and mini-CMS pages for static content
+        organiser profiles, event shops and mini-CMS pages for static
+        content
+      - **[Custom email providers](/features/email-providers/)** - send
+        confirmations from your own domain through Resend, Postmark,
+        SendGrid, or Mailgun
+      - **[SMS messages](/features/sms-messages/)** - text attendees from
+        your own Android phone and number, with replies recorded against
+        the booking
+      - **[Deposits and balance payments](/features/deposits-and-balance-payments/)** -
+        take a deposit at booking time and collect the balance later
+        through a payment link
+      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** -
+        buyers enter their own price above a minimum, and Chobble takes no
+        cut of the extra
+      - **[Double-entry ledger](/features/ledger/)** - every income figure,
+        refund and outstanding balance comes from one ledger you can filter
+        by date and listing
+      - **[Packages](/features/packages/)** - sell several listings
+        together at a bundle price, booked all or nothing
+      - **[Parent and child listings](/features/parent-child-listings/)** -
+        make buyers choose required extras or options before they can check
+        out
+      - **[Logistics and run sheets](/features/logistics/)** - deliveries,
+        equipment hire, transport, set-up and teardown at customer
+        addresses, with an agent assigned to each leg
+      - **[Multi-day hire](/features/multi-day-hire/)** - bookings across
+        consecutive days, priced per duration, with capacity checked over
+        the whole booked range
+      - **[Servicing holds](/features/servicing-events/)** - block out
+        capacity for maintenance or staff holds without creating a customer
+        booking
+      - **[Postcode lookup](/features/postcode-lookup/)** - buyers type a
+        postcode and pick their address from a list
+      - **[Editor accounts](/features/editors/)** - invite someone who can
+        write your listings and site content but cannot decrypt attendee
+        data
+      - **[Subscribable calendar and RSS feeds](/features/rss-and-calendar-feeds/)** -
+        one feed listing all your events, so subscribers see new ones
+        automatically
+      - **[Order widget](/features/order-widget/)** - one JavaScript file
+        turns links on your existing website into add-to-cart buttons
+      - **[Complete database backups](/features/backups/)** and
+        [catalogue import and export](/features/catalogue-import-export/)
+        you can move to another Chobble Tickets host
+      - **[Activity logs](/features/activity-logs/)** - a record of admin
+        actions and booking activity
+      - **[Attendee privacy controls](/features/privacy-controls/)** -
+        retention rules for orphaned records, contact history removal, and
+        a data export for any attendee who asks
+      - **[Built-in admin guide](/features/admin-guide/)** - documentation
+        for every feature inside the admin panel
+      - **Community Interest Company** - run by a CIC, a UK legal structure
+        that locks the company's assets for community benefit
   - type: markdown
     content: |
       ## When Chobble Tickets is the better choice
 
-      For smaller organisers running community events, school fairs, local
-      gigs, or charity fundraisers, Chobble Tickets is simpler and cheaper.
-      There's no percentage fee eating into your revenue, no complex plugin
-      licensing to navigate, and no enterprise sales process.
-
-      The flat £50/year or £5/month hosted plan means your costs are predictable.
-      Self-hosting has no Chobble software licence fee or feature tier, while
-      infrastructure and configured services remain separate costs.
+      - You run community events, school fairs, local gigs, classes, hire
+        bookings or charity fundraisers rather than large conferences
+      - You want a price that does not change with ticket volume or value
+      - You want every feature without a community-versus-enterprise split
+      - You want [encryption at rest](/features/encrypted/) and
+        [privacy controls](/features/who-can-see-your-data/) as standard
+      - You want a [public website](/features/your-public-website/) on
+        [your own domain](/features/custom-domain/) rather than an event
+        shop page
+      - You want [Square or SumUp](/features/stripe-and-square/) rather
+        than only Stripe
+      - You want [deposits](/features/deposits-and-balance-payments/),
+        [logistics](/features/logistics/) or
+        [multi-day hire](/features/multi-day-hire/), which Pretix does not
+        cover
+      - You want to self-host without running Python, PostgreSQL and Redis
   - type: markdown
     content: |
       ## Feature comparison at a glance
@@ -255,27 +336,52 @@ blocks:
       | Target audience | Small-medium organisers | Conferences & enterprise |
       | Seating plans | No | Yes (enterprise plugin) |
       | Point of sale | No | Yes (enterprise plugin) |
-      | [API access](/features/public-api/) | Yes | Yes |
-      | [QR code scanning](/features/qr-code-check-ins/) | Yes | Yes |
-      | Multi-currency | No | Yes |
-      | Multi-language | No | Yes (15+ languages) |
+      | [Public API](/features/public-api/) | Yes | Yes |
+      | [Admin API](/features/admin-api/) | Yes (API keys) | Yes |
+      | [QR code scanning](/features/qr-code-check-ins/) | Yes (phone browser) | Yes (offline apps) |
+      | More than one currency | No | Yes |
+      | More than one language | No | Yes (15+ languages) |
       | [Encryption at rest](/features/encrypted/) | Yes (hybrid RSA + AES) | No |
-      | [Apple/Google Wallet](/features/apple-wallet/) | Yes | No (enterprise add-on) |
+      | [Apple/Google Wallet](/features/apple-wallet/) | Yes | Yes (plugin) |
       | [RSS/calendar feeds](/features/rss-and-calendar-feeds/) | Yes | No |
-      | [Webhooks](/features/webhooks/) | Yes | Yes (enterprise) |
+      | [Webhooks](/features/webhooks/) | Yes | Yes |
       | [Pay-what-you-want](/features/stripe-and-square/) | Yes | No |
+      | [Deposits and balance payments](/features/deposits-and-balance-payments/) | Yes | No |
+      | [Double-entry ledger](/features/ledger/) | Yes | No |
       | [Event groups](/features/groups/) | Yes | Yes (with series) |
       | Tiered ticket types | Yes (via groups with shared capacity) | Yes (product variations) |
+      | [Packages and bundles](/features/packages/) | Yes | Yes (add-on products) |
+      | [Promo codes and add-ons](/features/promo-codes-and-add-ons/) | Yes | Yes (vouchers) |
+      | Returning-customer discounts | Yes (one-way code) | Yes (customer accounts) |
+      | [SMS messages](/features/sms-messages/) | Yes | No |
+      | [Bulk email](/features/bulk-email/) | Yes | Via MailChimp connector |
       | [White-label emails](/features/email-providers/) | Yes (own domain + templates) | Partial |
       | Custom questions | Yes (multiple choice, free-text) | Yes (free-text, files, more) |
-      | [Admin API](/features/admin-api/) | Yes (API keys) | Yes |
-      | Promo codes | Yes | Yes |
       | Waitlists | No | Yes |
-      | [Custom domain](/features/custom-domain/) | Yes | Yes (enterprise) |
+      | Invoicing and VAT rates | No | Yes |
+      | [Custom domain](/features/custom-domain/) | Yes | Yes (by arrangement) |
       | [Public website & CMS](/features/your-public-website/) | Full site | Event shop with mini-CMS pages |
       | [Daily events](/features/daily-events/) | Yes | Yes (with series) |
+      | [Logistics and run sheets](/features/logistics/) | Yes | No |
+      | [Multi-day hire](/features/multi-day-hire/) | Yes | No |
+      | [Backups and catalogue export](/features/backups/) | Yes (from the admin panel) | Database level only |
       | Badge printing | No | Yes (enterprise plugin) |
       | Lead scanning | No | Yes (enterprise plugin) |
+  - type: markdown
+    content: |
+      ## Attendee data
+
+      Pretix stores attendee data in a PostgreSQL database in readable
+      form. On Pretix Hosted that database is run by pretix GmbH; on a
+      self-hosted install it sits on your own server. Pretix does not use
+      attendee data to market other events.
+
+      Chobble Tickets encrypts attendee names, contact details, payment
+      references and free-text answers before they are stored. Only the
+      keys held by your own administrator accounts, plus the optional
+      recovery account you can enable, unlock them. The
+      [who can see your data](/features/who-can-see-your-data/) page lists
+      every user and service provider that may receive attendee data.
   - type: markdown
     content: |
       ## Who builds Pretix?
@@ -304,8 +410,9 @@ blocks:
     content: |
       ## Pricing sources
 
-      The pricing information on this page was verified in June 2026. Fees
-      may change. Check the links below for the latest figures.
+      The pricing information on this page was verified in June 2026. The
+      feature comparison was checked on 28 July 2026. Fees may change.
+      Check the links below for the latest figures.
 
       - [Pretix hosted pricing](https://pretix.eu/about/en/pricing) - 2.5% of ticket price (excl. taxes), capped at €15/ticket, plus payment provider fees
       - [Pretix self-hosted/enterprise pricing](https://pretix.eu/about/en/pricing/selfhosted) - from €499/year (Enterprise Starter)
@@ -313,6 +420,7 @@ blocks:
       - [Pretix features - shop](https://pretix.eu/about/en/features/shop) - ticketing and shop features
       - [Pretix features - check-in](https://pretix.eu/about/en/features/checkin) - scanning and on-site tools
       - [Pretix plugin marketplace](https://marketplace.pretix.eu/) - 150+ official and third-party plugins
+      - [Chobble Tickets pricing](/pricing/)
       - [Chobble Tickets features](/features/)
       - [Pretix company page](https://pretix.eu/about/en/company) - team and company information
   - type: cta
