@@ -6,9 +6,9 @@ import {
   FEATURE_SOURCE_PREFIX,
 } from "./constants.js";
 import {
-  escapeForRegExp,
   evidenceBlockFields,
   evidenceBlocks,
+  figureSourceLine,
   imageMentions,
   socialImagePath,
 } from "./copy.js";
@@ -156,13 +156,11 @@ const captionParts = (caption) => {
  * the capture's own link stale. */
 const captionLineFor = (lines, imagePath) => {
   const isBlockStart = (line) => line.startsWith("  - type: ");
-  // Found the way the placement checks find it, allowing the trailing spaces
-  // and inline comment YAML permits: a line those checks accept but this one
-  // cannot see would leave the link unrewritten and refuse the import.
+  // The same line the placement checks read, by the same rule: a line they
+  // accept but this cannot see would leave the link unrewritten and refuse the
+  // import they had just passed.
   const source = lines.findIndex((line) =>
-    new RegExp(
-      `^ {4}figure_src: /${escapeForRegExp(imagePath)}\\s*(#.*)?$`,
-    ).test(line),
+    figureSourceLine(imagePath).test(line),
   );
   if (source === -1) return -1;
   const starts = lines.flatMap((line, at) => (isBlockStart(line) ? [at] : []));

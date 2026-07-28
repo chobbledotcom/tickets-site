@@ -226,6 +226,15 @@ const RULES = [
   },
   {
     break: (root) =>
+      editPage(root, (page) =>
+        page.replace(`figure_src: /${IMAGE}`, `figure_src: /${IMAGE}?v=1`),
+      ),
+    expect: "blocks, not one",
+    name: "the block names its image and nothing after it",
+    rule: 6,
+  },
+  {
+    break: (root) =>
       editPage(root, (page) => `${page}${page.slice(page.indexOf("  - type:"))}`),
     expect: "blocks, not one",
     name: "the mapped page shows its screenshot in one block",
