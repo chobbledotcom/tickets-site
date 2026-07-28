@@ -6,6 +6,7 @@ import {
   FEATURE_SOURCE_PREFIX,
 } from "./constants.js";
 import {
+  escapeForRegExp,
   evidenceBlockFields,
   evidenceBlocks,
   imageMentions,
@@ -49,19 +50,34 @@ const TEXT_FIELDS = [
   "socialBody",
 ];
 
+/**
+ * One segment of a Feature path, encoded down to the characters a link is
+ * allowed to carry.
+ *
+ * encodeURIComponent stops at the characters that are legal in a URI, but a
+ * URI is not the only thing this string has to survive: it is written into a
+ * single-quoted YAML scalar and read back by linkedFeaturePathAt, which
+ * accepts unreserved characters and nothing else. The ones left over are
+ * encoded here so the link the site writes is a link the site accepts.
+ */
+const encodeSegment = (segment) =>
+  encodeURIComponent(segment).replaceAll(
+    /[!'()*]/g,
+    (character) =>
+      `%${character.charCodeAt(0).toString(16).toUpperCase().padStart(2, "0")}`,
+  );
+
 /** The link a capture's caption carries, built from the Feature the story
  * says it was authored in. Nothing writes this path by hand, so a renamed
  * Feature cannot leave a dead link behind.
  *
  * Each segment is encoded on its own, so a name with a space or an accent
  * produces a working link and nothing in a segment can change the shape of
- * the URL. The apostrophe encodeURIComponent leaves alone is encoded too: the
- * link is written into a single-quoted YAML scalar, where a bare apostrophe
- * ends the value and breaks the page's frontmatter. */
+ * the URL. */
 export const featureSourceUrl = (story) =>
   `${FEATURE_SOURCE_PREFIX}${story.uri
     .split("/")
-    .map((segment) => encodeURIComponent(segment).replaceAll("'", "%27"))
+    .map((segment) => encodeSegment(segment))
     .join("/")}`;
 
 const validateCaptureMapping = (captureId, value) => {
@@ -137,7 +153,14 @@ const captionParts = (caption) => {
  * the capture's own link stale. */
 const captionLineFor = (lines, imagePath) => {
   const isBlockStart = (line) => line.startsWith("  - type: ");
-  const source = lines.indexOf(`    figure_src: /${imagePath}`);
+  // Found the way the placement checks find it, allowing the trailing spaces
+  // and inline comment YAML permits: a line those checks accept but this one
+  // cannot see would leave the link unrewritten and refuse the import.
+  const source = lines.findIndex((line) =>
+    new RegExp(
+      `^ {4}figure_src: /${escapeForRegExp(imagePath)}\\s*(#.*)?$`,
+    ).test(line),
+  );
   if (source === -1) return -1;
   const starts = lines.flatMap((line, at) => (isBlockStart(line) ? [at] : []));
   const start = starts.filter((at) => at < source).at(-1) ?? 0;

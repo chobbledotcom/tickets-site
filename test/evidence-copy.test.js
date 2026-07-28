@@ -21,6 +21,7 @@ import {
   reviewDigest,
 } from "../scripts/evidence/narrative.js";
 import { parseReviewArgs } from "../scripts/evidence/review.js";
+import { linkedFeaturePathAt } from "../scripts/evidence/validation.js";
 import { socialCopyDigest } from "../scripts/evidence/store.js";
 import { SOCIAL_SCREENSHOT_COPY } from "../scripts/social-screenshot-copy.js";
 
@@ -386,6 +387,31 @@ describe("evidence source links", () => {
       expect(read(placement.page), placement.page).toContain(
         `<small><a href="${url}">(src)</a></small>`,
       );
+    }
+  });
+
+  /**
+   * The two ends of the same rule. featureSourceUrl writes the link and
+   * linkedFeaturePathAt reads it back, and each has been fixed on its own for
+   * a character the other still disagreed about. Held together here so neither
+   * can be narrowed without the other noticing.
+   */
+  test("write links the link check accepts, whatever a Feature is named", () => {
+    const names = [
+      "specs/payments/fees!(legacy).feature",
+      "specs/payments/an organiser's.feature",
+      "specs/payments/100% free*.feature",
+      "specs/payments/capacité aux portes.feature",
+      "specs/payments/a name; with, punctuation & more.feature",
+      "specs/payments/tab\tand\nbreak.feature",
+      "specs/payments/query?and#fragment.feature",
+      "specs/payments/quotes \"and\" more.feature",
+    ];
+    for (const uri of names) {
+      const url = featureSourceUrl({ uri });
+      const path = url.slice(FEATURE_SOURCE_PREFIX.length);
+      expect(() => linkedFeaturePathAt(path, uri), uri).not.toThrow();
+      expect(decodeURIComponent(path), uri).toBe(uri);
     }
   });
 

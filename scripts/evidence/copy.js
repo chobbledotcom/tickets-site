@@ -9,7 +9,7 @@
  * may only be named in two of those files, so all three are searched. */
 export const CONTENT_DIRECTORIES = ["guide-categories", "guide-pages", "pages"];
 
-const escapeForRegExp = (value) =>
+export const escapeForRegExp = (value) =>
   value.replaceAll(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 export const socialImagePath = (imagePath) =>

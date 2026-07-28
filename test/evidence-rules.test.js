@@ -516,6 +516,22 @@ describe("evidence rules", () => {
     expect(page).not.toContain(SOURCE_URL);
   });
 
+  test("a link moves on a page the placement checks accept", async () => {
+    const root = await buildSite();
+    // YAML the placement checks accept, so the rewrite has to accept it too.
+    editPage(root, (page) =>
+      page.replace(`figure_src: /${IMAGE}`, `figure_src: /${IMAGE} # evidence`),
+    );
+    await importEvidence({
+      artifactDir: await buildArtifact("specs/owner/a renamed story.feature"),
+      root,
+      createSocialImage: copySocialImage,
+    });
+    expect(readFileSync(join(root, PAGE), "utf8")).toContain(
+      "a%20renamed%20story.feature",
+    );
+  });
+
   test("a refused import leaves the page's old link alone", async () => {
     const root = await buildSite();
     const before = readFileSync(join(root, PAGE), "utf8");
