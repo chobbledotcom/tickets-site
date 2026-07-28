@@ -117,3 +117,6 @@ jobs:
             images/screenshots/qr-code-check-in__facebook.png
             images/screenshots/servicing-studio-floor-hold.png
             images/screenshots/servicing-studio-floor-hold__facebook.png
+            pages/features/qr-code-check-ins.md
+            pages/features/servicing-events.md
+            pages/features/stripe-and-square.md

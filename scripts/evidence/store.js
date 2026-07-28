@@ -10,7 +10,13 @@ import {
   EVIDENCE_SCHEMA_VERSION,
 } from "./constants.js";
 import { evidenceBlockProse } from "./copy.js";
-import { loadEvidenceMapping, validateMappingPlacements } from "./mapping.js";
+import {
+  featureSourceUrl,
+  loadEvidenceMapping,
+  readStagedPage,
+  rewriteSourceLink,
+  validateMappingPlacements,
+} from "./mapping.js";
 import {
   artifactSource,
   committedSource,
@@ -179,14 +185,16 @@ export const importEvidence = async ({
   createSocialImage = createEvidenceSocialImage,
 }) => {
   const mapping = await loadEvidenceMapping(root);
-  await validateMappingPlacements(root, mapping);
   const artifact = await loadEvidenceArtifact(artifactDir, mapping);
+  const urls = sourceUrls(artifact.manifest.captures);
+  const staged = await stagedSourceLinks(root, mapping, urls);
+  await validateMappingPlacements(root, mapping, urls, staged);
   assertNarrativesWereRead(
     Object.fromEntries(
       artifact.manifest.captures.map((capture) => [capture.id, capture]),
     ),
     mapping,
-    await pageProse(root, mapping),
+    await pageProse(root, mapping, staged),
     artifactSource(artifactDir),
   );
   const dataText = serialise(createSiteData(artifact, mapping));
@@ -197,6 +205,12 @@ export const importEvidence = async ({
   );
   const files = outputFiles(artifact, mapping, dataText, socialFiles);
   const lock = createLock(artifact.manifest, files, mapping);
+  // Everything that can refuse the import has now run, so the pages can be
+  // moved to their new links without leaving a page pointing at a story the
+  // committed data, lock and images know nothing about.
+  await Promise.all(
+    Object.entries(staged).map(([page, text]) => writeFile(root, page, text)),
+  );
   await Promise.all(
     files.map((file) => writeFile(root, file.path, file.bytes)),
   );
@@ -204,15 +218,51 @@ export const importEvidence = async ({
   return lock;
 };
 
+/**
+ * Each page whose source link has to move, with the text it will be given.
+ * A renamed Feature moves the link rather than stopping the import, but the
+ * page is not written here: an import can still be refused, and a page linked
+ * to a story nothing else has imported is worse than one linked to the old.
+ */
+const stagedSourceLinks = async (root, mapping, urls) => {
+  const committed = {};
+  const staged = {};
+  // One page at a time, each capture rewriting what the last one left. Two
+  // captures may share a page, and rewriting the original text twice would
+  // keep only the second link and refuse the import over the first.
+  for (const [captureId, placement] of Object.entries(mapping.captures)) {
+    const page = placement.page;
+    committed[page] ??= await Bun.file(join(root, page)).text();
+    staged[page] = rewriteSourceLink(
+      staged[page] ?? committed[page],
+      placement,
+      urls[captureId],
+    );
+  }
+  return Object.fromEntries(
+    Object.entries(staged).filter(([page, text]) => text !== committed[page]),
+  );
+};
+
+/** No story has been imported yet, so no link can be built from one. */
+const unknownSourceUrls = () =>
+  new Proxy({}, { get: () => null, has: () => true });
+
+/** Each capture's source link, built from the story it came from. */
+const sourceUrls = (captures) =>
+  Object.fromEntries(
+    captures.map((capture) => [capture.id, featureSourceUrl(capture.story)]),
+  );
+
 /** The prose each page prints beside its screenshot, which the review stamp
  * covers along with the mapping's own words. */
-const pageProse = async (root, mapping) =>
+const pageProse = async (root, mapping, staged = {}) =>
   Object.fromEntries(
     await Promise.all(
       Object.entries(mapping.captures).map(async ([captureId, placement]) => [
         captureId,
         evidenceBlockProse(
-          await Bun.file(join(root, placement.page)).text(),
+          await readStagedPage(root, placement.page, staged),
           placement.legacyDestinationPath,
         ),
       ]),
@@ -395,10 +445,12 @@ const validateLegacyImages = async (root, mapping) => {
 export const validateCommittedEvidence = async ({ root }) => {
   const absoluteRoot = resolve(root);
   const mapping = await loadEvidenceMapping(absoluteRoot);
-  await validateMappingPlacements(absoluteRoot, mapping);
   const dataExists = await fileExists(join(absoluteRoot, EVIDENCE_DATA_PATH));
   const lockExists = await fileExists(join(absoluteRoot, EVIDENCE_LOCK_PATH));
   if (!dataExists && !lockExists) {
+    // Only the source link waits for the first import: it is built from the
+    // imported story's uri. Everything else about each page is checked now.
+    await validateMappingPlacements(absoluteRoot, mapping, unknownSourceUrls());
     await validateLegacyImages(absoluteRoot, mapping);
     return { state: "awaiting-import" };
   }
@@ -415,6 +467,13 @@ export const validateCommittedEvidence = async ({ root }) => {
   const data = await readJson(
     join(absoluteRoot, EVIDENCE_DATA_PATH),
     EVIDENCE_DATA_PATH,
+  );
+  await validateMappingPlacements(
+    absoluteRoot,
+    mapping,
+    sourceUrls(
+      Object.values(recordAt(data.captures, "evidence data captures")),
+    ),
   );
   await validateSiteData(
     absoluteRoot,

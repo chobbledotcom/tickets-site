@@ -9,7 +9,7 @@
  * may only be named in two of those files, so all three are searched. */
 export const CONTENT_DIRECTORIES = ["guide-categories", "guide-pages", "pages"];
 
-const escapeForRegExp = (value) =>
+export const escapeForRegExp = (value) =>
   value.replaceAll(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 export const socialImagePath = (imagePath) =>
@@ -20,12 +20,22 @@ export const socialImagePath = (imagePath) =>
  * mapping does not hold, so a review that only shows the mapping's five fields
  * would let a reader accept a new story without seeing what it contradicts.
  */
+/**
+ * The one line that gives a block its image, as every check that looks for it
+ * reads it. Written once because a looser reader and a stricter one disagreeing
+ * about the same line is how a block gets checked but not rewritten: YAML's
+ * trailing spaces and inline comment are allowed, and nothing else is, so a
+ * "?v=1" suffix is a block nobody finds rather than a block only some find.
+ */
+export const figureSourceLine = (imagePath) =>
+  new RegExp(`^ {4}figure_src: /${escapeForRegExp(imagePath)}\\s*(#.*)?$`, "m");
+
 /** Every block on a page that shows one image. More than one is a duplicated
  * screenshot, whose second copy nothing else would check. */
 export const evidenceBlocks = (page, imagePath) =>
   page
     .split(/^ {2}- type: /m)
-    .filter((section) => section.includes(`figure_src: /${imagePath}`));
+    .filter((section) => figureSourceLine(imagePath).test(section));
 
 /** How often a page names one path at all. A Markdown image in the page's own
  * prose renders the screenshot again without going near figure_src, and the

@@ -3,6 +3,8 @@ import { readFileSync } from "node:fs";
 import { join, relative, resolve } from "node:path";
 import { Glob } from "bun";
 import { SOCIAL_IMAGE_FACTS } from "../facts/social-images.js";
+import { FEATURE_SOURCE_PREFIX } from "../scripts/evidence/constants.js";
+import { featureSourceUrl } from "../scripts/evidence/mapping.js";
 import {
   CONTENT_DIRECTORIES,
   evidenceBlockFields,
@@ -19,6 +21,10 @@ import {
   reviewDigest,
 } from "../scripts/evidence/narrative.js";
 import { parseReviewArgs } from "../scripts/evidence/review.js";
+import {
+  featurePathAt,
+  linkedFeaturePathAt,
+} from "../scripts/evidence/validation.js";
 import { socialCopyDigest } from "../scripts/evidence/store.js";
 import { SOCIAL_SCREENSHOT_COPY } from "../scripts/social-screenshot-copy.js";
 
@@ -310,14 +316,15 @@ describe("evidence page prose", () => {
   });
 
   test("reads each capture's alt text and caption as whole values", () => {
-    for (const placement of Object.values(mapping.captures)) {
+    for (const [captureId, placement] of Object.entries(mapping.captures)) {
       const fields = evidenceBlockFields(
         read(placement.page),
         placement.legacyDestinationPath,
       );
       expect(fields.alt, placement.page).toBe(placement.alt);
-      expect(fields.caption, placement.page).toBe(
-        `${placement.caption} <small><a href="${placement.sourceUrl}">(src)</a></small>`,
+      expect(fields.caption, placement.page).toContain(placement.caption);
+      expect(fields.caption, placement.page).toContain(
+        featureSourceUrl(evidence.captures[captureId].story),
       );
     }
   });
@@ -363,6 +370,75 @@ describe("locked social card copy", () => {
     );
     expect(socialCopyDigest({ ...placement, socialBody: "Other." })).not.toBe(
       socialCopyDigest(placement),
+    );
+  });
+});
+
+describe("evidence source links", () => {
+  test("point at the Feature each story was authored in", () => {
+    for (const [captureId, placement] of Object.entries(mapping.captures)) {
+      const { uri } = evidence.captures[captureId].story;
+      const url = featureSourceUrl(evidence.captures[captureId].story);
+      // Stated as what the link must be true of, not as the encoding rule
+      // repeated: a copy of the rule would agree with a wrong rule.
+      expect(url, captureId).toStartWith(FEATURE_SOURCE_PREFIX);
+      const path = url.slice(FEATURE_SOURCE_PREFIX.length);
+      expect(decodeURIComponent(path), captureId).toBe(uri);
+      // Nothing a name carries may reshape the URL or close the caption's
+      // single-quoted YAML scalar.
+      expect(path, captureId).not.toMatch(/['"?#&\s]/);
+      expect(read(placement.page), placement.page).toContain(
+        `<small><a href="${url}">(src)</a></small>`,
+      );
+    }
+  });
+
+  /**
+   * The two ends of the same rule. featureSourceUrl writes the link and
+   * linkedFeaturePathAt reads it back, and each has been fixed on its own for
+   * a character the other still disagreed about. Held together here so neither
+   * can be narrowed without the other noticing.
+   */
+  test("write links the link check accepts, whatever a Feature is named", () => {
+    const names = [
+      "specs/payments/fees!(legacy).feature",
+      "specs/payments/an organiser's.feature",
+      "specs/payments/100% free*.feature",
+      "specs/payments/capacité aux portes.feature",
+      "specs/payments/a name; with, punctuation & more.feature",
+      "specs/payments/tab\tand\nbreak.feature",
+      "specs/payments/query?and#fragment.feature",
+      "specs/payments/a slash in a name.feature",
+      "specs/payments/quotes \"and\" more.feature",
+    ];
+    for (const uri of names) {
+      const url = featureSourceUrl({ uri });
+      const path = url.slice(FEATURE_SOURCE_PREFIX.length);
+      expect(() => linkedFeaturePathAt(path, uri), uri).not.toThrow();
+      expect(decodeURIComponent(path), uri).toBe(uri);
+      // A slash in a name stays inside its segment, so the link asks for the
+      // file that name belongs to rather than one a directory deeper.
+      expect(path.split("/").length, uri).toBe(uri.split("/").length);
+    }
+  });
+
+  test("refuse a path no filesystem could hold", () => {
+    // NUL is the one byte a POSIX filename cannot hold, so a path carrying it
+    // names no file and its link is dead however it is spelled.
+    const uri = "specs/a\u0000.feature";
+    expect(() => featurePathAt(uri, "uri")).toThrow("NUL");
+    const path = featureSourceUrl({ uri }).slice(FEATURE_SOURCE_PREFIX.length);
+    expect(() => linkedFeaturePathAt(path, "link")).toThrow("NUL");
+  });
+
+  test("encode each segment, so a name cannot reshape the URL", () => {
+    expect(
+      featureSourceUrl({ uri: "specs/payments/capacité aux portes.feature" }),
+    ).toBe(
+      `${FEATURE_SOURCE_PREFIX}specs/payments/capacit%C3%A9%20aux%20portes.feature`,
+    );
+    expect(featureSourceUrl({ uri: "specs/%2e%2e/x.feature" })).toContain(
+      "%252e%252e",
     );
   });
 });

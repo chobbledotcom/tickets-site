@@ -10,6 +10,7 @@ import {
   commitAt,
   enumAt,
   exactKeys,
+  featurePathAt,
   idAt,
   positiveIntegerAt,
   positiveNumberAt,
@@ -26,14 +27,24 @@ import {
  * @typedef {{id: string, name: string}} EvidenceCase
  * @typedef {{keyword: "Given" | "When" | "Then" | "And" | "But", text: string}} EvidenceStep
  * @typedef {{id: string, story: EvidenceNamedPart, rule: EvidenceNamedPart, case: EvidenceCase, steps: EvidenceStep[], presentation: "canonical" | "branded" | "editorial", assets: EvidenceAsset[]}} EvidenceCapture
- * @typedef {{schemaVersion: 1, app: {repository: "chobbledotcom/tickets", commit: string}, captures: EvidenceCapture[]}} EvidenceManifest
+ * @typedef {{schemaVersion: 2, app: {repository: "chobbledotcom/tickets", commit: string}, captures: EvidenceCapture[]}} EvidenceManifest
  */
 
-const validateNamedPart = (value, location) => {
-  exactKeys(value, ["id", "name", "description"], location);
+const validateNamedPart = (value, location, extraKeys = []) => {
+  exactKeys(value, ["id", "name", "description", ...extraKeys], location);
   idAt(value.id, `${location}.id`);
   stringAt(value.name, `${location}.name`);
   stringAt(value.description, `${location}.description`);
+  return value;
+};
+
+/** A story says which Feature it was authored in. The site builds its source
+ * link from this rather than writing the path out again. */
+/** A story says which Feature it was authored in. The site builds its source
+ * link from this rather than writing the path out again. */
+const validateStory = (value, location) => {
+  validateNamedPart(value, location, ["uri"]);
+  featurePathAt(value.uri, `${location}.uri`);
   return value;
 };
 
@@ -92,7 +103,7 @@ export const validateNarrative = (value, location, extraKeys) => {
     location,
   );
   idAt(value.id, `${location}.id`);
-  validateNamedPart(value.story, `${location}.story`);
+  validateStory(value.story, `${location}.story`);
   validateNamedPart(value.rule, `${location}.rule`);
   validateCase(value.case, `${location}.case`);
   const steps = arrayAt(value.steps, `${location}.steps`);

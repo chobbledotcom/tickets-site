@@ -20,7 +20,7 @@ import { root } from "../utils.js";
 import { loadEvidenceArtifact } from "./artifact.js";
 import { EVIDENCE_DATA_PATH, EVIDENCE_MAPPING_PATH } from "./constants.js";
 import { evidenceBlockProse } from "./copy.js";
-import { loadEvidenceMapping } from "./mapping.js";
+import { featureSourceUrl, loadEvidenceMapping } from "./mapping.js";
 import { reviewDigest } from "./narrative.js";
 import { serialise } from "./serialise.js";
 import { readJson } from "./validation.js";
@@ -92,7 +92,7 @@ const report = (captureId, capture, placement, prose) =>
     proseReport(placement, prose),
     "",
     `Page: ${placement.page}`,
-    `Source: ${placement.sourceUrl}`,
+    `Source: ${featureSourceUrl(capture.story)}`,
     "",
     statusLine(capture, placement, prose),
     "",

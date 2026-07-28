@@ -106,6 +106,84 @@ export const safeRelativePathAt = (value, location) => {
   return value;
 };
 
+/**
+ * A path to a Feature in the app's specs, as the app names it on disk. It is a
+ * filesystem path, not a URL, so a percent sign in a filename is a percent
+ * sign: "specs/fees/100%-free.feature" is a Feature like any other.
+ */
+export const featurePathAt = (value, location) => {
+  stringAt(value, location);
+  // Only NUL, which is the one byte a POSIX filename cannot hold. A path
+  // carrying it names no file, so its link is dead however it is spelled.
+  // Nothing else is refused here: a name is the app's to choose, and
+  // featureSourceUrl encodes whatever it is given.
+  if (value.includes("\u0000")) {
+    fail(location, "must not carry a NUL character");
+  }
+  safeRelativePathAt(value, location);
+  if (!value.startsWith("specs/") || !value.endsWith(".feature")) {
+    fail(location, "must be a specs/<path>.feature path");
+  }
+  return value;
+};
+
+/**
+ * A Feature path as a link spells it: each segment encoded on its own, so a
+ * name with a space or a slash in it stays one segment and nothing in a name
+ * can change the shape of the URL.
+ *
+ * encodeURIComponent stops at the characters legal in a URI, but a URI is not
+ * the only thing this string has to survive: it is written into a
+ * single-quoted YAML scalar, where a bare apostrophe ends the value.
+ */
+export const encodeFeaturePath = (path) =>
+  path
+    .split("/")
+    .map((segment) =>
+      encodeURIComponent(segment).replaceAll(
+        /[!'()*]/g,
+        (character) =>
+          `%${character
+            .charCodeAt(0)
+            .toString(16)
+            .toUpperCase()
+            .padStart(2, "0")}`,
+      ),
+    )
+    .join("/");
+
+/**
+ * A Feature path taken from a link, judged as the browser will read it.
+ *
+ * The link is held to what featureSourceUrl writes rather than checked for
+ * each way a link can lie. Nothing writes these links by hand, so the set of
+ * characters a real one carries is small and known, and a link outside that
+ * set has nothing to prove.
+ *
+ * Percent-encoding is decoded, because a browser resolves it:
+ * "specs/%2e%2e/x.feature" climbs out of the Features.
+ */
+export const linkedFeaturePathAt = (value, location) => {
+  stringAt(value, location);
+  let decoded;
+  try {
+    decoded = decodeURIComponent(value);
+  } catch (error) {
+    throw new Error(`${location}: is not a readable path`, { cause: error });
+  }
+  featurePathAt(decoded, location);
+  // The link has to be the one this path would have been written as, not
+  // merely a link that decodes to it. "foo%2Fbar.feature" decodes to two
+  // segments but asks for one file named "foo/bar.feature"; a tab decodes to
+  // itself but a browser strips it. Every such trick is a spelling the writer
+  // would not have produced, so comparing against it refuses them all rather
+  // than one per report.
+  if (encodeFeaturePath(decoded) !== value) {
+    fail(location, "must be the path written as this site writes it");
+  }
+  return value;
+};
+
 export const readJson = async (filePath, label = filePath) => {
   let text;
   try {

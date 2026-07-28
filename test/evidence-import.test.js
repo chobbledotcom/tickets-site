@@ -30,6 +30,8 @@ const CASE_ID = "servicing.hold-on-dashboard";
 const APP_COMMIT = "1234567890abcdef1234567890abcdef12345678";
 const ASSET_PATH = "assets/servicing-studio-floor-hold.png";
 const DESTINATION = "images/screenshots/servicing-studio-floor-hold.png";
+const STORY_URI = "specs/servicing/hold-and-cost.feature";
+const SOURCE_URL = `https://github.com/chobbledotcom/tickets/blob/main/${STORY_URI}`;
 
 const tempDirectory = () => {
   const directory = mkdtempSync(join(tmpdir(), "tickets-site-evidence-test-"));
@@ -44,7 +46,7 @@ afterEach(() => {
 });
 
 const mapping = (extraCaptures = {}) => ({
-  schemaVersion: 1,
+  schemaVersion: 2,
   captures: {
     [CAPTURE_ID]: {
       page: "pages/features/servicing-events.md",
@@ -56,8 +58,6 @@ const mapping = (extraCaptures = {}) => ({
       galleryCaption: "A service hold on the dashboard.",
       socialHeading: "Hold capacity for servicing",
       socialBody: "Block places for maintenance without adding a customer.",
-      sourceUrl:
-        "https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/hold-and-cost.feature",
       socialKey: "servicing-events",
       reviewed: REVIEWED,
     },
@@ -66,7 +66,7 @@ const mapping = (extraCaptures = {}) => ({
 });
 
 const manifest = (asset) => ({
-  schemaVersion: 1,
+  schemaVersion: 2,
   app: {
     repository: "chobbledotcom/tickets",
     commit: APP_COMMIT,
@@ -78,6 +78,7 @@ const manifest = (asset) => ({
         id: "servicing.hold-and-cost",
         name: "An organiser holds and costs a service event",
         description: "A service event reserves capacity without a customer ticket.",
+        uri: STORY_URI,
       },
       rule: {
         id: "servicing.hold-is-visible-and-private",
@@ -155,7 +156,7 @@ const createSite = async () => {
   mkdirSync(dirname(page), { recursive: true });
   writeFileSync(
     page,
-    `---\nticket_evidence_capture: ${CAPTURE_ID}\nblocks:\n  - type: split-image\n    figure_src: /${DESTINATION}\n    figure_alt: ${mapping().captures[CAPTURE_ID].alt}\n    figure_caption: '${mapping().captures[CAPTURE_ID].caption} <small><a href="${mapping().captures[CAPTURE_ID].sourceUrl}">(src)</a></small>'\n---\n`,
+    `---\nticket_evidence_capture: ${CAPTURE_ID}\nblocks:\n  - type: split-image\n    figure_src: /${DESTINATION}\n    figure_alt: ${mapping().captures[CAPTURE_ID].alt}\n    figure_caption: '${mapping().captures[CAPTURE_ID].caption} <small><a href="${SOURCE_URL}">(src)</a></small>'\n---\n`,
   );
   mkdirSync(join(root, "images/screenshots"), { recursive: true });
   writeFileSync(join(root, DESTINATION), await fixturePng());
@@ -185,7 +186,40 @@ const changed = (change) => {
 
 describe("evidence manifest validation", () => {
   const invalidManifests = [
-    ["schema version", (value) => ({ ...value, schemaVersion: 2 }), "schemaVersion"],
+    [
+      "schema version",
+      (value) => ({ ...value, schemaVersion: 3 }),
+      "schemaVersion",
+    ],
+    [
+      "story uri climbing out of specs",
+      (value) => ({
+        ...value,
+        captures: [
+          {
+            ...value.captures[0],
+            story: {
+              ...value.captures[0].story,
+              uri: "specs/../../outside.feature",
+            },
+          },
+        ],
+      }),
+      "safe relative path",
+    ],
+    [
+      "story uri",
+      (value) => ({
+        ...value,
+        captures: [
+          {
+            ...value.captures[0],
+            story: { ...value.captures[0].story, uri: "not-a-feature" },
+          },
+        ],
+      }),
+      "specs/<path>.feature",
+    ],
     [
       "repository",
       (value) => ({ ...value, app: { ...value.app, repository: "other/repo" } }),
@@ -557,6 +591,8 @@ describe("evidence import", () => {
 
   test("refuses a page whose alt text says more than the mapping", async () => {
     const root = await createSite();
+    const artifactDir = await createArtifact();
+    await importEvidence({ artifactDir, root, createSocialImage: copySocialImage });
     const page = join(root, "pages/features/servicing-events.md");
     writeFileSync(
       page,
@@ -592,6 +628,8 @@ describe("evidence import", () => {
 
   test("refuses a page that shows its screenshot twice", async () => {
     const root = await createSite();
+    const artifactDir = await createArtifact();
+    await importEvidence({ artifactDir, root, createSocialImage: copySocialImage });
     const page = join(root, "pages/features/servicing-events.md");
     const content = readFileSync(page, "utf8");
     const block = content.slice(content.indexOf("  - type: split-image"), -4);
@@ -632,6 +670,53 @@ describe("evidence import", () => {
     );
   });
 
+  test("checks each page before the first import, bar the link", async () => {
+    const root = await createSite();
+    const page = join(root, "pages/features/servicing-events.md");
+    const before = readFileSync(page, "utf8");
+    // Which Feature the link points at cannot be known yet.
+    writeFileSync(
+      page,
+      before.replace(
+        SOURCE_URL,
+        "https://github.com/chobbledotcom/tickets/blob/main/specs/other.feature",
+      ),
+    );
+    expect(await validateCommittedEvidence({ root })).toMatchObject({
+      state: "awaiting-import",
+    });
+    // That it is a Feature link at all is known now.
+    writeFileSync(page, before.replace(SOURCE_URL, "https://example.com/x"));
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "not a Feature under",
+    );
+    writeFileSync(
+      page,
+      before.replace(
+        ` <small><a href="${SOURCE_URL}">(src)</a></small>`,
+        "",
+      ),
+    );
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "not a Feature under",
+    );
+    // And so is everything the page says.
+    writeFileSync(
+      page,
+      before.replace(
+        mapping().captures[CAPTURE_ID].alt,
+        "Something else entirely",
+      ),
+    );
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "the evidence alt is",
+    );
+    writeFileSync(page, `${before}\nAlso /${DESTINATION} again.\n`);
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "names its images",
+    );
+  });
+
   test("accepts the legacy image before the first import", async () => {
     const root = await createSite();
     await expect(validateCommittedEvidence({ root })).resolves.toEqual({
@@ -649,6 +734,8 @@ describe("evidence import", () => {
 
   test("rejects a page that does not place its mapped capture", async () => {
     const root = await createSite();
+    const artifactDir = await createArtifact();
+    await importEvidence({ artifactDir, root, createSocialImage: copySocialImage });
     writeFileSync(join(root, "pages/features/servicing-events.md"), "---\n---\n");
     await expect(validateCommittedEvidence({ root })).rejects.toThrow(
       "does not select evidence capture",
@@ -676,14 +763,6 @@ describe("evidence mapping validation", () => {
     ).toThrow("duplicate value");
   });
 
-  test("rejects a source outside the Tickets Feature catalog", () => {
-    const value = mapping();
-    value.captures[CAPTURE_ID].sourceUrl = "https://example.com/story.feature";
-    expect(() => validateEvidenceMapping(value)).toThrow(
-      "must link to a Feature on the Tickets main branch",
-    );
-  });
-
   const missingWords = [
     "alt",
     "caption",
@@ -699,6 +778,14 @@ describe("evidence mapping validation", () => {
       expect(() => validateEvidenceMapping(value)).toThrow(field);
     });
   }
+
+  test("accepts a Feature filename with a percent sign", () => {
+    // The uri is a path on disk, not a URL: "%2e%2e" there is a directory
+    // with an odd name, and featureSourceUrl encodes it into the link.
+    const value = manifest(assetFor(Buffer.alloc(1)));
+    value.captures[0].story.uri = "specs/fees/100%-free.feature";
+    expect(() => validateEvidenceManifest(value)).not.toThrow();
+  });
 
   test("rejects a review stamp that is not a digest", () => {
     const value = mapping();

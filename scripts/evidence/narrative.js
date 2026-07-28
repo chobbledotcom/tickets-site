@@ -7,10 +7,19 @@ import { sha256 } from "./validation.js";
  * part of it - a re-run that produces new pixels for the same story is not a
  * change anyone needs to read.
  */
-const NARRATIVE_FIELDS = ["case", "presentation", "rule", "steps", "story"];
+const NARRATIVE_FIELDS = ["case", "presentation", "rule", "steps"];
 
-export const narrativeOf = (capture) =>
-  Object.fromEntries(NARRATIVE_FIELDS.map((field) => [field, capture[field]]));
+/** What the story says, without where it lives. A renamed Feature moves the
+ * source link, which the page's caption is checked against, but it does not
+ * change a word of what the story claims. */
+const storyClaim = ({ description, id, name }) => ({ description, id, name });
+
+export const narrativeOf = (capture) => ({
+  ...Object.fromEntries(
+    NARRATIVE_FIELDS.map((field) => [field, capture[field]]),
+  ),
+  story: storyClaim(capture.story),
+});
 
 /** The site's own words about a capture: the five the mapping holds, and the
  * prose the page prints beside the screenshot. */
