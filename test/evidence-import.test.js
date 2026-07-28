@@ -690,12 +690,33 @@ describe("evidence import", () => {
     const root = await createSite();
     const page = join(root, "pages/features/servicing-events.md");
     const before = readFileSync(page, "utf8");
-    // The link cannot be known yet, so a wrong one is not what fails here.
-    writeFileSync(page, before.replace(SOURCE_URL, "https://example.com/x"));
+    // Which Feature the link points at cannot be known yet.
+    writeFileSync(
+      page,
+      before.replace(
+        SOURCE_URL,
+        "https://github.com/chobbledotcom/tickets/blob/main/specs/other.feature",
+      ),
+    );
     expect(await validateCommittedEvidence({ root })).toMatchObject({
       state: "awaiting-import",
     });
-    // Everything else about the page still is.
+    // That it is a Feature link at all is known now.
+    writeFileSync(page, before.replace(SOURCE_URL, "https://example.com/x"));
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "not a Feature under",
+    );
+    writeFileSync(
+      page,
+      before.replace(
+        ` <small><a href="${SOURCE_URL}">(src)</a></small>`,
+        "",
+      ),
+    );
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "not a Feature under",
+    );
+    // And so is everything the page says.
     writeFileSync(
       page,
       before.replace(

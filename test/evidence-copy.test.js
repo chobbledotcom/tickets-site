@@ -373,9 +373,13 @@ describe("locked social card copy", () => {
 describe("evidence source links", () => {
   test("point at the Feature each story was authored in", () => {
     for (const [captureId, placement] of Object.entries(mapping.captures)) {
+      const { uri } = evidence.captures[captureId].story;
       const url = featureSourceUrl(evidence.captures[captureId].story);
       expect(url, captureId).toBe(
-        `${FEATURE_SOURCE_PREFIX}${evidence.captures[captureId].story.uri}`,
+        `${FEATURE_SOURCE_PREFIX}${uri
+          .split("/")
+          .map((segment) => encodeURIComponent(segment))
+          .join("/")}`,
       );
       expect(read(placement.page), placement.page).toContain(
         `<small><a href="${url}">(src)</a></small>`,

@@ -118,11 +118,15 @@ export const loadEvidenceMapping = async (root) =>
     await readJson(join(root, EVIDENCE_MAPPING_PATH), EVIDENCE_MAPPING_PATH),
   );
 
-/** What a caption says, without the small source link it ends with. */
-const captionText = (caption) =>
-  caption === undefined || caption === null
-    ? caption
-    : caption.replace(/\s*<small><a href="[^"]*">\(src\)<\/a><\/small>$/, "");
+/** A caption's own words and the source link it must end with. A caption
+ * without that link has no parts: the link is not optional, only its
+ * destination waits for the first import. */
+const captionParts = (caption) => {
+  const found = (caption ?? "").match(
+    /^(.*?)\s*<small><a href="([^"]*)">\(src\)<\/a><\/small>$/,
+  );
+  return found ? { href: found[2], text: found[1] } : null;
+};
 
 /** The page shows the capture's screenshot once, in one evidence block, and
  * names its images nowhere else. */
@@ -164,11 +168,14 @@ const validateOnePlacement = (content, captureId, mapping) => {
 const validatePageWords = (content, mapping, sourceUrl) => {
   const fields = evidenceBlockFields(content, mapping.legacyDestinationPath);
   const linkIsKnown = sourceUrl !== null;
+  // A caption with no source link has no words to compare either, so say what
+  // is actually wrong with it first.
+  if (!linkIsKnown) validateSourceLinkShape(fields?.caption, mapping.page);
   const pairs = [
     ["alt", fields?.alt, mapping.alt],
     [
       "caption",
-      linkIsKnown ? fields?.caption : captionText(fields?.caption),
+      linkIsKnown ? fields?.caption : captionParts(fields?.caption)?.text,
       linkIsKnown
         ? `${mapping.caption} <small><a href="${sourceUrl}">(src)</a></small>`
         : mapping.caption,
@@ -180,6 +187,20 @@ const validatePageWords = (content, mapping, sourceUrl) => {
         `${mapping.page}: the evidence ${name} is "${actual}" but the mapping says "${expected}"`,
       );
     }
+  }
+};
+
+/**
+ * Before the first import the link's destination is unknown, but a caption
+ * still has to carry a source link to a Feature: deferring the destination is
+ * not the same as accepting a page with no link at all.
+ */
+const validateSourceLinkShape = (caption, page) => {
+  const href = captionParts(caption)?.href;
+  if (!href?.startsWith(FEATURE_SOURCE_PREFIX) || !href.endsWith(".feature")) {
+    throw new Error(
+      `${page}: the evidence caption's source link is "${href}", not a Feature under ${FEATURE_SOURCE_PREFIX}`,
+    );
   }
 };
 
