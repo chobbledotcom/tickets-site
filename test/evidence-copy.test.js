@@ -5,6 +5,7 @@ import { Glob } from "bun";
 import { SOCIAL_IMAGE_FACTS } from "../facts/social-images.js";
 import {
   CONTENT_DIRECTORIES,
+  evidenceBlockProse,
   evidenceCopyIssues,
   galleryCaptionsFor,
   socialImagePath,
@@ -16,6 +17,7 @@ import {
   narrativeOf,
 } from "../scripts/evidence/narrative.js";
 import { parseReviewArgs } from "../scripts/evidence/review.js";
+import { socialCopyDigest } from "../scripts/evidence/store.js";
 import { SOCIAL_SCREENSHOT_COPY } from "../scripts/social-screenshot-copy.js";
 
 const ROOT = resolve(import.meta.dir, "..");
@@ -235,6 +237,55 @@ describe("evidence drift messages", () => {
   test("send a committed-state failure to the committed data", () => {
     expect(describeDrift(drift)).toContain(
       "bun run evidence:review a-capture --accept",
+    );
+  });
+
+  test("quote an artifact directory that would not survive a shell", () => {
+    expect(
+      describeDrift(drift, artifactSource("/tmp/Ticket Evidence")),
+    ).toContain("--from '/tmp/Ticket Evidence'");
+  });
+});
+
+describe("evidence page prose", () => {
+  test("reads the prose beside each capture's screenshot", () => {
+    for (const placement of Object.values(mapping.captures)) {
+      const prose = evidenceBlockProse(
+        read(placement.page),
+        placement.legacyDestinationPath,
+      );
+      expect(prose, placement.page).toBeTruthy();
+      expect(prose.length, placement.page).toBeGreaterThan(40);
+    }
+  });
+
+  test("returns nothing when the page does not show that image", () => {
+    expect(
+      evidenceBlockProse(
+        read("pages/features/qr-code-check-ins.md"),
+        "images/screenshots/not-on-this-page.png",
+      ),
+    ).toBeNull();
+  });
+});
+
+describe("locked social card copy", () => {
+  test("matches the copy each committed card was drawn from", () => {
+    const lock = readJson("_data/ticket_evidence_lock.json");
+    for (const [captureId, placement] of Object.entries(mapping.captures)) {
+      expect(lock.socialCopy[captureId], captureId).toBe(
+        socialCopyDigest(placement),
+      );
+    }
+  });
+
+  test("changes when the heading or the body changes", () => {
+    const placement = { socialBody: "A body.", socialHeading: "A heading." };
+    expect(socialCopyDigest({ ...placement, socialHeading: "Other." })).not.toBe(
+      socialCopyDigest(placement),
+    );
+    expect(socialCopyDigest({ ...placement, socialBody: "Other." })).not.toBe(
+      socialCopyDigest(placement),
     );
   });
 });

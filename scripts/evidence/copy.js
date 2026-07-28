@@ -15,6 +15,25 @@ const escapeForRegExp = (value) =>
 export const socialImagePath = (imagePath) =>
   imagePath.replace(/\.png$/, "__facebook.png");
 
+/**
+ * The prose a page prints beside its evidence screenshot. It makes claims the
+ * mapping does not hold, so a review that only shows the mapping's five fields
+ * would let a reader accept a new story without seeing what it contradicts.
+ */
+export const evidenceBlockProse = (page, imagePath) => {
+  const block = page
+    .split(/^ {2}- type: /m)
+    .find((section) => section.includes(`figure_src: /${imagePath}`));
+  if (!block) return null;
+  const content = block.match(/^ {4}content: \|-?\n([\s\S]*?)^ {4}\w/m);
+  if (!content) return null;
+  return content[1]
+    .split("\n")
+    .map((line) => line.replace(/^ {6}/, ""))
+    .join("\n")
+    .trim();
+};
+
 /** The captions the gallery gives one image, in the order it lists them. */
 export const galleryCaptionsFor = (gallery, imagePath) =>
   [

@@ -513,6 +513,18 @@ describe("evidence import", () => {
     expect(lock.app.commit).toBe(APP_COMMIT);
   });
 
+  test("refuses committed evidence whose social copy was edited after import", async () => {
+    const root = await createSite();
+    const artifactDir = await createArtifact();
+    await importEvidence({ artifactDir, root, createSocialImage: copySocialImage });
+    const edited = mapping();
+    edited.captures[CAPTURE_ID].socialHeading = "A different heading";
+    writeJson(join(root, "_data/ticket_evidence_map.json"), edited);
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "the social card text changed since the card was drawn",
+    );
+  });
+
   test("detects changed committed bytes", async () => {
     const root = await createSite();
     const artifactDir = await createArtifact();

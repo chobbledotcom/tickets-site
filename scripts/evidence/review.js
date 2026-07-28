@@ -19,6 +19,7 @@ import { join } from "node:path";
 import { root } from "../utils.js";
 import { loadEvidenceArtifact } from "./artifact.js";
 import { EVIDENCE_DATA_PATH, EVIDENCE_MAPPING_PATH } from "./constants.js";
+import { evidenceBlockProse } from "./copy.js";
 import { loadEvidenceMapping } from "./mapping.js";
 import { narrativeDigest } from "./narrative.js";
 import { serialise } from "./serialise.js";
@@ -70,13 +71,26 @@ const statusLine = (capture, placement) =>
       "        Re-read the words above, then re-run this command with --accept " +
       `to record ${narrativeDigest(capture)}.`;
 
-const report = (captureId, capture, placement) =>
+/** The page's own prose about the screenshot. It is not in the mapping, so it
+ * is read from the page and shown here rather than left for the reader to
+ * remember. */
+const proseReport = (placement, page) => {
+  const prose = evidenceBlockProse(page, placement.legacyDestinationPath);
+  return prose
+    ? `Page prose:\n${prose.replace(/^/gm, "  ")}`
+    : `Page prose: none found in ${placement.page}`;
+};
+
+const report = (captureId, capture, placement, page) =>
   [
     `## ${captureId}`,
     "",
     storyReport(capture),
     "",
     wordsReport(placement),
+    "",
+    proseReport(placement, page),
+    "",
     `Page: ${placement.page}`,
     `Source: ${placement.sourceUrl}`,
     "",
@@ -153,7 +167,9 @@ const main = async () => {
     throw new Error("--accept needs exactly one capture id");
   }
   for (const id of ids) {
-    console.log(report(id, captures[id], mapping.captures[id]));
+    const placement = mapping.captures[id];
+    const page = await Bun.file(join(root, placement.page)).text();
+    console.log(report(id, captures[id], placement, page));
   }
   if (args.accept) {
     await acceptNarrative(ids[0], captures[ids[0]], args.from);

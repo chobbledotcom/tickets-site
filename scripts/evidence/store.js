@@ -108,13 +108,37 @@ const outputFiles = (artifact, mapping, dataText, socialFiles) => [
   ...socialFiles,
 ];
 
-const createLock = (manifest, files) => ({
+/**
+ * The heading and body are rendered into the social card's pixels, so the copy
+ * a card was drawn from is locked alongside its bytes. Editing that copy
+ * without re-importing leaves a card whose text nobody wrote.
+ */
+export const socialCopyDigest = (placement) =>
+  sha256(
+    new TextEncoder().encode(
+      serialise({
+        body: placement.socialBody,
+        heading: placement.socialHeading,
+      }),
+    ),
+  );
+
+const lockedSocialCopy = (mapping) =>
+  Object.fromEntries(
+    Object.entries(mapping.captures).map(([captureId, placement]) => [
+      captureId,
+      socialCopyDigest(placement),
+    ]),
+  );
+
+const createLock = (manifest, files, mapping) => ({
   schemaVersion: EVIDENCE_SCHEMA_VERSION,
   app: manifest.app,
   artifactSha256: sha256(new TextEncoder().encode(serialise(manifest))),
   files: Object.fromEntries(
     files.map((file) => [file.path, sha256(file.bytes)]),
   ),
+  socialCopy: lockedSocialCopy(mapping),
 });
 
 /**
@@ -158,7 +182,7 @@ export const importEvidence = async ({
     createSocialImage,
   );
   const files = outputFiles(artifact, mapping, dataText, socialFiles);
-  const lock = createLock(artifact.manifest, files);
+  const lock = createLock(artifact.manifest, files, mapping);
   await Promise.all(
     files.map((file) => writeFile(root, file.path, file.bytes)),
   );
@@ -171,7 +195,7 @@ const fileExists = async (filePath) => await Bun.file(filePath).exists();
 const validateLock = (value) => {
   exactKeys(
     value,
-    ["schemaVersion", "app", "artifactSha256", "files"],
+    ["schemaVersion", "app", "artifactSha256", "files", "socialCopy"],
     "evidence lock",
   );
   if (value.schemaVersion !== EVIDENCE_SCHEMA_VERSION) {
@@ -188,6 +212,11 @@ const validateLock = (value) => {
   commitAt(value.app.commit, "evidence lock app commit");
   sha256At(value.artifactSha256, "evidence lock artifactSha256");
   recordAt(value.files, "evidence lock files");
+  recordAt(value.socialCopy, "evidence lock socialCopy");
+  Object.entries(value.socialCopy).map(([captureId, digest]) => {
+    sha256At(digest, `evidence lock socialCopy ${captureId}`);
+    return captureId;
+  });
   Object.entries(value.files).map(([filePath, digest]) => {
     safeRelativePathAt(filePath, `evidence lock file ${filePath}`);
     sha256At(digest, `evidence lock file ${filePath}`);
@@ -220,6 +249,26 @@ const validateLockFiles = async (root, lock, mapping) => {
       }
     }),
   );
+};
+
+/**
+ * The social cards are only drawn during an import, so copy edited afterwards
+ * leaves a card showing the old words while every text check passes.
+ */
+const assertSocialCardsMatchTheirCopy = (lock, mapping) => {
+  const stale = Object.entries(mapping.captures).filter(
+    ([captureId, placement]) =>
+      lock.socialCopy[captureId] !== socialCopyDigest(placement),
+  );
+  if (stale.length > 0) {
+    throw new Error(
+      `${stale
+        .map(([captureId]) => captureId)
+        .join(", ")}: the social card text changed since the card was drawn. ` +
+        "Re-import the evidence so the card is rendered again: " +
+        "bun run evidence:import --from <artifact-dir>.",
+    );
+  }
 };
 
 const validateSiteImage = async (root, captureId, image, mapping, lock) => {
@@ -333,6 +382,7 @@ export const validateCommittedEvidence = async ({ root }) => {
     await readJson(join(absoluteRoot, EVIDENCE_LOCK_PATH), EVIDENCE_LOCK_PATH),
   );
   await validateLockFiles(absoluteRoot, lock, mapping);
+  assertSocialCardsMatchTheirCopy(lock, mapping);
   const data = await readJson(
     join(absoluteRoot, EVIDENCE_DATA_PATH),
     EVIDENCE_DATA_PATH,

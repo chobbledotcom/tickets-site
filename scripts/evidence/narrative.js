@@ -34,7 +34,12 @@ export const narrativeDrift = (captureId, capture, mapping) => {
  * show the old story and re-record the digest that already fails.
  */
 export const committedSource = "";
-export const artifactSource = (artifactDir) => ` --from ${artifactDir}`;
+/** Quoted so a path with spaces still copies into a working command. */
+const shellArgument = (value) =>
+  /^[\w./-]+$/.test(value) ? value : `'${value.replaceAll("'", "'\\''")}'`;
+
+export const artifactSource = (artifactDir) =>
+  ` --from ${shellArgument(artifactDir)}`;
 
 export const describeDrift = (
   { captureId, digest },
