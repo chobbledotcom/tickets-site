@@ -17,7 +17,7 @@ provider_facts:
   registration_country: united-kingdom
   ethical_basis:
     - not-documented
-  per_ticket_platform_fee: percentage
+  per_ticket_platform_fee: per-transaction-percentage
   managed_pricing: per-sale
   white_label: partial
   custom_domain: not-documented
@@ -86,12 +86,17 @@ blocks:
 
       Chobble Tickets is a flat £50/year or £5/month, with
       [no per-ticket platform fees](/features/no-per-ticket-fees/). Community
-      groups, charities, and schools pay £25/year. Payment processing is
-      charged by your own Stripe, Square, or SumUp account. On the
-      TicketSource own-Stripe rate of 4.5% plus VAT, an organiser selling
-      £1,000 of tickets a year pays about £54 in booking fees, so the two
-      cross over at around £930 of annual ticket sales. On the 7% plus VAT
-      rate, they cross over at around £600.
+      groups, charities, artists and musicians pay £25/year. Payment
+      processing is charged by your own Stripe, Square, or SumUp account.
+
+      On the TicketSource own-Stripe rate, both platforms leave you paying
+      Stripe separately, so the comparison is 5.4% including VAT against
+      £50 a year: the two cross over at around £930 of annual ticket sales.
+      The 7% route includes card processing in the fee, so the fair
+      comparison there is against £50 plus your own processing charges. At
+      £15 a ticket and Stripe's 1.5% + 20p, that crossover is around 60
+      tickets, or about £900 of sales a year. Cheaper tickets cross over
+      later, because the fixed 20p is a bigger share of each sale.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -199,7 +204,9 @@ blocks:
       - **Flat pricing** - £50/year or £5/month whatever you sell, with no
         booking fee on any ticket
       - **[Your own custom domain](/features/custom-domain/)** - your
-        ticket pages run on your own web address, included in the price
+        ticket pages run on your own web address, included in the price.
+        TicketSource does not document a custom-domain option, and its
+        ticket shop pages are served from TicketSource domains
       - **[Public-facing website and CMS](/features/your-public-website/)** -
         a homepage, content pages, news posts, and a contact form with spam
         protection, edited from the admin panel with Markdown and
@@ -250,8 +257,9 @@ blocks:
       that have taken online bookings must stay open for nine months after
       the last transaction.
 
-      With Chobble Tickets, attendee data is encrypted at rest and only your
-      private key can decrypt it. The platform is open source under AGPLv3,
+      With Chobble Tickets, attendee data is encrypted at rest. Only the
+      keys held by your own administrator accounts, and the optional
+      recovery account you can enable, unlock it. The platform is open source under AGPLv3,
       so you can self-host it and never depend on a third party. If Chobble
       Tickets stopped operating tomorrow, you could run the same code on
       your own server.
