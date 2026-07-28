@@ -14,6 +14,7 @@ import {
 import {
   enumAt,
   exactKeys,
+  featurePathAt,
   idAt,
   readJson,
   recordAt,
@@ -197,7 +198,14 @@ const validatePageWords = (content, mapping, sourceUrl) => {
  */
 const validateSourceLinkShape = (caption, page) => {
   const href = captionParts(caption)?.href;
-  if (!href?.startsWith(FEATURE_SOURCE_PREFIX) || !href.endsWith(".feature")) {
+  const featurePath = href?.startsWith(FEATURE_SOURCE_PREFIX)
+    ? href.slice(FEATURE_SOURCE_PREFIX.length)
+    : null;
+  // The same judgement a story's own uri gets: a link that climbs out of
+  // specs/, encoded or not, points at something else entirely.
+  try {
+    featurePathAt(featurePath, "link");
+  } catch {
     throw new Error(
       `${page}: the evidence caption's source link is "${href}", not a Feature under ${FEATURE_SOURCE_PREFIX}`,
     );

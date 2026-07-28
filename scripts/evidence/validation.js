@@ -106,6 +106,28 @@ export const safeRelativePathAt = (value, location) => {
   return value;
 };
 
+/**
+ * A path to a Feature in the app's specs, judged as written and as a browser
+ * will read it: a segment written "%2e%2e" is a dot segment by then, and a
+ * link that climbs out of specs/ points at something else entirely.
+ */
+export const featurePathAt = (value, location) => {
+  stringAt(value, location);
+  let decoded;
+  try {
+    decoded = decodeURIComponent(value);
+  } catch (error) {
+    throw new Error(`${location}: is not a readable path`, { cause: error });
+  }
+  for (const path of [value, decoded]) {
+    safeRelativePathAt(path, location);
+    if (!path.startsWith("specs/") || !path.endsWith(".feature")) {
+      fail(location, "must be a specs/<path>.feature path");
+    }
+  }
+  return value;
+};
+
 export const readJson = async (filePath, label = filePath) => {
   let text;
   try {

@@ -123,6 +123,8 @@ const buildSite = async () => {
     `${JSON.stringify({ captures: { [CAPTURE_ID]: placement() }, schemaVersion: 2 }, null, 2)}\n`,
   );
   write(root, PAGE, pageMarkdown());
+  // A site awaiting its first import still ships the screenshot it has.
+  write(root, IMAGE, await pngBytes());
   return root;
 };
 
@@ -319,6 +321,58 @@ const copyInputs = () => ({
   socialFacts: { "a-capture": [{ fact: "A fact.", sources: ["../tickets/a:1"] }] },
 });
 
+/**
+ * The same rules, broken before the first import. Three findings in a row
+ * landed here because the harness only ever broke a rule after importing, so
+ * nothing watched the state a legacy site builds in.
+ */
+const PRE_IMPORT_RULES = [
+  {
+    break: (root) =>
+      editPage(root, (page) => page.replace(ALT, "Something else")),
+    expect: "the evidence alt is",
+    name: "the page repeats the mapping",
+    rule: 2,
+  },
+  {
+    break: (root) =>
+      editPage(root, (page) => `${page}\nAlso /${IMAGE} appears here.\n`),
+    expect: "names its images",
+    name: "the mapped page names its images once",
+    rule: 6,
+  },
+  {
+    break: (root) =>
+      editPage(root, (page) =>
+        page.replace(` <small><a href="${SOURCE_URL}">(src)</a></small>`, ""),
+      ),
+    expect: "not a Feature under",
+    name: "the caption carries a source link at all",
+    rule: 8,
+  },
+  {
+    break: (root) =>
+      editPage(root, (page) =>
+        page.replace(SOURCE_URL, "https://example.com/x.feature"),
+      ),
+    expect: "not a Feature under",
+    name: "the source link points into the app's Features",
+    rule: 8,
+  },
+  {
+    break: (root) =>
+      editPage(root, (page) =>
+        page.replace(
+          SOURCE_URL,
+          `${FEATURE_SOURCE_PREFIX}specs/%2e%2e/outside.feature`,
+        ),
+      ),
+    expect: "not a Feature under",
+    name: "the source link cannot climb out of the Features",
+    rule: 8,
+  },
+];
+
 describe("evidence rules", () => {
   test("a site that follows every rule is accepted", async () => {
     const { root } = await importedSite();
@@ -330,6 +384,23 @@ describe("evidence rules", () => {
   for (const { name, break: breakRule, expect: message } of RULES) {
     test(`refuses a site where ${name} is broken`, async () => {
       const { root } = await importedSite();
+      breakRule(root);
+      await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+        message,
+      );
+    });
+  }
+
+  test("accepts a site that has not imported yet", async () => {
+    const root = await buildSite();
+    expect(await validateCommittedEvidence({ root })).toMatchObject({
+      state: "awaiting-import",
+    });
+  });
+
+  for (const { name, break: breakRule, expect: message } of PRE_IMPORT_RULES) {
+    test(`refuses a site before its first import where ${name} is broken`, async () => {
+      const root = await buildSite();
       breakRule(root);
       await expect(validateCommittedEvidence({ root })).rejects.toThrow(
         message,
@@ -354,7 +425,9 @@ describe("evidence rules", () => {
       Number(number),
     );
     expect(stated.length).toBeGreaterThan(0);
-    const covered = [...RULES, ...COPY_RULES].map((entry) => entry.rule);
+    const covered = [...RULES, ...COPY_RULES, ...PRE_IMPORT_RULES].map(
+      (entry) => entry.rule,
+    );
     expect(
       stated.filter((number) => !covered.includes(number)),
       "every numbered rule in SCREENSHOT-EVIDENCE.md needs a case in RULES",
