@@ -27,6 +27,12 @@ export const evidenceBlocks = (page, imagePath) =>
     .split(/^ {2}- type: /m)
     .filter((section) => section.includes(`figure_src: /${imagePath}`));
 
+/** How often a page names one path at all. A Markdown image in the page's own
+ * prose renders the screenshot again without going near figure_src, and the
+ * mapped page is exempt from the stray-mention rule, so it is counted here. */
+export const imageMentions = (page, imagePath) =>
+  page.split(`/${imagePath}`).length - 1;
+
 const evidenceBlock = (page, imagePath) => {
   const blocks = evidenceBlocks(page, imagePath);
   return blocks.length === 1 ? blocks[0] : null;

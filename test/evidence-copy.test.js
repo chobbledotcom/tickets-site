@@ -7,6 +7,7 @@ import {
   CONTENT_DIRECTORIES,
   evidenceBlockFields,
   evidenceBlockProse,
+  imageMentions,
   evidenceCopyIssues,
   galleryCaptionsFor,
   socialImagePath,
@@ -14,8 +15,8 @@ import {
 import {
   artifactSource,
   describeDrift,
-  narrativeDigest,
   narrativeOf,
+  reviewDigest,
 } from "../scripts/evidence/narrative.js";
 import { parseReviewArgs } from "../scripts/evidence/review.js";
 import { socialCopyDigest } from "../scripts/evidence/store.js";
@@ -60,13 +61,21 @@ describe("evidence copy", () => {
 });
 
 describe("evidence narrative review", () => {
-  test("records that each capture's words were written against its story", () => {
+  const stampOf = (captureId) => {
+    const placement = mapping.captures[captureId];
+    return reviewDigest(
+      evidence.captures[captureId],
+      placement,
+      evidenceBlockProse(
+        read(placement.page),
+        placement.legacyDestinationPath,
+      ),
+    );
+  };
+
+  test("records that each story and its words were read together", () => {
     const drifted = Object.entries(mapping.captures)
-      .filter(
-        ([captureId, placement]) =>
-          narrativeDigest(evidence.captures[captureId]) !==
-          placement.reviewedNarrative,
-      )
+      .filter(([captureId, placement]) => stampOf(captureId) !== placement.reviewed)
       .map(([captureId]) => captureId);
     expect(
       drifted,
@@ -74,22 +83,40 @@ describe("evidence narrative review", () => {
     ).toEqual([]);
   });
 
+  const firstId = () => Object.keys(mapping.captures)[0];
+
   test("ignores a re-run that only produces new pixels", () => {
-    const capture = evidence.captures[Object.keys(mapping.captures)[0]];
+    const capture = evidence.captures[firstId()];
+    const placement = mapping.captures[firstId()];
     const recaptured = {
       ...capture,
       image: { ...capture.image, sha256: "0".repeat(64) },
     };
-    expect(narrativeDigest(recaptured)).toBe(narrativeDigest(capture));
+    expect(reviewDigest(recaptured, placement, "prose")).toBe(
+      reviewDigest(capture, placement, "prose"),
+    );
   });
 
   test("notices a story whose words changed", () => {
-    const capture = evidence.captures[Object.keys(mapping.captures)[0]];
+    const capture = evidence.captures[firstId()];
+    const placement = mapping.captures[firstId()];
     const reworded = {
       ...capture,
       rule: { ...capture.rule, description: "Something else entirely." },
     };
-    expect(narrativeDigest(reworded)).not.toBe(narrativeDigest(capture));
+    expect(reviewDigest(reworded, placement, "prose")).not.toBe(
+      reviewDigest(capture, placement, "prose"),
+    );
+  });
+
+  test("notices the site's own words changing", () => {
+    const capture = evidence.captures[firstId()];
+    const placement = mapping.captures[firstId()];
+    const stamp = reviewDigest(capture, placement, "prose");
+    expect(
+      reviewDigest(capture, { ...placement, caption: "Something else." }, "prose"),
+    ).not.toBe(stamp);
+    expect(reviewDigest(capture, placement, "Different prose.")).not.toBe(stamp);
   });
 
   test("covers the story, rule, case and steps", () => {
@@ -245,6 +272,28 @@ describe("evidence drift messages", () => {
     expect(
       describeDrift(drift, artifactSource("/tmp/Ticket Evidence")),
     ).toContain("--from '/tmp/Ticket Evidence'");
+  });
+});
+
+describe("mapped page image mentions", () => {
+  test("counts each capture's image once on its own page", () => {
+    for (const placement of Object.values(mapping.captures)) {
+      const page = read(placement.page);
+      expect(
+        imageMentions(page, placement.legacyDestinationPath) +
+          imageMentions(page, socialImagePath(placement.legacyDestinationPath)),
+        placement.page,
+      ).toBe(1);
+    }
+  });
+
+  test("counts a Markdown image in the page's prose", () => {
+    expect(
+      imageMentions(
+        "![stale](/images/screenshots/example.png)\n    figure_src: /images/screenshots/example.png",
+        "images/screenshots/example.png",
+      ),
+    ).toBe(2);
   });
 });
 

@@ -46,14 +46,18 @@ ready to be evidence; upgrade the story until it can.
 4. **Every capture is in the gallery, exactly once.**
 5. **Every capture has audited facts** under its `socialKey` in
    `facts/social-images.js`.
-6. **The site's words are written against a known story.** Each mapping entry
-   records `reviewedNarrative`, a digest of the capture's story, rule, case and
-   steps. New pixels for the same story do not change it; a reworded rule or a
-   changed step does.
-7. **A changed story stops the import.** `bun run evidence:import` refuses an
-   artifact whose story no longer matches `reviewedNarrative`, and
-   `bun run evidence:validate` refuses the committed state. Nothing writes that
-   digest except a person running `--accept`.
+6. **A mapped page shows its screenshot once**, in one evidence block, and
+   names it nowhere else. A second block or a Markdown image renders the same
+   screenshot twice where nothing would check its words.
+7. **The story and the words were read together.** Each mapping entry records
+   `reviewed`, a digest of the capture's story, rule, case and steps *and* the
+   words the site writes about it, including the page's prose. New pixels for
+   the same story do not change it; a reworded rule, a reworded caption or
+   edited page prose all do.
+8. **A changed story or changed words stop the import.**
+   `bun run evidence:import` refuses an artifact whose pair no longer matches
+   `reviewed`, and `bun run evidence:validate` refuses the committed state.
+   Nothing writes that digest except a person running `--accept`.
 
 ## Reviewing a capture
 
@@ -64,12 +68,15 @@ bun run evidence:review                    # every capture
 bun run evidence:review qr-code-check-in   # one capture
 ```
 
-The report prints the story, rule, case and steps, then the alt text, captions
-and social copy, and says whether the words were written against that story.
+The report prints the story, rule, case and steps, then the alt text, captions,
+social copy and the page's own prose, and says whether that story and those
+words were last read together.
 It reads the committed data by default; pass `--from <artifact-dir>` to read a
 new artifact before importing it.
 
-Once the words are right for the story, record that the story has been read.
+Once the words are right for the story, record that the two were read together.
+Editing any of those words afterwards clears the record, so a caption reworded
+months later gets the same second look as a reworded rule.
 Accept from the same place you reviewed: dropping `--from` records the story in
 the committed data, which is the old one, and the new artifact stays rejected.
 
@@ -81,7 +88,7 @@ bun run evidence:review qr-code-check-in --from <artifact-dir> --accept
 bun run evidence:review qr-code-check-in --accept
 ```
 
-Accepting is the act of having read it. Do not stamp a digest without reading
+Accepting is the act of having read them together. Do not stamp a digest without reading
 the report, and do not automate the stamp: the whole point is that a person
 (or an LLM asked to compare them) has decided the end-user wording still says
 only what the case proves.

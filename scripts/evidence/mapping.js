@@ -4,7 +4,12 @@ import {
   EVIDENCE_MAPPING_PATH,
   EVIDENCE_SCHEMA_VERSION,
 } from "./constants.js";
-import { evidenceBlockFields, evidenceBlocks } from "./copy.js";
+import {
+  evidenceBlockFields,
+  evidenceBlocks,
+  imageMentions,
+  socialImagePath,
+} from "./copy.js";
 import {
   enumAt,
   exactKeys,
@@ -29,7 +34,7 @@ const MAPPING_FIELDS = [
   "socialBody",
   "sourceUrl",
   "socialKey",
-  "reviewedNarrative",
+  "reviewed",
 ];
 
 /** Every sentence the site writes about the screenshot. The page, the gallery
@@ -69,7 +74,7 @@ const validateCaptureMapping = (captureId, value) => {
   idAt(value.caseId, `${location}.caseId`);
   for (const field of TEXT_FIELDS)
     stringAt(value[field], `${location}.${field}`);
-  sha256At(value.reviewedNarrative, `${location}.reviewedNarrative`);
+  sha256At(value.reviewed, `${location}.reviewed`);
   stringAt(value.sourceUrl, `${location}.sourceUrl`);
   if (
     !value.sourceUrl.startsWith(SOURCE_PREFIX) ||
@@ -128,6 +133,16 @@ const validatePagePlacement = async (root, captureId, mapping) => {
   if (blocks.length !== 1) {
     throw new Error(
       `${mapping.page}: shows /${mapping.legacyDestinationPath} in ${blocks.length} blocks, not one`,
+    );
+  }
+  // Naming the image anywhere else on the page renders it again, and nothing
+  // else looks at the mapped page.
+  const mentions =
+    imageMentions(content, mapping.legacyDestinationPath) +
+    imageMentions(content, socialImagePath(mapping.legacyDestinationPath));
+  if (mentions !== 1) {
+    throw new Error(
+      `${mapping.page}: names its images ${mentions} times, not once as the evidence block`,
     );
   }
   // Whole values, not substrings: a page that merely contains the mapping's

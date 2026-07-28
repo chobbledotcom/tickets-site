@@ -21,7 +21,7 @@ import {
   importEvidence,
   validateCommittedEvidence,
 } from "../scripts/evidence/store.js";
-import { narrativeDigest } from "../scripts/evidence/narrative.js";
+import { reviewDigest } from "../scripts/evidence/narrative.js";
 import { sha256 } from "../scripts/evidence/validation.js";
 
 const temporaryDirectories = [];
@@ -59,7 +59,7 @@ const mapping = (extraCaptures = {}) => ({
       sourceUrl:
         "https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/hold-and-cost.feature",
       socialKey: "servicing-events",
-      reviewedNarrative: REVIEWED_NARRATIVE,
+      reviewed: REVIEWED,
     },
     ...extraCaptures,
   },
@@ -108,7 +108,18 @@ const manifest = (asset) => ({
   ],
 });
 
-const REVIEWED_NARRATIVE = narrativeDigest(manifest({}).captures[0]);
+const PAGE_PROSE = null;
+const REVIEWED = reviewDigest(
+  manifest({}).captures[0],
+  {
+    alt: "Admin area showing a service event",
+    caption: "The organiser can see the hold while customers cannot.",
+    galleryCaption: "A service hold on the dashboard.",
+    socialBody: "Block places for maintenance without adding a customer.",
+    socialHeading: "Hold capacity for servicing",
+  },
+  PAGE_PROSE,
+);
 
 const fixturePng = async () =>
   await sharp({
@@ -486,6 +497,25 @@ describe("evidence import", () => {
     );
   });
 
+  test("refuses an import whose words changed without a second look", async () => {
+    const root = await createSite();
+    const edited = mapping();
+    edited.captures[CAPTURE_ID].caption = "A different caption.";
+    writeJson(join(root, "_data/ticket_evidence_map.json"), edited);
+    const page = join(root, "pages/features/servicing-events.md");
+    writeFileSync(
+      page,
+      readFileSync(page, "utf8").replace(
+        mapping().captures[CAPTURE_ID].caption,
+        "A different caption.",
+      ),
+    );
+    const artifactDir = await createArtifact();
+    await expect(
+      importEvidence({ artifactDir, root, createSocialImage: copySocialImage }),
+    ).rejects.toThrow("have not been read together");
+  });
+
   test("refuses an import whose story nobody has read", async () => {
     const root = await createSite();
     const artifactDir = await createArtifact((value) => ({
@@ -499,7 +529,7 @@ describe("evidence import", () => {
     }));
     await expect(
       importEvidence({ artifactDir, root, createSocialImage: copySocialImage }),
-    ).rejects.toThrow("the app's story changed");
+    ).rejects.toThrow("have not been read together");
   });
 
   test("imports a re-run of the same story", async () => {
@@ -670,9 +700,9 @@ describe("evidence mapping validation", () => {
     });
   }
 
-  test("rejects a reviewed story that is not a digest", () => {
+  test("rejects a review stamp that is not a digest", () => {
     const value = mapping();
-    value.captures[CAPTURE_ID].reviewedNarrative = "not-a-digest";
+    value.captures[CAPTURE_ID].reviewed = "not-a-digest";
     expect(() => validateEvidenceMapping(value)).toThrow(
       "must be a SHA-256 digest",
     );

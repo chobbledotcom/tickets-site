@@ -9,6 +9,7 @@ import {
   EVIDENCE_REPOSITORY,
   EVIDENCE_SCHEMA_VERSION,
 } from "./constants.js";
+import { evidenceBlockProse } from "./copy.js";
 import { loadEvidenceMapping, validateMappingPlacements } from "./mapping.js";
 import {
   artifactSource,
@@ -154,10 +155,15 @@ const createLock = (manifest, files, mapping) => ({
  * screenshot ships, so the import stops here rather than quietly replacing an
  * image whose description no longer holds.
  */
-const assertNarrativesWereRead = (captures, mapping, source) => {
+const assertNarrativesWereRead = (captures, mapping, prose, source) => {
   const drift = Object.entries(mapping.captures)
     .map(([captureId, placement]) =>
-      narrativeDrift(captureId, captures[captureId], placement),
+      narrativeDrift(
+        captureId,
+        captures[captureId],
+        placement,
+        prose[captureId],
+      ),
     )
     .filter(Boolean);
   if (drift.length > 0) {
@@ -180,6 +186,7 @@ export const importEvidence = async ({
       artifact.manifest.captures.map((capture) => [capture.id, capture]),
     ),
     mapping,
+    await pageProse(root, mapping),
     artifactSource(artifactDir),
   );
   const dataText = serialise(createSiteData(artifact, mapping));
@@ -196,6 +203,21 @@ export const importEvidence = async ({
   await writeFile(root, EVIDENCE_LOCK_PATH, serialise(lock));
   return lock;
 };
+
+/** The prose each page prints beside its screenshot, which the review stamp
+ * covers along with the mapping's own words. */
+const pageProse = async (root, mapping) =>
+  Object.fromEntries(
+    await Promise.all(
+      Object.entries(mapping.captures).map(async ([captureId, placement]) => [
+        captureId,
+        evidenceBlockProse(
+          await Bun.file(join(root, placement.page)).text(),
+          placement.legacyDestinationPath,
+        ),
+      ]),
+    ),
+  );
 
 const fileExists = async (filePath) => await Bun.file(filePath).exists();
 
@@ -324,7 +346,7 @@ const validateSiteCapture = async (root, captureId, capture, mapping, lock) => {
   await validateSiteImage(root, captureId, capture.image, mapping, lock);
 };
 
-const validateSiteData = async (root, value, mapping, lock) => {
+const validateSiteData = async (root, value, mapping, lock, prose) => {
   exactKeys(value, ["schemaVersion", "app", "captures"], "evidence data");
   if (value.schemaVersion !== EVIDENCE_SCHEMA_VERSION) {
     throw new Error(
@@ -341,7 +363,7 @@ const validateSiteData = async (root, value, mapping, lock) => {
   if (JSON.stringify(actual) !== JSON.stringify(expected)) {
     throw new Error("evidence data captures do not match mapping");
   }
-  assertNarrativesWereRead(value.captures, mapping, committedSource);
+  assertNarrativesWereRead(value.captures, mapping, prose, committedSource);
   await Promise.all(
     actual.map((captureId) =>
       validateSiteCapture(
@@ -394,6 +416,12 @@ export const validateCommittedEvidence = async ({ root }) => {
     join(absoluteRoot, EVIDENCE_DATA_PATH),
     EVIDENCE_DATA_PATH,
   );
-  await validateSiteData(absoluteRoot, data, mapping, lock);
+  await validateSiteData(
+    absoluteRoot,
+    data,
+    mapping,
+    lock,
+    await pageProse(absoluteRoot, mapping),
+  );
   return { appCommit: lock.app.commit, state: "imported" };
 };

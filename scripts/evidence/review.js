@@ -21,7 +21,7 @@ import { loadEvidenceArtifact } from "./artifact.js";
 import { EVIDENCE_DATA_PATH, EVIDENCE_MAPPING_PATH } from "./constants.js";
 import { evidenceBlockProse } from "./copy.js";
 import { loadEvidenceMapping } from "./mapping.js";
-import { narrativeDigest } from "./narrative.js";
+import { reviewDigest } from "./narrative.js";
 import { serialise } from "./serialise.js";
 import { readJson } from "./validation.js";
 
@@ -66,24 +66,22 @@ const wordsReport = (placement) =>
     "\n",
   );
 
-const statusLine = (capture, placement) =>
-  narrativeDigest(capture) === placement.reviewedNarrative
-    ? "Status: the site's words were written against this story."
-    : `Status: THE STORY HAS CHANGED since the site's words were last read.\n` +
-      "        Re-read the words above, then re-run this command with --accept " +
-      `to record ${narrativeDigest(capture)}.`;
+const statusLine = (capture, placement, prose) =>
+  reviewDigest(capture, placement, prose) === placement.reviewed
+    ? "Status: this story and these words were read together."
+    : "Status: THE STORY OR THE WORDS HAVE CHANGED since they were last read\n" +
+      "        together. Read them again, then re-run this command with " +
+      `--accept to record ${reviewDigest(capture, placement, prose)}.`;
 
 /** The page's own prose about the screenshot. It is not in the mapping, so it
  * is read from the page and shown here rather than left for the reader to
  * remember. */
-const proseReport = (placement, page) => {
-  const prose = evidenceBlockProse(page, placement.legacyDestinationPath);
-  return prose
+const proseReport = (placement, prose) =>
+  prose
     ? `Page prose:\n${prose.replace(/^/gm, "  ")}`
     : `Page prose: none found in ${placement.page}`;
-};
 
-const report = (captureId, capture, placement, page) =>
+const report = (captureId, capture, placement, prose) =>
   [
     `## ${captureId}`,
     "",
@@ -91,34 +89,34 @@ const report = (captureId, capture, placement, page) =>
     "",
     wordsReport(placement),
     "",
-    proseReport(placement, page),
+    proseReport(placement, prose),
     "",
     `Page: ${placement.page}`,
     `Source: ${placement.sourceUrl}`,
     "",
-    statusLine(capture, placement),
+    statusLine(capture, placement, prose),
     "",
   ].join("\n");
 
-const acceptNarrative = async (captureId, capture, from) => {
+const acceptNarrative = async (captureId, capture, placement, prose, from) => {
   const path = join(root, EVIDENCE_MAPPING_PATH);
   const mapping = await readJson(path, EVIDENCE_MAPPING_PATH);
-  const digest = narrativeDigest(capture);
+  const digest = reviewDigest(capture, placement, prose);
   // Accepting a story the mapping already holds records nothing. It usually
   // means the reader is fixing a rejected import but left --from off, so they
   // have just re-read and re-recorded the old story.
-  if (mapping.captures[captureId].reviewedNarrative === digest) {
+  if (mapping.captures[captureId].reviewed === digest) {
     console.log(
-      `Nothing to record: ${captureId} already holds this story (${digest}).` +
+      `Nothing to record: ${captureId} already holds this pair (${digest}).` +
         (from
           ? ""
           : "\nIf you are accepting a story from a new artifact, pass --from <artifact-dir>."),
     );
     return;
   }
-  mapping.captures[captureId].reviewedNarrative = digest;
+  mapping.captures[captureId].reviewed = digest;
   await Bun.write(path, serialise(mapping));
-  console.log(`Recorded the story for ${captureId} as read: ${digest}`);
+  console.log(`Recorded ${captureId} as read: ${digest}`);
 };
 
 const selectedIds = (mapping, requested) => {
@@ -168,13 +166,21 @@ const main = async () => {
   if (args.accept && ids.length !== 1) {
     throw new Error("--accept needs exactly one capture id");
   }
+  const prose = {};
   for (const id of ids) {
     const placement = mapping.captures[id];
     const page = await Bun.file(join(root, placement.page)).text();
-    console.log(report(id, captures[id], placement, page));
+    prose[id] = evidenceBlockProse(page, placement.legacyDestinationPath);
+    console.log(report(id, captures[id], placement, prose[id]));
   }
   if (args.accept) {
-    await acceptNarrative(ids[0], captures[ids[0]], args.from);
+    await acceptNarrative(
+      ids[0],
+      captures[ids[0]],
+      mapping.captures[ids[0]],
+      prose[ids[0]],
+      args.from,
+    );
   }
 };
 
