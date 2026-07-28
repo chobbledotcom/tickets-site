@@ -406,6 +406,7 @@ describe("evidence source links", () => {
       "specs/payments/100% free*.feature",
       "specs/payments/capacité aux portes.feature",
       "specs/payments/a name; with, punctuation & more.feature",
+      "specs/payments/tab\tand\nbreak.feature",
       "specs/payments/query?and#fragment.feature",
       "specs/payments/quotes \"and\" more.feature",
     ];
@@ -418,15 +419,12 @@ describe("evidence source links", () => {
   });
 
   test("refuse a path no filesystem could hold", () => {
-    // A control character names no file, so its link is dead however it is
-    // spelled. Refused as a path, which covers the link and the story's uri.
-    for (const uri of ["specs/a\u0000.feature", "specs/tab\there.feature"]) {
-      expect(() => featurePathAt(uri, "uri"), uri).toThrow("control");
-      const path = featureSourceUrl({ uri }).slice(
-        FEATURE_SOURCE_PREFIX.length,
-      );
-      expect(() => linkedFeaturePathAt(path, "link"), uri).toThrow("control");
-    }
+    // NUL is the one byte a POSIX filename cannot hold, so a path carrying it
+    // names no file and its link is dead however it is spelled.
+    const uri = "specs/a\u0000.feature";
+    expect(() => featurePathAt(uri, "uri")).toThrow("NUL");
+    const path = featureSourceUrl({ uri }).slice(FEATURE_SOURCE_PREFIX.length);
+    expect(() => linkedFeaturePathAt(path, "link")).toThrow("NUL");
   });
 
   test("encode each segment, so a name cannot reshape the URL", () => {

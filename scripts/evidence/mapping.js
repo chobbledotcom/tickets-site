@@ -129,6 +129,10 @@ export const validateEvidenceMapping = (value) => {
     "evidence destinations",
   );
   uniqueBy(entries, ([, mapping]) => mapping.socialKey, "evidence social keys");
+  // A page selects one capture in its frontmatter, so a second capture mapped
+  // to it could never be placed. Said here rather than left to the placement
+  // check, which would report it as a page that names no capture at all.
+  uniqueBy(entries, ([, mapping]) => mapping.page, "evidence pages");
   return value;
 };
 

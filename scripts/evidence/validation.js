@@ -113,11 +113,12 @@ export const safeRelativePathAt = (value, location) => {
  */
 export const featurePathAt = (value, location) => {
   stringAt(value, location);
-  // No filesystem holds a name with a control character in it, so a path
-  // carrying one names no Feature and its link can only ever be dead.
-  // biome-ignore lint/suspicious/noControlCharactersInRegex: that is the point
-  if (/[\u0000-\u001f\u007f]/.test(value)) {
-    fail(location, "must not carry control characters");
+  // Only NUL, which is the one byte a POSIX filename cannot hold. A path
+  // carrying it names no file, so its link is dead however it is spelled.
+  // Nothing else is refused here: a name is the app's to choose, and
+  // featureSourceUrl encodes whatever it is given.
+  if (value.includes("\u0000")) {
+    fail(location, "must not carry a NUL character");
   }
   safeRelativePathAt(value, location);
   if (!value.startsWith("specs/") || !value.endsWith(".feature")) {

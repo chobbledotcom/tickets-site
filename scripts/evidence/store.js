@@ -225,14 +225,23 @@ export const importEvidence = async ({
  * to a story nothing else has imported is worse than one linked to the old.
  */
 const stagedSourceLinks = async (root, mapping, urls) => {
-  const edits = await Promise.all(
-    Object.entries(mapping.captures).map(async ([captureId, placement]) => {
-      const content = await Bun.file(join(root, placement.page)).text();
-      const rewritten = rewriteSourceLink(content, placement, urls[captureId]);
-      return rewritten === content ? null : [placement.page, rewritten];
-    }),
+  const committed = {};
+  const staged = {};
+  // One page at a time, each capture rewriting what the last one left. Two
+  // captures may share a page, and rewriting the original text twice would
+  // keep only the second link and refuse the import over the first.
+  for (const [captureId, placement] of Object.entries(mapping.captures)) {
+    const page = placement.page;
+    committed[page] ??= await Bun.file(join(root, page)).text();
+    staged[page] = rewriteSourceLink(
+      staged[page] ?? committed[page],
+      placement,
+      urls[captureId],
+    );
+  }
+  return Object.fromEntries(
+    Object.entries(staged).filter(([page, text]) => text !== committed[page]),
   );
-  return Object.fromEntries(edits.filter(Boolean));
 };
 
 /** No story has been imported yet, so no link can be built from one. */

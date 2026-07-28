@@ -570,6 +570,25 @@ describe("evidence rules", () => {
     expect(page).toContain('a%20renamed%20story.feature">(src)</a>');
   });
 
+  test("refuses two captures sharing a page", async () => {
+    const root = await buildSite();
+    const mapPath = join(root, "_data/ticket_evidence_map.json");
+    const map = JSON.parse(readFileSync(mapPath, "utf8"));
+    map.captures["b-capture"] = {
+      ...placement(),
+      legacyDestinationPath: "images/screenshots/b-capture.png",
+      socialKey: "b-capture",
+    };
+    writeFileSync(mapPath, `${JSON.stringify(map, null, 2)}\n`);
+    expect(
+      importEvidence({
+        artifactDir: await buildArtifact(),
+        root,
+        createSocialImage: copySocialImage,
+      }),
+    ).rejects.toThrow("duplicate value");
+  });
+
   test("a refused import leaves the page's old link alone", async () => {
     const root = await buildSite();
     const before = readFileSync(join(root, PAGE), "utf8");
