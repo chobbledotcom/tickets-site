@@ -84,6 +84,13 @@ const createSocialFiles = async (artifact, mapping, createSocialImage) => {
         );
         const outputPath = join(temporaryDirectory, `${captureId}.png`);
         await createSocialImage({
+          // The card is drawn from the mapping's own words, which is what its
+          // lock records: reading them from anywhere else would let the lock
+          // attest copy the renderer never saw.
+          copy: {
+            body: placement.socialBody,
+            heading: placement.socialHeading,
+          },
           inputPath: source.filePath,
           outputPath,
           socialKey: placement.socialKey,

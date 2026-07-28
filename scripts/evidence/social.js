@@ -21,6 +21,7 @@ export const EVIDENCE_SOCIAL_CSS = {
 };
 
 export const createEvidenceSocialImage = async ({
+  copy,
   inputPath,
   outputPath,
   socialKey,
@@ -35,5 +36,6 @@ export const createEvidenceSocialImage = async ({
     socialKey,
     EVIDENCE_SOCIAL_CSS[socialKey] ?? "",
     solidWidth,
+    copy,
   );
 };

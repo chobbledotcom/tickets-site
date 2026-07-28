@@ -540,6 +540,26 @@ describe("evidence import", () => {
     );
   });
 
+  test("draws each card from the words its lock records", async () => {
+    const root = await createSite();
+    const artifactDir = await createArtifact();
+    const drawn = [];
+    await importEvidence({
+      artifactDir,
+      root,
+      createSocialImage: async (options) => {
+        drawn.push(options.copy);
+        await copySocialImage(options);
+      },
+    });
+    expect(drawn).toEqual([
+      {
+        body: mapping().captures[CAPTURE_ID].socialBody,
+        heading: mapping().captures[CAPTURE_ID].socialHeading,
+      },
+    ]);
+  });
+
   test("detects changed committed bytes", async () => {
     const root = await createSite();
     const artifactDir = await createArtifact();
