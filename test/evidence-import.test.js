@@ -192,22 +192,6 @@ describe("evidence manifest validation", () => {
       "schemaVersion",
     ],
     [
-      "story uri climbing out of specs once decoded",
-      (value) => ({
-        ...value,
-        captures: [
-          {
-            ...value.captures[0],
-            story: {
-              ...value.captures[0].story,
-              uri: "specs/%2e%2e/outside.feature",
-            },
-          },
-        ],
-      }),
-      "safe relative path",
-    ],
-    [
       "story uri climbing out of specs",
       (value) => ({
         ...value,
@@ -794,6 +778,14 @@ describe("evidence mapping validation", () => {
       expect(() => validateEvidenceMapping(value)).toThrow(field);
     });
   }
+
+  test("accepts a Feature filename with a percent sign", () => {
+    // The uri is a path on disk, not a URL: "%2e%2e" there is a directory
+    // with an odd name, and featureSourceUrl encodes it into the link.
+    const value = manifest(assetFor(Buffer.alloc(1)));
+    value.captures[0].story.uri = "specs/fees/100%-free.feature";
+    expect(() => validateEvidenceManifest(value)).not.toThrow();
+  });
 
   test("rejects a review stamp that is not a digest", () => {
     const value = mapping();

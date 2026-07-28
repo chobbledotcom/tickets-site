@@ -107,24 +107,53 @@ export const safeRelativePathAt = (value, location) => {
 };
 
 /**
- * A path to a Feature in the app's specs, judged as written and as a browser
- * will read it: a segment written "%2e%2e" is a dot segment by then, and a
- * link that climbs out of specs/ points at something else entirely.
+ * A path to a Feature in the app's specs, as the app names it on disk. It is a
+ * filesystem path, not a URL, so a percent sign in a filename is a percent
+ * sign: "specs/fees/100%-free.feature" is a Feature like any other.
  */
 export const featurePathAt = (value, location) => {
   stringAt(value, location);
+  safeRelativePathAt(value, location);
+  if (!value.startsWith("specs/") || !value.endsWith(".feature")) {
+    fail(location, "must be a specs/<path>.feature path");
+  }
+  return value;
+};
+
+/** The character references an HTML attribute can carry. A browser resolves
+ * them before it ever sees a path, so they are resolved here too. */
+const HTML_REFERENCES = [
+  [
+    /&#x([0-9a-f]+);/gi,
+    (_, hex) => String.fromCodePoint(Number.parseInt(hex, 16)),
+  ],
+  [/&#(\d+);/g, (_, digits) => String.fromCodePoint(Number(digits))],
+  [/&quot;/g, '"'],
+  [/&apos;/g, "'"],
+  [/&lt;/g, "<"],
+  [/&gt;/g, ">"],
+  [/&amp;/g, "&"],
+];
+
+/**
+ * A Feature path taken from a link, judged as the browser will read it: HTML
+ * character references resolved, then percent-encoding, then the same path
+ * rules the app's own uri gets. "specs/&#46;&#46;/x.feature" and
+ * "specs/%2e%2e/x.feature" both climb out of the Features.
+ */
+export const linkedFeaturePathAt = (value, location) => {
+  stringAt(value, location);
+  const unescaped = HTML_REFERENCES.reduce(
+    (text, [pattern, replacement]) => text.replace(pattern, replacement),
+    value,
+  );
   let decoded;
   try {
-    decoded = decodeURIComponent(value);
+    decoded = decodeURIComponent(unescaped);
   } catch (error) {
     throw new Error(`${location}: is not a readable path`, { cause: error });
   }
-  for (const path of [value, decoded]) {
-    safeRelativePathAt(path, location);
-    if (!path.startsWith("specs/") || !path.endsWith(".feature")) {
-      fail(location, "must be a specs/<path>.feature path");
-    }
-  }
+  featurePathAt(decoded, location);
   return value;
 };
 

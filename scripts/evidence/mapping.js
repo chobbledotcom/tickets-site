@@ -14,8 +14,8 @@ import {
 import {
   enumAt,
   exactKeys,
-  featurePathAt,
   idAt,
+  linkedFeaturePathAt,
   readJson,
   recordAt,
   safeRelativePathAt,
@@ -204,7 +204,7 @@ const validateSourceLinkShape = (caption, page) => {
   // The same judgement a story's own uri gets: a link that climbs out of
   // specs/, encoded or not, points at something else entirely.
   try {
-    featurePathAt(featurePath, "link");
+    linkedFeaturePathAt(featurePath, "link");
   } catch {
     throw new Error(
       `${page}: the evidence caption's source link is "${href}", not a Feature under ${FEATURE_SOURCE_PREFIX}`,
