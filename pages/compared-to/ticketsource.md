@@ -112,8 +112,8 @@ blocks:
       bank account to be paid for a UK event.
 
       Connecting your own Stripe account changes this: buyers pay Stripe
-      directly, and the money reaches your bank on Stripe's rolling
-      schedule instead of after the event.
+      directly, and TicketSource says the money reaches your bank on a
+      seven-day rolling basis instead of after the event.
 
       Chobble Tickets never holds ticket money. Buyers pay your own Stripe,
       Square, or SumUp account, so payouts follow that provider's schedule
@@ -142,6 +142,9 @@ blocks:
         [add-ons](/features/promo-codes-and-add-ons/) in Chobble Tickets)
       - Custom questions on the booking form
       - Multiple admin users with different permissions
+      - Timed-entry sessions as well as general admission
+      - Branding on your booking pages with your own colours, images and
+        custom CSS
       - An embeddable ticket widget for your own website
       - An API for reading and syncing event data
       - CSV export of your customer and booking data
@@ -187,6 +190,9 @@ blocks:
         cover from XCover
       - **Gift Aid on donations** - registered charities can reclaim Gift
         Aid on donations taken at checkout
+      - **Booking pages in other languages** - buyers can switch language
+        using Google Translate, from a default and a set of translations
+        you choose
       - **Held ticket income** - if you have no card processing of your
         own, TicketSource can take the money for you and pay it over after
         the event
@@ -327,13 +333,11 @@ blocks:
     content: |
       ## Pricing sources
 
-      The pricing information on this page was checked on 28 July 2026. The
-      TicketSource website blocks automated access, so the figures were read
-      from Internet Archive captures of its own pricing and terms pages.
+      The pricing information on this page was checked on 28 July 2026
+      against the live TicketSource pricing page and its published terms.
       Fees may change. Check the links below for the latest figures.
 
       - [TicketSource pricing](https://www.ticketsource.co.uk/pricing) - 7% + VAT per paid booking with TicketSource processing, or 4.5% + VAT via your own Stripe
-      - [Archived TicketSource pricing page](https://web.archive.org/web/20250902120819/https://www.ticketsource.co.uk/pricing) - capture dated 2 September 2025
       - [TicketSource charity pricing](https://www.ticketsource.co.uk/pricing/charities) - 6.5% + VAT, or 4% + VAT via Stripe, plus Gift Aid on donations
       - [TicketSource terms and conditions](https://www.ticketsource.co.uk/kb/terms-of-use/terms-and-conditions) - booking fees, free-event limit, payouts, delivery fees and data ownership
       - [TicketSource customer data privacy policy](https://www.ticketsource.co.uk/kb/terms-of-use/customer-data-privacy-policy) - marketing, retention and data sharing
