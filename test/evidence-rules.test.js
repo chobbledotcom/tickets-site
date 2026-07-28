@@ -550,7 +550,9 @@ describe("evidence rules", () => {
 
   test("a link inside the caption's own words is left alone", async () => {
     const root = await buildSite();
-    const own = '<a href="https://example.com/docs">the docs</a>';
+    // Its own words, and a link that looks exactly like a source link.
+    const own =
+      '<small><a href="https://example.com/docs">(src)</a></small>';
     editPage(root, (page) => page.replace(CAPTION, `${CAPTION} See ${own}.`));
     editMapping(root, (entry) => {
       entry.caption = `${CAPTION} See ${own}.`;

@@ -197,12 +197,12 @@ export const rewriteSourceLink = (content, mapping, sourceUrl) => {
   if (index === -1) return content;
   // Replaced where it sits rather than searched for by value: a single-quoted
   // scalar doubles an apostrophe, so the href the line holds is not always the
-  // href the caption reads as. Found by the "(src)" it labels, because a
-  // caption's own words may link somewhere first and that link is not this
-  // one's to move.
+  // href the caption reads as. Taken from the end of the line, where the
+  // source link is: a caption's own words may link somewhere first, and may
+  // even label that link "(src)", but only the last one is this one's to move.
   lines[index] = lines[index].replace(
-    /<a href="[^"]*">\(src\)<\/a><\/small>/,
-    `<a href="${sourceUrl}">(src)</a></small>`,
+    /<a href="[^"]*">\(src\)<\/a><\/small>('?)\s*$/,
+    `<a href="${sourceUrl}">(src)</a></small>$1`,
   );
   return lines.join("\n");
 };
