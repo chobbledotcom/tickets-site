@@ -54,10 +54,19 @@ ready to be evidence; upgrade the story until it can.
    words the site writes about it, including the page's prose. New pixels for
    the same story do not change it; a reworded rule, a reworded caption or
    edited page prose all do.
-8. **A changed story or changed words stop the import.**
+8. **The source link comes from the story.** The `(src)` link beside a
+   screenshot is built from the Feature uri the app's manifest carries, so a
+   renamed Feature moves the link rather than breaking it. Nothing writes that
+   path by hand.
+9. **A changed story or changed words stop the import.**
    `bun run evidence:import` refuses an artifact whose pair no longer matches
    `reviewed`, and `bun run evidence:validate` refuses the committed state.
    Nothing writes that digest except a person running `--accept`.
+10. **The social card is locked to the copy it was drawn from.** Its heading
+    and body are rendered into pixels during an import, so the lock records
+    them. Editing that copy afterwards leaves a card showing words nobody
+    wrote, and the committed-state check refuses it until the card is drawn
+    again.
 
 ## Reviewing a capture
 

@@ -10,7 +10,11 @@ import {
   EVIDENCE_SCHEMA_VERSION,
 } from "./constants.js";
 import { evidenceBlockProse } from "./copy.js";
-import { loadEvidenceMapping, validateMappingPlacements } from "./mapping.js";
+import {
+  featureSourceUrl,
+  loadEvidenceMapping,
+  validateMappingPlacements,
+} from "./mapping.js";
 import {
   artifactSource,
   committedSource,
@@ -179,8 +183,12 @@ export const importEvidence = async ({
   createSocialImage = createEvidenceSocialImage,
 }) => {
   const mapping = await loadEvidenceMapping(root);
-  await validateMappingPlacements(root, mapping);
   const artifact = await loadEvidenceArtifact(artifactDir, mapping);
+  await validateMappingPlacements(
+    root,
+    mapping,
+    sourceUrls(artifact.manifest.captures),
+  );
   assertNarrativesWereRead(
     Object.fromEntries(
       artifact.manifest.captures.map((capture) => [capture.id, capture]),
@@ -203,6 +211,12 @@ export const importEvidence = async ({
   await writeFile(root, EVIDENCE_LOCK_PATH, serialise(lock));
   return lock;
 };
+
+/** Each capture's source link, built from the story it came from. */
+const sourceUrls = (captures) =>
+  Object.fromEntries(
+    captures.map((capture) => [capture.id, featureSourceUrl(capture.story)]),
+  );
 
 /** The prose each page prints beside its screenshot, which the review stamp
  * covers along with the mapping's own words. */
@@ -395,10 +409,11 @@ const validateLegacyImages = async (root, mapping) => {
 export const validateCommittedEvidence = async ({ root }) => {
   const absoluteRoot = resolve(root);
   const mapping = await loadEvidenceMapping(absoluteRoot);
-  await validateMappingPlacements(absoluteRoot, mapping);
   const dataExists = await fileExists(join(absoluteRoot, EVIDENCE_DATA_PATH));
   const lockExists = await fileExists(join(absoluteRoot, EVIDENCE_LOCK_PATH));
   if (!dataExists && !lockExists) {
+    // Before the first import there is no story to place a page against: the
+    // source link a caption must carry comes from the imported story's uri.
     await validateLegacyImages(absoluteRoot, mapping);
     return { state: "awaiting-import" };
   }
@@ -415,6 +430,13 @@ export const validateCommittedEvidence = async ({ root }) => {
   const data = await readJson(
     join(absoluteRoot, EVIDENCE_DATA_PATH),
     EVIDENCE_DATA_PATH,
+  );
+  await validateMappingPlacements(
+    absoluteRoot,
+    mapping,
+    sourceUrls(
+      Object.values(recordAt(data.captures, "evidence data captures")),
+    ),
   );
   await validateSiteData(
     absoluteRoot,

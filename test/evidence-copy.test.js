@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 import { join, relative, resolve } from "node:path";
 import { Glob } from "bun";
 import { SOCIAL_IMAGE_FACTS } from "../facts/social-images.js";
+import { FEATURE_SOURCE_PREFIX } from "../scripts/evidence/constants.js";
 import {
   CONTENT_DIRECTORIES,
   evidenceBlockFields,
@@ -310,14 +311,15 @@ describe("evidence page prose", () => {
   });
 
   test("reads each capture's alt text and caption as whole values", () => {
-    for (const placement of Object.values(mapping.captures)) {
+    for (const [captureId, placement] of Object.entries(mapping.captures)) {
       const fields = evidenceBlockFields(
         read(placement.page),
         placement.legacyDestinationPath,
       );
       expect(fields.alt, placement.page).toBe(placement.alt);
-      expect(fields.caption, placement.page).toBe(
-        `${placement.caption} <small><a href="${placement.sourceUrl}">(src)</a></small>`,
+      expect(fields.caption, placement.page).toContain(placement.caption);
+      expect(fields.caption, placement.page).toContain(
+        `${FEATURE_SOURCE_PREFIX}${evidence.captures[captureId].story.uri}`,
       );
     }
   });

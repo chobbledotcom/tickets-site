@@ -3,6 +3,7 @@ import {
   ASSET_PROFILES,
   EVIDENCE_MAPPING_PATH,
   EVIDENCE_SCHEMA_VERSION,
+  FEATURE_SOURCE_PREFIX,
 } from "./constants.js";
 import {
   evidenceBlockFields,
@@ -32,7 +33,6 @@ const MAPPING_FIELDS = [
   "galleryCaption",
   "socialHeading",
   "socialBody",
-  "sourceUrl",
   "socialKey",
   "reviewed",
 ];
@@ -48,8 +48,11 @@ const TEXT_FIELDS = [
   "socialBody",
 ];
 
-const SOURCE_PREFIX =
-  "https://github.com/chobbledotcom/tickets/blob/main/specs/";
+/** The link a capture's caption carries, built from the Feature the story
+ * says it was authored in. Nothing writes this path by hand, so a renamed
+ * Feature cannot leave a dead link behind. */
+export const featureSourceUrl = (story) =>
+  `${FEATURE_SOURCE_PREFIX}${story.uri}`;
 
 const validateCaptureMapping = (captureId, value) => {
   const location = `evidence mapping ${captureId}`;
@@ -75,15 +78,6 @@ const validateCaptureMapping = (captureId, value) => {
   for (const field of TEXT_FIELDS)
     stringAt(value[field], `${location}.${field}`);
   sha256At(value.reviewed, `${location}.reviewed`);
-  stringAt(value.sourceUrl, `${location}.sourceUrl`);
-  if (
-    !value.sourceUrl.startsWith(SOURCE_PREFIX) ||
-    !value.sourceUrl.endsWith(".feature")
-  ) {
-    throw new Error(
-      `${location}.sourceUrl: must link to a Feature on the Tickets main branch`,
-    );
-  }
   idAt(value.socialKey, `${location}.socialKey`, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
   return value;
 };
@@ -117,7 +111,7 @@ export const loadEvidenceMapping = async (root) =>
     await readJson(join(root, EVIDENCE_MAPPING_PATH), EVIDENCE_MAPPING_PATH),
   );
 
-const validatePagePlacement = async (root, captureId, mapping) => {
+const validatePagePlacement = async (root, captureId, mapping, sourceUrl) => {
   const content = await Bun.file(join(root, mapping.page)).text();
   if (!content.includes(`ticket_evidence_capture: ${captureId}`)) {
     throw new Error(
@@ -150,7 +144,7 @@ const validatePagePlacement = async (root, captureId, mapping) => {
   const fields = evidenceBlockFields(content, mapping.legacyDestinationPath);
   const expected = {
     alt: mapping.alt,
-    caption: `${mapping.caption} <small><a href="${mapping.sourceUrl}">(src)</a></small>`,
+    caption: `${mapping.caption} <small><a href="${sourceUrl}">(src)</a></small>`,
   };
   for (const [name, value] of Object.entries(expected)) {
     if (fields?.[name] !== value) {
@@ -161,10 +155,10 @@ const validatePagePlacement = async (root, captureId, mapping) => {
   }
 };
 
-export const validateMappingPlacements = async (root, mapping) => {
+export const validateMappingPlacements = async (root, mapping, sourceUrls) => {
   await Promise.all(
     Object.entries(mapping.captures).map(([captureId, placement]) =>
-      validatePagePlacement(root, captureId, placement),
+      validatePagePlacement(root, captureId, placement, sourceUrls[captureId]),
     ),
   );
 };
