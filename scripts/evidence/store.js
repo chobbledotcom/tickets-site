@@ -13,6 +13,7 @@ import { evidenceBlockProse } from "./copy.js";
 import {
   featureSourceUrl,
   loadEvidenceMapping,
+  readStagedPage,
   rewriteSourceLink,
   validateMappingPlacements,
 } from "./mapping.js";
@@ -186,14 +187,14 @@ export const importEvidence = async ({
   const mapping = await loadEvidenceMapping(root);
   const artifact = await loadEvidenceArtifact(artifactDir, mapping);
   const urls = sourceUrls(artifact.manifest.captures);
-  await rewriteSourceLinks(root, mapping, urls);
-  await validateMappingPlacements(root, mapping, urls);
+  const staged = await stagedSourceLinks(root, mapping, urls);
+  await validateMappingPlacements(root, mapping, urls, staged);
   assertNarrativesWereRead(
     Object.fromEntries(
       artifact.manifest.captures.map((capture) => [capture.id, capture]),
     ),
     mapping,
-    await pageProse(root, mapping),
+    await pageProse(root, mapping, staged),
     artifactSource(artifactDir),
   );
   const dataText = serialise(createSiteData(artifact, mapping));
@@ -204,6 +205,12 @@ export const importEvidence = async ({
   );
   const files = outputFiles(artifact, mapping, dataText, socialFiles);
   const lock = createLock(artifact.manifest, files, mapping);
+  // Everything that can refuse the import has now run, so the pages can be
+  // moved to their new links without leaving a page pointing at a story the
+  // committed data, lock and images know nothing about.
+  await Promise.all(
+    Object.entries(staged).map(([page, text]) => writeFile(root, page, text)),
+  );
   await Promise.all(
     files.map((file) => writeFile(root, file.path, file.bytes)),
   );
@@ -211,17 +218,22 @@ export const importEvidence = async ({
   return lock;
 };
 
-/** Points every page's source link at the Feature the imported story names,
- * so a renamed Feature moves the link rather than stopping the import. */
-const rewriteSourceLinks = async (root, mapping, urls) =>
-  await Promise.all(
+/**
+ * Each page whose source link has to move, with the text it will be given.
+ * A renamed Feature moves the link rather than stopping the import, but the
+ * page is not written here: an import can still be refused, and a page linked
+ * to a story nothing else has imported is worse than one linked to the old.
+ */
+const stagedSourceLinks = async (root, mapping, urls) => {
+  const edits = await Promise.all(
     Object.entries(mapping.captures).map(async ([captureId, placement]) => {
-      const path = join(root, placement.page);
-      const content = await Bun.file(path).text();
+      const content = await Bun.file(join(root, placement.page)).text();
       const rewritten = rewriteSourceLink(content, placement, urls[captureId]);
-      if (rewritten !== content) await Bun.write(path, rewritten);
+      return rewritten === content ? null : [placement.page, rewritten];
     }),
   );
+  return Object.fromEntries(edits.filter(Boolean));
+};
 
 /** No story has been imported yet, so no link can be built from one. */
 const unknownSourceUrls = () =>
@@ -235,13 +247,13 @@ const sourceUrls = (captures) =>
 
 /** The prose each page prints beside its screenshot, which the review stamp
  * covers along with the mapping's own words. */
-const pageProse = async (root, mapping) =>
+const pageProse = async (root, mapping, staged = {}) =>
   Object.fromEntries(
     await Promise.all(
       Object.entries(mapping.captures).map(async ([captureId, placement]) => [
         captureId,
         evidenceBlockProse(
-          await Bun.file(join(root, placement.page)).text(),
+          await readStagedPage(root, placement.page, staged),
           placement.legacyDestinationPath,
         ),
       ]),

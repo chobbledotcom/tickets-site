@@ -55,11 +55,13 @@ const TEXT_FIELDS = [
  *
  * Each segment is encoded on its own, so a name with a space or an accent
  * produces a working link and nothing in a segment can change the shape of
- * the URL. */
+ * the URL. The apostrophe encodeURIComponent leaves alone is encoded too: the
+ * link is written into a single-quoted YAML scalar, where a bare apostrophe
+ * ends the value and breaks the page's frontmatter. */
 export const featureSourceUrl = (story) =>
   `${FEATURE_SOURCE_PREFIX}${story.uri
     .split("/")
-    .map((segment) => encodeURIComponent(segment))
+    .map((segment) => encodeURIComponent(segment).replaceAll("'", "%27"))
     .join("/")}`;
 
 const validateCaptureMapping = (captureId, value) => {
@@ -239,16 +241,42 @@ const validateSourceLinkShape = (caption, page) => {
   }
 };
 
-const validatePagePlacement = async (root, captureId, mapping, sourceUrl) => {
-  const content = await Bun.file(join(root, mapping.page)).text();
+/**
+ * A mapped page as the import will leave it. An import that rewrites a source
+ * link holds the new text in memory until every refusal point has passed, so
+ * the checks read the staged text where there is one and the committed file
+ * everywhere else.
+ */
+export const readStagedPage = async (root, page, staged) =>
+  staged[page] ?? (await Bun.file(join(root, page)).text());
+
+const validatePagePlacement = async (
+  root,
+  captureId,
+  mapping,
+  sourceUrl,
+  staged,
+) => {
+  const content = await readStagedPage(root, mapping.page, staged);
   validateOnePlacement(content, captureId, mapping);
   validatePageWords(content, mapping, sourceUrl);
 };
 
-export const validateMappingPlacements = async (root, mapping, sourceUrls) => {
+export const validateMappingPlacements = async (
+  root,
+  mapping,
+  sourceUrls,
+  staged = {},
+) => {
   await Promise.all(
     Object.entries(mapping.captures).map(([captureId, placement]) =>
-      validatePagePlacement(root, captureId, placement, sourceUrls[captureId]),
+      validatePagePlacement(
+        root,
+        captureId,
+        placement,
+        sourceUrls[captureId],
+        staged,
+      ),
     ),
   );
 };

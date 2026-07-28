@@ -425,6 +425,38 @@ describe("evidence rules", () => {
     });
   });
 
+  test("a Feature named with an apostrophe stays inside its YAML scalar", async () => {
+    const root = await buildSite();
+    await importEvidence({
+      artifactDir: await buildArtifact("specs/owner/an organiser's.feature"),
+      root,
+      createSocialImage: copySocialImage,
+    });
+    const page = readFileSync(join(root, PAGE), "utf8");
+    expect(page).toContain("an%20organiser%27s.feature");
+    // A bare apostrophe would close the single-quoted figure_caption early.
+    expect(page.split("figure_caption: ")[1]).not.toContain("'s.feature");
+    expect(await validateCommittedEvidence({ root })).toMatchObject({
+      state: "imported",
+    });
+  });
+
+  test("a refused import leaves the page's old link alone", async () => {
+    const root = await buildSite();
+    const before = readFileSync(join(root, PAGE), "utf8");
+    // Renamed and rendered badly: the rename must not outlive the refusal.
+    const failing = importEvidence({
+      artifactDir: await buildArtifact("specs/owner/a renamed story.feature"),
+      root,
+      createSocialImage: () => {
+        throw new Error("the card could not be drawn");
+      },
+    });
+    expect(failing).rejects.toThrow("the card could not be drawn");
+    await failing.catch(() => {});
+    expect(readFileSync(join(root, PAGE), "utf8")).toBe(before);
+  });
+
   for (const { name, break: breakRule, expect: message } of RULES) {
     test(`refuses a site where ${name} is broken`, async () => {
       const { root } = await importedSite();
