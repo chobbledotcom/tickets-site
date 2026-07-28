@@ -44,14 +44,17 @@ const capturesFromSite = async () =>
 const stepLines = (capture) =>
   capture.steps.map((step) => `  ${step.keyword} ${step.text}`).join("\n");
 
+/** Everything the digest covers is printed, so a drift warning always shows
+ * the reader the field they are being asked to accept. */
 const storyReport = (capture) =>
   [
-    `Story: ${capture.story.name}`,
+    `Story: ${capture.story.name} (@story:${capture.story.id})`,
     `  ${capture.story.description.replaceAll("\n", "\n  ")}`,
-    `Rule: ${capture.rule.name}`,
+    `Rule: ${capture.rule.name} (@rule:${capture.rule.id})`,
     `  ${capture.rule.description.replaceAll("\n", "\n  ")}`,
     `Case: ${capture.case.name} (@case:${capture.case.id})`,
     stepLines(capture),
+    `Presentation: ${capture.presentation}`,
   ].join("\n");
 
 const wordsReport = (placement) =>
@@ -101,7 +104,17 @@ const selectedIds = (mapping, requested) => {
   return requested;
 };
 
+const OPTIONS = ["--accept", "--from"];
+
 export const parseReviewArgs = (argv) => {
+  const unknown = argv.filter(
+    (arg) => arg.startsWith("-") && !OPTIONS.includes(arg),
+  );
+  if (unknown.length > 0) {
+    throw new Error(
+      `Unknown option(s): ${unknown.join(", ")}. Known: ${OPTIONS.join(", ")}.`,
+    );
+  }
   const fromIndex = argv.indexOf("--from");
   if (fromIndex !== -1 && !argv[fromIndex + 1]) {
     throw new Error("--from needs an artifact directory");

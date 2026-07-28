@@ -10,7 +10,12 @@ import {
   EVIDENCE_SCHEMA_VERSION,
 } from "./constants.js";
 import { loadEvidenceMapping, validateMappingPlacements } from "./mapping.js";
-import { describeDrift, narrativeDrift } from "./narrative.js";
+import {
+  artifactSource,
+  committedSource,
+  describeDrift,
+  narrativeDrift,
+} from "./narrative.js";
 import { validateImageFields, validateNarrative } from "./schema.js";
 import { serialise } from "./serialise.js";
 import { createEvidenceSocialImage } from "./social.js";
@@ -118,13 +123,17 @@ const createLock = (manifest, files) => ({
  * screenshot ships, so the import stops here rather than quietly replacing an
  * image whose description no longer holds.
  */
-const assertNarrativesWereRead = (captures, mapping) => {
+const assertNarrativesWereRead = (captures, mapping, source) => {
   const drift = Object.entries(mapping.captures)
     .map(([captureId, placement]) =>
       narrativeDrift(captureId, captures[captureId], placement),
     )
     .filter(Boolean);
-  if (drift.length > 0) throw new Error(drift.map(describeDrift).join("\n"));
+  if (drift.length > 0) {
+    throw new Error(
+      drift.map((entry) => describeDrift(entry, source)).join("\n"),
+    );
+  }
 };
 
 export const importEvidence = async ({
@@ -140,6 +149,7 @@ export const importEvidence = async ({
       artifact.manifest.captures.map((capture) => [capture.id, capture]),
     ),
     mapping,
+    artifactSource(artifactDir),
   );
   const dataText = serialise(createSiteData(artifact, mapping));
   const socialFiles = await createSocialFiles(
@@ -275,7 +285,7 @@ const validateSiteData = async (root, value, mapping, lock) => {
   if (JSON.stringify(actual) !== JSON.stringify(expected)) {
     throw new Error("evidence data captures do not match mapping");
   }
-  assertNarrativesWereRead(value.captures, mapping);
+  assertNarrativesWereRead(value.captures, mapping, committedSource);
   await Promise.all(
     actual.map((captureId) =>
       validateSiteCapture(

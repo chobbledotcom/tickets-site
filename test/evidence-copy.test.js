@@ -8,7 +8,13 @@ import {
   galleryCaptionsFor,
   socialImagePath,
 } from "../scripts/evidence/copy.js";
-import { narrativeDigest, narrativeOf } from "../scripts/evidence/narrative.js";
+import {
+  artifactSource,
+  describeDrift,
+  narrativeDigest,
+  narrativeOf,
+} from "../scripts/evidence/narrative.js";
+import { parseReviewArgs } from "../scripts/evidence/review.js";
 import { SOCIAL_SCREENSHOT_COPY } from "../scripts/social-screenshot-copy.js";
 
 const ROOT = resolve(import.meta.dir, "..");
@@ -178,5 +184,47 @@ describe("evidence copy checks", () => {
         }),
       ),
     ).toEqual([]);
+  });
+});
+
+describe("evidence review arguments", () => {
+  test("reads capture ids, --accept and --from", () => {
+    expect(parseReviewArgs(["a-capture", "--accept"])).toEqual({
+      accept: true,
+      from: null,
+      ids: ["a-capture"],
+    });
+    expect(parseReviewArgs(["--from", "/tmp/evidence", "a-capture"])).toEqual({
+      accept: false,
+      from: "/tmp/evidence",
+      ids: ["a-capture"],
+    });
+  });
+
+  test("rejects a mistyped option instead of ignoring it", () => {
+    expect(() => parseReviewArgs(["a-capture", "--accep"])).toThrow(
+      "Unknown option",
+    );
+  });
+
+  test("rejects --from with no directory", () => {
+    expect(() => parseReviewArgs(["--from"])).toThrow("needs an artifact");
+  });
+});
+
+describe("evidence drift messages", () => {
+  const drift = { captureId: "a-capture", digest: "b".repeat(64) };
+
+  test("send a rejected import back to the artifact it rejected", () => {
+    const message = describeDrift(drift, artifactSource("/tmp/evidence"));
+    expect(message).toContain(
+      "bun run evidence:review a-capture --from /tmp/evidence --accept",
+    );
+  });
+
+  test("send a committed-state failure to the committed data", () => {
+    expect(describeDrift(drift)).toContain(
+      "bun run evidence:review a-capture --accept",
+    );
   });
 });

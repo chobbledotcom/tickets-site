@@ -53,7 +53,7 @@ blocks:
       - image: /images/screenshots/servicing-studio-floor-hold__facebook.png
         caption: Service events hold places without adding a customer to the list.
       - image: /images/screenshots/payment-provider-choice__facebook.png
-        caption: Payment provider settings — Stripe selected, with its saved test key.
+        caption: Payment provider settings with Stripe selected and its saved test key.
       - image: /images/screenshots/equipment-hire-booking__facebook.png
         caption: Equipment hire booking — pick dates and quantities for each item.
       - image: /images/screenshots/industry-skip-hire-booking__facebook.png
@@ -65,7 +65,7 @@ blocks:
       - image: /images/screenshots/attendee-statuses__facebook.png
         caption: Attendee statuses — Reserved, Confirmed and Collected, in order.
       - image: /images/screenshots/qr-code-check-in__facebook.png
-        caption: Manual check-in — look someone up by name when their ticket cannot be scanned.
+        caption: Manual check-in for someone whose ticket cannot be scanned.
       - image: /images/screenshots/logistics-deliveries__facebook.png
         caption: A delivery run sheet — drop-off and collection for each booking.
       - image: /images/screenshots/riverside-events-team__facebook.png

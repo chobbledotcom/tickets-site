@@ -28,8 +28,20 @@ export const narrativeDrift = (captureId, capture, mapping) => {
       };
 };
 
-export const describeDrift = ({ captureId, digest }) =>
+/**
+ * Where the story being complained about lives. A rejected import must send
+ * the reader to the artifact it rejected: reviewing the committed data would
+ * show the old story and re-record the digest that already fails.
+ */
+export const committedSource = "";
+export const artifactSource = (artifactDir) => ` --from ${artifactDir}`;
+
+export const describeDrift = (
+  { captureId, digest },
+  source = committedSource,
+) =>
   `${captureId}: the app's story changed since the site's words were last read. ` +
-  `Run "bun run evidence:review ${captureId}", update the words the mapping holds ` +
-  "if they no longer match, then record the new story with " +
-  `"bun run evidence:review ${captureId} --accept" (reviewedNarrative ${digest}).`;
+  `Run "bun run evidence:review ${captureId}${source}", update the words the ` +
+  "mapping holds if they no longer match, then record the new story with " +
+  `"bun run evidence:review ${captureId}${source} --accept" ` +
+  `(reviewedNarrative ${digest}).`;
