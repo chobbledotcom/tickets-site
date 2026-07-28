@@ -396,6 +396,24 @@ const PRE_IMPORT_RULES = [
     name: "the source link cannot climb out with semicolonless references",
     rule: 8,
   },
+  {
+    break: (root) =>
+      editPage(root, (page) =>
+        page.replace(SOURCE_URL, `${SOURCE_URL.slice(0, -8)}?name=.feature`),
+      ),
+    expect: "not a Feature under",
+    name: "the source link cannot hide its path behind a query",
+    rule: 8,
+  },
+  {
+    break: (root) =>
+      editPage(root, (page) =>
+        page.replace(SOURCE_URL, `${SOURCE_URL.slice(0, -8)}#name.feature`),
+      ),
+    expect: "not a Feature under",
+    name: "the source link cannot hide its path behind a fragment",
+    rule: 8,
+  },
 ];
 
 describe("evidence rules", () => {
@@ -439,6 +457,25 @@ describe("evidence rules", () => {
     expect(await validateCommittedEvidence({ root })).toMatchObject({
       state: "imported",
     });
+  });
+
+  test("a link written with doubled apostrophes still moves", async () => {
+    const root = await buildSite();
+    // As YAML writes an apostrophe inside a single-quoted scalar.
+    editPage(root, (page) =>
+      page.replace(
+        SOURCE_URL,
+        `${FEATURE_SOURCE_PREFIX}specs/owner/a story''s.feature`,
+      ),
+    );
+    await importEvidence({
+      artifactDir: await buildArtifact("specs/owner/a renamed story.feature"),
+      root,
+      createSocialImage: copySocialImage,
+    });
+    const page = readFileSync(join(root, PAGE), "utf8");
+    expect(page).toContain("a%20renamed%20story.feature");
+    expect(page).not.toContain("a story''s.feature");
   });
 
   test("a refused import leaves the page's old link alone", async () => {

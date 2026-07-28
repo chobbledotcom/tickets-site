@@ -148,11 +148,14 @@ export const rewriteSourceLink = (content, mapping, sourceUrl) => {
   const index = lines.findIndex(
     (line) =>
       line.startsWith("    figure_caption: ") &&
-      line.includes(`<a href="${parts.href}">`),
+      line.includes("(src)</a></small>"),
   );
   if (index === -1) return content;
+  // The href is replaced where it sits on the line rather than searched for by
+  // value: a single-quoted scalar doubles an apostrophe, so the href the line
+  // holds is not always the href the caption reads as.
   lines[index] = lines[index].replace(
-    `<a href="${parts.href}">`,
+    /<a href="[^"]*">/,
     `<a href="${sourceUrl}">`,
   );
   return lines.join("\n");

@@ -320,7 +320,7 @@ describe("evidence page prose", () => {
       expect(fields.alt, placement.page).toBe(placement.alt);
       expect(fields.caption, placement.page).toContain(placement.caption);
       expect(fields.caption, placement.page).toContain(
-        `${FEATURE_SOURCE_PREFIX}${evidence.captures[captureId].story.uri}`,
+        featureSourceUrl(evidence.captures[captureId].story),
       );
     }
   });
@@ -375,12 +375,14 @@ describe("evidence source links", () => {
     for (const [captureId, placement] of Object.entries(mapping.captures)) {
       const { uri } = evidence.captures[captureId].story;
       const url = featureSourceUrl(evidence.captures[captureId].story);
-      expect(url, captureId).toBe(
-        `${FEATURE_SOURCE_PREFIX}${uri
-          .split("/")
-          .map((segment) => encodeURIComponent(segment))
-          .join("/")}`,
-      );
+      // Stated as what the link must be true of, not as the encoding rule
+      // repeated: a copy of the rule would agree with a wrong rule.
+      expect(url, captureId).toStartWith(FEATURE_SOURCE_PREFIX);
+      const path = url.slice(FEATURE_SOURCE_PREFIX.length);
+      expect(decodeURIComponent(path), captureId).toBe(uri);
+      // Nothing a name carries may reshape the URL or close the caption's
+      // single-quoted YAML scalar.
+      expect(path, captureId).not.toMatch(/['"?#&\s]/);
       expect(read(placement.page), placement.page).toContain(
         `<small><a href="${url}">(src)</a></small>`,
       );

@@ -135,8 +135,11 @@ export const featurePathAt = (value, location) => {
  */
 export const linkedFeaturePathAt = (value, location) => {
   stringAt(value, location);
-  if (value.includes("&")) {
-    fail(location, "must not carry HTML character references");
+  // A raw "?" or "#" ends the path a browser asks for, so the rest of the link
+  // is a query or a fragment and the file requested is not a Feature at all.
+  // Their percent-encoded forms are decoded below and judged as filenames.
+  if (/[&?#]/.test(value)) {
+    fail(location, "must not carry a character reference, query or fragment");
   }
   let decoded;
   try {
