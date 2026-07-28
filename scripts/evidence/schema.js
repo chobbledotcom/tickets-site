@@ -39,14 +39,28 @@ const validateNamedPart = (value, location, extraKeys = []) => {
 
 /** A story says which Feature it was authored in. The site builds its source
  * link from this rather than writing the path out again. */
+/** The same path with any percent-encoding resolved. A segment written as
+ * "%2e%2e" is a dot segment once a browser reads it, so it is judged as one. */
+const decodedPath = (value, location) => {
+  try {
+    return decodeURIComponent(value);
+  } catch (error) {
+    throw new Error(`${location}: is not a readable path`, { cause: error });
+  }
+};
+
 const validateStory = (value, location) => {
   validateNamedPart(value, location, ["uri"]);
   // A safe relative path, not just one that starts with specs/: a browser
   // normalises "specs/../../outside.feature" out of the Feature directory
-  // altogether, which is how a link leaves the app's specs behind.
-  safeRelativePathAt(value.uri, `${location}.uri`);
-  if (!value.uri.startsWith("specs/") || !value.uri.endsWith(".feature")) {
-    throw new Error(`${location}.uri: must be a specs/<path>.feature path`);
+  // altogether, which is how a link leaves the app's specs behind. The check
+  // is made on what a browser will read, not only on what was written.
+  const decoded = decodedPath(value.uri, `${location}.uri`);
+  for (const path of [value.uri, decoded]) {
+    safeRelativePathAt(path, `${location}.uri`);
+    if (!path.startsWith("specs/") || !path.endsWith(".feature")) {
+      throw new Error(`${location}.uri: must be a specs/<path>.feature path`);
+    }
   }
   return value;
 };

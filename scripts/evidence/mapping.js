@@ -50,9 +50,16 @@ const TEXT_FIELDS = [
 
 /** The link a capture's caption carries, built from the Feature the story
  * says it was authored in. Nothing writes this path by hand, so a renamed
- * Feature cannot leave a dead link behind. */
+ * Feature cannot leave a dead link behind.
+ *
+ * Each segment is encoded on its own, so a name with a space or an accent
+ * produces a working link and nothing in a segment can change the shape of
+ * the URL. */
 export const featureSourceUrl = (story) =>
-  `${FEATURE_SOURCE_PREFIX}${story.uri}`;
+  `${FEATURE_SOURCE_PREFIX}${story.uri
+    .split("/")
+    .map((segment) => encodeURIComponent(segment))
+    .join("/")}`;
 
 const validateCaptureMapping = (captureId, value) => {
   const location = `evidence mapping ${captureId}`;

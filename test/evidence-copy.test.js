@@ -4,6 +4,7 @@ import { join, relative, resolve } from "node:path";
 import { Glob } from "bun";
 import { SOCIAL_IMAGE_FACTS } from "../facts/social-images.js";
 import { FEATURE_SOURCE_PREFIX } from "../scripts/evidence/constants.js";
+import { featureSourceUrl } from "../scripts/evidence/mapping.js";
 import {
   CONTENT_DIRECTORIES,
   evidenceBlockFields,
@@ -365,6 +366,31 @@ describe("locked social card copy", () => {
     );
     expect(socialCopyDigest({ ...placement, socialBody: "Other." })).not.toBe(
       socialCopyDigest(placement),
+    );
+  });
+});
+
+describe("evidence source links", () => {
+  test("point at the Feature each story was authored in", () => {
+    for (const [captureId, placement] of Object.entries(mapping.captures)) {
+      const url = featureSourceUrl(evidence.captures[captureId].story);
+      expect(url, captureId).toBe(
+        `${FEATURE_SOURCE_PREFIX}${evidence.captures[captureId].story.uri}`,
+      );
+      expect(read(placement.page), placement.page).toContain(
+        `<small><a href="${url}">(src)</a></small>`,
+      );
+    }
+  });
+
+  test("encode each segment, so a name cannot reshape the URL", () => {
+    expect(
+      featureSourceUrl({ uri: "specs/payments/capacité aux portes.feature" }),
+    ).toBe(
+      `${FEATURE_SOURCE_PREFIX}specs/payments/capacit%C3%A9%20aux%20portes.feature`,
+    );
+    expect(featureSourceUrl({ uri: "specs/%2e%2e/x.feature" })).toContain(
+      "%252e%252e",
     );
   });
 });

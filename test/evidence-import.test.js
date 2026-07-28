@@ -192,6 +192,22 @@ describe("evidence manifest validation", () => {
       "schemaVersion",
     ],
     [
+      "story uri climbing out of specs once decoded",
+      (value) => ({
+        ...value,
+        captures: [
+          {
+            ...value.captures[0],
+            story: {
+              ...value.captures[0].story,
+              uri: "specs/%2e%2e/outside.feature",
+            },
+          },
+        ],
+      }),
+      "safe relative path",
+    ],
+    [
       "story uri climbing out of specs",
       (value) => ({
         ...value,
