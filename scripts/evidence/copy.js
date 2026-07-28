@@ -5,6 +5,10 @@
  * migrated capture cannot leave a stale description behind on another page.
  */
 
+/** Every directory whose Markdown becomes a rendered page. A capture's images
+ * may only be named in two of those files, so all three are searched. */
+export const CONTENT_DIRECTORIES = ["guide-categories", "guide-pages", "pages"];
+
 const escapeForRegExp = (value) =>
   value.replaceAll(/[.*+?^${}()|[\]\\]/g, "\\$&");
 

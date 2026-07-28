@@ -4,6 +4,7 @@ import { join, relative, resolve } from "node:path";
 import { Glob } from "bun";
 import { SOCIAL_IMAGE_FACTS } from "../facts/social-images.js";
 import {
+  CONTENT_DIRECTORIES,
   evidenceCopyIssues,
   galleryCaptionsFor,
   socialImagePath,
@@ -23,11 +24,11 @@ const readJson = (relativePath) => JSON.parse(read(relativePath));
 const mapping = readJson("_data/ticket_evidence_map.json");
 const evidence = readJson("_data/ticket_evidence.json");
 
-const markdownFiles = [...new Glob("pages/**/*.md").scanSync(ROOT)].map(
-  (path) => ({
+const markdownFiles = CONTENT_DIRECTORIES.flatMap((directory) =>
+  [...new Glob(`${directory}/**/*.md`).scanSync(ROOT)].map((path) => ({
     content: read(path),
     path: relative("", path).replaceAll("\\", "/"),
-  }),
+  })),
 );
 
 describe("evidence copy", () => {
