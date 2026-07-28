@@ -141,8 +141,11 @@ export const loadEvidenceMapping = async (root) =>
  * without that link has no parts: the link is not optional, only its
  * destination waits for the first import. */
 const captionParts = (caption) => {
+  // One space before the link, because that is what the import writes when it
+  // joins the mapping's words to the link. Accepting any spacing here would
+  // pass a page before its first import that the import itself then refuses.
   const found = (caption ?? "").match(
-    /^(.*?)\s*<small><a href="([^"]*)">\(src\)<\/a><\/small>$/,
+    /^(.*[^\s]) <small><a href="([^"]*)">\(src\)<\/a><\/small>$/,
   );
   return found ? { href: found[2], text: found[1] } : null;
 };

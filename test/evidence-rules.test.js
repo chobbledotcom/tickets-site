@@ -426,6 +426,13 @@ const PRE_IMPORT_RULES = [
     name: "the source link cannot climb out with a stripped tab",
     rule: 8,
   },
+  {
+    break: (root) =>
+      editPage(root, (page) => page.replace(" <small><a", "  <small><a")),
+    expect: "source link",
+    name: "the caption joins its link the way the import writes it",
+    rule: 8,
+  },
 ];
 
 describe("evidence rules", () => {
