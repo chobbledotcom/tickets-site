@@ -3,6 +3,7 @@ title: QR Code Ticket Check-In - Chobble Tickets
 meta_title: QR Code Ticket Check-In | Chobble Tickets
 meta_description: Each booking receives a QR code. Staff use an authenticated browser and phone camera to check it in and see duplicate or wrong-event warnings.
 permalink: /features/qr-code-check-ins/
+ticket_evidence_capture: qr-code-check-in
 eleventyNavigation:
   key: QR Code Check-ins
   parent: Managing Events
@@ -26,10 +27,11 @@ blocks:
       The scanner warns when a booking was already checked in or belongs to a
       different event. Check-in requires a network connection to the Chobble
       Tickets site. A manual name and token search is available when a camera
-      cannot be used.
+      cannot be used. That search offers only the people still to arrive, so
+      nobody is checked in twice.
     figure_src: /images/screenshots/qr-code-check-in.png
-    figure_alt: Mobile scanner showing Alex Morgan checked in with two tickets
-    figure_caption: Scan a ticket and see its check-in result immediately.
+    figure_alt: Manual check-in search on a listing's scanner page, offering Alice and her one place
+    figure_caption: 'Look someone up by name when their ticket cannot be scanned. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/checking-people-in-at-the-door.feature">(src)</a></small>'
   - type: markdown
     content: |
       ## Event QR codes for posters

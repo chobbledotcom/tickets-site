@@ -63,7 +63,7 @@ blocks:
       - image: /images/screenshots/attendee-statuses__facebook.png
         caption: Attendee statuses — Reserved, Confirmed and Collected, in order.
       - image: /images/screenshots/qr-code-check-in__facebook.png
-        caption: QR code check-in — scan a ticket and see the result at once.
+        caption: Manual check-in — look someone up by name when their ticket cannot be scanned.
       - image: /images/screenshots/logistics-deliveries__facebook.png
         caption: A delivery run sheet — drop-off and collection for each booking.
       - image: /images/screenshots/riverside-events-team__facebook.png

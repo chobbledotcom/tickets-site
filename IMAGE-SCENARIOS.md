@@ -240,6 +240,7 @@ These pages are rendered but excluded from the sitemap and main editorial total.
 ### Completed Cucumber evidence captures
 
 - [x] `payment-provider-choice`
+- [x] `qr-code-check-in`
 - [x] `servicing-studio-floor-hold`
 
 ### Highest-value diagrams and comparison templates

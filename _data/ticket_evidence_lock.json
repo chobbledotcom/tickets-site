@@ -1,15 +1,17 @@
 {
   "app": {
-    "commit": "7cc1d936def783f9e816c2be75785891ec875aa2",
+    "commit": "135682bfeb55aea5322f739dbb3c548ef946c4e2",
     "repository": "chobbledotcom/tickets"
   },
-  "artifactSha256": "c91d14b843a0a1eb72c24515b16baaea4a5dbc00026730e195f8d8ab650f4abc",
+  "artifactSha256": "36f78f5730ca34b99bcd27a70c9533b71ce832fbae00ed7f2de26ad1f45ede5f",
   "files": {
-    "_data/ticket_evidence.json": "5f5cade4f41f58aba962a98838e1ded2fb69bfe7bab2aae174300171ec447a42",
-    "images/screenshots/payment-provider-choice.png": "16351e8205d04077e16137b4a9825d734824a6ada000522946d9fa6ce7034f78",
-    "images/screenshots/payment-provider-choice__facebook.png": "745e9131f8230874e1a20d02861e6c41ce07d616a6d8d4f3f97837141cdef854",
-    "images/screenshots/servicing-studio-floor-hold.png": "358ff57d95980e50244cd14c8d18cc8c1a848b5cc7b089ff8ac10427a4ddd3c4",
-    "images/screenshots/servicing-studio-floor-hold__facebook.png": "34b8da10d7e62d12b973b43549744e8874a2786f9b8d298eb4aae45b8c49da0a"
+    "_data/ticket_evidence.json": "ab8a9eb8a6c88b62fbbece73b7c5b6e21751a3133111665bd75e09412946423f",
+    "images/screenshots/payment-provider-choice.png": "5666e83e1414d6deb0cb39e20a73b3930364cfd2b7d93d269e479b73b380bbd8",
+    "images/screenshots/payment-provider-choice__facebook.png": "b35a0c16c070076d1563056d34c97b5fec5308b8cac804256424a71725d30e35",
+    "images/screenshots/qr-code-check-in.png": "2c71a0317281f3c5dd750a802168ca51f3c431181e42220400f178eba0bacce6",
+    "images/screenshots/qr-code-check-in__facebook.png": "d6b8fee4cb1fe0cca8786669e21d41f0193e5a1cc64088e13a803085465a310e",
+    "images/screenshots/servicing-studio-floor-hold.png": "28a1fadbe035b741c42d7f49d850ba7f3d02114563997b5ad6c4f8175fab75f0",
+    "images/screenshots/servicing-studio-floor-hold__facebook.png": "334d1bec349467f1a07ac76996bf2419e4801b70fb807829cf6558cb3099d14a"
   },
   "schemaVersion": 1
 }

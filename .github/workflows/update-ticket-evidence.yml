@@ -78,5 +78,7 @@ jobs:
             _data/ticket_evidence_lock.json
             images/screenshots/payment-provider-choice.png
             images/screenshots/payment-provider-choice__facebook.png
+            images/screenshots/qr-code-check-in.png
+            images/screenshots/qr-code-check-in__facebook.png
             images/screenshots/servicing-studio-floor-hold.png
             images/screenshots/servicing-studio-floor-hold__facebook.png
