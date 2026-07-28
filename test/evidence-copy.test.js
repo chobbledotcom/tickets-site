@@ -135,6 +135,15 @@ describe("evidence copy checks", () => {
     ],
     ["a missing gallery entry", { gallery: "" }, "0 times"],
     [
+      "a second gallery entry for the same capture",
+      {
+        gallery:
+          "      - image: /images/screenshots/example__facebook.png\n        caption: A caption.\n" +
+          "      - image: /images/screenshots/example.png\n        caption: A caption.\n",
+      },
+      "2 times, not once as the social image",
+    ],
+    [
       "a social heading that drifted",
       { socialCopy: { example: { body: "A body.", heading: "Other." } } },
       "social heading",

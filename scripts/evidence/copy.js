@@ -26,14 +26,19 @@ export const galleryCaptionsFor = (gallery, imagePath) =>
     ),
   ].map(([, caption]) => caption.trim());
 
+/** A capture appears in the gallery once, as its social image. Counting the
+ * mobile image too stops a second entry rendering the same capture twice: the
+ * gallery is exempt from the stray-mention rule, so nothing else would see it. */
 const galleryIssues = (captureId, mapping, gallery) => {
   const captions = galleryCaptionsFor(
     gallery,
     socialImagePath(mapping.legacyDestinationPath),
   );
-  if (captions.length !== 1) {
+  const mobile = galleryCaptionsFor(gallery, mapping.legacyDestinationPath);
+  const total = captions.length + mobile.length;
+  if (total !== 1 || captions.length !== 1) {
     return [
-      `${captureId}: the gallery lists its social image ${captions.length} times, not once`,
+      `${captureId}: the gallery lists its images ${total} times, not once as the social image`,
     ];
   }
   return captions[0] === mapping.galleryCaption
