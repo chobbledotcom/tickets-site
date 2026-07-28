@@ -297,19 +297,19 @@
   "ticketsource": {
     "name": "TicketSource",
     "annual_cost": 0,
-    "per_ticket_fee_percent": 8.4,
+    "per_ticket_fee_percent": 7,
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
-    "fee_note": "TicketSource booking fee with TicketSource payment processing: 7% + VAT (8.4% including VAT) per paid booking, minimum £0.25 + VAT, with card processing included. The fee is charged per booking, so a multi-ticket booking is charged once and the real cost of one order can be lower than this per-ticket estimate. Registered charities pay 6.5% + VAT. Free events carry no fee up to 1,000 tickets. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: ticketsource.co.uk/pricing (July 2026)."
+    "fee_note": "TicketSource booking fee with TicketSource payment processing: 7% per paid booking excluding VAT, minimum £0.25, with card processing included in the fee. The fee is charged per booking, so a multi-ticket booking is charged once and the real cost of one order can be lower than this per-ticket estimate. Registered charities pay 6.5%. Free events carry no fee up to 1,000 tickets. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: ticketsource.co.uk/pricing (July 2026)."
   },
   "ticketsource_stripe": {
     "name": "TicketSource (own Stripe)",
     "annual_cost": 0,
-    "per_ticket_fee_percent": 5.4,
+    "per_ticket_fee_percent": 4.5,
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "TicketSource booking fee when you connect your own Stripe account: 4.5% + VAT (5.4% including VAT) per paid booking, minimum £0.25 + VAT, plus Stripe processing (1.5% + 20p) charged to you directly. The fee is charged per booking, so a multi-ticket booking is charged once. Registered charities pay 4% + VAT. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: ticketsource.co.uk/pricing (July 2026)."
+    "fee_note": "TicketSource booking fee when you connect your own Stripe account: 4.5% per paid booking excluding VAT, minimum £0.25, plus Stripe processing (1.5% + 20p) charged to you directly. The fee is charged per booking, so a multi-ticket booking is charged once. Registered charities pay 4%. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: ticketsource.co.uk/pricing (July 2026)."
   }
 }

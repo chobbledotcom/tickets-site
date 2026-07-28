@@ -143,7 +143,7 @@ blocks:
       - Custom questions on the booking form
       - Multiple admin users with different permissions
       - An embeddable ticket widget for your own website
-      - An API for reading and syncing event and booking data
+      - An API for reading and syncing event data
       - CSV export of your customer and booking data
       - Refunds processed from the admin panel
       - Recording bookings taken in person, without a platform fee
@@ -227,7 +227,7 @@ blocks:
         one feed listing all your events, so subscribers see new ones
         automatically
       - **[Admin API](/features/admin-api/)** - authenticated API with API
-        keys for full event CRUD and reading private data
+        keys for creating, editing and deleting events
       - **[Webhooks](/features/webhooks/)** - real-time notifications to
         your own systems as bookings happen
       - **[Square and SumUp](/features/stripe-and-square/)** as payment
@@ -260,7 +260,7 @@ blocks:
       With Chobble Tickets, attendee data is encrypted at rest. Only the
       keys held by your own administrator accounts, and the optional
       recovery account you can enable, unlock it. The platform is open source under AGPLv3,
-      so you can self-host it and never depend on a third party. If Chobble
+      so you can self-host it and stop depending on Chobble as your host. If Chobble
       Tickets stopped operating tomorrow, you could run the same code on
       your own server.
   - type: markdown
@@ -268,8 +268,10 @@ blocks:
       ## When TicketSource might be the better choice
 
       - You run a seated venue and need customers to choose their own seats
-      - You sell a small number of tickets a year, where a percentage
-        booking fee costs less than £50
+      - You sell a small enough number of tickets that the booking fee
+        costs less than the yearly Chobble Tickets price and your own
+        processing charges, which is under about £900 of sales a year at
+        £15 a ticket
       - You want the booking fee passed to ticket buyers rather than paying
         a fee yourself
       - You want someone else to answer booking calls from your customers
@@ -285,11 +287,11 @@ blocks:
     content: |
       ## When Chobble Tickets is the better choice
 
-      - You sell enough tickets that a percentage fee costs more than £50 a
-        year
+      - You sell more than about £900 of tickets a year at £15 a ticket,
+        where the booking fee costs more than the flat price
       - You want a price that does not change with ticket volume or value
-      - You want ticket money to arrive as each booking is made, rather
-        than after the event
+      - You want payouts to start as tickets sell, on your payment
+        provider's own schedule, rather than after the event
       - You want your ticket pages on
         [your own domain](/features/custom-domain/) and
         [your own website](/features/your-public-website/)
