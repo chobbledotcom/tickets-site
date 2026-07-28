@@ -75,7 +75,10 @@ jobs:
             Run `bun run evidence:review` to read each capture's story beside the
             words the site writes about it. If the import failed because a story
             changed, update the words in `_data/ticket_evidence_map.json`, then
-            record the new story with `bun run evidence:review <capture> --accept`.
+            record the new story with
+            `bun run evidence:review <capture> --from <artifact-dir> --accept`.
+            Accept from the artifact you are importing: without `--from` the
+            digest is read from the committed data and the import still fails.
           add-paths: |
             _data/ticket_evidence.json
             _data/ticket_evidence_lock.json

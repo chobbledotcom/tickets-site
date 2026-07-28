@@ -69,9 +69,15 @@ and social copy, and says whether the words were written against that story.
 It reads the committed data by default; pass `--from <artifact-dir>` to read a
 new artifact before importing it.
 
-Once the words are right for the story, record that the story has been read:
+Once the words are right for the story, record that the story has been read.
+Accept from the same place you reviewed: dropping `--from` records the story in
+the committed data, which is the old one, and the new artifact stays rejected.
 
 ```bash
+# a story that changed in an artifact you are importing
+bun run evidence:review qr-code-check-in --from <artifact-dir> --accept
+
+# a story already committed to the site
 bun run evidence:review qr-code-check-in --accept
 ```
 

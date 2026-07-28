@@ -9,6 +9,7 @@
  *   bun run evidence:review qr-code-check-in   # one capture
  *   bun run evidence:review qr-code-check-in --accept
  *   bun run evidence:review --from /path/to/reports/evidence
+ *   bun run evidence:review qr-code-check-in --from /path/to/evidence --accept
  *
  * --accept records the story the site's words were written against. Nothing
  * else writes that digest: accepting is the act of having read the story.
@@ -66,7 +67,8 @@ const statusLine = (capture, placement) =>
   narrativeDigest(capture) === placement.reviewedNarrative
     ? "Status: the site's words were written against this story."
     : `Status: THE STORY HAS CHANGED since the site's words were last read.\n` +
-      `        Re-read the words above, then run --accept to record ${narrativeDigest(capture)}.`;
+      "        Re-read the words above, then re-run this command with --accept " +
+      `to record ${narrativeDigest(capture)}.`;
 
 const report = (captureId, capture, placement) =>
   [
@@ -82,14 +84,25 @@ const report = (captureId, capture, placement) =>
     "",
   ].join("\n");
 
-const acceptNarrative = async (captureId, capture) => {
+const acceptNarrative = async (captureId, capture, from) => {
   const path = join(root, EVIDENCE_MAPPING_PATH);
   const mapping = await readJson(path, EVIDENCE_MAPPING_PATH);
-  mapping.captures[captureId].reviewedNarrative = narrativeDigest(capture);
+  const digest = narrativeDigest(capture);
+  // Accepting a story the mapping already holds records nothing. It usually
+  // means the reader is fixing a rejected import but left --from off, so they
+  // have just re-read and re-recorded the old story.
+  if (mapping.captures[captureId].reviewedNarrative === digest) {
+    console.log(
+      `Nothing to record: ${captureId} already holds this story (${digest}).` +
+        (from
+          ? ""
+          : "\nIf you are accepting a story from a new artifact, pass --from <artifact-dir>."),
+    );
+    return;
+  }
+  mapping.captures[captureId].reviewedNarrative = digest;
   await Bun.write(path, serialise(mapping));
-  console.log(
-    `Recorded the story for ${captureId} as read: ${narrativeDigest(capture)}`,
-  );
+  console.log(`Recorded the story for ${captureId} as read: ${digest}`);
 };
 
 const selectedIds = (mapping, requested) => {
@@ -142,7 +155,9 @@ const main = async () => {
   for (const id of ids) {
     console.log(report(id, captures[id], mapping.captures[id]));
   }
-  if (args.accept) await acceptNarrative(ids[0], captures[ids[0]]);
+  if (args.accept) {
+    await acceptNarrative(ids[0], captures[ids[0]], args.from);
+  }
 };
 
 if (import.meta.main) {
