@@ -76,6 +76,7 @@
           "tickts_pro": "/compared-to/tickts/",
           "ticketpass_essentials": "/compared-to/ticketpass/",
           "ticketpass_pro": "/compared-to/ticketpass/",
+          "ticketsource_stripe": "/compared-to/ticketsource/",
           "chobble": ""
         };
         var link = r.key in linkMap
