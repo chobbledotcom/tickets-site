@@ -13,6 +13,7 @@ import {
   socialImagePath,
 } from "./copy.js";
 import {
+  encodeFeaturePath,
   enumAt,
   exactKeys,
   idAt,
@@ -50,23 +51,6 @@ const TEXT_FIELDS = [
   "socialBody",
 ];
 
-/**
- * One segment of a Feature path, encoded down to the characters a link is
- * allowed to carry.
- *
- * encodeURIComponent stops at the characters that are legal in a URI, but a
- * URI is not the only thing this string has to survive: it is written into a
- * single-quoted YAML scalar and read back by linkedFeaturePathAt, which
- * accepts unreserved characters and nothing else. The ones left over are
- * encoded here so the link the site writes is a link the site accepts.
- */
-const encodeSegment = (segment) =>
-  encodeURIComponent(segment).replaceAll(
-    /[!'()*]/g,
-    (character) =>
-      `%${character.charCodeAt(0).toString(16).toUpperCase().padStart(2, "0")}`,
-  );
-
 /** The link a capture's caption carries, built from the Feature the story
  * says it was authored in. Nothing writes this path by hand, so a renamed
  * Feature cannot leave a dead link behind.
@@ -75,10 +59,7 @@ const encodeSegment = (segment) =>
  * produces a working link and nothing in a segment can change the shape of
  * the URL. */
 export const featureSourceUrl = (story) =>
-  `${FEATURE_SOURCE_PREFIX}${story.uri
-    .split("/")
-    .map((segment) => encodeSegment(segment))
-    .join("/")}`;
+  `${FEATURE_SOURCE_PREFIX}${encodeFeaturePath(story.uri)}`;
 
 const validateCaptureMapping = (captureId, value) => {
   const location = `evidence mapping ${captureId}`;

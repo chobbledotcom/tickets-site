@@ -437,6 +437,18 @@ const PRE_IMPORT_RULES = [
   },
   {
     break: (root) =>
+      editPage(root, (page) =>
+        page.replace(
+          SOURCE_URL,
+          `${FEATURE_SOURCE_PREFIX}specs/owner%2Fa-story.feature`,
+        ),
+      ),
+    expect: "not a Feature under",
+    name: "the source link cannot hide a separator inside a segment",
+    rule: 8,
+  },
+  {
+    break: (root) =>
       editPage(root, (page) => page.replace(" <small><a", "  <small><a")),
     expect: "source link",
     name: "the caption joins its link the way the import writes it",

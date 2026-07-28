@@ -408,6 +408,7 @@ describe("evidence source links", () => {
       "specs/payments/a name; with, punctuation & more.feature",
       "specs/payments/tab\tand\nbreak.feature",
       "specs/payments/query?and#fragment.feature",
+      "specs/payments/a slash in a name.feature",
       "specs/payments/quotes \"and\" more.feature",
     ];
     for (const uri of names) {
@@ -415,6 +416,9 @@ describe("evidence source links", () => {
       const path = url.slice(FEATURE_SOURCE_PREFIX.length);
       expect(() => linkedFeaturePathAt(path, uri), uri).not.toThrow();
       expect(decodeURIComponent(path), uri).toBe(uri);
+      // A slash in a name stays inside its segment, so the link asks for the
+      // file that name belongs to rather than one a directory deeper.
+      expect(path.split("/").length, uri).toBe(uri.split("/").length);
     }
   });
 

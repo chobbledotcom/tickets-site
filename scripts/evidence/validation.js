@@ -128,6 +128,31 @@ export const featurePathAt = (value, location) => {
 };
 
 /**
+ * A Feature path as a link spells it: each segment encoded on its own, so a
+ * name with a space or a slash in it stays one segment and nothing in a name
+ * can change the shape of the URL.
+ *
+ * encodeURIComponent stops at the characters legal in a URI, but a URI is not
+ * the only thing this string has to survive: it is written into a
+ * single-quoted YAML scalar, where a bare apostrophe ends the value.
+ */
+export const encodeFeaturePath = (path) =>
+  path
+    .split("/")
+    .map((segment) =>
+      encodeURIComponent(segment).replaceAll(
+        /[!'()*]/g,
+        (character) =>
+          `%${character
+            .charCodeAt(0)
+            .toString(16)
+            .toUpperCase()
+            .padStart(2, "0")}`,
+      ),
+    )
+    .join("/");
+
+/**
  * A Feature path taken from a link, judged as the browser will read it.
  *
  * The link is held to what featureSourceUrl writes rather than checked for
@@ -140,15 +165,6 @@ export const featurePathAt = (value, location) => {
  */
 export const linkedFeaturePathAt = (value, location) => {
   stringAt(value, location);
-  // Named rather than forbidden one character at a time. A browser does its
-  // own work on a URL before it asks for anything: it ends the path at "?" or
-  // "#", resolves "&#x2e" and its many spellings, and strips tabs and line
-  // breaks wherever they fall. Each of those was found here in turn. Only the
-  // characters featureSourceUrl can produce are allowed, so a browser has
-  // nothing left to do to the path but decode it.
-  if (!/^[A-Za-z0-9\-._~%/]+$/.test(value)) {
-    fail(location, "must be a percent-encoded path and nothing else");
-  }
   let decoded;
   try {
     decoded = decodeURIComponent(value);
@@ -156,6 +172,15 @@ export const linkedFeaturePathAt = (value, location) => {
     throw new Error(`${location}: is not a readable path`, { cause: error });
   }
   featurePathAt(decoded, location);
+  // The link has to be the one this path would have been written as, not
+  // merely a link that decodes to it. "foo%2Fbar.feature" decodes to two
+  // segments but asks for one file named "foo/bar.feature"; a tab decodes to
+  // itself but a browser strips it. Every such trick is a spelling the writer
+  // would not have produced, so comparing against it refuses them all rather
+  // than one per report.
+  if (encodeFeaturePath(decoded) !== value) {
+    fail(location, "must be the path written as this site writes it");
+  }
   return value;
 };
 
