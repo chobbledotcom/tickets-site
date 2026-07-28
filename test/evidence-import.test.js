@@ -525,6 +525,21 @@ describe("evidence import", () => {
     );
   });
 
+  test("refuses a page whose alt text says more than the mapping", async () => {
+    const root = await createSite();
+    const page = join(root, "pages/features/servicing-events.md");
+    writeFileSync(
+      page,
+      readFileSync(page, "utf8").replace(
+        mapping().captures[CAPTURE_ID].alt,
+        `${mapping().captures[CAPTURE_ID].alt} with a stale suffix`,
+      ),
+    );
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "the evidence alt is",
+    );
+  });
+
   test("detects changed committed bytes", async () => {
     const root = await createSite();
     const artifactDir = await createArtifact();

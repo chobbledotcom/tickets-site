@@ -4,6 +4,7 @@ import {
   EVIDENCE_MAPPING_PATH,
   EVIDENCE_SCHEMA_VERSION,
 } from "./constants.js";
+import { evidenceBlockFields } from "./copy.js";
 import {
   enumAt,
   exactKeys,
@@ -123,15 +124,24 @@ const validatePagePlacement = async (root, captureId, mapping) => {
       `${mapping.page}: does not render the evidence as a split image`,
     );
   }
-  const expectedParts = [
-    `figure_src: /${mapping.legacyDestinationPath}`,
-    `figure_alt: ${mapping.alt}`,
-    mapping.caption,
-    `<small><a href="${mapping.sourceUrl}">(src)</a></small>`,
-  ];
-  const missing = expectedParts.find((part) => !content.includes(part));
-  if (missing) {
-    throw new Error(`${mapping.page}: evidence block is missing ${missing}`);
+  if (!content.includes(`figure_src: /${mapping.legacyDestinationPath}`)) {
+    throw new Error(
+      `${mapping.page}: evidence block does not show /${mapping.legacyDestinationPath}`,
+    );
+  }
+  // Whole values, not substrings: a page that merely contains the mapping's
+  // words can still say something else as well.
+  const fields = evidenceBlockFields(content, mapping.legacyDestinationPath);
+  const expected = {
+    alt: mapping.alt,
+    caption: `${mapping.caption} <small><a href="${mapping.sourceUrl}">(src)</a></small>`,
+  };
+  for (const [name, value] of Object.entries(expected)) {
+    if (fields?.[name] !== value) {
+      throw new Error(
+        `${mapping.page}: the evidence ${name} is "${fields?.[name]}" but the mapping says "${value}"`,
+      );
+    }
   }
 };
 

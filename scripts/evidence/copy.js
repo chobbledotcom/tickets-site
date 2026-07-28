@@ -20,10 +20,13 @@ export const socialImagePath = (imagePath) =>
  * mapping does not hold, so a review that only shows the mapping's five fields
  * would let a reader accept a new story without seeing what it contradicts.
  */
-export const evidenceBlockProse = (page, imagePath) => {
-  const block = page
+const evidenceBlock = (page, imagePath) =>
+  page
     .split(/^ {2}- type: /m)
-    .find((section) => section.includes(`figure_src: /${imagePath}`));
+    .find((section) => section.includes(`figure_src: /${imagePath}`)) ?? null;
+
+export const evidenceBlockProse = (page, imagePath) => {
+  const block = evidenceBlock(page, imagePath);
   if (!block) return null;
   const content = block.match(/^ {4}content: \|-?\n([\s\S]*?)^ {4}\w/m);
   if (!content) return null;
@@ -32,6 +35,29 @@ export const evidenceBlockProse = (page, imagePath) => {
     .map((line) => line.replace(/^ {6}/, ""))
     .join("\n")
     .trim();
+};
+
+/** A YAML scalar as written on one line, unwrapping a single-quoted value. */
+const scalarValue = (raw) => {
+  const value = raw.trim();
+  return value.startsWith("'") && value.endsWith("'") && value.length > 1
+    ? value.slice(1, -1).replaceAll("''", "'")
+    : value;
+};
+
+/**
+ * The alt text and caption a page prints for its screenshot, read as whole
+ * values. Checking that the page merely contains the mapping's words would
+ * accept a longer line that says something else as well.
+ */
+export const evidenceBlockFields = (page, imagePath) => {
+  const block = evidenceBlock(page, imagePath);
+  if (!block) return null;
+  const field = (name) => {
+    const found = block.match(new RegExp(`^ {4}${name}: (.+)$`, "m"));
+    return found ? scalarValue(found[1]) : null;
+  };
+  return { alt: field("figure_alt"), caption: field("figure_caption") };
 };
 
 /** The captions the gallery gives one image, in the order it lists them. */

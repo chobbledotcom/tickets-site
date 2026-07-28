@@ -5,6 +5,7 @@ import { Glob } from "bun";
 import { SOCIAL_IMAGE_FACTS } from "../facts/social-images.js";
 import {
   CONTENT_DIRECTORIES,
+  evidenceBlockFields,
   evidenceBlockProse,
   evidenceCopyIssues,
   galleryCaptionsFor,
@@ -257,6 +258,33 @@ describe("evidence page prose", () => {
       expect(prose, placement.page).toBeTruthy();
       expect(prose.length, placement.page).toBeGreaterThan(40);
     }
+  });
+
+  test("reads each capture's alt text and caption as whole values", () => {
+    for (const placement of Object.values(mapping.captures)) {
+      const fields = evidenceBlockFields(
+        read(placement.page),
+        placement.legacyDestinationPath,
+      );
+      expect(fields.alt, placement.page).toBe(placement.alt);
+      expect(fields.caption, placement.page).toBe(
+        `${placement.caption} <small><a href="${placement.sourceUrl}">(src)</a></small>`,
+      );
+    }
+  });
+
+  test("unwraps a quoted caption and its doubled quotes", () => {
+    const page = [
+      "  - type: split-image",
+      "    figure_src: /images/screenshots/example.png",
+      "    figure_alt: Plain alt",
+      "    figure_caption: 'It''s quoted.'",
+      "",
+    ].join("\n");
+    expect(evidenceBlockFields(page, "images/screenshots/example.png")).toEqual({
+      alt: "Plain alt",
+      caption: "It's quoted.",
+    });
   });
 
   test("returns nothing when the page does not show that image", () => {
