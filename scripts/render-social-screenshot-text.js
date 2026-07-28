@@ -114,13 +114,17 @@ const textMarkup = ({ body, bodyColour, heading, headingColour }) =>
 
 <b>tickets.chobble.com</b></span>`;
 
+/** Evidence captures pass the copy their lock records, so the words drawn into
+ * the card are the words attested by the import. Legacy scenarios look theirs
+ * up by name. */
 export const renderSocialScreenshotText = async (
   filePath,
   scenarioName,
   scenarioCss = "",
   knownSolidWidth,
+  chosenCopy,
 ) => {
-  const copy = SOCIAL_SCREENSHOT_COPY[scenarioName];
+  const copy = chosenCopy ?? SOCIAL_SCREENSHOT_COPY[scenarioName];
   if (!copy) throw new Error(`No social copy is defined for ${scenarioName}.`);
 
   const image = sharp(filePath);

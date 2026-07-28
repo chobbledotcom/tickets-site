@@ -24,7 +24,7 @@ jobs:
       - name: Set up Bun
         uses: oven-sh/setup-bun@v2
         with:
-          bun-version: 1.2.13
+          bun-version: 1.3.11
 
       - name: Install dependencies
         run: bun install --frozen-lockfile
@@ -53,8 +53,37 @@ jobs:
           fi
           echo "directory=$(dirname "${manifests[0]}")" >> "$GITHUB_OUTPUT"
 
+      # Kept whatever happens next. An import refused for narrative drift needs
+      # the artifact it refused, and the runner's copy goes with the runner.
+      - name: Keep the downloaded evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: downloaded-ticket-evidence
+          path: ${{ steps.evidence.outputs.directory }}
+          if-no-files-found: error
+          retention-days: 30
+
       - name: Import evidence
+        id: import
         run: bun run evidence:import --from "${{ steps.evidence.outputs.directory }}"
+
+      - name: Explain a refused import
+        if: failure() && steps.import.outcome == 'failure'
+        run: |
+          cat >> "$GITHUB_STEP_SUMMARY" <<'SUMMARY'
+          ## The import was refused
+
+          If the message above says a story changed, the site's words about that
+          screenshot were written against an older version of it and someone has
+          to read the new one.
+
+          1. Download the `downloaded-ticket-evidence` artifact from this run.
+          2. `bun run evidence:review <capture> --from <that-directory>`
+          3. Update the words in `_data/ticket_evidence_map.json` if they no
+             longer match the story.
+          4. `bun run evidence:review <capture> --from <that-directory> --accept`
+          5. `bun run evidence:import --from <that-directory>` and commit.
+          SUMMARY
 
       - name: Test
         run: bun run test
@@ -72,7 +101,13 @@ jobs:
           body: |
             This pull request imports the latest tested screenshot evidence from the Tickets app.
 
-            Review the screenshot, organiser-facing text and test steps before merging.
+            Run `bun run evidence:review` to read each capture's story beside the
+            words the site writes about it. If the import failed because a story
+            changed, update the words in `_data/ticket_evidence_map.json`, then
+            record the new story with
+            `bun run evidence:review <capture> --from <artifact-dir> --accept`.
+            Accept from the artifact you are importing: without `--from` the
+            digest is read from the committed data and the import still fails.
           add-paths: |
             _data/ticket_evidence.json
             _data/ticket_evidence_lock.json

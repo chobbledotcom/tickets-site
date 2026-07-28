@@ -1,35 +1,47 @@
 {
-  "schemaVersion": 1,
   "captures": {
     "payment-provider-choice": {
-      "page": "pages/features/stripe-and-square.md",
-      "legacyDestinationPath": "images/screenshots/payment-provider-choice.png",
-      "assetProfile": "mobile",
-      "caseId": "payments.select-saved-stripe",
       "alt": "Payment Provider settings with Stripe selected among Square, Stripe and SumUp and a configured Stripe test key",
+      "assetProfile": "mobile",
       "caption": "Choose one active provider and keep saved credentials available when switching.",
-      "sourceUrl": "https://github.com/chobbledotcom/tickets/blob/main/specs/payments/payment-provider-choice.feature",
-      "socialKey": "payment-provider-choice"
+      "caseId": "payments.select-saved-stripe",
+      "galleryCaption": "Payment provider settings with Stripe selected and its saved test key.",
+      "legacyDestinationPath": "images/screenshots/payment-provider-choice.png",
+      "page": "pages/features/stripe-and-square.md",
+      "reviewed": "cf1e8c5cfa4ed4260a2e93ae309cefdc6731e8c3d9b6be48b9c777489a67a8dd",
+      "socialBody": "Select Stripe, Square or SumUp. Saved credentials remain available when the organiser switches provider.",
+      "socialHeading": "Choose a payment provider",
+      "socialKey": "payment-provider-choice",
+      "sourceUrl": "https://github.com/chobbledotcom/tickets/blob/main/specs/payments/payment-provider-choice.feature"
     },
     "qr-code-check-in": {
-      "page": "pages/features/qr-code-check-ins.md",
-      "legacyDestinationPath": "images/screenshots/qr-code-check-in.png",
-      "assetProfile": "mobile",
-      "caseId": "door.someone-still-to-arrive-can-be-picked",
       "alt": "Manual check-in search on a listing's scanner page, offering Alice and her one place",
+      "assetProfile": "mobile",
       "caption": "Look someone up by name when their ticket cannot be scanned.",
-      "sourceUrl": "https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/checking-people-in-at-the-door.feature",
-      "socialKey": "qr-code-check-ins"
+      "caseId": "door.someone-still-to-arrive-can-be-picked",
+      "galleryCaption": "Manual check-in for someone whose ticket cannot be scanned.",
+      "legacyDestinationPath": "images/screenshots/qr-code-check-in.png",
+      "page": "pages/features/qr-code-check-ins.md",
+      "reviewed": "a868e91fc495a3b9d4decde4499cf3f1a4c3d9d53a41d93ac31ae6a519592f0b",
+      "socialBody": "Scan a booking QR code with a phone camera, or pick the person from the list of those still to arrive when a camera cannot be used.",
+      "socialHeading": "Check bookings with a phone",
+      "socialKey": "qr-code-check-ins",
+      "sourceUrl": "https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/checking-people-in-at-the-door.feature"
     },
     "servicing-studio-floor-hold": {
-      "page": "pages/features/servicing-events.md",
-      "legacyDestinationPath": "images/screenshots/servicing-studio-floor-hold.png",
-      "assetProfile": "mobile",
-      "caseId": "servicing.hold-on-dashboard",
       "alt": "Service event form holding four Ceramics Studio Session places for a two-day floor treatment",
+      "assetProfile": "mobile",
       "caption": "Reserve capacity for maintenance across one day or several days.",
-      "sourceUrl": "https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/hold-and-cost.feature",
-      "socialKey": "servicing-events"
+      "caseId": "servicing.hold-on-dashboard",
+      "galleryCaption": "Service events hold places without adding a customer to the list.",
+      "legacyDestinationPath": "images/screenshots/servicing-studio-floor-hold.png",
+      "page": "pages/features/servicing-events.md",
+      "reviewed": "20b6a75e13961bb1b7994f1a13b84b127f1c11b9b39450a3c3de23d5f29c1e67",
+      "socialBody": "Block places for maintenance, setup or staff use without adding a customer to the attendee list.",
+      "socialHeading": "Hold capacity for servicing",
+      "socialKey": "servicing-events",
+      "sourceUrl": "https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/hold-and-cost.feature"
     }
-  }
+  },
+  "schemaVersion": 1
 }

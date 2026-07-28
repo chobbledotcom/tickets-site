@@ -21,6 +21,7 @@ import {
   importEvidence,
   validateCommittedEvidence,
 } from "../scripts/evidence/store.js";
+import { reviewDigest } from "../scripts/evidence/narrative.js";
 import { sha256 } from "../scripts/evidence/validation.js";
 
 const temporaryDirectories = [];
@@ -52,9 +53,13 @@ const mapping = (extraCaptures = {}) => ({
       caseId: CASE_ID,
       alt: "Admin area showing a service event",
       caption: "The organiser can see the hold while customers cannot.",
+      galleryCaption: "A service hold on the dashboard.",
+      socialHeading: "Hold capacity for servicing",
+      socialBody: "Block places for maintenance without adding a customer.",
       sourceUrl:
         "https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/hold-and-cost.feature",
       socialKey: "servicing-events",
+      reviewed: REVIEWED,
     },
     ...extraCaptures,
   },
@@ -102,6 +107,19 @@ const manifest = (asset) => ({
     },
   ],
 });
+
+const PAGE_PROSE = null;
+const REVIEWED = reviewDigest(
+  manifest({}).captures[0],
+  {
+    alt: "Admin area showing a service event",
+    caption: "The organiser can see the hold while customers cannot.",
+    galleryCaption: "A service hold on the dashboard.",
+    socialBody: "Block places for maintenance without adding a customer.",
+    socialHeading: "Hold capacity for servicing",
+  },
+  PAGE_PROSE,
+);
 
 const fixturePng = async () =>
   await sharp({
@@ -479,6 +497,131 @@ describe("evidence import", () => {
     );
   });
 
+  test("refuses an import whose words changed without a second look", async () => {
+    const root = await createSite();
+    const edited = mapping();
+    edited.captures[CAPTURE_ID].caption = "A different caption.";
+    writeJson(join(root, "_data/ticket_evidence_map.json"), edited);
+    const page = join(root, "pages/features/servicing-events.md");
+    writeFileSync(
+      page,
+      readFileSync(page, "utf8").replace(
+        mapping().captures[CAPTURE_ID].caption,
+        "A different caption.",
+      ),
+    );
+    const artifactDir = await createArtifact();
+    await expect(
+      importEvidence({ artifactDir, root, createSocialImage: copySocialImage }),
+    ).rejects.toThrow("have not been read together");
+  });
+
+  test("refuses an import whose story nobody has read", async () => {
+    const root = await createSite();
+    const artifactDir = await createArtifact((value) => ({
+      ...value,
+      captures: [
+        {
+          ...value.captures[0],
+          rule: { ...value.captures[0].rule, description: "Reworded." },
+        },
+      ],
+    }));
+    await expect(
+      importEvidence({ artifactDir, root, createSocialImage: copySocialImage }),
+    ).rejects.toThrow("have not been read together");
+  });
+
+  test("imports a re-run of the same story", async () => {
+    const root = await createSite();
+    const artifactDir = await createArtifact();
+    const lock = await importEvidence({
+      artifactDir,
+      root,
+      createSocialImage: copySocialImage,
+    });
+    expect(lock.app.commit).toBe(APP_COMMIT);
+  });
+
+  test("refuses committed evidence whose social copy was edited after import", async () => {
+    const root = await createSite();
+    const artifactDir = await createArtifact();
+    await importEvidence({ artifactDir, root, createSocialImage: copySocialImage });
+    const edited = mapping();
+    edited.captures[CAPTURE_ID].socialHeading = "A different heading";
+    writeJson(join(root, "_data/ticket_evidence_map.json"), edited);
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "the social card text changed since the card was drawn",
+    );
+  });
+
+  test("refuses a page whose alt text says more than the mapping", async () => {
+    const root = await createSite();
+    const page = join(root, "pages/features/servicing-events.md");
+    writeFileSync(
+      page,
+      readFileSync(page, "utf8").replace(
+        mapping().captures[CAPTURE_ID].alt,
+        `${mapping().captures[CAPTURE_ID].alt} with a stale suffix`,
+      ),
+    );
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "the evidence alt is",
+    );
+  });
+
+  test("draws each card from the words its lock records", async () => {
+    const root = await createSite();
+    const artifactDir = await createArtifact();
+    const drawn = [];
+    await importEvidence({
+      artifactDir,
+      root,
+      createSocialImage: async (options) => {
+        drawn.push(options.copy);
+        await copySocialImage(options);
+      },
+    });
+    expect(drawn).toEqual([
+      {
+        body: mapping().captures[CAPTURE_ID].socialBody,
+        heading: mapping().captures[CAPTURE_ID].socialHeading,
+      },
+    ]);
+  });
+
+  test("refuses a page that shows its screenshot twice", async () => {
+    const root = await createSite();
+    const page = join(root, "pages/features/servicing-events.md");
+    const content = readFileSync(page, "utf8");
+    const block = content.slice(content.indexOf("  - type: split-image"), -4);
+    writeFileSync(page, `${content}${block}`);
+    await expect(validateCommittedEvidence({ root })).rejects.toThrow(
+      "in 2 blocks, not one",
+    );
+  });
+
+  test("reviews an artifact whose case was renamed", async () => {
+    const artifactDir = await createArtifact((value) => ({
+      ...value,
+      captures: [
+        {
+          ...value.captures[0],
+          case: { ...value.captures[0].case, id: "servicing.renamed-case" },
+        },
+      ],
+    }));
+    const forReview = await loadEvidenceArtifact(artifactDir, mapping(), {
+      requireCaseLink: false,
+    });
+    expect(forReview.manifest.captures[0].case.id).toBe(
+      "servicing.renamed-case",
+    );
+    await expect(loadEvidenceArtifact(artifactDir, mapping())).rejects.toThrow(
+      "expected case",
+    );
+  });
+
   test("detects changed committed bytes", async () => {
     const root = await createSite();
     const artifactDir = await createArtifact();
@@ -538,6 +681,30 @@ describe("evidence mapping validation", () => {
     value.captures[CAPTURE_ID].sourceUrl = "https://example.com/story.feature";
     expect(() => validateEvidenceMapping(value)).toThrow(
       "must link to a Feature on the Tickets main branch",
+    );
+  });
+
+  const missingWords = [
+    "alt",
+    "caption",
+    "galleryCaption",
+    "socialHeading",
+    "socialBody",
+  ];
+
+  for (const field of missingWords) {
+    test(`rejects a capture with no ${field}`, () => {
+      const value = mapping();
+      value.captures[CAPTURE_ID][field] = "";
+      expect(() => validateEvidenceMapping(value)).toThrow(field);
+    });
+  }
+
+  test("rejects a review stamp that is not a digest", () => {
+    const value = mapping();
+    value.captures[CAPTURE_ID].reviewed = "not-a-digest";
+    expect(() => validateEvidenceMapping(value)).toThrow(
+      "must be a SHA-256 digest",
     );
   });
 });

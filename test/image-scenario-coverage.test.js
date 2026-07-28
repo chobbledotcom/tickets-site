@@ -1,9 +1,9 @@
 import { describe, expect, test } from "bun:test";
 import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
+import { CONTENT_DIRECTORIES } from "../scripts/evidence/copy.js";
 
 const ROOT = path.resolve(import.meta.dir, "..");
-const CONTENT_DIRECTORIES = ["guide-categories", "guide-pages", "pages"];
 const IMAGE_PATTERNS = [
   /(?:^|\n)\s*figure_src:\s*\S+/,
   /(?:^|\n)\s*-\s+type:\s+(?:gallery|image-background)\s*$/m,

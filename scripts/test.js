@@ -8,4 +8,7 @@ await validateCommittedEvidence({ root });
 prep();
 
 console.log("Running tests...");
-bun.test(root);
+// Pass the runner's exit code on. Without this a failing suite still leaves a
+// zero exit code, and every caller - CI included - reads the run as a pass.
+const { exitCode } = bun.test(root);
+process.exit(exitCode ?? 1);

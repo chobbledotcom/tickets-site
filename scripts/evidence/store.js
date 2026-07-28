@@ -9,7 +9,14 @@ import {
   EVIDENCE_REPOSITORY,
   EVIDENCE_SCHEMA_VERSION,
 } from "./constants.js";
+import { evidenceBlockProse } from "./copy.js";
 import { loadEvidenceMapping, validateMappingPlacements } from "./mapping.js";
+import {
+  artifactSource,
+  committedSource,
+  describeDrift,
+  narrativeDrift,
+} from "./narrative.js";
 import { validateImageFields, validateNarrative } from "./schema.js";
 import { serialise } from "./serialise.js";
 import { createEvidenceSocialImage } from "./social.js";
@@ -78,6 +85,13 @@ const createSocialFiles = async (artifact, mapping, createSocialImage) => {
         );
         const outputPath = join(temporaryDirectory, `${captureId}.png`);
         await createSocialImage({
+          // The card is drawn from the mapping's own words, which is what its
+          // lock records: reading them from anywhere else would let the lock
+          // attest copy the renderer never saw.
+          copy: {
+            body: placement.socialBody,
+            heading: placement.socialHeading,
+          },
           inputPath: source.filePath,
           outputPath,
           socialKey: placement.socialKey,
@@ -102,14 +116,62 @@ const outputFiles = (artifact, mapping, dataText, socialFiles) => [
   ...socialFiles,
 ];
 
-const createLock = (manifest, files) => ({
+/**
+ * The heading and body are rendered into the social card's pixels, so the copy
+ * a card was drawn from is locked alongside its bytes. Editing that copy
+ * without re-importing leaves a card whose text nobody wrote.
+ */
+export const socialCopyDigest = (placement) =>
+  sha256(
+    new TextEncoder().encode(
+      serialise({
+        body: placement.socialBody,
+        heading: placement.socialHeading,
+      }),
+    ),
+  );
+
+const lockedSocialCopy = (mapping) =>
+  Object.fromEntries(
+    Object.entries(mapping.captures).map(([captureId, placement]) => [
+      captureId,
+      socialCopyDigest(placement),
+    ]),
+  );
+
+const createLock = (manifest, files, mapping) => ({
   schemaVersion: EVIDENCE_SCHEMA_VERSION,
   app: manifest.app,
   artifactSha256: sha256(new TextEncoder().encode(serialise(manifest))),
   files: Object.fromEntries(
     files.map((file) => [file.path, sha256(file.bytes)]),
   ),
+  socialCopy: lockedSocialCopy(mapping),
 });
+
+/**
+ * A capture's words on the site are written against one version of the app's
+ * story. When the story changes, someone has to read it again before the new
+ * screenshot ships, so the import stops here rather than quietly replacing an
+ * image whose description no longer holds.
+ */
+const assertNarrativesWereRead = (captures, mapping, prose, source) => {
+  const drift = Object.entries(mapping.captures)
+    .map(([captureId, placement]) =>
+      narrativeDrift(
+        captureId,
+        captures[captureId],
+        placement,
+        prose[captureId],
+      ),
+    )
+    .filter(Boolean);
+  if (drift.length > 0) {
+    throw new Error(
+      drift.map((entry) => describeDrift(entry, source)).join("\n"),
+    );
+  }
+};
 
 export const importEvidence = async ({
   artifactDir,
@@ -119,6 +181,14 @@ export const importEvidence = async ({
   const mapping = await loadEvidenceMapping(root);
   await validateMappingPlacements(root, mapping);
   const artifact = await loadEvidenceArtifact(artifactDir, mapping);
+  assertNarrativesWereRead(
+    Object.fromEntries(
+      artifact.manifest.captures.map((capture) => [capture.id, capture]),
+    ),
+    mapping,
+    await pageProse(root, mapping),
+    artifactSource(artifactDir),
+  );
   const dataText = serialise(createSiteData(artifact, mapping));
   const socialFiles = await createSocialFiles(
     artifact,
@@ -126,7 +196,7 @@ export const importEvidence = async ({
     createSocialImage,
   );
   const files = outputFiles(artifact, mapping, dataText, socialFiles);
-  const lock = createLock(artifact.manifest, files);
+  const lock = createLock(artifact.manifest, files, mapping);
   await Promise.all(
     files.map((file) => writeFile(root, file.path, file.bytes)),
   );
@@ -134,12 +204,27 @@ export const importEvidence = async ({
   return lock;
 };
 
+/** The prose each page prints beside its screenshot, which the review stamp
+ * covers along with the mapping's own words. */
+const pageProse = async (root, mapping) =>
+  Object.fromEntries(
+    await Promise.all(
+      Object.entries(mapping.captures).map(async ([captureId, placement]) => [
+        captureId,
+        evidenceBlockProse(
+          await Bun.file(join(root, placement.page)).text(),
+          placement.legacyDestinationPath,
+        ),
+      ]),
+    ),
+  );
+
 const fileExists = async (filePath) => await Bun.file(filePath).exists();
 
 const validateLock = (value) => {
   exactKeys(
     value,
-    ["schemaVersion", "app", "artifactSha256", "files"],
+    ["schemaVersion", "app", "artifactSha256", "files", "socialCopy"],
     "evidence lock",
   );
   if (value.schemaVersion !== EVIDENCE_SCHEMA_VERSION) {
@@ -156,6 +241,11 @@ const validateLock = (value) => {
   commitAt(value.app.commit, "evidence lock app commit");
   sha256At(value.artifactSha256, "evidence lock artifactSha256");
   recordAt(value.files, "evidence lock files");
+  recordAt(value.socialCopy, "evidence lock socialCopy");
+  Object.entries(value.socialCopy).map(([captureId, digest]) => {
+    sha256At(digest, `evidence lock socialCopy ${captureId}`);
+    return captureId;
+  });
   Object.entries(value.files).map(([filePath, digest]) => {
     safeRelativePathAt(filePath, `evidence lock file ${filePath}`);
     sha256At(digest, `evidence lock file ${filePath}`);
@@ -188,6 +278,26 @@ const validateLockFiles = async (root, lock, mapping) => {
       }
     }),
   );
+};
+
+/**
+ * The social cards are only drawn during an import, so copy edited afterwards
+ * leaves a card showing the old words while every text check passes.
+ */
+const assertSocialCardsMatchTheirCopy = (lock, mapping) => {
+  const stale = Object.entries(mapping.captures).filter(
+    ([captureId, placement]) =>
+      lock.socialCopy[captureId] !== socialCopyDigest(placement),
+  );
+  if (stale.length > 0) {
+    throw new Error(
+      `${stale
+        .map(([captureId]) => captureId)
+        .join(", ")}: the social card text changed since the card was drawn. ` +
+        "Re-import the evidence so the card is rendered again: " +
+        "bun run evidence:import --from <artifact-dir>.",
+    );
+  }
 };
 
 const validateSiteImage = async (root, captureId, image, mapping, lock) => {
@@ -236,7 +346,7 @@ const validateSiteCapture = async (root, captureId, capture, mapping, lock) => {
   await validateSiteImage(root, captureId, capture.image, mapping, lock);
 };
 
-const validateSiteData = async (root, value, mapping, lock) => {
+const validateSiteData = async (root, value, mapping, lock, prose) => {
   exactKeys(value, ["schemaVersion", "app", "captures"], "evidence data");
   if (value.schemaVersion !== EVIDENCE_SCHEMA_VERSION) {
     throw new Error(
@@ -253,6 +363,7 @@ const validateSiteData = async (root, value, mapping, lock) => {
   if (JSON.stringify(actual) !== JSON.stringify(expected)) {
     throw new Error("evidence data captures do not match mapping");
   }
+  assertNarrativesWereRead(value.captures, mapping, prose, committedSource);
   await Promise.all(
     actual.map((captureId) =>
       validateSiteCapture(
@@ -300,10 +411,17 @@ export const validateCommittedEvidence = async ({ root }) => {
     await readJson(join(absoluteRoot, EVIDENCE_LOCK_PATH), EVIDENCE_LOCK_PATH),
   );
   await validateLockFiles(absoluteRoot, lock, mapping);
+  assertSocialCardsMatchTheirCopy(lock, mapping);
   const data = await readJson(
     join(absoluteRoot, EVIDENCE_DATA_PATH),
     EVIDENCE_DATA_PATH,
   );
-  await validateSiteData(absoluteRoot, data, mapping, lock);
+  await validateSiteData(
+    absoluteRoot,
+    data,
+    mapping,
+    lock,
+    await pageProse(absoluteRoot, mapping),
+  );
   return { appCommit: lock.app.commit, state: "imported" };
 };

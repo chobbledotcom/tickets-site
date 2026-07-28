@@ -5,12 +5,19 @@ import {
   EVIDENCE_SCHEMA_VERSION,
 } from "./constants.js";
 import {
+  evidenceBlockFields,
+  evidenceBlocks,
+  imageMentions,
+  socialImagePath,
+} from "./copy.js";
+import {
   enumAt,
   exactKeys,
   idAt,
   readJson,
   recordAt,
   safeRelativePathAt,
+  sha256At,
   stringAt,
   uniqueBy,
 } from "./validation.js";
@@ -22,8 +29,23 @@ const MAPPING_FIELDS = [
   "caseId",
   "alt",
   "caption",
+  "galleryCaption",
+  "socialHeading",
+  "socialBody",
   "sourceUrl",
   "socialKey",
+  "reviewed",
+];
+
+/** Every sentence the site writes about the screenshot. The page, the gallery
+ * and the social card repeat these words; scripts/evidence/copy.js fails when
+ * a repeat drifts. */
+const TEXT_FIELDS = [
+  "alt",
+  "caption",
+  "galleryCaption",
+  "socialHeading",
+  "socialBody",
 ];
 
 const SOURCE_PREFIX =
@@ -50,8 +72,9 @@ const validateCaptureMapping = (captureId, value) => {
   }
   enumAt(value.assetProfile, ASSET_PROFILES, `${location}.assetProfile`);
   idAt(value.caseId, `${location}.caseId`);
-  stringAt(value.alt, `${location}.alt`);
-  stringAt(value.caption, `${location}.caption`);
+  for (const field of TEXT_FIELDS)
+    stringAt(value[field], `${location}.${field}`);
+  sha256At(value.reviewed, `${location}.reviewed`);
   stringAt(value.sourceUrl, `${location}.sourceUrl`);
   if (
     !value.sourceUrl.startsWith(SOURCE_PREFIX) ||
@@ -106,15 +129,35 @@ const validatePagePlacement = async (root, captureId, mapping) => {
       `${mapping.page}: does not render the evidence as a split image`,
     );
   }
-  const expectedParts = [
-    `figure_src: /${mapping.legacyDestinationPath}`,
-    `figure_alt: ${mapping.alt}`,
-    mapping.caption,
-    `<small><a href="${mapping.sourceUrl}">(src)</a></small>`,
-  ];
-  const missing = expectedParts.find((part) => !content.includes(part));
-  if (missing) {
-    throw new Error(`${mapping.page}: evidence block is missing ${missing}`);
+  const blocks = evidenceBlocks(content, mapping.legacyDestinationPath);
+  if (blocks.length !== 1) {
+    throw new Error(
+      `${mapping.page}: shows /${mapping.legacyDestinationPath} in ${blocks.length} blocks, not one`,
+    );
+  }
+  // Naming the image anywhere else on the page renders it again, and nothing
+  // else looks at the mapped page.
+  const mentions =
+    imageMentions(content, mapping.legacyDestinationPath) +
+    imageMentions(content, socialImagePath(mapping.legacyDestinationPath));
+  if (mentions !== 1) {
+    throw new Error(
+      `${mapping.page}: names its images ${mentions} times, not once as the evidence block`,
+    );
+  }
+  // Whole values, not substrings: a page that merely contains the mapping's
+  // words can still say something else as well.
+  const fields = evidenceBlockFields(content, mapping.legacyDestinationPath);
+  const expected = {
+    alt: mapping.alt,
+    caption: `${mapping.caption} <small><a href="${mapping.sourceUrl}">(src)</a></small>`,
+  };
+  for (const [name, value] of Object.entries(expected)) {
+    if (fields?.[name] !== value) {
+      throw new Error(
+        `${mapping.page}: the evidence ${name} is "${fields?.[name]}" but the mapping says "${value}"`,
+      );
+    }
   }
 };
 

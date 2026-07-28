@@ -73,14 +73,25 @@ const readAsset = async (artifactDir, capture, asset) => {
   return { asset, bytes, captureId: capture.id, filePath };
 };
 
-export const loadEvidenceArtifact = async (artifactDir, mapping) => {
+/**
+ * Reading an artifact for review is not the same as importing it. A renamed
+ * case is one of the changes the review exists to present, so the case link is
+ * only required when the evidence is about to be committed.
+ */
+export const loadEvidenceArtifact = async (
+  artifactDir,
+  mapping,
+  { requireCaseLink = true } = {},
+) => {
   const manifest = validateMappedCaptures(
     validateEvidenceManifest(
       await readJson(join(artifactDir, EVIDENCE_MANIFEST), EVIDENCE_MANIFEST),
     ),
     mapping,
   );
-  manifest.captures.map((capture) => validateCaptureLink(capture, mapping));
+  if (requireCaseLink) {
+    manifest.captures.map((capture) => validateCaptureLink(capture, mapping));
+  }
   const assets = await Promise.all(
     manifest.captures.flatMap((capture) =>
       capture.assets.map((asset) => readAsset(artifactDir, capture, asset)),
