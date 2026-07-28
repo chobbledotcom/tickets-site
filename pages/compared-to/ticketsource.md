@@ -205,8 +205,9 @@ blocks:
       - **Self-hosting option** - run the platform on your own
         infrastructure without a Chobble software licence fee
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
-        encrypted with hybrid RSA-OAEP + AES-256-GCM, where only the
-        organiser holds the private key
+        encrypted, and only the keys held by your own administrator
+        accounts, plus the optional recovery account you can enable,
+        unlock it
       - **Flat pricing** - £50/year or £5/month whatever you sell, with no
         booking fee on any ticket
       - **[Your own custom domain](/features/custom-domain/)** - your
