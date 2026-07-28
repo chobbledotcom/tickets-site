@@ -56,8 +56,9 @@ ready to be evidence; upgrade the story until it can.
    edited page prose all do.
 8. **The source link comes from the story.** The `(src)` link beside a
    screenshot is built from the Feature uri the app's manifest carries, so a
-   renamed Feature moves the link rather than breaking it. Nothing writes that
-   path by hand.
+   renamed Feature moves the link rather than breaking it: the import rewrites
+   the page's `figure_caption` link, leaving the caption's words alone. Nothing
+   writes that path by hand.
 9. **A changed story or changed words stop the import.**
    `bun run evidence:import` refuses an artifact whose pair no longer matches
    `reviewed`, and `bun run evidence:validate` refuses the committed state.

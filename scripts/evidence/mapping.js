@@ -129,6 +129,33 @@ const captionParts = (caption) => {
   return found ? { href: found[2], text: found[1] } : null;
 };
 
+/**
+ * The page's source link, rewritten to the link the imported story builds.
+ *
+ * The link is derived, not authored: it is the one part of a caption nobody
+ * writes by hand. Renaming a Feature in the app would otherwise leave the page
+ * pointing at a path that no longer exists, and the unattended update workflow
+ * would stop until a person edited the URL themselves. The caption's words are
+ * left exactly as they were, so a rename cannot change what the page says.
+ */
+export const rewriteSourceLink = (content, mapping, sourceUrl) => {
+  const fields = evidenceBlockFields(content, mapping.legacyDestinationPath);
+  const parts = captionParts(fields?.caption);
+  if (!parts || parts.href === sourceUrl) return content;
+  const lines = content.split("\n");
+  const index = lines.findIndex(
+    (line) =>
+      line.startsWith("    figure_caption: ") &&
+      line.includes(`<a href="${parts.href}">`),
+  );
+  if (index === -1) return content;
+  lines[index] = lines[index].replace(
+    `<a href="${parts.href}">`,
+    `<a href="${sourceUrl}">`,
+  );
+  return lines.join("\n");
+};
+
 /** The page shows the capture's screenshot once, in one evidence block, and
  * names its images nowhere else. */
 const validateOnePlacement = (content, captureId, mapping) => {

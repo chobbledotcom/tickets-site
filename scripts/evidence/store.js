@@ -13,6 +13,7 @@ import { evidenceBlockProse } from "./copy.js";
 import {
   featureSourceUrl,
   loadEvidenceMapping,
+  rewriteSourceLink,
   validateMappingPlacements,
 } from "./mapping.js";
 import {
@@ -184,11 +185,9 @@ export const importEvidence = async ({
 }) => {
   const mapping = await loadEvidenceMapping(root);
   const artifact = await loadEvidenceArtifact(artifactDir, mapping);
-  await validateMappingPlacements(
-    root,
-    mapping,
-    sourceUrls(artifact.manifest.captures),
-  );
+  const urls = sourceUrls(artifact.manifest.captures);
+  await rewriteSourceLinks(root, mapping, urls);
+  await validateMappingPlacements(root, mapping, urls);
   assertNarrativesWereRead(
     Object.fromEntries(
       artifact.manifest.captures.map((capture) => [capture.id, capture]),
@@ -211,6 +210,18 @@ export const importEvidence = async ({
   await writeFile(root, EVIDENCE_LOCK_PATH, serialise(lock));
   return lock;
 };
+
+/** Points every page's source link at the Feature the imported story names,
+ * so a renamed Feature moves the link rather than stopping the import. */
+const rewriteSourceLinks = async (root, mapping, urls) =>
+  await Promise.all(
+    Object.entries(mapping.captures).map(async ([captureId, placement]) => {
+      const path = join(root, placement.page);
+      const content = await Bun.file(path).text();
+      const rewritten = rewriteSourceLink(content, placement, urls[captureId]);
+      if (rewritten !== content) await Bun.write(path, rewritten);
+    }),
+  );
 
 /** No story has been imported yet, so no link can be built from one. */
 const unknownSourceUrls = () =>

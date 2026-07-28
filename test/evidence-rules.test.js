@@ -128,7 +128,7 @@ const buildSite = async () => {
   return root;
 };
 
-const buildArtifact = async () => {
+const buildArtifact = async (uri = STORY_URI) => {
   const artifactDir = temporary();
   const bytes = await pngBytes();
   write(artifactDir, "assets/a-capture.png", bytes);
@@ -144,6 +144,7 @@ const buildArtifact = async () => {
         captures: [
           {
             ...capture(),
+            story: { ...capture().story, uri },
             assets: [
               {
                 height: 24,
@@ -400,6 +401,25 @@ const PRE_IMPORT_RULES = [
 describe("evidence rules", () => {
   test("a site that follows every rule is accepted", async () => {
     const { root } = await importedSite();
+    expect(await validateCommittedEvidence({ root })).toMatchObject({
+      state: "imported",
+    });
+  });
+
+  test("a renamed Feature moves the page's source link", async () => {
+    const root = await buildSite();
+    const renamed = "specs/owner/a renamed story.feature";
+    await importEvidence({
+      artifactDir: await buildArtifact(renamed),
+      root,
+      createSocialImage: copySocialImage,
+    });
+    const page = readFileSync(join(root, PAGE), "utf8");
+    expect(page).toContain(
+      `<a href="${FEATURE_SOURCE_PREFIX}specs/owner/a%20renamed%20story.feature">(src)</a>`,
+    );
+    // Only the link moved: the caption still says what it said.
+    expect(page).toContain(`figure_caption: '${CAPTION} <small>`);
     expect(await validateCommittedEvidence({ root })).toMatchObject({
       state: "imported",
     });
