@@ -103,6 +103,9 @@ blocks:
         description: A UK ticketing platform that donates up to half of its booking fee to charity projects. Compare fees, donations, features and data handling.
         name: <a href="/compared-to/ticketpass/">Ticketpass alternative</a>
       - icon: hugeicons:ticket-01
+        description: A Welsh ticketing platform used by theatre groups, schools and village halls, paid for by a booking fee. Compare fees, payouts, seating plans and data handling.
+        name: <a href="/compared-to/ticketsource/">TicketSource alternative</a>
+      - icon: hugeicons:ticket-01
         description: A UK ticketing platform with no buyer booking fee and tiered organiser plans. Compare pricing, features and data handling.
         name: <a href="/compared-to/tickts/">tickts alternative</a>
       - icon: hugeicons:ticket-01
