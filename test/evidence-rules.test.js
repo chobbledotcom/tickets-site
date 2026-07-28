@@ -532,6 +532,28 @@ describe("evidence rules", () => {
     );
   });
 
+  test("a link inside the caption's own words is left alone", async () => {
+    const root = await buildSite();
+    const own = '<a href="https://example.com/docs">the docs</a>';
+    editPage(root, (page) => page.replace(CAPTION, `${CAPTION} See ${own}.`));
+    editMapping(root, (entry) => {
+      entry.caption = `${CAPTION} See ${own}.`;
+      entry.reviewed = reviewDigest(
+        capture(),
+        { ...placement.words, caption: `${CAPTION} See ${own}.` },
+        PROSE,
+      );
+    });
+    await importEvidence({
+      artifactDir: await buildArtifact("specs/owner/a renamed story.feature"),
+      root,
+      createSocialImage: copySocialImage,
+    });
+    const page = readFileSync(join(root, PAGE), "utf8");
+    expect(page).toContain(own);
+    expect(page).toContain('a%20renamed%20story.feature">(src)</a>');
+  });
+
   test("a refused import leaves the page's old link alone", async () => {
     const root = await buildSite();
     const before = readFileSync(join(root, PAGE), "utf8");

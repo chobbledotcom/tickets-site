@@ -190,12 +190,14 @@ export const rewriteSourceLink = (content, mapping, sourceUrl) => {
   const lines = content.split("\n");
   const index = captionLineFor(lines, mapping.legacyDestinationPath);
   if (index === -1) return content;
-  // The href is replaced where it sits on the line rather than searched for by
-  // value: a single-quoted scalar doubles an apostrophe, so the href the line
-  // holds is not always the href the caption reads as.
+  // Replaced where it sits rather than searched for by value: a single-quoted
+  // scalar doubles an apostrophe, so the href the line holds is not always the
+  // href the caption reads as. Found by the "(src)" it labels, because a
+  // caption's own words may link somewhere first and that link is not this
+  // one's to move.
   lines[index] = lines[index].replace(
-    /<a href="[^"]*">/,
-    `<a href="${sourceUrl}">`,
+    /<a href="[^"]*">\(src\)<\/a><\/small>/,
+    `<a href="${sourceUrl}">(src)</a></small>`,
   );
   return lines.join("\n");
 };

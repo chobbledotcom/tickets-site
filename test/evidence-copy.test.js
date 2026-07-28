@@ -21,7 +21,10 @@ import {
   reviewDigest,
 } from "../scripts/evidence/narrative.js";
 import { parseReviewArgs } from "../scripts/evidence/review.js";
-import { linkedFeaturePathAt } from "../scripts/evidence/validation.js";
+import {
+  featurePathAt,
+  linkedFeaturePathAt,
+} from "../scripts/evidence/validation.js";
 import { socialCopyDigest } from "../scripts/evidence/store.js";
 import { SOCIAL_SCREENSHOT_COPY } from "../scripts/social-screenshot-copy.js";
 
@@ -403,7 +406,6 @@ describe("evidence source links", () => {
       "specs/payments/100% free*.feature",
       "specs/payments/capacité aux portes.feature",
       "specs/payments/a name; with, punctuation & more.feature",
-      "specs/payments/tab\tand\nbreak.feature",
       "specs/payments/query?and#fragment.feature",
       "specs/payments/quotes \"and\" more.feature",
     ];
@@ -412,6 +414,18 @@ describe("evidence source links", () => {
       const path = url.slice(FEATURE_SOURCE_PREFIX.length);
       expect(() => linkedFeaturePathAt(path, uri), uri).not.toThrow();
       expect(decodeURIComponent(path), uri).toBe(uri);
+    }
+  });
+
+  test("refuse a path no filesystem could hold", () => {
+    // A control character names no file, so its link is dead however it is
+    // spelled. Refused as a path, which covers the link and the story's uri.
+    for (const uri of ["specs/a\u0000.feature", "specs/tab\there.feature"]) {
+      expect(() => featurePathAt(uri, "uri"), uri).toThrow("control");
+      const path = featureSourceUrl({ uri }).slice(
+        FEATURE_SOURCE_PREFIX.length,
+      );
+      expect(() => linkedFeaturePathAt(path, "link"), uri).toThrow("control");
     }
   });
 
