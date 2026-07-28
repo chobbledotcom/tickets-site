@@ -120,36 +120,27 @@ export const featurePathAt = (value, location) => {
   return value;
 };
 
-/** The character references an HTML attribute can carry. A browser resolves
- * them before it ever sees a path, so they are resolved here too. */
-const HTML_REFERENCES = [
-  [
-    /&#x([0-9a-f]+);/gi,
-    (_, hex) => String.fromCodePoint(Number.parseInt(hex, 16)),
-  ],
-  [/&#(\d+);/g, (_, digits) => String.fromCodePoint(Number(digits))],
-  [/&quot;/g, '"'],
-  [/&apos;/g, "'"],
-  [/&lt;/g, "<"],
-  [/&gt;/g, ">"],
-  [/&amp;/g, "&"],
-];
-
 /**
- * A Feature path taken from a link, judged as the browser will read it: HTML
- * character references resolved, then percent-encoding, then the same path
- * rules the app's own uri gets. "specs/&#46;&#46;/x.feature" and
- * "specs/%2e%2e/x.feature" both climb out of the Features.
+ * A Feature path taken from a link, judged as the browser will read it.
+ *
+ * Character references are refused rather than resolved. Browsers accept more
+ * spellings than any short list covers: "&#x2e;", "&#46;" and the semicolon-
+ * less "&#x2e" all read as a full stop, so a resolver that misses one spelling
+ * lets "specs/&#x2e&#x2e/outside.feature" climb out of the Features. Nothing
+ * writes these links by hand and featureSourceUrl percent-encodes every
+ * segment, so a real link never carries an ampersand at all.
+ *
+ * Percent-encoding is decoded, because a browser resolves it too:
+ * "specs/%2e%2e/x.feature" climbs out of the Features just the same.
  */
 export const linkedFeaturePathAt = (value, location) => {
   stringAt(value, location);
-  const unescaped = HTML_REFERENCES.reduce(
-    (text, [pattern, replacement]) => text.replace(pattern, replacement),
-    value,
-  );
+  if (value.includes("&")) {
+    fail(location, "must not carry HTML character references");
+  }
   let decoded;
   try {
-    decoded = decodeURIComponent(unescaped);
+    decoded = decodeURIComponent(value);
   } catch (error) {
     throw new Error(`${location}: is not a readable path`, { cause: error });
   }

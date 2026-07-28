@@ -383,6 +383,18 @@ const PRE_IMPORT_RULES = [
     name: "the source link cannot climb out with character references",
     rule: 8,
   },
+  {
+    break: (root) =>
+      editPage(root, (page) =>
+        page.replace(
+          SOURCE_URL,
+          `${FEATURE_SOURCE_PREFIX}specs/&#x2e&#x2e/outside.feature`,
+        ),
+      ),
+    expect: "not a Feature under",
+    name: "the source link cannot climb out with semicolonless references",
+    rule: 8,
+  },
 ];
 
 describe("evidence rules", () => {
