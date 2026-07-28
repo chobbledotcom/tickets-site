@@ -10,6 +10,7 @@ import {
   EVIDENCE_SCHEMA_VERSION,
 } from "./constants.js";
 import { loadEvidenceMapping, validateMappingPlacements } from "./mapping.js";
+import { describeDrift, narrativeDrift } from "./narrative.js";
 import { validateImageFields, validateNarrative } from "./schema.js";
 import { serialise } from "./serialise.js";
 import { createEvidenceSocialImage } from "./social.js";
@@ -111,6 +112,21 @@ const createLock = (manifest, files) => ({
   ),
 });
 
+/**
+ * A capture's words on the site are written against one version of the app's
+ * story. When the story changes, someone has to read it again before the new
+ * screenshot ships, so the import stops here rather than quietly replacing an
+ * image whose description no longer holds.
+ */
+const assertNarrativesWereRead = (captures, mapping) => {
+  const drift = Object.entries(mapping.captures)
+    .map(([captureId, placement]) =>
+      narrativeDrift(captureId, captures[captureId], placement),
+    )
+    .filter(Boolean);
+  if (drift.length > 0) throw new Error(drift.map(describeDrift).join("\n"));
+};
+
 export const importEvidence = async ({
   artifactDir,
   root,
@@ -119,6 +135,12 @@ export const importEvidence = async ({
   const mapping = await loadEvidenceMapping(root);
   await validateMappingPlacements(root, mapping);
   const artifact = await loadEvidenceArtifact(artifactDir, mapping);
+  assertNarrativesWereRead(
+    Object.fromEntries(
+      artifact.manifest.captures.map((capture) => [capture.id, capture]),
+    ),
+    mapping,
+  );
   const dataText = serialise(createSiteData(artifact, mapping));
   const socialFiles = await createSocialFiles(
     artifact,
@@ -253,6 +275,7 @@ const validateSiteData = async (root, value, mapping, lock) => {
   if (JSON.stringify(actual) !== JSON.stringify(expected)) {
     throw new Error("evidence data captures do not match mapping");
   }
+  assertNarrativesWereRead(value.captures, mapping);
   await Promise.all(
     actual.map((captureId) =>
       validateSiteCapture(

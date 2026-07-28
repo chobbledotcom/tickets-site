@@ -21,6 +21,7 @@ import {
   importEvidence,
   validateCommittedEvidence,
 } from "../scripts/evidence/store.js";
+import { narrativeDigest } from "../scripts/evidence/narrative.js";
 import { sha256 } from "../scripts/evidence/validation.js";
 
 const temporaryDirectories = [];
@@ -52,9 +53,13 @@ const mapping = (extraCaptures = {}) => ({
       caseId: CASE_ID,
       alt: "Admin area showing a service event",
       caption: "The organiser can see the hold while customers cannot.",
+      galleryCaption: "A service hold on the dashboard.",
+      socialHeading: "Hold capacity for servicing",
+      socialBody: "Block places for maintenance without adding a customer.",
       sourceUrl:
         "https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/hold-and-cost.feature",
       socialKey: "servicing-events",
+      reviewedNarrative: REVIEWED_NARRATIVE,
     },
     ...extraCaptures,
   },
@@ -102,6 +107,8 @@ const manifest = (asset) => ({
     },
   ],
 });
+
+const REVIEWED_NARRATIVE = narrativeDigest(manifest({}).captures[0]);
 
 const fixturePng = async () =>
   await sharp({
@@ -479,6 +486,33 @@ describe("evidence import", () => {
     );
   });
 
+  test("refuses an import whose story nobody has read", async () => {
+    const root = await createSite();
+    const artifactDir = await createArtifact((value) => ({
+      ...value,
+      captures: [
+        {
+          ...value.captures[0],
+          rule: { ...value.captures[0].rule, description: "Reworded." },
+        },
+      ],
+    }));
+    await expect(
+      importEvidence({ artifactDir, root, createSocialImage: copySocialImage }),
+    ).rejects.toThrow("the app's story changed");
+  });
+
+  test("imports a re-run of the same story", async () => {
+    const root = await createSite();
+    const artifactDir = await createArtifact();
+    const lock = await importEvidence({
+      artifactDir,
+      root,
+      createSocialImage: copySocialImage,
+    });
+    expect(lock.app.commit).toBe(APP_COMMIT);
+  });
+
   test("detects changed committed bytes", async () => {
     const root = await createSite();
     const artifactDir = await createArtifact();
@@ -538,6 +572,30 @@ describe("evidence mapping validation", () => {
     value.captures[CAPTURE_ID].sourceUrl = "https://example.com/story.feature";
     expect(() => validateEvidenceMapping(value)).toThrow(
       "must link to a Feature on the Tickets main branch",
+    );
+  });
+
+  const missingWords = [
+    "alt",
+    "caption",
+    "galleryCaption",
+    "socialHeading",
+    "socialBody",
+  ];
+
+  for (const field of missingWords) {
+    test(`rejects a capture with no ${field}`, () => {
+      const value = mapping();
+      value.captures[CAPTURE_ID][field] = "";
+      expect(() => validateEvidenceMapping(value)).toThrow(field);
+    });
+  }
+
+  test("rejects a reviewed story that is not a digest", () => {
+    const value = mapping();
+    value.captures[CAPTURE_ID].reviewedNarrative = "not-a-digest";
+    expect(() => validateEvidenceMapping(value)).toThrow(
+      "must be a SHA-256 digest",
     );
   });
 });

@@ -72,7 +72,10 @@ jobs:
           body: |
             This pull request imports the latest tested screenshot evidence from the Tickets app.
 
-            Review the screenshot, organiser-facing text and test steps before merging.
+            Run `bun run evidence:review` to read each capture's story beside the
+            words the site writes about it. If the import failed because a story
+            changed, update the words in `_data/ticket_evidence_map.json`, then
+            record the new story with `bun run evidence:review <capture> --accept`.
           add-paths: |
             _data/ticket_evidence.json
             _data/ticket_evidence_lock.json

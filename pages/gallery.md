@@ -52,6 +52,8 @@ blocks:
         caption: A primary school disco checkout — one parent, two children.
       - image: /images/screenshots/servicing-studio-floor-hold__facebook.png
         caption: Service events hold places without adding a customer to the list.
+      - image: /images/screenshots/payment-provider-choice__facebook.png
+        caption: Payment provider settings — Stripe selected, with its saved test key.
       - image: /images/screenshots/equipment-hire-booking__facebook.png
         caption: Equipment hire booking — pick dates and quantities for each item.
       - image: /images/screenshots/industry-skip-hire-booking__facebook.png

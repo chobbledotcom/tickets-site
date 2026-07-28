@@ -11,6 +11,7 @@ import {
   readJson,
   recordAt,
   safeRelativePathAt,
+  sha256At,
   stringAt,
   uniqueBy,
 } from "./validation.js";
@@ -22,8 +23,23 @@ const MAPPING_FIELDS = [
   "caseId",
   "alt",
   "caption",
+  "galleryCaption",
+  "socialHeading",
+  "socialBody",
   "sourceUrl",
   "socialKey",
+  "reviewedNarrative",
+];
+
+/** Every sentence the site writes about the screenshot. The page, the gallery
+ * and the social card repeat these words; scripts/evidence/copy.js fails when
+ * a repeat drifts. */
+const TEXT_FIELDS = [
+  "alt",
+  "caption",
+  "galleryCaption",
+  "socialHeading",
+  "socialBody",
 ];
 
 const SOURCE_PREFIX =
@@ -50,8 +66,9 @@ const validateCaptureMapping = (captureId, value) => {
   }
   enumAt(value.assetProfile, ASSET_PROFILES, `${location}.assetProfile`);
   idAt(value.caseId, `${location}.caseId`);
-  stringAt(value.alt, `${location}.alt`);
-  stringAt(value.caption, `${location}.caption`);
+  for (const field of TEXT_FIELDS)
+    stringAt(value[field], `${location}.${field}`);
+  sha256At(value.reviewedNarrative, `${location}.reviewedNarrative`);
   stringAt(value.sourceUrl, `${location}.sourceUrl`);
   if (
     !value.sourceUrl.startsWith(SOURCE_PREFIX) ||

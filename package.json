@@ -18,6 +18,7 @@
 		"screenshot:text": "bun scripts/add-social-screenshot-text.js",
 		"evidence:import": "bun scripts/evidence/import.js",
 		"evidence:validate": "bun scripts/evidence/validate.js",
+		"evidence:review": "bun scripts/evidence/review.js",
 		"clean": "rm -rf .build _site",
 		"test": "bun scripts/test.js",
 		"precommit": "bun scripts/precommit.js",
