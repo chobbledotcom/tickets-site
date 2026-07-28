@@ -414,6 +414,18 @@ const PRE_IMPORT_RULES = [
     name: "the source link cannot hide its path behind a fragment",
     rule: 8,
   },
+  {
+    break: (root) =>
+      editPage(root, (page) =>
+        page.replace(
+          SOURCE_URL,
+          `${FEATURE_SOURCE_PREFIX}specs/.\t./outside.feature`,
+        ),
+      ),
+    expect: "not a Feature under",
+    name: "the source link cannot climb out with a stripped tab",
+    rule: 8,
+  },
 ];
 
 describe("evidence rules", () => {
@@ -476,6 +488,32 @@ describe("evidence rules", () => {
     const page = readFileSync(join(root, PAGE), "utf8");
     expect(page).toContain("a%20renamed%20story.feature");
     expect(page).not.toContain("a story''s.feature");
+  });
+
+  test("another figure's link on the page is left where it is", async () => {
+    const root = await buildSite();
+    const otherLink = `${FEATURE_SOURCE_PREFIX}specs/owner/another.feature`;
+    // A figure of its own, before the evidence block and nothing to do with it.
+    editPage(root, (page) =>
+      page.replace(
+        "  - type: split-image",
+        [
+          "  - type: split-image",
+          "    figure_src: /images/unrelated.png",
+          `    figure_caption: 'Something else <small><a href="${otherLink}">(src)</a></small>'`,
+          "  - type: split-image",
+        ].join("\n"),
+      ),
+    );
+    await importEvidence({
+      artifactDir: await buildArtifact("specs/owner/a renamed story.feature"),
+      root,
+      createSocialImage: copySocialImage,
+    });
+    const page = readFileSync(join(root, PAGE), "utf8");
+    expect(page).toContain(otherLink);
+    expect(page).toContain("a%20renamed%20story.feature");
+    expect(page).not.toContain(SOURCE_URL);
   });
 
   test("a refused import leaves the page's old link alone", async () => {

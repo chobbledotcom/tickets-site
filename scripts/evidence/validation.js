@@ -123,23 +123,24 @@ export const featurePathAt = (value, location) => {
 /**
  * A Feature path taken from a link, judged as the browser will read it.
  *
- * Character references are refused rather than resolved. Browsers accept more
- * spellings than any short list covers: "&#x2e;", "&#46;" and the semicolon-
- * less "&#x2e" all read as a full stop, so a resolver that misses one spelling
- * lets "specs/&#x2e&#x2e/outside.feature" climb out of the Features. Nothing
- * writes these links by hand and featureSourceUrl percent-encodes every
- * segment, so a real link never carries an ampersand at all.
+ * The link is held to what featureSourceUrl writes rather than checked for
+ * each way a link can lie. Nothing writes these links by hand, so the set of
+ * characters a real one carries is small and known, and a link outside that
+ * set has nothing to prove.
  *
- * Percent-encoding is decoded, because a browser resolves it too:
- * "specs/%2e%2e/x.feature" climbs out of the Features just the same.
+ * Percent-encoding is decoded, because a browser resolves it:
+ * "specs/%2e%2e/x.feature" climbs out of the Features.
  */
 export const linkedFeaturePathAt = (value, location) => {
   stringAt(value, location);
-  // A raw "?" or "#" ends the path a browser asks for, so the rest of the link
-  // is a query or a fragment and the file requested is not a Feature at all.
-  // Their percent-encoded forms are decoded below and judged as filenames.
-  if (/[&?#]/.test(value)) {
-    fail(location, "must not carry a character reference, query or fragment");
+  // Named rather than forbidden one character at a time. A browser does its
+  // own work on a URL before it asks for anything: it ends the path at "?" or
+  // "#", resolves "&#x2e" and its many spellings, and strips tabs and line
+  // breaks wherever they fall. Each of those was found here in turn. Only the
+  // characters featureSourceUrl can produce are allowed, so a browser has
+  // nothing left to do to the path but decode it.
+  if (!/^[A-Za-z0-9\-._~%/]+$/.test(value)) {
+    fail(location, "must be a percent-encoded path and nothing else");
   }
   let decoded;
   try {

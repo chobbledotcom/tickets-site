@@ -131,6 +131,26 @@ const captionParts = (caption) => {
   return found ? { href: found[2], text: found[1] } : null;
 };
 
+/** The caption line of the block showing one image, not of whatever block a
+ * page happens to put first. A page may hold other figures with source links
+ * of their own, and rewriting one of those would move the wrong link and leave
+ * the capture's own link stale. */
+const captionLineFor = (lines, imagePath) => {
+  const isBlockStart = (line) => line.startsWith("  - type: ");
+  const source = lines.indexOf(`    figure_src: /${imagePath}`);
+  if (source === -1) return -1;
+  const starts = lines.flatMap((line, at) => (isBlockStart(line) ? [at] : []));
+  const start = starts.filter((at) => at < source).at(-1) ?? 0;
+  const end = starts.find((at) => at > source) ?? lines.length;
+  return lines.findIndex(
+    (line, at) =>
+      at > start &&
+      at < end &&
+      line.startsWith("    figure_caption: ") &&
+      line.includes("(src)</a></small>"),
+  );
+};
+
 /**
  * The page's source link, rewritten to the link the imported story builds.
  *
@@ -145,11 +165,7 @@ export const rewriteSourceLink = (content, mapping, sourceUrl) => {
   const parts = captionParts(fields?.caption);
   if (!parts || parts.href === sourceUrl) return content;
   const lines = content.split("\n");
-  const index = lines.findIndex(
-    (line) =>
-      line.startsWith("    figure_caption: ") &&
-      line.includes("(src)</a></small>"),
-  );
+  const index = captionLineFor(lines, mapping.legacyDestinationPath);
   if (index === -1) return content;
   // The href is replaced where it sits on the line rather than searched for by
   // value: a single-quoted scalar doubles an apostrophe, so the href the line
