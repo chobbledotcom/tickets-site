@@ -9,6 +9,36 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # The shared build workflow only builds and deploys. Everything that decides
+  # whether the site is correct - the tests, the evidence checks, the linter and
+  # copy-paste detection - runs here, and a failure stops the deploy.
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the site
+        uses: actions/checkout@v4
+        with:
+          # The tests build the site, which merges the pinned template.
+          submodules: true
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.2.13
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Test
+        run: bun run test
+
+      - name: Lint
+        run: bun run lint
+
+      - name: Copy-paste detection
+        run: bun run cpd
+
   build:
+    needs: test
     uses: chobbledotcom/chobble-client/.github/workflows/shared-build-and-deploy.yml@main
     secrets: inherit
