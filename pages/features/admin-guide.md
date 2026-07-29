@@ -1,7 +1,7 @@
 ---
 title: Built-in Admin Guide - Chobble Tickets
 meta_title: Built-in Admin Guide - Chobble Tickets
-meta_description: Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
+meta_description: Integrated documentation at /admin/guide covers the main admin areas, so new team members can get up to speed fast.
 permalink: /features/admin-guide/
 eleventyNavigation:
   key: Built-in Admin Guide
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Built-in admin guide
 
-      Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
+      Integrated documentation at /admin/guide covers the main admin areas, so new team members can get up to speed fast.
   - type: split-image
     content: |
       ## Documentation where you need it
@@ -27,10 +27,11 @@ blocks:
     figure_caption: Open an answer while you work, without leaving your ticket site.
   - type: markdown
     content: |
-      ## Covers every feature
+      ## Covers the main admin areas
 
-      The guide walks through every feature: creating events, managing
-      attendees, processing refunds, configuring settings, and more. It's
+      The guide walks through the main admin areas: creating events,
+      managing attendees, processing refunds, configuring settings, and
+      more. It's
       written to be easy to understand, with nerdy technical details in
       there too if you are interested.
 

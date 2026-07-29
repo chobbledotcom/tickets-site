@@ -118,6 +118,8 @@ blocks:
       - Email confirmations to attendees after booking
       - Free event support with no payment setup required
       - Refund processing
+      - [Add-ons](/features/promo-codes-and-add-ons/) sold alongside
+        tickets, such as merchandise, parking or meal upgrades
       - Embeddable ticket widgets for your own website
       - Multiple ticket types per event with shared capacity limits -
         both platforms support VIP, early bird, and tiered pricing with
@@ -133,8 +135,6 @@ blocks:
         event pages with custom layouts, images, and sections
       - **Affiliate and referral tracking** - track which promoters and
         links are driving ticket sales with commission tracking
-      - **Product add-ons** - sell merchandise, parking, meal upgrades, or
-        other extras alongside tickets
       - **Custom PDF ticket designs** - design your own ticket layouts with
         branding, logos, and custom fields
       - **Multi-currency support** - sell in different currencies for
@@ -188,9 +188,10 @@ blocks:
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
         plain database rows
-      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        create promo codes, discount codes, surcharges, and opt-in add-ons
-        with stock limits and a live running total
+      - **[Surcharges and returning-customer pricing](/features/promo-codes-and-add-ons/)** -
+        beyond the promo codes and add-ons both platforms offer, a price
+        rule can add a surcharge, scale a price, or change it for someone
+        who has booked before
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
       - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
@@ -291,7 +292,7 @@ blocks:
       ## When Hi.Events might be better
 
       - You want a polished, modern UI with a visual page builder
-      - You need affiliate tracking, or merchandise sales
+      - You need affiliate tracking
       - You prefer a pay-per-ticket model with no upfront cost
       - You're running large nightlife events or festivals and want instant
         payouts

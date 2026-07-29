@@ -113,9 +113,11 @@ blocks:
         seats after purchase
       - **Table sales** - sell whole tables as a unit instead of
         individual seats, useful for cabaret and comedy club layouts
-      - **Merchandise store** - sell merchandise alongside tickets through
-        a dedicated merchandise ecommerce store with configurable product
-        attributes and inventory tracking
+      - **Merchandise store** - a dedicated merchandise ecommerce store
+        with configurable product attributes and inventory tracking.
+        Chobble Tickets sells extras as
+        [add-ons](/features/promo-codes-and-add-ons/) attached to a
+        booking, with stock limits, rather than as a separate store
       - **On-site point-of-sale** - dedicated POS hardware integration
         with Stripe card readers for box-office and walk-up sales
       - **Will-call list** - dedicated will-call workflow for collecting
@@ -133,15 +135,22 @@ blocks:
       - **External ticket links** - link an event listing out to a
         third-party ticketing platform when needed, for example when
         moving a popular show to a larger venue
-      - **Per-customer notes** - attach internal notes to customer and
-        order records
-      - **Role-based permissions** - separate user roles for will-call,
-        financial reporting, point-of-sale, and inventory management
+      - **Per-order notes** - attach internal notes to an individual order.
+        Chobble Tickets keeps a private note against the
+        [contact record](/features/manual-attendees/) rather than the
+        order
+      - **Box-office staff roles** - separate user roles for will-call,
+        financial reporting, point-of-sale, and inventory management.
+        Chobble Tickets has [four roles](/features/users/) built around
+        running events rather than a box office
       - **WordPress integration** - the public-facing website is a
         WordPress site with event cards, filtering, fuzzy text search, and
         a sidebar cart pane
-      - **Custom HTML/CSS for cart and admin** - edit HTML and CSS
-        elements for emails, cart, and admin screens
+      - **Custom HTML/CSS for cart and admin screens** - edit HTML and CSS
+        on the cart and admin screens. Chobble Tickets has
+        [custom CSS](/features/customising-your-site/) for the public site
+        and [Liquid templates](/features/email-templates/) for emails, but
+        not for its admin screens
       - **US-based vendor** - Tessera is built by a Chicago web agency,
         so the company runs on US business hours
   - type: markdown
@@ -221,8 +230,8 @@ blocks:
         seating
       - You need a visual seating chart for individual seat selection
       - You sell tables of seats rather than individual tickets
-      - You sell merchandise alongside tickets and want it in the same
-        cart
+      - You want a merchandise store with product attributes and stock
+        tracking, rather than extras attached to a ticket
       - You want on-site point-of-sale hardware for box-office sales
       - You want to accept cards through Authorize.net rather than Stripe, Square,
         or SumUp

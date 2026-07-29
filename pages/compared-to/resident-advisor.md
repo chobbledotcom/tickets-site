@@ -149,9 +149,6 @@ blocks:
         to events and build audience awareness
       - **Guest list management** - import guest lists, add guests at the
         door, and manage comps alongside standard ticket sales
-      - **Embeddable ticket widget** - [embed RA ticket
-        sales](https://support.ra.co/article/7-ticket-widget) on your own
-        website
       - **B-Corp certified** - RA is a certified B-Corp, demonstrating
         commitment to social and environmental standards
   - type: markdown

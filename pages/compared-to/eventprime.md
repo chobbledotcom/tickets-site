@@ -189,7 +189,10 @@ blocks:
       - **PDF invoices** emailed with booking details (Professional plan)
       - **Reviews, ratings and attendee feedback** on event pages (Business
         plan)
-      - **SMS notifications** through Twilio (Business plan)
+      - **SMS notifications** through Twilio (Business plan). Chobble
+        Tickets [texts attendees](/features/sms-messages/) from your own
+        Android phone and number instead. Chobble adds no charge per
+        message, and each text uses that phone's own mobile plan
       - **Mailchimp and MailPoet list integration** for the organiser's own
         mailing lists (Essential plan)
       - **Zoom webinar integration** for selling access to online sessions

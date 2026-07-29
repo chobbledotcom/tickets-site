@@ -90,15 +90,19 @@ blocks:
       - **Reserved seating with seat map builder** - create interactive
         venue maps where attendees pick their own seats, tables, or zones,
         with a best-available auto-assignment option
-      - **Payment plans and deposits** - collect instalment payments over
-        time for higher-priced events, with renewal tracking and
-        failed-payment handling
+      - **Payment plans** - collect instalment payments over time for
+        higher-priced events, with renewal tracking and failed-payment
+        handling. Chobble Tickets takes a
+        [deposit and the balance later](/features/deposits-and-balance-payments/),
+        but does not split a price into a run of instalments
       - **Renewable membership system** - multi-tier memberships with
         pro-rata mid-year additions, self-service upgrades/downgrades,
         cancellations, and members-only event gating
-      - **Cross-selling during checkout** - sell merchandise, parking
-        passes, drinks tokens, and other events inline during the ticket
-        purchase flow
+      - **Cross-selling other events during checkout** - offer your other
+        events inline during the ticket purchase flow. Chobble Tickets
+        sells merchandise, parking and similar extras as
+        [add-ons](/features/promo-codes-and-add-ons/), but does not offer
+        another event at checkout
       - **Box office POS** - a web-based point-of-sale app for on-the-door
         sales and scanning, purpose-built for their platform
       - **11 languages and 30+ currencies** - built-in internationalisation
@@ -185,7 +189,7 @@ blocks:
       - You need reserved seating with a seat map builder
       - You need payment plans or instalment collection for expensive events
       - You want a membership system with tiered subscriptions
-      - You need cross-selling of merchandise and extras during checkout
+      - You need your other events offered to buyers during checkout
       - You want white-label branding on the booking journey
       - You need multi-language (11 languages) or multi-currency (30+)
         support

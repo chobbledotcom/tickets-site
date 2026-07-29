@@ -132,8 +132,10 @@ blocks:
         volunteering
       - **Mobile app** - native iOS and Android app for managing sign-ups
         and checking in participants
-      - **Text message reminders** - SMS notifications to participants on
-        higher-tier plans
+      - **Automatic text reminders** - the platform sends SMS reminders to
+        participants on higher-tier plans. Chobble Tickets
+        [texts attendees](/features/sms-messages/) from your own Android
+        phone when you send the message, with no automatic reminders
       - **Built-in themes and templates** - choose from pre-designed
         themes to style your sign-up pages (paid tiers)
       - **Multi-administrator access** - invite up to 10 administrators
@@ -268,7 +270,8 @@ blocks:
         TimeTap) and want everything in one platform
       - You need a mobile app for on-the-go management
       - You want a free option and don't mind ads on your pages
-      - You need text message reminders to participants
+      - You need text reminders sent to participants automatically rather
+        than by hand
       - You're coordinating complex group activities with slot swapping
         and task management (e.g. weekly volunteer rotas with shift trades)
   - type: markdown

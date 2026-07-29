@@ -138,6 +138,8 @@ blocks:
       - Event series / recurring events
       - Custom branding on your ticket shop
       - Custom checkout questions
+      - [Promotion and discount codes](/features/promo-codes-and-add-ons/)
+        for marketing campaigns
   - type: markdown
     content: |
       ### EVENTIM.Light has features Chobble Tickets doesn't
@@ -146,14 +148,16 @@ blocks:
         [eventim.co.uk](https://www.eventim.co.uk) (500,000+ monthly visitors
         in the UK), giving you access to an existing audience of ticket buyers
         browsing for events
+      - **Presale codes** - a code that opens an early sale to the people
+        holding it. Chobble Tickets promo codes change the price at
+        checkout, and a listing can be hidden from the public list, but a
+        code cannot unlock an early sale
       - **Seating plan editor** - create custom venue seating charts and offer
         reserved seating or best-seat booking, useful for theatres and seated
         venues (note: seating plans cannot be edited after the event is
         published)
       - **Facebook event integration** - create and sync Facebook events
         directly from the platform
-      - **Promotion codes** - create individual discount and presale codes for
-        marketing campaigns
       - **Ad pixel tracking** - embed Google and Meta (Facebook) tracking
         pixels to analyse where your ticket buyers come from and build
         retargeting audiences
@@ -293,7 +297,8 @@ blocks:
         ticketing company
       - You have very low volume and prefer paying 8% per ticket over a
         flat fee
-      - You want promotion codes for marketing campaigns
+      - You want a presale code that opens an early sale to the people
+        holding it
   - type: markdown
     content: |
       ## When Chobble Tickets is the better choice

@@ -82,6 +82,8 @@ blocks:
       - Apple Pay and Google Pay at checkout (via Stripe)
       - QR code scanning for check-in at the door
       - Email confirmations to attendees after booking
+      - [Bulk email](/features/bulk-email/) to ticket holders with updates
+        before and after the event
       - Event capacity limits
       - Free event support with no payment setup required
       - Refund processing from the admin panel
@@ -103,7 +105,10 @@ blocks:
       - **Built-in email marketing** - send campaigns to attendees and
         followers with up to 10,000 daily sends on
         [Pro](https://www.eventbrite.com/organizer/pricing/), including
-        audience segmentation and automated event reminders
+        audience segmentation and automated event reminders. Chobble
+        Tickets sends [bulk email](/features/bulk-email/) to attendee
+        segments through your own email provider, but has no follower
+        list and no automatic reminders
       - **Social media ad tools** - launch Facebook and Instagram ad
         campaigns directly from Eventbrite with audience targeting
         and [retargeting](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/)
@@ -132,8 +137,6 @@ blocks:
         tools, and online event hosting
       - **Collections** - group related events for easier discovery and
         cross-promotion
-      - **Attendee messaging** - send updates and messages to ticket holders
-        before and after events
       - **Conditional logic questions** - follow-up registration questions
         that appear based on previous answers
       - **Attendee self-service transfers** - attendees can change ticket
@@ -249,7 +252,8 @@ blocks:
       ## When Eventbrite might be the better choice
 
       - You need a discovery platform to help attendees find your events
-      - You want built-in marketing tools, retargeting ads, and email campaigns
+      - You want built-in marketing tools, retargeting ads, follower lists,
+        and automatic event reminders
       - You need reserved seating with venue maps
       - You're running international events in multiple currencies
       - You want an app marketplace with 100+ integrations

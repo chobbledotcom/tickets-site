@@ -101,6 +101,10 @@ blocks:
         does this with ticket types inside one event; Chobble Tickets does
         it by grouping separate events together)
       - Free event support with no payment setup required
+      - Several tickets sold together at a bundle price (Ticket Tailor
+        bundles ticket types and add-ons inside one event; Chobble Tickets
+        sells listings together as a [package](/features/packages/), booked
+        all or nothing)
       - Refund processing from the admin panel
       - Embeddable ticket widgets for your own website
       - REST API access for custom integrations
@@ -124,8 +128,6 @@ blocks:
       - **Native check-in apps** - dedicated iOS and Android apps that
         download attendee lists for offline scanning
       - **Waitlists** - built-in waitlist support for sold-out events
-      - **Ticket bundles** - combine tickets and add-ons into a single
-        bundle at a discounted price (for example, two adults plus a child)
       - **Tracking links** - generate UTM-tagged links to see which
         marketing channels drove each sale
       - **Direct marketing integrations** - built-in connectors for

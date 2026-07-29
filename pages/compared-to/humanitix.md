@@ -226,8 +226,7 @@ blocks:
       - You want waitlists for sold-out events
       - You need scheduled advance payouts before the event
       - You want built-in affiliate code tracking for promoters
-      - You sell merchandise and want Canva design tools inside the event
-        builder
+      - You want Canva design tools inside the event builder
       - You want direct integrations with Mailchimp, Salesforce or
         Facebook without setting up webhooks
       - You want attendees to be able to resell tickets through Tixel
