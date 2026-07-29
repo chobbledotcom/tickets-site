@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "9ea6373d0fcb2fc03708d8f0ce6f43167ee804e9",
+    "commit": "544258ee2690593fff4483d78fc8570879f0ec3b",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -56,6 +56,126 @@
         "id": "payments.paying-a-deposit",
         "name": "A customer pays a deposit and settles the rest later",
         "uri": "specs/payments/paying-a-deposit.feature"
+      }
+    },
+    "bundle-booking-page": {
+      "case": {
+        "id": "bundles.the-parts-are-named-on-the-booking-page",
+        "name": "A customer opens the booking page of an open bundle"
+      },
+      "id": "bundle-booking-page",
+      "image": {
+        "height": 1244,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "1bd6e6e1d417c33da0c5b8b41c79e138d3ca99320a76d9c89eacacaaf3617bf1",
+        "src": "/images/screenshots/garden-party-package-checkout.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 772
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "A bundle that hides nothing tells the customer what they are getting\nbefore they buy: the bundle's own name, and each thing inside it.",
+        "id": "bookings.an-open-bundle-names-what-is-inside-it",
+        "name": "An open bundle names what is inside it"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "a Weekend group holding a Tent at 40.00 and a Breakfast at 10.00"
+        },
+        {
+          "keyword": "And",
+          "text": "the organiser sells the Weekend as a bundle, with the Tent at 25.00 and the Breakfast left blank"
+        },
+        {
+          "keyword": "When",
+          "text": "a customer opens the Weekend booking page"
+        },
+        {
+          "keyword": "Then",
+          "text": "the booking page named the Weekend"
+        },
+        {
+          "keyword": "And",
+          "text": "the booking page named the Tent"
+        },
+        {
+          "keyword": "And",
+          "text": "the booking page named the Breakfast"
+        }
+      ],
+      "story": {
+        "description": "An organiser can take a group of things they sell and offer the whole group as\none bundle: a tent, a pitch and a breakfast sold together as a weekend. The\nbundle sets its own price for each part, so a thing can cost less inside\nthe bundle than on its own. The organiser can also keep what is inside\nprivate, and sell the bundle purely by its own name.",
+        "id": "bookings.selling-things-as-one-bundle",
+        "name": "An organiser sells several things as one bundle",
+        "uri": "specs/bookings/selling-things-as-one-bundle.feature"
+      }
+    },
+    "contact-record": {
+      "case": {
+        "id": "contact-record.a-record-with-a-history-behind-it",
+        "name": "The organiser opens the record of someone who has booked before"
+      },
+      "id": "contact-record",
+      "image": {
+        "height": 1256,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "03ab5f3cdb6a88ca562a39045233f83fea6de5badcc53a64237a62e06f1fa647",
+        "src": "/images/screenshots/manual-attendee-community-supper.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 828
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "The counts are shown as numbers they can edit, and the private note is shown\nwritten out. Someone the site has never seen has a record of nothing.",
+        "id": "attendees.the-organiser-can-read-what-is-kept",
+        "name": "The organiser can read what is kept about someone"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "the site has seen Sam book 5 times and get in touch 4 times"
+        },
+        {
+          "keyword": "When",
+          "text": "the organiser opens Sam's record"
+        },
+        {
+          "keyword": "Then",
+          "text": "the record shows Sam booked 5 times through the site"
+        },
+        {
+          "keyword": "And",
+          "text": "the record shows 2 bookings the organiser added for Sam"
+        },
+        {
+          "keyword": "And",
+          "text": "the record shows Sam has visited 9 times"
+        },
+        {
+          "keyword": "And",
+          "text": "the record shows Sam has been in touch 4 times"
+        },
+        {
+          "keyword": "And",
+          "text": "the record shows the note about Sam written out"
+        }
+      ],
+      "story": {
+        "description": "The site keeps a little history for each person who deals with it: how many\ntimes they booked, how often they have been in touch, and a private note only\nthe organiser sees. It is filed under a one-way code made from their email, so\nthe address itself is never stored. The organiser can read that record and put\nit right whenever it is wrong.",
+        "id": "attendees.the-record-kept-about-someone",
+        "name": "An organiser reads and corrects the record kept about someone",
+        "uri": "specs/attendees/the-record-kept-about-someone.feature"
       }
     },
     "payment-provider-choice": {

@@ -13,6 +13,32 @@
       "socialHeading": "Take deposits and balances",
       "socialKey": "deposits-and-balance-payments"
     },
+    "bundle-booking-page": {
+      "alt": "A booking page for a Weekend package, offering a number of packages and listing the Breakfast and Tent inside it",
+      "assetProfile": "mobile",
+      "caption": "A package that hides nothing names each thing inside it on its own booking page.",
+      "caseId": "bundles.the-parts-are-named-on-the-booking-page",
+      "galleryCaption": "A package booking page naming every item the buyer gets.",
+      "legacyDestinationPath": "images/screenshots/garden-party-package-checkout.png",
+      "page": "pages/features/packages.md",
+      "reviewed": "f8c0eaa4bd6aee0e073f059291ecf705a43c63469ab20ebce1d98f27afb7518d",
+      "socialBody": "Combine listings into one bundle. Set each member's price and quantity, then let customers choose a package count.",
+      "socialHeading": "Sell packages of listings",
+      "socialKey": "packages"
+    },
+    "contact-record": {
+      "alt": "A contact record showing 9 visits, 5 online bookings, 2 admin bookings, 4 messages sent and a private note reading VIP Sam",
+      "assetProfile": "mobile",
+      "caption": "What the site remembers about someone, and the private note only the organiser reads.",
+      "caseId": "contact-record.a-record-with-a-history-behind-it",
+      "galleryCaption": "One person's record, showing how often they booked, how often they were in touch, and a private note.",
+      "legacyDestinationPath": "images/screenshots/manual-attendee-community-supper.png",
+      "page": "pages/features/manual-attendees.md",
+      "reviewed": "25fac10f9b0cfa85f2077b2073f5c988efdc4ccb1572a124762cfe83e3d686d6",
+      "socialBody": "See how often someone booked, how often they have been in touch, and a private note only the organiser reads.",
+      "socialHeading": "Keep a record of each person",
+      "socialKey": "manual-attendees"
+    },
     "payment-provider-choice": {
       "alt": "Payment Provider settings with Stripe selected among Square, Stripe and SumUp and a configured Stripe test key",
       "assetProfile": "mobile",

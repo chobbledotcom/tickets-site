@@ -29,7 +29,7 @@ blocks:
       - image: /images/screenshots/charity-family-fun-day-checkout__facebook.png
         caption: Group checkout for a family fun day — adult and child tickets in one basket.
       - image: /images/screenshots/garden-party-package-checkout__facebook.png
-        caption: A package checkout — gazebo, chairs and festoon lights bought together.
+        caption: A package booking page naming every item the buyer gets.
       - image: /images/screenshots/the-tempest-group-checkout__facebook.png
         caption: The Tempest group checkout with adult and child tickets, £30 owed.
       - image: /images/screenshots/required-child-listings-checkout__facebook.png
@@ -61,7 +61,7 @@ blocks:
       - image: /images/screenshots/industry-venue-hire-booking__facebook.png
         caption: A venue hire checkout with an available date and two-day price.
       - image: /images/screenshots/manual-attendee-community-supper__facebook.png
-        caption: A manually-added attendee appears next to the online bookings.
+        caption: One person's record, showing how often they booked, how often they were in touch, and a private note.
       - image: /images/screenshots/attendee-statuses__facebook.png
         caption: Attendee statuses — Reserved, Confirmed and Collected, in order.
       - image: /images/screenshots/qr-code-check-in__facebook.png

@@ -358,18 +358,24 @@ export const SOCIAL_IMAGE_FACTS = {
   ],
   "manual-attendees": [
     {
+      fact: "Each person has a record counting their online bookings, the bookings staff added for them, their visits and how often they have been in touch.",
+      sources: [
+        "../tickets/src/ui/templates/admin/contact-history.tsx:56-100",
+        "../tickets/specs/attendees/the-record-kept-about-someone.feature:12-24",
+      ],
+    },
+    {
+      fact: "The record is filed under a one-way code made from the email address, and carries a private note only the organiser reads.",
+      sources: [
+        "../tickets/src/shared/db/contact-preferences.ts:55-56",
+        "../tickets/specs/attendees/the-record-kept-about-someone.feature:5-11",
+      ],
+    },
+    {
       fact: "Staff can add attendee records through the admin area, and they appear alongside online bookings.",
       sources: [
         "../tickets/src/features/admin/attendee-form-routes.ts:104-127",
         "../tickets/src/features/admin/attendees-list.ts:100-130",
-      ],
-    },
-    {
-      fact: "A manual booking on a paid listing records the amount owed; staff must add a write-off to make it complimentary.",
-      sources: [
-        "../tickets/src/features/admin/attendee-form-routes.ts:343-378",
-        "../tickets/src/shared/checkout-complete.ts:83-104",
-        "../tickets/src/shared/accounting/manual-entries.ts:107-124",
       ],
     },
   ],

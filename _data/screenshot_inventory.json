@@ -27,11 +27,19 @@
   { "key": "ledger", "classification": "legacy-product-screenshot" },
   { "key": "listing-management", "classification": "legacy-product-screenshot" },
   { "key": "logistics", "classification": "legacy-product-screenshot" },
-  { "key": "manual-attendees", "classification": "legacy-product-screenshot" },
+  {
+    "key": "manual-attendees",
+    "classification": "linked-evidence",
+    "captureId": "contact-record"
+  },
   { "key": "moonlight-cinema-dark-checkout", "classification": "legacy-product-screenshot" },
   { "key": "oakfield-public-website", "classification": "legacy-product-screenshot" },
   { "key": "order-widget", "classification": "legacy-product-screenshot" },
-  { "key": "packages", "classification": "legacy-product-screenshot" },
+  {
+    "key": "packages",
+    "classification": "linked-evidence",
+    "captureId": "bundle-booking-page"
+  },
   { "key": "parent-child-listings", "classification": "legacy-product-screenshot" },
   {
     "key": "payment-provider-choice",
