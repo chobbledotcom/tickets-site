@@ -43,7 +43,7 @@ blocks:
       - image: /images/screenshots/industry-catering-booking__facebook.png
         caption: A catering checkout with guest requirements and a paid crockery extra.
       - image: /images/screenshots/deposits-and-balance-payments__facebook.png
-        caption: A balance page — £120 order, £30 paid, £90 left to pay.
+        caption: A balance page for a Retreat place with £80 ordered, £30 paid and £50 left.
       - image: /images/screenshots/workshop-terms-checkout__facebook.png
         caption: Workshop terms shown at checkout, so the buyer agrees before paying.
       - image: /images/screenshots/moonlight-cinema-dark-checkout__facebook.png

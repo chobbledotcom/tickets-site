@@ -1,9 +1,63 @@
 {
   "app": {
-    "commit": "61aaf983cd151b01d958b84a7c46273eb5f9b6e7",
+    "commit": "fa39a4adfb69c74036aa6f024336be6f797d1af8",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
+    "balance-payment-link": {
+      "case": {
+        "id": "deposit.balance-page-shows-what-is-left",
+        "name": "The payment link for a part-paid 80.00 Retreat place"
+      },
+      "id": "balance-payment-link",
+      "image": {
+        "height": 1286,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "ff80a745a8f1d0ed736a6f46b2c592e622a997eef1eab56e36fef5997b43338f",
+        "src": "/images/screenshots/deposits-and-balance-payments.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 828
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "A reserved booking has a payment link the customer can open without\nsigning in. It names what they booked, what they have paid and what is\nleft, and offers to take the rest. It carries no personal details.",
+        "id": "payments.the-customer-can-see-what-is-left-and-pay-it",
+        "name": "The customer can see what is left and pay it"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "a customer owes 80.00 for a Retreat place"
+        },
+        {
+          "keyword": "When",
+          "text": "they pay a deposit of 30.00"
+        },
+        {
+          "keyword": "Then",
+          "text": "their payment link offers to take the 50.00 that is left"
+        },
+        {
+          "keyword": "And",
+          "text": "it names the Retreat place, 80.00 ordered and 30.00 paid"
+        },
+        {
+          "keyword": "And",
+          "text": "it says nothing about who booked"
+        }
+      ],
+      "story": {
+        "description": "Someone can pay part of what they owe now and the rest later. Until they\nsettle, the organiser must be able to see exactly what is still outstanding.",
+        "id": "payments.paying-a-deposit",
+        "name": "A customer pays a deposit and settles the rest later",
+        "uri": "specs/payments/paying-a-deposit.feature"
+      }
+    },
     "payment-provider-choice": {
       "case": {
         "id": "payments.select-saved-stripe",
@@ -102,7 +156,7 @@
         "height": 742,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "5cd1d5fc03bf5a49fbf080e045ce7b913850aa30a0d74b35487fef7817edad4c",
+        "sha256": "28a1fadbe035b741c42d7f49d850ba7f3d02114563997b5ad6c4f8175fab75f0",
         "src": "/images/screenshots/servicing-studio-floor-hold.png",
         "viewport": {
           "deviceScaleFactor": 2,

@@ -1,5 +1,18 @@
 {
   "captures": {
+    "balance-payment-link": {
+      "alt": "Balance payment page for one Retreat place, showing an £80 order, £30 already paid and £50 still due",
+      "assetProfile": "mobile",
+      "caption": "The page a customer opens from their payment link, naming what they booked, what they have paid and what is left.",
+      "caseId": "deposit.balance-page-shows-what-is-left",
+      "galleryCaption": "A balance page for a Retreat place with £80 ordered, £30 paid and £50 left.",
+      "legacyDestinationPath": "images/screenshots/deposits-and-balance-payments.png",
+      "page": "pages/features/deposits-and-balance-payments.md",
+      "reviewed": "58b176137f415791717a04d5924aeb1adbd1ec8941b58f61cdbe6043dab83a95",
+      "socialBody": "Record a deposit when an order is made, then collect and track the remaining balance later.",
+      "socialHeading": "Take deposits and balances",
+      "socialKey": "deposits-and-balance-payments"
+    },
     "payment-provider-choice": {
       "alt": "Payment Provider settings with Stripe selected among Square, Stripe and SumUp and a configured Stripe test key",
       "assetProfile": "mobile",
