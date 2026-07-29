@@ -3,6 +3,7 @@ title: Sign-up Forms - Chobble Tickets
 meta_title: Volunteer Sign-up Forms & Potluck Sheets | Chobble Tickets
 meta_description: Use Chobble Tickets as a sign-up form for volunteers, potluck contributions, and other collections. Create a free event, add custom questions, and share the link.
 permalink: /features/sign-up-forms/
+ticket_evidence_capture: volunteer-shift-form
 eleventyNavigation:
   key: Sign-up Forms
   parent: Selling Tickets
@@ -22,8 +23,8 @@ blocks:
       the shifts together on one group page. Custom questions can collect access
       needs or other information with the sign-up.
     figure_src: /images/screenshots/summer-fair-volunteer-form.png
-    figure_alt: Oakfield Primary volunteer form with the set-up shift selected, a step-free access answer and a £0 total
-    figure_caption: Each shift is a separate free listing with its own eight-place limit.
+    figure_alt: An Oakfield Primary Summer Fair volunteer page offering a set-up, gate and clear-up shift with eight places each, and asking about access needs
+    figure_caption: 'Three shifts on one page, each with its own eight places, and a question the organiser added. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/volunteer-sign-up.feature">(src)</a></small>'
   - type: markdown
     content: |
       ## How it works

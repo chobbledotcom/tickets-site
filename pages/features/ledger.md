@@ -3,6 +3,7 @@ title: Ledger - Chobble Tickets
 meta_title: Double-entry Ledger - Chobble Tickets
 meta_description: Every income figure, refund, and balance comes from a single double-entry ledger. Filter by date and listing, view per-account statements, and record cash payments.
 permalink: /features/ledger/
+ticket_evidence_capture: listing-ledger
 eleventyNavigation:
   key: Ledger
   parent: Managing Events
@@ -27,7 +28,7 @@ blocks:
       When you view an event's income, an attendee's balance, or a promo
       code's revenue, the figure is calculated from the ledger at that moment.
 
-  - type: split-image
+  - type: markdown
     content: |
       ## The ledger page
 
@@ -40,18 +41,22 @@ blocks:
       total due, total refunded, and booking fees. When you filter to a
       single event, it shows gross ticket sales, recognised income, refunds,
       and the net balance in the ledger.
-    figure_src: /images/screenshots/summer-arts-fair-ledger.png
-    figure_alt: The Summer Arts Fair ledger showing £125 total income and £95 net after costs
-    figure_caption: Filter the ledger to one listing to reconcile ticket sales, other income, and costs.
-  - type: markdown
+  - type: split-image
     content: |
       ## Per-account statements
 
       Each account - an attendee, an event, or a modifier - has its own
-      statement page showing a running balance. Every transfer in or out is
-      listed with a time, the event, the counterparty, the change, and the
-      running balance.
+      statement page. Every transfer in or out is listed with what it
+      changed, and the balance they add up to is shown above them.
 
+      A booking paid for online is written down once, as one sale and one
+      payment belonging to the same order, so the statement and every other
+      page showing that figure agree.
+    figure_src: /images/screenshots/summer-arts-fair-ledger.png
+    figure_alt: A Workshop listing's statement showing an income balance of £50 and one line, a booking worth £50
+    figure_caption: 'One paid booking, written down once, on the statement for the listing it was paid to. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/payments/what-a-paid-booking-earned.feature">(src)</a></small>'
+  - type: markdown
+    content: |
       The same statement appears inline on the attendee edit page, so you
       can see an attendee's full payment history without leaving their
       record.

@@ -149,11 +149,20 @@ jobs:
             images/screenshots/payment-provider-choice__facebook.png
             images/screenshots/qr-code-check-in.png
             images/screenshots/qr-code-check-in__facebook.png
+            images/screenshots/riverside-events-team.png
+            images/screenshots/riverside-events-team__facebook.png
             images/screenshots/servicing-studio-floor-hold.png
             images/screenshots/servicing-studio-floor-hold__facebook.png
+            images/screenshots/summer-arts-fair-ledger.png
+            images/screenshots/summer-arts-fair-ledger__facebook.png
+            images/screenshots/summer-fair-volunteer-form.png
+            images/screenshots/summer-fair-volunteer-form__facebook.png
             pages/features/deposits-and-balance-payments.md
+            pages/features/ledger.md
             pages/features/manual-attendees.md
             pages/features/packages.md
             pages/features/qr-code-check-ins.md
             pages/features/servicing-events.md
+            pages/features/sign-up-forms.md
             pages/features/stripe-and-square.md
+            pages/features/users.md

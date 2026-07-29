@@ -237,7 +237,6 @@ These pages are rendered but excluded from the sitemap and main editorial total.
 
 - [x] `scripts/screenshots/oakfield-public-website.js`
 - [x] `scripts/screenshots/summer-appeal-purchase.js`
-- [x] `scripts/screenshots/summer-fair-volunteer-form.js`
 - [x] `scripts/screenshots/duplicate-event.js`
 
 ### Completed Cucumber evidence captures
@@ -245,9 +244,12 @@ These pages are rendered but excluded from the sitemap and main editorial total.
 - [x] `balance-payment-link`
 - [x] `bundle-booking-page`
 - [x] `contact-record`
+- [x] `listing-ledger`
 - [x] `payment-provider-choice`
 - [x] `qr-code-check-in`
 - [x] `servicing-studio-floor-hold`
+- [x] `team-and-roles`
+- [x] `volunteer-shift-form`
 
 ### Highest-value diagrams and comparison templates
 

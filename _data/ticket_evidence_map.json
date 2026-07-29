@@ -39,6 +39,19 @@
       "socialHeading": "Keep a record of each person",
       "socialKey": "manual-attendees"
     },
+    "listing-ledger": {
+      "alt": "A Workshop listing's statement showing an income balance of £50 and one line, a booking worth £50",
+      "assetProfile": "mobile",
+      "caption": "One paid booking, written down once, on the statement for the listing it was paid to.",
+      "caseId": "paid-booking.recorded-once",
+      "galleryCaption": "A listing's statement with one paid booking and the £50 balance it leaves.",
+      "legacyDestinationPath": "images/screenshots/summer-arts-fair-ledger.png",
+      "page": "pages/features/ledger.md",
+      "reviewed": "308705d1ff2d6566ee15d71da66feb9049be2c6cba72e90e6829b2747e8db25b",
+      "socialBody": "Track booking income, offline payments, refunds, costs and outstanding balances in the same ledger.",
+      "socialHeading": "Keep one accounting ledger",
+      "socialKey": "ledger"
+    },
     "payment-provider-choice": {
       "alt": "Payment Provider settings with Stripe selected among Square, Stripe and SumUp and a configured Stripe test key",
       "assetProfile": "mobile",
@@ -77,6 +90,32 @@
       "socialBody": "Block places for maintenance, setup or staff use without adding a customer to the attendee list.",
       "socialHeading": "Hold capacity for servicing",
       "socialKey": "servicing-events"
+    },
+    "team-and-roles": {
+      "alt": "A users table listing jo as the owner and sam as an editor, both active",
+      "assetProfile": "mobile",
+      "caption": "Somebody invited as an editor sets their own password, and from then on has their own login and one role.",
+      "caseId": "editors.joining-from-an-invite",
+      "galleryCaption": "A users table with the owner and an editor who joined from an invite.",
+      "legacyDestinationPath": "images/screenshots/riverside-events-team.png",
+      "page": "pages/features/users.md",
+      "reviewed": "da9562330c59c5d748158538a213e9f5cb7fc569ed6ac4bd41dc5faf353ac97f",
+      "socialBody": "Invite each person with a link they set their own password on. Their role decides which pages they can open.",
+      "socialHeading": "Give team members separate accounts",
+      "socialKey": "team-users"
+    },
+    "volunteer-shift-form": {
+      "alt": "An Oakfield Primary Summer Fair volunteer page offering a set-up, gate and clear-up shift with eight places each, and asking about access needs",
+      "assetProfile": "mobile",
+      "caption": "Three shifts on one page, each with its own eight places, and a question the organiser added.",
+      "caseId": "bookings.volunteer-chooses-shift",
+      "galleryCaption": "A volunteer sign-up page with three shifts of eight places and an access-needs question.",
+      "legacyDestinationPath": "images/screenshots/summer-fair-volunteer-form.png",
+      "page": "pages/features/sign-up-forms.md",
+      "reviewed": "0c9a5eca65143f8e4ed57ef7b57fabc58f019b686ae2c69189d3d1409339e39a",
+      "socialBody": "Give each shift its own place limit, collect access needs and accept a booking with a £0 total.",
+      "socialHeading": "Take volunteer sign-ups",
+      "socialKey": "summer-fair-volunteer-form"
     }
   },
   "schemaVersion": 2

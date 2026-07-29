@@ -3,6 +3,7 @@ title: Users - Chobble Tickets
 meta_title: Multi-User Management - Chobble Tickets
 meta_description: Invite team members as owners, managers, editors, or logistics agents to manage sessions and track activity in Chobble Tickets.
 permalink: /features/users/
+ticket_evidence_capture: team-and-roles
 eleventyNavigation:
   key: Users
   parent: Managing Events
@@ -18,14 +19,15 @@ blocks:
     content: |
       ## Invite your team
 
-      Create a separate account for each person and send them a private invite
-      link. The link expires after seven days.
+      Invite somebody by name and hand them the link. They choose their own
+      password on it, so nobody else ever knows it, and from then on they log
+      in as themselves.
 
-      Choose the role that matches their work. Delivery agents can also be
-      assigned to a named van, driver or crew.
+      Each person carries one role, which decides which pages they can open.
+      The invite link expires after seven days.
     figure_src: /images/screenshots/riverside-events-team.png
-    figure_alt: Mobile users table showing an owner and invites for a manager, editor and delivery agent assigned to Van 2
-    figure_caption: Give each team member their own role and login.
+    figure_alt: A users table listing jo as the owner and sam as an editor, both active
+    figure_caption: 'Somebody invited as an editor sets their own password, and from then on has their own login and one role. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/what-an-editor-can-do.feature">(src)</a></small>'
   - type: markdown
     content: |
 
