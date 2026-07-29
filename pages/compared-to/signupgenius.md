@@ -270,7 +270,8 @@ blocks:
         TimeTap) and want everything in one platform
       - You need a mobile app for on-the-go management
       - You want a free option and don't mind ads on your pages
-      - You need text message reminders to participants
+      - You need text reminders sent to participants automatically rather
+        than by hand
       - You're coordinating complex group activities with slot swapping
         and task management (e.g. weekly volunteer rotas with shift trades)
   - type: markdown

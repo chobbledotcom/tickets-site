@@ -248,7 +248,8 @@ blocks:
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
       - You're a community group, charity, or school (£25/year)
-      - You want [Apple/Google Wallet](/features/apple-wallet/), [calendar
+      - You want [Google Wallet passes](/features/apple-wallet/) without a
+        third-party app, [calendar
         feeds](/features/rss-and-calendar-feeds/), or a [public
         API](/features/public-api/)
       - You value [open source](/features/open-source/) and the ability to

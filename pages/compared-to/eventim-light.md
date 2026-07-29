@@ -297,7 +297,8 @@ blocks:
         ticketing company
       - You have very low volume and prefer paying 8% per ticket over a
         flat fee
-      - You want promotion codes for marketing campaigns
+      - You want a presale code that opens an early sale to the people
+        holding it
   - type: markdown
     content: |
       ## When Chobble Tickets is the better choice

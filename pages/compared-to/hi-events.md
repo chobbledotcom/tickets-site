@@ -188,9 +188,10 @@ blocks:
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
         plain database rows
-      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        create promo codes, discount codes, surcharges, and opt-in add-ons
-        with stock limits and a live running total
+      - **[Surcharges and returning-customer pricing](/features/promo-codes-and-add-ons/)** -
+        beyond the promo codes and add-ons both platforms offer, a price
+        rule can add a surcharge, scale a price, or change it for someone
+        who has booked before
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
       - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
