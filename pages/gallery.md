@@ -38,6 +38,8 @@ blocks:
         caption: A children's party package that requires one entertainer choice.
       - image: /images/screenshots/promo-codes-and-add-ons-checkout__facebook.png
         caption: An early-booking discount code and a parking pass added to an order.
+      - image: /images/screenshots/summer-fair-volunteer-form__facebook.png
+        caption: A volunteer sign-up page with three shifts of eight places and an access-needs question.
       - image: /images/screenshots/custom-questions-checkout__facebook.png
         caption: Custom questions at checkout — bread experience and food allergies.
       - image: /images/screenshots/industry-catering-booking__facebook.png
@@ -69,13 +71,13 @@ blocks:
       - image: /images/screenshots/logistics-deliveries__facebook.png
         caption: A delivery run sheet — drop-off and collection for each booking.
       - image: /images/screenshots/riverside-events-team__facebook.png
-        caption: The team page — owner, manager, editor and a delivery agent on Van 2.
+        caption: A users table with the owner and an editor who joined from an invite.
       - image: /images/screenshots/bulk-email-preview__facebook.png
         caption: A bulk email preview before it is sent to a saved attendee group.
       - image: /images/screenshots/confirmation-email-template-editor__facebook.png
         caption: The confirmation email editor with attendee and ticket placeholders.
       - image: /images/screenshots/summer-arts-fair-ledger__facebook.png
-        caption: The ledger — gross sales, recognised income and the net balance.
+        caption: A listing's statement with one paid booking and the £50 balance it leaves.
       - image: /images/screenshots/industry-folk-club-ledger__facebook.png
         caption: A folk club ledger combining advance sales, door income and event costs.
       - image: /images/screenshots/group-bulk-actions__facebook.png

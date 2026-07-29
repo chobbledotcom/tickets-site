@@ -1,0 +1,63 @@
+/* The admin side of a riverside events programme: cool greys, one plum accent,
+ * and a table that has to stay readable at phone width. */
+:root {
+  --border-radius: 6px;
+  --color-accent: #7b3f66;
+  --color-bg: #eceef2;
+  --color-bg-secondary: #ffffff;
+  --color-link: #5d2f4e;
+  --color-secondary: #5d2f4e;
+  --color-secondary-accent: #f3eef2;
+  --color-shadow: #2b1c2626;
+  --color-table: #5d2f4e;
+  --color-text: #262b31;
+  --color-text-secondary: #6d757e;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-page {
+  background: #fff;
+  border: 1px solid #dcdfe5;
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+.admin-page h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+}
+
+.admin-page .table-scroll {
+  overflow: visible;
+}
+
+.admin-page table {
+  font-size: 0.82rem;
+  table-layout: fixed;
+  white-space: normal;
+  width: 100%;
+}
+
+.admin-page th {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.admin-page th,
+.admin-page td {
+  padding: 0.45rem;
+}
+
+/* The banded row is drawn in the table colour rather than a tint of it, which
+ * at full strength reads as a selected row instead of a striped one. */
+.admin-page tbody tr:nth-child(even) {
+  background: #f3eef2;
+}
+
+.admin-page tbody tr:nth-child(even) td,
+.admin-page tbody tr:nth-child(even) th {
+  background: transparent;
+  color: var(--color-text);
+}

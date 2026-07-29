@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "203334715729e6bc69c531759d727f879263b0d7",
+    "commit": "afb60392279e35d95f3fdcd7ccc0e49180f47be6",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -178,6 +178,60 @@
         "uri": "specs/attendees/the-record-kept-about-someone.feature"
       }
     },
+    "listing-ledger": {
+      "case": {
+        "id": "paid-booking.recorded-once",
+        "name": "A customer pays 50.00 for a Workshop place"
+      },
+      "id": "listing-ledger",
+      "image": {
+        "height": 476,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "8a040fda43c19b960a4aee3924b3ab7374bdf156be8c8006ecce43a338408f16",
+        "src": "/images/screenshots/summer-arts-fair-ledger.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 828
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "One sale and one payment, belonging to the same order. No booking fee is\ntaken unless the organiser has set one up.",
+        "id": "payments.a-paid-booking-is-recorded-once-and-every-page-agrees",
+        "name": "A paid booking is recorded once, and every page shows the same figure"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "a customer paid 50.00 for a Workshop place"
+        },
+        {
+          "keyword": "Then",
+          "text": "the Workshop earned 50.00 and the customer owes nothing"
+        },
+        {
+          "keyword": "And",
+          "text": "the booking holds one sale and one payment of 50.00, in one order"
+        },
+        {
+          "keyword": "And",
+          "text": "no booking fee was taken"
+        },
+        {
+          "keyword": "And",
+          "text": "every page shows the Workshop earning 50.00"
+        }
+      ],
+      "story": {
+        "description": "When someone pays for a place, the listing earns exactly what they paid, the\ncustomer owes nothing, and every page that shows the figure agrees. The\nbooking is written down once — one sale and one payment, kept together.",
+        "id": "payments.what-a-paid-booking-earned",
+        "name": "An organiser sees what a paid booking earned",
+        "uri": "specs/payments/what-a-paid-booking-earned.feature"
+      }
+    },
     "payment-provider-choice": {
       "case": {
         "id": "payments.select-saved-stripe",
@@ -314,6 +368,106 @@
         "id": "servicing.hold-and-cost",
         "name": "An organiser holds and costs a service event",
         "uri": "specs/servicing/hold-and-cost.feature"
+      }
+    },
+    "team-and-roles": {
+      "case": {
+        "id": "editors.joining-from-an-invite",
+        "name": "Someone invited as an editor sets a password and logs in"
+      },
+      "id": "team-and-roles",
+      "image": {
+        "height": 594,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "c28eb08b9adaff2b76deb33be7268b219dcb0e10a2fb4b1ffeab63514a5b8cc2",
+        "src": "/images/screenshots/riverside-events-team.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 828
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "The owner invites them by name and hands over a link. The editor chooses\ntheir own password on that link, and from then on they log in and land on\nthe listings, which is where their work is.",
+        "id": "servicing.an-editor-sets-up-their-own-account",
+        "name": "An editor sets up their own account from an invite"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "the owner invites Sam to help with the listings"
+        },
+        {
+          "keyword": "When",
+          "text": "Sam follows the invite and chooses a password"
+        },
+        {
+          "keyword": "And",
+          "text": "Sam logs in"
+        },
+        {
+          "keyword": "Then",
+          "text": "Sam is looking at the listings"
+        }
+      ],
+      "story": {
+        "description": "An owner can let somebody help with what the site says without letting them\nnear the people who have booked. That helper is an editor: they write and\nchange listings, groups and site pages, and that is the whole of it. They\nare never shown a customer's details, what anything earned, or the settings\nthat run the site — and they hold no key that could open those details even\nif they found a way to the page.",
+        "id": "servicing.what-an-editor-can-do",
+        "name": "An owner gives someone the run of the listings, and nothing else",
+        "uri": "specs/servicing/what-an-editor-can-do.feature"
+      }
+    },
+    "volunteer-shift-form": {
+      "case": {
+        "id": "bookings.volunteer-chooses-shift",
+        "name": "Sam signs up for the set-up shift"
+      },
+      "id": "volunteer-shift-form",
+      "image": {
+        "height": 1722,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "4a9d28426f4713997a529ff3c759686eaae5f96146f28ea7d64e768577668b13",
+        "src": "/images/screenshots/summer-fair-volunteer-form.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 772
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "The confirmation and attendee list show the shift the volunteer chose.",
+        "id": "bookings.free-shift-is-recorded",
+        "name": "A free shift sign-up appears on the organiser's attendee list"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "Oakfield has three volunteer shifts with eight places each"
+        },
+        {
+          "keyword": "When",
+          "text": "Sam signs up for the set-up shift and asks for step-free access"
+        },
+        {
+          "keyword": "Then",
+          "text": "Sam receives a free booking confirmation for the set-up shift"
+        },
+        {
+          "keyword": "And",
+          "text": "the organiser sees Sam and the access note on the set-up shift"
+        }
+      ],
+      "story": {
+        "description": "A volunteer can choose one shift and share an access need without paying.\nThe organiser can see the volunteer and their answer on the chosen shift.",
+        "id": "bookings.volunteer-sign-up",
+        "name": "A volunteer signs up for a free shift",
+        "uri": "specs/bookings/volunteer-sign-up.feature"
       }
     }
   },

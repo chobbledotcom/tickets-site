@@ -556,6 +556,14 @@ export const SOCIAL_IMAGE_FACTS = {
   ],
   "team-users": [
     {
+      fact: "An invited person sets their own password on a single-use /join link, and the invite cannot be used twice.",
+      sources: [
+        "../tickets/src/features/admin/users.ts:312-343",
+        "../tickets/src/features/join.ts:113-140",
+        "../tickets/specs/servicing/what-an-editor-can-do.feature:14-25",
+      ],
+    },
+    {
       fact: "Users have separate logins and one fixed role: owner, manager, editor or delivery agent.",
       sources: [
         "../tickets/src/shared/types.ts:577-647",

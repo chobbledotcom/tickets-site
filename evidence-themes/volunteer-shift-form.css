@@ -1,0 +1,49 @@
+/* A summer fair's volunteer sign-up page, dressed the way a small community
+ * organisation might dress it: warm paper, one strong blue, nothing else. */
+:root {
+  --border-radius: 12px;
+  --color-accent: #d4762a;
+  --color-bg: #1f3b57;
+  --color-bg-secondary: #fff8ef;
+  --color-link: #1f3b57;
+  --color-secondary: #17304a;
+  --color-secondary-accent: #1f3b5718;
+  --color-shadow: #10233626;
+  --color-table: #1f3b57;
+  --color-text: #21303c;
+  --color-text-secondary: #64757f;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+.public-page {
+  background: #fff8ef;
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 14px 32px var(--color-shadow);
+  padding: 1.25rem;
+}
+
+.public-page h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.8rem;
+}
+
+.public-page label {
+  color: var(--color-secondary);
+  font-weight: 700;
+}
+
+.public-page select,
+.public-page input {
+  background: #fff;
+  border-color: #d8c6b2;
+  border-radius: var(--border-radius);
+}
+
+.public-page button[type="submit"] {
+  background: var(--color-secondary);
+  border-color: #0f2437;
+  border-radius: var(--border-radius);
+  color: #fff8ef;
+  font-weight: 800;
+}

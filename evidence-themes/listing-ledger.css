@@ -1,0 +1,75 @@
+:root {
+  --border-radius: 8px;
+  --color-accent: #3f6f52;
+  --color-bg: #eef2ee;
+  --color-bg-secondary: #ffffff;
+  --color-link: #2f5741;
+  --color-secondary: #2f5741;
+  --color-secondary-accent: #2f574118;
+  --color-shadow: #24402f26;
+  --color-table: #2f5741;
+  --color-text: #22302a;
+  --color-text-secondary: #6b7a72;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-page {
+  background: #fff;
+  border: 1px solid #d4ded7;
+  border-top: 6px solid var(--color-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+.admin-page .table-scroll {
+  overflow: visible;
+}
+
+.admin-page table {
+  font-size: 0.82rem;
+  table-layout: fixed;
+  white-space: normal;
+  width: 100%;
+}
+
+.admin-page th {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.admin-page th,
+.admin-page td {
+  padding: 0.45rem;
+}
+
+/* The first column is when each line was written, which is the moment the
+ * capture ran: it would be different every time without anything about the
+ * site having changed. The third names the other side of the transfer, which
+ * the activity column has already said, and the last repeats the balance the
+ * heading above the table already gives. What is left is the line the case is
+ * about: one booking, and what it added. */
+.admin-page th:nth-child(1),
+.admin-page td:nth-child(1),
+.admin-page th:nth-child(3),
+.admin-page td:nth-child(3),
+.admin-page th:nth-child(5),
+.admin-page td:nth-child(5) {
+  display: none;
+}
+
+.admin-page th:nth-child(2),
+.admin-page td:nth-child(2) {
+  width: 76%;
+}
+
+.admin-page th:nth-child(4),
+.admin-page td:nth-child(4) {
+  width: 24%;
+}
+
+/* Adding money by hand is a different story from reading what was earned. */
+.admin-page a.btn,
+.admin-page .btn {
+  display: none;
+}

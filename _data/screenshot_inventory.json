@@ -24,7 +24,11 @@
   { "key": "industry-personal-trainer", "classification": "legacy-product-screenshot" },
   { "key": "industry-skip-hire", "classification": "legacy-product-screenshot" },
   { "key": "industry-venue-hire", "classification": "legacy-product-screenshot" },
-  { "key": "ledger", "classification": "legacy-product-screenshot" },
+  {
+    "key": "ledger",
+    "classification": "linked-evidence",
+    "captureId": "listing-ledger"
+  },
   { "key": "listing-management", "classification": "legacy-product-screenshot" },
   { "key": "logistics", "classification": "legacy-product-screenshot" },
   {
@@ -60,7 +64,15 @@
   },
   { "key": "site-customisation", "classification": "legacy-product-screenshot" },
   { "key": "summer-appeal-purchase", "classification": "legacy-product-screenshot" },
-  { "key": "summer-fair-volunteer-form", "classification": "legacy-product-screenshot" },
-  { "key": "team-users", "classification": "legacy-product-screenshot" },
+  {
+    "key": "summer-fair-volunteer-form",
+    "classification": "linked-evidence",
+    "captureId": "volunteer-shift-form"
+  },
+  {
+    "key": "team-users",
+    "classification": "linked-evidence",
+    "captureId": "team-and-roles"
+  },
   { "key": "workshop-terms-checkout", "classification": "legacy-product-screenshot" }
 ]

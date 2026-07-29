@@ -153,7 +153,7 @@ export const SOCIAL_SCREENSHOT_COPY = {
   },
   "team-users": {
     heading: "Give team members separate accounts",
-    body: "Invite users as owners, managers, editors or delivery agents, each with a separate login and fixed permissions.",
+    body: "Invite each person with a link they set their own password on. Their role decides which pages they can open.",
   },
   "workshop-terms-checkout": {
     heading: "Require agreement before booking",
