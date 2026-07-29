@@ -107,7 +107,8 @@ blocks:
       - Refund processing
       - Bookings recorded by hand for cash and door sales
       - A log of admin actions and booking activity
-      - Retention and anonymisation tools for attendee data
+      - Retention rules and erasure tools for attendee data
+      - Team accounts that can edit listings without seeing attendee records
       - CSV export of booking data
       - A public API and an authenticated admin API
       - Webhooks for real-time notifications
@@ -247,7 +248,9 @@ blocks:
         contact details, payment references and free-text answers are
         encrypted before they are stored. Only the keys held by your own
         administrator accounts, plus the optional recovery account you can
-        enable, unlock them
+        enable, unlock them. Both platforms can restrict a team member to
+        editing listings, but an [editor](/features/editors/) here holds no
+        key, so the data stays unreadable to them even at the database
       - **[Flat pricing](/features/no-per-ticket-fees/)** - £50/year or
         £5/month whatever you sell, with no percentage taken from any
         ticket
@@ -277,9 +280,6 @@ blocks:
         booking
       - **[Postcode lookup](/features/postcode-lookup/)** - buyers type a
         postcode and pick their address from a list
-      - **[Editor accounts](/features/editors/)** - invite someone who can
-        write your listings and site content but cannot decrypt attendee
-        data
       - **[Subscribable calendar and RSS feeds](/features/rss-and-calendar-feeds/)** -
         one feed listing all your events, so subscribers see new ones
         automatically
