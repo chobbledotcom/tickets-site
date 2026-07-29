@@ -139,7 +139,7 @@ blocks:
       - Custom branding on your ticket shop
       - Custom checkout questions
       - [Promotion and discount codes](/features/promo-codes-and-add-ons/)
-        for marketing campaigns and presales
+        for marketing campaigns
   - type: markdown
     content: |
       ### EVENTIM.Light has features Chobble Tickets doesn't
@@ -148,6 +148,10 @@ blocks:
         [eventim.co.uk](https://www.eventim.co.uk) (500,000+ monthly visitors
         in the UK), giving you access to an existing audience of ticket buyers
         browsing for events
+      - **Presale codes** - a code that opens an early sale to the people
+        holding it. Chobble Tickets promo codes change the price at
+        checkout, and a listing can be hidden from the public list, but a
+        code cannot unlock an early sale
       - **Seating plan editor** - create custom venue seating charts and offer
         reserved seating or best-seat booking, useful for theatres and seated
         venues (note: seating plans cannot be edited after the event is

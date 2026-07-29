@@ -369,8 +369,9 @@ blocks:
 
       Pretix stores attendee data in a PostgreSQL database in readable
       form. On Pretix Hosted that database is run by pretix GmbH; on a
-      self-hosted install it sits on your own server. Pretix does not use
-      attendee data to market other events.
+      self-hosted install it sits on your own server. The sources reviewed
+      do not document whether Pretix uses attendee data to market other
+      events.
 
       Chobble Tickets encrypts attendee names, contact details, payment
       references and free-text answers before they are stored. Only the
