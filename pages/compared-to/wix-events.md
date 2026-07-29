@@ -123,9 +123,12 @@ blocks:
         or specific membership tiers via Wix's Pricing Plans
       - **Online event hosting** - live stream events via Wix Video (up to
         3 hours) or create Zoom-integrated events with auto-sent join links
-      - **Built-in email marketing** - send event campaigns, scheduled
-        reminders, and automations through Wix's email marketing tools,
-        plus broadcast messages to all guests via the Wix app
+      - **Scheduled email reminders and automations** - Wix sends campaigns
+        on a schedule and runs automations through its email marketing
+        tools, plus broadcast messages to all guests via the Wix app.
+        Chobble Tickets sends [bulk email](/features/bulk-email/) to
+        attendee segments when you send it, with no scheduling or
+        automations
       - **Event analytics** - built-in reporting on registrations, sales,
         and attendance
       - **Buy-now-pay-later** - Klarna and Clearpay support via
@@ -138,9 +141,6 @@ blocks:
         [currency](https://support.wix.com/en/article/wix-events-changing-your-currency)
         for each event (not dynamic multi-currency display, but useful for
         international organisers)
-      - **Apple Wallet passes** - guests on iOS can add tickets to Apple
-        Wallet (Google Wallet requires a third-party app like
-        [PassKit](https://integrations.passkit.com/wix/))
       - **Custom registration form field types** - conditional logic,
         dependent fields, and other field types beyond the free-text and
         multiple-choice questions Chobble Tickets supports
@@ -162,9 +162,11 @@ blocks:
         matter how many you sell
       - **No bundled website subscription required** - Wix Events requires a
         Wix Business & eCommerce plan; Chobble Tickets does not
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
-        attendees can add tickets to both Apple Wallet and Google Wallet
-        natively, without third-party apps
+      - **[Google Wallet tickets](/features/apple-wallet/)** - attendees can
+        add tickets to Google Wallet as well as Apple Wallet, without a
+        third-party app. Wix Events supports Apple Wallet, and its
+        documentation points to a third-party app such as
+        [PassKit](https://integrations.passkit.com/wix/) for Google Wallet
       - **[Embeddable ticket widget](/features/embeddable-widget/)** - drop
         an iframe snippet into any external website to show your events
         inline. Wix Events is documented as an app for Wix websites; the

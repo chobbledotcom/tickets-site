@@ -138,6 +138,8 @@ blocks:
       - Event series / recurring events
       - Custom branding on your ticket shop
       - Custom checkout questions
+      - [Promotion and discount codes](/features/promo-codes-and-add-ons/)
+        for marketing campaigns and presales
   - type: markdown
     content: |
       ### EVENTIM.Light has features Chobble Tickets doesn't
@@ -152,8 +154,6 @@ blocks:
         published)
       - **Facebook event integration** - create and sync Facebook events
         directly from the platform
-      - **Promotion codes** - create individual discount and presale codes for
-        marketing campaigns
       - **Ad pixel tracking** - embed Google and Meta (Facebook) tracking
         pixels to analyse where your ticket buyers come from and build
         retargeting audiences

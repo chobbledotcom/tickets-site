@@ -103,7 +103,10 @@ blocks:
       - **Built-in email marketing** - send campaigns to attendees and
         followers with up to 10,000 daily sends on
         [Pro](https://www.eventbrite.com/organizer/pricing/), including
-        audience segmentation and automated event reminders
+        audience segmentation and automated event reminders. Chobble
+        Tickets sends [bulk email](/features/bulk-email/) to attendee
+        segments through your own email provider, but has no follower
+        list and no automatic reminders
       - **Social media ad tools** - launch Facebook and Instagram ad
         campaigns directly from Eventbrite with audience targeting
         and [retargeting](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/)

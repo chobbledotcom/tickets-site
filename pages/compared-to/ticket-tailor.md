@@ -125,7 +125,10 @@ blocks:
         download attendee lists for offline scanning
       - **Waitlists** - built-in waitlist support for sold-out events
       - **Ticket bundles** - combine tickets and add-ons into a single
-        bundle at a discounted price (for example, two adults plus a child)
+        bundle at a discounted price (for example, two adults plus a
+        child). Chobble Tickets sells several listings together as a
+        [package](/features/packages/) at a bundle price, booked all or
+        nothing
       - **Tracking links** - generate UTM-tagged links to see which
         marketing channels drove each sale
       - **Direct marketing integrations** - built-in connectors for

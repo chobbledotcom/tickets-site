@@ -92,6 +92,9 @@ blocks:
       - Refund processing from the admin panel
       - Recurring events and timed slots
       - Custom questions at checkout
+      - [Deposits](/features/deposits-and-balance-payments/) taken at
+        booking, with the balance collected later
+      - Text messages to customers alongside email
       - Reporting on bookings and revenue
   - type: markdown
     content: |
@@ -103,8 +106,10 @@ blocks:
       - **Digital waivers** - collect signed liability waivers at booking
         time and store them against the customer record, which matters for
         escape rooms, climbing, axe-throwing, and similar activities
-      - **SMS reminders** - send text-message confirmations and reminders
-        to customers as well as email
+      - **Automatic SMS reminders** - the platform sends text confirmations
+        and reminders on a schedule. Chobble Tickets
+        [texts attendees](/features/sms-messages/) from your own Android
+        phone when you send the message, with no automatic reminders
       - **Built-in CRM** - persistent customer profiles with notes, custom
         fields, and activity tracking across every booking
       - **Abandoned booking recovery** - automated follow-up emails to
@@ -113,8 +118,6 @@ blocks:
         admin interface alongside online bookings
       - **Gift voucher system** - sell monetary or experience-specific
         vouchers online that customers redeem at checkout
-      - **Deposits** - take a deposit at booking instead of the full
-        amount up front
       - **Multi-location management** - run bookings across several
         venues from one account
       - **SpeedPay** - Resova's own payment-processing product as an
@@ -150,6 +153,9 @@ blocks:
         capacity cap
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their own price
+      - **[Double-entry ledger](/features/ledger/)** - every income figure,
+        refund and outstanding balance comes from one ledger you can filter
+        by date and listing
       - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
       - **[Custom questions](/features/custom-questions/)** - add
@@ -208,9 +214,8 @@ blocks:
       - You need digital waiver collection at the point of booking
       - You need resource scheduling across rooms, guides, or equipment
       - You want a built-in CRM that tracks repeat customers
-      - You want SMS reminders in addition to email
+      - You want SMS reminders sent automatically rather than by hand
       - You want to take walk-in bookings alongside online bookings
-      - You want to take deposits rather than full payment at booking
       - You are running multiple venues and want unified reporting
       - You sell well over 600 bookings a month and still want a single
         flat plan

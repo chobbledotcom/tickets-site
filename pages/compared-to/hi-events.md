@@ -118,6 +118,8 @@ blocks:
       - Email confirmations to attendees after booking
       - Free event support with no payment setup required
       - Refund processing
+      - [Add-ons](/features/promo-codes-and-add-ons/) sold alongside
+        tickets, such as merchandise, parking or meal upgrades
       - Embeddable ticket widgets for your own website
       - Multiple ticket types per event with shared capacity limits -
         both platforms support VIP, early bird, and tiered pricing with
@@ -133,8 +135,6 @@ blocks:
         event pages with custom layouts, images, and sections
       - **Affiliate and referral tracking** - track which promoters and
         links are driving ticket sales with commission tracking
-      - **Product add-ons** - sell merchandise, parking, meal upgrades, or
-        other extras alongside tickets
       - **Custom PDF ticket designs** - design your own ticket layouts with
         branding, logos, and custom fields
       - **Multi-currency support** - sell in different currencies for
