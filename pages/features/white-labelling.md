@@ -1,7 +1,7 @@
 ---
 title: White Labelling - Chobble Tickets
 meta_title: White Label Event Ticketing | Chobble Tickets
-meta_description: Chobble Tickets carries no provider branding. Booking pages, tickets and emails use the organiser's name, domain and email address at no extra cost.
+meta_description: Chobble Tickets carries no provider branding. Booking pages, tickets and emails use the organiser's name, domain and email address, with no extra Chobble charge.
 permalink: /features/white-labelling/
 eleventyNavigation:
   key: White Labelling

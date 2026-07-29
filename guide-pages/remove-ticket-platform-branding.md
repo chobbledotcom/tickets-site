@@ -100,15 +100,15 @@ blocks:
         removed was not documented in the sources reviewed.
   - type: markdown
     content: |
-      ## Marketplaces, where branding removal was not reviewed
+      ## Discovery platforms, where branding removal was not reviewed
 
-      Marketplace platforms such as [Eventbrite](/compared-to/eventbrite/),
-      [DICE](/compared-to/dice/), [Fatsoma](/compared-to/fatsoma/),
-      [FIXR](/compared-to/fixr/) and
-      [Resident Advisor](/compared-to/resident-advisor/) list events in a
-      public catalogue that carries their name. The catalogue is how those
-      services find buyers, so an event listed there is presented alongside
-      other organisers' events.
+      [Resident Advisor](/compared-to/resident-advisor/) is recorded as
+      running an event marketplace, where a listing carries the provider's name
+      and sits alongside other organisers' events.
+      [Eventbrite](/compared-to/eventbrite/), [DICE](/compared-to/dice/),
+      [Fatsoma](/compared-to/fatsoma/) and [FIXR](/compared-to/fixr/) each
+      describe event discovery on their comparison pages, though their
+      marketplace classification has not been reviewed and stored.
 
       What each of these providers allows an organiser to remove from its own
       checkout was not reviewed, so this guide records no outcome for them.
