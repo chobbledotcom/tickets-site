@@ -113,6 +113,10 @@ jobs:
             _data/ticket_evidence_lock.json
             images/screenshots/deposits-and-balance-payments.png
             images/screenshots/deposits-and-balance-payments__facebook.png
+            images/screenshots/garden-party-package-checkout.png
+            images/screenshots/garden-party-package-checkout__facebook.png
+            images/screenshots/manual-attendee-community-supper.png
+            images/screenshots/manual-attendee-community-supper__facebook.png
             images/screenshots/payment-provider-choice.png
             images/screenshots/payment-provider-choice__facebook.png
             images/screenshots/qr-code-check-in.png
@@ -120,6 +124,8 @@ jobs:
             images/screenshots/servicing-studio-floor-hold.png
             images/screenshots/servicing-studio-floor-hold__facebook.png
             pages/features/deposits-and-balance-payments.md
+            pages/features/manual-attendees.md
+            pages/features/packages.md
             pages/features/qr-code-check-ins.md
             pages/features/servicing-events.md
             pages/features/stripe-and-square.md

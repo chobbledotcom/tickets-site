@@ -3,6 +3,7 @@ title: Manual Attendees - Chobble Tickets
 meta_title: Manual Attendees - Chobble Tickets
 meta_description: Add walk-ins and comp tickets, edit bookings, merge duplicate attendee records and keep offline payments with the same event record.
 permalink: /features/manual-attendees/
+ticket_evidence_capture: contact-record
 eleventyNavigation:
   key: Manual Attendees
   parent: Managing Events
@@ -14,16 +15,13 @@ blocks:
       # Manual attendees
 
       Add walk-ins and complimentary tickets, edit booking records, and merge duplicate attendees from the administration area.
-  - type: split-image
+  - type: markdown
     content: |
       ## One list for every guest
 
       Add a name, contact details, and ticket quantity from the admin area.
       The new record appears in the same event list as online bookings, ready
       for check-in and export.
-    figure_src: /images/screenshots/manual-attendee-community-supper.png
-    figure_alt: Community Supper attendee list showing Maya Patel with three tickets
-    figure_caption: Add walk-ins and complimentary places straight to the event list.
   - type: markdown
     content: |
       ## Walk-ins and comp tickets
@@ -45,18 +43,30 @@ blocks:
       attendee lists, CSV exports, and check-in screens, so you always have
       one complete picture of who's coming.
 
+  - type: split-image
+    content: |
+      ## What is kept about one person
+
+      Each person the site has dealt with has a record of their own: how many
+      times they booked online, how many bookings you added for them, how
+      often they have been in touch, and a private note only you can read.
+
+      The record is filed under a one-way code made from their email address,
+      so the address itself is never stored beside it. You can correct every
+      figure on it, and the note, yourself.
+    figure_src: /images/screenshots/manual-attendee-community-supper.png
+    figure_alt: A contact record showing 9 visits, 5 online bookings, 2 admin bookings, 4 messages sent and a private note reading VIP Sam
+    figure_caption: 'What the site remembers about someone, and the private note only the organiser reads. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/the-record-kept-about-someone.feature">(src)</a></small>'
+  - type: markdown
+    content: |
       ## Notes per attendee
 
-      Each attendee record has space for two kinds of notes. Owner notes are
-      private notes you write - anything you need to remember about that
-      booking. System notes are auto-generated red alerts when something
-      needs your attention, such as a booking that was charged but could not
-      be honoured and was refunded.
-
-      Both kinds appear in a notes block on the attendee record, plus an
-      expandable summary at the top of the event's attendee list and the
-      global attendee list, so outstanding issues are visible without
-      opening every record.
+      A booking also carries system notes: auto-generated red alerts when
+      something needs your attention, such as a booking that was charged but
+      could not be honoured and was refunded. They appear on the attendee
+      record, plus an expandable summary at the top of the event's attendee
+      list and the global attendee list, so outstanding issues are visible
+      without opening every record.
 
       ## Merge duplicate attendees
 
