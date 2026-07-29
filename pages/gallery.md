@@ -61,7 +61,7 @@ blocks:
       - image: /images/screenshots/industry-venue-hire-booking__facebook.png
         caption: A venue hire checkout with an available date and two-day price.
       - image: /images/screenshots/manual-attendee-community-supper__facebook.png
-        caption: A person's own record: how often they booked, how often they were in touch, and a private note.
+        caption: One person's record, showing how often they booked, how often they were in touch, and a private note.
       - image: /images/screenshots/attendee-statuses__facebook.png
         caption: Attendee statuses — Reserved, Confirmed and Collected, in order.
       - image: /images/screenshots/qr-code-check-in__facebook.png

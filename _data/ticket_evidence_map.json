@@ -31,10 +31,10 @@
       "assetProfile": "mobile",
       "caption": "What the site remembers about someone, and the private note only the organiser reads.",
       "caseId": "contact-record.a-record-with-a-history-behind-it",
-      "galleryCaption": "A person's own record: how often they booked, how often they were in touch, and a private note.",
+      "galleryCaption": "One person's record, showing how often they booked, how often they were in touch, and a private note.",
       "legacyDestinationPath": "images/screenshots/manual-attendee-community-supper.png",
       "page": "pages/features/manual-attendees.md",
-      "reviewed": "a6812f34c2ee53d103ce1605dc940023a6cca91236d9e54fe3a48f000691e147",
+      "reviewed": "c05bb662d75c90368d6a6d8c71d7e61348fd86182faee135960f9393ead51ff7",
       "socialBody": "Add walk-ins and telephone bookings alongside online bookings. Waive the price in Money when a place is complimentary.",
       "socialHeading": "Add attendees by hand",
       "socialKey": "manual-attendees"
