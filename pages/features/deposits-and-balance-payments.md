@@ -3,6 +3,7 @@ title: Deposits & Balance Payments - Chobble Tickets
 meta_title: Deposits, Reservations & Balance Payments - Chobble Tickets
 meta_description: Take a deposit at booking time and collect the balance later through a secure payment link. Statuses, ledger tracking, and offline payments included.
 permalink: /features/deposits-and-balance-payments/
+ticket_evidence_capture: balance-payment-link
 eleventyNavigation:
   key: Deposits & Balances
   parent: Selling Tickets
@@ -52,16 +53,16 @@ blocks:
       ## The customer payment link
 
       Each reserved booking has a payment link at a tokenised URL. The
-      page shows what was booked, what has been paid, and what is left,
+      page names what was booked, what has been paid, and what is left,
       then takes the customer to your payment provider to pay the
       outstanding balance.
-      The link is signed, so it cannot be guessed, and it contains no
-      personal data. Once the balance is settled, the page reports that
-      there is nothing left to pay, and the booking moves to your
-      paid status.
+      The link is signed, so it cannot be guessed, and it names nobody:
+      not the person who booked, nor their email address. Once the
+      balance is settled, the page reports that there is nothing left to
+      pay, and the booking moves to your paid status.
     figure_src: /images/screenshots/deposits-and-balance-payments.png
-    figure_alt: Weekend Pottery Course balance page showing a £120 order, £30 paid and £90 left to pay
-    figure_caption: Customers can see what they paid and settle the exact balance online.
+    figure_alt: Balance payment page for one Retreat place, showing an £80 order, £30 already paid and £50 still due
+    figure_caption: The page a customer opens from their payment link, naming what they booked, what they have paid and what is left. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/payments/paying-a-deposit.feature">(src)</a></small>
   - type: markdown
     content: |
       ## Balance tracking and offline payments

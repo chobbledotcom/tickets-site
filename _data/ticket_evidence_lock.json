@@ -1,20 +1,23 @@
 {
   "app": {
-    "commit": "61aaf983cd151b01d958b84a7c46273eb5f9b6e7",
+    "commit": "fa39a4adfb69c74036aa6f024336be6f797d1af8",
     "repository": "chobbledotcom/tickets"
   },
-  "artifactSha256": "a67bcae9a85403fdfeae5de8b001929f03d1444022c73e5dc7958b06088f1c65",
+  "artifactSha256": "20ee9655eb023f29dceb7eaed1508f478709fac769205d201f98511c7cd707b8",
   "files": {
-    "_data/ticket_evidence.json": "6a1090c84677577207975a81a8bac206a1d3ac8cae629d4ef2065c7ccfe5ea55",
+    "_data/ticket_evidence.json": "64d7927cc0ebf7f894aa4c0d5cc19fc937d49def07582a06659c28a5674c28e5",
+    "images/screenshots/deposits-and-balance-payments.png": "ff80a745a8f1d0ed736a6f46b2c592e622a997eef1eab56e36fef5997b43338f",
+    "images/screenshots/deposits-and-balance-payments__facebook.png": "aaf450bb68c2f4b11023ec25e9b8fe30c93e357f4403b4bd1f9ae2f3724f9cf3",
     "images/screenshots/payment-provider-choice.png": "5666e83e1414d6deb0cb39e20a73b3930364cfd2b7d93d269e479b73b380bbd8",
     "images/screenshots/payment-provider-choice__facebook.png": "b35a0c16c070076d1563056d34c97b5fec5308b8cac804256424a71725d30e35",
     "images/screenshots/qr-code-check-in.png": "2c71a0317281f3c5dd750a802168ca51f3c431181e42220400f178eba0bacce6",
     "images/screenshots/qr-code-check-in__facebook.png": "d6b8fee4cb1fe0cca8786669e21d41f0193e5a1cc64088e13a803085465a310e",
-    "images/screenshots/servicing-studio-floor-hold.png": "5cd1d5fc03bf5a49fbf080e045ce7b913850aa30a0d74b35487fef7817edad4c",
-    "images/screenshots/servicing-studio-floor-hold__facebook.png": "532ce2b729ae85ac2e49d3f01f1f551bd309dedbe084aee19f533750b72f44ab"
+    "images/screenshots/servicing-studio-floor-hold.png": "28a1fadbe035b741c42d7f49d850ba7f3d02114563997b5ad6c4f8175fab75f0",
+    "images/screenshots/servicing-studio-floor-hold__facebook.png": "334d1bec349467f1a07ac76996bf2419e4801b70fb807829cf6558cb3099d14a"
   },
   "schemaVersion": 2,
   "socialCopy": {
+    "balance-payment-link": "16ec0391c2bc678ff78ec43d57e2a63c33531c54db1d0640ae76b32f166a485a",
     "payment-provider-choice": "912e2537f1efbb0a4875344e287604a3d3efbde5d80c47337ea4c364c6e16051",
     "qr-code-check-in": "9d19d7f3b0762b529e94c9854c5f626d99f212d1bbff44ebc2832322d5dd374a",
     "servicing-studio-floor-hold": "4b3296c7f28f512e8e352cb15681506f8276c6ea4940ba4938269682cea2e308"

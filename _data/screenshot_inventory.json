@@ -8,7 +8,11 @@
   { "key": "confirmation-email-template-editor", "classification": "legacy-product-screenshot" },
   { "key": "custom-questions", "classification": "legacy-product-screenshot" },
   { "key": "daily-events", "classification": "legacy-product-screenshot" },
-  { "key": "deposits-and-balance-payments", "classification": "legacy-product-screenshot" },
+  {
+    "key": "deposits-and-balance-payments",
+    "classification": "linked-evidence",
+    "captureId": "balance-payment-link"
+  },
   { "key": "duplicate-event", "classification": "legacy-product-screenshot" },
   { "key": "equipment-hire", "classification": "legacy-product-screenshot" },
   { "key": "group-bulk-actions", "classification": "legacy-product-screenshot" },
