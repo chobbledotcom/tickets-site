@@ -54,8 +54,8 @@ blocks:
 
       Each reserved booking has a payment link at a tokenised URL. The
       page names what was booked, what has been paid, and what is left,
-      then takes the customer to your payment provider to pay the
-      outstanding balance.
+      and offers a button that pays the outstanding balance through your
+      payment provider.
       The link is signed, so it cannot be guessed, and it names nobody:
       not the person who booked, nor their email address. Once the
       balance is settled, the page reports that there is nothing left to

@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "fa39a4adfb69c74036aa6f024336be6f797d1af8",
+    "commit": "9ea6373d0fcb2fc03708d8f0ce6f43167ee804e9",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -25,9 +25,9 @@
       },
       "presentation": "branded",
       "rule": {
-        "description": "A reserved booking has a payment link the customer can open without\nsigning in. It names what they booked, what they have paid and what is\nleft, and offers to take the rest. It carries no personal details.",
-        "id": "payments.the-customer-can-see-what-is-left-and-pay-it",
-        "name": "The customer can see what is left and pay it"
+        "description": "A reserved booking has a payment link the customer can open without\nsigning in. It names what they booked, what they have paid and what is\nleft, and offers to take the rest. It carries no personal details.\n\nWhat happens after the offer is taken is a payment provider's business\nand is not read here.",
+        "id": "payments.the-customer-can-see-what-is-left",
+        "name": "The customer can see what is left"
       },
       "steps": [
         {
