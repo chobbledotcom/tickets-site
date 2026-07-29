@@ -23,7 +23,7 @@ blocks:
       ticket see the organiser's site, and need not know which software
       produced it.
 
-      Chobble Tickets is white label on every site, including the £50/year
+      Chobble Tickets is white label on every site, including the cheapest
       managed plan. Some platforms sell branding removal as a paid add-on or
       restrict it to a higher plan.
 
@@ -49,8 +49,10 @@ blocks:
         [Resend, Postmark, SendGrid or Mailgun](/features/email-providers/), so
         they come from the organiser's own domain. The subject, HTML body and
         text body are [editable templates](/features/email-templates/).
-      - **Tickets and check-in.** Ticket pages and QR codes sit on the
-        organiser's domain alongside the rest of the site.
+      - **Tickets and check-in.** Ticket pages and QR codes sit on the same
+        address as the rest of the site, which is the
+        `yourname.tix.chobble.net` address until a custom domain is pointed at
+        it.
       - **An existing website.** The
         [embeddable widget](/features/embeddable-widget/) and
         [order widget](/features/order-widget/) put booking inside a site the
@@ -88,6 +90,6 @@ blocks:
     content: |-
       ## Run it under your own name
 
-      Managed hosting costs £50/year or £5/month, with white labelling included.
+      Managed hosting costs £50/year or £5/month, or £25/year for charities, community groups, artists and musicians. White labelling is included.
 name: White Labelling - Chobble Tickets
 ---
