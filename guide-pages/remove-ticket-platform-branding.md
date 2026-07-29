@@ -100,7 +100,7 @@ blocks:
         removed was not documented in the sources reviewed.
   - type: markdown
     content: |
-      ## Where branding removal is unlikely
+      ## Marketplaces, where branding removal was not reviewed
 
       Marketplace platforms such as [Eventbrite](/compared-to/eventbrite/),
       [DICE](/compared-to/dice/), [Fatsoma](/compared-to/fatsoma/),
@@ -110,8 +110,9 @@ blocks:
       services find buyers, so an event listed there is presented alongside
       other organisers' events.
 
-      Branding removal was not reviewed for these providers. Their comparison
-      pages cover fees, attendee data and event discovery.
+      What each of these providers allows an organiser to remove from its own
+      checkout was not reviewed, so this guide records no outcome for them.
+      Their comparison pages cover fees, attendee data and event discovery.
   - type: markdown
     dark: true
     content: |

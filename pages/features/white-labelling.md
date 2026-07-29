@@ -23,8 +23,8 @@ blocks:
       ticket see the organiser's site, and need not know which software
       produced it.
 
-      Chobble Tickets is white label on every site, including the cheapest
-      managed plan. Some platforms sell branding removal as a paid add-on or
+      Chobble Tickets is white label on every site, whether it is managed by
+      Chobble or self-hosted. Some platforms sell branding removal as a paid add-on or
       restrict it to a higher plan.
 
       The public site carries no Chobble branding anywhere. The only Chobble
