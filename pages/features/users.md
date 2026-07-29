@@ -20,8 +20,8 @@ blocks:
       ## Invite your team
 
       Invite somebody by name and hand them the link. They choose their own
-      password on it, so nobody else ever knows it, and from then on they log
-      in as themselves.
+      password on it, so the person who sent the invite never sees it, and
+      from then on they log in as themselves.
 
       Each person carries one role, which decides which pages they can open.
       The invite link expires after seven days.

@@ -99,7 +99,7 @@
       "galleryCaption": "A users table with the owner and an editor who joined from an invite.",
       "legacyDestinationPath": "images/screenshots/riverside-events-team.png",
       "page": "pages/features/users.md",
-      "reviewed": "da9562330c59c5d748158538a213e9f5cb7fc569ed6ac4bd41dc5faf353ac97f",
+      "reviewed": "b3a85bc8a1bd14c9f253117383e345ad2c5154d2ab6f8db8bf3ded889301ee81",
       "socialBody": "Invite each person with a link they set their own password on. Their role decides which pages they can open.",
       "socialHeading": "Give team members separate accounts",
       "socialKey": "team-users"
