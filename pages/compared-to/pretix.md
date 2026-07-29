@@ -95,12 +95,19 @@ blocks:
       - Custom questions on the booking form
       - Promo codes and discount rules
       - Optional extras sold alongside tickets
+      - Extras a buyer must choose before they can check out
+      - Several listings sold together at a bundle price
+      - Buyer-set pricing above a minimum
       - Multiple admin users with different permissions
       - Several events managed under one organisation
       - Email confirmations to attendees after booking
+      - Confirmation emails sent from your own domain
       - Editable email templates
+      - Bulk email to a filtered set of attendees
       - Refund processing
       - Bookings recorded by hand for cash and door sales
+      - A log of admin actions and booking activity
+      - Retention and anonymisation tools for attendee data
       - CSV export of booking data
       - A public API and an authenticated admin API
       - Webhooks for real-time notifications
@@ -213,9 +220,9 @@ blocks:
       - **Campaign and affiliate tracking** - built-in analytics with
         Google Analytics and Facebook Pixel integration
       - **Newsletter integration** - MailChimp and Newsletter2Go
-        connectors. Chobble Tickets sends its own
-        [bulk email](/features/bulk-email/), or connects to other tools
-        through [webhooks](/features/webhooks/)
+        connectors, alongside the mass email both platforms send from the
+        admin backend. Chobble Tickets connects to newsletter tools
+        through [webhooks](/features/webhooks/) instead
       - **Zapier integration** - connect to 5,000+ apps
       - **Check-in lists with permissions** - multiple independent
         check-in lists per gate or area with custom fields at scan
@@ -250,26 +257,15 @@ blocks:
         [custom CSS](/features/customising-your-site/). Pretix provides
         organiser profiles, event shops and mini-CMS pages for static
         content
-      - **[Custom email providers](/features/email-providers/)** - send
-        confirmations from your own domain through Resend, Postmark,
-        SendGrid, or Mailgun
       - **[SMS messages](/features/sms-messages/)** - text attendees from
         your own Android phone and number, with replies recorded against
         the booking
       - **[Deposits and balance payments](/features/deposits-and-balance-payments/)** -
         take a deposit at booking time and collect the balance later
         through a payment link
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** -
-        buyers enter their own price above a minimum, and Chobble takes no
-        cut of the extra
       - **[Double-entry ledger](/features/ledger/)** - every income figure,
         refund and outstanding balance comes from one ledger you can filter
         by date and listing
-      - **[Packages](/features/packages/)** - sell several listings
-        together at a bundle price, booked all or nothing
-      - **[Parent and child listings](/features/parent-child-listings/)** -
-        make buyers choose required extras or options before they can check
-        out
       - **[Logistics and run sheets](/features/logistics/)** - deliveries,
         equipment hire, transport, set-up and teardown at customer
         addresses, with an agent assigned to each leg
@@ -288,15 +284,12 @@ blocks:
         one feed listing all your events, so subscribers see new ones
         automatically
       - **[Order widget](/features/order-widget/)** - one JavaScript file
-        turns links on your existing website into add-to-cart buttons
+        turns the links already on your website into add-to-cart buttons,
+        with a floating cart. Pretix embeds its shop in a page instead
       - **[Complete database backups](/features/backups/)** and
         [catalogue import and export](/features/catalogue-import-export/)
-        you can move to another Chobble Tickets host
-      - **[Activity logs](/features/activity-logs/)** - a record of admin
-        actions and booking activity
-      - **[Attendee privacy controls](/features/privacy-controls/)** -
-        retention rules for orphaned records, contact history removal, and
-        a data export for any attendee who asks
+        you can take from the admin panel and move to another Chobble
+        Tickets host
       - **[Built-in admin guide](/features/admin-guide/)** - documentation
         for every feature inside the admin panel
       - **Community Interest Company** - run by a CIC, a UK legal structure
@@ -314,8 +307,9 @@ blocks:
       - You want a [public website](/features/your-public-website/) on
         [your own domain](/features/custom-domain/) rather than an event
         shop page
-      - You want [Square or SumUp](/features/stripe-and-square/) rather
-        than only Stripe
+      - You take payments through [Square or
+        SumUp](/features/stripe-and-square/), which Pretix does not offer.
+        Pretix supports far more payment methods overall
       - You want [deposits](/features/deposits-and-balance-payments/),
         [logistics](/features/logistics/) or
         [multi-day hire](/features/multi-day-hire/), which Pretix does not
@@ -345,7 +339,7 @@ blocks:
       | [Apple/Google Wallet](/features/apple-wallet/) | Yes | Yes (plugin) |
       | [RSS/calendar feeds](/features/rss-and-calendar-feeds/) | Yes | No |
       | [Webhooks](/features/webhooks/) | Yes | Yes |
-      | [Pay-what-you-want](/features/stripe-and-square/) | Yes | No |
+      | [Pay-what-you-want](/features/stripe-and-square/) | Yes | Yes (free price) |
       | [Deposits and balance payments](/features/deposits-and-balance-payments/) | Yes | No |
       | [Double-entry ledger](/features/ledger/) | Yes | No |
       | [Event groups](/features/groups/) | Yes | Yes (with series) |
@@ -354,7 +348,9 @@ blocks:
       | [Promo codes and add-ons](/features/promo-codes-and-add-ons/) | Yes | Yes (vouchers) |
       | Returning-customer discounts | Yes (one-way code) | Yes (customer accounts) |
       | [SMS messages](/features/sms-messages/) | Yes | No |
-      | [Bulk email](/features/bulk-email/) | Yes | Via MailChimp connector |
+      | [Bulk email](/features/bulk-email/) | Yes | Yes, plus MailChimp connector |
+      | [Activity logs](/features/activity-logs/) | Yes | Yes |
+      | [Attendee privacy controls](/features/privacy-controls/) | Retention rules, contact history removal, attendee data export | Data shredders, anonymisation, data export |
       | [White-label emails](/features/email-providers/) | Yes (own domain + templates) | Partial |
       | Custom questions | Yes (multiple choice, free-text) | Yes (free-text, files, more) |
       | Waitlists | No | Yes |
