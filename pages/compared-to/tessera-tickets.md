@@ -113,9 +113,11 @@ blocks:
         seats after purchase
       - **Table sales** - sell whole tables as a unit instead of
         individual seats, useful for cabaret and comedy club layouts
-      - **Merchandise store** - sell merchandise alongside tickets through
-        a dedicated merchandise ecommerce store with configurable product
-        attributes and inventory tracking
+      - **Merchandise store** - a dedicated merchandise ecommerce store
+        with configurable product attributes and inventory tracking.
+        Chobble Tickets sells extras as
+        [add-ons](/features/promo-codes-and-add-ons/) attached to a
+        booking, with stock limits, rather than as a separate store
       - **On-site point-of-sale** - dedicated POS hardware integration
         with Stripe card readers for box-office and walk-up sales
       - **Will-call list** - dedicated will-call workflow for collecting
@@ -221,8 +223,8 @@ blocks:
         seating
       - You need a visual seating chart for individual seat selection
       - You sell tables of seats rather than individual tickets
-      - You sell merchandise alongside tickets and want it in the same
-        cart
+      - You want a merchandise store with product attributes and stock
+        tracking, rather than extras attached to a ticket
       - You want on-site point-of-sale hardware for box-office sales
       - You want to accept cards through Authorize.net rather than Stripe, Square,
         or SumUp

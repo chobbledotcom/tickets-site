@@ -292,7 +292,7 @@ blocks:
       ## When Hi.Events might be better
 
       - You want a polished, modern UI with a visual page builder
-      - You need affiliate tracking, or merchandise sales
+      - You need affiliate tracking
       - You prefer a pay-per-ticket model with no upfront cost
       - You're running large nightlife events or festivals and want instant
         payouts
