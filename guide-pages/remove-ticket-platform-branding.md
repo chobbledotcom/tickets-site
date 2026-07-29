@@ -129,6 +129,8 @@ blocks:
       - If the software is self-hosted, does its licence require a visible
         attribution link?
 
-      Prices and plan names change. Each linked comparison page records the
-      date it was checked and the sources used.
+      Prices and plan names change. Each linked comparison page lists the
+      sources used, and most record the date the information was checked.
+      Where no date is recorded, check the provider's own pricing page before
+      relying on the figures.
 ---
