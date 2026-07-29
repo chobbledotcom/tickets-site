@@ -23,10 +23,10 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: none
+  event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   notes:
-    event_marketplace: "Tito's own material describes registration, ticketing, check-in and a per-event homepage. No public directory or discovery listing of other organisers' events was found. Checked 29 July 2026."
+    event_marketplace: "Tito's own material describes registration, ticketing, check-in and a per-event homepage. No public directory or discovery listing was found in the pages reviewed, and Tito does not state whether one exists. Checked 29 July 2026."
     attendee_cross_marketing: "No attendee marketing programme was documented in the sources reviewed. Checked 29 July 2026."
 blocks:
   - type: hero

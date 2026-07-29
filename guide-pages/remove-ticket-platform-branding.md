@@ -147,7 +147,7 @@ blocks:
         attribution link?
 
       Prices and plan names change. Each linked comparison page lists the
-      sources used and the date they were checked. Providers change their
-      plans between checks, so confirm the current figures on the provider's
-      own pricing page before relying on them.
+      sources used, and many give the date those sources were checked.
+      Confirm the current figures on the provider's own pricing page before
+      relying on them.
 ---
