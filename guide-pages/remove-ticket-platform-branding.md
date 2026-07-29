@@ -115,19 +115,22 @@ blocks:
   - type: markdown
     dark: true
     content: |
-      ## Discovery platforms, where branding removal is not recorded
+      ## Providers with a public event catalogue
 
-      [Resident Advisor](/compared-to/resident-advisor/) is recorded as
-      running an event marketplace, where a listing carries the provider's name
-      and sits alongside other organisers' events.
       [Eventbrite](/compared-to/eventbrite/), [DICE](/compared-to/dice/),
-      [Fatsoma](/compared-to/fatsoma/) and [FIXR](/compared-to/fixr/) each
-      describe event discovery on their comparison pages, though their
-      marketplace classification has not been reviewed and stored.
+      [Fatsoma](/compared-to/fatsoma/), [FIXR](/compared-to/fixr/),
+      [Resident Advisor](/compared-to/resident-advisor/),
+      [Ticketmaster](/compared-to/ticketmaster/) and
+      [Ticketek](/compared-to/ticketek/) each run a public listing that carries
+      their own name, where an organiser's event appears alongside other
+      organisers' events. Eventbrite states that a public event is shown in its
+      directory, on major search engines and on partner sites, and that a
+      private event is not.
 
-      What each of these providers allows an organiser to remove from its own
-      checkout is not recorded, so this guide states no outcome for them.
-      Their comparison pages cover fees, attendee data and event discovery.
+      An event listed in a catalogue is presented under that provider's name,
+      so branding removal is limited by design. What each provider allows an
+      organiser to remove from its own checkout is not documented, so this
+      guide states no outcome for them.
   - type: markdown
     content: |
       ## Questions to ask a provider

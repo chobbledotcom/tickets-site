@@ -12,7 +12,7 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - fatsoma
-  last_reviewed: null
+  last_reviewed: "2026-07-29"
   registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
@@ -23,8 +23,11 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: not-reviewed
-  attendee_cross_marketing: not-reviewed
+  event_marketplace: built-in
+  attendee_cross_marketing: none
+  notes:
+    event_marketplace: "Fatsoma runs a public discovery site at fatsoma.com/discover, browsable by category, listing events from many promoters. Whether listing is automatic or by opt-in was not documented. Checked 29 July 2026."
+    attendee_cross_marketing: "The communication policy states that people receive announcements about a brand only if they follow that brand, where buying a ticket makes someone a follower. No Fatsoma-run marketing of other organisers' events was documented. Checked 29 July 2026."
 blocks:
   - type: hero
     class: gradient

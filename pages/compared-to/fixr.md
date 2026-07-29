@@ -12,7 +12,7 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - fixr
-  last_reviewed: null
+  last_reviewed: "2026-07-29"
   registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
@@ -23,8 +23,11 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: not-reviewed
-  attendee_cross_marketing: not-reviewed
+  event_marketplace: built-in
+  attendee_cross_marketing: not-documented
+  notes:
+    event_marketplace: "FIXR lists events publicly by city and by date, including fixr.co/all/events and fixr.co/events/today. Whether listing is automatic or by opt-in was not documented. Checked 29 July 2026."
+    attendee_cross_marketing: "The privacy policy describes organiser marketing on a soft opt-in basis, with ticket buyers becoming followers of that organiser unless they opt out. Whether FIXR itself markets other organisers' events was not documented. Checked 29 July 2026."
 blocks:
   - type: hero
     class: gradient

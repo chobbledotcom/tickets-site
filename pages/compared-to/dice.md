@@ -12,7 +12,7 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - dice
-  last_reviewed: null
+  last_reviewed: "2026-07-29"
   registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
@@ -23,8 +23,11 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: not-reviewed
-  attendee_cross_marketing: not-reviewed
+  event_marketplace: built-in
+  attendee_cross_marketing: personalised-recommendations
+  notes:
+    event_marketplace: "DICE presents a browsable discovery feed of events from many promoters, with pages per city such as dice.fm/browse. Whether a promoter's event is listed automatically or by opt-in was not documented. Checked 29 July 2026."
+    attendee_cross_marketing: "The UK privacy policy describes using music-library and location data to personalise recommendations about events nearby, and communicating by email, push and in-app message. Marketing from third-party event partners is described as consent-based. Checked 29 July 2026."
 blocks:
   - type: hero
     class: gradient

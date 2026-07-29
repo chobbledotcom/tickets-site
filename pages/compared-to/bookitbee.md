@@ -12,7 +12,7 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - bookitbee
-  last_reviewed: null
+  last_reviewed: "2026-07-29"
   registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
@@ -23,8 +23,11 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: not-reviewed
-  attendee_cross_marketing: not-reviewed
+  event_marketplace: not-documented
+  attendee_cross_marketing: not-documented
+  notes:
+    event_marketplace: "No public browse or discovery listing was found on bookitbee.com. Its own material describes sharing a unique event link or embedding a buy button. Checked 29 July 2026."
+    attendee_cross_marketing: "No attendee marketing programme was documented in the sources reviewed. Checked 29 July 2026."
 blocks:
   - type: hero
     class: gradient

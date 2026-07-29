@@ -12,7 +12,7 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - ticketmaster
-  last_reviewed: null
+  last_reviewed: "2026-07-29"
   registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
@@ -23,8 +23,11 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: not-reviewed
-  attendee_cross_marketing: not-reviewed
+  event_marketplace: built-in
+  attendee_cross_marketing: provider-content-and-events
+  notes:
+    event_marketplace: "Ticketmaster runs a public consumer site browsable by category and city, listing events from many promoters. Checked 29 July 2026."
+    attendee_cross_marketing: "The UK privacy policy states that Ticketmaster may contact you with information or offers about upcoming events, products or services by email, push and web notification, SMS or social media, and uses purchase and interest data for personalised marketing. Checked 29 July 2026."
 blocks:
   - type: hero
     class: gradient

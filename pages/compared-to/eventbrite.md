@@ -12,7 +12,7 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - eventbrite
-  last_reviewed: null
+  last_reviewed: "2026-07-29"
   registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
@@ -23,8 +23,11 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: not-reviewed
-  attendee_cross_marketing: not-reviewed
+  event_marketplace: built-in
+  attendee_cross_marketing: provider-content-and-events
+  notes:
+    event_marketplace: "Eventbrite runs a public events directory browsable by place and category. Its help centre states that a public event is shown in the Eventbrite public events directory, on major search engines and partner sites, and that a private event is not. Checked 29 July 2026."
+    attendee_cross_marketing: "The privacy policy states that Eventbrite may send electronic communications marketing or advertising the Services themselves or events on the Services, and may use inferences to target advertising or customise recommendations, including on behalf of organisers. Checked 29 July 2026."
 blocks:
   - type: hero
     class: gradient
