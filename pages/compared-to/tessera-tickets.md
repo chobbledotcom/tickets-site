@@ -135,15 +135,22 @@ blocks:
       - **External ticket links** - link an event listing out to a
         third-party ticketing platform when needed, for example when
         moving a popular show to a larger venue
-      - **Per-customer notes** - attach internal notes to customer and
-        order records
-      - **Role-based permissions** - separate user roles for will-call,
-        financial reporting, point-of-sale, and inventory management
+      - **Per-order notes** - attach internal notes to an individual order.
+        Chobble Tickets keeps a private note against the
+        [contact record](/features/manual-attendees/) rather than the
+        order
+      - **Box-office staff roles** - separate user roles for will-call,
+        financial reporting, point-of-sale, and inventory management.
+        Chobble Tickets has [four roles](/features/users/) built around
+        running events rather than a box office
       - **WordPress integration** - the public-facing website is a
         WordPress site with event cards, filtering, fuzzy text search, and
         a sidebar cart pane
-      - **Custom HTML/CSS for cart and admin** - edit HTML and CSS
-        elements for emails, cart, and admin screens
+      - **Custom HTML/CSS for cart and admin screens** - edit HTML and CSS
+        on the cart and admin screens. Chobble Tickets has
+        [custom CSS](/features/customising-your-site/) for the public site
+        and [Liquid templates](/features/email-templates/) for emails, but
+        not for its admin screens
       - **US-based vendor** - Tessera is built by a Chicago web agency,
         so the company runs on US business hours
   - type: markdown
