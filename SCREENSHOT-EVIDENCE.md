@@ -5,15 +5,24 @@ layout: null
 
 # Screenshot evidence
 
-Cucumber evidence screenshots are made and tested by the Tickets app. The site
-imports a published artifact and commits the resulting files. Site builds do
-not contact GitHub or the app repository.
+Cucumber evidence screenshots are of the Tickets app, taken while its own
+Cucumber cases run. What each capture is - the case, the page, the part of the
+page - belongs to the app. What it looks like belongs here, in
+`evidence-themes/`, because the branding is a demonstration for this site.
+
+The scheduled workflow checks the app out, runs its capture task with this
+directory, and commits what comes back. Site builds themselves do not contact
+GitHub or the app repository.
 
 The artifact directory must contain `manifest.json` and its referenced files
 under `assets/`. Import it with:
 
 ```bash
-bun run evidence:import --from /home/user/git/tickets-6/reports/evidence
+# in a checkout of the app
+deno task specs:evidence --themes <this repo>/evidence-themes
+
+# then here
+bun run evidence:import --from <the app>/reports/evidence
 ```
 
 Validate an artifact without changing the site with:
@@ -68,6 +77,11 @@ ready to be evidence; upgrade the story until it can.
     them. Editing that copy afterwards leaves a card showing words nobody
     wrote, and the committed-state check refuses it until the card is drawn
     again.
+11. **How a screenshot looks belongs here, not to the app.** Each capture is
+    taken in `evidence-themes/<capture id>.css`, which dresses the app's page
+    in an organiser's branding. The app is handed this directory and refuses a
+    capture that has no file in it, so a theme cannot go missing quietly. The
+    app decides what a capture is; this repository decides what it looks like.
 
 ## Reviewing a capture
 
@@ -104,9 +118,9 @@ the report, and do not automate the stamp: the whole point is that a person
 only what the case proves.
 
 The scheduled `Update ticket evidence` workflow needs a fine-grained GitHub
-token in the `TICKETS_EVIDENCE_TOKEN` repository secret. Give it Actions read
-access to `chobbledotcom/tickets`. The built-in site token cannot download an
-artifact from another repository.
+token in the `TICKETS_EVIDENCE_TOKEN` repository secret. Give it Contents read
+access to `chobbledotcom/tickets`, which is what checking the app out takes.
+The built-in site token cannot read another repository.
 
 Legacy product screenshots remain under `scripts/screenshots/` and are made
 with `bun run screenshot:scenarios`. Evidence captures must not be copied into

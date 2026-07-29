@@ -96,8 +96,8 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "Assign each delivery and collection to an agent, give them a run sheet and record completed work.",
   },
   "manual-attendees": {
-    heading: "Add attendees by hand",
-    body: "Add walk-ins and telephone bookings alongside online bookings. Waive the price in Money when a place is complimentary.",
+    heading: "Keep a record of each person",
+    body: "See how often someone booked, how often they have been in touch, and a private note only the organiser reads.",
   },
   "moonlight-cinema-dark-checkout": {
     heading: "Light and dark themes",

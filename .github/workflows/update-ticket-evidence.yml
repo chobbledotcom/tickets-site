@@ -29,36 +29,64 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      - name: Download the latest app evidence
-        id: evidence
-        env:
-          GH_TOKEN: ${{ secrets.TICKETS_EVIDENCE_TOKEN }}
+      - name: Check out the app
+        uses: actions/checkout@v4
+        with:
+          repository: chobbledotcom/tickets
+          ref: main
+          path: app
+          token: ${{ secrets.TICKETS_EVIDENCE_TOKEN }}
+          persist-credentials: false
+
+      - name: Set up Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version-file: app/.tool-versions
+
+      - name: Resolve Playwright version
+        id: playwright
+        working-directory: app
         run: |
-          if [ -z "$GH_TOKEN" ]; then
-            echo "Add TICKETS_EVIDENCE_TOKEN with Actions read access to chobbledotcom/tickets." >&2
-            exit 1
-          fi
-          run_id=$(gh api "repos/chobbledotcom/tickets/actions/workflows/spec-evidence.yml/runs?branch=main&status=success&per_page=1" --jq '.workflow_runs[0].id // empty')
-          if [ -z "$run_id" ]; then
-            echo "No successful evidence workflow run was found." >&2
-            exit 1
-          fi
-          download="$RUNNER_TEMP/ticket-evidence"
-          mkdir -p "$download"
-          gh run download "$run_id" --repo chobbledotcom/tickets --dir "$download"
-          mapfile -t manifests < <(find "$download" -type f -name manifest.json)
-          if [ "${#manifests[@]}" -ne 1 ]; then
-            echo "Expected one evidence manifest, found ${#manifests[@]}." >&2
-            exit 1
-          fi
-          echo "directory=$(dirname "${manifests[0]}")" >> "$GITHUB_OUTPUT"
+          version="$(deno eval '
+            const config = JSON.parse(await Deno.readTextFile("deno.json"));
+            const version = config.imports.playwright.match(/^npm:playwright@(.+)$/)?.[1];
+            if (!version) throw new Error("playwright must be pinned in deno.json");
+            console.log(version);
+          ')"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Cache Playwright Chromium
+        id: chromium-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}
+
+      - name: Install Chromium and system dependencies
+        if: steps.chromium-cache.outputs.cache-hit != 'true'
+        working-directory: app
+        run: deno run -A npm:playwright@${{ steps.playwright.outputs.version }} install --with-deps chromium
+
+      - name: Install Chromium system dependencies
+        if: steps.chromium-cache.outputs.cache-hit == 'true'
+        working-directory: app
+        run: deno run -A npm:playwright@${{ steps.playwright.outputs.version }} install-deps chromium
+
+      # The screenshots are taken here rather than downloaded, because how they
+      # look is this repository's business: evidence-themes/ dresses each one.
+      - name: Capture evidence in this site's themes
+        id: evidence
+        working-directory: app
+        run: |
+          deno task specs:evidence --themes "$GITHUB_WORKSPACE/evidence-themes"
+          echo "directory=$GITHUB_WORKSPACE/app/reports/evidence" >> "$GITHUB_OUTPUT"
 
       # Kept whatever happens next. An import refused for narrative drift needs
-      # the artifact it refused, and the runner's copy goes with the runner.
-      - name: Keep the downloaded evidence
+      # the evidence it refused, and the runner's copy goes with the runner.
+      - name: Keep the captured evidence
         uses: actions/upload-artifact@v4
         with:
-          name: downloaded-ticket-evidence
+          name: captured-ticket-evidence
           path: ${{ steps.evidence.outputs.directory }}
           if-no-files-found: error
           retention-days: 30
@@ -77,7 +105,7 @@ jobs:
           screenshot were written against an older version of it and someone has
           to read the new one.
 
-          1. Download the `downloaded-ticket-evidence` artifact from this run.
+          1. Download the `captured-ticket-evidence` artifact from this run.
           2. `bun run evidence:review <capture> --from <that-directory>`
           3. Update the words in `_data/ticket_evidence_map.json` if they no
              longer match the story.

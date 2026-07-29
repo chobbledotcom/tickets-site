@@ -14,3 +14,6 @@ export const EVIDENCE_MAPPING_PATH = "_data/ticket_evidence_map.json";
 export const PRESENTATIONS = ["canonical", "branded", "editorial"];
 export const ASSET_PROFILES = ["mobile"];
 export const STEP_KEYWORDS = ["Given", "When", "Then", "And", "But"];
+
+/** Where this repository keeps the look each capture is taken in. */
+export const EVIDENCE_THEMES_DIRECTORY = "evidence-themes";

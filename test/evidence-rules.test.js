@@ -123,6 +123,7 @@ const buildSite = async () => {
     `${JSON.stringify({ captures: { [CAPTURE_ID]: placement() }, schemaVersion: 2 }, null, 2)}\n`,
   );
   write(root, PAGE, pageMarkdown());
+  write(root, `evidence-themes/${CAPTURE_ID}.css`, ":root {}\n");
   // A site awaiting its first import still ships the screenshot it has.
   write(root, IMAGE, await pngBytes());
   return root;
@@ -239,6 +240,12 @@ const RULES = [
     expect: "blocks, not one",
     name: "the mapped page shows its screenshot in one block",
     rule: 6,
+  },
+  {
+    break: (root) => rmSync(join(root, `evidence-themes/${CAPTURE_ID}.css`)),
+    expect: "no evidence theme for",
+    name: "every capture is taken in a look this repository keeps",
+    rule: 11,
   },
   {
     break: (root) => editMapping(root, (entry) => {

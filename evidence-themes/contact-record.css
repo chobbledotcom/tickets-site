@@ -1,0 +1,61 @@
+:root {
+  --border-radius: 6px;
+  --color-accent: #8c3b2f;
+  --color-bg: #efe7dd;
+  --color-bg-secondary: #fdfaf6;
+  --color-link: #8c3b2f;
+  --color-secondary: #6b2f26;
+  --color-secondary-accent: #8c3b2f18;
+  --color-shadow: #5b2a2226;
+  --color-table: #8c3b2f;
+  --color-text: #33211d;
+  --color-text-secondary: #7b6259;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact-history-form {
+  background: #fdfaf6;
+  border: 1px solid #e3d5c9;
+  border-top: 6px solid var(--color-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+#contact-history-form h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+}
+
+#contact-history-form label {
+  color: var(--color-secondary);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+#contact-history-form input,
+#contact-history-form textarea {
+  background: #fff;
+  border-color: #d9c7b8;
+  border-radius: var(--border-radius);
+}
+
+#contact-history-form button[type="submit"] {
+  background: var(--color-secondary);
+  border-color: #52241d;
+  border-radius: var(--border-radius);
+  color: #fdfaf6;
+  font-weight: 800;
+}
+
+/* The note is written in a markdown editor, which brings its own toolbar, a
+ * character count and a second copy of the note underneath as a preview. The
+ * case is about what the record holds, so the capture shows the record. */
+#contact-history-form .md-toolbar,
+#contact-history-form .md-editor-footer,
+#contact-history-form .md-preview-link,
+#contact-history-form section {
+  display: none;
+}

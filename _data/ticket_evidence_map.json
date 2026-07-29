@@ -34,9 +34,9 @@
       "galleryCaption": "One person's record, showing how often they booked, how often they were in touch, and a private note.",
       "legacyDestinationPath": "images/screenshots/manual-attendee-community-supper.png",
       "page": "pages/features/manual-attendees.md",
-      "reviewed": "c05bb662d75c90368d6a6d8c71d7e61348fd86182faee135960f9393ead51ff7",
-      "socialBody": "Add walk-ins and telephone bookings alongside online bookings. Waive the price in Money when a place is complimentary.",
-      "socialHeading": "Add attendees by hand",
+      "reviewed": "25fac10f9b0cfa85f2077b2073f5c988efdc4ccb1572a124762cfe83e3d686d6",
+      "socialBody": "See how often someone booked, how often they have been in touch, and a private note only the organiser reads.",
+      "socialHeading": "Keep a record of each person",
       "socialKey": "manual-attendees"
     },
     "payment-provider-choice": {

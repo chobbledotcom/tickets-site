@@ -1,17 +1,17 @@
 {
   "app": {
-    "commit": "dfdf9cdfff46249956c4adda9f777180cccf6ec8",
+    "commit": "544258ee2690593fff4483d78fc8570879f0ec3b",
     "repository": "chobbledotcom/tickets"
   },
-  "artifactSha256": "e673e85a8aa7c5e92d988095975ce5c7c3ef5b9799c92fb3446daf0cdc7cae14",
+  "artifactSha256": "4e497cc9c6c3f52733d38139ecd8f2b3ec0dae5f22b2a0baafb86487d9a8c53c",
   "files": {
-    "_data/ticket_evidence.json": "fb8b023aff7acfce2a67f4fc2cb289d6d7acda6d177646f811a55afa525a6a46",
+    "_data/ticket_evidence.json": "5bddbc5d77d41390688d9023e7c8316da2dd2da4ea57205784fad58cb8a63f34",
     "images/screenshots/deposits-and-balance-payments.png": "ff80a745a8f1d0ed736a6f46b2c592e622a997eef1eab56e36fef5997b43338f",
     "images/screenshots/deposits-and-balance-payments__facebook.png": "aaf450bb68c2f4b11023ec25e9b8fe30c93e357f4403b4bd1f9ae2f3724f9cf3",
     "images/screenshots/garden-party-package-checkout.png": "1bd6e6e1d417c33da0c5b8b41c79e138d3ca99320a76d9c89eacacaaf3617bf1",
     "images/screenshots/garden-party-package-checkout__facebook.png": "a6a8d59d3474da17b1fda42d7cff5f79a844e76100659151ec3669462c67834d",
     "images/screenshots/manual-attendee-community-supper.png": "03ab5f3cdb6a88ca562a39045233f83fea6de5badcc53a64237a62e06f1fa647",
-    "images/screenshots/manual-attendee-community-supper__facebook.png": "09ac89eea7b8a92f7136efa4e00064fbed553adf8f19593501890dc3e86d2b07",
+    "images/screenshots/manual-attendee-community-supper__facebook.png": "2a60745ffefbe11915c567ce93ce1bd983e40c662d1389ac9b4d51596d2a4484",
     "images/screenshots/payment-provider-choice.png": "5666e83e1414d6deb0cb39e20a73b3930364cfd2b7d93d269e479b73b380bbd8",
     "images/screenshots/payment-provider-choice__facebook.png": "b35a0c16c070076d1563056d34c97b5fec5308b8cac804256424a71725d30e35",
     "images/screenshots/qr-code-check-in.png": "2c71a0317281f3c5dd750a802168ca51f3c431181e42220400f178eba0bacce6",
@@ -23,7 +23,7 @@
   "socialCopy": {
     "balance-payment-link": "16ec0391c2bc678ff78ec43d57e2a63c33531c54db1d0640ae76b32f166a485a",
     "bundle-booking-page": "774be320547c5101236c627e6b1c921a305a72e8572e48d46b3b4d827ade7cd4",
-    "contact-record": "bfccbfefb2d4598bef5cf75e3bd190ad6bd0171dcb60e54acf400573e5a97d96",
+    "contact-record": "d5b3946d4c949881d3d52dc687e49eeed574932b6d63bf03e497fc8929bede70",
     "payment-provider-choice": "912e2537f1efbb0a4875344e287604a3d3efbde5d80c47337ea4c364c6e16051",
     "qr-code-check-in": "9d19d7f3b0762b529e94c9854c5f626d99f212d1bbff44ebc2832322d5dd374a",
     "servicing-studio-floor-hold": "4b3296c7f28f512e8e352cb15681506f8276c6ea4940ba4938269682cea2e308"

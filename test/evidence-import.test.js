@@ -160,6 +160,10 @@ const createSite = async () => {
   );
   mkdirSync(join(root, "images/screenshots"), { recursive: true });
   writeFileSync(join(root, DESTINATION), await fixturePng());
+  // The look this repository keeps for the capture; the checks refuse a
+  // capture with none.
+  mkdirSync(join(root, "evidence-themes"), { recursive: true });
+  writeFileSync(join(root, `evidence-themes/${CAPTURE_ID}.css`), ":root {}\n");
   return root;
 };
 

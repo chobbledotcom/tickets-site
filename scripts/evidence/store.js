@@ -8,6 +8,7 @@ import {
   EVIDENCE_LOCK_PATH,
   EVIDENCE_REPOSITORY,
   EVIDENCE_SCHEMA_VERSION,
+  EVIDENCE_THEMES_DIRECTORY,
 } from "./constants.js";
 import { evidenceBlockProse } from "./copy.js";
 import {
@@ -442,9 +443,26 @@ const validateLegacyImages = async (root, mapping) => {
   );
 };
 
+/** Every capture is taken in a look this repository keeps for it. The app is
+ * handed the directory and refuses a capture with no file in it, so a mapping
+ * that names a capture with no theme could never be captured at all. */
+const assertEveryCaptureIsDressed = async (root, mapping) => {
+  const missing = [];
+  for (const captureId of Object.keys(mapping.captures)) {
+    const path = join(root, EVIDENCE_THEMES_DIRECTORY, `${captureId}.css`);
+    if (!(await fileExists(path))) missing.push(captureId);
+  }
+  if (missing.length > 0) {
+    throw new Error(
+      `no evidence theme for ${missing.sort().join(", ")}: add ${EVIDENCE_THEMES_DIRECTORY}/<capture>.css`,
+    );
+  }
+};
+
 export const validateCommittedEvidence = async ({ root }) => {
   const absoluteRoot = resolve(root);
   const mapping = await loadEvidenceMapping(absoluteRoot);
+  await assertEveryCaptureIsDressed(absoluteRoot, mapping);
   const dataExists = await fileExists(join(absoluteRoot, EVIDENCE_DATA_PATH));
   const lockExists = await fileExists(join(absoluteRoot, EVIDENCE_LOCK_PATH));
   if (!dataExists && !lockExists) {
