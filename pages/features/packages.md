@@ -43,6 +43,10 @@ blocks:
       price overrides, so a three-day booking of the package can cost a
       different amount per item than a one-day booking. A flat member
       override still wins over both.
+
+      The public package page shows one bundle total. For a customisable
+      package, each offered day count is shown with its own whole-bundle
+      price.
   - type: split-image
     content: |
       ## The page a buyer sees
@@ -50,9 +54,6 @@ blocks:
       A package that hides nothing names each thing inside it on its own
       booking page, so a buyer knows what they are getting before they
       pay. They choose how many complete packages they want.
-
-      The page shows one bundle total. For a customisable package, each
-      offered day count is shown with its own whole-bundle price.
     figure_src: /images/screenshots/garden-party-package-checkout.png
     figure_alt: A booking page for a Weekend package, offering a number of packages and listing the Breakfast and Tent inside it
     figure_caption: 'A package that hides nothing names each thing inside it on its own booking page. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/selling-things-as-one-bundle.feature">(src)</a></small>'
