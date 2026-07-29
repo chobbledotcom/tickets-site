@@ -116,7 +116,7 @@ blocks:
     description: Every income figure, refund, and balance comes from a single double-entry ledger. Record cash and offline payments too.
     name: <a href="/features/ledger/">Accounting ledger</a>
   - icon: hugeicons:book-open-01
-    description: Integrated documentation at /admin/guide covers every feature, so new team members can get up to speed fast.
+    description: Integrated documentation at /admin/guide covers the main admin areas, so new team members can get up to speed fast.
     name: <a href="/features/admin-guide/">Built-in admin guide</a>
   - icon: hugeicons:mail-send-01
     description: Send targeted email campaigns to attendee segments, with previews, drafts, and a public unsubscribe link.

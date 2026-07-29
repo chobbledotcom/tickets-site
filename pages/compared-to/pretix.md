@@ -262,7 +262,8 @@ blocks:
         content
       - **[SMS messages](/features/sms-messages/)** - text attendees from
         your own Android phone and number, with replies recorded against
-        the booking
+        the booking. Pretix sends SMS through a third-party plugin, using a
+        messaging service rather than your own number
       - **[Deposits and balance payments](/features/deposits-and-balance-payments/)** -
         take a deposit at booking time and collect the balance later
         through a payment link
@@ -291,7 +292,7 @@ blocks:
         you can take from the admin panel and move to another Chobble
         Tickets host
       - **[Built-in admin guide](/features/admin-guide/)** - documentation
-        for every feature inside the admin panel
+        for the main admin areas, inside the admin panel
       - **Community Interest Company** - run by a CIC, a UK legal structure
         that locks the company's assets for community benefit
   - type: markdown
@@ -347,7 +348,7 @@ blocks:
       | [Packages and bundles](/features/packages/) | Yes | Yes (add-on products) |
       | [Promo codes and add-ons](/features/promo-codes-and-add-ons/) | Yes | Yes (vouchers) |
       | Returning-customer discounts | Yes (one-way code) | Yes (customer accounts) |
-      | [SMS messages](/features/sms-messages/) | Yes | No |
+      | [SMS messages](/features/sms-messages/) | Yes (your own number) | Via a third-party plugin |
       | [Bulk email](/features/bulk-email/) | Yes | Yes, plus MailChimp connector |
       | [Activity logs](/features/activity-logs/) | Yes | Yes |
       | [Attendee privacy controls](/features/privacy-controls/) | Retention rules, contact history removal, attendee data export | Data shredders, anonymisation, data export |
