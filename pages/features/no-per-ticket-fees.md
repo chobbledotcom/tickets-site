@@ -155,6 +155,12 @@ blocks:
       > pay £50 a year for Chobble, but that cost is absorbed in less than the
       > first event. It's literally paying for itself on the first event and
       > still saving nearly £100."
+
+      > "Previously, we had always used Eventbrite which takes quite a large
+      > portion of the ticket sales as fees. Chobble tickets is very easy to
+      > use and takes no cut (even though Stripe takes a very small amount)."
+      >
+      > - [Chris, British Bourbon Society](https://www.facebook.com/httkb/posts/pfbid0VPiUCz5UYAp8Z59LddLBw5GdGz3TA1xfErGmBhAP5dF7TisRNrXBZCadb4QP4T2Al)
   - type: markdown
     dark: true
     content: |
