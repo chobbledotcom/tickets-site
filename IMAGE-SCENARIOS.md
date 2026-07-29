@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 133 rendered client pages. A page counts as illustrated
+This audit covers all 135 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 131 | 47 | 84 |
+| Editorial pages in the sitemap | 133 | 47 | 86 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **133** | **47** | **86** |
+| **All rendered pages** | **135** | **47** | **88** |
 
-The 84 editorial pages are the main illustration backlog. The two utility
+The 86 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -71,6 +71,7 @@ pages are listed separately at the end.
 |---|---|---|---|
 | `pages/features/your-public-website.md` | [x] Public-site screenshot: `oakfield-public-website` | The real Oakfield Community Events Listings page shows Home, Listings, About, News and Contact navigation, plus booking cards for Summer Sessions and Oakfield Primary Disco. | Proves that the product can supply organiser pages and a public event catalogue, not only isolated checkout links. |
 | `pages/features/custom-domain.md` | Diagram: `three-ticket-site-addresses` | Oakfield's host subdomain, `tickets.oakfieldevents.org` and the underlying Bunny address converge on one installation. Show the CNAME step separately from the immediate host address. | Explains that a custom domain is separate from self-hosting and can coexist with fallback addresses. |
+| `pages/features/white-labelling.md` | Diagram: `white-label-touchpoints` | Follow one Oakfield Community Events booking across the four places a provider name can appear: the browser address bar on `tickets.oakfield.org.uk`, the booking page header, the confirmation email sender, and the ticket itself. Show Oakfield's name in all four and no Chobble name anywhere, with the payment provider's own name left visible at the card step. | Shows exactly which surfaces carry the organiser's name and which one is out of the organiser's control. |
 | `pages/features/markdown-descriptions.md` | Product composite: `markdown-description-preview` | Fernbank Pottery edits a workshop description with headings, a materials list, bold allergy guidance and a directions link. Show source beside the rendered public page. | Shows the writing workflow and result without explaining Markdown abstractly. |
 | `pages/features/images.md` | Admin screenshot: `image-library` | Fernbank's library contains three workshop images with useful alt text. Show attachment counts, ordering controls and a protected `joining-instructions.pdf` attachment. | Demonstrates reuse, accessibility text and downloadable attendee files. |
 | `pages/features/embeddable-widget.md` | Public-site screenshot: `embedded-fernbank-listings` | Fernbank's existing website contains an automatically resized Chobble iframe with Mug-making Workshop, Glazing Pass and Studio Tour cards. Keep the organiser's own site header visible. | Shows what embedding looks like on an existing website. |
@@ -130,6 +131,7 @@ pages are listed separately at the end.
 | `guide-pages/ethical-ticket-sales-options.md` | Comparison graphic: `provider-structure-matrix` | Compare documented structure, income model, attendee marketing, source availability and hosting model for the providers on the page. Do not add a score or winner. | Shows that charitable, co-operative, certified and open-source claims answer different questions. |
 | `guide-pages/no-per-attendee-ticket-sales.md` | Comparison graphic: `platform-fee-types` | Meadowfield sells 500 tickets in 250 two-ticket payments. Use lanes for qualifying hosted services, self-installed software and volume-conditioned products, with a transaction-processing inset. | Explains why no commission does not necessarily mean volume-independent cost. |
 | `guide-pages/host-your-own-ticket-site.md` | Diagram: `domain-site-hosting-models` | Oakfield wants `tickets.oakfieldevents.org`. Show provider-hosted custom domain, complete managed public site and self-hosted software, with responsibility for updates and backups labelled. | Separates owning a web address from operating the server. |
+| `guide-pages/remove-ticket-platform-branding.md` | Comparison graphic: `branding-removal-cost` | Place the reviewed providers on one axis of what branding removal costs: included in the base price, a paid add-on or higher tier with its published amount, and organiser branding without documented full removal. Label each with the qualification recorded on its comparison page. | Separates providers that allow organiser-only branding from those that charge for it or limit it. |
 | `guide-pages/uk-made-ticket-platforms.md` | Diagram: `uk-registration-and-data-location` | Group the reviewed providers by documented country of company registration only. Beside that grouping, show Chobble's own stack as a separate strip: UK company, Bunny hosting headquartered in Slovenia, database primary and replica regions that may sit outside the UK and EU with storage region `eu-west-1`, and a self-hosted option. Do not assign a data-processing country to any other provider. | Separates where a company is registered from where attendee records are stored, without guessing storage locations. |
 | `guide-pages/flat-rate-ticketing.md` | Comparison graphic: `flat-rate-pricing-curves` | Riverside sells 50, 500 and 5,000 tickets. Compare volume-independent hosting, per-sale fees, ticket-volume subscriptions, booking allowances and feature tiers, with processing separate. | Shows how apparently fixed subscriptions can still change with volume or requirements. |
 | `guide-pages/where-ticketing-money-goes.md` | Comparison graphic: `donation-pledge-breakdown` | Break a £15 ticket into face value, booking fee, service fee, payment processing and the donated share for a pledge-funded plan, beside a flat hosting fee with the ticket charge left whole. | Shows which part of an organiser's cost a donation pledge is taken from. |

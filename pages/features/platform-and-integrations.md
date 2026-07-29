@@ -22,6 +22,9 @@ blocks:
       - icon: hugeicons:lock
         description: Personal data is encrypted before it is stored. The technical documentation explains the RSA-OAEP and AES-256-GCM design.
         name: <a href="/features/encrypted/">Encrypted</a>
+      - icon: hugeicons:user-search-01
+        description: A service-by-service breakdown of which users and configured providers can receive attendee data.
+        name: <a href="/features/who-can-see-your-data/">Who can see your data</a>
       - icon: hugeicons:view-off
         description: Chobble does not use attendee records for advertising, audience profiles or marketing other events.
         name: <a href="/features/no-spying/">No attendee marketing</a>
@@ -41,8 +44,8 @@ blocks:
         description: Choose from Resend, Postmark, SendGrid, or Mailgun (US and EU) for notifications.
         name: <a href="/features/email-providers/">Email providers</a>
       - icon: hugeicons:api
-        description: Use public JSON endpoints for listings and bookings, or authenticated administration for listings, groups and holidays.
-        name: <a href="/features/public-api/">Public and admin APIs</a>
+        description: Use <a href="/features/public-api/">public JSON endpoints</a> for listings and bookings, or the <a href="/features/admin-api/">admin API</a> for listings, groups and holidays.
+        name: Public and admin APIs
       - icon: hugeicons:notification-03
         description: Get POST notifications on every booking to integrate with your tools.
         name: <a href="/features/webhooks/">Webhooks</a>

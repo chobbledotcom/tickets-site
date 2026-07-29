@@ -32,6 +32,9 @@ blocks:
       - icon: hugeicons:globe-02
         description: Get a host-provided subdomain instantly, then add your own custom domain whenever you're ready.
         name: <a href="/features/custom-domain/">Custom domain</a>
+      - icon: hugeicons:paint-board
+        description: Booking pages, tickets and emails carry your name and no Chobble branding, with no add-on or higher tier to buy.
+        name: <a href="/features/white-labelling/">White labelling</a>
       - icon: hugeicons:paint-brush-01
         description: Built-in public site with light and dark theme options, so your booking pages match your brand.
         name: <a href="/features/light-and-dark-themes/">Light & dark themes</a>

@@ -25,8 +25,11 @@ blocks:
   figure_alt: Chobble Tickets administration dashboard showing listings and booking totals
   figure_caption: Keep event setup, bookings and day-to-day work together.
 - type: features
-  intro_content: "## Selling tickets"
+  intro_content: "## [Selling tickets](/features/selling-tickets/)"
   items:
+  - icon: hugeicons:coins-02
+    description: Managed hosting costs £50/year or £5/month whatever the ticket volume, with no percentage cut and no per-ticket platform charge.
+    name: <a href="/features/no-per-ticket-fees/">No per-ticket fees</a>
   - icon: hugeicons:credit-card
     description: Accept payments via Stripe, Square, or SumUp with fixed pricing or pay-what-you-want, and automatic refunds.
     name: <a href="/features/stripe-and-square/">Stripe, Square & SumUp</a>
@@ -127,6 +130,9 @@ blocks:
   - icon: hugeicons:globe-02
     description: Get a host-provided subdomain instantly, then add your own custom domain whenever you're ready.
     name: <a href="/features/custom-domain/">Custom domain</a>
+  - icon: hugeicons:paint-board
+    description: Booking pages, tickets and emails carry your name and no Chobble branding, with no add-on or higher tier to buy.
+    name: <a href="/features/white-labelling/">White labelling</a>
   - icon: hugeicons:paint-brush-01
     description: Built-in public site with light and dark theme options, so your booking pages match your brand.
     name: <a href="/features/light-and-dark-themes/">Light & dark themes</a>
@@ -179,9 +185,12 @@ blocks:
   - icon: hugeicons:mail-01
     description: Choose from Resend, Postmark, SendGrid, or Mailgun (US and EU) for notifications.
     name: <a href="/features/email-providers/">Email providers</a>
+  - icon: hugeicons:user-search-01
+    description: A service-by-service breakdown of which users and configured providers can receive attendee data.
+    name: <a href="/features/who-can-see-your-data/">Who can see your data</a>
   - icon: hugeicons:api
-    description: Public JSON endpoints for listings and booking, plus authenticated administration of listings, groups and holidays.
-    name: <a href="/features/public-api/">Public & Admin API</a>
+    description: <a href="/features/public-api/">Public JSON endpoints</a> for listings and booking, plus an <a href="/features/admin-api/">admin API</a> for listings, groups and holidays.
+    name: Public & Admin API
   - icon: hugeicons:notification-03
     description: Get POST notifications on every booking to integrate with your tools.
     name: <a href="/features/webhooks/">Webhooks</a>
