@@ -38,6 +38,11 @@ blocks:
       Refunded attendees are clearly marked in the admin panel so you can
       see at a glance who has been refunded and who hasn't, and the
       activity log records every refund for your audit trail.
+
+      > "It's also much better for refunds as Eventbrite doesn't refund the
+      > booking fee."
+      >
+      > - [Chris, British Bourbon Society](https://www.facebook.com/httkb/posts/pfbid0VPiUCz5UYAp8Z59LddLBw5GdGz3TA1xfErGmBhAP5dF7TisRNrXBZCadb4QP4T2Al)
   - type: cta
     button:
       text: Get Started

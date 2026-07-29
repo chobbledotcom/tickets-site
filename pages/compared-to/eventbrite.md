@@ -266,6 +266,12 @@ blocks:
       > with far more potential and a fraction of the cost."
       >
       > - [Elliott's Bouncy Castle Hire](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
+
+      > "Chobble tickets is very easy to use and takes no cut (even though
+      > Stripe takes a very small amount). It's also much better for refunds as
+      > Eventbrite doesn't refund the booking fee."
+      >
+      > - [Chris, British Bourbon Society](https://www.facebook.com/httkb/posts/pfbid0VPiUCz5UYAp8Z59LddLBw5GdGz3TA1xfErGmBhAP5dF7TisRNrXBZCadb4QP4T2Al)
   - type: markdown
     content: |
       ## When Chobble Tickets is the better choice

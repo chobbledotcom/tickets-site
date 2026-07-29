@@ -57,6 +57,22 @@ blocks:
       > and still saving nearly £100."
   - type: markdown
     content: |
+      ## Chris, British Bourbon Society
+
+      [Read the review on Facebook](https://www.facebook.com/httkb/posts/pfbid0VPiUCz5UYAp8Z59LddLBw5GdGz3TA1xfErGmBhAP5dF7TisRNrXBZCadb4QP4T2Al)
+
+      The British Bourbon Society ran an event on Chobble Tickets after using
+      Eventbrite.
+
+      > "I used Chobble tickets for an event we held for the British Bourbon
+      > Society. Previously, we had always used Eventbrite which takes quite a
+      > large portion of the ticket sales as fees. Chobble tickets is very easy
+      > to use and takes no cut (even though Stripe takes a very small amount).
+      > It's also much better for refunds as Eventbrite doesn't refund the
+      > booking fee. We will definitely be using Chobble for our future events
+      > and I recommend it for anyone putting paid ticketed events on."
+  - type: markdown
+    content: |
       ## Paul
 
       [Google review](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8)
