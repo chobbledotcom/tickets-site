@@ -234,6 +234,8 @@ blocks:
       - [FIXR pricing](https://fixr.co/pricing) - Pro: 4.99% + £0.49 per ticket; Student & Charity: 3.99% + £0.49
       - [FIXR for organisers](https://fixr.co/p/event-organisers) - event ticketing and promotion platform
       - [FIXR event ticketing](https://fixr.co/p/event-ticketing) - ticketing features overview
+      - [FIXR event listings](https://fixr.co/all/events) and [events today](https://fixr.co/events/today) - public listings by city and date
+      - [FIXR privacy policy](https://fixr.co/legal/privacy-policy) - organiser marketing on a soft opt-in basis, with buyers becoming followers
       - [Chobble Tickets features](/features/)
       - [VIPR Digital Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/08184813) - corporate structure
   - type: cta

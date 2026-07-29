@@ -310,6 +310,7 @@ blocks:
       - [Yo!Rent packages and pricing](https://www.yo-rent.com/packages.html) - GoQuick, GoCustom, GoQuick Boost, GoQuick Ultra, and add-on services
       - [Yo!Rent features](https://www.yo-rent.com/features.html) - rental marketplace features and business models
       - [Yo!Rent homepage](https://www.yo-rent.com) - product overview
+      - [Yo!Rent](https://www.yo-rent.com/) - licensed software installed on the buyer's own server
       - [Chobble Tickets features](/features/)
       - [Chobble Tickets source code on GitHub](https://github.com/chobbledotcom/tickets)
   - type: cta

@@ -358,6 +358,7 @@ blocks:
       - [Lumaverse Technologies launch](https://www.signupgenius.com/about/signupgenius-launches-lumaverse-technologies.cfm) - 2020 platform launch
       - [L Squared recapitalisation](https://psgequity.com/news/l-squared-recapitalizes-lumaverse-technologies) - 2023 recapitalisation alongside PSG
       - [SignUpGenius 100 million participants](https://www.signupgenius.com/news/signupgenius-empowers-organizers-to-engage-over-100-million-participants-through-comprehensive-group-management-platform) - 2025 growth announcement
+      - [SignUpGenius](https://www.signupgenius.com/) - create a sign up and share one link, with no public directory found
       - [Chobble Tickets features](/features/)
   - type: cta
     button:

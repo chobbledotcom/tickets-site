@@ -253,6 +253,8 @@ blocks:
       - [MIO dashboard](https://mio.dice.fm) - DICE's partner analytics dashboard
       - [DICE Ticket Holders API](https://partners-endpoint.dice.fm/graphql/docs/index.html) - GraphQL API documentation
       - [Hi.Events DICE comparison](https://hi.events/dice-alternative) - third-party comparison estimating DICE fees
+      - [DICE city browse pages](https://dice.fm/browse) - public listings of events from many promoters
+      - [DICE UK privacy policy](https://support.dice.fm/article/244-uk-privacy-policy) - personalised event recommendations and marketing consent
       - [Chobble Tickets features](/features/)
   - type: cta
     button:

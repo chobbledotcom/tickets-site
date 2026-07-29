@@ -71,14 +71,15 @@ blocks:
     content: |
       ## Data ownership and privacy
 
-      Fatsoma markets to your attendees and uses your event data to promote
-      other events on their platform. Your attendees become Fatsoma's
-      audience as well as yours.
+      Fatsoma lists events in a public catalogue, so your event appears
+      alongside other promoters' events. Its communication policy says people
+      receive announcements about a brand only if they follow it, and buying a
+      ticket makes someone a follower of that promoter.
 
       With Chobble Tickets, attendee data is encrypted with hybrid RSA/AES
-      encryption and stays under your control. There's no platform trying to
-      cross-promote other events to your audience, and no marketing emails
-      sent to your attendees.
+      encryption and stays under your control. Chobble Tickets has no public
+      catalogue, so your event is not listed next to anyone else's, and
+      Chobble sends no marketing emails to your attendees.
   - type: markdown
     content: |
       ## Payouts
@@ -250,6 +251,8 @@ blocks:
       - [Fatsoma for Business](https://ticketing.fatsoma.com/) - event ticketing and promotion platform
       - [Fatsoma Reps](https://ticketing.fatsoma.com/f/reps) - affiliate/rep network feature
       - [The Fatsoma App](https://ticketing.fatsoma.com/f/the-fatsoma-app) - consumer mobile app
+      - [Fatsoma discover](https://www.fatsoma.com/discover) - public catalogue of events from many promoters
+      - [Fatsoma communication policy](https://www.fatsoma.com/policies/communication) - announcements only from brands a person follows
       - [Chobble Tickets features](/features/)
       - [Fatsoma Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/05495880) - corporate structure
   - type: cta

@@ -243,6 +243,7 @@ blocks:
 
       - [BookitBee pricing](https://bookitbee.com/pricing/) - from 3.5% per ticket
       - [BookitBee features](https://www.bookitbee.com/features/)
+      - [Bookitbee features](https://bookitbee.com/features/) - sharing a unique event link, with no public browse page found
       - [Chobble Tickets features](/features/)
       - [Live It Group Ltd on Companies House](https://find-and-update.company-information.service.gov.uk/company/08432364) - corporate structure
   - type: cta

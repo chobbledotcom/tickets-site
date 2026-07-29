@@ -258,6 +258,7 @@ blocks:
       - [Tito Help Center - non-profit rate](https://help.tito.io/en/articles/2519206-how-can-i-apply-for-tito-s-non-profit-rate) - 2.5%, 1%, and 0% charity tiers
       - [Team Tito Limited](https://teamtito.com/about) - company information
       - [Tito investment announcement](https://blog.tito.io/posts/some-investment-news/) - €1.25M from Lachy Groom (2020)
+      - [Tito](https://ti.to/home) and [the event homepage](https://help.tito.io/en/articles/2006289-the-event-homepage) - per-event pages, with no public directory
       - [Chobble Tickets features](/features/)
   - type: cta
     button:

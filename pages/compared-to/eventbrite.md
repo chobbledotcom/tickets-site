@@ -317,6 +317,8 @@ blocks:
       - [Eventbrite features - sell tickets](https://www.eventbrite.com/organizer/features/sell-tickets/)
       - [Eventbrite AI-powered marketing tools](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/) - 17% CPC and 30% campaign launch claims
       - [Eventbrite retargeting ROI](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/) - 6x average ROI claim
+      - [Eventbrite event privacy listing details](https://www.eventbrite.com/help/en-us/articles/305873/) - public events appear in the Eventbrite directory, on search engines and partner sites
+      - [Eventbrite privacy policy](https://www.eventbrite.com/help/en-us/articles/460838/) - marketing communications about events on the Services, and targeted recommendations
       - [Chobble Tickets features](/features/)
   - type: cta
     button:

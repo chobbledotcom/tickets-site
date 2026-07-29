@@ -129,8 +129,8 @@ blocks:
 
       An event listed in a catalogue is presented under that provider's name,
       so branding removal is limited by design. What each provider allows an
-      organiser to remove from its own checkout is not documented, so this
-      guide states no outcome for them.
+      organiser to remove from its own checkout has not been reviewed for this
+      guide, so it states no outcome for them.
   - type: markdown
     content: |
       ## Questions to ask a provider
@@ -147,7 +147,7 @@ blocks:
         attribution link?
 
       Prices and plan names change. Each linked comparison page lists the
-      sources used, and most record the date the information was checked.
-      Where no date is recorded, check the provider's own pricing page before
-      relying on the figures.
+      sources used and the date they were checked. Providers change their
+      plans between checks, so confirm the current figures on the provider's
+      own pricing page before relying on them.
 ---
