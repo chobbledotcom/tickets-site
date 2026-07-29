@@ -29,7 +29,8 @@ blocks:
 
       The public site carries no Chobble branding anywhere. The only Chobble
       link in the product is in the footer of the administration area, which
-      only logged-in staff see.
+      only logged-in staff see. The Chobble name appears in the default web
+      address until the organiser points a custom domain at the site.
   - type: markdown
     dark: true
     content: |

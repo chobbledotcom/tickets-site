@@ -11,9 +11,11 @@ blocks:
   - type: markdown
     content: |
       "White label" means the booking pages, tickets and emails carry the
-      organiser's name instead of the ticketing provider's name. Providers
-      treat it in three different ways: included, sold as an extra, or not
-      offered at all.
+      organiser's name instead of the ticketing provider's name. Some providers
+      include it, some sell it as an add-on or a higher plan, and some apply
+      the organiser's branding without removing their own. For many providers
+      the reviewed sources do not say, and this guide records that rather than
+      reading it as a no.
 
       Branding removal is rarely one setting. It usually needs a logo and
       colour scheme, an organiser-owned web address, and emails sent from the
@@ -42,7 +44,7 @@ blocks:
 
       | Provider | What is included | Qualification |
       |---|---|---|
-      | [Chobble Tickets](/features/white-labelling/) | Organiser branding, custom CSS, an organiser-owned domain and emails from the organiser's own provider, on every plan. Managed hosting costs £50/year or £5/month, or £25/year for charities, community groups, artists and musicians. No Chobble branding appears on the public site. | A Chobble link sits in the footer of the administration area, which only logged-in staff see. Payment providers still show their own name at the card-payment step. |
+      | [Chobble Tickets](/features/white-labelling/) | Organiser branding, custom CSS, an organiser-owned domain and emails from the organiser's own provider, on managed and self-hosted sites alike. Managed hosting costs £50/year or £5/month, or £25/year for charities, community groups, artists and musicians. No Chobble branding appears on the public site. | A Chobble link sits in the footer of the administration area, which only logged-in staff see. Payment providers still show their own name at the card-payment step. |
   - type: markdown
     dark: true
     content: |
@@ -100,7 +102,20 @@ blocks:
         removed was not documented in the sources reviewed.
   - type: markdown
     content: |
-      ## Discovery platforms, where branding removal was not reviewed
+      ## Reviewed, with branding removal not documented
+
+      These providers were reviewed, but their published material does not say
+      whether their own branding can be removed. Ask them directly before
+      assuming either answer.
+
+      [Cal.com](/compared-to/cal-com/), [Dandelion](/compared-to/dandelion/),
+      [Humanitix](/compared-to/humanitix/), [Resova](/compared-to/resova/),
+      [Swicket](/compared-to/swicket/) and
+      [Wix Events](/compared-to/wix-events/).
+  - type: markdown
+    dark: true
+    content: |
+      ## Discovery platforms, where branding removal is not recorded
 
       [Resident Advisor](/compared-to/resident-advisor/) is recorded as
       running an event marketplace, where a listing carries the provider's name
@@ -111,10 +126,9 @@ blocks:
       marketplace classification has not been reviewed and stored.
 
       What each of these providers allows an organiser to remove from its own
-      checkout was not reviewed, so this guide records no outcome for them.
+      checkout is not recorded, so this guide states no outcome for them.
       Their comparison pages cover fees, attendee data and event discovery.
   - type: markdown
-    dark: true
     content: |
       ## Questions to ask a provider
 
