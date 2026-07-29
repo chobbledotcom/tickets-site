@@ -12,7 +12,7 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - ticketek
-  last_reviewed: null
+  last_reviewed: "2026-07-29"
   registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
@@ -23,8 +23,11 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: not-reviewed
-  attendee_cross_marketing: not-reviewed
+  event_marketplace: built-in
+  attendee_cross_marketing: not-documented
+  notes:
+    event_marketplace: "Ticketek runs a public consumer site browsable by category and by date, listing events from many promoters. Whether listing is automatic or by opt-in was not documented. Checked 29 July 2026."
+    attendee_cross_marketing: "Ticketek offers alerts for a registrant's chosen artists and sports and access to pre-sales. Whether it markets other organisers' events to ticket buyers was not documented. Checked 29 July 2026."
 blocks:
   - type: hero
     class: gradient
@@ -283,6 +286,8 @@ blocks:
         - 2024 breach details
       - [TEG - The TEG Story](https://www.teg.com.au/the-teg-story/) -
         company history and ownership
+      - [Ticketek New Zealand](https://premier.ticketek.co.nz/) - public listings browsable by category and date
+      - [Ticketek about us](https://premier.ticketek.co.nz/Content/aboutus/aboutus.aspx) - events ticketed across many promoters
       - [Chobble Tickets features](/features/)
   - type: cta
     button:

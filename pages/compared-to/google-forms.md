@@ -10,7 +10,7 @@ provider_facts:
   name: Google Forms
   kind: adjacent-software
   calculator_keys: []
-  last_reviewed: null
+  last_reviewed: "2026-07-29"
   registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
@@ -21,8 +21,11 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: not-reviewed
-  attendee_cross_marketing: not-reviewed
+  event_marketplace: none
+  attendee_cross_marketing: not-documented
+  notes:
+    event_marketplace: "Google Forms is a form builder. Forms are shared by link, email or embed, and no browsable directory of other people's forms is published. Checked 29 July 2026."
+    attendee_cross_marketing: "Whether Google markets to form respondents was not established in the sources reviewed. Checked 29 July 2026."
 blocks:
   - type: hero
     class: gradient
@@ -185,6 +188,7 @@ blocks:
 
       - [Google Forms](https://docs.google.com/forms) - free to use with a Google account
       - [Google Forms help](https://support.google.com/docs/answer/6281888) - feature overview
+      - [Google Forms](https://workspace.google.com/products/forms/) - forms shared by link, email or embed
       - [Chobble Tickets features](/features/)
   - type: cta
     button:

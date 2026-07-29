@@ -12,7 +12,7 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - fatsoma
-  last_reviewed: null
+  last_reviewed: "2026-07-29"
   registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
@@ -23,8 +23,11 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: not-reviewed
-  attendee_cross_marketing: not-reviewed
+  event_marketplace: built-in
+  attendee_cross_marketing: none
+  notes:
+    event_marketplace: "Fatsoma runs a public discovery site at fatsoma.com/discover, browsable by category, listing events from many promoters. Whether listing is automatic or by opt-in was not documented. Checked 29 July 2026."
+    attendee_cross_marketing: "The communication policy states that people receive announcements about a brand only if they follow that brand, where buying a ticket makes someone a follower. No Fatsoma-run marketing of other organisers' events was documented. Checked 29 July 2026."
 blocks:
   - type: hero
     class: gradient
@@ -68,14 +71,15 @@ blocks:
     content: |
       ## Data ownership and privacy
 
-      Fatsoma markets to your attendees and uses your event data to promote
-      other events on their platform. Your attendees become Fatsoma's
-      audience as well as yours.
+      Fatsoma lists events in a public catalogue, so your event appears
+      alongside other promoters' events. Its communication policy says people
+      receive announcements about a brand only if they follow it, and buying a
+      ticket makes someone a follower of that promoter.
 
       With Chobble Tickets, attendee data is encrypted with hybrid RSA/AES
-      encryption and stays under your control. There's no platform trying to
-      cross-promote other events to your audience, and no marketing emails
-      sent to your attendees.
+      encryption and stays under your control. Chobble Tickets has no public
+      catalogue, so your event is not listed next to anyone else's, and
+      Chobble sends no marketing emails to your attendees.
   - type: markdown
     content: |
       ## Payouts
@@ -247,6 +251,8 @@ blocks:
       - [Fatsoma for Business](https://ticketing.fatsoma.com/) - event ticketing and promotion platform
       - [Fatsoma Reps](https://ticketing.fatsoma.com/f/reps) - affiliate/rep network feature
       - [The Fatsoma App](https://ticketing.fatsoma.com/f/the-fatsoma-app) - consumer mobile app
+      - [Fatsoma discover](https://www.fatsoma.com/discover) - public catalogue of events from many promoters
+      - [Fatsoma communication policy](https://www.fatsoma.com/policies/communication) - announcements only from brands a person follows
       - [Chobble Tickets features](/features/)
       - [Fatsoma Limited on Companies House](https://find-and-update.company-information.service.gov.uk/company/05495880) - corporate structure
   - type: cta

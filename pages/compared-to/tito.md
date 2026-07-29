@@ -12,7 +12,7 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - tito
-  last_reviewed: null
+  last_reviewed: "2026-07-29"
   registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
@@ -23,8 +23,11 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: not-reviewed
-  attendee_cross_marketing: not-reviewed
+  event_marketplace: not-documented
+  attendee_cross_marketing: not-documented
+  notes:
+    event_marketplace: "Tito's own material describes registration, ticketing, check-in and a per-event homepage. No public directory or discovery listing was found in the pages reviewed, and Tito does not state whether one exists. Checked 29 July 2026."
+    attendee_cross_marketing: "No attendee marketing programme was documented in the sources reviewed. Checked 29 July 2026."
 blocks:
   - type: hero
     class: gradient
@@ -255,6 +258,7 @@ blocks:
       - [Tito Help Center - non-profit rate](https://help.tito.io/en/articles/2519206-how-can-i-apply-for-tito-s-non-profit-rate) - 2.5%, 1%, and 0% charity tiers
       - [Team Tito Limited](https://teamtito.com/about) - company information
       - [Tito investment announcement](https://blog.tito.io/posts/some-investment-news/) - €1.25M from Lachy Groom (2020)
+      - [Tito](https://ti.to/home) and [the event homepage](https://help.tito.io/en/articles/2006289-the-event-homepage) - per-event pages, with no public directory
       - [Chobble Tickets features](/features/)
   - type: cta
     button:

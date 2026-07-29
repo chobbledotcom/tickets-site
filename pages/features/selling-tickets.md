@@ -16,6 +16,9 @@ blocks:
       Set prices and capacity, collect the information each event needs, take payments and manage changes after the sale.
   - type: features
     items:
+      - icon: hugeicons:coins-02
+        description: Managed hosting costs £50/year or £5/month whatever the ticket volume, or £25/year for charities, community groups, artists and musicians. Chobble adds no percentage cut or per-ticket charge.
+        name: <a href="/features/no-per-ticket-fees/">No per-ticket fees</a>
       - icon: hugeicons:credit-card
         description: Accept payments through Stripe, Square or SumUp with fixed or pay-what-you-want prices. Record cash, bank transfers and money owed.
         name: <a href="/features/stripe-and-square/">Card and offline payments</a>

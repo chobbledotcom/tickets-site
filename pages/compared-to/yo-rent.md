@@ -10,7 +10,7 @@ provider_facts:
   name: Yo!Rent
   kind: adjacent-software
   calculator_keys: []
-  last_reviewed: null
+  last_reviewed: "2026-07-29"
   registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
@@ -21,8 +21,11 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: not-reviewed
-  attendee_cross_marketing: not-reviewed
+  event_marketplace: none
+  attendee_cross_marketing: none
+  notes:
+    event_marketplace: "Yo!Rent is licensed software installed on the buyer's own server, so listings appear on the customer's site rather than in any yo-rent.com catalogue. Checked 29 July 2026."
+    attendee_cross_marketing: "Yo!Rent does not operate the storefront, so it holds no attendee relationship through which to market. Checked 29 July 2026."
 blocks:
   - type: hero
     class: gradient
@@ -307,6 +310,7 @@ blocks:
       - [Yo!Rent packages and pricing](https://www.yo-rent.com/packages.html) - GoQuick, GoCustom, GoQuick Boost, GoQuick Ultra, and add-on services
       - [Yo!Rent features](https://www.yo-rent.com/features.html) - rental marketplace features and business models
       - [Yo!Rent homepage](https://www.yo-rent.com) - product overview
+      - [Yo!Rent](https://www.yo-rent.com/) - licensed software installed on the buyer's own server
       - [Chobble Tickets features](/features/)
       - [Chobble Tickets source code on GitHub](https://github.com/chobbledotcom/tickets)
   - type: cta

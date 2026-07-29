@@ -12,7 +12,7 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - eventbrite
-  last_reviewed: null
+  last_reviewed: "2026-07-29"
   registration_country: not-reviewed
   ethical_basis:
     - not-reviewed
@@ -23,8 +23,11 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
-  event_marketplace: not-reviewed
-  attendee_cross_marketing: not-reviewed
+  event_marketplace: built-in
+  attendee_cross_marketing: provider-content-and-events
+  notes:
+    event_marketplace: "Eventbrite runs a public events directory browsable by place and category. Its help centre states that a public event is shown in the Eventbrite public events directory, on major search engines and partner sites, and that a private event is not. Checked 29 July 2026."
+    attendee_cross_marketing: "The privacy policy states that Eventbrite may send electronic communications marketing or advertising the Services themselves or events on the Services, and may use inferences to target advertising or customise recommendations, including on behalf of organisers. Checked 29 July 2026."
 blocks:
   - type: hero
     class: gradient
@@ -314,6 +317,8 @@ blocks:
       - [Eventbrite features - sell tickets](https://www.eventbrite.com/organizer/features/sell-tickets/)
       - [Eventbrite AI-powered marketing tools](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/) - 17% CPC and 30% campaign launch claims
       - [Eventbrite retargeting ROI](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/) - 6x average ROI claim
+      - [Eventbrite event privacy listing details](https://www.eventbrite.com/help/en-us/articles/305873/) - public events appear in the Eventbrite directory, on search engines and partner sites
+      - [Eventbrite privacy policy](https://www.eventbrite.com/help/en-us/articles/460838/) - marketing communications about events on the Services, and targeted recommendations
       - [Chobble Tickets features](/features/)
   - type: cta
     button:
