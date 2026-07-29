@@ -90,9 +90,11 @@ blocks:
       - **Reserved seating with seat map builder** - create interactive
         venue maps where attendees pick their own seats, tables, or zones,
         with a best-available auto-assignment option
-      - **Payment plans and deposits** - collect instalment payments over
-        time for higher-priced events, with renewal tracking and
-        failed-payment handling
+      - **Payment plans** - collect instalment payments over time for
+        higher-priced events, with renewal tracking and failed-payment
+        handling. Chobble Tickets takes a
+        [deposit and the balance later](/features/deposits-and-balance-payments/),
+        but does not split a price into a run of instalments
       - **Renewable membership system** - multi-tier memberships with
         pro-rata mid-year additions, self-service upgrades/downgrades,
         cancellations, and members-only event gating
