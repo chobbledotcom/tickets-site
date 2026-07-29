@@ -54,9 +54,11 @@ blocks:
         `yourname.tix.chobble.net` address until a custom domain is pointed at
         it.
       - **An existing website.** The
-        [embeddable widget](/features/embeddable-widget/) and
-        [order widget](/features/order-widget/) put booking inside a site the
-        organiser already runs.
+        [embeddable widget](/features/embeddable-widget/) puts the booking
+        pages inside a site the organiser already runs. The
+        [order widget](/features/order-widget/) turns that site's links into
+        add-to-cart buttons and hands the chosen quantities off to the hosted
+        checkout.
   - type: markdown
     content: |
       ## No attribution requirement
