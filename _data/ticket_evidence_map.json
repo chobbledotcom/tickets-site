@@ -112,9 +112,9 @@
       "galleryCaption": "The note left when a payment arrives after the last place has gone.",
       "legacyDestinationPath": "images/screenshots/place-lost-while-paying.png",
       "page": "pages/features/overbooking-prevention.md",
-      "reviewed": "cf7008c83a97fe479ee00916d16ce8939cd8e464391aeb21c70998126284cbe6",
+      "reviewed": "7e81a4267972919ff3687d5f9fa10d852bf4fd6085eec15e47985bbf5350c6a0",
       "socialBody": "Capacity is used when payment is confirmed, not when checkout starts. Whoever confirms second is refunded once, and the organiser is told why.",
-      "socialHeading": "Nobody is charged for a place that has gone",
+      "socialHeading": "A payment that loses the place is refunded",
       "socialKey": "place-lost-while-paying"
     },
     "qr-code-check-in": {

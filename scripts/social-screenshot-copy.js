@@ -128,7 +128,7 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "Select Stripe, Square or SumUp. Saved credentials remain available when the organiser switches provider.",
   },
   "place-lost-while-paying": {
-    heading: "Nobody is charged for a place that has gone",
+    heading: "A payment that loses the place is refunded",
     body: "Capacity is used when payment is confirmed, not when checkout starts. Whoever confirms second is refunded once, and the organiser is told why.",
   },
   "promo-codes-and-add-ons": {
