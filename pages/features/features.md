@@ -164,6 +164,12 @@ blocks:
   - icon: hugeicons:source-code
     description: Published under AGPL-3.0-only with every product feature included and no proprietary feature tier.
     name: <a href="/features/open-source/">Open source</a>
+  - icon: hugeicons:flash
+    description: Managed sites are set up through an emailed link. Self-hosted deployments follow five documented steps, and the database migrates itself on the first request.
+    name: <a href="/features/deployment/">Deployment</a>
+  - icon: hugeicons:ai-brain-01
+    description: The source, the behaviour specifications and the agent instructions are all published, so a coding agent can read and deploy the same product Chobble runs.
+    name: <a href="/features/coding-agents/">Coding agents</a>
   - icon: hugeicons:view-off
     description: Managed hosting processes encrypted attendee records but does not use them for audience profiles, advertising or other event marketing.
     name: <a href="/features/no-spying/">No attendee marketing</a>

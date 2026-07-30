@@ -19,6 +19,12 @@ blocks:
       - icon: hugeicons:source-code
         description: Published under AGPL-3.0-only with every product feature included and no proprietary feature tier.
         name: <a href="/features/open-source/">Open source</a>
+      - icon: hugeicons:flash
+        description: Managed sites are set up through an emailed link. Self-hosted deployments follow five documented steps, and the database migrates itself on the first request.
+        name: <a href="/features/deployment/">Deployment</a>
+      - icon: hugeicons:ai-brain-01
+        description: Published source, behaviour specifications and agent instructions, so a coding agent can read and deploy the same product Chobble runs.
+        name: <a href="/features/coding-agents/">Coding agents</a>
       - icon: hugeicons:lock
         description: Personal data is encrypted before it is stored. The technical documentation explains the RSA-OAEP and AES-256-GCM design.
         name: <a href="/features/encrypted/">Encrypted</a>
