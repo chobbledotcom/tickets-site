@@ -147,6 +147,12 @@ blocks:
 
       A restore reports the source-code version that matches the restored data.
 
+      The in-app update button refuses to run unless a backup of that site was
+      taken within the last hour, and the site builder applies the same gate to
+      the sites it updates. Deploying by pushing to `main` does not check for a
+      backup, so an operator on that path takes one before shipping a change
+      that alters the schema.
+
       ### Exporting the catalogue
 
       Catalogue export moves event setup rather than a whole site. It produces
@@ -154,8 +160,7 @@ blocks:
       memberships, packages and parent references.
 
       This suits copying a programme into a different site rather than
-      recreating the one you had. Updates refuse to run without a recent
-      backup.
+      recreating the one you had.
 
       ## Hosting several sites
 

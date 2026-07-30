@@ -168,8 +168,9 @@ blocks:
 
       An edge script is not running while nobody is using it, so a request can
       arrive with nothing warm. The same benchmark loaded that 5.51MB file in
-      about 156 milliseconds and served its first request in under 3. A whole
-      ticketing application at that size is the reason those numbers are small.
+      about 156 milliseconds and served its first request in under 3
+      milliseconds. A whole ticketing application at that size is the reason
+      those numbers are small.
 
       Pages are rendered on the server from TSX templates, using a JSX runtime
       written inside the repository rather than React. There is no separate

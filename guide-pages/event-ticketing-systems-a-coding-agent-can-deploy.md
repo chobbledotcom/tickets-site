@@ -25,15 +25,25 @@ blocks:
       rather than guessed at.
 
       The licence names below decide what an operator may do with the code.
-      AGPL and GPL licences permit reading, changing and running the software,
-      and require published changes to carry the same licence. MIT and Apache
-      2.0 permit the same uses with fewer conditions attached.
+      All of them permit reading it, changing it and running it. They differ in
+      what an operator owes in return, and the difference matters most to
+      somebody running a modified copy.
 
-      The Functional Source License is not an open source licence. It permits
+      The GPL attaches its condition to giving copies out: distribute the
+      software, changed or not, and the matching source goes with it under the
+      same licence. The AGPL adds a condition for network use, so offering a
+      modified version to users over a network means offering those users its
+      source as well. A self-hosted site can reach that second condition
+      without ever handing anyone a copy.
+
+      MIT and Apache 2.0 permit the same uses with fewer conditions attached.
+      The Functional Source License is not an open source licence: it permits
       internal use but restricts running a competing service for two years,
-      after which Apache 2.0 terms apply. A licence permitting self-hosting is
-      separate from whether the provider's branding may be removed, which the
-      table records where it applies.
+      after which Apache 2.0 terms apply.
+
+      A licence permitting self-hosting is separate from whether the provider's
+      branding may be removed, which the table records where it applies. Read
+      the licence itself before relying on any summary, including this one.
 
   - type: markdown
     dark: true
