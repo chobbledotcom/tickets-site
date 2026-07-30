@@ -44,13 +44,13 @@ blocks:
     items:
       - icon: hugeicons:flash
         name: Site created after payment
-        description: A setup link is sent by email. It opens the new site's password and organisation setup process.
+        description: A setup link is sent by email. It sets the first owner login and password, and the country the site operates in.
       - icon: hugeicons:database-01
         name: Separate site and database
         description: Each organiser receives a separate instance rather than an account inside a shared event marketplace.
       - icon: hugeicons:globe-02
         name: Hosted address and custom domain
-        description: The site works on its supplied address and can also serve up to three configured domain names.
+        description: The site works on its supplied address and can also serve an organiser's own domain. Up to three URLs are active at once, counting the supplied subdomain and the underlying script address.
       - icon: hugeicons:refresh
         name: Software updates
         description: Chobble deploys product updates. Updates require a recent database backup before the in-app process can run.
