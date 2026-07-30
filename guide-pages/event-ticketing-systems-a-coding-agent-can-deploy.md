@@ -102,6 +102,45 @@ blocks:
   - type: markdown
     dark: true
     content: |
+      ## Running it on your own machine first
+
+      Before an agent can see whether its change worked, it has to get the
+      software running locally. What that costs differs more between these
+      projects than the deployment does.
+
+      Chobble Tickets needs Deno. Its database can be held in memory by
+      pointing `DB_URL` at `:memory:`, so there is nothing to install or keep
+      running alongside it. The project's Nix development shell sets that and a
+      throwaway encryption key on entry; without Nix, a setup script installs
+      the pinned Deno version and those two variables are set by hand.
+
+      A change tried that way can then be pushed to the operator's own
+      repository, which deploys it.
+
+      The other projects bring more with them.
+
+      - [Pretix](/compared-to/pretix/) documents Python 3.9 or later with
+        development headers for libffi, libssl, libxml2, libxslt and
+        libenchant, plus Node.js, a virtual environment and a `make` step,
+        after which Django migrations create a local SQLite database.
+      - [alf.io](/compared-to/swicket/) documents Java 17 and PostgreSQL 10 or
+        later.
+      - [Hi.Events](/compared-to/hi-events/) supplies a Docker Compose file for
+        an all-in-one development setup.
+      - Changing a WordPress plugin such as
+        [FooEvents](/compared-to/fooevents/) or
+        [EventPrime](/compared-to/eventprime/) means running WordPress itself,
+        which needs PHP and a MySQL or MariaDB database, and for FooEvents
+        WooCommerce as well. There is a working shop to stand up before the
+        plugin being changed is even loaded.
+
+      This is not a statement about the quality of those projects, and a
+      Docker file makes the setup one command whatever sits inside it. It is
+      what has to exist on the machine before an agent can watch its own change
+      run.
+
+  - type: markdown
+    content: |
       ## Instructions written for agents
 
       Some projects now commit instructions telling a coding agent how to work
@@ -129,6 +168,7 @@ blocks:
       agent instructions, and what Chobble Tickets enforces.
 
   - type: markdown
+    dark: true
     content: |
       ## Choosing
 
