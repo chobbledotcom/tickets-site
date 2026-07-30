@@ -19,8 +19,8 @@ blocks:
       ## Managed hosting
 
       Payment assigns a separate ticketing site and sends its setup link by
-      email. Opening that link sets the first owner password, the organisation
-      name, and the country and currency the site will use.
+      email. Opening that link sets the first owner login and password, and the
+      country the site operates in, which determines its currency.
 
       Each site has its own database, its own encryption key and its own
       hosted address. Chobble deploys the software and its updates.
@@ -52,8 +52,7 @@ blocks:
 
       There is no separate migration command to run before the first visit. The
       database schema migrates itself on the first request, and the site is
-      then ready at `/setup/` for the first owner password, country and
-      currency.
+      then ready at `/setup/` for the first owner login, password and country.
 
       Docker deployments follow the same pattern against local SQLite or a
       remote libSQL database.
@@ -111,7 +110,7 @@ blocks:
         description: Enter a Stripe, Square or SumUp API key in admin settings. The webhook endpoint configures itself rather than being registered by hand.
       - icon: hugeicons:globe-02
         name: Addresses and domains
-        description: Each site works on its supplied address straight away and can also serve up to three configured domain names.
+        description: Each site works on its supplied address straight away, and a custom domain can be pointed at it by CNAME. Up to three URLs are active at once, counting the supplied subdomain and the underlying script address.
       - icon: hugeicons:mail-01
         name: Email sending
         description: Choose Resend, Postmark, SendGrid or Mailgun and enter its key. Confirmation templates can be edited in Liquid syntax.
@@ -142,9 +141,10 @@ blocks:
         route is enabled. The key that unlocks attendee personal data comes
         from a password the site never stores, so keeping the environment key
         while losing every keyed password leaves those records unreadable.
-      - **The storage zone.** Images and attachments are not in the zip. The
-        database holds their filenames while the files live in the configured
-        zone, so the restored site has to point at that zone or a copy of it.
+      - **The storage zone, and its credentials.** Images and attachments are
+        not in the zip. The database holds their filenames while the files live
+        in the configured zone, so the restored site needs `STORAGE_ZONE_NAME`
+        and `STORAGE_ZONE_KEY` for that zone, or for the copy it points at.
 
       A restore reports the source-code version that matches the restored data.
 

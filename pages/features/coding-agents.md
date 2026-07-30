@@ -207,8 +207,8 @@ blocks:
 
       An agent can create and move a site's events through its APIs rather than
       by driving the admin screens. This covers the catalogue, not the whole
-      site: the first owner password, country and currency are set at `/setup/`,
-      and
+      site: the first owner login, password and country are set at `/setup/`,
+      and the country determines the currency, while
       payment, email, domain, user and branding settings are configured in the
       admin area.
 
