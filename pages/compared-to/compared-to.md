@@ -69,6 +69,9 @@ blocks:
       - icon: hugeicons:source-code
         description: Another open source option. Compare features, hosting models, and pricing.
         name: <a href="/compared-to/hi-events/">Hi.Events alternative</a>
+      - icon: hugeicons:source-code
+        description: Free self-hosted open source ticketing with a seat plan editor, no longer updated since its code was archived. Compare hosting, upkeep and features.
+        name: <a href="/compared-to/libreevent/">libreevent alternative</a>
       - icon: hugeicons:ticket-01
         description: Purpose-built for school PTAs with fundraising tools. Compare features and fees.
         name: <a href="/compared-to/pta-events/">PTA Events alternative</a>
