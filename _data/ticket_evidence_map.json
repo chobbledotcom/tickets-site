@@ -8,8 +8,8 @@
       "galleryCaption": "An API key list naming a key without showing the key itself.",
       "legacyDestinationPath": "images/screenshots/api-keys-list.png",
       "page": "pages/features/public-api.md",
-      "reviewed": "6986220f1fb00b17b543341bc1080cdf9845ec6d804391b6ca9e0837391eb43d",
-      "socialBody": "Hand a key to your own website or a shop till. The site shows it once, then only its name, and you can take it back at any moment.",
+      "reviewed": "c3e292f36f52f4a7ee12d29aec03768b70deb6f73faa42602295eb8c64a763f0",
+      "socialBody": "Hand a key to a system you run, like a shop till or a back-office tool. The site shows it once, then only its name, and you can take it back at any moment.",
       "socialHeading": "Let another system work for you",
       "socialKey": "api-keys-list"
     },

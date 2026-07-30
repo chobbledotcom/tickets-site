@@ -13,7 +13,7 @@ export const SOCIAL_SCREENSHOT_COPY = {
   },
   "api-keys-list": {
     heading: "Let another system work for you",
-    body: "Hand a key to your own website or a shop till. The site shows it once, then only its name, and you can take it back at any moment.",
+    body: "Hand a key to a system you run, like a shop till or a back-office tool. The site shows it once, then only its name, and you can take it back at any moment.",
   },
   "bulk-email": {
     heading: "Email the right attendees",

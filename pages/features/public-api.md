@@ -35,8 +35,14 @@ blocks:
       you sell without anybody signing in. The site shows the key once, when
       it is made, and from then on you see only the name you gave it.
 
-      Keys are stored the way passwords are, as an HMAC hash, so the site
-      does not hold the key either. You can take one back at any moment.
+      Anyone holding the key can do what you can do, so keep it on a server
+      you control rather than in the code a browser downloads. A page on
+      your own website should read the public endpoints, which need no key.
+
+      Chobble Tickets does not store the key. It stores a scrambled version
+      it can check a key against, the same way it stores passwords, so a copy
+      of the database does not hand anybody your key. You can take one back
+      at any moment.
     figure_src: /images/screenshots/api-keys-list.png
     figure_alt: A screenshot of the API keys page, listing a key named Shopfront that has never been used, above the form for making another
     figure_caption: 'The list names each key the owner has handed out, and never shows the key itself. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/letting-another-system-in.feature">(src)</a></small>'
