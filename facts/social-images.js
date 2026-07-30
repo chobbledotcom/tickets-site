@@ -487,6 +487,20 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "place-lost-while-paying": [
+    {
+      fact: "A paid checkout does not hold a place. Capacity is used when the payment confirmation arrives, so two customers can both reach the payment page for the last one.",
+      sources: [
+        "../tickets/specs/payments/capacity-after-payment.feature:5-16",
+      ],
+    },
+    {
+      fact: "The confirmation that arrives second keeps the customer at quantity 0, refunds the payment once, and writes the reason against the booking.",
+      sources: [
+        "../tickets/specs/payments/capacity-after-payment.feature:18-30",
+      ],
+    },
+  ],
   "promo-codes-and-add-ons": [
     {
       fact: "Code-triggered and optional price modifiers are resolved in the same order pricing pass.",

@@ -3,6 +3,7 @@ title: Groups - Chobble Tickets
 meta_title: Event Groups & Tiered Ticket Types - Chobble Tickets
 meta_description: Organise events into groups for multi-event bookings, single checkout, and tiered ticket types with shared capacity using Chobble Tickets.
 permalink: /features/groups/
+ticket_evidence_capture: group-booking-arrives
 eleventyNavigation:
   key: Groups
   parent: Managing Events
@@ -26,11 +27,15 @@ blocks:
       combined-event URLs (like `/ticket/event1+event2`), so attendees can
       book multiple events in one form and one payment.
 
-       This is also useful for recurring events like a weekly class, a monthly
-       meetup, or a season of concerts where grouping makes booking easy.
+      This is also useful for recurring events like a weekly class, a monthly
+      meetup, or a season of concerts where grouping makes booking easy.
+
+      A booking made that way is an ordinary booking: it reaches the listing's
+      own attendee list with the person's name, their email, the places they
+      took and the answers they gave.
     figure_src: /images/screenshots/the-tempest-group-checkout.png
-    figure_alt: The Tempest group checkout with two adult tickets and one child ticket, showing £30 owed
-    figure_caption: Let attendees choose several ticket types in one checkout.
+    figure_alt: A screenshot of the Summer Concert attendee list, showing Jane Doe, her email, the Medium size she picked and one place
+    figure_caption: 'A booking made on a group page arrives with the person, how to reach them, what they picked and the one place they took. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/book-through-the-site.feature">(src)</a></small>'
   - type: markdown
     content: |
       ## Tiered ticket types with shared capacity
