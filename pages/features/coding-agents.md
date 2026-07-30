@@ -1,7 +1,7 @@
 ---
 title: Hosting a Ticket System with a Coding Agent - Chobble Tickets
 meta_title: Hosting a Ticket System with an AI Coding Agent | Chobble Tickets
-meta_description: Chobble Tickets publishes its whole source, its written behaviour specifications and its agent instructions, so a coding agent such as Claude Code can read, change and deploy the same product Chobble runs.
+meta_description: Chobble Tickets publishes its whole source and enforces 100% test coverage, a 0% duplication threshold and a complexity ceiling, so a coding agent such as Claude Code gets a mechanical verdict on the changes it makes.
 permalink: /features/coding-agents/
 eleventyNavigation:
   key: Coding Agents
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Hosting a ticket system with a coding agent
 
-      Chobble Tickets publishes its whole source, its written behaviour specifications, its generated API documentation and the instructions it expects an agent to follow. Managed hosting runs the same code.
+      Chobble Tickets publishes its whole source and the instructions it expects an agent to follow. Its checks require 100% test coverage and refuse duplicated code, so an agent gets a mechanical verdict on its own work.
   - type: markdown
     content: |
       ## Who this page is for
@@ -57,6 +57,57 @@ blocks:
         description: The test suite is around twice the size of the application source, so a change an agent proposes is checked against existing behaviour rather than accepted on sight.
   - type: markdown
     content: |
+      ## Checks an agent can run against its own work
+
+      The usual limit on letting an agent change software is that nobody can
+      tell whether the change was any good without reading it. Chobble Tickets
+      answers a large part of that question mechanically. The checks below run
+      before a change can merge, and each one either passes or names the file
+      and line where it failed.
+
+      | Check | What it refuses |
+      |---|---|
+      | Lint | Cognitive complexity above 12 in application code, files over 1,000 lines, `var`, `==`, `forEach`, unused variables and imports, and stray `console` calls. Warnings are treated as failures. |
+      | Duplication | Any repeated block of 19 tokens or more across the source, the scripts and the payment tests. The threshold is 0%, described in the repository as non-negotiable. |
+      | Coverage | Any line or branch the tests do not reach. 100% of both is required to merge. |
+      | Type checking | Type errors across the source, tests, CLI and scripts. |
+      | Copy | User-facing text with "click here" style links or double spaces. |
+      | Build | A change that breaks the single-file edge bundle or pushes it past the size ceiling. |
+
+      Two further tools are run against chosen modules rather than the whole
+      repository. Mutation testing changes operators in the source and checks
+      whether the tests notice, and reports each surviving mutation as a real
+      gap. A test quality audit flags assertion patterns that pass without
+      proving much.
+
+      ## Why those particular limits help
+
+      A complexity ceiling and a line ceiling stop a function growing past the
+      point where the next reader, human or otherwise, can hold it in mind. An
+      agent that keeps adding branches to one function is told to stop while
+      the function is still small enough to restructure.
+
+      The duplication rule has a larger effect than its size suggests. Copying
+      an existing block and adjusting it is the cheapest thing an agent can do,
+      and at a 0% threshold it fails. The repository's own guidance is to merge
+      the two into one helper rather than edit around the check.
+
+      The result is that there tends to be one way of doing each thing in the
+      codebase. That is worth more to an agent reading the code later than it
+      is to the person who wrote the rule.
+
+      ## Written conventions alongside the checks
+
+      Some things cannot be checked mechanically, and AGENTS.md states them for
+      an agent to follow. It sets out seven test quality standards, including
+      that tests call production functions rather than reimplementing them, and
+      that they test behaviour rather than implementation detail.
+
+      It also requires that errors are never suppressed, sets out the
+      functional patterns the codebase uses, and describes how user-facing copy
+      should read. Copy rules that a machine cannot judge are stated with
+      before and after examples.
+
       ## One runtime, one file
 
       Chobble Tickets runs on Deno, and the repository pins the version. The

@@ -70,8 +70,15 @@ blocks:
 
       Chobble Tickets also publishes agent instructions, a structure reference
       and 39 behaviour specifications written in plain English alongside the
-      code. The [coding agents page](/features/coding-agents/) covers what the
-      repository contains.
+      code. Its checks require 100% line and branch coverage, refuse any
+      repeated block of 19 tokens or more, and cap how complex a single
+      function may become, so an agent's change is judged mechanically before
+      it can merge. The [coding agents page](/features/coding-agents/) covers
+      what the repository contains.
+
+      The other providers' development tooling has not been reviewed for this
+      page, so nothing here says they lack equivalent checks. What is stated is
+      what Chobble Tickets enforces and where to read it.
 
   - type: markdown
     dark: true
