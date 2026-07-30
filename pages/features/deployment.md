@@ -36,7 +36,8 @@ blocks:
       server the operator maintains. The
       [README](https://github.com/chobbledotcom/tickets) lists five steps:
 
-      1. Fork or clone the repository.
+      1. Fork the repository, or clone it and push to a GitHub repository you
+         control. The later steps need a repository you can add secrets to.
       2. Create a Bunny database and note its URL and token.
       3. Create a Bunny Edge Script with the repository as its linked source.
       4. Add `DB_URL`, `DB_TOKEN`, `DB_ENCRYPTION_KEY` and
@@ -55,6 +56,32 @@ blocks:
 
       Docker deployments follow the same pattern against local SQLite or a
       remote libSQL database.
+
+      ## Other places it runs
+
+      The repository carries deployment configuration for several hosts beside
+      Bunny. There is a `Dockerfile`, a `fly.toml` for Fly, a `render.yaml` for
+      Render and an `app.json` for platforms that read that format.
+
+      Each declares the same short list of variables, and only two of them are
+      required: the database URL and the encryption key. A database token is
+      needed for a remote database, and everything else, including payment
+      providers and email, is configured later in the admin area.
+
+      A shell script in `deploy/` provisions a Bunny edge script from the
+      latest release and sets its secrets, for operators setting up more than
+      one site.
+
+      ## Nothing runs while nobody is booking
+
+      A Bunny edge script is not running between requests, so an idle site
+      consumes no compute. The supplied `fly.toml` sets `min_machines_running`
+      to zero and lets Fly stop and start machines on demand, which has the
+      same effect on that host.
+
+      This makes a second copy cheap to keep. A staging site can sit unused
+      between deployments and cost only its database and storage, which is what
+      makes it practical to try an update somewhere else first.
 
       ## What deploying does not involve
 

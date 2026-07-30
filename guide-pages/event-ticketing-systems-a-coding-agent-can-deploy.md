@@ -47,7 +47,7 @@ blocks:
       | [Pretix](/compared-to/pretix/) | Core ticketing is AGPLv3. Several enterprise plugins are proprietary. | The Community edition covers core ticketing. Some larger-event features need paid plugins. |
       | [alf.io](/compared-to/swicket/) | GPL-3.0. | alf.io is the engine beneath Swicket. Swicket is a separate managed service, and its service additions are not established as sharing that licence. |
       | [EventPrime](/compared-to/eventprime/) | The free core plugin is GPLv2 or later on WordPress.org. Paid extensions are not published. | Core only. The extensions an event may need are closed. |
-      | [Dandelion](/compared-to/dandelion/) | Functional Source License, which adds Apache 2.0 after two years. | Internal use is permitted. Running a competing service is restricted for two years. |
+      | [Dandelion](/compared-to/dandelion/) | Functional Source License, which adds Apache 2.0 after two years. | Not documented. The licence permits internal use and restricts running a competing service for two years, but the records here do not establish whether the hosted service runs the published repository. |
       | [Cal.com](/compared-to/cal-com/) | The production code became proprietary in April 2026. Cal.diy remains MIT-licensed. | No. Cal.diy is a community version that has diverged from the hosted production code. |
       | [FooEvents](/compared-to/fooevents/) | Proprietary. | Not applicable. The plugins run on the organiser's own WordPress site. |
 

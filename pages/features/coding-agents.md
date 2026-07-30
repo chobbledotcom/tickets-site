@@ -103,10 +103,15 @@ blocks:
       rough. That is true of most repositories past a certain size, and none of
       these checks claims the code is better than a person would have written.
 
-      What they change is when the work gets reviewed. An agent has to satisfy
-      coverage, duplication and complexity before a pull request exists, so it
-      goes through rounds of revision it would otherwise skip by stopping at
-      its first attempt.
+      What they change is when the work gets reviewed. The project's
+      development shell installs a git pre-commit hook that runs the
+      typecheck, lint, duplication, build and test steps, so an agent meets
+      them at commit time, and the same checks run again before a merge.
+
+      An agent working that way goes through rounds of revision it would
+      otherwise skip by stopping at its first attempt. The hook can be
+      bypassed, and continuous integration is the backstop when it is, but the
+      ordinary path puts those revisions before anyone reads the change.
 
       The change a person then reads is shorter and closer to the project's
       conventions. The effort moves to the agent, which can run these checks
@@ -157,8 +162,14 @@ blocks:
       runs in development runs at the edge.
 
       The build compiles the application to a single JavaScript file. A
-      benchmark recorded on 14 July 2026 measured that file at 5.51MB, under
-      the 10MB ceiling Bunny sets for an edge script.
+      benchmark recorded on 14 July 2026 measured the self-contained build at
+      5.51MB, and a production build is smaller because it publishes the shared
+      browser assets to a CDN rather than inlining them.
+
+      An edge script is not running while nobody is using it, so a request can
+      arrive with nothing warm. The same benchmark loaded that 5.51MB file in
+      about 156 milliseconds and served its first request in under 3. A whole
+      ticketing application at that size is the reason those numbers are small.
 
       Pages are rendered on the server from TSX templates, using a JSX runtime
       written inside the repository rather than React. There is no separate
@@ -202,6 +213,11 @@ blocks:
       Catalogue JSON is the practical route for bulk setup. An agent can write
       a season of events as one file, import it, and export it again to check
       what the site stored.
+
+      The repository also ships a command-line tool for the admin API, built on
+      `curl` and configured with a hostname and an API key. It lists, reads,
+      creates, updates and deletes each resource, which suits an agent that
+      would rather run a command than compose a request.
 
       ## What an agent can and cannot read
 
