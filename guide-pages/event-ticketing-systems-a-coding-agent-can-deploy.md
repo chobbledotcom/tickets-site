@@ -90,8 +90,8 @@ blocks:
         [libreevent](/compared-to/libreevent/) is the one case here where the
         original project has stopped. Its archived repository publishes no
         further releases, so fixes come from an operator's own changes or from
-        a fork someone else continues, and each update is copied onto the
-        server by hand.
+        a fork someone else continues. Its own documented update route is
+        copying the new files onto the server by hand.
       - **An edge script.** [Chobble Tickets](/features/deployment/) compiles
         to a single JavaScript file that runs on Bunny Edge Scripting, with a
         managed database. There is no operating system to patch and no
@@ -196,11 +196,11 @@ blocks:
         running, the published source and the deployed source need to be the
         same. Among the providers reviewed here, Chobble Tickets and Hi.Events
         meet that for their hosted services, each with the qualifications in
-        the table above. A self-hosted alf.io deployment also runs the
-        published code, but Swicket is a separate managed service and its
-        additions are not established as sharing that licence. A self-hosted
-        libreevent deployment runs the published code as well, with the
-        qualification that the original project publishes no further releases.
+        the table above.
+      - A self-hosted alf.io or libreevent deployment also runs the published
+        code. Swicket is a separate managed service whose additions are not
+        established as sharing alf.io's licence, and libreevent's original
+        project publishes no further releases.
       - If the site already runs WordPress, a plugin keeps ticketing inside a
         system that is already being maintained.
       - If nobody wants to maintain a host at all, a managed service fits
