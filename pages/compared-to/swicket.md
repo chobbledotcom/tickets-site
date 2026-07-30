@@ -21,9 +21,11 @@ provider_facts:
   public_website: hosted-event-pages
   self_hosting: related-project
   source_code: related-open-source-project
+  agent_instructions: not-found
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   notes:
+    agent_instructions: "The alf.io repository root carries no AGENTS.md or CLAUDE.md. Checked 30 July 2026."
     registration_country: "Swicket is run by Vivento Lab in Lugano, Switzerland; no registered legal entity was established in the sources reviewed."
     ethical_basis: "No charitable, co-operative or certified structure was established for Swicket. The related alf.io project has public finances on Open Collective."
     managed_pricing: "Swicket publishes no managed-service price and quotes contracts individually."

@@ -90,11 +90,14 @@ blocks:
         container to rebuild. Its Docker deployments do involve a host to
         maintain.
 
-      Among the ticketing providers reviewed here, Chobble Tickets is the only
-      one whose recommended self-hosted deployment does not leave the operator
-      with a server or container to keep running. That is a difference in what
-      an agent can be asked to take on, rather than a difference in code
-      quality.
+      Of the deployment paths checked for this page, which are the five listed
+      above, Chobble Tickets is the only one that does not leave the operator
+      with a server or container to keep running. Dandelion's records establish
+      what its licence permits rather than how it is deployed, so its shape is
+      not documented here.
+
+      That is a difference in what an agent can be asked to take on, rather
+      than a difference in code quality.
 
   - type: markdown
     dark: true
@@ -115,6 +118,10 @@ blocks:
       what its checks refuse: 100% line and branch coverage, no repeated block
       of 19 tokens or more, and a ceiling on how complex a single function may
       become.
+
+      Each provider's `agent_instructions` record on its comparison page holds
+      this classification and the date it was checked, and reads `not-reviewed`
+      where no repository was examined.
 
       Test and lint thresholds were not compared across the four, so nothing
       here says another project's checks are weaker. Pretix tracks coverage

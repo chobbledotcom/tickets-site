@@ -26,9 +26,11 @@ provider_facts:
   public_website: hosted-event-pages
   self_hosting: same-product-with-conditions
   source_code: open-source-with-additional-terms
+  agent_instructions: published
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   notes:
+    agent_instructions: "Repository root carries AGENTS.md, CLAUDE.md and .cursorrules. Checked 30 July 2026."
     ethical_basis: "Hi.Events is operated by Hi.Events Ltd. Dave Earley accounted for most repository contributions when checked on 25 July 2026; public sources reviewed did not establish its funding status."
     per_ticket_platform_fee: "The cloud ticket fee is separate from Stripe payment processing."
     managed_pricing: "Hi.Events Cloud charges a percentage and fixed amount for each paid ticket."

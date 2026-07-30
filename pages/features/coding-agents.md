@@ -33,8 +33,14 @@ blocks:
       ## The whole product is readable
 
       Chobble Tickets is published under AGPL-3.0-only with no proprietary
-      parts and no paid feature tier. An agent reading the repository is
-      reading the same code that runs on managed hosting.
+      parts and no paid feature tier. That licence lets anyone read, change and
+      run the software, and asks that a modified version offered to users over
+      a network offers those users its source too. The
+      [licence text](https://www.gnu.org/licenses/agpl-3.0.en.html) states the
+      terms.
+
+      An agent reading the repository is reading the same code that runs on
+      managed hosting.
 
       That matters more for an agent than for a person. An agent asked to
       change behaviour that lives in a closed component cannot see what it is

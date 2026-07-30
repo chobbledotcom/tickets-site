@@ -27,9 +27,11 @@ provider_facts:
   public_website: organiser-microsite
   self_hosting: community-edition
   source_code: open-source-core
+  agent_instructions: not-found
   event_marketplace: none
   attendee_cross_marketing: not-documented
   notes:
+    agent_instructions: "No AGENTS.md, CLAUDE.md or .cursorrules in the repository root. Checked 30 July 2026."
     registration_country: "pretix is developed from Heidelberg, Germany; no registered legal entity was established in the sources reviewed."
     per_ticket_platform_fee: "Pretix Hosted charges 2.5% of ticket value, capped per ticket; payment processing is separate."
     ethical_basis: "Pretix describes itself as owner-led and says it operates without pressure from investors or creditors."

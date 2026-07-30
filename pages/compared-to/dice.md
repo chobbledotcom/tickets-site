@@ -23,6 +23,7 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
+  agent_instructions: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: personalised-recommendations
   notes:

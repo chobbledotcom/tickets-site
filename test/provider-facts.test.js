@@ -18,6 +18,7 @@ const FACT_FIELDS = [
   "public_website",
   "self_hosting",
   "source_code",
+  "agent_instructions",
   "event_marketplace",
   "attendee_cross_marketing",
   "registration_country",
@@ -146,6 +147,11 @@ const ENUMS = {
     "switzerland",
     "united-kingdom",
     "united-states",
+  ]),
+  agent_instructions: new Set([
+    "not-found",
+    "not-reviewed",
+    "published",
   ]),
   attendee_cross_marketing: new Set([
     "none",

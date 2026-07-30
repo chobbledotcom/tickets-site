@@ -23,6 +23,7 @@ provider_facts:
   public_website: organiser-microsite
   self_hosting: not-offered
   source_code: proprietary
+  agent_instructions: not-reviewed
   event_marketplace: optional-network
   attendee_cross_marketing: not-documented
   notes:
