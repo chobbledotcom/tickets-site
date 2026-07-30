@@ -146,12 +146,16 @@ blocks:
       Both platforms can be self-hosted, but the licensing models differ.
 
       Chobble Tickets is fully open source with **no license fee**. You get
-      every feature for free when you self-host. There is no "community vs
-      enterprise" split. The recommended deployment compiles to a single
-      JavaScript file that runs on Bunny Edge Scripting with a Bunny
-      database, so there is no server to manage, no scaling to configure and
-      no database replication to maintain. Deno Deploy and Docker are also
-      supported, and a Docker deployment does leave a host to maintain.
+      every feature for free when you self-host, and there is no "community vs
+      enterprise" split.
+
+      The recommended deployment compiles to a single JavaScript file that runs
+      on Bunny Edge Scripting with a Bunny database, so there is no server to
+      manage, no scaling to configure and no database replication to maintain.
+      The [deployment page](/features/deployment/) covers two other routes:
+      Deno Deploy, which is another company's hosting for the same kind of
+      script, and Docker on a server the operator runs, which does leave a
+      host to maintain.
 
       Pretix offers a free Community edition, but its proprietary plugins
       (seating, lead scanning, POS, resellers, and more) require a Pretix

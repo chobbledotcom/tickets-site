@@ -90,8 +90,9 @@ blocks:
         [libreevent](/compared-to/libreevent/) is the one case here where the
         original project has stopped. Its archived repository publishes no
         further releases, so fixes come from an operator's own changes or from
-        a fork someone else continues. Its own documented update route is
-        copying the new files onto the server by hand.
+        a fork, meaning a copy of the project that somebody else continues. Its
+        own documented update route is copying the new files onto the server by
+        hand.
       - **An edge script.** [Chobble Tickets](/features/deployment/) compiles
         to a single JavaScript file that runs on Bunny Edge Scripting, with a
         managed database. There is no operating system to patch and no
