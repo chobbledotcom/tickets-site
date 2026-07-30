@@ -1,7 +1,7 @@
 ---
 title: libreevent Alternative
 meta_title: Maintained & Hosted libreevent Alternative | Chobble Tickets
-meta_description: Compare Chobble Tickets and libreevent on hosting, cost, seat plans, server requirements, payment providers and the archived state of the libreevent code.
+meta_description: Compare Chobble Tickets and libreevent on hosting, cost, seat plans, server requirements, Stripe and Payrexx support and the archived state of the libreevent code.
 permalink: /compared-to/libreevent/
 eleventyNavigation:
   key: vs libreevent
@@ -31,7 +31,7 @@ provider_facts:
     white_label: "A self-hosted deployment shows the organiser's own branding."
     custom_domain: "A self-hosted deployment uses whatever domain the organiser points at their server."
     public_website: "libreevent serves its own event listing and ticket ordering pages. Anything beyond that depends on the site the organiser runs alongside it."
-    self_hosting: "Self-hosting is the only way to run libreevent. It needs Node.js and, for higher ticket volumes, a MySQL database with InnoDB enabled."
+    self_hosting: "Self-hosting is the only way to run libreevent. It needs Node.js and, for higher ticket volumes, a MySQL database with InnoDB enabled. The author sells a paid setup service for organisers who do not want to install it themselves."
     source_code: "libreevent is published under the GPL-3.0 licence."
 blocks:
   - type: hero
@@ -69,8 +69,13 @@ blocks:
 
       The organiser installs it on their own hosting, creates events in an
       admin panel, and sells tickets from the pages libreevent serves. The
-      installation guide estimates about two hours of work, and recommends a
-      host that supports Node.js.
+      installation guide asks for a host that lists Node.js as a feature, and
+      the author sells a paid setup service for organisers who would rather
+      not install it themselves.
+
+      The admin panel is in English, and the version recorded in the archived
+      repository is 1.1.16. Each installation sells in one currency, set with a
+      three-letter currency code.
 
       Other open source comparisons cover
       [Pretix](/compared-to/pretix/),
@@ -83,9 +88,11 @@ blocks:
       ## Cost comparison
 
       **libreevent** charges nothing for the software. The organiser pays for
-      web hosting that supports Node.js, and pays their payment gateway's
-      charges on ticket sales. The documentation names asurahosting, novatrend
-      and Hetzner as hosts that fit. Donations to the project are optional.
+      web hosting that supports Node.js, and pays Stripe's or Payrexx's charges
+      on ticket sales. Ticket income goes to the organiser's own gateway
+      account. The documentation names asurahosting, novatrend and Hetzner as
+      hosts that fit, and marks those links as affiliate links. Donations to
+      the project are optional.
 
       **Chobble Tickets** managed hosting costs £50/year or £5/month, or
       £25/year for charities, community groups, artists and musicians on the
@@ -115,7 +122,8 @@ blocks:
       - Online ticket sales through a payment gateway
       - Attendee accounts and self-service order pages
       - Ticket checking at the door with a scanner
-      - Email confirmations after booking
+      - Email confirmations after booking, sent from the organiser's own email
+        account
   - type: markdown
     content: |
       ### libreevent has features Chobble Tickets doesn't
@@ -130,6 +138,13 @@ blocks:
       - **A plugin system** - extra functions can be added as plugins, and the
         project ships a newsletter plugin and a polls plugin. Payment gateways
         can also be added this way
+      - **Two-factor authentication on accounts** - admin and attendee logins
+        can require a code or link sent by email, and the root admin account
+        always requires it
+      - **Tickets held during checkout** - libreevent reserves the tickets an
+        attendee has selected, and returns them to the pool after a period of
+        inactivity that the organiser sets in seconds. Chobble Tickets uses
+        capacity when payment confirmation arrives instead
   - type: markdown
     content: |
       ### Chobble Tickets has features libreevent doesn't
@@ -138,12 +153,12 @@ blocks:
         applies updates and keeps backups. libreevent has no hosted option, so
         the organiser runs the server
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
-        stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than plain
-        database rows
+        stored with hybrid RSA-OAEP + AES-256-GCM encryption. libreevent stores
+        attendee records as ordinary rows in MySQL or as entries in a JSON
+        file, and passwords are hashed
       - **[Stripe, Square and SumUp](/features/stripe-and-square/)** - three
-        payment providers are supported directly. libreevent documents two
-        official gateways, which the sources reviewed did not name, plus
-        gateways added by plugin
+        payment providers are supported directly. libreevent ships Stripe and
+        Payrexx, a Swiss gateway, and one gateway is active at a time
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** -
         attendees choose their own price
       - **[Promo codes, add-ons and price rules](/features/promo-codes-and-add-ons/)** -
@@ -161,9 +176,10 @@ blocks:
         [custom CSS](/features/customising-your-site/)
       - **[RSS and calendar feeds](/features/rss-and-calendar-feeds/)** -
         event listings syndicated to feed readers and calendar apps
-      - **[Custom email providers and templates](/features/email-providers/)** -
-        send through Resend, Postmark, SendGrid or Mailgun so confirmations
-        come from the organiser's own domain
+      - **[Email provider APIs and editable templates](/features/email-providers/)** -
+        confirmations are sent through Resend, Postmark, SendGrid or Mailgun,
+        and the subject and body are edited from the admin panel. libreevent
+        sends through an SMTP account entered during setup
       - **[An admin API](/features/admin-api/)** - authenticated API keys for
         reading and writing event data
       - **[Activity logs](/features/activity-logs/)** - an audit trail of
@@ -179,9 +195,16 @@ blocks:
       16.0 or newer as the minimum. The application listens on port 8080, and
       the install uses FTP to upload files.
 
-      A MySQL database is optional for small events but the documentation
-      calls it a must-have for selling a lot of tickets at once, and the
-      database has to have InnoDB enabled.
+      Setup offers two databases. MySQL takes about ten minutes to create and
+      has to have InnoDB enabled. The alternative stores data in a JSON file,
+      which the documentation says suits events selling fewer than ten tickets
+      per minute. The same documentation warns that libreevent must never be
+      uploaded to a publicly reachable folder, because a JSON database there
+      would expose every attendee record.
+
+      Updates are manual. The organiser downloads the new release, uploads the
+      files over FTP without overwriting the data and config directories, and
+      restarts the application.
 
       Chobble Tickets compiles to a single JavaScript file that runs as an
       edge script on Bunny.net with a Bunny.net edge database. On managed
@@ -205,7 +228,9 @@ blocks:
       ## When libreevent might be better
 
       - You need reserved seating with a visual seat plan
+      - You want tickets held while an attendee completes checkout
       - You want native scanning apps on iOS and Android
+      - You already use Payrexx and want to keep it
       - You want to pay nothing for software and already run your own server
       - You have a developer who can maintain an archived codebase
   - type: markdown
@@ -242,7 +267,7 @@ blocks:
 
       - [libreevent website](https://libreevent.janishutz.com/) - features and cost
       - [libreevent documentation](https://libreevent.janishutz.com/docs/) - setup, admin panel and plugins
-      - [libreevent on GitHub](https://github.com/janishutz/libreevent) - GPL-3.0 licence, requirements and archive notice
+      - [libreevent on GitHub](https://github.com/janishutz/libreevent) - GPL-3.0 licence, requirements and archive notice. The source code and the documentation in that repository, at version 1.1.16, were read for this comparison
       - [libreevent project page](https://janishutz.com/projects/libreevent/)
       - [Chobble Tickets features](/features/)
       - [Chobble Tickets pricing](/pricing/)
