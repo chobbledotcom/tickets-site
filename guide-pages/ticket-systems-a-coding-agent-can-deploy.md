@@ -66,28 +66,47 @@ blocks:
         and [EventPrime](/compared-to/eventprime/) run inside WordPress. The
         operator maintains WordPress, its other plugins, WooCommerce where it
         applies, and the hosting.
-      - **A self-hosted application.** [Pretix Community](/compared-to/pretix/),
-        [Hi.Events](/compared-to/hi-events/) and
-        [alf.io](/compared-to/swicket/) are deployed and then maintained by
-        their operator. That covers updates, backups, security, email delivery
-        and availability.
+      - **A self-hosted application.** [Pretix Community](/compared-to/pretix/)
+        is Python and Django, [Hi.Events](/compared-to/hi-events/) is PHP,
+        Laravel and React, and [alf.io](/compared-to/swicket/) is Java and
+        Spring Boot with PostgreSQL. Each is deployed as a server or container
+        and then maintained by its operator. That covers updates, backups,
+        security, email delivery and availability.
       - **An edge script.** [Chobble Tickets](/features/deployment/) compiles
         to a single JavaScript file that runs on Bunny Edge Scripting, with a
         managed database. There is no operating system to patch and no
         container to rebuild. Its Docker deployments do involve a host to
         maintain.
 
-      Chobble Tickets also publishes agent instructions, a structure reference
-      and 39 behaviour specifications written in plain English alongside the
-      code. Its checks require 100% line and branch coverage, refuse any
-      repeated block of 19 tokens or more, and cap how complex a single
-      function may become, so an agent's change is judged mechanically before
-      it can merge. The [coding agents page](/features/coding-agents/) covers
-      what the repository contains.
+      Among the ticketing providers reviewed here, Chobble Tickets is the only
+      one whose recommended self-hosted deployment does not leave the operator
+      with a server or container to keep running. That is a difference in what
+      an agent can be asked to take on, rather than a difference in code
+      quality.
 
-      The other providers' development tooling has not been reviewed for this
-      page, so nothing here says they lack equivalent checks. What is stated is
-      what Chobble Tickets enforces and where to read it.
+  - type: markdown
+    content: |
+      ## Instructions written for agents
+
+      Some projects now commit instructions telling a coding agent how to work
+      in their repository. Two of the providers reviewed here do.
+
+      [Hi.Events](/compared-to/hi-events/) publishes `AGENTS.md`, `CLAUDE.md`
+      and `.cursorrules` in its repository root. Chobble Tickets publishes
+      `AGENTS.md`, `CLAUDE.md` and a structure reference, alongside 39 Cucumber
+      feature files describing its behaviour in plain English. Neither
+      [Pretix](/compared-to/pretix/) nor [alf.io](/compared-to/swicket/) had
+      such a file at the time of review.
+
+      Chobble Tickets also states what its checks refuse: 100% line and branch
+      coverage, no repeated block of 19 tokens or more, and a ceiling on how
+      complex a single function may become. The
+      [coding agents page](/features/coding-agents/) covers this in full.
+
+      The other providers' test and lint thresholds have not been compared, so
+      nothing here says their checks are weaker. Pretix, for instance, tracks
+      coverage through Codecov. What is recorded is which repositories carry
+      agent instructions and what Chobble Tickets enforces.
 
   - type: markdown
     dark: true
