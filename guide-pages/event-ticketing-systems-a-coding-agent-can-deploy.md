@@ -101,9 +101,9 @@ blocks:
         image on your own server leaves a host to maintain.
 
       Of the deployment paths checked for this page, which are the seven named
-      above, Chobble Tickets on Bunny is the only one with no container in it at
-      all. The others are published as a server or a container image, and a
-      managed container platform will run those images too, which takes away the
+      above, Chobble Tickets on Bunny is the only one that leaves the operator
+      neither a server nor a container. The others leave one or the other, and a
+      managed container platform will run their images too, which takes away the
       server without taking away the image.
 
       So the distinction is narrower than managed against self-hosted. An
