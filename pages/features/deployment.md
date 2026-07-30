@@ -64,9 +64,9 @@ blocks:
       process manager to keep the application running, and no SSH access to
       set up.
 
-      The whole deployment is a Bunny dashboard, a set of repository secrets
-      and a GitHub Actions workflow. Anyone setting a site up this way works
-      through those two web interfaces, and does not need to edit application
+      The whole deployment runs through the Bunny dashboard and a GitHub
+      repository: a database, an edge script, a handful of secrets and the
+      Actions workflow that ships each push. Nobody has to edit application
       code to get a working site.
 
       This is the main practical difference from ticketing software that
@@ -100,29 +100,35 @@ blocks:
     content: |
       ## Moving a site between hosts
 
-      There are two ways to move, and they carry different things.
+      There are two routes, and they carry different things.
 
-      A database backup is a zip holding every table, so a restore brings back
-      listings, attendees, answers, settings and the ledger. Two things have to
-      travel with it. The site you restore into needs the same
-      `DB_ENCRYPTION_KEY`, which covers listing and site details, email settings
-      and payment-provider secrets. It also needs a keyed account's password,
-      or the recovery credentials where that is enabled, because the key that
-      unlocks attendee personal data is derived from a password the site never
-      stores. Keeping the environment key but losing every keyed password
-      leaves the attendee records unreadable. Images and attachments are not in the
-      zip: the database stores their filenames, and the files themselves live
-      in the configured storage zone, so the restored site needs to point at
-      that zone or a copy of it. A restore reports the source-code version that
-      matches the restored data.
+      ### Restoring a database backup
 
-      Catalogue export is the other route, and it moves event setup rather than
-      a whole site. It produces versioned JSON covering listings and groups
-      with their prices, memberships, packages and parent references, which
-      suits copying a programme into a different site rather than recreating
-      the one you had.
+      A backup is a zip holding every table, so a restore brings back listings,
+      attendees, answers, settings and the ledger. Three things have to travel
+      with it.
 
-      Updates refuse to run without a recent backup.
+      - **The same `DB_ENCRYPTION_KEY`**, which covers listing and site
+        details, email settings and payment-provider secrets.
+      - **A keyed account's password**, or the recovery credentials where that
+        route is enabled. The key that unlocks attendee personal data comes
+        from a password the site never stores, so keeping the environment key
+        while losing every keyed password leaves those records unreadable.
+      - **The storage zone.** Images and attachments are not in the zip. The
+        database holds their filenames while the files live in the configured
+        zone, so the restored site has to point at that zone or a copy of it.
+
+      A restore reports the source-code version that matches the restored data.
+
+      ### Exporting the catalogue
+
+      Catalogue export moves event setup rather than a whole site. It produces
+      versioned JSON covering listings and groups with their prices,
+      memberships, packages and parent references.
+
+      This suits copying a programme into a different site rather than
+      recreating the one you had. Updates refuse to run without a recent
+      backup.
 
       ## Hosting several sites
 

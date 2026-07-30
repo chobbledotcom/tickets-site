@@ -32,9 +32,9 @@ blocks:
       parts and no paid feature tier. An agent reading the repository is
       reading the same code that runs on managed hosting.
 
-      This matters more for agents than for people. An agent asked to change
-      behaviour that lives in a closed component cannot see what it is changing,
-      and will guess.
+      That matters more for an agent than for a person. An agent asked to
+      change behaviour that lives in a closed component cannot see what it is
+      changing, and will guess.
   - type: features
     dark: true
     intro_content: |
@@ -57,13 +57,12 @@ blocks:
         description: The test suite is around twice the size of the application source, so a change an agent proposes is checked against existing behaviour rather than accepted on sight.
   - type: markdown
     content: |
-      ## Checks an agent can run against its own work
+      ## Checks that run before a change can merge
 
       The usual limit on letting an agent change software is that nobody can
       tell whether the change was any good without reading it. Chobble Tickets
-      answers a large part of that question mechanically. The checks below run
-      before a change can merge, and each one either passes or names the file
-      and line where it failed.
+      answers part of that question mechanically. Each check below either
+      passes or names the file and line where it failed.
 
       | Check | What it refuses |
       |---|---|
@@ -74,86 +73,79 @@ blocks:
       | Copy | User-facing text with "click here" style links or double spaces. |
       | Build | A change that breaks the single-file edge bundle or pushes it past the size ceiling. |
 
-      Two further tools are run against chosen modules rather than the whole
-      repository. Mutation testing changes operators in the source and checks
-      whether the tests notice, and reports each surviving mutation as a real
-      gap. A test quality audit flags assertion patterns that pass without
-      proving much.
+      Two further tools run against chosen modules rather than the whole
+      repository. Mutation testing changes operators in the source and reports
+      any mutation the tests failed to notice. A test quality audit flags
+      assertion patterns that pass without proving much.
 
-      ## Seeing what a change looks like
-
-      Chobble Tickets includes a screenshot tool driven by those same Cucumber
-      specifications. An agent can describe a situation as a scenario, run it,
-      and get back a picture of the running application in that state.
-
-      This closes a gap that tests alone leave open. An agent can prove a
-      function returns the right value without ever seeing that the page it
-      produces is unreadable, and a screenshot of the real scenario is the
-      cheapest way to check.
-
-      Each capture records the story, rule and case it came from, along with
-      the commit of the application it was taken at. A `--themes` option dresses
-      the captures in whatever CSS the publisher keeps for them, so the same
-      scenario can produce a plain image for the project's own checks and a
-      styled one for a site like this.
-
-      ## How this site uses it
-
-      The screenshots on these pages are produced that way. A screenshot
-      captured from a Cucumber scenario can carry a caption linking to the
-      specification file it came from, so a reader can check the claim against
-      the behaviour that produced the picture.
-
-      The same tooling is available to anyone running the software. Writing a
-      scenario for the situation you want to document, capturing it, and
-      publishing the result alongside the specification is how the guides on
-      this site are made, and there is nothing site-specific about the method.
-
-      ## Why those particular limits help
+      ## Why the limits sit where they do
 
       A complexity ceiling and a line ceiling stop a function growing past the
       point where the next reader, human or otherwise, can hold it in mind. An
-      agent that keeps adding branches to one function is told to stop while
-      the function is still small enough to restructure.
+      agent that keeps adding branches is told to stop while the function is
+      still small enough to restructure.
 
       The duplication rule has a larger effect than its size suggests. Copying
-      an existing block and adjusting it is the cheapest thing an agent can do,
-      and at a 0% threshold it fails. The repository's own guidance is to merge
-      the two into one helper rather than edit around the check.
+      an existing block and adjusting it is the least effortful thing an agent
+      can do, and at a 0% threshold it fails. The repository's guidance is to
+      merge the two into one helper rather than edit around the check.
 
-      The result is that there tends to be one way of doing each thing in the
-      codebase. That is worth more to an agent reading the code later than it
-      is to the person who wrote the rule.
+      The codebase therefore tends towards one way of doing each thing, which
+      is worth more to whoever reads it next than to whoever wrote the rule.
 
-      ## What this does and does not claim
+      ## What the checks do not claim
 
       Much of Chobble Tickets is written by coding agents, and parts of it are
-      rough. That is true of most repositories past a certain size, and the
-      checks are not a claim that the code is better than a person would have
-      written.
+      rough. That is true of most repositories past a certain size, and none of
+      these checks claims the code is better than a person would have written.
 
       What they change is when the work gets reviewed. An agent has to satisfy
       coverage, duplication and complexity before a pull request exists, so it
-      goes through rounds of revision that it would otherwise skip by stopping
-      at its first attempt. The change a human then reads is shorter and closer
-      to the project's conventions, which makes reviewing it a smaller job.
+      goes through rounds of revision it would otherwise skip by stopping at
+      its first attempt.
 
-      That is the honest version of the benefit. The checks move effort from
-      the reviewer to the agent, and they are cheap for an agent to run and
-      expensive for a person to perform by reading.
+      The change a person then reads is shorter and closer to the project's
+      conventions. The effort moves to the agent, which can run these checks
+      repeatedly, and away from the reviewer, who would have to find the same
+      problems by reading.
 
-      ## Written conventions alongside the checks
+      ## Conventions the checks cannot enforce
 
-      Some things cannot be checked mechanically, and AGENTS.md states them for
-      an agent to follow. It sets out seven test quality standards, including
-      that tests call production functions rather than reimplementing them, and
-      that they test behaviour rather than implementation detail.
+      AGENTS.md states the rest for an agent to follow. It sets out seven test
+      quality standards, including that tests call production functions rather
+      than reimplementing them, and that they test behaviour rather than
+      implementation detail.
 
       It also requires that errors are never suppressed, sets out the
       functional patterns the codebase uses, and describes how user-facing copy
-      should read. Copy rules that a machine cannot judge are stated with
-      before and after examples.
+      should read, with before and after examples.
+  - type: markdown
+    dark: true
+    content: |
+      ## Screenshots taken from the specifications
 
+      A screenshot tool runs the same Cucumber specifications and photographs
+      the result. An agent can describe a situation as a scenario, run it, and
+      get back a picture of the running application in that state.
+
+      This covers a gap the test suite leaves open. An agent can prove a
+      function returns the right value without ever seeing that the page it
+      produces is unreadable.
+
+      Each capture records the story, rule and case it came from, along with
+      the commit it was taken at. A `--themes` option dresses the captures in
+      whatever CSS the publisher keeps for them, so one scenario can produce a
+      plain image for the project's own checks and a styled one for a site like
+      this.
+
+      The screenshots on these pages are made that way, and a capture can carry
+      a caption linking to the specification file behind it, so a reader can
+      check the claim against the behaviour that produced the picture. The
+      method is not specific to this site: anyone running the software can
+      write a scenario for the situation they want to document and publish the
+      capture alongside it.
+  - type: markdown
+    content: |
       ## One runtime, one file
 
       Chobble Tickets runs on Deno, and the repository pins the version. The
@@ -170,23 +162,19 @@ blocks:
 
       ## No server to maintain
 
-      An edge script has no operating system for its owner to patch, no
-      container to rebuild and no instance to keep running. The database is a
-      managed Bunny database, and its schema migrates itself on the first
-      request.
+      An edge script has no operating system to patch, no container to rebuild
+      and no instance to keep running. The database is a managed Bunny
+      database, and its schema migrates itself on the first request.
 
-      This matters when an agent is helping someone else deploy. There is no
-      virtual private server to provision, no reverse proxy, no TLS renewal and
-      no SSH, so the work is a Bunny dashboard, repository secrets and a GitHub
-      Actions workflow rather than a walkthrough of server administration.
+      For an agent helping somebody else deploy, that removes the part of the
+      job that usually takes longest to explain. There is no virtual private
+      server to provision, no reverse proxy, no TLS renewal and no SSH, so the
+      work runs through a Bunny dashboard and a GitHub Actions workflow.
       [Deploying a ticket site](/features/deployment/) lists the steps.
 
-      Host maintenance is the part of running software that needs attention for
-      as long as the software runs, and the part a coding agent is least able
-      to take responsibility for over that period.
-
       Docker deployments are also supported, against local SQLite or a remote
-      libSQL database. Those do involve a host to maintain.
+      libSQL database. Those do leave a host to maintain, for as long as the
+      site runs.
   - type: markdown
     dark: true
     content: |
@@ -214,25 +202,24 @@ blocks:
       ## What an agent can and cannot read
 
       Attendee personal data is encrypted before it is stored. Reading the
-      repository does not give an agent access to any site's records, because
-      the source contains no keys and no data.
+      repository gives an agent no access to any site's records, because the
+      source contains no keys and no data.
 
       Deploying gives an agent more than that, but not everything. The
-      self-hosted steps involve setting `DB_ENCRYPTION_KEY` alongside the
-      database URL and token. That combination decrypts what the server key
-      protects, which includes listing and site details, email settings and
-      stored payment-provider secrets, so it is not a small amount of access
-      and should be granted deliberately.
+      self-hosted steps set `DB_ENCRYPTION_KEY` alongside the database URL and
+      token, and that combination decrypts what the server key protects,
+      including listing and site details, email settings and stored
+      payment-provider secrets.
 
       It does not decrypt attendee personal data. Those fields are unlocked by
-      a key wrapped for each keyed account, and the wrapping key is derived from
-      that account's password, which the site never stores. A database and the
-      environment key alone cannot unwrap it. Reading attendee records needs a
-      keyed account's password, or the recovery credentials if that route is
-      enabled. The [encryption page](/features/encrypted/) sets out the layers
-      in full.
+      a key wrapped for each keyed account, and the wrapping key comes from
+      that account's password, which the site never stores.
 
-      The [editor role](/features/editors/) exists for the same reason. It can
+      Reading attendee records therefore needs a keyed account's password, or
+      the recovery credentials where that route is enabled. The
+      [encryption page](/features/encrypted/) sets out the layers in full.
+
+      The [editor role](/features/editors/) rests on the same design. It can
       write listings and site copy but holds no data key, so attendee personal
       data stays undecryptable to it.
   - type: markdown
@@ -243,7 +230,7 @@ blocks:
       - [Technical documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html) - generated module and configuration reference
       - [Deno](https://deno.com/) - the runtime the product is built on
       - [Bunny Edge Scripting](https://bunny.net/blog/introducing-bunny-edge-scripting-a-better-way-to-build-and-deploy-applications-at-the-edge/) - the serverless platform used for the recommended deployment
-      - [Deployment steps](/features/deployment/) - what setting up a site involves
+      - [Deploying a ticket site](/features/deployment/) - what setting a site up involves
   - type: cta
     button:
       text: View the source code

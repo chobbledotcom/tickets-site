@@ -26,17 +26,18 @@ blocks:
       The licence names below decide what an operator may do with the code.
       AGPL and GPL licences permit reading, changing and running the software,
       and require published changes to carry the same licence. MIT and Apache
-      2.0 permit the same uses with fewer conditions attached. The Functional
-      Source License is not an open source licence: it permits internal use
-      but restricts running a competing service for two years, after which
-      Apache 2.0 terms apply. A licence permitting self-hosting is separate
-      from whether the provider's branding may be removed, which the table
-      records where it applies.
+      2.0 permit the same uses with fewer conditions attached.
+
+      The Functional Source License is not an open source licence. It permits
+      internal use but restricts running a competing service for two years,
+      after which Apache 2.0 terms apply. A licence permitting self-hosting is
+      separate from whether the provider's branding may be removed, which the
+      table records where it applies.
 
   - type: markdown
     dark: true
     content: |
-      ## Is the published code the code that runs
+      ## Published source and deployed source
 
       | Provider | Published source | Same product as the hosted service |
       |---|---|---|
@@ -85,31 +86,31 @@ blocks:
       quality.
 
   - type: markdown
+    dark: true
     content: |
       ## Instructions written for agents
 
       Some projects now commit instructions telling a coding agent how to work
-      in their repository. Two of the providers reviewed here do.
+      in their repository. Four repositories were checked for this page, and
+      two of them carry such a file.
 
       [Hi.Events](/compared-to/hi-events/) publishes `AGENTS.md`, `CLAUDE.md`
       and `.cursorrules` in its repository root. Chobble Tickets publishes
       `AGENTS.md`, `CLAUDE.md` and a structure reference, alongside 39 Cucumber
-      feature files describing its behaviour in plain English. Neither
-      [Pretix](/compared-to/pretix/) nor [alf.io](/compared-to/swicket/) had
-      such a file at the time of review.
+      feature files describing its behaviour in plain English.
 
-      Chobble Tickets also states what its checks refuse: 100% line and branch
-      coverage, no repeated block of 19 tokens or more, and a ceiling on how
-      complex a single function may become. The
-      [coding agents page](/features/coding-agents/) covers this in full.
+      Neither [Pretix](/compared-to/pretix/) nor [alf.io](/compared-to/swicket/)
+      carried one at the time of review. Chobble Tickets additionally states
+      what its checks refuse: 100% line and branch coverage, no repeated block
+      of 19 tokens or more, and a ceiling on how complex a single function may
+      become.
 
-      The other providers' test and lint thresholds have not been compared, so
-      nothing here says their checks are weaker. Pretix, for instance, tracks
-      coverage through Codecov. What is recorded is which repositories carry
-      agent instructions and what Chobble Tickets enforces.
+      Test and lint thresholds were not compared across the four, so nothing
+      here says another project's checks are weaker. Pretix tracks coverage
+      through Codecov. What this section records is which repositories carry
+      agent instructions, and what Chobble Tickets enforces.
 
   - type: markdown
-    dark: true
     content: |
       ## Choosing
 
