@@ -86,12 +86,12 @@ blocks:
         is Node.js and Vue over MySQL or a JSON file. Each is deployed as a
         server or container and then maintained by its operator. That covers
         updates, backups, security, email delivery and availability.
-      - **A self-hosted application nobody else patches.**
-        [libreevent](/compared-to/libreevent/) is the one case here where
-        upstream has stopped. Its archived repository publishes no further
-        releases, so an operator writes and applies every fix, including
-        security fixes, from their own fork. Its documented update route is
-        uploading the new files over FTP by hand.
+      - **A self-hosted application with no upstream releases.**
+        [libreevent](/compared-to/libreevent/) is the one case here where the
+        original project has stopped. Its archived repository publishes no
+        further releases, so fixes come from an operator's own changes or from
+        a fork someone else continues, rather than from the project. Its
+        documented update route is uploading the new files over FTP by hand.
       - **An edge script.** [Chobble Tickets](/features/deployment/) compiles
         to a single JavaScript file that runs on Bunny Edge Scripting, with a
         managed database. There is no operating system to patch and no
@@ -133,7 +133,7 @@ blocks:
       | [Pretix](/compared-to/pretix/) | A Python process and a Vite dev server, over a local SQLite database created by migrations. | Yes | The Django server reloads, and Vite hot-reloads the Vue components. Celery workers, where used, are restarted by hand. |
       | [Hi.Events](/compared-to/hi-events/) | Nine containers: a Laravel backend, two frontend variants, nginx, PostgreSQL, Redis, Mailpit, MinIO and a bucket initialiser. | Yes. The backend and frontend directories are bind-mounted into their containers. | The frontend containers run `yarn dev` watchers. The backend is interpreted from the mount. |
       | [alf.io](/compared-to/swicket/) | Two containers: the application from the prebuilt `alfio/alf.io` image, and PostgreSQL 10. | No. The compose file mounts no source. | Rebuild the image, or run the application from Gradle with Java 17 against that database. |
-      | [libreevent](/compared-to/libreevent/) | Node.js and npm on your own machine, after `npm i` in three directories. MySQL is optional, so the JSON database needs nothing running beside it. | Yes | The two Vue frontends have a Vite dev script that hot-reloads. The Express server has no watch task, so it is restarted. |
+      | [libreevent](/compared-to/libreevent/) | Three Node.js processes: the Express server, and a `vite` dev server for each of the two Vue frontends. MySQL is optional, so the JSON database needs nothing running beside them. Setting up first needs `npm i` in each of the three directories. | Yes | The two Vite dev servers hot-reload their frontends. The Express server has no watch task, so it is restarted. |
 
       Reload behaviour matters less to an agent than to a person. An agent
       checks a change by running the project's tests rather than by watching a
@@ -142,8 +142,8 @@ blocks:
       What differs is how much has to stand up first. One process against nine
       containers is the same change taking a different amount of setting up, and
       it is the part an agent pays for on a machine it does not control.
-      libreevent asks for three `npm i` runs rather than one, and then runs on
-      the host without a database service.
+      libreevent sits between the two, running three processes on the host
+      without a database service beside them.
 
       alf.io is the one case where the running application is not the code being
       edited, because its compose file pulls a published image. Its documented
@@ -196,7 +196,9 @@ blocks:
         meet that for their hosted services, each with the qualifications in
         the table above. A self-hosted alf.io deployment also runs the
         published code, but Swicket is a separate managed service and its
-        additions are not established as sharing that licence.
+        additions are not established as sharing that licence. A self-hosted
+        libreevent deployment runs the published code as well, with the
+        qualification that the original project publishes no further releases.
       - If the site already runs WordPress, a plugin keeps ticketing inside a
         system that is already being maintained.
       - If nobody wants to maintain a host at all, a managed service fits
