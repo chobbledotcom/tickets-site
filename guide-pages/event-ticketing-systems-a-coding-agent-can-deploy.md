@@ -90,8 +90,8 @@ blocks:
         [libreevent](/compared-to/libreevent/) is the one case here where the
         original project has stopped. Its archived repository publishes no
         further releases, so fixes come from an operator's own changes or from
-        a fork someone else continues, rather than from the project. Its
-        documented update route is uploading the new files over FTP by hand.
+        a fork someone else continues, and each update is copied onto the
+        server by hand.
       - **An edge script.** [Chobble Tickets](/features/deployment/) compiles
         to a single JavaScript file that runs on Bunny Edge Scripting, with a
         managed database. There is no operating system to patch and no
@@ -137,7 +137,9 @@ blocks:
 
       Reload behaviour matters less to an agent than to a person. An agent
       checks a change by running the project's tests rather than by watching a
-      browser refresh, so a restart costs it little.
+      browser refresh, so a restart usually costs it little. A change with no
+      test covering it is the exception, because seeing that one work means
+      running the application.
 
       What differs is how much has to stand up first. One process against nine
       containers is the same change taking a different amount of setting up, and
