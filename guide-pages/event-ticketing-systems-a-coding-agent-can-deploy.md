@@ -136,7 +136,7 @@ blocks:
 
       | Project | What has to be running | Runs your checkout | After an edit |
       |---|---|---|---|
-      | Chobble Tickets | One Deno process. The database can be held in memory, so nothing runs beside it. | Yes | `deno task dev` restarts the process on each edit. Static assets build once, so editing those needs the task restarted. |
+      | Chobble Tickets | One Deno process. The database can be held in memory, so nothing runs beside it. | Yes | `deno task dev` restarts the process on each edit, which empties an in-memory database. Static assets build once, so editing those needs the task restarted. |
       | [Pretix](/compared-to/pretix/) | A Python process and a Vite dev server, over a local SQLite database created by migrations. | Yes | The Django server reloads, and Vite hot-reloads the Vue components. Celery workers, where used, are restarted by hand. |
       | [Hi.Events](/compared-to/hi-events/) | Nine containers: a Laravel backend, two frontend variants, nginx, PostgreSQL, Redis, Mailpit, MinIO and a bucket initialiser. | Yes. The backend and frontend directories are bind-mounted into their containers. | The frontend containers run `yarn dev` watchers. The backend is interpreted from the mount. |
       | [alf.io](/compared-to/swicket/) | Two containers: the application from the prebuilt `alfio/alf.io` image, and PostgreSQL 10. | No. The compose file mounts no source. | Rebuild the image, or run the application from Gradle with Java 17 against that database. |
