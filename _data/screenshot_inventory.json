@@ -157,6 +157,16 @@
     "captureId": "qr-code-check-in"
   },
   {
+    "key": "record-put-right",
+    "classification": "linked-evidence",
+    "captureId": "record-put-right"
+  },
+  {
+    "key": "record-repaired",
+    "classification": "linked-evidence",
+    "captureId": "record-repaired"
+  },
+  {
     "key": "refunded-booking",
     "classification": "linked-evidence",
     "captureId": "refunded-booking"

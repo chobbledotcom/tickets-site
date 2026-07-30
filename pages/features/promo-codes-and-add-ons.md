@@ -15,7 +15,7 @@ blocks:
       # Promo codes and add-ons
 
       Offer promo codes, returning-customer discounts, surcharges and opt-in add-ons at checkout. Stock limits, price rules and a live running total are built in.
-  - type: split-image
+  - type: markdown
     content: |
       ## Discounts and extras at checkout
 
@@ -37,9 +37,6 @@ blocks:
        - **Tiered pricing** - link a discount or surcharge to a
          [custom question answer](/features/custom-questions/), so picking
          "VIP upgrade" changes the price automatically
-    figure_src: /images/screenshots/promo-codes-and-add-ons-checkout.png
-    figure_alt: A screenshot of a public list of everything for sale, showing a Chair and a Cover, each with its own Book now link
-    figure_caption: 'An add-on marked as sellable on its own is listed like anything else, with its own booking link. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/add-ons-sold-on-their-own.feature">(src)</a></small>'
   - type: markdown
     content: |
       ## How pricing works
@@ -73,7 +70,7 @@ blocks:
       exists. When the buyer enters a code, the order summary updates to show
       the discount as a named line item, like "10% off -£1.00". Promo-code
       usage is logged to the activity log when a payment completes.
-  - type: markdown
+  - type: split-image
     content: |
       ## Opt-in add-ons
 
@@ -84,6 +81,14 @@ blocks:
 
       Common uses include meals, parking, merchandise, workshops add-ons, or
       optional extras on a ticket.
+
+      An add-on can also be marked as something people may buy on its own. It
+      then gets its own page and its own place in the list of what is for sale,
+      where it is not described as an add-on, and it is still offered alongside
+      the thing it goes with.
+    figure_src: /images/screenshots/promo-codes-and-add-ons-checkout.png
+    figure_alt: A screenshot of a public list of everything for sale, showing a Chair and a Cover, each with its own Book now link
+    figure_caption: 'An add-on marked as sellable on its own is listed like anything else, with its own booking link. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/add-ons-sold-on-their-own.feature">(src)</a></small>'
   - type: markdown
     content: |
       ## Answer-triggered pricing

@@ -1,0 +1,62 @@
+/* A swimming club's admin: teal on cool paper, one deeper teal. */
+:root {
+  --border-radius: 8px;
+  --color-accent: #2f6f6a;
+  --color-bg: #eef4f3;
+  --color-bg-secondary: #f7fbfa;
+  --color-link: #2f6f6a;
+  --color-secondary: #1f4a47;
+  --color-secondary-accent: #eef4f3;
+  --color-shadow: #12302e26;
+  --color-table: #1f4a47;
+  --color-text: #1f2b2a;
+  --color-text-secondary: #63756f;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact-history-form {
+  background: #f7fbfa;
+  border: 1px solid #d5e2e0;
+  border-top: 6px solid var(--color-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+#contact-history-form h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+}
+
+#contact-history-form label {
+  color: var(--color-secondary);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+#contact-history-form input,
+#contact-history-form textarea {
+  background: #fff;
+  border-color: #d5e2e0;
+  border-radius: var(--border-radius);
+}
+
+#contact-history-form button[type="submit"] {
+  background: var(--color-secondary);
+  border-color: #1f4a47;
+  border-radius: var(--border-radius);
+  color: #f7fbfa;
+  font-weight: 800;
+}
+
+/* The note is written in a markdown editor, which brings its own toolbar, a
+ * character count and a second copy of the note underneath as a preview. The
+ * case is about what the record holds, so the capture shows the record. */
+#contact-history-form .md-toolbar,
+#contact-history-form .md-editor-footer,
+#contact-history-form .md-preview-link,
+#contact-history-form section {
+  display: none;
+}

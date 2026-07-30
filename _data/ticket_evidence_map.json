@@ -8,8 +8,8 @@
       "galleryCaption": "A public list where an add-on is offered on its own as well as with the thing it goes with.",
       "legacyDestinationPath": "images/screenshots/promo-codes-and-add-ons-checkout.png",
       "page": "pages/features/promo-codes-and-add-ons.md",
-      "reviewed": "5bde67e3719a55a56a53ffe748fac47658e7af410f2eb2c026d684a3f4e3bdfa",
-      "socialBody": "An add-on can be offered with the thing it goes with, on its own page, or both. Where it stands alone it is not called an add-on.",
+      "reviewed": "f90b7ace1bf3baf23db5f9b5923af75460c726a08cb2b993096dc7728559c9dc",
+      "socialBody": "Combine an add-on with the thing it goes with, or mark it as something people may buy on its own. Where it stands alone it gets its own page and is not called an add-on.",
       "socialHeading": "Sell an extra on its own too",
       "socialKey": "promo-codes-and-add-ons"
     },
@@ -169,6 +169,32 @@
       "socialHeading": "Check bookings with a phone",
       "socialKey": "qr-code-check-ins"
     },
+    "record-put-right": {
+      "alt": "A screenshot of a contact record with the counts corrected to 9 visits, 11 online bookings, 2 admin bookings and 7 messages, and a private note reading Paid in cash",
+      "assetProfile": "mobile",
+      "caption": "The counts and the private note are for the organiser to correct, and what they save is what the record then says.",
+      "caseId": "contact-record.correcting-the-counts-and-the-note",
+      "galleryCaption": "A contact record whose counts and private note the organiser has corrected.",
+      "legacyDestinationPath": "images/screenshots/record-put-right.png",
+      "page": "pages/features/privacy-controls.md",
+      "reviewed": "5f967e56e4c2fcc9c97a104da0ad7bfb78be51eb59e88ea1524e96c581e69baa",
+      "socialBody": "The counts a record holds and the note kept against it are yours to correct, and nobody but the organiser reads the note.",
+      "socialHeading": "Correct what a record says",
+      "socialKey": "record-put-right"
+    },
+    "record-repaired": {
+      "alt": "A screenshot of a contact record that opened after its note could not be read, still showing 9 visits and 5 online bookings, with a note reading Repaired",
+      "assetProfile": "mobile",
+      "caption": "When the private note cannot be read, the record still opens and still shows the counts, and saving over it gives a working record back.",
+      "caseId": "contact-record.repairing-an-unreadable-record",
+      "galleryCaption": "A record that opened and kept its counts after its encrypted note could not be read.",
+      "legacyDestinationPath": "images/screenshots/record-repaired.png",
+      "page": "pages/features/encrypted.md",
+      "reviewed": "dc684d4e26b68c93bfdcfb069beaabc5abf09a526c105fb6b4082221d58d2d12",
+      "socialBody": "If an encrypted note cannot be read, the record still opens and still shows what was counted, and saving over it gives a working record back.",
+      "socialHeading": "An unreadable note is not a lost record",
+      "socialKey": "record-repaired"
+    },
     "refunded-booking": {
       "alt": "A screenshot of one booking's money after a refund, showing a £45 sale, its payment, the income removed and the £45 handed back",
       "assetProfile": "mobile",
@@ -216,8 +242,8 @@
       "galleryCaption": "A listing booked by the day, saying each booking lasts three days.",
       "legacyDestinationPath": "images/screenshots/multi-day-hire.png",
       "page": "pages/features/multi-day-hire.md",
-      "reviewed": "7de02ea44f5678127bd04f50a967c43ffe86ecaebe559a7bddace270404e3569",
-      "socialBody": "Set how many days one booking covers. The length is on the listing's own page, and every day a booking covers is held for that customer.",
+      "reviewed": "fac6a3fcff99e9994fb9115b6ae2e8de2029ee4ad154864199e4aa420519cc29",
+      "socialBody": "Set how many days one booking covers. The length is on the listing's own page, and the days a booking covers use capacity when its payment is confirmed.",
       "socialHeading": "Book several days at once",
       "socialKey": "multi-day-hire"
     },

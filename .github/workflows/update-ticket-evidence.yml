@@ -163,6 +163,10 @@ jobs:
             images/screenshots/promo-codes-and-add-ons-checkout__facebook.png
             images/screenshots/qr-code-check-in.png
             images/screenshots/qr-code-check-in__facebook.png
+            images/screenshots/record-put-right.png
+            images/screenshots/record-put-right__facebook.png
+            images/screenshots/record-repaired.png
+            images/screenshots/record-repaired__facebook.png
             images/screenshots/refunded-booking.png
             images/screenshots/refunded-booking__facebook.png
             images/screenshots/riverside-events-team.png
@@ -180,12 +184,14 @@ jobs:
             pages/features/activity-logs.md
             pages/features/customising-your-site.md
             pages/features/deposits-and-balance-payments.md
+            pages/features/encrypted.md
             pages/features/groups.md
             pages/features/ledger.md
             pages/features/manual-attendees.md
             pages/features/multi-day-hire.md
             pages/features/overbooking-prevention.md
             pages/features/packages.md
+            pages/features/privacy-controls.md
             pages/features/promo-codes-and-add-ons.md
             pages/features/public-api.md
             pages/features/purchasable-events.md

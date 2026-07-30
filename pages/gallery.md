@@ -92,6 +92,10 @@ blocks:
         caption: Catalogue import — bring listings in from a JSON export.
       - image: /images/screenshots/place-lost-while-paying__facebook.png
         caption: The note left when a payment arrives after the last place has gone.
+      - image: /images/screenshots/record-put-right__facebook.png
+        caption: A contact record whose counts and private note the organiser has corrected.
+      - image: /images/screenshots/record-repaired__facebook.png
+        caption: A record that opened and kept its counts after its encrypted note could not be read.
       - image: /images/screenshots/refunded-booking__facebook.png
         caption: One booking's money after a refund, adding up to nothing owed.
       - image: /images/screenshots/activity-log-summer-arts-fair__facebook.png

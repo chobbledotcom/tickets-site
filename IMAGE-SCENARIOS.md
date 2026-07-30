@@ -82,7 +82,7 @@ pages are listed separately at the end.
 | Page | Proposed asset | Scenario and composition | Organiser value |
 |---|---|---|---|
 | `pages/features/platform-and-integrations.md` | Diagram: `configured-service-map` | Oakfield uses Stripe, Mailgun EU, RSS, backups and wallet passes while SMS and webhooks are disabled. Solid and outlined connections distinguish enabled and optional services. | Shows that integrations are selected services rather than an unavoidable data-sharing bundle. |
-| `pages/features/privacy-controls.md` | Admin screenshot: `privacy-controls` | Oakfield has 18 orphaned records, a six-month retention period and a contact-erasure request for `maya.patel@example.test`. Show retention, Delete now, contact erasure and attendee export as separate actions. | Distinguishes contact-history deletion from operational records and exports. |
+| `pages/features/privacy-controls.md` | [x] Cucumber evidence capture: `record-put-right` | The whole of what the site holds about one person, with the counts and the private note corrected by the organiser. Taken from the case that corrects them. | Shows how little a contact record is, and that the organiser controls what it says. |
 | `pages/features/webhooks.md` | Diagram: `booking-webhook-flow` | Alex books two £18 Riverside Summer Concert tickets. One consolidated booking notification flows to Riverside's Slack channel, CRM and spreadsheet with event, quantity and total labelled. | Explains the organiser outcome without making raw JSON the main image. |
 | `pages/features/admin-api.md` | Admin screenshot: `named-admin-api-key` | Riverside Print Studio uses an API key called Autumn programme to create 12 course dates. Show the named key, a successful created listing response and matching activity entry. | Shows that automation uses identifiable credentials and remains auditable. |
 | `pages/features/public-api.md` | [x] Cucumber evidence capture: `api-keys-list` | The owner's list of keys, taken from the case that makes one: it names the key and never shows it. | Shows what an owner sees after handing a key to another system. |
@@ -93,7 +93,7 @@ pages are listed separately at the end.
 | `pages/features/email-providers.md` | Admin screenshot: `mailgun-eu-settings` | Oakfield selects Mailgun EU, sends from `tickets@oakfieldevents.org` and receives a successful test result. Show provider, domain, masked key, region and the received email header. | Shows that the organiser chooses the delivery provider and sender identity. |
 | `pages/features/apple-wallet.md` | Attendee composite: `wallet-ticket` | Alex's Riverside Summer Concert confirmation shows Add to Apple Wallet and Add to Google Wallet beside the resulting pass with event, date, venue and QR code. | Shows how attendees retrieve tickets at the gate. |
 | `pages/features/european.md` | Diagram: `service-data-locations` | Oakfield uses managed hosting, Bunny Database, Mailgun EU and Stripe, with SMS and webhooks disabled. Separate company headquarters from processing and replica regions, including the documented non-EU database replicas. | Prevents organisers confusing provider headquarters with data location. |
-| `pages/features/encrypted.md` | Diagram: `attendee-field-encryption` | Alex's Riverside booking contains name, email, £36 reference, two tickets and a dietary note. Separate protected personal fields, site fields and readable operational values such as quantity. | Explains what an authorised organiser can unlock and what the application must still count. |
+| `pages/features/encrypted.md` | [x] Cucumber evidence capture: `record-repaired` | A record whose encrypted note could not be read, still open and still showing its counts, with a note saved back over it. Taken from the case that repairs one. | Shows which fields are protected and which stay readable, from the one moment the difference is visible. |
 | `pages/features/who-can-see-your-data.md` | Diagram: `configured-data-recipients` | Oakfield takes a paid Summer Disco booking with Stripe and Mailgun EU enabled and no webhook, SMS or postcode lookup. Branch data only to the keyed organiser and configured services; cross out disabled destinations. | Makes data access depend on actual organiser settings. |
 | `pages/features/honest-advertising.md` | Comparison graphic: `how-platforms-get-recommended` | Oakfield's organiser searches for a ticketing platform and meets a bought search ad, an affiliate listicle, an incentivised review and an undisclosed forum recommendation. Beside each, show the checkable equivalent: a dated fee source, a linked pricing page and a named comparison author. | Shows which promotion an organiser can verify and which it cannot. |
 | `pages/features/no-spying.md` | Comparison graphic: `attendee-relationship` | Amira books Oakfield Primary Summer Disco. Show direct booking and organiser confirmation with no provider account, related-event recommendations, advertising tracker or provider mailing list. | Shows the attendee experience behind the no-marketing policy. |
@@ -244,6 +244,8 @@ These pages are rendered but excluded from the sitemap and main editorial total.
 
 ### Completed Cucumber evidence captures
 
+- [x] `record-put-right`
+- [x] `record-repaired`
 - [x] `add-on-in-the-list`
 - [x] `checked-in-on-the-day`
 - [x] `paid-more-than-asked`

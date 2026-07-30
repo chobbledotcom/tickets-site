@@ -109,7 +109,7 @@ export const SOCIAL_SCREENSHOT_COPY = {
   },
   "multi-day-hire": {
     heading: "Book several days at once",
-    body: "Set how many days one booking covers. The length is on the listing's own page, and every day a booking covers is held for that customer.",
+    body: "Set how many days one booking covers. The length is on the listing's own page, and the days a booking covers use capacity when its payment is confirmed.",
   },
   "oakfield-public-website": {
     heading: "Publish your own pages",
@@ -137,11 +137,19 @@ export const SOCIAL_SCREENSHOT_COPY = {
   },
   "promo-codes-and-add-ons": {
     heading: "Sell an extra on its own too",
-    body: "An add-on can be offered with the thing it goes with, on its own page, or both. Where it stands alone it is not called an add-on.",
+    body: "Combine an add-on with the thing it goes with, or mark it as something people may buy on its own. Where it stands alone it gets its own page and is not called an add-on.",
   },
   "qr-code-check-ins": {
     heading: "Check bookings with a phone",
     body: "Scan a booking QR code with a phone camera, or pick the person from the list of those still to arrive when a camera cannot be used.",
+  },
+  "record-put-right": {
+    heading: "Correct what a record says",
+    body: "The counts a record holds and the note kept against it are yours to correct, and nobody but the organiser reads the note.",
+  },
+  "record-repaired": {
+    heading: "An unreadable note is not a lost record",
+    body: "If an encrypted note cannot be read, the record still opens and still shows what was counted, and saving over it gives a working record back.",
   },
   "refunded-booking": {
     heading: "Refund a booking",

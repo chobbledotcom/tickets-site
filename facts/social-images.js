@@ -558,6 +558,22 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "record-put-right": [
+    {
+      fact: "The counts a contact record holds and the private note kept against it can both be corrected by the organiser, and what they save is what the record then reports.",
+      sources: [
+        "../tickets/specs/attendees/the-record-kept-about-someone.feature:38-48",
+      ],
+    },
+  ],
+  "record-repaired": [
+    {
+      fact: "A record whose private note cannot be decrypted still opens and still shows its counts, which are stored unencrypted, and saving over it restores a readable note without losing the counts.",
+      sources: [
+        "../tickets/specs/attendees/the-record-kept-about-someone.feature:66-81",
+      ],
+    },
+  ],
   "refunded-booking": [
     {
       fact: "A refund posts reversing ledger legs for the sale, any booking fee and any modifier, plus the cash handed back, so the listing stops counting the sale.",
