@@ -105,42 +105,40 @@ blocks:
       ## Running it on your own machine first
 
       Before an agent can see whether its change worked, it has to get the
-      software running locally. What that costs differs more between these
-      projects than the deployment does.
+      software running locally. Each project's own development documentation
+      and compose files were read for this section on 30 July 2026, because the
+      answer is not written down anywhere as a comparison.
 
-      Chobble Tickets needs Deno. Its database can be held in memory by
-      pointing `DB_URL` at `:memory:`, so there is nothing to install or keep
-      running alongside it. The project's Nix development shell sets that and a
-      throwaway encryption key on entry; without Nix, a setup script installs
-      the pinned Deno version and those two variables are set by hand.
+      Three things decide how quickly an agent can work: what has to be running,
+      whether the running application is the checkout being edited, and what
+      happens after a file changes.
 
-      A change tried that way can then be pushed to the operator's own
-      repository, which deploys it.
+      | Project | What has to be running | Runs your checkout | After an edit |
+      |---|---|---|---|
+      | Chobble Tickets | One Deno process. The database can be held in memory, so nothing runs beside it. | Yes | Restart the process. There is no watch task. |
+      | [Pretix](/compared-to/pretix/) | A Python process and a Vite dev server, over a local SQLite database created by migrations. | Yes | The Django server reloads, and Vite hot-reloads the Vue components. Celery workers, where used, are restarted by hand. |
+      | [Hi.Events](/compared-to/hi-events/) | Nine containers: a Laravel backend, two frontend variants, nginx, PostgreSQL, Redis, Mailpit, MinIO and a bucket initialiser. | Yes. The backend and frontend directories are bind-mounted into their containers. | The frontend containers run `yarn dev` watchers. The backend is interpreted from the mount. |
+      | [alf.io](/compared-to/swicket/) | Two containers: the application from the prebuilt `alfio/alf.io` image, and PostgreSQL 10. | No. The compose file mounts no source. | Rebuild the image, or run the application from Gradle with Java 17 against that database. |
 
-      The other projects bring more with them.
+      The reload behaviour is good almost everywhere, and better in two places
+      than in Chobble Tickets, which has no watch task and restarts instead.
+      Hi.Events bind-mounts its source and runs frontend watchers, and Pretix
+      hot-reloads both its Python and its Vue components.
 
-      - [Pretix](/compared-to/pretix/) documents Python 3.9 or later with
-        development headers for libffi, libssl, libxml2, libxslt and
-        libenchant, plus Node.js, a virtual environment and a `make` step,
-        after which Django migrations create a local SQLite database.
-      - [alf.io](/compared-to/swicket/) documents Java 17 and PostgreSQL 10 or
-        later.
-      - [Hi.Events](/compared-to/hi-events/) supplies a Docker Compose file for
-        an all-in-one development setup.
-      - Changing a WordPress plugin such as
-        [FooEvents](/compared-to/fooevents/) or
-        [EventPrime](/compared-to/eventprime/) means running WordPress itself,
-        which needs PHP and a MySQL or MariaDB database, and for FooEvents
-        WooCommerce as well. There is a working shop to stand up before the
-        plugin being changed is even loaded.
+      What differs is how much has to stand up first. One process against nine
+      containers is the same change taking a different amount of setting up, and
+      it is the part an agent pays for on a machine it does not control.
 
-      This is not a statement about the quality of those projects. It is what
-      has to exist on the machine before an agent can watch its own change run.
+      alf.io is the one case where the running application is not the code being
+      edited, because its compose file pulls a published image. Its documented
+      development route is Gradle rather than that file, which needs Java 17 and
+      the database from it.
 
-      A Docker file makes that first run one command whatever sits inside it.
-      What it does not settle is the loop afterwards, because how quickly an
-      edit reaches the running application depends on how the container is
-      configured, which is worth checking before choosing where to work.
+      Changing a WordPress plugin such as [FooEvents](/compared-to/fooevents/)
+      or [EventPrime](/compared-to/eventprime/) means running WordPress itself,
+      which needs PHP and a MySQL or MariaDB database, and WooCommerce for
+      FooEvents. Neither plugin publishes a development setup, so what an agent
+      would stand up depends on the WordPress installation it is given.
 
   - type: markdown
     content: |
