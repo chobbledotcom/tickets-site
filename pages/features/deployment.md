@@ -1,7 +1,7 @@
 ---
-title: Deploying a Ticket Site - Chobble Tickets
-meta_title: Deploying a Ticket Site | Chobble Tickets
-meta_description: Set up a Chobble Tickets site from a payment and a setup link, or deploy the same product yourself in five documented steps. The database migrates itself on the first request.
+title: Deploying an Event Ticketing Site - Chobble Tickets
+meta_title: Deploying an Event Ticketing Site | Chobble Tickets
+meta_description: Set up a site that sells tickets for your events, from a payment and a setup link, or deploy the same product yourself in five documented steps. The database migrates itself on the first request.
 permalink: /features/deployment/
 eleventyNavigation:
   key: Deployment
@@ -11,7 +11,7 @@ blocks:
   - type: hero
     class: gradient
     content: |-
-      # Deploying a ticket site
+      # Deploying an event ticketing site
 
       Managed sites are created after payment and set up through an emailed link. Self-hosted sites follow five documented steps. Both run the same product with every feature already included.
   - type: markdown
@@ -157,5 +157,5 @@ blocks:
       ## Set up a site
 
       Managed hosting costs £50/year or £5/month, or £25/year for charities, community groups, artists and musicians, which applies to annual billing only. The same product can be self-hosted with no Chobble software fee.
-name: Deploying a Ticket Site | Chobble Tickets
+name: Deploying an Event Ticketing Site | Chobble Tickets
 ---

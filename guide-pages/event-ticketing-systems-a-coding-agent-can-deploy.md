@@ -1,8 +1,8 @@
 ---
-name: Ticket Systems a Coding Agent Can Deploy
-subtitle: Which ticketing providers publish code an agent can read, and whether it is the code the provider runs
-meta_title: Ticket Systems a Coding Agent Can Deploy | Chobble Tickets
-meta_description: Compare ticketing providers by whether their source is published, whether the published code is the code that runs, and what a coding agent would have to maintain after deploying it.
+name: Event Ticketing Systems a Coding Agent Can Deploy
+subtitle: Which event ticketing providers publish code an agent can read, and whether it is the code the provider runs
+meta_title: Event Ticketing Systems a Coding Agent Can Deploy | Chobble Tickets
+meta_description: Compare event ticketing providers by whether their source is published, whether the published code is the code that runs, and what a coding agent would have to maintain after deploying it.
 guide-category: choosing-a-ticket-platform
 order: 7
 blocks:
@@ -11,8 +11,9 @@ blocks:
   - type: markdown
     content: |
       A coding agent, such as Claude Code, can read a repository, change it and
-      deploy it. Whether that is useful for ticketing depends on three separate
-      questions, and a provider's answer to one does not settle the other two.
+      deploy it. Whether that helps an organiser sell tickets to their events
+      depends on three separate questions, and a provider's answer to one does
+      not settle the other two.
 
       The first is whether the source is published at all. The second is
       whether the published source is the same software the provider runs,

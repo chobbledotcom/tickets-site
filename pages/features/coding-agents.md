@@ -1,7 +1,7 @@
 ---
-title: Hosting a Ticket System with a Coding Agent - Chobble Tickets
-meta_title: Hosting a Ticket System with an AI Coding Agent | Chobble Tickets
-meta_description: Chobble Tickets publishes its whole source and enforces 100% test coverage, a 0% duplication threshold and a complexity ceiling, so a coding agent such as Claude Code gets a mechanical verdict on the changes it makes.
+title: Hosting Event Ticketing Software with a Coding Agent - Chobble Tickets
+meta_title: Host Event Ticketing Software with an AI Coding Agent | Chobble Tickets
+meta_description: Chobble Tickets sells tickets for events, and publishes its whole source with 100% test coverage, a 0% duplication threshold and a complexity ceiling, so a coding agent such as Claude Code gets a mechanical verdict on the changes it makes.
 permalink: /features/coding-agents/
 eleventyNavigation:
   key: Coding Agents
@@ -11,20 +11,24 @@ blocks:
   - type: hero
     class: gradient
     content: |-
-      # Hosting a ticket system with a coding agent
+      # Hosting event ticketing software with a coding agent
 
-      Chobble Tickets publishes its whole source and the instructions it expects an agent to follow. Its checks require 100% test coverage and refuse duplicated code, so an agent gets a mechanical verdict on its own work.
+      Chobble Tickets sells tickets for events. It publishes its whole source and the instructions it expects an agent to follow, and its checks require 100% test coverage and refuse duplicated code, so an agent gets a mechanical verdict on its own work.
   - type: markdown
     content: |
       ## Who this page is for
 
-      Most pages on this site are written for event organisers. This one is
-      written for people who use a coding agent, such as Claude Code, to set up
-      and change the software they run.
+      Chobble Tickets is event ticketing software. It lists an organiser's
+      events, sells tickets to them, takes the payment through Stripe, Square
+      or SumUp, and checks attendees in at the door.
+
+      Most pages on this site are written for the organisers running those
+      events. This one is written for people who use a coding agent, such as
+      Claude Code, to set up and change the software they run.
 
       Organisers who would rather not deal with code can use
       [managed hosting](/hosting/) instead. Nothing on this page is needed to
-      run events on a hosted site.
+      sell tickets on a hosted site.
 
       ## The whole product is readable
 
@@ -170,7 +174,7 @@ blocks:
       job that usually takes longest to explain. There is no virtual private
       server to provision, no reverse proxy, no TLS renewal and no SSH, so the
       work runs through a Bunny dashboard and a GitHub Actions workflow.
-      [Deploying a ticket site](/features/deployment/) lists the steps.
+      [Deploying an event ticketing site](/features/deployment/) lists the steps.
 
       Docker deployments are also supported, against local SQLite or a remote
       libSQL database. Those do leave a host to maintain, for as long as the
@@ -230,7 +234,7 @@ blocks:
       - [Technical documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html) - generated module and configuration reference
       - [Deno](https://deno.com/) - the runtime the product is built on
       - [Bunny Edge Scripting](https://bunny.net/blog/introducing-bunny-edge-scripting-a-better-way-to-build-and-deploy-applications-at-the-edge/) - the serverless platform used for the recommended deployment
-      - [Deploying a ticket site](/features/deployment/) - what setting a site up involves
+      - [Deploying an event ticketing site](/features/deployment/) - what setting a site up involves
   - type: cta
     button:
       text: View the source code
@@ -241,5 +245,5 @@ blocks:
       ## Read the code
 
       The repository holds the product source, its behaviour specifications and its deployment steps. Managed hosting runs the same code for £50/year or £5/month, or £25/year for charities, community groups, artists and musicians, which applies to annual billing only.
-name: Hosting a Ticket System with a Coding Agent | Chobble Tickets
+name: Host Event Ticketing Software with an AI Coding Agent | Chobble Tickets
 ---
