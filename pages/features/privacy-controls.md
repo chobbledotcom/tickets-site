@@ -37,7 +37,7 @@ blocks:
 
       These controls support an organiser's data-protection work but do not decide its legal retention period. Each organiser remains responsible for deciding what it collects and how long it needs the records.
 
-      What the site holds about one person is a short record: how often they booked, how often they were in touch, and a private note. The counts and the note are for the organiser to correct, and the erasure tool removes the record outright.
+      Alongside the bookings themselves, the site keeps a short contact-history record for each person: how often they booked, how often they were in touch, and a private note. The counts and the note are for the organiser to correct, and the erasure tool removes that record without touching the bookings.
     figure_src: /images/screenshots/record-put-right.png
     figure_alt: A screenshot of a contact record with the counts corrected to 9 visits, 11 online bookings, 2 admin bookings and 7 messages, and a private note reading Paid in cash
     figure_caption: 'The counts and the private note are for the organiser to correct, and what they save is what the record then says. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/the-record-kept-about-someone.feature">(src)</a></small>'

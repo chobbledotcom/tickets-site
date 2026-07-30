@@ -14,11 +14,11 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 138 | 49 | 89 |
+| Editorial pages in the sitemap | 139 | 53 | 86 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **140** | **49** | **91** |
+| **All rendered pages** | **141** | **53** | **88** |
 
-The 89 editorial pages are the main illustration backlog. The two utility
+The 86 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
