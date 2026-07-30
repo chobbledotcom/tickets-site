@@ -190,9 +190,9 @@
       "galleryCaption": "A record that opened and kept its counts after its encrypted note could not be read.",
       "legacyDestinationPath": "images/screenshots/record-repaired.png",
       "page": "pages/features/encrypted.md",
-      "reviewed": "dc684d4e26b68c93bfdcfb069beaabc5abf09a526c105fb6b4082221d58d2d12",
+      "reviewed": "18e3df4b495c290871b36fafeef4c37c080797443045d6b7a8b51702b895a2af",
       "socialBody": "If an encrypted note cannot be read, the record still opens and still shows what was counted, and saving over it gives a working record back.",
-      "socialHeading": "An unreadable note is not a lost record",
+      "socialHeading": "Repair an unreadable note",
       "socialKey": "record-repaired"
     },
     "refunded-booking": {

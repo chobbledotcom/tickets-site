@@ -148,7 +148,7 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "The counts a record holds and the note kept against it are yours to correct, and nobody but the organiser reads the note.",
   },
   "record-repaired": {
-    heading: "An unreadable note is not a lost record",
+    heading: "Repair an unreadable note",
     body: "If an encrypted note cannot be read, the record still opens and still shows what was counted, and saving over it gives a working record back.",
   },
   "refunded-booking": {

@@ -426,6 +426,12 @@ export const SOCIAL_IMAGE_FACTS = {
         "../tickets/specs/bookings/changing-how-long-a-stay-lasts.feature:13-25",
       ],
     },
+    {
+      fact: "A paid checkout does not hold a place. Capacity is used when the payment confirmation arrives, so two customers can both reach the payment page for the last one.",
+      sources: [
+        "../tickets/specs/payments/capacity-after-payment.feature:5-16",
+      ],
+    },
   ],
   "oakfield-public-website": [
     {
@@ -563,6 +569,13 @@ export const SOCIAL_IMAGE_FACTS = {
       fact: "The counts a contact record holds and the private note kept against it can both be corrected by the organiser, and what they save is what the record then reports.",
       sources: [
         "../tickets/specs/attendees/the-record-kept-about-someone.feature:38-48",
+      ],
+    },
+    {
+      fact: "The record is filed under a one-way code made from the email address, and carries a private note only the organiser reads.",
+      sources: [
+        "../tickets/src/shared/db/contact-preferences.ts:55-56",
+        "../tickets/specs/attendees/the-record-kept-about-someone.feature:5-11",
       ],
     },
   ],

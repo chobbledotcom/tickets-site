@@ -119,9 +119,9 @@ blocks:
       [who can see your attendee data](/features/who-can-see-your-data/)
       for a list of every company that can access your attendees'
       information.
-      A record whose note cannot be read is not a lost record. The page still
-      opens and still shows the counts, which are kept in plain sight, and
-      saving over it gives a working note back without losing what was counted.
+      A record whose note cannot be read still opens, and still shows the
+      counts, which are kept in plain sight. Saving over it gives a working
+      note back without losing what was counted.
     figure_src: /images/screenshots/record-repaired.png
     figure_alt: A screenshot of a contact record that opened after its note could not be read, still showing 9 visits and 5 online bookings, with a note reading Repaired
     figure_caption: 'When the private note cannot be read, the record still opens and still shows the counts, and saving over it gives a working record back. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/the-record-kept-about-someone.feature">(src)</a></small>'
