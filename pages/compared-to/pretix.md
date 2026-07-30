@@ -27,9 +27,15 @@ provider_facts:
   public_website: organiser-microsite
   self_hosting: community-edition
   source_code: open-source-core
+  agent_instructions: not-found
+  local_dev_runtime: runtime-plus-local-services
+  local_dev_source: runs-checkout
+  local_dev_reload: hot-reload
   event_marketplace: none
   attendee_cross_marketing: not-documented
   notes:
+    local_dev_runtime: "Python with development headers plus Node.js and a virtual environment; Django migrations create a local SQLite database. manage.py runserver reloads and starts a Vite dev server for the Vue components. Celery workers are restarted by hand. Checked 30 July 2026."
+    agent_instructions: "No AGENTS.md, CLAUDE.md or .cursorrules in the repository root. Checked 30 July 2026."
     registration_country: "pretix is developed from Heidelberg, Germany; no registered legal entity was established in the sources reviewed."
     per_ticket_platform_fee: "Pretix Hosted charges 2.5% of ticket value, capped per ticket; payment processing is separate."
     ethical_basis: "Pretix describes itself as owner-led and says it operates without pressure from investors or creditors."

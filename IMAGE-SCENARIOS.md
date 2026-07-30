@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 137 rendered client pages. A page counts as illustrated
+This audit covers all 140 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 135 | 47 | 88 |
+| Editorial pages in the sitemap | 138 | 49 | 89 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **137** | **47** | **90** |
+| **All rendered pages** | **140** | **49** | **91** |
 
-The 88 editorial pages are the main illustration backlog. The two utility
+The 89 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -97,6 +97,8 @@ pages are listed separately at the end.
 | `pages/features/who-can-see-your-data.md` | Diagram: `configured-data-recipients` | Oakfield takes a paid Summer Disco booking with Stripe and Mailgun EU enabled and no webhook, SMS or postcode lookup. Branch data only to the keyed organiser and configured services; cross out disabled destinations. | Makes data access depend on actual organiser settings. |
 | `pages/features/honest-advertising.md` | Comparison graphic: `how-platforms-get-recommended` | Oakfield's organiser searches for a ticketing platform and meets a bought search ad, an affiliate listicle, an incentivised review and an undisclosed forum recommendation. Beside each, show the checkable equivalent: a dated fee source, a linked pricing page and a named comparison author. | Shows which promotion an organiser can verify and which it cannot. |
 | `pages/features/no-spying.md` | Comparison graphic: `attendee-relationship` | Amira books Oakfield Primary Summer Disco. Show direct booking and organiser confirmation with no provider account, related-event recommendations, advertising tracker or provider mailing list. | Shows the attendee experience behind the no-marketing policy. |
+| `pages/features/deployment.md` | Diagram: `site-setup-paths` | Oakfield sets up a managed site from its emailed setup link, while a technical provider follows the five README steps for a Bunny Edge Script. Converge both on the same first request, where the database migrates itself and `/setup/` asks for an owner password. | Shows that the two routes reach the same product without a feature-unlocking stage. |
+| `pages/features/coding-agents.md` | Diagram: `what-the-repository-publishes` | Show the repository contents an agent reads before changing anything: AGENTS.md, REPO_STRUCTURE.md, 39 Cucumber feature files, generated API documentation and the source itself. Beside it, show the encrypted attendee records the same agent cannot read. | Separates what publishing the source makes available from what stays under the owner's key. |
 | `pages/features/open-source.md` | Diagram: `same-product-deployments` | Oakfield's same event setup appears in managed hosting, a GitHub-controlled deployment and self-hosted Docker. Label who handles updates, infrastructure and configured services. | Shows product sameness while making operational responsibility clear. |
 
 ## Feature Pages: Administration
@@ -135,6 +137,7 @@ pages are listed separately at the end.
 | `guide-pages/uk-made-ticket-platforms.md` | Diagram: `uk-registration-and-data-location` | Group the reviewed providers by documented country of company registration only. Beside that grouping, show Chobble's own stack as a separate strip: UK company, Bunny hosting headquartered in Slovenia, database primary and replica regions that may sit outside the UK and EU with storage region `eu-west-1`, and a self-hosted option. Do not assign a data-processing country to any other provider. | Separates where a company is registered from where attendee records are stored, without guessing storage locations. |
 | `guide-pages/flat-rate-ticketing.md` | Comparison graphic: `flat-rate-pricing-curves` | Riverside sells 50, 500 and 5,000 tickets. Compare volume-independent hosting, per-sale fees, ticket-volume subscriptions, booking allowances and feature tiers, with processing separate. | Shows how apparently fixed subscriptions can still change with volume or requirements. |
 | `guide-pages/where-ticketing-money-goes.md` | Comparison graphic: `donation-pledge-breakdown` | Break a £15 ticket into face value, booking fee, service fee, payment processing and the donated share for a pledge-funded plan, beside a flat hosting fee with the ticket charge left whole. | Shows which part of an organiser's cost a donation pledge is taken from. |
+| `guide-pages/event-ticketing-systems-a-coding-agent-can-deploy.md` | Comparison graphic: `published-versus-deployed-source` | Place the reviewed providers on two axes: whether the source is published, and whether the published source is what the hosted service runs. Mark the branding and paid-plugin qualifications recorded on each comparison page, and show what remains to be maintained under each deployment shape. | Separates readable code from deployable code, which is the distinction that decides what an agent can verify. |
 
 ## Comparison Hubs
 

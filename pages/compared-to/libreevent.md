@@ -21,6 +21,10 @@ provider_facts:
   public_website: host-platform-dependent
   self_hosting: same-product
   source_code: open-source
+  agent_instructions: not-found
+  local_dev_runtime: single-runtime-process
+  local_dev_source: runs-checkout
+  local_dev_reload: manual-restart
   event_marketplace: none
   attendee_cross_marketing: none
   notes:
@@ -33,6 +37,10 @@ provider_facts:
     public_website: "libreevent serves its own event listing and ticket ordering pages. Anything beyond that depends on the site the organiser runs alongside it."
     self_hosting: "Self-hosting is the only way to run libreevent. It needs Node.js and, for higher ticket volumes, a MySQL database with InnoDB enabled. The author sells a paid setup service for organisers who do not want to install it themselves."
     source_code: "libreevent is published under the GPL-3.0 licence."
+    agent_instructions: "No AGENTS.md, CLAUDE.md or .cursorrules in the repository root. Checked 30 July 2026."
+    local_dev_runtime: "The contributing guide asks for Node.js and npm on the developer's own computer, then npm i in src/server, src/webapp/main and src/webapp/setup. MySQL is optional, so the JSON database needs no service beside the application. Checked 30 July 2026."
+    local_dev_source: "Development runs from the checkout after npm i in each of the three directories."
+    local_dev_reload: "The two Vue frontends have a Vite dev script that hot-reloads. The Express server has no watch task, so it is restarted after an edit."
 blocks:
   - type: hero
     class: gradient
