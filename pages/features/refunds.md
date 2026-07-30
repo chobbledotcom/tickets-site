@@ -3,6 +3,7 @@ title: Refunds - Chobble Tickets
 meta_title: Refunds - Chobble Tickets
 meta_description: Issue a full refund for one booking or full refunds in bulk through Stripe, Square or SumUp. Partial refunds use the provider dashboard.
 permalink: /features/refunds/
+ticket_evidence_capture: refunded-booking
 eleventyNavigation:
   key: Refunds
   parent: Selling Tickets
@@ -14,7 +15,7 @@ blocks:
       # Refunds
 
       Issue a full refund for one booking or full refunds in bulk from the admin panel. Stripe, Square or SumUp processes each refund.
-  - type: markdown
+  - type: split-image
     content: |
       ## One-click refunds
 
@@ -23,9 +24,17 @@ blocks:
       payment provider (Stripe, Square, or SumUp) processes it automatically, so
       there's no need to log into a separate dashboard.
 
+      The refund undoes the sale as well as returning the money. The listing
+      stops counting what the booking earned, and the customer is left owing
+      nothing. A booking can only be refunded once.
+
       Partial refunds are not issued by Chobble Tickets. Use the payment
       provider's dashboard when only part of a payment should be returned.
-
+    figure_src: /images/screenshots/refunded-booking.png
+    figure_alt: A screenshot of one booking's money after a refund, showing a £45 sale, its payment, the income removed and the £45 handed back
+    figure_caption: 'A refund undoes the sale and hands the money back, so the listing has earned nothing and the customer owes nothing. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/payments/refunding-a-booking.feature">(src)</a></small>'
+  - type: markdown
+    content: |
       ## Bulk refunds
 
       Need to cancel an event? Process refunds for all attendees at once

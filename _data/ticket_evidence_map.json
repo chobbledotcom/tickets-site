@@ -1,5 +1,18 @@
 {
   "captures": {
+    "api-keys-list": {
+      "alt": "A screenshot of the API keys page, listing a key named Shopfront that has never been used, above the form for making another",
+      "assetProfile": "mobile",
+      "caption": "The list names each key the owner has handed out, and never shows the key itself.",
+      "caseId": "api-keys.made-and-shown-once",
+      "galleryCaption": "An API key list naming a key without showing the key itself.",
+      "legacyDestinationPath": "images/screenshots/api-keys-list.png",
+      "page": "pages/features/public-api.md",
+      "reviewed": "c3e292f36f52f4a7ee12d29aec03768b70deb6f73faa42602295eb8c64a763f0",
+      "socialBody": "Hand a key to a system you run, like a shop till or a back-office tool. The site shows it once, then only its name, and you can take it back at any moment.",
+      "socialHeading": "Let another system work for you",
+      "socialKey": "api-keys-list"
+    },
     "balance-payment-link": {
       "alt": "A screenshot of the balance payment page for a Retreat booking, showing an £80 full order price, £30 already paid and a £50 balance due",
       "assetProfile": "mobile",
@@ -52,6 +65,19 @@
       "socialHeading": "Keep one accounting ledger",
       "socialKey": "ledger"
     },
+    "page-anybody-can-read": {
+      "alt": "A screenshot of a public site page called Directions, reached from the site's own navigation alongside Home and Listings",
+      "assetProfile": "mobile",
+      "caption": "A page is live at the address its owner chose as soon as it is written, for a visitor who never signs in.",
+      "caseId": "site-pages.written-and-readable",
+      "galleryCaption": "A page the organiser wrote, live at the address they chose.",
+      "legacyDestinationPath": "images/screenshots/oakfield-public-website.png",
+      "page": "pages/features/your-public-website.md",
+      "reviewed": "8f520915819bc4c41c9c91687d88756290a1fea682d6ea5167d00e469c392a39",
+      "socialBody": "Write a page, choose the web address it lives at, and it is there for anyone to read straight away.",
+      "socialHeading": "Publish your own pages",
+      "socialKey": "oakfield-public-website"
+    },
     "payment-provider-choice": {
       "alt": "A screenshot of the payment provider settings, showing Stripe chosen from None, Square, Stripe and SumUp, and a saved Stripe test key",
       "assetProfile": "mobile",
@@ -77,6 +103,19 @@
       "socialBody": "Scan a booking QR code with a phone camera, or pick the person from the list of those still to arrive when a camera cannot be used.",
       "socialHeading": "Check bookings with a phone",
       "socialKey": "qr-code-check-ins"
+    },
+    "refunded-booking": {
+      "alt": "A screenshot of one booking's money after a refund, showing a £45 sale, its payment, the income removed and the £45 handed back",
+      "assetProfile": "mobile",
+      "caption": "A refund undoes the sale and hands the money back, so the listing has earned nothing and the customer owes nothing.",
+      "caseId": "payment.refund-undoes-the-sale",
+      "galleryCaption": "One booking's money after a refund, adding up to nothing owed.",
+      "legacyDestinationPath": "images/screenshots/refunded-booking.png",
+      "page": "pages/features/refunds.md",
+      "reviewed": "7c8eb680851f538e49b29ca1e60ae67cd962f2858565c3d2ebcb6300551a4bd9",
+      "socialBody": "Refunding hands back the ticket price, any booking fee and any service charge, and the listing stops counting the sale.",
+      "socialHeading": "Refund a booking",
+      "socialKey": "refunded-booking"
     },
     "servicing-studio-floor-hold": {
       "alt": "A screenshot of the service event form for a studio floor treatment, showing a two-day hold on four Ceramics Studio Sessions places",
