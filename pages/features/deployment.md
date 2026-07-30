@@ -63,6 +63,11 @@ blocks:
       Bunny. There is a `Dockerfile`, a `fly.toml` for Fly, a `render.yaml` for
       Render and an `app.json` for platforms that read that format.
 
+      That configuration covers one-click deploys to DigitalOcean, Heroku,
+      Koyeb and Render, and `fly launch` for Fly. Any host that runs a Docker
+      image will run Chobble Tickets, and these hosts run the image for the
+      operator rather than leaving them a server to keep.
+
       Each declares the same short list of variables, and only two of them are
       required: the database URL and the encryption key. A database token is
       needed for a remote database, and everything else, including payment

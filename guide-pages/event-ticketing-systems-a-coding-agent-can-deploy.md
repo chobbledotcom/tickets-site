@@ -96,8 +96,9 @@ blocks:
       - **An edge script.** [Chobble Tickets](/features/deployment/) compiles
         to a single JavaScript file that runs on Bunny Edge Scripting, with a
         managed database. There is no operating system to patch and no
-        container to rebuild. Its Docker deployments do involve a host to
-        maintain.
+        container to rebuild. Its Docker image can run on a managed host such
+        as Fly, Render, DigitalOcean, Heroku or Koyeb, and only running that
+        image on your own server leaves a host to maintain.
 
       Of the deployment paths checked for this page, which are the seven named
       above, Chobble Tickets is the only one that does not leave the operator
