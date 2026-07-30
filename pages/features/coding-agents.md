@@ -34,8 +34,8 @@ blocks:
 
       Chobble Tickets is published under AGPL-3.0-only with no proprietary
       parts and no paid feature tier. That licence lets anyone read, change and
-      run the software, and asks that a modified version offered to users over
-      a network offers those users its source too. The
+      run the software. Where a modified version is offered to users over a
+      network, it requires that those users be offered its source. The
       [licence text](https://www.gnu.org/licenses/agpl-3.0.en.html) states the
       terms.
 
@@ -207,7 +207,8 @@ blocks:
 
       An agent can create and move a site's events through its APIs rather than
       by driving the admin screens. This covers the catalogue, not the whole
-      site: the first owner password and the currency are set at `/setup/`, and
+      site: the first owner password, country and currency are set at `/setup/`,
+      and
       payment, email, domain, user and branding settings are configured in the
       admin area.
 
