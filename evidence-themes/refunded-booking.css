@@ -1,0 +1,99 @@
+/* A concert promoter's admin: near-black on bone, one signal red, because the
+ * page this dresses is the one an organiser opens when money goes back. */
+:root {
+  --border-radius: 4px;
+  --color-accent: #a52f2f;
+  --color-bg: #f2f0ec;
+  --color-bg-secondary: #ffffff;
+  --color-link: #8f2727;
+  --color-secondary: #241f1f;
+  --color-secondary-accent: #f6f2f2;
+  --color-shadow: #1a141426;
+  --color-table: #241f1f;
+  --color-text: #241f1f;
+  --color-text-secondary: #6f6666;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+#attendee-money {
+  background: #fff;
+  border: 1px solid #e0dad4;
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+#attendee-money h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.4rem;
+}
+
+#attendee-money .table-scroll {
+  overflow: visible;
+}
+
+#attendee-money table {
+  font-size: 0.8rem;
+  table-layout: fixed;
+  white-space: normal;
+  width: 100%;
+}
+
+#attendee-money th {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+#attendee-money th,
+#attendee-money td {
+  padding: 0.4rem;
+}
+
+#attendee-money tbody tr:nth-child(even) {
+  background: var(--color-secondary-accent);
+}
+
+#attendee-money tbody tr:nth-child(even) td,
+#attendee-money tbody tr:nth-child(even) th {
+  background: transparent;
+  color: var(--color-text);
+}
+
+/* The first column is when each line was written, which is the moment the
+ * capture ran, and the third names the other side of each transfer, which the
+ * activity column has already said. The last is a running balance the rows
+ * above the table already end on. What is left is the sale and the refund that
+ * undid it, which is what this case is about. */
+#attendee-money th:nth-child(1),
+#attendee-money td:nth-child(1),
+#attendee-money th:nth-child(3),
+#attendee-money td:nth-child(3),
+#attendee-money th:nth-child(5),
+#attendee-money td:nth-child(5) {
+  display: none;
+}
+
+#attendee-money th:nth-child(2),
+#attendee-money td:nth-child(2) {
+  width: 74%;
+}
+
+#attendee-money th:nth-child(4),
+#attendee-money td:nth-child(4) {
+  width: 26%;
+}
+
+/* Changing the money by hand, and the whole-ledger view, are different stories
+ * from reading what a refund left behind. */
+#attendee-money a.btn,
+#attendee-money .btn,
+#attendee-money .table-action-btns {
+  display: none;
+}
+
+/* The note about what the statement is, and where the plain-English log lives,
+ * are the page explaining itself rather than the case's own claim. */
+#attendee-money > div:last-child {
+  display: none;
+}

@@ -53,7 +53,7 @@ blocks:
       payment belonging to the same order, so the statement and every other
       page showing that figure agree.
     figure_src: /images/screenshots/summer-arts-fair-ledger.png
-    figure_alt: A Workshop listing's statement showing an income balance of £50 and one line, a booking worth £50
+    figure_alt: A screenshot of the income statement for a Workshop listing, showing a £50 balance and one line, a booking worth £50
     figure_caption: 'One paid booking, written down once, on the statement for the listing it was paid to. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/payments/what-a-paid-booking-earned.feature">(src)</a></small>'
   - type: markdown
     content: |

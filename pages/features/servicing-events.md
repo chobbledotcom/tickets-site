@@ -23,7 +23,7 @@ blocks:
       event reduces availability at once without adding a customer to the
       attendee list.
     figure_src: /images/screenshots/servicing-studio-floor-hold.png
-    figure_alt: Service event form holding four Ceramics Studio Session places for a two-day floor treatment
+    figure_alt: A screenshot of the service event form for a studio floor treatment, showing a two-day hold on four Ceramics Studio Sessions places
     figure_caption: 'Reserve capacity for maintenance across one day or several days. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/hold-and-cost.feature">(src)</a></small>'
   - type: markdown
     content: |

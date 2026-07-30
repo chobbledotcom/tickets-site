@@ -26,7 +26,7 @@ blocks:
       Each person carries one role, which decides which pages they can open.
       The invite link expires after seven days.
     figure_src: /images/screenshots/riverside-events-team.png
-    figure_alt: A users table listing jo as the owner and sam as an editor, both active
+    figure_alt: A screenshot of the users table, showing jo as the owner and sam as an editor, both active
     figure_caption: 'Somebody invited as an editor sets their own password, and from then on has their own login and one role. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/what-an-editor-can-do.feature">(src)</a></small>'
   - type: markdown
     content: |

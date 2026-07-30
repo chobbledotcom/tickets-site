@@ -55,7 +55,7 @@ blocks:
       so the address itself is never stored beside it. You can correct every
       figure on it, and the note, yourself.
     figure_src: /images/screenshots/manual-attendee-community-supper.png
-    figure_alt: A contact record showing 9 visits, 5 online bookings, 2 admin bookings, 4 messages sent and a private note reading VIP Sam
+    figure_alt: A screenshot of a contact record, showing 9 visits, 5 online bookings, 2 admin bookings, 4 messages sent and a private note reading VIP Sam
     figure_caption: 'What the site remembers about someone, and the private note only the organiser reads. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/the-record-kept-about-someone.feature">(src)</a></small>'
   - type: markdown
     content: |

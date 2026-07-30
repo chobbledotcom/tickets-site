@@ -139,16 +139,22 @@ jobs:
           add-paths: |
             _data/ticket_evidence.json
             _data/ticket_evidence_lock.json
+            images/screenshots/api-keys-list.png
+            images/screenshots/api-keys-list__facebook.png
             images/screenshots/deposits-and-balance-payments.png
             images/screenshots/deposits-and-balance-payments__facebook.png
             images/screenshots/garden-party-package-checkout.png
             images/screenshots/garden-party-package-checkout__facebook.png
             images/screenshots/manual-attendee-community-supper.png
             images/screenshots/manual-attendee-community-supper__facebook.png
+            images/screenshots/oakfield-public-website.png
+            images/screenshots/oakfield-public-website__facebook.png
             images/screenshots/payment-provider-choice.png
             images/screenshots/payment-provider-choice__facebook.png
             images/screenshots/qr-code-check-in.png
             images/screenshots/qr-code-check-in__facebook.png
+            images/screenshots/refunded-booking.png
+            images/screenshots/refunded-booking__facebook.png
             images/screenshots/riverside-events-team.png
             images/screenshots/riverside-events-team__facebook.png
             images/screenshots/servicing-studio-floor-hold.png
@@ -161,8 +167,11 @@ jobs:
             pages/features/ledger.md
             pages/features/manual-attendees.md
             pages/features/packages.md
+            pages/features/public-api.md
             pages/features/qr-code-check-ins.md
+            pages/features/refunds.md
             pages/features/servicing-events.md
             pages/features/sign-up-forms.md
             pages/features/stripe-and-square.md
             pages/features/users.md
+            pages/features/your-public-website.md

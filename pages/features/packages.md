@@ -55,7 +55,7 @@ blocks:
       booking page, so a buyer knows what they are getting before they
       pay. They choose how many complete packages they want.
     figure_src: /images/screenshots/garden-party-package-checkout.png
-    figure_alt: A booking page for a Weekend package, offering a number of packages and listing the Breakfast and Tent inside it
+    figure_alt: A screenshot of the booking form for the Weekend package, showing a number of packages choice and the Breakfast and Tent included in each one
     figure_caption: 'A package that hides nothing names each thing inside it on its own booking page. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/selling-things-as-one-bundle.feature">(src)</a></small>'
   - type: markdown
     content: |

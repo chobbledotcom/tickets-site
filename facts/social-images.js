@@ -32,6 +32,23 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "api-keys-list": [
+    {
+      fact: "An API key is returned once when it is made and never stored: the row keeps an HMAC index of the key and the name the owner gave it.",
+      sources: [
+        "../tickets/src/shared/db/api-keys.ts:80-101",
+        "../tickets/src/shared/db/api-keys.ts:113-120",
+        "../tickets/specs/servicing/letting-another-system-in.feature:12-23",
+      ],
+    },
+    {
+      fact: "A request carrying a key is served as the owner, and one carrying nothing or an unknown key is refused as unauthorised.",
+      sources: [
+        "../tickets/src/shared/db/api-keys.ts:103-111",
+        "../tickets/specs/servicing/letting-another-system-in.feature:25-58",
+      ],
+    },
+  ],
   "attendee-statuses": [
     {
       fact: "Owners can create, reorder and assign custom statuses to attendee records.",
@@ -392,6 +409,14 @@ export const SOCIAL_IMAGE_FACTS = {
   ],
   "oakfield-public-website": [
     {
+      fact: "A site page is served at the address its owner chose as soon as it is saved, with no separate publish step, and is readable by somebody who is not signed in.",
+      sources: [
+        "../tickets/src/features/public/site-page.ts:1-30",
+        "../tickets/src/shared/db/site-pages.ts:38-80",
+        "../tickets/specs/servicing/writing-the-pages-people-read.feature:12-25",
+      ],
+    },
+    {
       fact: "The public listings page displays active listing names, dates, locations, descriptions and booking links.",
       sources: [
         "../tickets/src/ui/templates/public/homepage.tsx:183-220",
@@ -490,6 +515,21 @@ export const SOCIAL_IMAGE_FACTS = {
       fact: "When a ticket cannot be read, the organiser can pick the person from a list. That list holds only the people still to arrive.",
       sources: [
         "../tickets/specs/attendees/checking-people-in-at-the-door.feature:103-124",
+      ],
+    },
+  ],
+  "refunded-booking": [
+    {
+      fact: "A refund posts reversing ledger legs for the sale, any booking fee and any modifier, plus the cash handed back, so the listing stops counting the sale.",
+      sources: [
+        "../tickets/src/shared/accounting/kinds.ts:21-31",
+        "../tickets/specs/payments/refunding-a-booking.feature:10-22",
+      ],
+    },
+    {
+      fact: "A booking can only be refunded once: a second attempt is refused before the payment provider is asked again.",
+      sources: [
+        "../tickets/specs/payments/refunding-a-booking.feature:24-35",
       ],
     },
   ],

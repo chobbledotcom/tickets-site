@@ -23,7 +23,7 @@ blocks:
       other providers remain saved when you switch, and the settings identify
       whether a configured key accepts test or live payments.
     figure_src: /images/screenshots/payment-provider-choice.png
-    figure_alt: Payment Provider settings with Stripe selected among Square, Stripe and SumUp and a configured Stripe test key
+    figure_alt: A screenshot of the payment provider settings, showing Stripe chosen from None, Square, Stripe and SumUp, and a saved Stripe test key
     figure_caption: 'Choose one active provider and keep saved credentials available when switching. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/payments/payment-provider-choice.feature">(src)</a></small>'
   - type: markdown
     content: |
