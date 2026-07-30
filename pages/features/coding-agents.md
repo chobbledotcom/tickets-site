@@ -194,11 +194,20 @@ blocks:
       repository does not give an agent access to any site's records, because
       the source contains no keys and no data.
 
-      Deploying is different. The self-hosted steps involve setting
-      `DB_ENCRYPTION_KEY` alongside the database URL and token, and anything
-      holding that key and that database access can decrypt attendee records.
-      An agent given those secrets should be treated as having the same reach
-      over that data as the person who owns the site.
+      Deploying gives an agent more than that, but not everything. The
+      self-hosted steps involve setting `DB_ENCRYPTION_KEY` alongside the
+      database URL and token. That combination decrypts what the server key
+      protects, which includes listing and site details, email settings and
+      stored payment-provider secrets, so it is not a small amount of access
+      and should be granted deliberately.
+
+      It does not decrypt attendee personal data. Those fields are unlocked by
+      a key wrapped for each keyed account, and the wrapping key is derived from
+      that account's password, which the site never stores. A database and the
+      environment key alone cannot unwrap it. Reading attendee records needs a
+      keyed account's password, or the recovery credentials if that route is
+      enabled. The [encryption page](/features/encrypted/) sets out the layers
+      in full.
 
       The [editor role](/features/editors/) exists for the same reason. It can
       write listings and site copy but holds no data key, so attendee personal
@@ -221,6 +230,6 @@ blocks:
     content: |-
       ## Read the code
 
-      The repository holds the product source, its behaviour specifications and its deployment steps. Managed hosting runs the same code for £50/year or £5/month.
+      The repository holds the product source, its behaviour specifications and its deployment steps. Managed hosting runs the same code for £50/year or £5/month, or £25/year for charities, community groups, artists and musicians, which applies to annual billing only.
 name: Hosting a Ticket System with a Coding Agent | Chobble Tickets
 ---

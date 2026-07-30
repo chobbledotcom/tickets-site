@@ -85,9 +85,14 @@ blocks:
       There are two ways to move, and they carry different things.
 
       A database backup is a zip holding every table, so a restore brings back
-      listings, attendees, answers, settings and the ledger. Personal data is
-      encrypted field by field, so the site you restore into must use the same
-      `DB_ENCRYPTION_KEY` to read it. Images and attachments are not in the
+      listings, attendees, answers, settings and the ledger. Two things have to
+      travel with it. The site you restore into needs the same
+      `DB_ENCRYPTION_KEY`, which covers listing and site details, email settings
+      and payment-provider secrets. It also needs a keyed account's password,
+      or the recovery credentials where that is enabled, because the key that
+      unlocks attendee personal data is derived from a password the site never
+      stores. Keeping the environment key but losing every keyed password
+      leaves the attendee records unreadable. Images and attachments are not in the
       zip: the database stores their filenames, and the files themselves live
       in the configured storage zone, so the restored site needs to point at
       that zone or a copy of it. A restore reports the source-code version that
