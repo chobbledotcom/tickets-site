@@ -1,9 +1,63 @@
 {
   "app": {
-    "commit": "cc89099cf205101c7104e26805a2f8cdd948d020",
+    "commit": "c13679f8f3a2e055bb99ac716528683c2b00b217",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
+    "api-keys-list": {
+      "case": {
+        "id": "api-keys.made-and-shown-once",
+        "name": "The owner makes a key"
+      },
+      "id": "api-keys-list",
+      "image": {
+        "height": 1190,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "10d36a9f982d8b3f6056c5874c0d8f58c21115209ae0be0f1e761d4495b6de49",
+        "src": "/images/screenshots/api-keys-list.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 820
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "The site shows the key the moment it is made, with a word to say it will\nnot be shown again. From then on the owner sees only the name they gave it.\nAnyone who reads the list later learns what keys exist, and nothing they\ncould use.",
+        "id": "servicing.a-key-is-shown-once-and-then-only-named",
+        "name": "A key is shown once, and after that only its name"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "the owner is looking at their keys"
+        },
+        {
+          "keyword": "When",
+          "text": "the owner makes a key called Shopfront"
+        },
+        {
+          "keyword": "Then",
+          "text": "the owner is shown the key itself, and told to copy it now"
+        },
+        {
+          "keyword": "And",
+          "text": "the list of keys names Shopfront"
+        },
+        {
+          "keyword": "And",
+          "text": "the list of keys never shows the key itself"
+        }
+      ],
+      "story": {
+        "description": "An owner can hand a key to something that is not a person — their own\nwebsite, a spreadsheet, a booking screen in a shop — so it can read and\nchange what they sell without anybody signing in. The key stands in for the\nowner, so it is shown once, kept by name afterwards, and can be taken back at\nany moment.",
+        "id": "servicing.letting-another-system-in",
+        "name": "An owner lets another system work on their behalf",
+        "uri": "specs/servicing/letting-another-system-in.feature"
+      }
+    },
     "balance-payment-link": {
       "case": {
         "id": "deposit.balance-page-shows-what-is-left",
@@ -232,6 +286,56 @@
         "uri": "specs/payments/what-a-paid-booking-earned.feature"
       }
     },
+    "page-anybody-can-read": {
+      "case": {
+        "id": "site-pages.written-and-readable",
+        "name": "The owner writes a page"
+      },
+      "id": "page-anybody-can-read",
+      "image": {
+        "height": 772,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "9d33eea9fc5b64421e45b1203ed7ace529b9839e1cdcdc9317c96d28ec756dd5",
+        "src": "/images/screenshots/oakfield-public-website.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 844
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "There is no separate step to publish. The owner writes it, and it is there\nat the address they chose — for a visitor who was never signed in and never\nwill be.",
+        "id": "servicing.a-page-written-is-a-page-anybody-can-read",
+        "name": "A page written is a page anybody can read"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "the owner is writing the site's pages"
+        },
+        {
+          "keyword": "When",
+          "text": "the owner writes a page called Directions at \"how-to-find-us\""
+        },
+        {
+          "keyword": "Then",
+          "text": "the owner is told it saved"
+        },
+        {
+          "keyword": "And",
+          "text": "a visitor reading \"how-to-find-us\" is shown Directions"
+        }
+      ],
+      "story": {
+        "description": "Besides the things it sells, a site has pages that simply say something — how\nto find us, what to bring, who we are. The owner writes those pages\nthemselves, chooses the web address each one lives at, and decides the order\nthey are offered in. A page is live as soon as it is written, so anyone can\nread it straight away.",
+        "id": "servicing.writing-the-pages-people-read",
+        "name": "An owner writes the pages people read",
+        "uri": "specs/servicing/writing-the-pages-people-read.feature"
+      }
+    },
     "payment-provider-choice": {
       "case": {
         "id": "payments.select-saved-stripe",
@@ -318,6 +422,60 @@
         "id": "attendees.checking-people-in-at-the-door",
         "name": "An organiser checks people in at the door",
         "uri": "specs/attendees/checking-people-in-at-the-door.feature"
+      }
+    },
+    "refunded-booking": {
+      "case": {
+        "id": "payment.refund-undoes-the-sale",
+        "name": "The organiser refunds a paid place"
+      },
+      "id": "refunded-booking",
+      "image": {
+        "height": 1242,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "c9e29027061c6956ea447d720bdce833ce5e2b875816943102a1be020e2d5dc7",
+        "src": "/images/screenshots/refunded-booking.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 828
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "The listing stops counting the sale, the customer owes nothing, and the\nmoney goes back where it came from.",
+        "id": "payments.refund-hands-the-money-back",
+        "name": "A refund hands back the money and undoes the sale"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "a customer paid 45.00 for a Concert place"
+        },
+        {
+          "keyword": "When",
+          "text": "the organiser refunds the booking"
+        },
+        {
+          "keyword": "Then",
+          "text": "the customer is handed back 45.00 once"
+        },
+        {
+          "keyword": "And",
+          "text": "the Concert has earned nothing and the customer owes nothing"
+        },
+        {
+          "keyword": "And",
+          "text": "the booking page says the booking is fully paid"
+        }
+      ],
+      "story": {
+        "description": "When an organiser refunds a booking, the customer gets back everything they\npaid — the ticket, any booking fee, and any service charge. The organiser's\nown figures must agree with the money that actually moved.",
+        "id": "payments.refunding-a-booking",
+        "name": "An organiser refunds a booking",
+        "uri": "specs/payments/refunding-a-booking.feature"
       }
     },
     "servicing-studio-floor-hold": {

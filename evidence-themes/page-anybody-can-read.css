@@ -1,0 +1,36 @@
+/* A community organisation's own public site: warm paper, one deep teal, and
+ * a serif for the page heading. This is the branding a visitor sees, so the
+ * navigation is dressed as carefully as the page under it. */
+:root {
+  --border-radius: 10px;
+  --color-accent: #b8642c;
+  --color-bg: #fbf6ec;
+  --color-bg-secondary: #ffffff;
+  --color-link: #1c4a4e;
+  --color-secondary: #14383b;
+  --color-secondary-accent: #1c4a4e18;
+  --color-shadow: #0d2a2c26;
+  --color-table: #1c4a4e;
+  --color-text: #1f2b2c;
+  --color-text-secondary: #5f7274;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background: var(--color-bg);
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 14px 32px var(--color-shadow);
+  padding: 1.25rem;
+}
+
+main nav a {
+  color: var(--color-link);
+  font-weight: 700;
+}
+
+.public-page h1 {
+  color: var(--color-secondary);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+}

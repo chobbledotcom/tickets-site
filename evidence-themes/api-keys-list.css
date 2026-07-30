@@ -1,0 +1,71 @@
+/* The admin side of a shop that runs its own till: slate and one amber. */
+:root {
+  --border-radius: 6px;
+  --color-accent: #b5822a;
+  --color-bg: #eef0f3;
+  --color-bg-secondary: #ffffff;
+  --color-link: #33465c;
+  --color-secondary: #2b3b4e;
+  --color-secondary-accent: #f0f2f5;
+  --color-shadow: #1b26321f;
+  --color-table: #2b3b4e;
+  --color-text: #232c36;
+  --color-text-secondary: #6a7683;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-page {
+  background: #fff;
+  border: 1px solid #dbdfe5;
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+.admin-page .table-scroll {
+  overflow: visible;
+}
+
+.admin-page table {
+  font-size: 0.85rem;
+  table-layout: fixed;
+  white-space: normal;
+  width: 100%;
+}
+
+.admin-page th {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.admin-page th,
+.admin-page td {
+  padding: 0.5rem;
+}
+
+.admin-page tbody tr:nth-child(even) {
+  background: var(--color-secondary-accent);
+}
+
+.admin-page tbody tr:nth-child(even) td,
+.admin-page tbody tr:nth-child(even) th {
+  background: transparent;
+  color: var(--color-text);
+}
+
+/* The middle column is the day the key was made, which is the day the capture
+ * ran: it would be a different date every night without anything about the
+ * site having changed. What the case is about is on either side of it - the
+ * name the owner gave the key, and the fact that the key itself is not here. */
+.admin-page th:nth-child(2),
+.admin-page td:nth-child(2) {
+  display: none;
+}
+
+.admin-page th:nth-child(1),
+.admin-page td:nth-child(1),
+.admin-page th:nth-child(3),
+.admin-page td:nth-child(3) {
+  width: 50%;
+}
