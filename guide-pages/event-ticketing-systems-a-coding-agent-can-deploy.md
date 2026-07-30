@@ -56,6 +56,7 @@ blocks:
       | [Hi.Events](/compared-to/hi-events/) | AGPL-3.0 with additional attribution terms. | The same product, with conditions. Free use requires visible Hi.Events branding, and removing it requires a commercial licence. |
       | [Pretix](/compared-to/pretix/) | Core ticketing is AGPLv3. Several enterprise plugins are proprietary. | The Community edition covers core ticketing. Some larger-event features need paid plugins. |
       | [alf.io](/compared-to/swicket/) | GPL-3.0. | alf.io is the engine beneath Swicket. Swicket is a separate managed service, and its service additions are not established as sharing that licence. |
+      | [libreevent](/compared-to/libreevent/) | GPL-3.0, with no proprietary parts. | Not applicable. There is no hosted service. Its repository was archived by its owner on 9 June 2026 and is read-only, so an operator maintains their own copy of the code. |
       | [EventPrime](/compared-to/eventprime/) | The free core plugin is GPLv2 or later on WordPress.org. Paid extensions are not published. | Not applicable. The plugin runs on the organiser's own WordPress site and is not sold as a hosted service. The extensions an event may need are closed. |
       | [Dandelion](/compared-to/dandelion/) | Functional Source License, which adds Apache 2.0 after two years. | Not documented. The licence permits internal use and restricts running a competing service for two years, but the records here do not establish whether the hosted service runs the published repository. |
       | [Cal.com](/compared-to/cal-com/) | The production code became proprietary in April 2026. Cal.diy remains MIT-licensed. | No. Cal.diy is a community version that has diverged from the hosted production code. |
@@ -80,17 +81,24 @@ blocks:
         applies, and the hosting.
       - **A self-hosted application.** [Pretix Community](/compared-to/pretix/)
         is Python and Django, [Hi.Events](/compared-to/hi-events/) is PHP,
-        Laravel and React, and [alf.io](/compared-to/swicket/) is Java and
-        Spring Boot with PostgreSQL. Each is deployed as a server or container
-        and then maintained by its operator. That covers updates, backups,
-        security, email delivery and availability.
+        Laravel and React, [alf.io](/compared-to/swicket/) is Java and
+        Spring Boot with PostgreSQL, and [libreevent](/compared-to/libreevent/)
+        is Node.js and Vue over MySQL or a JSON file. Each is deployed as a
+        server or container and then maintained by its operator. That covers
+        updates, backups, security, email delivery and availability.
+      - **A self-hosted application nobody else patches.**
+        [libreevent](/compared-to/libreevent/) is the one case here where
+        upstream has stopped. Its archived repository publishes no further
+        releases, so an operator writes and applies every fix, including
+        security fixes, from their own fork. Its documented update route is
+        uploading the new files over FTP by hand.
       - **An edge script.** [Chobble Tickets](/features/deployment/) compiles
         to a single JavaScript file that runs on Bunny Edge Scripting, with a
         managed database. There is no operating system to patch and no
         container to rebuild. Its Docker deployments do involve a host to
         maintain.
 
-      Of the deployment paths checked for this page, which are the six named
+      Of the deployment paths checked for this page, which are the seven named
       above, Chobble Tickets is the only one that does not leave the operator
       with a server or container to keep running. Dandelion's records establish
       what its licence permits rather than how it is deployed, so its shape is
@@ -124,15 +132,20 @@ blocks:
       | [Pretix](/compared-to/pretix/) | A Python process and a Vite dev server, over a local SQLite database created by migrations. | Yes | The Django server reloads, and Vite hot-reloads the Vue components. Celery workers, where used, are restarted by hand. |
       | [Hi.Events](/compared-to/hi-events/) | Nine containers: a Laravel backend, two frontend variants, nginx, PostgreSQL, Redis, Mailpit, MinIO and a bucket initialiser. | Yes. The backend and frontend directories are bind-mounted into their containers. | The frontend containers run `yarn dev` watchers. The backend is interpreted from the mount. |
       | [alf.io](/compared-to/swicket/) | Two containers: the application from the prebuilt `alfio/alf.io` image, and PostgreSQL 10. | No. The compose file mounts no source. | Rebuild the image, or run the application from Gradle with Java 17 against that database. |
+      | [libreevent](/compared-to/libreevent/) | Node.js and npm on your own machine, after `npm i` in three directories. MySQL is optional, so the JSON database needs nothing running beside it. | Yes | The two Vue frontends have a Vite dev script that hot-reloads. The Express server has no watch task, so it is restarted. |
 
       The reload behaviour is good almost everywhere, and better in two places
       than in Chobble Tickets, which has no watch task and restarts instead.
       Hi.Events bind-mounts its source and runs frontend watchers, and Pretix
-      hot-reloads both its Python and its Vue components.
+      hot-reloads both its Python and its Vue components. libreevent sits
+      between the two positions, hot-reloading its Vue frontends while its
+      server is restarted by hand.
 
       What differs is how much has to stand up first. One process against nine
       containers is the same change taking a different amount of setting up, and
       it is the part an agent pays for on a machine it does not control.
+      libreevent asks for three `npm i` runs rather than one, and then runs on
+      the host without a database service.
 
       alf.io is the one case where the running application is not the code being
       edited, because its compose file pulls a published image. Its documented
@@ -150,7 +163,7 @@ blocks:
       ## Instructions written for agents
 
       Some projects now commit instructions telling a coding agent how to work
-      in their repository. Four repositories were checked for this page, and
+      in their repository. Five repositories were checked for this page, and
       two of them carry such a file.
 
       [Hi.Events](/compared-to/hi-events/) publishes `AGENTS.md`, `CLAUDE.md`
@@ -158,8 +171,9 @@ blocks:
       `AGENTS.md`, `CLAUDE.md` and a structure reference, alongside 39 Cucumber
       feature files describing its behaviour in plain English.
 
-      Neither [Pretix](/compared-to/pretix/) nor [alf.io](/compared-to/swicket/)
-      carried one at the time of review. Chobble Tickets additionally states
+      [Pretix](/compared-to/pretix/), [alf.io](/compared-to/swicket/) and
+      [libreevent](/compared-to/libreevent/) carried none at the time of
+      review. Chobble Tickets additionally states
       what its checks refuse: 100% line and branch coverage, no repeated block
       of 19 tokens or more, and a ceiling on how complex a single function may
       become.
@@ -168,7 +182,7 @@ blocks:
       this classification and the date it was checked, and reads `not-reviewed`
       where no repository was examined.
 
-      Test and lint thresholds were not compared across the four, so nothing
+      Test and lint thresholds were not compared across the five, so nothing
       here says another project's checks are weaker. Pretix tracks coverage
       through Codecov. What this section records is which repositories carry
       agent instructions, and what Chobble Tickets enforces.
