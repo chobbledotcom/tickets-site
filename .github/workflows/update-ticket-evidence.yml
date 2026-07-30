@@ -165,8 +165,6 @@ jobs:
             images/screenshots/qr-code-check-in__facebook.png
             images/screenshots/refunded-booking.png
             images/screenshots/refunded-booking__facebook.png
-            images/screenshots/required-child-listings-checkout.png
-            images/screenshots/required-child-listings-checkout__facebook.png
             images/screenshots/riverside-events-team.png
             images/screenshots/riverside-events-team__facebook.png
             images/screenshots/servicing-studio-floor-hold.png
@@ -188,7 +186,6 @@ jobs:
             pages/features/multi-day-hire.md
             pages/features/overbooking-prevention.md
             pages/features/packages.md
-            pages/features/parent-child-listings.md
             pages/features/promo-codes-and-add-ons.md
             pages/features/public-api.md
             pages/features/purchasable-events.md

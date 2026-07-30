@@ -247,7 +247,6 @@ These pages are rendered but excluded from the sitemap and main editorial total.
 
 - [x] `add-on-in-the-list`
 - [x] `checked-in-on-the-day`
-- [x] `one-order-of-every-kind`
 - [x] `paid-more-than-asked`
 - [x] `site-pages-in-order`
 - [x] `stay-length-on-the-page`

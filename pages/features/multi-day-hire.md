@@ -25,7 +25,7 @@ blocks:
 
       The length is on the listing's own page, so you can read it without
       opening the edit form, and the booking page tells a customer how many
-      days they are reserving before they pick a first day.
+      days the booking will cover before they pick a first day.
     figure_src: /images/screenshots/multi-day-hire.png
     figure_alt: A screenshot of a Lodge listing's page, showing it is booked daily, on any day of the week, with a booking duration of 3 days
     figure_caption: 'A listing booked by the day says how long each booking lasts on its own page, without opening the edit form. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/changing-how-long-a-stay-lasts.feature">(src)</a></small>'

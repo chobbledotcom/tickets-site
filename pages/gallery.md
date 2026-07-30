@@ -35,7 +35,7 @@ blocks:
       - image: /images/screenshots/the-tempest-group-checkout__facebook.png
         caption: An attendee list holding a booking made from a group page, with the answer the customer picked.
       - image: /images/screenshots/required-child-listings-checkout__facebook.png
-        caption: One buyer's order, where the same item bought two ways is kept as two bookings.
+        caption: A festival pass that requires each camper to pick a camping option.
       - image: /images/screenshots/industry-childrens-entertainer-booking__facebook.png
         caption: A children's party package that requires one entertainer choice.
       - image: /images/screenshots/promo-codes-and-add-ons-checkout__facebook.png

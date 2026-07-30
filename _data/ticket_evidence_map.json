@@ -60,9 +60,9 @@
       "galleryCaption": "A listing's own record, with a door check-in written into it.",
       "legacyDestinationPath": "images/screenshots/activity-log-summer-arts-fair.png",
       "page": "pages/features/activity-logs.md",
-      "reviewed": "458b865acee8bc0ca48139f3456c59ac1d76c6b5b3be56ec50999946fe380758",
+      "reviewed": "c618c3ee995806601def850c9913f65f8d9b38aabbb8cb1a950aabaf391de460",
       "socialBody": "Each listing keeps its own record of what happened to it, including who was checked in at the door and when.",
-      "socialHeading": "Every change is written down",
+      "socialHeading": "Each listing keeps its own record",
       "socialKey": "activity-log"
     },
     "contact-record": {
@@ -103,19 +103,6 @@
       "socialBody": "Track booking income, offline payments, refunds, costs and outstanding balances in the same ledger.",
       "socialHeading": "Keep one accounting ledger",
       "socialKey": "ledger"
-    },
-    "one-order-of-every-kind": {
-      "alt": "A screenshot of a Tent listing's attendee list, showing the same buyer twice, once for two places and once for one",
-      "assetProfile": "mobile",
-      "caption": "A thing ordered inside a bundle and again on its own is two bookings, not one of two.",
-      "caseId": "order.one-order-of-every-kind",
-      "galleryCaption": "One buyer's order, where the same item bought two ways is kept as two bookings.",
-      "legacyDestinationPath": "images/screenshots/required-child-listings-checkout.png",
-      "page": "pages/features/parent-child-listings.md",
-      "reviewed": "fbf35c24288a098def4166eedc50e025356500df90e437b9751e89ed7a39146d",
-      "socialBody": "An item bought inside a bundle and again on its own stays two bookings, and each one says where it came from.",
-      "socialHeading": "Every part of an order is kept apart",
-      "socialKey": "parent-child-listings"
     },
     "page-anybody-can-read": {
       "alt": "A screenshot of a public site page called Directions, reached from the site's own navigation alongside Home and Listings",
@@ -229,7 +216,7 @@
       "galleryCaption": "A listing booked by the day, saying each booking lasts three days.",
       "legacyDestinationPath": "images/screenshots/multi-day-hire.png",
       "page": "pages/features/multi-day-hire.md",
-      "reviewed": "9fe8cd54397c11305142ea2536622a1f66c475f6cdaa80089c824ce0b9d14215",
+      "reviewed": "7de02ea44f5678127bd04f50a967c43ffe86ecaebe559a7bddace270404e3569",
       "socialBody": "Set how many days one booking covers. The length is on the listing's own page, and every day a booking covers is held for that customer.",
       "socialHeading": "Book several days at once",
       "socialKey": "multi-day-hire"

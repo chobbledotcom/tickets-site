@@ -4,6 +4,12 @@ export const AUDITED_TICKETS_COMMIT =
 export const SOCIAL_IMAGE_FACTS = {
   "activity-log": [
     {
+      fact: "A listing has its own activity view, separate from the global one, holding what happened to that listing including a door check-in.",
+      sources: [
+        "../tickets/specs/attendees/checking-people-in-at-the-door.feature:28-36",
+      ],
+    },
+    {
       fact: "Activity log rows store a time, message and optional attendee and listing links. They do not store the account that performed an action.",
       sources: [
         "../tickets/src/shared/db/activityLog.ts:49-56",
@@ -517,6 +523,12 @@ export const SOCIAL_IMAGE_FACTS = {
   ],
   "promo-codes-and-add-ons": [
     {
+      fact: "An add-on marked as sellable on its own gets its own page and its own place in the list of what is for sale, and is not described as an add-on there.",
+      sources: [
+        "../tickets/specs/bookings/add-ons-sold-on-their-own.feature:24-38",
+      ],
+    },
+    {
       fact: "Code-triggered and optional price modifiers are resolved in the same order pricing pass.",
       sources: [
         "../tickets/src/shared/price-modifier.ts:27-41",
@@ -582,6 +594,12 @@ export const SOCIAL_IMAGE_FACTS = {
   ],
   "site-customisation": [
     {
+      fact: "Pages the owner writes are offered in the order they put them in, and each keeps the web address it was given.",
+      sources: [
+        "../tickets/specs/servicing/writing-the-pages-people-read.feature:47-58",
+      ],
+    },
+    {
       fact: "Owners or editors can set the public site title and homepage text, while owners can set custom CSS loaded after the default stylesheet.",
       sources: [
         "../tickets/src/features/admin/site.ts:32-55",
@@ -592,6 +610,12 @@ export const SOCIAL_IMAGE_FACTS = {
     },
   ],
   "summer-appeal-purchase": [
+    {
+      fact: "What a pay-more listing earns is the amount the customer chose, not the amount asked, and every page showing the figure agrees.",
+      sources: [
+        "../tickets/specs/payments/paying-more-than-the-asking-price.feature:5-19",
+      ],
+    },
     {
       fact: "A pay-more listing accepts an attendee-entered amount between its configured minimum and maximum.",
       sources: [

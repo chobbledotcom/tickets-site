@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "d54537e182b53dcdccf2f5d38ef2f1bb4a4346ab",
+    "commit": "8200208beddac0eab5c5bda80fc0267b82894f40",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -444,64 +444,6 @@
         "uri": "specs/payments/what-a-paid-booking-earned.feature"
       }
     },
-    "one-order-of-every-kind": {
-      "case": {
-        "id": "order.one-order-of-every-kind",
-        "name": "A customer orders a bundle, an add-on, a plain item and a day booking"
-      },
-      "id": "one-order-of-every-kind",
-      "image": {
-        "height": 820,
-        "mediaType": "image/png",
-        "profile": "mobile",
-        "sha256": "66932b9cbe999d03c43d39ddcb6b3a6bbb2bba2edef52037381a71f0ab5fb06f",
-        "src": "/images/screenshots/required-child-listings-checkout.png",
-        "viewport": {
-          "deviceScaleFactor": 2,
-          "height": 844,
-          "width": 390
-        },
-        "width": 844
-      },
-      "presentation": "branded",
-      "rule": {
-        "description": "A thing ordered inside a bundle and again on its own is two bookings, not\none of two. The same holds for an add-on ordered under its parent and on\nits own. Each one says where it came from.",
-        "id": "bookings.each-way-of-ordering-is-its-own-booking",
-        "name": "Ordering the same thing two ways keeps the two apart"
-      },
-      "steps": [
-        {
-          "keyword": "Given",
-          "text": "the shop sells a Mega Kit bundle, a Marquee with a Generator add-on, T-Shirts, and a Campervan by the day"
-        },
-        {
-          "keyword": "When",
-          "text": "a customer orders all of them at once, adding a Tent and a Generator on their own"
-        },
-        {
-          "keyword": "Then",
-          "text": "the organiser sees the Tent twice — 2 in the bundle and 1 on its own"
-        },
-        {
-          "keyword": "And",
-          "text": "the organiser sees the Generator twice — under the Marquee and on its own"
-        },
-        {
-          "keyword": "And",
-          "text": "each booking says which bundle or parent it came from"
-        },
-        {
-          "keyword": "And",
-          "text": "every listing in the order lists the customer"
-        }
-      ],
-      "story": {
-        "description": "An organiser can sell things in bundles, as add-ons to something bigger, on\ntheir own, and by the day. A customer can put all of those in one order — and\ncan order the same thing more than one way. Each way must be kept as its own\nbooking, so the organiser can see what was ordered and how.",
-        "id": "bookings.ordering-several-things-at-once",
-        "name": "A customer orders several things at once",
-        "uri": "specs/bookings/ordering-several-things-at-once.feature"
-      }
-    },
     "page-anybody-can-read": {
       "case": {
         "id": "site-pages.written-and-readable",
@@ -616,7 +558,7 @@
         "height": 2542,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "ebd9d9be55172674af60520e8ce6bbad23ffb62a240e36ff1a3403053d25f565",
+        "sha256": "5666e83e1414d6deb0cb39e20a73b3930364cfd2b7d93d269e479b73b380bbd8",
         "src": "/images/screenshots/payment-provider-choice.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -812,7 +754,7 @@
         "height": 742,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "5cd1d5fc03bf5a49fbf080e045ce7b913850aa30a0d74b35487fef7817edad4c",
+        "sha256": "28a1fadbe035b741c42d7f49d850ba7f3d02114563997b5ad6c4f8175fab75f0",
         "src": "/images/screenshots/servicing-studio-floor-hold.png",
         "viewport": {
           "deviceScaleFactor": 2,

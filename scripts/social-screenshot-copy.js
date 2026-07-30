@@ -1,6 +1,6 @@
 export const SOCIAL_SCREENSHOT_COPY = {
   "activity-log": {
-    heading: "Every change is written down",
+    heading: "Each listing keeps its own record",
     body: "Each listing keeps its own record of what happened to it, including who was checked in at the door and when.",
   },
   "admin-guide": {
@@ -124,8 +124,8 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "Combine listings into one bundle. Set each member's price and quantity, then let customers choose a package count.",
   },
   "parent-child-listings": {
-    heading: "Every part of an order is kept apart",
-    body: "An item bought inside a bundle and again on its own stays two bookings, and each one says where it came from.",
+    heading: "Require a choice with each booking",
+    body: "Ask buyers to pick a required option for each parent unit they book, such as a camping choice with a festival pass.",
   },
   "payment-provider-choice": {
     heading: "Choose a payment provider",
