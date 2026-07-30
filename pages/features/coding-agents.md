@@ -125,6 +125,23 @@ blocks:
       codebase. That is worth more to an agent reading the code later than it
       is to the person who wrote the rule.
 
+      ## What this does and does not claim
+
+      Much of Chobble Tickets is written by coding agents, and parts of it are
+      rough. That is true of most repositories past a certain size, and the
+      checks are not a claim that the code is better than a person would have
+      written.
+
+      What they change is when the work gets reviewed. An agent has to satisfy
+      coverage, duplication and complexity before a pull request exists, so it
+      goes through rounds of revision that it would otherwise skip by stopping
+      at its first attempt. The change a human then reads is shorter and closer
+      to the project's conventions, which makes reviewing it a smaller job.
+
+      That is the honest version of the benefit. The checks move effort from
+      the reviewer to the agent, and they are cheap for an agent to run and
+      expensive for a person to perform by reading.
+
       ## Written conventions alongside the checks
 
       Some things cannot be checked mechanically, and AGENTS.md states them for
@@ -157,6 +174,12 @@ blocks:
       container to rebuild and no instance to keep running. The database is a
       managed Bunny database, and its schema migrates itself on the first
       request.
+
+      This matters when an agent is helping someone else deploy. There is no
+      virtual private server to provision, no reverse proxy, no TLS renewal and
+      no SSH, so the work is a Bunny dashboard, repository secrets and a GitHub
+      Actions workflow rather than a walkthrough of server administration.
+      [Deploying a ticket site](/features/deployment/) lists the steps.
 
       Host maintenance is the part of running software that needs attention for
       as long as the software runs, and the part a coding agent is least able

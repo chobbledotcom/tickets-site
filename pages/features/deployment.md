@@ -55,6 +55,24 @@ blocks:
 
       Docker deployments follow the same pattern against local SQLite or a
       remote libSQL database.
+
+      ## What deploying does not involve
+
+      The Bunny path has no server administration in it. There is no virtual
+      private server to rent or provision, no reverse proxy to configure, no
+      TLS certificate to obtain or renew, no operating system to patch, no
+      process manager to keep the application running, and no SSH access to
+      set up.
+
+      The whole deployment is a Bunny dashboard, a set of repository secrets
+      and a GitHub Actions workflow. Anyone setting a site up this way works
+      through those two web interfaces, and does not need to edit application
+      code to get a working site.
+
+      This is the main practical difference from ticketing software that
+      installs onto a host. Those deployments are capable and widely used, but
+      they leave someone responsible for the machine underneath them for as
+      long as the site runs.
   - type: features
     dark: true
     intro_content: |
