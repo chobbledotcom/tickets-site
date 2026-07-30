@@ -122,9 +122,10 @@ blocks:
       classification, the detail and the date it was checked, and read
       `not-reviewed` where no setup was examined.
 
-      Three things decide how quickly an agent can work: what has to be running,
-      whether the running application is the checkout being edited, and what
-      happens after a file changes.
+      Two things decide how quickly an agent can work: what has to be running,
+      and whether the running application is the checkout being edited. The
+      table records what happens after a file changes as well, which matters
+      more to a person than to an agent.
 
       | Project | What has to be running | Runs your checkout | After an edit |
       |---|---|---|---|
@@ -134,12 +135,9 @@ blocks:
       | [alf.io](/compared-to/swicket/) | Two containers: the application from the prebuilt `alfio/alf.io` image, and PostgreSQL 10. | No. The compose file mounts no source. | Rebuild the image, or run the application from Gradle with Java 17 against that database. |
       | [libreevent](/compared-to/libreevent/) | Node.js and npm on your own machine, after `npm i` in three directories. MySQL is optional, so the JSON database needs nothing running beside it. | Yes | The two Vue frontends have a Vite dev script that hot-reloads. The Express server has no watch task, so it is restarted. |
 
-      The reload behaviour is good almost everywhere, and better in two places
-      than in Chobble Tickets, which has no watch task and restarts instead.
-      Hi.Events bind-mounts its source and runs frontend watchers, and Pretix
-      hot-reloads both its Python and its Vue components. libreevent sits
-      between the two positions, hot-reloading its Vue frontends while its
-      server is restarted by hand.
+      Reload behaviour matters less to an agent than to a person. An agent
+      checks a change by running the project's tests rather than by watching a
+      browser refresh, so a restart costs it little.
 
       What differs is how much has to stand up first. One process against nine
       containers is the same change taking a different amount of setting up, and
