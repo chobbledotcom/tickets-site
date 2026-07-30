@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "303bd81067f3dd51abc60fe0f33bbe861ca65827",
+    "commit": "fb20681f5c7986d47dba5c666a332eaa4271f45e",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -558,7 +558,7 @@
         "height": 2542,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "ebd9d9be55172674af60520e8ce6bbad23ffb62a240e36ff1a3403053d25f565",
+        "sha256": "5666e83e1414d6deb0cb39e20a73b3930364cfd2b7d93d269e479b73b380bbd8",
         "src": "/images/screenshots/payment-provider-choice.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -878,7 +878,7 @@
         "height": 742,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "5cd1d5fc03bf5a49fbf080e045ce7b913850aa30a0d74b35487fef7817edad4c",
+        "sha256": "28a1fadbe035b741c42d7f49d850ba7f3d02114563997b5ad6c4f8175fab75f0",
         "src": "/images/screenshots/servicing-studio-floor-hold.png",
         "viewport": {
           "deviceScaleFactor": 2,
