@@ -4,9 +4,6 @@ subtitle: Compare ticketing providers by fees, ownership, hosting and domain opt
 meta_title: Ticketing Guides | Chobble Tickets
 meta_description: Compare ticketing providers by company structure, per-ticket fees, custom domains, public websites and self-hosting options.
 permalink: /guide/
-eleventyNavigation:
-  key: Guide
-  order: 8
 blocks:
   - type: markdown
     content: |

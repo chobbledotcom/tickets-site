@@ -172,6 +172,7 @@ const ENUMS = {
     "runs-checkout",
   ]),
   local_dev_reload: new Set([
+    "automatic-restart",
     "hot-reload",
     "manual-restart",
     "not-documented",
