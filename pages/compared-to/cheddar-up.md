@@ -24,6 +24,9 @@ provider_facts:
   self_hosting: not-offered
   source_code: proprietary
   agent_instructions: not-reviewed
+  local_dev_runtime: not-reviewed
+  local_dev_source: not-reviewed
+  local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   notes:

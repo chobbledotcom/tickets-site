@@ -27,9 +27,13 @@ provider_facts:
   self_hosting: same-product-with-conditions
   source_code: open-source-with-additional-terms
   agent_instructions: published
+  local_dev_runtime: containers
+  local_dev_source: bind-mounted
+  local_dev_reload: hot-reload
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   notes:
+    local_dev_runtime: "Nine containers in docker/development/docker-compose.dev.yml: Laravel backend, two frontend variants, nginx, PostgreSQL, Redis, Mailpit, MinIO and a bucket initialiser. Backend and frontend directories are bind-mounted; the frontend containers run yarn dev watchers. Checked 30 July 2026."
     agent_instructions: "Repository root carries AGENTS.md, CLAUDE.md and .cursorrules. Checked 30 July 2026."
     ethical_basis: "Hi.Events is operated by Hi.Events Ltd. Dave Earley accounted for most repository contributions when checked on 25 July 2026; public sources reviewed did not establish its funding status."
     per_ticket_platform_fee: "The cloud ticket fee is separate from Stripe payment processing."

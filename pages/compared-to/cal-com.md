@@ -22,6 +22,9 @@ provider_facts:
   self_hosting: different-community-edition
   source_code: proprietary-production-with-open-source-community-edition
   agent_instructions: not-reviewed
+  local_dev_runtime: not-reviewed
+  local_dev_source: not-reviewed
+  local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   notes:

@@ -25,6 +25,9 @@ provider_facts:
   self_hosting: source-available-internal-use
   source_code: source-available-delayed-open
   agent_instructions: not-reviewed
+  local_dev_runtime: not-reviewed
+  local_dev_source: not-reviewed
+  local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: personalised-recommendations
   notes:

@@ -109,6 +109,11 @@ blocks:
       and compose files were read for this section on 30 July 2026, because the
       answer is not written down anywhere as a comparison.
 
+      Each provider's `local_dev_runtime`, `local_dev_source` and
+      `local_dev_reload` records on its comparison page hold the
+      classification, the detail and the date it was checked, and read
+      `not-reviewed` where no setup was examined.
+
       Three things decide how quickly an agent can work: what has to be running,
       whether the running application is the checkout being edited, and what
       happens after a file changes.

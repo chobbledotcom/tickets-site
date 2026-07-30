@@ -25,9 +25,13 @@ provider_facts:
   self_hosting: plugin-on-self-hosted-platform
   source_code: open-source-core
   agent_instructions: not-reviewed
+  local_dev_runtime: host-platform
+  local_dev_source: not-documented
+  local_dev_reload: not-documented
   event_marketplace: none
   attendee_cross_marketing: none
   notes:
+    local_dev_runtime: "Runs inside WordPress, which needs PHP and a MySQL or MariaDB database. No development setup is published for the plugin. Checked 30 July 2026."
     registration_country: "EventPrime is published by Metagauss Inc. The terms and conditions state that the agreement is governed by the law of the Province of Ontario, Canada. No registered company address was documented in the sources reviewed."
     per_ticket_platform_fee: "EventPrime takes no share of ticket sales. Plugin licences, WordPress hosting and payment processing remain separate costs."
     managed_pricing: "EventPrime is installed on the organiser's own WordPress site and is not sold as a hosted ticketing service."

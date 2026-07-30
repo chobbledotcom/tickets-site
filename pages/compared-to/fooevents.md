@@ -24,9 +24,13 @@ provider_facts:
   self_hosting: plugin-on-self-hosted-platform
   source_code: proprietary
   agent_instructions: not-reviewed
+  local_dev_runtime: host-platform
+  local_dev_source: not-documented
+  local_dev_reload: not-documented
   event_marketplace: none
   attendee_cross_marketing: none
   notes:
+    local_dev_runtime: "Runs inside WordPress and WooCommerce, which need PHP and a MySQL or MariaDB database. No development setup is published for the plugins. Checked 30 July 2026."
     registration_country: "FooEvents is sold from FooEvents.com; no registered legal entity was established in the sources reviewed."
     per_ticket_platform_fee: "Annual plugin licences, WordPress hosting and payment processing remain separate costs."
     managed_pricing: "FooEvents is installed on WordPress and does not offer a managed ticketing service."
