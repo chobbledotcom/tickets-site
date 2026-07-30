@@ -152,10 +152,12 @@ blocks:
       The recommended deployment compiles to a single JavaScript file that runs
       on Bunny Edge Scripting with a Bunny database, so there is no server to
       manage, no scaling to configure and no database replication to maintain.
-      The [deployment page](/features/deployment/) covers two other routes:
-      Deno Deploy, which is another company's hosting for the same kind of
-      script, and Docker on a server the operator runs, which does leave a
-      host to maintain.
+      The [deployment page](/features/deployment/) covers the other routes.
+      Deno Deploy runs the same kind of script on another company's hosting,
+      and the repository ships Docker configuration with ready-made files for
+      Fly and Render, so the same image runs on a managed host or on a server
+      the operator keeps. Running that server yourself is the one route that
+      leaves a host to maintain.
 
       Pretix offers a free Community edition, but its proprietary plugins
       (seating, lead scanning, POS, resellers, and more) require a Pretix
