@@ -20,7 +20,7 @@
   "agent_instructions": "published",
   "local_dev_runtime": "single-runtime-process",
   "local_dev_source": "runs-checkout",
-  "local_dev_reload": "manual-restart",
+  "local_dev_reload": "hot-reload",
   "event_marketplace": "none",
   "attendee_cross_marketing": "none",
   "reference_url": "/about/",
@@ -31,6 +31,7 @@
     "self_hosting": "Self-hosting has no Chobble software charge, but infrastructure and configured services remain separate.",
     "registration_country": "Chobble CIC is a community interest company registered in England, number 17050113. Managed hosting and database regions are separate from where the company is registered.",
     "agent_instructions": "The repository root carries AGENTS.md, CLAUDE.md and REPO_STRUCTURE.md, alongside Cucumber feature files describing product behaviour.",
-    "local_dev_runtime": "Deno alone. DB_URL can point at :memory:, so no database server runs beside it; the Nix development shell sets that and a throwaway encryption key. There is no watch task, so the process is restarted after an edit. Checked 30 July 2026."
+    "local_dev_runtime": "Deno alone. DB_URL can point at :memory:, so no database server runs beside it; the Nix development shell sets that and a throwaway encryption key. Checked 30 July 2026.",
+    "local_dev_reload": "deno task dev runs the server with --watch, so an edit restarts it. Static assets build once before the server starts, so editing them needs the task restarted, and an in-memory database is emptied by each restart. deno task start has no watcher. Checked 30 July 2026."
   }
 }
