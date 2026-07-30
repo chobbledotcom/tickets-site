@@ -11,6 +11,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Track attendee status",
     body: "Create, reorder and assign custom statuses to attendee records.",
   },
+  "api-keys-list": {
+    heading: "Let another system work for you",
+    body: "Hand a key to your own website or a shop till. The site shows it once, then only its name, and you can take it back at any moment.",
+  },
   "bulk-email": {
     heading: "Email the right attendees",
     body: "Email one attendee, a listing's attendees, or a built-in audience. Preview the message before sending.",
@@ -104,8 +108,8 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "Choose the built-in dark theme for public pages, booking pages and ticket pages.",
   },
   "oakfield-public-website": {
-    heading: "Publish a complete event website",
-    body: "Show listings and booking links alongside the organiser's own pages, news and contact details.",
+    heading: "Publish your own pages",
+    body: "Write a page, choose the web address it lives at, and it is there for anyone to read straight away.",
   },
   "order-widget": {
     heading: "Sell from an existing website",
@@ -130,6 +134,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
   "qr-code-check-ins": {
     heading: "Check bookings with a phone",
     body: "Scan a booking QR code with a phone camera, or pick the person from the list of those still to arrive when a camera cannot be used.",
+  },
+  "refunded-booking": {
+    heading: "Refund a booking",
+    body: "Refunding hands back the ticket price, any booking fee and any service charge, and the listing stops counting the sale.",
   },
   "schools-and-ptas": {
     heading: "Ticketing for school events",

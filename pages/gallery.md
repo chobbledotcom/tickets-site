@@ -16,6 +16,8 @@ blocks:
   - type: gallery
     aspect_ratio: "1200/630"
     items:
+      - image: /images/screenshots/oakfield-public-website__facebook.png
+        caption: A page the organiser wrote, live at the address they chose.
       - image: /images/screenshots/oakfield-homepage-editor__facebook.png
         caption: The homepage editor — change the site title and copy from the admin area.
       - image: /images/screenshots/summer-sessions-listing-form__facebook.png
@@ -84,10 +86,14 @@ blocks:
         caption: Duplicate a group of listings and shift their dates in one step.
       - image: /images/screenshots/catalogue-import__facebook.png
         caption: Catalogue import — bring listings in from a JSON export.
+      - image: /images/screenshots/refunded-booking__facebook.png
+        caption: One booking's money after a refund, adding up to nothing owed.
       - image: /images/screenshots/activity-log-summer-arts-fair__facebook.png
         caption: The activity log — every change recorded with the person who made it.
       - image: /images/screenshots/admin-guide-listings__facebook.png
         caption: The admin guide — answers one click away from any admin screen.
+      - image: /images/screenshots/api-keys-list__facebook.png
+        caption: An API key list naming a key without showing the key itself.
       - image: /images/screenshots/order-widget-cart__facebook.png
         caption: The order widget — a cart placed over an existing website.
   - type: cta

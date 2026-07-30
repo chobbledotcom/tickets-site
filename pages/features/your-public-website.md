@@ -3,6 +3,7 @@ title: Your Public Website - Chobble Tickets
 meta_title: Your Public Website - Chobble Tickets
 meta_description: Enable a public website with a homepage, listings, news, content pages and an optional contact page, or switch it off and use direct booking links.
 permalink: /features/your-public-website/
+ticket_evidence_capture: page-anybody-can-read
 eleventyNavigation:
   key: Your Public Website
   parent: Customising Your Site
@@ -16,25 +17,26 @@ blocks:
       A Chobble Tickets site can provide a homepage, listings, news, content pages and an optional contact page. If you already have a website, you can switch the public site off and share booking links directly.
   - type: split-image
     content: |
-      ## Listings alongside your own pages
+      ## Pages you write, alongside the listings
 
-      Publish booking cards under your own site title. The same public site can
-      link to pages you write, news posts and contact details, giving attendees
-      one place to find the event and book it.
+      Write a page, give it a name and choose the web address it lives at.
+      There is no separate step to publish it: it is at that address from the
+      moment you save it, and the site's navigation offers it beside Home and
+      Listings.
     figure_src: /images/screenshots/oakfield-public-website.png
-    figure_alt: Oakfield Community Events public listings page with navigation and booking cards for Summer Sessions and Oakfield Primary Disco
-    figure_caption: Publish listing cards alongside organiser pages, news and contact details.
+    figure_alt: A screenshot of a public site page called Directions, reached from the site's own navigation alongside Home and Listings
+    figure_caption: 'A page is live at the address its owner chose as soon as it is written, for a visitor who never signs in. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/writing-the-pages-people-read.feature">(src)</a></small>'
   - type: markdown
     content: |
-      ## Pages you compose
+      ## What a page holds
 
-      You can create your own pages, each with a name, web address, and
-      Markdown content. A page is built from an ordered list of items:
-      sub-pages, listings, and groups.
+      A page's content is written in Markdown, and it carries an ordered
+      list of items: sub-pages, listings, and groups.
 
       These items form a navigable menu, so a page about workshops can
       link straight to the workshop listings and to further sub-pages.
-      Items can be reordered from the admin panel.
+      You choose the order the pages are offered in, and you can take one
+      down by typing its name to confirm.
 
       ## Appearance
 
