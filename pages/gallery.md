@@ -49,7 +49,7 @@ blocks:
       - image: /images/screenshots/deposits-and-balance-payments__facebook.png
         caption: A balance page for a Retreat place with £80 ordered, £30 paid and £50 left.
       - image: /images/screenshots/summer-appeal-purchase__facebook.png
-        caption: A donation listing earning the £80 a supporter chose, not the price it asked.
+        caption: A donation listing earning the £80 a supporter chose to pay.
       - image: /images/screenshots/workshop-terms-checkout__facebook.png
         caption: Workshop terms shown at checkout, so the buyer agrees before paying.
       - image: /images/screenshots/moonlight-cinema-dark-checkout__facebook.png

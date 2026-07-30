@@ -122,10 +122,10 @@
       "assetProfile": "mobile",
       "caption": "When a listing lets people pay more than it asks, it earns what they chose to pay.",
       "caseId": "pay-more.the-chosen-price-is-the-income",
-      "galleryCaption": "A donation listing earning the £80 a supporter chose, not the price it asked.",
+      "galleryCaption": "A donation listing earning the £80 a supporter chose to pay.",
       "legacyDestinationPath": "images/screenshots/summer-appeal-purchase.png",
       "page": "pages/features/purchasable-events.md",
-      "reviewed": "ce3266644214400e3006b72b0b5d5fc9587843cfeb2d96dd596fc3f19d146058",
+      "reviewed": "66d3066c46655f0dacd2e4daee05649c9c95339d542bfb267b70b74824da7f60",
       "socialBody": "Set a minimum and let supporters pay more. What the listing earns is what they chose, wherever the figure is shown.",
       "socialHeading": "Let people pay what they want",
       "socialKey": "summer-appeal-purchase"

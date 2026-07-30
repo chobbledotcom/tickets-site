@@ -124,8 +124,8 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "Combine listings into one bundle. Set each member's price and quantity, then let customers choose a package count.",
   },
   "parent-child-listings": {
-    heading: "Require a choice with each booking",
-    body: "Ask buyers to pick a required option for each parent unit they book, such as a camping choice with a festival pass.",
+    heading: "Require an add-on for each unit",
+    body: "For each parent unit, customers choose one child listing from a set. A sole available child is added automatically.",
   },
   "payment-provider-choice": {
     heading: "Choose a payment provider",
