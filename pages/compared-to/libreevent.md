@@ -106,10 +106,11 @@ blocks:
       case the costs are the same shape as libreevent's: infrastructure and
       payment processing.
 
-      Because libreevent has no managed price and no per-ticket fee, the
-      [fee calculator](/compared-to/compare-all/) does not cover it. The
-      comparison is between a bill for a server you run and a fixed fee for a
-      service someone else runs.
+      Neither product charges a software fee to self-host, and neither takes a
+      percentage of ticket sales. Because libreevent has no managed price and no
+      per-ticket fee, the [fee calculator](/compared-to/compare-all/) does not
+      cover it. The only figure to compare is Chobble's managed price against
+      the cost of running a server yourself.
   - type: markdown
     content: |
       ## Feature comparison
@@ -206,10 +207,10 @@ blocks:
       files over FTP without overwriting the data and config directories, and
       restarts the application.
 
-      Chobble Tickets compiles to a single JavaScript file that runs as an
-      edge script on Bunny.net with a Bunny.net edge database. On managed
-      hosting there is no server to set up, and self-hosting has no database
-      server to install.
+      Chobble Tickets runs on Bunny Edge, Deno Deploy or a Docker-capable host.
+      The recommended Bunny deployment compiles to a single JavaScript file and
+      uses a Bunny database, and Docker deployments use SQLite or a remote
+      libSQL database. On managed hosting there is no server to set up at all.
   - type: markdown
     content: |
       ## The archived repository
@@ -231,7 +232,9 @@ blocks:
       - You want tickets held while an attendee completes checkout
       - You want native scanning apps on iOS and Android
       - You already use Payrexx and want to keep it
-      - You want to pay nothing for software and already run your own server
+      - You have ordinary shared web hosting with Node.js and want to run
+        ticketing software on it. Self-hosting Chobble Tickets needs Bunny
+        Edge, Deno Deploy or a Docker-capable host
       - You have a developer who can maintain an archived codebase
   - type: markdown
     content: |
