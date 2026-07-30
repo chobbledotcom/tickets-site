@@ -1,0 +1,90 @@
+/* A community appeal's admin: ink blue on bone, one warm gold. */
+:root {
+  --border-radius: 6px;
+  --color-accent: #c08a2e;
+  --color-bg: #eef0f4;
+  --color-bg-secondary: #ffffff;
+  --color-link: #26406b;
+  --color-secondary: #1f3557;
+  --color-secondary-accent: #eef1f6;
+  --color-shadow: #12203626;
+  --color-table: #1f3557;
+  --color-text: #232b38;
+  --color-text-secondary: #6b7484;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-page {
+  background: #fff;
+  border: 1px solid #dbe0e8;
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+.admin-page h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+}
+
+.admin-page .table-scroll {
+  overflow: visible;
+}
+
+.admin-page table {
+  font-size: 0.82rem;
+  table-layout: fixed;
+  white-space: normal;
+  width: 100%;
+}
+
+.admin-page th {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.admin-page th,
+.admin-page td {
+  padding: 0.45rem;
+}
+
+.admin-page tbody tr:nth-child(even) {
+  background: var(--color-secondary-accent);
+}
+
+.admin-page tbody tr:nth-child(even) td,
+.admin-page tbody tr:nth-child(even) th {
+  background: transparent;
+  color: var(--color-text);
+}
+
+/* The first column is when each line was written, which is the moment the
+ * capture ran, and the third names the other side of the transfer, which the
+ * activity column has already said. The last repeats the balance the heading
+ * above it gives. What is left is what the customer chose to pay. */
+.admin-page th:nth-child(1),
+.admin-page td:nth-child(1),
+.admin-page th:nth-child(3),
+.admin-page td:nth-child(3),
+.admin-page th:nth-child(5),
+.admin-page td:nth-child(5) {
+  display: none;
+}
+
+.admin-page th:nth-child(2),
+.admin-page td:nth-child(2) {
+  width: 74%;
+}
+
+.admin-page th:nth-child(4),
+.admin-page td:nth-child(4) {
+  width: 26%;
+}
+
+/* Changing the money by hand is a different story from reading what was paid. */
+.admin-page a.btn,
+.admin-page .btn,
+.admin-page .table-action-btns {
+  display: none;
+}

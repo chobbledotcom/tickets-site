@@ -19,7 +19,7 @@ blocks:
       - image: /images/screenshots/oakfield-public-website__facebook.png
         caption: A page the organiser wrote, live at the address they chose.
       - image: /images/screenshots/oakfield-homepage-editor__facebook.png
-        caption: The homepage editor — change the site title and copy from the admin area.
+        caption: An organiser's own pages, in the order they chose.
       - image: /images/screenshots/summer-sessions-listing-form__facebook.png
         caption: A listing form with the name, date, venue and price of a new event.
       - image: /images/screenshots/daily-events-calendar__facebook.png
@@ -39,7 +39,7 @@ blocks:
       - image: /images/screenshots/industry-childrens-entertainer-booking__facebook.png
         caption: A children's party package that requires one entertainer choice.
       - image: /images/screenshots/promo-codes-and-add-ons-checkout__facebook.png
-        caption: An early-booking discount code and a parking pass added to an order.
+        caption: A public list where an add-on is offered on its own as well as with the thing it goes with.
       - image: /images/screenshots/summer-fair-volunteer-form__facebook.png
         caption: A volunteer sign-up page with three shifts of eight places and an access-needs question.
       - image: /images/screenshots/custom-questions-checkout__facebook.png
@@ -48,6 +48,8 @@ blocks:
         caption: A catering checkout with guest requirements and a paid crockery extra.
       - image: /images/screenshots/deposits-and-balance-payments__facebook.png
         caption: A balance page for a Retreat place with £80 ordered, £30 paid and £50 left.
+      - image: /images/screenshots/summer-appeal-purchase__facebook.png
+        caption: A donation listing earning the £80 a supporter chose to pay.
       - image: /images/screenshots/workshop-terms-checkout__facebook.png
         caption: Workshop terms shown at checkout, so the buyer agrees before paying.
       - image: /images/screenshots/moonlight-cinema-dark-checkout__facebook.png
@@ -60,6 +62,8 @@ blocks:
         caption: Payment provider settings with Stripe selected and its saved test key.
       - image: /images/screenshots/equipment-hire-booking__facebook.png
         caption: Equipment hire booking — pick dates and quantities for each item.
+      - image: /images/screenshots/multi-day-hire__facebook.png
+        caption: A listing booked by the day, saying each booking lasts three days.
       - image: /images/screenshots/industry-skip-hire-booking__facebook.png
         caption: A skip hire checkout with a customer-selected start date and seven-day price.
       - image: /images/screenshots/industry-venue-hire-booking__facebook.png
@@ -88,10 +92,14 @@ blocks:
         caption: Catalogue import — bring listings in from a JSON export.
       - image: /images/screenshots/place-lost-while-paying__facebook.png
         caption: The note left when a payment arrives after the last place has gone.
+      - image: /images/screenshots/record-put-right__facebook.png
+        caption: A contact record whose counts and private note the organiser has corrected.
+      - image: /images/screenshots/record-repaired__facebook.png
+        caption: A record that opened and kept its counts after its encrypted note could not be read.
       - image: /images/screenshots/refunded-booking__facebook.png
         caption: One booking's money after a refund, adding up to nothing owed.
       - image: /images/screenshots/activity-log-summer-arts-fair__facebook.png
-        caption: The activity log — every change recorded with the person who made it.
+        caption: A listing's own record, with a door check-in written into it.
       - image: /images/screenshots/admin-guide-listings__facebook.png
         caption: The admin guide — answers one click away from any admin screen.
       - image: /images/screenshots/api-keys-list__facebook.png

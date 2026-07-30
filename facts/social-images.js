@@ -4,6 +4,12 @@ export const AUDITED_TICKETS_COMMIT =
 export const SOCIAL_IMAGE_FACTS = {
   "activity-log": [
     {
+      fact: "A listing has its own activity view, separate from the global one, holding what happened to that listing including a door check-in.",
+      sources: [
+        "../tickets/specs/attendees/checking-people-in-at-the-door.feature:28-36",
+      ],
+    },
+    {
       fact: "Activity log rows store a time, message and optional attendee and listing links. They do not store the account that performed an action.",
       sources: [
         "../tickets/src/shared/db/activityLog.ts:49-56",
@@ -407,6 +413,26 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "multi-day-hire": [
+    {
+      fact: "A daily listing can carry a booking duration in days, and one booking holds every day it covers, including the middle and last.",
+      sources: [
+        "../tickets/specs/bookings/booking-several-days.feature:5-23",
+      ],
+    },
+    {
+      fact: "The duration is shown on the listing's own admin page, so it can be read without opening the edit form.",
+      sources: [
+        "../tickets/specs/bookings/changing-how-long-a-stay-lasts.feature:13-25",
+      ],
+    },
+    {
+      fact: "A paid checkout does not hold a place. Capacity is used when the payment confirmation arrives, so two customers can both reach the payment page for the last one.",
+      sources: [
+        "../tickets/specs/payments/capacity-after-payment.feature:5-16",
+      ],
+    },
+  ],
   "oakfield-public-website": [
     {
       fact: "A site page is served at the address its owner chose as soon as it is saved, with no separate publish step, and is readable by somebody who is not signed in.",
@@ -503,6 +529,12 @@ export const SOCIAL_IMAGE_FACTS = {
   ],
   "promo-codes-and-add-ons": [
     {
+      fact: "An add-on marked as sellable on its own gets its own page and its own place in the list of what is for sale, and is not described as an add-on there.",
+      sources: [
+        "../tickets/specs/bookings/add-ons-sold-on-their-own.feature:24-38",
+      ],
+    },
+    {
       fact: "Code-triggered and optional price modifiers are resolved in the same order pricing pass.",
       sources: [
         "../tickets/src/shared/price-modifier.ts:27-41",
@@ -529,6 +561,29 @@ export const SOCIAL_IMAGE_FACTS = {
       fact: "When a ticket cannot be read, the organiser can pick the person from a list. That list holds only the people still to arrive.",
       sources: [
         "../tickets/specs/attendees/checking-people-in-at-the-door.feature:103-124",
+      ],
+    },
+  ],
+  "record-put-right": [
+    {
+      fact: "The counts a contact record holds and the private note kept against it can both be corrected by the organiser, and what they save is what the record then reports.",
+      sources: [
+        "../tickets/specs/attendees/the-record-kept-about-someone.feature:38-48",
+      ],
+    },
+    {
+      fact: "The record is filed under a one-way code made from the email address, and carries a private note only the organiser reads.",
+      sources: [
+        "../tickets/src/shared/db/contact-preferences.ts:55-56",
+        "../tickets/specs/attendees/the-record-kept-about-someone.feature:5-11",
+      ],
+    },
+  ],
+  "record-repaired": [
+    {
+      fact: "A record whose private note cannot be decrypted still opens and still shows its counts, which are stored unencrypted, and saving over it restores a readable note without losing the counts.",
+      sources: [
+        "../tickets/specs/attendees/the-record-kept-about-someone.feature:66-81",
       ],
     },
   ],
@@ -568,6 +623,12 @@ export const SOCIAL_IMAGE_FACTS = {
   ],
   "site-customisation": [
     {
+      fact: "Pages the owner writes are offered in the order they put them in, and each keeps the web address it was given.",
+      sources: [
+        "../tickets/specs/servicing/writing-the-pages-people-read.feature:47-58",
+      ],
+    },
+    {
       fact: "Owners or editors can set the public site title and homepage text, while owners can set custom CSS loaded after the default stylesheet.",
       sources: [
         "../tickets/src/features/admin/site.ts:32-55",
@@ -578,6 +639,12 @@ export const SOCIAL_IMAGE_FACTS = {
     },
   ],
   "summer-appeal-purchase": [
+    {
+      fact: "What a pay-more listing earns is the amount the customer chose, not the amount asked, and every page showing the figure agrees.",
+      sources: [
+        "../tickets/specs/payments/paying-more-than-the-asking-price.feature:5-19",
+      ],
+    },
     {
       fact: "A pay-more listing accepts an attendee-entered amount between its configured minimum and maximum.",
       sources: [

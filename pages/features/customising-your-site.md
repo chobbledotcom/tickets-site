@@ -3,6 +3,7 @@ title: Customising Your Site - Chobble Tickets
 meta_title: Customising Your Site - Chobble Tickets
 meta_description: Use your own domain, choose themes, customise emails, embed widgets, and make your ticketing site match your brand.
 permalink: /features/customising-your-site/
+ticket_evidence_capture: site-pages-in-order
 eleventyNavigation:
   key: Customising Your Site
   parent: Features
@@ -25,8 +26,8 @@ blocks:
       Your settings apply across the public site, booking pages and ticket
       pages.
     figure_src: /images/screenshots/oakfield-homepage-editor.png
-    figure_alt: Mobile homepage editor showing the Oakfield Community Events site title and homepage text
-    figure_caption: Set the title and homepage content from one simple form.
+    figure_alt: A screenshot of the owner's list of site pages, showing Parking, Directions and Opening in that order with the address each one lives at
+    figure_caption: 'Pages are offered in the order the owner puts them, and each one keeps the address it was given. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/writing-the-pages-people-read.feature">(src)</a></small>'
   - type: features
     items:
       - icon: hugeicons:globe-02

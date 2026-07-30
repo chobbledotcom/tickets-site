@@ -3,6 +3,7 @@ title: Attendee Privacy Controls - Chobble Tickets
 meta_title: Attendee Data Retention and Privacy Controls | Chobble Tickets
 meta_description: Encrypt attendee details, set retention for orphaned records, remove contact history, and export the records held by an event organiser.
 permalink: /features/privacy-controls/
+ticket_evidence_capture: record-put-right
 eleventyNavigation:
   key: Privacy Controls
   parent: Platform & Integrations
@@ -14,7 +15,7 @@ blocks:
       # Attendee data retention and privacy controls
 
       Chobble Tickets encrypts personal data and gives organisers tools to export records, remove contact history and delete old orphaned bookings.
-  - type: markdown
+  - type: split-image
     content: |
       ## Retention for orphaned records
 
@@ -35,6 +36,11 @@ blocks:
       Catalogue exports do not include attendees or financial history. This keeps reusable event setup separate from personal and payment records.
 
       These controls support an organiser's data-protection work but do not decide its legal retention period. Each organiser remains responsible for deciding what it collects and how long it needs the records.
+
+      Alongside the bookings themselves, the site keeps a short contact-history record for each person: how often they booked, how often they were in touch, and a private note. The counts and the note are for the organiser to correct, and the erasure tool removes that record without touching the bookings.
+    figure_src: /images/screenshots/record-put-right.png
+    figure_alt: A screenshot of a contact record with the counts corrected to 9 visits, 11 online bookings, 2 admin bookings and 7 messages, and a private note reading Paid in cash
+    figure_caption: 'The counts and the private note are for the organiser to correct, and what they save is what the record then says. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/the-record-kept-about-someone.feature">(src)</a></small>'
   - type: cta
     button:
       text: Start for £5

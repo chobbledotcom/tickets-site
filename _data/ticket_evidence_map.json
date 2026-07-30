@@ -1,5 +1,18 @@
 {
   "captures": {
+    "add-on-in-the-list": {
+      "alt": "A screenshot of a public list of everything for sale, showing a Chair and a Cover, each with its own Book now link",
+      "assetProfile": "mobile",
+      "caption": "An add-on marked as sellable on its own is listed like anything else, with its own booking link.",
+      "caseId": "add-ons.it-appears-in-the-list-with-its-own-link",
+      "galleryCaption": "A public list where an add-on is offered on its own as well as with the thing it goes with.",
+      "legacyDestinationPath": "images/screenshots/promo-codes-and-add-ons-checkout.png",
+      "page": "pages/features/promo-codes-and-add-ons.md",
+      "reviewed": "f90b7ace1bf3baf23db5f9b5923af75460c726a08cb2b993096dc7728559c9dc",
+      "socialBody": "Combine an add-on with the thing it goes with, or mark it as something people may buy on its own. Where it stands alone it gets its own page and is not called an add-on.",
+      "socialHeading": "Sell an extra on its own too",
+      "socialKey": "promo-codes-and-add-ons"
+    },
     "api-keys-list": {
       "alt": "A screenshot of the API keys page, listing a key named Shopfront that has never been used, above the form for making another",
       "assetProfile": "mobile",
@@ -38,6 +51,19 @@
       "socialBody": "Combine listings into one bundle. Set each member's price and quantity, then let customers choose a package count.",
       "socialHeading": "Sell packages of listings",
       "socialKey": "packages"
+    },
+    "checked-in-on-the-day": {
+      "alt": "A screenshot of a listing's activity record, showing an attendee checked in via scanner, the attendee created, and the listing created",
+      "assetProfile": "mobile",
+      "caption": "A check-in at the door is written into the record a listing keeps of its own day, alongside everything else that happened to it.",
+      "caseId": "door.the-day-is-written-down",
+      "galleryCaption": "A listing's own record, with a door check-in written into it.",
+      "legacyDestinationPath": "images/screenshots/activity-log-summer-arts-fair.png",
+      "page": "pages/features/activity-logs.md",
+      "reviewed": "c618c3ee995806601def850c9913f65f8d9b38aabbb8cb1a950aabaf391de460",
+      "socialBody": "Each listing keeps its own record of what happened to it, including who was checked in at the door and when.",
+      "socialHeading": "Each listing keeps its own record",
+      "socialKey": "activity-log"
     },
     "contact-record": {
       "alt": "A screenshot of a contact record, showing 9 visits, 5 online bookings, 2 admin bookings, 4 messages sent and a private note reading VIP Sam",
@@ -91,6 +117,19 @@
       "socialHeading": "Publish your own pages",
       "socialKey": "oakfield-public-website"
     },
+    "paid-more-than-asked": {
+      "alt": "A screenshot of a Donate listing's income statement, showing an £80 balance from one booking of £80",
+      "assetProfile": "mobile",
+      "caption": "When a listing lets people pay more than it asks, it earns what they chose to pay.",
+      "caseId": "pay-more.the-chosen-price-is-the-income",
+      "galleryCaption": "A donation listing earning the £80 a supporter chose to pay.",
+      "legacyDestinationPath": "images/screenshots/summer-appeal-purchase.png",
+      "page": "pages/features/purchasable-events.md",
+      "reviewed": "66d3066c46655f0dacd2e4daee05649c9c95339d542bfb267b70b74824da7f60",
+      "socialBody": "Set a minimum and let supporters pay more. What the listing earns is what they chose, wherever the figure is shown.",
+      "socialHeading": "Let people pay what they want",
+      "socialKey": "summer-appeal-purchase"
+    },
     "payment-provider-choice": {
       "alt": "A screenshot of the payment provider settings, showing Stripe chosen from None, Square, Stripe and SumUp, and a saved Stripe test key",
       "assetProfile": "mobile",
@@ -130,6 +169,32 @@
       "socialHeading": "Check bookings with a phone",
       "socialKey": "qr-code-check-ins"
     },
+    "record-put-right": {
+      "alt": "A screenshot of a contact record with the counts corrected to 9 visits, 11 online bookings, 2 admin bookings and 7 messages, and a private note reading Paid in cash",
+      "assetProfile": "mobile",
+      "caption": "The counts and the private note are for the organiser to correct, and what they save is what the record then says.",
+      "caseId": "contact-record.correcting-the-counts-and-the-note",
+      "galleryCaption": "A contact record whose counts and private note the organiser has corrected.",
+      "legacyDestinationPath": "images/screenshots/record-put-right.png",
+      "page": "pages/features/privacy-controls.md",
+      "reviewed": "a0f5f9032023e7141dbc41a373179e3fbb23e5a185a04946b8918ae4fbbc43fe",
+      "socialBody": "The counts a record holds and the note kept against it are yours to correct, and nobody but the organiser reads the note.",
+      "socialHeading": "Correct what a record says",
+      "socialKey": "record-put-right"
+    },
+    "record-repaired": {
+      "alt": "A screenshot of a contact record that opened after its note could not be read, still showing 9 visits and 5 online bookings, with a note reading Repaired",
+      "assetProfile": "mobile",
+      "caption": "When the private note cannot be read, the record still opens and still shows the counts, and saving over it gives a working record back.",
+      "caseId": "contact-record.repairing-an-unreadable-record",
+      "galleryCaption": "A record that opened and kept its counts after its encrypted note could not be read.",
+      "legacyDestinationPath": "images/screenshots/record-repaired.png",
+      "page": "pages/features/encrypted.md",
+      "reviewed": "18e3df4b495c290871b36fafeef4c37c080797443045d6b7a8b51702b895a2af",
+      "socialBody": "If an encrypted note cannot be read, the record still opens and still shows what was counted, and saving over it gives a working record back.",
+      "socialHeading": "Repair an unreadable note",
+      "socialKey": "record-repaired"
+    },
     "refunded-booking": {
       "alt": "A screenshot of one booking's money after a refund, showing a £45 sale, its payment, the income removed and the £45 handed back",
       "assetProfile": "mobile",
@@ -155,6 +220,32 @@
       "socialBody": "Block places for maintenance, setup or staff use without adding a customer to the attendee list.",
       "socialHeading": "Hold capacity for servicing",
       "socialKey": "servicing-events"
+    },
+    "site-pages-in-order": {
+      "alt": "A screenshot of the owner's list of site pages, showing Parking, Directions and Opening in that order with the address each one lives at",
+      "assetProfile": "mobile",
+      "caption": "Pages are offered in the order the owner puts them, and each one keeps the address it was given.",
+      "caseId": "site-pages.moved-into-order",
+      "galleryCaption": "An organiser's own pages, in the order they chose.",
+      "legacyDestinationPath": "images/screenshots/oakfield-homepage-editor.png",
+      "page": "pages/features/customising-your-site.md",
+      "reviewed": "b87f9884739724621c9b48c89b4912e49f3986fc55267fd84b5e3b75a12376f6",
+      "socialBody": "Write your own pages, choose the address each one lives at, and put them in the order you want them offered in.",
+      "socialHeading": "Arrange the pages you write",
+      "socialKey": "site-customisation"
+    },
+    "stay-length-on-the-page": {
+      "alt": "A screenshot of a Lodge listing's page, showing it is booked daily, on any day of the week, with a booking duration of 3 days",
+      "assetProfile": "mobile",
+      "caption": "A listing booked by the day says how long each booking lasts on its own page, without opening the edit form.",
+      "caseId": "stay-length.the-length-is-on-the-listing-page",
+      "galleryCaption": "A listing booked by the day, saying each booking lasts three days.",
+      "legacyDestinationPath": "images/screenshots/multi-day-hire.png",
+      "page": "pages/features/multi-day-hire.md",
+      "reviewed": "fac6a3fcff99e9994fb9115b6ae2e8de2029ee4ad154864199e4aa420519cc29",
+      "socialBody": "Set how many days one booking covers. The length is on the listing's own page, and the days a booking covers use capacity when its payment is confirmed.",
+      "socialHeading": "Book several days at once",
+      "socialKey": "multi-day-hire"
     },
     "team-and-roles": {
       "alt": "A screenshot of the users table, showing jo as the owner and sam as an editor, both active",

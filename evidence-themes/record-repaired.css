@@ -1,0 +1,62 @@
+/* A museum's admin: olive and parchment, set in a plainer frame. */
+:root {
+  --border-radius: 4px;
+  --color-accent: #7a6a2f;
+  --color-bg: #f3f1e9;
+  --color-bg-secondary: #faf8f1;
+  --color-link: #7a6a2f;
+  --color-secondary: #4b4320;
+  --color-secondary-accent: #f5f3ec;
+  --color-shadow: #2a251026;
+  --color-table: #4b4320;
+  --color-text: #2b2820;
+  --color-text-secondary: #736d5c;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact-history-form {
+  background: #faf8f1;
+  border: 1px solid #e2ddcd;
+  border-top: 6px solid var(--color-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+#contact-history-form h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+}
+
+#contact-history-form label {
+  color: var(--color-secondary);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+#contact-history-form input,
+#contact-history-form textarea {
+  background: #fff;
+  border-color: #e2ddcd;
+  border-radius: var(--border-radius);
+}
+
+#contact-history-form button[type="submit"] {
+  background: var(--color-secondary);
+  border-color: #4b4320;
+  border-radius: var(--border-radius);
+  color: #faf8f1;
+  font-weight: 800;
+}
+
+/* The note is written in a markdown editor, which brings its own toolbar, a
+ * character count and a second copy of the note underneath as a preview. The
+ * case is about what the record holds, so the capture shows the record. */
+#contact-history-form .md-toolbar,
+#contact-history-form .md-editor-footer,
+#contact-history-form .md-preview-link,
+#contact-history-form section {
+  display: none;
+}

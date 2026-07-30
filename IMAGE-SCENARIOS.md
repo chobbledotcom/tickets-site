@@ -14,11 +14,11 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 138 | 49 | 89 |
+| Editorial pages in the sitemap | 139 | 53 | 86 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **140** | **49** | **91** |
+| **All rendered pages** | **141** | **53** | **88** |
 
-The 89 editorial pages are the main illustration backlog. The two utility
+The 86 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -59,11 +59,11 @@ pages are listed separately at the end.
 | `pages/features/stripe-and-square.md` | [x] Admin screenshot: `payment-provider-choice` | Show Stripe, Square and SumUp as alternative providers, Stripe selected, and the configured Stripe test-key state. | Shows provider choice, saved credentials and the difference between test and live keys. |
 | `pages/features/refunds.md` | [x] Cucumber evidence capture: `refunded-booking` | One booking's money after a refund, taken from the case that refunds a paid place: the sale, its payment, the income removed and the money handed back. | Shows that a refund undoes the sale as well as returning the money. |
 | `pages/features/no-per-ticket-fees.md` | Comparison graphic: `flat-fee-worked-examples` | Use the existing examples of 50 tickets at £10, 500 at £15 and 5,000 at £20. Separate Chobble hosting, payment processing and platform commission from the percentage-plus-fixed alternative. Include the low-volume example where the alternative is slightly cheaper. | Makes the break-even point and volume effect understandable without hiding processing costs. |
-| `pages/features/purchasable-events.md` | [x] Attendee screenshot: `summer-appeal-purchase` | Meadowfield Summer Appeal 2026 has No Check-In enabled, a £5 minimum and an organiser-written suggested contribution of £25. Show £25 entered, a required email-consent answer, a £25 total and Continue. | Demonstrates collecting money without creating an attendance or check-in workflow. |
+| `pages/features/purchasable-events.md` | [x] Cucumber evidence capture: `paid-more-than-asked` | A Donate listing's income statement after a supporter chose £80 against a £30 asking price, taken from the case that reads the figure back. | Shows that what the listing earns is what the supporter chose, not what was asked. |
 | `pages/features/sign-up-forms.md` | [x] Attendee screenshot: `summer-fair-volunteer-form` | Oakfield Primary Summer Fair has separate setup, gate and clear-up listings with eight places each. Show one selected shift, an access-needs answer, a £0 total and Continue. | Shows a useful free form with real capacity for each shift. |
 | `pages/features/registration-deadlines.md` | Admin and public composite: `registration-deadline` | Fernbank Pottery's workshop starts at 10:00 on 16 August, closes at 18:00 the previous day and allows two places per buyer. Show the setting beside the public Booking has closed state. | Connects the organiser setting to the attendee result. |
 | `pages/features/postcode-lookup.md` | Attendee screenshot: `delivery-postcode-lookup` | Maya Patel books Willow Marquee Hire to `M25 1FL`. Show postcode search results, the selected editable address and a small run-sheet preview. | Connects faster address entry to accurate delivery operations. |
-| `pages/features/multi-day-hire.md` | Attendee screenshot: `multi-day-pa-hire` | Soundbox Equipment Hire offers a Portable PA System for one day at £45 or three days at £120. Alex selects 14 to 16 August; highlight all occupied dates and the selected total. | Shows duration pricing and range-wide capacity in one view. |
+| `pages/features/multi-day-hire.md` | [x] Cucumber evidence capture: `stay-length-on-the-page` | A listing booked by the day, on its own admin page, saying each booking lasts three days. Taken from the case that reads the length off that page. | Shows duration as something the organiser can read without opening the edit form. |
 
 ## Feature Pages: Public Site
 
@@ -82,7 +82,7 @@ pages are listed separately at the end.
 | Page | Proposed asset | Scenario and composition | Organiser value |
 |---|---|---|---|
 | `pages/features/platform-and-integrations.md` | Diagram: `configured-service-map` | Oakfield uses Stripe, Mailgun EU, RSS, backups and wallet passes while SMS and webhooks are disabled. Solid and outlined connections distinguish enabled and optional services. | Shows that integrations are selected services rather than an unavoidable data-sharing bundle. |
-| `pages/features/privacy-controls.md` | Admin screenshot: `privacy-controls` | Oakfield has 18 orphaned records, a six-month retention period and a contact-erasure request for `maya.patel@example.test`. Show retention, Delete now, contact erasure and attendee export as separate actions. | Distinguishes contact-history deletion from operational records and exports. |
+| `pages/features/privacy-controls.md` | [x] Cucumber evidence capture: `record-put-right` | The contact-history record the site keeps about one person, separate from their bookings, with the counts and the private note corrected by the organiser. Taken from the case that corrects them. | Shows how little a contact record is, and that the organiser controls what it says. |
 | `pages/features/webhooks.md` | Diagram: `booking-webhook-flow` | Alex books two £18 Riverside Summer Concert tickets. One consolidated booking notification flows to Riverside's Slack channel, CRM and spreadsheet with event, quantity and total labelled. | Explains the organiser outcome without making raw JSON the main image. |
 | `pages/features/admin-api.md` | Admin screenshot: `named-admin-api-key` | Riverside Print Studio uses an API key called Autumn programme to create 12 course dates. Show the named key, a successful created listing response and matching activity entry. | Shows that automation uses identifiable credentials and remains auditable. |
 | `pages/features/public-api.md` | [x] Cucumber evidence capture: `api-keys-list` | The owner's list of keys, taken from the case that makes one: it names the key and never shows it. | Shows what an owner sees after handing a key to another system. |
@@ -93,7 +93,7 @@ pages are listed separately at the end.
 | `pages/features/email-providers.md` | Admin screenshot: `mailgun-eu-settings` | Oakfield selects Mailgun EU, sends from `tickets@oakfieldevents.org` and receives a successful test result. Show provider, domain, masked key, region and the received email header. | Shows that the organiser chooses the delivery provider and sender identity. |
 | `pages/features/apple-wallet.md` | Attendee composite: `wallet-ticket` | Alex's Riverside Summer Concert confirmation shows Add to Apple Wallet and Add to Google Wallet beside the resulting pass with event, date, venue and QR code. | Shows how attendees retrieve tickets at the gate. |
 | `pages/features/european.md` | Diagram: `service-data-locations` | Oakfield uses managed hosting, Bunny Database, Mailgun EU and Stripe, with SMS and webhooks disabled. Separate company headquarters from processing and replica regions, including the documented non-EU database replicas. | Prevents organisers confusing provider headquarters with data location. |
-| `pages/features/encrypted.md` | Diagram: `attendee-field-encryption` | Alex's Riverside booking contains name, email, £36 reference, two tickets and a dietary note. Separate protected personal fields, site fields and readable operational values such as quantity. | Explains what an authorised organiser can unlock and what the application must still count. |
+| `pages/features/encrypted.md` | [x] Cucumber evidence capture: `record-repaired` | A record whose encrypted note could not be read, still open and still showing its counts, with a note saved back over it. Taken from the case that repairs one. | Shows which fields are protected and which stay readable, from the one moment the difference is visible. |
 | `pages/features/who-can-see-your-data.md` | Diagram: `configured-data-recipients` | Oakfield takes a paid Summer Disco booking with Stripe and Mailgun EU enabled and no webhook, SMS or postcode lookup. Branch data only to the keyed organiser and configured services; cross out disabled destinations. | Makes data access depend on actual organiser settings. |
 | `pages/features/honest-advertising.md` | Comparison graphic: `how-platforms-get-recommended` | Oakfield's organiser searches for a ticketing platform and meets a bought search ad, an affiliate listicle, an incentivised review and an undisclosed forum recommendation. Beside each, show the checkable equivalent: a dated fee source, a linked pricing page and a named comparison author. | Shows which promotion an organiser can verify and which it cannot. |
 | `pages/features/no-spying.md` | Comparison graphic: `attendee-relationship` | Amira books Oakfield Primary Summer Disco. Show direct booking and organiser confirmation with no provider account, related-event recommendations, advertising tracker or provider mailing list. | Shows the attendee experience behind the no-marketing policy. |
@@ -119,7 +119,7 @@ pages are listed separately at the end.
 | `pages/perfect-for/political-organising.md` | Diagram: `minimal-data-public-meeting` | Northside Neighbours Assembly runs a free 80-person meeting on self-hosted infrastructure, collects names only and enables no payment, SMS, address or webhook provider. | Shows how an organiser can minimise collected data and third-party services. |
 | `pages/perfect-for/marquee-hire.md` | Reuse plus inset: `logistics-deliveries.png` | Reuse the Willow Marquee Hire delivery and collection screenshot, adding a separate brief for a deposit balance and later inspection hold if a new composite is made. | The existing scene already represents the sector's main operational workflow. |
 | `pages/perfect-for/attractions-and-days-out.md` | Admin screenshot: `farm-park-date-dashboard` | Meadowfield Farm Park has capacity 400 on 25 July, 276 confirmed visitors and 183 checked in by 12:15. Show remaining places, scanner status and date-filtered export. | Shows the per-date controls needed during an opening season. |
-| `pages/perfect-for/fundraising.md` | Reuse: `summer-appeal-purchase` | Use the proposed purchase-only Summer Appeal checkout with a £5 minimum, £25 suggestion and a supporter entering £40. | The same attendee state is central to both fundraising and purchasable events. |
+| `pages/perfect-for/fundraising.md` | Attendee screenshot: `fundraising-pay-what-you-want` | A purchase-only appeal checkout with a £5 minimum, a £25 suggestion and a supporter entering £40. Its own asset, because `summer-appeal-purchase` is now the organiser's income statement rather than a checkout. | Shows the supporter's side, which the purchasable-events evidence no longer covers. |
 | `pages/perfect-for/adult-parties.md` | Attendee screenshot: `private-social-booking` | Ember Private Social is hidden and direct-link-only for 120 guests, collecting name and email with non-transferable tickets. Show no marketplace or related events. | Demonstrates discretion through the attendee journey rather than stock nightlife photography. |
 | `pages/perfect-for/festivals.md` | Reuse: `required-child-listings-checkout.png` | Reuse the Willowbank Festival weekend-pass checkout with required General or Quiet Camping. | The existing screenshot already depicts the page's central festival workflow. |
 | `pages/perfect-for/theatre-and-performing-arts.md` | Admin screenshot: `theatre-front-of-house` | The Old Playhouse has 180 shared general-admission places across adult, child and concession tickets, with online, manual, complimentary and checked-in totals. | Shows shared house capacity and mixed sales while making the lack of allocated seating clear. |
@@ -240,11 +240,17 @@ These pages are rendered but excluded from the sitemap and main editorial total.
 ### Completed scenario files
 
 - [x] `scripts/screenshots/oakfield-public-website.js`
-- [x] `scripts/screenshots/summer-appeal-purchase.js`
 - [x] `scripts/screenshots/duplicate-event.js`
 
 ### Completed Cucumber evidence captures
 
+- [x] `record-put-right`
+- [x] `record-repaired`
+- [x] `add-on-in-the-list`
+- [x] `checked-in-on-the-day`
+- [x] `paid-more-than-asked`
+- [x] `site-pages-in-order`
+- [x] `stay-length-on-the-page`
 - [x] `balance-payment-link`
 - [x] `bundle-booking-page`
 - [x] `api-keys-list`

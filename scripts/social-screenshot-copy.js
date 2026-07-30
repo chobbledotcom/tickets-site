@@ -1,7 +1,7 @@
 export const SOCIAL_SCREENSHOT_COPY = {
   "activity-log": {
-    heading: "Booking and admin activity",
-    body: "See recent booking and administration activity, with the time and any related attendee or listing.",
+    heading: "Each listing keeps its own record",
+    body: "Each listing keeps its own record of what happened to it, including who was checked in at the door and when.",
   },
   "admin-guide": {
     heading: "Help inside the admin area",
@@ -107,6 +107,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Light and dark themes",
     body: "Choose the built-in dark theme for public pages, booking pages and ticket pages.",
   },
+  "multi-day-hire": {
+    heading: "Book several days at once",
+    body: "Set how many days one booking covers. The length is on the listing's own page, and the days a booking covers use capacity when its payment is confirmed.",
+  },
   "oakfield-public-website": {
     heading: "Publish your own pages",
     body: "Write a page, choose the web address it lives at, and it is there for anyone to read straight away.",
@@ -132,12 +136,20 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "Capacity is used when payment is confirmed, not when checkout starts. Whoever confirms second is refunded once, and the organiser is told why.",
   },
   "promo-codes-and-add-ons": {
-    heading: "Discounts and add-ons",
-    body: "Apply a promotion code at checkout and offer optional extras, such as parking, with the same order.",
+    heading: "Sell an extra on its own too",
+    body: "Combine an add-on with the thing it goes with, or mark it as something people may buy on its own. Where it stands alone it gets its own page and is not called an add-on.",
   },
   "qr-code-check-ins": {
     heading: "Check bookings with a phone",
     body: "Scan a booking QR code with a phone camera, or pick the person from the list of those still to arrive when a camera cannot be used.",
+  },
+  "record-put-right": {
+    heading: "Correct what a record says",
+    body: "The counts a record holds and the note kept against it are yours to correct, and nobody but the organiser reads the note.",
+  },
+  "record-repaired": {
+    heading: "Repair an unreadable note",
+    body: "If an encrypted note cannot be read, the record still opens and still shows what was counted, and saving over it gives a working record back.",
   },
   "refunded-booking": {
     heading: "Refund a booking",
@@ -152,12 +164,12 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "Block places for maintenance, setup or staff use without adding a customer to the attendee list.",
   },
   "site-customisation": {
-    heading: "Make the booking site yours",
-    body: "Set the site title, write the homepage and change colours, fonts and spacing with custom CSS.",
+    heading: "Arrange the pages you write",
+    body: "Write your own pages, choose the address each one lives at, and put them in the order you want them offered in.",
   },
   "summer-appeal-purchase": {
-    heading: "Collect flexible contributions",
-    body: "Set a minimum amount, let supporters pay more and collect a required consent answer before payment.",
+    heading: "Let people pay what they want",
+    body: "Set a minimum and let supporters pay more. What the listing earns is what they chose, wherever the figure is shown.",
   },
   "summer-fair-volunteer-form": {
     heading: "Take volunteer sign-ups",

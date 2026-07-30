@@ -3,6 +3,7 @@ title: Multi-day Hire - Chobble Tickets
 meta_title: Multi-day Hire & Rental Bookings - Chobble Tickets
 meta_description: Take hire bookings across consecutive days, price each offered duration, check capacity across the booked range and add collections to staff run sheets.
 permalink: /features/multi-day-hire/
+ticket_evidence_capture: stay-length-on-the-page
 eleventyNavigation:
   key: Multi-day Hire
   parent: Selling Tickets
@@ -14,13 +15,22 @@ blocks:
       # Multi-day hire
 
       Take bookings that span several days, such as equipment hire or venue rental. You set the duration, price each day count, and let buyers choose how long they need.
-  - type: markdown
+  - type: split-image
     content: |
       ## Bookings that span days
 
       A [daily listing](/features/daily-events/) can cover more than one
       day. You set a duration in days, and each booking occupies that
       many consecutive days from the chosen start date.
+
+      The length is on the listing's own page, so you can read it without
+      opening the edit form, and the booking page tells a customer how many
+      days the booking will cover before they pick a first day.
+    figure_src: /images/screenshots/multi-day-hire.png
+    figure_alt: A screenshot of a Lodge listing's page, showing it is booked daily, on any day of the week, with a booking duration of 3 days
+    figure_caption: 'A listing booked by the day says how long each booking lasts on its own page, without opening the edit form. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/changing-how-long-a-stay-lasts.feature">(src)</a></small>'
+  - type: markdown
+    content: |
 
       Capacity is tracked per day, so a three-day hire starting on Monday
       uses one unit of stock on Monday, Tuesday, and Wednesday. For a paid hire,
