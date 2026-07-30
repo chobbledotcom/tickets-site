@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "d7d404f39af9005b455d65d73793d2b16d13f124",
+    "commit": "61edba895f061e117cb59908eb76c30679f2b7ee",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -400,7 +400,7 @@
         "height": 2542,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "ebd9d9be55172674af60520e8ce6bbad23ffb62a240e36ff1a3403053d25f565",
+        "sha256": "5666e83e1414d6deb0cb39e20a73b3930364cfd2b7d93d269e479b73b380bbd8",
         "src": "/images/screenshots/payment-provider-choice.png",
         "viewport": {
           "deviceScaleFactor": 2,

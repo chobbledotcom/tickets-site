@@ -1,11 +1,11 @@
 {
   "app": {
-    "commit": "d7d404f39af9005b455d65d73793d2b16d13f124",
+    "commit": "61edba895f061e117cb59908eb76c30679f2b7ee",
     "repository": "chobbledotcom/tickets"
   },
-  "artifactSha256": "a869bc05b89bae928f2da121355aced53417e9dc638529435a078eed4a714539",
+  "artifactSha256": "ddf2547f4801d27e26508bea5a0f420be0965579688a348ffc9d27c76ed2cbc3",
   "files": {
-    "_data/ticket_evidence.json": "e73606523a363b83924ae3bc6cee8e08875ebe076f2c97d04b9d06f5cdf2c844",
+    "_data/ticket_evidence.json": "fe9e4dd30293b520bfc5ac67863d5b8781cfa664ada175dd1673e5bad81da601",
     "images/screenshots/api-keys-list.png": "10d36a9f982d8b3f6056c5874c0d8f58c21115209ae0be0f1e761d4495b6de49",
     "images/screenshots/api-keys-list__facebook.png": "5cf153b1b439ff2d4220906da3f2c8197d4ae78ad700a83c002f71854705136b",
     "images/screenshots/deposits-and-balance-payments.png": "ff80a745a8f1d0ed736a6f46b2c592e622a997eef1eab56e36fef5997b43338f",
@@ -16,8 +16,8 @@
     "images/screenshots/manual-attendee-community-supper__facebook.png": "2a60745ffefbe11915c567ce93ce1bd983e40c662d1389ac9b4d51596d2a4484",
     "images/screenshots/oakfield-public-website.png": "9d33eea9fc5b64421e45b1203ed7ace529b9839e1cdcdc9317c96d28ec756dd5",
     "images/screenshots/oakfield-public-website__facebook.png": "0990a6c21d2377ed8c921809845f5feb21d5e98358403a0a75e4642427df5302",
-    "images/screenshots/payment-provider-choice.png": "ebd9d9be55172674af60520e8ce6bbad23ffb62a240e36ff1a3403053d25f565",
-    "images/screenshots/payment-provider-choice__facebook.png": "0af74e11fa36ca230857e073ab901b549ca73f2fb34547102cc085d854c84d5b",
+    "images/screenshots/payment-provider-choice.png": "5666e83e1414d6deb0cb39e20a73b3930364cfd2b7d93d269e479b73b380bbd8",
+    "images/screenshots/payment-provider-choice__facebook.png": "b35a0c16c070076d1563056d34c97b5fec5308b8cac804256424a71725d30e35",
     "images/screenshots/place-lost-while-paying.png": "3fc05b71707a5e7f691548eed263647c35363095160824ab15e0bd66a156ff35",
     "images/screenshots/place-lost-while-paying__facebook.png": "b02fe18d4f4603976361fa037c34a270698b09c96711e0c09519aa48b141b9a6",
     "images/screenshots/qr-code-check-in.png": "2c71a0317281f3c5dd750a802168ca51f3c431181e42220400f178eba0bacce6",
