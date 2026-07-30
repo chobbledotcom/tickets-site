@@ -43,7 +43,7 @@ blocks:
       4. Add `DB_URL`, `DB_TOKEN`, `DB_ENCRYPTION_KEY` and
          `SCHEDULED_TASK_KEY` as secrets in the Bunny dashboard.
       5. Add `BUNNY_SCRIPT_ID` and `BUNNY_ACCESS_KEY` as GitHub Actions
-         secrets in the fork.
+         secrets in that repository.
 
       Pushes to `main` then trigger the deploy workflow. Image uploads need two
       further Bunny secrets, `STORAGE_ZONE_NAME` and `STORAGE_ZONE_KEY`.
