@@ -153,10 +153,13 @@ blocks:
       plain image for the project's own checks and a styled one for a site like
       this.
 
-      The screenshots on these pages are made that way, and a capture can carry
-      a caption linking to the specification file behind it, so a reader can
-      check the claim against the behaviour that produced the picture. The
-      method is not specific to this site: anyone running the software can
+      Some of the screenshots on this site are captures imported from those
+      specifications, and each of those carries a caption linking to the
+      specification file behind it, so a reader can check the claim against the
+      behaviour that produced the picture. The rest come from scenarios this
+      site maintains separately.
+
+      The method is not specific to this site: anyone running the software can
       write a scenario for the situation they want to document and publish the
       capture alongside it.
   - type: markdown

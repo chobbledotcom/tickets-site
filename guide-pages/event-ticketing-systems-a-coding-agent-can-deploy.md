@@ -90,7 +90,7 @@ blocks:
         container to rebuild. Its Docker deployments do involve a host to
         maintain.
 
-      Of the deployment paths checked for this page, which are the five listed
+      Of the deployment paths checked for this page, which are the six named
       above, Chobble Tickets is the only one that does not leave the operator
       with a server or container to keep running. Dandelion's records establish
       what its licence permits rather than how it is deployed, so its shape is

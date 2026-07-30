@@ -20,7 +20,7 @@ blocks:
 
       Payment assigns a separate ticketing site and sends its setup link by
       email. Opening that link sets the first owner password, the organisation
-      name and the currency.
+      name, and the country and currency the site will use.
 
       Each site has its own database, its own encryption key and its own
       hosted address. Chobble deploys the software and its updates.
@@ -52,7 +52,8 @@ blocks:
 
       There is no separate migration command to run before the first visit. The
       database schema migrates itself on the first request, and the site is
-      then ready at `/setup/` for the first owner password and currency.
+      then ready at `/setup/` for the first owner password, country and
+      currency.
 
       Docker deployments follow the same pattern against local SQLite or a
       remote libSQL database.
