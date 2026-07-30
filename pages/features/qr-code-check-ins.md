@@ -30,7 +30,7 @@ blocks:
       cannot be used. That search offers only the people still to arrive, so
       nobody is checked in twice.
     figure_src: /images/screenshots/qr-code-check-in.png
-    figure_alt: Manual check-in search on a listing's scanner page, offering Alice and her one place
+    figure_alt: A screenshot of the manual check-in search on a listing's scanner page, showing Alice and her one place ready to check in
     figure_caption: 'Look someone up by name when their ticket cannot be scanned. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/checking-people-in-at-the-door.feature">(src)</a></small>'
   - type: markdown
     content: |

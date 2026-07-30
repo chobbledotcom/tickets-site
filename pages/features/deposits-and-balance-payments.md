@@ -61,7 +61,7 @@ blocks:
       balance is settled, the page reports that there is nothing left to
       pay, and the booking moves to your paid status.
     figure_src: /images/screenshots/deposits-and-balance-payments.png
-    figure_alt: Balance payment page for one Retreat place, showing an £80 order, £30 already paid and £50 still due
+    figure_alt: A screenshot of the balance payment page for a Retreat booking, showing an £80 full order price, £30 already paid and a £50 balance due
     figure_caption: The page a customer opens from their payment link, naming what they booked, what they have paid and what is left. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/payments/paying-a-deposit.feature">(src)</a></small>
   - type: markdown
     content: |

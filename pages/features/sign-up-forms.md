@@ -23,7 +23,7 @@ blocks:
       the shifts together on one group page. Custom questions can collect access
       needs or other information with the sign-up.
     figure_src: /images/screenshots/summer-fair-volunteer-form.png
-    figure_alt: An Oakfield Primary Summer Fair volunteer page offering a set-up, gate and clear-up shift with eight places each, and asking about access needs
+    figure_alt: A screenshot of the volunteer sign-up form for the Oakfield Primary Summer Fair, showing set-up, gate and clear-up shifts with eight places each and an access needs question
     figure_caption: 'Three shifts on one page, each with its own eight places, and a question the organiser added. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/volunteer-sign-up.feature">(src)</a></small>'
   - type: markdown
     content: |
