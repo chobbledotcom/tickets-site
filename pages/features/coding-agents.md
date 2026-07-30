@@ -48,7 +48,7 @@ blocks:
         description: REPO_STRUCTURE.md describes the src layout and the import aliases, so an agent can locate a feature without searching the whole tree.
       - icon: hugeicons:test-tube-01
         name: Behaviour written in English
-        description: 39 Cucumber feature files describe how the product behaves in plain language. The screenshot captions on this site link to the exact file each one came from.
+        description: 39 Cucumber feature files describe how the product behaves in plain language. Screenshots on this site that were captured from those specifications carry a link to the file each one came from.
       - icon: hugeicons:api
         name: Generated API documentation
         description: The published documentation covers the modules and configuration keys, including every optional environment variable.
@@ -138,10 +138,13 @@ blocks:
   - type: markdown
     dark: true
     content: |
-      ## Configuring a site without the interface
+      ## Building the catalogue without the interface
 
-      An agent can set a site up through its APIs rather than by driving the
-      admin screens.
+      An agent can create and move a site's events through its APIs rather than
+      by driving the admin screens. This covers the catalogue, not the whole
+      site: the first owner password and the currency are set at `/setup/`, and
+      payment, email, domain, user and branding settings are configured in the
+      admin area.
 
       - The [public API](/features/public-api/) covers listings, availability
         and booking.
@@ -156,11 +159,17 @@ blocks:
       a season of events as one file, import it, and export it again to check
       what the site stored.
 
-      ## What an agent cannot read
+      ## What an agent can and cannot read
 
-      Attendee personal data is encrypted before it is stored, and the keys
-      belong to the site owner. An agent working on the code, or on a
-      deployment, does not thereby gain readable attendee records.
+      Attendee personal data is encrypted before it is stored. Reading the
+      repository does not give an agent access to any site's records, because
+      the source contains no keys and no data.
+
+      Deploying is different. The self-hosted steps involve setting
+      `DB_ENCRYPTION_KEY` alongside the database URL and token, and anything
+      holding that key and that database access can decrypt attendee records.
+      An agent given those secrets should be treated as having the same reach
+      over that data as the person who owns the site.
 
       The [editor role](/features/editors/) exists for the same reason. It can
       write listings and site copy but holds no data key, so attendee personal

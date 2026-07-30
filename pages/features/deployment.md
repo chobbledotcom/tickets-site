@@ -82,12 +82,18 @@ blocks:
     content: |
       ## Moving a site between hosts
 
-      Catalogue export produces versioned JSON, and the backup tools produce a
-      complete database as a single zip file. A site set up on managed hosting
-      can be moved to a self-hosted deployment, or the other way round, because
-      both run the same product.
+      Catalogue export produces versioned JSON, and that is what moves event
+      setup between Chobble Tickets hosts. It carries listings and groups with
+      their prices, memberships, packages and parent references, and can be
+      imported into a site on managed hosting or a self-hosted deployment.
 
-      Restores report the source-code version that matches the restored data.
+      Database backups are a separate tool with a separate purpose. They
+      produce a complete database as a single zip file for restoring a site,
+      and a restore reports the source-code version that matches the restored
+      data. Encrypted settings and attendee fields depend on the site's key
+      material, so a backup is not a substitute for the catalogue export when
+      moving to a different host.
+
       Updates refuse to run without a recent backup.
 
       ## Hosting several sites
@@ -116,6 +122,6 @@ blocks:
     content: |-
       ## Set up a site
 
-      Managed hosting costs £50/year or £5/month. The same product can be self-hosted with no Chobble software fee.
+      Managed hosting costs £50/year or £5/month, or £25/year for charities, community groups, artists and musicians, which applies to annual billing only. The same product can be self-hosted with no Chobble software fee.
 name: Deploying a Ticket Site | Chobble Tickets
 ---

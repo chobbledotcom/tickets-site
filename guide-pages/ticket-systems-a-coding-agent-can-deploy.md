@@ -12,8 +12,7 @@ blocks:
     content: |
       A coding agent, such as Claude Code, can read a repository, change it and
       deploy it. Whether that is useful for ticketing depends on three separate
-      questions, and a provider can answer one of them well and the others
-      badly.
+      questions, and a provider's answer to one does not settle the other two.
 
       The first is whether the source is published at all. The second is
       whether the published source is the same software the provider runs,
@@ -23,6 +22,16 @@ blocks:
       This page uses the licence and hosting records stored on each provider's
       comparison page. Providers marked `not-reviewed` there are left out
       rather than guessed at.
+
+      The licence names below decide what an operator may do with the code.
+      AGPL and GPL licences permit reading, changing and running the software,
+      and require published changes to carry the same licence. MIT and Apache
+      2.0 permit the same uses with fewer conditions attached. The Functional
+      Source License is not an open source licence: it permits internal use
+      but restricts running a competing service for two years, after which
+      Apache 2.0 terms apply. A licence permitting self-hosting is separate
+      from whether the provider's branding may be removed, which the table
+      records where it applies.
 
   - type: markdown
     dark: true
@@ -87,8 +96,11 @@ blocks:
 
       - If an agent should be able to change behaviour and see the change
         running, the published source and the deployed source need to be the
-        same. Among the providers reviewed here, Chobble Tickets, Hi.Events and
-        alf.io meet that, each with the qualifications in the table above.
+        same. Among the providers reviewed here, Chobble Tickets and Hi.Events
+        meet that for their hosted services, each with the qualifications in
+        the table above. A self-hosted alf.io deployment also runs the
+        published code, but Swicket is a separate managed service and its
+        additions are not established as sharing that licence.
       - If the site already runs WordPress, a plugin keeps ticketing inside a
         system that is already being maintained.
       - If nobody wants to maintain a host at all, a managed service fits
