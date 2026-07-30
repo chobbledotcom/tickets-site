@@ -99,11 +99,10 @@ blocks:
 
       ## How this site uses it
 
-      The screenshots on these pages are produced that way. Nine of them are
-      currently generated from Cucumber scenarios, and their captions link to
-      the specification file each one came from, so a reader can check the
-      claim against the behaviour that produced the picture. The intention is
-      to move the remaining screenshots onto the same footing.
+      The screenshots on these pages are produced that way. A screenshot
+      captured from a Cucumber scenario can carry a caption linking to the
+      specification file it came from, so a reader can check the claim against
+      the behaviour that produced the picture.
 
       The same tooling is available to anyone running the software. Writing a
       scenario for the situation you want to document, capturing it, and
