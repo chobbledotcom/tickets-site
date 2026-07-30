@@ -24,6 +24,10 @@ provider_facts:
   public_website: hosted-booking-pages
   self_hosting: not-offered
   source_code: proprietary
+  agent_instructions: not-reviewed
+  local_dev_runtime: not-reviewed
+  local_dev_source: not-reviewed
+  local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: none
   notes:

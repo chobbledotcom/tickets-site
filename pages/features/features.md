@@ -164,6 +164,12 @@ blocks:
   - icon: hugeicons:source-code
     description: Published under AGPL-3.0-only with every product feature included and no proprietary feature tier.
     name: <a href="/features/open-source/">Open source</a>
+  - icon: hugeicons:flash
+    description: Managed sites are set up through an emailed link. Self-hosted deployments follow five documented steps, and the database migrates itself on the first request.
+    name: <a href="/features/deployment/">Deployment</a>
+  - icon: hugeicons:ai-brain-01
+    description: Published source, 100% test coverage, a 0% duplication threshold and a complexity ceiling, so a coding agent gets a mechanical verdict on the changes it makes.
+    name: <a href="/features/coding-agents/">Coding agents</a>
   - icon: hugeicons:view-off
     description: Managed hosting processes encrypted attendee records but does not use them for audience profiles, advertising or other event marketing.
     name: <a href="/features/no-spying/">No attendee marketing</a>

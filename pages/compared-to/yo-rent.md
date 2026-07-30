@@ -21,6 +21,10 @@ provider_facts:
   public_website: not-reviewed
   self_hosting: not-reviewed
   source_code: not-reviewed
+  agent_instructions: not-reviewed
+  local_dev_runtime: not-reviewed
+  local_dev_source: not-reviewed
+  local_dev_reload: not-reviewed
   event_marketplace: none
   attendee_cross_marketing: none
   notes:

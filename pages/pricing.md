@@ -111,7 +111,7 @@ blocks:
         description: Chobble Tickets sets capacity by listing, group or date. It does not provide reserved seats on a venue map.
       - icon: hugeicons:money-03
         name: One currency per site
-        description: The country and currency are chosen during setup. A single site cannot sell in several currencies.
+        description: The country is chosen during setup and determines the currency. A single site cannot sell in several currencies.
       - icon: hugeicons:search-01
         name: No event marketplace
         description: Organisers sell through their own site, embeds and links. Chobble Tickets does not promote events through a discovery marketplace.
