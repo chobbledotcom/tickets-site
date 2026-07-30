@@ -80,6 +80,36 @@ blocks:
       gap. A test quality audit flags assertion patterns that pass without
       proving much.
 
+      ## Seeing what a change looks like
+
+      Chobble Tickets includes a screenshot tool driven by those same Cucumber
+      specifications. An agent can describe a situation as a scenario, run it,
+      and get back a picture of the running application in that state.
+
+      This closes a gap that tests alone leave open. An agent can prove a
+      function returns the right value without ever seeing that the page it
+      produces is unreadable, and a screenshot of the real scenario is the
+      cheapest way to check.
+
+      Each capture records the story, rule and case it came from, along with
+      the commit of the application it was taken at. A `--themes` option dresses
+      the captures in whatever CSS the publisher keeps for them, so the same
+      scenario can produce a plain image for the project's own checks and a
+      styled one for a site like this.
+
+      ## How this site uses it
+
+      The screenshots on these pages are produced that way. Nine of them are
+      currently generated from Cucumber scenarios, and their captions link to
+      the specification file each one came from, so a reader can check the
+      claim against the behaviour that produced the picture. The intention is
+      to move the remaining screenshots onto the same footing.
+
+      The same tooling is available to anyone running the software. Writing a
+      scenario for the situation you want to document, capturing it, and
+      publishing the result alongside the specification is how the guides on
+      this site are made, and there is nothing site-specific about the method.
+
       ## Why those particular limits help
 
       A complexity ceiling and a line ceiling stop a function growing past the

@@ -82,17 +82,22 @@ blocks:
     content: |
       ## Moving a site between hosts
 
-      Catalogue export produces versioned JSON, and that is what moves event
-      setup between Chobble Tickets hosts. It carries listings and groups with
-      their prices, memberships, packages and parent references, and can be
-      imported into a site on managed hosting or a self-hosted deployment.
+      There are two ways to move, and they carry different things.
 
-      Database backups are a separate tool with a separate purpose. They
-      produce a complete database as a single zip file for restoring a site,
-      and a restore reports the source-code version that matches the restored
-      data. Encrypted settings and attendee fields depend on the site's key
-      material, so a backup is not a substitute for the catalogue export when
-      moving to a different host.
+      A database backup is a zip holding every table, so a restore brings back
+      listings, attendees, answers, settings and the ledger. Personal data is
+      encrypted field by field, so the site you restore into must use the same
+      `DB_ENCRYPTION_KEY` to read it. Images and attachments are not in the
+      zip: the database stores their filenames, and the files themselves live
+      in the configured storage zone, so the restored site needs to point at
+      that zone or a copy of it. A restore reports the source-code version that
+      matches the restored data.
+
+      Catalogue export is the other route, and it moves event setup rather than
+      a whole site. It produces versioned JSON covering listings and groups
+      with their prices, memberships, packages and parent references, which
+      suits copying a programme into a different site rather than recreating
+      the one you had.
 
       Updates refuse to run without a recent backup.
 
