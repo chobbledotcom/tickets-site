@@ -134,10 +134,13 @@ blocks:
         WooCommerce as well. There is a working shop to stand up before the
         plugin being changed is even loaded.
 
-      This is not a statement about the quality of those projects, and a
-      Docker file makes the setup one command whatever sits inside it. It is
-      what has to exist on the machine before an agent can watch its own change
-      run.
+      This is not a statement about the quality of those projects. It is what
+      has to exist on the machine before an agent can watch its own change run.
+
+      A Docker file makes that first run one command whatever sits inside it.
+      What it does not settle is the loop afterwards, because how quickly an
+      edit reaches the running application depends on how the container is
+      configured, which is worth checking before choosing where to work.
 
   - type: markdown
     content: |
