@@ -3,6 +3,7 @@ title: Parent/Child Listings - Chobble Tickets
 meta_title: Required Child Listings - Chobble Tickets
 meta_description: A parent listing can require buyers to choose child listings - required extras, options, or bundled items - before they can check out.
 permalink: /features/parent-child-listings/
+ticket_evidence_capture: one-order-of-every-kind
 eleventyNavigation:
   key: Parent/Child Listings
   parent: Selling Tickets
@@ -41,8 +42,8 @@ blocks:
       duration are disabled, so a buyer cannot pick an incompatible option.
 
     figure_src: /images/screenshots/required-child-listings-checkout.png
-    figure_alt: A festival pass checkout with two passes and one place each in general and quiet camping, totalling £120
-    figure_caption: The child quantities must add up to the number of parent tickets before checkout can continue.
+    figure_alt: A screenshot of a Tent listing's attendee list, showing the same buyer twice, once for two places and once for one
+    figure_caption: 'A thing ordered inside a bundle and again on its own is two bookings, not one of two. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/ordering-several-things-at-once.feature">(src)</a></small>'
   - type: markdown
     content: |
       ## Children are only seen through the parent

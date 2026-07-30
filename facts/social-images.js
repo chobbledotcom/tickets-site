@@ -407,6 +407,20 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "multi-day-hire": [
+    {
+      fact: "A daily listing can carry a booking duration in days, and one booking holds every day it covers, including the middle and last.",
+      sources: [
+        "../tickets/specs/bookings/booking-several-days.feature:5-23",
+      ],
+    },
+    {
+      fact: "The duration is shown on the listing's own admin page, so it can be read without opening the edit form.",
+      sources: [
+        "../tickets/specs/bookings/changing-how-long-a-stay-lasts.feature:13-25",
+      ],
+    },
+  ],
   "oakfield-public-website": [
     {
       fact: "A site page is served at the address its owner chose as soon as it is saved, with no separate publish step, and is readable by somebody who is not signed in.",

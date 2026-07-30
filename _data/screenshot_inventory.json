@@ -1,7 +1,8 @@
 [
   {
     "key": "activity-log",
-    "classification": "legacy-product-screenshot"
+    "classification": "linked-evidence",
+    "captureId": "checked-in-on-the-day"
   },
   {
     "key": "admin-guide",
@@ -113,6 +114,11 @@
     "classification": "legacy-product-screenshot"
   },
   {
+    "key": "multi-day-hire",
+    "classification": "linked-evidence",
+    "captureId": "stay-length-on-the-page"
+  },
+  {
     "key": "oakfield-public-website",
     "classification": "linked-evidence",
     "captureId": "page-anybody-can-read"
@@ -128,7 +134,8 @@
   },
   {
     "key": "parent-child-listings",
-    "classification": "legacy-product-screenshot"
+    "classification": "linked-evidence",
+    "captureId": "one-order-of-every-kind"
   },
   {
     "key": "payment-provider-choice",
@@ -142,7 +149,8 @@
   },
   {
     "key": "promo-codes-and-add-ons",
-    "classification": "legacy-product-screenshot"
+    "classification": "linked-evidence",
+    "captureId": "add-on-in-the-list"
   },
   {
     "key": "qr-code-check-ins",
@@ -165,11 +173,13 @@
   },
   {
     "key": "site-customisation",
-    "classification": "legacy-product-screenshot"
+    "classification": "linked-evidence",
+    "captureId": "site-pages-in-order"
   },
   {
     "key": "summer-appeal-purchase",
-    "classification": "legacy-product-screenshot"
+    "classification": "linked-evidence",
+    "captureId": "paid-more-than-asked"
   },
   {
     "key": "summer-fair-volunteer-form",

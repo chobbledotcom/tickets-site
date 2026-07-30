@@ -1,0 +1,38 @@
+/* A hire company's public list: charcoal and a single olive. */
+:root {
+  --border-radius: 8px;
+  --color-accent: #6d7f3f;
+  --color-bg: #f4f4f0;
+  --color-bg-secondary: #ffffff;
+  --color-link: #3b4230;
+  --color-secondary: #2f3527;
+  --color-secondary-accent: #f0f1ea;
+  --color-shadow: #20241a26;
+  --color-table: #2f3527;
+  --color-text: #262a20;
+  --color-text-secondary: #6e7365;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background: #fff;
+  border: 1px solid #dedfd6;
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+main h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+}
+
+main h2 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+main a.btn {
+  border-radius: var(--border-radius);
+  font-weight: 700;
+}

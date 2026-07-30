@@ -3,6 +3,7 @@ title: Promo Codes and Add-ons - Chobble Tickets
 meta_title: Promo Codes, Discount Codes & Add-ons - Chobble Tickets
 meta_description: Offer promo codes, returning-customer discounts, surcharges and opt-in add-ons. Set stock, order and audience rules with a live checkout total.
 permalink: /features/promo-codes-and-add-ons/
+ticket_evidence_capture: add-on-in-the-list
 eleventyNavigation:
   key: Promo Codes & Add-ons
   parent: Selling Tickets
@@ -37,8 +38,8 @@ blocks:
          [custom question answer](/features/custom-questions/), so picking
          "VIP upgrade" changes the price automatically
     figure_src: /images/screenshots/promo-codes-and-add-ons-checkout.png
-    figure_alt: Autumn Food Fair checkout with two tickets, an EARLY10 discount code and a parking pass
-    figure_caption: Combine ticket quantities, optional extras and promo codes in one checkout.
+    figure_alt: A screenshot of a public list of everything for sale, showing a Chair and a Cover, each with its own Book now link
+    figure_caption: 'An add-on marked as sellable on its own is listed like anything else, with its own booking link. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/add-ons-sold-on-their-own.feature">(src)</a></small>'
   - type: markdown
     content: |
       ## How pricing works

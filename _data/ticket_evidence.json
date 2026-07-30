@@ -1,9 +1,67 @@
 {
   "app": {
-    "commit": "e437c5e0134c8a16353520de364b2f9611ff1e42",
+    "commit": "d54537e182b53dcdccf2f5d38ef2f1bb4a4346ab",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
+    "add-on-in-the-list": {
+      "case": {
+        "id": "add-ons.it-appears-in-the-list-with-its-own-link",
+        "name": "A customer looks at everything for sale"
+      },
+      "id": "add-on-in-the-list",
+      "image": {
+        "height": 1128,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "80a4a0456458b725b826c609a7cacf3157cf9d9947d29a05cb797eea3b6ab2ae",
+        "src": "/images/screenshots/promo-codes-and-add-ons-checkout.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 844
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "It appears in the list of what is for sale with its own booking link, and it\nis not described as an add-on there — because here, it is not one.",
+        "id": "bookings.an-add-on-sold-on-its-own-is-listed-like-anything-else",
+        "name": "An add-on sold on its own is listed like anything else"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "a Chair sold with a Cover that can also be bought on its own"
+        },
+        {
+          "keyword": "When",
+          "text": "a customer looks at everything for sale"
+        },
+        {
+          "keyword": "Then",
+          "text": "the Cover is offered with a link to its own page"
+        },
+        {
+          "keyword": "And",
+          "text": "the Cover is not called an add-on there"
+        },
+        {
+          "keyword": "And",
+          "text": "the Chair is still offered too"
+        },
+        {
+          "keyword": "And",
+          "text": "the Cover is still offered when booking the Chair"
+        }
+      ],
+      "story": {
+        "description": "Some things are only sold alongside something else — a seat cover with a\nchair, a guide with a tour. An organiser can also mark one of those as\nsomething people may buy on its own. It then gets its own page and its own\nplace in the list, and it is still offered with the thing it goes with.",
+        "id": "bookings.add-ons-sold-on-their-own",
+        "name": "An add-on that can also be bought on its own",
+        "uri": "specs/bookings/add-ons-sold-on-their-own.feature"
+      }
+    },
     "api-keys-list": {
       "case": {
         "id": "api-keys.made-and-shown-once",
@@ -168,6 +226,52 @@
         "id": "bookings.selling-things-as-one-bundle",
         "name": "An organiser sells several things as one bundle",
         "uri": "specs/bookings/selling-things-as-one-bundle.feature"
+      }
+    },
+    "checked-in-on-the-day": {
+      "case": {
+        "id": "door.the-day-is-written-down",
+        "name": "The listing's own record of the day shows the check-in"
+      },
+      "id": "checked-in-on-the-day",
+      "image": {
+        "height": 652,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "290769bce4ec8a57d11621234dab58b4d5ba279f63d9eb455ede4e7a0d0877e0",
+        "src": "/images/screenshots/activity-log-summer-arts-fair.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 844
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "The organiser is told the name on the ticket and how many places it covers,\nso they know how many people to wave through.",
+        "id": "attendees.a-ticket-for-this-listing-lets-them-in",
+        "name": "A ticket for this listing lets the person in"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "Alice has a ticket for the Ceilidh"
+        },
+        {
+          "keyword": "When",
+          "text": "the organiser reads Alice's ticket at the Ceilidh door"
+        },
+        {
+          "keyword": "Then",
+          "text": "the Ceilidh's record of the day says Alice was checked in"
+        }
+      ],
+      "story": {
+        "description": "On the day, the organiser stands at the door with the listing's scanner open\nand reads each person's ticket. The site tells them who is in front of them,\nhow many places that ticket covers, and whether to let them through. It also\nkeeps the people already inside off the list, so nobody is counted twice.",
+        "id": "attendees.checking-people-in-at-the-door",
+        "name": "An organiser checks people in at the door",
+        "uri": "specs/attendees/checking-people-in-at-the-door.feature"
       }
     },
     "contact-record": {
@@ -340,6 +444,64 @@
         "uri": "specs/payments/what-a-paid-booking-earned.feature"
       }
     },
+    "one-order-of-every-kind": {
+      "case": {
+        "id": "order.one-order-of-every-kind",
+        "name": "A customer orders a bundle, an add-on, a plain item and a day booking"
+      },
+      "id": "one-order-of-every-kind",
+      "image": {
+        "height": 820,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "66932b9cbe999d03c43d39ddcb6b3a6bbb2bba2edef52037381a71f0ab5fb06f",
+        "src": "/images/screenshots/required-child-listings-checkout.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 844
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "A thing ordered inside a bundle and again on its own is two bookings, not\none of two. The same holds for an add-on ordered under its parent and on\nits own. Each one says where it came from.",
+        "id": "bookings.each-way-of-ordering-is-its-own-booking",
+        "name": "Ordering the same thing two ways keeps the two apart"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "the shop sells a Mega Kit bundle, a Marquee with a Generator add-on, T-Shirts, and a Campervan by the day"
+        },
+        {
+          "keyword": "When",
+          "text": "a customer orders all of them at once, adding a Tent and a Generator on their own"
+        },
+        {
+          "keyword": "Then",
+          "text": "the organiser sees the Tent twice — 2 in the bundle and 1 on its own"
+        },
+        {
+          "keyword": "And",
+          "text": "the organiser sees the Generator twice — under the Marquee and on its own"
+        },
+        {
+          "keyword": "And",
+          "text": "each booking says which bundle or parent it came from"
+        },
+        {
+          "keyword": "And",
+          "text": "every listing in the order lists the customer"
+        }
+      ],
+      "story": {
+        "description": "An organiser can sell things in bundles, as add-ons to something bigger, on\ntheir own, and by the day. A customer can put all of those in one order — and\ncan order the same thing more than one way. Each way must be kept as its own\nbooking, so the organiser can see what was ordered and how.",
+        "id": "bookings.ordering-several-things-at-once",
+        "name": "A customer orders several things at once",
+        "uri": "specs/bookings/ordering-several-things-at-once.feature"
+      }
+    },
     "page-anybody-can-read": {
       "case": {
         "id": "site-pages.written-and-readable",
@@ -390,6 +552,60 @@
         "uri": "specs/servicing/writing-the-pages-people-read.feature"
       }
     },
+    "paid-more-than-asked": {
+      "case": {
+        "id": "pay-more.the-chosen-price-is-the-income",
+        "name": "A customer pays 80.00 for a place asking 30.00"
+      },
+      "id": "paid-more-than-asked",
+      "image": {
+        "height": 444,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "e92d898b41caf109808e9d6dac8ff773a4cee3c149934727648ded7623f43968",
+        "src": "/images/screenshots/summer-appeal-purchase.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 828
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "Every place the organiser reads that figure shows the same amount, and the\ncustomer owes nothing afterwards.",
+        "id": "payments.the-listing-earns-what-the-customer-chose",
+        "name": "The listing earns exactly what the customer chose to pay"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "a Donate listing that asks 30.00 and lets people pay more"
+        },
+        {
+          "keyword": "When",
+          "text": "a customer chooses to pay 80.00"
+        },
+        {
+          "keyword": "Then",
+          "text": "the Donate has earned 80.00"
+        },
+        {
+          "keyword": "And",
+          "text": "the customer owes nothing"
+        },
+        {
+          "keyword": "And",
+          "text": "the organiser sees 80.00 wherever the income is shown"
+        }
+      ],
+      "story": {
+        "description": "Some listings let a customer pay more than the price asked. What the listing\nearns must be what they actually chose to pay, not the asking price.",
+        "id": "payments.paying-more-than-the-asking-price",
+        "name": "A customer chooses to pay more than the asking price",
+        "uri": "specs/payments/paying-more-than-the-asking-price.feature"
+      }
+    },
     "payment-provider-choice": {
       "case": {
         "id": "payments.select-saved-stripe",
@@ -400,7 +616,7 @@
         "height": 2542,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "5666e83e1414d6deb0cb39e20a73b3930364cfd2b7d93d269e479b73b380bbd8",
+        "sha256": "ebd9d9be55172674af60520e8ce6bbad23ffb62a240e36ff1a3403053d25f565",
         "src": "/images/screenshots/payment-provider-choice.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -596,7 +812,7 @@
         "height": 742,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "28a1fadbe035b741c42d7f49d850ba7f3d02114563997b5ad6c4f8175fab75f0",
+        "sha256": "5cd1d5fc03bf5a49fbf080e045ce7b913850aa30a0d74b35487fef7817edad4c",
         "src": "/images/screenshots/servicing-studio-floor-hold.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -634,6 +850,102 @@
         "id": "servicing.hold-and-cost",
         "name": "An organiser holds and costs a service event",
         "uri": "specs/servicing/hold-and-cost.feature"
+      }
+    },
+    "site-pages-in-order": {
+      "case": {
+        "id": "site-pages.moved-into-order",
+        "name": "The owner rearranges the pages"
+      },
+      "id": "site-pages-in-order",
+      "image": {
+        "height": 806,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "e17157a7f2139a6bda5d62dab513dd1cc90445dbf5a2d9e465e19cb0d3ba0824",
+        "src": "/images/screenshots/oakfield-homepage-editor.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 828
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "Pages are offered in the order the owner puts them, and they move them one\nstep at a time. Asking to move the top page up does nothing, rather than\nfailing or wrapping it round to the bottom.",
+        "id": "servicing.the-owner-decides-what-order-the-pages-come-in",
+        "name": "The owner decides what order the pages come in"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "the owner has written pages called Directions, Parking and Opening"
+        },
+        {
+          "keyword": "When",
+          "text": "the owner moves Parking up"
+        },
+        {
+          "keyword": "Then",
+          "text": "the pages are offered in the order Parking, Directions and Opening"
+        },
+        {
+          "keyword": "Then",
+          "text": "Parking is already at the top"
+        }
+      ],
+      "story": {
+        "description": "Besides the things it sells, a site has pages that simply say something — how\nto find us, what to bring, who we are. The owner writes those pages\nthemselves, chooses the web address each one lives at, and decides the order\nthey are offered in. A page is live as soon as it is written, so anyone can\nread it straight away.",
+        "id": "servicing.writing-the-pages-people-read",
+        "name": "An owner writes the pages people read",
+        "uri": "specs/servicing/writing-the-pages-people-read.feature"
+      }
+    },
+    "stay-length-on-the-page": {
+      "case": {
+        "id": "stay-length.the-length-is-on-the-listing-page",
+        "name": "The organiser looks at a listing booked three days at a time"
+      },
+      "id": "stay-length-on-the-page",
+      "image": {
+        "height": 1128,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "eef9942e8a1461a8c049fb880587a377fd4e1ac4ee24dce5cb41c4bc976861c0",
+        "src": "/images/screenshots/multi-day-hire.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 844
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "The length shows on the listing's page for a listing booked by the day, so\nthe organiser can read it without opening the edit form. A listing not\nbooked by the day has no stay length to show.",
+        "id": "bookings.the-listing-page-says-how-long-stays-last",
+        "name": "The listing's own page says how long its stays last"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "a Lodge that is booked 3 days at a time, with room for 5 places a day"
+        },
+        {
+          "keyword": "When",
+          "text": "the organiser looks at the Lodge's page"
+        },
+        {
+          "keyword": "Then",
+          "text": "the page says each booking lasts 3 days"
+        }
+      ],
+      "story": {
+        "description": "An organiser can change how many days each stay on a listing covers. The\nlisting's own page says how long its stays last. Stays already booked are\nstretched or shortened to match a change, so the calendar and the bookings\nnever disagree — except where the customer chose the length themselves,\nwhich is theirs to keep. A save that does not change the length leaves\nevery stay exactly as it was.",
+        "id": "bookings.changing-how-long-a-stay-lasts",
+        "name": "An organiser changes how long a stay lasts",
+        "uri": "specs/bookings/changing-how-long-a-stay-lasts.feature"
       }
     },
     "team-and-roles": {

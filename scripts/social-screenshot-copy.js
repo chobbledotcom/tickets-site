@@ -1,7 +1,7 @@
 export const SOCIAL_SCREENSHOT_COPY = {
   "activity-log": {
-    heading: "Booking and admin activity",
-    body: "See recent booking and administration activity, with the time and any related attendee or listing.",
+    heading: "Every change is written down",
+    body: "Each listing keeps its own record of what happened to it, including who was checked in at the door and when.",
   },
   "admin-guide": {
     heading: "Help inside the admin area",
@@ -107,6 +107,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Light and dark themes",
     body: "Choose the built-in dark theme for public pages, booking pages and ticket pages.",
   },
+  "multi-day-hire": {
+    heading: "Book several days at once",
+    body: "Set how many days one booking covers. The length is on the listing's own page, and every day a booking covers is held for that customer.",
+  },
   "oakfield-public-website": {
     heading: "Publish your own pages",
     body: "Write a page, choose the web address it lives at, and it is there for anyone to read straight away.",
@@ -120,8 +124,8 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "Combine listings into one bundle. Set each member's price and quantity, then let customers choose a package count.",
   },
   "parent-child-listings": {
-    heading: "Require an add-on for each unit",
-    body: "For each parent unit, customers choose one child listing from a set. A sole available child is added automatically.",
+    heading: "Every part of an order is kept apart",
+    body: "An item bought inside a bundle and again on its own stays two bookings, and each one says where it came from.",
   },
   "payment-provider-choice": {
     heading: "Choose a payment provider",
@@ -132,8 +136,8 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "Capacity is used when payment is confirmed, not when checkout starts. Whoever confirms second is refunded once, and the organiser is told why.",
   },
   "promo-codes-and-add-ons": {
-    heading: "Discounts and add-ons",
-    body: "Apply a promotion code at checkout and offer optional extras, such as parking, with the same order.",
+    heading: "Sell an extra on its own too",
+    body: "An add-on can be offered with the thing it goes with, on its own page, or both. Where it stands alone it is not called an add-on.",
   },
   "qr-code-check-ins": {
     heading: "Check bookings with a phone",
@@ -152,12 +156,12 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "Block places for maintenance, setup or staff use without adding a customer to the attendee list.",
   },
   "site-customisation": {
-    heading: "Make the booking site yours",
-    body: "Set the site title, write the homepage and change colours, fonts and spacing with custom CSS.",
+    heading: "Arrange the pages you write",
+    body: "Write your own pages, choose the address each one lives at, and put them in the order you want them offered in.",
   },
   "summer-appeal-purchase": {
-    heading: "Collect flexible contributions",
-    body: "Set a minimum amount, let supporters pay more and collect a required consent answer before payment.",
+    heading: "Let people pay what they want",
+    body: "Set a minimum and let supporters pay more. What the listing earns is what they chose, wherever the figure is shown.",
   },
   "summer-fair-volunteer-form": {
     heading: "Take volunteer sign-ups",

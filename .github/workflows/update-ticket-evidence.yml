@@ -139,6 +139,8 @@ jobs:
           add-paths: |
             _data/ticket_evidence.json
             _data/ticket_evidence_lock.json
+            images/screenshots/activity-log-summer-arts-fair.png
+            images/screenshots/activity-log-summer-arts-fair__facebook.png
             images/screenshots/api-keys-list.png
             images/screenshots/api-keys-list__facebook.png
             images/screenshots/deposits-and-balance-payments.png
@@ -147,33 +149,49 @@ jobs:
             images/screenshots/garden-party-package-checkout__facebook.png
             images/screenshots/manual-attendee-community-supper.png
             images/screenshots/manual-attendee-community-supper__facebook.png
+            images/screenshots/multi-day-hire.png
+            images/screenshots/multi-day-hire__facebook.png
+            images/screenshots/oakfield-homepage-editor.png
+            images/screenshots/oakfield-homepage-editor__facebook.png
             images/screenshots/oakfield-public-website.png
             images/screenshots/oakfield-public-website__facebook.png
             images/screenshots/payment-provider-choice.png
             images/screenshots/payment-provider-choice__facebook.png
             images/screenshots/place-lost-while-paying.png
             images/screenshots/place-lost-while-paying__facebook.png
+            images/screenshots/promo-codes-and-add-ons-checkout.png
+            images/screenshots/promo-codes-and-add-ons-checkout__facebook.png
             images/screenshots/qr-code-check-in.png
             images/screenshots/qr-code-check-in__facebook.png
             images/screenshots/refunded-booking.png
             images/screenshots/refunded-booking__facebook.png
+            images/screenshots/required-child-listings-checkout.png
+            images/screenshots/required-child-listings-checkout__facebook.png
             images/screenshots/riverside-events-team.png
             images/screenshots/riverside-events-team__facebook.png
             images/screenshots/servicing-studio-floor-hold.png
             images/screenshots/servicing-studio-floor-hold__facebook.png
+            images/screenshots/summer-appeal-purchase.png
+            images/screenshots/summer-appeal-purchase__facebook.png
             images/screenshots/summer-arts-fair-ledger.png
             images/screenshots/summer-arts-fair-ledger__facebook.png
             images/screenshots/summer-fair-volunteer-form.png
             images/screenshots/summer-fair-volunteer-form__facebook.png
             images/screenshots/the-tempest-group-checkout.png
             images/screenshots/the-tempest-group-checkout__facebook.png
+            pages/features/activity-logs.md
+            pages/features/customising-your-site.md
             pages/features/deposits-and-balance-payments.md
             pages/features/groups.md
             pages/features/ledger.md
             pages/features/manual-attendees.md
+            pages/features/multi-day-hire.md
             pages/features/overbooking-prevention.md
             pages/features/packages.md
+            pages/features/parent-child-listings.md
+            pages/features/promo-codes-and-add-ons.md
             pages/features/public-api.md
+            pages/features/purchasable-events.md
             pages/features/qr-code-check-ins.md
             pages/features/refunds.md
             pages/features/servicing-events.md

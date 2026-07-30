@@ -1,5 +1,18 @@
 {
   "captures": {
+    "add-on-in-the-list": {
+      "alt": "A screenshot of a public list of everything for sale, showing a Chair and a Cover, each with its own Book now link",
+      "assetProfile": "mobile",
+      "caption": "An add-on marked as sellable on its own is listed like anything else, with its own booking link.",
+      "caseId": "add-ons.it-appears-in-the-list-with-its-own-link",
+      "galleryCaption": "A public list where an add-on is offered on its own as well as with the thing it goes with.",
+      "legacyDestinationPath": "images/screenshots/promo-codes-and-add-ons-checkout.png",
+      "page": "pages/features/promo-codes-and-add-ons.md",
+      "reviewed": "5bde67e3719a55a56a53ffe748fac47658e7af410f2eb2c026d684a3f4e3bdfa",
+      "socialBody": "An add-on can be offered with the thing it goes with, on its own page, or both. Where it stands alone it is not called an add-on.",
+      "socialHeading": "Sell an extra on its own too",
+      "socialKey": "promo-codes-and-add-ons"
+    },
     "api-keys-list": {
       "alt": "A screenshot of the API keys page, listing a key named Shopfront that has never been used, above the form for making another",
       "assetProfile": "mobile",
@@ -38,6 +51,19 @@
       "socialBody": "Combine listings into one bundle. Set each member's price and quantity, then let customers choose a package count.",
       "socialHeading": "Sell packages of listings",
       "socialKey": "packages"
+    },
+    "checked-in-on-the-day": {
+      "alt": "A screenshot of a listing's activity record, showing an attendee checked in via scanner, the attendee created, and the listing created",
+      "assetProfile": "mobile",
+      "caption": "A check-in at the door is written into the record a listing keeps of its own day, alongside everything else that happened to it.",
+      "caseId": "door.the-day-is-written-down",
+      "galleryCaption": "A listing's own record, with a door check-in written into it.",
+      "legacyDestinationPath": "images/screenshots/activity-log-summer-arts-fair.png",
+      "page": "pages/features/activity-logs.md",
+      "reviewed": "458b865acee8bc0ca48139f3456c59ac1d76c6b5b3be56ec50999946fe380758",
+      "socialBody": "Each listing keeps its own record of what happened to it, including who was checked in at the door and when.",
+      "socialHeading": "Every change is written down",
+      "socialKey": "activity-log"
     },
     "contact-record": {
       "alt": "A screenshot of a contact record, showing 9 visits, 5 online bookings, 2 admin bookings, 4 messages sent and a private note reading VIP Sam",
@@ -78,6 +104,19 @@
       "socialHeading": "Keep one accounting ledger",
       "socialKey": "ledger"
     },
+    "one-order-of-every-kind": {
+      "alt": "A screenshot of a Tent listing's attendee list, showing the same buyer twice, once for two places and once for one",
+      "assetProfile": "mobile",
+      "caption": "A thing ordered inside a bundle and again on its own is two bookings, not one of two.",
+      "caseId": "order.one-order-of-every-kind",
+      "galleryCaption": "One buyer's order, where the same item bought two ways is kept as two bookings.",
+      "legacyDestinationPath": "images/screenshots/required-child-listings-checkout.png",
+      "page": "pages/features/parent-child-listings.md",
+      "reviewed": "fbf35c24288a098def4166eedc50e025356500df90e437b9751e89ed7a39146d",
+      "socialBody": "An item bought inside a bundle and again on its own stays two bookings, and each one says where it came from.",
+      "socialHeading": "Every part of an order is kept apart",
+      "socialKey": "parent-child-listings"
+    },
     "page-anybody-can-read": {
       "alt": "A screenshot of a public site page called Directions, reached from the site's own navigation alongside Home and Listings",
       "assetProfile": "mobile",
@@ -90,6 +129,19 @@
       "socialBody": "Write a page, choose the web address it lives at, and it is there for anyone to read straight away.",
       "socialHeading": "Publish your own pages",
       "socialKey": "oakfield-public-website"
+    },
+    "paid-more-than-asked": {
+      "alt": "A screenshot of a Donate listing's income statement, showing an £80 balance from one booking of £80",
+      "assetProfile": "mobile",
+      "caption": "When a listing lets people pay more than it asks, it earns what they chose to pay.",
+      "caseId": "pay-more.the-chosen-price-is-the-income",
+      "galleryCaption": "A donation listing earning the £80 a supporter chose, not the price it asked.",
+      "legacyDestinationPath": "images/screenshots/summer-appeal-purchase.png",
+      "page": "pages/features/purchasable-events.md",
+      "reviewed": "ce3266644214400e3006b72b0b5d5fc9587843cfeb2d96dd596fc3f19d146058",
+      "socialBody": "Set a minimum and let supporters pay more. What the listing earns is what they chose, wherever the figure is shown.",
+      "socialHeading": "Let people pay what they want",
+      "socialKey": "summer-appeal-purchase"
     },
     "payment-provider-choice": {
       "alt": "A screenshot of the payment provider settings, showing Stripe chosen from None, Square, Stripe and SumUp, and a saved Stripe test key",
@@ -155,6 +207,32 @@
       "socialBody": "Block places for maintenance, setup or staff use without adding a customer to the attendee list.",
       "socialHeading": "Hold capacity for servicing",
       "socialKey": "servicing-events"
+    },
+    "site-pages-in-order": {
+      "alt": "A screenshot of the owner's list of site pages, showing Parking, Directions and Opening in that order with the address each one lives at",
+      "assetProfile": "mobile",
+      "caption": "Pages are offered in the order the owner puts them, and each one keeps the address it was given.",
+      "caseId": "site-pages.moved-into-order",
+      "galleryCaption": "An organiser's own pages, in the order they chose.",
+      "legacyDestinationPath": "images/screenshots/oakfield-homepage-editor.png",
+      "page": "pages/features/customising-your-site.md",
+      "reviewed": "b87f9884739724621c9b48c89b4912e49f3986fc55267fd84b5e3b75a12376f6",
+      "socialBody": "Write your own pages, choose the address each one lives at, and put them in the order you want them offered in.",
+      "socialHeading": "Arrange the pages you write",
+      "socialKey": "site-customisation"
+    },
+    "stay-length-on-the-page": {
+      "alt": "A screenshot of a Lodge listing's page, showing it is booked daily, on any day of the week, with a booking duration of 3 days",
+      "assetProfile": "mobile",
+      "caption": "A listing booked by the day says how long each booking lasts on its own page, without opening the edit form.",
+      "caseId": "stay-length.the-length-is-on-the-listing-page",
+      "galleryCaption": "A listing booked by the day, saying each booking lasts three days.",
+      "legacyDestinationPath": "images/screenshots/multi-day-hire.png",
+      "page": "pages/features/multi-day-hire.md",
+      "reviewed": "9fe8cd54397c11305142ea2536622a1f66c475f6cdaa80089c824ce0b9d14215",
+      "socialBody": "Set how many days one booking covers. The length is on the listing's own page, and every day a booking covers is held for that customer.",
+      "socialHeading": "Book several days at once",
+      "socialKey": "multi-day-hire"
     },
     "team-and-roles": {
       "alt": "A screenshot of the users table, showing jo as the owner and sam as an editor, both active",

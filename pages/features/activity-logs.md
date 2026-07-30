@@ -3,6 +3,7 @@ title: Activity Logs - Chobble Tickets
 meta_title: Activity Logs - Chobble Tickets
 meta_description: Track all admin actions and booking activity with a built-in audit trail.
 permalink: /features/activity-logs/
+ticket_evidence_capture: checked-in-on-the-day
 eleventyNavigation:
   key: Activity Logs
   parent: Managing Events
@@ -23,8 +24,8 @@ blocks:
        when, which is essential for accountability when multiple team members
        are managing events.
     figure_src: /images/screenshots/activity-log-summer-arts-fair.png
-    figure_alt: Mobile activity log showing a listing created and Maya Patel added as an attendee
-    figure_caption: See recent bookings, listing changes and settings updates in one audit trail.
+    figure_alt: A screenshot of a listing's activity record, showing an attendee checked in via scanner, the attendee created, and the listing created
+    figure_caption: 'A check-in at the door is written into the record a listing keeps of its own day, alongside everything else that happened to it. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/checking-people-in-at-the-door.feature">(src)</a></small>'
   - type: markdown
     content: |
       ## Global and per-event views

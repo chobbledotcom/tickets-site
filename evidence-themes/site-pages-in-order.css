@@ -1,0 +1,75 @@
+/* A village hall's admin: slate and one moss green. */
+:root {
+  --border-radius: 6px;
+  --color-accent: #4f7a52;
+  --color-bg: #eef1ee;
+  --color-bg-secondary: #ffffff;
+  --color-link: #33503a;
+  --color-secondary: #2b4230;
+  --color-secondary-accent: #eff3ef;
+  --color-shadow: #1a281c26;
+  --color-table: #2b4230;
+  --color-text: #232b25;
+  --color-text-secondary: #6c766e;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-page {
+  background: #fff;
+  border: 1px solid #dbe1dc;
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+.admin-page h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+}
+
+.admin-page .table-scroll {
+  overflow: visible;
+}
+
+.admin-page table {
+  font-size: 0.82rem;
+  table-layout: fixed;
+  white-space: normal;
+  width: 100%;
+}
+
+.admin-page th {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.admin-page th,
+.admin-page td {
+  padding: 0.45rem;
+}
+
+.admin-page tbody tr:nth-child(even) {
+  background: var(--color-secondary-accent);
+}
+
+.admin-page tbody tr:nth-child(even) td,
+.admin-page tbody tr:nth-child(even) th {
+  background: transparent;
+  color: var(--color-text);
+}
+
+/* The last column holds the reorder controls and the delete link, which are
+ * how the order is changed rather than what it is. */
+.admin-page tr > *:nth-child(1),
+.admin-page tr > *:last-child {
+  display: none;
+}
+
+.admin-page tr > *:nth-child(2) {
+  width: 45%;
+}
+
+.admin-page tr > *:nth-child(3) {
+  width: 55%;
+}

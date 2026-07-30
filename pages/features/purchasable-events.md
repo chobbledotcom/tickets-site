@@ -3,6 +3,7 @@ title: Purchasable Events - Chobble Tickets
 meta_title: Collect Donations & Payments Without Ticketing - Chobble Tickets
 meta_description: Use Chobble Tickets for fundraising, donations, raffle ticket sales, and general payment collection without an event to attend.
 permalink: /features/purchasable-events/
+ticket_evidence_capture: paid-more-than-asked
 eleventyNavigation:
   key: Purchasable Events
   parent: Selling Tickets
@@ -22,8 +23,8 @@ blocks:
       No Check-In listings collect the payment and any required answers without
       creating a door-entry workflow.
     figure_src: /images/screenshots/summer-appeal-purchase.png
-    figure_alt: Meadowfield Summer Appeal checkout with £25 entered above a £5 minimum, a Yes email choice and a £25 total
-    figure_caption: Supporters can enter £25 above the £5 minimum and answer a consent question before continuing to payment.
+    figure_alt: A screenshot of a Donate listing's income statement, showing an £80 balance from one booking of £80
+    figure_caption: 'When a listing lets people pay more than it asks, it earns what they chose to pay. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/payments/paying-more-than-the-asking-price.feature">(src)</a></small>'
   - type: markdown
     content: |
       ## Beyond ticketing

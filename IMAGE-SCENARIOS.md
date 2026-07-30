@@ -63,7 +63,7 @@ pages are listed separately at the end.
 | `pages/features/sign-up-forms.md` | [x] Attendee screenshot: `summer-fair-volunteer-form` | Oakfield Primary Summer Fair has separate setup, gate and clear-up listings with eight places each. Show one selected shift, an access-needs answer, a £0 total and Continue. | Shows a useful free form with real capacity for each shift. |
 | `pages/features/registration-deadlines.md` | Admin and public composite: `registration-deadline` | Fernbank Pottery's workshop starts at 10:00 on 16 August, closes at 18:00 the previous day and allows two places per buyer. Show the setting beside the public Booking has closed state. | Connects the organiser setting to the attendee result. |
 | `pages/features/postcode-lookup.md` | Attendee screenshot: `delivery-postcode-lookup` | Maya Patel books Willow Marquee Hire to `M25 1FL`. Show postcode search results, the selected editable address and a small run-sheet preview. | Connects faster address entry to accurate delivery operations. |
-| `pages/features/multi-day-hire.md` | Attendee screenshot: `multi-day-pa-hire` | Soundbox Equipment Hire offers a Portable PA System for one day at £45 or three days at £120. Alex selects 14 to 16 August; highlight all occupied dates and the selected total. | Shows duration pricing and range-wide capacity in one view. |
+| `pages/features/multi-day-hire.md` | [x] Cucumber evidence capture: `stay-length-on-the-page` | A listing booked by the day, on its own admin page, saying each booking lasts three days. Taken from the case that reads the length off that page. | Shows duration as something the organiser can read without opening the edit form. |
 
 ## Feature Pages: Public Site
 
@@ -245,6 +245,12 @@ These pages are rendered but excluded from the sitemap and main editorial total.
 
 ### Completed Cucumber evidence captures
 
+- [x] `add-on-in-the-list`
+- [x] `checked-in-on-the-day`
+- [x] `one-order-of-every-kind`
+- [x] `paid-more-than-asked`
+- [x] `site-pages-in-order`
+- [x] `stay-length-on-the-page`
 - [x] `balance-payment-link`
 - [x] `bundle-booking-page`
 - [x] `api-keys-list`
