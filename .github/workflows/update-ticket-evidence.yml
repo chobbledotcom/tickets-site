@@ -151,6 +151,8 @@ jobs:
             images/screenshots/oakfield-public-website__facebook.png
             images/screenshots/payment-provider-choice.png
             images/screenshots/payment-provider-choice__facebook.png
+            images/screenshots/place-lost-while-paying.png
+            images/screenshots/place-lost-while-paying__facebook.png
             images/screenshots/qr-code-check-in.png
             images/screenshots/qr-code-check-in__facebook.png
             images/screenshots/refunded-booking.png
@@ -163,9 +165,13 @@ jobs:
             images/screenshots/summer-arts-fair-ledger__facebook.png
             images/screenshots/summer-fair-volunteer-form.png
             images/screenshots/summer-fair-volunteer-form__facebook.png
+            images/screenshots/the-tempest-group-checkout.png
+            images/screenshots/the-tempest-group-checkout__facebook.png
             pages/features/deposits-and-balance-payments.md
+            pages/features/groups.md
             pages/features/ledger.md
             pages/features/manual-attendees.md
+            pages/features/overbooking-prevention.md
             pages/features/packages.md
             pages/features/public-api.md
             pages/features/qr-code-check-ins.md

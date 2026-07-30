@@ -56,8 +56,8 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "Duplicate every listing in a group with shifted dates, or deactivate and reactivate the group's listings together.",
   },
   groups: {
-    heading: "Sell related tickets together",
-    body: "Put related listings on one public booking page and, if needed, set one capacity limit across the group.",
+    heading: "Sell several listings on one page",
+    body: "Put several listings on one page and let a customer book them together. Each booking reaches the organiser with the answers it was given.",
   },
   "industry-catering": {
     heading: "Take catering requirements online",
@@ -126,6 +126,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
   "payment-provider-choice": {
     heading: "Choose a payment provider",
     body: "Select Stripe, Square or SumUp. Saved credentials remain available when the organiser switches provider.",
+  },
+  "place-lost-while-paying": {
+    heading: "Nobody is charged for a place that has gone",
+    body: "Capacity is used when payment is confirmed, not when checkout starts. Whoever confirms second is refunded once, and the organiser is told why.",
   },
   "promo-codes-and-add-ons": {
     heading: "Discounts and add-ons",

@@ -33,7 +33,7 @@ blocks:
       - image: /images/screenshots/garden-party-package-checkout__facebook.png
         caption: A package booking page naming every item the buyer gets.
       - image: /images/screenshots/the-tempest-group-checkout__facebook.png
-        caption: The Tempest group checkout with adult and child tickets, £30 owed.
+        caption: An attendee list holding a booking made from a group page, with the answer the customer picked.
       - image: /images/screenshots/required-child-listings-checkout__facebook.png
         caption: A festival pass that requires each camper to pick a camping option.
       - image: /images/screenshots/industry-childrens-entertainer-booking__facebook.png
@@ -86,6 +86,8 @@ blocks:
         caption: Duplicate a group of listings and shift their dates in one step.
       - image: /images/screenshots/catalogue-import__facebook.png
         caption: Catalogue import — bring listings in from a JSON export.
+      - image: /images/screenshots/place-lost-while-paying__facebook.png
+        caption: The note left when a payment arrives after the last place has gone.
       - image: /images/screenshots/refunded-booking__facebook.png
         caption: One booking's money after a refund, adding up to nothing owed.
       - image: /images/screenshots/activity-log-summer-arts-fair__facebook.png

@@ -59,7 +59,8 @@
   },
   {
     "key": "groups",
-    "classification": "legacy-product-screenshot"
+    "classification": "linked-evidence",
+    "captureId": "group-booking-arrives"
   },
   {
     "key": "industry-catering",
@@ -133,6 +134,11 @@
     "key": "payment-provider-choice",
     "classification": "linked-evidence",
     "captureId": "payment-provider-choice"
+  },
+  {
+    "key": "place-lost-while-paying",
+    "classification": "linked-evidence",
+    "captureId": "place-lost-while-paying"
   },
   {
     "key": "promo-codes-and-add-ons",

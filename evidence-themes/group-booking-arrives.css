@@ -1,0 +1,91 @@
+/* A summer festival's admin: deep indigo, one coral, a serif heading. */
+:root {
+  --border-radius: 6px;
+  --color-accent: #d4614a;
+  --color-bg: #eef0f6;
+  --color-bg-secondary: #ffffff;
+  --color-link: #333a72;
+  --color-secondary: #2a3060;
+  --color-secondary-accent: #f1f2f8;
+  --color-shadow: #1a1e401f;
+  --color-table: #2a3060;
+  --color-text: #262a3a;
+  --color-text-secondary: #6b7185;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background: #fff;
+  border: 1px solid #dcdff0;
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+main h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+}
+
+/* The half-finished-setup banner and the admin navigation belong to whoever
+ * is signed in, not to what this case proves. */
+.settings-nag-banner,
+main nav:not(.entity-tabs),
+.entity-tabs {
+  display: none;
+}
+
+/* Adding somebody by hand is a different story from one arriving through a
+ * group page. */
+main form {
+  display: none;
+}
+
+/* The first column is the check-in link, the sixth is a ticket token and the
+ * seventh is the moment the capture ran. What the case reads is who booked,
+ * how to reach them, the one place they took, and the answer they picked. */
+main tr > *:nth-child(1),
+main tr > *:nth-child(6),
+main tr > *:nth-child(7) {
+  display: none;
+}
+
+main tr > *:nth-child(2) {
+  width: 24%;
+}
+
+main tr > *:nth-child(3) {
+  width: 36%;
+}
+
+main tr > *:nth-child(4),
+main tr > *:nth-child(5) {
+  width: 20%;
+}
+
+main .table-scroll {
+  overflow: visible;
+}
+
+main table {
+  font-size: 0.85rem;
+  table-layout: fixed;
+  white-space: normal;
+  width: 100%;
+}
+
+main th {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+main th,
+main td {
+  padding: 0.5rem;
+}
+
+/* The heading of the add-by-hand form, whose fields are already gone. */
+main h2:last-of-type {
+  display: none;
+}

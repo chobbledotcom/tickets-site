@@ -1,0 +1,35 @@
+/* A village hall's admin, in the one place it goes wrong: the note the site
+ * writes against somebody whose payment landed after the last place had gone.
+ * Only the note is captured, so most of these variables are inherited rather
+ * than seen. They are all set because a theme that dressed half a page would
+ * leave the capture in two looks at once. */
+:root {
+  --border-radius: 5px;
+  --color-accent: #b03a2e;
+  --color-bg: #f1efec;
+  --color-bg-secondary: #ffffff;
+  --color-link: #6b4f3a;
+  --color-secondary: #4a3a2c;
+  --color-secondary-accent: #f7f3ef;
+  --color-shadow: #2a201826;
+  --color-table: #4a3a2c;
+  --color-text: #2b241e;
+  --color-text-secondary: #736a61;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+.system-note-alert {
+  border-radius: var(--border-radius);
+  padding: 1rem 1.25rem;
+}
+
+.system-note-tag {
+  letter-spacing: 0.08em;
+}
+
+/* The note carries the moment it was written underneath it, which is the
+ * moment the capture ran: it would be a different time every night without
+ * anything about the site having changed. */
+.system-note .muted.small {
+  display: none;
+}

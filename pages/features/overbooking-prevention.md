@@ -3,6 +3,7 @@ title: Overbooking Prevention - Chobble Tickets
 meta_title: Overbooking Prevention - Chobble Tickets
 meta_description: Capacity is checked when each payment is confirmed. If two people race for the last ticket, the second is refunded automatically.
 permalink: /features/overbooking-prevention/
+ticket_evidence_capture: place-lost-while-paying
 eleventyNavigation:
   key: Overbooking Prevention
   parent: Selling Tickets
@@ -14,7 +15,7 @@ blocks:
       # Overbooking prevention
 
       Capacity is checked when each payment is confirmed. If two people race for the last ticket, the second is refunded automatically.
-  - type: markdown
+  - type: split-image
     content: |
       ## How it works
 
@@ -25,6 +26,14 @@ blocks:
       For a paid booking, this check does not reserve a ticket or use capacity.
       Capacity is checked again and used only when payment confirmation arrives.
 
+      Whoever confirms second is kept rather than dropped, refunded once, and
+      the reason is written against their booking, so you can see who it was
+      and what happened to their money.
+    figure_src: /images/screenshots/place-lost-while-paying.png
+    figure_alt: A screenshot of the note the site writes against a booking, saying it was kept at quantity 0 and its payment refunded because the event filled up while they were paying
+    figure_caption: 'Somebody whose payment arrived after the last place had gone is kept, refunded once, and the reason is written against their booking. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/payments/capacity-after-payment.feature">(src)</a></small>'
+  - type: markdown
+    content: |
       ## What happens if two people pay for the last ticket
 
       Two people can both reach the payment page for the last ticket at the

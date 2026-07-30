@@ -55,7 +55,7 @@ pages are listed separately at the end.
 | Page | Proposed asset | Scenario and composition | Organiser value |
 |---|---|---|---|
 | `pages/features/selling-tickets.md` | Diagram: `selling-tickets-workflow` | Riverside Summer Concert moves from listing setup to attendee checkout, payment confirmation consuming capacity, QR delivery, check-in and an optional refund. | Shows how separate ticket-selling features form one workflow. |
-| `pages/features/overbooking-prevention.md` | Diagram: `payment-capacity-race` | Riverside has 249 of 250 places confirmed. Alex and Maya both start checkout for the final place. Both lanes say "No place reserved"; Alex's confirmation arrives first and Maya's later payment is refunded. | Explains the real race condition without inventing a checkout hold. |
+| `pages/features/overbooking-prevention.md` | [x] Cucumber evidence capture: `place-lost-while-paying` | The note the site writes against the booking whose confirmation arrived second, taken from the case that races two payments for the last place. Shows the organiser's side of the race rather than a diagram of it. | Explains the real race condition without inventing a checkout hold. |
 | `pages/features/stripe-and-square.md` | [x] Admin screenshot: `payment-provider-choice` | Show Stripe, Square and SumUp as alternative providers, Stripe selected, and the configured Stripe test-key state. | Shows provider choice, saved credentials and the difference between test and live keys. |
 | `pages/features/refunds.md` | [x] Cucumber evidence capture: `refunded-booking` | One booking's money after a refund, taken from the case that refunds a paid place: the sale, its payment, the income removed and the money handed back. | Shows that a refund undoes the sale as well as returning the money. |
 | `pages/features/no-per-ticket-fees.md` | Comparison graphic: `flat-fee-worked-examples` | Use the existing examples of 50 tickets at £10, 500 at £15 and 5,000 at £20. Separate Chobble hosting, payment processing and platform commission from the percentage-plus-fixed alternative. Include the low-volume example where the alternative is slightly cheaper. | Makes the break-even point and volume effect understandable without hiding processing costs. |
@@ -246,7 +246,9 @@ These pages are rendered but excluded from the sitemap and main editorial total.
 - [x] `api-keys-list`
 - [x] `contact-record`
 - [x] `listing-ledger`
+- [x] `group-booking-arrives`
 - [x] `page-anybody-can-read`
+- [x] `place-lost-while-paying`
 - [x] `payment-provider-choice`
 - [x] `qr-code-check-in`
 - [x] `refunded-booking`

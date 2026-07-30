@@ -52,6 +52,19 @@
       "socialHeading": "Keep a record of each person",
       "socialKey": "manual-attendees"
     },
+    "group-booking-arrives": {
+      "alt": "A screenshot of the Summer Concert attendee list, showing Jane Doe, her email, the Medium size she picked and one place",
+      "assetProfile": "mobile",
+      "caption": "A booking made on a group page arrives with the person, how to reach them, what they picked and the one place they took.",
+      "caseId": "booking.group-page-journey",
+      "galleryCaption": "An attendee list holding a booking made from a group page, with the answer the customer picked.",
+      "legacyDestinationPath": "images/screenshots/the-tempest-group-checkout.png",
+      "page": "pages/features/groups.md",
+      "reviewed": "15350fc97c6a648f036a1c7fff0dcdff5ba2a8a019f6f0126a0cc817ec035ea6",
+      "socialBody": "Put several listings on one page and let a customer book them together. Each booking reaches the organiser with the answers it was given.",
+      "socialHeading": "Sell several listings on one page",
+      "socialKey": "groups"
+    },
     "listing-ledger": {
       "alt": "A screenshot of the income statement for a Workshop listing, showing a £50 balance and one line, a booking worth £50",
       "assetProfile": "mobile",
@@ -90,6 +103,19 @@
       "socialBody": "Select Stripe, Square or SumUp. Saved credentials remain available when the organiser switches provider.",
       "socialHeading": "Choose a payment provider",
       "socialKey": "payment-provider-choice"
+    },
+    "place-lost-while-paying": {
+      "alt": "A screenshot of the note the site writes against a booking, saying it was kept at quantity 0 and its payment refunded because the event filled up while they were paying",
+      "assetProfile": "mobile",
+      "caption": "Somebody whose payment arrived after the last place had gone is kept, refunded once, and the reason is written against their booking.",
+      "caseId": "payment.place-lost",
+      "galleryCaption": "The note left when a payment arrives after the last place has gone.",
+      "legacyDestinationPath": "images/screenshots/place-lost-while-paying.png",
+      "page": "pages/features/overbooking-prevention.md",
+      "reviewed": "cf7008c83a97fe479ee00916d16ce8939cd8e464391aeb21c70998126284cbe6",
+      "socialBody": "Capacity is used when payment is confirmed, not when checkout starts. Whoever confirms second is refunded once, and the organiser is told why.",
+      "socialHeading": "Nobody is charged for a place that has gone",
+      "socialKey": "place-lost-while-paying"
     },
     "qr-code-check-in": {
       "alt": "A screenshot of the manual check-in search on a listing's scanner page, showing Alice and her one place ready to check in",

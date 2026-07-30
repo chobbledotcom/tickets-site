@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "d809473e57fdddfe17c45a0aa7761e303869ce37",
+    "commit": "d7d404f39af9005b455d65d73793d2b16d13f124",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -14,7 +14,7 @@
         "height": 1190,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "6c190a547ce8edb72e2024ff6c9b34746f8a1b631482bd06e7f5f879e48e3217",
+        "sha256": "10d36a9f982d8b3f6056c5874c0d8f58c21115209ae0be0f1e761d4495b6de49",
         "src": "/images/screenshots/api-keys-list.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -232,6 +232,60 @@
         "uri": "specs/attendees/the-record-kept-about-someone.feature"
       }
     },
+    "group-booking-arrives": {
+      "case": {
+        "id": "booking.group-page-journey",
+        "name": "A customer books a place on a group page"
+      },
+      "id": "group-booking-arrives",
+      "image": {
+        "height": 750,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "a3a2d17a2f62a5d077f060d318dac84bca81348cda9801355c19308b3b331508",
+        "src": "/images/screenshots/the-tempest-group-checkout.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 844
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "The customer keeps a ticket, and the organiser sees the person, their\ncontact details, and the answer they chose.",
+        "id": "bookings.group-page-takes-a-booking",
+        "name": "A booking made on a group page reaches the organiser in full"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "the organiser has a Summer Concert listing in the Summer Festival group that asks for a t-shirt size"
+        },
+        {
+          "keyword": "When",
+          "text": "a customer books one Summer Concert place and picks the Medium size"
+        },
+        {
+          "keyword": "Then",
+          "text": "the customer can open a ticket for Summer Concert"
+        },
+        {
+          "keyword": "And",
+          "text": "the Summer Concert attendee list shows the customer, their email, and one place"
+        },
+        {
+          "keyword": "And",
+          "text": "the Summer Concert list download shows the customer picked Medium"
+        }
+      ],
+      "story": {
+        "description": "An organiser builds a listing, asks the customer a question, and shows the\nlisting on a group page. A customer books a place, keeps a ticket, and the\norganiser sees the booking and the answer.",
+        "id": "bookings.book-through-the-site",
+        "name": "A customer books a listing the organiser set up",
+        "uri": "specs/bookings/book-through-the-site.feature"
+      }
+    },
     "listing-ledger": {
       "case": {
         "id": "paid-booking.recorded-once",
@@ -346,7 +400,7 @@
         "height": 2542,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "5666e83e1414d6deb0cb39e20a73b3930364cfd2b7d93d269e479b73b380bbd8",
+        "sha256": "ebd9d9be55172674af60520e8ce6bbad23ffb62a240e36ff1a3403053d25f565",
         "src": "/images/screenshots/payment-provider-choice.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -380,6 +434,60 @@
         "id": "payments.provider-choice",
         "name": "An organiser chooses a payment provider",
         "uri": "specs/payments/payment-provider-choice.feature"
+      }
+    },
+    "place-lost-while-paying": {
+      "case": {
+        "id": "payment.place-lost",
+        "name": "Another customer takes the last place before confirmation"
+      },
+      "id": "place-lost-while-paying",
+      "image": {
+        "height": 536,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "3fc05b71707a5e7f691548eed263647c35363095160824ab15e0bd66a156ff35",
+        "src": "/images/screenshots/place-lost-while-paying.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 772
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "The organiser can see the customer and the reason no place was booked.",
+        "id": "payments.late-customer-is-kept-and-refunded",
+        "name": "A paid customer who loses the place is kept and refunded once"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "a paid listing became full while a customer paid"
+        },
+        {
+          "keyword": "When",
+          "text": "the late payment confirmation arrives"
+        },
+        {
+          "keyword": "Then",
+          "text": "the late customer is kept without a quantity"
+        },
+        {
+          "keyword": "And",
+          "text": "the late payment is refunded once"
+        },
+        {
+          "keyword": "And",
+          "text": "the organiser can see why the booking failed"
+        }
+      ],
+      "story": {
+        "description": "A customer may finish payment after another customer takes the last place.\nThe customer must not be lost or charged without a clear outcome.",
+        "id": "payments.capacity-after-payment",
+        "name": "A paid booking loses the last available place",
+        "uri": "specs/payments/capacity-after-payment.feature"
       }
     },
     "qr-code-check-in": {

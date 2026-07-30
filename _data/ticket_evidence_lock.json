@@ -1,13 +1,13 @@
 {
   "app": {
-    "commit": "d809473e57fdddfe17c45a0aa7761e303869ce37",
+    "commit": "d7d404f39af9005b455d65d73793d2b16d13f124",
     "repository": "chobbledotcom/tickets"
   },
-  "artifactSha256": "7c01660337d7dcb92609bdcaef2cab173480168d0d2f7d61d57e55a24572c862",
+  "artifactSha256": "a869bc05b89bae928f2da121355aced53417e9dc638529435a078eed4a714539",
   "files": {
-    "_data/ticket_evidence.json": "4d894d5e5407f77e818e74b6e9277a1910f6ef7f1079f0d0c5adc7910fda5397",
-    "images/screenshots/api-keys-list.png": "6c190a547ce8edb72e2024ff6c9b34746f8a1b631482bd06e7f5f879e48e3217",
-    "images/screenshots/api-keys-list__facebook.png": "d947807c7aca4d5fa7e340694d3f6398abbceed997f13d589d95008905b9ec41",
+    "_data/ticket_evidence.json": "e73606523a363b83924ae3bc6cee8e08875ebe076f2c97d04b9d06f5cdf2c844",
+    "images/screenshots/api-keys-list.png": "10d36a9f982d8b3f6056c5874c0d8f58c21115209ae0be0f1e761d4495b6de49",
+    "images/screenshots/api-keys-list__facebook.png": "5cf153b1b439ff2d4220906da3f2c8197d4ae78ad700a83c002f71854705136b",
     "images/screenshots/deposits-and-balance-payments.png": "ff80a745a8f1d0ed736a6f46b2c592e622a997eef1eab56e36fef5997b43338f",
     "images/screenshots/deposits-and-balance-payments__facebook.png": "aaf450bb68c2f4b11023ec25e9b8fe30c93e357f4403b4bd1f9ae2f3724f9cf3",
     "images/screenshots/garden-party-package-checkout.png": "1bd6e6e1d417c33da0c5b8b41c79e138d3ca99320a76d9c89eacacaaf3617bf1",
@@ -16,8 +16,10 @@
     "images/screenshots/manual-attendee-community-supper__facebook.png": "2a60745ffefbe11915c567ce93ce1bd983e40c662d1389ac9b4d51596d2a4484",
     "images/screenshots/oakfield-public-website.png": "9d33eea9fc5b64421e45b1203ed7ace529b9839e1cdcdc9317c96d28ec756dd5",
     "images/screenshots/oakfield-public-website__facebook.png": "0990a6c21d2377ed8c921809845f5feb21d5e98358403a0a75e4642427df5302",
-    "images/screenshots/payment-provider-choice.png": "5666e83e1414d6deb0cb39e20a73b3930364cfd2b7d93d269e479b73b380bbd8",
-    "images/screenshots/payment-provider-choice__facebook.png": "b35a0c16c070076d1563056d34c97b5fec5308b8cac804256424a71725d30e35",
+    "images/screenshots/payment-provider-choice.png": "ebd9d9be55172674af60520e8ce6bbad23ffb62a240e36ff1a3403053d25f565",
+    "images/screenshots/payment-provider-choice__facebook.png": "0af74e11fa36ca230857e073ab901b549ca73f2fb34547102cc085d854c84d5b",
+    "images/screenshots/place-lost-while-paying.png": "3fc05b71707a5e7f691548eed263647c35363095160824ab15e0bd66a156ff35",
+    "images/screenshots/place-lost-while-paying__facebook.png": "b02fe18d4f4603976361fa037c34a270698b09c96711e0c09519aa48b141b9a6",
     "images/screenshots/qr-code-check-in.png": "2c71a0317281f3c5dd750a802168ca51f3c431181e42220400f178eba0bacce6",
     "images/screenshots/qr-code-check-in__facebook.png": "d6b8fee4cb1fe0cca8786669e21d41f0193e5a1cc64088e13a803085465a310e",
     "images/screenshots/refunded-booking.png": "c9e29027061c6956ea447d720bdce833ce5e2b875816943102a1be020e2d5dc7",
@@ -29,7 +31,9 @@
     "images/screenshots/summer-arts-fair-ledger.png": "8a040fda43c19b960a4aee3924b3ab7374bdf156be8c8006ecce43a338408f16",
     "images/screenshots/summer-arts-fair-ledger__facebook.png": "d9128aa6c6c86a349c7ff574abed4c7cc1ce19be330ab6fb3538f7da86390822",
     "images/screenshots/summer-fair-volunteer-form.png": "4a9d28426f4713997a529ff3c759686eaae5f96146f28ea7d64e768577668b13",
-    "images/screenshots/summer-fair-volunteer-form__facebook.png": "b9e06418a42fdddd1270a767ac204efa9cd8ee7630d66d47ada9d8d13c50d890"
+    "images/screenshots/summer-fair-volunteer-form__facebook.png": "b9e06418a42fdddd1270a767ac204efa9cd8ee7630d66d47ada9d8d13c50d890",
+    "images/screenshots/the-tempest-group-checkout.png": "a3a2d17a2f62a5d077f060d318dac84bca81348cda9801355c19308b3b331508",
+    "images/screenshots/the-tempest-group-checkout__facebook.png": "735097cde9c6ff9f95405e59d4d3ab0ca7dc6e65393fb15c7944672c613b3bf2"
   },
   "schemaVersion": 2,
   "socialCopy": {
@@ -37,9 +41,11 @@
     "balance-payment-link": "16ec0391c2bc678ff78ec43d57e2a63c33531c54db1d0640ae76b32f166a485a",
     "bundle-booking-page": "774be320547c5101236c627e6b1c921a305a72e8572e48d46b3b4d827ade7cd4",
     "contact-record": "d5b3946d4c949881d3d52dc687e49eeed574932b6d63bf03e497fc8929bede70",
+    "group-booking-arrives": "aed86d58a6414c84c58d74361e033942d1fb6fc13b7dc495ce26ec746285cd9d",
     "listing-ledger": "4fda24c0318ebd5941850ac50bf799ea86f103ac0cb28fe05db2035686d6bada",
     "page-anybody-can-read": "5c1eb3e7e6ba5988b9f21a5fcb71065568d52eb2c9e603adab286f3de6241124",
     "payment-provider-choice": "912e2537f1efbb0a4875344e287604a3d3efbde5d80c47337ea4c364c6e16051",
+    "place-lost-while-paying": "463321da80fbf17145e719ab2a8cc6fe3958b02f35b4721cd414ef2530af5b5c",
     "qr-code-check-in": "9d19d7f3b0762b529e94c9854c5f626d99f212d1bbff44ebc2832322d5dd374a",
     "refunded-booking": "e4076b2ad5bf505281f5876cef8c5c5bd52d6de86b00abee782f6debbe2fb65f",
     "servicing-studio-floor-hold": "4b3296c7f28f512e8e352cb15681506f8276c6ea4940ba4938269682cea2e308",
