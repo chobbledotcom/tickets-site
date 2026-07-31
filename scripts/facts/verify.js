@@ -17,6 +17,7 @@
  */
 
 import { SOCIAL_IMAGE_FACTS } from "../../facts/social-images.js";
+import { parseOptions } from "../review-args.js";
 
 const DEFAULT_TICKETS = "../tickets";
 
@@ -56,10 +57,27 @@ export const countLines = (text) => {
   return pieces.at(-1) === "" ? pieces.length - 1 : pieces.length;
 };
 
+/** A range naming no line at all is a broken citation, not a resolving one.
+ * Line numbering starts at 1, and a range cannot end before it starts. */
+export const rangeProblem = ({ end, start }) => {
+  if (!Number.isInteger(start) || start < 1) return "does not start at a line";
+  if (!Number.isInteger(end) || end < start) return "ends before it starts";
+  return null;
+};
+
 const checkSource = async (tickets, commit, source) => {
-  const { end, path } = parseSource(source);
+  const { end, path, start } = parseSource(source);
+  const broken = rangeProblem({ end, start });
+  if (broken) return `${source}: ${broken}`;
   const file = await run(tickets, ["show", `${commit}:${path}`]);
   if (!file.ok) return `${source}: no such file at ${commit.slice(0, 7)}`;
+  // `git show <commit>:<dir>` succeeds and prints a tree listing, so a
+  // citation naming a directory would otherwise resolve and be counted as
+  // though its listing were source lines.
+  const type = await run(tickets, ["cat-file", "-t", `${commit}:${path}`]);
+  if (type.stdout.trim() !== "blob") {
+    return `${source}: is not a file at ${commit.slice(0, 7)}`;
+  }
   const lines = countLines(file.stdout);
   return end > lines
     ? `${source}: file has ${lines} lines at ${commit.slice(0, 7)}`
@@ -92,11 +110,20 @@ export const verifyFacts = async (tickets, facts = SOCIAL_IMAGE_FACTS) => {
   return problems;
 };
 
-const ticketsFrom = (argv) => {
-  const index = argv.indexOf("--tickets");
-  if (index === -1) return DEFAULT_TICKETS;
-  if (!argv[index + 1]) throw new Error("--tickets needs a directory");
-  return argv[index + 1];
+/**
+ * A mistyped `--ticket` used to fall through to the default checkout, so the
+ * command could report that everything resolved after verifying a repository
+ * the caller never named.
+ */
+export const ticketsFrom = (argv) => {
+  const parsed = parseOptions(argv, ["--tickets"], { valued: ["--tickets"] });
+  if (parsed.names.length > 0) {
+    throw new Error(`Unexpected argument(s): ${parsed.names.join(", ")}.`);
+  }
+  if (!parsed.flags["--tickets"]) return DEFAULT_TICKETS;
+  const tickets = parsed.valueOf("--tickets");
+  if (!tickets) throw new Error("--tickets needs a directory");
+  return tickets;
 };
 
 const countSources = (facts) =>

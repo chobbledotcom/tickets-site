@@ -2,7 +2,11 @@ import { describe, expect, test } from "bun:test";
 import { SOCIAL_IMAGE_FACTS } from "../facts/social-images.js";
 import { factsDigest } from "../scripts/facts/digest.js";
 import { parseReviewArgs } from "../scripts/facts/review.js";
-import { countLines } from "../scripts/facts/verify.js";
+import {
+  countLines,
+  rangeProblem,
+  ticketsFrom,
+} from "../scripts/facts/verify.js";
 import { SOCIAL_SCREENSHOT_COPY } from "../scripts/social-screenshot-copy.js";
 
 const SOURCE_REFERENCE = /^\.\.\/tickets\/.+:\d+(?:-\d+)?$/;
@@ -83,6 +87,31 @@ describe("facts review arguments", () => {
     expect(() => parseReviewArgs(["multi-day-hire", "--accep"])).toThrow(
       "--accep",
     );
+  });
+});
+
+describe("facts verify arguments", () => {
+  test("read the tickets directory", () => {
+    expect(ticketsFrom(["--tickets", "../elsewhere"])).toBe("../elsewhere");
+    expect(ticketsFrom([])).toBe("../tickets");
+  });
+
+  // A mistyped option used to fall back to the default checkout, so the
+  // command could report success having verified a repository nobody named.
+  test("refuse a mistyped option or a stray argument", () => {
+    expect(() => ticketsFrom(["--ticket", "../elsewhere"])).toThrow("--ticket");
+    expect(() => ticketsFrom(["../elsewhere"])).toThrow("Unexpected");
+    expect(() => ticketsFrom(["--tickets"])).toThrow("needs a directory");
+  });
+});
+
+describe("checking a cited range", () => {
+  // Line numbering starts at 1, and a range cannot end before it starts.
+  // Neither names a line, so neither is a citation that resolves.
+  test("refuses a range that names no line", () => {
+    expect(rangeProblem({ end: 0, start: 0 })).toBe("does not start at a line");
+    expect(rangeProblem({ end: 20, start: 30 })).toBe("ends before it starts");
+    expect(rangeProblem({ end: 5, start: 1 })).toBeNull();
   });
 });
 

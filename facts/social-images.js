@@ -62,7 +62,7 @@ export const SOCIAL_IMAGE_FACTS = {
     ],
   },
   "api-keys-list": {
-    reviewed: "e4d0b4ef01942a2dccbab2edd02874bc5886da304e6b344685f2c14cf9727ad5",
+    reviewed: "aa5644d7ffc6616e205d4018578ce486e02e7e30188de203f4f773e431888e1f",
     facts: [
       {
         audited: "fb20681f5c7986d47dba5c666a332eaa4271f45e",
@@ -79,6 +79,13 @@ export const SOCIAL_IMAGE_FACTS = {
         sources: [
           "../tickets/src/shared/db/api-keys.ts:103-111",
           "../tickets/specs/servicing/letting-another-system-in.feature:25-58",
+        ],
+      },
+      {
+        audited: "fb20681f5c7986d47dba5c666a332eaa4271f45e",
+        fact: "A key can be taken back. The owner confirms by typing its name, and once it is gone that key is refused straight away.",
+        sources: [
+          "../tickets/specs/servicing/letting-another-system-in.feature:84-98",
         ],
       },
     ],
@@ -235,7 +242,7 @@ export const SOCIAL_IMAGE_FACTS = {
     ],
   },
   "deposits-and-balance-payments": {
-    reviewed: "b09f5124878e41d354a155443a2e13333fda93a3002780d291cb37779226796e",
+    reviewed: "09f751712c4b9361affc0e463349176bf5cc5847cc71ed1d2753f008dd318ab3",
     facts: [
       {
         audited: "5c4194e7a3eb20712526769c8a1821525c94aa47",
@@ -251,6 +258,13 @@ export const SOCIAL_IMAGE_FACTS = {
         sources: [
           "../tickets/src/features/public/balance.ts:32-115",
           "../tickets/src/ui/templates/public/balance.tsx:33-51",
+        ],
+      },
+      {
+        audited: "fb20681f5c7986d47dba5c666a332eaa4271f45e",
+        fact: "A deposit paid against an order is recorded when it is taken, leaving the rest owing on the books and on the page the organiser reads, until settling it clears both.",
+        sources: [
+          "../tickets/specs/payments/paying-a-deposit.feature:9-21",
         ],
       },
     ],
@@ -408,7 +422,7 @@ export const SOCIAL_IMAGE_FACTS = {
     ],
   },
   "industry-personal-trainer": {
-    reviewed: "06d18b77a9efe691bb878cdef4a057620b24aba862bf99ca33a2b8907c902597",
+    reviewed: "e50b07b07f4a68a6c84ef60ce91e7695bcd876ac91f54452da180011736136b3",
     facts: [
       {
         audited: "5c4194e7a3eb20712526769c8a1821525c94aa47",
@@ -424,6 +438,14 @@ export const SOCIAL_IMAGE_FACTS = {
         sources: [
           "../tickets/src/features/public/ticket-submit.ts:151-199",
           "../tickets/src/features/public/ticket-payment.ts:126-175",
+        ],
+      },
+      {
+        audited: "5c4194e7a3eb20712526769c8a1821525c94aa47",
+        fact: "Checkout questions support radio, select and free-text answers, so a session booking can collect intake answers before payment.",
+        sources: [
+          "../tickets/src/shared/db/question-types.ts:12-29",
+          "../tickets/src/ui/templates/components/question-controls.tsx:33-80",
         ],
       },
     ],
@@ -893,7 +915,7 @@ export const SOCIAL_IMAGE_FACTS = {
     ],
   },
   "summer-fair-volunteer-form": {
-    reviewed: "bc7ae4c3b8e08c996bfe9dde9afbc7cf4c0e9a4af05bef8daee66706df29e22d",
+    reviewed: "06084987eb08476972bb042dca26c4339b1ae88d5da4bc0e6dcdebad64e6cd70",
     facts: [
       {
         audited: "5c4194e7a3eb20712526769c8a1821525c94aa47",
@@ -910,10 +932,17 @@ export const SOCIAL_IMAGE_FACTS = {
           "../tickets/src/features/public/ticket-submit/paths.ts:92-172",
         ],
       },
+      {
+        audited: "fb20681f5c7986d47dba5c666a332eaa4271f45e",
+        fact: "Each volunteer shift is its own listing with its own places, and a volunteer signing up for one shares an access need the organiser sees against that shift.",
+        sources: [
+          "../tickets/specs/bookings/volunteer-sign-up.feature:5-18",
+        ],
+      },
     ],
   },
   "team-users": {
-    reviewed: "76ab44ff1fc30131c35735701aca5524b49468d1ce5fb54399a79b2cf2091015",
+    reviewed: "3cb3b6b8ef11a70e241df3528021560c43cfb3f69ce5a9acb9a7da50ea459b22",
     facts: [
       {
         audited: "fb20681f5c7986d47dba5c666a332eaa4271f45e",
@@ -931,6 +960,14 @@ export const SOCIAL_IMAGE_FACTS = {
           "../tickets/src/shared/types.ts:577-647",
           "../tickets/src/ui/templates/fields/admin.ts:331-361",
           "../tickets/src/features/admin/users.ts:298-346",
+        ],
+      },
+      {
+        audited: "fb20681f5c7986d47dba5c666a332eaa4271f45e",
+        fact: "A role decides which pages a person can open. An editor works on listings, groups and site pages, and asking for the attendees, money, people or settings pages outright is refused.",
+        sources: [
+          "../tickets/specs/servicing/what-an-editor-can-do.feature:6-13",
+          "../tickets/specs/servicing/what-an-editor-can-do.feature:49-65",
         ],
       },
     ],
