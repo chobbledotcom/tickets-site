@@ -306,10 +306,19 @@
   "ticketsource_stripe": {
     "name": "TicketSource (own Stripe)",
     "annual_cost": 0,
-    "per_ticket_fee_percent": 4.5,
+    "per_ticket_fee_percent": 0,
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
     "fee_note": "TicketSource booking fee when you connect your own Stripe account: 4.5% per paid booking excluding VAT, minimum £0.25, plus Stripe processing (1.5% + 20p) charged to you directly. The fee is charged per booking, so a multi-ticket booking is charged once. Registered charities pay 4%. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: ticketsource.co.uk/pricing (July 2026)."
+  },
+  "ticket_generator": {
+    "name": "Ticket Generator",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0.47,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Ticket Generator credit packs: 10 credits for $6, 100 for $50, 1,000 for $400 and 10,000 for $2,500 (one credit generates one ticket; events with a venue layout use two credits per ticket). The first 10 credits are free and credits do not expire. This estimate uses the smallest pack rate of $0.60 per ticket (about £0.47); bulk packs reduce the per-ticket cost to as little as $0.25 (about £0.20) at 10,000 credits. Credits apply to free and paid tickets alike. Payment processing for collected payments is not published separately, so UK Stripe processing (1.5% + 20p) is shown as a typical assumption. Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p), with no charge for issuing tickets on free events. Source: ticket-generator.com/pricing (July 2026)."
   }
 }

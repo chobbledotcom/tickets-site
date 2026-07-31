@@ -14,7 +14,7 @@ provider_facts:
     - eventprime_professional
     - eventprime_business
   last_reviewed: "2026-07-27"
-  registration_country: not-documented
+  registration_country: canada
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: none

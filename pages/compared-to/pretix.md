@@ -16,7 +16,7 @@ provider_facts:
     - pretix_hosted
     - pretix_selfhosted
   last_reviewed: "2026-07-28"
-  registration_country: not-documented
+  registration_country: germany
   ethical_basis:
     - owner-led
     - self-described-independent

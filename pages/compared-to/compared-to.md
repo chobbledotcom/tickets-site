@@ -97,6 +97,9 @@ blocks:
         description: A US ticketing platform for music venues, theatres and comedy clubs, built around WordPress. Compare pricing, features and data handling.
         name: <a href="/compared-to/tessera-tickets/">Tessera Tickets alternative</a>
       - icon: hugeicons:ticket-01
+        description: A pay-as-you-go ticketing platform sold as prepaid ticket credits, including reserved seating, box office and custom ticket design. Compare pricing, features and data handling.
+        name: <a href="/compared-to/ticket-generator/">Ticket Generator alternative</a>
+      - icon: hugeicons:ticket-01
         description: An independently owned B Corp ticketing platform from London with flat per-ticket fees. Compare pricing, features and data handling.
         name: <a href="/compared-to/ticket-tailor/">Ticket Tailor alternative</a>
       - icon: hugeicons:ticket-01

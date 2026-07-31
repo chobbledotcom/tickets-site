@@ -141,8 +141,10 @@ const ENUMS = {
   ]),
   registration_country: new Set([
     "australia",
+    "canada",
     "france",
     "germany",
+    "india",
     "ireland",
     "israel",
     "not-documented",

@@ -13,7 +13,7 @@ provider_facts:
   calculator_keys:
     - tessera_tickets
   last_reviewed: "2026-07-25"
-  registration_country: not-documented
+  registration_country: united-states
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: none

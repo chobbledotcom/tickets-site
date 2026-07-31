@@ -13,7 +13,7 @@ provider_facts:
   calculator_keys:
     - ticket_tailor
   last_reviewed: "2026-07-25"
-  registration_country: not-documented
+  registration_country: united-kingdom
   ethical_basis:
     - certified-b-corporation
     - independently-owned

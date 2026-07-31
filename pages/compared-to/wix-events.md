@@ -13,7 +13,7 @@ provider_facts:
   calculator_keys:
     - wix_events
   last_reviewed: "2026-07-25"
-  registration_country: not-documented
+  registration_country: israel
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: percentage
