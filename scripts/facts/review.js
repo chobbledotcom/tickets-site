@@ -19,6 +19,7 @@
 
 import { join } from "node:path";
 import { SOCIAL_IMAGE_FACTS } from "../../facts/social-images.js";
+import { parseOptions } from "../review-args.js";
 import { SOCIAL_SCREENSHOT_COPY } from "../social-screenshot-copy.js";
 import { root } from "../utils.js";
 import { factsDigest } from "./digest.js";
@@ -101,25 +102,9 @@ const selectedKeys = (requested) => {
 
 const OPTIONS = ["--accept"];
 
-/**
- * A mistyped `--accep` used to be dropped as though it were never passed: the
- * report printed, the command succeeded, and the pair stayed unrecorded while
- * the reader believed they had accepted it. A silent no-op is the one failure
- * this command cannot afford, so an unknown option stops it.
- */
 export const parseReviewArgs = (argv) => {
-  const unknown = argv.filter(
-    (arg) => arg.startsWith("-") && !OPTIONS.includes(arg),
-  );
-  if (unknown.length > 0) {
-    throw new Error(
-      `Unknown option(s): ${unknown.join(", ")}. Known: ${OPTIONS.join(", ")}.`,
-    );
-  }
-  return {
-    accept: argv.includes("--accept"),
-    keys: argv.filter((arg) => !arg.startsWith("-")),
-  };
+  const parsed = parseOptions(argv, OPTIONS);
+  return { accept: parsed.flags["--accept"], keys: parsed.names };
 };
 
 const main = async () => {
