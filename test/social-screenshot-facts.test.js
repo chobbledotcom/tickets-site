@@ -1,6 +1,8 @@
 import { describe, expect, test } from "bun:test";
 import { SOCIAL_IMAGE_FACTS } from "../facts/social-images.js";
 import { factsDigest } from "../scripts/facts/digest.js";
+import { parseReviewArgs } from "../scripts/facts/review.js";
+import { countLines } from "../scripts/facts/verify.js";
 import { SOCIAL_SCREENSHOT_COPY } from "../scripts/social-screenshot-copy.js";
 
 const SOURCE_REFERENCE = /^\.\.\/tickets\/.+:\d+(?:-\d+)?$/;
@@ -63,5 +65,33 @@ describe("social screenshot facts", () => {
     for (const [key, entry] of Object.entries(SOCIAL_IMAGE_FACTS)) {
       expect(entry.reviewed, key).toMatch(DIGEST);
     }
+  });
+});
+
+describe("facts review arguments", () => {
+  test("read a key and the accept flag", () => {
+    expect(parseReviewArgs(["multi-day-hire", "--accept"])).toEqual({
+      accept: true,
+      keys: ["multi-day-hire"],
+    });
+  });
+
+  // A mistyped flag used to be dropped, so the command printed the report and
+  // exited 0 while recording nothing. Succeeding without accepting is the one
+  // outcome that leaves a reader believing a pair was read when it was not.
+  test("refuse an option that is not known", () => {
+    expect(() => parseReviewArgs(["multi-day-hire", "--accep"])).toThrow(
+      "--accep",
+    );
+  });
+});
+
+describe("counting the lines of a cited file", () => {
+  // A file ending in a newline splits into a final empty piece. Counting it
+  // would let a citation one line past the end pass the range check.
+  test("does not count the piece after a trailing newline", () => {
+    expect(countLines("one\ntwo\n")).toBe(2);
+    expect(countLines("one\ntwo")).toBe(2);
+    expect(countLines("")).toBe(0);
   });
 });

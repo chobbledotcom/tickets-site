@@ -311,7 +311,7 @@ export const SOCIAL_IMAGE_FACTS = {
     ],
   },
   groups: {
-    reviewed: "fe283012c0112a3438a067c4a534163b8caae6c42d36ed9319faf0ec7c7db9d5",
+    reviewed: "2a8c21ea8c8c9f0b2857d92443c4a3fe2932310c54d2f3f3f922d94574e68858",
     facts: [
       {
         audited: "5c4194e7a3eb20712526769c8a1821525c94aa47",
@@ -327,6 +327,13 @@ export const SOCIAL_IMAGE_FACTS = {
         sources: [
           "../tickets/src/ui/templates/fields/group.ts:24-31",
           "../tickets/src/shared/db/attendees/capacity/groups.ts:40-89",
+        ],
+      },
+      {
+        audited: "fb20681f5c7986d47dba5c666a332eaa4271f45e",
+        fact: "A booking made on a group page reaches the organiser with the person, their contact details and the answer they chose.",
+        sources: [
+          "../tickets/specs/bookings/book-through-the-site.feature:10-22",
         ],
       },
     ],

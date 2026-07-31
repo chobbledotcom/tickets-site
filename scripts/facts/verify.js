@@ -48,11 +48,19 @@ const run = async (tickets, args) => {
 const commitPresent = async (tickets, commit) =>
   (await run(tickets, ["cat-file", "-e", `${commit}^{commit}`])).ok;
 
+/** A file that ends in a newline splits into a final empty piece, which is not
+ * a line. Counting it would let a citation one line past the end pass, which
+ * is the mistake this check exists to catch. */
+export const countLines = (text) => {
+  const pieces = text.split("\n");
+  return pieces.at(-1) === "" ? pieces.length - 1 : pieces.length;
+};
+
 const checkSource = async (tickets, commit, source) => {
   const { end, path } = parseSource(source);
   const file = await run(tickets, ["show", `${commit}:${path}`]);
   if (!file.ok) return `${source}: no such file at ${commit.slice(0, 7)}`;
-  const lines = file.stdout.split("\n").length;
+  const lines = countLines(file.stdout);
   return end > lines
     ? `${source}: file has ${lines} lines at ${commit.slice(0, 7)}`
     : null;
