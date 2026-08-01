@@ -204,6 +204,7 @@ pages are listed separately at the end.
 | `pages/compared-to/google-forms.md` | Diagram: `google-forms-ticket-workflow` | Community Supper has 80 places, a £10 price, dietary questions and door entry. Compare Form, Sheet, payment link, manual capacity, email merge and printed list with Chobble's connected flow. | Makes the extra coordination visible. |
 | `pages/compared-to/pen-and-paper.md` | Diagram: `paper-versus-online-scale` | Compare a 20-person neighbourhood dinner using a clipboard and cash tin with Oakfield Summer Disco using payment, capacity, confirmation and QR scanning. | Fairly shows the point where software starts solving more than it adds. |
 | `pages/compared-to/yo-rent.md` | Comparison graphic: `single-operator-versus-marketplace` | Willow owns eight marquees and two vans; Northern Gear Exchange lets 60 owners list 2,000 items. Compare one operator's booking and run sheet with vendors, commissions, deposits, contracts and ratings. | Explains the business-model difference before software price. |
+| `pages/compared-to/sumup-store.md` | Comparison graphic: `sumup-store-ticket-item` | Oakfield sells 200 £15 workshop tickets through a SumUp store item with a stock figure, beside Chobble's event with capacity, QR check-in, refunds and attendee emails. Show the 2.5% online payment fee on both sides, since Chobble can use SumUp for processing. | Shows that a shop's item workflow does not cover the jobs an event creates. |
 
 ## Utility Pages
 

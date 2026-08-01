@@ -90,6 +90,9 @@ blocks:
       - icon: hugeicons:ticket-01
         description: The volunteer sign-up sheet tool that added ticketing. Compare purpose-built ticketing vs a coordination platform.
         name: <a href="/compared-to/signupgenius/">SignUpGenius alternative</a>
+      - icon: hugeicons:package
+        description: A free e-commerce store from the payment company SumUp. Compare selling tickets as shop items with purpose-built ticketing.
+        name: <a href="/compared-to/sumup-store/">SumUp Online Store alternative</a>
       - icon: hugeicons:ticket-01
         description: The managed service built on open source alf.io. Compare features, pricing and data handling.
         name: <a href="/compared-to/swicket/">Swicket alternative</a>
