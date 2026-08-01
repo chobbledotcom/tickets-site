@@ -17,6 +17,8 @@
 		"screenshot:scenarios": "bun scripts/screenshot-scenarios.js",
 		"screenshot:text": "bun scripts/add-social-screenshot-text.js",
 		"evidence:import": "bun scripts/evidence/import.js",
+		"facts:review": "bun scripts/facts/review.js",
+		"facts:verify": "bun scripts/facts/verify.js",
 		"evidence:validate": "bun scripts/evidence/validate.js",
 		"evidence:review": "bun scripts/evidence/review.js",
 		"clean": "rm -rf .build _site",

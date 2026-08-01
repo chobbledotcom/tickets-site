@@ -19,6 +19,7 @@ import {
   socialImagePath,
 } from "../scripts/evidence/copy.js";
 import { reviewDigest } from "../scripts/evidence/narrative.js";
+import { factsDigest } from "../scripts/facts/digest.js";
 import {
   importEvidence,
   validateCommittedEvidence,
@@ -328,14 +329,24 @@ const COPY_RULES = [
   },
 ];
 
+const A_CAPTURE_COPY = {
+  body: "A body about the thing.",
+  heading: "A heading",
+};
+const A_CAPTURE_FACT_LIST = [
+  { audited: "0".repeat(40), fact: "A fact.", sources: ["../tickets/a:1"] },
+];
+const aCaptureFacts = () => ({
+  facts: A_CAPTURE_FACT_LIST,
+  reviewed: factsDigest(A_CAPTURE_COPY, A_CAPTURE_FACT_LIST),
+});
+
 const copyInputs = () => ({
   gallery: `      - image: /${socialImagePath(IMAGE)}\n        caption: ${placement().galleryCaption}\n`,
   mapping: { captures: { [CAPTURE_ID]: placement() } },
   markdownFiles: [],
-  socialCopy: {
-    "a-capture": { body: "A body about the thing.", heading: "A heading" },
-  },
-  socialFacts: { "a-capture": [{ fact: "A fact.", sources: ["../tickets/a:1"] }] },
+  socialCopy: { "a-capture": A_CAPTURE_COPY },
+  socialFacts: { "a-capture": aCaptureFacts() },
 });
 
 /**

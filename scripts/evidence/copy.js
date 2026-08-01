@@ -5,6 +5,8 @@
  * migrated capture cannot leave a stale description behind on another page.
  */
 
+import { factsDigest } from "../facts/digest.js";
+
 /** Every directory whose Markdown becomes a rendered page. A capture's images
  * may only be named in two of those files, so all three are searched. */
 export const CONTENT_DIRECTORIES = ["guide-categories", "guide-pages", "pages"];
@@ -124,16 +126,30 @@ const socialCopyIssues = (captureId, mapping, socialCopy, socialFacts) => {
     ["heading", copy.heading, mapping.socialHeading],
     ["body", copy.body, mapping.socialBody],
   ].filter(([, actual, expected]) => actual !== expected);
-  const facts = socialFacts[mapping.socialKey] ?? [];
   return [
     ...wrong.map(
       ([field, actual, expected]) =>
         `${captureId}: the social ${field} is "${actual}" but the mapping says "${expected}"`,
     ),
-    ...(facts.length === 0
-      ? [`${captureId}: has no audited facts for ${mapping.socialKey}`]
-      : []),
+    ...factIssues(captureId, mapping.socialKey, copy, socialFacts),
   ];
+};
+
+/**
+ * Asking only whether a key had facts let a card claim something none of them
+ * mentioned. What is checked instead is that somebody read the two together:
+ * the digest covers the copy and every fact behind it, so rewording either
+ * side asks for the pair to be read again.
+ */
+const factIssues = (captureId, socialKey, copy, socialFacts) => {
+  const entry = socialFacts[socialKey];
+  if (!entry) return [`${captureId}: has no audited facts for ${socialKey}`];
+  return factsDigest(copy, entry.facts) === entry.reviewed
+    ? []
+    : [
+        `${captureId}: the copy for ${socialKey} has not been read against its facts` +
+          ` since one of them changed. Run "bun run facts:review ${socialKey}".`,
+      ];
 };
 
 /** Where a capture's images are allowed to be named: its own page, and the

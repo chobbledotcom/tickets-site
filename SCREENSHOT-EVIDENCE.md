@@ -54,7 +54,10 @@ ready to be evidence; upgrade the story until it can.
    migrated screenshot cannot leave a stale description behind.
 4. **Every capture is in the gallery, exactly once.**
 5. **Every capture has audited facts** under its `socialKey` in
-   `facts/social-images.js`.
+   `facts/social-images.js`, and the copy has been read against them. Each
+   entry records a digest over the card's words and the facts behind them, so
+   rewording a card asks for the pair to be read again. Run
+   `bun run facts:review <socialKey>`, then `--accept`.
 6. **A mapped page shows its screenshot once**, in one evidence block, and
    names it nowhere else. A second block or a Markdown image renders the same
    screenshot twice where nothing would check its words.

@@ -16,6 +16,7 @@
  */
 
 import { join } from "node:path";
+import { parseOptions } from "../review-args.js";
 import { root } from "../utils.js";
 import { loadEvidenceArtifact } from "./artifact.js";
 import { EVIDENCE_DATA_PATH, EVIDENCE_MAPPING_PATH } from "./constants.js";
@@ -134,26 +135,12 @@ const selectedIds = (mapping, requested) => {
 const OPTIONS = ["--accept", "--from"];
 
 export const parseReviewArgs = (argv) => {
-  const unknown = argv.filter(
-    (arg) => arg.startsWith("-") && !OPTIONS.includes(arg),
-  );
-  if (unknown.length > 0) {
-    throw new Error(
-      `Unknown option(s): ${unknown.join(", ")}. Known: ${OPTIONS.join(", ")}.`,
-    );
-  }
-  const fromIndex = argv.indexOf("--from");
-  if (fromIndex !== -1 && !argv[fromIndex + 1]) {
+  const parsed = parseOptions(argv, OPTIONS, { valued: ["--from"] });
+  const from = parsed.valueOf("--from");
+  if (argv.includes("--from") && !from) {
     throw new Error("--from needs an artifact directory");
   }
-  return {
-    accept: argv.includes("--accept"),
-    from: fromIndex === -1 ? null : argv[fromIndex + 1],
-    ids: argv.filter(
-      (arg, index) =>
-        !arg.startsWith("--") && !(fromIndex !== -1 && index === fromIndex + 1),
-    ),
-  };
+  return { accept: parsed.flags["--accept"], from, ids: parsed.names };
 };
 
 const main = async () => {

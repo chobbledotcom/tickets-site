@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 import { join, relative, resolve } from "node:path";
 import { Glob } from "bun";
 import { SOCIAL_IMAGE_FACTS } from "../facts/social-images.js";
+import { factsDigest } from "../scripts/facts/digest.js";
 import { FEATURE_SOURCE_PREFIX } from "../scripts/evidence/constants.js";
 import { featureSourceUrl } from "../scripts/evidence/mapping.js";
 import {
@@ -146,13 +147,25 @@ describe("evidence copy checks", () => {
     socialHeading: "A heading.",
     socialKey: "example",
   };
+  const exampleCopy = { body: "A body.", heading: "A heading." };
+  const exampleFactList = [
+    {
+      audited: "0".repeat(40),
+      fact: "A fact.",
+      sources: ["../tickets/a:1"],
+    },
+  ];
+  const exampleFacts = {
+    facts: exampleFactList,
+    reviewed: factsDigest(exampleCopy, exampleFactList),
+  };
   const inputs = (overrides = {}) => ({
     gallery:
       "      - image: /images/screenshots/example__facebook.png\n        caption: A caption.\n",
     mapping: { captures: { example: placement } },
     markdownFiles: [],
-    socialCopy: { example: { body: "A body.", heading: "A heading." } },
-    socialFacts: { example: [{ fact: "A fact.", sources: ["../tickets/a:1"] }] },
+    socialCopy: { example: exampleCopy },
+    socialFacts: { example: exampleFacts },
     ...overrides,
   });
 
@@ -191,6 +204,11 @@ describe("evidence copy checks", () => {
     ],
     ["missing social copy", { socialCopy: {} }, "no social copy"],
     ["missing audited facts", { socialFacts: {} }, "no audited facts"],
+    [
+      "facts not read against the copy",
+      { socialFacts: { example: { ...exampleFacts, reviewed: "0".repeat(64) } } },
+      "has not been read against its facts",
+    ],
     [
       "another page describing the image",
       {
