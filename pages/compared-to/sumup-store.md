@@ -105,7 +105,9 @@ blocks:
       SumUp personal card cost 0%.
 
       Money from sales lands in the SumUp Business Account by 7am the next
-      day.
+      day, including weekends and bank holidays. The same applies when your
+      SumUp account is connected to Chobble Tickets. With Stripe, payouts
+      follow Stripe's own schedule.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -123,31 +125,32 @@ blocks:
       - A public website with templates and your own branding
       - A custom domain for the store or event site
       - Discount codes and sales promotions
-      - Order confirmations by email
+      - Editable order confirmation emails
       - Real-time sales reports
       - Limits you set yourself (item stock or event capacity)
   - type: markdown
     content: |
       ### The SumUp Online Store has features Chobble Tickets doesn't
 
-      - **Physical products** - sell merchandise, concessions and goods as
-        well as tickets, with shipment tracking and restock alerts
-      - **Shipping and delivery** - set delivery methods, shipping costs and
-        in-store pickup at checkout
+      - **Physical products and delivery** - sell merchandise, concessions
+        and goods alongside tickets, with delivery methods, shipping costs,
+        shipment tracking and restock alerts. Chobble can take payment for
+        physical items too, using [purchasable
+        events](/features/purchasable-events/) or [add-ons](/features/promo-codes-and-add-ons/),
+        with capacity or stock limits, but has no checkout shipping
+        methods, parcel tracking or restock alerts
       - **Card readers and point of sale** - the store connects to SumUp's
         card readers, Tap to Pay and point of sale software, so the same
         item catalogue and payment account can take sales in person.
-        Chobble Tickets is online only; door sales are recorded by [adding
-        attendee records manually](/features/manual-attendees/)
+        Chobble cannot take card payments in person: at the door it [scans
+        QR-code tickets](/features/qr-code-check-ins/), and sales taken by
+        hand are recorded by [adding attendee records
+        manually](/features/manual-attendees/)
       - **0% fees with SumUp cards** - in-person payments made with a SumUp
         personal card cost 0%
-      - **Next-day payouts** - money reaches the SumUp Business Account by
-        7am the next day, including weekends and bank holidays
       - **Gift cards** - customers can buy SumUp e-gift cards online, and
         the cards are sold and redeemed through the SumUp app and point of
         sale
-      - **Editable order emails** - edit the subject, body and order summary
-        of the emails customers receive when they order
       - **Returns management** - customers can request a return from their
         order confirmation, which you approve or reject in one place
       - **Cross-selling** - the store suggests related items to buyers at
@@ -251,15 +254,12 @@ blocks:
     content: |
       ## When the SumUp Online Store might be the better choice
 
-      - You want to sell merchandise or physical products as well as tickets
-      - You already take payments with SumUp card readers and want one
-        account and one payouts schedule
+      - You want to sell physical products with built-in shipping, tracking
+        and restock alerts
+      - You want to take card payments at the door as well as online
       - You sell a small number of tickets and a percentage costs less than
         a flat fee
-      - You want in-person sales at the door with a card reader, or gift
-        cards for customers
-      - You want payouts the next day without managing your own payout
-        schedule
+      - You want gift cards for customers
   - type: markdown
     content: |
       ## When Chobble Tickets is the better choice
