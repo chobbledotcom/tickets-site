@@ -27,7 +27,7 @@ provider_facts:
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
   local_dev_reload: not-reviewed
-  event_marketplace: none
+  event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   notes:
     registration_country: "TixFox's terms of service describe TixFox LLC as a limited liability company organised under the laws of the State of Delaware, United States. Its check-in app is published on the Apple App Store by HahuCloud LLC."
@@ -78,7 +78,8 @@ blocks:
 
       Chobble Tickets is a flat £50/year or £5/month, with
       [no per-ticket platform fees](/features/no-per-ticket-fees/).
-      Community groups, charities, and schools pay £25/year. At about
+      Charities, community groups, artists and musicians pay £25/year
+      on the annual plan. At about
       £0.31 per ticket, TixFox costs less below roughly 160 paid tickets
       a year, and Chobble Tickets costs less above that.
   - type: include
@@ -233,7 +234,8 @@ blocks:
       - You take payments with Square or SumUp rather than Stripe
       - Privacy and encryption matter to you, and you want attendee data
         that the platform itself cannot read
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Apple and Google Wallet](/features/apple-wallet/)
         passes, [calendar feeds](/features/rss-and-calendar-feeds/), or a
         [public API](/features/public-api/) included
