@@ -7,7 +7,7 @@ export const CHOBBLEFEST_SLIDES = [
     source: "chobblefest-welcome",
   },
   {
-    body: "Every day, stage, pass, whatever, gets its own listing. You can group listings however suits your ops.",
+    body: "Every day, stage, pass, whatever, gets its own listing. You can group listings however suits your processes.",
     heading: "Set up your events",
     palette: ["#252630", "#f5eee6", "#d47a58", "#aaa2b6"],
     slug: "programme",
