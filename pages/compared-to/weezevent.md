@@ -292,7 +292,8 @@ blocks:
       - Encryption at rest and control over attendee data matter to you
       - You want a [public API](/features/public-api/) or
         [webhooks](/features/webhooks/) for custom integrations
-      - You are a community group, charity or school (£25/year)
+      - You are a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Apple and Google Wallet passes](/features/apple-wallet/) or
         [calendar and RSS feeds](/features/rss-and-calendar-feeds/)
       - You value [open source](/features/open-source/) and the ability to

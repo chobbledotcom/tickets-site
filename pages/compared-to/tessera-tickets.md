@@ -254,7 +254,8 @@ blocks:
         and no ticket-volume tiers
       - You don't want to run and host a separate WordPress site
       - Privacy and [encryption](/features/encrypted/) matter to you
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Apple/Google Wallet](/features/apple-wallet/),
         [calendar feeds](/features/rss-and-calendar-feeds/), or a
         [public API](/features/public-api/) included

@@ -221,8 +221,8 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Markdown event descriptions](/features/markdown-descriptions/)**
-        - write content in markdown with header image uploads
+      - **[Markdown event descriptions](/features/markdown-descriptions/)** -
+        write content in markdown with header image uploads
       - **[Custom domain support](/features/custom-domain/)** - use your own
         domain name
       - **[Public-facing website and CMS](/features/your-public-website/)**
@@ -311,7 +311,8 @@ blocks:
       - You want predictable, flat-rate pricing with no per-ticket platform fees
       - Privacy and encryption matter to you
       - You prefer a serverless, edge-deployed platform with no server management
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want Apple/Google Wallet integration, calendar feeds, or RSS
       - You value a Community Interest Company over a traditional startup
   - type: markdown

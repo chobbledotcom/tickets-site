@@ -54,8 +54,8 @@ blocks:
       Chobble Tickets does those jobs: card payment through Stripe, Square or
       SumUp, an emailed ticket with a QR code, capacity limits per event and
       per date, and check-in scanning. It costs £50/year or £5/month, or
-      £25/year for charities, community groups and schools on the annual
-      plan.
+      £25/year for charities, community groups, artists and musicians on
+      the annual plan.
   - type: markdown
     content: |
       ## What Google Forms gives you

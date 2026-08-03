@@ -113,11 +113,11 @@ blocks:
         separate from ticketed events (note: waitlists are only available
         for RSVP events, [not ticketed
         events](https://support.wix.com/en/article/wix-events-request-waitlists-for-ticketed-events))
-      - **[Reserved seating](https://support.wix.com/en/article/wix-events-creating-a-seating-map)**
-        - built-in seating map builder with rows, tables, and general
+      - **[Reserved seating](https://support.wix.com/en/article/wix-events-creating-a-seating-map)** -
+        built-in seating map builder with rows, tables, and general
         admission areas, letting guests pick their seats at checkout
-      - **[Dedicated check-in app](https://support.wix.com/en/article/check-in-by-wix-an-overview)**
-        - "Check-in by Wix" app with offline scanning, up to 100 staff per
+      - **[Dedicated check-in app](https://support.wix.com/en/article/check-in-by-wix-an-overview)** -
+        "Check-in by Wix" app with offline scanning, up to 100 staff per
         event, and ticket-type filtering (Chobble uses browser-based QR
         scanning)
       - **Event schedule builder** - create detailed multi-session schedules
@@ -251,7 +251,8 @@ blocks:
       - You don't want to pay £276+/year for a Wix plan only to sell tickets
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Google Wallet passes](/features/apple-wallet/) without a
         third-party app, [calendar
         feeds](/features/rss-and-calendar-feeds/), or a [public

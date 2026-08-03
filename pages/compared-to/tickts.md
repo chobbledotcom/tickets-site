@@ -285,7 +285,8 @@ blocks:
       - You want flat, predictable pricing with no tier upgrades
       - You need [API access](/features/public-api/) on the base plan
         rather than paying for Pro
-      - You are a community group, charity, or school (£25/year)
+      - You are a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Apple/Google Wallet](/features/apple-wallet/),
         [calendar feeds](/features/rss-and-calendar-feeds/), or
         [pay-what-you-want pricing](/features/stripe-and-square/)

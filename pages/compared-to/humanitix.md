@@ -71,7 +71,8 @@ blocks:
 
       Chobble Tickets is a flat £50/year or £5/month, with
       [no per-ticket platform fee](/features/no-per-ticket-fees/).
-      Community groups, charities, and schools pay £25/year. Payment
+      Charities, community groups, artists and musicians pay £25/year
+      on the annual plan. Payment
       processing goes through the organiser's own Stripe, Square, or
       SumUp account at the provider's normal rate.
 
@@ -171,10 +172,10 @@ blocks:
       - **[Parent/child listings](/features/parent-child-listings/)** -
         require buyers to choose child listings (add-ons, options) when
         booking a parent event
-      - **[Apple Wallet and Google Wallet passes](/features/apple-wallet/)**
-        - attendees can add tickets to their phone wallet
-      - **[Subscribable ICS calendar feeds](/features/rss-and-calendar-feeds/)**
-        - a single feed listing all events, so subscribers get automatic
+      - **[Apple Wallet and Google Wallet passes](/features/apple-wallet/)** -
+        attendees can add tickets to their phone wallet
+      - **[Subscribable ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
+        a single feed listing all events, so subscribers get automatic
         updates when new ones are added
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate
         events to feed readers
@@ -247,7 +248,8 @@ blocks:
         platform fees, so costs stay the same as volume grows
       - Privacy and encryption matter to you, and you want attendee data
         that the platform itself cannot read
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Apple and Google Wallet](/features/apple-wallet/)
         passes, [calendar feeds](/features/rss-and-calendar-feeds/), or
         a [public API](/features/public-api/) included

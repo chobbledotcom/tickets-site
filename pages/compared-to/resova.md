@@ -236,7 +236,8 @@ blocks:
       - Privacy and [encryption](/features/encrypted/) matter to you
       - You value [open source](/features/open-source/) and the ability
         to self-host
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Apple/Google Wallet](/features/apple-wallet/), [calendar
         feeds](/features/rss-and-calendar-feeds/), or a [public
         API](/features/public-api/)

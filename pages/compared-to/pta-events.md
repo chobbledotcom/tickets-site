@@ -52,8 +52,8 @@ blocks:
 
       PTA Events charges 3.95% per transaction on its free Starter plan, or
       £299.99 + VAT a year for the Premium plan with a 1.5% fee. Chobble
-      Tickets charges £25/year for schools, charities and community groups on
-      the annual plan, with no percentage on top.
+      Tickets charges £25/year for charities and community groups, including
+      PTAs, on the annual plan, with no percentage on top.
   - type: markdown
     content: |
       ## Different platforms, different approaches

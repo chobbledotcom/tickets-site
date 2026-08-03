@@ -198,8 +198,8 @@ blocks:
         cap
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their own price
-      - **[Daily/recurring events with per-date capacity](/features/daily-events/)**
-        - calendar picker with holiday blackouts for classes, workshops, and
+      - **[Daily/recurring events with per-date capacity](/features/daily-events/)** -
+        calendar picker with holiday blackouts for classes, workshops, and
         regular bookings
       - **[Custom questions](/features/custom-questions/)** - add
         multiple-choice questions to events and collect structured answers
@@ -314,7 +314,8 @@ blocks:
         [webhooks](/features/webhooks/) for custom integrations (EVENTIM.Light
         has neither)
       - You don't want a platform marketing competing events to your attendees
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Apple/Google Wallet](/features/apple-wallet/), [calendar
         feeds](/features/rss-and-calendar-feeds/), or [pay-what-you-want
         pricing](/features/stripe-and-square/)

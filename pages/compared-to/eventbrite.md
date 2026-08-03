@@ -184,8 +184,8 @@ blocks:
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
-      - **[Custom questions with free-text answers](/features/custom-questions/)**
-        - add multiple-choice or free-text questions to events, and link
+      - **[Custom questions with free-text answers](/features/custom-questions/)** -
+        add multiple-choice or free-text questions to events, and link
         answers to price changes for tiered pricing
       - **[Parent/child listings](/features/parent-child-listings/)** - require
         buyers to choose child listings (add-ons, options) when booking a
@@ -287,7 +287,8 @@ blocks:
       - You want predictable, flat-rate pricing with no per-ticket platform fees
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Apple/Google Wallet](/features/apple-wallet/), [calendar
         feeds](/features/rss-and-calendar-feeds/), or a [public
         API](/features/public-api/)

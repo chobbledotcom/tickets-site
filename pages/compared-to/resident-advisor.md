@@ -226,7 +226,8 @@ blocks:
       - You don't want a platform marketing its own stuff to your customers
       - You run events outside the electronic music scene (or a mix of
         event types)
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want Apple/Google Wallet integration, calendar feeds, or RSS
       - You value open source and the ability to self-host
       - You already have your own audience and don't need a platform to

@@ -223,7 +223,8 @@ blocks:
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees or promoting
         competing events
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want Apple/Google Wallet integration, calendar feeds, or RSS
       - You value open source and the ability to self-host
       - You want full control over your brand and checkout experience

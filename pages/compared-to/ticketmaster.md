@@ -166,8 +166,8 @@ blocks:
         platform
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
-      - **[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)**
-        - subscribers get automatic updates
+      - **[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)** -
+        subscribers get automatic updates
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** - per-date
@@ -221,7 +221,8 @@ blocks:
       - You want to keep your ticket revenue instead of losing 10%+ per sale
       - Privacy and [encryption](/features/encrypted/) matter to you
       - You value [open source](/features/open-source/) and data ownership
-      - You're a charity or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Apple/Google Wallet](/features/apple-wallet/), [calendar
         feeds](/features/rss-and-calendar-feeds/), or a [public
         API](/features/public-api/)

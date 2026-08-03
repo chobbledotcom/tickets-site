@@ -186,8 +186,8 @@ blocks:
         confirmation templates and [bulk email to attendee
         segments](/features/bulk-email/). The store sends order
         confirmations but has no way to email everyone coming to an event
-      - **[Promo codes, discounts and add-ons](/features/promo-codes-and-add-ons/)**
-        - codes, discounts, surcharges and opt-in add-ons with stock limits
+      - **[Promo codes, discounts and add-ons](/features/promo-codes-and-add-ons/)** -
+        codes, discounts, surcharges and opt-in add-ons with stock limits
         and a live running total
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** -
         attendees choose their own price
