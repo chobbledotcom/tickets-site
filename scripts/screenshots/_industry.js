@@ -10,6 +10,15 @@ export const BOOKABLE_DAYS = [
   "Sunday",
 ];
 
+export const firstWeekdayOfNextMonth = (weekday) => {
+  const now = new Date();
+  const month = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1));
+  const offset = (7 + weekday - month.getUTCDay()) % 7;
+  const date = new Date(month);
+  date.setUTCDate(1 + offset);
+  return date;
+};
+
 export const firstFutureDate = (page) =>
   page.locator('[name="date"] option').evaluateAll((options) => {
     const today = new Date().toISOString().slice(0, 10);

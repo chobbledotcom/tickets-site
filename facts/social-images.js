@@ -242,6 +242,15 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "industry-beer-festival": [
+    {
+      fact: "One public form carries a quantity for each listing, and a single submission prepares one payment for the combined selection.",
+      sources: [
+        "../tickets/src/features/public/ticket-form.ts:141-158",
+        "../tickets/src/features/public/ticket-submit/prepare.ts:79-140",
+      ],
+    },
+  ],
   "industry-catering": [
     {
       fact: "A booking form can collect a required address and required free-text dietary answers.",
@@ -268,12 +277,62 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "industry-class-reunion": [
+    {
+      fact: "A booking can buy several places, but those places remain one attendee record with one answer per question.",
+      sources: [
+        "../tickets/src/features/public/ticket-form.ts:141-158",
+        "../tickets/src/shared/db/questions/attendee-answers/save.ts:282-312",
+      ],
+    },
+    {
+      fact: "Checkout can require a choice answer and a free-text answer before payment preparation.",
+      sources: [
+        "../tickets/src/ui/templates/components/question-controls.tsx:39-79",
+        "../tickets/src/features/public/ticket-submit/prepare.ts:125-178",
+      ],
+    },
+  ],
+  "industry-comedy-club": [
+    {
+      fact: "Daily listings offer dates derived from notice, future-window, weekday and holiday rules.",
+      sources: [
+        "../tickets/src/shared/dates.ts:122-204",
+        "../tickets/src/ui/templates/public/reservations/controls.ts:17-42",
+      ],
+    },
+  ],
+  "industry-convention": [
+    {
+      fact: "Capacity is set per listing, so each day's ticket keeps its own limit while booking through one form.",
+      sources: [
+        "../tickets/src/ui/templates/fields/listing.ts:140-147",
+        "../tickets/src/features/public/ticket-form.ts:141-158",
+      ],
+    },
+  ],
   "industry-folk-club": [
     {
       fact: "A listing money statement combines gross sales, outside income, refunds, outside costs and net balance.",
       sources: [
         "../tickets/src/features/admin/ledger/page.ts:83-128",
         "../tickets/src/shared/accounting/listing-money-totals.ts:39-116",
+      ],
+    },
+  ],
+  "industry-guided-tour": [
+    {
+      fact: "Daily listings offer departure dates from weekday, notice and future-window rules.",
+      sources: [
+        "../tickets/src/shared/dates.ts:122-204",
+        "../tickets/src/ui/templates/public/reservations/controls.ts:17-42",
+      ],
+    },
+    {
+      fact: "Checkout can require a choice answer before payment preparation.",
+      sources: [
+        "../tickets/src/ui/templates/components/question-controls.tsx:39-79",
+        "../tickets/src/features/public/ticket-submit/prepare.ts:125-178",
       ],
     },
   ],
@@ -309,6 +368,14 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "industry-scare-attraction": [
+    {
+      fact: "The admin calendar's availability table lists each bookable listing for a date with its remaining and total places.",
+      sources: [
+        "../tickets/src/ui/templates/admin/availability-checker.tsx:24-70",
+      ],
+    },
+  ],
   "industry-skip-hire": [
     {
       fact: "Only configured, priced day counts appear in the public duration selector.",
@@ -339,6 +406,15 @@ export const SOCIAL_IMAGE_FACTS = {
       sources: [
         "../tickets/src/shared/types.ts:280-309",
         "../tickets/src/ui/templates/public/reservations/controls.ts:44-70",
+      ],
+    },
+  ],
+  "industry-village-fete": [
+    {
+      fact: "A listing money statement combines gross sales, outside income, refunds, outside costs and the net balance.",
+      sources: [
+        "../tickets/src/features/admin/ledger/page.ts:83-128",
+        "../tickets/src/shared/accounting/listing-money-totals.ts:39-116",
       ],
     },
   ],

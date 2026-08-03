@@ -7,16 +7,16 @@ layout: null
 
 ## Scope
 
-This audit covers all 143 rendered client pages. A page counts as illustrated
+This audit covers all 150 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 141 | 53 | 88 |
+| Editorial pages in the sitemap | 148 | 60 | 88 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **143** | **53** | **90** |
+| **All rendered pages** | **150** | **60** | **90** |
 
 The 86 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
@@ -123,6 +123,13 @@ pages are listed separately at the end.
 | `pages/perfect-for/adult-parties.md` | Attendee screenshot: `private-social-booking` | Ember Private Social is hidden and direct-link-only for 120 guests, collecting name and email with non-transferable tickets. Show no marketplace or related events. | Demonstrates discretion through the attendee journey rather than stock nightlife photography. |
 | `pages/perfect-for/festivals.md` | Reuse: `required-child-listings-checkout.png` | Reuse the Willowbank Festival weekend-pass checkout with required General or Quiet Camping. | The existing screenshot already depicts the page's central festival workflow. |
 | `pages/perfect-for/theatre-and-performing-arts.md` | Admin screenshot: `theatre-front-of-house` | The Old Playhouse has 180 shared general-admission places across adult, child and concession tickets, with online, manual, complimentary and checked-in totals. | Shows shared house capacity and mixed sales while making the lack of allocated seating clear. |
+| `pages/perfect-for/comedy-nights.md` | [x] Attendee screenshot: `industry-comedy-club-checkout` | Friday Night Comedy at The Cellar, with a Friday picked from the calendar, two tickets chosen and a £24 running total with nothing added. | Shows the audience paying the ticket price with no added fee. |
+| `pages/perfect-for/food-and-drink-festivals.md` | [x] Attendee screenshot: `industry-beer-festival-checkout` | Bridgefield Beer Festival's afternoon and evening sessions booked in one form, two tickets each, with a £36 running total. | Shows separately priced sessions sold through one combined checkout. |
+| `pages/perfect-for/conventions-and-expos.md` | [x] Attendee screenshot: `industry-convention-checkout` | Northgate Comic Con's Saturday and Sunday day tickets booked in one form, with a £45 running total. | Shows day tickets from one group booked in a single payment. |
+| `pages/perfect-for/guided-tours.md` | [x] Attendee screenshot: `industry-guided-tour-booking` | The Old Town Ghost Walk booked for two places on a chosen date, with a mobility question answered and a £28 total. | Shows small-group departures and pre-tour questions from the guest's side. |
+| `pages/perfect-for/scare-attractions.md` | [x] Admin screenshot: `industry-scare-attraction-calendar` | Hollowtree Scare Trail's admin calendar with bookings on two nights and 25 of 40 places remaining on the selected Friday. | Shows per-night bookings and remaining capacity for a seasonal attraction. |
+| `pages/perfect-for/class-reunions.md` | [x] Attendee screenshot: `industry-class-reunion-booking` | The Class of 2006 Reunion Dinner checkout with a menu choice question, a dietary requirements answer and a £38 total. | Shows the checkout collecting what the caterer needs. |
+| `pages/perfect-for/fetes-and-fairs.md` | [x] Admin screenshot: `industry-village-fete-ledger` | Meadowfield Village Fete's ledger statement showing advance gate sales, gate cash recorded as manual income, a cost and the net figure. | Shows the treasurer's single set of figures across online and cash income. |
 
 ## Guide Pages
 
