@@ -20,8 +20,9 @@ blocks:
 
       Each session, such as Friday evening or Saturday afternoon, is
       published as its own listing with its own price and capacity.
-      [Groups](/features/groups/) collect the sessions on one page, so a
-      visitor can book more than one session in a single checkout.
+      [Groups](/features/groups/) collect the sessions on one public page,
+      and the dashboard's combined booking links let a visitor book
+      several sessions in one form and one payment.
 
       Within a session, adult and concession tickets can share one venue
       limit through a group capacity cap. Capacity is used only when

@@ -19,9 +19,10 @@ blocks:
       ## Day tickets and weekend passes
 
       Saturday tickets, Sunday tickets, and a weekend pass are separate
-      listings in one [group](/features/groups/), so visitors book from a
-      single page with a single checkout. A group capacity cap keeps every
-      ticket type counting against one venue limit.
+      listings in one [group](/features/groups/), which lists them on one
+      public page. A combined booking link from the dashboard books
+      several in one form and one payment, and a group capacity cap keeps
+      every ticket type counting against one venue limit.
 
       [Promo codes](/features/promo-codes-and-add-ons/) with stock limits
       handle early-bird pricing, where a discount applies to a fixed number

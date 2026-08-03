@@ -1,7 +1,7 @@
 ---
 title: Comedy Nights - Chobble Tickets
 meta_title: Comedy Club Ticketing Software - Chobble Tickets
-meta_description: Sell tickets for comedy nights and stand-up shows with QR door entry, promo codes and pay-what-you-want pricing, for £50/year with no per-ticket fee.
+meta_description: Sell tickets for comedy nights and stand-up shows with QR door entry, promo codes and pay-what-you-want pricing, with no Chobble per-ticket fee.
 permalink: /perfect-for/comedy-nights/
 eleventyNavigation:
   key: Comedy Nights
@@ -18,8 +18,8 @@ blocks:
     content: |
       ## The ticket price is the door price
 
-      Many ticketing platforms add a booking fee of £1-2 to each ticket, so
-      a £10 ticket costs the audience £11 or more. Chobble Tickets adds
+      Many ticketing platforms add a booking fee to each ticket, so a £10
+      ticket costs the audience more than £10. Chobble Tickets adds
       [no per-ticket platform fee](/features/no-per-ticket-fees/), so the
       audience pays the price you set and nothing else.
 
@@ -51,8 +51,8 @@ blocks:
       on the night.
 
       Door staff [scan tickets with a phone camera](/features/qr-code-check-ins/),
-      and the scanner flags duplicate tickets and tickets for a different
-      night. A name search covers anyone whose ticket cannot be scanned.
+      and the scanner flags tickets that were already scanned. A name
+      search covers anyone whose ticket cannot be scanned.
 
       Chobble Tickets has no seat maps, so all tickets are general
       admission. It suits rooms where the audience picks their own seats;
@@ -76,7 +76,7 @@ blocks:
         description: Add acts, guests, and comps from the admin panel so the door list stays complete.
         name: <a href="/features/manual-attendees/">Guest list and comps</a>
       - icon: hugeicons:money-send-02
-        description: Refund individual bookings or a whole night from the admin panel if a show is cancelled.
+        description: Refund one booking, or every booking on a cancelled show's listing, from the admin panel.
         name: <a href="/features/refunds/">Refunds</a>
   - type: cta
     button:

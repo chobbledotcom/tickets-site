@@ -50,9 +50,9 @@ blocks:
 
       At the gate, staff
       [scan tickets through a browser with a phone camera](/features/qr-code-check-ins/),
-      with no scanner hardware. The scanner flags duplicate tickets and
-      tickets for a different night, and a name search covers anyone whose
-      screen will not scan.
+      with no scanner hardware. The scanner flags tickets that were
+      already scanned, and a name search covers anyone whose screen will
+      not scan.
 
       The £50/year price covers the whole year even when the attraction
       trades for a few weeks each autumn, and there is no per-ticket

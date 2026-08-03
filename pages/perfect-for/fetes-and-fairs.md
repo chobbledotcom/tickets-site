@@ -18,10 +18,10 @@ blocks:
     content: |
       ## Admission, stalls, and the raffle in one place
 
-      Adult, child, and family admission run as separate listings in a
-      [group](/features/groups/), sharing one site capacity, or a family
-      ticket can sell as a [package](/features/packages/) at its own
-      price.
+      Adult and child admission run as separate listings in a
+      [group](/features/groups/), sharing one site capacity. A family
+      ticket sells as a [package](/features/packages/) of fixed adult and
+      child places, so each person in it counts against the same limit.
 
       Stallholder pitches sell as their own listings, with
       [custom questions](/features/custom-questions/) collecting the stall
@@ -35,7 +35,7 @@ blocks:
       itself runs outside Chobble Tickets.
     figure_items:
       - icon: hugeicons:ticket-01
-        text: Adult, child, and family admission with one site limit.
+        text: Adult and child admission with one site limit.
       - icon: hugeicons:tent
         text: Stall pitches with questions and deposits.
       - icon: hugeicons:coins-01

@@ -1,7 +1,7 @@
 ---
 title: Guided Tours - Chobble Tickets
 meta_title: Booking Software for Guided Tours - Chobble Tickets
-meta_description: Take bookings for walking tours, ghost tours and food tours, with per-departure capacity, booking deadlines and no per-booking fee, for £50/year.
+meta_description: Take bookings for walking tours, ghost tours and food tours, with per-departure capacity, booking deadlines and no Chobble per-booking fee.
 permalink: /perfect-for/guided-tours/
 eleventyNavigation:
   key: Guided Tours
@@ -55,17 +55,17 @@ blocks:
       confirmations are sent by email, and tickets can be saved to
       [Apple Wallet or Google Wallet](/features/apple-wallet/).
 
-      If weather cancels a tour, [refunds](/features/refunds/) can cover a
-      whole departure from the admin panel, and
+      If weather cancels a departure, each booking for that date can be
+      [refunded](/features/refunds/) from the admin panel, and
       [bulk email](/features/bulk-email/) sends one message to everyone
-      booked on that date.
+      booked on the tour's listing.
     figure_items:
       - icon: hugeicons:help-circle
         text: Collect mobility and dietary details at booking.
       - icon: hugeicons:qr-code
         text: Check guests in by scan or name search.
       - icon: hugeicons:mail-send-01
-        text: Email a whole departure when plans change.
+        text: Email everyone booked on a tour.
   - type: features
     dark: true
     intro_content: "## Features for tour operators"
@@ -77,7 +77,7 @@ blocks:
         description: Ask about mobility, language, or dietary requirements at checkout, with answers in every attendee list.
         name: <a href="/features/custom-questions/">Custom questions</a>
       - icon: hugeicons:money-send-02
-        description: Refund a single booking or a whole cancelled departure from the admin panel.
+        description: Refund a single booking, or every booking on a listing, from the admin panel.
         name: <a href="/features/refunds/">Refunds</a>
   - type: cta
     button:
