@@ -14,7 +14,7 @@ blocks:
       # Ticketing for scare attractions
 
       Sell tickets for haunted houses, scare trails, and Halloween events. Each night has its own capacity, and managed hosting is £50/year, whatever the season's sales.
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## A short season with its own calendar
 
@@ -32,13 +32,9 @@ blocks:
       Capacity is used only when payment confirmation arrives. If
       confirmed payments race for the last places on a night, the later
       order is refunded automatically.
-    figure_items:
-      - icon: hugeicons:calendar-03
-        text: Per-night capacity with blackout dates.
-      - icon: hugeicons:clock-01
-        text: Each entry session is its own listing.
-      - icon: hugeicons:ticket-01
-        text: Peak nights carry their own price.
+    figure_src: /images/screenshots/industry-scare-attraction-calendar.png
+    figure_alt: An admin calendar for Hollowtree Scare Trail showing bookable weekend nights and 25 of 40 places remaining on a Friday
+    figure_caption: The trail opens Thursday to Sunday, and each night keeps its own remaining capacity.
   - type: split-icon-links
     content: |
       ## Entry terms and the gate

@@ -14,7 +14,7 @@ blocks:
       # Ticketing for class reunions
 
       Sell tickets for school, college, and university reunions. Collect meal choices and dietary requirements at checkout, with monthly billing at £5 for a one-off event.
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## One event, set up once
 
@@ -24,22 +24,23 @@ blocks:
       or SumUp account.
 
       [Custom questions](/features/custom-questions/) collect what the
-      venue needs: a meal choice, dietary requirements, guest names, or
-      the year someone left. A meal choice can
+      venue needs: a meal choice, dietary requirements, or the year
+      someone left. A meal choice can
       [change the ticket price automatically](/features/promo-codes-and-add-ons/),
       so a three-course option costs more than a buffet option without a
       separate ticket type.
 
+      Each booking records one set of answers. To collect a meal choice
+      for every guest, set the
+      [purchase limit](/features/registration-deadlines/) to one place per
+      booking, so each guest books their own place.
+
       A [registration deadline](/features/registration-deadlines/) closes
       bookings when the caterer needs final numbers, and answers export as
       [CSV](/features/csv-export/) for the venue and the seating plan.
-    figure_items:
-      - icon: hugeicons:restaurant-01
-        text: Meal choices that set the ticket price.
-      - icon: hugeicons:timer-01
-        text: Bookings close when the caterer needs numbers.
-      - icon: hugeicons:csv-02
-        text: Export answers for the venue.
+    figure_src: /images/screenshots/industry-class-reunion-booking.png
+    figure_alt: A reunion dinner checkout with a menu choice question, a dietary requirements answer, and a £38 total
+    figure_caption: Each guest picks a menu option and gives dietary details when they book their place.
   - type: split-icon-links
     content: |
       ## Guest details stay private
@@ -50,8 +51,9 @@ blocks:
       emails they receive are the booking confirmation and any messages
       the organiser sends.
 
-      [Bulk email](/features/bulk-email/) sends updates to everyone booked,
-      such as venue directions or a change of start time. Classmates who
+      [Bulk email](/features/bulk-email/) sends updates to the guest
+      list, such as venue directions or a change of start time, skipping
+      anyone who has unsubscribed. Classmates who
       pay by cash or bank transfer are added as
       [manual attendees](/features/manual-attendees/), so one list covers
       everyone.
@@ -63,7 +65,7 @@ blocks:
       - icon: hugeicons:lock
         text: Guest data is encrypted at rest.
       - icon: hugeicons:mail-send-01
-        text: Send updates to everyone booked.
+        text: Send updates to the guest list.
       - icon: hugeicons:user-add-01
         text: Add classmates who pay by cash.
   - type: features
@@ -77,7 +79,7 @@ blocks:
         description: Close bookings automatically when final numbers are due, with no manual step.
         name: <a href="/features/registration-deadlines/">Registration deadlines</a>
       - icon: hugeicons:mail-send-01
-        description: Email everyone booked with previews, drafts, and an unsubscribe link.
+        description: Email the guest list with previews, drafts, and an unsubscribe link, skipping anyone who has unsubscribed.
         name: <a href="/features/bulk-email/">Bulk email</a>
   - type: cta
     button:

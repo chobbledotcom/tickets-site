@@ -104,7 +104,15 @@
     "captureId": "group-booking-arrives"
   },
   {
+    "key": "industry-beer-festival",
+    "classification": "legacy-product-screenshot"
+  },
+  {
     "key": "industry-catering",
+    "classification": "legacy-product-screenshot"
+  },
+  {
+    "key": "industry-class-reunion",
     "classification": "legacy-product-screenshot"
   },
   {
@@ -112,7 +120,19 @@
     "classification": "legacy-product-screenshot"
   },
   {
+    "key": "industry-comedy-club",
+    "classification": "legacy-product-screenshot"
+  },
+  {
+    "key": "industry-convention",
+    "classification": "legacy-product-screenshot"
+  },
+  {
     "key": "industry-folk-club",
+    "classification": "legacy-product-screenshot"
+  },
+  {
+    "key": "industry-guided-tour",
     "classification": "legacy-product-screenshot"
   },
   {
@@ -124,11 +144,19 @@
     "classification": "legacy-product-screenshot"
   },
   {
+    "key": "industry-scare-attraction",
+    "classification": "legacy-product-screenshot"
+  },
+  {
     "key": "industry-skip-hire",
     "classification": "legacy-product-screenshot"
   },
   {
     "key": "industry-venue-hire",
+    "classification": "legacy-product-screenshot"
+  },
+  {
+    "key": "industry-village-fete",
     "classification": "legacy-product-screenshot"
   },
   {

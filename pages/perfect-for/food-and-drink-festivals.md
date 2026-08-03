@@ -14,7 +14,7 @@ blocks:
       # Ticketing for food and drink festivals
 
       Sell session tickets for beer festivals, food festivals, and tastings, with glasses and tasting tokens as add-ons. Managed hosting is £50/year, or £25/year for charities and community groups.
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## Sessions with their own capacity
 
@@ -32,13 +32,9 @@ blocks:
       [Promo codes](/features/promo-codes-and-add-ons/) handle member
       discounts, such as a lower price for members of the organisation
       running the festival, with stock limits on each code.
-    figure_items:
-      - icon: hugeicons:calendar-03
-        text: Each session has its own price and capacity.
-      - icon: hugeicons:ticket-01
-        text: Book several sessions in one checkout.
-      - icon: hugeicons:tag-01
-        text: Member discounts through promo codes.
+    figure_src: /images/screenshots/industry-beer-festival-checkout.png
+    figure_alt: A beer festival checkout with two afternoon and two evening session tickets in one order, showing a £36 running total
+    figure_caption: A visitor books the afternoon and evening sessions in one form, with each session priced separately.
   - type: split-icon-links
     content: |
       ## Glasses, tokens, and the gate

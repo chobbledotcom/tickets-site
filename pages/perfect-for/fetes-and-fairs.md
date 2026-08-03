@@ -31,8 +31,9 @@ blocks:
 
       Raffle entries sell online through
       [purchasable events](/features/purchasable-events/), with quantity
-      selection and a capacity cap on the number of entries. The draw
-      itself runs outside Chobble Tickets.
+      selection and a capacity cap on the number of entries. Allocating
+      raffle numbers and running the draw both happen outside Chobble
+      Tickets.
     figure_items:
       - icon: hugeicons:ticket-01
         text: Adult and child admission with one site limit.
@@ -40,7 +41,7 @@ blocks:
         text: Stall pitches with questions and deposits.
       - icon: hugeicons:coins-01
         text: Raffle entries with a capped total.
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## On the gate and in the books
 
@@ -58,13 +59,9 @@ blocks:
       stay with the event. Charities and community groups pay £25/year,
       and ticket income goes directly to the group's own Stripe, Square,
       or SumUp account.
-    figure_items:
-      - icon: hugeicons:qr-code
-        text: Volunteers scan tickets at the gate.
-      - icon: hugeicons:coins-02
-        text: Advance sales and gate cash in one ledger.
-      - icon: hugeicons:heart-check
-        text: Community groups pay £25/year.
+    figure_src: /images/screenshots/industry-village-fete-ledger.png
+    figure_alt: A village fete's ledger showing advance gate sales, income received another way, a cost paid outside checkout, and the net figure
+    figure_caption: Advance sales, gate cash, and costs sit in one statement for the treasurer.
   - type: features
     dark: true
     intro_content: "## Features for fete committees"

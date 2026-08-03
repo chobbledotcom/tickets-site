@@ -38,7 +38,7 @@ blocks:
         text: Payments go directly to your account.
       - icon: hugeicons:coins-01
         text: Pay-what-you-want for work-in-progress nights.
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## Regular nights, the guest list, and the door
 
@@ -58,13 +58,9 @@ blocks:
       admission. It suits rooms where the audience picks their own seats;
       a venue that needs numbered seats is better served by a platform
       with reserved seating.
-    figure_items:
-      - icon: hugeicons:calendar-03
-        text: Per-date capacity for a regular night.
-      - icon: hugeicons:user-add-01
-        text: Comps and door sales in the same list.
-      - icon: hugeicons:qr-code
-        text: Scan tickets at the door with a phone.
+    figure_src: /images/screenshots/industry-comedy-club-checkout.png
+    figure_alt: A comedy club checkout for Friday Night Comedy at The Cellar, with a Friday date selected, two tickets chosen, and a £24 total
+    figure_caption: The audience picks a Friday from the calendar and the running total shows the ticket price with nothing added.
   - type: features
     dark: true
     intro_content: "## Features for comedy promoters"

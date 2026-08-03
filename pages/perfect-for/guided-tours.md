@@ -39,7 +39,7 @@ blocks:
         text: Every departure keeps its own group limit.
       - icon: hugeicons:timer-01
         text: Bookings close before each departure.
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## At the meeting point and when plans change
 
@@ -57,15 +57,11 @@ blocks:
 
       If weather cancels a departure, each booking for that date can be
       [refunded](/features/refunds/) from the admin panel, and
-      [bulk email](/features/bulk-email/) sends one message to everyone
-      booked on the tour's listing.
-    figure_items:
-      - icon: hugeicons:help-circle
-        text: Collect mobility and dietary details at booking.
-      - icon: hugeicons:qr-code
-        text: Check guests in by scan or name search.
-      - icon: hugeicons:mail-send-01
-        text: Email everyone booked on a tour.
+      [bulk email](/features/bulk-email/) sends one message to the
+      tour's booked guests, skipping anyone who has unsubscribed.
+    figure_src: /images/screenshots/industry-guided-tour-booking.png
+    figure_alt: A ghost walk booking form with a date selected, two places chosen, a mobility question answered, and a £28 total
+    figure_caption: A guest picks a date, answers the mobility question, and the guide sees the answer before the walk.
   - type: features
     dark: true
     intro_content: "## Features for tour operators"

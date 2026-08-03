@@ -14,15 +14,19 @@ blocks:
       # Ticketing for conventions and expos
 
       Sell day tickets, weekend passes, and trader pitches for fan conventions, comic cons, and exhibitions. Managed hosting is £50/year or £5/month with no Chobble per-ticket platform fee.
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## Day tickets and weekend passes
 
-      Saturday tickets, Sunday tickets, and a weekend pass are separate
-      listings in one [group](/features/groups/), which lists them on one
-      public page. A combined booking link from the dashboard books
-      several in one form and one payment, and a group capacity cap keeps
-      every ticket type counting against one venue limit.
+      Saturday and Sunday day tickets are separate listings in one
+      [group](/features/groups/), which lists them on one public page. A
+      combined booking link from the dashboard books both in one form and
+      one payment, and a group capacity cap keeps the day tickets
+      counting against one venue limit.
+
+      A weekend pass sells as a [package](/features/packages/) of one
+      Saturday and one Sunday admission, so each pass takes a place from
+      both days and scans at each day's door.
 
       [Promo codes](/features/promo-codes-and-add-ons/) with stock limits
       handle early-bird pricing, where a discount applies to a fixed number
@@ -32,13 +36,9 @@ blocks:
 
       A convention selling 3,000 tickets pays £50 for the year. A platform
       charging £1 per ticket would collect £3,000 from the same sales.
-    figure_items:
-      - icon: hugeicons:ticket-01
-        text: Day tickets and weekend passes in one checkout.
-      - icon: hugeicons:user-list
-        text: All ticket types count against one venue limit.
-      - icon: hugeicons:money-receive-square
-        text: £50/year flat, whatever your visitor numbers.
+    figure_src: /images/screenshots/industry-convention-checkout.png
+    figure_alt: A comic con checkout with two Saturday day tickets and one Sunday day ticket in one order, showing a £45 running total
+    figure_caption: Saturday and Sunday day tickets book in one form and one payment.
   - type: split-icon-links
     content: |
       ## Traders, queues, and attendee data
@@ -71,7 +71,7 @@ blocks:
     intro_content: "## Features for convention organisers"
     items:
       - icon: hugeicons:user-list
-        description: Day tickets and weekend passes share one venue capacity, each with its own price and individual cap.
+        description: Day tickets share one venue capacity through a group cap, and a weekend pass bundles both days as a package.
         name: <a href="/features/groups/">Tiered tickets</a>
       - icon: hugeicons:coins-02
         description: Take part of a trader pitch fee at booking and collect the balance through an emailed payment link.
