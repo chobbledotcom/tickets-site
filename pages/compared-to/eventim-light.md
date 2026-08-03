@@ -198,8 +198,8 @@ blocks:
         cap
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their own price
-      - **[Daily/recurring events with per-date capacity](/features/daily-events/)**
-        - calendar picker with holiday blackouts for classes, workshops, and
+      - **[Daily/recurring events with per-date capacity](/features/daily-events/)** -
+        calendar picker with holiday blackouts for classes, workshops, and
         regular bookings
       - **[Custom questions](/features/custom-questions/)** - add
         multiple-choice questions to events and collect structured answers

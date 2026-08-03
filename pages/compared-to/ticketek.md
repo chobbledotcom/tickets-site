@@ -162,8 +162,8 @@ blocks:
         platform
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
-      - **[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)**
-        - subscribers get automatic updates
+      - **[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)** -
+        subscribers get automatic updates
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** - per-date
@@ -281,14 +281,14 @@ blocks:
 
       - [Ticketek Australia](https://premier.ticketek.com.au) - official
         website
-      - [Ticketek About Us](https://premier.ticketek.com.au/content/aboutus/aboutus.aspx)
-        - company overview and venue partnerships
-      - [Ticketek Buyer FAQs](https://help.ticketek.com.au/hc/en-us/articles/46538610279193-BUYER-FAQS)
-        - fee details for buyers
-      - [SBS News - Ticketek fees](https://www.sbs.com.au/news/article/ticketek-service-fee-cost-more-than-childs-ticket-to-the-cricket/ei66dfk3t)
-        - service fee exceeding child ticket price
-      - [TEG data breach - 30m users](https://ia.acs.org.au/article/2024/30m-users--data-leaked-after-ticketek-breach.html)
-        - 2024 breach details
+      - [Ticketek About Us](https://premier.ticketek.com.au/content/aboutus/aboutus.aspx) -
+        company overview and venue partnerships
+      - [Ticketek Buyer FAQs](https://help.ticketek.com.au/hc/en-us/articles/46538610279193-BUYER-FAQS) -
+        fee details for buyers
+      - [SBS News - Ticketek fees](https://www.sbs.com.au/news/article/ticketek-service-fee-cost-more-than-childs-ticket-to-the-cricket/ei66dfk3t) -
+        service fee exceeding child ticket price
+      - [TEG data breach - 30m users](https://ia.acs.org.au/article/2024/30m-users--data-leaked-after-ticketek-breach.html) -
+        2024 breach details
       - [TEG - The TEG Story](https://www.teg.com.au/the-teg-story/) -
         company history and ownership
       - [Ticketek New Zealand](https://premier.ticketek.co.nz/) - public listings browsable by category and date

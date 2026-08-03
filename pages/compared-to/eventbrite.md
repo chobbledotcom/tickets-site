@@ -184,8 +184,8 @@ blocks:
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total
-      - **[Custom questions with free-text answers](/features/custom-questions/)**
-        - add multiple-choice or free-text questions to events, and link
+      - **[Custom questions with free-text answers](/features/custom-questions/)** -
+        add multiple-choice or free-text questions to events, and link
         answers to price changes for tiered pricing
       - **[Parent/child listings](/features/parent-child-listings/)** - require
         buyers to choose child listings (add-ons, options) when booking a

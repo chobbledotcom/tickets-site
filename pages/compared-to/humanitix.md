@@ -172,10 +172,10 @@ blocks:
       - **[Parent/child listings](/features/parent-child-listings/)** -
         require buyers to choose child listings (add-ons, options) when
         booking a parent event
-      - **[Apple Wallet and Google Wallet passes](/features/apple-wallet/)**
-        - attendees can add tickets to their phone wallet
-      - **[Subscribable ICS calendar feeds](/features/rss-and-calendar-feeds/)**
-        - a single feed listing all events, so subscribers get automatic
+      - **[Apple Wallet and Google Wallet passes](/features/apple-wallet/)** -
+        attendees can add tickets to their phone wallet
+      - **[Subscribable ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
+        a single feed listing all events, so subscribers get automatic
         updates when new ones are added
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate
         events to feed readers

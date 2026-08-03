@@ -113,11 +113,11 @@ blocks:
         separate from ticketed events (note: waitlists are only available
         for RSVP events, [not ticketed
         events](https://support.wix.com/en/article/wix-events-request-waitlists-for-ticketed-events))
-      - **[Reserved seating](https://support.wix.com/en/article/wix-events-creating-a-seating-map)**
-        - built-in seating map builder with rows, tables, and general
+      - **[Reserved seating](https://support.wix.com/en/article/wix-events-creating-a-seating-map)** -
+        built-in seating map builder with rows, tables, and general
         admission areas, letting guests pick their seats at checkout
-      - **[Dedicated check-in app](https://support.wix.com/en/article/check-in-by-wix-an-overview)**
-        - "Check-in by Wix" app with offline scanning, up to 100 staff per
+      - **[Dedicated check-in app](https://support.wix.com/en/article/check-in-by-wix-an-overview)** -
+        "Check-in by Wix" app with offline scanning, up to 100 staff per
         event, and ticket-type filtering (Chobble uses browser-based QR
         scanning)
       - **Event schedule builder** - create detailed multi-session schedules

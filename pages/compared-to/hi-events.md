@@ -221,8 +221,8 @@ blocks:
       - **[Customisable email templates](/features/email-templates/)** -
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
-      - **[Markdown event descriptions](/features/markdown-descriptions/)**
-        - write content in markdown with header image uploads
+      - **[Markdown event descriptions](/features/markdown-descriptions/)** -
+        write content in markdown with header image uploads
       - **[Custom domain support](/features/custom-domain/)** - use your own
         domain name
       - **[Public-facing website and CMS](/features/your-public-website/)**

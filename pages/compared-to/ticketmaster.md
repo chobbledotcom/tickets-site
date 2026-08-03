@@ -166,8 +166,8 @@ blocks:
         platform
       - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
-      - **[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)**
-        - subscribers get automatic updates
+      - **[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)** -
+        subscribers get automatic updates
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** - per-date

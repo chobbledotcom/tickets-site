@@ -166,10 +166,10 @@ blocks:
         from the admin panel with Markdown and
         [custom CSS](/features/customising-your-site/). TixFox supplies
         hosted event pages
-      - **[Apple Wallet and Google Wallet passes](/features/apple-wallet/)**
-        - attendees can add tickets to their phone wallet
-      - **[Subscribable ICS calendar feeds](/features/rss-and-calendar-feeds/)**
-        - a single feed listing all events, so subscribers get automatic
+      - **[Apple Wallet and Google Wallet passes](/features/apple-wallet/)** -
+        attendees can add tickets to their phone wallet
+      - **[Subscribable ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
+        a single feed listing all events, so subscribers get automatic
         updates when new ones are added
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate
         events to feed readers
@@ -184,10 +184,10 @@ blocks:
         Zapier and does not document a public API or webhooks
       - **[Packages](/features/packages/)** - sell several listings
         together at a bundle price, booked all or nothing
-      - **[Custom questions with price-linked answers](/features/custom-questions/)**
-        - link answers to price changes for tiered pricing
-      - **[Deposits and balance payments](/features/deposits-and-balance-payments/)**
-        - take a deposit at booking and collect the balance later
+      - **[Custom questions with price-linked answers](/features/custom-questions/)** -
+        link answers to price changes for tiered pricing
+      - **[Deposits and balance payments](/features/deposits-and-balance-payments/)** -
+        take a deposit at booking and collect the balance later
       - **[CSV export](/features/csv-export/)** - download attendee and
         order data. TixFox does not document a data export
       - **Community Interest Company** - run by a CIC, a UK legal
