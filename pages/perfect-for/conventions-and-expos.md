@@ -34,8 +34,8 @@ blocks:
       [Custom questions](/features/custom-questions/) collect accessibility
       requirements or cosplay details at checkout.
 
-      A convention selling 3,000 tickets pays £50 for the year. A platform
-      charging £1 per ticket would collect £3,000 from the same sales.
+      A convention selling 3,000 tickets pays the same £50 for the year
+      as one selling 300, with no Chobble per-ticket platform fee on top.
     figure_src: /images/screenshots/industry-convention-checkout.png
     figure_alt: A comic con checkout with two Saturday day tickets and one Sunday day ticket in one order, showing a £45 running total
     figure_caption: Saturday and Sunday day tickets book in one form and one payment.

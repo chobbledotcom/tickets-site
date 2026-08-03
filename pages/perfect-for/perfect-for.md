@@ -89,7 +89,7 @@ blocks:
         description: Sell session tickets for beer and food festivals with glasses and tasting tokens as add-ons.
         name: <a href="/perfect-for/food-and-drink-festivals/">Food and drink festivals</a>
       - icon: hugeicons:ticket-01
-        description: Sell day tickets, weekend passes and trader pitches with shared venue capacity and QR entry.
+        description: Sell day tickets, weekend passes and trader pitches with per-day capacity and QR entry.
         name: <a href="/perfect-for/conventions-and-expos/">Conventions and expos</a>
       - icon: hugeicons:location-01
         description: Take tour bookings with a group limit for every departure and questions answered before the day.

@@ -24,10 +24,11 @@ blocks:
       and the dashboard's combined booking links let a visitor book
       several sessions in one form and one payment.
 
-      Within a session, adult and concession tickets can share one venue
-      limit through a group capacity cap. Capacity is used only when
-      payment confirmation arrives, and if confirmed payments race for the
-      last places, the later order is refunded automatically.
+      A session can also be split into adult and concession listings of
+      its own, which share one venue limit through a group capacity cap.
+      Capacity is used only when payment confirmation arrives, and if
+      confirmed payments race for the last places, the later order is
+      refunded automatically.
 
       [Promo codes](/features/promo-codes-and-add-ons/) handle member
       discounts, such as a lower price for members of the organisation

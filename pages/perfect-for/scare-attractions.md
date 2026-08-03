@@ -33,8 +33,8 @@ blocks:
       confirmed payments race for the last places on a night, the later
       order is refunded automatically.
     figure_src: /images/screenshots/industry-scare-attraction-calendar.png
-    figure_alt: An admin calendar for Hollowtree Scare Trail showing bookable weekend nights and 25 of 40 places remaining on a Friday
-    figure_caption: The trail opens Thursday to Sunday, and each night keeps its own remaining capacity.
+    figure_alt: An admin calendar for Hollowtree Scare Trail showing bookings on two nights and 25 of 40 places remaining on a Friday
+    figure_caption: Each night keeps its own bookings and remaining capacity on the admin calendar.
   - type: split-icon-links
     content: |
       ## Entry terms and the gate
