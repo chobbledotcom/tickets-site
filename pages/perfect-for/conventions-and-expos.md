@@ -21,8 +21,8 @@ blocks:
       Saturday and Sunday day tickets are separate listings in one
       [group](/features/groups/), which lists them on one public page. A
       combined booking link from the dashboard books both in one form and
-      one payment, and a group capacity cap keeps the day tickets
-      counting against one venue limit.
+      one payment. Each day's listing carries its own capacity, so a
+      sold-out Saturday does not stop Sunday sales.
 
       A weekend pass sells as a [package](/features/packages/) of one
       Saturday and one Sunday admission, so each pass takes a place from
@@ -71,7 +71,7 @@ blocks:
     intro_content: "## Features for convention organisers"
     items:
       - icon: hugeicons:user-list
-        description: Day tickets share one venue capacity through a group cap, and a weekend pass bundles both days as a package.
+        description: Day tickets sit in one group with their own per-day capacity, and a weekend pass bundles both days as a package.
         name: <a href="/features/groups/">Tiered tickets</a>
       - icon: hugeicons:coins-02
         description: Take part of a trader pitch fee at booking and collect the balance through an emailed payment link.

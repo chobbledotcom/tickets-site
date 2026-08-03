@@ -59,9 +59,25 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Sell several listings on one page",
     body: "Put several listings on one page and let a customer book them together. Each booking reaches the organiser with the answers it was given.",
   },
+  "industry-beer-festival": {
+    heading: "Sell beer festival sessions",
+    body: "Each session has its own price and capacity, and a visitor books several sessions in one form and one payment.",
+  },
   "industry-catering": {
     heading: "Take catering requirements online",
     body: "Customers book a published service, provide dietary details and an address, and add paid extras to the same order.",
+  },
+  "industry-class-reunion": {
+    heading: "Take reunion bookings",
+    body: "Collect a menu choice and dietary requirements with each booking, with one set of answers per booking.",
+  },
+  "industry-comedy-club": {
+    heading: "Sell comedy night tickets",
+    body: "The audience picks a night from the calendar and pays the ticket price, with no Chobble per-ticket platform fee.",
+  },
+  "industry-convention": {
+    heading: "Sell convention day tickets",
+    body: "Saturday and Sunday tickets book in one form and one payment, and each day's listing keeps its own capacity.",
   },
   "industry-childrens-entertainer": {
     heading: "Require an entertainer choice",
@@ -71,6 +87,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Record folk club income",
     body: "Track gross ticket sales, income received another way, refunds and listing costs in one money statement.",
   },
+  "industry-guided-tour": {
+    heading: "Take tour bookings online",
+    body: "Each departure keeps a small-group limit, and guests answer the guide's questions before payment.",
+  },
   "industry-personal-stylist": {
     heading: "Take styling bookings online",
     body: "Customers choose an offered consultation date and provide their preferences before payment.",
@@ -79,6 +99,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Take training session bookings",
     body: "Publish individual or group sessions with per-date capacity, intake questions and online payment.",
   },
+  "industry-scare-attraction": {
+    heading: "Run a scare season",
+    body: "Each night has its own capacity on the admin calendar, with closed nights blocked from booking.",
+  },
   "industry-skip-hire": {
     heading: "Take skip hire bookings",
     body: "Customers choose a start date and hire length. Paid bookings use capacity across those days after payment confirmation.",
@@ -86,6 +110,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
   "industry-venue-hire": {
     heading: "Take day-based venue bookings",
     body: "Customers choose a start date and a one-day or multi-day option. Paid bookings use capacity after payment confirmation.",
+  },
+  "industry-village-fete": {
+    heading: "Record fete income",
+    body: "Advance sales, gate cash recorded as manual income, and costs sit in one money statement for the treasurer.",
   },
   ledger: {
     heading: "Keep one accounting ledger",

@@ -19,9 +19,10 @@ blocks:
       ## One event, set up once
 
       A reunion is usually a single evening, so the £5/month billing
-      option suits it better than an annual plan. There is no per-ticket
-      fee, and payments go directly to the organiser's own Stripe, Square,
-      or SumUp account.
+      option suits it better than an annual plan. Chobble adds no
+      per-ticket platform fee, and payments go directly to the organiser's
+      own Stripe, Square, or SumUp account, whose own charges remain
+      separate.
 
       [Custom questions](/features/custom-questions/) collect what the
       venue needs: a meal choice, dietary requirements, or the year
