@@ -1,12 +1,11 @@
-import { createDailyIndustryListing } from "./_industry.js";
+import {
+  createDailyIndustryListing,
+  firstWeekdayOfNextMonth,
+} from "./_industry.js";
 import { addDatedBooking } from "./helpers.js";
 
 const dateParts = () => {
-  const now = new Date();
-  const month = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1));
-  const fridayOffset = (12 - month.getUTCDay()) % 7;
-  const friday = new Date(month);
-  friday.setUTCDate(1 + fridayOffset);
+  const friday = firstWeekdayOfNextMonth(5);
   const saturday = new Date(friday);
   saturday.setUTCDate(friday.getUTCDate() + 1);
   return {

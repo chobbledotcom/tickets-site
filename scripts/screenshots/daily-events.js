@@ -1,11 +1,8 @@
+import { firstWeekdayOfNextMonth } from "./_industry.js";
 import { addDatedBooking, createDailyListing } from "./helpers.js";
 
 const dateParts = () => {
-  const now = new Date();
-  const month = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1));
-  const mondayOffset = (8 - month.getUTCDay()) % 7;
-  const monday = new Date(month);
-  monday.setUTCDate(1 + mondayOffset);
+  const monday = firstWeekdayOfNextMonth(1);
   const laterMonday = new Date(monday);
   laterMonday.setUTCDate(monday.getUTCDate() + 7);
   return {
