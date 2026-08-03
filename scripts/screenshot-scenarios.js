@@ -4,11 +4,11 @@
  * Re-take every legacy screenshot scenario through the Tickets screenshot runner.
  *
  * Each retained scenario file in scripts/screenshots/ is run in turn against a fresh
- * throwaway tickets app the runner starts locally. The runner writes two
- * files per scenario into images/screenshots/:
+ * throwaway tickets app the runner starts locally. The runner writes the
+ * original and requested social variants into images/screenshots/:
  *
  *   <scenario-name>.png               — the original mobile screenshot
- *   <scenario-name>__facebook.png      — the social share variant
+ *   <scenario-name>__<target>.png      — a social share variant
  *
  * Run with no arguments to re-take every scenario, or pass scenario
  * basenames (with or without the .js extension) to re-take a subset:
@@ -35,7 +35,10 @@ import {
   createSocialScreenshot,
   SOCIAL_TARGET_SIZES,
 } from "./create-social-screenshot.js";
-import { renderSocialScreenshotText } from "./render-social-screenshot-text.js";
+import {
+  renderInstagramScreenshotText,
+  renderSocialScreenshotText,
+} from "./render-social-screenshot-text.js";
 import { path, root, spawn } from "./utils.js";
 
 const SCENARIOS_DIR = path("scripts", "screenshots");
@@ -130,15 +133,22 @@ const createSocialScreenshots = async (scenario, social) => {
 };
 
 const addSocialText = async (scenarioName, scenario, social, socialResults) => {
-  if (!getSocialTargets(social).includes("facebook")) return;
-  const filePath = join(OUTPUT_DIR, `${scenario.name}__facebook.png`);
-  const { solidWidth } = await renderSocialScreenshotText(
-    filePath,
-    scenarioName,
-    scenario.css,
-    socialResults.facebook.solidWidth,
-  );
-  console.log(`  text:     ${solidWidth}px solid region`);
+  const targets = getSocialTargets(social);
+  if (targets.includes("facebook")) {
+    const filePath = join(OUTPUT_DIR, `${scenario.name}__facebook.png`);
+    const { solidWidth } = await renderSocialScreenshotText(
+      filePath,
+      scenarioName,
+      scenario.css,
+      socialResults.facebook.solidWidth,
+    );
+    console.log(`  facebook text: ${solidWidth}px solid region`);
+  }
+  if (targets.includes("instagram-square")) {
+    const filePath = join(OUTPUT_DIR, `${scenario.name}__instagram-square.png`);
+    await renderInstagramScreenshotText(filePath, scenarioName, scenario.css);
+    console.log("  instagram text: square overlay");
+  }
 };
 
 const runScenario = async (scenarioName, social) => {

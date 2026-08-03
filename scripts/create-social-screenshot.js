@@ -11,6 +11,8 @@ export const SOCIAL_TARGET_SIZES = {
 
 const noPadding = { bottom: 0, left: 0, right: 0, top: 0 };
 const FACEBOOK_MINIMUM_SOLID_WIDTH = 480;
+const INSTAGRAM_SCREENSHOT_INSET = 72;
+const INSTAGRAM_SCREENSHOT_OPACITY = 0.55;
 
 const planExtension = (source, target) => {
   const sourceRatio = source.width / source.height;
@@ -85,6 +87,54 @@ const createConstrainedFacebookScreenshot = async (
   return { solidWidth: target.width - width };
 };
 
+const createInstagramSquareScreenshot = async (
+  inputPath,
+  outputPath,
+  source,
+  target,
+  background,
+) => {
+  const available = target.width - INSTAGRAM_SCREENSHOT_INSET * 2;
+  const scale = Math.min(available / source.width, available / source.height);
+  const width = Math.round(source.width * scale);
+  const height = Math.round(source.height * scale);
+  const fade = await sharp({
+    create: {
+      background: { ...background, alpha: 1 - INSTAGRAM_SCREENSHOT_OPACITY },
+      channels: 4,
+      height,
+      width,
+    },
+  })
+    .png()
+    .toBuffer();
+  const screenshot = await sharp(inputPath)
+    .resize(width, height, { fit: "fill" })
+    .ensureAlpha()
+    .composite([{ input: fade }])
+    .png()
+    .toBuffer();
+  fs.mkdir(dirname(outputPath));
+  await sharp({
+    create: {
+      background,
+      channels: 4,
+      height: target.height,
+      width: target.width,
+    },
+  })
+    .composite([
+      {
+        input: screenshot,
+        left: Math.round((target.width - width) / 2),
+        top: Math.round((target.height - height) / 2),
+      },
+    ])
+    .png()
+    .toFile(outputPath);
+  return { solidWidth: target.width };
+};
+
 export const createSocialScreenshot = async (
   inputPath,
   outputPath,
@@ -94,8 +144,17 @@ export const createSocialScreenshot = async (
   if (!target) throw new Error(`Unknown social target: ${targetName}`);
   const meta = await sharp(inputPath).metadata();
   const source = { height: meta.height, width: meta.width };
-  const plan = planExtension(source, target);
   const background = await readBackground(inputPath);
+  if (targetName === "instagram-square") {
+    return await createInstagramSquareScreenshot(
+      inputPath,
+      outputPath,
+      source,
+      target,
+      background,
+    );
+  }
+  const plan = planExtension(source, target);
   const solidWidth = Math.round((plan.extend.left * target.width) / plan.width);
   if (targetName === "facebook" && solidWidth < FACEBOOK_MINIMUM_SOLID_WIDTH) {
     return await createConstrainedFacebookScreenshot(

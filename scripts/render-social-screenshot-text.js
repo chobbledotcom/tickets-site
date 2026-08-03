@@ -7,6 +7,7 @@ const VERTICAL_PADDING = 54;
 const HEADING_FONT = "Marcellus";
 const BODY_FONT = "Noto Sans";
 const MINIMUM_CONTRAST = 4.5;
+const INSTAGRAM_SIZE = 1080;
 const HEADING_FONT_FILE = resolve(
   import.meta.dirname,
   "..",
@@ -41,6 +42,11 @@ const rgbFromHex = (hex) => {
     Number.parseInt(expanded.slice(offset, offset + 2), 16),
   );
 };
+
+const hexFromRgb = ([red, green, blue]) =>
+  `#${[red, green, blue]
+    .map((channel) => channel.toString(16).padStart(2, "0"))
+    .join("")}`;
 
 const luminance = (colour) => {
   const [red, green, blue] = colour.map((channel) => {
@@ -113,6 +119,115 @@ const textMarkup = ({ body, bodyColour, heading, headingColour }) =>
 <span font_family="${BODY_FONT}" foreground="${bodyColour}">${escapeMarkup(body)}
 
 <b>tickets.chobble.com</b></span>`;
+
+const instagramTextMarkup = ({ background, colour, font, size, text }) =>
+  `<span font_family="${font}" size="${size}%" foreground="${colour}" background="${background}">${escapeMarkup(text)}</span>`;
+
+const createInstagramTextLayer = async ({
+  angle,
+  background,
+  colour,
+  font,
+  height,
+  size,
+  text,
+  width,
+}) =>
+  await sharp({
+    text: {
+      align: "left",
+      font,
+      fontfile: HEADING_FONT_FILE,
+      height,
+      rgba: true,
+      text: instagramTextMarkup({ background, colour, font, size, text }),
+      width,
+    },
+  })
+    .rotate(angle, { background: { alpha: 0, b: 0, g: 0, r: 0 } })
+    .png()
+    .toBuffer();
+
+export const renderInstagramScreenshotText = async (
+  filePath,
+  scenarioName,
+  scenarioCss = "",
+  chosenCopy,
+) => {
+  const copy = chosenCopy ?? SOCIAL_SCREENSHOT_COPY[scenarioName];
+  if (!copy) throw new Error(`No social copy is defined for ${scenarioName}.`);
+
+  const image = sharp(filePath);
+  const { data, info } = await image
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+  if (info.width !== INSTAGRAM_SIZE || info.height !== INSTAGRAM_SIZE) {
+    throw new Error(
+      `Instagram square images must be ${INSTAGRAM_SIZE}px square.`,
+    );
+  }
+  const background = [data[0], data[1], data[2]];
+  const darkBackground = isDark(background);
+  const contrastFallback = darkBackground ? "#f6f5f4" : "#241a30";
+  const textColour = colourFrom(scenarioCss, "--color-text", contrastFallback);
+  const secondaryColour = colourFrom(
+    scenarioCss,
+    "--color-secondary",
+    contrastFallback,
+  );
+  const paperColour = hexFromRgb(background);
+  const headingColour = readableColour(
+    secondaryColour,
+    [textColour, contrastFallback],
+    background,
+  );
+  const bodyColour = readableColour(
+    textColour,
+    [secondaryColour, contrastFallback],
+    background,
+  );
+  const heading = await createInstagramTextLayer({
+    angle: -2.5,
+    background: paperColour,
+    colour: headingColour,
+    font: HEADING_FONT,
+    height: 350,
+    size: 185,
+    text: copy.heading,
+    width: 900,
+  });
+  const body = await createInstagramTextLayer({
+    angle: 1.5,
+    background: paperColour,
+    colour: bodyColour,
+    font: BODY_FONT,
+    height: 300,
+    size: 105,
+    text: copy.body,
+    width: 760,
+  });
+  const address = await createInstagramTextLayer({
+    angle: -1,
+    background: paperColour,
+    colour: bodyColour,
+    font: BODY_FONT,
+    height: 90,
+    size: 115,
+    text: "tickets.chobble.com",
+    width: 520,
+  });
+
+  await image
+    .composite([
+      { input: heading, left: 54, top: 60 },
+      { input: body, left: 250, top: 590 },
+      { input: address, left: 65, top: 940 },
+    ])
+    .png()
+    .toFile(`${filePath}.with-text.png`);
+  await sharp(`${filePath}.with-text.png`).toFile(filePath);
+  await Bun.file(`${filePath}.with-text.png`).delete();
+};
 
 /** Evidence captures pass the copy their lock records, so the words drawn into
  * the card are the words attested by the import. Legacy scenarios look theirs

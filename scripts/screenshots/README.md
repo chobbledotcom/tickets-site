@@ -11,8 +11,21 @@ Facebook-sized social image in `images/screenshots/`.
 
 ```bash
 bun run screenshot:scenarios industry-skip-hire
+bun run screenshot:scenarios industry-skip-hire --social instagram-square
 bun run screenshot:scenarios industry-skip-hire --no-social
 ```
+
+The Instagram square variant centres the product screenshot on a 1080px square,
+fades it towards the screenshot background colour and places the social copy
+over it. Use `--social facebook,instagram-square` to create both variants.
+
+Existing screenshots can be turned into Instagram images without retaking them:
+
+```bash
+bun run screenshot:text --social instagram-square charity-events
+```
+
+Leave off the scenario name to generate every image with social copy.
 
 The scenario filename describes the use case. Its exported `name` is the output
 image basename. Industry landing-page scenarios and images use the `industry-`
