@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 142 rendered client pages. A page counts as illustrated
+This audit covers all 149 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 140 | 53 | 87 |
+| Editorial pages in the sitemap | 147 | 53 | 94 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **142** | **53** | **89** |
+| **All rendered pages** | **149** | **53** | **96** |
 
-The 86 editorial pages are the main illustration backlog. The two utility
+The 93 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -123,6 +123,13 @@ pages are listed separately at the end.
 | `pages/perfect-for/adult-parties.md` | Attendee screenshot: `private-social-booking` | Ember Private Social is hidden and direct-link-only for 120 guests, collecting name and email with non-transferable tickets. Show no marketplace or related events. | Demonstrates discretion through the attendee journey rather than stock nightlife photography. |
 | `pages/perfect-for/festivals.md` | Reuse: `required-child-listings-checkout.png` | Reuse the Willowbank Festival weekend-pass checkout with required General or Quiet Camping. | The existing screenshot already depicts the page's central festival workflow. |
 | `pages/perfect-for/theatre-and-performing-arts.md` | Admin screenshot: `theatre-front-of-house` | The Old Playhouse has 180 shared general-admission places across adult, child and concession tickets, with online, manual, complimentary and checked-in totals. | Shows shared house capacity and mixed sales while making the lack of allocated seating clear. |
+| `pages/perfect-for/comedy-nights.md` | Admin screenshot: `comedy-club-door-list` | The Cellar Comedy Club's Friday night has 90 places, 74 online bookings, 6 comps added manually and the scanner open on a phone. Show online, manual and checked-in totals side by side. | Shows the door list covering paid sales and comps without a separate guest-list tool. |
+| `pages/perfect-for/food-and-drink-festivals.md` | Attendee screenshot: `beer-festival-session-checkout` | Bridgefield Beer Festival's Saturday evening session checkout with two adult tickets, a £4 festival glass add-on and a live running total. | Shows session tickets and physical add-ons sold in one checkout. |
+| `pages/perfect-for/conventions-and-expos.md` | Admin screenshot: `convention-shared-capacity` | Northgate Comic Con has Saturday, Sunday and weekend listings sharing an 800-place group cap, with each tier's own price and sales. | Shows tiered passes counting against one venue limit. |
+| `pages/perfect-for/guided-tours.md` | Attendee screenshot: `walking-tour-calendar` | The Old Town Ghost Walk's calendar shows 15 places per departure, sold-out dates unavailable and a mobility question at checkout. | Shows small-group limits and pre-tour questions from the guest's side. |
+| `pages/perfect-for/scare-attractions.md` | Admin screenshot: `scare-attraction-season` | Hollowtree Scare Trail's October calendar with per-night capacity, blackout Mondays and separate 19:00 and 20:00 entry listings. | Shows a short season with entry sessions as separate listings rather than a clock-time picker. |
+| `pages/perfect-for/class-reunions.md` | Attendee screenshot: `reunion-meal-choice` | The Oakfield High Class of 2006 reunion checkout with a three-course or buffet meal question changing the running total and a dietary requirements field. | Shows answer-triggered pricing collecting what the caterer needs. |
+| `pages/perfect-for/fetes-and-fairs.md` | Admin screenshot: `village-fete-ledger` | Meadowfield Village Fete's ledger filtered to the fete, showing advance gate sales, a manual cash entry and raffle income in one statement. | Shows the treasurer's single set of figures across online and cash income. |
 
 ## Guide Pages
 

@@ -82,6 +82,27 @@ blocks:
       - icon: hugeicons:mask-theater-01
         description: Sell tickets for several performance dates and give front-of-house staff QR check-in tools.
         name: <a href="/perfect-for/theatre-and-performing-arts/">Theatre and performing arts</a>
+      - icon: hugeicons:mask-theater-01
+        description: Sell tickets for stand-up shows and club nights with QR door entry, promo codes and a guest list.
+        name: <a href="/perfect-for/comedy-nights/">Comedy nights</a>
+      - icon: hugeicons:shopping-cart-01
+        description: Sell session tickets for beer and food festivals with glasses and tasting tokens as add-ons.
+        name: <a href="/perfect-for/food-and-drink-festivals/">Food and drink festivals</a>
+      - icon: hugeicons:ticket-01
+        description: Sell day tickets, weekend passes and trader pitches with shared venue capacity and QR entry.
+        name: <a href="/perfect-for/conventions-and-expos/">Conventions and expos</a>
+      - icon: hugeicons:location-01
+        description: Take tour bookings with a group limit for every departure and questions answered before the day.
+        name: <a href="/perfect-for/guided-tours/">Guided tours</a>
+      - icon: hugeicons:clock-01
+        description: Sell tickets for a seasonal run with per-night capacity, entry sessions and required entry terms.
+        name: <a href="/perfect-for/scare-attractions/">Scare attractions</a>
+      - icon: hugeicons:mortarboard-01
+        description: Sell reunion tickets with meal choices, dietary questions and encrypted guest details.
+        name: <a href="/perfect-for/class-reunions/">Class reunions</a>
+      - icon: hugeicons:tent
+        description: Sell gate admission, stall pitches and raffle entries with ledger-backed records for the treasurer.
+        name: <a href="/perfect-for/fetes-and-fairs/">Fetes and fairs</a>
   - type: cta
     button:
       text: Start for £5
