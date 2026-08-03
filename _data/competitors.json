@@ -325,10 +325,10 @@
     "name": "TixFox",
     "annual_cost": 0,
     "per_ticket_fee_percent": 0,
-    "per_ticket_fee_fixed": 0.31,
+    "per_ticket_fee_fixed": 0.38,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "TixFox fees: US$0.39 (approx. £0.31) per paid ticket, or US$0.30 (approx. £0.24) for tickets priced under US$5. The fee is published in US dollars only; this calculator converts it at the rate noted here and applies the standard US$0.39 rate at every ticket price, so it does not model the reduced rate for tickets under US$5. Free events carry no fee and there is no subscription. Ticket revenue goes directly to your own Stripe account via Stripe Connect, with Stripe processing charged separately (1.5% + 20p in the UK; TixFox quotes the US rate of 2.9% + US$0.30). TixFox platform fees are not refunded when a ticket is refunded. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: tixfox.co/pricing (August 2026)."
+    "fee_note": "TixFox fees: £0.38 per paid ticket, or £0.30 for tickets priced under £5, with the pricing page's currency selector set to pounds (US$0.39 and US$0.30 under US$5 in dollars). This calculator applies the standard £0.38 rate at every ticket price, so it does not model the reduced under-£5 rate. Free events carry no fee and there is no subscription. Ticket revenue goes directly to your own Stripe account via Stripe Connect, with Stripe processing charged separately (1.5% + 20p in the UK, as quoted on TixFox's own pricing page). TixFox platform fees are not refunded when a ticket is refunded. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: tixfox.co/pricing (August 2026)."
   },
   "ticket_generator": {
     "name": "Ticket Generator",

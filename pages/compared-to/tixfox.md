@@ -1,7 +1,7 @@
 ---
 competitor_key: tixfox
 title: TixFox Alternative
-meta_title: Open Source & UK-Priced TixFox Alternative | Chobble Tickets
+meta_title: Open Source & Cheaper TixFox Alternative | Chobble Tickets
 meta_description: Compare Chobble Tickets and TixFox on per-ticket fees, payment providers, ticketing features, attendee data and source licensing.
 permalink: /compared-to/tixfox/
 eleventyNavigation:
@@ -28,15 +28,15 @@ provider_facts:
   local_dev_source: not-reviewed
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
-  attendee_cross_marketing: not-documented
+  attendee_cross_marketing: none
   notes:
     registration_country: "TixFox's terms of service describe TixFox LLC as a limited liability company organised under the laws of the State of Delaware, United States. Its check-in app is published on the Apple App Store by HahuCloud LLC."
-    per_ticket_platform_fee: "US$0.39 per paid ticket, or US$0.30 for tickets priced under US$5. The fee is published in US dollars only. Free tickets carry no fee."
+    per_ticket_platform_fee: "£0.38 per paid ticket, or £0.30 for tickets priced under £5, with the pricing page's currency selector set to pounds; US$0.39 and US$0.30 under US$5 in dollars. Free tickets carry no fee."
     managed_pricing: "TixFox charges for each paid ticket and has no subscription."
     white_label: "Event pages support custom colours and fonts; removing TixFox branding was not documented in the sources reviewed."
     custom_domain: "No custom-domain option was documented in the sources reviewed."
-    event_marketplace: "No public event-discovery area was found on the TixFox site in this review; buyers reach events through links the organiser shares."
-    attendee_cross_marketing: "The privacy policy says TixFox does not sell, trade or rent personal information and sends promotional updates only with consent. It does not state whether ticket buyers receive marketing about other organisers' events."
+    event_marketplace: "The TixFox site and its sitemap contain no public event-discovery area, and no marketplace is described in its published pages; buyers reach events through links the organiser shares."
+    attendee_cross_marketing: "TixFox's GDPR statement describes the organiser as the data controller of attendee data and TixFox as a processor, and says it will never use attendee data for marketing purposes or share it with third parties."
 blocks:
   - type: hero
     class: gradient
@@ -46,42 +46,41 @@ blocks:
       TixFox is a US ticketing platform that charges a flat fee per paid ticket, with payments through Stripe. This page compares it to Chobble Tickets on pricing, features and data handling.
   - type: markdown
     content: |
-      ## Open source TixFox alternative with UK pricing
+      ## Open source & cheaper TixFox alternative
 
       Chobble Tickets is a white label ticketing platform made in the UK by a
       community interest company. Its source code is published under the
       AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
       copy. TixFox does not publish its source code.
 
-      TixFox charges US$0.39 per paid ticket (about £0.31) with no
-      subscription. Chobble Tickets charges £50/year or £5/month whatever the
-      volume, so the two cross over at about 160 paid tickets a year.
+      TixFox charges £0.38 per paid ticket with no subscription. Chobble
+      Tickets charges £50/year or £5/month whatever the volume, so the two
+      cross over at about 130 paid tickets a year.
   - type: markdown
     content: |
       ## Pricing comparison
 
-      [TixFox](https://tixfox.co/pricing) charges US$0.39 for each paid
-      ticket, or US$0.30 for tickets priced under US$5 (about £4). There is
-      no subscription, no setup fee and no charge on free tickets. Organisers
+      [TixFox](https://tixfox.co/pricing) charges £0.38 for each paid
+      ticket, or £0.30 for tickets priced under £5. There is no
+      subscription, no setup fee and no charge on free tickets. Organisers
       choose whether to absorb the fee or pass it on to buyers at checkout.
 
-      The fee is published in US dollars only. Checkout supports 18
-      currencies, including pounds, but the site does not show the fee in
-      any other currency. At the exchange rate used on this page, US$0.39
-      is about £0.31.
+      The pricing page shows the fee in 18 currencies. In US dollars the
+      rates are US$0.39 per ticket and US$0.30 under US$5, with equivalent
+      rates for the other currencies.
 
       Ticket money goes directly into the organiser's own Stripe account
       through Stripe Connect, so TixFox never holds the funds. Stripe's
-      processing fee is charged separately (TixFox quotes the US rate of
-      2.9% + US$0.30; Stripe's standard UK rate is 1.5% + 20p). TixFox's
-      platform fee is not refunded when the organiser refunds a ticket.
+      processing fee is charged separately, at 1.5% + 20p for standard UK
+      cards. TixFox's platform fee is not refunded when the organiser
+      refunds a ticket.
 
       Chobble Tickets is a flat £50/year or £5/month, with
       [no per-ticket platform fees](/features/no-per-ticket-fees/).
       Charities, community groups, artists and musicians pay £25/year
-      on the annual plan. At about
-      £0.31 per ticket, TixFox costs less below roughly 160 paid tickets
-      a year, and Chobble Tickets costs less above that.
+      on the annual plan. At £0.38 per ticket, TixFox costs less below
+      roughly 130 paid tickets a year, and Chobble Tickets costs less
+      above that.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -115,7 +114,10 @@ blocks:
       - Multiple ticket types per event
       - Team accounts with roles, including check-in staff who cannot see
         financial data
-      - Embedding events on your own website
+      - Embedding events on your own website (TixFox has a WordPress
+        plugin with an inline embed and a buy-button modal, plus a Framer
+        integration; Chobble Tickets has an
+        [embeddable order widget](/features/order-widget/))
       - Zapier connectivity
   - type: markdown
     content: |
@@ -147,8 +149,6 @@ blocks:
         infrastructure without a Chobble software licence fee
       - **Flat pricing** - £50/year or £5/month with no per-ticket
         platform fees, so costs stay the same as volume grows
-      - **Pricing in pounds** - Chobble's fee is set in pounds; TixFox
-        publishes its fee in US dollars
       - **[Square and SumUp support](/features/stripe-and-square/)** -
         TixFox requires a Stripe account; Chobble Tickets also works with
         Square and SumUp
@@ -197,11 +197,11 @@ blocks:
       ## Data ownership
 
       TixFox stores order information (name, email and tickets bought) so
-      the organiser can manage the attendee list. Its terms state that
-      organisers collect and control attendee data, and its privacy policy
-      says TixFox does not sell, trade or rent personal information. Its
-      sub-processor list places hosting and support services in the United
-      States.
+      the organiser can manage the attendee list. Its GDPR statement
+      describes the organiser as the data controller of attendee data and
+      TixFox as a processor, and says it will never use attendee data for
+      marketing purposes or share it with third parties. Its sub-processor
+      list places hosting and support services in the United States.
 
       TixFox's terms also grant it a licence to use event names,
       descriptions and images to promote the platform, including featuring
@@ -216,7 +216,7 @@ blocks:
     content: |
       ## When TixFox might be the better choice
 
-      - You sell fewer than about 160 paid tickets a year, so per-ticket
+      - You sell fewer than about 130 paid tickets a year, so per-ticket
         fees cost less than a subscription
       - You want native iOS and Android check-in apps
       - You want to sell tickets at the door with Tap to Pay on a phone
@@ -271,13 +271,15 @@ blocks:
       The pricing information on this page was checked on 3 August 2026.
       Fees may change. Check the links below for the latest figures.
 
-      - [TixFox pricing](https://tixfox.co/pricing) - US$0.39 per paid ticket, US$0.30 for tickets under US$5, free events free
+      - [TixFox pricing](https://tixfox.co/pricing) - £0.38 per paid ticket (£0.30 under £5) with the currency selector set to pounds, US$0.39/US$0.30 in dollars, free events free
       - [TixFox FAQ](https://tixfox.co/faq) - fee pass-through, Stripe Connect payouts, non-refundable platform fees
       - [TixFox features](https://tixfox.co/features) - full feature list
       - [TixFox terms of service](https://tixfox.co/legal/tos) - Delaware LLC, fee terms, event-content licence
       - [TixFox privacy policy](https://tixfox.co/legal/privacy) - data collection and no sale of personal information
+      - [TixFox GDPR statement](https://tixfox.co/legal/gdpr) - organiser as data controller, no marketing use of attendee data
       - [TixFox sub-processors](https://tixfox.co/legal/sub-processors) - hosting and support services, United States locations
       - [TixFox vs Ticket Tailor comparison](https://tixfox.co/alternative/tickettailor) - reserved seating listed as coming soon, embed and branding rows
+      - [TixFox WordPress guide](https://tixfox.co/blog/how-to-sell-event-tickets-on-wordpress) - inline embed and buy-button modal blocks
       - [TixFox on the Apple App Store](https://apps.apple.com/app/tixfox/id6698872869) - first released September 2024, publisher HahuCloud LLC
       - [Chobble Tickets features](/features/)
   - type: cta
@@ -290,5 +292,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Open Source & UK-Priced TixFox Alternative | Chobble Tickets
+name: Open Source & Cheaper TixFox Alternative | Chobble Tickets
 ---
