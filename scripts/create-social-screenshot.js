@@ -49,6 +49,28 @@ const readBackground = async (inputPath) => {
   };
 };
 
+const writeScreenshotCanvas = async ({
+  background,
+  input,
+  left,
+  outputPath,
+  target,
+  top,
+}) => {
+  fs.mkdir(dirname(outputPath));
+  await sharp({
+    create: {
+      background,
+      channels: 4,
+      height: target.height,
+      width: target.width,
+    },
+  })
+    .composite([{ input, left, top }])
+    .png()
+    .toFile(outputPath);
+};
+
 const createConstrainedFacebookScreenshot = async (
   inputPath,
   outputPath,
@@ -67,23 +89,14 @@ const createConstrainedFacebookScreenshot = async (
     .resize(width, height, { fit: "fill" })
     .png()
     .toBuffer();
-  await sharp({
-    create: {
-      background,
-      channels: 4,
-      height: target.height,
-      width: target.width,
-    },
-  })
-    .composite([
-      {
-        input: screenshot,
-        left: target.width - width,
-        top: Math.round((target.height - height) / 2),
-      },
-    ])
-    .png()
-    .toFile(outputPath);
+  await writeScreenshotCanvas({
+    background,
+    input: screenshot,
+    left: target.width - width,
+    outputPath,
+    target,
+    top: Math.round((target.height - height) / 2),
+  });
   return { solidWidth: target.width - width };
 };
 
@@ -114,24 +127,14 @@ const createInstagramSquareScreenshot = async (
     .composite([{ input: fade }])
     .png()
     .toBuffer();
-  fs.mkdir(dirname(outputPath));
-  await sharp({
-    create: {
-      background,
-      channels: 4,
-      height: target.height,
-      width: target.width,
-    },
-  })
-    .composite([
-      {
-        input: screenshot,
-        left: Math.round((target.width - width) / 2),
-        top: Math.round((target.height - height) / 2),
-      },
-    ])
-    .png()
-    .toFile(outputPath);
+  await writeScreenshotCanvas({
+    background,
+    input: screenshot,
+    left: Math.round((target.width - width) / 2),
+    outputPath,
+    target,
+    top: Math.round((target.height - height) / 2),
+  });
   return { solidWidth: target.width };
 };
 

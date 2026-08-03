@@ -8,6 +8,7 @@ const HEADING_FONT = "Marcellus";
 const BODY_FONT = "Noto Sans";
 const MINIMUM_CONTRAST = 4.5;
 const INSTAGRAM_SIZE = 1080;
+const INSTAGRAM_TEXT_BACKGROUND_ALPHA = "b3";
 const HEADING_FONT_FILE = resolve(
   import.meta.dirname,
   "..",
@@ -148,34 +149,57 @@ const createInstagramTextLayer = async ({
     .png()
     .toBuffer();
 
+const loadRenderContext = async (filePath, scenarioName, chosenCopy) => {
+  const copy = chosenCopy ?? SOCIAL_SCREENSHOT_COPY[scenarioName];
+  if (!copy) throw new Error(`No social copy is defined for ${scenarioName}.`);
+  const image = sharp(filePath);
+  const { data, info } = await image
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+  return { copy, data, image, info };
+};
+
+const themeColours = (data, scenarioCss) => {
+  const background = [data[0], data[1], data[2]];
+  const contrastFallback = isDark(background) ? "#f6f5f4" : "#241a30";
+  return {
+    background,
+    contrastFallback,
+    secondaryColour: colourFrom(
+      scenarioCss,
+      "--color-secondary",
+      contrastFallback,
+    ),
+    textColour: colourFrom(scenarioCss, "--color-text", contrastFallback),
+  };
+};
+
+const replaceWithComposite = async (image, filePath, layers) => {
+  const temporaryPath = `${filePath}.with-text.png`;
+  await image.composite(layers).png().toFile(temporaryPath);
+  await sharp(temporaryPath).toFile(filePath);
+  await Bun.file(temporaryPath).delete();
+};
+
 export const renderInstagramScreenshotText = async (
   filePath,
   scenarioName,
   scenarioCss = "",
   chosenCopy,
 ) => {
-  const copy = chosenCopy ?? SOCIAL_SCREENSHOT_COPY[scenarioName];
-  if (!copy) throw new Error(`No social copy is defined for ${scenarioName}.`);
-
-  const image = sharp(filePath);
-  const { data, info } = await image
-    .raw()
-    .toBuffer({ resolveWithObject: true });
+  const { copy, data, image, info } = await loadRenderContext(
+    filePath,
+    scenarioName,
+    chosenCopy,
+  );
   if (info.width !== INSTAGRAM_SIZE || info.height !== INSTAGRAM_SIZE) {
     throw new Error(
       `Instagram square images must be ${INSTAGRAM_SIZE}px square.`,
     );
   }
-  const background = [data[0], data[1], data[2]];
-  const darkBackground = isDark(background);
-  const contrastFallback = darkBackground ? "#f6f5f4" : "#241a30";
-  const textColour = colourFrom(scenarioCss, "--color-text", contrastFallback);
-  const secondaryColour = colourFrom(
-    scenarioCss,
-    "--color-secondary",
-    contrastFallback,
-  );
-  const paperColour = hexFromRgb(background);
+  const { background, contrastFallback, secondaryColour, textColour } =
+    themeColours(data, scenarioCss);
+  const paperColour = `${hexFromRgb(background)}${INSTAGRAM_TEXT_BACKGROUND_ALPHA}`;
   const headingColour = readableColour(
     secondaryColour,
     [textColour, contrastFallback],
@@ -217,16 +241,11 @@ export const renderInstagramScreenshotText = async (
     width: 520,
   });
 
-  await image
-    .composite([
-      { input: heading, left: 54, top: 60 },
-      { input: body, left: 250, top: 590 },
-      { input: address, left: 65, top: 940 },
-    ])
-    .png()
-    .toFile(`${filePath}.with-text.png`);
-  await sharp(`${filePath}.with-text.png`).toFile(filePath);
-  await Bun.file(`${filePath}.with-text.png`).delete();
+  await replaceWithComposite(image, filePath, [
+    { input: heading, left: 54, top: 60 },
+    { input: body, left: 250, top: 520 },
+    { input: address, left: 65, top: 940 },
+  ]);
 };
 
 /** Evidence captures pass the copy their lock records, so the words drawn into
@@ -239,23 +258,14 @@ export const renderSocialScreenshotText = async (
   knownSolidWidth,
   chosenCopy,
 ) => {
-  const copy = chosenCopy ?? SOCIAL_SCREENSHOT_COPY[scenarioName];
-  if (!copy) throw new Error(`No social copy is defined for ${scenarioName}.`);
-
-  const image = sharp(filePath);
-  const { data, info } = await image
-    .raw()
-    .toBuffer({ resolveWithObject: true });
-  const solidWidth = knownSolidWidth ?? findSolidRegionWidth({ data, ...info });
-  const background = [data[0], data[1], data[2]];
-  const darkBackground = isDark(background);
-  const contrastFallback = darkBackground ? "#f6f5f4" : "#241a30";
-  const textColour = colourFrom(scenarioCss, "--color-text", contrastFallback);
-  const secondaryColour = colourFrom(
-    scenarioCss,
-    "--color-secondary",
-    contrastFallback,
+  const { copy, data, image, info } = await loadRenderContext(
+    filePath,
+    scenarioName,
+    chosenCopy,
   );
+  const solidWidth = knownSolidWidth ?? findSolidRegionWidth({ data, ...info });
+  const { background, contrastFallback, secondaryColour, textColour } =
+    themeColours(data, scenarioCss);
   const linkColour = colourFrom(scenarioCss, "--color-link");
   const accentColour = colourFrom(scenarioCss, "--color-accent");
   const headingColour = readableColour(
@@ -310,15 +320,10 @@ export const renderSocialScreenshotText = async (
     .png()
     .toBuffer();
 
-  await image
-    .composite([
-      { input: clearedBackground, left: 0, top: 0 },
-      { input: text, left: horizontalPadding, top: VERTICAL_PADDING },
-    ])
-    .png()
-    .toFile(`${filePath}.with-text.png`);
-  await sharp(`${filePath}.with-text.png`).toFile(filePath);
-  await Bun.file(`${filePath}.with-text.png`).delete();
+  await replaceWithComposite(image, filePath, [
+    { input: clearedBackground, left: 0, top: 0 },
+    { input: text, left: horizontalPadding, top: VERTICAL_PADDING },
+  ]);
 
   return { height, solidWidth, width };
 };
