@@ -205,7 +205,8 @@ blocks:
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees or showing
         competing events alongside yours
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want Apple/Google Wallet integration, calendar feeds, or RSS
       - You value open source and the ability to self-host
       - You're selling enough tickets that percentage fees add up quickly

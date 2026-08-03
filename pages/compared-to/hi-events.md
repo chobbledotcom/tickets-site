@@ -311,7 +311,8 @@ blocks:
       - You want predictable, flat-rate pricing with no per-ticket platform fees
       - Privacy and encryption matter to you
       - You prefer a serverless, edge-deployed platform with no server management
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want Apple/Google Wallet integration, calendar feeds, or RSS
       - You value a Community Interest Company over a traditional startup
   - type: markdown

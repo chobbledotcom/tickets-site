@@ -78,8 +78,9 @@ blocks:
       chart features.
 
       Chobble Tickets is a flat £50/year or £5/month, with
-      [no per-ticket platform fees](/features/no-per-ticket-fees/). Community groups,
-      charities, and schools pay £25/year. On Ticket Tailor's pay-as-you-go
+      [no per-ticket platform fees](/features/no-per-ticket-fees/). Charities, community
+      groups, artists and musicians pay £25/year on the annual plan. On
+      Ticket Tailor's pay-as-you-go
       rate, Chobble Tickets works out cheaper once you sell more than about
       84 paid tickets a year. Even at Ticket Tailor's lowest prepaid rate of
       22p per ticket, Chobble Tickets is cheaper once you sell more than
@@ -244,7 +245,8 @@ blocks:
       - You want predictable, flat-rate pricing with no per-ticket platform fees and
         no credit bundles to manage
       - Privacy and encryption matter to you
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Apple/Google Wallet](/features/apple-wallet/),
         [calendar feeds](/features/rss-and-calendar-feeds/), or a
         [public API](/features/public-api/) included

@@ -118,6 +118,9 @@ blocks:
         description: A UK ticketing platform with no buyer booking fee and tiered organiser plans. Compare pricing, features and data handling.
         name: <a href="/compared-to/tickts/">tickts alternative</a>
       - icon: hugeicons:ticket-01
+        description: A US ticketing platform with a flat fee per paid ticket and no subscription. Compare pricing, features and data handling.
+        name: <a href="/compared-to/tixfox/">TixFox alternative</a>
+      - icon: hugeicons:ticket-01
         description: Ticketing software from Ireland with per-ticket fees and developer tools. Compare pricing, features and data handling.
         name: <a href="/compared-to/tito/">Tito alternative</a>
       - icon: hugeicons:ticket-01

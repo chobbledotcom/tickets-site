@@ -7,16 +7,16 @@ layout: null
 
 ## Scope
 
-This audit covers all 142 rendered client pages. A page counts as illustrated
+This audit covers all 143 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 140 | 53 | 87 |
+| Editorial pages in the sitemap | 141 | 53 | 88 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **142** | **53** | **89** |
+| **All rendered pages** | **143** | **53** | **90** |
 
 The 86 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
@@ -159,6 +159,7 @@ pages are listed separately at the end.
 | `pages/compared-to/weezevent.md` | Comparison graphic: `weezevent-fixed-fee-share` | Northside Community Cinema sells 400 tickets at £5, £15 and £30. Show the documented 2.5% + £0.99 charge as a share of each price beside Chobble's annual fee, with cashless bars, access hardware and crew management as a separate Weezevent advantage panel. | Shows that a fixed per-ticket charge weighs most on cheap tickets, without ignoring festival operations. |
 | `pages/compared-to/ticket-tailor.md` | Comparison graphic: `ticket-tailor-break-even` | The Tempest sells 84, 230 and 500 tickets. Compare pay-as-you-go and low prepaid-credit rates with Chobble's annual fee; show custom domain and reserved seating separately. | Visualises both break-even points and reasons an organiser may still choose Ticket Tailor. |
 | `pages/compared-to/ticket-generator.md` | Comparison graphic: `ticket-generator-credits-and-free-events` | Oakfield College registers 300 guests for a free careers day and a 200-place paid gala. Show Ticket Generator's credit packs applying to both free and paid tickets beside Chobble's no-charge free events and flat paid-event fee, with reserved seating, box office and custom ticket design as a separate Ticket Generator advantage. | Shows that a per-ticket generation charge weighs on free events, where Chobble Tickets charges nothing. |
+| `pages/compared-to/tixfox.md` | Comparison graphic: `tixfox-fee-crossover` | Riverside Makers Market sells 80, 130 and 500 £10 tickets. Show TixFox's £0.38 per-ticket fee crossing Chobble's flat annual fee at about 130 tickets, with native check-in apps and Tap to Pay as a separate TixFox advantage panel. | Shows the break-even point without hiding TixFox's on-site tools. |
 | `pages/compared-to/humanitix.md` | Comparison graphic: `humanitix-purpose-and-fees` | Meadowfield Education Fund sells 500 £15 tickets. Compare per-ticket cost with Chobble's community rate, then separately compare charity and CIC structures. | Keeps organisational purpose separate from fee model. |
 | `pages/compared-to/dandelion.md` | Comparison graphic: `dandelion-contribution-model` | Northside Neighbours lists a £12 community supper. Show organiser contribution, buyer donation, listing boost and marketplace as separate optional or conditional pieces beside Chobble's fixed community hosting. | Contrasts two unusual models without treating voluntary payments as mandatory. |
 

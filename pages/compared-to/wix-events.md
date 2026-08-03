@@ -251,7 +251,8 @@ blocks:
       - You don't want to pay £276+/year for a Wix plan only to sell tickets
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
-      - You're a community group, charity, or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Google Wallet passes](/features/apple-wallet/) without a
         third-party app, [calendar
         feeds](/features/rss-and-calendar-feeds/), or a [public
