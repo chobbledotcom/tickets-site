@@ -321,6 +321,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "TicketSource booking fee when you connect your own Stripe account: 4.5% per paid booking excluding VAT, minimum £0.25, plus Stripe processing (1.5% + 20p) charged to you directly. The fee is charged per booking, so a multi-ticket booking is charged once. Registered charities pay 4%. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: ticketsource.co.uk/pricing (July 2026)."
   },
+  "tixfox": {
+    "name": "TixFox",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0.31,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "TixFox fees: US$0.39 (approx. £0.31) per paid ticket, or US$0.30 (approx. £0.24) for tickets priced under US$5. The fee is published in US dollars only; this calculator converts it at the rate noted here. Free events carry no fee and there is no subscription. Ticket revenue goes directly to your own Stripe account via Stripe Connect, with Stripe processing charged separately (1.5% + 20p in the UK; TixFox quotes the US rate of 2.9% + US$0.30). TixFox platform fees are not refunded when a ticket is refunded. Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools on the annual plan) + Stripe processing (1.5% + 20p). Source: tixfox.co/pricing (August 2026)."
+  },
   "ticket_generator": {
     "name": "Ticket Generator",
     "annual_cost": 0,
