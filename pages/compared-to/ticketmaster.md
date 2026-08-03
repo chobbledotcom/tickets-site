@@ -221,7 +221,8 @@ blocks:
       - You want to keep your ticket revenue instead of losing 10%+ per sale
       - Privacy and [encryption](/features/encrypted/) matter to you
       - You value [open source](/features/open-source/) and data ownership
-      - You're a charity or school (£25/year)
+      - You're a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Apple/Google Wallet](/features/apple-wallet/), [calendar
         feeds](/features/rss-and-calendar-feeds/), or a [public
         API](/features/public-api/)

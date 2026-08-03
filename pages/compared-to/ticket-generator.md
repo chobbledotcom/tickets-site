@@ -53,8 +53,8 @@ blocks:
       ## Flat-fee Ticket Generator alternative
 
       Chobble Tickets charges a flat £50/year or £5/month with
-      [no per-ticket platform fees](/features/no-per-ticket-fees/). Community groups,
-      charities and schools pay £25/year on the annual plan. Ticket prices, ticket
+      [no per-ticket platform fees](/features/no-per-ticket-fees/). Charities, community
+      groups, artists and musicians pay £25/year on the annual plan. Ticket prices, ticket
       volumes and feature use do not change the fee.
 
       Ticket Generator sells ticket credits in packs and consumes one credit per
@@ -231,7 +231,8 @@ blocks:
       - Privacy and encryption at rest matter to you
       - You want [open source](/features/open-source/) and the ability to
         [self-host](/hosting/)
-      - You are a community group, charity or school (£25/year)
+      - You are a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want [Apple and Google Wallet](/features/apple-wallet/),
         [calendar feeds](/features/rss-and-calendar-feeds/) and an
         [admin API](/features/admin-api/) included

@@ -248,7 +248,7 @@
     "per_ticket_fee_fixed": 0.46,
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
-    "fee_note": "Humanitix Standard fees: 4.67% + £0.46 per paid ticket (excl. VAT, includes payment processing via Humanitix Payments or Stripe). Charities and schools pay 3.33% + £0.25. Free events are free. There is no annual subscription fee. Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p). Source: humanitix.com/gb/pricing (July 2026)."
+    "fee_note": "Humanitix Standard fees: 4.67% + £0.46 per paid ticket (excl. VAT, includes payment processing via Humanitix Payments or Stripe). Charities and schools pay 3.33% + £0.25. Free events are free. There is no annual subscription fee. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: humanitix.com/gb/pricing (July 2026)."
   },
   "chobble_selfhosted": {
     "name": "Chobble Tickets",
@@ -265,7 +265,7 @@
     "per_ticket_fee_fixed": 0.4,
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
-    "fee_note": "Ticketpass Essentials fees: a booking fee of 1.9% + £0.20 and a separate service fee of 1.9% + £0.20 on each paid ticket, so 3.8% + 40p in total (excl. VAT). Card processing is covered inside the booking fee. Free events are free, and up to 50% of the booking fee is donated to a chosen charity project. Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p). Source: ticketpass.org/pricing (July 2026)."
+    "fee_note": "Ticketpass Essentials fees: a booking fee of 1.9% + £0.20 and a separate service fee of 1.9% + £0.20 on each paid ticket, so 3.8% + 40p in total (excl. VAT). Card processing is covered inside the booking fee. Free events are free, and up to 50% of the booking fee is donated to a chosen charity project. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: ticketpass.org/pricing (July 2026)."
   },
   "ticketpass_pro": {
     "name": "Ticketpass (Pro)",
@@ -274,7 +274,7 @@
     "per_ticket_fee_fixed": 0.7,
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
-    "fee_note": "Ticketpass Pro fees: a booking fee of 3.5% + £0.35 and a separate service fee of 3.5% + £0.35 on each paid ticket, so 7% + 70p in total (excl. VAT). Pro adds reserved seating, waiting lists, memberships and a website widget. Card processing is covered inside the booking fee, and up to 50% of the booking fee is donated to a chosen charity project. Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p). Source: ticketpass.org/pricing (July 2026)."
+    "fee_note": "Ticketpass Pro fees: a booking fee of 3.5% + £0.35 and a separate service fee of 3.5% + £0.35 on each paid ticket, so 7% + 70p in total (excl. VAT). Pro adds reserved seating, waiting lists, memberships and a website widget. Card processing is covered inside the booking fee, and up to 50% of the booking fee is donated to a chosen charity project. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: ticketpass.org/pricing (July 2026)."
   },
   "eventprime_professional": {
     "name": "EventPrime (Professional)",
@@ -283,7 +283,7 @@
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "EventPrime Professional: $99 (approx. £73) for a single site, or $189 (approx. £140) for unlimited sites, paid once. The tier adds Event Tickets, Stripe Payments, Square Payments, live seating, coupons and invoices. The licence is paid once and includes 12 months of support and updates; this calculator assumes it is renewed each year, because a lapsed licence stops receiving updates including security fixes. No per-ticket fees. Payment processing is handled by your own gateway (e.g. Stripe 1.5% + 20p in the UK). Running EventPrime also requires a WordPress site, which has its own hosting costs (typically £5-£25/month). Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p). Source: theeventprime.com/all-extensions (July 2026)."
+    "fee_note": "EventPrime Professional: $99 (approx. £73) for a single site, or $189 (approx. £140) for unlimited sites, paid once. The tier adds Event Tickets, Stripe Payments, Square Payments, live seating, coupons and invoices. The licence is paid once and includes 12 months of support and updates; this calculator assumes it is renewed each year, because a lapsed licence stops receiving updates including security fixes. No per-ticket fees. Payment processing is handled by your own gateway (e.g. Stripe 1.5% + 20p in the UK). Running EventPrime also requires a WordPress site, which has its own hosting costs (typically £5-£25/month). Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: theeventprime.com/all-extensions (July 2026)."
   },
   "eventprime_business": {
     "name": "EventPrime (Business)",
@@ -292,7 +292,7 @@
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "EventPrime Business: listed at $179 (approx. £133) for a single site and $349 (approx. £258) for unlimited sites, advertised at $119 and $229 during a sale in July 2026. The tier adds the seat plan builder, attendee check-in, RSVP, waiting lists, advanced reports and offline payments. The licence is paid once and includes 12 months of support and updates; this calculator assumes it is renewed each year, because a lapsed licence stops receiving updates including security fixes. No per-ticket fees. Payment processing is handled by your own gateway (e.g. Stripe 1.5% + 20p in the UK). Running EventPrime also requires a WordPress site, which has its own hosting costs (typically £5-£25/month). Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p). Source: theeventprime.com/all-extensions (July 2026)."
+    "fee_note": "EventPrime Business: listed at $179 (approx. £133) for a single site and $349 (approx. £258) for unlimited sites, advertised at $119 and $229 during a sale in July 2026. The tier adds the seat plan builder, attendee check-in, RSVP, waiting lists, advanced reports and offline payments. The licence is paid once and includes 12 months of support and updates; this calculator assumes it is renewed each year, because a lapsed licence stops receiving updates including security fixes. No per-ticket fees. Payment processing is handled by your own gateway (e.g. Stripe 1.5% + 20p in the UK). Running EventPrime also requires a WordPress site, which has its own hosting costs (typically £5-£25/month). Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: theeventprime.com/all-extensions (July 2026)."
   },
   "weezevent": {
     "name": "Weezevent",
@@ -301,7 +301,7 @@
     "per_ticket_fee_fixed": 0.99,
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
-    "fee_note": "Weezevent fees: 2.5% + £0.99 including tax on each paid ticket sold online, with banking fees included and no setup fee or subscription. Free events cost nothing. Ticket income is paid out every 15 days. Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p). Source: weezevent.com/en-gb/our-prices (July 2026)."
+    "fee_note": "Weezevent fees: 2.5% + £0.99 including tax on each paid ticket sold online, with banking fees included and no setup fee or subscription. Free events cost nothing. Ticket income is paid out every 15 days. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: weezevent.com/en-gb/our-prices (July 2026)."
   },
   "ticketsource": {
     "name": "TicketSource",
@@ -337,6 +337,6 @@
     "per_ticket_fee_fixed": 0.47,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "Ticket Generator credit packs: 10 credits for $6, 100 for $50, 1,000 for $400 and 10,000 for $2,500 (one credit generates one ticket; events with a venue layout use two credits per ticket). The first 10 credits are free and credits do not expire. This estimate uses the smallest pack rate of $0.60 per ticket (about £0.47); bulk packs reduce the per-ticket cost to as little as $0.25 (about £0.20) at 10,000 credits. Credits apply to free and paid tickets alike. Payment processing for collected payments is not published separately, so UK Stripe processing (1.5% + 20p) is shown as a typical assumption. Chobble Tickets: £50/year or £5/month flat (£25/year for community groups, charities and schools) + Stripe processing (1.5% + 20p), with no charge for issuing tickets on free events. Source: ticket-generator.com/pricing (July 2026)."
+    "fee_note": "Ticket Generator credit packs: 10 credits for $6, 100 for $50, 1,000 for $400 and 10,000 for $2,500 (one credit generates one ticket; events with a venue layout use two credits per ticket). The first 10 credits are free and credits do not expire. This estimate uses the smallest pack rate of $0.60 per ticket (about £0.47); bulk packs reduce the per-ticket cost to as little as $0.25 (about £0.20) at 10,000 credits. Credits apply to free and paid tickets alike. Payment processing for collected payments is not published separately, so UK Stripe processing (1.5% + 20p) is shown as a typical assumption. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p), with no charge for issuing tickets on free events. Source: ticket-generator.com/pricing (July 2026)."
   }
 }

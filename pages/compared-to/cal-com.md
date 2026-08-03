@@ -147,8 +147,8 @@ blocks:
 
       Chobble Tickets is a flat **£50/year (or £5/month)** for the whole
       site, with [no per-ticket platform fees](/features/no-per-ticket-fees/) and no
-      per-user charge. Community groups, charities, and schools pay £25/year
-      on the annual plan. Stripe processing is charged separately at the
+      per-user charge. Charities, community groups, artists and musicians
+      pay £25/year on the annual plan. Stripe processing is charged separately at the
       standard 1.5% + 20p. Self-hosting has no Chobble licence fee.
 
       ### Which one is cheaper depends on what you're doing
@@ -359,7 +359,8 @@ blocks:
       - Privacy and encryption matter to you and you want to be able to
         verify how data is handled
       - You want [Apple and Google Wallet tickets](/features/apple-wallet/)
-      - You are a community group, charity, or school (£25/year)
+      - You are a charity, community group, artist or musician (£25/year
+        on the annual plan)
       - You want to send emails from your own domain with
         [your own email provider](/features/email-providers/)
       - You want to add door staff, volunteers, or co-organisers as
