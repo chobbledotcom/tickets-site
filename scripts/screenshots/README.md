@@ -27,6 +27,16 @@ bun run screenshot:text --social instagram-square charity-events
 
 Leave off the scenario name to generate every image with social copy.
 
+The ChobbleFest Instagram carousel uses ten real app scenarios. Capture every
+state and compose the slideshow with one command:
+
+```bash
+bun run instagram:slideshow:capture
+```
+
+The raw app captures are written to `images/screenshots/chobblefest-*.png`.
+The finished slides are written to `images/instagram/chobblefest/`.
+
 The scenario filename describes the use case. Its exported `name` is the output
 image basename. Industry landing-page scenarios and images use the `industry-`
 prefix so they remain grouped in the existing flat directories.

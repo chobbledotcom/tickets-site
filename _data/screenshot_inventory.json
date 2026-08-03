@@ -30,6 +30,46 @@
     "classification": "legacy-product-screenshot"
   },
   {
+    "key": "chobblefest-capacity",
+    "classification": "editorial"
+  },
+  {
+    "key": "chobblefest-check-in",
+    "classification": "editorial"
+  },
+  {
+    "key": "chobblefest-checkout",
+    "classification": "editorial"
+  },
+  {
+    "key": "chobblefest-crew",
+    "classification": "editorial"
+  },
+  {
+    "key": "chobblefest-email",
+    "classification": "editorial"
+  },
+  {
+    "key": "chobblefest-identity",
+    "classification": "editorial"
+  },
+  {
+    "key": "chobblefest-payments",
+    "classification": "editorial"
+  },
+  {
+    "key": "chobblefest-portable",
+    "classification": "editorial"
+  },
+  {
+    "key": "chobblefest-programme",
+    "classification": "editorial"
+  },
+  {
+    "key": "chobblefest-welcome",
+    "classification": "editorial"
+  },
+  {
     "key": "confirmation-email-template-editor",
     "classification": "legacy-product-screenshot"
   },

@@ -16,6 +16,8 @@
 		"screenshot": "bun scripts/screenshot.js",
 		"screenshot:scenarios": "bun scripts/screenshot-scenarios.js",
 		"screenshot:text": "bun scripts/add-social-screenshot-text.js",
+		"instagram:slideshow": "bun scripts/create-instagram-slideshow.js",
+		"instagram:slideshow:capture": "bun scripts/capture-instagram-slideshow.js",
 		"evidence:import": "bun scripts/evidence/import.js",
 		"evidence:validate": "bun scripts/evidence/validate.js",
 		"evidence:review": "bun scripts/evidence/review.js",

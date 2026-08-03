@@ -8,7 +8,7 @@ const HEADING_FONT = "Marcellus";
 const BODY_FONT = "Noto Sans";
 const MINIMUM_CONTRAST = 4.5;
 const INSTAGRAM_SIZE = 1080;
-const INSTAGRAM_TEXT_BACKGROUND_ALPHA = "b3";
+const INSTAGRAM_TEXT_BACKGROUND_ALPHA = "d9";
 const HEADING_FONT_FILE = resolve(
   import.meta.dirname,
   "..",
@@ -237,7 +237,7 @@ export const renderInstagramScreenshotText = async (
     font: BODY_FONT,
     height: 90,
     size: 115,
-    text: "tickets.chobble.com",
+    text: copy.address ?? "tickets.chobble.com",
     width: 520,
   });
 

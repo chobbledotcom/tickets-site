@@ -1,4 +1,4 @@
-import { createListing, setFormValues } from "./helpers.js";
+import { addDatedBooking, createDailyListing } from "./helpers.js";
 
 const dateParts = () => {
   const now = new Date();
@@ -13,17 +13,6 @@ const dateParts = () => {
     monday: monday.toISOString().slice(0, 10),
     month: monday.toISOString().slice(0, 7),
   };
-};
-
-const addBooking = async (
-  { page, submit },
-  listingId,
-  { date, email, name, quantity },
-) => {
-  await page.goto(`/admin/listing/${listingId}/attendees`);
-  const form = `form[action="/admin/listing/${listingId}/attendee"]`;
-  await setFormValues(page, form, { date, email, name, quantity });
-  await submit(form);
 };
 
 export default {
@@ -75,23 +64,10 @@ export default {
   elementSelector: "#attendees",
   name: "daily-events-calendar",
   run: async (context) => {
-    const listingId = await createListing(context, {
-      choices: {
-        bookable_days: [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday",
-        ],
-      },
-      fields: ["email"],
+    const listingId = await createDailyListing(context, {
       name: "Little Acorns Stay & Play",
       values: {
         duration_days: "1",
-        listing_type: "daily",
         location: "Meadowbrook Community Hall",
         max_attendees: "12",
         max_quantity: "4",
@@ -101,13 +77,13 @@ export default {
       },
     });
     const dates = dateParts();
-    await addBooking(context, listingId, {
+    await addDatedBooking(context, listingId, {
       date: dates.monday,
       email: "maya@example.com",
       name: "Maya and Leo Patel",
       quantity: "8",
     });
-    await addBooking(context, listingId, {
+    await addDatedBooking(context, listingId, {
       date: dates.laterMonday,
       email: "families@example.com",
       name: "Monday families",

@@ -122,6 +122,35 @@ export const createListing = async (
   return listingIdFrom(page, name);
 };
 
+const EVERY_DAY = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
+];
+
+export const createDailyListing = (
+  context,
+  { fields = ["email"], name, values },
+) =>
+  createListing(context, {
+    choices: { bookable_days: EVERY_DAY },
+    fields,
+    name,
+    values: { ...values, listing_type: "daily" },
+  });
+
+export const addDatedBooking = async (context, listingId, values) => {
+  const path = `/admin/listing/${listingId}/attendees`;
+  await context.page.goto(path);
+  const form = `form[action="/admin/listing/${listingId}/attendee"]`;
+  await setFormValues(context.page, form, values);
+  await context.submit(form);
+};
+
 export const publicPathFrom = async (page, adminPath) => {
   await page.goto(adminPath);
   const href = await page
