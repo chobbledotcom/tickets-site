@@ -51,8 +51,9 @@ blocks:
     content: |
       ## Open source & cheaper SmartGig alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
+      Chobble Tickets is ticketing software made in the UK by a community
+      interest company. It is white label, so booking pages and emails carry
+      your name rather than Chobble's. Its source code is published under the
       AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
       copy. SmartGig does not publish its source code and does not offer
       self-hosting.
@@ -180,8 +181,9 @@ blocks:
       - **Order-level CSV exports** - separate spreadsheet downloads for
         orders and refunds. Chobble Tickets exports attendee records and
         listing sales
-      - **Disputes and chargebacks** - chargeback notes and failed-refund
-        retry and recovery tracked on the order
+      - **Disputes and chargebacks** - a chargeback is a card payment the
+        provider takes back after the buyer disputes it. SmartGig keeps notes
+        on the order, and tracks retries and recovery when a refund fails
       - **PDF tickets and receipts** - buyers download a ticket PDF, a ticket
         bundle and a receipt PDF. Chobble Tickets emails a ticket link and
         offers wallet passes
@@ -234,8 +236,9 @@ blocks:
         a single feed listing all events, so subscribers get automatic updates
         when new ones are added. SmartGig offers a single add-to-calendar file
         per ticket
-      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate events
-        to feed readers
+      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - publish your
+        events and updates automatically to apps and websites that follow the
+        feed, using the common RSS format
       - **[Custom email providers](/features/email-providers/)** - use Resend,
         Postmark, SendGrid, or Mailgun. SmartGig's White Label component sets
         a sending domain on its own provider
@@ -261,8 +264,6 @@ blocks:
       - **[Event setup export and import](/features/catalogue-import-export/)** -
         move an event's setup to another Chobble Tickets host as versioned
         JSON
-      - **Community Interest Company** - run by a CIC, a UK legal structure
-        that locks the company's assets for community benefit
   - type: markdown
     content: |
       ## Data ownership
