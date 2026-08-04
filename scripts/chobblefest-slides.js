@@ -28,7 +28,7 @@ export const CHOBBLEFEST_SLIDES = [
     source: "chobblefest-capacity",
   },
   {
-    body: "Ticket money goes straight to my Stripe, Square or SumUp account. Chobble takes no cut from each sale.",
+    body: "Ticket money goes straight to your Stripe, Square or SumUp account. Chobble takes no cut from each sale.",
     heading: "Get paid directly",
     palette: ["#f0e3dd", "#34202d", "#9c3851", "#8b596c"],
     slug: "payments",

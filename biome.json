@@ -6,7 +6,11 @@
     "useIgnoreFile": true
   },
   "files": {
-    "includes": ["scripts/**/*.js", "!!chobble-template"],
+    "includes": [
+      "scripts/**/*.{js,jsx}",
+      "remotion.config.js",
+      "!!chobble-template"
+    ],
     "ignoreUnknown": true
   },
   "formatter": {

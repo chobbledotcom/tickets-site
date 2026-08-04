@@ -18,14 +18,18 @@
 		"screenshot:text": "bun scripts/add-social-screenshot-text.js",
 		"instagram:slideshow": "bun scripts/create-instagram-slideshow.js",
 		"instagram:slideshow:capture": "bun scripts/capture-instagram-slideshow.js",
+		"video:studio": "remotion studio",
+		"video:render": "bun scripts/video/render.js",
+		"video:stills": "bun scripts/video/render-stills.js",
+		"video:render:local": "remotion render ChobbleFestReel videos/chobblefest-reel.mp4",
 		"evidence:import": "bun scripts/evidence/import.js",
 		"evidence:validate": "bun scripts/evidence/validate.js",
 		"evidence:review": "bun scripts/evidence/review.js",
 		"clean": "rm -rf .build _site",
 		"test": "bun scripts/test.js",
 		"precommit": "bun scripts/precommit.js",
-		"lint": "bunx @biomejs/biome check --config-path=biome.json --error-on-warnings scripts/ _lib/ src.11tydata.js",
-		"lint:fix": "bunx @biomejs/biome check --config-path=biome.json --write scripts/ _lib/ src.11tydata.js",
+		"lint": "bunx @biomejs/biome check --config-path=biome.json --error-on-warnings scripts/ _lib/ src.11tydata.js remotion.config.js",
+		"lint:fix": "bunx @biomejs/biome check --config-path=biome.json --write scripts/ _lib/ src.11tydata.js remotion.config.js",
 		"cpd": "bunx jscpd"
 	},
 	"imports": {
@@ -34,6 +38,13 @@
 	},
 	"devDependencies": {
 		"@chobble/js-toolkit": "file:./chobble-template/packages/js-toolkit",
+		"@fontsource/noto-sans": "^5.3.0",
+		"@remotion/cli": "4.0.505",
+		"@remotion/fonts": "4.0.505",
+		"@remotion/transitions": "4.0.505",
+		"react": "^19.2.8",
+		"react-dom": "^19.2.8",
+		"remotion": "4.0.505",
 		"sharp": "^0.34.5"
 	}
 }
