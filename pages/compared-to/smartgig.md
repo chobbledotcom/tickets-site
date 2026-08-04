@@ -275,10 +275,7 @@ blocks:
       On security, SmartGig says data is encrypted in transit and protected
       by access controls, two-factor authentication and audit logs. How
       attendee records are stored in its database is not described in the
-      sources reviewed. Chobble Tickets
-      [encrypts attendee names, contact details and free-text answers in the
-      database](/features/encrypted/), so reading them needs an administrator
-      account with its own password.
+      sources reviewed.
 
       SmartGig says it does not sell personal data, does not use the tracking
       code that follows people around other websites to show them adverts,
@@ -291,10 +288,12 @@ blocks:
       Closed-account data is deleted or anonymised within 90 days unless it
       must be kept for legal, accounting, security, backup or dispute reasons.
 
-      With Chobble Tickets, attendee data is encrypted at rest. Reading it
-      needs an administrator account with its own password, and an organiser
-      who turns on the optional recovery owner also lets whoever holds the
-      recovery credentials decrypt those fields.
+      Chobble Tickets
+      [encrypts attendee names, contact details and free-text answers in the
+      database](/features/encrypted/). Reading them needs an administrator
+      account with its own password, and an organiser who turns on the
+      optional recovery owner also lets whoever holds the recovery
+      credentials decrypt those fields.
 
       The platform is open source, so the same code can be run on your own
       server or another host at any time, and event setup can be
