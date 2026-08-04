@@ -66,11 +66,12 @@ blocks:
       ## Pricing comparison
 
       SmartGig builds a price from parts. The base workspace costs nothing,
-      and each module or feature added to it has its own price. Ticketing is
-      £80/month or £800/year. Trader Manager, Transport Manager and Stage
-      Manager are £20/month each, Site Plan, team access and recurring events
-      are £10/month each, and White Label is £50/month. Choosing Transport,
-      Stage Manager and Ticketing together takes 10% off.
+      and each module or feature added to it has its own price.
+
+      Ticketing is £80/month or £800/year. Trader Manager, Transport Manager
+      and Stage Manager are £20/month each, and Site Plan, team access and
+      recurring events are £10/month each. White Label is £50/month, and
+      choosing Transport, Stage Manager and Ticketing together takes 10% off.
 
       This means the price does not vary with ticket value or ticket volume,
       but it does vary with how much of the platform you switch on. An
@@ -120,13 +121,16 @@ blocks:
       - QR code scanning for check-in at the door
       - Free and complimentary tickets
       - E-tickets sent by email after booking
-      - Discount and promo codes, with usage caps and date windows
+      - Discount and promo codes at checkout
       - Add-on tickets sold alongside a main entry ticket
       - Timed entry, sessions and per-date capacity
         ([daily events](/features/daily-events/) in Chobble Tickets)
       - Multiple ticket types with their own capacity, price and sale window
-      - Per-order and per-customer purchase limits
+      - A maximum number of tickets one buyer can take
       - Hidden events that do not appear on public pages
+      - [Text messages to attendees](/features/sms-messages/) (SmartGig sells
+        an SMS allowance from £2/month; Chobble Tickets sends from your own
+        Android phone and number, with no charge per message)
       - Custom questions at checkout
       - Manual and box office orders entered by the organiser
       - Recording payments taken outside checkout, such as cash, bank
@@ -184,8 +188,6 @@ blocks:
         invited addresses or an email domain
       - **Gate operations reporting** - scans per minute, scanner throughput,
         stopped scans, duplicate attempts and override reasons
-      - **SMS messages to buyers and participants** - sold as an allowance
-        from £2/month
       - **Retention review** - configure retention periods and approve or
         extend deletion of flagged records
   - type: markdown
@@ -231,10 +233,12 @@ blocks:
         a sending domain on its own provider
       - **[Liquid email templates](/features/email-templates/)** - full
         control over confirmation emails with Liquid template syntax
-      - **[Admin API](/features/admin-api/)**,
-        **[public API](/features/public-api/)** and
-        **[webhooks](/features/webhooks/)** - SmartGig does not document an
-        API or webhooks
+      - **Connections to your other systems** - other software can read and
+        change event data through the
+        [admin API](/features/admin-api/) and
+        [public API](/features/public-api/), and
+        [webhooks](/features/webhooks/) tell it when a booking happens.
+        SmartGig does not document an API or webhooks
       - **[Embeddable order widget](/features/order-widget/)** - sell tickets
         from inside your own website
       - **[Packages](/features/packages/)** - sell several listings together
@@ -299,7 +303,8 @@ blocks:
         much as ticket sales
       - You expect on-sale spikes large enough to need a waiting room
       - You want native iOS and Android check-in apps for gate teams
-      - You want SMS messages to buyers and participants
+      - You want text messages sent by the platform rather than from your
+        own phone
       - You want detailed gate-operations reporting after the event
   - type: markdown
     content: |
@@ -310,8 +315,7 @@ blocks:
         built from modules
       - You take payments with Square or SumUp rather than Stripe
       - Privacy matters to you, and you want attendee details
-        [encrypted in the database](/features/encrypted/) rather than stored
-        as plain text
+        [encrypted in the database](/features/encrypted/)
       - You're a charity, community group, artist or musician (£25/year on the
         annual plan)
       - You want [Apple and Google Wallet](/features/apple-wallet/) passes,
