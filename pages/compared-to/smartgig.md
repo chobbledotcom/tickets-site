@@ -27,7 +27,7 @@ provider_facts:
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
   local_dev_reload: not-reviewed
-  event_marketplace: none
+  event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   notes:
     registration_country: "SmartGig's terms of service and site footer name Positive Climb LTD, registered in England and Wales, with ICO registration ZC170287."
@@ -38,7 +38,7 @@ provider_facts:
     custom_domain: "Custom portal domains are part of the same White Label component."
     public_website: "SmartGig publishes a branded public ticket page for each ticketed event. No organiser website or content management area is described."
     self_hosting: "SmartGig is sold as a hosted subscription. Its terms grant a limited right to use the platform and prohibit reselling, sublicensing or white-labelling access to third parties without written agreement."
-    event_marketplace: "The SmartGig site and its sitemap contain no public event-discovery area, and buyers reach events through links the organiser shares."
+    event_marketplace: "The SmartGig site and its sitemap contain no public event-discovery area, and the documented buyer flow uses links the organiser shares. No source reviewed rules a marketplace in or out."
     attendee_cross_marketing: "SmartGig's privacy policy names the organiser as the usual data controller for event and participant data, says it does not sell personal data, and says it uses no advertising cookies or remarketing pixels. It does not say whether SmartGig markets to attendees after a purchase, so the sources reviewed do not settle this."
 blocks:
   - type: hero
@@ -212,16 +212,12 @@ blocks:
       - **Self-hosting option** - run the platform on selected
         infrastructure without a Chobble software licence fee. SmartGig is
         sold as a hosted subscription only
-      - **Flat all-in pricing** - £50/year or £5/month covers every feature.
+      - **One managed hosting price** - £50/year or £5/month covers hosting,
+        updates, backup tools and support, with every feature included.
         SmartGig prices modules and features separately
       - **[Square and SumUp support](/features/stripe-and-square/)** -
         SmartGig requires a Stripe account; Chobble Tickets also works with
         Square and SumUp
-      - **[Encryption at rest](/features/encrypted/)** - attendee names,
-        contact details and free-text answers are scrambled in the database,
-        and reading them needs an administrator account with its own password.
-        Someone who copied the database could not read those fields.
-        [The encryption uses RSA-OAEP + AES-256-GCM](/features/encrypted/)
       - **[Custom domain included](/features/custom-domain/)** - pointing
         your own domain is part of the base price. SmartGig sells custom
         portal and email domains as White Label at £50/month
@@ -275,6 +271,14 @@ blocks:
       into the platform. Its privacy policy says the organiser normally
       decides what is collected about attendees and what it is used for, and
       that SmartGig handles that data on the organiser's instructions.
+
+      On security, SmartGig says data is encrypted in transit and protected
+      by access controls, two-factor authentication and audit logs. How
+      attendee records are stored in its database is not described in the
+      sources reviewed. Chobble Tickets
+      [encrypts attendee names, contact details and free-text answers in the
+      database](/features/encrypted/), so reading them needs an administrator
+      account with its own password.
 
       SmartGig says it does not sell personal data, does not use the tracking
       code that follows people around other websites to show them adverts,
