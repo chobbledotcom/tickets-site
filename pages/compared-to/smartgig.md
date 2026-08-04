@@ -52,10 +52,13 @@ blocks:
       ## Open source & cheaper SmartGig alternative
 
       Chobble Tickets is ticketing software made in the UK by a community
-      interest company. It is white label, so booking pages and emails carry
-      your name rather than Chobble's. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. SmartGig does not publish its source code and does not offer
+      interest company, a structure that locks the company's assets to
+      community benefit. It is white label, so booking pages and emails carry
+      your name rather than Chobble's.
+
+      Its source code is published under the AGPL-3.0-only licence, so anyone
+      can read it, keep their own copy of it, or run that copy themselves.
+      SmartGig does not publish its source code and does not offer
       self-hosting.
 
       SmartGig charges £80 a month, or £800 a year on annual billing, for its
