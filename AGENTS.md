@@ -28,10 +28,57 @@ bun run lint:fix     # Auto-fix lint issues
 Content lives in `pages/` and `guide-pages/`, site configuration in `_data/`,
 custom styles in `css/`, images in `images/` and build utilities in `scripts/`.
 
-Changes to `scripts/` follow the template project's conventions: functional
-style with the `#fp` utilities, no `var`, no `==`, no `forEach`, arrow
-functions, and a cognitive-complexity limit of 7. Run `bun run lint:fix`
-before committing.
+Changes to `scripts/`, `_lib/` and `src.11tydata.js` follow the template
+project's conventions: functional style with the `#fp` utilities, no `var`,
+no `==`, no `forEach`, arrow functions, and a cognitive-complexity limit of 7.
+Run `bun run lint:fix` before committing.
+
+## Translated pages
+
+The site is written in English and publishes a few pages in other languages.
+Two data files describe that, and nothing else names a language.
+
+- `_data/languages.json` lists every language the site publishes. Each entry
+  has a `code`, an `hreflang`, an `og_locale`, a `label` for the language
+  switcher, a `home_url` prefix, a `home_label` and a `breadcrumb_label` for
+  the breadcrumb landmark. Exactly one entry has
+  `is_default: true`, which is the language everything outside another
+  language's prefix is written in, and the language `hreflang="x-default"`
+  points at.
+- `_data/translations.json` pairs the pages that say the same thing. Each
+  group maps a language code to that language's URL for one page.
+
+`_lib/i18n.js` reads a page's language from its URL prefix, and
+`src.11tydata.js` puts the result on every page as `language`, along with
+`translation`, the group of URLs for that page in each language. The layout,
+the hreflang tags, the language switcher and the `og:locale` tags read those
+two values and never a language name, so a site with one language and no
+translations renders as it did before any of this existed.
+
+To add a language:
+
+1. Add its entry to `_data/languages.json`.
+2. Write `_includes/navigation-<code>.html` and `_includes/footer-<code>.html`,
+   which are chosen by language code. Link only the pages that exist in that
+   language. The footer includes `language-switcher.html` and the navigation
+   does not, so the language links sit in one place. A page with no
+   counterpart in a language links that language's home page, which is what
+   makes another language reachable from a page nobody has translated.
+3. Put its pages in `pages/<code>/`, each with a `permalink` under the
+   language's `home_url`.
+4. Add each translated page to `_data/translations.json`.
+
+A translated page repeats a page the English audits already cover, so the
+copy, evidence and image-scenario checks read the English source and skip its
+translations. `test/translations.test.js` checks the pairing itself, including
+that every URL named in `_data/translations.json` is a URL the build
+publishes.
+
+Files that override the template, which are `_layouts/base.html`,
+`src.11tydata.js` and the `_includes` that the template also ships, must keep
+working for a site with any base language and any number of other languages,
+including none. Language-specific content, such as `navigation-de.html` and
+the pages in `pages/de/`, belongs to this site alone.
 
 ## Core Product Distinction
 

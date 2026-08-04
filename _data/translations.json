@@ -1,0 +1,5 @@
+[
+	{ "en": "/", "de": "/de/", "es": "/es/" },
+	{ "en": "/about/", "de": "/de/ueber-uns/", "es": "/es/sobre-chobble/" },
+	{ "en": "/pricing/", "de": "/de/preise/", "es": "/es/precios/" }
+]

@@ -2,6 +2,7 @@ import { describe, expect, test } from "bun:test";
 import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { CONTENT_DIRECTORIES } from "../scripts/evidence/copy.js";
+import { isTranslatedPage } from "../_lib/i18n.js";
 
 const ROOT = path.resolve(import.meta.dir, "..");
 const IMAGE_PATTERNS = [
@@ -16,7 +17,11 @@ const contentFiles = CONTENT_DIRECTORIES.flatMap((directory) => {
   return readdirSync(absoluteDirectory, { recursive: true, withFileTypes: true })
     .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
     .map((entry) => path.relative(ROOT, path.join(entry.parentPath, entry.name)));
-}).sort();
+})
+  // A translation shows the images its English source shows, so the brief
+  // documents the source once instead of once per language.
+  .filter((filePath) => !isTranslatedPage(filePath))
+  .sort();
 
 const imageLessFiles = contentFiles.filter((filePath) => {
   const content = readFileSync(path.join(ROOT, filePath), "utf8");

@@ -1,0 +1,24 @@
+<nav aria-label="Navegación principal">
+  {%- if config.sticky_mobile_nav -%}
+    <input
+      type="checkbox"
+      id="nav-toggle"
+      class="toggle"
+      autocomplete="off"
+      aria-label="Mostrar u ocultar el menú de navegación"
+    >
+    <label
+      for="nav-toggle"
+      class="toggle-label"
+      aria-hidden="true"
+    >
+      <span></span>
+    </label>
+  {%- endif -%}
+  <ul class="nav-thumbnails">
+    <li class="nav-brand"><a href="/es/"{% if page.url == "/es/" %} class="active"{% endif %}><span>Chobble Tickets</span></a></li>
+    <li><a href="/es/precios/"{% if page.url == "/es/precios/" %} class="active"{% endif %}><span>Precios</span></a></li>
+    <li><a href="/es/sobre-chobble/"{% if page.url == "/es/sobre-chobble/" %} class="active"{% endif %}><span>Sobre Chobble</span></a></li>
+    <li class="nav-signup">{%- include "design-system/button.html", text: "Empezar por £5", href: "https://tix.chobble.com/ticket/register", variant: "primary", btn_size: "sm" -%}</li>
+  </ul>
+</nav>
