@@ -1,15 +1,28 @@
 {%- comment -%}
-  Links to the same page in the other languages it has been written in.
-  Nothing is shown on a page with no translation, so the switcher never sends
-  a reader to a page that does not exist or to a language home page they did
-  not ask for. `hreflang` and `lang` tell a screen reader and a search engine
-  which language the link leads to.
+  List items linking this page's other languages, for a navigation or footer
+  list. Nothing is written for a site with one language, or when a page has no
+  counterpart to offer.
+
+  Parameters, both required at every call site because Liquid leaves an
+  include's parameters in scope for the next one:
+
+  - item_class: class for each <li>, or false for none.
+  - fallback_home: when a page has no counterpart in a language, true links
+    that language's home page instead, and false writes nothing. The
+    navigation passes false, so a reader is never moved to a different page.
+    The footer passes true, so every page offers a way into the other
+    languages.
 {%- endcomment -%}
 {%- for alternate in languages -%}
   {%- unless alternate.code == language.code -%}
     {%- assign alternate_url = translation[alternate.code] -%}
+    {%- unless alternate_url -%}
+      {%- if fallback_home -%}
+        {%- assign alternate_url = alternate.home_url -%}
+      {%- endif -%}
+    {%- endunless -%}
     {%- if alternate_url -%}
-      <li class="nav-language">
+      <li{% if item_class %} class="{{ item_class }}"{% endif %}>
         <a
           href="{{ alternate_url }}{{ config.internal_link_suffix }}"
           lang="{{ alternate.code }}"

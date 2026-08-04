@@ -60,7 +60,13 @@ To add a language:
 1. Add its entry to `_data/languages.json`.
 2. Write `_includes/navigation-<code>.html` and `_includes/footer-<code>.html`,
    which are chosen by language code. Link only the pages that exist in that
-   language, and include `language-switcher.html` in the navigation list.
+   language, and include `language-switcher.html` in both lists. The
+   navigation passes `fallback_home: false`, so it offers a language only
+   where the same page exists in it. The footer passes `fallback_home: true`,
+   so a page with no counterpart still links the other language's home page,
+   which is what makes another language reachable from a page nobody has
+   translated. Both call sites pass every parameter, because Liquid leaves an
+   include's parameters in scope for the next one.
 3. Put its pages in `pages/<code>/`, each with a `permalink` under the
    language's `home_url`.
 4. Add each translated page to `_data/translations.json`.

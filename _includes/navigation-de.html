@@ -19,7 +19,7 @@
     <li class="nav-brand"><a href="/de/"{% if page.url == "/de/" %} class="active"{% endif %}><span>Chobble Tickets</span></a></li>
     <li><a href="/de/preise/"{% if page.url == "/de/preise/" %} class="active"{% endif %}><span>Preise</span></a></li>
     <li><a href="/de/ueber-uns/"{% if page.url == "/de/ueber-uns/" %} class="active"{% endif %}><span>Über Chobble</span></a></li>
-    {%- include "language-switcher.html" -%}
+    {%- include "language-switcher.html", item_class: "nav-language", fallback_home: false -%}
     <li class="nav-signup">{%- include "design-system/button.html", text: "Für £5 starten", href: "https://tix.chobble.com/ticket/register", variant: "primary", btn_size: "sm" -%}</li>
   </ul>
 </nav>
