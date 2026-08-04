@@ -1,8 +1,8 @@
 {%- comment -%}
-  Breadcrumbs for a translated page. The template's breadcrumb filter always
-  starts at the English home page, which would send a reader of a German page
-  back to English, so translated pages get a two-step trail that stays in
-  their own language.
+  Breadcrumbs for a page outside the site's base language. The template's
+  breadcrumb filter always starts at the site root, which would send a reader
+  back to the base language, so these pages get a two-step trail whose first
+  step is their own language's home page.
 {%- endcomment -%}
 <ol class="breadcrumbs" aria-label="Breadcrumb">
   <li>
