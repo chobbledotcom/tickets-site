@@ -39,7 +39,26 @@ const publishedUrls = new Set([...pagePermalinks.values()].filter(Boolean));
 
 const listedUrls = translations.flatMap((group) => Object.values(group));
 
+/** Every field a template reads off a language. A language missing one renders
+ * an empty attribute or an empty label, which nothing else would catch. */
+const REQUIRED_FIELDS = [
+  "code",
+  "hreflang",
+  "og_locale",
+  "label",
+  "home_url",
+  "home_label",
+  "breadcrumb_label",
+];
+
 describe("translations", () => {
+  test("gives every language the fields the templates read", () => {
+    for (const language of languages) {
+      const missing = REQUIRED_FIELDS.filter((field) => !language[field]);
+      expect([language.code, missing]).toEqual([language.code, []]);
+    }
+  });
+
   test("names exactly one base language", () => {
     expect(languages.filter((language) => language.is_default)).toHaveLength(1);
   });

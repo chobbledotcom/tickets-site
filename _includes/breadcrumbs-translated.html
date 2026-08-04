@@ -4,7 +4,7 @@
   back to the base language, so these pages get a two-step trail whose first
   step is their own language's home page.
 {%- endcomment -%}
-<ol class="breadcrumbs" aria-label="Breadcrumb">
+<ol class="breadcrumbs" aria-label="{{ language.breadcrumb_label }}">
   <li>
     <a href="{{ language.home_url }}{{ config.internal_link_suffix }}">{{ language.home_label }}</a>
   </li>

@@ -40,7 +40,8 @@ Two data files describe that, and nothing else names a language.
 
 - `_data/languages.json` lists every language the site publishes. Each entry
   has a `code`, an `hreflang`, an `og_locale`, a `label` for the language
-  switcher, a `home_url` prefix and a `home_label`. Exactly one entry has
+  switcher, a `home_url` prefix, a `home_label` and a `breadcrumb_label` for
+  the breadcrumb landmark. Exactly one entry has
   `is_default: true`, which is the language everything outside another
   language's prefix is written in, and the language `hreflang="x-default"`
   points at.

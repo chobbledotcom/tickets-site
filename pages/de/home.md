@@ -10,7 +10,7 @@ blocks:
     content: |-
       # Ticketsoftware für Veranstaltungen ohne Gebühr pro Ticket
 
-      Chobble berechnet das Hosting, nicht den einzelnen Verkauf. Verwaltetes Hosting kostet £50 im Jahr oder £5 im Monat, mit allen Funktionen und beliebig vielen Veranstaltungen und Tickets. Dieselbe Open-Source-Software läuft auf dem Hosting von Chobble oder auf einer Infrastruktur Ihrer Wahl. Sie können Ihre Daten exportieren, und die Ticketeinnahmen gehen direkt auf Ihr Konto bei Stripe, Square oder SumUp.
+      Chobble berechnet das Hosting, nicht den einzelnen Verkauf. Verwaltetes Hosting kostet £50 im Jahr oder £5 im Monat, mit allen Funktionen und beliebig vielen Veranstaltungen und Tickets. Dieselbe Open-Source-Software läuft auf dem Hosting von Chobble oder auf einer Infrastruktur Ihrer Wahl, Sie können Ihre Daten exportieren, und die Ticketeinnahmen gehen direkt auf Ihr Konto bei Stripe, Square oder SumUp.
     buttons:
       - text: Für £5 starten
         href: https://tix.chobble.com/ticket/register
@@ -45,7 +45,7 @@ blocks:
   - type: features
     dark: true
     intro_content: |
-      ## Mehr als ein einfaches Ticketformular
+      ## Einmalige, wiederkehrende und mehrtägige Buchungen
 
       Dieselbe Software deckt einmalige Veranstaltungen, Zeitfenster, regelmäßige Termine sowie Buchungen mit Anzahlung, Lieferung oder Abholung ab.
     items:
@@ -124,7 +124,9 @@ blocks:
 
       Elliott's Bouncy Castle Hire ist nach zwölf Jahren von Eventbrite gewechselt. Die erste Einrichtung dauerte einschließlich Stripe 20 Minuten. Drei weitere Tickets für dieselbe Veranstaltung brauchten laut dem Bericht jeweils unter einer Minute.
 
-      > "Eventbrite takes £275 per event, but Chobble is £87.50. Sure, I have to pay £50 a year for Chobble, but that cost is absorbed in less than the first event."
+      <blockquote lang="en">
+        <p>"Eventbrite takes £275 per event, but Chobble is £87.50. Sure, I have to pay £50 a year for Chobble, but that cost is absorbed in less than the first event."</p>
+      </blockquote>
 
       Auf Deutsch heißt das, dass Eventbrite £275 je Veranstaltung nimmt und Chobble £87.50, und dass die £50 Jahresgebühr schon vor dem Ende der ersten Veranstaltung wieder eingespielt sind. Der [vollständige unabhängige Bericht](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review) ist auf Englisch.
   - type: split-icon-links
