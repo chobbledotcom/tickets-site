@@ -1,0 +1,21 @@
+{%- comment -%}
+  Links to the same page in the other languages it has been written in.
+  Nothing is shown on a page with no translation, so the switcher never sends
+  a reader to a page that does not exist or to a language home page they did
+  not ask for. `hreflang` and `lang` tell a screen reader and a search engine
+  which language the link leads to.
+{%- endcomment -%}
+{%- for alternate in languages -%}
+  {%- unless alternate.code == language.code -%}
+    {%- assign alternate_url = translation[alternate.code] -%}
+    {%- if alternate_url -%}
+      <li class="nav-language">
+        <a
+          href="{{ alternate_url }}{{ config.internal_link_suffix }}"
+          lang="{{ alternate.code }}"
+          hreflang="{{ alternate.hreflang }}"
+        ><span>{{ alternate.label }}</span></a>
+      </li>
+    {%- endif -%}
+  {%- endunless -%}
+{%- endfor -%}

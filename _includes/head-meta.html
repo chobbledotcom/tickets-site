@@ -23,10 +23,18 @@
   <meta name="robots" content="noindex,nofollow">
 {%- else -%}
   <link rel="canonical" href="{{ canonical_url }}">
+  {%- include "head-hreflang.html" -%}
 {%- endif -%}
 
 <meta property="og:site_name" content="Chobble Tickets">
-<meta property="og:locale" content="en_GB">
+<meta property="og:locale" content="{{ language.og_locale }}">
+{%- for alternate in languages -%}
+  {%- unless alternate.code == language.code -%}
+    {%- if translation[alternate.code] -%}
+      <meta property="og:locale:alternate" content="{{ alternate.og_locale }}">
+    {%- endif -%}
+  {%- endunless -%}
+{%- endfor -%}
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ social_title | escape }}">
 <meta property="og:description" content="{{ social_description | escape }}">
