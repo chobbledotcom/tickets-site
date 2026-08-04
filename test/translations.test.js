@@ -11,6 +11,7 @@ import { readFileSync } from "node:fs";
 import { join, relative, resolve } from "node:path";
 import { Glob } from "bun";
 import languages from "../_data/languages.json" with { type: "json" };
+import socialImage from "../_data/social_image.json" with { type: "json" };
 import translations from "../_data/translations.json" with { type: "json" };
 import {
   defaultLanguage,
@@ -57,6 +58,15 @@ describe("translations", () => {
       const missing = REQUIRED_FIELDS.filter((field) => !language[field]);
       expect([language.code, missing]).toEqual([language.code, []]);
     }
+  });
+
+  test("describes the shared social image in every language", () => {
+    // og:locale says which language a page is in, so an English description
+    // on a German page is metadata that contradicts the tag beside it.
+    const missing = languages
+      .map((language) => language.code)
+      .filter((code) => !socialImage.alt[code]);
+    expect(missing).toEqual([]);
   });
 
   test("names exactly one base language", () => {

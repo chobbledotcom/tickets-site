@@ -107,7 +107,7 @@ blocks:
 
       Zu jedem Konto gehört eine öffentliche Website für Angebote, Neuigkeiten und Inhaltsseiten. Sie können eine eigene Domain hinzufügen und Farben, Bilder, Texte und E-Mail-Vorlagen ändern.
 
-      Ein iframe setzt die Buchungsseiten in eine bestehende Website ein. Das Bestell-Widget kann stattdessen Links in Schaltflächen zum Warenkorb verwandeln und die fertige Bestellung an die Kasse übergeben.
+      Ein eingebettetes Fenster, ein sogenanntes iframe, zeigt die Buchungsseiten innerhalb einer bestehenden Website. Das Bestell-Widget kann stattdessen Links in Schaltflächen zum Warenkorb verwandeln und die fertige Bestellung an die Kasse übergeben.
     figure_items:
       - icon: hugeicons:layout-01
         text: Öffentliche Buchungswebsite enthalten

@@ -42,7 +42,7 @@ blocks:
         description: Eine gehostete Ticketwebsite für ein Jahr. Das kostet £10 weniger als zwölf Monatszahlungen und enthält beliebig viele Veranstaltungen und Tickets.
       - icon: hugeicons:calendar-01
         name: Hosting pro Monat, £5
-        description: Eine gehostete Ticketwebsite für einen Monat. Die monatliche Zahlung lässt sich ohne Abschlussgebühr kündigen.
+        description: Eine gehostete Ticketwebsite für einen Monat. Die monatliche Zahlung lässt sich ohne Kündigungsgebühr kündigen.
       - icon: hugeicons:discount
         name: Ermäßigtes Hosting pro Jahr, £25
         description: Gemeinnützige Organisationen, Gemeinschaftsgruppen, Kunstschaffende und Musikschaffende erhalten 50% Rabatt auf das Jahreshosting. Der Rabatt gilt nicht für die monatliche Zahlung.

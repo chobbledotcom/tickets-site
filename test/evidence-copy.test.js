@@ -2,6 +2,7 @@ import { describe, expect, test } from "bun:test";
 import { readFileSync } from "node:fs";
 import { join, relative, resolve } from "node:path";
 import { Glob } from "bun";
+import { isTranslatedPage } from "../_lib/i18n.js";
 import { SOCIAL_IMAGE_FACTS } from "../facts/social-images.js";
 import { FEATURE_SOURCE_PREFIX } from "../scripts/evidence/constants.js";
 import { featureSourceUrl } from "../scripts/evidence/mapping.js";
@@ -39,7 +40,10 @@ const markdownFiles = CONTENT_DIRECTORIES.flatMap((directory) =>
     content: read(path),
     path: relative("", path).replaceAll("\\", "/"),
   })),
-);
+)
+  // A translation repeats the capture its English source shows, which the
+  // stray-mention rule would read as a second page describing the image.
+  .filter((file) => !isTranslatedPage(file.path));
 
 describe("evidence copy", () => {
   test("says the same thing everywhere the site describes a capture", () => {
