@@ -66,7 +66,7 @@ blocks:
       in England. Die Registernummer lautet 17050113.
 
       Eine community interest company ist eine britische Rechtsform für
-      Unternehmen mit sozialem Zweck. Zu ihr gehört eine Vermögensbindung.
+      Unternehmen mit sozialem Zweck, zu der eine Vermögensbindung gehört.
       Chobble CIC haftet über eine Garantie und hat kein Aktienkapital, also
       auch keine Anteilseigner. Die Vermögensbindung beschränkt, wie das
       Vermögen der Gesellschaft übertragen werden darf, auch bei einer

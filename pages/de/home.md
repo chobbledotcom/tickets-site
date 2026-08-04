@@ -128,7 +128,7 @@ blocks:
         <p>"Eventbrite takes £275 per event, but Chobble is £87.50. Sure, I have to pay £50 a year for Chobble, but that cost is absorbed in less than the first event."</p>
       </blockquote>
 
-      Auf Deutsch heißt das, dass Eventbrite £275 je Veranstaltung nimmt und Chobble £87.50, und dass die £50 Jahresgebühr schon vor dem Ende der ersten Veranstaltung wieder eingespielt sind. Der [vollständige unabhängige Bericht](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review) ist auf Englisch.
+      Auf Deutsch heißt das, dass Eventbrite £275 je Veranstaltung einbehält, während dieselbe Veranstaltung über Chobble Tickets £87.50 kostet. Chobble berechnet davon nichts pro Verkauf und nimmt £50 im Jahr, und dieser Betrag ist laut dem Bericht schon vor dem Ende der ersten Veranstaltung wieder eingespielt. Der [vollständige unabhängige Bericht](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review) ist auf Englisch.
   - type: split-icon-links
     subtitle: Frei und quelloffen
     content: |
