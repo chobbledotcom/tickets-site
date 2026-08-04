@@ -2,7 +2,7 @@
 competitor_key: smartgig
 title: SmartGig Alternative
 meta_title: Open Source & Cheaper SmartGig Alternative | Chobble Tickets
-meta_description: Compare Chobble Tickets and SmartGig on module pricing, allocated seating, payment providers, attendee data and source licensing.
+meta_description: Compare Chobble Tickets and SmartGig on module pricing, allocated seating, payment providers, attendee data, and whether you can read the code and run your own copy.
 permalink: /compared-to/smartgig/
 eleventyNavigation:
   key: vs SmartGig
@@ -64,8 +64,9 @@ blocks:
       SmartGig charges £80 a month, or £800 a year on annual billing, for its
       Ticketing module. Chobble Tickets charges £50/year or £5/month for
       managed hosting, which covers hosting, updates, backup tools and
-      support. Neither price changes with ticket volume, so SmartGig costs
-      more at every volume, and buys a wider set of event operations tools.
+      support. Neither published price changes with ticket volume, so
+      SmartGig costs more at every volume, and buys a wider set of event
+      operations tools.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -78,8 +79,8 @@ blocks:
       recurring events are £10/month each. White Label is £50/month, and
       choosing Transport, Stage Manager and Ticketing together takes 10% off.
 
-      This means the price does not vary with ticket value or ticket volume,
-      but it does vary with how much of the platform you switch on. An
+      No published component price varies with ticket value or ticket volume,
+      but the total does vary with how much of the platform you switch on. An
       organiser who wants ticketing on their own domain pays £130/month, or
       £1,300/year on annual billing.
 
@@ -138,7 +139,8 @@ blocks:
       - Hidden events that do not appear on public pages
       - [Text messages to attendees](/features/sms-messages/) (SmartGig sells
         an SMS allowance from £2/month; Chobble Tickets sends from your own
-        Android phone and number, with no charge per message)
+        Android phone and number, with no Chobble charge per message, though
+        each text still uses that phone's own mobile plan)
       - Custom questions at checkout
       - Manual and box office orders entered by the organiser
         ([manually added attendees](/features/manual-attendees/) in Chobble
@@ -287,11 +289,11 @@ blocks:
       decides what is collected about attendees and what it is used for, and
       that SmartGig handles that data on the organiser's instructions.
 
-      On security, SmartGig says data is encrypted in transit and protected
-      by access controls, an optional second sign-in check such as a code
-      from a phone, and audit logs. How
-      attendee records are stored in its database is not described in the
-      sources reviewed.
+      On security, SmartGig says data is encrypted while it travels between
+      a person's browser or app and SmartGig, and is protected by access
+      controls, an optional second sign-in check such as a code from a phone,
+      and audit logs. How attendee records are stored in its database is not
+      described in the sources reviewed.
 
       SmartGig says it does not sell personal data, does not use the tracking
       code that follows people around other websites to show them adverts,
