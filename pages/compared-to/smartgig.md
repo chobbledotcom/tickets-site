@@ -16,7 +16,7 @@ provider_facts:
   registration_country: united-kingdom
   ethical_basis:
     - not-documented
-  per_ticket_platform_fee: none
+  per_ticket_platform_fee: not-documented
   managed_pricing: feature-tiered-volume-independent
   white_label: paid-add-on
   custom_domain: paid-add-on
@@ -32,7 +32,7 @@ provider_facts:
   notes:
     registration_country: "SmartGig's terms of service and site footer name Positive Climb LTD, registered in England and Wales, with ICO registration ZC170287."
     ethical_basis: "No ownership, governance or profit structure is described in the sources reviewed."
-    per_ticket_platform_fee: "SmartGig's published package catalogue prices the Ticketing module as a subscription and lists no charge per ticket sold. The booking fee named in its ticket-type settings is a charge the organiser sets and keeps."
+    per_ticket_platform_fee: "SmartGig's published package catalogue prices the Ticketing module as a subscription and lists no charge per ticket sold, and its finance reporting itemises only estimated Stripe fees. No reviewed source states outright that no per-sale fee applies. The booking fee named in its ticket-type settings is a charge the organiser sets and keeps."
     managed_pricing: "The price is the sum of the modules and features selected. Ticketing is £80/month or £800/year, and other parts, such as White Label at £50/month, are priced separately. No component price varies by ticket value or ticket volume."
     white_label: "White Label is a £50/month or £500/year package component covering custom portal and email sending domains."
     custom_domain: "Custom portal domains are part of the same White Label component."
@@ -87,14 +87,17 @@ blocks:
       Stripe Connect, so SmartGig never holds the funds. Stripe's processing
       fee is charged separately, at 1.5% + 20p for standard UK cards.
 
-      SmartGig does not charge a fee on each ticket sold. Its ticket types
+      SmartGig's published prices list no charge on each ticket sold, and its
+      finance reporting itemises only estimated Stripe fees. Its ticket types
       include an optional booking fee, which is a charge the organiser sets
       and keeps.
 
-      Chobble Tickets is a flat £50/year or £5/month, with
+      Chobble Tickets charges a flat £50/year or £5/month for managed
+      hosting, with
       [no per-ticket platform fees](/features/no-per-ticket-fees/).
-      Charities, community groups, artists and musicians pay £25/year on the
-      annual plan. A [custom domain](/features/custom-domain/),
+      Charities, community groups, artists and musicians pay £25/year for the
+      same managed hosting on the annual plan. A
+      [custom domain](/features/custom-domain/),
       [white labelling](/features/white-labelling/), extra
       [user accounts](/features/users/) and
       [repeating dates](/features/daily-events/) are part of that price
@@ -144,8 +147,8 @@ blocks:
         transfer, card machine takings and invoices
         ([the ledger](/features/ledger/) in Chobble Tickets)
       - Full [refunds](/features/refunds/) of a booking
-      - [CSV export](/features/csv-export/) of attendee records and listing
-        sales
+      - Spreadsheet downloads of attendee records and listing sales, as
+        [CSV files](/features/csv-export/)
       - Team accounts with roles, so door staff can check people in without
         reaching the settings
       - [Activity logs](/features/activity-logs/) recording who changed what
@@ -157,8 +160,9 @@ blocks:
       - **Allocated seating** - a seat-map builder with straight, staggered,
         curved and fanned rows, aisles, entrances, price bands, wheelchair and
         companion places and restricted-view seats, and buyers who pick an
-        exact seat or use Best Available. Chobble Tickets sells general
-        admission only
+        exact seat, or let the platform pick a group of seats together with
+        its Best Available option. Chobble Tickets sells general admission
+        only
       - **Waiting room for high-demand launches** - SmartGig paces buyers into
         checkout automatically when demand spikes, showing queue position and
         a checkout timer
@@ -204,7 +208,7 @@ blocks:
         extend deletion of flagged records
   - type: markdown
     content: |
-      ### Chobble Tickets has features SmartGig doesn't
+      ### Chobble Tickets features SmartGig's documentation doesn't describe
 
       - **[Open source](/features/open-source/)** - the complete product
         source is published under AGPL-3.0-only. SmartGig is proprietary
@@ -272,8 +276,8 @@ blocks:
         checkout questions, and does not document answers that change the
         price
       - **[Event setup export and import](/features/catalogue-import-export/)** -
-        move an event's setup to another Chobble Tickets host as versioned
-        JSON
+        download a file holding an event's settings and load it into another
+        Chobble Tickets host. The file is versioned JSON
   - type: markdown
     content: |
       ## Data ownership
@@ -284,7 +288,8 @@ blocks:
       that SmartGig handles that data on the organiser's instructions.
 
       On security, SmartGig says data is encrypted in transit and protected
-      by access controls, two-factor authentication and audit logs. How
+      by access controls, an optional second sign-in check such as a code
+      from a phone, and audit logs. How
       attendee records are stored in its database is not described in the
       sources reviewed.
 
@@ -295,9 +300,11 @@ blocks:
       the contract terms UK data protection law requires for that.
 
       Account owners can request an organisation data export, which SmartGig
-      prepares as a ZIP package sent by email, and download links expire.
-      Closed-account data is deleted or anonymised within 90 days unless it
-      must be kept for legal, accounting, security, backup or dispute reasons.
+      prepares as one compressed download holding the exported files, sent
+      by email, and download links expire. Closed-account data is deleted
+      within 90 days, or stripped of the details that identify a person so
+      what remains cannot be traced back to them, unless it must be kept for
+      legal, accounting, security, backup or dispute reasons.
 
       Chobble Tickets
       [encrypts attendee names, contact details and free-text answers in the
@@ -308,8 +315,8 @@ blocks:
 
       The platform is open source, so the same code can be run on your own
       server or another host at any time, and event setup can be
-      [exported as versioned JSON](/features/catalogue-import-export/) and
-      moved.
+      [downloaded as a settings file](/features/catalogue-import-export/) and
+      loaded into another host.
   - type: markdown
     content: |
       ## Capacity and overselling
@@ -359,13 +366,16 @@ blocks:
       - You want [custom email providers](/features/email-providers/) so
         confirmation emails come from your own domain
       - You value [open source](/features/open-source/) and the ability to
-        read the source code, fork it, or run your own copy
+        read the source code, keep your own copy of it, or run that copy
+        yourself
   - type: markdown
     content: |
       ## Who owns SmartGig?
 
       SmartGig is operated by Positive Climb LTD, a company registered in
-      England and Wales with ICO registration ZC170287. Its terms of service
+      England and Wales, registered with the Information Commissioner's
+      Office, the UK's data protection regulator, under ZC170287. Its terms
+      of service
       are governed by the laws of England and Wales.
 
       Chobble Tickets is run by one person as a
