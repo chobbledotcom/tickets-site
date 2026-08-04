@@ -85,7 +85,7 @@ blocks:
       £1,300/year on annual billing.
 
       Ticket money is taken through the organiser's own Stripe account using
-      Stripe Connect, so SmartGig never holds the funds. Stripe's processing
+      Stripe Connect, and Stripe handles the payouts. Stripe's processing
       fee is charged separately, at 1.5% + 20p for standard UK cards.
 
       SmartGig's published prices list no charge on each ticket sold, and its
@@ -125,8 +125,8 @@ blocks:
       ### Both platforms share some features
 
       - Online ticket sales with payment through Stripe
-      - Ticket income paid straight into the organiser's own Stripe account,
-        not held by the platform
+      - Ticket income paid into the organiser's own payment account, with
+        payouts handled by the payment provider
       - QR code scanning for check-in at the door
       - Free and complimentary tickets
       - E-tickets sent by email after booking
@@ -137,10 +137,6 @@ blocks:
       - Multiple ticket types with their own capacity, price and sale window
       - A maximum number of tickets one buyer can take
       - Hidden events that do not appear on public pages
-      - [Text messages to attendees](/features/sms-messages/) (SmartGig sells
-        an SMS allowance from £2/month; Chobble Tickets sends from your own
-        Android phone and number, with no Chobble charge per message, though
-        each text still uses that phone's own mobile plan)
       - Custom questions at checkout
       - Manual and box office orders entered by the organiser
         ([manually added attendees](/features/manual-attendees/) in Chobble
@@ -152,9 +148,12 @@ blocks:
       - Spreadsheet downloads of attendee records and listing sales, as
         [CSV files](/features/csv-export/)
       - Team accounts with roles, so door staff can check people in without
-        reaching the settings
+        reaching the settings (SmartGig prices team access as a separate
+        £10/month component)
       - [Activity logs](/features/activity-logs/) recording who changed what
-      - Reusing an event's setup for the next date
+      - Reusing an event's setup for the next date (SmartGig documents
+        cloning an event, and prices recurring event series as a separate
+        £10/month component)
   - type: markdown
     content: |
       ### SmartGig has features Chobble Tickets doesn't
@@ -188,8 +187,9 @@ blocks:
         with the matching password. Chobble Tickets has hidden events rather
         than a purchase password
       - **Order-level CSV exports** - separate spreadsheet downloads for
-        orders and refunds. Chobble Tickets exports attendee records and
-        listing sales
+        orders, refunds, check-ins, accounting and promo codes, and a
+        schedule that generates them daily, weekly or monthly. Chobble
+        Tickets exports attendee records, listing sales and staff calendars
       - **Disputes and chargebacks** - a chargeback is a card payment the
         provider takes back after the buyer disputes it. SmartGig keeps notes
         on the order, and tracks retries and recovery when a refund fails
@@ -222,8 +222,9 @@ blocks:
         updates, backup tools and support, with every feature included.
         SmartGig prices modules and features separately
       - **[Square and SumUp support](/features/stripe-and-square/)** -
-        SmartGig requires a Stripe account; Chobble Tickets also works with
-        Square and SumUp
+        Chobble Tickets takes card payments through Stripe, Square or SumUp.
+        SmartGig takes ticket card payments through Stripe only, though it
+        can record bank transfer and PayPal payments for other event fees
       - **[Custom domain included](/features/custom-domain/)** - pointing
         your own domain is part of the base price. SmartGig sells custom
         portal and email domains as White Label at £50/month
@@ -241,12 +242,20 @@ blocks:
         ticket PDFs and does not mention wallet passes
       - **[Subscribable ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
         a single feed listing all events, so subscribers get automatic updates
-        when new ones are added. SmartGig offers a single add-to-calendar file
-        per ticket
+        when new ones are added. SmartGig gives buyers an add-to-calendar file
+        for their order, and its subscribable calendar feed carries transport
+        routes in the Transport module rather than events on sale
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** - publish your
         events and updates automatically to apps and websites that follow the
         feed, using the common RSS format. No such feed is described in
         SmartGig's documentation
+      - **[Text messages to attendees](/features/sms-messages/)** - send texts
+        from your own Android phone and number, with no Chobble charge per
+        message, though each text still uses that phone's own mobile plan.
+        SmartGig sends email and SMS from its Communications tab, and prices
+        an SMS allowance from £2/month, but the recipients its documentation
+        names are event participants, crew and performers rather than ticket
+        buyers
       - **[Custom email providers](/features/email-providers/)** - use Resend,
         Postmark, SendGrid, or Mailgun. SmartGig's White Label component sets
         a sending domain on its own provider
@@ -261,7 +270,9 @@ blocks:
         [admin API](/features/admin-api/) and
         [public API](/features/public-api/), and
         [webhooks](/features/webhooks/) tell it when a booking happens.
-        SmartGig does not document an API or webhooks
+        SmartGig names API access as a staff permission and receives payment
+        webhooks from Stripe, but documents no API or outgoing webhooks for
+        an organiser's own systems
       - **[Embeddable order widget](/features/order-widget/)** - turn links
         on your own website into add-to-cart buttons with a floating basket,
         then hand the buyer over to your booking page to pay. SmartGig does
@@ -344,8 +355,8 @@ blocks:
         much as ticket sales
       - You expect on-sale spikes large enough to need a waiting room
       - You want native iOS and Android check-in apps for gate teams
-      - You want text messages sent by the platform rather than from your
-        own phone
+      - You want text messages to traders, crew or performers sent by the
+        platform rather than from your own phone
       - You want detailed gate-operations reporting after the event
   - type: markdown
     content: |
