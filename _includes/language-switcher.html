@@ -1,34 +1,21 @@
 {%- comment -%}
-  List items linking this page's other languages, for a navigation or footer
-  list. Nothing is written for a site with one language, or when a page has no
-  counterpart to offer.
+  List items linking this page in every other language the site publishes, for
+  the footer link list. Nothing is written for a site with one language.
 
-  Parameters, both required at every call site because Liquid leaves an
-  include's parameters in scope for the next one:
-
-  - item_class: class for each <li>, or false for none.
-  - fallback_home: when a page has no counterpart in a language, true links
-    that language's home page instead, and false writes nothing. The
-    navigation passes false, so a reader is never moved to a different page.
-    The footer passes true, so every page offers a way into the other
-    languages.
+  A page with no counterpart in a language links that language's home page
+  instead of being left out, which is what makes another language reachable
+  from a page nobody has translated. The navigation carries no language links,
+  so this is the one place a reader changes language.
 {%- endcomment -%}
 {%- for alternate in languages -%}
   {%- unless alternate.code == language.code -%}
-    {%- assign alternate_url = translation[alternate.code] -%}
-    {%- unless alternate_url -%}
-      {%- if fallback_home -%}
-        {%- assign alternate_url = alternate.home_url -%}
-      {%- endif -%}
-    {%- endunless -%}
-    {%- if alternate_url -%}
-      <li{% if item_class %} class="{{ item_class }}"{% endif %}>
-        <a
-          href="{{ alternate_url }}{{ config.internal_link_suffix }}"
-          lang="{{ alternate.code }}"
-          hreflang="{{ alternate.hreflang }}"
-        ><span>{{ alternate.label }}</span></a>
-      </li>
-    {%- endif -%}
+    {%- assign alternate_url = translation[alternate.code] | default: alternate.home_url -%}
+    <li>
+      <a
+        href="{{ alternate_url }}{{ config.internal_link_suffix }}"
+        lang="{{ alternate.code }}"
+        hreflang="{{ alternate.hreflang }}"
+      >{{ alternate.label }}</a>
+    </li>
   {%- endunless -%}
 {%- endfor -%}

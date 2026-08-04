@@ -17,5 +17,14 @@
 		"home_url": "/de/",
 		"home_label": "Startseite",
 		"breadcrumb_label": "Brotkrumennavigation"
+	},
+	{
+		"code": "es",
+		"hreflang": "es",
+		"og_locale": "es_ES",
+		"label": "Español",
+		"home_url": "/es/",
+		"home_label": "Inicio",
+		"breadcrumb_label": "Ruta de navegación"
 	}
 ]

@@ -2,6 +2,7 @@
 	"path": "/images/screenshots/dashboard.png",
 	"alt": {
 		"en": "Chobble Tickets event administration dashboard",
-		"de": "Verwaltungsübersicht von Chobble Tickets für Veranstaltungen"
+		"de": "Verwaltungsübersicht von Chobble Tickets für Veranstaltungen",
+		"es": "Panel de administración de eventos de Chobble Tickets"
 	}
 }

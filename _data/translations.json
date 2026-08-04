@@ -1,5 +1,5 @@
 [
-	{ "en": "/", "de": "/de/" },
-	{ "en": "/about/", "de": "/de/ueber-uns/" },
-	{ "en": "/pricing/", "de": "/de/preise/" }
+	{ "en": "/", "de": "/de/", "es": "/es/" },
+	{ "en": "/about/", "de": "/de/ueber-uns/", "es": "/es/sobre-chobble/" },
+	{ "en": "/pricing/", "de": "/de/preise/", "es": "/es/precios/" }
 ]
