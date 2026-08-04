@@ -1,0 +1,6 @@
+.build
+.git
+.jscpd-report
+_site
+node_modules
+videos
