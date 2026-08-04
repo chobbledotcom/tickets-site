@@ -338,5 +338,14 @@
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
     "fee_note": "Ticket Generator credit packs: 10 credits for $6, 100 for $50, 1,000 for $400 and 10,000 for $2,500 (one credit generates one ticket; events with a venue layout use two credits per ticket). The first 10 credits are free and credits do not expire. This estimate uses the smallest pack rate of $0.60 per ticket (about £0.47); bulk packs reduce the per-ticket cost to as little as $0.25 (about £0.20) at 10,000 credits. Credits apply to free and paid tickets alike. Payment processing for collected payments is not published separately, so UK Stripe processing (1.5% + 20p) is shown as a typical assumption. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p), with no charge for issuing tickets on free events. Source: ticket-generator.com/pricing (July 2026)."
+  },
+  "smartgig": {
+    "name": "SmartGig",
+    "annual_cost": 800,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "SmartGig prices its Ticketing module at £80/month or £800/year on annual billing, and charges no fee per ticket sold. This estimate uses the annual rate for ticketing alone. Other parts of the platform are priced separately, including White Label custom domains at £50/month, Trader Manager, Transport Manager and Stage Manager at £20/month each, and Site Plan, team access and recurring events at £10/month each, so a real package can cost more. Ticket revenue goes directly to your own Stripe account via Stripe Connect, with Stripe processing charged separately (1.5% + 20p in the UK). Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: smartgig.co.uk package builder (August 2026)."
   }
 }
