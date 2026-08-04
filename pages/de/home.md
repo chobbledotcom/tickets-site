@@ -147,7 +147,7 @@ blocks:
       - icon: hugeicons:download-01
         text: Katalog importieren und exportieren
       - icon: hugeicons:api
-        text: Öffentliche API, Verwaltungs-API und Webhooks
+        text: Schnittstellen für andere Programme
   - type: markdown
     content: |
       ## Weitere Seiten auf Englisch
