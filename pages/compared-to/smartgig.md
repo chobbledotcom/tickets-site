@@ -222,7 +222,8 @@ blocks:
         your own domain is part of the base price. SmartGig sells custom
         portal and email domains as White Label at £50/month
       - **[White labelling](/features/white-labelling/)** - remove platform
-        branding without paying extra
+        branding as part of the base price, where SmartGig sells it as a
+        £50/month component
       - **[Public-facing website and CMS](/features/your-public-website/)** -
         a homepage, content pages, news posts, and a contact form, all
         edited from the admin panel. Page text is written in Markdown, a
@@ -230,21 +231,25 @@ blocks:
         [your own CSS](/features/customising-your-site/) changes how the
         site looks. SmartGig supplies branded ticket pages for each event
       - **[Apple Wallet and Google Wallet passes](/features/apple-wallet/)** -
-        attendees can add tickets to their phone wallet
+        attendees can add tickets to their phone wallet. SmartGig documents
+        ticket PDFs and does not mention wallet passes
       - **[Subscribable ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
         a single feed listing all events, so subscribers get automatic updates
         when new ones are added. SmartGig offers a single add-to-calendar file
         per ticket
       - **[RSS feeds](/features/rss-and-calendar-feeds/)** - publish your
         events and updates automatically to apps and websites that follow the
-        feed, using the common RSS format
+        feed, using the common RSS format. No such feed is described in
+        SmartGig's documentation
       - **[Custom email providers](/features/email-providers/)** - use Resend,
         Postmark, SendGrid, or Mailgun. SmartGig's White Label component sets
         a sending domain on its own provider
       - **[Editable confirmation emails](/features/email-templates/)** -
         write your own wording and drop in the booking's own details, such as
         the attendee's name, the date and the amount paid, using placeholders
-        written in the Liquid template language
+        written in the Liquid template language. SmartGig's documentation
+        describes sending event communications but not editing the
+        confirmation emails themselves
       - **Connections to your other systems** - other software can read and
         change event data through the
         [admin API](/features/admin-api/) and
@@ -253,13 +258,19 @@ blocks:
         SmartGig does not document an API or webhooks
       - **[Embeddable order widget](/features/order-widget/)** - turn links
         on your own website into add-to-cart buttons with a floating basket,
-        then hand the buyer over to your booking page to pay
+        then hand the buyer over to your booking page to pay. SmartGig does
+        not document an embed for an organiser's own site
       - **[Packages](/features/packages/)** - sell several listings together
-        at a bundle price, booked all or nothing
+        at a bundle price, booked all or nothing. SmartGig documents add-on
+        tickets and required-ticket rules rather than a bundle price
       - **[Deposits and balance payments](/features/deposits-and-balance-payments/)** -
-        take a deposit at booking and collect the balance later
+        take a deposit at booking and collect the balance later. SmartGig
+        documents pending and part-paid orders, but no deposit rule set per
+        ticket
       - **[Custom questions with price-linked answers](/features/custom-questions/)** -
-        link answers to price changes for tiered pricing
+        link answers to price changes for tiered pricing. SmartGig has
+        checkout questions, and does not document answers that change the
+        price
       - **[Event setup export and import](/features/catalogue-import-export/)** -
         move an event's setup to another Chobble Tickets host as versioned
         JSON
