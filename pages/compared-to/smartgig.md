@@ -58,9 +58,10 @@ blocks:
       self-hosting.
 
       SmartGig charges £80 a month, or £800 a year on annual billing, for its
-      Ticketing module. Chobble Tickets charges £50/year or £5/month. Neither
-      price changes with ticket volume, so SmartGig costs more at every
-      volume, and buys a wider set of event operations tools.
+      Ticketing module. Chobble Tickets charges £50/year or £5/month for
+      managed hosting, which covers hosting, updates, backup tools and
+      support. Neither price changes with ticket volume, so SmartGig costs
+      more at every volume, and buys a wider set of event operations tools.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -133,6 +134,8 @@ blocks:
         Android phone and number, with no charge per message)
       - Custom questions at checkout
       - Manual and box office orders entered by the organiser
+        ([manually added attendees](/features/manual-attendees/) in Chobble
+        Tickets), and a payment link sent to the buyer to settle what is owed
       - Recording payments taken outside checkout, such as cash, bank
         transfer, card machine takings and invoices
         ([the ledger](/features/ledger/) in Chobble Tickets)
@@ -174,8 +177,6 @@ blocks:
       - **Password-protected tickets** - a ticket type a buyer can only reach
         with the matching password. Chobble Tickets has hidden events rather
         than a purchase password
-      - **Payment links** - send a buyer a link to pay for an order raised by
-        the organiser
       - **Order-level CSV exports** - separate spreadsheet downloads for
         orders and refunds. Chobble Tickets exports attendee records and
         listing sales
@@ -186,8 +187,10 @@ blocks:
         offers wallet passes
       - **Ticket transfers** - move a ticket to a different holder
       - **Reusable passes** - ticket types that accept more than one check-in
-      - **Checkout rules** - block invalid baskets, such as clashing sessions
-        or an add-on without its entry ticket, and set a minimum spend
+      - **Checkout rules** - block a basket holding two sessions that clash,
+        and set a minimum spend. Chobble Tickets enforces the related rule
+        that an extra cannot be bought without the main booking, through
+        [parent and child listings](/features/parent-child-listings/)
       - **Invite-only sales by email or domain** - restrict purchase to
         invited addresses or an email domain
       - **Gate operations reporting** - scans per minute, scanner throughput,
@@ -236,16 +239,19 @@ blocks:
       - **[Custom email providers](/features/email-providers/)** - use Resend,
         Postmark, SendGrid, or Mailgun. SmartGig's White Label component sets
         a sending domain on its own provider
-      - **[Liquid email templates](/features/email-templates/)** - full
-        control over confirmation emails with Liquid template syntax
+      - **[Editable confirmation emails](/features/email-templates/)** -
+        write your own wording and drop in the booking's own details, such as
+        the attendee's name, the date and the amount paid, using placeholders
+        written in the Liquid template language
       - **Connections to your other systems** - other software can read and
         change event data through the
         [admin API](/features/admin-api/) and
         [public API](/features/public-api/), and
         [webhooks](/features/webhooks/) tell it when a booking happens.
         SmartGig does not document an API or webhooks
-      - **[Embeddable order widget](/features/order-widget/)** - sell tickets
-        from inside your own website
+      - **[Embeddable order widget](/features/order-widget/)** - turn links
+        on your own website into add-to-cart buttons with a floating basket,
+        then hand the buyer over to your booking page to pay
       - **[Packages](/features/packages/)** - sell several listings together
         at a bundle price, booked all or nothing
       - **[Deposits and balance payments](/features/deposits-and-balance-payments/)** -
