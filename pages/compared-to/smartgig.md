@@ -299,8 +299,6 @@ blocks:
         much as ticket sales
       - You expect on-sale spikes large enough to need a waiting room
       - You want native iOS and Android check-in apps for gate teams
-      - You take box office payments by cash, card terminal or invoice and
-        want them recorded against the ticket order
       - You want SMS messages to buyers and participants
       - You want detailed gate-operations reporting after the event
   - type: markdown
@@ -311,8 +309,9 @@ blocks:
       - You want one flat price that covers every feature rather than a price
         built from modules
       - You take payments with Square or SumUp rather than Stripe
-      - Privacy and encryption matter to you, and you want attendee data that
-        the platform itself cannot read
+      - Privacy matters to you, and you want attendee details
+        [encrypted in the database](/features/encrypted/) rather than stored
+        as plain text
       - You're a charity, community group, artist or musician (£25/year on the
         annual plan)
       - You want [Apple and Google Wallet](/features/apple-wallet/) passes,
