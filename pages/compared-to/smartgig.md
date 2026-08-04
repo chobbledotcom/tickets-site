@@ -137,7 +137,8 @@ blocks:
         transfer, card machine takings and invoices
         ([the ledger](/features/ledger/) in Chobble Tickets)
       - Full [refunds](/features/refunds/) of a booking
-      - [CSV export](/features/csv-export/) of orders, attendees and sales
+      - [CSV export](/features/csv-export/) of attendee records and listing
+        sales
       - Team accounts with roles, so door staff can check people in without
         reaching the settings
       - [Activity logs](/features/activity-logs/) recording who changed what
@@ -175,6 +176,9 @@ blocks:
         than a purchase password
       - **Payment links** - send a buyer a link to pay for an order raised by
         the organiser
+      - **Order-level CSV exports** - separate spreadsheet downloads for
+        orders and refunds. Chobble Tickets exports attendee records and
+        listing sales
       - **Disputes and chargebacks** - chargeback notes and failed-refund
         retry and recovery tracked on the order
       - **PDF tickets and receipts** - buyers download a ticket PDF, a ticket
@@ -216,10 +220,11 @@ blocks:
       - **[White labelling](/features/white-labelling/)** - remove platform
         branding without paying extra
       - **[Public-facing website and CMS](/features/your-public-website/)** -
-        a homepage, content pages, news posts, and a contact form, edited
-        from the admin panel with Markdown and
-        [custom CSS](/features/customising-your-site/). SmartGig supplies
-        branded ticket pages for each event
+        a homepage, content pages, news posts, and a contact form, all
+        edited from the admin panel. Page text is written in Markdown, a
+        plain way of marking headings, links and bold text, and
+        [your own CSS](/features/customising-your-site/) changes how the
+        site looks. SmartGig supplies branded ticket pages for each event
       - **[Apple Wallet and Google Wallet passes](/features/apple-wallet/)** -
         attendees can add tickets to their phone wallet
       - **[Subscribable ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
