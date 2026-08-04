@@ -138,8 +138,8 @@ blocks:
         ([the ledger](/features/ledger/) in Chobble Tickets)
       - Full [refunds](/features/refunds/) of a booking
       - [CSV export](/features/csv-export/) of orders, attendees and sales
-      - Team accounts with roles, including check-in staff who cannot see
-        financial data
+      - Team accounts with roles, so door staff can check people in without
+        reaching the settings
       - [Activity logs](/features/activity-logs/) recording who changed what
       - Reusing an event's setup for the next date
   - type: markdown
@@ -257,12 +257,15 @@ blocks:
       ## Data ownership
 
       SmartGig's terms say the organiser keeps ownership of the data entered
-      into the platform, and its privacy policy names the organiser as the
-      usual data controller for event and participant records. It says it does
-      not sell personal data, uses no advertising cookies or remarketing
-      pixels, and does not use its scanner app for advertising tracking. Some
-      of its service providers process data outside the UK under standard
-      transfer safeguards.
+      into the platform. Its privacy policy says the organiser normally
+      decides what is collected about attendees and what it is used for, and
+      that SmartGig handles that data on the organiser's instructions.
+
+      SmartGig says it does not sell personal data, does not use the tracking
+      code that follows people around other websites to show them adverts,
+      and does not use its scanner app for advertising tracking. Some of the
+      companies it uses to run the service handle data outside the UK, under
+      the contract terms UK data protection law requires for that.
 
       Account owners can request an organisation data export, which SmartGig
       prepares as a ZIP package sent by email, and download links expire.

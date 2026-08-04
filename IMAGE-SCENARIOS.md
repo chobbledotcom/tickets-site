@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 151 rendered client pages. A page counts as illustrated
+This audit covers all 152 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 149 | 60 | 89 |
+| Editorial pages in the sitemap | 150 | 60 | 90 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **151** | **60** | **91** |
+| **All rendered pages** | **152** | **60** | **92** |
 
-The 86 editorial pages are the main illustration backlog. The two utility
+The 90 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
