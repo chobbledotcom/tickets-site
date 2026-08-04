@@ -64,7 +64,7 @@ blocks:
 
       Die Zahlung erstellt eine eigene Website und schickt den Einrichtungslink per E-Mail. Die Website hat eine eigene Datenbank, einen eigenen Schlüssel zur Verschlüsselung und eine eigene gehostete Adresse.
 
-      Verwaltetes Hosting umfasst Aktualisierungen der Software, Werkzeuge zum Sichern und Wiederherstellen, eine öffentliche Buchungswebsite, eigene Domains, API-Zugang, Webhooks und alle aktuellen Funktionen. Für Teamkonten, Berichte oder Anbindungen berechnet Chobble nichts zusätzlich.
+      Verwaltetes Hosting umfasst Aktualisierungen der Software, Werkzeuge zum Sichern und Wiederherstellen, eine öffentliche Buchungswebsite, eigene Domains, Schnittstellen, über die andere Programme Ihre Daten abfragen und automatische Benachrichtigungen zu jeder Buchung erhalten, und alle aktuellen Funktionen. Für Teamkonten, Berichte oder Anbindungen berechnet Chobble nichts zusätzlich.
     figure_src: /images/screenshots/dashboard.png
     figure_alt: Übersicht von Chobble Tickets mit den Verwaltungsbereichen einer Veranstalterin oder eines Veranstalters
     figure_caption: Verwaltetes Hosting enthält den vollständigen Verwaltungsbereich und die öffentliche Website.

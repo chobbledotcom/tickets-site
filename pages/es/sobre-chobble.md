@@ -68,7 +68,7 @@ blocks:
 
       Una community interest company es una forma jurídica británica para
       empresas con un fin social, que incluye un bloqueo de activos. Chobble
-      CIC responde mediante garantía y no tiene capital en acciones, así que
+      CIC está limitada por garantía y no tiene capital en acciones, así que
       tampoco tiene accionistas. El bloqueo de activos limita cómo se puede
       transferir el patrimonio de la sociedad, también si se disuelve.
 

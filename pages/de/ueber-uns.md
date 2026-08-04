@@ -67,10 +67,10 @@ blocks:
 
       Eine community interest company ist eine britische Rechtsform für
       Unternehmen mit sozialem Zweck, zu der eine Vermögensbindung gehört.
-      Chobble CIC haftet über eine Garantie und hat kein Aktienkapital, also
-      auch keine Anteilseigner. Die Vermögensbindung beschränkt, wie das
-      Vermögen der Gesellschaft übertragen werden darf, auch bei einer
-      Auflösung.
+      Die Haftung von Chobble CIC ist durch eine Garantie beschränkt, und die
+      Gesellschaft hat kein Aktienkapital, also auch keine Anteilseigner. Die
+      Vermögensbindung beschränkt, wie das Vermögen der Gesellschaft übertragen
+      werden darf, auch bei einer Auflösung.
 
       Chobble spendet 10% der Einnahmen an die
       [Against Malaria Foundation](https://www.againstmalaria.com). Die
