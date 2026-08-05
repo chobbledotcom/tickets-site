@@ -43,6 +43,9 @@ blocks:
         description: Mobile-first music ticketing. Compare fees, app requirements and data handling.
         name: <a href="/compared-to/dice/">DICE alternative</a>
       - icon: hugeicons:ticket-01
+        description: A managed platform for visitor attractions, with tills, kiosks and staff scheduling beside online sales. Compare quoted per-sale pricing with a flat annual fee.
+        name: <a href="/compared-to/digitickets/">DigiTickets alternative</a>
+      - icon: hugeicons:ticket-01
         description: A large ticketing marketplace. Compare fees, discovery, organiser tools and attendee marketing.
         name: <a href="/compared-to/eventbrite/">Eventbrite alternative</a>
       - icon: hugeicons:ticket-01

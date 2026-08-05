@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 152 rendered client pages. A page counts as illustrated
+This audit covers all 153 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 150 | 60 | 90 |
+| Editorial pages in the sitemap | 151 | 60 | 91 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **152** | **60** | **92** |
+| **All rendered pages** | **153** | **60** | **93** |
 
-The 90 editorial pages are the main illustration backlog. The two utility
+The 91 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -186,6 +186,7 @@ pages are listed separately at the end.
 | `pages/compared-to/pta-events.md` | Comparison graphic: `pta-events-school-year` | Oakfield Primary runs a disco, raffle, auction, volunteer rota and news page. Mark which jobs each product handles, then show transaction costs versus Chobble's community rate. | Shows when the wider fundraising suite may justify its cost. |
 | `pages/compared-to/tessera-tickets.md` | Comparison graphic: `tessera-venue-cost-stack` | The Old Playhouse sells 8,000 tickets and needs assigned seating and box-office hardware. Stack Tessera subscription, WordPress site, seating setup and scanners beside Chobble's general-admission model. | Makes the products' different venue scope visible. |
 | `pages/compared-to/resova.md` | Comparison graphic: `resova-resource-scheduling` | Riverside Escape Rooms has three rooms, six hourly slots and 420 monthly bookings. Show Resova assigning rooms and staff with allowance overage beside Chobble's recurring event capacity. | Helps operators decide whether specialist resource scheduling matters more than flat ticketing cost. |
+| `pages/compared-to/digitickets.md` | Comparison graphic: `digitickets-attraction-bundle` | Riverside Wildlife Park sells day admission and wants tills, kiosks and marketplace distribution beside online sales. Show DigiTickets' per-transaction, per-ticket or percentage charge as a quote card with no published rates, beside Chobble's £50/year managed hosting, with ProPoint tills, self-service kiosks, staff scheduling and travel-marketplace distribution as a separate DigiTickets advantage panel. | Shows the venue-operations bundle a quoted DigiTickets contract can buy, without inventing rates. |
 
 ## Comparisons: Large Venues
 
