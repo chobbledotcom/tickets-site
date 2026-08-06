@@ -20,6 +20,7 @@
 		"instagram:slideshow:capture": "bun scripts/capture-instagram-slideshow.js",
 		"video:studio": "bun scripts/video/local.js studio",
 		"video:render": "bun scripts/video/render.js",
+		"video:render:setup": "bun scripts/video/render.js render SetupJourneyReel videos/setup-journey-reel.mp4",
 		"video:stills": "bun scripts/video/render-stills.js",
 		"video:render:local": "bun scripts/video/local.js render ChobbleFestReel videos/chobblefest-reel.mp4",
 		"evidence:import": "bun scripts/evidence/import.js",

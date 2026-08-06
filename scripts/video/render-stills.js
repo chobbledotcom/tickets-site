@@ -1,4 +1,4 @@
-import { withVideoAssets } from "./assets.js";
+import { videoSources, withVideoAssets } from "./assets.js";
 import { buildVideoImage, runRemotion } from "./render.js";
 import { CHOBBLEFEST_VIDEO } from "./scenes.js";
 
@@ -7,7 +7,8 @@ const sceneFrames = CHOBBLEFEST_VIDEO.scenes.map(
     index *
       (CHOBBLEFEST_VIDEO.sceneDurationInFrames -
         CHOBBLEFEST_VIDEO.transitionDurationInFrames) +
-    60,
+    CHOBBLEFEST_VIDEO.animationDurationInFrames +
+    30,
 );
 
 withVideoAssets(() => {
@@ -21,4 +22,4 @@ withVideoAssets(() => {
       `--frame=${frame}`,
     ]);
   }
-});
+}, videoSources(CHOBBLEFEST_VIDEO));

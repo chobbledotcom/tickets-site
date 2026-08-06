@@ -6,15 +6,21 @@ import { SOCIAL_TEXT_STYLES } from "./text-layout.js";
 
 const PAPER_ALPHA = "d9";
 
-export const SocialScene = ({ scene, sceneDurationInFrames }) => {
+export const SocialScene = ({
+  animationDurationInFrames,
+  scene,
+  sceneDurationInFrames,
+}) => {
   const [background, text] = scene.palette;
   const paperColour = `${background}${PAPER_ALPHA}`;
 
   return (
     <AbsoluteFill style={{ background }}>
       <LayeredScreenshot
+        animationDurationInFrames={animationDurationInFrames}
         durationInFrames={sceneDurationInFrames}
         layers={scene.layers}
+        verticalPan={scene.verticalPan}
       />
       <PaperText
         colour={text}

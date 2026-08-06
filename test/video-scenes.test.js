@@ -2,6 +2,12 @@ import { describe, expect, test } from "bun:test";
 import { CHOBBLEFEST_SLIDES } from "../scripts/chobblefest-slides.js";
 import {
   CHOBBLEFEST_VIDEO,
+  SCENE_ANIMATION_FRAMES,
+  SCENE_DURATION_FRAMES,
+  SCENE_READING_HOLD_FRAMES,
+  SCENE_TRANSITION_FRAMES,
+  SETUP_JOURNEY_VIDEO,
+  SOCIAL_VIDEOS,
   VIDEO_FPS,
   VIDEO_FORMATS,
   createSocialScenes,
@@ -20,7 +26,11 @@ describe("social video scenes", () => {
   });
 
   test("overlaps each transition without shortening a scene", () => {
-    expect(videoDurationInFrames(10, 150, 15)).toBe(1365);
+    expect(SCENE_ANIMATION_FRAMES).toBe(150);
+    expect(SCENE_READING_HOLD_FRAMES).toBe(60);
+    expect(SCENE_DURATION_FRAMES).toBe(210);
+    expect(SCENE_TRANSITION_FRAMES).toBe(15);
+    expect(videoDurationInFrames(10, 210, 15)).toBe(1965);
   });
 
   test("rejects timing that would hide a scene", () => {
@@ -48,15 +58,46 @@ describe("social video scenes", () => {
 
   test("defines the complete ChobbleFest composition", () => {
     expect(CHOBBLEFEST_VIDEO).toEqual({
-      durationInFrames: 1365,
+      animationDurationInFrames: 150,
+      durationInFrames: 1965,
       fps: 30,
       height: 1920,
       id: "ChobbleFestReel",
-      sceneDurationInFrames: 150,
+      sceneDurationInFrames: 210,
       scenes: createSocialScenes(CHOBBLEFEST_SLIDES),
       transitionDurationInFrames: 15,
       width: 1080,
     });
+  });
+
+  test("defines the managed-site setup journey", () => {
+    expect(SETUP_JOURNEY_VIDEO.id).toBe("SetupJourneyReel");
+    expect(SETUP_JOURNEY_VIDEO.scenes).toHaveLength(10);
+    expect(SETUP_JOURNEY_VIDEO.scenes[0].address).toBe(
+      "tix.chobble.com  01/10",
+    );
+    expect(SETUP_JOURNEY_VIDEO.scenes[9].address).toBe(
+      "tix.chobble.com  10/10",
+    );
+    expect(SETUP_JOURNEY_VIDEO.animationDurationInFrames).toBe(150);
+    expect(SETUP_JOURNEY_VIDEO.sceneDurationInFrames).toBe(210);
+    expect(SOCIAL_VIDEOS.map(({ id }) => id)).toEqual([
+      "ChobbleFestReel",
+      "SetupJourneyReel",
+    ]);
+  });
+
+  test("pans tall captures instead of shrinking them", () => {
+    expect(
+      CHOBBLEFEST_VIDEO.scenes
+        .filter(({ verticalPan }) => verticalPan)
+        .map(({ slug }) => slug),
+    ).toEqual(["welcome", "checkout", "capacity", "identity"]);
+    expect(
+      SETUP_JOURNEY_VIDEO.scenes
+        .filter(({ verticalPan }) => verticalPan)
+        .map(({ slug }) => slug),
+    ).toEqual(["event"]);
   });
 
   test("leaves room for letter tails between paper-backed lines", () => {

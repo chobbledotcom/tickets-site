@@ -15,25 +15,40 @@ const SCREENSHOT_PLANES = [
   { delay: 10, rotateX: -7, rotateY: -6, x: -48, y: -34, z: 420 },
 ];
 
-const driftStyle = (frame, durationInFrames) => ({
+const motionFrames = (animationDurationInFrames, durationInFrames) => [
+  0,
+  animationDurationInFrames,
+  durationInFrames,
+];
+
+const driftStyle = (frame, animationDurationInFrames, durationInFrames) => ({
   height: `calc(100% - ${SCREENSHOT_INSET * 2}px)`,
   inset: SCREENSHOT_INSET,
   perspective: 1100,
   position: "absolute",
   transform: `translate3d(0, ${interpolate(
     frame,
-    [0, durationInFrames],
-    [24, -24],
+    motionFrames(animationDurationInFrames, durationInFrames),
+    [24, -24, -32],
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
-  )}px, 0) scale(${interpolate(frame, [0, durationInFrames], [1.01, 1.06], {
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
-  })})`,
+  )}px, 0) scale(${interpolate(
+    frame,
+    motionFrames(animationDurationInFrames, durationInFrames),
+    [1.01, 1.06, 1.07],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+  )})`,
   transformStyle: "preserve-3d",
   width: `calc(100% - ${SCREENSHOT_INSET * 2}px)`,
 });
 
-const planeStyle = (frame, fps, plane) => {
+const planeStyle = (
+  frame,
+  fps,
+  plane,
+  animationDurationInFrames,
+  durationInFrames,
+  verticalPan,
+) => {
   const progress = spring({
     config: { damping: 17, mass: 0.75, stiffness: 105 },
     delay: plane.delay,
@@ -48,7 +63,15 @@ const planeStyle = (frame, fps, plane) => {
   return {
     filter: `drop-shadow(0 ${18 * remaining}px ${22 * remaining}px rgba(0, 0, 0, ${0.24 * remaining}))`,
     height: "100%",
-    objectFit: "contain",
+    objectFit: verticalPan ? "cover" : "contain",
+    objectPosition: verticalPan
+      ? `50% ${interpolate(
+          frame,
+          motionFrames(animationDurationInFrames, durationInFrames),
+          [0, 85, 100],
+          { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+        )}%`
+      : "50% 50%",
     opacity: interpolate(progress, [0, 1], [0, SCREENSHOT_OPACITY], {
       extrapolateLeft: "clamp",
       extrapolateRight: "clamp",
@@ -60,17 +83,29 @@ const planeStyle = (frame, fps, plane) => {
   };
 };
 
-export const LayeredScreenshot = ({ durationInFrames, layers }) => {
+export const LayeredScreenshot = ({
+  animationDurationInFrames,
+  durationInFrames,
+  layers,
+  verticalPan = false,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
   return (
-    <div style={driftStyle(frame, durationInFrames)}>
+    <div style={driftStyle(frame, animationDurationInFrames, durationInFrames)}>
       {SCREENSHOT_PLANES.map((plane, index) => (
         <Img
           key={layers[index]}
           src={staticFile(layers[index])}
-          style={planeStyle(frame, fps, plane)}
+          style={planeStyle(
+            frame,
+            fps,
+            plane,
+            animationDurationInFrames,
+            durationInFrames,
+            verticalPan,
+          )}
         />
       ))}
     </div>

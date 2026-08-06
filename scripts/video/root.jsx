@@ -1,9 +1,10 @@
 import { Composition } from "remotion";
-import { CHOBBLEFEST_VIDEO } from "./scenes.js";
+import { SOCIAL_VIDEOS } from "./scenes.js";
 import { SocialVideo } from "./social-video.jsx";
 
-export const VideoRoot = () => {
+const renderComposition = (video) => {
   const {
+    animationDurationInFrames,
     durationInFrames,
     fps,
     height,
@@ -12,12 +13,13 @@ export const VideoRoot = () => {
     scenes,
     transitionDurationInFrames,
     width,
-  } = CHOBBLEFEST_VIDEO;
+  } = video;
 
   return (
     <Composition
       component={SocialVideo}
       defaultProps={{
+        animationDurationInFrames,
         scenes,
         sceneDurationInFrames,
         transitionDurationInFrames,
@@ -26,7 +28,10 @@ export const VideoRoot = () => {
       fps={fps}
       height={height}
       id={id}
+      key={id}
       width={width}
     />
   );
 };
+
+export const VideoRoot = () => <>{SOCIAL_VIDEOS.map(renderComposition)}</>;

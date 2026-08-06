@@ -16,6 +16,21 @@ ignored because every file in it can be rebuilt from source. Before each
 render, the live app is captured into `.video-build/`. The temporary DOM layer
 images are baked into the container and then removed.
 
+Each scene keeps its five-second entrance and depth animation, then holds for
+two more seconds with only slight movement so the text and page can be read.
+Tall page captures use a full-width vertical pan instead of shrinking the whole
+page into the frame.
+
+Render the complete managed-site setup journey with:
+
+```bash
+bun run video:render:setup
+```
+
+This writes `videos/setup-journey-reel.mp4`. It captures signup, the setup
+email, first-run setup, Stripe settings, event creation, attendee checkout,
+confirmation and the attendee ticket from fresh throwaway app instances.
+
 Render one reviewed frame from every scene with:
 
 ```bash

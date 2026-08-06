@@ -1,5 +1,5 @@
-import { CHOBBLEFEST_SLIDES } from "../chobblefest-slides.js";
 import { fs, path, run } from "../utils.js";
+import { CHOBBLEFEST_VIDEO, SOCIAL_VIDEOS } from "./scenes.js";
 
 export const VIDEO_BUILD_DIRECTORY = path(".video-build");
 export const VIDEO_SCREENSHOTS_DIRECTORY = path(
@@ -17,13 +17,26 @@ const requireSuccess = (command) => {
 
 export const removeVideoAssets = () => fs.rm(VIDEO_BUILD_DIRECTORY);
 
-export const captureVideoAssets = () => {
+export const allVideoSources = () =>
+  SOCIAL_VIDEOS.flatMap(({ scenes }) => scenes.map(({ source }) => source));
+
+export const videoSources = (video) => video.scenes.map(({ source }) => source);
+
+export const videoForRemotionArguments = (args) => {
+  const requestedId = ["render", "still"].includes(args[0]) ? args[1] : null;
+  if (!requestedId) return CHOBBLEFEST_VIDEO;
+  const video = SOCIAL_VIDEOS.find(({ id }) => id === requestedId);
+  if (!video) throw new Error(`Unknown video composition: ${requestedId}.`);
+  return video;
+};
+
+export const captureVideoAssets = (sources = allVideoSources()) => {
   removeVideoAssets();
   fs.mkdir(VIDEO_SCREENSHOTS_DIRECTORY);
   requireSuccess([
     "bun",
     "scripts/screenshot-scenarios.js",
-    ...CHOBBLEFEST_SLIDES.map(({ source }) => source),
+    ...sources,
     "--no-social",
     "--layers",
     "--output",
@@ -31,9 +44,9 @@ export const captureVideoAssets = () => {
   ]);
 };
 
-export const withVideoAssets = (callback) => {
+export const withVideoAssets = (callback, sources) => {
   try {
-    captureVideoAssets();
+    captureVideoAssets(sources);
     return callback();
   } finally {
     removeVideoAssets();

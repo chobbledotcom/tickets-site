@@ -5,6 +5,7 @@ export const CHOBBLEFEST_SLIDES = [
     palette: ["#f4eee4", "#281d32", "#b8474f", "#7e5367"],
     slug: "welcome",
     source: "chobblefest-welcome",
+    verticalPan: true,
   },
   {
     body: "Every day, stage, pass, whatever, gets its own listing. You can group listings however suits your processes.",
@@ -19,6 +20,7 @@ export const CHOBBLEFEST_SLIDES = [
     palette: ["#e8dfca", "#2c352e", "#a4473e", "#66745e"],
     slug: "checkout",
     source: "chobblefest-checkout",
+    verticalPan: true,
   },
   {
     body: "Each day can have its own limit. See bookings and places left in your admin calendar.",
@@ -26,6 +28,7 @@ export const CHOBBLEFEST_SLIDES = [
     palette: ["#182f32", "#f2eadb", "#d69b5c", "#9db7ad"],
     slug: "capacity",
     source: "chobblefest-capacity",
+    verticalPan: true,
   },
   {
     body: "Ticket money goes straight to your Stripe, Square or SumUp account. Chobble takes no cut from each sale.",
@@ -61,6 +64,7 @@ export const CHOBBLEFEST_SLIDES = [
     palette: ["#eee0c8", "#302720", "#a65c35", "#7d6857"],
     slug: "identity",
     source: "chobblefest-identity",
+    verticalPan: true,
   },
   {
     body: "Fully open source so you can host or modify it without paying any licence fees. Or pay me £5/month for hosting at:",

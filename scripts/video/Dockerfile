@@ -26,6 +26,7 @@ RUN bun install --frozen-lockfile && bunx remotion browser ensure
 COPY assets/fonts ./assets/fonts
 COPY .video-build ./.video-build
 COPY scripts/chobblefest-slides.js ./scripts/chobblefest-slides.js
+COPY scripts/setup-journey-slides.js ./scripts/setup-journey-slides.js
 COPY scripts/video ./scripts/video
 COPY remotion.config.js ./remotion.config.js
 

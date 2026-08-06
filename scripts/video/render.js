@@ -1,5 +1,9 @@
 import { fs, path, run } from "../utils.js";
-import { withVideoAssets } from "./assets.js";
+import {
+  videoForRemotionArguments,
+  videoSources,
+  withVideoAssets,
+} from "./assets.js";
 
 const IMAGE_NAME = "tickets-site-video";
 
@@ -36,8 +40,10 @@ export const runRemotion = (remotionArguments = []) =>
   ]);
 
 if (import.meta.main) {
+  const remotionArguments = process.argv.slice(2);
+  const video = videoForRemotionArguments(remotionArguments);
   withVideoAssets(() => {
     buildVideoImage();
-    runRemotion(process.argv.slice(2));
-  });
+    runRemotion(remotionArguments);
+  }, videoSources(video));
 }

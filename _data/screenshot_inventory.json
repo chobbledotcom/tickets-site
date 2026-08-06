@@ -80,6 +80,46 @@
     "classification": "editorial"
   },
   {
+    "key": "setup-journey-booking",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-confirmation",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-email",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-event",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-link",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-ready",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-setup",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-signup",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-stripe",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-ticket",
+    "classification": "editorial"
+  },
+  {
     "key": "confirmation-email-template-editor",
     "classification": "legacy-product-screenshot"
   },
