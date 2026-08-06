@@ -24,7 +24,7 @@ COPY chobble-template/packages/js-toolkit ./chobble-template/packages/js-toolkit
 RUN bun install --frozen-lockfile && bunx remotion browser ensure
 
 COPY assets/fonts ./assets/fonts
-COPY images/screenshots/chobblefest-*.png ./images/screenshots/
+COPY .video-build ./.video-build
 COPY scripts/chobblefest-slides.js ./scripts/chobblefest-slides.js
 COPY scripts/video ./scripts/video
 COPY remotion.config.js ./remotion.config.js

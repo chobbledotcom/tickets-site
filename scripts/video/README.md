@@ -12,7 +12,9 @@ bun run video:render
 
 This builds a Debian container so rendering also works on NixOS. It writes the
 finished Reel to `videos/chobblefest-reel.mp4`. The `videos/` directory is
-ignored because every file in it can be rebuilt from source.
+ignored because every file in it can be rebuilt from source. Before each
+render, the live app is captured into `.video-build/`. The temporary DOM layer
+images are baked into the container and then removed.
 
 Render one reviewed frame from every scene with:
 

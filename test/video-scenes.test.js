@@ -38,9 +38,9 @@ describe("social video scenes", () => {
       address: "tickets.chobble.com  01/10",
       image: "images/screenshots/chobblefest-welcome.png",
       layers: [
-        "images/screenshots/chobblefest-welcome__layer-background.png",
-        "images/screenshots/chobblefest-welcome__layer-controls.png",
-        "images/screenshots/chobblefest-welcome__layer-text.png",
+        ".video-build/images/screenshots/chobblefest-welcome__layer-background.png",
+        ".video-build/images/screenshots/chobblefest-welcome__layer-controls.png",
+        ".video-build/images/screenshots/chobblefest-welcome__layer-text.png",
       ],
     });
     expect(scenes[9].address).toBe("tickets.chobble.com  10/10");

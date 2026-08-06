@@ -28,7 +28,8 @@ export const createSocialScenes = (slides) =>
     address: `tickets.chobble.com  ${String(index + 1).padStart(2, "0")}/${String(slides.length).padStart(2, "0")}`,
     image: `images/screenshots/${slide.source}.png`,
     layers: ["background", "controls", "text"].map(
-      (layer) => `images/screenshots/${slide.source}__layer-${layer}.png`,
+      (layer) =>
+        `.video-build/images/screenshots/${slide.source}__layer-${layer}.png`,
     ),
   }));
 

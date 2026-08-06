@@ -11,3 +11,4 @@ yarn-error.log*
 /screenshots/
 .jscpd-report/
 /videos/
+/.video-build/

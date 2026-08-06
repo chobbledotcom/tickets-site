@@ -42,7 +42,7 @@ import {
 import { path, root, spawn } from "./utils.js";
 
 const SCENARIOS_DIR = path("scripts", "screenshots");
-const OUTPUT_DIR = resolve(root, "images", "screenshots");
+const DEFAULT_OUTPUT_DIR = resolve(root, "images", "screenshots");
 const TICKETS_REPO = resolve(root, "..", "tickets");
 const DEFAULT_SOCIAL = "facebook";
 const NON_SCENARIO_FILES = new Set(["helpers.js"]);
@@ -74,31 +74,41 @@ const resolveRequested = (requested) => {
   return all.filter((name) => wanted.has(name));
 };
 
+const valueOption = (args, index, key) => {
+  const value = args[index + 1];
+  if (!value) throw new Error(`${args[index]} needs a value`);
+  return { advance: 1, key, value };
+};
+
+const OPTION_PARSERS = {
+  "--layers": () => ({ advance: 0, key: "layers", value: true }),
+  "--no-social": () => ({ advance: 0, key: "social", value: null }),
+  "--output": (args, index) => valueOption(args, index, "outputDir"),
+  "--social": (args, index) => valueOption(args, index, "social"),
+};
+
 const parseArg = (args, index) => {
-  if (args[index] === "--layers") return { advance: 0, layers: true };
   const arg = args[index];
-  if (arg === "--no-social") return { advance: 0, social: null };
-  if (arg === "--social") {
-    const social = args[index + 1];
-    if (!social) throw new Error("--social needs a value");
-    return { advance: 1, social };
-  }
+  const parser = OPTION_PARSERS[arg];
+  if (parser) return parser(args, index);
   if (arg.startsWith("--")) throw new Error(`Unknown option: ${arg}`);
-  return { advance: 0, requested: arg };
+  return { advance: 0, key: "requested", value: arg };
 };
 
 const parseArgs = (args) => {
-  const requested = [];
-  let layers = false;
-  let social = DEFAULT_SOCIAL;
+  const state = {
+    layers: false,
+    outputDir: DEFAULT_OUTPUT_DIR,
+    requested: [],
+    social: DEFAULT_SOCIAL,
+  };
   for (let i = 0; i < args.length; i++) {
     const parsed = parseArg(args, i);
-    if (parsed.layers) layers = true;
-    else if (parsed.requested) requested.push(parsed.requested);
-    else social = parsed.social;
+    if (parsed.key === "requested") state.requested.push(parsed.value);
+    else state[parsed.key] = parsed.value;
     i += parsed.advance;
   }
-  return { layers, requested, social };
+  return { ...state, outputDir: resolve(root, state.outputDir) };
 };
 
 const exists = (p) => {
@@ -121,11 +131,11 @@ const getSocialTargets = (social) => {
   return targets;
 };
 
-const createSocialScreenshots = async (scenario, social) => {
-  const inputPath = join(OUTPUT_DIR, `${scenario.name}.png`);
+const createSocialScreenshots = async (scenario, social, outputDir) => {
+  const inputPath = join(outputDir, `${scenario.name}.png`);
   const results = {};
   for (const target of getSocialTargets(social)) {
-    const outputPath = join(OUTPUT_DIR, `${scenario.name}__${target}.png`);
+    const outputPath = join(outputDir, `${scenario.name}__${target}.png`);
     results[target] = await createSocialScreenshot(
       inputPath,
       outputPath,
@@ -135,10 +145,16 @@ const createSocialScreenshots = async (scenario, social) => {
   return results;
 };
 
-const addSocialText = async (scenarioName, scenario, social, socialResults) => {
+const addSocialText = async (
+  scenarioName,
+  scenario,
+  social,
+  socialResults,
+  outputDir,
+) => {
   const targets = getSocialTargets(social);
   if (targets.includes("facebook")) {
-    const filePath = join(OUTPUT_DIR, `${scenario.name}__facebook.png`);
+    const filePath = join(outputDir, `${scenario.name}__facebook.png`);
     const { solidWidth } = await renderSocialScreenshotText(
       filePath,
       scenarioName,
@@ -148,20 +164,20 @@ const addSocialText = async (scenarioName, scenario, social, socialResults) => {
     console.log(`  facebook text: ${solidWidth}px solid region`);
   }
   if (targets.includes("instagram-square")) {
-    const filePath = join(OUTPUT_DIR, `${scenario.name}__instagram-square.png`);
+    const filePath = join(outputDir, `${scenario.name}__instagram-square.png`);
     await renderInstagramScreenshotText(filePath, scenarioName, scenario.css);
     console.log("  instagram text: square overlay");
   }
 };
 
-const runScenario = async (scenarioName, social, layers) => {
+const runScenario = async (scenarioName, social, layers, outputDir) => {
   const scenarioPath = join(SCENARIOS_DIR, `${scenarioName}.js`);
   const { default: scenario } = await import(
     `./screenshots/${scenarioName}.js`
   );
   console.log(`\n=== ${scenarioName} ===`);
   console.log(`  scenario: ${scenarioPath}`);
-  console.log(`  output:   ${OUTPUT_DIR}`);
+  console.log(`  output:   ${outputDir}`);
   if (social) console.log(`  social:   ${social}`);
   const cmd = [
     "nix",
@@ -174,7 +190,7 @@ const runScenario = async (scenarioName, social, layers) => {
     "--scenario",
     scenarioPath,
     "--output",
-    OUTPUT_DIR,
+    outputDir,
     ...(layers ? ["--layers"] : []),
   ];
   const proc = spawn(cmd, { cwd: TICKETS_REPO });
@@ -182,8 +198,12 @@ const runScenario = async (scenarioName, social, layers) => {
   if (code !== 0) {
     throw new Error(`Scenario ${scenarioName} exited with code ${code}`);
   }
-  const socialResults = await createSocialScreenshots(scenario, social);
-  await addSocialText(scenarioName, scenario, social, socialResults);
+  const socialResults = await createSocialScreenshots(
+    scenario,
+    social,
+    outputDir,
+  );
+  await addSocialText(scenarioName, scenario, social, socialResults, outputDir);
 };
 
 const main = async () => {
@@ -199,14 +219,16 @@ const main = async () => {
     );
   }
 
-  const { layers, requested, social } = parseArgs(process.argv.slice(2));
+  const { layers, outputDir, requested, social } = parseArgs(
+    process.argv.slice(2),
+  );
   const scenarios = resolveRequested(requested);
   console.log(
     `Taking ${scenarios.length} scenario${scenarios.length === 1 ? "" : "s"}…`,
   );
 
   for (const scenario of scenarios) {
-    await runScenario(scenario, social, layers);
+    await runScenario(scenario, social, layers, outputDir);
   }
 
   console.log(
