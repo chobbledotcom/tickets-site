@@ -27,7 +27,7 @@ blocks:
       pages.
     figure_src: /images/screenshots/oakfield-homepage-editor.png
     figure_alt: A screenshot of the owner's list of site pages, showing Parking, Directions and Opening in that order with the address each one lives at
-    figure_caption: 'Pages are offered in the order the owner puts them, and each one keeps the address it was given. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/writing-the-pages-people-read.feature">(src)</a></small>'
+    figure_caption: 'Pages are offered in the order the owner puts them, and each one keeps the address it was given. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/pages/writing-the-pages-people-read.feature">(src)</a></small>'
   - type: features
     items:
       - icon: hugeicons:globe-02

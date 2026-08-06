@@ -143,8 +143,14 @@ jobs:
             images/screenshots/activity-log-summer-arts-fair__facebook.png
             images/screenshots/api-keys-list.png
             images/screenshots/api-keys-list__facebook.png
+            images/screenshots/attendee-csv-export.png
+            images/screenshots/attendee-csv-export__facebook.png
+            images/screenshots/backup-restore.png
+            images/screenshots/backup-restore__facebook.png
             images/screenshots/deposits-and-balance-payments.png
             images/screenshots/deposits-and-balance-payments__facebook.png
+            images/screenshots/editor-listings-without-takings.png
+            images/screenshots/editor-listings-without-takings__facebook.png
             images/screenshots/garden-party-package-checkout.png
             images/screenshots/garden-party-package-checkout__facebook.png
             images/screenshots/manual-attendee-community-supper.png
@@ -182,9 +188,12 @@ jobs:
             images/screenshots/the-tempest-group-checkout.png
             images/screenshots/the-tempest-group-checkout__facebook.png
             pages/features/activity-logs.md
+            pages/features/backups.md
             pages/features/customising-your-site.md
+            pages/features/csv-export.md
             pages/features/deposits-and-balance-payments.md
             pages/features/encrypted.md
+            pages/features/editors.md
             pages/features/groups.md
             pages/features/ledger.md
             pages/features/manual-attendees.md

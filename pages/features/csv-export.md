@@ -3,6 +3,7 @@ title: CSV Export - Chobble Tickets
 meta_title: Event and Attendee CSV Reports | Chobble Tickets
 meta_description: Export event, attendee and staff-calendar CSV reports with ticket sales, revenue, capacity, answers, check-in state, payment references and locations.
 permalink: /features/csv-export/
+ticket_evidence_capture: attendee-csv-export
 eleventyNavigation:
   key: CSV Export
   parent: Managing Events
@@ -28,7 +29,17 @@ blocks:
 
       Calendar exports can include listing times, assigned logistics staff and map links for Google Maps and Apple Maps. This gives delivery, collection and event teams a portable schedule.
 
-      CSV files can be opened in spreadsheet or accounting software. For moving reusable event setup between sites, use [catalogue import and export](/features/catalogue-import-export/) instead.
+       CSV files can be opened in spreadsheet or accounting software. For moving reusable event setup between sites, use [catalogue import and export](/features/catalogue-import-export/) instead.
+  - type: split-image
+    content: |
+      ## Export a listing's attendees
+
+      Each listing has an attendee tab with a CSV export link. For listings
+      booked by the day, the CSV gives the days the customer chose, not the
+      longest stay the listing offers.
+    figure_src: /images/screenshots/attendee-csv-export.png
+    figure_alt: A screenshot of the Retreat attendee tab, showing one Guest place on Saturday 15 August 2026 and an Export CSV link
+    figure_caption: 'The attendee tab names the booking date and the one place on the Retreat listing, with the CSV export link. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/downloading-the-attendee-list.feature">(src)</a></small>'
   - type: cta
     button:
       text: Get Started

@@ -14,11 +14,11 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 151 | 60 | 91 |
+| Editorial pages in the sitemap | 151 | 63 | 88 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **153** | **60** | **93** |
+| **All rendered pages** | **153** | **63** | **90** |
 
-The 91 editorial pages are the main illustration backlog. The two utility
+The 88 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -86,8 +86,8 @@ pages are listed separately at the end.
 | `pages/features/webhooks.md` | Diagram: `booking-webhook-flow` | Alex books two £18 Riverside Summer Concert tickets. One consolidated booking notification flows to Riverside's Slack channel, CRM and spreadsheet with event, quantity and total labelled. | Explains the organiser outcome without making raw JSON the main image. |
 | `pages/features/admin-api.md` | Admin screenshot: `named-admin-api-key` | Riverside Print Studio uses an API key called Autumn programme to create 12 course dates. Show the named key, a successful created listing response and matching activity entry. | Shows that automation uses identifiable credentials and remains auditable. |
 | `pages/features/public-api.md` | [x] Cucumber evidence capture: `api-keys-list` | The owner's list of keys, taken from the case that makes one: it names the key and never shows it. | Shows what an owner sees after handing a key to another system. |
-| `pages/features/csv-export.md` | Product composite: `attendee-csv-export` | Summer Arts Fair exports confirmed attendees for 25 July. Show filters beside a spreadsheet preview containing fictional names, quantity, amount, answers, check-in state and payment reference. | Shows what an organiser can take into a spreadsheet or door list. |
-| `pages/features/backups.md` | Admin composite: `backup-manifest-and-update` | Oakfield's `oakfield-2026-07-25.zip` contains 43 listings and 1,284 attendees and was made 18 minutes ago. Show its manifest and an enabled update action, plus an inset where an old backup blocks updating. | Makes completeness, version matching and pre-update protection concrete. |
+| `pages/features/csv-export.md` | [x] Cucumber evidence capture: `attendee-csv-export` | A Retreat attendee tab with one booked place and its CSV export link, taken from the case that checks a customer-selected two-day booking exports the two days chosen rather than the maximum available. | Shows where an organiser exports a listing's bookings and what date range the export uses. |
+| `pages/features/backups.md` | [x] Cucumber evidence capture: `backup-restore` | The backup page after the case that empties a site and restores it, showing the saved archive with its timestamp, size, download link and restore instructions. | Shows the saved archive an organiser can download and use to restore listings and bookings. |
 | `pages/features/sms-messages.md` | Diagram: `sms-gateway-flow` | Oakfield sends Amira the Summer Disco door time. Show the message moving through Oakfield's Android gateway phone, delivery status and Amira's reply returning to attendee history. | Explains the organiser's phone, SIM and reply path without protocol jargon. |
 | `pages/features/rss-and-calendar-feeds.md` | Diagram: `event-feed-syndication` | Oakfield publishes three events. One feed branches into Apple Calendar, Google Calendar, Outlook, an RSS reader and a community website; changing one event updates subscribed views. | Demonstrates automatic republication rather than unexplained feed formats. |
 | `pages/features/email-providers.md` | Admin screenshot: `mailgun-eu-settings` | Oakfield selects Mailgun EU, sends from `tickets@oakfieldevents.org` and receives a successful test result. Show provider, domain, masked key, region and the received email header. | Shows that the organiser chooses the delivery provider and sender identity. |
@@ -105,7 +105,7 @@ pages are listed separately at the end.
 
 | Page | Proposed asset | Scenario and composition | Organiser value |
 |---|---|---|---|
-| `pages/features/editors.md` | Admin composite: `editor-permissions` | Priya edits Summer Arts Fair descriptions and images as an editor. A second panel shows the attendee area unavailable to her, beside the existing Riverside team roles. | Demonstrates the permission boundary rather than relying on a role label. |
+| `pages/features/editors.md` | [x] Cucumber evidence capture: `editor-listings-without-takings` | An editor's Pottery listing view shows its status, booked-place count and ticket count, with no income, cost or profit columns. Taken from the case where the listing has a paid booking. | Shows the money boundary in the editor's own listing view. |
 | `pages/features/duplicate-events.md` | [x] Admin screenshot: `duplicate-event` | Riverside Print Studio copies Spring Printmaking Course to Autumn Printmaking Course and shifts six dates by 182 days. Show the pre-filled duplication form and its live six-row preview. | Shows what will be copied and reviewed before submission. |
 
 ## Perfect For Pages

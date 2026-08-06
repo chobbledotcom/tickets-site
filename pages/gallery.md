@@ -104,6 +104,12 @@ blocks:
         caption: The admin guide — answers one click away from any admin screen.
       - image: /images/screenshots/api-keys-list__facebook.png
         caption: An API key list naming a key without showing the key itself.
+      - image: /images/screenshots/attendee-csv-export__facebook.png
+        caption: A Retreat attendee tab with a booking date and an Export CSV link.
+      - image: /images/screenshots/backup-restore__facebook.png
+        caption: A restored attendee list showing Jane Doe and her email.
+      - image: /images/screenshots/editor-listings-without-takings__facebook.png
+        caption: An editor's listing view, with no money columns.
       - image: /images/screenshots/order-widget-cart__facebook.png
         caption: The order widget — a cart placed over an existing website.
   - type: cta

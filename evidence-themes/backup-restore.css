@@ -1,0 +1,41 @@
+:root {
+  --border-radius: 8px;
+  --color-accent: #376d85;
+  --color-bg: #eef5f7;
+  --color-bg-secondary: #ffffff;
+  --color-link: #27586e;
+  --color-secondary: #27586e;
+  --color-secondary-accent: #e4f0f4;
+  --color-shadow: #193e4d24;
+  --color-table: #27586e;
+  --color-text: #20343d;
+  --color-text-secondary: #62777f;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-page {
+  background: #fff;
+  border: 1px solid #d2e0e5;
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+.admin-page h1 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.admin-page form,
+.admin-page section {
+  background: #f7fbfc;
+  border: 1px solid #d9e7eb;
+  border-radius: 6px;
+  padding: 0.8rem;
+}
+
+.admin-page button,
+.admin-page .btn {
+  background: var(--color-secondary);
+  border-radius: 5px;
+}

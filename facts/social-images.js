@@ -55,6 +55,23 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "attendee-csv-export": [
+    {
+      fact: "A listing attendee tab offers a CSV export, and a day-based booking's export uses the days that booking holds.",
+      sources: [
+        "../tickets/specs/attendees/downloading-the-attendee-list.feature:5-42",
+        "../tickets/src/ui/templates/admin/listings/attendees.tsx:219-256",
+      ],
+    },
+  ],
+  "backup-restore": [
+    {
+      fact: "Restoring a saved backup brings its listings and bookings back, including the attendee names and email addresses they contain.",
+      sources: [
+        "../tickets/specs/records/backup-and-restore.feature:5-26",
+      ],
+    },
+  ],
   "attendee-statuses": [
     {
       fact: "Owners can create, reorder and assign custom statuses to attendee records.",
@@ -210,6 +227,15 @@ export const SOCIAL_IMAGE_FACTS = {
       sources: [
         "../tickets/src/ui/templates/public/reservations/controls.ts:17-70",
         "../tickets/src/shared/booking/price-tree.ts:114-122",
+      ],
+    },
+  ],
+  "editor-listings-without-takings": [
+    {
+      fact: "The editor listing table includes name, description, status, attendee count, ticket count and created date, but not revenue, cost or profit.",
+      sources: [
+        "../tickets/src/ui/templates/admin/listing-table.tsx:167-187",
+        "../tickets/specs/servicing/what-an-editor-can-do.feature:5-28",
       ],
     },
   ],

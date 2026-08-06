@@ -15,6 +15,14 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Let another system work for you",
     body: "Hand a key to a system you run, like a shop till or a back-office tool. The site shows it once, then only its name, and you can take it back at any moment.",
   },
+  "attendee-csv-export": {
+    heading: "Export attendee lists",
+    body: "Open a listing's attendee tab to see bookings and export the list as CSV. For day-based listings, the exported date range uses the days the customer chose.",
+  },
+  "backup-restore": {
+    heading: "Restore listings and bookings",
+    body: "Restoring a saved backup brings its listings and bookings back. The restored attendee list shows Jane Doe and her email.",
+  },
   "bulk-email": {
     heading: "Email the right attendees",
     body: "Email one attendee, a listing's attendees, or a built-in audience. Preview the message before sending.",
@@ -50,6 +58,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
   "equipment-hire": {
     heading: "Take equipment hire bookings",
     body: "Customers choose a start date and an offered hire length. Each length can have its own price.",
+  },
+  "editor-listings-without-takings": {
+    heading: "Give an editor a money-free listing view",
+    body: "An editor can work on listings and see their status and booked-place count. The listing view does not show ticket income, costs or profit.",
   },
   "group-bulk-actions": {
     heading: "Manage grouped listings in bulk",

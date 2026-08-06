@@ -3,6 +3,7 @@ title: Editors - Chobble Tickets
 meta_title: Editor Accounts Without Booking Access - Chobble Tickets
 meta_description: Invite an editor who can write your listings and site content but cannot decrypt attendee data. Useful for SEO help, copywriters, and agencies.
 permalink: /features/editors/
+ticket_evidence_capture: editor-listings-without-takings
 eleventyNavigation:
   key: Editors
   parent: Managing Events
@@ -47,8 +48,18 @@ blocks:
 
       This suits an SEO consultant rewriting your event descriptions, a
       copywriter, a photographer uploading [images](/features/images/), or
-      a web agency that maintains your site. When the work is done, the
-      account can be removed and any active session revoked.
+       a web agency that maintains your site. When the work is done, the
+       account can be removed and any active session revoked.
+  - type: split-image
+    content: |
+      ## A money-free listing view
+
+      An editor can see each listing's status and booked-place count while
+      working on it. The listing view does not show ticket income, costs or
+      profit.
+    figure_src: /images/screenshots/editor-listings-without-takings.png
+    figure_alt: A screenshot of an editor's listings table, showing the Pottery listing's status, booked-place count and ticket count with no income, cost or profit columns
+    figure_caption: 'An editor sees the listing and booked-place count, but no ticket income, costs or profit. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/access/what-an-editor-can-do.feature">(src)</a></small>'
   - type: cta
     button:
       text: Get Started

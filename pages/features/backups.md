@@ -3,6 +3,7 @@ title: Backups & Restore - Chobble Tickets
 meta_title: Backups & Restore - Chobble Tickets
 meta_description: Download your whole database as a single zip, restore it from the admin panel, and know that updates refuse to run without a backup from the last hour.
 permalink: /features/backups/
+ticket_evidence_capture: backup-restore
 eleventyNavigation:
   key: Backups & Restore
   parent: Platform & Integrations
@@ -42,9 +43,18 @@ blocks:
 
       ## Updates require a fresh backup
 
-      The update button refuses to deploy a new version unless a backup
-      of that site's database was taken within the last hour. This means
-      there is always a recent restore point from before any update.
+       The update button refuses to deploy a new version unless a backup
+       of that site's database was taken within the last hour. This means
+       there is always a recent restore point from before any update.
+  - type: split-image
+    content: |
+      ## Restored bookings
+
+      Restoring a saved backup brings its listings and bookings back. This
+      attendee list shows Jane Doe and her email on the restored Summer Concert.
+    figure_src: /images/screenshots/backup-restore.png
+    figure_alt: A screenshot of the restored Summer Concert attendee tab, showing Jane Doe and jane@example.com
+    figure_caption: 'Restoring the saved backup brings back the Summer Concert listing with Jane Doe and her email on its attendee tab. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/records/backup-and-restore.feature">(src)</a></small>'
   - type: cta
     button:
       text: Get Started

@@ -45,7 +45,7 @@ blocks:
       at any moment.
     figure_src: /images/screenshots/api-keys-list.png
     figure_alt: A screenshot of the API keys page, listing a key named Shopfront that has never been used, above the form for making another
-    figure_caption: 'The list names each key the owner has handed out, and never shows the key itself. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/letting-another-system-in.feature">(src)</a></small>'
+    figure_caption: 'The list names each key the owner has handed out, and never shows the key itself. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/access/letting-another-system-in.feature">(src)</a></small>'
   - type: markdown
     content: |
       ## What the admin API can do

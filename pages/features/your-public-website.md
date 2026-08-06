@@ -25,7 +25,7 @@ blocks:
       Listings.
     figure_src: /images/screenshots/oakfield-public-website.png
     figure_alt: A screenshot of a public site page called Directions, reached from the site's own navigation alongside Home and Listings
-    figure_caption: 'A page is live at the address its owner chose as soon as it is written, for a visitor who never signs in. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/writing-the-pages-people-read.feature">(src)</a></small>'
+    figure_caption: 'A page is live at the address its owner chose as soon as it is written, for a visitor who never signs in. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/pages/writing-the-pages-people-read.feature">(src)</a></small>'
   - type: markdown
     content: |
       ## What a page holds

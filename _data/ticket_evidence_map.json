@@ -21,10 +21,36 @@
       "galleryCaption": "An API key list naming a key without showing the key itself.",
       "legacyDestinationPath": "images/screenshots/api-keys-list.png",
       "page": "pages/features/public-api.md",
-      "reviewed": "c3e292f36f52f4a7ee12d29aec03768b70deb6f73faa42602295eb8c64a763f0",
+      "reviewed": "1f30a46e17b80ebcf88b47dd77770586c1ff322dc3f64d8bb38409026954569b",
       "socialBody": "Hand a key to a system you run, like a shop till or a back-office tool. The site shows it once, then only its name, and you can take it back at any moment.",
       "socialHeading": "Let another system work for you",
       "socialKey": "api-keys-list"
+    },
+    "attendee-csv-export": {
+      "alt": "A screenshot of the Retreat attendee tab, showing one Guest place on Saturday 15 August 2026 and an Export CSV link",
+      "assetProfile": "mobile",
+      "caption": "The attendee tab names the booking date and the one place on the Retreat listing, with the CSV export link.",
+      "caseId": "download.the-chosen-length-not-the-maximum",
+      "galleryCaption": "A Retreat attendee tab with a booking date and an Export CSV link.",
+      "legacyDestinationPath": "images/screenshots/attendee-csv-export.png",
+      "page": "pages/features/csv-export.md",
+      "reviewed": "fb69774574e7d53b5fcac1ae4403d2b2557b1fbaf34fdab69f82613c2826ba45",
+      "socialBody": "Open a listing's attendee tab to see bookings and export the list as CSV. For day-based listings, the exported date range uses the days the customer chose.",
+      "socialHeading": "Export attendee lists",
+      "socialKey": "attendee-csv-export"
+    },
+    "backup-restore": {
+      "alt": "A screenshot of the restored Summer Concert attendee tab, showing Jane Doe and jane@example.com",
+      "assetProfile": "mobile",
+      "caption": "Restoring the saved backup brings back the Summer Concert listing with Jane Doe and her email on its attendee tab.",
+      "caseId": "backup.restore-brings-back-bookings",
+      "galleryCaption": "A restored attendee list showing Jane Doe and her email.",
+      "legacyDestinationPath": "images/screenshots/backup-restore.png",
+      "page": "pages/features/backups.md",
+      "reviewed": "f207be5641a864d103592e0035e458b8a8fcf88be7e73c27a842910ba68e7905",
+      "socialBody": "Restoring a saved backup brings its listings and bookings back. The restored attendee list shows Jane Doe and her email.",
+      "socialHeading": "Restore listings and bookings",
+      "socialKey": "backup-restore"
     },
     "balance-payment-link": {
       "alt": "A screenshot of the balance payment page for a Retreat booking, showing an £80 full order price, £30 already paid and a £50 balance due",
@@ -78,6 +104,19 @@
       "socialHeading": "Keep a record of each person",
       "socialKey": "manual-attendees"
     },
+    "editor-listings-without-takings": {
+      "alt": "A screenshot of an editor's listings table, showing the Pottery listing's status, booked-place count and ticket count with no income, cost or profit columns",
+      "assetProfile": "mobile",
+      "caption": "An editor sees the listing and booked-place count, but no ticket income, costs or profit.",
+      "caseId": "editors.the-listings-show-no-money",
+      "galleryCaption": "An editor's listing view, with no money columns.",
+      "legacyDestinationPath": "images/screenshots/editor-listings-without-takings.png",
+      "page": "pages/features/editors.md",
+      "reviewed": "45831ae82d51b76b30c651ed3f288e4641ebc4b25d8ec1a5ce12193aebe0fa6a",
+      "socialBody": "An editor can work on listings and see their status and booked-place count. The listing view does not show ticket income, costs or profit.",
+      "socialHeading": "Give an editor a money-free listing view",
+      "socialKey": "editor-listings-without-takings"
+    },
     "group-booking-arrives": {
       "alt": "A screenshot of the Summer Concert attendee list, showing Jane Doe, her email, the Medium size she picked and one place",
       "assetProfile": "mobile",
@@ -112,7 +151,7 @@
       "galleryCaption": "A page the organiser wrote, live at the address they chose.",
       "legacyDestinationPath": "images/screenshots/oakfield-public-website.png",
       "page": "pages/features/your-public-website.md",
-      "reviewed": "8f520915819bc4c41c9c91687d88756290a1fea682d6ea5167d00e469c392a39",
+      "reviewed": "b8b9231d7a09f573e10cd993398cecdc2804fe5158933b6ca3bff232511cee2c",
       "socialBody": "Write a page, choose the web address it lives at, and it is there for anyone to read straight away.",
       "socialHeading": "Publish your own pages",
       "socialKey": "oakfield-public-website"
@@ -229,7 +268,7 @@
       "galleryCaption": "An organiser's own pages, in the order they chose.",
       "legacyDestinationPath": "images/screenshots/oakfield-homepage-editor.png",
       "page": "pages/features/customising-your-site.md",
-      "reviewed": "b87f9884739724621c9b48c89b4912e49f3986fc55267fd84b5e3b75a12376f6",
+      "reviewed": "a84d585968e5272100cab1d146c78c70e5928cd43660149442d3a2bf3cb865f1",
       "socialBody": "Write your own pages, choose the address each one lives at, and put them in the order you want them offered in.",
       "socialHeading": "Arrange the pages you write",
       "socialKey": "site-customisation"
@@ -255,7 +294,7 @@
       "galleryCaption": "A users table with the owner and an editor who joined from an invite.",
       "legacyDestinationPath": "images/screenshots/riverside-events-team.png",
       "page": "pages/features/users.md",
-      "reviewed": "3260f6cb68e6db3826dc59abb19272caf25ee602795911fbefa1a8ec47635e6b",
+      "reviewed": "938570cdbc9c494193e519b2e000f9b114dbb8027c2035038d3248dd0478c9da",
       "socialBody": "Invite each person with a link they set their own password on. Their role decides which pages they can open.",
       "socialHeading": "Give team members separate accounts",
       "socialKey": "team-users"
