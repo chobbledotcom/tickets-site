@@ -37,6 +37,11 @@ describe("social video scenes", () => {
       ...CHOBBLEFEST_SLIDES[0],
       address: "tickets.chobble.com  01/10",
       image: "images/screenshots/chobblefest-welcome.png",
+      layers: [
+        "images/screenshots/chobblefest-welcome__layer-background.png",
+        "images/screenshots/chobblefest-welcome__layer-controls.png",
+        "images/screenshots/chobblefest-welcome__layer-text.png",
+      ],
     });
     expect(scenes[9].address).toBe("tickets.chobble.com  10/10");
   });
@@ -73,4 +78,5 @@ describe("social video scenes", () => {
       zIndex: 1,
     });
   });
+
 });

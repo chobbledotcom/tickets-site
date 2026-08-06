@@ -75,6 +75,7 @@ const resolveRequested = (requested) => {
 };
 
 const parseArg = (args, index) => {
+  if (args[index] === "--layers") return { advance: 0, layers: true };
   const arg = args[index];
   if (arg === "--no-social") return { advance: 0, social: null };
   if (arg === "--social") {
@@ -88,14 +89,16 @@ const parseArg = (args, index) => {
 
 const parseArgs = (args) => {
   const requested = [];
+  let layers = false;
   let social = DEFAULT_SOCIAL;
   for (let i = 0; i < args.length; i++) {
     const parsed = parseArg(args, i);
-    if (parsed.requested) requested.push(parsed.requested);
+    if (parsed.layers) layers = true;
+    else if (parsed.requested) requested.push(parsed.requested);
     else social = parsed.social;
     i += parsed.advance;
   }
-  return { requested, social };
+  return { layers, requested, social };
 };
 
 const exists = (p) => {
@@ -151,7 +154,7 @@ const addSocialText = async (scenarioName, scenario, social, socialResults) => {
   }
 };
 
-const runScenario = async (scenarioName, social) => {
+const runScenario = async (scenarioName, social, layers) => {
   const scenarioPath = join(SCENARIOS_DIR, `${scenarioName}.js`);
   const { default: scenario } = await import(
     `./screenshots/${scenarioName}.js`
@@ -172,6 +175,7 @@ const runScenario = async (scenarioName, social) => {
     scenarioPath,
     "--output",
     OUTPUT_DIR,
+    ...(layers ? ["--layers"] : []),
   ];
   const proc = spawn(cmd, { cwd: TICKETS_REPO });
   const code = await proc.exited;
@@ -195,14 +199,14 @@ const main = async () => {
     );
   }
 
-  const { requested, social } = parseArgs(process.argv.slice(2));
+  const { layers, requested, social } = parseArgs(process.argv.slice(2));
   const scenarios = resolveRequested(requested);
   console.log(
     `Taking ${scenarios.length} scenario${scenarios.length === 1 ? "" : "s"}…`,
   );
 
   for (const scenario of scenarios) {
-    await runScenario(scenario, social);
+    await runScenario(scenario, social, layers);
   }
 
   console.log(

@@ -27,6 +27,9 @@ export const createSocialScenes = (slides) =>
     ...slide,
     address: `tickets.chobble.com  ${String(index + 1).padStart(2, "0")}/${String(slides.length).padStart(2, "0")}`,
     image: `images/screenshots/${slide.source}.png`,
+    layers: ["background", "controls", "text"].map(
+      (layer) => `images/screenshots/${slide.source}__layer-${layer}.png`,
+    ),
   }));
 
 const chobblefestScenes = createSocialScenes(CHOBBLEFEST_SLIDES);

@@ -32,9 +32,11 @@ bun run video:render:local
 
 - `scenes.js` builds render-ready scene records and owns composition timing.
 - `social-video.jsx` sequences any list of social scenes with transitions.
-- `social-scene.jsx` renders the faded product image and text layout.
+- `social-scene.jsx` combines the product image and text layout.
+- `layered-screenshot.jsx` animates DOM-derived background, control and text
+  captures as depth planes which settle into the complete page.
 - `paper-text.jsx` paints all paper strips below a separate text layer, then
-  animates both layers together.
+  reveals and animates both layers together from left to right.
 - `text-layout.js` keeps the text geometry and safe line spacing in one place.
 - `root.jsx` registers each finished composition.
 - `render.js` runs any Remotion command in the shared container.

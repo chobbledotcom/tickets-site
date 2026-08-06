@@ -1,4 +1,4 @@
-import { spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { PAPER_TEXT_LAYERS, PAPER_TEXT_PADDING } from "./text-layout.js";
 
 const enterStyle = (frame, fps, delay, fromX) => {
@@ -9,6 +9,10 @@ const enterStyle = (frame, fps, delay, fromX) => {
     frame,
   });
   return {
+    clipPath: `inset(0 ${interpolate(progress, [0, 1], [100, 0], {
+      extrapolateLeft: "clamp",
+      extrapolateRight: "clamp",
+    })}% 0 0)`,
     opacity: progress,
     translate: `translate3d(${(1 - progress) * fromX}px, 0, 0)`,
   };
@@ -31,6 +35,7 @@ export const PaperText = ({
     <div
       style={{
         ...style,
+        clipPath: entrance.clipPath,
         opacity: entrance.opacity,
         transform: `${entrance.translate} ${style.transform}`,
       }}
