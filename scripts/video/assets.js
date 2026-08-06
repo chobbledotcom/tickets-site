@@ -32,8 +32,8 @@ export const captureVideoAssets = () => {
 };
 
 export const withVideoAssets = (callback) => {
-  captureVideoAssets();
   try {
+    captureVideoAssets();
     return callback();
   } finally {
     removeVideoAssets();
