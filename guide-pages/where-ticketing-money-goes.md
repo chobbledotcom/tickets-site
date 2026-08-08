@@ -16,7 +16,7 @@ blocks:
       legal structure that restricts what can be done with the money.
 
       This guide sets those claims beside the charges that fund them. Figures
-      come from the linked comparison pages and were reviewed in July 2026.
+      come from the linked comparison pages and were reviewed in August 2026.
   - type: markdown
     dark: true
     content: |
@@ -33,6 +33,10 @@ blocks:
       - [Ticketpass](/compared-to/ticketpass/) charges a booking fee and a
         separate service fee at the same rate, 1.9% + £0.20 each on
         Essentials, so 3.8% + 40p combined. The organiser chooses who pays.
+      - [Ticketebo](/compared-to/ticketebo/) charges 4.95% (incl. VAT) per
+        transaction, with a 75p minimum per order. The fee is charged per
+        order, not per ticket, and card processing is included. By default the
+        buyer pays.
       - [EVENTIM.Light](/compared-to/eventim-light/) charges 8% per ticket in
         the UK with processing included, which is £1.20 on a £15 ticket.
       - [Pretix](/compared-to/pretix/) charges 2.5% of ticket value on its
@@ -97,7 +101,11 @@ blocks:
       Several providers reduce the charge instead of donating a share of it.
       Ticket Tailor takes 50% off for registered charities and 20% off for
       PTAs and B Corps, Humanitix has a lower charity and school rate, FIXR
-      has a student and charity tier, and Chobble charges £25/year.
+      has a student and charity tier, and Chobble charges £25/year. Ticketebo
+      gives registered charities a 10% donation of booking fees back, and
+      pays a rebate of up to 20% of the booking fee to organisers who connect
+      their own Stripe account after the event. Both are funded by the booking
+      fee rather than the platform's own income.
   - type: markdown
     content: |
       ## A pledge is a policy, a legal form is a constraint
@@ -110,8 +118,9 @@ blocks:
       company that started it.
 
       Legal forms restrict what a company may do rather than what it intends
-      to do. Humanitix is a registered charity, and Ticket Tailor and Resident
-      Advisor are certified B Corporations assessed against B Lab's standards.
+      to do. Humanitix is a registered charity, and Ticket Tailor, Ticketebo
+      and Resident Advisor are certified B Corporations assessed against
+      B Lab's standards.
       Symbiota, which provides Dandelion, describes itself as a not-for-profit
       worker co-operative and is recorded at Companies House as a company
       limited by guarantee.
@@ -137,6 +146,9 @@ blocks:
       20% to the figures below.
 
       - EVENTIM.Light: £600 in platform fees, at 8% of £7,500 in sales
+      - Ticketebo: about £371 in booking fees at 4.95% (incl. VAT) of £7,500,
+        assuming one ticket per payment. The 75p minimum raises the effective
+        rate on smaller orders
       - Humanitix: about £580 at the standard rate, about £375 for charities
         and schools
       - Ticketpass Essentials: about £485, of which up to about £121 is donated

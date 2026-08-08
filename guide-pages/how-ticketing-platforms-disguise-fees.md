@@ -115,6 +115,9 @@ blocks:
       pay 4.99% + £0.49 per ticket plus VAT, with a £1 minimum.
       [Resident Advisor](/compared-to/resident-advisor/) says promoters pay
       nothing because buyers cover a service fee.
+      [Ticketebo](/compared-to/ticketebo/) is free for organisers because
+      buyers pay 4.95% (incl. VAT) per transaction, with a 75p minimum. The
+      organiser can choose to absorb it instead.
 
       The total cost of selling a ticket is not lower because the buyer is
       charged instead of the organiser. The buyer pays a fee above the
@@ -166,9 +169,9 @@ blocks:
       ## Bundled processing that hides the margin
 
       Some providers quote a single fee that includes payment processing.
-      [Humanitix](/compared-to/humanitix/), [EVENTIM.Light](/compared-to/eventim-light/)
-      and the [Ticketpass](/compared-to/ticketpass/) booking fee each fold the
-      card cost into the platform charge.
+      [Humanitix](/compared-to/humanitix/), [EVENTIM.Light](/compared-to/eventim-light/),
+      [Ticketebo](/compared-to/ticketebo/) and the [Ticketpass](/compared-to/ticketpass/)
+      booking fee each fold the card cost into the platform charge.
 
       A bundled figure does not show how much of it is the platform's margin
       and how much is the card-processing cost. [Chobble Tickets](/features/no-per-ticket-fees/)

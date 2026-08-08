@@ -94,6 +94,10 @@ blocks:
         established.
       - [Pretix Hosted](/compared-to/pretix/) supports organiser branding and
         offers custom domains by arrangement.
+      - [Ticketebo](/compared-to/ticketebo/) designs event pages with the
+        organiser's own images, colours and branding, but pages are served
+        from ticketebo.co.uk. No custom-domain option was documented in the
+        sources reviewed.
       - [Cheddar Up](/compared-to/cheddar-up/) includes a Brand Kit on its Team
         plan, at $48/month or $420/year. Complete removal of Cheddar Up
         branding was not established, and pages stay on Cheddar Up addresses.

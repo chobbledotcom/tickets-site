@@ -51,6 +51,7 @@ blocks:
       | [Tessera Tickets](/compared-to/tessera-tickets/) | Ticket-volume subscription tiers | The monthly subscription rises with annual ticket volume. |
       | [Ticket Tailor](/compared-to/ticket-tailor/) | Fixed charge for each paid ticket | Prepaid credits and discounts can reduce the per-ticket amount. |
       | [Pretix Hosted](/compared-to/pretix/) | Percentage of each paid ticket | The hosted platform charge is capped per ticket, and payment processing remains separate. |
+      | [Ticketebo](/compared-to/ticketebo/) | Percentage of each paid transaction | The 4.95% (incl. VAT) charge applies per order, not per ticket, with a 75p minimum. Card processing is included. |
       | [Wix Events](/compared-to/wix-events/) | Website subscription plus a percentage of paid tickets | The ticket service fee is additional to the Wix website plan and payment processing. |
 
       A fixed subscription is not automatically volume-independent. Booking

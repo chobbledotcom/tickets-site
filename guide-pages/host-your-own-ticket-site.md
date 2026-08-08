@@ -68,6 +68,10 @@ blocks:
         and widgets that can sell tickets on an existing website.
       - [EVENTIM.Light](/compared-to/eventim-light/) supplies branded ticket
         shops, direct links and iframe embeds.
+      - [Ticketebo](/compared-to/ticketebo/) designs and builds an organiser
+        home page listing all upcoming events plus individual event pages, all
+        on the ticketebo.co.uk domain. Bespoke event websites are offered as a
+        premium service.
       - [PTA Events](/compared-to/pta-events/) supplies a branded fundraising
         website with news, custom pages, events, products, volunteer management
         and committee listings.

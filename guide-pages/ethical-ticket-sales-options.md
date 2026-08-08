@@ -100,6 +100,20 @@ blocks:
       Tailor runs a public Discover events area but states that it does not
       email attendees about other organisers' events.
 
+      ### Ticketebo
+
+      [Ticketebo](/compared-to/ticketebo/) is B Corp certified and is run by
+      Ticketebo Ltd, a UK company registered in Manchester. It is carbon
+      neutral through its Trees for Change programme.
+
+      Ticketebo charges a booking fee of 4.95% (incl. VAT) per transaction,
+      with a 75p minimum, and card processing is included. By default the
+      buyer pays the fee. Registered charities receive a 10% donation of
+      booking fees back, and organisers who connect their own Stripe account
+      receive a rebate of up to 20% of the booking fee after the event.
+      Ticketebo states that it does not market to ticket buyers and does not
+      sell their contact details.
+
       ### Resident Advisor
 
       [Resident Advisor](/compared-to/resident-advisor/) describes itself as
