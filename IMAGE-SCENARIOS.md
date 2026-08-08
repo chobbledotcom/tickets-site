@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 153 rendered client pages. A page counts as illustrated
+This audit covers all 155 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 151 | 63 | 88 |
+| Editorial pages in the sitemap | 153 | 63 | 90 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **153** | **63** | **90** |
+| **All rendered pages** | **155** | **63** | **92** |
 
-The 88 editorial pages are the main illustration backlog. The two utility
+The 90 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -181,6 +181,7 @@ pages are listed separately at the end.
 | `pages/compared-to/bookitbee.md` | Comparison graphic: `bookitbee-fee-stack` | Riverside sells 250 £18 tickets. Show BookitBee's percentage tier and minimum fee beside Chobble's fixed price, with reserved seating and group deals as separate advantage cards. | Balances richer selling features against predictable platform cost. |
 | `pages/compared-to/tito.md` | Comparison graphic: `tito-conference-workflow` | Northstar Dev Day sells 400 €120 tickets. Compare shared API tools, Tito's conference and badge workflow and Chobble's flat price and self-hosting. | Puts conference operations beside cost rather than reducing the choice to fees. |
 | `pages/compared-to/tickts.md` | Comparison graphic: `tickts-plan-staircase` | Oakfield needs a custom domain, full API and white-label presentation. Show Starter, Growth and Pro steps with their features beside one Chobble level containing all current Chobble features. | Explains feature tiers without suggesting tickts charges commission. |
+| `pages/compared-to/ticketebo.md` | Comparison graphic: `ticketebo-fee-and-payout` | Riverside Folk Festival sells 400 £15 tickets. Show Ticketebo's 4.95% per-transaction fee, with its 75p minimum, beside Chobble's flat £50/year plus own-provider processing, with a timeline strip marking when each settles: Ticketebo pays the Monday after the event then the next business day, while the Stripe route and Chobble settle into the organiser's own payment account as each booking is made. Keep settlement and bank payout as separate marks. Show Ticketebo's free managed page design as a separate advantage panel. | Shows that a per-transaction fee with a post-event payout crosses the flat price near £2,300 of sales, and that managed setup trades control for convenience. |
 | `pages/compared-to/ticketsource.md` | Comparison graphic: `ticketsource-fee-and-payout` | Penfold Players sells 400 £12 tickets across a four-night run. Show the booking fee on both TicketSource routes beside Chobble's flat price, with a timeline strip marking when each route settles: TicketSource holds the money until after the run, while the Stripe route and Chobble both settle into the organiser's own payment account as each booking is made, then pay out to the bank on that provider's schedule. Keep settlement and bank payout as separate marks so the graphic does not imply the money lands in the bank instantly. | Shows that payout timing matters as much as the fee rate for a group with cash-flow limits. |
 | `pages/compared-to/ticketpass.md` | Comparison graphic: `ticketpass-fee-and-donation` | Meadowfield Fundraisers sells 500 £15 tickets. Split the Essentials charge into booking fee, service fee and the donated share, beside Chobble's community hosting fee with a direct donation shown separately. | Separates the size of the ticket charge from the share of it that is donated. |
 | `pages/compared-to/eventprime.md` | Comparison graphic: `eventprime-plan-tiers` | Oakfield Arts sells 300 £12 tickets and needs ticket generation, card payments and door check-in. Show which EventPrime plan each requirement lands in, with the WordPress site and gateway as separate costs, beside one Chobble level containing all current Chobble features. | Shows that the plugin price depends on which features an organiser needs. |

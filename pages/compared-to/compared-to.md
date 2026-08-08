@@ -109,6 +109,9 @@ blocks:
         description: A pay-as-you-go ticketing platform sold as prepaid ticket credits, including reserved seating, box office and custom ticket design. Compare pricing, features and data handling.
         name: <a href="/compared-to/ticket-generator/">Ticket Generator alternative</a>
       - icon: hugeicons:ticket-01
+        description: A UK ticketing platform with a per-transaction booking fee and managed page design. Compare pricing, payouts, seating and data handling.
+        name: <a href="/compared-to/ticketebo/">Ticketebo alternative</a>
+      - icon: hugeicons:ticket-01
         description: An independently owned B Corp ticketing platform from London with flat per-ticket fees. Compare pricing, features and data handling.
         name: <a href="/compared-to/ticket-tailor/">Ticket Tailor alternative</a>
       - icon: hugeicons:ticket-01
