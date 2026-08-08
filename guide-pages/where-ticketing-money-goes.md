@@ -172,5 +172,8 @@ blocks:
 
       The [ethical ticket sales options guide](/guide/choosing-a-ticket-platform/ethical-ticket-sales-options/)
       lists the documented structures, funding models and source licences of
-      the providers named here.
+      the providers named here. The [how ticketing platforms disguise their
+      fees](/guide/choosing-a-ticket-platform/how-ticketing-platforms-disguise-fees/)
+      guide sets those pledges beside the patterns that make a charge look
+      smaller than it is.
 ---

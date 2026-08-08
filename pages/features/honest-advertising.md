@@ -131,6 +131,9 @@ blocks:
       [fee comparison](/compared-to/compare-all/) on this site lists the
       source of every competitor figure and the date it was checked, so a
       reader can verify it or find that it has gone stale.
+
+      The [how ticketing platforms disguise their fees](/guide/choosing-a-ticket-platform/how-ticketing-platforms-disguise-fees/)
+      guide sets out the patterns behind these claims with worked figures.
   - type: markdown
     content: |
       ## What Chobble does instead
