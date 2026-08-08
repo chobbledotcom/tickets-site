@@ -12,26 +12,35 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - signupgenius
-  last_reviewed: "2026-07-29"
-  registration_country: not-reviewed
+  last_reviewed: "2026-08-08"
+  registration_country: united-states
   ethical_basis:
-    - not-reviewed
-  per_ticket_platform_fee: not-reviewed
-  managed_pricing: not-reviewed
-  white_label: not-reviewed
-  custom_domain: not-reviewed
-  public_website: not-reviewed
-  self_hosting: not-reviewed
-  source_code: not-reviewed
+    - not-documented
+  per_ticket_platform_fee: per-transaction-percentage-plus-fixed
+  managed_pricing: feature-tiered-volume-independent
+  white_label: not-documented
+  custom_domain: not-documented
+  public_website: hosted-booking-pages
+  self_hosting: not-offered
+  source_code: proprietary
   agent_instructions: not-reviewed
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
   local_dev_reload: not-reviewed
-  event_marketplace: not-documented
-  attendee_cross_marketing: not-documented
+  event_marketplace: optional-network
+  attendee_cross_marketing: provider-content-and-events
   notes:
-    event_marketplace: "No public directory of other users' sign-up pages was found. The described model is creating a sign up and sharing one link. Checked 29 July 2026."
-    attendee_cross_marketing: "No attendee marketing programme was documented in the sources reviewed. Checked 29 July 2026."
+    registration_country: "The SignUpGenius privacy policy names SignUpGenius, Inc. with an address at 1213 W. Morehead Street, Charlotte, North Carolina, and the site footer reads '©2026 SignUpGenius Inc.'. Checked 8 August 2026."
+    ethical_basis: "SignUpGenius, Inc. is a US for-profit corporation with a named executive team on its About page. The site does not describe its ownership structure, and no charity, co-operative, B Corp or community-interest status is claimed."
+    per_ticket_platform_fee: "SignUpGenius Payments, powered by Stripe, charges a standard processing fee of 5% plus $0.50 per transaction when organisers collect money through sign-ups, with the same fee across all plans. Organisers can absorb the fee or pass it to participants. SignUpGenius charges no separate per-ticket platform commission on event ticketing. Checked 8 August 2026."
+    managed_pricing: "Subscription plans are tiered by features, not ticket volume: a free plan, then Silver at $8.99/month, Gold at $22.49/month and Platinum at $44.99/month when billed annually, and custom Enterprise pricing. Tiers differ by ad-free sign-ups, payment collection, custom questions, administrators and messaging allowances. Checked 8 August 2026."
+    white_label: "Paid plans add more customisation and remove ads from sign-ups, but no full white-label offering that removes all SignUpGenius branding is described on the pages checked."
+    custom_domain: "The Platinum plan lists 'Custom URLs', which appears to mean custom URL slugs on signupgenius.com rather than a custom domain. No custom-domain feature is described."
+    public_website: "Sign-up and payment pages are hosted on signupgenius.com and shared by link, with no account required for participants. The privacy policy says the site does not publicly promote or link sign-up page addresses without the creator's approval."
+    self_hosting: "SignUpGenius is a hosted service. No self-hosting option is described on the pages checked."
+    source_code: "No source code is published. SignUpGenius offers an API for developers but publishes no open-source code."
+    event_marketplace: "The site has a public 'Find a Sign Up' search directory, but creators control visibility: the privacy policy says sign-ups are not promoted or linked publicly without the creator's approval, and the creator can choose to promote the page publicly or to a select group."
+    attendee_cross_marketing: "The privacy policy says contact information is used to provide information about products and services that might interest the user, and the service shows advertising on sign-up pages from direct partners and ad networks such as Google's DoubleClick Ad Exchange and AdSense, with ad removal available only on paid plans."
 blocks:
   - type: hero
     class: gradient

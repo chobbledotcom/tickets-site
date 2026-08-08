@@ -12,26 +12,35 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - fixr
-  last_reviewed: "2026-07-29"
-  registration_country: not-reviewed
+  last_reviewed: "2026-08-08"
+  registration_country: united-kingdom
   ethical_basis:
-    - not-reviewed
-  per_ticket_platform_fee: not-reviewed
-  managed_pricing: not-reviewed
-  white_label: not-reviewed
-  custom_domain: not-reviewed
-  public_website: not-reviewed
-  self_hosting: not-reviewed
-  source_code: not-reviewed
+    - not-documented
+  per_ticket_platform_fee: per-transaction-percentage-plus-fixed
+  managed_pricing: per-sale
+  white_label: higher-tier
+  custom_domain: not-documented
+  public_website: marketplace-pages
+  self_hosting: not-offered
+  source_code: proprietary
   agent_instructions: not-reviewed
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
   local_dev_reload: not-reviewed
   event_marketplace: built-in
-  attendee_cross_marketing: not-documented
+  attendee_cross_marketing: provider-content-and-events
   notes:
-    event_marketplace: "FIXR lists events publicly by city and by date, including fixr.co/all/events and fixr.co/events/today. Whether listing is automatic or by opt-in was not documented. Checked 29 July 2026."
-    attendee_cross_marketing: "The privacy policy describes organiser marketing on a soft opt-in basis, with ticket buyers becoming followers of that organiser unless they opt out. Whether FIXR itself markets other organisers' events was not documented. Checked 29 July 2026."
+    registration_country: "FIXR operates as VIPR Digital Limited, company number 08184813, at 25-26 Poland Street, London W1F 8QN, and its privacy policy names that company as the contracting party for UK and US customers. A wholly owned South African subsidiary, FIXR Ticketing Proprietary Limited, handles South Africa. Checked 8 August 2026."
+    ethical_basis: "VIPR Digital Limited is a private limited company co-founded in 2012 by four individuals, one of whom resigned in 2020. It raised £6.5 million in a Series A round in 2021. No charity, co-operative, B Corp or community-interest structure is described in the sources reviewed."
+    per_ticket_platform_fee: "FIXR charges ticket buyers a booking fee on each paid ticket: 4.99% + £0.49 (minimum £1) + VAT on the Pro tier, or 3.99% + £0.49 (minimum £1) + VAT on the Student & Charity tier. The fee includes payment processing, and free tickets carry no fee. Enterprise pricing is negotiated."
+    managed_pricing: "FIXR is free for organisers, with its revenue coming from the booking fee ticket buyers pay on each paid ticket. The Student & Charity tier offers a reduced fee, and Enterprise pricing is negotiated for large and complex events."
+    white_label: "The Enterprise tier can build custom branded apps and websites for an organiser's events, according to the FIXR features pages. No white-label checkout on FIXR-branded pages is described."
+    custom_domain: "No custom-domain option was documented in the sources reviewed."
+    public_website: "Events are sold through FIXR-branded pages on the FIXR marketplace, browsable by city and by date, and organisers can embed ticket widgets on their own website. No organiser website or content management area is described."
+    self_hosting: "FIXR is a hosted platform. No self-hosting option is described in the sources reviewed."
+    source_code: "No source code is published and no open-source claim is made in the sources reviewed."
+    event_marketplace: "FIXR lists events publicly by city and by date, including fixr.co/all/events and fixr.co/events/today. Whether listing is automatic or by opt-in was not documented."
+    attendee_cross_marketing: "The privacy policy describes organiser marketing on a soft opt-in basis, with ticket buyers becoming followers of that organiser unless they opt out, and it states FIXR may send notifications that include promotions, offers and advertisements distributed on its own behalf or on behalf of commercial partners, and may display banner advertisements for commercial partners on the platform."
 blocks:
   - type: hero
     class: gradient

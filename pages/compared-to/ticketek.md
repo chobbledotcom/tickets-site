@@ -12,26 +12,35 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - ticketek
-  last_reviewed: "2026-07-29"
-  registration_country: not-reviewed
+  last_reviewed: "2026-08-08"
+  registration_country: australia
   ethical_basis:
-    - not-reviewed
-  per_ticket_platform_fee: not-reviewed
-  managed_pricing: not-reviewed
-  white_label: not-reviewed
-  custom_domain: not-reviewed
-  public_website: not-reviewed
-  self_hosting: not-reviewed
-  source_code: not-reviewed
+    - not-documented
+  per_ticket_platform_fee: amount-not-published
+  managed_pricing: quote-based
+  white_label: not-documented
+  custom_domain: not-documented
+  public_website: marketplace-pages
+  self_hosting: not-offered
+  source_code: proprietary
   agent_instructions: not-reviewed
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
   local_dev_reload: not-reviewed
   event_marketplace: built-in
-  attendee_cross_marketing: not-documented
+  attendee_cross_marketing: provider-content-and-events
   notes:
-    event_marketplace: "Ticketek runs a public consumer site browsable by category and by date, listing events from many promoters. Whether listing is automatic or by opt-in was not documented. Checked 29 July 2026."
-    attendee_cross_marketing: "Ticketek offers alerts for a registrant's chosen artists and sports and access to pre-sales. Whether it markets other organisers' events to ticket buyers was not documented. Checked 29 July 2026."
+    registration_country: "Ticketek is part of TEG Pty Limited (ACN 604 938 534), an Australian company headquartered in Sydney, according to Ticketek's About page and the TEG privacy policy. Checked 8 August 2026."
+    ethical_basis: "Ticketek is owned by TEG Pty Limited, which was formed in 2015 when Affinity Equity Partners acquired Nine Live from Nine Entertainment and rebranded it as TEG. No charity, co-operative, B Corp or community-interest structure is described in the sources reviewed."
+    per_ticket_platform_fee: "No standard fee schedule is published. Ticketek sets fees through venue and promoter contracts, and reports and press coverage describe service and handling fees added to buyer prices without a published rate card."
+    managed_pricing: "Ticketek's pricing is agreed per client through venue and promoter contracts. Its business pages offer contact-sales rather than published prices."
+    white_label: "No white-label offering is described in the sources reviewed. Events are sold on Ticketek-branded marketplace pages."
+    custom_domain: "No custom-domain offering is described in the sources reviewed."
+    public_website: "Events are sold through hosted event pages on the ticketek.com.au marketplace, browsable by category and by date. No organiser website or content management area is described."
+    self_hosting: "No self-hosting option is described in the sources reviewed. Ticketek is a hosted marketplace."
+    source_code: "No source code is published and no open-source claim is made in the sources reviewed."
+    event_marketplace: "Ticketek runs a public consumer site browsable by category and by date, listing events from many promoters. Whether listing is automatic or by opt-in was not documented."
+    attendee_cross_marketing: "The TEG privacy policy says TEG may send marketing communications about events, offers or rewards from TEG or trusted third parties where the individual has opted in, uses activity and preferences to recommend events or offers, and may show personalised ads across websites and social platforms. Ticketek's own privacy policy also lists Event Partners such as the venue, promoter and performer among those it shares data with."
 blocks:
   - type: hero
     class: gradient

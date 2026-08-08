@@ -10,17 +10,17 @@ provider_facts:
   name: Yo!Rent
   kind: adjacent-software
   calculator_keys: []
-  last_reviewed: "2026-07-29"
-  registration_country: not-reviewed
+  last_reviewed: "2026-08-08"
+  registration_country: india
   ethical_basis:
-    - not-reviewed
-  per_ticket_platform_fee: not-reviewed
-  managed_pricing: not-reviewed
-  white_label: not-reviewed
-  custom_domain: not-reviewed
-  public_website: not-reviewed
-  self_hosting: not-reviewed
-  source_code: not-reviewed
+    - not-documented
+  per_ticket_platform_fee: none
+  managed_pricing: flat-volume-independent
+  white_label: included
+  custom_domain: self-hosted
+  public_website: built-in-full
+  self_hosting: same-product
+  source_code: proprietary
   agent_instructions: not-reviewed
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
@@ -28,8 +28,17 @@ provider_facts:
   event_marketplace: none
   attendee_cross_marketing: none
   notes:
-    event_marketplace: "Yo!Rent is licensed software installed on the buyer's own server, so listings appear on the customer's site rather than in any yo-rent.com catalogue. Checked 29 July 2026."
-    attendee_cross_marketing: "Yo!Rent does not operate the storefront, so it holds no attendee relationship through which to market. Checked 29 July 2026."
+    registration_country: "Yo!Rent is a product of FATbit Technologies, and the GitHub profile lists its location as Mohali, India. The site does not publish a registered legal entity or company number. Checked 8 August 2026."
+    ethical_basis: "Yo!Rent is made by FATbit Technologies, a commercial software company. The site does not describe its ownership or legal structure."
+    per_ticket_platform_fee: "The packages page lists 'Transaction Fee: Zero' and 'Recurring Charges: Zero' across all packages, with revenue from a one-time licence fee rather than per-sale charges. Marketplace operators set their own commissions."
+    managed_pricing: "Yo!Rent sells a lifetime licence at a one-time cost, which the FAQ says remains the same no matter how much the business grows, with zero recurring charges and zero transaction fees. Packages are quoted on request."
+    white_label: "The homepage markets Yo!Rent as a 'White Label Solution', and all packages list 'License Type: Whitelabel Solution', with a white-label partnership programme letting partners rebrand and resell the product."
+    custom_domain: "Yo!Rent is installed on the customer's own server and the licence is tied to the customer's own domain registered at purchase, so custom domains are part of the self-hosted deployment."
+    public_website: "The product builds the operator's complete rental marketplace website under their own brand, with front-end, buyer, vendor and admin demos."
+    self_hosting: "The same commercial product is installed on the customer's own server: the site says its experts install and set up Yo!Rent on the customer's choice of server, with packages listed as self-hosted."
+    source_code: "The GitHub organisation has no public repositories, so there is no open-source distribution. Packages list 'Lifetime License & Source Code', with the GoCustom Prime package including web app source code excluding the framework, so source code is delivered to licence holders rather than published."
+    event_marketplace: "Yo!Rent is licensed software installed on the buyer's own server, so listings appear on the customer's site rather than in any yo-rent.com catalogue."
+    attendee_cross_marketing: "Yo!Rent does not operate the storefront, so it holds no attendee relationship through which to market."
 blocks:
   - type: hero
     class: gradient

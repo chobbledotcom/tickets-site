@@ -84,6 +84,9 @@ blocks:
       - icon: hugeicons:open-source
         description: Another open source option targeting enterprise. Compare hosted and self-hosted costs.
         name: <a href="/compared-to/pretix/">Pretix alternative</a>
+      - icon: hugeicons:ticket-01
+        description: A German ticketing system free for organisers because the buyer pays a per-ticket fee by default. Compare fees, who pays them, seating plans and data handling.
+        name: <a href="/compared-to/qrticket/">QRTicket alternative</a>
       - icon: hugeicons:music-note-03
         description: Ticketing and event discovery for electronic music. Compare fees, data handling and features.
         name: <a href="/compared-to/resident-advisor/">Resident Advisor alternative</a>

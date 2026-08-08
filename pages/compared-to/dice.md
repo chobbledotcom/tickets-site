@@ -12,17 +12,17 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - dice
-  last_reviewed: "2026-07-29"
-  registration_country: not-reviewed
+  last_reviewed: "2026-08-08"
+  registration_country: united-kingdom
   ethical_basis:
-    - not-reviewed
-  per_ticket_platform_fee: not-reviewed
-  managed_pricing: not-reviewed
-  white_label: not-reviewed
-  custom_domain: not-reviewed
-  public_website: not-reviewed
-  self_hosting: not-reviewed
-  source_code: not-reviewed
+    - not-documented
+  per_ticket_platform_fee: per-transaction-percentage
+  managed_pricing: per-sale
+  white_label: not-documented
+  custom_domain: not-documented
+  public_website: marketplace-pages
+  self_hosting: not-offered
+  source_code: proprietary
   agent_instructions: not-reviewed
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
@@ -30,8 +30,17 @@ provider_facts:
   event_marketplace: built-in
   attendee_cross_marketing: personalised-recommendations
   notes:
-    event_marketplace: "DICE presents a browsable discovery feed of events from many promoters, with pages per city such as dice.fm/browse. Whether a promoter's event is listed automatically or by opt-in was not documented. Checked 29 July 2026."
-    attendee_cross_marketing: "The UK privacy policy describes using music-library and location data to personalise recommendations about events nearby, and communicating by email, push and in-app message. Marketing from third-party event partners is described as consent-based. Checked 29 July 2026."
+    registration_country: "DICE FM UK Ltd (company no. 14373641) is named as the contracting company in the DICE self sign-up terms, with a registered office at 100 De Beauvoir Road, London N1 4EN. Parent DICE FM Holdings Ltd (no. 08905651) is registered at the same address. Checked 8 August 2026."
+    ethical_basis: "DICE FM was acquired by Fever in June 2025, a private live entertainment company. No charity, co-operative, B Corp or community-interest structure is described in the sources reviewed."
+    per_ticket_platform_fee: "The DICE self sign-up terms charge a service fee of 8.5% plus VAT on the face value of each ticket with a £1 minimum, and a transaction fee of 2.5% plus VAT of the total transaction price. Free tickets carry no fees, and no service fee applies where the face value goes to a registered charity. Box office and door sales incur an 8% commission with a £1 to £3.50 range plus a 3% box office transaction fee. Larger or custom partnerships are negotiated separately."
+    managed_pricing: "DICE is paid from fees on ticket sales rather than a subscription. The self sign-up path lists a per-sale service and transaction fee, and bigger or custom partnerships negotiate their own terms. No published subscription price appears in the sources reviewed."
+    white_label: "No white-label offering is described in the sources reviewed. Tickets are sold through the DICE app and dice.fm marketplace under the DICE brand."
+    custom_domain: "No custom-domain offering is described in the sources reviewed."
+    public_website: "Events are sold through marketplace pages in the DICE app and on dice.fm, which lists events from many promoters. No organiser website or content management area is described."
+    self_hosting: "No self-hosting option is described in the sources reviewed. DICE is a hosted platform."
+    source_code: "No platform source code is published and no open-source claim is made in the sources reviewed."
+    event_marketplace: "DICE presents a browsable discovery feed of events from many promoters, with pages per city such as dice.fm/browse. Whether a promoter's event is listed automatically or by opt-in was not documented."
+    attendee_cross_marketing: "The UK privacy policy describes using music-library and location data to personalise recommendations about events nearby, and communicating by email, push and in-app message. Marketing from third-party event partners is described as consent-based."
 blocks:
   - type: hero
     class: gradient

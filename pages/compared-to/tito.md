@@ -12,26 +12,36 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - tito
-  last_reviewed: "2026-07-29"
-  registration_country: not-reviewed
+  last_reviewed: "2026-08-08"
+  registration_country: ireland
   ethical_basis:
-    - not-reviewed
-  per_ticket_platform_fee: not-reviewed
-  managed_pricing: not-reviewed
-  white_label: not-reviewed
-  custom_domain: not-reviewed
-  public_website: not-reviewed
-  self_hosting: not-reviewed
-  source_code: not-reviewed
+    - independently-owned
+  per_ticket_platform_fee: per-transaction-percentage
+  managed_pricing: per-sale
+  white_label: partial
+  custom_domain: higher-tier
+  public_website: hosted-event-pages
+  self_hosting: not-offered
+  source_code: proprietary
   agent_instructions: not-reviewed
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
   local_dev_reload: not-reviewed
-  event_marketplace: not-documented
-  attendee_cross_marketing: not-documented
+  event_marketplace: none
+  attendee_cross_marketing: none
   notes:
-    event_marketplace: "Tito's own material describes registration, ticketing, check-in and a per-event homepage. No public directory or discovery listing was found in the pages reviewed, and Tito does not state whether one exists. Checked 29 July 2026."
-    attendee_cross_marketing: "No attendee marketing programme was documented in the sources reviewed. Checked 29 July 2026."
+    registration_country: "Team Tito Limited, Company Number 566334, is registered at 27 Frederick Street South, Dublin D02 T254, Ireland, and the site footer says 'Proudly registered in Ireland'. Checked 8 August 2026."
+    ethical_basis: "teamtito.com/about describes a small private software company founded by its two co-founders with funding from Enterprise Ireland and private individuals. It is not publicly listed and claims no charity, co-operative or B Corp status."
+    per_ticket_platform_fee: "Tito charges 3% per paid ticket, capped at €25, with 2.5% for community and non-profit events, 1% for registered charities running events at cost, and nothing for pure fundraiser events. Payment-gateway fees are charged separately. Free events are free. Checked 8 August 2026."
+    managed_pricing: "Tito Classic is one price covering all features with no setup fee and no subscription, paid on tickets sold. Tito Pro, a separate next-generation product, is sold as a subscription starting at €99/month."
+    white_label: "Tito Classic event pages accept the organiser's own custom branding, and Tito Pro is marketed as white-labelled registration under the organiser's own brand. Checked 8 August 2026."
+    custom_domain: "Custom domains are a Tito Pro capability, advertised alongside custom email senders and layouts. Tito Classic event pages are hosted on ti.to. Checked 8 August 2026."
+    public_website: "Tito Classic provides ready-made event pages hosted on Tito and customisable with the organiser's branding, and organisers can embed a Tito widget on their own website. No organiser website or content management area is described. Checked 8 August 2026."
+    self_hosting: "No self-hosting option is mentioned in the sources reviewed. Tito's trust centre says the platform is hosted in the EU. Checked 8 August 2026."
+    source_code: "Tito does not publish the ticketing platform's source code. Its GitHub organisation publishes only helper and tooling repositories such as widget plugins and API documentation. Checked 8 August 2026."
+    agent_instructions: "No agent or contributor instructions for the ticketing platform were found in the sources reviewed."
+    event_marketplace: "Tito's own material describes registration, ticketing, check-in and a per-event homepage. No public directory or discovery listing was found in the pages reviewed, and Tito does not state whether one exists."
+    attendee_cross_marketing: "Tito's trust centre says of ticket-buyer data: 'we don't share it, we don't sell it, and we don't try to claim it as our own', and describes Tito as a data processor for attendee data. No cross-marketing of other events to ticket buyers is described."
 blocks:
   - type: hero
     class: gradient

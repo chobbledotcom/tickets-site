@@ -350,8 +350,8 @@ describe("provider facts schema", () => {
   test("does not interpret unknown states as false", () => {
     const eventbrite = recordsByName.get("Eventbrite");
     const dandelion = recordsByName.get("Dandelion");
-    expect(eventbrite.white_label).toBe("not-reviewed");
-    expect(eventbrite.white_label).not.toBe(false);
+    expect(eventbrite.local_dev_runtime).toBe("not-reviewed");
+    expect(eventbrite.local_dev_runtime).not.toBe(false);
     expect(dandelion.custom_domain).toBe("not-documented");
     expect(dandelion.custom_domain).not.toBe(false);
   });

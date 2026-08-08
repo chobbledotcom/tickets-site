@@ -12,26 +12,35 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - bookitbee
-  last_reviewed: "2026-07-29"
-  registration_country: not-reviewed
+  last_reviewed: "2026-08-08"
+  registration_country: united-kingdom
   ethical_basis:
-    - not-reviewed
-  per_ticket_platform_fee: not-reviewed
-  managed_pricing: not-reviewed
-  white_label: not-reviewed
-  custom_domain: not-reviewed
-  public_website: not-reviewed
-  self_hosting: not-reviewed
-  source_code: not-reviewed
+    - certified-b-corporation
+  per_ticket_platform_fee: percentage
+  managed_pricing: per-sale
+  white_label: included
+  custom_domain: not-documented
+  public_website: hosted-event-pages
+  self_hosting: not-offered
+  source_code: proprietary
   agent_instructions: not-reviewed
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
-  attendee_cross_marketing: not-documented
+  attendee_cross_marketing: organiser-controlled
   notes:
-    event_marketplace: "No public browse or discovery listing was found on bookitbee.com. Its own material describes sharing a unique event link or embedding a buy button. Checked 29 July 2026."
-    attendee_cross_marketing: "No attendee marketing programme was documented in the sources reviewed. Checked 29 July 2026."
+    registration_country: "BookitBee operates under LIVE IT Group Ltd, registered in England and Wales as company 08432364 at 7 Bell Yard, London WC2A 2JR. The BookitBee site footer names this company. Checked 8 August 2026."
+    ethical_basis: "The BookitBee homepage states that BookitBee is part of LIVE IT, a Certified B Corporation. The company was co-founded by Kenton Ward and Frank Di Mauro, raised investment from several funds, and is described as an independent private company with no corporate parent."
+    per_ticket_platform_fee: "BookitBee charges a percentage of the ticket price: 3.5% on the Standard plan and 6.5% on the Plus plan, with per-ticket minimum and maximum fees (the FAQ gives GBP min £0.50 and max £19.95). Payment processing transaction fees are charged separately, by Stripe, PayPal or LIVE IT Payments."
+    managed_pricing: "There is no subscription. BookitBee is paid from a fee on each paid ticket, with the two plans setting different fee rates rather than different monthly prices. Free events are free."
+    white_label: "The homepage describes fully customisable event pages with the organiser's logo, colours and imagery, and says 'No BookitBee branding unless you want it'."
+    custom_domain: "No custom-domain option was documented in the sources reviewed."
+    public_website: "BookitBee provides hosted event pages with the organiser's branding, plus registration and landing pages on the Plus plan. No organiser website or content management area is described."
+    self_hosting: "BookitBee is a hosted platform. No self-hosting option is described in the sources reviewed."
+    source_code: "No source code is published and no open-source claim is made in the sources reviewed."
+    event_marketplace: "The BookitBee homepage and footer carry 'Looking for an event?' and 'Event listings' links, but no browsable discovery directory of other organisers' events was confirmed in the sources reviewed. Its own material describes sharing a unique event link or embedding a buy button."
+    attendee_cross_marketing: "BookitBee's GDPR guide states that customers who opt in to email marketing during booking can be accessed via the organiser's Mailing lists section, so marketing to attendees is driven by the organiser. The LIVE IT privacy policy says direct marketing is consent-based and that personal details are not shared with third parties for their marketing purposes."
 blocks:
   - type: hero
     class: gradient
@@ -48,16 +57,17 @@ blocks:
       AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
       copy. BookitBee is closed source and does not publish its code.
 
-      BookitBee charges from 3.5% per ticket, with a £1 minimum and a £19.95
-      cap. Chobble Tickets charges £50/year or £5/month, or £25/year for
-      charities on the annual plan, and takes no percentage of ticket sales.
+      BookitBee charges from 3.5% per ticket, with a £0.50 minimum and a
+      £19.95 cap. Chobble Tickets charges £50/year or £5/month, or £25/year
+      for charities on the annual plan, and takes no percentage of ticket
+      sales.
   - type: markdown
     content: |
       ## Pricing comparison
 
       [BookitBee](https://www.bookitbee.com) charges per ticket sold,
       starting from 3.5% per ticket (up to 6.5% for higher-tier features),
-      with a minimum fee of £1 and a cap of £19.95 per ticket. For high-volume events those fees add up quickly.
+      with a minimum fee of £0.50 and a cap of £19.95 per ticket. For high-volume events those fees add up quickly.
 
       Chobble Tickets charges a flat £50/year or £5/month (£25/year for charities on the annual plan) with [no
       per-ticket fees](/features/no-per-ticket-fees/) or percentage cuts, which works out significantly

@@ -12,26 +12,35 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - fatsoma
-  last_reviewed: "2026-07-29"
-  registration_country: not-reviewed
+  last_reviewed: "2026-08-08"
+  registration_country: united-kingdom
   ethical_basis:
-    - not-reviewed
-  per_ticket_platform_fee: not-reviewed
-  managed_pricing: not-reviewed
-  white_label: not-reviewed
-  custom_domain: not-reviewed
-  public_website: not-reviewed
-  self_hosting: not-reviewed
-  source_code: not-reviewed
+    - not-documented
+  per_ticket_platform_fee: per-transaction-percentage
+  managed_pricing: per-sale
+  white_label: higher-tier
+  custom_domain: higher-tier
+  public_website: marketplace-pages
+  self_hosting: not-offered
+  source_code: proprietary
   agent_instructions: not-reviewed
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
   local_dev_reload: not-reviewed
   event_marketplace: built-in
-  attendee_cross_marketing: none
+  attendee_cross_marketing: provider-content-and-events
   notes:
-    event_marketplace: "Fatsoma runs a public discovery site at fatsoma.com/discover, browsable by category, listing events from many promoters. Whether listing is automatic or by opt-in was not documented. Checked 29 July 2026."
-    attendee_cross_marketing: "The communication policy states that people receive announcements about a brand only if they follow that brand, where buying a ticket makes someone a follower. No Fatsoma-run marketing of other organisers' events was documented. Checked 29 July 2026."
+    registration_country: "Fatsoma Limited is registered in England and Wales, company number 05495880, with its registered office at The Hive, 47-49 Lever Street, Manchester, per its terms and conditions. Checked 8 August 2026."
+    ethical_basis: "Fatsoma Limited is a private company limited by shares. Neither fatsoma.com nor ticketing.fatsoma.com describes its ownership structure, so no ownership category could be verified."
+    per_ticket_platform_fee: "The free Ticketing plan charges a booking fee of 10% per ticket sold, with a £1 minimum, and no fee on free tickets. Professional is priced from £1,500 plus a 10% fee, and Enterprise is custom-priced. The fee can be paid by the organiser or passed to the buyer."
+    managed_pricing: "The core platform is free to use, with Fatsoma's revenue coming from a per-sale booking fee of 10% (minimum £1) on each paid ticket. Paid Professional (from £1,500 plus 10%) and Enterprise (custom) tiers add a branded website, apps and managed services."
+    white_label: "The free tier sells on Fatsoma-branded pages. Professional includes a website styled to the organiser's brand and branded iPhone and Android apps, and Enterprise offers a fully branded app and website powered by Fatsoma's ticketing technology."
+    custom_domain: "The Enterprise tier includes a checkout under the organiser's own domain. The pricing pages do not name custom domains on the Professional tier."
+    public_website: "Events are listed on Fatsoma's public marketplace with SEO-optimised Fatsoma brand pages on the free tier. Professional and Enterprise add an organiser-owned website."
+    self_hosting: "Fatsoma is a hosted platform. No self-hosting option is described in the sources reviewed."
+    source_code: "No source code is published and no open-source distribution is mentioned on the Fatsoma pages reviewed."
+    event_marketplace: "Fatsoma runs a public events marketplace at fatsoma.com/discover with categories and search, and buying a ticket makes the buyer a follower the organiser can market to for free."
+    attendee_cross_marketing: "The privacy policy says Fatsoma may contact users about events, offers or services that may interest them and uses profiling to tailor that information, and that a customer's email is available to the promoter of the event they bought from. Its communication policy also states that people receive brand announcements only if they follow that brand, where buying a ticket makes someone a follower."
 blocks:
   - type: hero
     class: gradient

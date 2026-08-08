@@ -10,17 +10,17 @@ provider_facts:
   name: Google Forms
   kind: adjacent-software
   calculator_keys: []
-  last_reviewed: "2026-07-29"
-  registration_country: not-reviewed
+  last_reviewed: "2026-08-08"
+  registration_country: united-states
   ethical_basis:
-    - not-reviewed
-  per_ticket_platform_fee: not-reviewed
-  managed_pricing: not-reviewed
-  white_label: not-reviewed
-  custom_domain: not-reviewed
-  public_website: not-reviewed
-  self_hosting: not-reviewed
-  source_code: not-reviewed
+    - not-documented
+  per_ticket_platform_fee: none
+  managed_pricing: per-user-tiered-volume-independent
+  white_label: not-documented
+  custom_domain: not-documented
+  public_website: host-platform-dependent
+  self_hosting: not-offered
+  source_code: proprietary
   agent_instructions: not-reviewed
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
@@ -28,8 +28,17 @@ provider_facts:
   event_marketplace: none
   attendee_cross_marketing: not-documented
   notes:
-    event_marketplace: "Google Forms is a form builder. Forms are shared by link, email or embed, and no browsable directory of other people's forms is published. Checked 29 July 2026."
-    attendee_cross_marketing: "Whether Google markets to form respondents was not established in the sources reviewed. Checked 29 July 2026."
+    registration_country: "Google's privacy policy names Google LLC, at 1600 Amphitheatre Parkway, Mountain View, California, as the controller for users in the United Kingdom, with Google Ireland Limited the controller for the European Economic Area and Switzerland. Checked 8 August 2026."
+    ethical_basis: "Google LLC is a multinational for-profit corporation. None of the reviewed sources describes Google Forms in terms of a charity, co-operative, B Corp or community-interest structure."
+    per_ticket_platform_fee: "Google Forms is not a ticketing product. There is no per-ticket fee, because the tool does not process payments or sell tickets."
+    managed_pricing: "Google Forms is included in Google Workspace plans, which are priced per user per month with no volume-based or per-form charge, and it also has a free tier. Prices range from £5.90 to £18.40 per user per month at standard annual billing, with Enterprise quoted separately."
+    white_label: "The product page says forms can be styled to match an organisation's branding with colours, images and fonts, but no white-label offering that removes Google branding is described, and forms stay hosted on Google."
+    custom_domain: "No statement about custom domains for form pages was found on the pages checked. Forms are hosted on Google's domains."
+    public_website: "Each form is a shareable hosted page on Google, which can be shared by email or social media or embedded on a website, so the public page is hosted by the platform rather than the organiser."
+    self_hosting: "Google Forms is a Google-hosted service. No self-hosting option is described on the pages checked."
+    source_code: "Google Forms is closed-source commercial software. No source code is published."
+    event_marketplace: "Google Forms is a form builder. Forms are shared by link, email or embed, and no browsable directory of other people's forms is published."
+    attendee_cross_marketing: "Google's privacy policy says it does not show personalised ads based on content from Drive, Gmail or Photos, and does not share information that personally identifies a user with advertisers without the user asking. Whether Google markets to form respondents was not established in the sources reviewed."
 blocks:
   - type: hero
     class: gradient

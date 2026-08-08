@@ -12,17 +12,17 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - eventbrite
-  last_reviewed: "2026-07-29"
-  registration_country: not-reviewed
+  last_reviewed: "2026-08-08"
+  registration_country: united-states
   ethical_basis:
-    - not-reviewed
-  per_ticket_platform_fee: not-reviewed
-  managed_pricing: not-reviewed
-  white_label: not-reviewed
-  custom_domain: not-reviewed
-  public_website: not-reviewed
-  self_hosting: not-reviewed
-  source_code: not-reviewed
+    - not-documented
+  per_ticket_platform_fee: per-transaction-percentage-plus-fixed
+  managed_pricing: per-sale
+  white_label: not-documented
+  custom_domain: not-documented
+  public_website: marketplace-pages
+  self_hosting: not-offered
+  source_code: proprietary
   agent_instructions: not-reviewed
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
@@ -30,8 +30,17 @@ provider_facts:
   event_marketplace: built-in
   attendee_cross_marketing: provider-content-and-events
   notes:
-    event_marketplace: "Eventbrite runs a public events directory browsable by place and category. Its help centre states that a public event is shown in the Eventbrite public events directory, on major search engines and partner sites, and that a private event is not. Checked 29 July 2026."
-    attendee_cross_marketing: "The privacy policy states that Eventbrite may send electronic communications marketing or advertising the Services themselves or events on the Services, and may use inferences to target advertising or customise recommendations, including on behalf of organisers. Checked 29 July 2026."
+    registration_country: "Eventbrite, Inc. is a Delaware corporation with its principal place of business at 95 Third Street, San Francisco, California. Its privacy policy names UK and Irish subsidiaries: Eventbrite UK Limited (Bristol) and Eventbrite Operations (IE) Limited (Cork). Checked 8 August 2026."
+    ethical_basis: "Eventbrite is a for-profit Delaware corporation, and its privacy policy names Bending Spoons S.p.A. as its parent company. No charity, co-operative, community-interest or B Corp structure is claimed on the pages checked."
+    per_ticket_platform_fee: "For the United Kingdom, Eventbrite charges 6.95% + £0.59 per sold ticket with no separate payment-processing fee; for the United States it is 3.7% + $1.79 per ticket plus 2.9% of the order. Free events carry no fees. Checked 8 August 2026."
+    managed_pricing: "Organisers publish events for free and pay fees per paid ticket sold; publishing requires no subscription. An optional Eventbrite Premium subscription costs £59/month in the UK, and custom plans are negotiated for large or complex events."
+    white_label: "No white-label offering is described on the pricing or features pages checked. Customisable event pages are page design within Eventbrite's marketplace."
+    custom_domain: "No custom-domain feature is described on the pages checked; event pages are hosted on Eventbrite's own domains within its marketplace."
+    public_website: "Organisers get hosted event listings inside Eventbrite's discovery marketplace. Eventbrite describes its marketplace as reaching 4.7 million events and 89 million monthly users. Checked 8 August 2026."
+    self_hosting: "Eventbrite is a hosted marketplace. No self-hosting option is described on the pages checked."
+    source_code: "Eventbrite publishes no platform source code and makes no open-source claim."
+    event_marketplace: "Eventbrite runs a public events directory browsable by place and category. Its help centre states that a public event is shown in the Eventbrite public events directory, on major search engines and partner sites, and that a private event is not."
+    attendee_cross_marketing: "The privacy policy states that Eventbrite may send electronic communications marketing or advertising the Services themselves or events on the Services, and may use inferences to target advertising or customise recommendations, including on behalf of organisers."
 blocks:
   - type: hero
     class: gradient

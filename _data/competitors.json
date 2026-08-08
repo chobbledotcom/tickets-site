@@ -23,7 +23,7 @@
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
-    "fee_note": "BookitBee fees: from 3.5% per ticket (up to 6.5% for advanced features), min £1, max £19.95 cap, plus Stripe processing (1.5% + 20p). Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: bookitbee.com/pricing (March 2026)."
+    "fee_note": "BookitBee fees: from 3.5% per ticket (up to 6.5% for advanced features), min £0.50, max £19.95 cap, plus Stripe processing (1.5% + 20p). Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: bookitbee.com/pricing (August 2026)."
   },
   "ticketmaster": {
     "name": "Ticketmaster",
@@ -329,6 +329,15 @@
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
     "fee_note": "TixFox fees: £0.38 per paid ticket, or £0.30 for tickets priced under £5, with the pricing page's currency selector set to pounds (US$0.39 and US$0.30 under US$5 in dollars). This calculator applies the standard £0.38 rate at every ticket price, so it does not model the reduced under-£5 rate. Free events carry no fee and there is no subscription. Ticket revenue goes directly to your own Stripe account via Stripe Connect, with Stripe processing charged separately (1.5% + 20p in the UK, as quoted on TixFox's own pricing page). TixFox platform fees are not refunded when a ticket is refunded. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: tixfox.co/pricing (August 2026)."
+  },
+  "qrticket": {
+    "name": "QRTicket",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0.77,
+    "payment_processing_percent": 3,
+    "payment_processing_fixed": 0.33,
+    "fee_note": "QRTicket charges €0.90 (incl. VAT, about £0.77) per ticket sold. By default the ticket buyer pays the fee, so the organiser pays nothing; the organiser can choose to absorb it instead. This calculator shows the absorbed case, with QRTicket's €0.90 plus PayPal processing (€0.39 + 3.0% per payment, about £0.33 + 3%, as of April 2022). Bank transfers carry no processing fee. Benefit (Benefiz) events with free tickets, cancelled tickets and vouchers carry no QRTicket fee. Ticket money goes directly to the organiser's own bank or PayPal account. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe/Square/SumUp processing (1.5% + 20p). Source: qrticket.de (August 2026)."
   },
   "ticket_generator": {
     "name": "Ticket Generator",

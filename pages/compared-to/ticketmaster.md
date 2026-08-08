@@ -12,17 +12,17 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - ticketmaster
-  last_reviewed: "2026-07-29"
-  registration_country: not-reviewed
+  last_reviewed: "2026-08-08"
+  registration_country: united-states
   ethical_basis:
-    - not-reviewed
-  per_ticket_platform_fee: not-reviewed
-  managed_pricing: not-reviewed
-  white_label: not-reviewed
-  custom_domain: not-reviewed
-  public_website: not-reviewed
-  self_hosting: not-reviewed
-  source_code: not-reviewed
+    - not-documented
+  per_ticket_platform_fee: amount-not-published
+  managed_pricing: quote-based
+  white_label: not-documented
+  custom_domain: not-documented
+  public_website: marketplace-pages
+  self_hosting: not-offered
+  source_code: proprietary
   agent_instructions: not-reviewed
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
@@ -30,8 +30,17 @@ provider_facts:
   event_marketplace: built-in
   attendee_cross_marketing: provider-content-and-events
   notes:
-    event_marketplace: "Ticketmaster runs a public consumer site browsable by category and city, listing events from many promoters. Checked 29 July 2026."
-    attendee_cross_marketing: "The UK privacy policy states that Ticketmaster may contact you with information or offers about upcoming events, products or services by email, push and web notification, SMS or social media, and uses purchase and interest data for personalised marketing. Checked 29 July 2026."
+    registration_country: "Ticketmaster L.L.C, at 9348 Civic Center Drive, Beverly Hills, California, is named as the US data controller in the Ticketmaster privacy policy, which describes a global group of companies headquartered in the United States with Live Nation Entertainment, Inc. as the group contact. Checked 8 August 2026."
+    ethical_basis: "Ticketmaster is owned by Live Nation Entertainment, Inc., a publicly traded US company. No co-operative, charity, B Corp or community-interest structure is claimed on the pages checked."
+    per_ticket_platform_fee: "No fee schedule or fee amounts are published on the Ticketmaster business or consumer pages checked. The business site sells custom solutions with 'Work With Us' contact-sales calls to action and no price list."
+    managed_pricing: "Ticketmaster markets an enterprise platform to venues, teams and promoters and steers prospects to 'Work With Us', with no published pricing. Fees appear to be negotiated per client."
+    white_label: "The business site describes client tools, reusable templates and a branded platform for venues, but no page checked uses the term 'white label' or describes an organiser-branded storefront."
+    custom_domain: "No custom-domain offering is described on any page checked."
+    public_website: "Events are sold through hosted event pages on the Ticketmaster marketplace, which presents browsable event detail pages by category such as music, sport, arts and theatre, and family."
+    self_hosting: "No self-hosting option is mentioned on any page checked. Ticketmaster is a hosted marketplace."
+    source_code: "No source code is published and no open-source claim is made. The footer links to 'Open Platform' APIs and SDKs for developers."
+    event_marketplace: "Ticketmaster operates a public, browsable event marketplace; the business site calls itself 'The First Place Fans Look for Tickets' with the largest database of ticket buyers, and the consumer site lists events from many organisers."
+    attendee_cross_marketing: "The UK privacy policy states that Ticketmaster may contact you with information or offers about upcoming events, products or services by email, push and web notification, SMS or social media, and uses purchase and interest data for personalised marketing."
 blocks:
   - type: hero
     class: gradient
