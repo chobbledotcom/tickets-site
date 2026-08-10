@@ -16,9 +16,9 @@ provider_facts:
     - revel
     - revel_selfhosted
   last_reviewed: "2026-08-10"
-  registration_country: not-documented
+  registration_country: austria
   ethical_basis:
-    - independently-maintained
+    - owner-led
   per_ticket_platform_fee: percentage-plus-fixed
   managed_pricing: per-sale
   white_label: self-hosted
@@ -33,7 +33,7 @@ provider_facts:
   event_marketplace: not-documented
   attendee_cross_marketing: none
   notes:
-    ethical_basis: "The Revel site describes the project as free and open source with no ads, no data mining and no shareholders. Public sources checked on 10 August 2026 did not establish the operating company or its funding. Its pricing and invoicing are in euros with EU VAT handling."
+    ethical_basis: "Revel's terms name Biagio Distefano as the operator, an individual based in Vienna, Austria (letsrevel.io/legal/terms). The site describes the project as free and open source with no ads, no data mining and no shareholders. Its pricing and invoicing are in euros with EU VAT handling. Checked 10 August 2026."
     per_ticket_platform_fee: "Revel's hosted service charges 3% + €0.50 on each paid ticket it processes. Free events, and events where the organiser handles payment, carry no Revel charge. Stripe processing is separate."
     managed_pricing: "The hosted commission is charged per paid ticket, so total cost rises with ticket volume."
     white_label: "The code is MIT licensed with no attribution requirement, so a self-hosted deployment can be fully rebranded. Hosted white-labelling was not established."
@@ -101,7 +101,8 @@ blocks:
       MIT licensed. You pay only Stripe processing and your own server costs.
 
       **Chobble Tickets** charges a flat £50/year or £5/month (£25/year for
-      charities and community groups on the annual plan) with
+      charities, community groups, artists and musicians on the annual plan)
+      with
       [no per-ticket platform fees](/features/no-per-ticket-fees/). You also
       pay Stripe, Square or SumUp processing on top.
 
@@ -146,7 +147,7 @@ blocks:
       - **Community membership** - organisations manage members with roles and
         permissions, not only ticket buyers
       - **Global banning** - block a person across all of your events at once
-      - **Referral program** - track sign-ups that come from existing members
+      - **Referral programme** - track sign-ups that come from existing members
       - **XLSX export** - export attendee data as an Excel file (Chobble
         Tickets exports CSV)
       - **Automated invoicing** - sequentially numbered invoices with VAT
@@ -263,9 +264,9 @@ blocks:
 
       Revel is published on GitHub under the
       [letsrevel organisation](https://github.com/letsrevel) and licensed under
-      the MIT licence. Public sources checked on 10 August 2026 did not
-      establish the company behind it or its country. Its pricing and invoicing
-      are in euros with EU VAT handling, which points to a European base.
+      the MIT licence. Its [terms](https://letsrevel.io/legal/terms) name Biagio
+      Distefano as the operator, an individual based in Vienna, Austria. Its
+      pricing and invoicing are in euros with EU VAT handling.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
