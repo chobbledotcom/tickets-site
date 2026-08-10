@@ -21,7 +21,7 @@ provider_facts:
   white_label: not-documented
   custom_domain: not-documented
   public_website: marketplace-pages
-  self_hosting: not-offered
+  self_hosting: not-documented
   source_code: proprietary
   agent_instructions: not-found
   local_dev_runtime: not-reviewed
@@ -37,7 +37,7 @@ provider_facts:
     white_label: "No white-labelling option was documented in the sources reviewed."
     custom_domain: "No custom-domain option was documented in the sources reviewed. Event pages are served from ticketted.com."
     public_website: "Ticketted lists events for sale on ticketted.com and describes AI-curated placement on its own homepage. No separate organiser-controlled website was documented."
-    self_hosting: "Ticketted is a hosted service. No self-hosting option is offered."
+    self_hosting: "Ticketted is a hosted service. No self-hosting option was documented in the sources reviewed."
     source_code: "Ticketted does not publish its source code."
     agent_instructions: "No public repository or agent instructions were found in the sources reviewed."
     event_marketplace: "Ticketted sells tickets for events across Australia from its own site and promotes events through AI-curated placement on its homepage."
@@ -95,12 +95,16 @@ blocks:
       Payment processing is charged by your own Stripe, Square or SumUp
       account.
 
-      At £15 a ticket, Ticketted's charge works out at about 43p a ticket, so
-      the flat £50 costs less once you sell more than about 116 tickets a
-      year, or about £1,750 of sales. On the £25 community rate the crossover
-      is about 58 tickets. Neither platform charges a per-ticket fee on free
-      events, though Chobble's flat fee still applies whether your events are
-      free or paid.
+      At £15 a ticket, Ticketted's charge works out at about 43p a ticket. If
+      that charge sits on top of processing, as the figures here assume, the
+      flat £50 costs less above about 116 tickets a year, or about £1,750 of
+      sales, and the £25 community rate crosses over at about 58 tickets. If
+      the charge already includes processing, the two run close together on
+      each sale and the flat fee takes far longer to pay for itself.
+
+      Neither platform charges a per-ticket fee on free events, though
+      Chobble's flat fee still applies whether your events are free or
+      paid.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -113,13 +117,13 @@ blocks:
     content: |
       ## When you get your money
 
-      Both platforms pay the organiser through Stripe rather than holding
-      ticket money until after the event. Ticketted says payouts land in your
-      account as tickets sell.
+      Neither platform holds ticket money until after the event. Ticketted
+      takes payment through Stripe and says payouts land in your account as
+      tickets sell.
 
       Chobble Tickets never touches ticket money at all. Buyers pay your own
-      Stripe, Square or SumUp account, so payouts follow that provider's
-      schedule from the first sale onwards.
+      Stripe, Square or SumUp account, so payouts follow whichever of those
+      providers you chose, from the first sale onwards.
   - type: markdown
     content: |
       ## Feature comparison
@@ -142,7 +146,8 @@ blocks:
       - Booking cut-off times, so sales close before the event starts
       - Discount and promo codes
       - Free events with no per-ticket fee
-      - Email delivery of tickets with a QR code on each one
+      - Email delivery of tickets with a QR code. Chobble Tickets gives one
+        code to each booking, which covers every place in it
       - QR code scanning at the door from a browser, with no app to install
       - Guest list and attendee data export
       - Sales reporting for the organiser
@@ -233,17 +238,20 @@ blocks:
       whether it emails them about other organisers' events, is not set out in
       its published material.
 
-      Chobble Tickets has no marketplace. Nobody browses a Chobble site
-      looking for events, so your ticket sales come from your own promotion,
-      your own website and your own mailing list.
+      Chobble Tickets has no marketplace across organisers. Visitors can
+      browse your own [public site](/features/your-public-website/) and its
+      listings, but nothing puts your event in front of someone who came
+      looking for a different organiser's.
   - type: markdown
     content: |
       ## Data ownership
 
       Ticketted describes PCI-compliant payments, GDPR-ready data handling
       and Stripe's fraud detection. Attendee data is held on Ticketted's
-      servers in a system you cannot run yourself. If Ticketted stopped
-      operating, you would depend on the exports you had already downloaded.
+      servers, and Ticketted publishes neither its source code nor a
+      self-hosting option, so running the same system yourself is not
+      something it offers. If Ticketted stopped operating, you would depend
+      on the exports you had already downloaded.
 
       With Chobble Tickets, attendee data is encrypted at rest. Only the keys
       held by your own administrator accounts, and the optional recovery
@@ -262,7 +270,7 @@ blocks:
       - Your events are in Australia, which is where Ticketted sells tickets
       - You sell few enough tickets that 1.8% + A$0.30 costs less than a flat
         annual price, which is under about £1,750 of sales a year at £15 a
-        ticket
+        ticket if that charge sits on top of processing
       - You want the charge paid by ticket buyers rather than paying a fee
         yourself
       - You want your event listed on a site people already browse
@@ -275,7 +283,8 @@ blocks:
       ## When Chobble Tickets is the better choice
 
       - You sell more than about £1,750 of tickets a year at £15 a ticket,
-        where the per-sale charge costs more than the flat price
+        where the per-sale charge costs more than the flat price, assuming
+        Ticketted's charge sits on top of processing
       - You want a price that does not change with ticket volume or value
       - You are a charity, community group, artist or musician, and pay
         £25/year on the annual plan
