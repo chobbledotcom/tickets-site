@@ -20,6 +20,10 @@ jobs:
     steps:
       - name: Check out the site
         uses: actions/checkout@v4
+        with:
+          # @chobble/js-toolkit is a file: dependency inside the pinned
+          # template, so installing needs the submodule to be here.
+          submodules: true
 
       - name: Set up Bun
         uses: oven-sh/setup-bun@v2
