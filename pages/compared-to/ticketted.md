@@ -2,7 +2,7 @@
 competitor_key: ticketted
 title: Ticketted Alternative
 meta_title: Open Source & Flat Fee Ticketted Alternative | Chobble Tickets
-meta_description: Compare Chobble Tickets and Ticketted on per-transaction fees, who pays them, event discovery, attendee data, source licensing and which countries each one serves.
+meta_description: Compare Chobble Tickets and Ticketted on per-ticket fees, charity rates, event discovery, attendee data, source licensing and which countries each one serves.
 permalink: /compared-to/ticketted/
 eleventyNavigation:
   key: vs Ticketted
@@ -32,8 +32,8 @@ provider_facts:
   notes:
     registration_country: "Ticketted Pty Ltd is an Australian private company, ABN 26 698 189 669 and ACN 698 189 669, registered on 18 May 2026 with its main business location in New South Wales (ABN Lookup, checked 11 August 2026). The platform prices in Australian dollars, covers events across Australia and describes Australia-based support."
     ethical_basis: "Ticketted Pty Ltd is an ordinary Australian private company. No owner, director or investor information was found in the sources reviewed, and no ethical certification or structure is claimed."
-    per_ticket_platform_fee: "Ticketted publishes a charge of 1.8% + A$0.30 (about 16p at 52.3p to the Australian dollar on 10 August 2026). Its own copy describes this both as a per-transaction charge and as a per-ticket charge, so the unit is unresolved; the enum records the shape of the charge rather than its unit, and this site models it per ticket. Free events carry no charge. Ticketted does not state whether Stripe processing is included. Stripe's published Australian rate is 1.7% + A$0.30 including GST, which the charge barely exceeds, and Ticketted compares it with all-in rates from other platforms, so this site reads it as covering processing."
-    managed_pricing: "There is no published subscription. Ticketted is paid from the charge on each paid sale, so the total rises with ticket volume."
+    per_ticket_platform_fee: "Ticketted charges 3.95% + A$0.95 on each paid ticket (about 50p at 52.3p to the Australian dollar on 10 August 2026), or 2.45% + A$0.45 for charities and schools. Higher volumes and unusual requirements are quoted individually. Free RSVP events carry no charge. Ticketted does not state whether Stripe's processing charge comes out of that fee or is charged separately by Stripe, which takes payment through Stripe Connect. Source: ticketted.com/pricing, checked 11 August 2026."
+    managed_pricing: "There is no subscription, setup fee or minimum ticket volume. Ticketted is paid from the charge on each paid ticket, so the total rises with ticket volume, and higher volumes can be quoted individually."
     white_label: "No white-labelling option was documented in the sources reviewed."
     custom_domain: "No custom-domain option was documented in the sources reviewed. Event pages are served from ticketted.com."
     public_website: "Ticketted lists events for sale on ticketted.com and describes AI-curated placement on its own homepage. No separate organiser-controlled website was documented."
@@ -48,7 +48,7 @@ blocks:
     content: |-
       # Chobble Tickets vs Ticketted
 
-      Ticketted is an Australian ticketing platform that charges 1.8% + A$0.30 on each paid sale and lists events on its own site. This page compares it to Chobble Tickets.
+      Ticketted is an Australian ticketing platform that charges 3.95% + A$0.95 on each paid ticket and lists events on its own site. This page compares it to Chobble Tickets.
   - type: markdown
     content: |
       ## Open source & flat fee Ticketted alternative
@@ -58,11 +58,10 @@ blocks:
       AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
       copy. Ticketted does not publish its source code.
 
-      Ticketted takes a percentage of each paid sale, so the total charge
-      rises with the number of tickets sold. The organiser chooses for each
-      event whether to absorb that charge or add it to the buyer's price.
-      Chobble Tickets charges £50/year or £5/month whatever the volume, and
-      adds [no fee to any ticket](/features/no-per-ticket-fees/).
+      Ticketted charges a percentage plus a fixed amount on every paid
+      ticket, so what it takes rises with the number of tickets sold. Chobble
+      Tickets charges £50/year or £5/month whatever the volume, and adds
+      [no fee to any ticket](/features/no-per-ticket-fees/).
 
       The two platforms also serve different places. Ticketted sells tickets
       for events across Australia and prices in Australian dollars. Chobble
@@ -72,23 +71,14 @@ blocks:
     content: |
       ## Pricing comparison
 
-      [Ticketted](https://www.ticketted.com/) publishes a charge of 1.8% +
-      A$0.30 on each paid sale, which it describes as Australia's lowest
-      ticketing fees. There is no published subscription and no setup fee.
-      Free events carry no charge.
+      [Ticketted](https://www.ticketted.com/pricing) charges 3.95% + A$0.95 on
+      each paid ticket. Charities and schools pay 2.45% + A$0.45. Higher
+      volumes and unusual requirements are quoted individually, so those
+      organisers pay a rate Ticketted sets rather than a published one.
 
-      Ticketted does not say whether card processing is inside that charge.
-      Two published figures suggest it is: Stripe's Australian rate is
-      [1.7% + A$0.30 including GST](https://stripe.com/au/pricing), which
-      1.8% + A$0.30 barely exceeds, and Ticketted sets its rate against
-      all-in rates from other platforms. The figures here therefore treat it
-      as covering processing, which is the reading that puts Ticketted's cost
-      at its lowest.
-
-      Ticketted says the organiser decides for each event who covers the
-      charge, so it can be added to the ticket price or absorbed by the
-      organiser. Absorbing it costs the organiser money on each sale. Passing
-      it on raises the price the buyer sees.
+      Free RSVP events carry no charge at all. There is no subscription, no
+      setup fee and no minimum number of tickets. Payouts reach your bank
+      account through Stripe Connect on Stripe's own schedule.
 
       Chobble Tickets is a flat £50/year or £5/month, with
       [no per-ticket platform fees](/features/no-per-ticket-fees/). Charities,
@@ -96,21 +86,17 @@ blocks:
       Payment processing is charged by your own Stripe, Square or SumUp
       account, which for UK Stripe is 1.5% + 20p.
 
-      The comparisons below count the total charged on each sale, whoever
-      pays it. If you pass Ticketted's charge to buyers, your own cost is
-      nothing and the ticket price rises instead, which is the trade the
-      figures do not capture.
+      At £15 a ticket, Ticketted's charge works out at about £1.09, so the
+      flat £50 costs less once you sell more than about 46 tickets a year,
+      which is around £690 of ticket sales. A charity comparing Ticketted's
+      lower rate with Chobble's £25 community rate crosses over at about 41
+      tickets, or around £620 of sales. Dearer tickets reach the crossover
+      sooner, because most of Ticketted's charge is a percentage.
 
-      On those numbers the two run close on each sale, because Ticketted's
-      1.8% is not far above the 1.5% your own Stripe account charges. At £15 a
-      ticket the difference is about half a penny, so the flat £50 rarely pays
-      for itself. At £30 a ticket it pays for itself at around 1,000 tickets,
-      or about £30,000 of sales a year, and sooner on the £25 community rate
-      or at higher ticket prices.
-
-      If Ticketted's charge turns out to sit on top of processing rather than
-      cover it, its real cost roughly doubles and the flat £50 pays for itself
-      at around 116 tickets a year, or about £1,750 of sales at £15 a ticket.
+      Ticketted does not say whether Stripe's processing charge comes out of
+      that fee or is charged separately by Stripe. The figures here add UK
+      Stripe processing to both platforms, so it cancels out of the
+      comparison.
 
       Neither platform charges a per-ticket fee on free events, though
       Chobble's flat fee still applies whether your events are free or
@@ -119,17 +105,17 @@ blocks:
     file: price-comparator.html
   - type: markdown
     content: |
-      The estimate above converts A$0.30 to about 16p, at 52.3p to the
+      The estimate above converts A$0.95 to about 50p, at 52.3p to the
       Australian dollar on 10 August 2026. Exchange rates move, so an
       Australian organiser paying in Australian dollars sees a fixed
-      A$0.30 rather than a moving pound figure.
+      A$0.95 rather than a moving pound figure.
   - type: markdown
     content: |
       ## When you get your money
 
       Neither platform holds ticket money until after the event. Ticketted
-      takes payment through Stripe and says payouts land in your account as
-      tickets sell.
+      takes payment through Stripe Connect, and payouts reach your bank
+      account on Stripe's standard schedule.
 
       Chobble Tickets never touches ticket money at all. Buyers pay your own
       Stripe, Square or SumUp account, so payouts follow whichever of those
@@ -147,7 +133,7 @@ blocks:
       ### Both platforms share some features
 
       - Online ticket sales with card payments through Stripe
-      - Payouts to the organiser as tickets sell, not after the event
+      - Payouts on the payment provider's own schedule, not after the event
       - Event capacity limits
       - Several price points for one occasion, such as early bird, VIP or
         concession, sharing one capacity limit. Chobble Tickets does this by
@@ -175,9 +161,8 @@ blocks:
       - **Referral links** - track which sign-ups came from which source
       - **Audience analytics** - sales velocity, peak buying windows,
         audience demographics and checkout drop-off points
-      - **Buyer-paid fees** - the charge can be added to the ticket price
-        instead of coming out of the organiser's income, which Chobble
-        Tickets has no equivalent for because it takes no cut of a sale
+      - **A charity and school rate** - 2.45% + A$0.45 rather than
+        3.95% + A$0.95, and individually quoted rates for higher volumes
       - **Australia-based support around the clock** - Chobble Tickets
         provides written support and does not run a telephone support centre
   - type: markdown
@@ -279,11 +264,10 @@ blocks:
       ## When Ticketted might be the better choice
 
       - Your events are in Australia, which is where Ticketted sells tickets
-      - You sell modest numbers of lower-priced tickets, where 1.8% + A$0.30
-        a sale costs less than a flat annual price plus your own processing,
-        or you pass that charge to buyers and pay nothing yourself
-      - You want the charge paid by ticket buyers rather than paying a fee
-        yourself
+      - You sell few enough tickets that 3.95% + A$0.95 each costs less than
+        a flat annual price, which at £15 a ticket is under about 46 tickets
+        a year
+      - You sell enough to be worth an individually quoted rate
       - You want your event listed on a site people already browse
       - You want AI tools to write your event description and set the event up
       - You want detailed audience analytics such as buying windows and
@@ -293,10 +277,8 @@ blocks:
     content: |
       ## When Chobble Tickets is the better choice
 
-      - You absorb your fees rather than adding them to ticket prices, and
-        sell enough, or price high enough, that a percentage of every sale
-        costs more than a flat £50, which at £30 a ticket is around 1,000
-        tickets a year
+      - You sell more than about 46 tickets a year at £15 each, where a
+        percentage of every ticket costs more than a flat £50
       - You want a price that does not change with ticket volume or value
       - You are a charity, community group, artist or musician, and pay
         £25/year on the annual plan
@@ -334,21 +316,23 @@ blocks:
     content: |
       ## Pricing sources
 
-      The Ticketted information on this page was checked on 10 August 2026
-      against the platform's own published description of itself. Ticketted
-      publishes no pricing document beyond its headline charge, and several
-      points other comparisons on this site cover, including white labelling,
-      custom domains, refunds and what happens to buyer contact details, are
-      left open above rather than guessed at. Fees may change, so check the
-      link below for the latest figures.
+      The prices above come from Ticketted's own pricing page and the company
+      record from ABN Lookup, both checked on 11 August 2026, and the feature
+      descriptions from the rest of the platform's published material. Several
+      points other comparisons on this site cover, including white
+      labelling, custom domains, refunds, whether the charge can be passed to
+      ticket buyers and what happens to buyer contact details, are left open
+      above rather than guessed at. Fees may change, so check the links below
+      for the latest figures.
 
-      - [Ticketted](https://www.ticketted.com/) - 1.8% + A$0.30 per paid sale,
-        free events free, Stripe payouts, event listings across Australia
+      - [Ticketted pricing](https://www.ticketted.com/pricing) -
+        3.95% + A$0.95 per paid ticket, 2.45% + A$0.45 for charities and
+        schools, quoted rates for higher volumes, free RSVP events free, no
+        subscription or setup fee, payouts through Stripe Connect
+      - [Ticketted](https://www.ticketted.com/) - event listings across
+        Australia, AI event setup, QR check-in, audience analytics
       - [ABN Lookup: Ticketted Pty Ltd](https://abr.business.gov.au/ABN/View?abn=26698189669) -
         ABN 26 698 189 669, Australian private company, registered 18 May 2026
-      - [Stripe pricing in Australia](https://stripe.com/au/pricing) -
-        1.7% + A$0.30 including GST on domestic cards, used to read
-        Ticketted's charge as covering processing
       - [Chobble Tickets pricing](/pricing/) - £50/year or £5/month, £25/year
         for charities, community groups, artists and musicians on the annual
         plan
