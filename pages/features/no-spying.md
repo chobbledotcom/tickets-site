@@ -26,7 +26,7 @@ blocks:
 
       Attendees do not need a Chobble account and are not asked to follow events on a Chobble marketplace. They are not added to a Chobble mailing list.
 
-      Organisers decide which contact fields to collect. They can run free events without a payment provider and can make email addresses optional.
+      Organisers decide which contact fields to collect. They can run free events without a payment provider and can make email addresses optional. There is one exception: a paid listing that takes payment through <a href="/features/stripe-and-square/">Square</a> has to ask for an email address, because Square's checkout will not open without one.
 
       ## Service providers
 

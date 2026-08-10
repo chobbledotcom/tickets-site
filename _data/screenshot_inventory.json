@@ -110,6 +110,11 @@
     "classification": "legacy-product-screenshot"
   },
   {
+    "key": "free-headcount-no-money",
+    "classification": "linked-evidence",
+    "captureId": "free-headcount-no-money"
+  },
+  {
     "key": "group-bulk-actions",
     "classification": "legacy-product-screenshot"
   },

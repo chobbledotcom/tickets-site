@@ -14,11 +14,11 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 162 | 65 | 97 |
+| Editorial pages in the sitemap | 162 | 66 | 96 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **164** | **65** | **99** |
+| **All rendered pages** | **164** | **66** | **98** |
 
-The 97 editorial pages are the main illustration backlog. The two utility
+The 96 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -134,7 +134,7 @@ pages are listed separately at the end.
 | `pages/perfect-for/music-venues.md` | Admin screenshot: `grassroots-venue-door-list` | The Lantern Rooms' Friday show at 120 places, showing advance bookings, three manually added guest-list names, cash sales recorded on the night and 94 checked in. | Shows advance sales, the guest list and the door as one record, without implying reserved seating. |
 | `pages/perfect-for/performers-and-artists.md` | Attendee screenshot: `artist-own-domain-checkout` | A checkout on an artist's own domain with no Chobble branding, a £12 ticket with nothing added to the total, and a pay-what-you-want option above a £5 minimum for a work-in-progress date. | Shows the artist's own front door and the price the audience actually pays. |
 | `pages/perfect-for/community-centres.md` | [x] Cucumber evidence capture: `maintenance-cost-on-a-room` | The costs recorded against a service hold, taken from the case that records £90 for a boiler part against Room A. The hold's own dates are left out of the picture: the case puts them far in the future so no passing date can collide with them. | Shows that a room can be taken out of use for maintenance and what the work cost recorded against it, without a customer booking standing in for either. |
-| `pages/perfect-for/free-events.md` | Attendee screenshot: `library-story-time-signup` | Northgate Library's Tuesday story time with 20 places on the chosen date, name and email only, an access needs question, and a confirmation with a QR code and no payment step. | Shows registration with no payment provider and no more data collected than the session needs. |
+| `pages/perfect-for/free-events.md` | [x] Cucumber evidence capture: `free-headcount-no-money` | A free listing's own page, taken from the case that books a free place on a site charging a 10 percent booking fee on its paid listings: Ticket Price Free, one of fifty places taken, and nothing in the money figures. | Shows that a listing given away for free still counts its places and still invents no money. |
 
 ## Guide Pages
 

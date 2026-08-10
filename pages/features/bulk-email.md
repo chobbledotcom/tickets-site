@@ -60,9 +60,15 @@ blocks:
       whether or not they unsubscribed. A moved start time, a change of
       room or a cancelled session reaches the whole list.
 
-      A listing that does not ask for an email address has nowhere to send
-      one of these, so ask for an email on any listing whose attendees you
-      may need to write to.
+      You choose which contact fields a listing collects, and an email
+      address is one you can leave out. A listing that does not ask for one
+      has nowhere to send these messages, so ask for an email on any listing
+      whose attendees you may need to write to.
+
+      A paid listing taking payment through
+      [Square](/features/stripe-and-square/) has to ask for an email
+      whatever you decide here, because Square's checkout will not open
+      without one.
 
       ## Unsubscribe and contact history
 
