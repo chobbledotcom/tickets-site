@@ -125,8 +125,8 @@
       "galleryCaption": "A free listing's own page, showing one place taken and no money recorded.",
       "legacyDestinationPath": "images/screenshots/free-headcount-no-money.png",
       "page": "pages/perfect-for/free-events.md",
-      "reviewed": "c388b23ff5390b408202ce20464e7b33e2fbfd37fdf75361e8e16e353d9c0c2d",
-      "socialBody": "A listing priced at zero takes bookings, counts the places against its capacity and records nothing in the money figures. The headcount is the point of running it.",
+      "reviewed": "7d6a5bb8b55abbf56d2b30ef3b8e7d6a18e2c0f28757afd11a1f9340eb2acabf",
+      "socialBody": "A listing priced at zero takes bookings, counts the places against its capacity and records nothing in the money figures. Its page shows the places taken and the places left.",
       "socialHeading": "Free listings still keep a list",
       "socialKey": "free-headcount-no-money"
     },

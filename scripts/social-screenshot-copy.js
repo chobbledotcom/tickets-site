@@ -169,7 +169,7 @@ export const SOCIAL_SCREENSHOT_COPY = {
   },
   "free-headcount-no-money": {
     heading: "Free listings still keep a list",
-    body: "A listing priced at zero takes bookings, counts the places against its capacity and records nothing in the money figures. The headcount is the point of running it.",
+    body: "A listing priced at zero takes bookings, counts the places against its capacity and records nothing in the money figures. Its page shows the places taken and the places left.",
   },
   "one-days-audience": {
     heading: "Email one date of a course",
