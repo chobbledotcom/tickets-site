@@ -87,7 +87,7 @@ blocks:
         text: Dates held for maintenance.
   - type: split-icon-links
     content: |
-      ## A committee, not one person
+      ## Access for a committee
 
       Volunteers get their own accounts. An
       [editor](/features/editors/) can write listings and site pages but
@@ -131,7 +131,7 @@ blocks:
         description: Download a complete database backup, and export listings as JSON to move them to another host.
         name: <a href="/features/backups/">Backups and exports</a>
       - icon: hugeicons:view-off
-        description: Erase a person's contact record on request, and purge attendee records the hall no longer needs.
+        description: Erase a person's contact record on request, and clear out the booking records a deleted listing leaves behind.
         name: <a href="/features/privacy-controls/">Privacy controls</a>
   - type: markdown
     content: |

@@ -99,8 +99,10 @@ blocks:
       them and does not sell the list.
 
       The [privacy tools](/features/privacy-controls/) erase a person's
-      contact record on request and purge attendee records the
-      organisation no longer needs.
+      contact record on request, which covers the recognition and contact
+      history without touching their bookings. Deleting a listing leaves
+      its bookings behind, and those can be cleared out on a retention
+      period you choose.
     figure_items:
       - icon: hugeicons:view-off
         text: Ask for less than a ticket shop would.

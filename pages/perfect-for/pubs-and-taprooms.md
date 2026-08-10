@@ -141,9 +141,9 @@ blocks:
       does not replace a restaurant-style booking system for ordinary
       service. It has no seat map, so every ticket is general admission.
 
-      It does not connect to a till or an EPOS system, and it does not
-      manage stock behind the bar. Payment for a ticket is separate from
-      whatever the customer spends on the night.
+      It does not connect to a till or a point of sale system, and it does
+      not manage stock behind the bar. Payment for a ticket is separate
+      from whatever the customer spends on the night.
 
       Paid checkout does not hold a place. Capacity is used only when
       payment confirmation arrives, and if two confirmations race for the

@@ -61,7 +61,7 @@ blocks:
       - icon: hugeicons:layers-01
         text: A run or a double bill on one page.
       - icon: hugeicons:global
-        text: Your domain, not a platform's.
+        text: Your own domain on every link.
   - type: split-icon-links
     reverse: true
     content: |

@@ -37,7 +37,7 @@ blocks:
         label: Managed hosting per year
   - type: split-icon-links
     content: |
-      ## The programme, not one night
+      ## A whole programme on one site
 
       Each show is its own listing with its own capacity, price and
       on-sale date. [Groups](/features/groups/) put related shows on one
@@ -115,7 +115,7 @@ blocks:
     intro_content: "## Features for venues"
     items:
       - icon: hugeicons:user-multiple
-        description: Give promoters and door staff their own accounts, with an editor role that can edit listings but cannot decrypt attendee details.
+        description: Door staff need a manager account to check people in. A promoter who only writes listings can be an editor, which holds no data key.
         name: <a href="/features/users/">Team accounts</a>
       - icon: hugeicons:global
         description: Publish the whole programme on your own domain, with Chobble branding removed.

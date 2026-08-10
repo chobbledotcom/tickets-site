@@ -52,9 +52,13 @@ blocks:
 
       ## Always up to date
 
-      Both feeds update automatically when you create, modify, or remove
-      events, so subscribers always see the latest information without any
-      manual publishing step.
+      The public ICS and RSS event feeds update automatically when you
+      create, modify, or remove events, so subscribers always see the
+      latest information without any manual publishing step.
+
+      The news feed follows your news posts, and the staff calendar feed
+      follows the bookings, so each one changes when the thing it
+      describes does.
 
       ## Compatible with Mobilizon
 
