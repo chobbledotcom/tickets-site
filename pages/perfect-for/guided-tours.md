@@ -61,7 +61,8 @@ blocks:
       If weather cancels a departure, each booking for that date can be
       [refunded](/features/refunds/) from the admin panel, and
       [bulk email](/features/bulk-email/) sends one message to the
-      tour's booked guests, skipping anyone who has unsubscribed.
+      tour's booked guests. News about a booking reaches everyone booked,
+      including anyone who has unsubscribed from promotions.
     figure_src: /images/screenshots/industry-guided-tour-booking.png
     figure_alt: A ghost walk booking form with a date selected, two places chosen, a mobility question answered, and a £28 total
     figure_caption: A guest picks a date, answers the mobility question, and the guide sees the answer before the walk.

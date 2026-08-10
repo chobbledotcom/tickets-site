@@ -79,8 +79,9 @@ blocks:
 
       You can also sell things nobody attends. A
       [purchasable listing](/features/purchasable-events/) takes payment
-      for a record, a print, a zine or a subscription without creating a
-      door-entry workflow.
+      for a record, a print or a zine without creating a door-entry
+      workflow. Payments are one-off, so a year's membership is collected
+      as a single payment rather than a recurring charge.
     figure_items:
       - icon: hugeicons:money-receive-square
         text: A £12 ticket costs £12.
@@ -99,8 +100,9 @@ blocks:
 
       You can [email everyone who booked](/features/bulk-email/) a
       particular date, everyone with a future booking, or everyone who has
-      ever booked. Messages go through your own provider account, and each
-      one carries an unsubscribe link.
+      ever booked. Messages go through your own provider account, and a
+      message you mark as a promotion carries an unsubscribe link and
+      skips anyone who has used one.
 
       If you leave, you can download a full database backup and export
       your listings and prices as JSON to move them to another Chobble
@@ -142,8 +144,10 @@ blocks:
       Nobody browsing Chobble will discover your show, and no algorithm
       decides who sees it, because there is nothing to browse. The
       audience arrives from your own site, your own mailing list and
-      whatever the venue does. A platform with a public discovery area may
-      suit you better if you want to be found by its users; the
+      whatever the venue does.
+
+      A platform with a public discovery area may suit you better if you
+      want to be found by its users. The
       [Event Schedule comparison](/compared-to/event-schedule/) covers one
       that has one.
 

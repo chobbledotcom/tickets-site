@@ -101,7 +101,8 @@ blocks:
 
       When a support act drops out or a stage time moves, the venue can
       [email everyone booked on that show](/features/bulk-email/) through
-      its own email provider, with an unsubscribe link on every message.
+      its own email provider. News about a booking reaches everyone who
+      booked, including anyone who has unsubscribed from promotions.
     figure_items:
       - icon: hugeicons:id
         text: ID checked against the name on the ticket.
@@ -140,10 +141,11 @@ blocks:
       is better served by a platform built for reserved seating.
 
       It does not split takings between the venue and the act. Ticket
-      income arrives in the venue's own payment account in full, and any
-      settlement with a promoter or performer happens outside Chobble
-      Tickets. The ledger records what a show earned and what it cost,
-      which is the figure a settlement is usually written from.
+      income goes directly to the venue's own payment account, with the
+      payment provider's charges deducted separately, and any settlement
+      with a promoter or performer happens outside Chobble Tickets. The
+      ledger records what a show earned and what it cost, which is the
+      figure a settlement is usually written from.
 
       Chobble Tickets does not run an event marketplace. It sells to the
       audience the venue brings, and no listing is promoted to other

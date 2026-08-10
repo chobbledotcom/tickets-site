@@ -43,6 +43,18 @@ blocks:
     figure_caption: Check the audience, recipient count, subject, and rendered message before anything is sent.
   - type: markdown
     content: |
+      ## Promotions and news about a booking
+
+      You mark a campaign as a promotion or leave it as news. A promotion
+      skips anyone who has asked not to hear from you, and the preview says
+      how many people that is. A promotion with nobody left to write to is
+      refused rather than sent to no one.
+
+      A message that is not a promotion is news about something the person
+      booked, so it reaches everyone booked whether or not they unsubscribed.
+      A moved start time, a change of room or a cancelled session reaches the
+      whole list.
+
       ## Unsubscribe and contact history
 
       Every marketing email includes an unsubscribe link. The link leads to

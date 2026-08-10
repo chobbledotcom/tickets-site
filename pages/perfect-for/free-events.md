@@ -76,7 +76,8 @@ blocks:
 
       When a session has to move, you can
       [email everyone booked on it](/features/bulk-email/) through your
-      own email provider, and every message carries an unsubscribe link.
+      own email provider. News about a booking reaches everyone booked,
+      including anyone who has unsubscribed from promotions.
     figure_items:
       - icon: hugeicons:mail-01
         text: Confirmation emails on free bookings.

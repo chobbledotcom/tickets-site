@@ -57,8 +57,9 @@ blocks:
       the organiser sends.
 
       [Bulk email](/features/bulk-email/) sends updates to the guest
-      list, such as venue directions or a change of start time, skipping
-      anyone who has unsubscribed. Classmates who
+      list, such as venue directions or a change of start time. News about
+      a booking reaches everyone booked, while a message marked as a
+      promotion skips anyone who has unsubscribed. Classmates who
       pay by cash or bank transfer are added as
       [manual attendees](/features/manual-attendees/), so one list covers
       everyone.
@@ -84,7 +85,7 @@ blocks:
         description: Close bookings automatically when final numbers are due, with no manual step.
         name: <a href="/features/registration-deadlines/">Registration deadlines</a>
       - icon: hugeicons:mail-send-01
-        description: Email the guest list with previews, drafts, and an unsubscribe link, skipping anyone who has unsubscribed.
+        description: Email the guest list with previews and drafts. News about the booking reaches everyone; promotions skip anyone who has unsubscribed.
         name: <a href="/features/bulk-email/">Bulk email</a>
   - type: markdown
     content: |

@@ -71,6 +71,11 @@ blocks:
       the day. Messages go through your own email provider, and the
       preview shows the recipient count before anything is sent.
 
+      Send it as news rather than as a promotion. News about something the
+      person booked reaches everyone booked, including anyone who has
+      unsubscribed from promotions, so nobody who paid is left without the
+      link.
+
       Do not put the link in the listing's description or its location
       field. Both are public, so anyone who finds the page would have the
       link without booking.
@@ -121,12 +126,9 @@ blocks:
       to remember, and anyone who forwards it can pass it on. There is no
       unique link for each attendee and nothing checks who used it.
 
-      Bulk email skips recipients who have unsubscribed from your
-      messages, so somebody who unsubscribed will not receive a joining
-      link sent this way. Attendees can also be emailed individually from
-      their record.
-
-      There is no attendance record for an online session, no recording
+      Nothing records who joined. Attendance is whatever the video service
+      reports, and the booking list can be marked up by hand from the admin
+      panel if you want the two to match. There is no recording
       distribution and no waiting list.
   - type: markdown
     content: |

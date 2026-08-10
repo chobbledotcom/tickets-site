@@ -91,8 +91,10 @@ blocks:
 
       Volunteers get their own accounts. An
       [editor](/features/editors/) can write listings and site pages but
-      holds no data key, so attendee details stay unreadable to them,
-      while a manager runs the back office in full.
+      holds no data key, so attendee details stay unreadable to them. A
+      [manager](/features/users/) runs the day-to-day back office, while
+      team accounts, API keys and the site's own settings stay with the
+      owner.
 
       Attendee names, contact details and answers are
       [encrypted in the database](/features/encrypted/). The hall chooses

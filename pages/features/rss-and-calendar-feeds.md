@@ -38,9 +38,13 @@ blocks:
       ## Staff calendar feed
 
       A separate calendar feed carries the bookings themselves, for staff
-      rather than the public. It is switched off until you enable it, and
-      a calendar client subscribes with an API key rather than a plain
-      URL, so it is never readable by anyone who finds the address.
+      rather than the public. It is switched off until you enable it.
+
+      A staff calendar app subscribes to it with an
+      [API key](/features/public-api/), which is a long secret string the
+      site generates for one person, in the way a password is. Anyone who
+      finds the feed's address without a key sees nothing, which is what
+      separates it from the public feeds above.
 
       Owners and managers see every booking in it. A
       [delivery agent](/features/logistics/) sees only the jobs assigned
