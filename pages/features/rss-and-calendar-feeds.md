@@ -42,13 +42,19 @@ blocks:
 
       A staff calendar app subscribes to it with an
       [API key](/features/public-api/), which is a long secret string the
-      site generates for one person, in the way a password is. Anyone who
-      finds the feed's address without a key sees nothing, which is what
-      separates it from the public feeds above.
+      site generates, in the way a password is. Anyone who finds the
+      feed's address without a key sees nothing, which is what separates
+      it from the public feeds above.
 
-      Owners and managers see every booking in it. A
-      [delivery agent](/features/logistics/) sees only the jobs assigned
-      to them, which is the same run sheet they get in the admin panel.
+      Only the site's owner can create an API key, and a key carries the
+      access of the person who created it. A calendar subscribed with an
+      owner's key therefore shows every booking on the site. Treat the key
+      as you would the owner's password, and do not hand it to someone who
+      should not see everything.
+
+      A [delivery agent](/features/logistics/) gets their own jobs from
+      the run sheet in the admin panel, which is the right tool for a
+      driver who should see only their own work.
 
       ## Always up to date
 

@@ -130,7 +130,7 @@ blocks:
         description: Block the weeks you are closed so a repeating session skips them.
         name: <a href="/features/daily-events/">Daily events and blackout dates</a>
       - icon: hugeicons:rss
-        description: Publish free sessions as an ICS and RSS feed for calendar apps and listings sites.
+        description: Publish free sessions as a calendar feed people can subscribe to, and a feed that listings sites can read.
         name: <a href="/features/rss-and-calendar-feeds/">Calendar and RSS feeds</a>
       - icon: hugeicons:global
         description: Publish a site for the programme on your own domain, or embed sign-up in the site you already have.

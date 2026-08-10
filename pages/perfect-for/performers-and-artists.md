@@ -132,7 +132,7 @@ blocks:
         description: Refund one booking, or everyone booked on a date you have had to cancel.
         name: <a href="/features/refunds/">Refunds</a>
       - icon: hugeicons:rss
-        description: Publish your dates as an ICS and RSS feed that calendar apps and listings sites can read.
+        description: Publish your dates as a calendar feed fans can subscribe to, and a feed that listings sites can read.
         name: <a href="/features/rss-and-calendar-feeds/">Calendar and RSS feeds</a>
       - icon: hugeicons:open-source
         description: The software is published under the AGPL-3.0 licence, so you can read it, fork it or run your own copy.

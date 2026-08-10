@@ -30,7 +30,7 @@ blocks:
       - value: No video
         label: Chobble Tickets hosts none of it
       - value: Free or paid
-        label: Registration works the same either way
+        label: A session can be either
       - value: £0
         label: Chobble fee on each ticket
       - value: Per date

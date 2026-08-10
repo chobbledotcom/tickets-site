@@ -122,7 +122,7 @@ blocks:
         description: Publish the whole programme on your own domain, with Chobble branding removed.
         name: <a href="/features/custom-domain/">Custom domain and white labelling</a>
       - icon: hugeicons:rss
-        description: Publish an ICS and RSS feed of upcoming shows for calendar apps and listings sites.
+        description: Publish upcoming shows as a calendar feed people can subscribe to, and a feed that listings sites can read.
         name: <a href="/features/rss-and-calendar-feeds/">Calendar and RSS feeds</a>
       - icon: hugeicons:money-send-02
         description: Refund one booking, or everyone booked on a cancelled show, from the admin panel.

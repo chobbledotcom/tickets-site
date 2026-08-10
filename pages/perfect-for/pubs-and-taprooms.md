@@ -96,13 +96,18 @@ blocks:
       Staff can also show a booking code from a phone or tablet at the
       bar. The code is signed and expires a few minutes after it appears,
       so a photograph of the screen is no use later. When the name and
-      price are already filled in, the customer goes straight to paying.
+      price are already filled in and the listing asks nothing else, the
+      customer goes straight to paying. A night that asks for an email
+      address or a question takes them to the booking form first, with
+      what you filled in already there.
 
       The pub's [public site](/features/your-public-website/) can list
       every upcoming night, or the booking form can be
       [embedded](/features/embeddable-widget/) in the website the pub
-      already has. An [ICS and RSS feed](/features/rss-and-calendar-feeds/)
-      publishes the same dates to calendar apps and listings sites.
+      already has. The same dates also publish as a
+      [calendar feed](/features/rss-and-calendar-feeds/) a regular can
+      subscribe to in their phone, and as a feed a local listings site can
+      read.
     figure_items:
       - icon: hugeicons:qr-code
         text: A poster QR code for each night.
