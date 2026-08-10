@@ -38,6 +38,18 @@ blocks:
       Paid bookings continue to the provider's hosted checkout. Chobble
       Tickets records payment confirmation and refund results.
 
+      ## Square needs an email address
+
+      You choose which contact fields a listing collects, and an email
+      address is normally one you can leave out. Square is the exception.
+      Its checkout is opened with the buyer's email address, and it refuses
+      the payment link without one, so a paid Square listing has to ask for
+      an email.
+
+      Stripe and SumUp have no such requirement. A paid listing on either
+      can collect a name and nothing else, and free listings take no payment
+      provider at all.
+
       ## Flexible pricing
 
       Set a fixed ticket price, or enable pay-what-you-want so attendees can
