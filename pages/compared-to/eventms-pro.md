@@ -196,8 +196,8 @@ blocks:
       - **[Custom email providers](/features/email-providers/)** - send
         confirmations through Resend, Postmark, SendGrid or Mailgun, from your
         own domain
-      - **[Liquid email templates](/features/email-templates/)** - full control
-        over the subject and body of confirmation emails
+      - **[Editable email templates](/features/email-templates/)** - full
+        control over the subject and body of confirmation emails
       - **[Apple and Google Wallet](/features/apple-wallet/)** - attendees can
         add tickets to the Wallet app on their phone
       - **[Activity logs](/features/activity-logs/)** - an audit trail of admin
@@ -231,11 +231,6 @@ blocks:
       read it, fork it and run the software without paying Chobble a licence
       fee. Attendees' personal data is encrypted at rest, so stored names and
       contact details require credentials for an authorised keyed session.
-
-      Self-hosting either product keeps attendee data on your own server. The
-      difference is that EventMS Pro charges a large one-time fee for a closed
-      licence, while Chobble Tickets publishes its source and charges no Chobble
-      licence fee to self-host.
   - type: markdown
     content: |
       ## Self-hosting and running costs
