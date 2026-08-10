@@ -125,7 +125,7 @@ blocks:
       - Stripe payment processing
       - QR code check-in at the door
       - Apple Wallet tickets on the attendee's phone
-      - Free events with no platform fee and no payment setup
+      - Free events with no per-ticket fee and no payment setup
       - Custom questions asked when someone signs up
       - Discount and promo codes
       - Private attendee lists, built for communities that need them
@@ -219,8 +219,8 @@ blocks:
       **Chobble Tickets** uses [AGPL-3.0-only](/features/open-source/). This is
       a copyleft licence: a business that changes Chobble Tickets and runs it
       as a service for others must publish its changes under the same licence.
-      There is no attribution requirement and no commercial licence to buy.
-      Self-hosting is free.
+      There is no attribution requirement, no commercial licence to buy, and
+      self-hosting is free.
 
       Neither platform charges a software fee to self-host. The difference in
       cost is the server: Revel needs a running application server with a
