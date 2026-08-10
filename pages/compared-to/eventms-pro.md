@@ -277,7 +277,7 @@ blocks:
         rather than a large one-time payment
       - You want the full source code under an open licence
         ([AGPL-3.0](/features/open-source/))
-      - You want [attendee data encrypted at rest](/features/encrypted/)
+      - You want [attendees' personal data encrypted at rest](/features/encrypted/)
       - You want Stripe, Square or SumUp, and
         [custom email providers](/features/email-providers/) from your own
         domain
@@ -320,6 +320,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Open source ticketing with flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
+      Open source ticketing with flat pricing, attendees' personal data encrypted at rest and no per-ticket platform fee.
 name: Open Source & Flat-Fee EventMS Pro Alternative | Chobble Tickets
 ---
