@@ -12,15 +12,15 @@ provider_facts:
   kind: ticketing
   calculator_keys:
     - ticketted
-  last_reviewed: "2026-08-10"
+  last_reviewed: "2026-08-11"
   registration_country: australia
   ethical_basis:
     - not-documented
   per_ticket_platform_fee: percentage-plus-fixed
   managed_pricing: per-sale
-  white_label: not-documented
+  white_label: partial
   custom_domain: not-documented
-  public_website: marketplace-pages
+  public_website: organiser-microsite
   self_hosting: not-documented
   source_code: proprietary
   agent_instructions: not-found
@@ -30,13 +30,13 @@ provider_facts:
   event_marketplace: built-in
   attendee_cross_marketing: not-documented
   notes:
-    registration_country: "Ticketted Pty Ltd is an Australian private company, ABN 26 698 189 669 and ACN 698 189 669, registered on 18 May 2026 with its main business location in New South Wales (ABN Lookup, checked 11 August 2026). The platform prices in Australian dollars, covers events across Australia and describes Australia-based support."
+    registration_country: "Ticketted Pty Ltd is an Australian private company, ABN 26 698 189 669 and ACN 698 189 669, registered on 18 May 2026 with its main business location in New South Wales (ABN Lookup, checked 11 August 2026). Its FAQ says the platform is for anyone organising events in Australia, and its site is made in Sydney."
     ethical_basis: "Ticketted Pty Ltd is an ordinary Australian private company. No owner, director or investor information was found in the sources reviewed, and no ethical certification or structure is claimed."
     per_ticket_platform_fee: "Ticketted charges 3.95% + A$0.95 on each paid ticket (about 50p at 52.3p to the Australian dollar on 10 August 2026), or 2.45% + A$0.45 for charities and schools. Higher volumes and unusual requirements are quoted individually. Free RSVP events carry no charge. Ticketted takes payment through Stripe Connect and Stripe's processing charge is inside that fee, so nothing is added on top. Source: ticketted.com/pricing, checked 11 August 2026."
     managed_pricing: "There is no subscription, setup fee or minimum ticket volume. Ticketted is paid from the charge on each paid ticket, so the total rises with ticket volume, and higher volumes can be quoted individually."
-    white_label: "No white-labelling option was documented in the sources reviewed."
+    white_label: "Organisers build a branded event page with their own description, images and seller profile, but the pages are served from ticketted.com. Ticketted FAQ, checked 11 August 2026."
     custom_domain: "No custom-domain option was documented in the sources reviewed. Event pages are served from ticketted.com."
-    public_website: "Ticketted lists events for sale on ticketted.com and describes AI-curated placement on its own homepage. No separate organiser-controlled website was documented."
+    public_website: "Each organiser gets a seller profile and event pages on ticketted.com, which also lists events for sale across Australia. No organiser-controlled website away from ticketted.com was documented."
     self_hosting: "Ticketted is a hosted service. No self-hosting option was documented in the sources reviewed."
     source_code: "Ticketted does not publish its source code."
     agent_instructions: "No public repository or agent instructions were found in the sources reviewed."
@@ -142,9 +142,10 @@ blocks:
       - Payouts on the payment provider's own schedule, not after the event
       - Event capacity limits
       - Several price points for one occasion, such as early bird, VIP or
-        concession, sharing one capacity limit. Chobble Tickets does this by
-        putting separate listings in a [group](/features/groups/) with a
-        shared cap, rather than ticket types inside a single event
+        general admission. Ticketted puts as many ticket types as you like
+        inside one event, each with its own price and quantity limit, while
+        Chobble Tickets puts separate listings in a
+        [group](/features/groups/) with a shared cap
       - Booking cut-off times, so sales close before the event starts
       - Discount and promo codes
       - Free events with no per-ticket fee
@@ -155,14 +156,17 @@ blocks:
       - Email delivery of tickets with a QR code. Chobble Tickets gives one
         code to each booking, which covers every place in it
       - QR code scanning at the door from a browser, with no app to install
+      - Messaging the people who booked
+      - Refunds decided by the organiser rather than the platform
       - Guest list and attendee data export
       - Sales reporting for the organiser
   - type: markdown
     content: |
       ### Ticketted has features Chobble Tickets doesn't
 
-      - **AI event setup and copywriting** - Ticketted writes event
-        descriptions and fills in event details for you
+      - **Free AI writing tools** - generators for event names, event
+        descriptions, terms and conditions and disclaimers, on the Ticketted
+        site
       - **AI-curated homepage placement** - events are promoted on the
         ticketted.com homepage to buyers the platform judges relevant
       - **Event discovery** - Ticketted sells tickets for events across
@@ -174,8 +178,8 @@ blocks:
       - **Individually quoted rates** - higher volumes and unusual
         requirements are priced case by case, where Chobble Tickets has one
         published price for everyone
-      - **Australia-based support around the clock** - Chobble Tickets
-        provides written support and does not run a telephone support centre
+      - **Attendee accounts** - buyers sign in with an email address or a
+        Google account and find their tickets in a My Tickets area
   - type: markdown
     content: |
       ### Chobble Tickets documents features Ticketted's site does not
@@ -254,12 +258,16 @@ blocks:
       ## Data ownership
 
       Ticketted says card payments meet the card industry's security rules
-      (PCI), that its data handling is ready for European privacy law (GDPR),
-      and that Stripe checks payments for fraud. Attendee data is held on
-      Ticketted's servers, and it publishes neither its source code nor a
-      documented way to run the platform yourself. If Ticketted stopped
-      operating, you would depend on the exports you had already
-      downloaded.
+      (PCI) and that it never stores card details, because Stripe handles
+      payment. Attendee data is held on Ticketted's servers, and it publishes
+      neither its source code nor a documented way to run the platform
+      yourself. If Ticketted stopped operating, you would depend on the
+      exports you had already downloaded.
+
+      Ticketted's own site records how visitors use it with Amplitude,
+      including session replay, which plays back what someone did on a page.
+      Sellers can also create campaign links that set a cookie identifying a
+      visitor for a year. Both are off until a visitor accepts them.
 
       With Chobble Tickets, attendee data is encrypted at rest. Only the keys
       held by your own administrator accounts, and the optional recovery
@@ -275,16 +283,18 @@ blocks:
     content: |
       ## When Ticketted might be the better choice
 
-      - Your events are in Australia, which is where Ticketted sells tickets
+      - Your events are in Australia, which is who Ticketted is for
       - You sell few enough tickets that 3.95% + A$0.95 each costs less than
         a flat annual price plus your own card processing, which at £15 a
         ticket is under about 75 tickets a year
       - You sell enough to be worth an individually quoted rate
       - You want your event listed on a site people already browse
-      - You want AI tools to write your event description and set the event up
+      - You want free AI tools to name your event and write its description
+        and terms
       - You want detailed audience analytics such as buying windows and
         checkout drop-off
-      - You want round-the-clock support in Australian hours
+      - You want a supplier in Australian hours, which Ticketted answers by
+        email
   - type: markdown
     content: |
       ## When Chobble Tickets is the better choice
@@ -330,14 +340,13 @@ blocks:
     content: |
       ## Pricing sources
 
-      The prices above come from Ticketted's own pricing page and the company
-      record from ABN Lookup, both checked on 11 August 2026, and the feature
-      descriptions from the rest of the platform's published material. Several
-      points other comparisons on this site cover, including white
-      labelling, custom domains, refunds, whether the charge can be passed to
-      ticket buyers, and what happens to buyer contact details, are left open
-      above rather than guessed at. Fees may change, so check the links below
-      for the latest figures.
+      The prices above come from Ticketted's own pricing page, the company
+      record from ABN Lookup and Ticketted's FAQ, all checked on 11 August
+      2026. Three points other comparisons on this site cover are left open
+      above rather than guessed at: custom domains, whether the charge can be
+      passed to ticket buyers, and what Ticketted does with buyer contact
+      details after a sale. Fees may change, so check the links below for the
+      latest figures.
 
       - [Ticketted pricing](https://www.ticketted.com/pricing) -
         3.95% + A$0.95 per paid ticket including Stripe's processing charge,
@@ -345,7 +354,10 @@ blocks:
         volumes, free RSVP events free, no subscription or setup fee, payouts
         through Stripe Connect
       - [Ticketted](https://www.ticketted.com/) - event listings across
-        Australia, AI event setup, QR check-in, audience analytics
+        Australia, QR check-in, audience analytics
+      - [Ticketted FAQ](https://www.ticketted.com/faq) - who can use it,
+        ticket types, payouts, branded event pages, attendee accounts,
+        organiser-set refunds, email support
       - [ABN Lookup: Ticketted Pty Ltd](https://abr.business.gov.au/ABN/View?abn=26698189669) -
         ABN 26 698 189 669, Australian private company, registered 18 May 2026
       - [Chobble Tickets pricing](/pricing/) - £50/year or £5/month, £25/year
