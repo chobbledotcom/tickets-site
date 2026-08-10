@@ -75,10 +75,10 @@ blocks:
       day. Messages go through your own email provider, and the preview
       shows the recipient count before anything is sent.
 
-      A campaign cannot be aimed at one date of a repeating listing. On a
-      term booked date by date, everyone booked on any week receives what
-      you send, which is why a session with its own link needs its own
-      listing.
+      A term booked date by date can be addressed one date at a time.
+      Choose the date on the listing's attendee list, then email that
+      date's group, so a week's link reaches that week rather than the
+      whole term.
 
       Send it as news rather than as a promotion. News about something the
       person booked reaches everyone whose booking left an email address,

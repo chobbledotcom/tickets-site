@@ -21,11 +21,16 @@ blocks:
       Each campaign targets a segment of your attendees. You can email
       everyone who has ever booked, attendees of active listings,
       attendees of listings that have not happened yet, attendees of one
-      specific listing, or a single attendee.
+      specific listing, everyone booked on one date of a listing sold
+      date by date, or a single attendee.
 
-      The listing and single-attendee targets are reachable from the
-      relevant admin pages, so you can start an email from the listing
-      or attendee you are already looking at.
+      A date's own group is reached from that date on the listing's
+      attendee list. A booking covering several days belongs to each day
+      it covers, so a hall booked Friday to Sunday hears about Saturday.
+
+      The listing, date and single-attendee targets are reachable from
+      the relevant admin pages, so you can start an email from the
+      listing, date or attendee you are already looking at.
   - type: split-image
     content: |
       ## Preview before sending
