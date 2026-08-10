@@ -33,8 +33,9 @@ blocks:
       donations, raffle entries, club dues, school trip contributions, and
       more.
 
-      The same setup covers appeals, raffles, sponsored events, memberships
-      and subscriptions, and one-off collections with nothing to attend.
+      The same setup covers appeals, raffles, sponsored events, one-off
+      membership payments and collections with nothing to attend. Payments
+      are taken once rather than renewed automatically.
     figure_items:
       - icon: hugeicons:calendar-03
         text: "Event name: Summer Appeal 2026"

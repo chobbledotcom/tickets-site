@@ -99,8 +99,9 @@ blocks:
       does not sell the list.
 
       You can [email everyone who booked](/features/bulk-email/) a
-      particular date, everyone with a future booking, or everyone who has
-      ever booked. Messages go through your own provider account, and a
+      particular listing, everyone with a future booking, or everyone who
+      has ever booked. A residency sold as one listing is one audience, so
+      give a date its own listing when it needs its own message. Messages go through your own provider account, and a
       message you mark as a promotion carries an unsubscribe link and
       skips anyone who has used one.
 
