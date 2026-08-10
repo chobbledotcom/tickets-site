@@ -148,6 +148,10 @@ blocks:
       - Booking cut-off times, so sales close before the event starts
       - Discount and promo codes
       - Free events with no per-ticket fee
+      - A reduced rate for charities and similar organisations. Ticketted
+        charges charities and schools 2.45% + A$0.45, and Chobble Tickets
+        charges charities, community groups, artists and musicians £25/year
+        rather than £50 on the annual plan
       - Email delivery of tickets with a QR code. Chobble Tickets gives one
         code to each booking, which covers every place in it
       - QR code scanning at the door from a browser, with no app to install
@@ -167,8 +171,9 @@ blocks:
       - **Referral links** - track which sign-ups came from which source
       - **Audience analytics** - sales velocity, peak buying windows,
         audience demographics and checkout drop-off points
-      - **A charity and school rate** - 2.45% + A$0.45 rather than
-        3.95% + A$0.95, and individually quoted rates for higher volumes
+      - **Individually quoted rates** - higher volumes and unusual
+        requirements are priced case by case, where Chobble Tickets has one
+        published price for everyone
       - **Australia-based support around the clock** - Chobble Tickets
         provides written support and does not run a telephone support centre
   - type: markdown
