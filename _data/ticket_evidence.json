@@ -180,7 +180,7 @@
         "height": 1779,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "7796f6ff78dd61565de5891aa1d258f04c6dab1b5c98300801f44c704989b92a",
+        "sha256": "05d75ae4e2f9d1b49da109ff24e324074c4ed9c66fb361e40b867141eb13a831",
         "src": "/images/screenshots/backup-restore.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -501,17 +501,17 @@
       },
       "id": "free-headcount-no-money",
       "image": {
-        "height": 2252,
+        "height": 1755,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "ad77a0feb0dddf0f37ba144797146c7bd83765dbdf141b1b135fa1a075c30af8",
+        "sha256": "673a48f7bcf53f8efe1386a074f0b1c3fa405e1c95c8b99bad4218b51eec4850",
         "src": "/images/screenshots/free-headcount-no-money.png",
         "viewport": {
           "deviceScaleFactor": 2,
           "height": 844,
           "width": 390
         },
-        "width": 907
+        "width": 784
       },
       "presentation": "branded",
       "rule": {
@@ -878,7 +878,7 @@
         "height": 2542,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "1149c98144b076cf615e933add0745e8bb0a63969fbfe4d7b2ac07f0aa9091d5",
+        "sha256": "06da2ba5679b9018e1db1a8ec9510a32224c78f8459d39d1e1911b6c877614bd",
         "src": "/images/screenshots/payment-provider-choice.png",
         "viewport": {
           "deviceScaleFactor": 2,

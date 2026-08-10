@@ -35,6 +35,17 @@ main nav:not(.entity-tabs),
   display: none;
 }
 
+/* Two things on this page are different every time it is photographed, and
+ * neither is what the case proves. The public address carries the listing's
+ * slug, which is made fresh for each run, and the activity block is stamped
+ * with the moment the capture ran. Left in, they would rewrite this PNG and
+ * its lock hash on every nightly run and raise an evidence pull request with
+ * nothing in it. Same reason the activity-log theme hides its Time column. */
+main tr:has(.listing-embed-toggle),
+main .page-block:has(a[href$="/activity"]) {
+  display: none;
+}
+
 /* The site's row striping paints alternate rows in --color-table, which is a
  * dark ink here, so the headcount row came out dark on dark. Rows stay light
  * and take the body colour; only the header keeps the dark band. */
