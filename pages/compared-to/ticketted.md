@@ -202,8 +202,9 @@ blocks:
       - **[Deposits and balance payments](/features/deposits-and-balance-payments/)** -
         take a deposit now and the balance later
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
-        buyers enter their own price above a minimum, with no cut taken from
-        the extra
+        buyers enter their own price above a minimum. Chobble takes no cut of
+        the extra, though your payment provider still charges on the larger
+        amount
       - **[Daily and recurring events](/features/daily-events/)** - events
         that repeat on a schedule, with capacity set per date
       - **[Subscribable calendar and RSS feeds](/features/rss-and-calendar-feeds/)** -
@@ -229,10 +230,10 @@ blocks:
       judges relevant. That can put your event in front of people who have
       never heard of you, which a platform with no marketplace cannot do.
 
-      A marketplace holds the buyer relationship as well as the sale. What
-      Ticketted does with buyer contact details after a sale, including
-      whether it emails them about other organisers' events, is not set out in
-      its published material.
+      Selling through a marketplace means the platform sits between you and
+      the buyer at the point of sale. What Ticketted does with buyer contact
+      details afterwards, including whether it emails them about other
+      organisers' events, is not set out in its published material.
 
       Chobble Tickets has no marketplace across organisers. Visitors can
       browse your own [public site](/features/your-public-website/) and its
@@ -245,10 +246,10 @@ blocks:
       Ticketted says card payments meet the card industry's security rules
       (PCI), that its data handling is ready for European privacy law (GDPR),
       and that Stripe checks payments for fraud. Attendee data is held on
-      Ticketted's servers, and Ticketted publishes neither its source code nor
-      a self-hosting option, so running the same system yourself is not
-      something it offers. If Ticketted stopped operating, you would depend on
-      the exports you had already downloaded.
+      Ticketted's servers, and it publishes neither its source code nor a
+      documented way to run the platform yourself. If Ticketted stopped
+      operating, you would depend on the exports you had already
+      downloaded.
 
       With Chobble Tickets, attendee data is encrypted at rest. Only the keys
       held by your own administrator accounts, and the optional recovery
@@ -288,7 +289,7 @@ blocks:
         [your own website](/features/your-public-website/), under your own
         name
       - You want attendee data [encrypted at rest](/features/encrypted/) and
-        no marketplace holding the buyer relationship
+        no marketplace between you and your ticket buyers
       - You want [Square or SumUp](/features/stripe-and-square/) for online
         checkout, not Stripe alone
       - You want [deposits](/features/deposits-and-balance-payments/),
@@ -304,8 +305,9 @@ blocks:
       Ticketted is run by Ticketted Pty Ltd, an Australian private company
       with [ABN 26 698 189 669](https://abr.business.gov.au/ABN/View?abn=26698189669),
       registered on 18 May 2026 and based in New South Wales. That makes it a
-      new company, so it has no long trading record behind it. No owner,
-      director or investor information was found in the sources reviewed.
+      new company, though the record says nothing about whether its people
+      traded before under another name. No owner, director or investor
+      information was found in the sources reviewed.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
