@@ -146,7 +146,7 @@ blocks:
       ### Both platforms share some features
 
       - Online ticket sales with QR code check-in at the door
-      - Free RSVP tickets and pay-what-you-want pricing
+      - Free tickets and pay-what-you-want pricing
       - Discount or coupon codes
       - Email campaigns to segments of your attendees
       - Stripe payment processing
@@ -289,10 +289,10 @@ blocks:
     content: |
       ## Who makes EventMS Pro?
 
-      The materials reviewed do not name a company, country or the people
-      behind EventMS Pro. Contact is through sales@eventmspro.com and a
-      LinkedIn reference. It is sold as a self-hosted product with a one-time
-      perpetual licence.
+      The materials reviewed do not name a registered company, a country, or
+      the people behind EventMS Pro. Contact is through sales@eventmspro.com and
+      a LinkedIn company page. It is sold as a self-hosted product with a
+      one-time perpetual licence.
 
       Chobble Tickets is run by one person as a UK
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
