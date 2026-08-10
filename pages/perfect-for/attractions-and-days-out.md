@@ -33,6 +33,9 @@ blocks:
       For items without a dated visit, such as gift admissions or donations,
       [purchasable events](/features/purchasable-events/) take payment
       without an attendance date.
+
+      The same setup covers farm parks, museums, heritage railways, indoor
+      climbing centres, maize mazes and open gardens.
     figure_items:
       - icon: hugeicons:calendar-03
         text: Visitors pick a date from a calendar.
@@ -79,6 +82,16 @@ blocks:
       - icon: hugeicons:csv-02
         description: Export visitor lists as CSV, filtered by date and check-in status, for staffing and planning.
         name: <a href="/features/csv-export/">CSV export</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Scare attractions](/perfect-for/scare-attractions/) covers a short
+      seasonal run with timed entry.
+      [Guided tours](/perfect-for/guided-tours/) covers departures with a
+      group limit, and
+      [soft play and stay-and-play](/perfect-for/stay-and-play/) covers
+      repeating session times.
   - type: cta
     button:
       text: Get Started

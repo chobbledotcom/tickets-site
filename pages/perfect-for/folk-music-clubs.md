@@ -44,6 +44,9 @@ blocks:
       The [ledger](/features/ledger/) records checkout payments and refunds. A club owner can add cash, card-machine takings, bank transfers, venue costs and performer costs, giving each club night a statement and net balance.
 
       Money date ranges follow the date each transaction was recorded. The calendar and attendee list provide the roster for a selected club night.
+
+      The same setup covers folk clubs, singarounds, acoustic sessions,
+      shanty nights, ceilidhs and song circles.
     figure_src: /images/screenshots/industry-folk-club-ledger.png
     figure_alt: Folk club ledger showing advance sales, door income, costs and the net balance
     figure_caption: Online payments, door income and club-night costs contribute to the same listing statement.
@@ -87,6 +90,16 @@ blocks:
       - icon: hugeicons:mail-send-01
         description: Send a service message to booked attendees when the venue, performer or start time changes.
         name: <a href="/features/bulk-email/">Attendee email</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Music venues and grassroots rooms](/perfect-for/music-venues/) covers
+      a larger room with a weekly programme.
+      [Performers and artists](/perfect-for/performers-and-artists/) covers
+      the acts themselves, and
+      [pubs and taprooms](/perfect-for/pubs-and-taprooms/) covers clubs that
+      meet in a back room.
   - type: cta
     button:
       text: Start for £5

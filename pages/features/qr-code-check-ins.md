@@ -40,6 +40,19 @@ blocks:
       links to the booking page. Print it on posters, flyers, or handouts so
       people can scan and book directly.
 
+      ## A booking code shown on the day
+
+      Staff can also open a booking code for one listing and hold the
+      screen up for a customer to scan. The code is signed, so it cannot
+      be altered on the way, and it stops working a few minutes after it
+      appears, which makes a photograph of the screen useless later. The
+      admin page says how long each code lasts.
+
+      The code can carry details the organiser has already filled in. When
+      the name and the price are both set and the listing asks nothing
+      else, the person scanning goes straight to paying that amount, which
+      suits a stall, a door or a bar.
+
       ## Non-transferable tickets
 
       For events where you need to verify identity, you can mark tickets as

@@ -33,6 +33,9 @@ blocks:
       [Promo codes](/features/promo-codes-and-add-ons/) handle member
       discounts, such as a lower price for members of the organisation
       running the festival, with stock limits on each code.
+
+      The same setup covers beer festivals, gin and cider festivals, cheese
+      and produce shows, street food markets and wine tasting weekends.
     figure_src: /images/screenshots/industry-beer-festival-checkout.png
     figure_alt: A beer festival checkout with two afternoon and two evening session tickets in one order, showing a £36 running total
     figure_caption: A visitor books the afternoon and evening sessions in one form, with each session priced separately.
@@ -75,6 +78,14 @@ blocks:
       - icon: hugeicons:ticket-01
         description: Capacity is checked when each payment is confirmed. A paid order that no longer fits is refunded automatically.
         name: <a href="/features/overbooking-prevention/">Overbooking prevention</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Pubs and taprooms](/perfect-for/pubs-and-taprooms/) covers tap
+      takeovers and tasting nights in a single room.
+      [Festivals](/perfect-for/festivals/) covers passes and camping, and
+      [caterers](/perfect-for/caterers/) covers the traders' own bookings.
   - type: cta
     button:
       text: Get Started

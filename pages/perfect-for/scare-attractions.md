@@ -32,6 +32,9 @@ blocks:
       Capacity is used only when payment confirmation arrives. If
       confirmed payments race for the last places on a night, the later
       order is refunded automatically.
+
+      The same setup covers scare mazes, haunted houses, Halloween trails,
+      ghost tours and seasonal horror events.
     figure_src: /images/screenshots/industry-scare-attraction-calendar.png
     figure_alt: An admin calendar for Hollowtree Scare Trail showing bookings on two nights and 25 of 40 places remaining on a Friday
     figure_caption: Each night keeps its own bookings and remaining capacity on the admin calendar.
@@ -74,6 +77,15 @@ blocks:
       - icon: hugeicons:ticket-01
         description: Capacity is checked when each payment is confirmed. A paid order that no longer fits is refunded automatically.
         name: <a href="/features/overbooking-prevention/">Overbooking prevention</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Attractions and days out](/perfect-for/attractions-and-days-out/)
+      covers year-round dated admission.
+      [Guided tours](/perfect-for/guided-tours/) covers walking ghost tours,
+      and [festivals](/perfect-for/festivals/) covers larger multi-day
+      sites.
   - type: cta
     button:
       text: Get Started

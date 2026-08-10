@@ -558,6 +558,28 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "one-days-audience": [
+    {
+      fact: "A bulk email can be aimed at one day of a listing booked by the day, and the compose page names the listing and that day as its recipients.",
+      sources: [
+        "../tickets/specs/attendees/writing-to-the-people-who-booked.feature:111-128",
+        "../tickets/src/shared/bulk-email-targets/listings.ts:96-118",
+      ],
+    },
+    {
+      fact: "The day's recipients are the people whose booking covers that day, found with the same half-open overlap predicate the capacity checks use, so a stay booked across several days answers to each of them.",
+      sources: [
+        "../tickets/src/shared/db/attendees/queries.ts:290-309",
+        "../tickets/src/shared/db/capacity.ts:33-46",
+      ],
+    },
+    {
+      fact: "Addressing the listing itself still reaches every day, so the day is an extra way to choose rather than a replacement.",
+      sources: [
+        "../tickets/specs/attendees/writing-to-the-people-who-booked.feature:130-139",
+      ],
+    },
+  ],
   "order-widget": [
     {
       fact: "The external order script turns eligible listing links into add-to-cart controls and displays a floating cart.",

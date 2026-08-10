@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "d961ec68a5d436f8079cc18a526296074a5b7011",
+    "commit": "6963aec593442143392c6453cb0f1a59ac5f5cb0",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -14,7 +14,7 @@
         "height": 1128,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "265f33a35198bb942e7e9a406576ca955f32a9be82ca0389de1578c22050533d",
+        "sha256": "80a4a0456458b725b826c609a7cacf3157cf9d9947d29a05cb797eea3b6ab2ae",
         "src": "/images/screenshots/promo-codes-and-add-ons-checkout.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -72,7 +72,7 @@
         "height": 1190,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "ededfb19f0b11b984d5b16eb1926085e0c2aef4d9255bcdc25b1a7e11bbd8d48",
+        "sha256": "6c190a547ce8edb72e2024ff6c9b34746f8a1b631482bd06e7f5f879e48e3217",
         "src": "/images/screenshots/api-keys-list.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -123,10 +123,10 @@
       },
       "id": "attendee-csv-export",
       "image": {
-        "height": 956,
+        "height": 500,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "947aa31236195a6605ad76454c2bb485dd3e645cf28e6cf3bb1456137b6febe2",
+        "sha256": "6cd2fa24e4420583bf0487fbf7abfe6e6ae88d63145128e49acb855360f20780",
         "src": "/images/screenshots/attendee-csv-export.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -180,7 +180,7 @@
         "height": 1779,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "c7db449c49e2cb238608f6eaee168ff791e05e18bbef469c89415ba151b20490",
+        "sha256": "7796f6ff78dd61565de5891aa1d258f04c6dab1b5c98300801f44c704989b92a",
         "src": "/images/screenshots/backup-restore.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -234,7 +234,7 @@
         "height": 1286,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "c53fda1d78ec8fba2a61c5b1a1d75a3b5d6fcfe6e9417d455c98de3209d8efb9",
+        "sha256": "ff80a745a8f1d0ed736a6f46b2c592e622a997eef1eab56e36fef5997b43338f",
         "src": "/images/screenshots/deposits-and-balance-payments.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -288,7 +288,7 @@
         "height": 1244,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "09ef4367e13a0a3247e128e03ba2725199abc3554cb12635c9a855a5cb3a26ef",
+        "sha256": "06d9ee3ce9e0348ba0f7c20cbd721bc5edde490883413750950e734faca427a0",
         "src": "/images/screenshots/garden-party-package-checkout.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -346,7 +346,7 @@
         "height": 652,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "9ce89c90a9358093150f534c3d4aac22a28316f7875b302a00434c3f4fc428cc",
+        "sha256": "290769bce4ec8a57d11621234dab58b4d5ba279f63d9eb455ede4e7a0d0877e0",
         "src": "/images/screenshots/activity-log-summer-arts-fair.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -392,7 +392,7 @@
         "height": 1256,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "b4d53d265232f44733cce4c9961f5a4aff796ccc2682a814fcdb790244442640",
+        "sha256": "03ab5f3cdb6a88ca562a39045233f83fea6de5badcc53a64237a62e06f1fa647",
         "src": "/images/screenshots/manual-attendee-community-supper.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -454,7 +454,7 @@
         "height": 400,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "c9c4927564505e8dbbccea822534aa37bd3572b37c3555115457248422508f5e",
+        "sha256": "a58163dc9be4bd6a97bfcb01306a763de438a8123476d69678a30ce7a1ed0a5d",
         "src": "/images/screenshots/editor-listings-without-takings.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -504,7 +504,7 @@
         "height": 750,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "4b80db6911fdcafe821e139a700e3fc85e05d18c15a78a3aac45f707cacf3870",
+        "sha256": "a3a2d17a2f62a5d077f060d318dac84bca81348cda9801355c19308b3b331508",
         "src": "/images/screenshots/the-tempest-group-checkout.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -558,7 +558,7 @@
         "height": 476,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "04395aa3a011b045896e5530f59d4d4724ec913bb1d1bc68592e5fadbeb3af06",
+        "sha256": "8a040fda43c19b960a4aee3924b3ab7374bdf156be8c8006ecce43a338408f16",
         "src": "/images/screenshots/summer-arts-fair-ledger.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -602,6 +602,72 @@
         "uri": "specs/payments/what-a-paid-booking-earned.feature"
       }
     },
+    "one-days-audience": {
+      "case": {
+        "id": "writing.one-day-hears-and-the-others-do-not",
+        "name": "The owner writes to one day"
+      },
+      "id": "one-days-audience",
+      "image": {
+        "height": 1482,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "fb449ae00d619f6ceea0bd63085d4db2a88b82e933fe24865f078cc03120904a",
+        "src": "/images/screenshots/one-days-audience.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 782
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "A listing booked by the day holds several days' worth of people, and news\nabout one of those days is not news for the rest. The owner can aim a\nmessage at a single day, and everyone the site writes to is somebody that\nday belongs to. Aiming at the listing itself still reaches all of them, so\nthe day is an extra way to choose rather than the only one.",
+        "id": "attendees.a-message-can-be-aimed-at-one-day",
+        "name": "A message can be aimed at one day of a listing booked by the day"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "the owner has an email provider of their own"
+        },
+        {
+          "keyword": "And",
+          "text": "\"Rachel\" has booked onto \"the Course\" for day 1"
+        },
+        {
+          "keyword": "And",
+          "text": "\"Marco\" has booked onto \"the Course\" for day 8"
+        },
+        {
+          "keyword": "When",
+          "text": "the owner writes to \"the Course\" on day 1 saying \"We are in the small hall tonight.\""
+        },
+        {
+          "keyword": "Then",
+          "text": "the owner is shown that it would reach 1 person"
+        },
+        {
+          "keyword": "When",
+          "text": "the owner sends it"
+        },
+        {
+          "keyword": "Then",
+          "text": "it was written to \"Rachel\""
+        },
+        {
+          "keyword": "And",
+          "text": "nothing was written to \"Marco\""
+        }
+      ],
+      "story": {
+        "description": "The owner can write one message to everyone booked onto a listing. They\nreach it from the listing itself, write the message, and are shown it before\nanything goes out. For the site to send it for them they need an email\nprovider of their own, and a message that promotes something leaves out\nanyone who asked not to hear from them.",
+        "id": "attendees.writing-to-the-people-who-booked",
+        "name": "An owner writes to the people who booked",
+        "uri": "specs/attendees/writing-to-the-people-who-booked.feature"
+      }
+    },
     "page-anybody-can-read": {
       "case": {
         "id": "site-pages.written-and-readable",
@@ -612,7 +678,7 @@
         "height": 772,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "cf002137e5a15dd71bb8b9832345c7ef43357552d614d67216e9295aadd56bb0",
+        "sha256": "9d33eea9fc5b64421e45b1203ed7ace529b9839e1cdcdc9317c96d28ec756dd5",
         "src": "/images/screenshots/oakfield-public-website.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -662,7 +728,7 @@
         "height": 444,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "e19f767bf7a9ed88094d7f2d9286a8f2cc7b8af4c3d9c014f691809b732d72c4",
+        "sha256": "e92d898b41caf109808e9d6dac8ff773a4cee3c149934727648ded7623f43968",
         "src": "/images/screenshots/summer-appeal-purchase.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -716,7 +782,7 @@
         "height": 2542,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "69c978187bffcd8da1639ce5e782e768b9ec7bebb298e923be9848b38ce46b64",
+        "sha256": "06da2ba5679b9018e1db1a8ec9510a32224c78f8459d39d1e1911b6c877614bd",
         "src": "/images/screenshots/payment-provider-choice.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -762,7 +828,7 @@
         "height": 536,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "583e614ae63370a91a496b6dce68fca0b850945a1adbd35c9b065cb812dd89cc",
+        "sha256": "3fc05b71707a5e7f691548eed263647c35363095160824ab15e0bd66a156ff35",
         "src": "/images/screenshots/place-lost-while-paying.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -816,7 +882,7 @@
         "height": 607,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "bc00a2d342e43a7d6a7b51f35ceaa5a407a70c405f67c4612d6416bfcc30c6bb",
+        "sha256": "2c71a0317281f3c5dd750a802168ca51f3c431181e42220400f178eba0bacce6",
         "src": "/images/screenshots/qr-code-check-in.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -858,7 +924,7 @@
         "height": 1256,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "08a83013e08e1a21bc340cd8bb5ba98db542cfc35c73abcd499bccef7e7d2739",
+        "sha256": "f2f629d93830d9aac03e1be668c59e6f6fc7da6f745075fd19105125c5a2e694",
         "src": "/images/screenshots/record-put-right.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -920,7 +986,7 @@
         "height": 1256,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "270dfc2ce2546995760f74461f8d14ab38dd2843cd7d35ec4e7baba11f9c3def",
+        "sha256": "1fe774e400f1c01672a0f96506e7d9309fc722a215b93fdb13039214d0aae9ea",
         "src": "/images/screenshots/record-repaired.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -982,7 +1048,7 @@
         "height": 1242,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "21e35da96e298a5cf4929548509f0618e341782e1d733500d130e821e28f8343",
+        "sha256": "c9e29027061c6956ea447d720bdce833ce5e2b875816943102a1be020e2d5dc7",
         "src": "/images/screenshots/refunded-booking.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1036,7 +1102,7 @@
         "height": 742,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "358ff57d95980e50244cd14c8d18cc8c1a848b5cc7b089ff8ac10427a4ddd3c4",
+        "sha256": "5cd1d5fc03bf5a49fbf080e045ce7b913850aa30a0d74b35487fef7817edad4c",
         "src": "/images/screenshots/servicing-studio-floor-hold.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1086,7 +1152,7 @@
         "height": 806,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "fd90e8d9fcdc84b7fccce6286f8f385fe94d755927f57fc01a680d8e4d105b42",
+        "sha256": "e17157a7f2139a6bda5d62dab513dd1cc90445dbf5a2d9e465e19cb0d3ba0824",
         "src": "/images/screenshots/oakfield-homepage-editor.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1136,7 +1202,7 @@
         "height": 1128,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "88d4b6a2cddf3ede74318793d32d3faa7b62a6b24be9842aecca341b3d738c9a",
+        "sha256": "7e3265c7a3da2ca8cc607d9743131b2d2e8579a439f28997f422c6afec926e4b",
         "src": "/images/screenshots/multi-day-hire.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1166,7 +1232,7 @@
         }
       ],
       "story": {
-        "description": "An organiser can change how many days each stay on a listing covers. The\nlisting's own page says how long its stays last. Stays already booked are\nstretched or shortened to match a change, so the calendar and the bookings\nnever disagree — except where the customer chose the length themselves,\nwhich is theirs to keep. A save that does not change the length leaves\nevery stay exactly as it was.",
+        "description": "An organiser can change how many days each stay on a listing covers. The\nlisting's own page says how long its stays last. Stays already booked are\nstretched or shortened to match a change, so the calendar and the bookings\nnever disagree — except where the customer chose the length themselves,\nwhich is theirs to keep. A save that does not change the length leaves\nevery stay exactly as it was. Turning day bookings on never unbooks\nanybody. A length saved on a listing that is not booked by the day is kept\nfor later. It rewrites no stays and writes nothing in the listing's\nhistory.",
         "id": "bookings.changing-how-long-a-stay-lasts",
         "name": "An organiser changes how long a stay lasts",
         "uri": "specs/bookings/changing-how-long-a-stay-lasts.feature"
@@ -1182,7 +1248,7 @@
         "height": 594,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "6f0316b82eced427413ee63fd562788297c1541c0e734c68467e02dad13c1b44",
+        "sha256": "c28eb08b9adaff2b76deb33be7268b219dcb0e10a2fb4b1ffeab63514a5b8cc2",
         "src": "/images/screenshots/riverside-events-team.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1232,7 +1298,7 @@
         "height": 1722,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "7e4744f48d994073ffb35399c897153ceef7d69e39acdfb92ecd9cb646b37171",
+        "sha256": "4a9d28426f4713997a529ff3c759686eaae5f96146f28ea7d64e768577668b13",
         "src": "/images/screenshots/summer-fair-volunteer-form.png",
         "viewport": {
           "deviceScaleFactor": 2,

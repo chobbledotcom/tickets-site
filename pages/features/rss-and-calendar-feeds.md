@@ -29,11 +29,42 @@ blocks:
       aggregators. This is useful for attendees who prefer RSS, and for
       embedding event listings on other websites or newsletters.
 
+      ## News feed
+
+      When your site publishes news posts, they get their own RSS feed
+      alongside the events one, so a reader or an aggregator can follow
+      announcements as well as dates.
+
+      ## Staff calendar feed
+
+      A separate calendar feed carries the bookings themselves, for staff
+      rather than the public. It is switched off until you enable it.
+
+      A staff calendar app subscribes to it with an
+      [API key](/features/public-api/), which is a long secret string the
+      site generates, in the way a password is. Anyone who finds the
+      feed's address without a key sees nothing, which is what separates
+      it from the public feeds above.
+
+      Only the site's owner can create an API key, and a key carries the
+      access of the person who created it. A calendar subscribed with an
+      owner's key therefore shows every booking on the site. Treat the key
+      as you would the owner's password, and do not hand it to someone who
+      should not see everything.
+
+      A [delivery agent](/features/logistics/) gets their own jobs from
+      the run sheet in the admin panel, which is the right tool for a
+      driver who should see only their own work.
+
       ## Always up to date
 
-      Both feeds update automatically when you create, modify, or remove
-      events, so subscribers always see the latest information without any
-      manual publishing step.
+      The public ICS and RSS event feeds update automatically when you
+      create, modify, or remove events, so subscribers always see the
+      latest information without any manual publishing step.
+
+      The news feed follows your news posts, and the staff calendar feed
+      follows the bookings, so each one changes when the thing it
+      describes does.
 
       ## Compatible with Mobilizon
 

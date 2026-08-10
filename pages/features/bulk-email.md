@@ -21,11 +21,16 @@ blocks:
       Each campaign targets a segment of your attendees. You can email
       everyone who has ever booked, attendees of active listings,
       attendees of listings that have not happened yet, attendees of one
-      specific listing, or a single attendee.
+      specific listing, everyone booked on one date of a listing sold
+      date by date, or a single attendee.
 
-      The listing and single-attendee targets are reachable from the
-      relevant admin pages, so you can start an email from the listing
-      or attendee you are already looking at.
+      A date's own group is reached from that date on the listing's
+      attendee list. A booking covering several days belongs to each day
+      it covers, so a hall booked Friday to Sunday hears about Saturday.
+
+      The listing, date and single-attendee targets are reachable from
+      the relevant admin pages, so you can start an email from the
+      listing, date or attendee you are already looking at.
   - type: split-image
     content: |
       ## Preview before sending
@@ -43,6 +48,22 @@ blocks:
     figure_caption: Check the audience, recipient count, subject, and rendered message before anything is sent.
   - type: markdown
     content: |
+      ## Promotions and news about a booking
+
+      You mark a campaign as a promotion or leave it as news. A promotion
+      skips anyone who has asked not to hear from you, and the preview says
+      how many people that is. A promotion with nobody left to write to is
+      refused rather than sent to no one.
+
+      A message that is not a promotion is news about something the person
+      booked, so it reaches everyone whose booking left an email address,
+      whether or not they unsubscribed. A moved start time, a change of
+      room or a cancelled session reaches the whole list.
+
+      A listing that does not ask for an email address has nowhere to send
+      one of these, so ask for an email on any listing whose attendees you
+      may need to write to.
+
       ## Unsubscribe and contact history
 
       Every marketing email includes an unsubscribe link. The link leads to

@@ -44,6 +44,9 @@ blocks:
       The same entertainer listing can be offered under several packages. A child can keep its own booking page when it also needs to be sold separately.
 
       Parent/child links are one level deep. They suit a required “choose your entertainer” step, while optional balloons, party bags or extra time can be sold as price modifiers or separate listings.
+
+      The same setup covers clowns, magicians, face painters, mascot
+      characters, balloon modellers and puppet shows.
     figure_src: /images/screenshots/industry-childrens-entertainer-booking.png
     figure_alt: Children's party package checkout requiring a choice of clown, princess or dinosaur mascot
     figure_caption: Each party package requires one entertainer choice before the customer can continue.
@@ -87,6 +90,15 @@ blocks:
       - icon: hugeicons:mail-edit-01
         description: Include arrival instructions, preparation notes and booking details in the confirmation email.
         name: <a href="/features/email-templates/">Confirmation emails</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Children's parties](/perfect-for/kids-parties/) covers the party
+      booking itself.
+      [Soft play and stay-and-play](/perfect-for/stay-and-play/) covers
+      repeating session times, and [workshops](/perfect-for/workshops/)
+      covers craft sessions with their own capacity.
   - type: cta
     button:
       text: Start for £5

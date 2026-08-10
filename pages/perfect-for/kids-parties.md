@@ -28,6 +28,9 @@ blocks:
       capacity; a booking uses capacity only when payment confirmation arrives.
       If two parents pay for the last place, the later payment is refunded
       automatically.
+
+      The same setup covers birthday parties, soft play parties, craft
+      parties, holiday clubs and school disco nights.
     figure_items:
       - icon: hugeicons:smart-phone-01
         text: Parents book online without an account.
@@ -54,6 +57,16 @@ blocks:
       > should it go to the ticket platform? It's better off in your pocket."
 
       [Read more reviews &rarr;](/reviews/)
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Children's entertainers](/perfect-for/childrens-entertainers/) covers
+      booking the entertainer.
+      [Soft play and stay-and-play](/perfect-for/stay-and-play/) covers
+      regular session times, and
+      [schools and PTAs](/perfect-for/schools-and-ptas/) covers school-run
+      events.
   - type: cta
     button:
       text: Get Started

@@ -29,6 +29,10 @@ blocks:
 
       For single gigs and tours rather than multi-day festivals, see the
       [music concerts page](/perfect-for/music-concerts/).
+
+      The same setup covers music festivals, folk weekenders, arts
+      festivals, village festivals, camping weekenders and one-day
+      all-dayers.
     figure_items:
       - icon: hugeicons:money-receive-square
         text: £50/year flat, at any sales volume
@@ -72,6 +76,15 @@ blocks:
       - icon: hugeicons:package
         description: Bundle a festival pass, camping, and parking into one purchase with a single checkout.
         name: <a href="/features/packages/">Packages</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Food and drink festivals](/perfect-for/food-and-drink-festivals/)
+      covers sessions with tokens and glass hire.
+      [Music concerts](/perfect-for/music-concerts/) covers single dates,
+      and [conventions and expos](/perfect-for/conventions-and-expos/)
+      covers day tickets and trader pitches.
   - type: cta
     button:
       text: Get Started

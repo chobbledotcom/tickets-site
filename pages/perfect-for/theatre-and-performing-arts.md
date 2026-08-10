@@ -33,6 +33,9 @@ blocks:
       [daily event](/features/daily-events/) with per-date capacity, or by
       [duplicating an event](/features/duplicate-events/) for each
       performance.
+
+      The same setup covers amateur dramatics, pantomime runs, youth
+      theatre, dance shows, fringe productions and opera and choral staging.
     figure_items:
       - icon: hugeicons:money-receive-square
         text: A £10 ticket costs the audience £10
@@ -74,6 +77,16 @@ blocks:
       - icon: hugeicons:csv-02
         description: Download attendee lists per performance as CSV files for the box office and front-of-house team.
         name: <a href="/features/csv-export/">CSV export</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Performers and artists](/perfect-for/performers-and-artists/) covers
+      the companies and makers themselves.
+      [Music venues and grassroots rooms](/perfect-for/music-venues/) covers
+      a room with its own programme, and
+      [comedy nights](/perfect-for/comedy-nights/) covers single nights
+      rather than a run.
   - type: cta
     button:
       text: Get Started

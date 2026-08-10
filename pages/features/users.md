@@ -38,9 +38,14 @@ blocks:
       each person gets their own account and session.
 
       **Owners** have full access: events, calendar, users, settings, and
-      logs. **Managers** can see events and the calendar, making them ideal
-      for door staff or volunteers who need to check people in without
-      accessing sensitive settings.
+      logs.
+
+      **Managers** run the back office day to day. They reach events, the
+      calendar, attendees, the ledger and the deliveries run sheet, which
+      covers a paid member of staff or a committee volunteer who handles
+      bookings. What stays with the owner is inviting other people, holiday
+      dates, email settings, the public site's own pages, and the keys that
+      let [other software](/features/public-api/) connect to the site.
 
       **[Editors](/features/editors/)** are content-only accounts. They can
       write listings, groups, and your public site content, but they hold

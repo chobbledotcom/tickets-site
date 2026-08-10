@@ -43,6 +43,9 @@ blocks:
 
       Clients choose a date, answer intake questions and pay without creating an account. Booking windows set the required notice and how far ahead each session can be booked.
 
+      The same setup covers one-to-one training, small-group sessions,
+      bootcamps, running clubs and sports coaching.
+
       Chobble Tickets does not provide an open appointment timetable. Trainers publish each offered service or recurring time as its own listing.
     figure_src: /images/screenshots/industry-personal-trainer-booking.png
     figure_alt: Personal training session checkout with a date, quantity and training goal question
@@ -87,6 +90,15 @@ blocks:
       - icon: hugeicons:csv-02
         description: Export session lists, question answers, prices and payment references as CSV files.
         name: <a href="/features/csv-export/">Session exports</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Classes and courses](/perfect-for/classes-and-courses/) covers
+      term-length timetables. [Sports clubs](/perfect-for/sports-clubs/)
+      covers subs and club sessions, and
+      [personal stylists](/perfect-for/personal-stylists/) covers the same
+      deposit and intake pattern for another service.
   - type: cta
     button:
       text: Start for £5

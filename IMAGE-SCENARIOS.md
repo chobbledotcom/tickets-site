@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 156 rendered client pages. A page counts as illustrated
+This audit covers all 162 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 154 | 63 | 91 |
+| Editorial pages in the sitemap | 160 | 64 | 96 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **156** | **63** | **93** |
+| **All rendered pages** | **162** | **64** | **98** |
 
-The 91 editorial pages are the main illustration backlog. The two utility
+The 96 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -130,6 +130,11 @@ pages are listed separately at the end.
 | `pages/perfect-for/scare-attractions.md` | [x] Admin screenshot: `industry-scare-attraction-calendar` | Hollowtree Scare Trail's admin calendar with bookings on two nights and 25 of 40 places remaining on the selected Friday. | Shows per-night bookings and remaining capacity for a seasonal attraction. |
 | `pages/perfect-for/class-reunions.md` | [x] Attendee screenshot: `industry-class-reunion-booking` | The Class of 2006 Reunion Dinner checkout with a menu choice question, a dietary requirements answer and a £38 total. | Shows the checkout collecting what the caterer needs. |
 | `pages/perfect-for/fetes-and-fairs.md` | [x] Admin screenshot: `industry-village-fete-ledger` | Meadowfield Village Fete's ledger statement showing advance gate sales, gate cash recorded as manual income, a cost and the net figure. | Shows the treasurer's single set of figures across online and cash income. |
+| `pages/perfect-for/pubs-and-taprooms.md` | Admin screenshot: `taproom-repeating-quiz-night` | The Bridgefield Tap's Tuesday quiz as a daily listing, with 12 free table places per date, two December dates blacked out for the closure, and one date's bookings listed beside the remaining places. | Shows a repeating night set up once, with free bookings and closed weeks, rather than a generic checkout. |
+| `pages/perfect-for/music-venues.md` | Admin screenshot: `grassroots-venue-door-list` | The Lantern Rooms' Friday show at 120 places, showing advance bookings, three manually added guest-list names, cash sales recorded on the night and 94 checked in. | Shows advance sales, the guest list and the door as one record, without implying reserved seating. |
+| `pages/perfect-for/community-centres.md` | Admin screenshot: `village-hall-two-jobs` | Meadowfield Village Hall's calendar for one week, with the main hall hired for a Saturday party at capacity one, the Tuesday lunch club taking free places, and a Thursday held for floor repairs as a servicing hold. | Shows hire and the hall's own programme in one calendar, and makes whole-day booking visible. |
+| `pages/perfect-for/performers-and-artists.md` | Attendee screenshot: `artist-own-domain-checkout` | A checkout on an artist's own domain with no Chobble branding, a £12 ticket with nothing added to the total, and a pay-what-you-want option above a £5 minimum for a work-in-progress date. | Shows the artist's own front door and the price the audience actually pays. |
+| `pages/perfect-for/free-events.md` | Attendee screenshot: `library-story-time-signup` | Northgate Library's Tuesday story time with 20 places on the chosen date, name and email only, an access needs question, and a confirmation with a QR code and no payment step. | Shows registration with no payment provider and no more data collected than the session needs. |
 
 ## Guide Pages
 

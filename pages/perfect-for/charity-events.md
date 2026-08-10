@@ -32,6 +32,9 @@ blocks:
       fundraising collections and raffles,
       [purchasable events](/features/purchasable-events/) let you collect
       donations and payments without a physical event to attend.
+
+      The same setup covers charity balls, sponsored walks, quiz nights,
+      coffee mornings, carol concerts and gala dinners.
     figure_src: /images/screenshots/charity-family-fun-day-checkout.png
     figure_alt: A family fun day checkout with two adult tickets and two kids tickets selected
     figure_caption: One group checkout can offer several ticket types in the same booking.
@@ -48,6 +51,16 @@ blocks:
       - icon: hugeicons:notification-03
         description: Get notified instantly when someone books and integrate with your existing tools and workflows.
         name: Webhooks
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Fundraising and donations](/perfect-for/fundraising/) covers
+      collections with no event attached.
+      [Fetes and fairs](/perfect-for/fetes-and-fairs/) covers gate admission
+      and stall pitches, and
+      [free events that still need a headcount](/perfect-for/free-events/)
+      covers events with no payment at all.
   - type: cta
     button:
       text: Get Started

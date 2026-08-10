@@ -32,6 +32,10 @@ blocks:
       And because Chobble Tickets only collects the fields you choose, your
       attendees don't share their home address, phone number, and card details
       with a third-party platform.
+
+      The same setup covers craft and maker workshops, cookery classes,
+      writing days, photography walks, first aid training and wellbeing
+      sessions.
     figure_items:
       - icon: hugeicons:ticket-01
         text: 12 seats × £15 = £180
@@ -93,6 +97,16 @@ blocks:
       - icon: hugeicons:calendar-03
         description: For recurring sessions like weekly yoga classes or monthly supper clubs, set up daily events with per-date capacity and let people book the session that suits them.
         name: Recurring sessions
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Classes and courses](/perfect-for/classes-and-courses/) covers a
+      repeating term rather than a single day.
+      [Performers and artists](/perfect-for/performers-and-artists/) covers
+      makers teaching alongside their own shows, and
+      [community centres and village halls](/perfect-for/community-centres/)
+      covers the rooms workshops run in.
   - type: cta
     button:
       text: Get Started

@@ -32,6 +32,9 @@ blocks:
       bookings automatically before each departure, so you know the group
       size before you set off. A purchase limit caps how many places one
       person can book.
+
+      The same setup covers walking tours, ghost walks, brewery and
+      distillery tours, museum tours, wildlife walks and boat trips.
     figure_items:
       - icon: hugeicons:calendar-03
         text: Guests pick a date from a calendar.
@@ -58,7 +61,8 @@ blocks:
       If weather cancels a departure, each booking for that date can be
       [refunded](/features/refunds/) from the admin panel, and
       [bulk email](/features/bulk-email/) sends one message to the
-      tour's booked guests, skipping anyone who has unsubscribed.
+      tour's booked guests. News about a booking reaches everyone booked,
+      including anyone who has unsubscribed from promotions.
     figure_src: /images/screenshots/industry-guided-tour-booking.png
     figure_alt: A ghost walk booking form with a date selected, two places chosen, a mobility question answered, and a £28 total
     figure_caption: A guest picks a date, answers the mobility question, and the guide sees the answer before the walk.
@@ -75,6 +79,16 @@ blocks:
       - icon: hugeicons:money-send-02
         description: Refund a single booking, or every booking on a listing, from the admin panel.
         name: <a href="/features/refunds/">Refunds</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Attractions and days out](/perfect-for/attractions-and-days-out/)
+      covers dated admission to a site.
+      [Scare attractions](/perfect-for/scare-attractions/) covers timed
+      entry for a short season, and
+      [pubs and taprooms](/perfect-for/pubs-and-taprooms/) covers brewery
+      tours run from the taproom.
   - type: cta
     button:
       text: Get Started

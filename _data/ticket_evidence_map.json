@@ -143,6 +143,19 @@
       "socialHeading": "Keep one accounting ledger",
       "socialKey": "ledger"
     },
+    "one-days-audience": {
+      "alt": "A screenshot of the bulk email page addressed to attendees of the Course on Tuesday 11 August 2026, saying it reaches 1 recipient",
+      "assetProfile": "mobile",
+      "caption": "The compose page names the listing and the one day the message is aimed at, and counts who that day reaches.",
+      "caseId": "writing.one-day-hears-and-the-others-do-not",
+      "galleryCaption": "A bulk email addressed to one day of a course rather than to the whole term.",
+      "legacyDestinationPath": "images/screenshots/one-days-audience.png",
+      "page": "pages/perfect-for/online-events.md",
+      "reviewed": "d6a9a4d01ae14c746499a1e9e138b38dd4615c3d687c34ad664a685c4b0a4a25",
+      "socialBody": "A course booked date by date can be written to one date at a time. Choose the date on the attendee list, and the message reaches that date's people rather than everyone booked on the term.",
+      "socialHeading": "Email one date of a course",
+      "socialKey": "one-days-audience"
+    },
     "page-anybody-can-read": {
       "alt": "A screenshot of a public site page called Directions, reached from the site's own navigation alongside Home and Listings",
       "assetProfile": "mobile",
@@ -281,7 +294,7 @@
       "galleryCaption": "A listing booked by the day, saying each booking lasts three days.",
       "legacyDestinationPath": "images/screenshots/multi-day-hire.png",
       "page": "pages/features/multi-day-hire.md",
-      "reviewed": "fac6a3fcff99e9994fb9115b6ae2e8de2029ee4ad154864199e4aa420519cc29",
+      "reviewed": "9c685e03662a29729ce1a60c6b2875f7659e2abc8f698a057870a0b2b5c87c6d",
       "socialBody": "Set how many days one booking covers. The length is on the listing's own page, and the days a booking covers use capacity when its payment is confirmed.",
       "socialHeading": "Book several days at once",
       "socialKey": "multi-day-hire"

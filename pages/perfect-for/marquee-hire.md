@@ -34,6 +34,9 @@ blocks:
       [terms and conditions](/features/terms-and-conditions/) before they
       can book, and [postcode lookup](/features/postcode-lookup/) reduces the
       amount of address information the customer needs to type.
+
+      The same setup covers wedding marquees, tipis, stretch tents, event
+      structures and the furniture hired alongside them.
     figure_items:
       - icon: hugeicons:calendar-add-01
         text: Customers choose hire dates and duration.
@@ -81,6 +84,15 @@ blocks:
       - icon: hugeicons:location-01
         description: Customers type their postcode and pick their address, so site addresses arrive accurate.
         name: <a href="/features/postcode-lookup/">Postcode lookup</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Equipment hire](/perfect-for/equipment-hire/) covers day-based stock
+      with the same duration pricing. [Caterers](/perfect-for/caterers/)
+      covers the catering side of the same events, and
+      [venue and room hire](/perfect-for/venue-hire/) covers fixed rooms
+      rather than structures.
   - type: cta
     button:
       text: Get Started

@@ -29,6 +29,9 @@ blocks:
       You can run Chobble Tickets on your own infrastructure. Payment, email,
       SMS, address lookup and webhook providers receive data only when those
       optional services are configured.
+
+      The same setup covers branch and union meetings, campaign launches,
+      canvassing sessions, hustings, conferences and organising trainings.
     figure_items:
       - icon: hugeicons:lock
         text: Attendee data is encrypted at rest.
@@ -49,6 +52,16 @@ blocks:
       - icon: hugeicons:security-check
         description: Built by a community interest company. There is no advertising revenue and no data economy subsidising the price.
         name: No data harvesting
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Community centres and village halls](/perfect-for/community-centres/)
+      covers the rooms these meetings happen in.
+      [Private adult events](/perfect-for/adult-parties/) covers the same
+      encrypted guest lists, and
+      [free events that still need a headcount](/perfect-for/free-events/)
+      covers meetings with no ticket price.
   - type: cta
     button:
       text: Get Started

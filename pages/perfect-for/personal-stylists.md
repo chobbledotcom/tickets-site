@@ -43,6 +43,9 @@ blocks:
 
       [Custom questions](/features/custom-questions/) can ask about style goals, sizes, colours, access needs or the purpose of an appointment. Optional extras and answer-based prices update the order total before payment.
 
+      The same setup covers colour analysis, wardrobe edits, personal
+      shopping trips, bridal styling and image consultations.
+
       Chobble Tickets does not provide a general appointment diary. Each service or recurring start time is published as its own listing.
     figure_src: /images/screenshots/industry-personal-stylist-booking.png
     figure_alt: Personal styling consultation checkout asking about style goals and preferred session format
@@ -87,6 +90,15 @@ blocks:
       - icon: hugeicons:globe-02
         description: Use the included public site, connect a domain or place the booking form inside an existing website.
         name: <a href="/features/your-public-website/">Booking website</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Personal trainers](/perfect-for/personal-trainers/) covers the same
+      one-to-one booking pattern. [Workshops](/perfect-for/workshops/)
+      covers group sessions, and
+      [classes and courses](/perfect-for/classes-and-courses/) covers
+      repeating session times.
   - type: cta
     button:
       text: Start for £5

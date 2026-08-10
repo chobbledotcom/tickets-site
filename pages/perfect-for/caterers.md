@@ -43,6 +43,10 @@ blocks:
 
       [Custom questions](/features/custom-questions/) collect guest numbers, dietary requirements, access details and service notes. Radio or select answers can trigger a price change, and optional paid extras can be added through price modifiers.
 
+      The same setup covers wedding caterers, buffet and hog roast services,
+      street food traders, corporate lunch providers and afternoon tea
+      services.
+
       This setup suits caterers with published services and prices. Chobble Tickets does not manage quotation stages, ingredients, recipes, kitchen production or staff rotas.
     figure_src: /images/screenshots/industry-catering-booking.png
     figure_alt: Catering checkout with a buffet service, guest requirements and a paid crockery extra
@@ -87,6 +91,16 @@ blocks:
       - icon: hugeicons:tag-01
         description: Offer customer-selected extras or change the price when a customer chooses a specified answer.
         name: <a href="/features/promo-codes-and-add-ons/">Extras and price rules</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Marquee hire](/perfect-for/marquee-hire/) covers multi-day bookings
+      with setup and teardown crews.
+      [Venue and room hire](/perfect-for/venue-hire/) covers day-based room
+      bookings, and
+      [food and drink festivals](/perfect-for/food-and-drink-festivals/)
+      covers session tickets and tasting add-ons.
   - type: cta
     button:
       text: Start for £5

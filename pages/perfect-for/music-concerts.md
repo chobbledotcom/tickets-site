@@ -27,6 +27,9 @@ blocks:
       can set fixed prices or enable pay-what-you-want for donation-based gigs.
 
       **50% discount for musicians and artists** - £25/year on the annual plan.
+
+      The same setup covers gigs, album launches, acoustic evenings,
+      classical and choral concerts, tribute shows and all-dayers.
     figure_items:
       - icon: hugeicons:money-receive-square
         text: £50/year or £5/month flat fee.
@@ -45,6 +48,15 @@ blocks:
       - icon: hugeicons:money-send-02
         description: Handle individual or bulk refunds from the admin panel, with automatic refunds if you need to cancel.
         name: Easy refunds
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Music venues and grassroots rooms](/perfect-for/music-venues/) covers
+      a room running a whole programme.
+      [Performers and artists](/perfect-for/performers-and-artists/) covers
+      selling your own dates, and [festivals](/perfect-for/festivals/)
+      covers passes and camping.
   - type: cta
     button:
       text: Get Started

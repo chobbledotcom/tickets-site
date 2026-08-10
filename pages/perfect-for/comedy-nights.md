@@ -31,6 +31,9 @@ blocks:
       For new-material and work-in-progress nights,
       [pay-what-you-want pricing](/features/stripe-and-square/) lets the
       audience choose an amount above a minimum you set.
+
+      The same setup covers stand-up clubs, improv nights, open mic rooms,
+      sketch shows, work-in-progress previews and touring headline dates.
     figure_items:
       - icon: hugeicons:money-receive-square
         text: A £10 ticket costs the audience £10.
@@ -74,6 +77,16 @@ blocks:
       - icon: hugeicons:money-send-02
         description: Refund one booking, or every booking on a cancelled show's listing, from the admin panel.
         name: <a href="/features/refunds/">Refunds</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Music venues and grassroots rooms](/perfect-for/music-venues/) covers
+      a room with a programme rather than one night.
+      [Performers and artists](/perfect-for/performers-and-artists/) covers
+      selling your own dates, and
+      [theatre and performing arts](/perfect-for/theatre-and-performing-arts/)
+      covers a run of performance dates.
   - type: cta
     button:
       text: Get Started

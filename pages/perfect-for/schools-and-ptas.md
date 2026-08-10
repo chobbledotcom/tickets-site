@@ -43,6 +43,10 @@ blocks:
 
       Each event has its own price, capacity, sale window and terms. Parents can book for more than one child in one order, and office staff can add cash sales as [manual attendees](/features/manual-attendees/) so the door list stays complete.
 
+      The same setup covers school discos, summer and Christmas fairs,
+      nativity and concert tickets, quiz nights, uniform sales and trip
+      payments.
+
       Personal data is [encrypted in the database](/features/encrypted/). Chobble does not use attendee details to advertise other events.
     figure_src: /images/screenshots/oakfield-primary-summer-disco-checkout.png
     figure_alt: School disco checkout asking for a child's class and allergy information
@@ -52,7 +56,7 @@ blocks:
     content: |
       ## Give the treasurer a complete money record
 
-      Card payments, refunds, booking balances and manual entries feed the [double-entry ledger](/features/ledger/). Owners can record cash takings, bank transfers and event costs, then filter the ledger and export records for the committee.
+      Card payments, refunds, booking balances and manual entries feed the [double-entry ledger](/features/ledger/). Owners can record cash takings, bank transfers and event costs, then filter the ledger by date for the committee's report.
 
       [Purchasable listings](/features/purchasable-events/) handle raffle entries, donations, merchandise and trip contributions that do not need a door check. Chobble Tickets sells raffle entries but does not run the draw.
 
@@ -85,8 +89,18 @@ blocks:
         description: Combine adult and child tickets into family bundles, with fixed quantities and a separate package price.
         name: <a href="/features/packages/">Family packages</a>
       - icon: hugeicons:csv-02
-        description: Export attendance, answers, payment references and ledger records for registers and committee reporting.
+        description: Export attendance, answers and payment references for registers and committee reporting.
         name: <a href="/features/csv-export/">CSV reports</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Fetes and fairs](/perfect-for/fetes-and-fairs/) covers the same gate
+      and stall records outside a school.
+      [Fundraising and donations](/perfect-for/fundraising/) covers
+      collections with nothing to attend, and
+      [charity events](/perfect-for/charity-events/) covers the reduced
+      community price.
   - type: cta
     button:
       text: Start for £5

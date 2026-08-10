@@ -1,0 +1,52 @@
+/* An evening class's admin: warm paper, one deep teal, a plain heading. */
+:root {
+  --border-radius: 4px;
+  --color-accent: #0f6b6b;
+  --color-bg: #f6f3ec;
+  --color-bg-secondary: #ffffff;
+  --color-link: #0f5f5f;
+  --color-secondary: #1d3a3a;
+  --color-secondary-accent: #e8f0ef;
+  --color-shadow: #1d3a3a1a;
+  --color-table: #1d3a3a;
+  --color-text: #23282a;
+  --color-text-secondary: #6d7477;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background: #fff;
+  border: 1px solid #ddd8cc;
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 10px 24px var(--color-shadow);
+  padding: 1rem;
+}
+
+main h1 {
+  font-size: 1.4rem;
+}
+
+/* The half-finished-setup banner and the admin navigation belong to whoever
+ * is signed in, not to what this case proves. */
+.settings-nag-banner,
+main nav:not(.entity-tabs),
+.entity-tabs {
+  display: none;
+}
+
+/* The message body and the template controls are the owner's writing. What
+ * this case proves is who the writing would reach, so the editor, its toolbar
+ * and its character count all go. */
+main label:has(textarea),
+main :has(> textarea[data-markdown-preview]),
+main [data-markdown-toolbar],
+main [data-markdown-actions],
+main button[formaction] {
+  display: none;
+}
+
+/* The named recipients line is the point: it says the listing and the day. */
+main strong {
+  color: var(--color-secondary);
+}

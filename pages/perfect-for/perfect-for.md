@@ -16,6 +16,24 @@ blocks:
   - type: features
     intro_content: "## Uses for Chobble Tickets"
     items:
+      - icon: hugeicons:restaurant-01
+        description: Sell tickets for quiz nights, live music and supper clubs, and take free bookings for the nights you do not charge for.
+        name: <a href="/perfect-for/pubs-and-taprooms/">Pubs and taprooms</a>
+      - icon: hugeicons:music-note-03
+        description: Run a whole programme of shows with advance sales, the guest list and the door in one record.
+        name: <a href="/perfect-for/music-venues/">Music venues</a>
+      - icon: hugeicons:chair-01
+        description: Take hall hire bookings and run the centre's own classes and clubs, at the reduced community price.
+        name: <a href="/perfect-for/community-centres/">Community centres and village halls</a>
+      - icon: hugeicons:mask-theater-01
+        description: Sell your own gig, show and workshop dates on your own domain, at the reduced artist price.
+        name: <a href="/perfect-for/performers-and-artists/">Performers and artists</a>
+      - icon: hugeicons:user-group
+        description: Take sign-ups for events with no ticket price, with capacity, questions, check-in and encrypted records.
+        name: <a href="/perfect-for/free-events/">Free events</a>
+      - icon: hugeicons:global
+        description: Take registrations for online and hybrid sessions, then email the joining link to the people who booked.
+        name: <a href="/perfect-for/online-events/">Online and hybrid events</a>
       - icon: hugeicons:baby-01
         description: Publish each regular session time, set capacity for every date and scan bookings at the door with a phone.
         name: <a href="/perfect-for/stay-and-play/">Soft play and stay-and-play</a>

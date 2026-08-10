@@ -34,6 +34,10 @@ blocks:
       When a new term starts,
       [duplicate events](/features/duplicate-events/) clone last term's
       setup without re-entering the details.
+
+      The same setup covers yoga and pilates classes, language courses,
+      pottery and art classes, dance schools, swimming lessons and adult
+      education terms.
     figure_items:
       - icon: hugeicons:calendar-03
         text: Students pick a session from a calendar.
@@ -53,7 +57,9 @@ blocks:
       fee at booking and send a link to pay the balance later.
 
       [Bulk email](/features/bulk-email/) sends a message to everyone
-      booked on a class, with previews, drafts, and an unsubscribe link.
+      booked on a class, with previews and drafts. News about the class
+      reaches everyone booked; a promotion carries an unsubscribe link and
+      skips anyone who has used one.
       Attendee lists export as [CSV](/features/csv-export/) for registers
       and planning.
 
@@ -79,8 +85,17 @@ blocks:
         description: Require students to add a materials kit or other extra when they book a course.
         name: <a href="/features/parent-child-listings/">Parent/child listings</a>
       - icon: hugeicons:mail-send-01
-        description: Send targeted emails to everyone booked on a class, with previews, drafts, and a public unsubscribe link.
+        description: Send targeted emails to everyone booked on a class, with previews and drafts, through your own email provider.
         name: <a href="/features/bulk-email/">Bulk email</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Workshops](/perfect-for/workshops/) covers one-off sessions rather
+      than a term. [Personal trainers](/perfect-for/personal-trainers/)
+      covers one-to-one bookings, and
+      [performers and artists](/perfect-for/performers-and-artists/) covers
+      teaching alongside gigs and shows.
   - type: cta
     button:
       text: Get Started

@@ -60,6 +60,8 @@ blocks:
         caption: Service events hold places without adding a customer to the list.
       - image: /images/screenshots/payment-provider-choice__facebook.png
         caption: Payment provider settings with Stripe selected and its saved test key.
+      - image: /images/screenshots/one-days-audience__facebook.png
+        caption: A bulk email addressed to one day of a course rather than to the whole term.
       - image: /images/screenshots/equipment-hire-booking__facebook.png
         caption: Equipment hire booking — pick dates and quantities for each item.
       - image: /images/screenshots/multi-day-hire__facebook.png
