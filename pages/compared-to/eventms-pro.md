@@ -148,6 +148,7 @@ blocks:
       - Online ticket sales with QR code check-in at the door
       - Free RSVP tickets and pay-what-you-want pricing
       - Discount or coupon codes
+      - Email campaigns to segments of your attendees
       - Stripe payment processing
       - A self-hosting option, so attendee data can stay on your own server
       - Calendar (iCal) feeds for events
@@ -169,8 +170,6 @@ blocks:
         questions
       - **Attendee reviews** - collect and moderate reviews on events
       - **Venue directory** - a browsable directory of venues with galleries
-      - **Newsletter and bulk campaigns** - send marketing emails to your
-        audience from within the platform
       - **Ad spot marketplace** - sell advertising slots on your site
       - **Native push notifications** - send push alerts as well as email
   - type: markdown
@@ -190,9 +189,10 @@ blocks:
         server to install or maintain; EventMS Pro is self-hosted only
       - **[Square and SumUp payments](/features/stripe-and-square/)** - Chobble
         Tickets supports Stripe, Square and SumUp
-      - **[Encryption at rest](/features/encrypted/)** - attendee data is
-        encrypted, so a copy of the database cannot be read without the
-        organiser's private key (the encryption uses RSA-OAEP + AES-256-GCM)
+      - **[Encryption at rest](/features/encrypted/)** - attendees' names and
+        contact details are encrypted with the organiser's key, so a copy of
+        the database does not reveal them (the encryption uses RSA-OAEP +
+        AES-256-GCM)
       - **[Custom email providers](/features/email-providers/)** - send
         confirmations through Resend, Postmark, SendGrid or Mailgun, from your
         own domain
@@ -229,8 +229,8 @@ blocks:
       AGPL-3.0-only in a public
       [GitHub repository](https://github.com/chobbledotcom/tickets). You can
       read it, fork it and run the software without paying Chobble a licence
-      fee. Attendee data is encrypted at rest, so stored names and emails
-      require credentials for an authorised keyed user.
+      fee. Attendees' personal data is encrypted at rest, so stored names and
+      contact details require credentials for an authorised keyed session.
 
       Self-hosting either product keeps attendee data on your own server. The
       difference is that EventMS Pro charges a large one-time fee for a closed
@@ -240,19 +240,21 @@ blocks:
     content: |
       ## Self-hosting and running costs
 
-      EventMS Pro runs on your own server. Its published requirements are PHP
-      8.2 or newer, MySQL 8, Redis and Node 20, on a VPS or dedicated server it
-      estimates at $20 to $40 a month (about £16 to £31).
+      EventMS Pro runs on your own server. Its published requirements are the
+      PHP programming language (8.2 or newer), a MySQL 8 database, and Redis and
+      Node 20, on a VPS (a rented server the operator sets up and keeps running)
+      or dedicated server it estimates at $20 to $40 a month (about £16 to £31).
 
       It also uses free-tier accounts for Stripe or PayPal, Pusher and
       Cloudinary. You keep the server running, patched and backed up, and after
       the first six months updates and new work are billed separately.
 
-      Chobble's managed hosting has no server to run at all; Chobble keeps it
-      online, updated and backed up for the annual fee. If you prefer to
-      self-host, Chobble Tickets compiles to a single JavaScript file that runs
-      on serverless edge infrastructure with an edge database, so there is no
-      always-on application server to maintain.
+      Chobble's managed hosting has no server to run at all; Chobble hosts the
+      site and deploys updates for the annual fee, with backup and restore tools
+      in the admin panel. If you prefer to self-host, the recommended Bunny Edge
+      deployment compiles Chobble Tickets to a single JavaScript file with an
+      edge database, so there is no always-on server to maintain, and a Docker
+      deployment on your own host is also supported.
 
       Both approaches keep attendee data off a shared public marketplace. The
       difference is how much infrastructure you run yourself, and whether updates
@@ -267,8 +269,8 @@ blocks:
       - You want a one-time perpetual licence with a single payment and no
         recurring platform fee
       - You want PayPal alongside Stripe
-      - You want built-in reviews, a help desk, newsletters or an ad marketplace
-        on your site
+      - You want built-in reviews, a help desk or an ad marketplace on your
+        site
       - You are comfortable running and maintaining your own server, and paying
         for updates after the first six months
   - type: markdown
