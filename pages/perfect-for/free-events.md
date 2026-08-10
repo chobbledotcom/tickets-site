@@ -76,8 +76,9 @@ blocks:
 
       When a session has to move, you can
       [email everyone booked on it](/features/bulk-email/) through your
-      own email provider. News about a booking reaches everyone booked,
-      including anyone who has unsubscribed from promotions.
+      own email provider. News about a booking reaches everyone who left
+      an email address, including anyone who has unsubscribed from
+      promotions.
     figure_items:
       - icon: hugeicons:mail-01
         text: Confirmation emails on free bookings.
@@ -87,11 +88,13 @@ blocks:
         text: Access needs asked at sign-up.
   - type: split-icon-links
     content: |
-      ## Collect less, and keep it private
+      ## Data collection and privacy
 
       You choose which contact fields a listing asks for, in any
       combination of email, phone and postal address, so a free talk need
-      not collect a home address it will never use.
+      not collect a home address it will never use. Keep the email address
+      if you may need to tell people the session has moved, because that
+      is where the message goes.
 
       Names, contact details and answers are
       [encrypted in the database](/features/encrypted/). Chobble does not

@@ -62,7 +62,7 @@ blocks:
   - type: split-icon-links
     reverse: true
     content: |
-      ## Free nights and paid nights work the same way
+      ## Setting up a free night and a ticketed one
 
       A free listing needs no payment provider at all. Quiz teams claim a
       table through a [sign-up form](/features/sign-up-forms/) with a place

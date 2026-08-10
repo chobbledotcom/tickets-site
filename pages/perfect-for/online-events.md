@@ -103,8 +103,9 @@ blocks:
       places, and the group gives both a single page to link to.
 
       People in the room are [checked in](/features/qr-code-check-ins/)
-      with a phone camera as usual. Online attendees are not, so
-      attendance figures cover the room rather than the whole audience.
+      by scanning a phone camera over their ticket. An online attendee has
+      no ticket to scan, so their place is only marked as attended if you
+      search the list and check them in by hand.
 
       Because the two are separate listings, the joining link goes to the
       online listing's attendees only, and a change of venue goes to the
