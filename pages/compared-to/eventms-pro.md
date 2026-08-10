@@ -64,8 +64,8 @@ blocks:
 
       The two suit different buyers. An organiser who wants a managed service
       with a small recurring fee pays £50/year with Chobble Tickets. EventMS
-      Pro is a large upfront purchase for running your own multi-vendor
-      ticketing marketplace.
+      Pro is a large upfront purchase for running a ticketing marketplace where
+      many organisers sell through one installation.
   - type: markdown
     content: |
       ## Two approaches to ticketing
@@ -91,8 +91,8 @@ blocks:
 
       Which one fits depends on the shape you want. EventMS Pro puts many
       organisers in one shared marketplace with cross-event discovery. Chobble
-      Tickets keeps each organiser on a separate, private site, whether you run
-      one or host many.
+      Tickets keeps each organiser on a separate, standalone site, whether you
+      run one or host many.
 
       Other self-hosted and open source comparisons cover
       [Hi.Events](/compared-to/hi-events/), [Pretix](/compared-to/pretix/),
@@ -159,7 +159,7 @@ blocks:
       - **Shared public marketplace** - many organisers' events sit in one
         public catalogue on a single install, with an approval workflow for new
         events and cross-event discovery (Chobble gives each organiser a
-        separate private site instead, described below)
+        separate standalone site instead, described below)
       - **Visual seating charts** - reserved seats with an interactive seat map
         (Chobble Tickets uses shared capacity, not allocated seats)
       - **PayPal payments** - Chobble Tickets supports Stripe, Square and SumUp,
@@ -274,9 +274,8 @@ blocks:
       edge database, so there is no always-on server to maintain, and a Docker
       deployment on your own host is also supported.
 
-      Both approaches keep attendee data off a shared public marketplace. The
-      difference is how much infrastructure you run yourself, and whether updates
-      are included in a recurring fee or billed after an initial period.
+      The difference is how much infrastructure you run yourself, and whether
+      updates are included in a recurring fee or billed after an initial period.
   - type: markdown
     content: |
       ## When EventMS Pro is the better choice
@@ -296,9 +295,9 @@ blocks:
       ## When Chobble Tickets is the better choice
 
       - You want managed hosting with no server to run and maintain
-      - You want to host many organisers as separate, individually encrypted
-        sites with the included [site builder](/features/deployment/), rather
-        than one shared install
+      - You want to host many organisers as separate sites, each with its own
+        database and encryption key, using the included
+        [site builder](/features/deployment/) rather than one shared install
       - You prefer a small recurring fee that includes updates and support,
         rather than a large one-time payment
       - You want the full source code under an open licence

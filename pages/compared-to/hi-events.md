@@ -286,8 +286,8 @@ blocks:
 
       Hosting many organisers needs no separate tier. Rather than a paid
       multi-tenant licence, Chobble includes a
-      [site builder](/features/deployment/) that provisions a separate,
-      individually encrypted site for each organiser.
+      [site builder](/features/deployment/) that provisions a separate site for
+      each organiser, each with its own database and encryption key.
   - type: include
     file: price-comparator-selfhosted.html
   - type: markdown
