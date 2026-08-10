@@ -330,6 +330,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "TixFox fees: £0.38 per paid ticket, or £0.30 for tickets priced under £5, with the pricing page's currency selector set to pounds (US$0.39 and US$0.30 under US$5 in dollars). This calculator applies the standard £0.38 rate at every ticket price, so it does not model the reduced under-£5 rate. Free events carry no fee and there is no subscription. Ticket revenue goes directly to your own Stripe account via Stripe Connect, with Stripe processing charged separately (1.5% + 20p in the UK, as quoted on TixFox's own pricing page). TixFox platform fees are not refunded when a ticket is refunded. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: tixfox.co/pricing (August 2026)."
   },
+  "ticketted": {
+    "name": "Ticketted",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 1.8,
+    "per_ticket_fee_fixed": 0.16,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Ticketted charges 1.8% + A$0.30 on each paid sale, which this calculator converts to 1.8% + about 16p at 0.523 Australian dollars to the pound on 10 August 2026. Ticketted's own copy describes the charge both as per transaction and as per ticket; this calculator applies it per ticket, matching its one-ticket-per-payment assumption. There is no published subscription and free events carry no charge. Ticketted does not publish whether Stripe's processing charge is included in that figure, so UK Stripe processing (1.5% + 20p) is added separately here as it is for other platforms; if the charge does include processing, the real cost is lower than shown. Ticketted sells tickets for events in Australia and prices in Australian dollars, so a UK organiser cannot use it. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe, Square or SumUp processing; this calculator uses Stripe's UK rate of 1.5% + 20p. Source: ticketted.com (August 2026)."
+  },
   "qrticket": {
     "name": "QRTicket",
     "annual_cost": 0,
