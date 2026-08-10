@@ -3,6 +3,7 @@ title: Free Events - Chobble Tickets
 meta_title: Free Event Registration With a Headcount | Chobble Tickets
 meta_description: Run free events that still need a list. Free listings need no payment provider, and keep capacity, questions, confirmation emails, check-in and encrypted records.
 permalink: /perfect-for/free-events/
+ticket_evidence_capture: free-headcount-no-money
 eleventyNavigation:
   key: Free Events
   parent: Perfect For
@@ -35,7 +36,7 @@ blocks:
         label: Names and answers, at rest
       - value: £25
         label: A year for charities and community groups
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## Capacity and confirmations for free bookings
 
@@ -52,13 +53,9 @@ blocks:
       the places are gone or the
       [deadline](/features/registration-deadlines/) passes. You can also
       cap how many places one person can claim.
-    figure_items:
-      - icon: hugeicons:ticket-01
-        text: A price of zero, and no payment setup.
-      - icon: hugeicons:calendar-03
-        text: Places counted for each session date.
-      - icon: hugeicons:timer-01
-        text: Sign-ups close on a deadline you set.
+    figure_src: /images/screenshots/free-headcount-no-money.png
+    figure_alt: A screenshot of the Free Meetup listing page, showing a ticket price of Free, one of fifty places taken, and gross ticket sales of zero pounds
+    figure_caption: 'A listing given away for free still counts the places taken, and records no money against them. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/payments/free-bookings.feature">(src)</a></small>'
   - type: split-icon-links
     reverse: true
     content: |

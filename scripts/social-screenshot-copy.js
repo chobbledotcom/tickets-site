@@ -167,6 +167,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Require an add-on for each unit",
     body: "For each parent unit, customers choose one child listing from a set. A sole available child is added automatically.",
   },
+  "free-headcount-no-money": {
+    heading: "Free listings still keep a list",
+    body: "A listing priced at zero takes bookings, counts the places against its capacity and records nothing in the money figures. Its page shows the places taken and the places left.",
+  },
   "maintenance-cost-on-a-room": {
     heading: "Record what a repair cost",
     body: "A hold takes dates out of use for maintenance without adding a customer to the list. What the work cost goes against the room it was spent on, so the repair reaches that room's money record.",

@@ -163,6 +163,8 @@ jobs:
             images/screenshots/oakfield-homepage-editor__facebook.png
             images/screenshots/oakfield-public-website.png
             images/screenshots/oakfield-public-website__facebook.png
+            images/screenshots/free-headcount-no-money.png
+            images/screenshots/free-headcount-no-money__facebook.png
             images/screenshots/one-days-audience.png
             images/screenshots/one-days-audience__facebook.png
             images/screenshots/payment-provider-choice.png
@@ -194,6 +196,7 @@ jobs:
             pages/features/activity-logs.md
             pages/perfect-for/community-centres.md
             pages/perfect-for/online-events.md
+            pages/perfect-for/free-events.md
             pages/features/backups.md
             pages/features/customising-your-site.md
             pages/features/csv-export.md

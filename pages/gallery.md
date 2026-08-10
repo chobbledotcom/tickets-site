@@ -62,6 +62,8 @@ blocks:
         caption: A maintenance cost recorded against the room it was spent on.
       - image: /images/screenshots/payment-provider-choice__facebook.png
         caption: Payment provider settings with Stripe selected and its saved test key.
+      - image: /images/screenshots/free-headcount-no-money__facebook.png
+        caption: A free listing's own page, showing one place taken and no money recorded.
       - image: /images/screenshots/one-days-audience__facebook.png
         caption: A bulk email addressed to one day of a course rather than to the whole term.
       - image: /images/screenshots/equipment-hire-booking__facebook.png

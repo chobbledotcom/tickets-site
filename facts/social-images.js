@@ -558,6 +558,21 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "free-headcount-no-money": [
+    {
+      fact: "A listing priced at zero takes a booking without recording any money against it, and records no booking fee even when the site has one configured.",
+      sources: [
+        "../tickets/specs/payments/free-bookings.feature:10-17",
+        "../tickets/test/specs/steps/money-actions.ts:69-84",
+      ],
+    },
+    {
+      fact: "The booking still counts against the listing's capacity, so the listing page shows the places taken and the places left.",
+      sources: [
+        "../tickets/src/features/admin/listing-page-data.ts:169-215",
+      ],
+    },
+  ],
   "maintenance-cost-on-a-room": [
     {
       fact: "A service event reserves capacity on the listings it holds without creating a customer ticket.",
