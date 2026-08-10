@@ -83,9 +83,16 @@ blocks:
       runs the managed version for you, so most organisers have no server to
       install or maintain.
 
-      Which one fits depends on whether you are building a marketplace for many
-      organisers and want a one-time perpetual licence, or you want managed
-      ticketing for your own events with a small recurring fee.
+      A technical provider can host many organisers too. Chobble Tickets
+      includes a [site builder](/features/deployment/) that provisions a
+      separate site for each organiser on Bunny Edge or Deno Deploy, each with
+      its own database and its own encryption key. This is the same system
+      Chobble CIC uses to run its managed hosting.
+
+      Which one fits depends on the shape you want. EventMS Pro puts many
+      organisers in one shared marketplace with cross-event discovery. Chobble
+      Tickets keeps each organiser on a separate, private site, whether you run
+      one or host many.
 
       Other self-hosted and open source comparisons cover
       [Hi.Events](/compared-to/hi-events/), [Pretix](/compared-to/pretix/),
@@ -149,9 +156,10 @@ blocks:
     content: |
       ### EventMS Pro has features Chobble Tickets does not
 
-      - **Multi-vendor marketplace** - many organisers sell tickets on one
-        install, with an approval workflow for new events (Chobble Tickets runs
-        one organiser's events)
+      - **Shared public marketplace** - many organisers' events sit in one
+        public catalogue on a single install, with an approval workflow for new
+        events and cross-event discovery (Chobble gives each organiser a
+        separate private site instead, described below)
       - **Visual seating charts** - reserved seats with an interactive seat map
         (Chobble Tickets uses shared capacity, not allocated seats)
       - **PayPal payments** - Chobble Tickets supports Stripe, Square and SumUp,
@@ -203,6 +211,27 @@ blocks:
         cannot pay profit to shareholders
   - type: markdown
     content: |
+      ## Two ways to serve many organisers
+
+      Both platforms let one operator run ticketing for many organisers, but
+      the models differ.
+
+      EventMS Pro puts every organiser inside one shared install. Attendees
+      browse a single public marketplace that lists many organisers' events,
+      and an approval workflow lets the operator vet new events.
+
+      Chobble Tickets includes a [site builder](/features/deployment/) that
+      provisions a separate site for each organiser on Bunny Edge or Deno
+      Deploy, each with its own database and its own encryption key. It is part
+      of the open-source product, so self-hosting it carries no Chobble fee, and
+      it is the same system Chobble CIC uses to run its managed hosting.
+
+      The trade-off is discovery against isolation. EventMS Pro gives one public
+      catalogue where events can cross-promote each other. Chobble Tickets keeps
+      each organiser's attendees, data and encryption separate, with no shared
+      public catalogue.
+  - type: markdown
+    content: |
       ## Source code and licensing
 
       Both products can keep attendee data on your own server, but the licences
@@ -252,8 +281,8 @@ blocks:
     content: |
       ## When EventMS Pro is the better choice
 
-      - You are building a marketplace where many organisers sell tickets on one
-        site under your brand
+      - You want one shared marketplace where many organisers' events sit in a
+        single public catalogue with cross-event discovery
       - You need reserved seating with a visual seat map
       - You want a one-time perpetual licence with a single payment and no
         recurring platform fee
@@ -267,6 +296,9 @@ blocks:
       ## When Chobble Tickets is the better choice
 
       - You want managed hosting with no server to run and maintain
+      - You want to host many organisers as separate, individually encrypted
+        sites with the included [site builder](/features/deployment/), rather
+        than one shared install
       - You prefer a small recurring fee that includes updates and support,
         rather than a large one-time payment
       - You want the full source code under an open licence

@@ -283,6 +283,11 @@ blocks:
       **Chobble Tickets** is open source with no branding requirements and
       no commercial licence needed. Self-host for free, modify as you like,
       and use your own domain at no extra cost.
+
+      Hosting many organisers needs no separate tier. Rather than a paid
+      multi-tenant licence, Chobble includes a
+      [site builder](/features/deployment/) that provisions a separate,
+      individually encrypted site for each organiser.
   - type: include
     file: price-comparator-selfhosted.html
   - type: markdown
