@@ -72,9 +72,12 @@ blocks:
       preview shows the recipient count before anything is sent.
 
       Send it as news rather than as a promotion. News about something the
-      person booked reaches everyone booked, including anyone who has
-      unsubscribed from promotions, so nobody who paid is left without the
-      link.
+      person booked reaches everyone whose booking left an email address,
+      including anyone who has unsubscribed from promotions.
+
+      Ask for an email address on an online listing. Contact fields are
+      yours to choose, and an online session is the case where the email is
+      the only way in.
 
       Do not put the link in the listing's description or its location
       field. Both are public, so anyone who finds the page would have the

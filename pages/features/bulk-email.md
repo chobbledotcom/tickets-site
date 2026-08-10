@@ -51,9 +51,13 @@ blocks:
       refused rather than sent to no one.
 
       A message that is not a promotion is news about something the person
-      booked, so it reaches everyone booked whether or not they unsubscribed.
-      A moved start time, a change of room or a cancelled session reaches the
-      whole list.
+      booked, so it reaches everyone whose booking left an email address,
+      whether or not they unsubscribed. A moved start time, a change of
+      room or a cancelled session reaches the whole list.
+
+      A listing that does not ask for an email address has nowhere to send
+      one of these, so ask for an email on any listing whose attendees you
+      may need to write to.
 
       ## Unsubscribe and contact history
 

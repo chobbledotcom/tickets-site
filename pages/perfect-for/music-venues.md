@@ -63,8 +63,9 @@ blocks:
     content: |
       ## Advance sales and the door in one record
 
-      The audience pays the price on the poster, because Chobble Tickets
-      adds [no per-ticket platform fee](/features/no-per-ticket-fees/).
+      An advance ticket costs the price the venue set and nothing more,
+      because Chobble Tickets adds
+      [no per-ticket platform fee](/features/no-per-ticket-fees/).
       Stripe, Square or SumUp pays the money into the venue's own account,
       and Chobble never holds it.
 

@@ -14,7 +14,7 @@ blocks:
     content: |-
       # Free events that still need a headcount
 
-      A private view, a story time, a public meeting or a taster session takes no money and still needs a list, a limit and a way to tell everyone when it moves. Free listings need no payment provider at all.
+      A private view, a story time, a public meeting or a taster session takes no money and still needs to know who is coming, cap the numbers and reach everyone when the date moves. Free listings need no payment provider at all.
     buttons:
       - text: Start for £5
         href: https://tix.chobble.com/ticket/register
@@ -62,7 +62,7 @@ blocks:
   - type: split-icon-links
     reverse: true
     content: |
-      ## Everything a paid event gets
+      ## The tools a paid event uses, minus the payment
 
       A free booking sends the same confirmation email, carries the same
       QR code, and can be

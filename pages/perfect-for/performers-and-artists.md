@@ -104,9 +104,10 @@ blocks:
       message you mark as a promotion carries an unsubscribe link and
       skips anyone who has used one.
 
-      If you leave, you can download a full database backup and export
-      your listings and prices as JSON to move them to another Chobble
-      Tickets host.
+      If you leave, you can download a full
+      [database backup](/features/backups/) and
+      [export your listings and prices](/features/catalogue-import-export/)
+      as a file another Chobble Tickets host can import.
     figure_items:
       - icon: hugeicons:lock
         text: Attendee data encrypted at rest.

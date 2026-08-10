@@ -130,8 +130,8 @@ blocks:
         description: Check people in with a phone camera, or search the list by name at the door.
         name: <a href="/features/qr-code-check-ins/">QR check-in</a>
       - icon: hugeicons:database-restore
-        description: Download a complete database backup, and export listings as JSON to move them to another host.
-        name: <a href="/features/backups/">Backups and exports</a>
+        description: Download a complete database backup, or export a listing as a file that another Chobble Tickets site can import.
+        name: <a href="/features/backups/">Backups</a> and <a href="/features/catalogue-import-export/">catalogue transfer</a>
       - icon: hugeicons:view-off
         description: Erase a person's contact record on request, and clear out the booking records a deleted listing leaves behind.
         name: <a href="/features/privacy-controls/">Privacy controls</a>
