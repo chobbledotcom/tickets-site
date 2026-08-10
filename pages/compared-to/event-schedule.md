@@ -15,9 +15,9 @@ provider_facts:
   last_reviewed: "2026-08-10"
   registration_country: not-documented
   ethical_basis:
-    - independently-maintained
+    - not-documented
   per_ticket_platform_fee: none
-  managed_pricing: feature-tiered-volume-independent
+  managed_pricing: ticket-volume-tiered
   white_label: higher-tier
   custom_domain: higher-tier
   public_website: marketplace-pages
@@ -30,10 +30,10 @@ provider_facts:
   event_marketplace: built-in
   attendee_cross_marketing: not-documented
   notes:
-    registration_country: "The Event Schedule site and GitHub repository reviewed did not state a registering company or country. The project is published on GitHub by the makers of Invoice Ninja, and Invoice Ninja is one of the two payment options for tickets. Reviewed 10 August 2026."
-    ethical_basis: "Event Schedule is an open source project maintained on GitHub, published by the makers of the Invoice Ninja billing software. The reviewed sources did not describe a company registration, funding or ownership structure."
+    registration_country: "Event Schedule's privacy policy names the operator as Event Schedule LLC but states no country or registered address. It is made by the team behind Invoice Ninja, whose company Invoice Ninja LLC is registered in Fort Myers, Florida in the United States and which was founded and is partly based in Haifa, Israel. Event Schedule's own registering jurisdiction is not documented. Reviewed 10 August 2026."
+    ethical_basis: "The reviewed sources did not describe a company registration, funding or ownership structure for Event Schedule. Its code is published on GitHub by the makers of the Invoice Ninja billing software, which does not by itself establish an independent or community governance model."
     per_ticket_platform_fee: "Event Schedule states it charges no fee on ticket sales. Payment processing is charged separately by the organiser's own Stripe account."
-    managed_pricing: "Event Schedule has three plans, each a flat price that does not change with ticket volume: a free plan capped at 25 paid tickets a month, Pro at US$5/month or US$50/year, and Enterprise at US$15/month or US$150/year. Features are split across the three tiers."
+    managed_pricing: "Event Schedule has three plans. The free plan is capped at 25 paid tickets a month, so selling more forces an upgrade to a paid plan on ticket volume alone. Above that cap the paid plans are a flat price that does not change with volume: Pro at US$5/month or US$50/year and Enterprise at US$15/month or US$150/year, differing by features."
     white_label: "Removing Event Schedule branding requires the Pro plan or above; the free plan carries Event Schedule branding."
     custom_domain: "A custom domain requires the Enterprise plan. Self-hosted deployments can use their own domain."
     public_website: "Each organiser gets a hosted calendar page with a custom URL, and events also appear in Event Schedule's public event-discovery area."
@@ -68,10 +68,9 @@ blocks:
       ## Two open source options
 
       [Event Schedule](https://eventschedule.com) is a source-published
-      platform for event calendars, ticketing and appointment booking, built
-      with PHP, Laravel and Vue. It can be run as a hosted service on
-      eventschedule.com or self-hosted on your own server, and both are the
-      same product.
+      platform for event calendars, ticketing and appointment booking. It can
+      be run as a hosted service on eventschedule.com or self-hosted on your
+      own server, and both are the same product.
 
       This page compares the two platforms to help you decide which fits your
       needs. Other open source comparisons cover
@@ -91,11 +90,13 @@ blocks:
       sells up to 25 paid tickets a month and carries Event Schedule branding.
       Pro costs US$5/month or US$50/year (about £40/year) and adds unlimited
       ticket sales, branding removal, an API and webhooks, custom fields and
-      custom CSS. Enterprise costs US$15/month or US$150/year (about
-      £120/year) and adds custom domains, extra team members,
-      password-protected events and AI content tools. Ticket income goes to
-      the organiser's own Stripe account, with Stripe processing charged
-      separately (Event Schedule quotes US Stripe at 2.9% + US$0.30).
+      custom CSS.
+
+      Enterprise costs US$15/month or US$150/year (about £120/year) and adds
+      custom domains, extra team members, password-protected events and AI
+      content tools. Ticket income goes to the organiser's own Stripe account,
+      with Stripe processing charged separately (Event Schedule quotes US
+      Stripe at 2.9% + US$0.30).
 
       **Chobble Tickets** charges a flat £50/year or £5/month, with
       [no per-ticket platform fees](/features/no-per-ticket-fees/) and every
@@ -124,10 +125,13 @@ blocks:
       or how many features you use.
 
       Event Schedule spreads its features across three tiers. Removing its
-      branding needs the Pro plan. A custom domain and extra team members need
-      the Enterprise plan. An organiser who wants their own domain on Event
-      Schedule pays the US$150/year Enterprise rate, where the same domain is
-      included in Chobble's £50/year plan.
+      branding needs the Pro plan, and a custom domain and extra team members
+      need the Enterprise plan.
+
+      On Event Schedule's hosted service, an organiser who wants their own
+      domain pays the US$150/year Enterprise rate, where the same domain is
+      included in Chobble's £50/year plan. A self-hosted Event Schedule
+      deployment can use its own domain without that fee.
   - type: markdown
     content: |
       ## Feature comparison
@@ -153,7 +157,7 @@ blocks:
       - Embedding events or a calendar on your own website
       - Email newsletters and campaigns to your own subscribers
       - Custom fields and custom CSS
-      - Analytics on views and sales
+      - A record of tickets sold for each event
   - type: markdown
     content: |
       ### Event Schedule has features Chobble Tickets doesn't
@@ -162,10 +166,12 @@ blocks:
         Event Schedule branding
       - **Appointment booking** - guests pick an available time slot in their
         own timezone, in the style of a booking calendar (Chobble Tickets sells
-        event tickets, not appointment slots)
+        tickets to events rather than appointment slots)
       - **AI content tools** - parse event details from text or a flyer,
         generate graphics, create a brand style, and translate content into
         several languages
+      - **Page-view analytics** - views, device breakdown and traffic sources
+        for event pages
       - **Two-way Google Calendar sync and CalDAV** - events sync both ways
         with an external calendar (Chobble Tickets offers subscribe-only
         [calendar and RSS feeds](/features/rss-and-calendar-feeds/))
@@ -178,7 +184,12 @@ blocks:
       - **Multi-language content** - built-in translation of event content
   - type: markdown
     content: |
-      ### Chobble Tickets has features Event Schedule doesn't
+      ### Chobble Tickets features not documented on Event Schedule
+
+      Chobble Tickets provides the following. Event Schedule's reviewed pages
+      document some of these differently and do not mention others, so a missing
+      entry means an absence of documentation rather than a confirmed
+      limitation.
 
       - **All features in one plan** - a custom domain, white labelling, the
         API and team access are included, not split across paid tiers
@@ -229,10 +240,10 @@ blocks:
       the required attribution to Event Schedule.
 
       Chobble Tickets uses [AGPL-3.0-only](/features/open-source/), a copyleft
-      licence. Anyone who runs a modified version as a network service must
-      publish their changes under the same licence. This keeps improvements to
-      the hosted product open, where the permissive licence lets a company keep
-      its changes private.
+      licence. Anyone who offers a modified version to users over a network must
+      offer those users its source under the same licence. This keeps
+      improvements to a hosted service available to the people who use it, where
+      the permissive licence lets a company keep its changes private.
 
       For an organiser who only wants to run the software, both licences allow
       self-hosting at no software cost. The difference shows up when someone
@@ -300,15 +311,18 @@ blocks:
     content: |
       ## Who runs Event Schedule?
 
-      Event Schedule is an open source project published on GitHub by the
-      makers of Invoice Ninja, the billing software that is also one of its two
-      payment options. The sources reviewed did not name a registering company
-      or country, describe a funding structure, or set out an ownership model.
+      Event Schedule is an open source project made by the team behind Invoice
+      Ninja, the billing software that is also one of its two payment options.
+      Its privacy policy names the operator as Event Schedule LLC and states no
+      country. Invoice Ninja is run as Invoice Ninja LLC, registered in Fort
+      Myers, Florida in the United States, and was founded and is partly based
+      in Haifa, Israel.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for community
-      benefit. All of Chobble's code is public under
+      (CIC) registered in England, a UK legal structure that locks the
+      company's assets for community benefit. All of Chobble's code is public
+      under
       [AGPL-3.0-only](/features/open-source/), and the platform can be
       self-hosted by anyone without depending on Chobble as a company.
   - type: markdown
@@ -333,6 +347,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      One plan with every feature, attendee data encrypted at rest, and self-hosting without a licence fee.
+      Sign up for managed hosting at £50/year or £5/month, or self-host the same product without paying Chobble a licence fee.
 name: UK Made & Encrypted Event Schedule Alternative | Chobble Tickets
 ---
