@@ -80,8 +80,8 @@ blocks:
       everyone who left an email address, including anyone who has
       unsubscribed from promotions.
 
-      Email is addressed to a listing rather than to one of its dates, so
-      on a repeating session everyone booked on any date hears from you.
+      On a repeating session you can write to one date instead, chosen
+      from that date on the listing's attendee list.
     figure_items:
       - icon: hugeicons:mail-01
         text: Confirmation emails on free bookings.

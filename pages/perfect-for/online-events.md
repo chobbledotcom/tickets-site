@@ -45,9 +45,9 @@ blocks:
 
       A course that meets on the same link every week is one
       [daily listing](/features/daily-events/), with places counted for
-      each date. When each session has its own joining link, give each one
-      its own listing instead, because email is addressed to a listing
-      rather than to one of its dates.
+      each date. When each session has its own joining link, that still
+      works, because email can be addressed to one date of the course
+      rather than to the whole term.
 
       The same setup covers webinars, online classes and courses, remote
       workshops, talks and lectures, committee and members' meetings, and
