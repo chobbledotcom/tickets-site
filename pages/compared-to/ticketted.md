@@ -32,7 +32,7 @@ provider_facts:
   notes:
     registration_country: "Ticketted describes itself as an Australian platform with Australia-based support, prices in Australian dollars and covers events across Australia. No company name, company number or Australian Business Number was found in the sources reviewed. Checked 10 August 2026."
     ethical_basis: "No ownership, company or investor information was found in the sources reviewed."
-    per_ticket_platform_fee: "Ticketted publishes a charge of 1.8% + A$0.30 (about 16p at 0.523 to the pound on 10 August 2026). Its own copy describes this both as a per-transaction charge and as a per-ticket charge. Free events carry no charge. Whether Stripe's processing charge is included in that figure is not published."
+    per_ticket_platform_fee: "Ticketted publishes a charge of 1.8% + A$0.30 (about 16p at 52.3p to the Australian dollar on 10 August 2026). Its own copy describes this both as a per-transaction charge and as a per-ticket charge. Free events carry no charge. Whether Stripe's processing charge is included in that figure is not published."
     managed_pricing: "There is no published subscription. Ticketted is paid from the charge on each paid sale, so the total rises with ticket volume."
     white_label: "No white-labelling option was documented in the sources reviewed."
     custom_domain: "No custom-domain option was documented in the sources reviewed. Event pages are served from ticketted.com."
@@ -105,8 +105,8 @@ blocks:
     file: price-comparator.html
   - type: markdown
     content: |
-      The estimate above converts A$0.30 to about 16p, at 0.523 Australian
-      dollars to the pound on 10 August 2026. Exchange rates move, so an
+      The estimate above converts A$0.30 to about 16p, at 52.3p to the
+      Australian dollar on 10 August 2026. Exchange rates move, so an
       Australian organiser paying in Australian dollars sees a fixed
       A$0.30 rather than a moving pound figure.
   - type: markdown
@@ -134,9 +134,12 @@ blocks:
 
       - Online ticket sales with card payments through Stripe
       - Payouts to the organiser as tickets sell, not after the event
-      - Multiple ticket types per event, each with its own price and capacity
       - Event capacity limits
-      - Sale windows and early bird pricing on ticket types
+      - Several price points for one occasion, such as early bird, VIP or
+        concession, sharing one capacity limit. Chobble Tickets does this by
+        putting separate listings in a [group](/features/groups/) with a
+        shared cap, rather than ticket types inside a single event
+      - Booking cut-off times, so sales close before the event starts
       - Discount and promo codes
       - Free events with no per-ticket fee
       - Email delivery of tickets with a QR code on each one
@@ -266,7 +269,7 @@ blocks:
       - You want AI tools to write your event description and set the event up
       - You want detailed audience analytics such as buying windows and
         checkout drop-off
-      - You want telephone or round-the-clock support in Australian hours
+      - You want round-the-clock support in Australian hours
   - type: markdown
     content: |
       ## When Chobble Tickets is the better choice
