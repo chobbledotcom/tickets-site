@@ -37,7 +37,7 @@ blocks:
         label: A year for charities and community groups
   - type: split-icon-links
     content: |
-      ## A list, a limit and a confirmation
+      ## Capacity and confirmations for free bookings
 
       Set a listing's price to zero and it becomes a
       [sign-up form](/features/sign-up-forms/). No payment provider is

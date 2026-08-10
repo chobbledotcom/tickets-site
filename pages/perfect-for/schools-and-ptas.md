@@ -56,7 +56,7 @@ blocks:
     content: |
       ## Give the treasurer a complete money record
 
-      Card payments, refunds, booking balances and manual entries feed the [double-entry ledger](/features/ledger/). Owners can record cash takings, bank transfers and event costs, then filter the ledger and export records for the committee.
+      Card payments, refunds, booking balances and manual entries feed the [double-entry ledger](/features/ledger/). Owners can record cash takings, bank transfers and event costs, then filter the ledger by date for the committee's report.
 
       [Purchasable listings](/features/purchasable-events/) handle raffle entries, donations, merchandise and trip contributions that do not need a door check. Chobble Tickets sells raffle entries but does not run the draw.
 
@@ -89,7 +89,7 @@ blocks:
         description: Combine adult and child tickets into family bundles, with fixed quantities and a separate package price.
         name: <a href="/features/packages/">Family packages</a>
       - icon: hugeicons:csv-02
-        description: Export attendance, answers, payment references and ledger records for registers and committee reporting.
+        description: Export attendance, answers and payment references for registers and committee reporting.
         name: <a href="/features/csv-export/">CSV reports</a>
   - type: markdown
     content: |
