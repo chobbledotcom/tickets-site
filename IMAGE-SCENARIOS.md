@@ -18,7 +18,7 @@ and loading placeholders do not.
 | Non-indexed utility pages | 2 | 0 | 2 |
 | **All rendered pages** | **162** | **64** | **98** |
 
-The 97 editorial pages are the main illustration backlog. The two utility
+The 96 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules

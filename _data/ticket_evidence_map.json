@@ -151,9 +151,9 @@
       "galleryCaption": "A bulk email addressed to one day of a course rather than to the whole term.",
       "legacyDestinationPath": "images/screenshots/one-days-audience.png",
       "page": "pages/perfect-for/online-events.md",
-      "reviewed": "23fa0900aa4ef6f7742b2f421100e17f72508c64af66dcec8bed2f5ae5262faf",
+      "reviewed": "d6a9a4d01ae14c746499a1e9e138b38dd4615c3d687c34ad664a685c4b0a4a25",
       "socialBody": "A course booked date by date can be written to one date at a time. Choose the date on the attendee list, and the message reaches that date's people rather than everyone booked on the term.",
-      "socialHeading": "Write to one date, not the whole term",
+      "socialHeading": "Email one date of a course",
       "socialKey": "one-days-audience"
     },
     "page-anybody-can-read": {

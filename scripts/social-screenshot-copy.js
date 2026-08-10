@@ -168,7 +168,7 @@ export const SOCIAL_SCREENSHOT_COPY = {
     body: "For each parent unit, customers choose one child listing from a set. A sole available child is added automatically.",
   },
   "one-days-audience": {
-    heading: "Write to one date, not the whole term",
+    heading: "Email one date of a course",
     body: "A course booked date by date can be written to one date at a time. Choose the date on the attendee list, and the message reaches that date's people rather than everyone booked on the term.",
   },
   "payment-provider-choice": {
