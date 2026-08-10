@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 164 rendered client pages. A page counts as illustrated
+This audit covers all 165 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 162 | 66 | 96 |
+| Editorial pages in the sitemap | 163 | 66 | 97 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **164** | **66** | **98** |
+| **All rendered pages** | **165** | **66** | **99** |
 
-The 96 editorial pages are the main illustration backlog. The two utility
+The 97 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -151,6 +151,7 @@ pages are listed separately at the end.
 | `guide-pages/flat-rate-ticketing.md` | Comparison graphic: `flat-rate-pricing-curves` | Riverside sells 50, 500 and 5,000 tickets. Compare volume-independent hosting, per-sale fees, ticket-volume subscriptions, booking allowances and feature tiers, with processing separate. | Shows how apparently fixed subscriptions can still change with volume or requirements. |
 | `guide-pages/where-ticketing-money-goes.md` | Comparison graphic: `donation-pledge-breakdown` | Break a £15 ticket into face value, booking fee, service fee, payment processing and the donated share for a pledge-funded plan, beside a flat hosting fee with the ticket charge left whole. | Shows which part of an organiser's cost a donation pledge is taken from. |
 | `guide-pages/event-ticketing-systems-a-coding-agent-can-deploy.md` | Comparison graphic: `published-versus-deployed-source` | Place the reviewed providers on two axes: whether the source is published, and whether the published source is what the hosted service runs. Mark the branding and paid-plugin qualifications recorded on each comparison page, and show what remains to be maintained under each deployment shape. | Separates readable code from deployable code, which is the distinction that decides what an agent can verify. |
+| `guide-pages/open-source-ticketing-platforms.md` | Comparison graphic: `open-source-licence-matrix` | Place the reviewed providers on two axes: licence type (permissive, copyleft, open core, source-available, community-edition-versus-proprietary) and whether the hosted service runs the published code. Mark the per-ticket fee and self-hosting condition from each comparison page, and show Chobble's AGPL-3.0-only product with both managed and self-hosted paths. | Separates what publishing code means legally from what an organiser can actually run and at what cost. |
 
 ## Comparison Hubs
 
