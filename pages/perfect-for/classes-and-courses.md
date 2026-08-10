@@ -34,6 +34,10 @@ blocks:
       When a new term starts,
       [duplicate events](/features/duplicate-events/) clone last term's
       setup without re-entering the details.
+
+      The same setup covers yoga and pilates classes, language courses,
+      pottery and art classes, dance schools, swimming lessons and adult
+      education terms.
     figure_items:
       - icon: hugeicons:calendar-03
         text: Students pick a session from a calendar.
@@ -81,6 +85,15 @@ blocks:
       - icon: hugeicons:mail-send-01
         description: Send targeted emails to everyone booked on a class, with previews, drafts, and a public unsubscribe link.
         name: <a href="/features/bulk-email/">Bulk email</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Workshops](/perfect-for/workshops/) covers one-off sessions rather
+      than a term. [Personal trainers](/perfect-for/personal-trainers/)
+      covers one-to-one bookings, and
+      [performers and artists](/perfect-for/performers-and-artists/) covers
+      teaching alongside gigs and shows.
   - type: cta
     button:
       text: Get Started

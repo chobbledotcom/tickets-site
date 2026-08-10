@@ -39,6 +39,10 @@ blocks:
       A [registration deadline](/features/registration-deadlines/) closes
       bookings when the caterer needs final numbers, and answers export as
       [CSV](/features/csv-export/) for the venue and the seating plan.
+
+      The same setup covers school year reunions, university reunions,
+      regimental and services reunions, workplace reunions and family
+      gatherings.
     figure_src: /images/screenshots/industry-class-reunion-booking.png
     figure_alt: A reunion dinner checkout with a menu choice question, a dietary requirements answer, and a £38 total
     figure_caption: Each guest picks a menu option and gives dietary details when they book their place.
@@ -82,6 +86,15 @@ blocks:
       - icon: hugeicons:mail-send-01
         description: Email the guest list with previews, drafts, and an unsubscribe link, skipping anyone who has unsubscribed.
         name: <a href="/features/bulk-email/">Bulk email</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Caterers](/perfect-for/caterers/) covers meal choices and dietary
+      answers from the caterer's side.
+      [Venue and room hire](/perfect-for/venue-hire/) covers booking the
+      room, and [private adult events](/perfect-for/adult-parties/) covers
+      guest lists that need to stay private.
   - type: cta
     button:
       text: Get Started

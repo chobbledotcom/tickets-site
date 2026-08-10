@@ -34,6 +34,9 @@ blocks:
       selection and a capacity cap on the number of entries. Allocating
       raffle numbers and running the draw both happen outside Chobble
       Tickets.
+
+      The same setup covers summer fetes, village shows, agricultural shows,
+      craft fairs, Christmas markets and scout and church fairs.
     figure_items:
       - icon: hugeicons:ticket-01
         text: Adult and child admission with one site limit.
@@ -75,6 +78,16 @@ blocks:
       - icon: hugeicons:coins-02
         description: Every income figure comes from one double-entry ledger, with date and listing filters for the treasurer.
         name: <a href="/features/ledger/">Ledger</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Schools and PTAs](/perfect-for/schools-and-ptas/) covers the same
+      money records for a school committee.
+      [Charity events](/perfect-for/charity-events/) covers the reduced
+      community price, and
+      [free events that still need a headcount](/perfect-for/free-events/)
+      covers free admission with a list.
   - type: cta
     button:
       text: Get Started

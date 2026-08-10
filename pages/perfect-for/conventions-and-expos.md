@@ -36,6 +36,10 @@ blocks:
 
       A convention selling 3,000 tickets pays the same £50 for the year
       as one selling 300, with no Chobble per-ticket platform fee on top.
+
+      The same setup covers comic and fan conventions, tabletop gaming
+      weekenders, trade shows, wedding fairs, model railway exhibitions and
+      collectors' fairs.
     figure_src: /images/screenshots/industry-convention-checkout.png
     figure_alt: A comic con checkout with two Saturday day tickets and one Sunday day ticket in one order, showing a £45 running total
     figure_caption: Saturday and Sunday day tickets book in one form and one payment.
@@ -79,6 +83,15 @@ blocks:
       - icon: hugeicons:qr-code
         description: Staff scan tickets through a browser with a phone camera, with duplicate and wrong-day warnings.
         name: <a href="/features/qr-code-check-ins/">QR code entry</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Festivals](/perfect-for/festivals/) covers passes, camping and gate
+      check-in. [Fetes and fairs](/perfect-for/fetes-and-fairs/) covers
+      stall pitches at a smaller scale, and
+      [venue and room hire](/perfect-for/venue-hire/) covers hiring the hall
+      itself.
   - type: cta
     button:
       text: Get Started

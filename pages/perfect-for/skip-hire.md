@@ -43,6 +43,9 @@ blocks:
 
       Each duration has an explicit total price. Chobble Tickets does not multiply a daily rate, and it does not assign a serial number to an individual skip.
 
+      The same setup covers builders' skips, mini skips, grab hire, roll-on
+      roll-off containers and van clearance rounds.
+
       A confirmed booking uses capacity on every day in its range. For a paid hire, [multi-day availability](/features/multi-day-hire/) is rechecked when payment confirmation arrives. An order that no longer fits is refunded automatically.
     figure_src: /images/screenshots/industry-skip-hire-booking.png
     figure_alt: Skip hire checkout with a start date and seven-day or fourteen-day prices
@@ -87,6 +90,15 @@ blocks:
       - icon: hugeicons:help-circle
         description: Ask about waste type, permits, placement or access, with selected answers able to change the price.
         name: <a href="/features/custom-questions/">Booking questions</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Equipment hire](/perfect-for/equipment-hire/) covers the same
+      duration pricing for stock. [Marquee hire](/perfect-for/marquee-hire/)
+      covers multi-day structures with delivery crews, and
+      [caterers](/perfect-for/caterers/) covers run sheets for another
+      delivered service.
   - type: cta
     button:
       text: Start for £5

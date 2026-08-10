@@ -34,6 +34,9 @@ blocks:
       price at booking, with a link for the customer to pay the balance
       later. Payments go through Stripe, Square, or SumUp directly to your
       own account, and Chobble Tickets takes no percentage.
+
+      The same setup covers PA and lighting hire, staging, tool hire, bouncy
+      castles, camera kit and party furniture.
     figure_src: /images/screenshots/equipment-hire-booking.png
     figure_alt: A mobile booking form for a portable PA system with a three-day hire selected
     figure_caption: Customers choose an available start date and the number of days they need the equipment.
@@ -79,6 +82,15 @@ blocks:
       - icon: hugeicons:shopping-cart-01
         description: One JavaScript file turns links on your existing website into add-to-cart buttons with a floating cart.
         name: <a href="/features/order-widget/">Order widget</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Marquee hire](/perfect-for/marquee-hire/) covers multi-day structures
+      with site questions. [Skip hire](/perfect-for/skip-hire/) covers
+      duration pricing and delivery rounds, and
+      [venue and room hire](/perfect-for/venue-hire/) covers day-based room
+      bookings.
   - type: cta
     button:
       text: Get Started

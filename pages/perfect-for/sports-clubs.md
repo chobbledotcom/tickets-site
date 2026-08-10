@@ -33,6 +33,9 @@ blocks:
       For training sessions, [daily events](/features/daily-events/) give
       each date its own capacity and a calendar picker, with blackout
       dates for weeks when training is off.
+
+      The same setup covers football and rugby clubs, cricket clubs, running
+      and cycling clubs, swimming clubs and martial arts schools.
     figure_items:
       - icon: hugeicons:ticket-01
         text: Match tickets with QR codes at the gate
@@ -75,6 +78,16 @@ blocks:
       - icon: hugeicons:discount
         description: Create discount codes for members, with stock limits and scoping to specific events.
         name: <a href="/features/promo-codes-and-add-ons/">Member discounts</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Personal trainers](/perfect-for/personal-trainers/) covers one-to-one
+      and small-group coaching.
+      [Fundraising and donations](/perfect-for/fundraising/) covers subs and
+      appeals, and
+      [community centres and village halls](/perfect-for/community-centres/)
+      covers the halls clubs hire.
   - type: cta
     button:
       text: Get Started

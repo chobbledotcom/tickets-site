@@ -43,6 +43,9 @@ blocks:
 
       For multi-day use, customers choose from the durations and total prices the venue publishes. The availability check covers every day in the range, including shared capacity limits across a group of spaces.
 
+      The same setup covers function rooms, studios and rehearsal spaces,
+      meeting rooms, sports halls, community rooms and whole-building hire.
+
       Chobble Tickets handles whole-day and multi-day booking. It does not provide hourly slots, external calendar synchronisation or accommodation channel management.
     figure_src: /images/screenshots/industry-venue-hire-booking.png
     figure_alt: Venue hire checkout with an available date and one-day or two-day hire prices
@@ -87,6 +90,15 @@ blocks:
       - icon: hugeicons:mail-send-01
         description: Send confirmation details and service updates, then export booking and question records for the venue team.
         name: <a href="/features/email-templates/">Booking communications</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Community centres and village halls](/perfect-for/community-centres/)
+      covers halls that run their own programme as well as hiring out.
+      [Marquee hire](/perfect-for/marquee-hire/) covers temporary
+      structures, and [equipment hire](/perfect-for/equipment-hire/) covers
+      the kit hired with the room.
   - type: cta
     button:
       text: Start for £5

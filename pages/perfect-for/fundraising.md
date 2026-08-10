@@ -32,6 +32,9 @@ blocks:
       collect money for anything that doesn't involve a physical event:
       donations, raffle entries, club dues, school trip contributions, and
       more.
+
+      The same setup covers appeals, raffles, sponsored events, memberships
+      and subscriptions, and one-off collections with nothing to attend.
     figure_items:
       - icon: hugeicons:calendar-03
         text: "Event name: Summer Appeal 2026"
@@ -82,6 +85,16 @@ blocks:
       Fundraising collections work alongside regular ticketed events on the
       same account, so you can run a sponsored walk *and* sell tickets to
       the celebration party from the same place.
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Charity events](/perfect-for/charity-events/) covers ticketed events
+      for the same organisations.
+      [Schools and PTAs](/perfect-for/schools-and-ptas/) covers a
+      treasurer's money record, and
+      [sports clubs](/perfect-for/sports-clubs/) covers subs and match
+      tickets.
   - type: cta
     button:
       text: Get Started

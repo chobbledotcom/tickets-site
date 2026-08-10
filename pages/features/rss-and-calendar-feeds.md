@@ -29,6 +29,23 @@ blocks:
       aggregators. This is useful for attendees who prefer RSS, and for
       embedding event listings on other websites or newsletters.
 
+      ## News feed
+
+      When your site publishes news posts, they get their own RSS feed
+      alongside the events one, so a reader or an aggregator can follow
+      announcements as well as dates.
+
+      ## Staff calendar feed
+
+      A separate calendar feed carries the bookings themselves, for staff
+      rather than the public. It is switched off until you enable it, and
+      a calendar client subscribes with an API key rather than a plain
+      URL, so it is never readable by anyone who finds the address.
+
+      Owners and managers see every booking in it. A
+      [delivery agent](/features/logistics/) sees only the jobs assigned
+      to them, which is the same run sheet they get in the admin panel.
+
       ## Always up to date
 
       Both feeds update automatically when you create, modify, or remove

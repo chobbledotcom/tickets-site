@@ -44,6 +44,9 @@ blocks:
       Families choose a date from the listing calendar. Capacity resets for each date, and holiday ranges stop bookings during bank holidays, closures or school breaks.
 
       Adult, child and sibling admission can be shown together through a group or the public order page. [Packages](/features/packages/) can also sell a fixed family bundle at its own price.
+
+      The same setup covers soft play centres, baby and toddler groups,
+      sensory classes, messy play sessions and school holiday clubs.
     figure_src: /images/screenshots/daily-events-calendar.png
     figure_alt: Calendar for Little Acorns Stay and Play showing bookings and remaining capacity by date
     figure_caption: The calendar shows bookings and remaining places for every session date.
@@ -85,6 +88,16 @@ blocks:
       - icon: hugeicons:money-receive-square
         description: Payments go to the organiser's Stripe, Square or SumUp account. Chobble does not add a per-ticket platform fee.
         name: <a href="/features/no-per-ticket-fees/">Flat platform price</a>
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Children's parties](/perfect-for/kids-parties/) covers party bookings
+      in the same room.
+      [Classes and courses](/perfect-for/classes-and-courses/) covers
+      term-length timetables, and
+      [attractions and days out](/perfect-for/attractions-and-days-out/)
+      covers dated admission to a larger site.
   - type: cta
     button:
       text: Start for £5

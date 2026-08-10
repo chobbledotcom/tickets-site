@@ -30,6 +30,9 @@ blocks:
       attendee names or contact details without credentials for an authorised
       keyed user. The application decrypts those fields when an authorised
       owner or manager needs to use them.
+
+      The same setup covers private house parties, members' club nights,
+      play parties, life drawing evenings and LGBTQ+ social nights.
     figure_items:
       - icon: hugeicons:lock
         text: Attendee data is encrypted at rest.
@@ -112,6 +115,16 @@ blocks:
       - icon: hugeicons:credit-card
         description: Chobble charges a flat fee with no per-ticket charges. The business model is based on the fee you pay, not on monetising your attendees' data.
         name: Flat fee
+  - type: markdown
+    content: |
+      ## Related uses
+
+      [Political organising](/perfect-for/political-organising/) covers the
+      same encrypted attendee records for meetings and campaigns.
+      [Class reunions](/perfect-for/class-reunions/) covers private guest
+      lists for a one-off gathering, and
+      [venue and room hire](/perfect-for/venue-hire/) covers hiring the
+      space itself.
   - type: cta
     button:
       text: Get Started
