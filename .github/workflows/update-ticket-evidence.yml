@@ -153,6 +153,8 @@ jobs:
             images/screenshots/editor-listings-without-takings__facebook.png
             images/screenshots/garden-party-package-checkout.png
             images/screenshots/garden-party-package-checkout__facebook.png
+            images/screenshots/maintenance-cost-on-a-room.png
+            images/screenshots/maintenance-cost-on-a-room__facebook.png
             images/screenshots/manual-attendee-community-supper.png
             images/screenshots/manual-attendee-community-supper__facebook.png
             images/screenshots/multi-day-hire.png
@@ -190,6 +192,7 @@ jobs:
             images/screenshots/the-tempest-group-checkout.png
             images/screenshots/the-tempest-group-checkout__facebook.png
             pages/features/activity-logs.md
+            pages/perfect-for/community-centres.md
             pages/perfect-for/online-events.md
             pages/features/backups.md
             pages/features/customising-your-site.md

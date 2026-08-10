@@ -1,0 +1,86 @@
+:root {
+  --border-radius: 6px;
+  --color-accent: #a8552f;
+  --color-bg: #f2ede6;
+  --color-bg-secondary: #ffffff;
+  --color-link: #5c4632;
+  --color-secondary: #5c4632;
+  --color-secondary-accent: #5c463218;
+  --color-shadow: #3d2e1f26;
+  --color-table: #5c4632;
+  --color-text: #2f2519;
+  --color-text-secondary: #77685a;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+#servicing-costs {
+  background: #fff;
+  border: 1px solid #ddd2c4;
+  border-top: 6px solid var(--color-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 28px var(--color-shadow);
+  padding: 1rem;
+}
+
+#servicing-costs h2 {
+  color: var(--color-secondary);
+  font-size: 1.15rem;
+  margin: 0 0 0.75rem;
+}
+
+#servicing-costs .table-scroll {
+  overflow: visible;
+}
+
+#servicing-costs table {
+  font-size: 0.82rem;
+  table-layout: fixed;
+  white-space: normal;
+  width: 100%;
+}
+
+#servicing-costs th {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+/* The site stripes alternate rows with --color-table, which is the dark band
+ * used for the header here. Left alone it would put the one row this capture
+ * exists for in dark text on a dark ground. */
+#servicing-costs tbody tr,
+#servicing-costs tbody td {
+  background: #fff;
+  color: var(--color-text);
+}
+
+#servicing-costs th,
+#servicing-costs td {
+  padding: 0.45rem;
+}
+
+/* The second column is the day the hold covers, which the case picks far in
+ * the future so no passing date can collide with it. The last is the form for
+ * changing a cost and a link into the money history. What is left is what the
+ * case is about: a cost, against the room it was spent on, and what it was
+ * for. */
+#servicing-costs th:nth-child(2),
+#servicing-costs td:nth-child(2),
+#servicing-costs th:nth-child(5),
+#servicing-costs td:nth-child(5) {
+  display: none;
+}
+
+#servicing-costs th:nth-child(1),
+#servicing-costs td:nth-child(1) {
+  width: 34%;
+}
+
+#servicing-costs th:nth-child(3),
+#servicing-costs td:nth-child(3) {
+  width: 24%;
+}
+
+#servicing-costs th:nth-child(4),
+#servicing-costs td:nth-child(4) {
+  width: 42%;
+}
