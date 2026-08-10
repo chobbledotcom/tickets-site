@@ -184,11 +184,12 @@ blocks:
       - **Multi-language content** - built-in translation of event content
   - type: markdown
     content: |
-      ### Chobble Tickets has features Event Schedule doesn't
+      ### Chobble Tickets features not documented on Event Schedule
 
-      These are features Chobble Tickets documents that Event Schedule's
-      reviewed pages do not. Where a feature is simply not mentioned, that is an
-      absence of documentation rather than a confirmed limitation.
+      Chobble Tickets provides the following. Event Schedule's reviewed pages
+      document some of these differently and do not mention others, so a missing
+      entry means an absence of documentation rather than a confirmed
+      limitation.
 
       - **All features in one plan** - a custom domain, white labelling, the
         API and team access are included, not split across paid tiers
@@ -343,6 +344,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      One plan includes every feature, attendee data is encrypted at rest, and you can self-host the same product without a licence fee.
+      Sign up for managed hosting at £50/year or £5/month, or self-host the same product without paying Chobble a licence fee.
 name: UK Made & Encrypted Event Schedule Alternative | Chobble Tickets
 ---
