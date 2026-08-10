@@ -171,6 +171,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Free listings still keep a list",
     body: "A listing priced at zero takes bookings, counts the places against its capacity and records nothing in the money figures. Its page shows the places taken and the places left.",
   },
+  "maintenance-cost-on-a-room": {
+    heading: "Record what a repair cost",
+    body: "A hold takes dates out of use for maintenance without adding a customer to the list. What the work cost goes against the room it was spent on, so the repair reaches that room's money record.",
+  },
   "one-days-audience": {
     heading: "Email one date of a course",
     body: "A course booked date by date can be written to one date at a time. Choose the date on the attendee list, and the message reaches that date's people rather than everyone booked on the term.",

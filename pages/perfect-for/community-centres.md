@@ -3,6 +3,7 @@ title: Community Centres and Village Halls - Chobble Tickets
 meta_title: Booking Software for Community Centres and Village Halls | Chobble Tickets
 meta_description: Take hall hire bookings and run your own programme of classes, lunch clubs and events, with a £25 a year community rate and encrypted attendee records.
 permalink: /perfect-for/community-centres/
+ticket_evidence_capture: maintenance-cost-on-a-room
 eleventyNavigation:
   key: Community Centres
   parent: Perfect For
@@ -61,7 +62,7 @@ blocks:
         text: The questions a hall has to ask.
       - icon: hugeicons:coins-01
         text: Deposits, balances and offline payments.
-  - type: split-icon-links
+  - type: split-image
     reverse: true
     content: |
       ## The programme the hall runs itself
@@ -77,14 +78,11 @@ blocks:
 
       [Servicing holds](/features/servicing-events/) take dates out of use
       for a deep clean, decorating or a floor repair without inventing a
-      customer booking.
-    figure_items:
-      - icon: hugeicons:user-group
-        text: Free sessions with a place limit.
-      - icon: hugeicons:calendar-block-01
-        text: Closed weeks blocked in advance.
-      - icon: hugeicons:wrench-01
-        text: Dates held for maintenance.
+      customer booking. What the work cost is recorded against the room it
+      was spent on, so the repair reaches that room's money record.
+    figure_src: /images/screenshots/maintenance-cost-on-a-room.png
+    figure_alt: A screenshot of a service event's costs, showing £90 for a boiler part recorded against Room A
+    figure_caption: 'What the work cost, recorded against the room the hold took out of use. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/servicing/hold-and-cost.feature">(src)</a></small>'
   - type: split-icon-links
     content: |
       ## Access for a committee

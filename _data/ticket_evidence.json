@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "f8478a27c26cf5576c768af6bcfea1025aa47d1a",
+    "commit": "dc7c1b2e5779180d878fda5ff1d17e67212d5adf",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -72,7 +72,7 @@
         "height": 1190,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "10d36a9f982d8b3f6056c5874c0d8f58c21115209ae0be0f1e761d4495b6de49",
+        "sha256": "6c190a547ce8edb72e2024ff6c9b34746f8a1b631482bd06e7f5f879e48e3217",
         "src": "/images/screenshots/api-keys-list.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -504,7 +504,7 @@
         "height": 2252,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "8f2e2dde00947fd6b9267d7ce4c95573dada6b25497256600469b54db18050f8",
+        "sha256": "ad77a0feb0dddf0f37ba144797146c7bd83765dbdf141b1b135fa1a075c30af8",
         "src": "/images/screenshots/free-headcount-no-money.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -652,6 +652,52 @@
         "uri": "specs/payments/what-a-paid-booking-earned.feature"
       }
     },
+    "maintenance-cost-on-a-room": {
+      "case": {
+        "id": "servicing.record-cost",
+        "name": "The organiser records a cost for a Boiler Service"
+      },
+      "id": "maintenance-cost-on-a-room",
+      "image": {
+        "height": 476,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "128ca299bb1eba00790df9d1f1114939532d62a097fc14b960fd348c680a1c72",
+        "src": "/images/screenshots/maintenance-cost-on-a-room.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 828
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "A cost is money spent on the service, recorded against one of the held listings.",
+        "id": "servicing.hold-can-be-costed",
+        "name": "The organiser can record a cost against a hold"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "an organiser has created a Boiler Service hold on Room A"
+        },
+        {
+          "keyword": "When",
+          "text": "the organiser records a cost of 90.00 for Boiler Service"
+        },
+        {
+          "keyword": "Then",
+          "text": "the service event page shows the recorded cost"
+        }
+      ],
+      "story": {
+        "description": "A service event reserves listing capacity without creating a customer ticket.\nThe organiser can see, duplicate, delete, and cost the hold.",
+        "id": "servicing.hold-and-cost",
+        "name": "An organiser holds and costs a service event",
+        "uri": "specs/servicing/hold-and-cost.feature"
+      }
+    },
     "one-days-audience": {
       "case": {
         "id": "writing.one-day-hears-and-the-others-do-not",
@@ -662,7 +708,7 @@
         "height": 1482,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "e6cdade48caa00c0e9cfd514695e2d0418c8d81ee9ab618a28c2dda9b896f210",
+        "sha256": "fb449ae00d619f6ceea0bd63085d4db2a88b82e933fe24865f078cc03120904a",
         "src": "/images/screenshots/one-days-audience.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -832,7 +878,7 @@
         "height": 2542,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "06da2ba5679b9018e1db1a8ec9510a32224c78f8459d39d1e1911b6c877614bd",
+        "sha256": "1149c98144b076cf615e933add0745e8bb0a63969fbfe4d7b2ac07f0aa9091d5",
         "src": "/images/screenshots/payment-provider-choice.png",
         "viewport": {
           "deviceScaleFactor": 2,

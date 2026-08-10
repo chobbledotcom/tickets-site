@@ -156,6 +156,19 @@
       "socialHeading": "Keep one accounting ledger",
       "socialKey": "ledger"
     },
+    "maintenance-cost-on-a-room": {
+      "alt": "A screenshot of a service event's costs, showing £90 for a boiler part recorded against Room A",
+      "assetProfile": "mobile",
+      "caption": "What the work cost, recorded against the room the hold took out of use.",
+      "caseId": "servicing.record-cost",
+      "galleryCaption": "A maintenance cost recorded against the room it was spent on.",
+      "legacyDestinationPath": "images/screenshots/maintenance-cost-on-a-room.png",
+      "page": "pages/perfect-for/community-centres.md",
+      "reviewed": "47bdec75922b5f6c9cb928da1eae25bcdf4e8996c75216daf6f81d3833006210",
+      "socialBody": "A hold takes dates out of use for maintenance without adding a customer to the list. What the work cost goes against the room it was spent on, so the repair reaches that room's money record.",
+      "socialHeading": "Record what a repair cost",
+      "socialKey": "maintenance-cost-on-a-room"
+    },
     "one-days-audience": {
       "alt": "A screenshot of the bulk email page addressed to attendees of the Course on Tuesday 11 August 2026, saying it reaches 1 recipient",
       "assetProfile": "mobile",

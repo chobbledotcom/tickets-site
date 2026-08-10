@@ -14,11 +14,11 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 161 | 65 | 96 |
+| Editorial pages in the sitemap | 161 | 66 | 95 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **163** | **65** | **98** |
+| **All rendered pages** | **163** | **66** | **97** |
 
-The 96 editorial pages are the main illustration backlog. The two utility
+The 95 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -132,8 +132,9 @@ pages are listed separately at the end.
 | `pages/perfect-for/fetes-and-fairs.md` | [x] Admin screenshot: `industry-village-fete-ledger` | Meadowfield Village Fete's ledger statement showing advance gate sales, gate cash recorded as manual income, a cost and the net figure. | Shows the treasurer's single set of figures across online and cash income. |
 | `pages/perfect-for/pubs-and-taprooms.md` | Admin screenshot: `taproom-repeating-quiz-night` | The Bridgefield Tap's Tuesday quiz as a daily listing, with 12 free table places per date, two December dates blacked out for the closure, and one date's bookings listed beside the remaining places. | Shows a repeating night set up once, with free bookings and closed weeks, rather than a generic checkout. |
 | `pages/perfect-for/music-venues.md` | Admin screenshot: `grassroots-venue-door-list` | The Lantern Rooms' Friday show at 120 places, showing advance bookings, three manually added guest-list names, cash sales recorded on the night and 94 checked in. | Shows advance sales, the guest list and the door as one record, without implying reserved seating. |
-| `pages/perfect-for/community-centres.md` | Admin screenshot: `village-hall-two-jobs` | Meadowfield Village Hall's calendar for one week, with the main hall hired for a Saturday party at capacity one, the Tuesday lunch club taking free places, and a Thursday held for floor repairs as a servicing hold. | Shows hire and the hall's own programme in one calendar, and makes whole-day booking visible. |
 | `pages/perfect-for/performers-and-artists.md` | Attendee screenshot: `artist-own-domain-checkout` | A checkout on an artist's own domain with no Chobble branding, a £12 ticket with nothing added to the total, and a pay-what-you-want option above a £5 minimum for a work-in-progress date. | Shows the artist's own front door and the price the audience actually pays. |
+| `pages/perfect-for/community-centres.md` | [x] Cucumber evidence capture: `maintenance-cost-on-a-room` | The costs recorded against a service hold, taken from the case that records £90 for a boiler part against Room A. The hold's own dates are left out of the picture: the case puts them far in the future so no passing date can collide with them. | Shows that a room can be taken out of use for maintenance and what the work cost recorded against it, without a customer booking standing in for either. |
+| `pages/perfect-for/free-events.md` | [x] Cucumber evidence capture: `free-headcount-no-money` | A free listing's own page, taken from the case that books a free place on a site charging a 10 percent booking fee on its paid listings: Ticket Price Free, one of fifty places taken, and nothing in the money figures. | Shows that a listing given away for free still counts its places and still invents no money. |
 
 ## Guide Pages
 
@@ -284,6 +285,7 @@ These pages are rendered but excluded from the sitemap and main editorial total.
 - [x] `qr-code-check-in`
 - [x] `refunded-booking`
 - [x] `servicing-studio-floor-hold`
+- [x] `maintenance-cost-on-a-room`
 - [x] `team-and-roles`
 - [x] `volunteer-shift-form`
 
