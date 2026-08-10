@@ -94,9 +94,10 @@ blocks:
       sooner, because most of Ticketted's charge is a percentage.
 
       Ticketted does not say whether Stripe's processing charge comes out of
-      that fee or is charged separately by Stripe. The figures here add UK
-      Stripe processing to both platforms, so it cancels out of the
-      comparison.
+      that fee or is charged separately by Stripe. The figures here add
+      processing to both platforms, so it cancels out and the crossover holds
+      at Australian or UK card rates alike. If Ticketted's fee already covers
+      processing, the crossover moves to about 75 tickets at £15 each.
 
       Neither platform charges a per-ticket fee on free events, though
       Chobble's flat fee still applies whether your events are free or
