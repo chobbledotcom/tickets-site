@@ -117,6 +117,19 @@
       "socialHeading": "Give an editor a money-free listing view",
       "socialKey": "editor-listings-without-takings"
     },
+    "free-headcount-no-money": {
+      "alt": "A screenshot of the Free Meetup listing page, showing a ticket price of Free, one of fifty places taken, and gross ticket sales of zero pounds",
+      "assetProfile": "mobile",
+      "caption": "A listing given away for free still counts the places taken, and records no money against them.",
+      "caseId": "payment.free-booking-records-no-money",
+      "galleryCaption": "A free listing's own page, showing one place taken and no money recorded.",
+      "legacyDestinationPath": "images/screenshots/free-headcount-no-money.png",
+      "page": "pages/perfect-for/free-events.md",
+      "reviewed": "c388b23ff5390b408202ce20464e7b33e2fbfd37fdf75361e8e16e353d9c0c2d",
+      "socialBody": "A listing priced at zero takes bookings, counts the places against its capacity and records nothing in the money figures. The headcount is the point of running it.",
+      "socialHeading": "Free listings still keep a list",
+      "socialKey": "free-headcount-no-money"
+    },
     "group-booking-arrives": {
       "alt": "A screenshot of the Summer Concert attendee list, showing Jane Doe, her email, the Medium size she picked and one place",
       "assetProfile": "mobile",

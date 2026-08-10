@@ -167,6 +167,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Require an add-on for each unit",
     body: "For each parent unit, customers choose one child listing from a set. A sole available child is added automatically.",
   },
+  "free-headcount-no-money": {
+    heading: "Free listings still keep a list",
+    body: "A listing priced at zero takes bookings, counts the places against its capacity and records nothing in the money figures. The headcount is the point of running it.",
+  },
   "one-days-audience": {
     heading: "Email one date of a course",
     body: "A course booked date by date can be written to one date at a time. Choose the date on the attendee list, and the message reaches that date's people rather than everyone booked on the term.",

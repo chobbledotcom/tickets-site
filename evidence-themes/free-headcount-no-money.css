@@ -1,0 +1,76 @@
+/* A community group's admin: pale green, one forest ink, plain type. */
+:root {
+  --border-radius: 4px;
+  --color-accent: #2f6b3a;
+  --color-bg: #f2f6f0;
+  --color-bg-secondary: #ffffff;
+  --color-link: #2b5f34;
+  --color-secondary: #23402a;
+  --color-secondary-accent: #e7f0e6;
+  --color-shadow: #23402a1a;
+  --color-table: #23402a;
+  --color-text: #1f2621;
+  --color-text-secondary: #66716a;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background: #fff;
+  border: 1px solid #d8e2d6;
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 10px 24px var(--color-shadow);
+  padding: 1rem;
+}
+
+main h1 {
+  font-size: 1.4rem;
+}
+
+/* The half-finished-setup banner and the admin navigation belong to whoever
+ * is signed in, not to what this case proves. */
+.settings-nag-banner,
+main nav:not(.entity-tabs),
+.entity-tabs {
+  display: none;
+}
+
+/* The site's row striping paints alternate rows in --color-table, which is a
+ * dark ink here, so the headcount row came out dark on dark. Rows stay light
+ * and take the body colour; only the header keeps the dark band. */
+main tbody tr,
+main tbody tr:nth-child(even),
+main tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+main tbody tr:nth-child(even) {
+  background: #f1f6f0;
+}
+
+main tbody td,
+main tbody th,
+main tbody tr * {
+  color: var(--color-text);
+}
+
+main thead tr,
+main thead th {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+main table {
+  font-size: 0.9rem;
+  table-layout: fixed;
+  width: 100%;
+}
+
+main th,
+main td {
+  padding: 0.45rem 0.5rem;
+}
+
+main .table-scroll {
+  overflow: visible;
+}

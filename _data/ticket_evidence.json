@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "6963aec593442143392c6453cb0f1a59ac5f5cb0",
+    "commit": "f8478a27c26cf5576c768af6bcfea1025aa47d1a",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -72,7 +72,7 @@
         "height": 1190,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "6c190a547ce8edb72e2024ff6c9b34746f8a1b631482bd06e7f5f879e48e3217",
+        "sha256": "10d36a9f982d8b3f6056c5874c0d8f58c21115209ae0be0f1e761d4495b6de49",
         "src": "/images/screenshots/api-keys-list.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -494,6 +494,56 @@
         "uri": "specs/access/what-an-editor-can-do.feature"
       }
     },
+    "free-headcount-no-money": {
+      "case": {
+        "id": "payment.free-booking-records-no-money",
+        "name": "A customer books a free place while a booking fee is set up"
+      },
+      "id": "free-headcount-no-money",
+      "image": {
+        "height": 2252,
+        "mediaType": "image/png",
+        "profile": "mobile",
+        "sha256": "8f2e2dde00947fd6b9267d7ce4c95573dada6b25497256600469b54db18050f8",
+        "src": "/images/screenshots/free-headcount-no-money.png",
+        "viewport": {
+          "deviceScaleFactor": 2,
+          "height": 844,
+          "width": 390
+        },
+        "width": 907
+      },
+      "presentation": "branded",
+      "rule": {
+        "description": "Even with a booking fee set up, nothing is charged and nothing is recorded.",
+        "id": "payments.a-free-booking-records-no-money",
+        "name": "A free booking records no money at all"
+      },
+      "steps": [
+        {
+          "keyword": "Given",
+          "text": "the site adds a 10 percent booking fee"
+        },
+        {
+          "keyword": "When",
+          "text": "a customer books a free Free Meetup place"
+        },
+        {
+          "keyword": "Then",
+          "text": "no money is recorded for the booking"
+        },
+        {
+          "keyword": "And",
+          "text": "no booking fee is recorded"
+        }
+      ],
+      "story": {
+        "description": "A listing given away for free must never invent money, whatever fees the site\ncharges on its paid listings.",
+        "id": "payments.free-bookings",
+        "name": "A free booking costs nothing",
+        "uri": "specs/payments/free-bookings.feature"
+      }
+    },
     "group-booking-arrives": {
       "case": {
         "id": "booking.group-page-journey",
@@ -612,7 +662,7 @@
         "height": 1482,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "fb449ae00d619f6ceea0bd63085d4db2a88b82e933fe24865f078cc03120904a",
+        "sha256": "e6cdade48caa00c0e9cfd514695e2d0418c8d81ee9ab618a28c2dda9b896f210",
         "src": "/images/screenshots/one-days-audience.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1102,7 +1152,7 @@
         "height": 742,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "5cd1d5fc03bf5a49fbf080e045ce7b913850aa30a0d74b35487fef7817edad4c",
+        "sha256": "28a1fadbe035b741c42d7f49d850ba7f3d02114563997b5ad6c4f8175fab75f0",
         "src": "/images/screenshots/servicing-studio-floor-hold.png",
         "viewport": {
           "deviceScaleFactor": 2,
