@@ -127,7 +127,7 @@ blocks:
         description: Add walk-ins, comps and the band's guest list from the admin panel so the door list is complete.
         name: <a href="/features/manual-attendees/">Manual attendees</a>
       - icon: hugeicons:mail-send-01
-        description: Email everyone booked on one night when the act changes, the start time moves or the night is called off.
+        description: Email everyone booked on a listing when the act changes, the start time moves or the night is called off.
         name: <a href="/features/bulk-email/">Attendee email</a>
       - icon: hugeicons:qr-code
         description: Scan tickets on the door with a phone camera, with a warning when a ticket has already been scanned.

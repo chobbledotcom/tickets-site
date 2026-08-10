@@ -124,7 +124,7 @@ blocks:
         description: Publish the hall's own site on its own domain, with Chobble branding removed, or embed booking in the site it already has.
         name: <a href="/features/your-public-website/">Your public website</a>
       - icon: hugeicons:mail-send-01
-        description: Email everyone booked on a session when a class is cancelled or the hall has to close.
+        description: Email everyone booked on a listing when a class is cancelled or the hall has to close.
         name: <a href="/features/bulk-email/">Attendee email</a>
       - icon: hugeicons:qr-code
         description: Check people in with a phone camera, or search the list by name at the door.

@@ -40,10 +40,14 @@ blocks:
       ## What Chobble Tickets does here
 
       An online session is an ordinary listing. It can be free or paid, it
-      has its own capacity and [deadline](/features/registration-deadlines/),
-      and a course of twelve weekly sessions is one
-      [daily listing](/features/daily-events/) with places counted for each
-      date.
+      has its own capacity and
+      [deadline](/features/registration-deadlines/).
+
+      A course that meets on the same link every week is one
+      [daily listing](/features/daily-events/), with places counted for
+      each date. When each session has its own joining link, give each one
+      its own listing instead, because email is addressed to a listing
+      rather than to one of its dates.
 
       The same setup covers webinars, online classes and courses, remote
       workshops, talks and lectures, committee and members' meetings, and
@@ -65,11 +69,16 @@ blocks:
     content: |
       ## How the joining link reaches people
 
-      Send it with [bulk email](/features/bulk-email/). A campaign can
-      target the attendees of one listing, so shortly before the session
-      you email that group the link, and send a reminder the same way on
-      the day. Messages go through your own email provider, and the
-      preview shows the recipient count before anything is sent.
+      Send it with [bulk email](/features/bulk-email/). A campaign targets
+      the attendees of one listing, so shortly before the session you
+      email that group the link, and send a reminder the same way on the
+      day. Messages go through your own email provider, and the preview
+      shows the recipient count before anything is sent.
+
+      A campaign cannot be aimed at one date of a repeating listing. On a
+      term booked date by date, everyone booked on any week receives what
+      you send, which is why a session with its own link needs its own
+      listing.
 
       Send it as news rather than as a promotion. News about something the
       person booked reaches everyone whose booking left an email address,
@@ -103,9 +112,10 @@ blocks:
       places, and the group gives both a single page to link to.
 
       People in the room are [checked in](/features/qr-code-check-ins/)
-      by scanning a phone camera over their ticket. An online attendee has
-      no ticket to scan, so their place is only marked as attended if you
-      search the list and check them in by hand.
+      by scanning a phone camera over their ticket. An online attendee
+      holds the same QR ticket, but nobody is standing there to scan it,
+      so their place is only marked as attended if you search the list and
+      check them in by hand.
 
       Because the two are separate listings, the joining link goes to the
       online listing's attendees only, and a change of venue goes to the

@@ -75,10 +75,13 @@ blocks:
       one page, each with its own places.
 
       When a session has to move, you can
-      [email everyone booked on it](/features/bulk-email/) through your
-      own email provider. News about a booking reaches everyone who left
-      an email address, including anyone who has unsubscribed from
-      promotions.
+      [email everyone booked on the listing](/features/bulk-email/)
+      through your own email provider. News about a booking reaches
+      everyone who left an email address, including anyone who has
+      unsubscribed from promotions.
+
+      Email is addressed to a listing rather than to one of its dates, so
+      on a repeating session everyone booked on any date hears from you.
     figure_items:
       - icon: hugeicons:mail-01
         text: Confirmation emails on free bookings.

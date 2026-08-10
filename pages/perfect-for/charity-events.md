@@ -34,7 +34,7 @@ blocks:
       donations and payments without a physical event to attend.
 
       The same setup covers charity balls, sponsored walks, quiz nights,
-      coffee mornings, carol concerts and fundraising auctions.
+      coffee mornings, carol concerts and gala dinners.
     figure_src: /images/screenshots/charity-family-fun-day-checkout.png
     figure_alt: A family fun day checkout with two adult tickets and two kids tickets selected
     figure_caption: One group checkout can offer several ticket types in the same booking.
