@@ -81,7 +81,7 @@ blocks:
       will not scan.
     figure_items:
       - icon: hugeicons:money-receive-square
-        text: The ticket price is the door price.
+        text: Nothing added to the ticket price.
       - icon: hugeicons:user-add-01
         text: Guest list and walk-ins on the same list.
       - icon: hugeicons:qr-code
