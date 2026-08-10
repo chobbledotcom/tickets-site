@@ -167,6 +167,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Require an add-on for each unit",
     body: "For each parent unit, customers choose one child listing from a set. A sole available child is added automatically.",
   },
+  "maintenance-cost-on-a-room": {
+    heading: "Record what a repair cost",
+    body: "A hold takes dates out of use for maintenance without adding a customer to the list. What the work cost goes against the room it was spent on, so the repair reaches that room's money record.",
+  },
   "one-days-audience": {
     heading: "Email one date of a course",
     body: "A course booked date by date can be written to one date at a time. Choose the date on the attendee list, and the message reaches that date's people rather than everyone booked on the term.",

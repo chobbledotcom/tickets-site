@@ -1,11 +1,11 @@
 {
   "app": {
-    "commit": "6963aec593442143392c6453cb0f1a59ac5f5cb0",
+    "commit": "1f406474e8750f40494b6b6443364b5bb9fc0052",
     "repository": "chobbledotcom/tickets"
   },
-  "artifactSha256": "6a67323d8502b2793d1e90a5765ea65786b0c899a5437f37efd64a0ab2422e59",
+  "artifactSha256": "bd506a0eea4765c89d0d5980849092b90aa03110d17be0a01f505c0d6b0a1230",
   "files": {
-    "_data/ticket_evidence.json": "ec21b5c2ae903de3d98bc2323b18a5469ace178862f7822323d7f8b5cf477cbf",
+    "_data/ticket_evidence.json": "2fb6b9234e05e7e15f8c4afa89a45ee86dd56417af2e9e6ffef5e9e3266823d2",
     "images/screenshots/activity-log-summer-arts-fair.png": "290769bce4ec8a57d11621234dab58b4d5ba279f63d9eb455ede4e7a0d0877e0",
     "images/screenshots/activity-log-summer-arts-fair__facebook.png": "94c2364139c8d36b419ca13c10731364fabc187032e5c7a16043d78e4ce6589e",
     "images/screenshots/api-keys-list.png": "6c190a547ce8edb72e2024ff6c9b34746f8a1b631482bd06e7f5f879e48e3217",
@@ -20,6 +20,8 @@
     "images/screenshots/editor-listings-without-takings__facebook.png": "5ae1907f4d9cf50e309f8b204a4293f0667f3c9bf4ff67ba1ea1c686b84699ca",
     "images/screenshots/garden-party-package-checkout.png": "06d9ee3ce9e0348ba0f7c20cbd721bc5edde490883413750950e734faca427a0",
     "images/screenshots/garden-party-package-checkout__facebook.png": "2b033aa75df46efad3fc0d3997c39e0314ed482202e9132f297b6d8cf6f7a84b",
+    "images/screenshots/maintenance-cost-on-a-room.png": "128ca299bb1eba00790df9d1f1114939532d62a097fc14b960fd348c680a1c72",
+    "images/screenshots/maintenance-cost-on-a-room__facebook.png": "0dc1386011b6d813d8cb6a1b6207fb06842c0d4cb67f71cb541746ff47904678",
     "images/screenshots/manual-attendee-community-supper.png": "03ab5f3cdb6a88ca562a39045233f83fea6de5badcc53a64237a62e06f1fa647",
     "images/screenshots/manual-attendee-community-supper__facebook.png": "2a60745ffefbe11915c567ce93ce1bd983e40c662d1389ac9b4d51596d2a4484",
     "images/screenshots/multi-day-hire.png": "7e3265c7a3da2ca8cc607d9743131b2d2e8579a439f28997f422c6afec926e4b",
@@ -70,6 +72,7 @@
     "editor-listings-without-takings": "155f820b87961d108671d58e59177f8867c0e1ebdfde1e16efc5d2fcb8056e9e",
     "group-booking-arrives": "aed86d58a6414c84c58d74361e033942d1fb6fc13b7dc495ce26ec746285cd9d",
     "listing-ledger": "4fda24c0318ebd5941850ac50bf799ea86f103ac0cb28fe05db2035686d6bada",
+    "maintenance-cost-on-a-room": "491909324e4b3b04e2bf74a7688ecf389eb338b4c3a2d504c123ffce4910a681",
     "one-days-audience": "449c1b307e34fa0aaba80ed45e8f4924d4aee999c148e13dbeee6f5bc9b6fcc3",
     "page-anybody-can-read": "5c1eb3e7e6ba5988b9f21a5fcb71065568d52eb2c9e603adab286f3de6241124",
     "paid-more-than-asked": "f9f474ccdc53805f048a6d55dc1e3649cac233180ab219de2c8b13984b76226a",

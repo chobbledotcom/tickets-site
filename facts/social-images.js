@@ -558,6 +558,28 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "maintenance-cost-on-a-room": [
+    {
+      fact: "A service event reserves capacity on the listings it holds without creating a customer ticket.",
+      sources: [
+        "../tickets/specs/servicing/hold-and-cost.feature:11-19",
+      ],
+    },
+    {
+      fact: "An organiser can record a cost against a service event, and it is refused unless the service event holds the listing the cost names.",
+      sources: [
+        "../tickets/specs/servicing/hold-and-cost.feature:41-49",
+        "../tickets/src/features/admin/servicing.tsx:150-166",
+      ],
+    },
+    {
+      fact: "The cost is posted against the listing's cost account, so it reaches that listing's money record.",
+      sources: [
+        "../tickets/src/shared/db/attendees/servicing.ts:590-602",
+        "../tickets/src/shared/db/attendees/servicing.ts:658-700",
+      ],
+    },
+  ],
   "one-days-audience": [
     {
       fact: "A bulk email can be aimed at one day of a listing booked by the day, and the compose page names the listing and that day as its recipients.",

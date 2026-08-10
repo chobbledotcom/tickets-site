@@ -207,6 +207,11 @@
     "captureId": "page-anybody-can-read"
   },
   {
+    "key": "maintenance-cost-on-a-room",
+    "classification": "linked-evidence",
+    "captureId": "maintenance-cost-on-a-room"
+  },
+  {
     "key": "one-days-audience",
     "classification": "linked-evidence",
     "captureId": "one-days-audience"
