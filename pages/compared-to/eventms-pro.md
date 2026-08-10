@@ -126,14 +126,6 @@ blocks:
       standard UK card rate is 1.5% + 20p, and other card types cost more.
       Self-hosting Chobble Tickets has no Chobble software licence fee, and
       infrastructure remains a separate cost.
-
-      The two pricing models are hard to compare directly. EventMS Pro is a
-      large one-time payment for software you keep forever, plus your own
-      ongoing server costs and any post-launch update work.
-
-      Chobble Tickets is a small recurring fee that covers hosting, updates and
-      support, or software with no Chobble licence fee if you self-host. The
-      right comparison is the scale and type of business each one suits.
   - type: markdown
     content: |
       ## Feature comparison
@@ -240,9 +232,11 @@ blocks:
       Node 20, on a VPS (a rented server the operator sets up and keeps running)
       or dedicated server it estimates at $20 to $40 a month (about £16 to £31).
 
-      It also uses free-tier accounts for Stripe or PayPal, Pusher and
-      Cloudinary. You keep the server running, patched and backed up, and after
-      the first six months updates and new work are billed separately.
+      It also uses free-tier accounts for outside services: card payments
+      through Stripe or PayPal, real-time updates through Pusher, and image
+      hosting through Cloudinary. You keep the server running, patched and
+      backed up, and after the first six months updates and new work are billed
+      separately.
 
       Chobble's managed hosting has no server to run at all; Chobble hosts the
       site and deploys updates for the annual fee, with backup and restore tools
