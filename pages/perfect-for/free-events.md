@@ -141,8 +141,10 @@ blocks:
 
       Managed hosting costs the same whether the events are free or paid,
       so an organisation that takes no money still pays £50 a year, or
-      £25 a year if it qualifies for the community rate. Self-hosting the
-      software costs no licence fee.
+      £25 a year if it qualifies for the community rate. An organisation
+      that would rather [run the software on its own
+      server](/features/deployment/) pays Chobble nothing for it, and
+      pays whoever hosts that server instead.
 
       Nothing stops a free booking becoming a no-show. Check-in records
       who arrived, which is how a repeating session learns what its real
