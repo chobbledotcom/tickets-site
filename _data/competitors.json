@@ -374,5 +374,23 @@
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
     "fee_note": "Ticketebo fees: 4.95% (incl. VAT) of the total transaction value per order, with a minimum of 75p (incl. VAT) per transaction, and card processing included. No subscription, no setup fee and no per-ticket charge. The fee is charged per order, so a multi-ticket booking is charged once. By default the buyer pays the fee on top of the ticket price, but the organiser can absorb it. With a connected Stripe account, a rebate of up to 20% of the booking fee is paid to the organiser after the event, and Stripe processing (1.5% + 20p in the UK) applies separately. Registered charities receive a 10% donation of booking fees back. This calculator applies 4.95% per ticket and does not model the 75p per-transaction minimum, which raises the effective rate on low-value orders. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: ticketebo.co.uk/pricing (August 2026)."
+  },
+  "revel": {
+    "name": "Revel",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 3,
+    "per_ticket_fee_fixed": 0.43,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Revel's hosted service charges 3% + €0.50 (about 43p) on each paid ticket it processes, and nothing for free events or events where the organiser handles payment. Revel prices in euros; the figures here convert €0.50 to about 43p so they sit beside the pound amounts on this site. Revel takes payment through Stripe, so Stripe processing (1.5% + 20p in the UK) applies separately from Revel's commission. Revel's code is open source under the MIT licence, so self-hosting carries no Revel fee. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe, Square or SumUp processing; this calculator uses Stripe's UK rate of 1.5% + 20p, and Square and SumUp differ. Source: letsrevel.io (August 2026)."
+  },
+  "revel_selfhosted": {
+    "name": "Revel Self-Hosted",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Revel is open source under the MIT licence, so self-hosting carries no Revel platform fee and no per-ticket commission. You pay only your own server costs and Stripe processing (1.5% + 20p in the UK). Revel needs a Django application server with PostgreSQL, Redis and background workers, so plan for a small always-on server. Chobble Tickets self-hosting also has no Chobble software licence fee; it compiles to a single JavaScript file and runs on serverless edge infrastructure. Source: github.com/letsrevel (August 2026)."
   }
 }

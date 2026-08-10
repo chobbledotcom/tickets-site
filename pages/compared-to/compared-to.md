@@ -96,6 +96,9 @@ blocks:
       - icon: hugeicons:calendar-03
         description: A UK booking platform for escape rooms, tours, and activities. Compare a monthly-subscription activity tool with flat-rate event ticketing.
         name: <a href="/compared-to/resova/">Resova alternative</a>
+      - icon: hugeicons:source-code
+        description: An open source community platform first built for queer, LGBTQ+ and kink groups, with attendee vetting and private guest lists. Compare licences, payments, self-hosting and how each keeps data private.
+        name: <a href="/compared-to/revel/">Revel alternative</a>
       - icon: hugeicons:ticket-01
         description: The volunteer sign-up sheet tool that added ticketing. Compare purpose-built ticketing vs a coordination platform.
         name: <a href="/compared-to/signupgenius/">SignUpGenius alternative</a>
