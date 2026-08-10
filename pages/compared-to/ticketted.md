@@ -53,10 +53,14 @@ blocks:
     content: |
       ## Open source & flat fee Ticketted alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Ticketted does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK,
+      which means your ticket pages carry your name and branding rather than
+      Chobble's. It is run by a community interest company, a UK company type
+      that cannot pay its profits out to shareholders.
+
+      Chobble's source code is published under the AGPL-3.0-only licence, so
+      anyone can read it, fork it, or run their own copy. Ticketted does not
+      publish its source code.
 
       Ticketted charges a percentage plus a fixed amount on every paid
       ticket, so what it takes rises with the number of tickets sold. Chobble
@@ -87,11 +91,14 @@ blocks:
       Payment processing is charged by your own Stripe, Square or SumUp
       account, which for UK Stripe is 1.5% + 20p.
 
-      At £15 a ticket, Ticketted takes about £1.09 and Chobble's own Stripe
-      account takes about 43p, so the flat £50 costs less once you sell more
-      than about 75 tickets a year, which is around £1,100 of ticket sales. A
-      charity comparing Ticketted's lower rate with Chobble's £25 community
-      rate crosses over at about 140 tickets, or around £2,100 of sales.
+      At £15 a ticket, Ticketted takes about £1.09 out of each sale. Chobble
+      takes nothing from a sale at all: the money goes straight to your own
+      Stripe account, and Stripe charges about 43p to process the payment.
+
+      The flat £50 therefore costs less once you sell more than about 75
+      tickets a year, which is around £1,100 of ticket sales. A charity
+      comparing Ticketted's lower rate with Chobble's £25 community rate
+      crosses over at about 140 tickets, or around £2,100 of sales.
 
       Dearer tickets reach both crossovers sooner, because most of what each
       platform charges is a percentage. At £30 a ticket the flat £50 costs
