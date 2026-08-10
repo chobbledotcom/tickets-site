@@ -47,7 +47,7 @@ blocks:
     content: |-
       # Chobble Tickets vs EventMS Pro
 
-      Both platforms sell tickets and keep attendee data on your own server. EventMS Pro is a closed-source marketplace you buy once for a large fee. Chobble Tickets is open source with a small annual fee.
+      EventMS Pro and Chobble Tickets both sell tickets and can run on a server you control. EventMS Pro is a closed-source marketplace you buy once for a large fee. Chobble Tickets is open source with a small annual fee, and Chobble can host it for you.
   - type: markdown
     content: |
       ## Open source & flat-fee EventMS Pro alternative
@@ -84,7 +84,7 @@ blocks:
       install or maintain.
 
       Which one fits depends on whether you are building a marketplace for many
-      organisers and want to own the software outright, or you want managed
+      organisers and want a one-time perpetual licence, or you want managed
       ticketing for your own events with a small recurring fee.
 
       Other self-hosted and open source comparisons cover
@@ -98,9 +98,10 @@ blocks:
 
       EventMS Pro charges a one-time licence fee rather than a subscription or
       a per-ticket cut. You pay once, receive the software, and host it
-      yourself. There is no revenue share on ticket sales and no per-organiser
-      seat cost. The licence covers a single production deployment on one
-      domain.
+      yourself.
+
+      There is no revenue share on ticket sales and no per-organiser seat cost.
+      The licence covers a single production deployment on one domain.
 
       | EventMS Pro licence | Price (one-time) | Approx. GBP | What it includes |
       |---|---|---|---|
@@ -109,32 +110,37 @@ blocks:
 
       The price includes six months of support and updates. After six months,
       new features, custom integrations and other changes are billed
-      separately. Additional deployments require additional licences. EventMS
-      Pro states that sales are final once installation is delivered, so there
-      is no refund after that point. Payment processing runs through your own
-      Stripe or PayPal account, which charges its own fees on top.
+      separately. Additional deployments require additional licences.
+
+      EventMS Pro states that sales are final once installation is delivered, so
+      there is no refund after that point. Payment processing runs through your
+      own Stripe or PayPal account, which charges its own fees on top.
 
       Chobble Tickets is a flat **£50/year (or £5/month)** for the whole site,
       with [no per-ticket platform fees](/features/no-per-ticket-fees/).
       Charities, community groups, artists and musicians pay £25/year on the
-      annual plan. Stripe, Square or SumUp processing is charged separately;
-      Stripe's UK rate is 1.5% + 20p. The annual fee includes updates and
-      support for as long as you pay it. Self-hosting Chobble Tickets has no
-      Chobble software licence fee, and infrastructure remains a separate cost.
+      annual plan. The annual fee includes updates and support for as long as
+      you pay it.
+
+      Stripe, Square or SumUp processing is charged separately; Stripe's
+      standard UK card rate is 1.5% + 20p, and other card types cost more.
+      Self-hosting Chobble Tickets has no Chobble software licence fee, and
+      infrastructure remains a separate cost.
 
       The two pricing models are hard to compare directly. EventMS Pro is a
       large one-time payment for software you keep forever, plus your own
-      ongoing server costs and any post-launch update work. Chobble Tickets is
-      a small recurring fee that covers hosting, updates and support, or
-      software with no Chobble licence fee if you self-host. The right
-      comparison is the scale and type of business each one suits.
+      ongoing server costs and any post-launch update work.
+
+      Chobble Tickets is a small recurring fee that covers hosting, updates and
+      support, or software with no Chobble licence fee if you self-host. The
+      right comparison is the scale and type of business each one suits.
   - type: markdown
     content: |
       ## Feature comparison
 
-      Both platforms sell tickets and keep attendee data on your own server,
-      but EventMS Pro is built for running a marketplace of many organisers and
-      Chobble Tickets for one organiser running their own events.
+      Both platforms sell tickets and can be self-hosted, but EventMS Pro is
+      built for running a marketplace of many organisers and Chobble Tickets for
+      one organiser running their own events.
   - type: markdown
     content: |
       ### Both platforms share some features
@@ -169,9 +175,13 @@ blocks:
       - **Native push notifications** - send push alerts as well as email
   - type: markdown
     content: |
-      ### Chobble Tickets has features EventMS Pro does not
+      ### Features Chobble Tickets includes that EventMS Pro's materials do not
 
-      EventMS Pro's published materials do not mention the features below.
+      EventMS Pro ships as a closed build, so this lists what Chobble Tickets
+      publishes and EventMS Pro's materials do not describe. Absence from
+      marketing is not proof a feature is missing. The clear structural
+      differences are the first three below: open source, a managed-hosting
+      option, and Square and SumUp payments.
 
       - **[Open source under AGPLv3](/features/open-source/)** - every line of
         code that runs the platform is public and freely licensed; EventMS Pro
@@ -180,9 +190,9 @@ blocks:
         server to install or maintain; EventMS Pro is self-hosted only
       - **[Square and SumUp payments](/features/stripe-and-square/)** - Chobble
         Tickets supports Stripe, Square and SumUp
-      - **[Encryption at rest](/features/encrypted/)** - attendee data is stored
-        with hybrid RSA-OAEP + AES-256-GCM encryption, so a database dump on its
-        own cannot be read
+      - **[Encryption at rest](/features/encrypted/)** - attendee data is
+        encrypted, so a copy of the database cannot be read without the
+        organiser's private key (the encryption uses RSA-OAEP + AES-256-GCM)
       - **[Custom email providers](/features/email-providers/)** - send
         confirmations through Resend, Postmark, SendGrid or Mailgun, from your
         own domain
@@ -208,10 +218,12 @@ blocks:
 
       EventMS Pro is proprietary software sold with a one-time perpetual
       licence. You receive a licensed production build rather than the source
-      code, so it is not open source. The licence covers a single production
-      deployment on one domain. You can customise and rebrand the site for your
-      own business, but you cannot resell, redistribute or sublicense the
-      product to third parties, and additional deployments need more licences.
+      code, so it is not open source.
+
+      The licence covers a single production deployment on one domain. You can
+      customise and rebrand the site for your own business, but you cannot
+      resell, redistribute or sublicense the product to third parties, and
+      additional deployments need more licences.
 
       The complete Chobble Tickets product source is published under
       AGPL-3.0-only in a public
@@ -230,10 +242,11 @@ blocks:
 
       EventMS Pro runs on your own server. Its published requirements are PHP
       8.2 or newer, MySQL 8, Redis and Node 20, on a VPS or dedicated server it
-      estimates at $20 to $40 a month (about £16 to £31). It also uses
-      free-tier accounts for Stripe or PayPal, Pusher and Cloudinary. You keep
-      the server running, patched and backed up, and after the first six months
-      updates and new work are billed separately.
+      estimates at $20 to $40 a month (about £16 to £31).
+
+      It also uses free-tier accounts for Stripe or PayPal, Pusher and
+      Cloudinary. You keep the server running, patched and backed up, and after
+      the first six months updates and new work are billed separately.
 
       Chobble's managed hosting has no server to run at all; Chobble keeps it
       online, updated and backed up for the annual fee. If you prefer to
@@ -241,9 +254,9 @@ blocks:
       on serverless edge infrastructure with an edge database, so there is no
       always-on application server to maintain.
 
-      Both approaches keep attendee data under your control. The difference is
-      how much infrastructure you run yourself, and whether updates are included
-      in a recurring fee or billed after an initial period.
+      Both approaches keep attendee data off a shared public marketplace. The
+      difference is how much infrastructure you run yourself, and whether updates
+      are included in a recurring fee or billed after an initial period.
   - type: markdown
     content: |
       ## When EventMS Pro is the better choice
@@ -251,7 +264,7 @@ blocks:
       - You are building a marketplace where many organisers sell tickets on one
         site under your brand
       - You need reserved seating with a visual seat map
-      - You want to own the software outright with a one-time payment and no
+      - You want a one-time perpetual licence with a single payment and no
         recurring platform fee
       - You want PayPal alongside Stripe
       - You want built-in reviews, a help desk, newsletters or an ad marketplace

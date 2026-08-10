@@ -54,6 +54,9 @@ blocks:
       - icon: hugeicons:source-code
         description: An open source platform with a flat subscription, self-hosting and no per-ticket fee. Compare feature tiers, licences, encryption and data handling.
         name: <a href="/compared-to/event-schedule/">Event Schedule alternative</a>
+      - icon: hugeicons:package
+        description: Self-hosted marketplace ticketing software sold as a one-time closed-source licence. Compare a large upfront purchase with a flat annual fee.
+        name: <a href="/compared-to/eventms-pro/">EventMS Pro alternative</a>
       - icon: hugeicons:ticket-01
         description: A WordPress plugin that adds an events calendar, bookings and ticketing to your own site. Compare licence tiers with a standalone platform.
         name: <a href="/compared-to/eventprime/">EventPrime alternative</a>
