@@ -51,6 +51,9 @@ blocks:
       - icon: hugeicons:ticket-01
         description: The self-service platform from CTS EVENTIM. Compare fees, features and data handling.
         name: <a href="/compared-to/eventim-light/">EVENTIM.Light alternative</a>
+      - icon: hugeicons:source-code
+        description: An open source platform with a flat subscription, self-hosting and no per-ticket fee. Compare feature tiers, licences, encryption and data handling.
+        name: <a href="/compared-to/event-schedule/">Event Schedule alternative</a>
       - icon: hugeicons:ticket-01
         description: A WordPress plugin that adds an events calendar, bookings and ticketing to your own site. Compare licence tiers with a standalone platform.
         name: <a href="/compared-to/eventprime/">EventPrime alternative</a>
