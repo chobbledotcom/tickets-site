@@ -7,7 +7,7 @@ layout: null
 
 ## Scope
 
-This audit covers all 162 rendered client pages. A page counts as illustrated
+This audit covers all 163 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.

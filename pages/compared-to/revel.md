@@ -92,11 +92,10 @@ blocks:
 
       The pricing models are different.
 
-      **Revel hosted** charges no annual fee. It takes 3% + €0.50 (about 43p)
-      on each paid ticket it processes, and nothing for free events or events
-      where you collect payment yourself. Revel prices in euros. It takes
-      payment through Stripe, so Stripe processing fees apply on top of
-      Revel's commission.
+      **Revel hosted** charges no annual fee. It takes 3% + €0.50 (about 43p,
+      since Revel prices in euros) on each paid ticket it processes, and
+      nothing for free events. It takes payment through Stripe, so Stripe
+      processing fees apply on top of Revel's commission.
 
       **Revel self-hosted** has no platform fee at all, because the code is
       MIT licensed. You pay only Stripe processing and your own server costs.
@@ -109,8 +108,9 @@ blocks:
       For small numbers of paid tickets, Revel hosted is cheaper because there
       is no annual fee. As volume grows, Chobble's flat fee becomes better
       value: if you sell more than about 57 tickets at £15 each in a year, you
-      will pay less with Chobble Tickets. Free events cost nothing on either
-      platform.
+      will pay less with Chobble Tickets. Neither platform charges a per-ticket
+      fee on free events, though Chobble's flat annual fee still applies
+      whether events are free or paid.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -255,7 +255,8 @@ blocks:
         annual plan)
       - You want a public website, calendar feeds, custom email providers or
         pay-what-you-want pricing
-      - You value a Community Interest Company over a commercial startup
+      - You value a Community Interest Company, which cannot pay profit to
+        shareholders
   - type: markdown
     content: |
       ## Who builds Revel?
