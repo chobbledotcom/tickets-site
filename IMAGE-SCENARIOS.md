@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 163 rendered client pages. A page counts as illustrated
+This audit covers all 164 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 161 | 66 | 95 |
+| Editorial pages in the sitemap | 162 | 66 | 96 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **163** | **66** | **97** |
+| **All rendered pages** | **164** | **66** | **98** |
 
-The 95 editorial pages are the main illustration backlog. The two utility
+The 96 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -197,6 +197,7 @@ pages are listed separately at the end.
 | `pages/compared-to/revel.md` | Comparison graphic: `revel-private-community-vetting` | Moonlight Collective runs a members-only kink night. Show Revel's questionnaire vetting and private guest list, its 3% + €0.50 hosted commission and MIT-licensed self-hosting beside Chobble's encryption at rest, flat annual fee and AGPL self-hosting. Keep both as privacy-first options rather than picking a winner. | Shows two ways to keep a community's attendee list private, and how price and licence differ. |
 | `pages/compared-to/digitickets.md` | Comparison graphic: `digitickets-attraction-bundle` | Riverside Wildlife Park sells day admission and wants tills, kiosks and marketplace distribution beside online sales. Show DigiTickets' per-transaction, per-ticket or percentage charge as a quote card with no published rates, beside Chobble's £50/year managed hosting, with ProPoint tills, self-service kiosks, staff scheduling and travel-marketplace distribution as a separate DigiTickets advantage panel. | Shows the venue-operations bundle a quoted DigiTickets contract can buy, without inventing rates. |
 | `pages/compared-to/qrticket.md` | Comparison graphic: `qrticket-fee-and-who-pays` | Oakfield sells 200 £15 tickets through QRTicket. Show the €0.90 per-ticket fee and PayPal processing beside Chobble's flat annual fee, and mark who pays under QRTicket's default buyer-paid setting and its absorbed setting. Show seat plans, sales outlets, paper tickets and season passes as a separate QRTicket advantage panel. | Shows that QRTicket's free-to-organiser headline rests on a buyer charge, and the volume point where absorbing it crosses Chobble's flat price. |
+| `pages/compared-to/ticketted.md` | Comparison graphic: `ticketted-per-sale-and-discovery` | Harbourview Sessions sells 300 tickets at £15. Show Ticketted's 3.95% + A$0.95 on each paid ticket, and its 2.45% + A$0.45 charity and school rate, beside Chobble's flat £50/year and £25/year community rate plus the organiser's own processing, with the crossover point labelled. Show Ticketted's homepage event listings and AI event setup as a separate advantage panel, and Chobble's own-domain, own-website pages as the counterpart. | Shows where a per-sale charge overtakes a flat fee, and what an organiser trades when the platform also owns the shop window. |
 
 ## Comparisons: Large Venues
 
