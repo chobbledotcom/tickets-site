@@ -14,9 +14,9 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 160 | 63 | 97 |
+| Editorial pages in the sitemap | 160 | 64 | 96 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **162** | **63** | **99** |
+| **All rendered pages** | **162** | **64** | **98** |
 
 The 97 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
@@ -135,7 +135,6 @@ pages are listed separately at the end.
 | `pages/perfect-for/community-centres.md` | Admin screenshot: `village-hall-two-jobs` | Meadowfield Village Hall's calendar for one week, with the main hall hired for a Saturday party at capacity one, the Tuesday lunch club taking free places, and a Thursday held for floor repairs as a servicing hold. | Shows hire and the hall's own programme in one calendar, and makes whole-day booking visible. |
 | `pages/perfect-for/performers-and-artists.md` | Attendee screenshot: `artist-own-domain-checkout` | A checkout on an artist's own domain with no Chobble branding, a £12 ticket with nothing added to the total, and a pay-what-you-want option above a £5 minimum for a work-in-progress date. | Shows the artist's own front door and the price the audience actually pays. |
 | `pages/perfect-for/free-events.md` | Attendee screenshot: `library-story-time-signup` | Northgate Library's Tuesday story time with 20 places on the chosen date, name and email only, an access needs question, and a confirmation with a QR code and no payment step. | Shows registration with no payment provider and no more data collected than the session needs. |
-| `pages/perfect-for/online-events.md` | Diagram: `joining-link-after-booking` | A registration for an online talk, then the organiser emailing that listing's attendees the joining link before it starts. Show the public listing page carrying no link, and the message sent as news rather than as a promotion so it reaches everyone booked. | Shows where the link comes from and the gap the organiser has to cover, without implying an integration. |
 
 ## Guide Pages
 

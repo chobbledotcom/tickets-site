@@ -19,13 +19,13 @@
     "captureId": "attendee-csv-export"
   },
   {
+    "key": "attendee-statuses",
+    "classification": "legacy-product-screenshot"
+  },
+  {
     "key": "backup-restore",
     "classification": "linked-evidence",
     "captureId": "backup-restore"
-  },
-  {
-    "key": "attendee-statuses",
-    "classification": "legacy-product-screenshot"
   },
   {
     "key": "bulk-email",
@@ -80,46 +80,6 @@
     "classification": "editorial"
   },
   {
-    "key": "setup-journey-booking",
-    "classification": "editorial"
-  },
-  {
-    "key": "setup-journey-confirmation",
-    "classification": "editorial"
-  },
-  {
-    "key": "setup-journey-email",
-    "classification": "editorial"
-  },
-  {
-    "key": "setup-journey-event",
-    "classification": "editorial"
-  },
-  {
-    "key": "setup-journey-link",
-    "classification": "editorial"
-  },
-  {
-    "key": "setup-journey-ready",
-    "classification": "editorial"
-  },
-  {
-    "key": "setup-journey-setup",
-    "classification": "editorial"
-  },
-  {
-    "key": "setup-journey-signup",
-    "classification": "editorial"
-  },
-  {
-    "key": "setup-journey-stripe",
-    "classification": "editorial"
-  },
-  {
-    "key": "setup-journey-ticket",
-    "classification": "editorial"
-  },
-  {
     "key": "confirmation-email-template-editor",
     "classification": "legacy-product-screenshot"
   },
@@ -141,13 +101,13 @@
     "classification": "legacy-product-screenshot"
   },
   {
-    "key": "equipment-hire",
-    "classification": "legacy-product-screenshot"
-  },
-  {
     "key": "editor-listings-without-takings",
     "classification": "linked-evidence",
     "captureId": "editor-listings-without-takings"
+  },
+  {
+    "key": "equipment-hire",
+    "classification": "legacy-product-screenshot"
   },
   {
     "key": "group-bulk-actions",
@@ -167,11 +127,11 @@
     "classification": "legacy-product-screenshot"
   },
   {
-    "key": "industry-class-reunion",
+    "key": "industry-childrens-entertainer",
     "classification": "legacy-product-screenshot"
   },
   {
-    "key": "industry-childrens-entertainer",
+    "key": "industry-class-reunion",
     "classification": "legacy-product-screenshot"
   },
   {
@@ -247,6 +207,11 @@
     "captureId": "page-anybody-can-read"
   },
   {
+    "key": "one-days-audience",
+    "classification": "linked-evidence",
+    "captureId": "one-days-audience"
+  },
+  {
     "key": "order-widget",
     "classification": "legacy-product-screenshot"
   },
@@ -302,6 +267,46 @@
     "key": "servicing-events",
     "classification": "linked-evidence",
     "captureId": "servicing-studio-floor-hold"
+  },
+  {
+    "key": "setup-journey-booking",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-confirmation",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-email",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-event",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-link",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-ready",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-setup",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-signup",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-stripe",
+    "classification": "editorial"
+  },
+  {
+    "key": "setup-journey-ticket",
+    "classification": "editorial"
   },
   {
     "key": "site-customisation",

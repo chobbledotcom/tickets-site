@@ -167,6 +167,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Require an add-on for each unit",
     body: "For each parent unit, customers choose one child listing from a set. A sole available child is added automatically.",
   },
+  "one-days-audience": {
+    heading: "Write to one date, not the whole term",
+    body: "A course booked date by date can be written to one date at a time. Choose the date on the attendee list, and the message reaches that date's people rather than everyone booked on the term.",
+  },
   "payment-provider-choice": {
     heading: "Choose a payment provider",
     body: "Select Stripe, Square or SumUp. Saved credentials remain available when the organiser switches provider.",

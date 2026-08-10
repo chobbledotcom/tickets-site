@@ -3,6 +3,7 @@ title: Online and Hybrid Events - Chobble Tickets
 meta_title: Registration for Online and Hybrid Events | Chobble Tickets
 meta_description: Take free or paid registrations for online and hybrid events, then send the joining link to that event's attendees by email. Chobble Tickets hosts no video.
 permalink: /perfect-for/online-events/
+ticket_evidence_capture: one-days-audience
 eleventyNavigation:
   key: Online Events
   parent: Perfect For
@@ -64,7 +65,7 @@ blocks:
         text: Free registration or paid tickets.
       - icon: hugeicons:money-receive-square
         text: Money into your own payment account.
-  - type: split-icon-links
+  - type: split-image
     reverse: true
     content: |
       ## How the joining link reaches people
@@ -95,13 +96,9 @@ blocks:
       Confirmation email templates are set for the whole site rather than
       for one listing, so they suit a standing instruction such as where
       the link will come from, rather than the link to one session.
-    figure_items:
-      - icon: hugeicons:mail-send-01
-        text: One email to one session's attendees.
-      - icon: hugeicons:view-off
-        text: The link stays off the public page.
-      - icon: hugeicons:timer-01
-        text: A reminder sent on the day.
+    figure_src: /images/screenshots/one-days-audience.png
+    figure_alt: A screenshot of the bulk email page addressed to attendees of the Course on Tuesday 11 August 2026, saying it reaches 1 recipient
+    figure_caption: 'The compose page names the listing and the one day the message is aimed at, and counts who that day reaches. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/writing-to-the-people-who-booked.feature">(src)</a></small>'
   - type: split-icon-links
     content: |
       ## Hybrid events
