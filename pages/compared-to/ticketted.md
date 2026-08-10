@@ -16,7 +16,7 @@ provider_facts:
   registration_country: australia
   ethical_basis:
     - not-documented
-  per_ticket_platform_fee: per-transaction-percentage-plus-fixed
+  per_ticket_platform_fee: percentage-plus-fixed
   managed_pricing: per-sale
   white_label: not-documented
   custom_domain: not-documented
@@ -32,7 +32,7 @@ provider_facts:
   notes:
     registration_country: "Ticketted Pty Ltd is an Australian private company, ABN 26 698 189 669 and ACN 698 189 669, registered on 18 May 2026 with its main business location in New South Wales (ABN Lookup, checked 11 August 2026). The platform prices in Australian dollars, covers events across Australia and describes Australia-based support."
     ethical_basis: "Ticketted Pty Ltd is an ordinary Australian private company. No owner, director or investor information was found in the sources reviewed, and no ethical certification or structure is claimed."
-    per_ticket_platform_fee: "Ticketted publishes a charge of 1.8% + A$0.30 (about 16p at 52.3p to the Australian dollar on 10 August 2026). Its own copy describes this both as a per-transaction charge and as a per-ticket charge. Free events carry no charge. Ticketted does not state whether Stripe processing is included. Stripe's published Australian rate is 1.7% + A$0.30 including GST, which the charge barely exceeds, and Ticketted compares it with all-in rates from other platforms, so this site reads it as covering processing."
+    per_ticket_platform_fee: "Ticketted publishes a charge of 1.8% + A$0.30 (about 16p at 52.3p to the Australian dollar on 10 August 2026). Its own copy describes this both as a per-transaction charge and as a per-ticket charge, so the unit is unresolved; the enum records the shape of the charge rather than its unit, and this site models it per ticket. Free events carry no charge. Ticketted does not state whether Stripe processing is included. Stripe's published Australian rate is 1.7% + A$0.30 including GST, which the charge barely exceeds, and Ticketted compares it with all-in rates from other platforms, so this site reads it as covering processing."
     managed_pricing: "There is no published subscription. Ticketted is paid from the charge on each paid sale, so the total rises with ticket volume."
     white_label: "No white-labelling option was documented in the sources reviewed."
     custom_domain: "No custom-domain option was documented in the sources reviewed. Event pages are served from ticketted.com."
@@ -58,10 +58,11 @@ blocks:
       AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
       copy. Ticketted does not publish its source code.
 
-      Ticketted takes a percentage of each paid sale, so what you pay rises
-      with the number of tickets you sell. Chobble Tickets charges £50/year or
-      £5/month whatever the volume, and adds
-      [no fee to any ticket](/features/no-per-ticket-fees/).
+      Ticketted takes a percentage of each paid sale, so the total charge
+      rises with the number of tickets sold. The organiser chooses for each
+      event whether to absorb that charge or add it to the buyer's price.
+      Chobble Tickets charges £50/year or £5/month whatever the volume, and
+      adds [no fee to any ticket](/features/no-per-ticket-fees/).
 
       The two platforms also serve different places. Ticketted sells tickets
       for events across Australia and prices in Australian dollars. Chobble
@@ -94,6 +95,11 @@ blocks:
       community groups, artists and musicians pay £25/year on the annual plan.
       Payment processing is charged by your own Stripe, Square or SumUp
       account, which for UK Stripe is 1.5% + 20p.
+
+      The comparisons below count the total charged on each sale, whoever
+      pays it. If you pass Ticketted's charge to buyers, your own cost is
+      nothing and the ticket price rises instead, which is the trade the
+      figures do not capture.
 
       On those numbers the two run close on each sale, because Ticketted's
       1.8% is not far above the 1.5% your own Stripe account charges. At £15 a
@@ -203,8 +209,8 @@ blocks:
       - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid or Mailgun so confirmations come from your
         own domain
-      - **[Liquid email templates](/features/email-templates/)** - full
-        control over the wording and layout of every email
+      - **[Liquid email templates](/features/email-templates/)** - write the
+        subject, HTML body and plain text body of your confirmation emails
       - **[SMS messages](/features/sms-messages/)** - text attendees about
         their booking
       - **[Deposits and balance payments](/features/deposits-and-balance-payments/)** -
@@ -250,12 +256,13 @@ blocks:
     content: |
       ## Data ownership
 
-      Ticketted describes PCI-compliant payments, GDPR-ready data handling
-      and Stripe's fraud detection. Attendee data is held on Ticketted's
-      servers, and Ticketted publishes neither its source code nor a
-      self-hosting option, so running the same system yourself is not
-      something it offers. If Ticketted stopped operating, you would depend
-      on the exports you had already downloaded.
+      Ticketted says card payments meet the card industry's security rules
+      (PCI), that its data handling is ready for European privacy law (GDPR),
+      and that Stripe checks payments for fraud. Attendee data is held on
+      Ticketted's servers, and Ticketted publishes neither its source code nor
+      a self-hosting option, so running the same system yourself is not
+      something it offers. If Ticketted stopped operating, you would depend on
+      the exports you had already downloaded.
 
       With Chobble Tickets, attendee data is encrypted at rest. Only the keys
       held by your own administrator accounts, and the optional recovery
@@ -273,7 +280,8 @@ blocks:
 
       - Your events are in Australia, which is where Ticketted sells tickets
       - You sell modest numbers of lower-priced tickets, where 1.8% + A$0.30
-        an order costs less than a flat annual price plus your own processing
+        a sale costs less than a flat annual price plus your own processing,
+        or you pass that charge to buyers and pay nothing yourself
       - You want the charge paid by ticket buyers rather than paying a fee
         yourself
       - You want your event listed on a site people already browse
@@ -285,9 +293,10 @@ blocks:
     content: |
       ## When Chobble Tickets is the better choice
 
-      - You sell enough, or price high enough, that a percentage of every
-        sale costs more than a flat £50, which at £30 a ticket is around
-        1,000 tickets a year
+      - You absorb your fees rather than adding them to ticket prices, and
+        sell enough, or price high enough, that a percentage of every sale
+        costs more than a flat £50, which at £30 a ticket is around 1,000
+        tickets a year
       - You want a price that does not change with ticket volume or value
       - You are a charity, community group, artist or musician, and pay
         £25/year on the annual plan
