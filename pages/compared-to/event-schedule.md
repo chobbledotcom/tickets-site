@@ -30,7 +30,7 @@ provider_facts:
   event_marketplace: built-in
   attendee_cross_marketing: not-documented
   notes:
-    registration_country: "The Event Schedule site and GitHub repository reviewed did not state a registering company or country. The project is published on GitHub by the makers of Invoice Ninja, and Invoice Ninja is one of the two payment options for tickets. Reviewed 10 August 2026."
+    registration_country: "Event Schedule's privacy policy names the operator as Event Schedule LLC but states no country or registered address. It is made by the team behind Invoice Ninja, whose company Invoice Ninja LLC is registered in Fort Myers, Florida in the United States and which was founded and is partly based in Haifa, Israel. Event Schedule's own registering jurisdiction is not documented. Reviewed 10 August 2026."
     ethical_basis: "The reviewed sources did not describe a company registration, funding or ownership structure for Event Schedule. Its code is published on GitHub by the makers of the Invoice Ninja billing software, which does not by itself establish an independent or community governance model."
     per_ticket_platform_fee: "Event Schedule states it charges no fee on ticket sales. Payment processing is charged separately by the organiser's own Stripe account."
     managed_pricing: "Event Schedule has three plans. The free plan is capped at 25 paid tickets a month, so selling more forces an upgrade to a paid plan on ticket volume alone. Above that cap the paid plans are a flat price that does not change with volume: Pro at US$5/month or US$50/year and Enterprise at US$15/month or US$150/year, differing by features."
@@ -311,15 +311,18 @@ blocks:
     content: |
       ## Who runs Event Schedule?
 
-      Event Schedule is an open source project published on GitHub by the
-      makers of Invoice Ninja, the billing software that is also one of its two
-      payment options. The sources reviewed did not name a registering company
-      or country, describe a funding structure, or set out an ownership model.
+      Event Schedule is an open source project made by the team behind Invoice
+      Ninja, the billing software that is also one of its two payment options.
+      Its privacy policy names the operator as Event Schedule LLC and states no
+      country. Invoice Ninja is run as Invoice Ninja LLC, registered in Fort
+      Myers, Florida in the United States, and was founded and is partly based
+      in Haifa, Israel.
 
       Chobble Tickets is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for community
-      benefit. All of Chobble's code is public under
+      (CIC) registered in England, a UK legal structure that locks the
+      company's assets for community benefit. All of Chobble's code is public
+      under
       [AGPL-3.0-only](/features/open-source/), and the platform can be
       self-hosted by anyone without depending on Chobble as a company.
   - type: markdown
