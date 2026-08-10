@@ -357,6 +357,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "SmartGig prices its Ticketing module at £80/month or £800/year on annual billing. Its published prices list no fee per ticket sold, so this estimate assumes none; no reviewed source states outright that no per-sale fee applies. This estimate uses the annual rate for ticketing alone. Other parts of the platform are priced separately, including White Label custom domains at £50/month, Trader Manager, Transport Manager and Stage Manager at £20/month each, and Site Plan, team access and recurring events at £10/month each, so a real package can cost more. Ticket revenue goes directly to your own Stripe account via Stripe Connect, with Stripe processing charged separately (1.5% + 20p in the UK). Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: smartgig.co.uk package builder (August 2026)."
   },
+  "eventschedule": {
+    "name": "Event Schedule (Pro)",
+    "annual_cost": 40,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Event Schedule charges no platform fee on ticket sales. Its paid plans are a flat subscription in US dollars: Pro at US$5/month or US$50/year (about £40/year) unlocks unlimited ticket sales and removes Event Schedule branding, and Enterprise at US$15/month or US$150/year (about £120/year) adds custom domains and extra team members. A free plan sells up to 25 paid tickets a month and carries Event Schedule branding. This calculator uses the Pro annual rate, converted to about £40, with UK Stripe processing (1.5% + 20p) to match the Chobble figures; Event Schedule's own pages quote US Stripe at 2.9% + US$0.30. Ticket income goes to the organiser's own Stripe account, and the software is open source, so self-hosting carries no Event Schedule fee. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe/Square/SumUp processing (1.5% + 20p). Source: eventschedule.com/pricing (August 2026)."
+  },
   "ticketebo": {
     "name": "Ticketebo",
     "annual_cost": 0,
