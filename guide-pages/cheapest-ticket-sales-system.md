@@ -1,8 +1,8 @@
 ---
 name: The Cheapest Ticket Sales System
-subtitle: What a year of 1,000 tickets at £20 costs on each reviewed provider, and which options cost less below that volume
+subtitle: What each reviewed provider charges on a year of 1,000 tickets at £20, and which options cost less below that volume
 meta_title: The Cheapest Ticket Sales System | Chobble Tickets
-meta_description: Estimated annual costs for selling 1,000 tickets at £20 on each reviewed ticketing provider, with the break-even volumes where a flat fee starts to cost less than a per-ticket fee.
+meta_description: What each reviewed ticketing provider charges on a year of 1,000 tickets at £20, with the break-even volumes where a flat annual fee starts to cost less than a per-ticket fee.
 guide-category: choosing-a-ticket-platform
 order: 4.5
 blocks:
@@ -26,23 +26,33 @@ blocks:
     content: |
       ## The short answer
 
-      The floor for the year is £500, which is payment processing and nothing
-      else. Three managed plans sit on it: [tickts](/compared-to/tickts/)
-      Starter, [SumUp Online Store](/compared-to/sumup-store/) and
-      [Dandelion](/compared-to/dandelion/) before its requested contribution.
+      Card processing is a cost on every provider, because a card payment
+      carries a fee wherever it is taken. Stripe's UK rate of 1.5% + 20p a
+      payment comes to £500 on this example if every ticket is paid for
+      separately, and less when buyers pay for several tickets at once.
+      Some providers charge on top of processing and some include it in one
+      combined rate, so the tables below say which is which.
+
+      Three managed plans charge nothing beyond processing:
+      [tickts](/compared-to/tickts/) Starter,
+      [SumUp Online Store](/compared-to/sumup-store/) and
+      [Dandelion](/compared-to/dandelion/) before its requested
+      contribution. Every other provider charges more, and the rest of this
+      guide measures how much.
+
+      Chobble Tickets managed costs £50 a year on top of processing, so it
+      is not the cheapest managed service: the three plans above charge
+      nothing, and [Event Schedule](/compared-to/event-schedule/) Pro is
+      about £40. The £50 is the lowest managed price that includes
+      white-label branding, an organiser-owned domain and a full API, which
+      is the connection other software uses to read and change event and
+      booking data, without moving to a higher tier.
 
       The cheapest way to run the software yourself is Chobble Tickets, at
-      about £509. It compiles to an edge script with nothing running between
-      requests, so its hosting bill is Bunny's $1 a month account minimum,
-      about £9 a year, while every other self-hostable product reviewed here
-      needs an always-on server costing £56 to £104 a year.
-
-      The cheapest managed service is not Chobble Tickets. The three plans on
-      the floor charge nothing a year, and [Event Schedule](/compared-to/event-schedule/)
-      Pro is about £40. Chobble Tickets at £550 is the cheapest managed option
-      that includes white-label branding, an organiser-owned domain and a full
-      API, which is the connection other software uses to read and change event
-      and booking data, without moving to a higher tier.
+      about £9 a year. It compiles to an edge script with nothing running
+      between requests, so its hosting bill is Bunny's $1 a month account
+      minimum, while every other self-hostable product reviewed here needs
+      an always-on server costing £56 to £104 a year.
   - type: markdown
     content: |
       ## Below this volume, a free plan costs less
@@ -57,11 +67,10 @@ blocks:
       no commission and no booking fee, and ticket money goes to the
       organiser's own Stripe account, so the only cost is Stripe's 1.5% + 20p.
 
-      The £50 hosting fee is what separates it from Chobble Tickets at any
-      volume. What that £50 is worth changes as the number of tickets grows:
-      50 tickets cost £25 on tickts and £75 on Chobble Tickets, three times as
-      much, while 1,000 tickets cost £500 and £550, a difference of 5p a
-      ticket.
+      The £50 hosting fee is the whole difference between tickts Starter and
+      Chobble Tickets, at any volume. Spread across 50 tickets it adds £1 to
+      each one, twice what Stripe charges to process it, and spread across
+      1,000 it adds 5p.
 
       At the volume this guide works through, the £50 is small enough that the
       choice turns on what each plan includes rather than what it costs. On
@@ -85,7 +94,9 @@ blocks:
 
       These figures use £20 tickets and one ticket per payment. A cheaper
       ticket moves every percentage-based row further out, and a dearer one
-      brings it closer.
+      brings it closer. Where a provider's rate includes card processing, the
+      break-even counts only what the rate charges above Stripe's 50p on a
+      £20 ticket.
 
       | Compared with | Break-even at £20 a ticket |
       |---|---|
@@ -134,15 +145,15 @@ blocks:
       These options leave the organiser paying only for payment processing, or
       for the infrastructure the software runs on.
 
-      | Option | Estimated year | What makes up the cost |
+      | Option | Beyond processing | What makes up the cost |
       |---|---|---|
-      | [tickts](/compared-to/tickts/) (Starter) | £500 | Stripe processing only. Starter caps platform emails at 100 a month, gives read-only API access, and keeps white-label subdomains and custom domains on the £690/year Pro plan. |
-      | [SumUp Online Store](/compared-to/sumup-store/) | £500 | 2.5% per online payment, processing included. Shop software, not event software. |
-      | [Dandelion](/compared-to/dandelion/) | £500 + requested 1% | No mandatory fee. The requested organiser contribution is about £200 on £20,000, and buyers are asked for donations. |
-      | [Chobble Tickets](/hosting/) self-hosted | £509 | No Chobble licence fee. An edge deployment rents no server, so hosting is Bunny's $1 a month account minimum. A Docker deployment needs a server like the rows below. |
-      | [Revel](/compared-to/revel/) self-hosted | £556 to £604 | MIT licensed. Needs an always-on server running Django, PostgreSQL and Redis. |
-      | [Pretix](/compared-to/pretix/) Community self-hosted | £556 to £604 | Free for core ticketing, with some plugins sold separately. Needs an always-on server. |
-      | [Hi.Events](/compared-to/hi-events/) self-hosted | £556 to £604 | Free under the AGPL with a "Powered by Hi.Events" notice, which a $499 licence removes. Needs an always-on server. |
+      | [tickts](/compared-to/tickts/) (Starter) | Nothing | Stripe's charge is the only cost. Starter caps platform emails at 100 a month, gives read-only API access, and keeps white-label subdomains and custom domains on the £690/year Pro plan. |
+      | [SumUp Online Store](/compared-to/sumup-store/) | Nothing | The 2.5% per online payment is the processing, with nothing added. Shop software, not event software. |
+      | [Dandelion](/compared-to/dandelion/) | A requested 1%, about £200 | No mandatory fee. The organiser contribution is requested rather than charged, and buyers are asked for donations. |
+      | [Chobble Tickets](/hosting/) self-hosted | About £9 of hosting | No Chobble licence fee. An edge deployment rents no server, so hosting is Bunny's $1 a month account minimum. A Docker deployment needs a server like the rows below. |
+      | [Revel](/compared-to/revel/) self-hosted | £56 to £104 of server | MIT licensed. Needs an always-on server running Django, PostgreSQL and Redis. |
+      | [Pretix](/compared-to/pretix/) Community self-hosted | £56 to £104 of server | Free for core ticketing, with some plugins sold separately. Needs an always-on server. |
+      | [Hi.Events](/compared-to/hi-events/) self-hosted | £56 to £104 of server | Free under the AGPL with a "Powered by Hi.Events" notice, which a $499 licence removes. Needs an always-on server. |
 
       Self-hosting replaces a provider's fee with a server bill and the work of
       running it. The size of that bill depends mostly on what the software
@@ -210,26 +221,25 @@ blocks:
     content: |
       ## Providers that charge a fixed amount a year
 
-      These providers charge a subscription or licence for the year. Most take
-      nothing from each sale, and payment processing is separate at Stripe's UK
-      rate. Wix Events and Cheddar Up are the exceptions, charging a
-      subscription and a share of each sale, so they appear here for their
-      annual charge and carry their per-sale rate in the same row.
+      These providers charge a subscription or licence for the year, with
+      payment processing separate at the organiser's own rate. Wix Events and
+      Cheddar Up are the exceptions, charging a subscription and a share of
+      each sale, so their rows carry the per-sale charge as well.
 
-      | Option | Estimated year | What makes up the cost |
+      | Option | Beyond processing | What makes up the cost |
       |---|---|---|
-      | [Event Schedule](/compared-to/event-schedule/) (Pro) | £540 | About £40 a year. The free plan stops at 25 paid tickets a month, and custom domains need the £120/year Enterprise plan. |
-      | **Chobble Tickets** managed | £550 | £50 hosting plus £500 processing. £525 on the £25 charity, community group, artist and musician rate, or £560 paying £5 a month. |
-      | [EventPrime](/compared-to/eventprime/) (Professional) | £573 + £60 to £300 | About £73 a year for a single site, renewed for updates. Needs a WordPress site, typically £5 to £25 a month. |
-      | [FooEvents](/compared-to/fooevents/) (Basic) | £603 + £60 to £300 | About £103 a year. Needs WordPress and WooCommerce on the same sort of hosting. |
-      | [Resova](/compared-to/resova/) (Lite) | £880 | About £380 a year for 100 bookings a month. 1,000 bookings fit only if no month goes over, otherwise 16p a booking or the £685 Pro plan. |
-      | [Hi.Events](/compared-to/hi-events/) single-domain licence | £976 to £1,024 in year one | A $499 licence, about £420, which removes the branding notice from a self-hosted install. The licence is perpetual for the version it covers, so later years are the £556 to £604 server alone. |
-      | [Pretix](/compared-to/pretix/) Enterprise Starter | £976 to £1,024 | About £420 a year for the enterprise plugins on a self-hosted install. The organiser still rents the server. |
-      | [tickts](/compared-to/tickts/) (Pro) | £1,190 | £690 a year for white-label subdomains, full API access and season passes. |
-      | [SmartGig](/compared-to/smartgig/) | £1,300 or more | £800 a year for the ticketing module. Its published prices list no fee per ticket, and no reviewed source states that none applies, so this figure assumes none and is a floor. |
-      | [Wix Events](/compared-to/wix-events/) | £1,396 | A website plan from about £276 a year, plus a 2.5% ticket service fee and 2.1% + 20p Wix Payments processing. |
-      | [Cheddar Up](/compared-to/cheddar-up/) | £1,523 | About £335 a year for the plan that includes ticketing, plus 3.59% + 47p a transaction. |
-      | [Tessera Tickets](/compared-to/tessera-tickets/) | £1,700 + website hosting | About £1,200 a year for up to 10,000 tickets. WordPress hosting for the public site is a separate £1,440 to £3,840 a year. |
+      | [Event Schedule](/compared-to/event-schedule/) (Pro) | £40 | The free plan stops at 25 paid tickets a month, and custom domains need the £120/year Enterprise plan. |
+      | **Chobble Tickets** managed | £50 | £25 on the charity, community group, artist and musician rate, or £60 paying £5 a month. |
+      | [EventPrime](/compared-to/eventprime/) (Professional) | £73 + £60 to £300 | About £73 a year for a single site, renewed for updates. Needs a WordPress site, typically £5 to £25 a month. |
+      | [FooEvents](/compared-to/fooevents/) (Basic) | £103 + £60 to £300 | About £103 a year. Needs WordPress and WooCommerce on the same sort of hosting. |
+      | [Resova](/compared-to/resova/) (Lite) | £380 | About £380 a year for 100 bookings a month. 1,000 bookings fit only if no month goes over, otherwise 16p a booking or the £685 Pro plan. |
+      | [Hi.Events](/compared-to/hi-events/) single-domain licence | £476 to £524 in year one | A $499 licence, about £420, which removes the branding notice from a self-hosted install, plus the server. The licence is perpetual for the version it covers, so later years are the £56 to £104 server alone. |
+      | [Pretix](/compared-to/pretix/) Enterprise Starter | £476 to £524 | About £420 a year for the enterprise plugins on a self-hosted install, plus the server the organiser still rents. |
+      | [tickts](/compared-to/tickts/) (Pro) | £690 | £690 a year for white-label subdomains, full API access and season passes. |
+      | [Wix Events](/compared-to/wix-events/) | £776, plus Wix processing | A website plan from about £276 a year, plus a 2.5% ticket service fee, which is about £500 at this volume. Wix Payments processes at 2.1% + 20p, which costs more than Stripe's rate. |
+      | [SmartGig](/compared-to/smartgig/) | £800 or more | £800 a year for the ticketing module. Its published prices list no fee per ticket, and no reviewed source states that none applies, so this figure assumes none and is a floor. |
+      | [Tessera Tickets](/compared-to/tessera-tickets/) | £1,200 + website hosting | About £1,200 a year for up to 10,000 tickets. WordPress hosting for the public site is a separate £1,440 to £3,840 a year. |
+      | [Cheddar Up](/compared-to/cheddar-up/) | £1,523, processing included | About £335 a year for the plan that includes ticketing, plus 3.59% + 47p a transaction. The per-transaction fee includes Stripe's processing. |
 
       A fixed price is not automatically a low one, and it is not automatically
       independent of volume. Resova counts bookings each month and Tessera
@@ -239,30 +249,38 @@ blocks:
     content: |
       ## Providers that charge on each ticket or booking
 
-      | Option | Estimated year | What makes up the cost |
+      The first table lists providers whose charge sits on top of card
+      processing, so processing is still to pay on each figure. The second
+      lists providers whose rate includes processing, so each figure there
+      covers the whole year.
+
+      | Option | Beyond processing | What makes up the cost |
       |---|---|---|
-      | [SignUpGenius](/compared-to/signupgenius/) | £700 | About 20p a ticket plus Stripe processing. Free pages carry advertising. |
-      | [Ticket Generator](/compared-to/ticket-generator/) | £810 | About 31p a ticket buying credits 1,000 at a time, plus Stripe processing. Small packs cost about 47p a credit, and an event with a venue layout uses two credits a ticket. |
-      | [TixFox](/compared-to/tixfox/) | £880 | 38p a ticket plus Stripe processing. 30p under £5. Platform fees are not returned on a refund. |
-      | [Ticket Tailor](/compared-to/ticket-tailor/) | £910 | 41p a ticket buying prepaid credits 500 at a time, plus Stripe processing. Pay-as-you-go is 60p a ticket, which is £1,100, and the largest bundles reach 22p. Charities get 50% off. |
-      | [Hi.Events](/compared-to/hi-events/) cloud | £970 | 0.75% + about 32p a ticket plus Stripe processing. |
-      | [Ticketebo](/compared-to/ticketebo/) | £990 | 4.95% including VAT of each order, card processing included, 75p minimum. The buyer pays by default. |
-      | [Pretix Hosted](/compared-to/pretix/) | £1,000 | 2.5% of ticket value, capped at about £13 a ticket, plus separate processing. |
-      | [Tito](/compared-to/tito/) | £1,100 | 3% a ticket plus Stripe processing. 2.5% for charities and community groups. |
-      | [PTA Events](/compared-to/pta-events/) | £1,100 | The £299.99 + VAT Premium plan charges 1.5% a transaction plus Stripe processing. The free Starter plan charges 3.95%, which is £1,290 at this volume. |
-      | [Ticketpass](/compared-to/ticketpass/) (Essentials) | £1,160 | A booking fee and a service fee of 1.9% + 20p each, excluding VAT, with processing included. |
-      | [BookitBee](/compared-to/bookitbee/) | £1,200 | From 3.5% a ticket, minimum 50p, capped at £19.95, plus Stripe processing. |
+      | [SignUpGenius](/compared-to/signupgenius/) | £200 | About 20p a ticket. Free pages carry advertising. |
+      | [Ticket Generator](/compared-to/ticket-generator/) | £310 | About 31p a ticket buying credits 1,000 at a time. Small packs cost about 47p a credit, and an event with a venue layout uses two credits a ticket. |
+      | [TixFox](/compared-to/tixfox/) | £380 | 38p a ticket, or 30p under £5. Platform fees are not returned on a refund. |
+      | [Ticket Tailor](/compared-to/ticket-tailor/) | £410 | 41p a ticket buying prepaid credits 500 at a time. Pay-as-you-go is 60p a ticket, which is £600, and the largest bundles reach 22p. Charities get 50% off. |
+      | [Hi.Events](/compared-to/hi-events/) cloud | £470 | 0.75% + about 32p a ticket. |
+      | [Pretix Hosted](/compared-to/pretix/) | £500 | 2.5% of ticket value, capped at about £13 a ticket. |
+      | [PTA Events](/compared-to/pta-events/) | £600 | The £299.99 + VAT Premium plan charges 1.5% a transaction. The free Starter plan charges 3.95%, which is £790 at this volume. |
+      | [Tito](/compared-to/tito/) | £600 | 3% a ticket. 2.5% for charities and community groups. |
+      | [BookitBee](/compared-to/bookitbee/) | £700 | From 3.5% a ticket, minimum 50p, capped at £19.95. |
+      | [QRTicket](/compared-to/qrticket/) | £770 | About 77p a ticket, paid through PayPal, whose processing rate is higher than Stripe's. The buyer pays by default. |
+      | [Revel](/compared-to/revel/) hosted | £1,030 | 3% + about 43p a ticket. |
+      | [Fatsoma](/compared-to/fatsoma/) | £2,000 | 10% a ticket, minimum £1. |
+
+      | Option | Year, processing included | What makes up the cost |
+      |---|---|---|
+      | [Ticketebo](/compared-to/ticketebo/) | £990 | 4.95% including VAT of each order, 75p minimum. The buyer pays by default. |
+      | [Ticketpass](/compared-to/ticketpass/) (Essentials) | £1,160 | A booking fee and a service fee of 1.9% + 20p each, excluding VAT. |
       | [Ticketted](/compared-to/ticketted/) | £1,290 | 3.95% + A$0.95 a ticket, converted at 52.3p to the Australian dollar. Charities and schools pay 2.45% + A$0.45. |
-      | [Humanitix](/compared-to/humanitix/) | £1,394 | 4.67% + 46p a ticket, processing included, excluding VAT. Charities and schools pay 3.33% + 25p, which is about £916. |
+      | [Humanitix](/compared-to/humanitix/) | £1,394 | 4.67% + 46p a ticket, excluding VAT. Charities and schools pay 3.33% + 25p, which is about £916. |
       | [TicketSource](/compared-to/ticketsource/) | £1,400 | 7% a booking excluding VAT with TicketSource processing, or 4.5% plus the organiser's own Stripe, which comes to the same figure on a £20 ticket. |
-      | [FIXR](/compared-to/fixr/) (Pro) | £1,488 | 4.99% + 49p a ticket plus VAT, £1 minimum, processing included. Buyers usually pay it. |
+      | [FIXR](/compared-to/fixr/) (Pro) | £1,488 | 4.99% + 49p a ticket plus VAT, £1 minimum. Buyers usually pay it. |
       | [Weezevent](/compared-to/weezevent/) | £1,490 | 2.5% + 99p a ticket including tax, with banking fees included. |
-      | [Revel](/compared-to/revel/) hosted | £1,530 | 3% + about 43p a ticket plus Stripe processing. |
-      | [EVENTIM.Light](/compared-to/eventim-light/) | £1,600 | 8% a ticket with processing included. The fee can be passed to buyers. |
-      | [QRTicket](/compared-to/qrticket/) | £1,700 | About 77p a ticket plus PayPal processing. The buyer pays by default. |
-      | [Eventbrite](/compared-to/eventbrite/) | £1,980 | 6.95% + 59p a ticket with processing included. |
+      | [EVENTIM.Light](/compared-to/eventim-light/) | £1,600 | 8% a ticket. The fee can be passed to buyers. |
+      | [Eventbrite](/compared-to/eventbrite/) | £1,980 | 6.95% + 59p a ticket. |
       | [Ticketpass](/compared-to/ticketpass/) (Pro) | £2,100 | 3.5% + 35p each on the booking fee and the service fee. |
-      | [Fatsoma](/compared-to/fatsoma/) | £2,500 | 10% a ticket, minimum £1, plus Stripe processing. |
 
       Two of these rows are not options for a UK organiser.
       [Ticketted](/compared-to/ticketted/)'s FAQ says the platform is for
@@ -301,22 +319,22 @@ blocks:
     content: |
       ## What the cheapest options include
 
-      The options within about £50 of each other are not the same product at
-      the same price. This table sets the cheapest of them beside Chobble
-      Tickets on what the organiser can read, run, brand and move, using the
-      classifications recorded on each comparison page.
+      The options that charge about £100 a year or less are not the same
+      product. This table sets them beside Chobble Tickets on what the
+      organiser can read, run, brand and move, using the classifications
+      recorded on each comparison page.
 
       | Option | Source code | Self-hosting | Own domain and branding | Marketplace |
       |---|---|---|---|---|
-      | **Chobble Tickets** managed, £550 | AGPL-3.0-only, complete product | Same product, no licence fee | Both included in the £50 | None |
-      | **Chobble Tickets** self-hosted, £509 | AGPL-3.0-only, complete product | The deployment described above | Both, on the organiser's own account | None |
-      | [tickts](/compared-to/tickts/) Starter, £500 | Not published | Not offered | Both on the £690 Pro plan | Events listed on tickts |
-      | [SumUp Online Store](/compared-to/sumup-store/), £500 | Not published | Not offered | Own domain and storefront branding, SumUp checkout | None |
-      | [Dandelion](/compared-to/dandelion/), £500 plus 1% | Source-available, Apache 2.0 after two years | Internal use only for two years | Neither documented | Events listed on Dandelion |
-      | [Event Schedule](/compared-to/event-schedule/) Pro, £540 | Attribution Assurance Licence | Same product | Branding on Pro, domain on the £120 Enterprise plan | Events listed for discovery |
-      | [Revel](/compared-to/revel/) self-hosted, £556 to £604 | MIT | Same product | Both, on the organiser's own server | Not documented |
-      | [Pretix](/compared-to/pretix/) Community, £556 to £604 | Open core, enterprise plugins sold separately | Community edition | Both, on the organiser's own server | None |
-      | [Hi.Events](/compared-to/hi-events/) self-hosted, £556 to £604 | AGPL with additional terms | Same product with conditions | Both, with a branding notice unless a $499 licence removes it | Not documented |
+      | **Chobble Tickets** managed, £50 a year | AGPL-3.0-only, complete product | Same product, no licence fee | Both included in the £50 | None |
+      | **Chobble Tickets** self-hosted, about £9 a year | AGPL-3.0-only, complete product | The deployment described above | Both, on the organiser's own account | None |
+      | [tickts](/compared-to/tickts/) Starter, nothing beyond processing | Not published | Not offered | Both on the £690 Pro plan | Events listed on tickts |
+      | [SumUp Online Store](/compared-to/sumup-store/), nothing beyond processing | Not published | Not offered | Own domain and storefront branding, SumUp checkout | None |
+      | [Dandelion](/compared-to/dandelion/), a requested 1% | Source-available, Apache 2.0 after two years | Internal use only for two years | Neither documented | Events listed on Dandelion |
+      | [Event Schedule](/compared-to/event-schedule/) Pro, about £40 a year | Attribution Assurance Licence | Same product | Branding on Pro, domain on the £120 Enterprise plan | Events listed for discovery |
+      | [Revel](/compared-to/revel/) self-hosted, £56 to £104 a year | MIT | Same product | Both, on the organiser's own server | Not documented |
+      | [Pretix](/compared-to/pretix/) Community, £56 to £104 a year | Open core, enterprise plugins sold separately | Community edition | Both, on the organiser's own server | None |
+      | [Hi.Events](/compared-to/hi-events/) self-hosted, £56 to £104 a year | AGPL with additional terms | Same product with conditions | Both, with a branding notice unless a $499 licence removes it | Not documented |
 
       The self-hosted rows let an organiser read the code, run it on a server
       they control, and keep their own domain and branding, which is what
