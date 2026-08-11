@@ -18,7 +18,7 @@ provider_facts:
     - not-documented
   per_ticket_platform_fee: per-transaction-percentage-plus-fixed
   managed_pricing: per-sale
-  white_label: higher-tier
+  white_label: partial
   custom_domain: not-documented
   public_website: marketplace-pages
   self_hosting: not-offered

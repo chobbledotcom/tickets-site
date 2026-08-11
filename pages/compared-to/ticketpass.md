@@ -30,12 +30,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: not-documented
-  established: 2017
+  established: 2019
   public_api: not-reviewed
   seating_plans: higher-tier
   summary: "A UK ticketing platform that pledges up to half of its booking fee to a charity the organiser or attendee chooses."
   notes:
-    established: "Ticketpass Limited was incorporated on 27 July 2017 (Companies House, checked 11 August 2026); news coverage reports the platform launch in 2019."
+    established: "News coverage reports the Ticketpass platform launched in 2019; Ticketpass Limited was incorporated on 27 July 2017 (Companies House, checked 11 August 2026)."
     ethical_basis: "Ticketpass describes itself as an ethical ticketing platform and pledges up to 50% of its booking fee to charity. The privacy policy names Fanex Group Ltd as the operator. No charitable, co-operative or certified structure was documented in the sources reviewed."
     per_ticket_platform_fee: "Paid tickets carry a booking fee and a separate service fee at the same published rate, both excluding VAT. Card processing is covered inside the booking fee."
     managed_pricing: "There is no subscription. Free events have no fee, and paid events are charged per ticket on the Essentials, Pro or Enterprise plan."

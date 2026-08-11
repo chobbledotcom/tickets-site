@@ -18,7 +18,7 @@ provider_facts:
     - not-documented
   per_ticket_platform_fee: per-transaction-percentage-plus-fixed
   managed_pricing: per-sale
-  white_label: higher-tier
+  white_label: partial
   custom_domain: not-offered
   public_website: organiser-microsite
   self_hosting: not-offered

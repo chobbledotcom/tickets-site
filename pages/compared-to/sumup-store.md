@@ -20,7 +20,7 @@ provider_facts:
   managed_pricing: per-sale
   white_label: partial
   custom_domain: included
-  public_website: platform-full
+  public_website: organiser-microsite
   self_hosting: not-offered
   source_code: proprietary
   agent_instructions: not-reviewed
