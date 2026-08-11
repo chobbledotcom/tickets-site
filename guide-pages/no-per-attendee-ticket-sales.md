@@ -80,6 +80,9 @@ blocks:
         volume.
       - [Ticket Tailor](/compared-to/ticket-tailor/) charges no percentage, but
         it does charge a fixed amount for each paid ticket.
+      - [Ticket Monkey](/compared-to/ticketmonkey/) charges no percentage on its
+        Core tier, but it charges a flat 25p for each paid ticket, so the total
+        rises with the number of tickets sold.
       - [Cal.com](/compared-to/cal-com/)'s free Individual plan includes
         unlimited meetings and Stripe or PayPal payments, but it is scheduling
         software rather than a complete event-ticketing service.

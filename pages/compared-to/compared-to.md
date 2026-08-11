@@ -130,6 +130,9 @@ blocks:
         description: A large ticketing platform in Australia and New Zealand. Compare fees, data security and organiser tools.
         name: <a href="/compared-to/ticketek/">Ticketek alternative</a>
       - icon: hugeicons:ticket-01
+        description: A UK self-serve platform charging a flat 25p per paid ticket, with reserved seating and a box office on its Pro tier. Compare per-ticket charges with a flat annual fee.
+        name: <a href="/compared-to/ticketmonkey/">Ticket Monkey alternative</a>
+      - icon: hugeicons:ticket-01
         description: A UK ticketing platform that donates up to half of its booking fee to charity projects. Compare fees, donations, features and data handling.
         name: <a href="/compared-to/ticketpass/">Ticketpass alternative</a>
       - icon: hugeicons:ticket-01
