@@ -25,7 +25,7 @@ provider_facts:
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
   local_dev_reload: not-reviewed
-  event_marketplace: none
+  event_marketplace: built-in
   attendee_cross_marketing: none
   notes:
     registration_country: "The EventMS Pro site does not publish a registered legal entity, company number or country. Contact is through sales@eventmspro.com and a LinkedIn reference. Checked 10 August 2026."
@@ -37,7 +37,7 @@ provider_facts:
     public_website: "EventMS Pro builds the operator's complete public marketplace site, including event listings, a venue directory, a blog and static content pages, under the operator's own brand."
     self_hosting: "EventMS Pro is installed on the operator's own server. The licence covers a single production deployment on one domain; additional deployments require additional licences. Checked 10 August 2026."
     source_code: "EventMS Pro is delivered as a licensed production build. The site states that source code is not provided, so it is not open source. Checked 10 August 2026."
-    event_marketplace: "EventMS Pro is licensed software installed on the operator's own server, so event listings appear on the operator's site rather than in any eventmspro.com catalogue. The software itself supports a multi-vendor marketplace run by the operator."
+    event_marketplace: "EventMS Pro's software is a multi-vendor marketplace: on the operator's install, attendees browse one public catalogue of many organisers' events. eventmspro.com itself hosts no global catalogue; each operator runs their own marketplace."
     attendee_cross_marketing: "EventMS Pro does not operate the storefront, so the vendor holds no attendee relationship through which to market other events."
     agent_instructions: "EventMS Pro ships as a closed production build with no public source repository, so agent instruction files could not be reviewed."
     local_dev_runtime: "EventMS Pro ships as a closed production build with no published local development setup, so its development runtime could not be reviewed."
