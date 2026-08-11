@@ -55,6 +55,8 @@ blocks:
       | [PTA Events](/compared-to/pta-events/) | PTA Events Limited, [company 09404586](https://find-and-update.company-information.service.gov.uk/company/09404586) | Bedford |
       | [Resident Advisor](/compared-to/resident-advisor/) | Started in Australia, now based in London and self-described as independent | London |
       | [Ticketebo](/compared-to/ticketebo/) | Ticketebo Ltd, [company 12383730](https://find-and-update.company-information.service.gov.uk/company/12383730) | Manchester |
+      | [Ticketpass](/compared-to/ticketpass/) | Operated by Fanex Group Ltd since October 2025 | United Kingdom |
+      | [TicketSource](/compared-to/ticketsource/) | TicketSource Limited, [company 05043301](https://find-and-update.company-information.service.gov.uk/company/05043301) | Penarth |
       | [tickts](/compared-to/tickts/) | TICKTS LTD, [company 17029682](https://find-and-update.company-information.service.gov.uk/company/17029682) | London |
 
       [Resova](/compared-to/resova/), run by Resova Ltd (company 09559910), is
