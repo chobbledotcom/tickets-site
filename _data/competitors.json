@@ -330,6 +330,15 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "TixFox fees: £0.38 per paid ticket, or £0.30 for tickets priced under £5, with the pricing page's currency selector set to pounds (US$0.39 and US$0.30 under US$5 in dollars). This calculator applies the standard £0.38 rate at every ticket price, so it does not model the reduced under-£5 rate. Free events carry no fee and there is no subscription. Ticket revenue goes directly to your own Stripe account via Stripe Connect, with Stripe processing charged separately (1.5% + 20p in the UK, as quoted on TixFox's own pricing page). TixFox platform fees are not refunded when a ticket is refunded. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe processing (1.5% + 20p). Source: tixfox.co/pricing (August 2026)."
   },
+  "ticketted": {
+    "name": "Ticketted",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 3.95,
+    "per_ticket_fee_fixed": 0.5,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0,
+    "fee_note": "Ticketted charges 3.95% + A$0.95 on each paid ticket, which this calculator converts to 3.95% + about 50p at 52.3p to the Australian dollar on 10 August 2026. Charities and schools pay 2.45% + A$0.45 (about 24p), and higher volumes or unusual requirements are quoted individually, so neither of those rates is modelled here. Free RSVP events carry no charge, and there is no subscription, setup fee or minimum ticket volume. Ticketted takes payment through Stripe Connect and Stripe's processing charge is inside its fee, so no processing is added on top here. Ticketted is for events in Australia and prices in Australian dollars; its FAQ says anyone organising events there can use it. Chobble Tickets: \u00a350/year or \u00a35/month flat (\u00a325/year for charities, community groups, artists and musicians on the annual plan) + Stripe, Square or SumUp processing; this calculator uses Stripe's UK rate of 1.5% + 20p. Sources: ticketted.com/pricing and abr.business.gov.au (August 2026)."
+  },
   "qrticket": {
     "name": "QRTicket",
     "annual_cost": 0,

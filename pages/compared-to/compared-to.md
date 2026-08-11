@@ -136,6 +136,9 @@ blocks:
         description: A Welsh ticketing platform used by theatre groups, schools and village halls, paid for by a booking fee. Compare fees, payouts, seating plans and data handling.
         name: <a href="/compared-to/ticketsource/">TicketSource alternative</a>
       - icon: hugeicons:ticket-01
+        description: An Australian platform charging 3.95% + A$0.95 on each paid ticket, with AI event setup and its own event listings. Compare per-ticket charges with a flat annual fee.
+        name: <a href="/compared-to/ticketted/">Ticketted alternative</a>
+      - icon: hugeicons:ticket-01
         description: A UK ticketing platform with no buyer booking fee and tiered organiser plans. Compare pricing, features and data handling.
         name: <a href="/compared-to/tickts/">tickts alternative</a>
       - icon: hugeicons:ticket-01
