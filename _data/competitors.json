@@ -315,7 +315,7 @@
   "ticketsource_stripe": {
     "name": "TicketSource (own Stripe)",
     "annual_cost": 0,
-    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_percent": 4.5,
     "per_ticket_fee_fixed": 0,
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
