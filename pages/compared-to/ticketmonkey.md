@@ -60,8 +60,9 @@ blocks:
       VAT, with no percentage on top. Chobble Tickets charges £50/year or
       £5/month whatever the volume, so on the 25p rate the £50 annual plan
       crosses over at about 200 paid tickets a year, or about 100 for
-      charities and community groups on the £25/year rate. The £5 monthly plan
-      comes to £60 a year, which crosses over at about 240 tickets.
+      organisers on the £25/year community rate (charities, community groups,
+      artists and musicians). The £5 monthly plan comes to £60 a year, which
+      crosses over at about 240 tickets.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -218,9 +219,10 @@ blocks:
       data in transit and uses access controls.
 
       With Chobble Tickets, attendee data is encrypted at rest and stays under
-      your control, where only your private key can decrypt it. The entire
-      platform is open source under AGPLv3, so you can run the same code on
-      your own server at any time without depending on Chobble as a company.
+      your control, readable only in an authorised keyed administration
+      session. The entire platform is open source under AGPLv3, so you can run
+      the same code on your own server at any time without depending on
+      Chobble as a company.
   - type: markdown
     content: |
       ## When Ticket Monkey might be the better choice
@@ -251,7 +253,7 @@ blocks:
         free tickets per event or 2,500 per year and Chobble Tickets adds no
         per-ticket charge on top of its hosting fee
       - Privacy and encryption matter to you, and you want attendee data
-        readable only with your own key
+        readable only by authorised keyed administrators
       - You're a charity, community group, artist or musician (£25/year on the
         annual plan)
       - You want a choice of payment provider between Stripe, Square and SumUp
