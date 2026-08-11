@@ -29,12 +29,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: none
   attendee_cross_marketing: not-documented
-  established: 2012
+  established: 2020
   public_api: not-offered
   seating_plans: not-reviewed
   summary: "A free online shop from the payment company SumUp that can sell tickets as products, charging 2.5% per payment."
   notes:
-    established: "The SumUp group was founded in 2012; the Online Store is one of its newer products."
+    established: "SumUp's press pages say the first version of the Online Store launched in May 2020; the SumUp group itself was founded in 2012 (sumup.com press, checked 11 August 2026)."
     public_api: "SumUp has a developer API for payments, but the store does not expose event data."
     registration_country: "SumUp Payments Limited is authorised by the Financial Conduct Authority in the UK (register number 900700). The SumUp group was founded in 2012, is headquartered in London, and operates in 38 markets."
     per_ticket_platform_fee: "The store itself is free. SumUp charges 2.5% on each online payment, which covers payment processing; there is no separate platform fee per sale."
