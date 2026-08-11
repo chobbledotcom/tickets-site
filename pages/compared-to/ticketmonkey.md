@@ -169,9 +169,9 @@ blocks:
         without a Chobble software licence fee
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
         encrypted at rest, so a copy of the server or database cannot reveal
-        names or contact details without the organiser's own key. Ticket
-        Monkey states it encrypts data in transit and uses access controls,
-        but the data remains readable by Ticket Monkey staff
+        names or contact details except in an authorised keyed administration
+        session. Ticket Monkey states it encrypts data in transit and uses
+        access controls, but the data remains readable by Ticket Monkey staff
       - **Flat pricing** - £50/year or £5/month with no per-ticket platform
         fees at any volume, and no per-ticket charge on free events
       - **Community rate** - £25/year for charities, community groups, artists
@@ -219,9 +219,10 @@ blocks:
       who is the data controller and decides how attendee data is used.
 
       Ticket Monkey states that it does not use organiser event data to market
-      to attendees, and only sends its own service information to people who
-      have bought from or contacted Ticket Monkey. It states that it encrypts
-      data in transit and uses access controls.
+      to attendees. It also markets its own similar services to people who have
+      bought from or contacted it, and its policy does not expressly say whether
+      ticket buyers fall in that group. It states that it encrypts data in
+      transit and uses access controls.
 
       With Chobble Tickets, attendee data is encrypted at rest and stays under
       your control, readable only in an authorised keyed administration
