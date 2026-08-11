@@ -18,7 +18,7 @@ provider_facts:
     - not-documented
   per_ticket_platform_fee: fixed
   managed_pricing: per-sale
-  white_label: higher-tier
+  white_label: partial
   custom_domain: not-documented
   public_website: hosted-event-pages
   self_hosting: not-documented
@@ -34,7 +34,7 @@ provider_facts:
     ethical_basis: "No ethical or ownership structure was documented; the site describes a founder-run team with events operations, marketing and finance backgrounds, and no ownership record was found in the sources reviewed."
     per_ticket_platform_fee: "The Core tier charges 25p per paid ticket, flat, including VAT, with no percentage. The Pro tier normally charges 60p per ticket. The managed full-service tier is priced as a custom percentage."
     managed_pricing: "Self-serve tiers charge per paid ticket with no subscription; the managed tier is quoted as a custom percentage."
-    white_label: "Custom branding is a Pro-tier feature applied to hosted event pages; tickets are delivered through the Ticket Monkey branded consumer app."
+    white_label: "Custom branding is a Pro-tier feature applied to hosted event pages, but removal of Ticket Monkey branding is not documented and tickets are delivered through the Ticket Monkey branded consumer app."
     custom_domain: "No custom-domain option was documented; event pages are hosted on Ticket Monkey and the homepage states no separate website is needed."
     public_website: "Ticket Monkey supplies hosted, branded event pages and embeddable checkout rather than a general website or content management system."
     event_marketplace: "Ticket Monkey positions itself as self-serve for organisers with their own audiences; no public event-discovery marketplace was documented. It provides a branded ticket-delivery app with push notifications and a Twickets face-value resale integration."
@@ -132,8 +132,10 @@ blocks:
         connection to the site at the door
       - **Reserved seating** - visual seat maps where attendees pick their own
         seat (Pro tier)
-      - **Payment plans** - buyers split a purchase into instalments
-        (Pro tier)
+      - **Payment plans** - buyers split a purchase into several instalments
+        (Pro tier). Chobble Tickets takes a
+        [deposit at booking with a later balance payment](/features/deposits-and-balance-payments/),
+        but not a multi-instalment schedule
       - **Waiting lists** - built-in waiting lists for sold-out events
         (Pro tier)
       - **Box office and point-of-sale** - sell tickets in person from a till
@@ -183,8 +185,9 @@ blocks:
       - **[Custom email providers](/features/email-providers/)** - use Resend,
         Postmark, SendGrid or Mailgun so confirmation emails come from your own
         domain
-      - **[Liquid email templates](/features/email-templates/)** - full control
-        over confirmation emails with Liquid template syntax
+      - **[Editable email templates](/features/email-templates/)** - full
+        control over confirmation emails, inserting booking details and showing
+        text conditionally, written with Liquid templates
       - **[Public API](/features/public-api/) and [Admin API](/features/admin-api/)** -
         the public API exposes event listings and availability and provides
         booking functionality with no API key, and the admin API uses API keys
@@ -209,7 +212,9 @@ blocks:
       ## Data ownership
 
       Ticket Monkey is a proprietary platform. Your event data lives on its
-      servers, and you depend on its continued operation. Its privacy policy
+      servers, and it does not document a self-hosting option or a data-export
+      route, so on the sources reviewed you would depend on its continued
+      operation. Its privacy policy
       states that Ticket Monkey acts as a processor for the event organiser,
       who is the data controller and decides how attendee data is used.
 
