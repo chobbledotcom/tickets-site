@@ -40,8 +40,9 @@ blocks:
       The cheapest managed service is not Chobble Tickets. The three plans on
       the floor charge nothing a year, and [Event Schedule](/compared-to/event-schedule/)
       Pro is about £40. Chobble Tickets at £550 is the cheapest managed option
-      that includes white-label branding, an organiser-owned domain and full
-      API access without moving to a higher tier.
+      that includes white-label branding, an organiser-owned domain and a full
+      API, which is the connection other software uses to read and change event
+      and booking data, without moving to a higher tier.
   - type: markdown
     content: |
       ## Below this volume, a free plan costs less
@@ -222,10 +223,10 @@ blocks:
       | [EventPrime](/compared-to/eventprime/) (Professional) | £573 + £60 to £300 | About £73 a year for a single site, renewed for updates. Needs a WordPress site, typically £5 to £25 a month. |
       | [FooEvents](/compared-to/fooevents/) (Basic) | £603 + £60 to £300 | About £103 a year. Needs WordPress and WooCommerce on the same sort of hosting. |
       | [Resova](/compared-to/resova/) (Lite) | £880 | About £380 a year for 100 bookings a month. 1,000 bookings fit only if no month goes over, otherwise 16p a booking or the £685 Pro plan. |
-      | [Hi.Events](/compared-to/hi-events/) single-domain licence | £976 to £1,024 | A $499 licence, about £420, which removes the branding notice from a self-hosted install. The organiser still rents the server. |
+      | [Hi.Events](/compared-to/hi-events/) single-domain licence | £976 to £1,024 in year one | A $499 licence, about £420, which removes the branding notice from a self-hosted install. The licence is perpetual for the version it covers, so later years are the £556 to £604 server alone. |
       | [Pretix](/compared-to/pretix/) Enterprise Starter | £976 to £1,024 | About £420 a year for the enterprise plugins on a self-hosted install. The organiser still rents the server. |
       | [tickts](/compared-to/tickts/) (Pro) | £1,190 | £690 a year for white-label subdomains, full API access and season passes. |
-      | [SmartGig](/compared-to/smartgig/) | £1,300 | £800 a year for the ticketing module. No per-ticket fee is published, and none is confirmed either. |
+      | [SmartGig](/compared-to/smartgig/) | £1,300 or more | £800 a year for the ticketing module. Its published prices list no fee per ticket, and no reviewed source states that none applies, so this figure assumes none and is a floor. |
       | [Wix Events](/compared-to/wix-events/) | £1,396 | A website plan from about £276 a year, plus a 2.5% ticket service fee and 2.1% + 20p Wix Payments processing. |
       | [Cheddar Up](/compared-to/cheddar-up/) | £1,523 | About £335 a year for the plan that includes ticketing, plus 3.59% + 47p a transaction. |
       | [Tessera Tickets](/compared-to/tessera-tickets/) | £1,700 + website hosting | About £1,200 a year for up to 10,000 tickets. WordPress hosting for the public site is a separate £1,440 to £3,840 a year. |
@@ -248,9 +249,9 @@ blocks:
       | [Ticketebo](/compared-to/ticketebo/) | £990 | 4.95% including VAT of each order, card processing included, 75p minimum. The buyer pays by default. |
       | [Pretix Hosted](/compared-to/pretix/) | £1,000 | 2.5% of ticket value, capped at about £13 a ticket, plus separate processing. |
       | [Tito](/compared-to/tito/) | £1,100 | 3% a ticket plus Stripe processing. 2.5% for charities and community groups. |
+      | [PTA Events](/compared-to/pta-events/) | £1,100 | The £299.99 + VAT Premium plan charges 1.5% a transaction plus Stripe processing. The free Starter plan charges 3.95%, which is £1,290 at this volume. |
       | [Ticketpass](/compared-to/ticketpass/) (Essentials) | £1,160 | A booking fee and a service fee of 1.9% + 20p each, excluding VAT, with processing included. |
       | [BookitBee](/compared-to/bookitbee/) | £1,200 | From 3.5% a ticket, minimum 50p, capped at £19.95, plus Stripe processing. |
-      | [PTA Events](/compared-to/pta-events/) | £1,290 | 3.95% a transaction plus Stripe processing. The £299.99 + VAT Premium plan drops the platform fee to 1.5%. |
       | [Ticketted](/compared-to/ticketted/) | £1,290 | 3.95% + A$0.95 a ticket, converted at 52.3p to the Australian dollar. Charities and schools pay 2.45% + A$0.45. |
       | [Humanitix](/compared-to/humanitix/) | £1,394 | 4.67% + 46p a ticket, processing included, excluding VAT. Charities and schools pay 3.33% + 25p, which is about £916. |
       | [TicketSource](/compared-to/ticketsource/) | £1,400 | 7% a booking excluding VAT with TicketSource processing, or 4.5% plus the organiser's own Stripe, which comes to the same figure on a £20 ticket. |
@@ -298,7 +299,7 @@ blocks:
   - type: markdown
     dark: true
     content: |
-      ## Cost is not the only difference
+      ## What the cheapest options include
 
       The options within about £50 of each other are not the same product at
       the same price. This table sets the cheapest of them beside Chobble
@@ -317,10 +318,14 @@ blocks:
       | [Pretix](/compared-to/pretix/) Community, £556 to £604 | Open core, enterprise plugins sold separately | Community edition | Both, on the organiser's own server | None |
       | [Hi.Events](/compared-to/hi-events/) self-hosted, £556 to £604 | AGPL with additional terms | Same product with conditions | Both, with a branding notice unless a $499 licence removes it | Not documented |
 
-      The self-hosted rows match Chobble Tickets on freedom and are the reason
-      this is a claim about combinations rather than about openness alone. Each
-      of them asks for something in return: a server to run, a paid tier for
-      the plugins, or a licence to remove the branding.
+      The self-hosted rows let an organiser read the code, run it on a server
+      they control, and keep their own domain and branding, which is what
+      Chobble Tickets allows as well. That is why the claim below is about the
+      combination rather than about published source alone.
+
+      What each asks in return differs. Revel asks only for the server. Pretix
+      Community leaves the enterprise plugins on a paid edition, and Hi.Events
+      shows a "Powered by Hi.Events" notice until a $499 licence removes it.
 
       Among the providers with verified records on this site, Chobble Tickets
       is the only managed product that combines one volume-independent price,
