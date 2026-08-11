@@ -162,10 +162,14 @@ blocks:
 
       [Bunny charges](https://bunny.net/docs/edge-scripting-pricing) $0.20 per
       million requests and $0.02 per 1,000 seconds of processor time, with no
-      fixed monthly fee and a minimum of $0.22 a month. Selling 1,000 tickets,
-      and the browsing around those sales, is a long way below a million
-      requests, so the compute cost of a year is measured in pence rather than
-      pounds. Bunny's database is billed by what it stores and does rather than
+      fixed monthly fee. Selling 1,000 tickets, and the browsing around those
+      sales, is a long way below a million requests. No site Chobble hosts has
+      used more than £0.20 of Bunny resources in total across several months.
+
+      What a self-hoster pays is therefore the account minimum rather than the
+      usage. [Bunny bills $1 a month](https://support.bunny.net/hc/en-us/articles/360000235911-How-does-the-bunny-net-credit-and-billing-system-work)
+      when an account with active zones uses less than that, which is about £9
+      a year. Bunny's database is billed by what it stores and does rather than
       by the hour, and was in public preview when checked on 11 August 2026.
 
       [Deno Deploy](https://deno.com/deploy/pricing), the other documented
@@ -179,7 +183,7 @@ blocks:
       [FooEvents](/compared-to/fooevents/) and
       [EventPrime](/compared-to/eventprime/) need a WordPress site, which is
       itself an always-on server. Those products start from the £56 to £104 a
-      year above; a Chobble Tickets edge deployment starts near zero.
+      year above; a Chobble Tickets edge deployment costs about £9.
   - type: markdown
     dark: true
     content: |
@@ -275,23 +279,40 @@ blocks:
     content: |
       ## Cost is not the only difference
 
-      The cheapest options in the first table give up things the paid ones
-      include. tickts keeps white-label subdomains, custom domains and full
-      API access on its £690 plan, the SumUp Online Store has no capacity
-      limits or check-in, and self-hosting moves updates, backups and outages
-      onto the organiser.
+      The options within about £50 of each other are not the same product at
+      the same price. This table sets the cheapest of them beside Chobble
+      Tickets on what the organiser can read, run, brand and move, using the
+      classifications recorded on each comparison page.
 
-      Some costs also sit outside the fee. A provider that lists events in a
-      public marketplace can market other organisers' events to attendees,
-      and a provider that holds ticket money pays it out on its own schedule
-      rather than as each sale clears.
+      | Option | Source code | Self-hosting | Own domain and branding | Marketplace |
+      |---|---|---|---|---|
+      | **Chobble Tickets** managed, £550 | AGPL-3.0-only, complete product | Same product, no licence fee | Both included in the £50 | None |
+      | **Chobble Tickets** self-hosted, £509 | AGPL-3.0-only, complete product | The deployment described above | Both, on the organiser's own account | None |
+      | [tickts](/compared-to/tickts/) Starter, £500 | Not published | Not offered | Both on the £690 Pro plan | Events listed on tickts |
+      | [SumUp Online Store](/compared-to/sumup-store/), £500 | Not published | Not offered | Own domain and storefront branding, SumUp checkout | None |
+      | [Dandelion](/compared-to/dandelion/), £500 plus 1% | Source-available, Apache 2.0 after two years | Internal use only for two years | Neither documented | Events listed on Dandelion |
+      | [Event Schedule](/compared-to/event-schedule/) Pro, £540 | Attribution Assurance Licence | Same product | Branding on Pro, domain on the £120 Enterprise plan | Events listed for discovery |
+      | [Revel](/compared-to/revel/) self-hosted, £556+ | MIT | Same product | Both, on the organiser's own server | Not documented |
+      | [Pretix](/compared-to/pretix/) Community, £556+ | Open core, enterprise plugins sold separately | Community edition | Both, on the organiser's own server | None |
+      | [Hi.Events](/compared-to/hi-events/) self-hosted, £556+ | AGPL with additional terms | Same product with conditions | Both, with a branding notice unless a $499 licence removes it | Not documented |
 
-      Chobble Tickets includes every current feature in its £50, with no
-      higher tier, no per-sale charge, and ticket income paid straight into
-      the organiser's own Stripe, Square or SumUp account. Among the providers
-      with verified records on this site, it is the only managed product that
-      combines one volume-independent price, no feature tiers, no per-sale
-      platform fee and self-hosting of the same product.
+      The self-hosted rows match Chobble Tickets on freedom and are the reason
+      this is a claim about combinations rather than about openness alone. Each
+      of them asks for something in return: a server to run, a paid tier for
+      the plugins, or a licence to remove the branding.
+
+      Among the providers with verified records on this site, Chobble Tickets
+      is the only managed product that combines one volume-independent price,
+      every current feature in that price, no per-sale platform fee, and
+      self-hosting of the same source-published product. Ticket income goes
+      straight to the organiser's own Stripe, Square or SumUp account, and the
+      database and event setup can be [downloaded](/features/backups/) and
+      [exported](/features/catalogue-import-export/) and taken to another host.
+
+      Some costs sit outside the fee. A provider that lists events in a public
+      marketplace can market other organisers' events to attendees, and a
+      provider that holds ticket money pays it out on its own schedule rather
+      than as each sale clears.
   - type: markdown
     dark: true
     content: |
