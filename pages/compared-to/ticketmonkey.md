@@ -21,14 +21,14 @@ provider_facts:
   white_label: higher-tier
   custom_domain: not-documented
   public_website: hosted-event-pages
-  self_hosting: not-offered
+  self_hosting: not-documented
   source_code: proprietary
   agent_instructions: not-reviewed
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
-  attendee_cross_marketing: none
+  attendee_cross_marketing: not-documented
   notes:
     registration_country: "Ticket Monkey Ltd is a private company registered in England and Wales, company number 16420115, incorporated on 30 April 2025, with a registered office in Barnstaple, Devon."
     ethical_basis: "No ethical or ownership structure was documented; the site describes a founder-run team with events operations, marketing and finance backgrounds, and no ownership record was found in the sources reviewed."
@@ -38,7 +38,8 @@ provider_facts:
     custom_domain: "No custom-domain option was documented; event pages are hosted on Ticket Monkey and the homepage states no separate website is needed."
     public_website: "Ticket Monkey supplies hosted, branded event pages and embeddable checkout rather than a general website or content management system."
     event_marketplace: "Ticket Monkey positions itself as self-serve for organisers with their own audiences; no public event-discovery marketplace was documented. It provides a branded ticket-delivery app with push notifications and a Twickets face-value resale integration."
-    attendee_cross_marketing: "The privacy policy states Ticket Monkey acts as a processor for the organiser and only markets its own similar services to people who have bought from or contacted Ticket Monkey."
+    self_hosting: "No self-hosting or customer-run deployment was documented; Ticket Monkey is a hosted product and its source code is not published."
+    attendee_cross_marketing: "Not established either way. The privacy policy says Ticket Monkey acts as a processor for the organiser and markets its own similar services to people who have bought from or contacted it, which does not expressly exclude ticket buyers."
 blocks:
   - type: hero
     class: gradient
@@ -113,8 +114,8 @@ blocks:
       - Complimentary tickets and guest lists
       - Refund processing from the admin panel
       - Sales reporting
-      - Direct payouts to the organiser's own Stripe account, taken as each
-        booking is made
+      - Each booking pays into the organiser's own Stripe account, which then
+        pays out to the bank on Stripe's own schedule
       - Hosted, branded event pages and embeddable checkout for your own
         website
       - Checkout add-ons (Ticket Monkey offers merchandise, donations and
@@ -184,9 +185,9 @@ blocks:
       - **[Liquid email templates](/features/email-templates/)** - full control
         over confirmation emails with Liquid template syntax
       - **[Public API](/features/public-api/) and [Admin API](/features/admin-api/)** -
-        the public API returns event listings, availability and booking data
-        with no API key, and the admin API uses API keys for reading private
-        data and full event management
+        the public API exposes event listings and availability and provides
+        booking functionality with no API key, and the admin API uses API keys
+        for reading private data and full event management
       - **[Subscribable ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)** -
         a single feed that lists all your events, so subscribers get automatic
         updates when you add new ones
