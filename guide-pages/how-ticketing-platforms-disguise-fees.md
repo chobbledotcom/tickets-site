@@ -102,6 +102,11 @@ blocks:
       charges 2.5% + £0.99, and the 99p fixed portion alone is about a fifth of
       a £5 ticket.
 
+      [Ticket Monkey](/compared-to/ticketmonkey/) charges 25p per paid ticket
+      including VAT, a low flat fee that is still about 8% of a £3 ticket. A low
+      flat fee is a smaller share of a cheap ticket than a high one, but it is
+      still a share that grows as the ticket price falls.
+
       "Flat" describes the shape of the charge, not its size. On a £50 ticket
       the same 60p is 1.2%; on a £2 ticket it is 30%. A per-ticket fee that
       looks small next to an expensive ticket can be the larger share of a

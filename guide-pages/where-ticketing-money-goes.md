@@ -53,6 +53,10 @@ blocks:
         rather than a percentage, so its charge does not rise with ticket
         price: 60p per paid ticket, falling to about 22p with the largest
         prepaid credit bundles.
+      - [Ticket Monkey](/compared-to/ticketmonkey/) charges a fixed 25p per paid
+        ticket including VAT rather than a percentage, so its charge does not
+        rise with ticket price. The organiser chooses whether to absorb it, pass
+        it to the buyer, or set a custom fee.
   - type: markdown
     content: |
       ## Providers funded another way

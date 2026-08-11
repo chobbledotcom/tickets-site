@@ -54,6 +54,7 @@ blocks:
       | [Eventim Light](/compared-to/eventim-light/) | Operated in the UK by EVENTIM UK Ltd; its parent, CTS EVENTIM, is in Bremen, Germany | United Kingdom |
       | [PTA Events](/compared-to/pta-events/) | PTA Events Limited, [company 09404586](https://find-and-update.company-information.service.gov.uk/company/09404586) | Bedford |
       | [Resident Advisor](/compared-to/resident-advisor/) | Started in Australia, now based in London and self-described as independent | London |
+      | [Ticket Monkey](/compared-to/ticketmonkey/) | Ticket Monkey Ltd, [company 16420115](https://find-and-update.company-information.service.gov.uk/company/16420115) | Barnstaple, Devon |
       | [Ticketebo](/compared-to/ticketebo/) | Ticketebo Ltd, [company 12383730](https://find-and-update.company-information.service.gov.uk/company/12383730) | Manchester |
       | [Ticketpass](/compared-to/ticketpass/) | Operated by Fanex Group Ltd since October 2025 | United Kingdom |
       | [TicketSource](/compared-to/ticketsource/) | TicketSource Limited, [company 05043301](https://find-and-update.company-information.service.gov.uk/company/05043301) | Penarth |
@@ -73,8 +74,8 @@ blocks:
       2010 without a registered entity recorded here.
 
       Being UK based says nothing about fees, and the charge is not applied the
-      same way by each provider. BookitBee, Fatsoma, FIXR and Ticket Tailor
-      charge for each paid ticket. PTA Events and Ticketebo charge a percentage
+      same way by each provider. BookitBee, Fatsoma, FIXR, Ticket Monkey and
+      Ticket Tailor charge for each paid ticket. PTA Events and Ticketebo charge a percentage
       of each transaction, so a buyer taking four tickets in one order is
       charged once. DigiTickets publishes no rates and quotes each client a
       fixed price per transaction or per ticket, or a percentage of ticket
