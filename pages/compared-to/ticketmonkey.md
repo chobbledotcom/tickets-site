@@ -57,9 +57,10 @@ blocks:
 
       Ticket Monkey charges 25p per paid ticket on its Core tier, including
       VAT, with no percentage on top. Chobble Tickets charges £50/year or
-      £5/month whatever the volume, so on the 25p rate the two cross over at
-      about 200 paid tickets a year, or about 100 for charities and community
-      groups on the £25/year rate.
+      £5/month whatever the volume, so on the 25p rate the £50 annual plan
+      crosses over at about 200 paid tickets a year, or about 100 for
+      charities and community groups on the £25/year rate. The £5 monthly plan
+      comes to £60 a year, which crosses over at about 240 tickets.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -68,9 +69,11 @@ blocks:
       ticket on its Core tier. That price includes VAT and has no percentage
       added. Its Pro tier, which adds reserved seating and other features,
       normally costs 60p per ticket, and is being offered at 25p during its
-      2.0 launch. The managed full-service tier is priced as a custom
-      percentage. Payment processing runs through your own Stripe account at
-      Stripe's rates (1.5% + 20p for UK cards) and is charged separately.
+      2.0 launch.
+
+      The managed full-service tier is priced as a custom percentage. Payment
+      processing runs through your own Stripe account at Stripe's rates
+      (1.5% + 20p for UK cards) and is charged separately.
 
       Ticket Monkey lets you absorb the 25p, pass it to the buyer, or set your
       own fee and keep the difference. If you pass it on, buyers pay the 25p
@@ -83,9 +86,10 @@ blocks:
       [no per-ticket platform fees](/features/no-per-ticket-fees/) at any
       volume, and free events stay free with no cap. Charities, community
       groups, artists and musicians pay £25/year on the annual plan. If you
-      absorb the ticket fee yourself, Chobble Tickets works out cheaper once
-      you sell more than about 200 paid tickets a year, or about 100 tickets
-      on the community rate.
+      absorb the ticket fee yourself, the £50 annual plan works out cheaper
+      once you sell more than about 200 paid tickets a year, or about 100 on
+      the £25 community rate, and the £5 monthly plan crosses over at about
+      240 tickets.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -101,8 +105,7 @@ blocks:
       - Online ticket sales with payment processing through the organiser's
         own Stripe account
       - Apple Pay and Google Pay at checkout
-      - QR code scanning for check-in with a free scanning app that works
-        offline
+      - QR code scanning for check-in at the door
       - Email confirmations to attendees after booking
       - Event capacity limits
       - Free event support with no payment setup required
@@ -121,6 +124,10 @@ blocks:
     content: |
       ### Ticket Monkey has features Chobble Tickets doesn't
 
+      - **Offline door scanning** - the free Ticket Monkey scanning app
+        downloads the guest list and scans tickets without a network
+        connection. Chobble Tickets scans through the browser and needs a
+        connection to the site at the door
       - **Reserved seating** - visual seat maps where attendees pick their own
         seat (Pro tier)
       - **Payment plans** - buyers split a purchase into instalments
@@ -200,23 +207,24 @@ blocks:
       Ticket Monkey is a proprietary platform. Your event data lives on its
       servers, and you depend on its continued operation. Its privacy policy
       states that Ticket Monkey acts as a processor for the event organiser,
-      who is the data controller and decides how attendee data is used. Ticket
-      Monkey states that it does not use organiser event data to market to
-      attendees, and only sends its own service information to people who have
-      bought from or contacted Ticket Monkey. It states that it encrypts data
-      in transit and uses access controls.
+      who is the data controller and decides how attendee data is used.
+
+      Ticket Monkey states that it does not use organiser event data to market
+      to attendees, and only sends its own service information to people who
+      have bought from or contacted Ticket Monkey. It states that it encrypts
+      data in transit and uses access controls.
 
       With Chobble Tickets, attendee data is encrypted at rest and stays under
       your control, where only your private key can decrypt it. The entire
-      platform is open source under AGPLv3, so you can self-host it and never
-      depend on a third party. If Chobble Tickets stopped operating tomorrow,
-      you could run the same code on your own server.
+      platform is open source under AGPLv3, so you can self-host it without
+      depending on Chobble as a company. If Chobble Tickets stopped operating
+      tomorrow, you could run the same code on your own server.
   - type: markdown
     content: |
       ## When Ticket Monkey might be the better choice
 
-      - You want the lowest possible per-ticket fee and plan to pass it to
-        buyers, so your own platform cost is close to nothing
+      - You want a low per-ticket fee and plan to pass it to buyers, so your
+        own platform cost is close to nothing
       - You prefer paying per ticket over a flat annual fee, and sell fewer
         than about 200 paid tickets a year
       - You need reserved seating with a visual seat map
@@ -261,11 +269,12 @@ blocks:
       with backgrounds in events operations, marketing and finance. The
       platform is new, and its current version is described as a 2.0 launch.
 
-      Chobble Tickets is run by one person as a
+      Chobble is a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for community
-      benefit. All of Chobble's code is public under AGPLv3, and the platform
-      can be self-hosted by anyone without depending on Chobble as a company.
+      (CIC) run by one person, a UK legal structure that locks the company's
+      assets for community benefit. All of Chobble's code is public under
+      AGPLv3, and the platform can be self-hosted by anyone without depending
+      on Chobble as a company.
   - type: markdown
     content: |
       ## Pricing sources
