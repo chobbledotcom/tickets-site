@@ -15,7 +15,7 @@ provider_facts:
   last_reviewed: "2026-08-11"
   registration_country: united-kingdom
   ethical_basis:
-    - owner-led
+    - not-documented
   per_ticket_platform_fee: fixed
   managed_pricing: per-sale
   white_label: higher-tier
@@ -31,7 +31,7 @@ provider_facts:
   attendee_cross_marketing: none
   notes:
     registration_country: "Ticket Monkey Ltd is a private company registered in England and Wales, company number 16420115, incorporated on 30 April 2025, with a registered office in Barnstaple, Devon."
-    ethical_basis: "The site describes a founder-run team with events operations, marketing and finance backgrounds; no external ownership was recorded in the sources reviewed."
+    ethical_basis: "No ethical or ownership structure was documented; the site describes a founder-run team with events operations, marketing and finance backgrounds, and no ownership record was found in the sources reviewed."
     per_ticket_platform_fee: "The Core tier charges 25p per paid ticket, flat, including VAT, with no percentage. The Pro tier normally charges 60p per ticket. The managed full-service tier is priced as a custom percentage."
     managed_pricing: "Self-serve tiers charge per paid ticket with no subscription; the managed tier is quoted as a custom percentage."
     white_label: "Custom branding is a Pro-tier feature applied to hosted event pages; tickets are delivered through the Ticket Monkey branded consumer app."
@@ -164,10 +164,10 @@ blocks:
       - **Self-hosting option** - run the platform on selected infrastructure
         without a Chobble software licence fee
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, where only the
-        organiser holds the private key. Ticket Monkey states it encrypts data
-        in transit and uses access controls, but the data remains readable by
-        Ticket Monkey staff
+        encrypted at rest, so a copy of the server or database cannot reveal
+        names or contact details without the organiser's own key. Ticket
+        Monkey states it encrypts data in transit and uses access controls,
+        but the data remains readable by Ticket Monkey staff
       - **Flat pricing** - £50/year or £5/month with no per-ticket platform
         fees at any volume, and no per-ticket charge on free events
       - **Community rate** - £25/year for charities, community groups, artists
@@ -184,7 +184,9 @@ blocks:
       - **[Liquid email templates](/features/email-templates/)** - full control
         over confirmation emails with Liquid template syntax
       - **[Public API](/features/public-api/) and [Admin API](/features/admin-api/)** -
-        authenticated API access for reading data and full event management
+        the public API returns event listings, availability and booking data
+        with no API key, and the admin API uses API keys for reading private
+        data and full event management
       - **[Subscribable ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)** -
         a single feed that lists all your events, so subscribers get automatic
         updates when you add new ones
@@ -266,15 +268,15 @@ blocks:
       Ticket Monkey Ltd is a private company registered in England and Wales,
       company number 16420115, incorporated on 30 April 2025, with a
       registered office in Barnstaple, Devon. It describes a founder-run team
-      with backgrounds in events operations, marketing and finance. The
-      platform is new, and its current version is described as a 2.0 launch.
+      with backgrounds in events operations, marketing and finance. Its current
+      version is described as a 2.0 launch.
 
       Chobble is a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       (CIC) run by one person, a UK legal structure that locks the company's
-      assets for community benefit. All of Chobble's code is public under
-      AGPLv3, and the platform can be self-hosted by anyone without depending
-      on Chobble as a company.
+      assets for community benefit. All Chobble Tickets source code is public
+      under AGPLv3, and the platform can be self-hosted by anyone without
+      depending on Chobble as a company.
   - type: markdown
     content: |
       ## Pricing sources

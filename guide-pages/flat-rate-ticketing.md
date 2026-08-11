@@ -50,7 +50,7 @@ blocks:
       | [Resova](/compared-to/resova/) | Booking allowances with overage charges | Published plans include a monthly booking allowance, then charge for each extra booking. The custom Enterprise plan lists unlimited bookings. |
       | [Tessera Tickets](/compared-to/tessera-tickets/) | Ticket-volume subscription tiers | The monthly subscription rises with annual ticket volume. |
       | [Ticket Tailor](/compared-to/ticket-tailor/) | Fixed charge for each paid ticket | Prepaid credits and discounts can reduce the per-ticket amount. |
-      | [Ticket Monkey](/compared-to/ticketmonkey/) | Fixed charge for each paid ticket | Core charges 25p per paid ticket including VAT. The Pro tier and a custom-percentage managed tier cost more. |
+      | [Ticket Monkey](/compared-to/ticketmonkey/) | Fixed charge for each paid ticket | Core charges 25p per paid ticket including VAT. Pro normally costs 60p, though it shares the 25p launch rate as of August 2026, and a managed tier is a custom percentage. |
       | [Pretix Hosted](/compared-to/pretix/) | Percentage of each paid ticket | The hosted platform charge is capped per ticket, and payment processing remains separate. |
       | [Ticketebo](/compared-to/ticketebo/) | Percentage of each paid transaction | The 4.95% (incl. VAT) charge applies per order, not per ticket, with a 75p minimum. Card processing is included. |
       | [Wix Events](/compared-to/wix-events/) | Website subscription plus a percentage of paid tickets | The ticket service fee is additional to the Wix website plan and payment processing. |
