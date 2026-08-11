@@ -85,13 +85,17 @@ blocks:
         own payment account
       - Headline rates as published, which for several providers exclude VAT
 
-      One ticket per payment is the most expensive assumption for any provider
-      whose fee is charged per booking rather than per ticket. A booking of
-      four tickets is charged once by
-      [TicketSource](/compared-to/ticketsource/) and
-      [Ticketebo](/compared-to/ticketebo/), and carries one fixed payment
-      charge on every provider, so real costs are usually lower than the
-      figures below.
+      One ticket per payment is the most expensive assumption, because it
+      charges every fixed amount 1,000 times. Where payment processing is
+      separate, a booking of four tickets pays Stripe's 20p once instead of
+      four times, which is 60p saved on that booking.
+
+      Percentages do not work that way. [TicketSource](/compared-to/ticketsource/)
+      and [Ticketebo](/compared-to/ticketebo/) charge their fee once per
+      booking, but 7% or 4.95% of an £80 booking is the same amount as the
+      same percentage of four £20 bookings, and both include processing rather
+      than adding a separate fixed charge. What a grouped booking saves them is
+      the per-booking minimum, not the percentage.
   - type: markdown
     content: |
       ## Providers that charge nothing themselves
@@ -118,9 +122,11 @@ blocks:
     content: |
       ## Providers that charge a fixed amount a year
 
-      These providers charge a subscription or licence and take nothing from
-      each sale. Payment processing is separate and is included in the figures
-      at Stripe's UK rate.
+      These providers charge a subscription or licence for the year. Most take
+      nothing from each sale, and payment processing is separate at Stripe's UK
+      rate. Wix Events and Cheddar Up are the exceptions, charging a
+      subscription and a share of each sale, so they appear here for their
+      annual charge and carry their per-sale rate in the same row.
 
       | Option | Estimated year | What makes up the cost |
       |---|---|---|
@@ -129,8 +135,8 @@ blocks:
       | [EventPrime](/compared-to/eventprime/) (Professional) | £573 + WordPress hosting | About £73 a year for a single site, renewed for updates. Needs a WordPress site. |
       | [FooEvents](/compared-to/fooevents/) (Basic) | £603 + WordPress hosting | About £103 a year. Needs WordPress and WooCommerce. |
       | [Resova](/compared-to/resova/) (Lite) | £880 | About £380 a year for 100 bookings a month. 1,000 bookings fit only if no month goes over, otherwise 16p a booking or the £685 Pro plan. |
-      | [Hi.Events](/compared-to/hi-events/) single-domain licence | £920 | A $499 licence, about £420. |
-      | [Pretix](/compared-to/pretix/) Enterprise Starter | £920 | About £420 a year. |
+      | [Hi.Events](/compared-to/hi-events/) single-domain licence | £920 + infrastructure | A $499 licence, about £420, which removes the branding notice from a self-hosted install. The organiser still runs the server. |
+      | [Pretix](/compared-to/pretix/) Enterprise Starter | £920 + infrastructure | About £420 a year for the enterprise plugins on a self-hosted install. The organiser still runs the server. |
       | [tickts](/compared-to/tickts/) (Pro) | £1,190 | £690 a year for white-label subdomains, full API access and season passes. |
       | [SmartGig](/compared-to/smartgig/) | £1,300 | £800 a year for the ticketing module. No per-ticket fee is published, and none is confirmed either. |
       | [Wix Events](/compared-to/wix-events/) | £1,396 | A website plan from about £276 a year, plus a 2.5% ticket service fee and 2.1% + 20p Wix Payments processing. |
@@ -147,17 +153,17 @@ blocks:
       | Option | Estimated year | What makes up the cost |
       |---|---|---|
       | [SignUpGenius](/compared-to/signupgenius/) | £700 | About 20p a ticket plus Stripe processing. Free pages carry advertising. |
+      | [Ticket Generator](/compared-to/ticket-generator/) | £810 | About 31p a ticket buying credits 1,000 at a time, plus Stripe processing. Small packs cost about 47p a credit, and an event with a venue layout uses two credits a ticket. |
       | [TixFox](/compared-to/tixfox/) | £880 | 38p a ticket plus Stripe processing. 30p under £5. Platform fees are not returned on a refund. |
+      | [Ticket Tailor](/compared-to/ticket-tailor/) | £910 | 41p a ticket buying prepaid credits 500 at a time, plus Stripe processing. Pay-as-you-go is 60p a ticket, which is £1,100, and the largest bundles reach 22p. Charities get 50% off. |
       | [Hi.Events](/compared-to/hi-events/) cloud | £970 | 0.75% + about 32p a ticket plus Stripe processing. |
-      | [Ticket Generator](/compared-to/ticket-generator/) | £970 | About 47p a ticket in small credit packs, falling to about 20p at 10,000 credits, plus processing. |
       | [Ticketebo](/compared-to/ticketebo/) | £990 | 4.95% including VAT of each order, card processing included, 75p minimum. The buyer pays by default. |
       | [Pretix Hosted](/compared-to/pretix/) | £1,000 | 2.5% of ticket value, capped at about £13 a ticket, plus separate processing. |
-      | [Ticket Tailor](/compared-to/ticket-tailor/) | £1,100 | 60p a ticket plus Stripe processing. Prepaid credits cut this to about £910, or about £720 in the largest bundles. Charities get 50% off. |
       | [Tito](/compared-to/tito/) | £1,100 | 3% a ticket plus Stripe processing. 2.5% for charities and community groups. |
       | [Ticketpass](/compared-to/ticketpass/) (Essentials) | £1,160 | A booking fee and a service fee of 1.9% + 20p each, excluding VAT, with processing included. |
       | [BookitBee](/compared-to/bookitbee/) | £1,200 | From 3.5% a ticket, minimum 50p, capped at £19.95, plus Stripe processing. |
       | [PTA Events](/compared-to/pta-events/) | £1,290 | 3.95% a transaction plus Stripe processing. The £299.99 + VAT Premium plan drops the platform fee to 1.5%. |
-      | [Ticketted](/compared-to/ticketted/) | £1,290 | 3.95% + about 50p a ticket. Charities and schools pay 2.45% + about 24p. |
+      | [Ticketted](/compared-to/ticketted/) | £1,290 | 3.95% + A$0.95 a ticket, converted at 52.3p to the Australian dollar. Charities and schools pay 2.45% + A$0.45. |
       | [Humanitix](/compared-to/humanitix/) | £1,394 | 4.67% + 46p a ticket, processing included, excluding VAT. Charities and schools pay 3.33% + 25p, which is about £916. |
       | [TicketSource](/compared-to/ticketsource/) | £1,400 | 7% a booking excluding VAT with TicketSource processing, or 4.5% plus the organiser's own Stripe, which comes to the same figure on a £20 ticket. |
       | [FIXR](/compared-to/fixr/) (Pro) | £1,488 | 4.99% + 49p a ticket plus VAT, £1 minimum, processing included. Buyers usually pay it. |
@@ -169,12 +175,20 @@ blocks:
       | [Ticketpass](/compared-to/ticketpass/) (Pro) | £2,100 | 3.5% + 35p each on the booking fee and the service fee. |
       | [Fatsoma](/compared-to/fatsoma/) | £2,500 | 10% a ticket, minimum £1, plus Stripe processing. |
 
+      Two of these rows are not options for a UK organiser.
+      [Ticketted](/compared-to/ticketted/)'s FAQ says the platform is for
+      events in Australia, and [QRTicket](/compared-to/qrticket/) is
+      German-language only. Their rates are converted to pounds so the charges
+      can be read beside the rest.
+
       [DICE](/compared-to/dice/), [Resident Advisor](/compared-to/resident-advisor/),
-      [Ticketmaster](/compared-to/ticketmaster/) and [Ticketek](/compared-to/ticketek/)
-      do not publish a general rate schedule. Third-party estimates of around
-      10% put DICE and Resident Advisor near £2,000 on this example, Ticketek
-      near £4,000 and Ticketmaster near £4,500, but these are estimates rather
-      than published rates.
+      [Ticketmaster](/compared-to/ticketmaster/) and
+      [Ticketek](/compared-to/ticketek/) publish no general rate schedule, so
+      none of them has a row. Third-party estimates of around 10% put DICE and
+      Resident Advisor near £2,000 on this example and Ticketmaster near
+      £4,500, and a typical Ticketek service and handling fee of about A$8 a
+      transaction is near £4,000. Ticketek also sells mainly for large venues
+      in Australia and New Zealand.
   - type: markdown
     dark: true
     content: |
