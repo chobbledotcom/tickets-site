@@ -29,7 +29,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: provider-content-and-events
+  established: 1979
+  public_api: not-documented
+  seating_plans: included
+  summary: "A large ticketing marketplace for stadiums and arenas across Australia and New Zealand, with contract-negotiated fees."
   notes:
+    established: "TEG's company history dates the Ticketek business to 1979, when it was created to sell World Series Cricket tickets; it first traded under another name (teg.com.au, checked 11 August 2026)."
     registration_country: "Ticketek is part of TEG Pty Limited (ACN 604 938 534), an Australian company headquartered in Sydney, according to Ticketek's About page and the TEG privacy policy. Checked 8 August 2026."
     ethical_basis: "Ticketek is owned by TEG Pty Limited, which was formed in 2015 when Affinity Equity Partners acquired Nine Live from Nine Entertainment and rebranded it as TEG. No charity, co-operative, B Corp or community-interest structure is described in the sources reviewed."
     per_ticket_platform_fee: "No standard fee schedule is published. Ticketek sets fees through venue and promoter contracts, and reports and press coverage describe service and handling fees added to buyer prices without a published rate card."

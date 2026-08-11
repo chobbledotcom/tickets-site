@@ -27,6 +27,9 @@ blocks:
       - icon: hugeicons:money-receive-square
         description: See the annual, monthly, discounted and self-hosted prices, what managed hosting includes, and the main product limits.
         name: <a href="/pricing/">Pricing and fees</a>
+      - icon: hugeicons:filter
+        description: Every reviewed provider in one alphabetical list, with filters for open source, self-hosting, fees, seating plans and more.
+        name: <a href="/compared-to/providers/">All providers A to Z</a>
       - icon: hugeicons:ticket-01
         description: A UK-focused ticketing platform with per-ticket fees. Compare pricing and features.
         name: <a href="/compared-to/bookitbee/">BookitBee alternative</a>

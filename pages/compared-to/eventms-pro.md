@@ -27,6 +27,10 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: none
+  established: not-reviewed
+  public_api: not-reviewed
+  seating_plans: included
+  summary: "Closed-source marketplace ticketing software sold as a one-time licence and installed on the buyer's own server."
   notes:
     registration_country: "The EventMS Pro site does not publish a registered legal entity, company number or country. Contact is through sales@eventmspro.com and a LinkedIn reference. Checked 10 August 2026."
     ethical_basis: "EventMS Pro is sold as a commercial software licence. The site does not describe its ownership, funding or legal structure. Checked 10 August 2026."

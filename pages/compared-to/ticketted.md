@@ -29,6 +29,10 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: not-documented
+  established: 2026
+  public_api: not-documented
+  seating_plans: not-reviewed
+  summary: "An Australian ticketing platform charging 3.95% + A$0.95 per paid ticket, with its own public event listings."
   notes:
     registration_country: "Ticketted Pty Ltd is an Australian private company, ABN 26 698 189 669 and ACN 698 189 669, registered on 18 May 2026 with its main business location in New South Wales (ABN Lookup, checked 11 August 2026). Its FAQ says the platform is for anyone organising events in Australia, and its site is made in Sydney."
     ethical_basis: "Ticketted Pty Ltd is an ordinary Australian private company. No owner, director or investor information was found in the sources reviewed, and no ethical certification or structure is claimed."

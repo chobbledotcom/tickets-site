@@ -30,7 +30,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: provider-content-and-events
+  established: 2001
+  public_api: not-documented
+  seating_plans: not-reviewed
+  summary: "A ticketing and event-discovery platform for electronic music, paid for by buyer service fees."
   notes:
+    established: "Resident Advisor was founded in Sydney in 2001 (Wikipedia, checked 11 August 2026)."
     registration_country: "Resident Advisor started in Australia and is now based in London, with a Companies House record for its UK entity."
     ethical_basis: "Resident Advisor describes itself as independent. Companies House lists two founders as its only active people with significant control, but this does not establish complete ownership."
     per_ticket_platform_fee: "Resident Advisor says buyers pay a service fee on each ticket but does not publish a general rate schedule."

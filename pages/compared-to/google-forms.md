@@ -27,7 +27,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: none
   attendee_cross_marketing: not-documented
+  established: 2008
+  public_api: not-reviewed
+  seating_plans: not-reviewed
+  summary: "A free form builder that can collect registrations but does not take payment, issue tickets or track capacity."
   notes:
+    established: "Google Forms launched in 2008 as part of the Google Docs suite (Wikipedia, checked 11 August 2026); Google itself is older."
     registration_country: "Google's privacy policy names Google LLC, at 1600 Amphitheatre Parkway, Mountain View, California, as the controller for users in the United Kingdom, with Google Ireland Limited the controller for the European Economic Area and Switzerland. Checked 8 August 2026."
     ethical_basis: "Google LLC is a multinational for-profit corporation. None of the reviewed sources describes Google Forms in terms of a charity, co-operative, B Corp or community-interest structure."
     per_ticket_platform_fee: "Google Forms is not a ticketing product. There is no per-ticket fee, because the tool does not process payments or sell tickets."

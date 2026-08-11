@@ -29,6 +29,10 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
+  established: 2015
+  public_api: not-documented
+  seating_plans: not-reviewed
+  summary: "A UK booking platform for escape rooms, tours and activities, charging a monthly subscription with booking allowances."
   notes:
     per_ticket_platform_fee: "Published plans include a monthly booking allowance, then charge a fixed amount for each extra booking; Enterprise lists unlimited bookings."
     managed_pricing: "Published subscription tiers carry different monthly booking allowances and overage charges. The custom Enterprise plan lists unlimited bookings."

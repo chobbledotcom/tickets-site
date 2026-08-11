@@ -29,7 +29,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
+  established: 2025
+  public_api: not-documented
+  seating_plans: higher-tier
+  summary: "A UK self-serve ticketing platform charging a flat 25p per paid ticket, with reserved seating on its Pro tier."
   notes:
+    public_api: "The review records a Ticket Monkey MCP server that runs the box office through AI agents rather than a documented public API."
     registration_country: "Ticket Monkey Ltd is a private company registered in England and Wales, company number 16420115, incorporated on 30 April 2025, with a registered office in Barnstaple, Devon."
     ethical_basis: "No ethical or ownership structure was documented; the site describes a founder-run team with events operations, marketing and finance backgrounds, and no ownership record was found in the sources reviewed."
     per_ticket_platform_fee: "The Core tier charges 25p per paid ticket, flat, including VAT, with no percentage. The Pro tier normally charges 60p per ticket. The managed full-service tier is priced as a custom percentage."

@@ -29,7 +29,13 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: provider-content-and-events
+  established: 1976
+  public_api: not-reviewed
+  seating_plans: included
+  summary: "A ticketing marketplace for stadiums, arenas and major tours, with fees set through venue and promoter contracts."
   notes:
+    established: "Ticketmaster was founded in Phoenix, Arizona in 1976 (Wikipedia, checked 11 August 2026)."
+    public_api: "Ticketmaster's footer links Open Platform APIs and SDKs for developers; the comparison lists API access among features not offered to small organisers, and the APIs themselves were not reviewed."
     registration_country: "Ticketmaster L.L.C, at 9348 Civic Center Drive, Beverly Hills, California, is named as the US data controller in the Ticketmaster privacy policy, which describes a global group of companies headquartered in the United States with Live Nation Entertainment, Inc. as the group contact. Checked 8 August 2026."
     ethical_basis: "Ticketmaster is owned by Live Nation Entertainment, Inc., a publicly traded US company. No co-operative, charity, B Corp or community-interest structure is claimed on the pages checked."
     per_ticket_platform_fee: "No fee schedule or fee amounts are published on the Ticketmaster business or consumer pages checked. The business site sells custom solutions with 'Work With Us' contact-sales calls to action and no price list."

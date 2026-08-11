@@ -29,7 +29,12 @@ provider_facts:
   local_dev_reload: not-documented
   event_marketplace: none
   attendee_cross_marketing: none
+  established: not-reviewed
+  public_api: not-documented
+  seating_plans: higher-tier
+  summary: "A set of WordPress plugins that add ticket sales to a WooCommerce shop, sold as annual licence bundles."
   notes:
+    seating_plans: "The FooEvents Seating plugin is included in the Premium and Point of Sale bundles."
     local_dev_runtime: "Runs inside WordPress and WooCommerce, which need PHP and a MySQL or MariaDB database. No development setup is published for the plugins. Checked 30 July 2026."
     registration_country: "FooEvents is sold from FooEvents.com; no registered legal entity was established in the sources reviewed."
     per_ticket_platform_fee: "Annual plugin licences, WordPress hosting and payment processing remain separate costs."

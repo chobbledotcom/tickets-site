@@ -32,7 +32,12 @@ provider_facts:
   local_dev_reload: hot-reload
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
+  established: 2024
+  public_api: included
+  seating_plans: not-reviewed
+  summary: "A source-published ticketing platform, hosted or self-hosted, with a per-ticket fee on its cloud service."
   notes:
+    established: "The Hi.Events repository's first commit and first release tag are dated 24 May 2024 (github.com/HiEventsDev/hi.events, checked 11 August 2026)."
     local_dev_runtime: "Nine containers in docker/development/docker-compose.dev.yml: Laravel backend, two frontend variants, nginx, PostgreSQL, Redis, Mailpit, MinIO and a bucket initialiser. Backend and frontend directories are bind-mounted; the frontend containers run yarn dev watchers. Checked 30 July 2026."
     agent_instructions: "Repository root carries AGENTS.md, CLAUDE.md and .cursorrules. Checked 30 July 2026."
     ethical_basis: "Hi.Events is operated by Hi.Events Ltd. Dave Earley accounted for most repository contributions when checked on 25 July 2026; public sources reviewed did not establish its funding status."

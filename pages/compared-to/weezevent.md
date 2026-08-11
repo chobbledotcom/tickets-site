@@ -29,6 +29,10 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: optional-network
   attendee_cross_marketing: not-documented
+  established: 2008
+  public_api: not-documented
+  seating_plans: included
+  summary: "A French event platform covering ticketing, access control, cashless payments and staff management."
   notes:
     registration_country: "Weezevent is a French company founded in 2008. It has offices in eight countries, including the UK."
     per_ticket_platform_fee: "The UK rate is 2.5% + £0.99 including tax on each paid ticket sold online. Banking fees are included in that rate."

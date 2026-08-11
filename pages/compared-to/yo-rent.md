@@ -27,6 +27,10 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: none
   attendee_cross_marketing: none
+  established: not-reviewed
+  public_api: not-reviewed
+  seating_plans: not-reviewed
+  summary: "Self-hosted software for building multi-vendor rental marketplaces, sold as a one-time licence."
   notes:
     registration_country: "Yo!Rent is a product of FATbit Technologies, and the GitHub profile lists its location as Mohali, India. The site does not publish a registered legal entity or company number. Checked 8 August 2026."
     ethical_basis: "Yo!Rent is made by FATbit Technologies, a commercial software company. The site does not describe its ownership or legal structure."

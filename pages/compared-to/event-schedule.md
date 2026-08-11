@@ -29,7 +29,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: not-documented
+  established: not-reviewed
+  public_api: higher-tier
+  seating_plans: not-reviewed
+  summary: "A source-published platform for event calendars, ticketing and appointment booking from the team behind Invoice Ninja."
   notes:
+    public_api: "An API and webhooks are included from the Pro plan."
     registration_country: "Event Schedule's privacy policy names the operator as Event Schedule LLC but states no country or registered address. It is made by the team behind Invoice Ninja, whose company Invoice Ninja LLC is registered in Fort Myers, Florida in the United States and which was founded and is partly based in Haifa, Israel. Event Schedule's own registering jurisdiction is not documented. Reviewed 10 August 2026."
     ethical_basis: "The reviewed sources did not describe a company registration, funding or ownership structure for Event Schedule. Its code is published on GitHub by the makers of the Invoice Ninja billing software, which does not by itself establish an independent or community governance model."
     per_ticket_platform_fee: "Event Schedule states it charges no fee on ticket sales. Payment processing is charged separately by the organiser's own Stripe account."

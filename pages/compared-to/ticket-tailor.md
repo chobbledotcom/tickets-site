@@ -30,7 +30,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: none
+  established: 2010
+  public_api: included
+  seating_plans: included
+  summary: "An independently owned London ticketing platform running since 2010, charging a flat fee per paid ticket."
   notes:
+    seating_plans: "Reserved seating consumes two credits per paid seated ticket rather than one."
     registration_country: "Ticket Tailor has run from London since 2010; no registered legal entity or company number was established in the sources reviewed."
     per_ticket_platform_fee: "Paid tickets use credits; prepaid bundles and eligible discounts reduce the fixed rate."
     managed_pricing: "Ticket Tailor charges for each paid ticket rather than charging a recurring managed-service subscription."

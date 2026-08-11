@@ -30,7 +30,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: not-documented
+  established: not-reviewed
+  public_api: included
+  seating_plans: included
+  summary: "A UK ticketing platform with no buyer booking fees and tiered organiser subscriptions from free to £690 a year."
   notes:
+    public_api: "The API is read-only on the free Starter plan, with full access on Pro."
     per_ticket_platform_fee: "Stripe payment processing remains separate on every plan."
     white_label: "White-label subdomains and removal of tickts branding require the Pro plan."
     custom_domain: "The pricing page lists a tickts.co.uk subdomain, while the white-label feature page says Pro users can point an organiser-owned domain by CNAME. Confirm availability before purchase."

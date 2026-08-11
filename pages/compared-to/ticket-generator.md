@@ -29,7 +29,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
+  established: not-reviewed
+  public_api: included
+  seating_plans: paid-add-on
+  summary: "A pay-as-you-go ticketing platform sold as prepaid ticket credits, with custom ticket design and event pages."
   notes:
+    seating_plans: "Seated events use two credits per ticket, and seating plan setup costs $100 or 200 credits."
     registration_country: "Trycon, which operates Ticket Generator, is headquartered at 1702, The Iconic Corenthum, Sector 62, Noida - 201301, Uttar Pradesh, India. The registered legal entity name and company number were not established in the sources reviewed. Checked 31 July 2026."
     ethical_basis: "Ticket Generator is operated by Trycon, headquartered in Noida, India, which also runs the QR-code products Scanova, QR Mark, QR Batch and QR API. Its funding and ownership structure was not established in the sources reviewed. Checked 31 July 2026."
     per_ticket_platform_fee: "Each ticket generated uses one credit; events with a venue layout use two credits per ticket. Credits are sold in packs of 10, 100, 1,000 and 10,000 at a falling per-ticket rate. The first 10 credits are free, credits do not expire, and purchased credits are non-refundable. Credits apply to free and paid tickets alike."

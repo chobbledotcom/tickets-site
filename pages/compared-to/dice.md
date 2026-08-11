@@ -29,7 +29,13 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: personalised-recommendations
+  established: 2014
+  public_api: read-only
+  seating_plans: not-reviewed
+  summary: "A mobile-first music ticketing platform with fees agreed per partnership and tickets held in its app."
   notes:
+    established: "DICE was founded in England in 2014 (Wikipedia, checked 11 August 2026)."
+    public_api: "DICE documents a GraphQL Ticket Holders API for reading events, tickets, orders, returns and transfers."
     registration_country: "DICE FM UK Ltd (company no. 14373641) is named as the contracting company in the DICE self sign-up terms, with a registered office at 100 De Beauvoir Road, London N1 4EN. Parent DICE FM Holdings Ltd (no. 08905651) is registered at the same address. Checked 8 August 2026."
     ethical_basis: "DICE FM was acquired by Fever in June 2025, a private live entertainment company. No charity, co-operative, B Corp or community-interest structure is described in the sources reviewed."
     per_ticket_platform_fee: "The DICE self sign-up terms charge a service fee of 8.5% plus VAT on the face value of each ticket with a £1 minimum, and a transaction fee of 2.5% plus VAT of the total transaction price. Free tickets carry no fees, and no service fee applies where the face value goes to a registered charity. Box office and door sales incur an 8% commission with a £1 to £3.50 range plus a 3% box office transaction fee. Larger or custom partnerships are negotiated separately."

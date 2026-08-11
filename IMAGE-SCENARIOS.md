@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 166 rendered client pages. A page counts as illustrated
+This audit covers all 168 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 164 | 66 | 98 |
+| Editorial pages in the sitemap | 166 | 66 | 100 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **166** | **66** | **100** |
+| **All rendered pages** | **168** | **66** | **102** |
 
-The 98 editorial pages are the main illustration backlog. The two utility
+The 100 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -160,6 +160,7 @@ pages are listed separately at the end.
 |---|---|---|---|
 | `pages/compared-to/compared-to.md` | Diagram: `comparison-needs-chooser` | Oakfield chooses among marketplace discovery, reserved seating, volunteer coordination, activity scheduling, WordPress integration and straightforward ticketing. Route each need to a comparison cluster. | Lets organisers start from their job rather than an undifferentiated provider list. |
 | `pages/compared-to/compare-all.md` | Comparison graphic: `fee-calculator-example` | Use 500 £15 tickets and one ticket per payment. Show a polished static calculator state with controls, total sales and sorted provider-cost cards. | Explains the calculator inputs and its one-ticket-per-payment assumption. |
+| `pages/compared-to/providers.md` | Diagram: `provider-filter-chips` | The provider directory mid-filter: chips for open source, self-hosting and no per-ticket fee ticked, matching rows visible, one row mid-fade, and Chobble Tickets highlighted in purple among the results. | Shows the directory at its point of value, the moment non-matching providers fade away. |
 
 ## Comparisons: Marketplaces And Discovery
 

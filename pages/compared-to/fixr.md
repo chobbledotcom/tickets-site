@@ -29,6 +29,10 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: provider-content-and-events
+  established: 2012
+  public_api: not-documented
+  seating_plans: not-reviewed
+  summary: "A UK ticketing and event-discovery platform for student and nightlife events, paid for by buyer booking fees."
   notes:
     registration_country: "FIXR operates as VIPR Digital Limited, company number 08184813, at 25-26 Poland Street, London W1F 8QN, and its privacy policy names that company as the contracting party for UK and US customers. A wholly owned South African subsidiary, FIXR Ticketing Proprietary Limited, handles South Africa. Checked 8 August 2026."
     ethical_basis: "VIPR Digital Limited is a private limited company co-founded in 2012 by four individuals, one of whom resigned in 2020. It raised £6.5 million in a Series A round in 2021. No charity, co-operative, B Corp or community-interest structure is described in the sources reviewed."

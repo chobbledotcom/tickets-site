@@ -30,7 +30,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: personalised-recommendations
+  established: not-reviewed
+  public_api: read-only
+  seating_plans: not-reviewed
+  summary: "A ticketing and community platform from Symbiota, a self-described not-for-profit worker co-operative, with no mandatory fees."
   notes:
+    public_api: "The review records documented Zapier endpoints and a read-only public AI-assistant service; neither can change data."
     ethical_basis: "Symbiota describes itself as a not-for-profit worker co-operative; Companies House records a company limited by guarantee."
     per_ticket_platform_fee: "Dandelion normally requests a voluntary 1% organiser contribution and buyer donations."
     managed_pricing: "Dandelion asks for voluntary contributions. Some off-platform listings and marketplace boosts have separate charges."

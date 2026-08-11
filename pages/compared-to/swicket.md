@@ -27,7 +27,12 @@ provider_facts:
   local_dev_reload: rebuild-required
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
+  established: not-reviewed
+  public_api: included
+  seating_plans: not-reviewed
+  summary: "The managed enterprise service built on the open source alf.io platform, priced per contract."
   notes:
+    established: "The underlying alf.io project has been active since 2014; no start year for the Swicket managed service was recorded."
     local_dev_runtime: "alf.io's docker-compose.yml runs the published alfio/alf.io image beside PostgreSQL 10 and mounts no source, so its documented development route is Gradle with Java 17 against that database. Checked 30 July 2026."
     agent_instructions: "The alf.io repository root carries no AGENTS.md or CLAUDE.md. Checked 30 July 2026."
     registration_country: "Swicket is run by Vivento Lab in Lugano, Switzerland; no registered legal entity was established in the sources reviewed."

@@ -29,6 +29,10 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: none
   attendee_cross_marketing: none
+  established: 2012
+  public_api: included
+  seating_plans: not-reviewed
+  summary: "A developer-friendly ticketing platform from Ireland charging 3% per paid ticket, used widely for technology conferences."
   notes:
     registration_country: "Team Tito Limited, Company Number 566334, is registered at 27 Frederick Street South, Dublin D02 T254, Ireland, and the site footer says 'Proudly registered in Ireland'. Checked 8 August 2026."
     ethical_basis: "teamtito.com/about describes a small private software company founded by its two co-founders with funding from Enterprise Ireland and private individuals. It is not publicly listed and claims no charity, co-operative or B Corp status."

@@ -27,7 +27,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
+  established: 2021
+  public_api: included
+  seating_plans: not-reviewed
+  summary: "A scheduling platform for paid bookings that moved its production code closed source in April 2026."
   notes:
+    established: "Cal.com began as Calendso in 2021: the repository's first commit is dated 10 March 2021 and the rebrand to Cal.com was announced that September (cal.com/blog, checked 11 August 2026)."
     registration_country: "Cal.com describes itself as a US-based company; no registered legal entity was established in the sources reviewed."
     per_ticket_platform_fee: "Payment processing for paid bookings remains separate."
     managed_pricing: "Paid managed plans are feature-tiered and charged per user, not per booking."
