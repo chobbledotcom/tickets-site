@@ -51,15 +51,15 @@ blocks:
       | [Hi.Events](/compared-to/hi-events/) | AGPL-3.0 with attribution terms | Yes | Free self-hosting shows a "Powered by" link; a commercial licence removes it. The hosted plan charges per paid ticket. |
       | [Pretix](/compared-to/pretix/) | AGPLv3 core | Core yes; enterprise plugins proprietary | The Community edition is free to self-host; some enterprise features are sold as closed plugins. The hosted plan charges a percentage per ticket. |
       | [Revel](/compared-to/revel/) | MIT (permissive) | Yes, the same product | A permissive licence lets anyone use, change, rebrand or resell the code. The hosted service charges 3% + €0.50 per paid ticket. |
-      | [Event Schedule](/compared-to/event-schedule/) | Open source | Yes, the same product | No per-ticket platform fee; hosted plans are tiered by feature. See the comparison for the licence. |
+      | [Event Schedule](/compared-to/event-schedule/) | Attribution Assurance License (permissive) | Yes, the same product | No per-ticket platform fee; hosted plans are tiered by feature. |
       | [libreevent](/compared-to/libreevent/) | GPLv3 | Self-hosted only | The project is archived and no longer updated, so you maintain the code and server yourself. |
-      | [EventPrime](/compared-to/eventprime/) | GPLv2 | Runs on your WordPress site | An open-core plugin for WordPress, with paid add-ons. It needs a WordPress site to run. |
+      | [EventPrime](/compared-to/eventprime/) | GPLv2 or later (core plugin) | Runs on your WordPress site | An open-core plugin for WordPress; paid extensions are sold separately and not published. It needs a WordPress site to run. |
       | [Swicket with alf.io](/compared-to/swicket/) | alf.io is GPLv3 | Engine yes; Swicket is a separate managed service | alf.io is the open source engine; Swicket is a hosted service built on it. |
-      | [Cal.com](/compared-to/cal-com/) | AGPLv3 community edition | Production is proprietary | Cal.diy is a separate community edition; the hosted product's production code is closed. It is a scheduling tool rather than event ticketing. |
+      | [Cal.com](/compared-to/cal-com/) | MIT community edition (Cal.diy) | Production is proprietary | The production code became proprietary in April 2026; the MIT-licensed Cal.diy is a separate community version. It is a scheduling tool rather than event ticketing. |
       | [Dandelion](/compared-to/dandelion/) | Source-available | Hosted service; code opens on a delay | The code is published to read, but an open licence applies only after a delay, so it is not open source at release. |
 
       A published repository answers only the first column. The other columns
-      decide what you can actually run and what it costs.
+      decide what you can run and what it costs.
   - type: markdown
     dark: true
     content: |
@@ -68,15 +68,20 @@ blocks:
       The licences fall into a few groups, and the group matters more than the
       name:
 
-      - **Permissive (MIT)**, used by [Revel](/compared-to/revel/): you can
-        use, change, rebrand and even resell the code, with no duty to publish
-        your changes.
-      - **Copyleft (AGPL-3.0, GPLv3)**, used by Chobble Tickets,
-        [Hi.Events](/compared-to/hi-events/), [Pretix](/compared-to/pretix/)
-        core, [Event Schedule](/compared-to/event-schedule/),
-        [libreevent](/compared-to/libreevent/) and alf.io: you can run and
-        change the code for free, but if you run a changed version as a service,
-        you must publish those changes under the same licence.
+      - **Permissive (MIT, Attribution Assurance License)**, used by
+        [Revel](/compared-to/revel/) and
+        [Event Schedule](/compared-to/event-schedule/): you can use, change and
+        run the code and keep your changes private, though the licence can still
+        require keeping an attribution notice.
+      - **Network copyleft (AGPL-3.0)**, used by Chobble Tickets,
+        [Hi.Events](/compared-to/hi-events/) and [Pretix](/compared-to/pretix/)
+        core: you can run and change the code for free, but running a changed
+        version as a service means you must publish those changes under the same
+        licence.
+      - **Copyleft (GPLv3)**, used by [libreevent](/compared-to/libreevent/) and
+        alf.io: you can run and change the code for free, and you must publish
+        your changes under the same licence if you distribute the modified
+        program, though not for merely hosting it.
       - **Open core**, used by [Pretix](/compared-to/pretix/) and
         [EventPrime](/compared-to/eventprime/): the core is open, and some
         features are sold as separate proprietary add-ons.
@@ -85,10 +90,57 @@ blocks:
         delay.
       - **Community edition separate from production**, used by
         [Cal.com](/compared-to/cal-com/): the hosted product is proprietary, and
-        a separate community edition carries the open licence.
+        a separate MIT-licensed community edition (Cal.diy) carries the open
+        licence.
 
       None of these licences charges a fee to read or run the code. The
       differences are about republishing changes and which parts are open.
+  - type: markdown
+    content: |
+      ## Removing the maker's branding
+
+      Whether you can take the maker's name off the software depends on the
+      licence, not only on a paid setting. [Revel](/compared-to/revel/)'s MIT
+      licence carries no attribution requirement, so a self-hosted copy can be
+      fully rebranded. Chobble Tickets is copyleft but also sets no attribution
+      requirement, and [white labelling](/features/white-labelling/) is included
+      on every plan.
+
+      Other projects keep their name in place unless you pay or upgrade.
+      [Hi.Events](/compared-to/hi-events/) shows a "Powered by Hi.Events" link
+      on free self-hosting, removed only by a commercial licence.
+      [Event Schedule](/compared-to/event-schedule/) requires attribution under
+      its Attribution Assurance License, and removing its branding needs the Pro
+      plan or above.
+
+      The
+      [removing platform branding guide](/guide/choosing-a-ticket-platform/remove-ticket-platform-branding/)
+      compares branding removal across every reviewed provider, open source or
+      not.
+  - type: markdown
+    dark: true
+    content: |
+      ## What the licence lets a competitor do
+
+      Open source licences differ in what a rival business may do with the code.
+      A permissive licence lets any company, large or small, build a closed
+      product on the code and sell it without publishing changes.
+
+      Copyleft answers that differently. The AGPL's network clause covers hosted
+      software: a business that runs a changed version as a service must publish
+      those changes, so a competitor cannot take the code, improve it privately
+      and run it as a closed service. Chobble Tickets,
+      [Hi.Events](/compared-to/hi-events/) and [Pretix](/compared-to/pretix/)
+      core use this licence.
+
+      [Dandelion](/compared-to/dandelion/) takes a third path. Its Functional
+      Source License restricts running a competing service for two years, then
+      adds the permissive Apache 2.0 licence, so the original project keeps a
+      head start before the code becomes fully open.
+
+      None of this changes an organiser's day-to-day use. It decides who else
+      can build on the software and on what terms, which matters if you plan to
+      fork the code or rely on the project lasting.
   - type: markdown
     content: |
       ## Published code is not the same as free hosting
