@@ -22,9 +22,9 @@
   {
     "key": "no-per-ticket-fee",
     "label": "No per-ticket platform fee",
-    "description": "The platform charges no mandatory fee of its own on each ticket sold. Payment processing is separate.",
+    "description": "The platform charges no mandatory fee of its own on each ticket sold. A voluntary contribution the organiser can decline counts as none, and payment processing is separate.",
     "field": "per_ticket_platform_fee",
-    "values": ["none"]
+    "values": ["none", "voluntary-contributions"]
   },
   {
     "key": "no-attendee-marketing",
@@ -35,15 +35,15 @@
   },
   {
     "key": "uk-based",
-    "label": "UK registered",
-    "description": "The operating company's documented registration is in the United Kingdom.",
+    "label": "UK based",
+    "description": "The review places the provider's registration or operating base in the United Kingdom.",
     "field": "registration_country",
     "values": ["united-kingdom"]
   },
   {
     "key": "ethical-structure",
     "label": "Charity, co-op, CIC or B Corp",
-    "description": "The provider is a registered charity, a worker co-operative, a community interest company or a certified B Corporation.",
+    "description": "The review records a charity registration, a community interest company, a certified B Corporation or a self-described worker co-operative.",
     "field": "ethical_basis",
     "values": [
       "certified-b-corporation",

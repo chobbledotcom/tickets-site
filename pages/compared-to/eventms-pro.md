@@ -25,7 +25,7 @@ provider_facts:
   local_dev_runtime: not-reviewed
   local_dev_source: not-reviewed
   local_dev_reload: not-reviewed
-  event_marketplace: built-in
+  event_marketplace: per-deployment
   attendee_cross_marketing: none
   established: not-reviewed
   public_api: not-reviewed

@@ -143,6 +143,7 @@ const ENUMS = {
     "not-documented",
     "not-reviewed",
     "optional-network",
+    "per-deployment",
   ]),
   registration_country: new Set([
     "australia",
