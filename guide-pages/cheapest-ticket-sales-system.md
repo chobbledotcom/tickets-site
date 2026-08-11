@@ -35,8 +35,17 @@ blocks:
       fee is [tickts](/compared-to/tickts/) on its free Starter plan. It takes
       no commission and no booking fee, and ticket money goes to the
       organiser's own Stripe account, so the only cost is Stripe's 1.5% + 20p.
-      That is 50p a ticket at any volume, which is £50 a year less than
-      Chobble Tickets charges for the same 1,000 tickets.
+
+      The £50 hosting fee is what separates it from Chobble Tickets at any
+      volume. What that £50 is worth changes as the number of tickets grows:
+      50 tickets cost £25 on tickts and £75 on Chobble Tickets, three times as
+      much, while 1,000 tickets cost £500 and £550, a difference of 5p a
+      ticket.
+
+      At the volume this guide works through, the £50 is small enough that the
+      choice turns on what each plan includes rather than what it costs. On
+      tickts, white-label subdomains, custom domains and full API access are on
+      the £690/year Pro plan, and Chobble Tickets includes them in the £50.
 
       [SumUp Online Store](/compared-to/sumup-store/) also charges nothing a
       year, and its 2.5% includes payment processing, which is also 50p on a
@@ -106,17 +115,71 @@ blocks:
       | Option | Estimated year | What makes up the cost |
       |---|---|---|
       | [tickts](/compared-to/tickts/) (Starter) | £500 | Stripe processing only. Starter caps platform emails at 100 a month, gives read-only API access, and keeps white-label subdomains and custom domains on the £690/year Pro plan. |
-      | [Chobble Tickets](/hosting/) self-hosted | £500 + infrastructure | No Chobble licence fee. The organiser pays for hosting, deployment and updates. |
-      | [Revel](/compared-to/revel/) self-hosted | £500 + infrastructure | MIT licensed. Needs an always-on server running Django, PostgreSQL and Redis. |
-      | [Pretix](/compared-to/pretix/) Community self-hosted | £500 + infrastructure | Free for core ticketing. Some plugins are sold separately. |
-      | [Hi.Events](/compared-to/hi-events/) self-hosted | £500 + infrastructure | Free under the AGPL with a "Powered by Hi.Events" notice, which a $499 licence removes. |
+      | [Chobble Tickets](/hosting/) self-hosted | £500 + hosting | No Chobble licence fee. An edge deployment rents no monthly server, a Docker deployment does, and the organiser handles deployment and updates either way. |
+      | [Revel](/compared-to/revel/) self-hosted | £500 + £56 to £104 | MIT licensed. Needs an always-on server running Django, PostgreSQL and Redis. |
+      | [Pretix](/compared-to/pretix/) Community self-hosted | £500 + £56 to £104 | Free for core ticketing, with some plugins sold separately. Needs an always-on server. |
+      | [Hi.Events](/compared-to/hi-events/) self-hosted | £500 + £56 to £104 | Free under the AGPL with a "Powered by Hi.Events" notice, which a $499 licence removes. Needs an always-on server. |
       | [SumUp Online Store](/compared-to/sumup-store/) | £500 | 2.5% per online payment, processing included. Shop software, not event software. |
       | [Dandelion](/compared-to/dandelion/) | £500 + requested 1% | No mandatory fee. The requested organiser contribution is about £200 on £20,000, and buyers are asked for donations. |
 
       Self-hosting replaces a provider's fee with a server bill and the work of
-      running it. The size of that bill depends on the host, the software and
-      how much traffic the events draw, so this guide does not put a number on
-      it.
+      running it. The size of that bill depends mostly on what the software
+      needs to run, which is the next section.
+  - type: markdown
+    dark: true
+    content: |
+      ## What the server costs
+
+      Most self-hosted ticketing software is a program that has to be running
+      all the time, waiting for someone to open the page. That means renting a
+      virtual server by the month, whether or not any tickets sell that month.
+
+      These are the cheapest always-on servers at three European hosts,
+      checked on 11 August 2026:
+
+      | Host | Cheapest plan | Price | About |
+      |---|---|---|---|
+      | [Hetzner](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) (Germany) | CX23, 2 vCPU, 4 GB | €5.49 a month excluding VAT | £56 a year |
+      | [netcup](https://www.netcup.com/en/server/vps) (Germany) | VPS 500 G12, 2 vCore, 4 GB | €5.91 a month including 19% VAT | £60 a year |
+      | [Scaleway](https://www.scaleway.com/en/play2/) (France) | PLAY2-PICO, 1 vCPU, 2 GB | €0.014 an hour, about €10.22 a month | £104 a year |
+
+      Those figures use about 85p to the euro. A server bill is also not fixed
+      for good: Hetzner raised the CX23 from €3.99 to €5.49 a month on 15 June
+      2026, and first-year promotional rates at other hosts sit below these
+      standard prices.
+
+      The floor for running most self-hosted ticketing software is therefore
+      about £5 a month, or £60 a year, before anything else. That is more than
+      Chobble's £50 a year for managed hosting, and backups, monitoring, a
+      domain and the operator's own time sit on top of it.
+  - type: markdown
+    content: |
+      ## Where an edge script is different
+
+      Chobble Tickets compiles to a single JavaScript file that runs as a
+      [Bunny Edge Script](/features/open-source/). Nothing runs between
+      requests, so there is no monthly server to rent.
+
+      [Bunny charges](https://bunny.net/docs/edge-scripting-pricing) $0.20 per
+      million requests and $0.02 per 1,000 seconds of processor time, with no
+      fixed monthly fee and a minimum of $0.22 a month. Selling 1,000 tickets,
+      and the browsing around those sales, is a long way below a million
+      requests, so the compute cost of a year is measured in pence rather than
+      pounds. Bunny's database is billed by what it stores and does rather than
+      by the hour, and was in public preview when checked on 11 August 2026.
+
+      [Deno Deploy](https://deno.com/deploy/pricing), the other documented
+      option, has a free tier covering 1 million requests and 20 GB of outbound
+      traffic a month, with its first paid plan at $20 a month.
+
+      What decides which of these an organiser can use is the software, not the
+      host. [Revel](/compared-to/revel/) needs an always-on Django server with
+      PostgreSQL and Redis, [pretix](/compared-to/pretix/) is a Python
+      application with a database, and
+      [FooEvents](/compared-to/fooevents/) and
+      [EventPrime](/compared-to/eventprime/) need a WordPress site, which is
+      itself an always-on server. Those products start from the £56 to £104 a
+      year above; a Chobble Tickets edge deployment starts near zero.
   - type: markdown
     dark: true
     content: |
@@ -132,11 +195,11 @@ blocks:
       |---|---|---|
       | [Event Schedule](/compared-to/event-schedule/) (Pro) | £540 | About £40 a year. The free plan stops at 25 paid tickets a month, and custom domains need the £120/year Enterprise plan. |
       | **Chobble Tickets** managed | £550 | £50 hosting plus £500 processing. £525 on the £25 charity, community group, artist and musician rate, or £560 paying £5 a month. |
-      | [EventPrime](/compared-to/eventprime/) (Professional) | £573 + WordPress hosting | About £73 a year for a single site, renewed for updates. Needs a WordPress site. |
-      | [FooEvents](/compared-to/fooevents/) (Basic) | £603 + WordPress hosting | About £103 a year. Needs WordPress and WooCommerce. |
+      | [EventPrime](/compared-to/eventprime/) (Professional) | £573 + £60 to £300 | About £73 a year for a single site, renewed for updates. Needs a WordPress site, typically £5 to £25 a month. |
+      | [FooEvents](/compared-to/fooevents/) (Basic) | £603 + £60 to £300 | About £103 a year. Needs WordPress and WooCommerce on the same sort of hosting. |
       | [Resova](/compared-to/resova/) (Lite) | £880 | About £380 a year for 100 bookings a month. 1,000 bookings fit only if no month goes over, otherwise 16p a booking or the £685 Pro plan. |
-      | [Hi.Events](/compared-to/hi-events/) single-domain licence | £920 + infrastructure | A $499 licence, about £420, which removes the branding notice from a self-hosted install. The organiser still runs the server. |
-      | [Pretix](/compared-to/pretix/) Enterprise Starter | £920 + infrastructure | About £420 a year for the enterprise plugins on a self-hosted install. The organiser still runs the server. |
+      | [Hi.Events](/compared-to/hi-events/) single-domain licence | £920 + £56 to £104 | A $499 licence, about £420, which removes the branding notice from a self-hosted install. The organiser still rents the server. |
+      | [Pretix](/compared-to/pretix/) Enterprise Starter | £920 + £56 to £104 | About £420 a year for the enterprise plugins on a self-hosted install. The organiser still rents the server. |
       | [tickts](/compared-to/tickts/) (Pro) | £1,190 | £690 a year for white-label subdomains, full API access and season passes. |
       | [SmartGig](/compared-to/smartgig/) | £1,300 | £800 a year for the ticketing module. No per-ticket fee is published, and none is confirmed either. |
       | [Wix Events](/compared-to/wix-events/) | £1,396 | A website plan from about £276 a year, plus a 2.5% ticket service fee and 2.1% + 20p Wix Payments processing. |
