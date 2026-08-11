@@ -90,6 +90,15 @@ blocks:
       and environmental standards. Certification is different from being a
       charity, co-operative or community interest company.
 
+      ### BookitBee
+
+      [BookitBee](/compared-to/bookitbee/) is part of LIVE IT, a Certified B
+      Corporation, and runs as LIVE IT Group Ltd, a UK company. It is described
+      as an independent private company with no corporate parent.
+
+      BookitBee charges a percentage booking fee on each paid ticket. Its
+      pricing and data practices are set out on its comparison page.
+
       ### Ticket Tailor
 
       [Ticket Tailor](/compared-to/ticket-tailor/) is independently owned and
@@ -174,6 +183,17 @@ blocks:
         maintained mainly by Dave Earley. Public sources reviewed on 25 July
         2026 did not establish its funding status. Free self-hosting requires
         visible attribution, while removing it requires a commercial licence.
+      - [Revel](/compared-to/revel/) is owner-led and describes itself as free
+        and open source with no ads, no data mining and no shareholders. Its
+        code is MIT licensed, and its hosted service charges a per-ticket
+        commission.
+      - [libreevent](/compared-to/libreevent/) is an owner-led open source
+        project under GPLv3. Its repository has been archived and is no longer
+        updated, so an operator maintains their own copy.
+
+      The
+      [open source ticketing platforms guide](/guide/choosing-a-ticket-platform/open-source-ticketing-platforms/)
+      compares the licences of these projects and the other open source options.
 
   - type: markdown
     content: |

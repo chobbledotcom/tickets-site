@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 164 rendered client pages. A page counts as illustrated
+This audit covers all 166 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 162 | 66 | 96 |
+| Editorial pages in the sitemap | 164 | 66 | 98 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **164** | **66** | **98** |
+| **All rendered pages** | **166** | **66** | **100** |
 
-The 96 editorial pages are the main illustration backlog. The two utility
+The 98 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -151,6 +151,7 @@ pages are listed separately at the end.
 | `guide-pages/flat-rate-ticketing.md` | Comparison graphic: `flat-rate-pricing-curves` | Riverside sells 50, 500 and 5,000 tickets. Compare volume-independent hosting, per-sale fees, ticket-volume subscriptions, booking allowances and feature tiers, with processing separate. | Shows how apparently fixed subscriptions can still change with volume or requirements. |
 | `guide-pages/where-ticketing-money-goes.md` | Comparison graphic: `donation-pledge-breakdown` | Break a £15 ticket into face value, booking fee, service fee, payment processing and the donated share for a pledge-funded plan, beside a flat hosting fee with the ticket charge left whole. | Shows which part of an organiser's cost a donation pledge is taken from. |
 | `guide-pages/event-ticketing-systems-a-coding-agent-can-deploy.md` | Comparison graphic: `published-versus-deployed-source` | Place the reviewed providers on two axes: whether the source is published, and whether the published source is what the hosted service runs. Mark the branding and paid-plugin qualifications recorded on each comparison page, and show what remains to be maintained under each deployment shape. | Separates readable code from deployable code, which is the distinction that decides what an agent can verify. |
+| `guide-pages/open-source-ticketing-platforms.md` | Comparison graphic: `open-source-licence-matrix` | Place the reviewed providers on two axes: licence type (permissive, copyleft, open core, source-available, community-edition-versus-proprietary) and whether the hosted service runs the published code. Mark the per-ticket fee and self-hosting condition from each comparison page, and show Chobble's AGPL-3.0-only product with both managed and self-hosted paths. | Separates what publishing code means legally from what an organiser can run and at what cost. |
 
 ## Comparison Hubs
 
@@ -216,6 +217,7 @@ pages are listed separately at the end.
 | `pages/compared-to/swicket.md` | Comparison graphic: `swicket-alfio-chobble` | A 10,000-person medical congress needs abstracts, CRM, badges and an SLA; Oakfield runs local events. Use three columns for alf.io, Swicket and Chobble. | Clarifies the relationship between the managed service and open-source engine. |
 | `pages/compared-to/fooevents.md` | Diagram: `fooevents-wordpress-stack` | Fernbank already sells mugs in WooCommerce and wants workshop tickets; Riverside wants a standalone ticket site. Show WordPress, WooCommerce, plugins, hosting and gateway beside Chobble's standalone site. | Explains operational dependencies that matter more than a raw feature count. |
 | `pages/compared-to/cal-com.md` | Comparison graphic: `calcom-scheduling-versus-ticketing` | Priya offers 30-minute styling consultations while Fernbank runs one 40-place workshop. Compare personal-calendar availability with fixed event capacity and QR entry; distinguish Cal.com production, Cal.diy and Chobble. | Establishes the scheduling-versus-ticketing boundary before source-code differences. |
+| `pages/compared-to/eventms-pro.md` | Comparison graphic: `eventms-pro-one-time-versus-flat-fee` | Northside wants its own multi-vendor ticket marketplace. Put EventMS Pro's one-time $4,999 to $7,999 closed-source licence, own server and six months of updates in one column, beside Chobble's £50/year open-source managed hosting with encryption at rest, updates included and no server to run. | Shows a large upfront closed licence against a small recurring open one, with ongoing upkeep and updates made visible. |
 
 ## Comparisons: Adjacent Tools
 

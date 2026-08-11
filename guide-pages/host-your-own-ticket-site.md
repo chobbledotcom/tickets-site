@@ -48,10 +48,21 @@ blocks:
       | [alf.io](/compared-to/swicket/) | A self-hosted deployment runs at the domain configured by its operator. | GPL-3.0 software with separate infrastructure and payment costs. Swicket is its managed enterprise service. |
       | [Hi.Events](/compared-to/hi-events/) | Self-hosted deployments can use their production domain and provide an organiser homepage and event pages. | Free use requires visible Hi.Events branding. Removing it requires a commercial licence. |
       | [Pretix Community](/compared-to/pretix/) | The organiser runs the shop front and configures its domain. | The free edition covers core ticketing. Some larger-event features require paid enterprise plugins. |
+      | [Event Schedule](/compared-to/event-schedule/) | A Docker, one-click or manual install runs at its configured domain, with the same public site as the hosted service. | Open source under the Attribution Assurance License, with no per-ticket fee. The operator maintains the server. |
+      | [Revel](/compared-to/revel/) | A self-hosted deployment runs at its configured domain. | MIT licensed and free to self-host. The operator runs an application server, a database and a cache (Django, PostgreSQL and Redis). |
+      | [libreevent](/compared-to/libreevent/) | A self-hosted deployment runs at its configured domain. | GPLv3, but the project is archived, so the operator maintains their own copy of the code and the server. |
+      | [EventPrime](/compared-to/eventprime/) | Event pages run inside the organiser's WordPress site, on its domain. | Free core plugin under GPLv2 or later; paid extensions are sold separately. The operator maintains WordPress and hosting. |
+      | [EventMS Pro](/compared-to/eventms-pro/) | A self-hosted deployment runs at its own domain; the licence covers one deployment. | A closed build sold as a one-time licence ($4,999 early-bird or $7,999), with no per-ticket fee. The operator maintains the server. |
 
       Self-hosting gives the organiser or its technical provider responsibility
       for the deployment. This includes updates, backups, security, email
       delivery, domain settings and availability.
+
+      A technical provider hosting several organisers can use Chobble's
+      [site builder](/features/deployment/), which provisions a separate site
+      for each organiser with its own database and key. The
+      [open source ticketing platforms guide](/guide/choosing-a-ticket-platform/open-source-ticketing-platforms/)
+      compares the licences of the open source options above.
 
   - type: markdown
     dark: true

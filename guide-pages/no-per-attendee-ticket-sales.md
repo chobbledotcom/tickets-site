@@ -53,6 +53,15 @@ blocks:
       | [alf.io](/compared-to/swicket/) | No software fee | Open source software with no per-ticket platform fee. The operator pays for infrastructure and processing. |
       | [Hi.Events](/compared-to/hi-events/) | No platform fee when self-hosted | Free use requires visible "Powered by Hi.Events" branding. A Single Domain commercial licence removes it for $499 or more. |
       | [FooEvents](/compared-to/fooevents/) | Core plugin from $69/year; bundles from $139/year | The WordPress and WooCommerce plugin takes no commission or per-ticket fee. WordPress hosting, the plugin subscription and payment processing remain separate. |
+      | [Event Schedule](/compared-to/event-schedule/) | No licence fee (Attribution Assurance License) | Open source with no per-ticket platform fee. The free hosted plan is capped at 25 paid tickets a month, higher plans are tiered by feature, and the operator maintains the server. |
+      | [Revel](/compared-to/revel/) | No software fee when self-hosted (MIT) | Self-hosting takes no per-ticket fee. The Revel-hosted service charges 3% + €0.50 per paid ticket, and the operator maintains the server. |
+      | [libreevent](/compared-to/libreevent/) | No software fee (GPLv3) | No per-ticket fee. The project is archived, so the operator maintains their own copy of the code and the server. |
+      | [EventPrime](/compared-to/eventprime/) | Free core plugin (GPLv2 or later); paid extensions separate | The WordPress plugin takes no per-ticket fee. WordPress hosting, paid extensions and payment processing remain separate. |
+      | [EventMS Pro](/compared-to/eventms-pro/) | One-time licence of $4,999 (early-bird) or $7,999 | A closed self-hosted build with no per-ticket fee or revenue share, but a large one-time software cost. The operator maintains the server. |
+
+      Several of these publish their source code. The
+      [open source ticketing platforms guide](/guide/choosing-a-ticket-platform/open-source-ticketing-platforms/)
+      compares their licences and how each can be self-hosted.
 
   - type: markdown
     dark: true

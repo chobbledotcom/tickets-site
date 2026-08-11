@@ -55,6 +55,8 @@ blocks:
       | [Chobble Tickets](/features/open-source/) | AGPL-3.0-only, with no proprietary parts and no paid feature tier. | Yes. Managed hosting runs the published code. |
       | [Hi.Events](/compared-to/hi-events/) | AGPL-3.0 with additional attribution terms. | The same product, with conditions. Free use requires visible Hi.Events branding, and removing it requires a commercial licence. |
       | [Pretix](/compared-to/pretix/) | Core ticketing is AGPLv3. Several enterprise plugins are proprietary. | The Community edition covers core ticketing. Some larger-event features need paid plugins. |
+      | [Revel](/compared-to/revel/) | MIT. | Yes. The hosted and self-hosted versions run the same MIT-licensed source. |
+      | [Event Schedule](/compared-to/event-schedule/) | Attribution Assurance License, a permissive licence requiring attribution. | Yes. The self-hosted software is the same product as the hosted service. |
       | [alf.io](/compared-to/swicket/) | GPL-3.0. | alf.io is the engine beneath Swicket. Swicket is a separate managed service, and its service additions are not established as sharing that licence. |
       | [libreevent](/compared-to/libreevent/) | GPL-3.0, with no proprietary parts. | Not applicable. There is no hosted service. Its repository was archived by its owner on 9 June 2026 and is read-only, so an operator maintains their own copy of the code. |
       | [EventPrime](/compared-to/eventprime/) | The free core plugin is GPLv2 or later on WordPress.org. Paid extensions are not published. | Not applicable. The plugin runs on the organiser's own WordPress site and is not sold as a hosted service. The extensions an event may need are closed. |
@@ -81,7 +83,8 @@ blocks:
         applies, and the hosting.
       - **A self-hosted application.** [Pretix Community](/compared-to/pretix/)
         is Python and Django, [Hi.Events](/compared-to/hi-events/) is PHP,
-        Laravel and React, [alf.io](/compared-to/swicket/) is Java and
+        Laravel and React, [Revel](/compared-to/revel/) is Python and Django
+        with PostgreSQL and Redis, [alf.io](/compared-to/swicket/) is Java and
         Spring Boot with PostgreSQL, and [libreevent](/compared-to/libreevent/)
         is Node.js and Vue over MySQL or a JSON file. Each is deployed as a
         server or container and then maintained by its operator. That covers
@@ -121,8 +124,9 @@ blocks:
 
       Before an agent can see whether its change worked, it has to get the
       software running locally. Each project's own development documentation
-      and compose files were read for this section on 30 July 2026, because the
-      answer is not written down anywhere as a comparison.
+      and compose files were read for this section on 30 July 2026, and Revel's
+      on 10 August 2026, because the answer is not written down anywhere as a
+      comparison.
 
       Each provider's `local_dev_runtime`, `local_dev_source` and
       `local_dev_reload` records on its comparison page hold the
@@ -139,6 +143,7 @@ blocks:
       | Chobble Tickets | One Deno process. The database can be held in memory, so nothing runs beside it. | Yes | `deno task dev` restarts the process on each edit, which empties an in-memory database. Static assets build once, so editing those needs the task restarted. |
       | [Pretix](/compared-to/pretix/) | A Python process and a Vite dev server, over a local SQLite database created by migrations. | Yes | The Django server reloads, and Vite hot-reloads the Vue components. Celery workers, where used, are restarted by hand. |
       | [Hi.Events](/compared-to/hi-events/) | Nine containers: a Laravel backend, two frontend variants, nginx, PostgreSQL, Redis, Mailpit, MinIO and a bucket initialiser. | Yes. The backend and frontend directories are bind-mounted into their containers. | The frontend containers run `yarn dev` watchers. The backend is interpreted from the mount. |
+      | [Revel](/compared-to/revel/) | Django on the host through a Makefile, with PostgreSQL, Redis, ClamAV and Mailpit from a Docker Compose file. | Yes. `make run` runs from the checkout. | Django's development server restarts on a file change. |
       | [alf.io](/compared-to/swicket/) | Two containers: the application from the prebuilt `alfio/alf.io` image, and PostgreSQL 10. | No. The compose file mounts no source. | Rebuild the image, or run the application from Gradle with Java 17 against that database. |
       | [libreevent](/compared-to/libreevent/) | Three Node.js processes: the Express server, and a `vite` dev server for each of the two Vue frontends. MySQL is optional, so the JSON database needs nothing running beside them. Setting up first needs `npm i` in each of the three directories. | Yes | The two Vite dev servers hot-reload their frontends. The Express server has no watch task, so it is restarted. |
 
@@ -170,13 +175,14 @@ blocks:
       ## Instructions written for agents
 
       Some projects now commit instructions telling a coding agent how to work
-      in their repository. Five repositories were checked for this page, and
-      two of them carry such a file.
+      in their repository. Six repositories were checked for this page, and
+      three of them carry such a file.
 
       [Hi.Events](/compared-to/hi-events/) publishes `AGENTS.md`, `CLAUDE.md`
-      and `.cursorrules` in its repository root. Chobble Tickets publishes
-      `AGENTS.md`, `CLAUDE.md` and a structure reference, alongside 39 Cucumber
-      feature files describing its behaviour in plain English.
+      and `.cursorrules` in its repository root, and
+      [Revel](/compared-to/revel/) publishes a `CLAUDE.md` file. Chobble Tickets
+      publishes `AGENTS.md`, `CLAUDE.md` and a structure reference, alongside 39
+      Cucumber feature files describing its behaviour in plain English.
 
       [Pretix](/compared-to/pretix/), [alf.io](/compared-to/swicket/) and
       [libreevent](/compared-to/libreevent/) carried none at the time of
