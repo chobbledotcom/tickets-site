@@ -29,7 +29,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
+  established: 2013
+  public_api: not-documented
+  seating_plans: not-reviewed
+  summary: "A platform for Parent-Teacher Associations covering ticketing, fundraising, volunteering and e-commerce."
   notes:
+    established: "The founder built the platform in 2013 for his children's school PTA, and PTA Events Limited was incorporated in 2015."
     per_ticket_platform_fee: "The percentage platform fee applies per transaction; Stripe processing is separate."
     managed_pricing: "The free Starter plan and annual Premium plan carry different per-transaction platform-fee rates."
     white_label: "PTA Events supplies organiser branding, but complete removal of provider branding was not established."

@@ -29,7 +29,13 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: personalised-recommendations
+  established: 2016
+  public_api: not-documented
+  seating_plans: included
+  summary: "A registered charity ticketing platform that donates its booking fee profits to education projects."
   notes:
+    established: "Humanitix's own story page says it set out to change ticketing in 2016 (humanitix.com/us/our-story, checked 11 August 2026)."
+    public_api: "The material reviewed describes Mailchimp, Salesforce and Facebook integrations and does not document an organiser API."
     registration_country: "Humanitix was founded in Australia and is a registered charity; the legal entity and the jurisdiction of its charity registration were not established in the sources reviewed."
     per_ticket_platform_fee: "The published ticket fee includes payment processing."
     managed_pricing: "Humanitix has no recurring subscription and charges for each paid ticket."

@@ -29,7 +29,13 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
+  established: not-reviewed
+  public_api: not-documented
+  seating_plans: included
+  summary: "A UK event management platform where ticketing is one paid module beside trader applications, site plans and transport."
   notes:
+    public_api: "SmartGig names API access as a staff permission and documents no API or outgoing webhooks for an organiser's own systems."
+    seating_plans: "Allocated seating sits inside the Ticketing module, which is priced as its own module."
     registration_country: "SmartGig's terms of service and site footer name Positive Climb LTD, registered in England and Wales, with ICO registration ZC170287."
     ethical_basis: "No ownership, governance or profit structure is described in the sources reviewed."
     per_ticket_platform_fee: "SmartGig's published package catalogue prices the Ticketing module as a subscription and lists no charge per ticket sold, and its finance reporting itemises only estimated Stripe fees. No reviewed source states outright that no per-sale fee applies. The booking fee named in its ticket-type settings is a charge the organiser sets and keeps."

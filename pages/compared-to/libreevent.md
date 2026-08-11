@@ -27,6 +27,10 @@ provider_facts:
   local_dev_reload: manual-restart
   event_marketplace: none
   attendee_cross_marketing: none
+  established: not-reviewed
+  public_api: not-documented
+  seating_plans: included
+  summary: "Free open source ticketing software for your own web hosting, unmaintained since its repository was archived in June 2026."
   notes:
     registration_country: "libreevent is published by Janis Hutz as a personal project. No registered company was named in the sources reviewed on 30 July 2026."
     ethical_basis: "The project describes itself as developed by Janis Hutz and the community, funded by optional donations. Its GitHub repository was archived by its owner on 9 June 2026 and is read-only."

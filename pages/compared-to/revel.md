@@ -32,6 +32,10 @@ provider_facts:
   local_dev_reload: automatic-restart
   event_marketplace: not-documented
   attendee_cross_marketing: none
+  established: not-reviewed
+  public_api: not-reviewed
+  seating_plans: included
+  summary: "An open source community ticketing platform first built for queer, LGBTQ+ and kink groups, with private guest lists."
   notes:
     ethical_basis: "Revel's terms name Biagio Distefano as the operator, an individual based in Vienna, Austria (letsrevel.io/legal/terms). The site describes the project as free and open source with no ads, no data mining and no shareholders. Its pricing and invoicing are in euros with EU VAT handling. Checked 10 August 2026."
     per_ticket_platform_fee: "Revel's hosted service charges 3% + €0.50 on each paid ticket it processes. Free events, and events where the organiser handles payment, carry no Revel charge. Stripe processing is separate."

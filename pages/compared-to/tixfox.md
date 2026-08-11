@@ -29,7 +29,13 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: none
+  established: 2024
+  public_api: not-documented
+  seating_plans: not-offered
+  summary: "A US ticketing platform charging a flat £0.38 per paid ticket with no subscription."
   notes:
+    established: "The TixFox check-in app first appeared on the Apple App Store in September 2024, the earliest public release date found in this review."
+    seating_plans: "TixFox's own comparison pages list reserved seating as coming soon."
     registration_country: "TixFox's terms of service describe TixFox LLC as a limited liability company organised under the laws of the State of Delaware, United States. Its check-in app is published on the Apple App Store by HahuCloud LLC."
     per_ticket_platform_fee: "£0.38 per paid ticket, or £0.30 for tickets priced under £5, with the pricing page's currency selector set to pounds; US$0.39 and US$0.30 under US$5 in dollars. Free tickets carry no fee."
     managed_pricing: "TixFox charges for each paid ticket and has no subscription."

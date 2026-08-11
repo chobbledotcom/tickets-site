@@ -29,7 +29,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: optional-network
   attendee_cross_marketing: provider-content-and-events
+  established: 2008
+  public_api: higher-tier
+  seating_plans: not-reviewed
+  summary: "A volunteer sign-up sheet platform with a ticketing product, priced per ticket plus subscription tiers."
   notes:
+    public_api: "SignUpGenius offers an API for developers, with access limited to higher tiers."
     registration_country: "The SignUpGenius privacy policy names SignUpGenius, Inc. with an address at 1213 W. Morehead Street, Charlotte, North Carolina, and the site footer reads '©2026 SignUpGenius Inc.'. Checked 8 August 2026."
     ethical_basis: "SignUpGenius, Inc. is a US for-profit corporation with a named executive team on its About page. The site does not describe its ownership structure, and no charity, co-operative, B Corp or community-interest status is claimed."
     per_ticket_platform_fee: "SignUpGenius Payments, powered by Stripe, charges a standard processing fee of 5% plus $0.50 per transaction when organisers collect money through sign-ups, with the same fee across all plans. Organisers can absorb the fee or pass it to participants. SignUpGenius charges no separate per-ticket platform commission on event ticketing. Checked 8 August 2026."

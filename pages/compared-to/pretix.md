@@ -33,7 +33,12 @@ provider_facts:
   local_dev_reload: hot-reload
   event_marketplace: none
   attendee_cross_marketing: not-documented
+  established: 2014
+  public_api: included
+  seating_plans: higher-tier
+  summary: "An open source ticketing platform from Germany built for conferences and enterprise, hosted or self-hosted."
   notes:
+    seating_plans: "Seating plans are an enterprise plugin, licensed from €499 a year."
     local_dev_runtime: "Python with development headers plus Node.js and a virtual environment; Django migrations create a local SQLite database. manage.py runserver reloads and starts a Vite dev server for the Vue components. Celery workers are restarted by hand. Checked 30 July 2026."
     agent_instructions: "No AGENTS.md, CLAUDE.md or .cursorrules in the repository root. Checked 30 July 2026."
     registration_country: "pretix is developed from Heidelberg, Germany; no registered legal entity was established in the sources reviewed."

@@ -1,0 +1,111 @@
+[
+  {
+    "key": "open-source",
+    "label": "Open source",
+    "description": "The product's source code is published under an open source licence, at least for a core edition.",
+    "field": "source_code",
+    "values": ["open-source", "open-source-core", "open-source-with-additional-terms"]
+  },
+  {
+    "key": "self-hosting",
+    "label": "Self-hosting",
+    "description": "At least one edition of the product can run on servers the organiser controls.",
+    "field": "self_hosting",
+    "values": [
+      "same-product",
+      "same-product-with-conditions",
+      "community-edition",
+      "plugin-on-self-hosted-platform",
+      "source-available-internal-use"
+    ]
+  },
+  {
+    "key": "no-per-ticket-fee",
+    "label": "No per-ticket platform fee",
+    "description": "The platform charges no mandatory fee of its own on each ticket sold. A voluntary contribution the organiser can decline counts as none, and payment processing is separate.",
+    "field": "per_ticket_platform_fee",
+    "values": ["none", "voluntary-contributions"]
+  },
+  {
+    "key": "no-attendee-marketing",
+    "label": "No marketing to attendees",
+    "description": "The review records no platform marketing, adverts or event recommendations sent to the organiser's attendees.",
+    "field": "attendee_cross_marketing",
+    "values": ["none"]
+  },
+  {
+    "key": "uk-based",
+    "label": "UK based",
+    "description": "The review places the provider's registration or operating base in the United Kingdom.",
+    "field": "registration_country",
+    "values": ["united-kingdom"]
+  },
+  {
+    "key": "ethical-structure",
+    "label": "Charity, co-op, CIC or B Corp",
+    "description": "The review records a charity registration, a community interest company, a certified B Corporation or a self-described worker co-operative.",
+    "field": "ethical_basis",
+    "values": [
+      "certified-b-corporation",
+      "community-interest-company",
+      "registered-charity",
+      "self-described-worker-co-operative"
+    ]
+  },
+  {
+    "key": "white-label",
+    "label": "White label",
+    "description": "The organiser's branding can fully replace the platform's, whether included, on a higher tier, as a paid add-on or by self-hosting.",
+    "field": "white_label",
+    "values": ["included", "higher-tier", "paid-add-on", "self-hosted"]
+  },
+  {
+    "key": "custom-domain",
+    "label": "Custom domain",
+    "description": "Ticket pages can run on a domain the organiser chooses, including via the platform the product installs into.",
+    "field": "custom_domain",
+    "values": [
+      "included",
+      "by-arrangement",
+      "higher-tier",
+      "paid-add-on",
+      "self-hosted",
+      "host-platform-dependent"
+    ]
+  },
+  {
+    "key": "public-website",
+    "label": "Website builder",
+    "description": "The product includes a public website with pages the organiser can compose, not only event or booking pages.",
+    "field": "public_website",
+    "values": ["built-in-full", "platform-full"]
+  },
+  {
+    "key": "public-api",
+    "label": "API",
+    "description": "The review records a documented API, whether on every plan, on a higher tier or read-only.",
+    "field": "public_api",
+    "values": ["included", "higher-tier", "read-only"]
+  },
+  {
+    "key": "seating-plans",
+    "label": "Seating plans",
+    "description": "Attendees can pick seats from a seat map, whether included, on a higher tier or as a paid option.",
+    "field": "seating_plans",
+    "values": ["included", "higher-tier", "paid-add-on"]
+  },
+  {
+    "key": "established",
+    "label": "Running for 5+ years",
+    "description": "The start year documented in the review is at least five years ago.",
+    "field": "established",
+    "min_years": 5
+  },
+  {
+    "key": "event-marketplace",
+    "label": "Event marketplace",
+    "description": "Events can be listed in a public directory the provider runs, which can bring attendees the organiser did not reach.",
+    "field": "event_marketplace",
+    "values": ["built-in", "optional-network"]
+  }
+]

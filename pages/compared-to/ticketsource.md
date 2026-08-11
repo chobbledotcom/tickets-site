@@ -30,7 +30,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: none
+  established: 2004
+  public_api: included
+  seating_plans: included
+  summary: "A UK ticketing platform running from Penarth in Wales since 2004, used by amateur theatre, schools and village halls."
   notes:
+    public_api: "The shared feature list records an API for reading and syncing event data."
     registration_country: "TicketSource Limited is registered in England and Wales, company number 05043301, with offices in Penarth. Its privacy policy also records a United States address and says data is stored on servers in the United Kingdom."
     ethical_basis: "TicketSource is a private limited company founded in 2004. No ownership or investor structure was documented in the sources reviewed."
     per_ticket_platform_fee: "The booking fee is charged per paid booking rather than per ticket, at 7% plus VAT with TicketSource payment processing, or 4.5% plus VAT with the organiser's own Stripe account. A minimum of £0.25 plus VAT applies per paid booking."

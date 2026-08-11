@@ -29,6 +29,10 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
+  established: not-reviewed
+  public_api: not-documented
+  seating_plans: included
+  summary: "A German ticketing system that is free for organisers because the buyer pays €0.90 per ticket by default."
   notes:
     registration_country: "QRTicket is published by Franz Schuster, named in the Impressum as the responsible party and in the Datenschutzerklärung as the party responsible for data protection. The Impressum lists no company name or registration number beyond the operator's name and a German phone number."
     ethical_basis: "The Impressum names a single person as responsible for the service, with no company, registration number or ownership structure described. Reviewed 8 August 2026."

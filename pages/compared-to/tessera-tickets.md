@@ -29,7 +29,13 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: none
   attendee_cross_marketing: none
+  established: not-reviewed
+  public_api: included
+  seating_plans: paid-add-on
+  summary: "A US ticketing platform for music venues, theatres and comedy clubs, built around WordPress with volume-tiered subscriptions."
   notes:
+    established: "Tecture, the agency behind Tessera Tickets, was founded in 2002; no launch year for the product itself was recorded."
+    seating_plans: "Seating chart setup is quoted at $500 to $1,000 on top of the subscription."
     registration_country: "Tessera Tickets is built by Tecture, based in Chicago, Illinois; no registered legal entity was established in the sources reviewed."
     managed_pricing: "Monthly subscription tiers rise with annual ticket volume."
     white_label: "Custom HTML and CSS are available, but complete removal of provider branding was not established."

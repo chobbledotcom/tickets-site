@@ -130,6 +130,15 @@ their comparison page. Store Chobble's corresponding record in
 `_data/chobble_provider_facts.json`. Use qualified enum values and notes rather
 than booleans, and use `not-reviewed` or `not-documented` instead of guessing.
 
+Each record also carries a one-sentence `summary` for the provider directory
+at `/compared-to/providers/`, and `established`, which is either the start
+year documented in the review or a qualified value. The directory's filter
+chips are defined in `_data/provider_filters.json`, which maps each chip to
+the enum values that satisfy it; `_lib/provider-directory.js` applies that
+mapping, and `test/provider-directory.test.js` keeps it honest. A fact
+recorded as `not-reviewed` or `not-documented` matches no filter, so the
+directory only claims what a review records.
+
 ## Content Style Guide
 
 This guide applies to all text on the site: headings, body copy, button labels,

@@ -29,7 +29,13 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
+  established: 2016
+  public_api: included
+  seating_plans: included
+  summary: "The ticketing add-on inside the Wix website builder, charging 2.5% per ticket on top of a paid Wix plan."
   notes:
+    established: "Wix's SEC annual report for 2017 says Wix Events launched in 2016; Wix.com itself was founded in 2006 (SEC 20-F filing, checked 11 August 2026)."
+    public_api: "The Wix developer API covers events but requires building a custom Wix app."
     registration_country: "Wix.com Ltd. was founded in Tel Aviv, Israel and is listed on NASDAQ; its country of incorporation was not established in the sources reviewed."
     per_ticket_platform_fee: "The ticket service fee is separate from Wix Payments processing."
     managed_pricing: "Ticket sales require a paid Wix Business and eCommerce website plan, and Wix also charges a percentage on each paid ticket."

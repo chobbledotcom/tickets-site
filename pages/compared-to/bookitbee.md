@@ -29,6 +29,10 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: organiser-controlled
+  established: 2013
+  public_api: not-documented
+  seating_plans: included
+  summary: "A UK ticketing platform charging from 3.5% per paid ticket, run by LIVE IT, a Certified B Corporation."
   notes:
     registration_country: "BookitBee operates under LIVE IT Group Ltd, registered in England and Wales as company 08432364 at 7 Bell Yard, London WC2A 2JR. The BookitBee site footer names this company. Checked 8 August 2026."
     ethical_basis: "The BookitBee homepage states that BookitBee is part of LIVE IT, a Certified B Corporation. The company was co-founded by Kenton Ward and Frank Di Mauro, raised investment from several funds, and is described as an independent private company with no corporate parent."

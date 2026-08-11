@@ -29,6 +29,10 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: provider-content-and-events
+  established: 2005
+  public_api: not-documented
+  seating_plans: not-reviewed
+  summary: "A UK ticketing and promotion platform for student events and nightlife, charging 10% per ticket with a £1 minimum."
   notes:
     registration_country: "Fatsoma Limited is registered in England and Wales, company number 05495880, with its registered office at The Hive, 47-49 Lever Street, Manchester, per its terms and conditions. Checked 8 August 2026."
     ethical_basis: "Fatsoma Limited is a private company limited by shares. Neither fatsoma.com nor ticketing.fatsoma.com describes its ownership structure, so no ownership category could be verified."

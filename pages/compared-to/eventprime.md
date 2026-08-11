@@ -30,7 +30,12 @@ provider_facts:
   local_dev_reload: not-documented
   event_marketplace: none
   attendee_cross_marketing: none
+  established: not-reviewed
+  public_api: not-reviewed
+  seating_plans: higher-tier
+  summary: "A WordPress plugin adding an events calendar, bookings and ticketing to an existing site, with paid extension bundles."
   notes:
+    seating_plans: "The Live Seating extension sits in the Professional bundle and the seat map builder in the Business bundle, and both sell as standalone extensions."
     local_dev_runtime: "Runs inside WordPress, which needs PHP and a MySQL or MariaDB database. No development setup is published for the plugin. Checked 30 July 2026."
     registration_country: "EventPrime is published by Metagauss Inc. The terms and conditions state that the agreement is governed by the law of the Province of Ontario, Canada. No registered company address was documented in the sources reviewed."
     per_ticket_platform_fee: "EventPrime takes no share of ticket sales. Plugin licences, WordPress hosting and payment processing remain separate costs."

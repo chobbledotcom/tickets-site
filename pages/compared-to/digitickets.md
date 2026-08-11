@@ -27,7 +27,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
+  established: 2009
+  public_api: not-documented
+  seating_plans: not-reviewed
+  summary: "A managed ticketing platform for visitor attractions with tills, kiosks and staff scheduling, priced by quote."
   notes:
+    established: "Digital Ticketing Systems Ltd was incorporated on 15 October 2009, and the company says its work began in 2010."
     registration_country: "DigiTickets is a trading name of Digital Ticketing Systems Ltd, registered in England and Wales as company 07044584, incorporated 15 October 2009, with a registered office in Torquay and its team based in Exeter."
     ethical_basis: "Digital Ticketing Systems Ltd is a private limited company. No ownership, investor or governance structure beyond the Companies House record was documented in the sources reviewed."
     per_ticket_platform_fee: "DigiTickets' FAQ describes the charge as a fixed price per transaction, a fixed price per ticket, or a percentage of the value of ticket sales, with the cheapest of the three worked out over the organiser's first three months of sales. No rates are published. ProPoint point of sale tills are charged separately as a monthly licence per till."

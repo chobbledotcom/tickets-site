@@ -29,7 +29,13 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: none
+  established: 2013
+  public_api: not-documented
+  seating_plans: included
+  summary: "A UK ticketing platform used by country shows, festivals and community groups, paid for by buyer booking fees."
   notes:
+    established: "Ticketebo has operated in Australia since 2013 and in the UK since January 2020."
+    seating_plans: "The review records that seating plan setup may carry a one-off charge."
     registration_country: "Ticketebo Ltd is registered in England and Wales, company number 12383730, based at 61 Mosley Street, Manchester. The platform has operated in Australia since 2013 and in the UK since January 2020."
     ethical_basis: "Ticketebo is a certified B Corporation. No ownership or investor structure beyond the Companies House record was documented in the sources reviewed."
     per_ticket_platform_fee: "The booking fee is 4.95% (incl. VAT) of the total transaction value, with a minimum of 75p (incl. VAT) per transaction. The fee is charged per order, not per ticket. Card processing is included. The organiser can pass the fee to buyers or absorb it into the ticket price. Checked 8 August 2026."

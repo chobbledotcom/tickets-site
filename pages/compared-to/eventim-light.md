@@ -29,7 +29,13 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: optional-network
   attendee_cross_marketing: provider-events
+  established: 2015
+  public_api: not-offered
+  seating_plans: included
+  summary: "The self-service ticketing platform from CTS EVENTIM, charging 8% per ticket in the UK with payment processing included."
   notes:
+    established: "CTS EVENTIM's Annual Report 2015 says the EVENTIM.Light product was created in 2015; the parent company itself was founded in 1989 (eventim.co.uk annual reports, checked 11 August 2026)."
+    seating_plans: "The seating plan editor cannot change a plan after the event is published."
     registration_country: "EVENTIM.Light is operated in the UK by EVENTIM UK Ltd; its parent, CTS EVENTIM, is headquartered in Bremen, Germany."
     per_ticket_platform_fee: "The 8% ticket fee includes payment processing."
     managed_pricing: "EVENTIM.Light charges for each paid ticket and has no recurring subscription."

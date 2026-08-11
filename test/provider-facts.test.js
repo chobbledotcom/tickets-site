@@ -8,8 +8,9 @@ const EXCLUDED_PAGES = new Set([
   "compare-all.md",
   "compared-to.md",
   "pen-and-paper.md",
+  "providers.md",
 ]);
-const FACT_FIELDS = [
+const ENUM_FACT_FIELDS = [
   "ethical_basis",
   "per_ticket_platform_fee",
   "managed_pricing",
@@ -25,12 +26,16 @@ const FACT_FIELDS = [
   "event_marketplace",
   "attendee_cross_marketing",
   "registration_country",
+  "public_api",
+  "seating_plans",
 ];
+const FACT_FIELDS = [...ENUM_FACT_FIELDS, "established"];
 const CORE_FIELDS = [
   "name",
   "kind",
   "calculator_keys",
   "last_reviewed",
+  "summary",
   ...FACT_FIELDS,
 ];
 const ENUMS = {
@@ -138,6 +143,7 @@ const ENUMS = {
     "not-documented",
     "not-reviewed",
     "optional-network",
+    "per-deployment",
   ]),
   registration_country: new Set([
     "australia",
@@ -191,6 +197,22 @@ const ENUMS = {
     "provider-content-and-events",
     "provider-events",
   ]),
+  public_api: new Set([
+    "higher-tier",
+    "included",
+    "not-documented",
+    "not-offered",
+    "not-reviewed",
+    "read-only",
+  ]),
+  seating_plans: new Set([
+    "higher-tier",
+    "included",
+    "not-documented",
+    "not-offered",
+    "not-reviewed",
+    "paid-add-on",
+  ]),
 };
 
 const comparisonFileNames = readdirSync(COMPARISON_DIRECTORY)
@@ -234,7 +256,7 @@ const validateShape = (record, label, extraFields = []) => {
 };
 
 const validateEnums = (record, label) => {
-  for (const field of FACT_FIELDS) {
+  for (const field of ENUM_FACT_FIELDS) {
     const values = field === "ethical_basis" ? record[field] : [record[field]];
     for (const value of values) {
       expect(typeof value, `${label}.${field}`).toBe("string");
@@ -284,6 +306,28 @@ describe("provider facts schema", () => {
       } else {
         expect(record.last_reviewed, label).toMatch(/^\d{4}-\d{2}-\d{2}$/);
       }
+    }
+  });
+
+  test("records established as a plausible year or a qualified value", () => {
+    for (const [label, record] of allRecords) {
+      const value = record.established;
+      if (typeof value === "number") {
+        expect(Number.isInteger(value), label).toBe(true);
+        expect(value, label).toBeGreaterThanOrEqual(1900);
+        expect(value, label).toBeLessThanOrEqual(new Date().getFullYear());
+      } else {
+        expect(["not-documented", "not-reviewed"], label).toContain(value);
+      }
+    }
+  });
+
+  test("keeps every summary present, trimmed and short", () => {
+    for (const [label, record] of allRecords) {
+      expect(typeof record.summary, label).toBe("string");
+      expect(record.summary, label).toBe(record.summary.trim());
+      expect(record.summary.length, label).toBeGreaterThanOrEqual(20);
+      expect(record.summary.length, label).toBeLessThanOrEqual(200);
     }
   });
 
@@ -355,5 +399,16 @@ describe("provider facts schema", () => {
     expect(eventbrite.local_dev_runtime).not.toBe(false);
     expect(dandelion.custom_domain).toBe("not-documented");
     expect(dandelion.custom_domain).not.toBe(false);
+  });
+
+  test("keeps the documented seating and API distinctions", () => {
+    expect(chobble.seating_plans).toBe("not-offered");
+    expect(chobble.public_api).toBe("included");
+    expect(recordsByName.get("Eventbrite").seating_plans).toBe("included");
+    expect(recordsByName.get("Pretix").seating_plans).toBe("higher-tier");
+    expect(recordsByName.get("Pretix").public_api).toBe("included");
+    expect(recordsByName.get("TixFox").seating_plans).toBe("not-offered");
+    expect(recordsByName.get("DICE").public_api).toBe("read-only");
+    expect(recordsByName.get("TicketSource").established).toBe(2004);
   });
 });

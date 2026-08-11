@@ -29,7 +29,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: built-in
   attendee_cross_marketing: provider-content-and-events
+  established: 2006
+  public_api: included
+  seating_plans: included
+  summary: "A large ticketing marketplace charging 6.95% + £0.59 per paid ticket in the UK, with built-in event discovery."
   notes:
+    established: "Eventbrite was founded in 2006 in San Francisco (Wikipedia, checked 11 August 2026)."
     registration_country: "Eventbrite, Inc. is a Delaware corporation with its principal place of business at 95 Third Street, San Francisco, California. Its privacy policy names UK and Irish subsidiaries: Eventbrite UK Limited (Bristol) and Eventbrite Operations (IE) Limited (Cork). Checked 8 August 2026."
     ethical_basis: "Eventbrite is a for-profit Delaware corporation, and its privacy policy names Bending Spoons S.p.A. as its parent company. No charity, co-operative, community-interest or B Corp structure is claimed on the pages checked."
     per_ticket_platform_fee: "For the United Kingdom, Eventbrite charges 6.95% + £0.59 per sold ticket with no separate payment-processing fee; for the United States it is 3.7% + $1.79 per ticket plus 2.9% of the order. Free events carry no fees. Checked 8 August 2026."

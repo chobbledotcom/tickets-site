@@ -18,7 +18,7 @@ provider_facts:
     - not-documented
   per_ticket_platform_fee: per-transaction-percentage-plus-fixed
   managed_pricing: per-sale
-  white_label: higher-tier
+  white_label: partial
   custom_domain: not-offered
   public_website: organiser-microsite
   self_hosting: not-offered
@@ -29,7 +29,12 @@ provider_facts:
   local_dev_reload: not-reviewed
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
+  established: 2013
+  public_api: not-offered
+  seating_plans: not-reviewed
+  summary: "A US payment collection platform for groups that added event ticketing, priced per transaction plus paid plans."
   notes:
+    established: "The idea started in 2012 and Cheddar Up launched in 2013; ticketing was added in 2023."
     registration_country: "Cheddar Up was founded in Denver, Colorado; the registered legal entity is not recorded here."
     per_ticket_platform_fee: "The convenience fee is per transaction and includes Stripe payment processing."
     managed_pricing: "QR-code ticketing requires the Team subscription, and a convenience fee also applies to each transaction."

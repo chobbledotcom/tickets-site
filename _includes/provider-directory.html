@@ -1,0 +1,46 @@
+<div class="provider-directory" data-provider-directory>
+  <fieldset class="provider-directory__filters" hidden data-pd-fieldset>
+    <legend>Show only platforms with</legend>
+    <ul class="provider-directory__chips" role="list">
+      {%- for filter in provider_filters %}
+      <li>
+        <label class="provider-directory__chip">
+          <input type="checkbox" value="{{ filter.key }}" data-pd-filter>
+          <span>{{ filter.label }}</span>
+        </label>
+      </li>
+      {%- endfor %}
+    </ul>
+  </fieldset>
+  <p class="provider-directory__count" data-pd-count aria-live="polite">
+    Showing all {{ provider_directory | size }} platforms.
+  </p>
+  <ul class="provider-directory__list" role="list">
+    {%- for provider in provider_directory %}
+    <li
+      class="provider-directory__item{% if provider.highlight %} provider-directory__item--chobble{% endif %}"
+      data-pd-item
+      data-attributes="{{ provider.attributes | join: ' ' }}"
+    >
+      <div class="provider-directory__clip">
+        <article class="provider-directory__card">
+          <h3 class="provider-directory__name">
+            <a href="{{ provider.url }}">{{ provider.name }}</a>
+          </h3>
+          <p class="provider-directory__summary">{{ provider.summary }}</p>
+        </article>
+      </div>
+    </li>
+    {%- endfor %}
+  </ul>
+  <details class="provider-directory__definitions">
+    <summary>What each filter means</summary>
+    <dl>
+      {%- for filter in provider_filters %}
+      <dt>{{ filter.label }}</dt>
+      <dd>{{ filter.description }}</dd>
+      {%- endfor %}
+    </dl>
+  </details>
+</div>
+<script src="/assets/js/provider-directory.js"></script>
