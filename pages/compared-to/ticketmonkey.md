@@ -218,17 +218,18 @@ blocks:
 
       With Chobble Tickets, attendee data is encrypted at rest and stays under
       your control, where only your private key can decrypt it. The entire
-      platform is open source under AGPLv3, so you can self-host it without
-      depending on Chobble as a company. If Chobble Tickets stopped operating
-      tomorrow, you could run the same code on your own server.
+      platform is open source under AGPLv3, so you can run the same code on
+      your own server at any time without depending on Chobble as a company.
   - type: markdown
     content: |
       ## When Ticket Monkey might be the better choice
 
       - You want a low per-ticket fee and plan to pass it to buyers, so your
         own platform cost is close to nothing
-      - You prefer paying per ticket over a flat annual fee, and sell fewer
-        than about 200 paid tickets a year
+      - You prefer paying per ticket over a flat fee, and sell fewer than about
+        200 paid tickets a year against Chobble's £50 annual plan (about 100
+        against the £25 community rate, or about 240 against the £5 monthly
+        plan)
       - You need reserved seating with a visual seat map
       - You want payment plans so buyers can pay in instalments
       - You want a box office and point-of-sale till for in-person sales
@@ -246,8 +247,8 @@ blocks:
       - You want predictable, flat-rate pricing with no per-ticket platform
         fees, whatever the volume
       - You run large free events, where Ticket Monkey charges 25p beyond 500
-        free tickets per event or 2,500 per year and Chobble Tickets charges
-        nothing
+        free tickets per event or 2,500 per year and Chobble Tickets adds no
+        per-ticket charge on top of its hosting fee
       - Privacy and encryption matter to you, and you want attendee data
         readable only with your own key
       - You're a charity, community group, artist or musician (£25/year on the
