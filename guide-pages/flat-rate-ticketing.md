@@ -70,12 +70,26 @@ blocks:
       The complete product is open source, with no hosted-only feature tier.
 
       Other self-installed products also avoid a per-ticket fee, but use
-      different models. [FooEvents](/compared-to/fooevents/) requires WordPress,
-      WooCommerce and a commercial plugin subscription.
-      [Pretix Community](/compared-to/pretix/) is free for core ticketing, with
-      proprietary enterprise plugins sold separately.
-      [Hi.Events](/compared-to/hi-events/) requires visible attribution for free
-      self-hosting or a commercial licence to remove it.
+      different models:
+
+      - [Event Schedule](/compared-to/event-schedule/) is open source with no
+        per-ticket fee; its hosted plans are tiered by feature.
+      - [Revel](/compared-to/revel/) is MIT licensed and free to self-host,
+        while the Revel-hosted service charges 3% + €0.50 per paid ticket.
+      - [Pretix Community](/compared-to/pretix/) is free for core ticketing,
+        with proprietary enterprise plugins sold separately.
+      - [Hi.Events](/compared-to/hi-events/) requires visible attribution for
+        free self-hosting, or a commercial licence to remove it.
+      - [libreevent](/compared-to/libreevent/) is open source but archived, so
+        an operator maintains their own copy of the code.
+      - [FooEvents](/compared-to/fooevents/) requires WordPress, WooCommerce and
+        a commercial plugin subscription.
+      - [EventMS Pro](/compared-to/eventms-pro/) takes no per-ticket fee but is
+        a closed self-hosted build sold as a large one-time licence.
+
+      The
+      [open source ticketing platforms guide](/guide/choosing-a-ticket-platform/open-source-ticketing-platforms/)
+      compares the licences of the open source options above.
   - type: markdown
     content: |
       ## Portability and interoperability
