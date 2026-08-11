@@ -51,12 +51,12 @@ blocks:
       | [Hi.Events](/compared-to/hi-events/) | AGPL-3.0 with attribution terms | Yes | Free self-hosting shows a "Powered by" link; a commercial licence removes it. The hosted plan charges per paid ticket. |
       | [Pretix](/compared-to/pretix/) | AGPLv3 core | Core yes; enterprise plugins proprietary | The Community edition is free to self-host; some enterprise features are sold as closed plugins. The hosted plan charges a percentage per ticket. |
       | [Revel](/compared-to/revel/) | MIT (permissive) | Yes, the same product | A permissive licence lets anyone use, change, rebrand or resell the code. The hosted service charges 3% + €0.50 per paid ticket. |
-      | [Event Schedule](/compared-to/event-schedule/) | Attribution Assurance License (permissive) | Yes, the same product | No per-ticket platform fee; hosted plans are tiered by feature. |
+      | [Event Schedule](/compared-to/event-schedule/) | Attribution Assurance License (permissive) | Yes, the same product | No per-ticket platform fee; the free plan is capped at 25 paid tickets a month, and higher plans are tiered by feature. |
       | [libreevent](/compared-to/libreevent/) | GPLv3 | Self-hosted only | The project is archived and no longer updated, so you maintain the code and server yourself. |
       | [EventPrime](/compared-to/eventprime/) | GPLv2 or later (core plugin) | Runs on your WordPress site | An open-core plugin for WordPress; paid extensions are sold separately and not published. It needs a WordPress site to run. |
       | [Swicket with alf.io](/compared-to/swicket/) | alf.io is GPLv3 | Engine yes; Swicket is a separate managed service | alf.io is the open source engine; Swicket is a hosted service built on it. |
       | [Cal.com](/compared-to/cal-com/) | MIT community edition (Cal.diy) | Production is proprietary | The production code became proprietary in April 2026; the MIT-licensed Cal.diy is a separate community version. It is a scheduling tool rather than event ticketing. |
-      | [Dandelion](/compared-to/dandelion/) | Source-available | Hosted service; code opens on a delay | The code is published to read, but an open licence applies only after a delay, so it is not open source at release. |
+      | [Dandelion](/compared-to/dandelion/) | Source-available | Not documented | The code is published to read, but an open licence applies only after a delay, so it is not open source at release. |
 
       A published repository answers only the first column. The other columns
       decide what you can run and what it costs.
@@ -159,8 +159,9 @@ blocks:
         and
         [no per-attendee fees](/guide/choosing-a-ticket-platform/no-per-attendee-ticket-sales/)
         guides compare those charges.
-      - **Who runs the server?** Self-hosting is free of a licence fee but still
-        needs a server and upkeep. The
+      - **Who runs the server?** Self-hosting the open-source core carries no
+        licence fee, though some projects charge to remove branding or for paid
+        add-ons, and it still needs a server and upkeep. The
         [host your own ticket site guide](/guide/choosing-a-ticket-platform/host-your-own-ticket-site/)
         covers what that involves.
 

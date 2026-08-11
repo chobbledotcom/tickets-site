@@ -73,7 +73,8 @@ blocks:
       different models:
 
       - [Event Schedule](/compared-to/event-schedule/) is open source with no
-        per-ticket fee; its hosted plans are tiered by feature.
+        per-ticket fee; its free hosted plan is capped at 25 paid tickets a
+        month, and higher plans are tiered by feature.
       - [Revel](/compared-to/revel/) is MIT licensed and free to self-host,
         while the Revel-hosted service charges 3% + €0.50 per paid ticket.
       - [Pretix Community](/compared-to/pretix/) is free for core ticketing,
