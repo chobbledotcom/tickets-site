@@ -36,19 +36,23 @@ blocks:
       across ticketing, event production, festival, conference, theatre,
       museum, trade show, clubbing and small business subreddits during 2026:
       **ichar10**, **King-RD9**, **Admirable_Barber2632**, **AdOpening5010**
-      and **InternalAd8940**. Weezevent is recommended in almost every post
-      they have made. The rest of this section is what a reader can check by
-      opening the threads.
+      and **Internal-Ad-8940**. Weezevent is recommended in almost every post
+      they have made.
+
+      Reddit has since banned r/TicketingMasters, where much of this happened.
+      Every link below opens an archived record of the post or comment rather
+      than Reddit, so the rest of this section is still what a reader can
+      check.
   - type: markdown
     content: |
       ### The same sentence on three threads
 
       On 1 June 2026 AdOpening5010 left a comment opening with the same
       sentence on the
-      [TicketSource](https://old.reddit.com/r/TicketingMasters/comments/1thpw3p/best_potential_alternative_to_ticketsource/op3vdij/),
-      [TicketSpice](https://old.reddit.com/r/TicketingMasters/comments/1tjn05k/ticketspice_alternative/op3v9lb/)
+      [TicketSource](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=op3vdij),
+      [TicketSpice](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=op3v9lb)
       and
-      [Ticketmaster](https://old.reddit.com/r/TicketingMasters/comments/1tbyf5i/best_ticketmaster_alternative/op3v5ax/)
+      [Ticketmaster](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=op3v5ax)
       alternative threads: "for me is Weezevent. they cover all the points you
       mentioned above and for a fair price". A different list of Weezevent
       features follows it each time.
@@ -57,20 +61,20 @@ blocks:
       ### Questions and answers from the same group
 
       Most of the activity is in one subreddit, r/TicketingMasters, where some
-      of the accounts ask and others answer. InternalAd8940 posted
-      ["Best Ticketmaster alternative ?"](https://old.reddit.com/r/TicketingMasters/comments/1tbyf5i/best_ticketmaster_alternative/)
+      of the accounts ask and others answer. Internal-Ad-8940 posted
+      ["Best Ticketmaster alternative ?"](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1tbyf5i)
       and
-      ["TicketSpice Alternative?"](https://old.reddit.com/r/TicketingMasters/comments/1tjn05k/ticketspice_alternative/),
+      ["TicketSpice Alternative?"](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1tjn05k),
       both answered by AdOpening5010 with the comment above. ichar10 and
       King-RD9 write the longer form, such as
-      ["Eventbrite Alternative - 2026"](https://www.reddit.com/r/TicketingMasters/comments/1t5ci1u/eventbrite_alternative_2026/)
+      ["Eventbrite Alternative - 2026"](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1t5ci1u)
       and
-      ["Universe Ticketing: Best alternative?"](https://www.reddit.com/r/TicketingMasters/comments/1thqwjc/universe_ticketing_best_alternative/),
+      ["Universe Ticketing: Best alternative?"](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1thqwjc),
       which opens "Our next alternative episode is".
 
       The accounts endorse each other. Admirable_Barber2632 replied to
       ichar10's article with
-      ["thanks for the research, I also use weezevent and I am happy about it so far"](https://old.reddit.com/r/TicketingMasters/comments/1t5ci1u/eventbrite_alternative_2026/oljfvdi/),
+      ["thanks for the research, I also use weezevent and I am happy about it so far"](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=oljfvdi),
       and ichar10 and King-RD9 agreed with one another under the Universe
       post.
   - type: markdown
@@ -78,25 +82,25 @@ blocks:
       ### Accounts that contradict themselves
 
       On 25 February 2026 Admirable_Barber2632 said of Weezevent
-      ["Been using that for my different gatherings"](https://old.reddit.com/r/EventProduction/comments/1rcirew/event_registration_form_suggestions/o7an8k6/).
+      ["Been using that for my different gatherings"](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=o7an8k6).
       On 10 March it said it had
-      ["registered to the Weezevent platform yesterday"](https://old.reddit.com/r/conferences/comments/1rmb5ra/event_ticketing_solution_for_conference_any_advice/o9p1q0c/)
+      ["registered to the Weezevent platform yesterday"](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=o9p1q0c)
       and needed to test it with a fake event, and on 12 March that it was
-      ["investigating Weezevent for my own event right now"](https://old.reddit.com/r/tradeshows/comments/1rr5zou/best_ticketing_option_for_trade_showsexhibitions/oa0a568/).
+      ["investigating Weezevent for my own event right now"](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=oa0a568).
 
       AdOpening5010 gives a different organisation each time:
-      [stand-up comedy shows](https://old.reddit.com/r/Theatre/comments/umhy9j/ticketing_software_recomendations/o3r3tvd/),
+      [stand-up comedy shows](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=o3r3tvd),
       a
-      [Toronto organiser that switched to Weezevent](https://old.reddit.com/r/Torontoevents/comments/1qepr2a/event_organizers_quick_question_which_platform_do/o6xlbnv/),
+      [Toronto organiser that switched to Weezevent](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=o6xlbnv),
       a
-      [festival](https://old.reddit.com/r/festivals/comments/1pofk5o/what_is_the_best_ticketing_system_for_selling/o2dz6o1/),
+      [festival](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=o2dz6o1),
       and someone who has
-      ["worked with it quite a bit"](https://old.reddit.com/r/musicfestivals/comments/1rsrk25/1st_edition_festival_any_advice_on_security/ob3yf2a/).
+      ["worked with it quite a bit"](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=ob3yf2a).
       Two of those comments revived threads that were already years old.
 
       In one r/smallbusinessowner thread two of the accounts answer as
       strangers. AdOpening5010
-      [recommended Weezevent](https://old.reddit.com/r/smallbusinessowner/comments/1rkq8e9/best_event_ticketing_solution_for_a_small_business/o8xqrrw/),
+      [recommended Weezevent](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=o8xqrrw),
       and ichar10 replied separately saying "Haven't tested Weezevent but they
       seem pretty complete", two months before publishing its own detailed
       article on Weezevent's features and pricing.
