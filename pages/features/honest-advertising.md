@@ -36,7 +36,7 @@ blocks:
       across ticketing, event production, festival, conference, theatre,
       museum, trade show, clubbing and small business subreddits during 2026:
       **ichar10**, **King-RD9**, **Admirable_Barber2632**, **AdOpening5010**
-      and **InternalAd8940**. Weezevent is recommended in almost every post
+      and **Internal-Ad-8940**. Weezevent is recommended in almost every post
       they have made. The rest of this section is what a reader can check by
       opening the threads.
   - type: markdown
@@ -57,7 +57,7 @@ blocks:
       ### Questions and answers from the same group
 
       Most of the activity is in one subreddit, r/TicketingMasters, where some
-      of the accounts ask and others answer. InternalAd8940 posted
+      of the accounts ask and others answer. Internal-Ad-8940 posted
       ["Best Ticketmaster alternative ?"](https://old.reddit.com/r/TicketingMasters/comments/1tbyf5i/best_ticketmaster_alternative/)
       and
       ["TicketSpice Alternative?"](https://old.reddit.com/r/TicketingMasters/comments/1tjn05k/ticketspice_alternative/),
