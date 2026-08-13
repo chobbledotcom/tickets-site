@@ -241,10 +241,10 @@ blocks:
       almost every post they have made.
 
       Some are long comparison articles ending on Weezevent, such as
-      ["Eventbrite Alternative - 2026"](https://www.reddit.com/r/TicketingMasters/comments/1t5ci1u/eventbrite_alternative_2026/).
+      ["Eventbrite Alternative - 2026"](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1t5ci1u).
       Others are questions with Weezevent already named in them, and one
       account left
-      [the same opening sentence on three different threads](https://old.reddit.com/r/TicketingMasters/comments/1tjn05k/ticketspice_alternative/op3v9lb/)
+      [the same opening sentence on three different threads](https://arctic-shift.photon-reddit.com/api/comments/ids?ids=op3v9lb)
       on a single day. Several of the accounts describe their own use of
       Weezevent in ways that contradict their earlier posts.
 
