@@ -1,7 +1,7 @@
 ---
-title: Ticketing Platform Alternatives
-meta_title: Ticketing Platform Alternatives Compared | Chobble Tickets
-meta_description: Compare Chobble Tickets with Eventbrite, Pretix, Ticket Tailor and other platforms on organiser fees, hosting, features, attendee data and trade-offs.
+title: Platform Alternatives
+meta_title: Platform Alternatives Compared | Chobble Tickets
+meta_description: Compare Chobble Tickets with Eventbrite, Pretix, Ticket Tailor, Onfleet and other platforms on organiser fees, hosting, features, attendee data and trade-offs.
 permalink: /compared-to/
 eleventyNavigation:
   key: Compared To
@@ -12,14 +12,16 @@ blocks:
     content: |-
       # How Chobble Tickets compares
 
-      Every ticketing option has trade-offs. Each page below compares Chobble Tickets to one platform on pricing, features and data handling. The [ticketing guides](/guide/choosing-a-ticket-platform/), [pricing](/pricing/), [hosting](/hosting/) and [open source](/features/open-source/) pages group providers by topic or describe Chobble Tickets without a competitor comparison.
+      Every platform has trade-offs. Each page below compares Chobble Tickets to one platform on pricing, features and data handling. The [ticketing guides](/guide/choosing-a-ticket-platform/), [pricing](/pricing/), [hosting](/hosting/) and [open source](/features/open-source/) pages group providers by topic or describe Chobble Tickets without a competitor comparison.
   - type: features
     intro_content: |
-      ## Ticketing platform alternatives
+      ## Platform alternatives
 
       Each page sets out what the other platform charges, which features each
-      one has, and what happens to attendee data. Click through for the full
-      comparison.
+      one has, and what happens to attendee or customer data. Most pages
+      cover ticketing platforms; a few cover hire, delivery or scheduling
+      tools that overlap with what Chobble Tickets does. Click through for
+      the full comparison.
     items:
       - icon: hugeicons:chart-bar-line
         description: Estimate costs across the listed platforms with an interactive calculator and documented assumptions.
@@ -84,6 +86,9 @@ blocks:
       - icon: hugeicons:source-code
         description: Free self-hosted open source ticketing with a seat plan editor, no longer updated since its code was archived. Compare hosting, upkeep and features.
         name: <a href="/compared-to/libreevent/">libreevent alternative</a>
+      - icon: hugeicons:delivery-truck-02
+        description: Cloud-based last-mile delivery software with route optimisation and live tracking. Compare a delivery platform with a flat-rate ticketing and hire tool.
+        name: <a href="/compared-to/onfleet/">Onfleet alternative</a>
       - icon: hugeicons:ticket-01
         description: Purpose-built for school PTAs with fundraising tools. Compare features and fees.
         name: <a href="/compared-to/pta-events/">PTA Events alternative</a>
