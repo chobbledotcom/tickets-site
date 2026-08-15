@@ -59,5 +59,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Ticketing Providers Compared A to Z | Chobble Tickets
+name: Platforms Compared A to Z | Chobble Tickets
 ---
