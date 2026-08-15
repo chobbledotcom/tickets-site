@@ -410,5 +410,14 @@
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
     "fee_note": "Revel is open source under the MIT licence, so self-hosting carries no Revel platform fee and no per-ticket commission. You pay only your own server costs and Stripe processing (1.5% + 20p in the UK). Revel needs a Django application server with PostgreSQL, Redis and background workers, so plan for a small always-on server. Chobble Tickets self-hosting also has no Chobble software licence fee; it compiles to a single JavaScript file and runs on serverless edge infrastructure. Source: github.com/letsrevel (August 2026)."
+  },
+  "seaty": {
+    "name": "Seaty",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 7.2,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0,
+    "fee_note": "Seaty fees: 7.2% on online card payments only, with card processing included and a minimum platform fee of £0.50 per order (which applies in place of the 7.2% only when 7.2% of the order would be below £0.50). Cash, invoice, box office and free tickets carry no fee. There is no subscription and no setup cost. Connecting your own Stripe account drops the fee to 4.5%, and Stripe processing (1.5% + 20p in the UK) then applies separately. This calculator uses the 7.2% all-in rate and does not model the £0.50 per-order minimum or the 4.5% own-Stripe rate. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe, Square or SumUp processing (1.5% + 20p). Source: seaty.co.uk/Docs/Fees (August 2026)."
   }
 }

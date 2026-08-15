@@ -106,6 +106,9 @@ blocks:
         description: An open source community platform first built for queer, LGBTQ+ and kink groups, with attendee vetting and private guest lists. Compare licences, payments, self-hosting and how each keeps data private.
         name: <a href="/compared-to/revel/">Revel alternative</a>
       - icon: hugeicons:ticket-01
+        description: A UK ticketing and event-management platform for theatres, schools and societies, charging 7.2% on online card payments. Compare pricing, payouts, seating and data handling.
+        name: <a href="/compared-to/seaty/">Seaty alternative</a>
+      - icon: hugeicons:ticket-01
         description: The volunteer sign-up sheet tool that added ticketing. Compare purpose-built ticketing vs a coordination platform.
         name: <a href="/compared-to/signupgenius/">SignUpGenius alternative</a>
       - icon: hugeicons:ticket-01

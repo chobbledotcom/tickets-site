@@ -108,6 +108,7 @@ blocks:
       | [BookitBee](/compared-to/bookitbee/) at 3.5% | 72 tickets |
       | [Humanitix](/compared-to/humanitix/) at 4.67% + 46p | 56 tickets |
       | [TicketSource](/compared-to/ticketsource/) at 7% a booking | 56 tickets |
+      | [Seaty](/compared-to/seaty/) at 7.2% | 53 tickets |
       | [Eventbrite](/compared-to/eventbrite/) at 6.95% + 59p | 34 tickets |
       | [Fatsoma](/compared-to/fatsoma/) at 10% | 25 tickets |
 
@@ -276,6 +277,7 @@ blocks:
       | [Ticketted](/compared-to/ticketted/) | £1,290 | 3.95% + A$0.95 a ticket, converted at 52.3p to the Australian dollar. Charities and schools pay 2.45% + A$0.45. |
       | [Humanitix](/compared-to/humanitix/) | £1,394 | 4.67% + 46p a ticket, excluding VAT. Charities and schools pay 3.33% + 25p, which is about £916. |
       | [TicketSource](/compared-to/ticketsource/) | £1,400 | 7% a booking excluding VAT with TicketSource processing, or 4.5% plus the organiser's own Stripe, which comes to the same figure on a £20 ticket. |
+      | [Seaty](/compared-to/seaty/) | £1,440 | 7.2% of each online card payment, including processing, £0.50 minimum per order. Cash, box office and free tickets carry no fee. |
       | [FIXR](/compared-to/fixr/) (Pro) | £1,488 | 4.99% + 49p a ticket plus VAT, £1 minimum. Buyers usually pay it. |
       | [Weezevent](/compared-to/weezevent/) | £1,490 | 2.5% + 99p a ticket including tax, with banking fees included. |
       | [EVENTIM.Light](/compared-to/eventim-light/) | £1,600 | 8% a ticket. The fee can be passed to buyers. |

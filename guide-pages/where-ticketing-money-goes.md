@@ -37,6 +37,11 @@ blocks:
         transaction, with a 75p minimum per order. The fee is charged per
         order, not per ticket, and card processing is included. By default the
         buyer pays.
+      - [Seaty](/compared-to/seaty/) charges 7.2% on online card payments
+        only, with card processing included and a £0.50 minimum per order.
+        Cash, invoice, box office and free tickets carry no fee. The organiser
+        chooses whether to absorb the fee or pass it to the buyer, and
+        connecting your own Stripe account drops the percentage to 4.5%.
       - [EVENTIM.Light](/compared-to/eventim-light/) charges 8% per ticket in
         the UK with processing included, which is £1.20 on a £15 ticket.
       - [Pretix](/compared-to/pretix/) charges 2.5% of ticket value on its
@@ -153,6 +158,9 @@ blocks:
       - Ticketebo: about £371 in booking fees at 4.95% (incl. VAT) of £7,500,
         assuming one ticket per payment. The 75p minimum raises the effective
         rate on smaller orders
+      - Seaty: £540, at 7.2% of £7,500 in online card sales, with processing
+        included. The £0.50 minimum raises the effective rate on smaller
+        orders
       - Humanitix: about £580 at the standard rate, about £375 for charities
         and schools
       - Ticketpass Essentials: about £485, of which up to about £121 is donated
