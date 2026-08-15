@@ -240,9 +240,10 @@ blocks:
         emails come from your own domain
       - **[Liquid email templates](/features/email-templates/)** - full
         control over the subject and body of confirmation emails
-      - **[Public-facing website and CMS](/features/your-public-website/)**
-        - a homepage, content pages, news posts, and a contact form
-        with spam protection, edited from the admin panel in Markdown
+      - **[Public-facing website and CMS](/features/your-public-website/)** -
+        a homepage, content pages, news posts, and a contact form with
+        spam protection, edited from the admin panel in Markdown.
+        Onfleet does not build a public website.
       - **[UK postcode address lookup](/features/postcode-lookup/)** -
         customers pick their address from a list at checkout, so
         delivery addresses are accurate
@@ -296,8 +297,8 @@ blocks:
 
       - You are one small operator with a few vans or drivers running
         deliveries alongside events or hire
-      - You hire out items such as bouncy castles, marquees, or AV gear
-        and deliver them to customer addresses
+      - You hire out items such as marquees, AV gear, or event
+        equipment and deliver them to customer addresses
       - You need a driver run sheet with accurate addresses and a "mark
         done" toggle, but not route optimisation or live tracking
       - You run ticketed events or hire bookings and want one tool for
