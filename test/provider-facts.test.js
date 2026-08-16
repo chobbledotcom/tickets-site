@@ -149,6 +149,7 @@ const ENUMS = {
     "australia",
     "austria",
     "canada",
+    "czech-republic",
     "france",
     "germany",
     "india",

@@ -7,18 +7,18 @@ layout: null
 
 ## Scope
 
-This audit covers all 168 rendered client pages. A page counts as illustrated
+This audit covers all 169 rendered client pages. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 166 | 66 | 100 |
+| Editorial pages in the sitemap | 167 | 66 | 101 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **168** | **66** | **102** |
+| **All rendered pages** | **169** | **66** | **103** |
 
-The 100 editorial pages are the main illustration backlog. The two utility
+The 101 editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -100,6 +100,7 @@ pages are listed separately at the end.
 | `pages/features/deployment.md` | Diagram: `site-setup-paths` | Oakfield sets up a managed site from its emailed setup link, while a technical provider follows the five README steps for a Bunny Edge Script. Converge both on the same first request, where the database migrates itself and `/setup/` asks for an owner password. | Shows that the two routes reach the same product without a feature-unlocking stage. |
 | `pages/features/coding-agents.md` | Diagram: `what-the-repository-publishes` | Show the repository contents an agent reads before changing anything: AGENTS.md, REPO_STRUCTURE.md, 39 Cucumber feature files, generated API documentation and the source itself. Beside it, show the encrypted attendee records the same agent cannot read. | Separates what publishing the source makes available from what stays under the owner's key. |
 | `pages/features/open-source.md` | Diagram: `same-product-deployments` | Oakfield's same event setup appears in managed hosting, a GitHub-controlled deployment and self-hosted Docker. Label who handles updates, infrastructure and configured services. | Shows product sameness while making operational responsibility clear. |
+| `pages/features/cannot-go-closed-source.md` | Diagram: `three-protections-against-buyout` | Show the CIC asset lock, AGPL-3.0-only published code and no-shareholder reinvested-profit structure as three gates a buyout would have to pass. Beside them, mark the Cal.com path of AGPL production code becoming proprietary after a funding round as the exit the structure closes. Include company number 17050113 and the CIC Regulator. | Shows an organiser that a present-tense promise is not the model here, and that the asset lock, not a statement, keeps the code open. |
 
 ## Feature Pages: Administration
 
@@ -233,6 +234,7 @@ pages are listed separately at the end.
 | `pages/compared-to/yo-rent.md` | Comparison graphic: `single-operator-versus-marketplace` | Willow owns eight marquees and two vans; Northern Gear Exchange lets 60 owners list 2,000 items. Compare one operator's booking and run sheet with vendors, commissions, deposits, contracts and ratings. | Explains the business-model difference before software price. |
 | `pages/compared-to/onfleet.md` | Comparison graphic: `run-sheet-versus-delivery-platform` | Willow Deliveries runs three vans and 200 drops a week from a marquee hire business. Put Onfleet's Launch task allowance, route optimisation, live GPS and proof of delivery in one column, beside Chobble's flat £50/year agent run sheet with postcode lookup and mark-done toggle, and label the features Chobble does not have. | Shows a small operator where a run sheet is enough and where a delivery platform starts to pay for itself. |
 | `pages/compared-to/sumup-store.md` | Comparison graphic: `sumup-store-ticket-item` | Oakfield sells 200 £15 workshop tickets through a SumUp store item with a stock figure, beside Chobble's event with capacity, QR check-in, refunds and attendee emails. Show the 2.5% online payment fee on both sides, since Chobble can use SumUp for processing. | Shows that a shop's item workflow does not cover the jobs an event creates. |
+| `pages/compared-to/eventee.md` | Comparison graphic: `eventee-event-app-versus-ticketing` | Bridgepoint Conference runs a 500-attendee single-day event with a schedule, live Q&A and networking. Put Eventee's mobile app, RSVP registration and attendee engagement in one column, beside Chobble's paid checkout, encrypted attendee data and flat £50/year fee, and label the features each does not have. | Sets the event-app boundary before pricing, so the comparison is about the job rather than the fee shape. |
 
 ## Utility Pages
 

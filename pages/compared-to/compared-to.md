@@ -54,6 +54,9 @@ blocks:
         description: A large ticketing marketplace. Compare fees, discovery, organiser tools and attendee marketing.
         name: <a href="/compared-to/eventbrite/">Eventbrite alternative</a>
       - icon: hugeicons:ticket-01
+        description: A Czech conference and event app with RSVP registration and attendee engagement, priced per event and per annual subscription. Compare an event app with a flat-rate ticketing platform.
+        name: <a href="/compared-to/eventee/">Eventee alternative</a>
+      - icon: hugeicons:ticket-01
         description: The self-service platform from CTS EVENTIM. Compare fees, features and data handling.
         name: <a href="/compared-to/eventim-light/">EVENTIM.Light alternative</a>
       - icon: hugeicons:source-code

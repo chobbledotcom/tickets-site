@@ -421,6 +421,9 @@ blocks:
       The combined effect is that there is no version of "Chobble
       Tickets goes closed source" that produces a buyout or a payout
       for anyone. The exit does not exist.
+      [Why Chobble Tickets cannot go closed source](/features/cannot-go-closed-source/)
+      expands on these three protections and why an open source licence alone
+      is not enough.
   - type: markdown
     content: |
       ## Sources

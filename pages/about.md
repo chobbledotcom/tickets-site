@@ -75,6 +75,11 @@ blocks:
       shareholders. Its asset lock restricts how company assets can be
       transferred, including if the company is wound up.
 
+      The asset lock, the AGPL-3.0-only source licence and the absence of
+      shareholders together prevent the operator from taking Chobble Tickets
+      closed source. [Why Chobble Tickets cannot go closed
+      source](/features/cannot-go-closed-source/) sets that out in full.
+
       Chobble donates 10% of its income to the
       [Against Malaria Foundation](https://www.againstmalaria.com). The full
       social impact statement is at

@@ -32,7 +32,11 @@ blocks:
       benefits the community.
 
       Chobble receives income from managed hosting and technical work.
-      It does not carry advertising or sell attendee data.
+      It does not carry advertising or sell attendee data. The asset lock,
+      the AGPL-3.0-only licence and the absence of shareholders together mean
+      the operator cannot take the product closed -
+      [why Chobble Tickets cannot go closed source](/features/cannot-go-closed-source/)
+      sets that out in full.
 
       ## Three ways to deploy
 
