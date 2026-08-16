@@ -71,6 +71,9 @@ blocks:
       - icon: hugeicons:ticket-01
         description: Used for student events and nightlife. Compare fees, features and data handling.
         name: <a href="/compared-to/fatsoma/">Fatsoma alternative</a>
+      - icon: hugeicons:delivery-truck-02
+        description: Open source logistics and fleet management from $29 a month plus $5 per driver or vehicle. Compare a logistics platform with a flat-rate ticketing and hire tool.
+        name: <a href="/compared-to/fleetbase/">Fleetbase alternative</a>
       - icon: hugeicons:ticket-01
         description: A UK ticketing and event-discovery platform used for student and nightlife events. Compare buyer fees, organiser tools, discovery and data handling.
         name: <a href="/compared-to/fixr/">FIXR alternative</a>

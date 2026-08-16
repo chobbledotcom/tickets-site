@@ -157,6 +157,7 @@ const ENUMS = {
     "israel",
     "not-documented",
     "not-reviewed",
+    "singapore",
     "switzerland",
     "united-kingdom",
     "united-states",
