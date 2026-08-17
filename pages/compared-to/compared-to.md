@@ -104,6 +104,9 @@ blocks:
       - icon: hugeicons:open-source
         description: Another open source option targeting enterprise. Compare hosted and self-hosted costs.
         name: <a href="/compared-to/pretix/">Pretix alternative</a>
+      - icon: hugeicons:music-note-03
+        description: A US ticketing and event-marketing platform whose free plan charges attendees 3.5% + £1.19 a ticket. Compare who pays the fee, marketplace listings and attendee marketing.
+        name: <a href="/compared-to/promotix/">PromoTix alternative</a>
       - icon: hugeicons:ticket-01
         description: A German ticketing system free for organisers because the buyer pays a per-ticket fee by default. Compare fees, who pays them, seating plans and data handling.
         name: <a href="/compared-to/qrticket/">QRTicket alternative</a>

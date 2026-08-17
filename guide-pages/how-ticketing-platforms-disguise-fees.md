@@ -122,6 +122,12 @@ blocks:
       buyers pay 4.95% (incl. VAT) per transaction, with a 75p minimum. The
       organiser can choose to absorb it instead.
 
+      [PromoTix](/compared-to/promotix/) sells its ticketing as fee-free for
+      organisers, and its UK price list charges attendees 3.5% + £1.19 on
+      every paid ticket. That is £1.54 on a £10 ticket, or 15.4% of the price.
+      Removing the fee means moving to a Professional plan whose subscription
+      price the site does not publish.
+
       The total cost of selling a ticket is not lower because the buyer is
       charged instead of the organiser. The buyer pays a fee above the
       underlying card-processing cost, and the organiser chooses whether to
