@@ -419,5 +419,14 @@
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
     "fee_note": "Seaty fees: 7.2% on online card payments only, with card processing included and a minimum platform fee of £0.50 per order (which applies in place of the 7.2% only when 7.2% of the order would be below £0.50). Cash, invoice, box office and free tickets carry no fee. There is no subscription and no setup cost. Connecting your own Stripe account drops the fee to 4.5%, and Stripe processing (1.5% + 20p in the UK) then applies separately. This calculator uses the 7.2% all-in rate and does not model the £0.50 per-order minimum or the 4.5% own-Stripe rate. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe, Square or SumUp processing (1.5% + 20p). Source: seaty.co.uk/Docs/Fees (August 2026)."
+  },
+  "promotix": {
+    "name": "PromoTix",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 3.5,
+    "per_ticket_fee_fixed": 1.19,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "PromoTix free plan fees: 3.5% + £1.19 per paid ticket on the GBP price list, charged to the attendee by default, with the organiser able to absorb it instead. This calculator applies it as an organiser cost, matching its assumption for every other provider. PromoTix says it charges nothing for payment processing and that Stripe does, so Stripe's UK rate (1.5% + 20p) is shown separately. Adding your own service fee costs a further £0.99 per paid ticket. Merchandise and add-ons carry 10%, ambassador transactions carry 10% on the Professional plan, and streaming and push notifications are priced separately. The Professional plan removes the per-ticket fee for a customised annual subscription whose price PromoTix does not publish, so it has no row here. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe, Square or SumUp processing (1.5% + 20p). Source: promotix.com/pricing-gbp (August 2026)."
   }
 }

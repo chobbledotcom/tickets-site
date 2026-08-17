@@ -42,6 +42,10 @@ blocks:
         Cash, invoice, box office and free tickets carry no fee. The organiser
         chooses whether to absorb the fee or pass it to the buyer, and
         connecting your own Stripe account drops the percentage to 4.5%.
+      - [PromoTix](/compared-to/promotix/) charges attendees 3.5% + £1.19 on
+        each paid ticket on its free plan, with card processing separate. The
+        organiser can absorb it instead. Its Professional plan removes the fee
+        for an annual subscription whose price is not published.
       - [EVENTIM.Light](/compared-to/eventim-light/) charges 8% per ticket in
         the UK with processing included, which is £1.20 on a £15 ticket.
       - [Pretix](/compared-to/pretix/) charges 2.5% of ticket value on its
@@ -161,6 +165,8 @@ blocks:
       - Seaty: £540, at 7.2% of £7,500 in online card sales, with processing
         included. The £0.50 minimum raises the effective rate on smaller
         orders
+      - PromoTix: about £858 on the free plan, at 3.5% + £1.19 a ticket, with
+        card processing still to pay on top
       - Humanitix: about £580 at the standard rate, about £375 for charities
         and schools
       - Ticketpass Essentials: about £485, of which up to about £121 is donated

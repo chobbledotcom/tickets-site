@@ -110,6 +110,7 @@ blocks:
       | [TicketSource](/compared-to/ticketsource/) at 7% a booking | 56 tickets |
       | [Seaty](/compared-to/seaty/) at 7.2% | 53 tickets |
       | [Eventbrite](/compared-to/eventbrite/) at 6.95% + 59p | 34 tickets |
+      | [PromoTix](/compared-to/promotix/) at 3.5% + £1.19 | 27 tickets |
       | [Fatsoma](/compared-to/fatsoma/) at 10% | 25 tickets |
 
       An organiser selling 40 tickets a year at £20 pays less on most of these
@@ -268,6 +269,7 @@ blocks:
       | [BookitBee](/compared-to/bookitbee/) | £700 | From 3.5% a ticket, minimum 50p, capped at £19.95. |
       | [QRTicket](/compared-to/qrticket/) | £770 | About 77p a ticket, paid through PayPal, whose processing rate is higher than Stripe's. The buyer pays by default. |
       | [Revel](/compared-to/revel/) hosted | £1,030 | 3% + about 43p a ticket. |
+      | [PromoTix](/compared-to/promotix/) | £1,890 | 3.5% + £1.19 a ticket on the free plan, charged to the attendee unless the organiser absorbs it. The Professional plan removes the fee for an unpublished annual subscription. |
       | [Fatsoma](/compared-to/fatsoma/) | £2,000 | 10% a ticket, minimum £1. |
 
       | Option | Year, processing included | What makes up the cost |
