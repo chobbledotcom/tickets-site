@@ -34,6 +34,21 @@
     "values": ["none"]
   },
   {
+    "key": "europe-based",
+    "label": "Europe based",
+    "description": "The review places the provider's registration or operating base in a European country.",
+    "field": "registration_country",
+    "values": [
+      "austria",
+      "czech-republic",
+      "france",
+      "germany",
+      "ireland",
+      "switzerland",
+      "united-kingdom"
+    ]
+  },
+  {
     "key": "uk-based",
     "label": "UK based",
     "description": "The review places the provider's registration or operating base in the United Kingdom.",

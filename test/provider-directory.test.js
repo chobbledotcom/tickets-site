@@ -143,6 +143,7 @@ describe("provider filters", () => {
       "self-hosting",
       "no-per-ticket-fee",
       "no-attendee-marketing",
+      "europe-based",
       "uk-based",
       "ethical-structure",
       "white-label",
