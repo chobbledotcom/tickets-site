@@ -56,7 +56,7 @@ blocks:
         name: <a href="/hosting/">Host it for others</a>
         description: Technical providers can use the built-in site builder and update channels to run separate sites for organisers they support.
       - icon: hugeicons:customer-service-02
-        name: <a href="https://chobble.com/contact">Hire Chobble as a consultant</a>
+        name: <a href="https://www.chobble.com/contact">Hire Chobble as a consultant</a>
         description: Chobble provides paid technical work for setup, integrations, deployment and changes to the open source software.
   - type: split-image
     dark: true

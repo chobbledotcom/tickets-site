@@ -10,5 +10,5 @@ blocks:
     content: |
       # Thank You
 
-      Your message has been sent and I will be in touch - if you don't hear from me, [chase me through another channel](https://chobble.com/contact) because I get a lot of spam messages through this form and yours may have been missed.
+      Your message has been sent and I will be in touch - if you don't hear from me, [chase me through another channel](https://www.chobble.com/contact) because I get a lot of spam messages through this form and yours may have been missed.
 ---

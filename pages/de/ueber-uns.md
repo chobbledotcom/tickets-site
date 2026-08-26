@@ -17,7 +17,7 @@ blocks:
       Stefan Burke, genannt Stef, arbeitet seit etwa 2007 in der Software- und
       Webentwicklung. Er führt Chobble von Prestwich in Manchester aus. Ein Foto
       und ein kurzes Profil stehen auf
-      [chobble.com/principles](https://chobble.com/principles).
+      [chobble.com/principles](https://www.chobble.com/principles).
 
       Vor Chobble arbeitete Stef fünf Jahre bei
       [Bandcamp](https://bandcamp.com), dem Musikshop, der jährlich rund 200
@@ -39,7 +39,7 @@ blocks:
     content: |
       ## Grundsätze
 
-      Chobble arbeitet nach sechs [erklärten Grundsätzen](https://chobble.com/principles):
+      Chobble arbeitet nach sechs [erklärten Grundsätzen](https://www.chobble.com/principles):
 
       - **Transparenz.** Vor der Kundschaft werden keine Geheimnisse gehalten.
         Die Werkzeuge, auf die sie sich stützt, gehören ihr.
@@ -56,7 +56,7 @@ blocks:
         Menschen oder Tiere ausbeutet.
 
       Der vollständige Wortlaut jedes Grundsatzes steht auf Englisch auf
-      [chobble.com/principles](https://chobble.com/principles).
+      [chobble.com/principles](https://www.chobble.com/principles).
   - type: markdown
     content: |
       ## Chobble als community interest company
@@ -75,7 +75,7 @@ blocks:
       Chobble spendet 10% der Einnahmen an die
       [Against Malaria Foundation](https://www.againstmalaria.com). Die
       vollständige Erklärung zur sozialen Wirkung steht auf Englisch auf
-      [chobble.com/social-impact](https://chobble.com/social-impact).
+      [chobble.com/social-impact](https://www.chobble.com/social-impact).
   - type: markdown
     dark: true
     content: |

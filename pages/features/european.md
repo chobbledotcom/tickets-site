@@ -24,7 +24,7 @@ blocks:
 
       | Part of the stack | Company | Headquartered in |
       |---|---|---|
-      | Ticketing software | [Chobble](https://chobble.com) | United Kingdom |
+      | Ticketing software | [Chobble](https://www.chobble.com) | United Kingdom |
       | Hosting and CDN | [Bunny.net](https://bunny.net) | Slovenia |
       | Ticketing database | [Bunny Database](https://bunny.net) | Bunny's available primary and replica regions; storage region `eu-west-1` |
       | Domain registrar | [Njalla](https://njal.la) | Sweden |
