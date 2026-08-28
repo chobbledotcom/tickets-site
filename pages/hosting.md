@@ -45,6 +45,9 @@ blocks:
       - icon: hugeicons:flash
         name: Site created after payment
         description: A setup link is sent by email. It sets the first owner login and password, and the country the site operates in.
+      - icon: hugeicons:wallet-02
+        name: <a href="/features/prepay-hosting/">Prepay, not subscription</a>
+        description: Hosting is paid in advance for a month or a year. Chobble does not store card details for automatic renewal, and if a term ends the site stays in read-only mode for 24 months.
       - icon: hugeicons:database-01
         name: Separate site and database
         description: Each organiser receives a separate instance rather than an account inside a shared event marketplace.

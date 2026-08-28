@@ -90,6 +90,13 @@ Keep these facts central when describing Chobble Tickets:
   £5/month, or £25/year for charities, community groups, artists and
   musicians, which is half the annual price and does not apply to monthly
   billing. No rate varies by ticket value, ticket volume or feature use.
+- Managed hosting is prepaid, not subscription billing. Organisers pay for a
+  month or a year in advance; Chobble does not store card details for
+  automatic renewal. If a prepaid term ends without renewal, the site enters
+  read-only mode for 24 months, during which the organiser keeps full read
+  access and can export or migrate data. Payments can restart at any time, and
+  no payment is owed for the read-only months. After 24 months in read-only
+  mode the site and database are deleted.
 - Every current Chobble Tickets feature is included. There are no higher
   product tiers.
 - Managed and self-hosted deployments use the same source-published product.

@@ -47,8 +47,8 @@ const completedFiles = scenarioRows
 describe("page image scenario coverage", () => {
   test("documents every image-less rendered content page", () => {
     expect(documentedFiles).toEqual(imageLessFiles);
-    expect(contentFiles).toHaveLength(176);
-    expect(imageLessFiles).toHaveLength(110);
+    expect(contentFiles).toHaveLength(177);
+    expect(imageLessFiles).toHaveLength(111);
     expect(completedFiles).toHaveLength(23);
     expect(completedFiles.every((filePath) => !imageLessFiles.includes(filePath))).toBe(
       true,

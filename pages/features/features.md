@@ -167,6 +167,9 @@ blocks:
   - icon: hugeicons:flash
     description: Managed sites are set up through an emailed link. Self-hosted deployments follow five documented steps, and the database migrates itself on the first request.
     name: <a href="/features/deployment/">Deployment</a>
+  - icon: hugeicons:wallet-02
+    description: Chobble uses prepay hosting, not subscription billing. Pay in advance for a month or a year, and if a term ends the site stays in read-only mode for 24 months with no back-payment owed.
+    name: <a href="/features/prepay-hosting/">Prepay hosting</a>
   - icon: hugeicons:ai-brain-01
     description: Published source, 100% test coverage, a 0% duplication threshold and a complexity ceiling, so a coding agent gets a mechanical verdict on the changes it makes.
     name: <a href="/features/coding-agents/">Coding agents</a>

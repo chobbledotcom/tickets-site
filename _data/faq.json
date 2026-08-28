@@ -31,8 +31,13 @@
 	},
 	{
 		"section": "Pricing and fees",
+		"question": "Is Chobble Tickets a subscription?",
+		"answer": "No. Chobble Tickets uses prepay hosting, not subscription billing. You pay for a month or a year in advance, and Chobble does not store card details for automatic renewal. Nothing is charged unless you return and pay for another term. The first prepay month costs £5, or £50 for a year (£25/year for charities, community groups, artists and musicians on the annual plan). Read how it works on the <a href=\"/features/prepay-hosting/\">prepay hosting</a> page."
+	},
+	{
+		"section": "Pricing and fees",
 		"question": "What happens if I stop paying for Chobble Tickets?",
-		"answer": "Your site goes into read-only mode once the paid period ends. Read-only means no new events, no new bookings, and no new attendees added through the admin area. Existing tickets keep working: attendees can still check in with their QR codes, the public event page still loads, and confirmation emails for past bookings still send. You can still log in, view your data, and <a href=\"/features/csv-export/\">export attendee lists as CSV</a> at any time. After 24 months in read-only mode, the site and its database are deleted. Chobble emails reminders during that period asking you to export your data. The deletion is permanent, and 30 days after deletion any remaining encrypted backup is also removed."
+		"answer": "Your site goes into read-only mode once the paid period ends. Read-only means no new events, no new bookings, and no new attendees added through the admin area. Existing tickets keep working: attendees can still check in with their QR codes, the public event page still loads, and confirmation emails for past bookings still send. You can still log in, view your data, and <a href=\"/features/csv-export/\">export attendee lists as CSV</a> at any time. Read-only mode lasts for 24 months, with no back-payment owed for that period, and you can restart payments at any time to return the site to full operation. Chobble emails reminders during that period asking you to export your data. After 24 months in read-only mode, the site and its database are deleted. The deletion is permanent, and 30 days after deletion any remaining encrypted backup is also removed. See the <a href=\"/features/prepay-hosting/\">prepay hosting</a> page for the full billing model."
 	},
 	{
 		"section": "Pricing and fees",
