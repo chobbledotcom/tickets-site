@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the site
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           # The tests build the site, which merges the pinned template.
           submodules: true

@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the site
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           # @chobble/js-toolkit is a file: dependency inside the pinned
           # template, so installing needs the submodule to be here.
@@ -34,7 +34,7 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Check out the app
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: chobbledotcom/tickets
           ref: main
@@ -61,7 +61,7 @@ jobs:
 
       - name: Cache Playwright Chromium
         id: chromium-cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}
@@ -88,7 +88,7 @@ jobs:
       # Kept whatever happens next. An import refused for narrative drift needs
       # the evidence it refused, and the runner's copy goes with the runner.
       - name: Keep the captured evidence
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: captured-ticket-evidence
           path: ${{ steps.evidence.outputs.directory }}
@@ -124,7 +124,7 @@ jobs:
         run: bun run precommit
 
       - name: Create or update the review pull request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: automation/update-ticket-evidence
           delete-branch: true
