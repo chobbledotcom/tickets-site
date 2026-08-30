@@ -188,6 +188,22 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "delivery-postcode-lookup": [
+    {
+      fact: "The booking form's address field carries a postcode search panel when a lookup provider is configured, and choosing a result fills the address box, which stays editable.",
+      sources: [
+        "../tickets/src/ui/templates/components/address-lookup.tsx:42-75",
+        "../tickets/src/ui/client/admin/address-lookup.ts:130-144",
+      ],
+    },
+    {
+      fact: "Postcode searches go to a same-origin endpoint that proxies the configured provider, so the provider API key never reaches the browser.",
+      sources: [
+        "../tickets/src/features/public/address-lookup.ts:1-11",
+        "../tickets/src/features/public/address-lookup.ts:35-63",
+      ],
+    },
+  ],
   "deposits-and-balance-payments": [
     {
       fact: "A reservation status can charge a percentage, fixed order amount or per-item deposit.",
@@ -239,6 +255,18 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "grassroots-venue-door-list": [
+    {
+      fact: "An organiser can add a booking for someone who rang up or paid in cash, and it holds the same days as one made through the site.",
+      sources: [
+        "../tickets/specs/bookings/adding-a-booking-by-hand.feature:5-8",
+      ],
+    },
+    {
+      fact: "A listing's admin page has an attendees tab listing its bookings.",
+      sources: ["../tickets/src/features/admin/listing-page.ts:173-177"],
+    },
+  ],
   "group-bulk-actions": [
     {
       fact: "A group can be duplicated with renamed listings and a date offset applied to the copies.",
@@ -250,6 +278,16 @@ export const SOCIAL_IMAGE_FACTS = {
         "../tickets/src/features/admin/bulk-actions.ts:103-152",
         "../tickets/src/shared/db/groups.ts:900-914",
       ],
+    },
+  ],
+  "image-library": [
+    {
+      fact: "An uploaded image carries a name and alt text, and the admin library lists a thumbnail, the name and the alt text for each image.",
+      sources: ["../tickets/src/ui/templates/admin/images.tsx:60-94"],
+    },
+    {
+      fact: "A listing's Images tab links any library image to that listing and uploads a new one without leaving the tab.",
+      sources: ["../tickets/src/features/admin/item-images.ts:98-123"],
     },
   ],
   groups: [
@@ -465,6 +503,23 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "mailgun-eu-settings": [
+    {
+      fact: "Mailgun is offered as separate EU and US provider choices, selected on the advanced settings page.",
+      sources: [
+        "../tickets/src/shared/email.ts:203-212",
+        "../tickets/src/shared/email.ts:280-281",
+        "../tickets/src/ui/templates/admin/settings/email.tsx:31-47",
+      ],
+    },
+    {
+      fact: "The email API key is saved as a masked secret and the sender address is set by the owner.",
+      sources: [
+        "../tickets/src/features/admin/settings-email.ts:32-54",
+        "../tickets/src/ui/templates/admin/settings/email.tsx:48-60",
+      ],
+    },
+  ],
   logistics: [
     {
       fact: "Drop-off and collection legs can have separate agent and time assignments.",
@@ -532,6 +587,22 @@ export const SOCIAL_IMAGE_FACTS = {
       fact: "A paid checkout does not hold a place. Capacity is used when the payment confirmation arrives, so two customers can both reach the payment page for the last one.",
       sources: [
         "../tickets/specs/payments/capacity-after-payment.feature:5-16",
+      ],
+    },
+  ],
+  "named-admin-api-key": [
+    {
+      fact: "A new API key is shown once on its creation page; afterwards the list shows its name with created and last-used dates.",
+      sources: [
+        "../tickets/src/features/admin/api-keys.ts:65-81",
+        "../tickets/src/ui/templates/admin/api-keys.tsx:56-65",
+      ],
+    },
+    {
+      fact: "A request carrying the key is served as the owner and can create listings through the admin API.",
+      sources: [
+        "../tickets/src/shared/db/api-keys.ts:103-111",
+        "../tickets/src/features/admin/api.ts:73-92",
       ],
     },
   ],
@@ -763,6 +834,19 @@ export const SOCIAL_IMAGE_FACTS = {
       ],
     },
   ],
+  "registration-deadline": [
+    {
+      fact: "A listing sets a closes-at date and time, and after that moment the public booking page shows a registration-closed message instead of the form.",
+      sources: [
+        "../tickets/src/ui/templates/fields/listing.ts:237-244",
+        "../tickets/src/ui/templates/public/reservations/ticket-page.tsx:200-212",
+      ],
+    },
+    {
+      fact: "A booking submitted after the close time is rejected, even if the form was loaded before the deadline.",
+      sources: ["../tickets/src/features/public/ticket-submit/parse.ts:57-72"],
+    },
+  ],
   "schools-and-ptas": [
     {
       fact: "A booking can buy several places, but those places remain one attendee record with one answer per question.",
@@ -797,6 +881,19 @@ export const SOCIAL_IMAGE_FACTS = {
         "../tickets/src/shared/settings/forms.ts:116-133",
         "../tickets/src/ui/templates/layout.tsx:65-72",
       ],
+    },
+  ],
+  "sports-club-programme": [
+    {
+      fact: "A group holds several listings behind one page, and a maximum-attendees figure on the group caps combined bookings across its members.",
+      sources: [
+        "../tickets/src/ui/templates/fields/group.ts:24-31",
+        "../tickets/src/features/admin/api-groups.ts:69-72",
+      ],
+    },
+    {
+      fact: "A daily listing counts capacity separately for each date it covers.",
+      sources: ["../tickets/src/shared/capacity-rules.ts:45-47"],
     },
   ],
   "summer-appeal-purchase": [
@@ -852,6 +949,29 @@ export const SOCIAL_IMAGE_FACTS = {
         "../tickets/src/ui/templates/fields/admin.ts:331-361",
         "../tickets/src/features/admin/users.ts:298-346",
       ],
+    },
+  ],
+  "theatre-front-of-house": [
+    {
+      fact: "A group page has an attendees tab listing the bookings across the group's listings.",
+      sources: ["../tickets/src/features/admin/group-page.ts:99-104"],
+    },
+    {
+      fact: "A group's maximum-attendees figure caps bookings across all its member listings together.",
+      sources: [
+        "../tickets/src/ui/templates/fields/group.ts:24-31",
+        "../tickets/src/features/admin/group-page.ts:85-98",
+      ],
+    },
+  ],
+  "taproom-repeating-quiz-night": [
+    {
+      fact: "A holiday removes its days from every daily listing's date choices, and deleting it opens the days again.",
+      sources: ["../tickets/specs/bookings/taking-a-holiday.feature:5-17"],
+    },
+    {
+      fact: "The admin calendar's availability checker shows booked and remaining places per date for a daily listing.",
+      sources: ["../tickets/src/features/admin/calendar.ts:278-355"],
     },
   ],
   "workshop-terms-checkout": [

@@ -14,7 +14,7 @@ blocks:
       # Ticketing for sports clubs
 
       Sell match day tickets, collect membership payments and take training session bookings for a flat £50/year, with no Chobble per-ticket platform fee.
-  - type: split-icon-links
+  - type: split-image
     reveal_content: left
     content: |
       ## Tickets, subs, and session bookings
@@ -36,13 +36,9 @@ blocks:
 
       The same setup covers football and rugby clubs, cricket clubs, running
       and cycling clubs, swimming clubs and martial arts schools.
-    figure_items:
-      - icon: hugeicons:ticket-01
-        text: Match tickets with QR codes at the gate
-      - icon: hugeicons:money-receive-square
-        text: One-off payments for dues and subs
-      - icon: hugeicons:calendar-03
-        text: Training bookings with per-date capacity
+    figure_src: /images/screenshots/sports-club-programme.png
+    figure_alt: A sports club's home fixtures group page listing three match listings at £8 each
+    figure_caption: A season's home fixtures sit in one group, with membership and training bookings kept alongside them.
   - type: split-icon-links
     content: |
       ## Built for committees

@@ -14,7 +14,7 @@ blocks:
       # Images
 
       Upload images to your listings and groups from an image library. Each upload is resized, converted to WebP, encrypted, and served from CDN storage.
-  - type: markdown
+  - type: split-image
     content: |
       ## The image library
 
@@ -26,6 +26,9 @@ blocks:
       Alt text is stored with the image, so screen readers and search
       engines get a description wherever the image appears. Deleting an
       image removes it from storage and from every place it was used.
+    figure_src: /images/screenshots/image-library.png
+    figure_alt: A pottery workshop listing's Images tab listing three linked images with their thumbnails, names and alt text, beside checkboxes to reuse any library image
+    figure_caption: A listing's Images tab shows the images linked to it and every other image in the library, ready to reuse.
   - type: markdown
     content: |
       ## Automatic resizing and thumbnails

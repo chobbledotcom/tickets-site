@@ -14,7 +14,7 @@ blocks:
       # Choose your email provider
 
       Send confirmation emails through the provider you already use, whether that's Resend, Postmark, SendGrid, or Mailgun (including Mailgun EU).
-  - type: markdown
+  - type: split-image
     content: |
       ## Your provider, your deliverability
 
@@ -31,7 +31,11 @@ blocks:
 
       Add your API key in the settings and the system handles sending
       automatically.
-
+    figure_src: /images/screenshots/mailgun-eu-settings.png
+    figure_alt: An email settings form with Mailgun (EU) selected as the provider, a masked API key and a tickets@oakfieldevents.org sender address
+    figure_caption: The organiser picks the provider, its region and the address tickets are sent from. The saved API key is shown masked rather than in plain text.
+  - type: markdown
+    content: |
       ## Customisable email templates
 
       Email templates use Liquid syntax, so you can customise the subject line,

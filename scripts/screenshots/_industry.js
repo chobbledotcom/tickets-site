@@ -63,6 +63,23 @@ export const createDurationIndustryListing = (context, { name, values }) =>
     },
   });
 
+export const createWillowMarqueeListing = (context, { choices, fields }) =>
+  createListing(context, {
+    choices: { bookable_days: BOOKABLE_DAYS, ...choices },
+    fields,
+    name: "Willow Marquee Hire",
+    values: {
+      duration_days: "1",
+      listing_type: "daily",
+      location: "Willow Marquee Hire Depot",
+      max_attendees: "8",
+      maximum_days_after: "90",
+      max_quantity: "1",
+      minimum_days_before: "0",
+      unit_price: "320.00",
+    },
+  });
+
 export const setDayPrices = async (context, listingId, prices) => {
   const editForm = `form[action="/admin/listing/${listingId}/edit"]`;
   await context.page.goto(`/admin/listing/${listingId}/edit`);

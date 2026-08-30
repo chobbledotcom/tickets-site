@@ -34,7 +34,7 @@ blocks:
       Every change is recorded in the
       [activity log](/features/activity-logs/), so you have a full audit
       trail of programmatic actions alongside manual ones.
-  - type: markdown
+  - type: split-image
     content: |
       ## Authentication
 
@@ -49,6 +49,9 @@ blocks:
       API key authentication means you can integrate with CI/CD pipelines,
       cron jobs, or any system that can make HTTP requests, with no browser
       session needed.
+    figure_src: /images/screenshots/named-admin-api-key.png
+    figure_alt: An API keys page showing a key named Autumn programme with its creation date and a last-used date
+    figure_caption: Each key carries the name its owner gave it, and the list shows when it was created and when it was last used.
   - type: markdown
     content: |
       ## Every event option

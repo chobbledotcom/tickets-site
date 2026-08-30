@@ -1,19 +1,5 @@
-import {
-  createAttendee,
-  createListing,
-  enableFeature,
-  setFormValues,
-} from "./helpers.js";
-
-const BOOKABLE_DAYS = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday",
-];
+import { createWillowMarqueeListing } from "./_industry.js";
+import { createAttendee, enableFeature, setFormValues } from "./helpers.js";
 
 const appDateFromDeliveries = async (page) => {
   await page.goto("/admin/deliveries");
@@ -131,23 +117,9 @@ body {
     await submit(editForm);
 
     const appDate = await appDateFromDeliveries(page);
-    const listingId = await createListing(context, {
-      choices: {
-        bookable_days: BOOKABLE_DAYS,
-        uses_logistics: ["1"],
-      },
+    const listingId = await createWillowMarqueeListing(context, {
+      choices: { uses_logistics: ["1"] },
       fields: ["address", "phone"],
-      name: "Willow Marquee Hire",
-      values: {
-        duration_days: "1",
-        listing_type: "daily",
-        location: "Willow Marquee Hire Depot",
-        max_attendees: "8",
-        maximum_days_after: "90",
-        max_quantity: "1",
-        minimum_days_before: "0",
-        unit_price: "320.00",
-      },
     });
 
     await createAttendee(context, {

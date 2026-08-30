@@ -38,7 +38,7 @@ blocks:
         text: £50/year flat, at any sales volume
       - icon: hugeicons:credit-card
         text: Payments go directly to your account
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## Passes, tiers, and camping
 
@@ -56,13 +56,9 @@ blocks:
       required extras to a booking, such as a camping pitch that must be
       chosen with a festival pass, and [packages](/features/packages/)
       sell several items as one bundle.
-    figure_items:
-      - icon: hugeicons:calendar-03
-        text: Multi-day passes with per-day capacity checks
-      - icon: hugeicons:ticket-01
-        text: VIP and general admission tiers with shared capacity
-      - icon: hugeicons:tent
-        text: Camping pitches as required child listings
+    figure_src: /images/screenshots/required-child-listings-checkout.png
+    figure_alt: A weekend festival pass checkout with two passes, one general camping pitch and one quiet camping pitch, totalling £120
+    figure_caption: Camping is chosen in the same checkout as the pass, and the camping quantities must cover the number of passes before the order can continue.
   - type: features
     dark: true
     intro_content: "## Features for festivals"

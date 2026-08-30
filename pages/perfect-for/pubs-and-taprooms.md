@@ -35,7 +35,7 @@ blocks:
         label: Capacity for every week of a repeating night
       - value: £50
         label: Managed hosting per year
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## A repeating night is set up once
 
@@ -52,13 +52,9 @@ blocks:
       A one-off night is a standard listing, and
       [duplicating a listing](/features/duplicate-events/) copies the
       setup for the next one.
-    figure_items:
-      - icon: hugeicons:calendar-03
-        text: Each date has its own places.
-      - icon: hugeicons:calendar-block-01
-        text: Blackout dates for the weeks you are shut.
-      - icon: hugeicons:copy-01
-        text: Copy a night rather than rebuild it.
+    figure_src: /images/screenshots/taproom-repeating-quiz-night.png
+    figure_alt: A pub quiz's admin calendar showing one date's availability with 8 of 12 places remaining
+    figure_caption: The calendar's availability checker shows the places left on each quiz date, and holidays close the weeks the pub is shut.
   - type: split-icon-links
     reverse: true
     content: |

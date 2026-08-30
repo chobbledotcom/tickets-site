@@ -47,6 +47,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Manage events by date",
     body: "Each date has its own capacity. The admin calendar shows bookings, remaining places and who is attending.",
   },
+  "delivery-postcode-lookup": {
+    heading: "Customers search their postcode",
+    body: "The booking form offers a postcode search above the address box. Choosing a result fills the address, which stays editable.",
+  },
   "deposits-and-balance-payments": {
     heading: "Take deposits and balances",
     body: "Record a deposit when an order is made, then collect and track the remaining balance later.",
@@ -63,9 +67,17 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Give an editor a money-free listing view",
     body: "An editor can work on listings and see their status and booked-place count. The listing view does not show ticket income, costs or profit.",
   },
+  "grassroots-venue-door-list": {
+    heading: "One door list for the night",
+    body: "Advance bookings and manually added guest-list names sit on the same list, with places counted against the show's capacity.",
+  },
   "group-bulk-actions": {
     heading: "Manage grouped listings in bulk",
     body: "Duplicate every listing in a group with shifted dates, or deactivate and reactivate the group's listings together.",
+  },
+  "image-library": {
+    heading: "A library of reusable images",
+    body: "Upload images once with their alt text, then link them to any listing. A listing's Images tab shows what is linked and what is available to reuse.",
   },
   groups: {
     heading: "Sell several listings on one page",
@@ -135,6 +147,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Create and update listings",
     body: "Set the date, location, capacity and price from one form, then return later to update the listing.",
   },
+  "mailgun-eu-settings": {
+    heading: "Choose who sends your emails",
+    body: "Pick the email provider, its region and the address tickets are sent from. The API key stays masked once it is saved.",
+  },
   logistics: {
     heading: "Plan deliveries and collections",
     body: "Assign each delivery and collection to an agent, give them a run sheet and record completed work.",
@@ -150,6 +166,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
   "multi-day-hire": {
     heading: "Book several days at once",
     body: "Set how many days one booking covers. The length is on the listing's own page, and the days a booking covers use capacity when its payment is confirmed.",
+  },
+  "named-admin-api-key": {
+    heading: "Automation with a named key",
+    body: "Give another system a key in its own name. The key list shows when it was created and when it was last used.",
   },
   "oakfield-public-website": {
     heading: "Publish your own pages",
@@ -207,6 +227,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Refund a booking",
     body: "Refunding hands back the ticket price, any booking fee and any service charge, and the listing stops counting the sale.",
   },
+  "registration-deadline": {
+    heading: "Booking closes when you say",
+    body: "Set a closes-at date and time on a listing. After that moment the booking form is replaced by a registration-closed message.",
+  },
   "schools-and-ptas": {
     heading: "Ticketing for school events",
     body: "Sell tickets for discos, fairs and fundraisers. Parents can buy several places in one booking.",
@@ -219,6 +243,10 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Arrange the pages you write",
     body: "Write your own pages, choose the address each one lives at, and put them in the order you want them offered in.",
   },
+  "sports-club-programme": {
+    heading: "A season in one group",
+    body: "Put the home fixtures in one group, keep training as a repeating free listing, and sell membership alongside.",
+  },
   "summer-appeal-purchase": {
     heading: "Let people pay what they want",
     body: "Set a minimum and let supporters pay more. What the listing earns is what they chose, wherever the figure is shown.",
@@ -227,9 +255,17 @@ export const SOCIAL_SCREENSHOT_COPY = {
     heading: "Take volunteer sign-ups",
     body: "Give each shift its own place limit, collect access needs and accept a booking with a £0 total.",
   },
+  "taproom-repeating-quiz-night": {
+    heading: "A repeating quiz, set up once",
+    body: "A free daily listing with places per date. Holidays close the shut weeks, and the calendar shows the places left.",
+  },
   "team-users": {
     heading: "Give team members separate accounts",
     body: "Invite each person with a link they set their own password on. Their role decides which pages they can open.",
+  },
+  "theatre-front-of-house": {
+    heading: "Shared house capacity",
+    body: "Adult, child and concession tickets count against one performance limit, and the group's attendee tab lists every booking.",
   },
   "workshop-terms-checkout": {
     heading: "Require agreement before booking",

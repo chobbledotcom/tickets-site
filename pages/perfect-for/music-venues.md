@@ -58,7 +58,7 @@ blocks:
         text: Groups for a season or a weekender.
       - icon: hugeicons:shopping-cart-01
         text: Two nights in one checkout.
-  - type: split-icon-links
+  - type: split-image
     reverse: true
     content: |
       ## Advance sales and the door in one record
@@ -79,13 +79,9 @@ blocks:
       The scanner warns when a ticket has already been scanned or belongs
       to a different show, and a name search covers anyone whose ticket
       will not scan.
-    figure_items:
-      - icon: hugeicons:money-receive-square
-        text: Nothing added to the ticket price.
-      - icon: hugeicons:user-add-01
-        text: Guest list and walk-ins on the same list.
-      - icon: hugeicons:qr-code
-        text: Phone-camera check-in with duplicate warnings.
+    figure_src: /images/screenshots/grassroots-venue-door-list.png
+    figure_alt: A venue show's attendee list showing advance bookings and three manually added guest-list names
+    figure_caption: Advance bookings and guest-list names added by hand sit on one door list, counted against the show's capacity.
   - type: split-icon-links
     content: |
       ## Tickets that stay with the person who bought them

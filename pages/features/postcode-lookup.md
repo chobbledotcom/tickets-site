@@ -14,7 +14,7 @@ blocks:
       # Postcode lookup
 
       Customers type their postcode into the booking form and pick their address from a list. The address field is filled in for them, which means fewer typos on delivery addresses.
-  - type: markdown
+  - type: split-image
     content: |
       ## How it works
 
@@ -32,7 +32,11 @@ blocks:
       The address a customer picks is the one that appears on the
       [deliveries run sheet](/features/logistics/), with a map link for the
       driver.
-
+    figure_src: /images/screenshots/delivery-postcode-lookup.png
+    figure_alt: A marquee hire booking form with a postcode search box showing M25 1FL and the chosen address filled into the address field
+    figure_caption: The customer searches their postcode, picks their address from the results, and the filled address stays editable.
+  - type: markdown
+    content: |
       ## Lookup providers
 
       Address data comes from a lookup provider. The first supported

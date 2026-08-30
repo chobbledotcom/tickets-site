@@ -87,10 +87,14 @@
     "key": "custom-questions",
     "classification": "legacy-product-screenshot"
   },
-  {
-    "key": "daily-events",
-    "classification": "legacy-product-screenshot"
-  },
+    {
+      "key": "daily-events",
+      "classification": "legacy-product-screenshot"
+    },
+    {
+      "key": "delivery-postcode-lookup",
+      "classification": "legacy-product-screenshot"
+    },
   {
     "key": "deposits-and-balance-payments",
     "classification": "linked-evidence",
@@ -115,9 +119,17 @@
     "captureId": "free-headcount-no-money"
   },
   {
-    "key": "group-bulk-actions",
+    "key": "grassroots-venue-door-list",
     "classification": "legacy-product-screenshot"
   },
+    {
+      "key": "group-bulk-actions",
+      "classification": "legacy-product-screenshot"
+    },
+    {
+      "key": "image-library",
+      "classification": "legacy-product-screenshot"
+    },
   {
     "key": "groups",
     "classification": "linked-evidence",
@@ -188,10 +200,14 @@
     "key": "listing-management",
     "classification": "legacy-product-screenshot"
   },
-  {
-    "key": "logistics",
-    "classification": "legacy-product-screenshot"
-  },
+    {
+      "key": "logistics",
+      "classification": "legacy-product-screenshot"
+    },
+    {
+      "key": "mailgun-eu-settings",
+      "classification": "legacy-product-screenshot"
+    },
   {
     "key": "manual-attendees",
     "classification": "linked-evidence",
@@ -205,6 +221,10 @@
     "key": "multi-day-hire",
     "classification": "linked-evidence",
     "captureId": "stay-length-on-the-page"
+  },
+  {
+    "key": "named-admin-api-key",
+    "classification": "legacy-product-screenshot"
   },
   {
     "key": "oakfield-public-website",
@@ -264,11 +284,15 @@
     "classification": "linked-evidence",
     "captureId": "record-repaired"
   },
-  {
-    "key": "refunded-booking",
-    "classification": "linked-evidence",
-    "captureId": "refunded-booking"
-  },
+    {
+      "key": "refunded-booking",
+      "classification": "linked-evidence",
+      "captureId": "refunded-booking"
+    },
+    {
+      "key": "registration-deadline",
+      "classification": "legacy-product-screenshot"
+    },
   {
     "key": "schools-and-ptas",
     "classification": "legacy-product-screenshot"
@@ -324,6 +348,10 @@
     "captureId": "site-pages-in-order"
   },
   {
+    "key": "sports-club-programme",
+    "classification": "legacy-product-screenshot"
+  },
+  {
     "key": "summer-appeal-purchase",
     "classification": "linked-evidence",
     "captureId": "paid-more-than-asked"
@@ -334,9 +362,17 @@
     "captureId": "volunteer-shift-form"
   },
   {
+    "key": "taproom-repeating-quiz-night",
+    "classification": "legacy-product-screenshot"
+  },
+  {
     "key": "team-users",
     "classification": "linked-evidence",
     "captureId": "team-and-roles"
+  },
+  {
+    "key": "theatre-front-of-house",
+    "classification": "legacy-product-screenshot"
   },
   {
     "key": "workshop-terms-checkout",

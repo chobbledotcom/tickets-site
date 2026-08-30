@@ -14,7 +14,7 @@ blocks:
       # Registration deadlines
 
       Set cut-off times for bookings and configure purchase limits per event or per attendee.
-  - type: markdown
+  - type: split-image
     content: |
       ## Booking cut-off times
 
@@ -33,6 +33,9 @@ blocks:
       When the deadline passes or the capacity is reached, the booking form
       is automatically disabled. There's no manual intervention required -
       the system handles it for you.
+    figure_src: /images/screenshots/registration-deadline.png
+    figure_alt: A pottery workshop booking page showing a Registration closed message in place of the booking form
+    figure_caption: After the closes-at time passes, the public booking page shows a registration-closed message and accepts no further bookings.
   - type: cta
     button:
       text: Get Started

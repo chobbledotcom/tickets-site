@@ -44,7 +44,7 @@ blocks:
         text: Take a deposit now, collect the balance later.
       - icon: hugeicons:help-circle
         text: Ask about ground, access, and pegging at checkout.
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## Set-up, teardown, and your crews
 
@@ -64,13 +64,9 @@ blocks:
       [Packages](/features/packages/) bundle a marquee with extras such as
       flooring, lighting, chairs, or a generator into one booking with one
       price.
-    figure_items:
-      - icon: hugeicons:delivery-truck-02
-        text: Crews see only their own run sheet.
-      - icon: hugeicons:wrench-01
-        text: Block out marquees for cleaning and repairs.
-      - icon: hugeicons:package
-        text: Bundle flooring, lighting, and furniture into packages.
+    figure_src: /images/screenshots/logistics-deliveries.png
+    figure_alt: A marquee hire run sheet showing one customer's drop-off at 08:30 and collection at 17:00, each with a mark-done control
+    figure_caption: A crew's day lists each customer's address, phone number and assigned times, with a control to mark each job done as it happens.
   - type: features
     dark: true
     intro_content: "## Features for marquee hire"

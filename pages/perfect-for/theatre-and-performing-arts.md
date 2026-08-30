@@ -41,7 +41,7 @@ blocks:
         text: A £10 ticket costs the audience £10
       - icon: hugeicons:calendar-03
         text: Per-performance capacity for a run of dates
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## General admission only
 
@@ -59,11 +59,9 @@ blocks:
       Not everyone books online. [Manual attendees](/features/manual-attendees/)
       record door sales, and they appear in the same attendee lists and
       [CSV exports](/features/csv-export/) as online bookings.
-    figure_items:
-      - icon: hugeicons:ticket-01
-        text: General admission, with no seat maps
-      - icon: hugeicons:user-list
-        text: Adult, child, and concession prices with one house limit
+    figure_src: /images/screenshots/theatre-front-of-house.png
+    figure_alt: A theatre group's attendee tab listing bookings across adult, child and concession tickets
+    figure_caption: Adult, child and concession tickets count against one performance limit, and the group's attendee tab lists every booking together.
   - type: features
     dark: true
     intro_content: "## Features for the box office"
