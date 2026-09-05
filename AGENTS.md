@@ -462,5 +462,3 @@ request, and do not push a fix without replying to the comment that prompted
 it. A pushed commit is not a reply. The purpose is that a person reading the
 pull request can confirm every comment was dealt with, without reading the
 diff or the commit messages.
-
-End every comment posted to GitHub with the Claude Code attribution footer.
