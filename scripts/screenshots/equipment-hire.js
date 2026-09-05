@@ -1,4 +1,5 @@
 import {
+  blurActiveElement,
   createListing,
   openFilledListingCheckout,
   setFormValues,
@@ -57,6 +58,11 @@ main {
   box-shadow: var(--box-shadow) var(--color-shadow);
   margin-block: 0.75rem;
   padding: 1.25rem;
+}
+
+main h1 {
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
 }
 
 button,
@@ -135,5 +141,6 @@ fieldset {
       .selectOption(await futureFridayFrom(context.page));
     await context.page.locator('[name="day_count"]').selectOption("3");
     await waitForOrderTotal(context.page, "£135");
+    await blurActiveElement(context.page);
   },
 };

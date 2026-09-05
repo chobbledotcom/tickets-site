@@ -1,4 +1,5 @@
 import {
+  blurActiveElement,
   createListing,
   createQuestion,
   enableFeature,
@@ -48,6 +49,12 @@ main select,
 main button,
 main fieldset {
   border-radius: 7px;
+}
+
+/* Keep the picked answer in the bakery's brown rather than the browser blue. */
+main input[type="radio"],
+main input[type="checkbox"] {
+  accent-color: var(--color-link);
 }
 
 main .custom-question {
@@ -111,5 +118,6 @@ main .running-total {
     if (allergyValue !== "Nut allergy") {
       throw new Error("Could not fill the allergy answer.");
     }
+    await blurActiveElement(context.page);
   },
 };

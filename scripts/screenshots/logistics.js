@@ -48,11 +48,21 @@ body {
   margin-bottom: 0.75rem;
 }
 
+/* The day panel is a wrapping column flex box, so its .prose child sizes to
+   the widest unwrapped row and pushes the white booking card past the panel
+   edge. Pin it to the panel's content width so the card stays inside. */
+.delivery-day > .prose {
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .delivery-bookings > li {
   background: #fff;
   border: 1px solid #c9dfe7;
   border-left: 5px solid var(--color-accent);
   border-radius: 7px;
+  box-sizing: border-box;
+  max-width: 100%;
   padding: 0.85rem 0.85rem 0.85rem 0.65rem;
 }
 
@@ -72,9 +82,12 @@ body {
   padding: 0.55rem;
 }
 
+/* The app gives every form a 285px min-width, which pushes this inline toggle
+   out of the card, so let it shrink. */
 .delivery-mark {
   border: 0;
   margin: 0;
+  min-width: 0;
   padding: 0;
 }
 
@@ -85,7 +98,7 @@ body {
   color: #172b38;
   font-size: 0.78rem;
   font-weight: 800;
-  padding: 0.35rem 0.7rem;
+  padding: 0.5rem 1rem;
   text-decoration: none;
 }
 `,
@@ -145,5 +158,34 @@ body {
       .waitFor();
     await deliveryDay.getByText("08:30", { exact: false }).waitFor();
     await deliveryDay.getByText("17:00", { exact: false }).waitFor();
+
+    const overflow = await page.evaluate(() => {
+      const panel = document.querySelector(".delivery-day");
+      const card = panel?.querySelector(".delivery-bookings > li");
+      if (!(panel && card)) return null;
+      const cardBox = card.getBoundingClientRect();
+      const widest = Math.max(
+        ...[...card.querySelectorAll("*")].map(
+          (node) => node.getBoundingClientRect().right,
+        ),
+      );
+      return {
+        card: cardBox.right - panel.getBoundingClientRect().right,
+        content: widest - cardBox.right,
+      };
+    });
+    if (overflow === null) {
+      throw new Error("Could not measure the booking card in its day panel.");
+    }
+    if (overflow.card > 1) {
+      throw new Error(
+        `The booking card overflows its day panel by ${overflow.card.toFixed(1)}px.`,
+      );
+    }
+    if (overflow.content > 1) {
+      throw new Error(
+        `Booking card content spills ${overflow.content.toFixed(1)}px past the card.`,
+      );
+    }
   },
 };

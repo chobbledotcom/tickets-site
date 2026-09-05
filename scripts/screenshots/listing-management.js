@@ -21,7 +21,10 @@ export default {
   border: 1px solid #ddc69d;
   border-top: 6px solid var(--color-secondary);
   box-shadow: 0 12px 26px var(--color-shadow);
-  padding: 1rem;
+  --line-height: 1.45;
+  --space-m: 0.7rem;
+  --space-s: 0.35rem;
+  padding: 0.75rem;
 }
 
 .listing-section legend {
@@ -33,6 +36,14 @@ export default {
 
 .listing-section label {
   font-weight: 700;
+}
+
+.listing-section p:has(> small) {
+  margin: 0.15rem 0;
+}
+
+.listing-section .md-editor .ProseMirror {
+  min-height: 4em;
 }
 
 .listing-section input,

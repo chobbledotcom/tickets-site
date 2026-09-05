@@ -1,4 +1,5 @@
 import {
+  blurActiveElement,
   createGroup,
   createListing,
   openFilledGroupCheckout,
@@ -29,6 +30,11 @@ main {
   box-shadow: var(--box-shadow) var(--color-shadow);
   margin-block: 2rem;
   padding: 2rem 3rem;
+}
+
+main h1 {
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
 }
 
 button,
@@ -97,5 +103,6 @@ table {
         [childListingId, "2"],
       ],
     });
+    await blurActiveElement(context.page);
   },
 };
