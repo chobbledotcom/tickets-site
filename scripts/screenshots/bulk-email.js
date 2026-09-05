@@ -59,17 +59,19 @@ body {
   border: 1px solid #d8dee8;
   box-shadow: 0 16px 38px var(--color-shadow);
   box-sizing: border-box;
+  font-size: 0.9rem;
+  --line-height: 1.5;
   margin: 0;
   max-width: 430px;
-  padding: 1.35rem;
+  padding: 1.1rem;
 }
 
 .page-regions.admin-page h1 {
   color: #123b91;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   letter-spacing: -0.02em;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .page-regions.admin-page > p:has(.btn),
@@ -88,8 +90,8 @@ body {
 .page-regions.admin-page .prose h2 {
   color: #123b91;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.3rem;
-  margin-top: 1.25rem;
+  font-size: 1.2rem;
+  margin-top: 0.9rem;
 }
 
 .email-preview {
@@ -98,7 +100,7 @@ body {
   border-left: 4px solid #1756d1;
   border-radius: 8px;
   color: var(--color-text);
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
 .email-preview p:first-child {

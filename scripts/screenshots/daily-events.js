@@ -47,6 +47,21 @@ export default {
   border-radius: 12px;
 }
 
+/* The app's own selected-day background loses to the accent rule for links,
+   leaving light text on pale yellow. Fill the selected day with the dark link
+   colour; today keeps its outline, so the two states differ by shape too. */
+a.cal-day.cal-day-selected,
+a.cal-day.cal-day-selected:hover,
+a.cal-day.cal-day-selected:active {
+  background: var(--color-link);
+  color: var(--color-bg);
+}
+
+.cal-day-today {
+  outline: 2px solid var(--color-link);
+  outline-offset: 1px;
+}
+
 .availability-table {
   font-size: 0.78rem;
   white-space: normal;
