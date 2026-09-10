@@ -1,6 +1,6 @@
 ---
 title: Bookwhen Alternative
-meta_title: Bookwhen Alternative Compared | Chobble Tickets
+meta_title: Open Source & Flat Fee Bookwhen Alternative | Chobble Tickets
 meta_description: Compare Bookwhen and Chobble Tickets on booking limits, prices including VAT, class passes, memberships, attendee data, custom domains and self-hosting.
 permalink: /compared-to/bookwhen/
 eleventyNavigation:
@@ -48,10 +48,23 @@ blocks:
     content: |-
       # Chobble Tickets vs Bookwhen
 
-      Bookwhen takes bookings for classes, courses and events. Its plans have monthly booking allowances and different features, while Chobble Tickets charges one prepaid hosting price for its full product.
+      Bookwhen is a UK booking platform for classes, courses and events, with memberships, class passes and monthly booking allowances. This page compares its pricing, features and data handling with Chobble Tickets.
   - type: markdown
     content: |
-      ## Pricing and booking limits
+      ## Open source & flat fee Bookwhen alternative
+
+      Chobble Tickets is a booking and ticketing platform whose
+      [source code is published](/features/open-source/), so you can read,
+      change and run your own copy. Bookwhen is not open source and does
+      not offer a self-hosted edition.
+
+      Neither platform lists a separate per-ticket platform fee. Bookwhen's
+      subscription plans differ by booking volume and features, while
+      Chobble charges one prepaid hosting price for all current Chobble
+      Tickets features. Payment processing costs extra on both platforms.
+  - type: markdown
+    content: |
+      ## Pricing comparison
 
       [Bookwhen's pricing page](https://bookwhen.com/pricing) lists the
       following UK prices, checked on 10 September 2026. The amounts below
@@ -67,10 +80,6 @@ blocks:
       Free supports free events only. Lite adds payments, discounts, ticket
       transfers and Zoom integration. Standard adds memberships, class
       passes, vouchers, reminders, waiting lists and attendance tracking.
-
-      Plus adds telephone support by requested callback alongside online
-      support. Chobble provides written support rather than a telephone
-      support centre.
 
       Bookwhen also lists custom Enterprise plans and offers charities and
       non-profits a 20% discount, arranged through support before subscribing.
@@ -99,7 +108,7 @@ blocks:
       annual price including VAT, before payment processing.
   - type: markdown
     content: |
-      ## Payment processing
+      ### Payment processing
 
       Bookwhen lists no separate per-ticket platform fee, but online payments
       carry processing charges. Its [updated Stripe integration](https://support.bookwhen.com/en/articles/16412765-bookwhen-payments-powered-by-stripe-fee-pricing)
@@ -118,11 +127,25 @@ blocks:
       separate from Chobble's hosting price.
   - type: markdown
     content: |
-      ## Classes and repeat bookings
+      ## Feature comparison
 
-      Both platforms support recurring events, multiple ticket types,
-      booking questions, confirmation emails and booking exports.
-      Bookwhen also has tools for running an ongoing class programme:
+      Bookwhen's class tools cover ongoing memberships and credits for
+      future sessions. Chobble Tickets handles individual event bookings
+      and packages of specified listings, rather than recurring membership
+      billing or a balance of class credits.
+  - type: markdown
+    content: |
+      ### Both platforms share some features
+
+      - Free and paid events
+      - Recurring events and multiple ticket types
+      - Custom booking questions
+      - Email confirmations after booking
+      - Booking exports for use in a spreadsheet
+      - Booking pages embedded in an existing website
+  - type: markdown
+    content: |
+      ### Bookwhen has features Chobble Tickets doesn't
 
       - **Memberships:** collect recurring membership payments and offer
         exclusive tickets on Standard and higher plans. Chobble Tickets can
@@ -140,32 +163,36 @@ blocks:
         automatically. Standard and higher plans also support protected
         YouTube and Vimeo event pages. Chobble organisers can send an external
         meeting link by email, but it has no built-in Zoom meeting creation.
-
+      - **Telephone support:** Plus includes support by requested callback
+        alongside online support. Chobble provides written support rather
+        than a telephone support centre.
   - type: markdown
     content: |
-      ## Branding, websites and integrations
+      ### Chobble Tickets features and differences
 
-      Bookwhen's paid plans let you add your logo, header and colours to a
-      [hosted booking page](https://support.bookwhen.com/en/articles/753349-how-to-customise-your-public-page).
-      You can embed the schedule in an existing website. Its
-      [URL guide](https://support.bookwhen.com/en/articles/3077742-how-to-change-your-public-page-url)
-      lets you choose an address under `bookwhen.com`; Bookwhen does not
-      offer hosting on your own domain.
-
-      Full removal of Bookwhen branding is not documented in its
-      customisation guide. Chobble Tickets includes
-      [your own domain](/features/custom-domain/),
-      [organiser-only branding](/features/white-labelling/) and a
-      [public website](/features/your-public-website/) with content pages,
-      news posts and a contact form.
-
-      Both platforms publish an API, a way for other software to connect to
-      the platform. Bookwhen's [documented API](https://api.bookwhen.com/v2)
-      reads public event data. Chobble's [admin API](/features/admin-api/)
-      also lets other software create, edit and delete events.
+      - **[Your own domain](/features/custom-domain/):** host bookings at an
+        address you own. Bookwhen's
+        [URL guide](https://support.bookwhen.com/en/articles/3077742-how-to-change-your-public-page-url)
+        lets you choose an address under `bookwhen.com`; it does not offer
+        hosting on your own domain.
+      - **[Organiser-only branding](/features/white-labelling/):** booking
+        pages, tickets and emails carry no Chobble branding. Bookwhen's paid
+        plans let you add your logo, header and colours, but full removal of
+        Bookwhen branding is not documented in its
+        [customisation guide](https://support.bookwhen.com/en/articles/753349-how-to-customise-your-public-page).
+      - **[A public website](/features/your-public-website/):** publish
+        content pages, news posts and a contact form alongside bookings.
+        Bookwhen provides hosted booking pages and an embeddable schedule.
+      - **[Event management through an API](/features/admin-api/):** an API
+        lets other software connect to the platform. Chobble's admin API
+        can create, edit and delete events; Bookwhen's
+        [documented API](https://api.bookwhen.com/v2) reads public event data.
+      - **[Same-product self-hosting](/features/open-source/):** run the
+        complete product on your own infrastructure with no Chobble software
+        fee. Infrastructure and configured services cost extra.
   - type: markdown
     content: |
-      ## Attendee data and moving providers
+      ## Data ownership
 
       Bookwhen stores booking data as a service provider acting on the
       organiser's instructions. Its [data processing agreement](https://bookwhen.com/data-processing-agreement)
@@ -185,12 +212,10 @@ blocks:
       as dates, quantities and prices remain readable by the application.
 
       Chobble Tickets lets you download a [complete database backup](/features/backups/)
-      and export event setup as a versioned JSON file, a structured file
-      another Chobble Tickets host can import. You can run the same
-      [published product](/features/open-source/) on your own infrastructure
-      with no Chobble software fee; infrastructure and configured services
-      cost extra. Bookwhen is not open source and does not offer a
-      self-hosted edition.
+      and [export event setup](/features/catalogue-import-export/) as a
+      versioned JSON file, a structured file another Chobble Tickets host
+      can import. The setup export is separate from attendee and payment
+      records; those are included in the database backup.
   - type: markdown
     content: |
       ## Ending a paid term
@@ -211,11 +236,45 @@ blocks:
       the site and database.
   - type: markdown
     content: |
+      ## When Bookwhen might be the better choice
+
+      - You run weekly classes where members pay automatically and book
+        using credits bought in advance.
+      - You need cancelled places offered to a waiting list and reminders
+        sent without staff sending each message.
+      - You teach online and want the booking system to create Zoom meetings.
+      - You run free events within the Free plan's allowances and do not
+        need its paid features.
+  - type: markdown
+    content: |
+      ## When Chobble Tickets might be the better choice
+
+      - You run events with seasonal peaks in sales and want a hosting
+        price that does not depend on monthly booking volume.
+      - You want the booking site at your own web address, with information
+        pages and news alongside events.
+      - You need another system to create and update your event programme.
+      - You want to move the same ticketing software and its database to
+        another host, or maintain a changed version yourself.
+  - type: markdown
+    content: |
+      ## Who runs Bookwhen?
+
+      Bookwhen is provided by
+      [Bookwhen Ltd](https://find-and-update.company-information.service.gov.uk/company/08914060),
+      a UK company incorporated on 27 February 2014. Its company number
+      is 08914060.
+
+      Chobble Tickets is provided by [Chobble, a community interest
+      company](/about/). This UK company structure keeps its assets for
+      community benefit, and Chobble does not distribute profits to
+      shareholders.
+  - type: markdown
+    content: |
       ## Sources
 
       These sources were checked on 10 September 2026. Prices and features
       may change; check the linked pages before choosing a service.
-      Bookwhen Ltd is a UK company incorporated on 27 February 2014.
 
       - [Bookwhen pricing](https://bookwhen.com/pricing)
       - [Bookwhen help centre](https://support.bookwhen.com/en/)
@@ -243,5 +302,5 @@ blocks:
       ## Try Chobble Tickets
 
       Register a site with prepaid monthly or annual hosting.
-name: Bookwhen Alternative Compared | Chobble Tickets
+name: Open Source & Flat Fee Bookwhen Alternative | Chobble Tickets
 ---
