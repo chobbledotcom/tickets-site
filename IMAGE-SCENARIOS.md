@@ -7,18 +7,19 @@ layout: null
 
 ## Scope
 
-This audit covers all 169 rendered client pages. A page counts as illustrated
+This audit covers 178 English content pages, counting translated pages only
+through their English source. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
 and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 167 | 66 | 101 |
+| Editorial pages in the sitemap | 176 | 77 | 99 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All rendered pages** | **169** | **66** | **103** |
+| **All English content pages** | **178** | **77** | **101** |
 
-The 101 editorial pages are the main illustration backlog. The two utility
+The 99 image-less editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -230,6 +231,7 @@ pages are listed separately at the end.
 
 | Page | Proposed asset | Scenario and composition | Organiser value |
 |---|---|---|---|
+| `pages/compared-to/bookwhen.md` | Comparison graphic: `bookwhen-class-plans-and-hosting` | Fernbank runs weekly classes. Put Bookwhen's dated VAT-inclusive plans, monthly transaction allowances, memberships and redeemable class passes beside Chobble's prepaid hosting, own domain and self-hosting. Show several tickets in one Bookwhen transaction counting as one booking, and keep payment processing separate. | Explains booking allowances without treating them as ticket counts, while showing where Bookwhen's class tools may justify its price. |
 | `pages/compared-to/signupgenius.md` | Comparison graphic: `signupgenius-volunteers-and-tickets` | Oakfield needs 24 volunteer shifts plus a paid Summer Disco. Show SignUpGenius's rota, Chobble's paid checkout and a simpler free Chobble volunteer form. | Shows overlap while recognising the specialist coordination tool. |
 | `pages/compared-to/google-forms.md` | Diagram: `google-forms-ticket-workflow` | Community Supper has 80 places, a £10 price, dietary questions and door entry. Compare Form, Sheet, payment link, manual capacity, email merge and printed list with Chobble's connected flow. | Makes the extra coordination visible. |
 | `pages/compared-to/pen-and-paper.md` | Diagram: `paper-versus-online-scale` | Compare a 20-person neighbourhood dinner using a clipboard and cash tin with Oakfield Summer Disco using payment, capacity, confirmation and QR scanning. | Fairly shows the point where software starts solving more than it adds. |

@@ -36,6 +36,9 @@ blocks:
         description: A UK-focused ticketing platform with per-ticket fees. Compare pricing and features.
         name: <a href="/compared-to/bookitbee/">BookitBee alternative</a>
       - icon: hugeicons:calendar-03
+        description: A UK booking platform for classes, courses and events. Compare booking allowances, class passes, memberships and prepaid hosting.
+        name: <a href="/compared-to/bookwhen/">Bookwhen alternative</a>
+      - icon: hugeicons:calendar-03
         description: A scheduling platform that took its production code closed source in April 2026. Compare paid bookings vs purpose-built event ticketing.
         name: <a href="/compared-to/cal-com/">Cal.com alternative</a>
       - icon: hugeicons:ticket-01
