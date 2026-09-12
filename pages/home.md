@@ -1,7 +1,7 @@
 ---
 title: Chobble Tickets - Event Ticketing Software
 meta_title: Event Ticketing Software UK | Chobble Tickets
-meta_description: Sell event tickets for £50 a year or £5 a month with no per-ticket platform fees. Includes payments, QR check-in, refunds, reporting and a hosted booking site.
+meta_description: Sell event tickets online for £50 a year or £5 a month with no per-ticket platform fees. Includes payments, QR check-in, refunds, reporting and a hosted booking site.
 permalink: /
 eleventyNavigation:
   key: Home
@@ -41,7 +41,7 @@ blocks:
 
       Create fixed-date, repeating or multi-day listings. Each listing can have its own price, capacity, booking window, questions and terms.
 
-      After sales open, staff can [check bookings in](/features/qr-code-check-ins/), reverse a check-in, issue [full refunds](/features/refunds/), email attendee groups and export operational or financial data. The activity log records changes made by each administrator.
+      After sales open, staff can [check bookings in](/features/qr-code-check-ins/), reverse a check-in, issue [full refunds](/features/refunds/), email attendee groups and export operational or financial data. Attendees can add their ticket to [Apple Wallet or Google Wallet](/features/apple-wallet/). The activity log records changes made by each administrator.
     button:
       text: See all features
       href: /features/
@@ -116,7 +116,7 @@ blocks:
     content: |
       ## Use the included site or your existing one
 
-      Each account includes a public website for listings, news and content pages. You can add your own domain and change the colours, images, wording and email templates.
+      Each account includes a [white label](/features/white-labelling/) public website for listings, news and content pages. You can add your own domain and change the colours, images, wording and email templates.
 
       An iframe places the booking pages inside an existing site. The order widget can instead turn links into add-to-cart buttons and send the finished order to checkout.
     figure_items:

@@ -69,7 +69,7 @@ blocks:
       your attendees.
   - type: markdown
     content: |
-      ## Pricing comparison
+      ## Eventbrite fees comparison
 
       [Eventbrite](https://www.eventbrite.co.uk) charges a percentage plus a fixed fee per ticket, and their
       pricing has changed multiple times over the years (generally trending

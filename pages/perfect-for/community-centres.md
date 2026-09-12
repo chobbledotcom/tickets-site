@@ -158,6 +158,9 @@ blocks:
       covers sessions with no charge, and
       [charity events](/perfect-for/charity-events/) covers fundraising
       and the reduced community price.
+
+      [Church events](/perfect-for/church-events/) covers the concerts,
+      fundraisers and regular groups run by a faith community.
   - type: cta
     button:
       text: Start for £5

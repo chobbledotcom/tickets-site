@@ -61,6 +61,8 @@ blocks:
       and stall pitches, and
       [free events that still need a headcount](/perfect-for/free-events/)
       covers events with no payment at all.
+      [Church events](/perfect-for/church-events/) covers concerts,
+      fundraisers and regular groups run by a faith community.
   - type: cta
     button:
       text: Get Started

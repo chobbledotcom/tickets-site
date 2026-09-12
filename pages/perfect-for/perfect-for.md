@@ -121,6 +121,9 @@ blocks:
       - icon: hugeicons:tent
         description: Sell gate admission, stall pitches and raffle entries with ledger-backed records for the treasurer.
         name: <a href="/perfect-for/fetes-and-fairs/">Fetes and fairs</a>
+      - icon: hugeicons:heart-check
+        description: Take bookings for concerts, fundraisers and regular groups, with free sign-ups for events that need only a headcount.
+        name: <a href="/perfect-for/church-events/">Church events</a>
   - type: cta
     button:
       text: Start for £5

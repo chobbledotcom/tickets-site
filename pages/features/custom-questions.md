@@ -64,6 +64,11 @@ blocks:
       The answer-triggered modifier uses the same pricing engine as promo
       codes and add-ons, so stock limits, scoping, and the live running
       total all work the same way.
+
+      An answer-triggered modifier can be capped per order. It can charge
+      once per booking, or at most a set number of times, so a per-answer
+      charge such as a delivery-area fee does not multiply across every
+      ticket in one order.
   - type: markdown
     content: |
       ## Answers everywhere you need them

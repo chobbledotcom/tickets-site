@@ -1,7 +1,7 @@
 ---
 title: CSV Export - Chobble Tickets
-meta_title: Event and Attendee CSV Reports | Chobble Tickets
-meta_description: Export event, attendee and staff-calendar CSV reports with ticket sales, revenue, capacity, answers, check-in state, payment references and locations.
+meta_title: Attendee List CSV Export for Events | Chobble Tickets
+meta_description: Download your attendee list as CSV with contact details, amounts paid, payment references, check-in state and custom answers, alongside event and staff-calendar reports.
 permalink: /features/csv-export/
 ticket_evidence_capture: attendee-csv-export
 eleventyNavigation:
@@ -24,6 +24,10 @@ blocks:
       ## Attendee reports
 
       Attendee exports can include contact details, amount paid, payment reference, check-in state, ticket URL and answers to custom questions. Daily listings can be filtered by date, and check-in filters can produce door or attendance lists.
+
+      The attendee list CSV keeps the order shown on the attendee tab. A newest-first or oldest-first sort exports in that order, and a download with no chosen sort uses the table's own date-and-name order.
+
+      The CSV writer marks any cell that could run as a spreadsheet formula, such as a name beginning with =, +, - or @. A booking cannot plant a formula that runs when the file is opened in Excel or Google Sheets.
 
       ## Staff calendars
 

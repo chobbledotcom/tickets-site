@@ -7,7 +7,7 @@ layout: null
 
 ## Scope
 
-This audit covers 178 English content pages, counting translated pages only
+This audit covers 181 English content pages, counting translated pages only
 through their English source. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
@@ -15,11 +15,11 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 176 | 77 | 99 |
+| Editorial pages in the sitemap | 179 | 77 | 102 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All English content pages** | **178** | **77** | **101** |
+| **All English content pages** | **181** | **77** | **104** |
 
-The 99 image-less editorial pages are the main illustration backlog. The two utility
+The 102 image-less editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -138,6 +138,7 @@ pages are listed separately at the end.
 | `pages/perfect-for/performers-and-artists.md` | Attendee screenshot: `artist-own-domain-checkout` | A checkout on an artist's own domain with no Chobble branding, a £12 ticket with nothing added to the total, and a pay-what-you-want option above a £5 minimum for a work-in-progress date. | Shows the artist's own front door and the price the audience actually pays. |
 | `pages/perfect-for/community-centres.md` | [x] Cucumber evidence capture: `maintenance-cost-on-a-room` | The costs recorded against a service hold, taken from the case that records £90 for a boiler part against Room A. The hold's own dates are left out of the picture: the case puts them far in the future so no passing date can collide with them. | Shows that a room can be taken out of use for maintenance and what the work cost recorded against it, without a customer booking standing in for either. |
 | `pages/perfect-for/free-events.md` | [x] Cucumber evidence capture: `free-headcount-no-money` | A free listing's own page, taken from the case that books a free place on a site charging a 10 percent booking fee on its paid listings: Ticket Price Free, one of fifty places taken, and nothing in the money figures. | Shows that a listing given away for free still counts its places and still invents no money. |
+| `pages/perfect-for/church-events.md` | Attendee screenshot: `church-fundraiser-supper` | St Barnabas Church's parish fundraiser supper: a £12 ticket with a dietary-requirements question answered, on the church's own listing with places remaining. | Shows a congregation event collecting catering details through booking, with no attendee account. |
 
 ## Guide Pages
 
@@ -156,6 +157,8 @@ pages are listed separately at the end.
 | `guide-pages/where-ticketing-money-goes.md` | Comparison graphic: `donation-pledge-breakdown` | Break a £15 ticket into face value, booking fee, service fee, payment processing and the donated share for a pledge-funded plan, beside a flat hosting fee with the ticket charge left whole. | Shows which part of an organiser's cost a donation pledge is taken from. |
 | `guide-pages/event-ticketing-systems-a-coding-agent-can-deploy.md` | Comparison graphic: `published-versus-deployed-source` | Place the reviewed providers on two axes: whether the source is published, and whether the published source is what the hosted service runs. Mark the branding and paid-plugin qualifications recorded on each comparison page, and show what remains to be maintained under each deployment shape. | Separates readable code from deployable code, which is the distinction that decides what an agent can verify. |
 | `guide-pages/open-source-ticketing-platforms.md` | Comparison graphic: `open-source-licence-matrix` | Place the reviewed providers on two axes: licence type (permissive, copyleft, open core, source-available, community-edition-versus-proprietary) and whether the hosted service runs the published code. Mark the per-ticket fee and self-hosting condition from each comparison page, and show Chobble's AGPL-3.0-only product with both managed and self-hosted paths. | Separates what publishing code means legally from what an organiser can run and at what cost. |
+| `guide-pages/box-office-software.md` | Admin screenshot: `door-list-and-walk-ups` | The Lantern Rooms' door view on the night: the attendee list with checked-in counts beside walk-up names added as manual attendees, one cash payment recorded and the ledger total for the evening. | Shows advance sales, the door and the money record as one workflow. |
+| `guide-pages/event-registration-software.md` | Attendee screenshot: `free-registration-with-questions` | A free talk registration with a place limit, a required access-requirements question answered and the confirmation email with the joining link. | Shows what registration without payment collects, and what the organiser receives. |
 
 ## Comparison Hubs
 

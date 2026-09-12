@@ -1,6 +1,6 @@
 ---
 title: Selling Tickets - Chobble Tickets
-meta_title: Sell Event Tickets Online | Chobble Tickets
+meta_title: Sell Event Tickets Online in the UK | Chobble Tickets
 meta_description: Take card and offline payments, sell packages, set price rules, collect deposits, check capacity when payment is confirmed and issue refunds.
 permalink: /features/selling-tickets/
 eleventyNavigation:
@@ -65,5 +65,5 @@ blocks:
       ## Create a hosted ticketing site
 
       Managed hosting includes every selling and payment feature with no per-ticket platform fee.
-name: Sell Event Tickets Online | Chobble Tickets
+name: Sell Event Tickets Online in the UK | Chobble Tickets
 ---
