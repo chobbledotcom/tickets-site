@@ -17,7 +17,7 @@ blocks:
       Sell tickets for discos, fairs and performances, collect donations and raffle payments, and keep online and cash income in one ledger. Eligible PTAs and community groups pay £25 a year for managed hosting.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -104,7 +104,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

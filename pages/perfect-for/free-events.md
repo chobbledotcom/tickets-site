@@ -18,7 +18,7 @@ blocks:
       A private view, a story time, a public meeting or a taster session takes no money and still needs to know who is coming, cap the numbers and reach everyone when the date moves. Free listings need no payment provider at all.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -166,7 +166,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: secondary
       size: lg
     content: |-

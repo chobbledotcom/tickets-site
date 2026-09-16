@@ -17,7 +17,7 @@ blocks:
       Put quiz nights, live music, tap takeovers and supper clubs on sale, and take free bookings for the nights you do not charge for. Managed hosting costs £50/year or £5/month with no Chobble per-ticket platform fee.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -164,7 +164,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: secondary
       size: lg
     content: |-

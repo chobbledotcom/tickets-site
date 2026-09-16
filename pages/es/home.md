@@ -13,7 +13,7 @@ blocks:
       Chobble cobra por el alojamiento, no por cada venta. El alojamiento gestionado cuesta £50 al año o £5 al mes, con todas las funciones y sin límite de eventos ni de entradas. El mismo software de código abierto funciona en el alojamiento de Chobble o en la infraestructura que usted elija, puede exportar sus datos, y el dinero de las entradas llega directamente a su cuenta de Stripe, Square o SumUp.
     buttons:
       - text: Empezar por £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: Ver precios
@@ -88,7 +88,7 @@ blocks:
       Chobble mantiene el software y el alojamiento. No hay niveles de funciones, y el precio no cambia con el número de entradas vendidas.
     button:
       text: Crear una web alojada
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
     figure_items:
       - icon: hugeicons:flash
@@ -158,7 +158,7 @@ blocks:
   - type: cta
     button:
       text: Empezar por £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

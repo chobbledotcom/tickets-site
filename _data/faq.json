@@ -22,12 +22,12 @@
 	{
 		"section": "Pricing and fees",
 		"question": "Is there a discount for charities or community groups?",
-		"answer": "Charities, community groups, artists, and musicians get a 50% discount on the annual plan, bringing the cost to £25/year. The discount applies to annual billing only. Monthly billing stays at £5/month for all organisers. There is no Chobble per-ticket platform fee on either plan. You can <a href=\"https://tix.chobble.com/ticket/register\">sign up for managed hosting</a>, or run the AGPL-3.0-only software on infrastructure you pay for and manage."
+		"answer": "Charities, community groups, artists, and musicians get a 50% discount on the annual plan, bringing the cost to £25/year. The discount applies to annual billing only. Monthly billing stays at £5/month for all organisers. There is no Chobble per-ticket platform fee on either plan. You can <a href=\"https://tix.chobble.com/listings\">sign up for managed hosting</a>, or run the AGPL-3.0-only software on infrastructure you pay for and manage."
 	},
 	{
 		"section": "Pricing and fees",
 		"question": "Can I pay monthly instead of annually?",
-		"answer": "Yes. <a href=\"https://tix.chobble.com/ticket/register\">Managed hosting</a> is £50/year if you pay annually, or £5/month if you pay monthly. Monthly billing works out at £60 over a year, which is £10 more than the annual rate. This covers the extra Stripe transaction fees on the additional charges and the admin overhead of handling failed payments and retries. Monthly billing can be cancelled at any time and there are no exit fees. The 50% charity, community, artist, and musician discount applies to the annual plan only."
+		"answer": "Yes. <a href=\"https://tix.chobble.com/listings\">Managed hosting</a> is £50/year if you pay annually, or £5/month if you pay monthly. Monthly billing works out at £60 over a year, which is £10 more than the annual rate. This covers the extra Stripe transaction fees on the additional charges and the admin overhead of handling failed payments and retries. Monthly billing can be cancelled at any time and there are no exit fees. The 50% charity, community, artist, and musician discount applies to the annual plan only."
 	},
 	{
 		"section": "Pricing and fees",

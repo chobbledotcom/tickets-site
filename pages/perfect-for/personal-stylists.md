@@ -17,7 +17,7 @@ blocks:
       Take payment for wardrobe consultations, personal shopping, colour sessions and group workshops. Collect preferences at checkout and keep payment and booking records together.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -102,7 +102,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

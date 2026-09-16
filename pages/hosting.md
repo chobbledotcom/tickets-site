@@ -15,7 +15,7 @@ blocks:
       Chobble can run a separate ticketing site for £50 a year or £5 a month. Technical users can instead run the same software on infrastructure they control.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: View source code
@@ -101,7 +101,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

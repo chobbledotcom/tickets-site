@@ -17,7 +17,7 @@ blocks:
       Publish fixed-price menus or services, collect the customer’s requirements and take a deposit or full payment. Delivery, setup and collection work can be assigned after the order is placed.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -104,7 +104,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

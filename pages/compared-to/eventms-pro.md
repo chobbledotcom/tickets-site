@@ -81,7 +81,7 @@ blocks:
       install under your brand, with an approval workflow for new events.
 
       Chobble Tickets is a ticketing platform for a single organiser. You sign
-      up at [tix.chobble.com](https://tix.chobble.com/ticket/register) and run
+      up at [tix.chobble.com](https://tix.chobble.com/listings) and run
       events from the admin area, or
       [self-host the code](/features/open-source/) on your own server. Chobble
       runs the managed version for you, so most organisers have no server to
@@ -343,7 +343,7 @@ blocks:
   - type: cta
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: secondary
       size: lg
     content: |-

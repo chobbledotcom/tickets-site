@@ -85,7 +85,7 @@ blocks:
   - type: cta
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: secondary
       size: lg
     content: |-

@@ -13,7 +13,7 @@ blocks:
       Chobble berechnet das Hosting, nicht den einzelnen Verkauf. Verwaltetes Hosting kostet £50 im Jahr oder £5 im Monat, mit allen Funktionen und beliebig vielen Veranstaltungen und Tickets. Dieselbe Open-Source-Software läuft auf dem Hosting von Chobble oder auf einer Infrastruktur Ihrer Wahl, Sie können Ihre Daten exportieren, und die Ticketeinnahmen gehen direkt auf Ihr Konto bei Stripe, Square oder SumUp.
     buttons:
       - text: Für £5 starten
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: Preise ansehen
@@ -88,7 +88,7 @@ blocks:
       Chobble pflegt Software und Hosting. Es gibt keine Funktionsstufen, und der Preis ändert sich nicht mit der Zahl der verkauften Tickets.
     button:
       text: Gehostete Website starten
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
     figure_items:
       - icon: hugeicons:flash
@@ -158,7 +158,7 @@ blocks:
   - type: cta
     button:
       text: Für £5 starten
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

@@ -17,7 +17,7 @@ blocks:
       Publish day-based hire for halls, studios, meeting rooms and other spaces. Customers choose an available start date, answer venue questions and pay in full or reserve with a deposit.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -102,7 +102,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

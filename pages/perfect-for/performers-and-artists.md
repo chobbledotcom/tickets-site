@@ -17,7 +17,7 @@ blocks:
       Put your gigs, shows, workshops and open studios on sale through your own payment account. Artists and musicians pay £25 a year for managed hosting, and Chobble adds no fee to any ticket.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -173,7 +173,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: secondary
       size: lg
     content: |-

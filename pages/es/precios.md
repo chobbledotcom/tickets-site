@@ -13,7 +13,7 @@ blocks:
       El alojamiento gestionado cuesta £50 al año o £5 al mes. El precio incluye todas las funciones y no cambia con el número ni con el importe de las entradas vendidas.
     buttons:
       - text: Empezar por £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: Ir al inicio
@@ -125,7 +125,7 @@ blocks:
   - type: cta
     button:
       text: Empezar por £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

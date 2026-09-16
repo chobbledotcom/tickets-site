@@ -16,7 +16,7 @@ blocks:
       Managed hosting costs £50 a year or £5 a month. The price includes every feature and does not change with the number or value of tickets sold.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: Compare fees
@@ -130,7 +130,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

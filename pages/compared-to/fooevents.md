@@ -75,7 +75,7 @@ blocks:
       than 10,000 sites.
 
       Chobble Tickets is a standalone ticketing platform. You sign up at
-      [tix.chobble.com](https://tix.chobble.com/ticket/register) and run events from the
+      [tix.chobble.com](https://tix.chobble.com/listings) and run events from the
       admin area, or [self-host the code](/features/open-source/) on
       your own server. There is no WordPress site required.
 
@@ -409,7 +409,7 @@ blocks:
   - type: cta
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: secondary
       size: lg
     content: |-

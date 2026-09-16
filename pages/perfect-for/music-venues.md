@@ -17,7 +17,7 @@ blocks:
       Put every show on sale from one site, keep the door list and the advance sales together, and pay no Chobble fee on any ticket. Managed hosting costs £50/year or £5/month whatever the room sells.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -160,7 +160,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: secondary
       size: lg
     content: |-

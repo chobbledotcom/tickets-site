@@ -17,7 +17,7 @@ blocks:
       Sell a party package that requires the customer to choose one entertainer. Collect the address and party details, take a deposit and assign travel or setup work after booking.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -102,7 +102,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

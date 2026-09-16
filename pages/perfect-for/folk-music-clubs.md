@@ -17,7 +17,7 @@ blocks:
       Take advance admission for regular club nights, add door sales, sell raffle entries and keep income and costs in one ledger. Eligible community groups pay £25 a year for managed hosting.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -103,7 +103,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

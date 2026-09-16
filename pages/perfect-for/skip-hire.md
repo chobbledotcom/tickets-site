@@ -17,7 +17,7 @@ blocks:
       Let customers choose a start date and offered hire length. Chobble Tickets checks stock across the full date range, takes payment or a deposit, and adds delivery and collection work to staff run sheets.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -102,7 +102,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

@@ -62,7 +62,7 @@ blocks:
       extension.
 
       Chobble Tickets is a standalone platform. You sign up at
-      [tix.chobble.com](https://tix.chobble.com/ticket/register) or
+      [tix.chobble.com](https://tix.chobble.com/listings) or
       [self-host the code](/features/open-source/), and a
       [public website and CMS](/features/your-public-website/) is included, so
       on managed hosting there is nothing to install.
@@ -391,7 +391,7 @@ blocks:
   - type: cta
     button:
       text: Get Started
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: secondary
       size: lg
     content: |-

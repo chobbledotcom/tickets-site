@@ -16,7 +16,7 @@ blocks:
       Chobble charges for hosting, not for each sale. Managed hosting costs £50 a year or £5 a month for every feature and any number of events or tickets. The same open source software can run on Chobble's hosting or infrastructure you choose, with data exports and ticket income paid directly to your Stripe, Square or SumUp account.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -95,7 +95,7 @@ blocks:
       Chobble maintains the software and hosting. There are no feature tiers and [the price does not change with ticket volume](/features/no-per-ticket-fees/).
     button:
       text: Start hosted site
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
     figure_items:
       - icon: hugeicons:flash
@@ -185,7 +185,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

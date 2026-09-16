@@ -118,7 +118,7 @@ blocks:
   - type: cta
     button:
       text: Sign Up
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

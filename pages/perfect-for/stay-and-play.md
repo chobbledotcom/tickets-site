@@ -17,7 +17,7 @@ blocks:
       Publish each regular session, limit places for every date and let families book without creating an account. Managed hosting costs £50 a year or £5 a month, with no Chobble per-ticket platform fee.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -101,7 +101,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

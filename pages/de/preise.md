@@ -13,7 +13,7 @@ blocks:
       Verwaltetes Hosting kostet £50 im Jahr oder £5 im Monat. Im Preis sind alle Funktionen enthalten, und er ändert sich nicht mit der Zahl oder dem Wert der verkauften Tickets.
     buttons:
       - text: Für £5 starten
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: Startseite ansehen
@@ -125,7 +125,7 @@ blocks:
   - type: cta
     button:
       text: Für £5 starten
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: primary
       size: lg
     content: |-

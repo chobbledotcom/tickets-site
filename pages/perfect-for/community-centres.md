@@ -18,7 +18,7 @@ blocks:
       Take bookings for the hall and for the sessions the hall runs itself, on one site a committee can share. Charities and community groups pay £25 a year for managed hosting.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -164,7 +164,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: secondary
       size: lg
     content: |-

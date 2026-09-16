@@ -18,7 +18,7 @@ blocks:
       Chobble Tickets handles the registration, the money and the list. The event itself happens on whatever software you already use, and you send the joining link to the people who booked.
     buttons:
       - text: Start for £5
-        href: https://tix.chobble.com/ticket/register
+        href: https://tix.chobble.com/listings
         variant: primary
         size: lg
       - text: See pricing
@@ -153,7 +153,7 @@ blocks:
   - type: cta
     button:
       text: Start for £5
-      href: https://tix.chobble.com/ticket/register
+      href: https://tix.chobble.com/listings
       variant: secondary
       size: lg
     content: |-
