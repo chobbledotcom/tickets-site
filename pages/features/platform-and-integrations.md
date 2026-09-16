@@ -25,6 +25,9 @@ blocks:
       - icon: hugeicons:wallet-02
         description: Chobble uses prepay hosting, not subscription billing. Pay in advance for a month or a year, and if a term ends the site stays in read-only mode for 24 months with no back-payment owed.
         name: <a href="/features/prepay-hosting/">Prepay hosting</a>
+      - icon: hugeicons:lock
+        description: Chobble is structured against Cory Doctorow's enshittification pattern with an open licence, an asset-locked community interest company, no tiers, no free plan, prepaid terms, encrypted attendee data, open APIs and payments that go straight to the organiser.
+        name: <a href="/features/enshittification-resistant-ticket-sales/">Enshittification resistant ticket sales</a>
       - icon: hugeicons:ai-brain-01
         description: Published source, 100% test coverage and a 0% duplication threshold, so a coding agent gets a mechanical verdict on the changes it makes.
         name: <a href="/features/coding-agents/">Coding agents</a>

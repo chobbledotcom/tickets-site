@@ -7,7 +7,7 @@ layout: null
 
 ## Scope
 
-This audit covers 181 English content pages, counting translated pages only
+This audit covers 182 English content pages, counting translated pages only
 through their English source. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
@@ -15,11 +15,11 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 179 | 77 | 102 |
+| Editorial pages in the sitemap | 180 | 77 | 103 |
 | Non-indexed utility pages | 2 | 0 | 2 |
-| **All English content pages** | **181** | **77** | **104** |
+| **All English content pages** | **182** | **77** | **105** |
 
-The 102 image-less editorial pages are the main illustration backlog. The two utility
+The 103 image-less editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -103,6 +103,7 @@ pages are listed separately at the end.
 | `pages/features/coding-agents.md` | Diagram: `what-the-repository-publishes` | Show the repository contents an agent reads before changing anything: AGENTS.md, REPO_STRUCTURE.md, 39 Cucumber feature files, generated API documentation and the source itself. Beside it, show the encrypted attendee records the same agent cannot read. | Separates what publishing the source makes available from what stays under the owner's key. |
 | `pages/features/open-source.md` | Diagram: `same-product-deployments` | Oakfield's same event setup appears in managed hosting, a GitHub-controlled deployment and self-hosted Docker. Label who handles updates, infrastructure and configured services. | Shows product sameness while making operational responsibility clear. |
 | `pages/features/cannot-go-closed-source.md` | Diagram: `three-protections-against-buyout` | Show the CIC asset lock, AGPL-3.0-only published code and no-shareholder reinvested-profit structure as three gates a buyout would have to pass. Beside them, mark the Cal.com path of AGPL production code becoming proprietary after a funding round as the exit the structure closes. Include company number 17050113 and the CIC Regulator. | Shows an organiser that a present-tense promise is not the model here, and that the asset lock, not a statement, keeps the code open. |
+| `pages/features/enshittification-resistant-ticket-sales.md` | Diagram: `enshittification-stages-and-exit` | Draw Doctorow's three stages as a value arrow moving from users to business customers to shareholders, then block the arrow with the eight structural gates: published AGPL-3.0-only code, the Chobble CIC asset lock with no shareholders, one service with no feature tiers, no free plan, prepaid terms, encrypted attendee data, open APIs and webhooks, and payments that go straight to the organiser. Beside the gates, keep the exit visibly open with catalogue and CSV export, database backup and the same code running self-hosted. | Shows an organiser where each structural decision blocks the pattern, and what they can still take with them if the service declines anyway. |
 
 ## Feature Pages: Administration
 
