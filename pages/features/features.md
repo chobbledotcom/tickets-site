@@ -164,12 +164,18 @@ blocks:
   - icon: hugeicons:source-code
     description: Published under AGPL-3.0-only with every product feature included and no proprietary feature tier.
     name: <a href="/features/open-source/">Open source</a>
+  - icon: hugeicons:open-source
+    description: The Chobble CIC asset lock, the absence of shareholders and the lack of a proprietary tier leave no route to take the published code closed.
+    name: <a href="/features/cannot-go-closed-source/">Cannot go closed source</a>
   - icon: hugeicons:flash
     description: Managed sites are set up through an emailed link. Self-hosted deployments follow five documented steps, and the database migrates itself on the first request.
     name: <a href="/features/deployment/">Deployment</a>
   - icon: hugeicons:wallet-02
     description: Chobble uses prepay hosting, not subscription billing. Pay in advance for a month or a year, and if a term ends the site stays in read-only mode for 24 months with no back-payment owed.
     name: <a href="/features/prepay-hosting/">Prepay hosting</a>
+  - icon: hugeicons:security-check
+    description: Chobble is structured against Cory Doctorow's enshittification pattern with an open licence, an asset-locked community interest company, no tiers, no free plan, prepaid terms, encrypted attendee data, open APIs and payments that go straight to the organiser.
+    name: <a href="/features/enshittification-resistant-ticket-sales/">Enshittification resistant ticket sales</a>
   - icon: hugeicons:ai-brain-01
     description: Published source, 100% test coverage, a 0% duplication threshold and a complexity ceiling, so a coding agent gets a mechanical verdict on the changes it makes.
     name: <a href="/features/coding-agents/">Coding agents</a>
