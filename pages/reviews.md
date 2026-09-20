@@ -1,7 +1,7 @@
 ---
 title: Chobble Tickets Reviews from Event Organisers
 meta_title: Chobble Tickets Reviews from Event Organisers
-meta_description: Read independent and Google reviews from event organisers using Chobble Tickets for ticket sales, QR check-in and event administration.
+meta_description: Read Trustpilot, Google and independent reviews from event organisers using Chobble Tickets for ticket sales, QR check-in and event administration.
 permalink: /reviews/
 eleventyNavigation:
   key: Reviews
@@ -71,6 +71,27 @@ blocks:
       > It's also much better for refunds as Eventbrite doesn't refund the
       > booking fee. We will definitely be using Chobble for our future events
       > and I recommend it for anyone putting paid ticketed events on."
+  - type: markdown
+    content: |
+      ## Alan, Mane Events
+
+      [Trustpilot review](https://uk.trustpilot.com/reviews/6aaeccf7811cafb28ce8416b)
+      from Mane Events.
+
+      Mane Events moved to Chobble Tickets from other ticketing software
+      that took a percentage of each ticket sale plus platform fees.
+
+      > "Stefan has worked wonders for our business offering his new
+      > ticketing system. Previously we had used other software which would
+      > take a large percentage out of our tickets sold along with fees for
+      > using their system. Now we are with Chobble all our ticket sales are
+      > now ours and the small annual fee is fantastic for the service we
+      > received."
+
+      > "Stefan is always on hand to guide you through setups and even when
+      > technical problems arise without our knowing he is in the background
+      > fixing them already. Highly recommend Stefan and his team. If you run
+      > events and sell tickets then you won't be disappointed with Chobble."
   - type: markdown
     content: |
       ## Paul

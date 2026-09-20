@@ -161,6 +161,13 @@ blocks:
       > use and takes no cut (even though Stripe takes a very small amount)."
       >
       > - [Chris, British Bourbon Society](https://www.facebook.com/httkb/posts/pfbid0VPiUCz5UYAp8Z59LddLBw5GdGz3TA1xfErGmBhAP5dF7TisRNrXBZCadb4QP4T2Al)
+
+      > "Previously we had used other software which would take a large
+      > percentage out of our tickets sold along with fees for using their
+      > system. Now we are with Chobble all our ticket sales are now ours and
+      > the small annual fee is fantastic for the service we received."
+      >
+      > - [Alan, Mane Events](https://uk.trustpilot.com/reviews/6aaeccf7811cafb28ce8416b)
   - type: markdown
     dark: true
     content: |
