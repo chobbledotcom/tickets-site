@@ -39,7 +39,10 @@ jobs:
           repository: chobbledotcom/tickets
           ref: main
           path: app
-          token: ${{ secrets.TICKETS_EVIDENCE_TOKEN }}
+          # The app is a public repository, so the default workflow token can
+          # read it. If it ever goes private, set the TICKETS_EVIDENCE_TOKEN
+          # secret to a token with read access to that repository.
+          token: ${{ secrets.TICKETS_EVIDENCE_TOKEN || github.token }}
           persist-credentials: false
 
       - name: Set up Deno
