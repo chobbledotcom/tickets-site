@@ -45,10 +45,23 @@ jobs:
           token: ${{ secrets.TICKETS_EVIDENCE_TOKEN || github.token }}
           persist-credentials: false
 
+      # The app pins its Deno version as denoVersion in devenv.nix, so the
+      # workflow reads it from there rather than naming one here.
+      - name: Resolve the Deno version the app pins
+        id: deno-version
+        working-directory: app
+        run: |
+          version="$(sed -n 's/^[[:space:]]*denoVersion = "\([^"]*\)".*/\1/p' devenv.nix | tail -n 1)"
+          if [ -z "$version" ]; then
+            echo "No denoVersion found in devenv.nix" >&2
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
       - name: Set up Deno
         uses: denoland/setup-deno@v2
         with:
-          deno-version-file: app/.tool-versions
+          deno-version: ${{ steps.deno-version.outputs.version }}
 
       - name: Resolve Playwright version
         id: playwright
