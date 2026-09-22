@@ -15,6 +15,28 @@ blocks:
       What organisers say about Chobble Tickets.
   - type: markdown
     content: |
+      ## Ben, Jersey Girls
+
+      Ben is the webmaster for [Jersey
+      Girls](https://www.jersey-girls.co.uk).
+
+      > "The nice thing with Chobble Tickets is you don't really need to
+      > fight with it to get started. It works well pretty much out of the
+      > box with very little setup, whilst still being, at its heart,
+      > developer orientated."
+
+      > "I dropped it into a static site without much hassle and had proper
+      > ticketing functionality without having to reinvent the wheel."
+
+      > "Stefan's always open to feedback, and future development is driven
+      > by the people using it, rather than just disappearing into a roadmap
+      > somewhere."
+
+      > "If you've got a project that needs ticketing, I'd definitely give it
+      > a go. It's easy to get started, plenty of features in it if you want
+      > to dig deeper, and there's not anything to lose by giving it a go."
+  - type: markdown
+    content: |
       ## Elliott's Bouncy Castle Hire
 
       [Read the full review on their website](https://www.elliottsbouncycastlehire.co.uk/news/2026-02-13/new-ticket-platform-initial-review)
