@@ -185,6 +185,16 @@ blocks:
       - [Chobble Tickets README](https://github.com/chobbledotcom/tickets) - the deployment steps and required secrets
       - [Technical documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html) - configuration keys and deployment detail
       - [Hosting options](/hosting/) - what managed hosting and self-hosting each cover
+  - type: markdown
+    content: |
+      > "The nice thing with Chobble Tickets is you don't really need to fight
+      > with it to get started. It works well pretty much out of the box with
+      > very little setup, whilst still being, at its heart, developer
+      > orientated."
+      >
+      > - [Ben, the webmaster for Jersey Girls](https://www.jersey-girls.co.uk)
+
+      [Read more reviews &rarr;](/reviews/)
   - type: cta
     button:
       text: Get started

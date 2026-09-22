@@ -37,6 +37,13 @@ blocks:
 
       See the [embed documentation](https://chobbledotcom.github.io/tickets/docs/embed.ts)
       for widget setup and configuration details.
+
+      > "I dropped it into a static site without much hassle and had proper
+      > ticketing functionality without having to reinvent the wheel."
+      >
+      > - [Ben, the webmaster for Jersey Girls](https://www.jersey-girls.co.uk)
+
+      [Read more reviews &rarr;](/reviews/)
   - type: cta
     button:
       text: Get Started
