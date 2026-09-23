@@ -7,7 +7,7 @@ layout: null
 
 ## Scope
 
-This audit covers 182 English content pages, counting translated pages only
+This audit covers 183 English content pages, counting translated pages only
 through their English source. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
@@ -15,11 +15,10 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 180 | 77 | 103 |
-| Non-indexed utility pages | 2 | 0 | 2 |
-| **All English content pages** | **182** | **77** | **105** |
+| Editorial pages in the sitemap | 181 | 77 | 104 |
+| **All English content pages** | **183** | **77** | **106** |
 
-The 103 image-less editorial pages are the main illustration backlog. The two utility
+The 104 image-less editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -50,6 +49,7 @@ pages are listed separately at the end.
 | `pages/about.md` | Diagram: `about-chobble-cic` | A restrained timeline from Chobble starting in 2024 to Chobble CIC in 2026, followed by a present-day service diagram showing managed hosting, support and an organiser ticket site. Include the company number and asset lock, not a founder portrait. | Shows who is accountable for the service and what the hosting payment covers. |
 | `pages/faq.md` | Diagram: `organiser-faq-checklist` | Oakfield Community Events has four pre-sign-up questions: annual cost, where ticket income goes, who can see attendee data and how event setup can be moved. Show the factual answer to each. | Gives visual anchors for the main buying questions rather than illustrating one arbitrary FAQ. |
 | `pages/reviews.md` | Product composite: `reviewed-booking-journey` | A clearly labelled example follows Alex Morgan through an £18 Riverside Summer Concert payment confirmation, QR ticket and successful door check-in. Place relevant existing review excerpts beside the three states without attributing the fictional event to a reviewer. | Connects comments about checkout and queues to concrete product behaviour. |
+| `pages/credits.md` | Diagram: `upstream-work-stack` | Chobble Tickets sits on named upstream layers of libraries, tools and standards written by many hands, with the four credited organisers shown as named inputs rather than portraits. | Shows that the short list of named contributors stands on a much larger body of work. |
 
 ## Feature Pages: Selling And Payments
 
