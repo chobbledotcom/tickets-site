@@ -99,5 +99,13 @@ in
     export LD_LIBRARY_PATH="${libraryPath}:''${LD_LIBRARY_PATH:-}"
 
     echo "tickets-site dev shell: serve, build, test, pc (precommit), and the other bun run commands"
+
+    # prek renames the pre-existing flake-installed hook to
+    # pre-commit.legacy, then runs it at commit time. Remove that leftover,
+    # but leave any hook the old flake did not install alone.
+    hook="$(git rev-parse --git-path hooks/pre-commit.legacy 2>/dev/null || true)"
+    if [ -n "$hook" ] && [ -f "$hook" ] && grep -Fq "# Installed by tickets flake.nix" "$hook"; then
+      rm -f "$hook"
+    fi
   '';
 }
