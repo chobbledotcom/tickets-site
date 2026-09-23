@@ -5,7 +5,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .DS_Store
-.direnv
+.direnv/
+.devenv/
+.bin/
+.pre-commit-config.yaml
 .env
 .claude
 /screenshots/

@@ -26,7 +26,7 @@
  * discoverable here as site-owned scenarios.
  *
  * Requires the Tickets repo checked out next to this one (../tickets)
- * and `nix develop` available for the Deno runner.
+ * and the devenv shell available for its Deno runner.
  */
 
 import { readdirSync, statSync } from "node:fs";
@@ -180,10 +180,8 @@ const runScenario = async (scenarioName, social, layers, outputDir) => {
   console.log(`  output:   ${outputDir}`);
   if (social) console.log(`  social:   ${social}`);
   const cmd = [
-    "nix",
-    "develop",
-    TICKETS_REPO,
-    "-c",
+    "devenv",
+    "shell",
     "deno",
     "task",
     "screenshot",
@@ -213,9 +211,9 @@ const main = async () => {
         "Clone chobbledotcom/tickets next to this repo and retry.",
     );
   }
-  if (!exists(join(TICKETS_REPO, "flake.nix"))) {
+  if (!exists(join(TICKETS_REPO, "devenv.nix"))) {
     throw new Error(
-      `${TICKETS_REPO} does not look like the Tickets repo (no flake.nix).`,
+      `${TICKETS_REPO} does not look like the Tickets repo (no devenv.nix).`,
     );
   }
 

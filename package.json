@@ -31,7 +31,7 @@
 		"precommit": "bun scripts/precommit.js",
 		"lint": "bunx @biomejs/biome check --config-path=biome.json --error-on-warnings scripts/ _lib/ src.11tydata.js remotion.config.js",
 		"lint:fix": "bunx @biomejs/biome check --config-path=biome.json --write scripts/ _lib/ src.11tydata.js remotion.config.js",
-		"cpd": "bunx jscpd"
+		"cpd": "bun scripts/jscpd.js"
 	},
 	"imports": {
 		"#fp": "@chobble/js-toolkit/fp",
