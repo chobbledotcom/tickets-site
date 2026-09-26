@@ -1,23 +1,35 @@
 import { linearTiming, TransitionSeries } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
+import { Html5Audio, Sequence, staticFile } from "remotion";
 import { SocialScene } from "./social-scene.jsx";
 
 const renderScene = (
   scene,
   sceneDurationInFrames,
   animationDurationInFrames,
-) => (
-  <TransitionSeries.Sequence
-    durationInFrames={sceneDurationInFrames}
-    key={scene.slug}
-  >
-    <SocialScene
-      animationDurationInFrames={animationDurationInFrames}
-      scene={scene}
-      sceneDurationInFrames={sceneDurationInFrames}
-    />
-  </TransitionSeries.Sequence>
-);
+  narrationLeadInFrames,
+) => {
+  // A narrated scene carries its own length, timed to its voiceover; the
+  // silent reels share one length for every scene.
+  const durationInFrames = scene.durationInFrames ?? sceneDurationInFrames;
+  return (
+    <TransitionSeries.Sequence
+      durationInFrames={durationInFrames}
+      key={scene.slug}
+    >
+      <SocialScene
+        animationDurationInFrames={animationDurationInFrames}
+        scene={scene}
+        sceneDurationInFrames={durationInFrames}
+      />
+      {scene.audio ? (
+        <Sequence from={narrationLeadInFrames}>
+          <Html5Audio src={staticFile(scene.audio)} />
+        </Sequence>
+      ) : null}
+    </TransitionSeries.Sequence>
+  );
+};
 
 const renderTransition = (scene, transitionDurationInFrames) => (
   <TransitionSeries.Transition
@@ -32,9 +44,15 @@ const renderScenes = (
   sceneDurationInFrames,
   transitionDurationInFrames,
   animationDurationInFrames,
+  narrationLeadInFrames,
 ) =>
   scenes.flatMap((scene, index) => [
-    renderScene(scene, sceneDurationInFrames, animationDurationInFrames),
+    renderScene(
+      scene,
+      sceneDurationInFrames,
+      animationDurationInFrames,
+      narrationLeadInFrames,
+    ),
     ...(index < scenes.length - 1
       ? [renderTransition(scene, transitionDurationInFrames)]
       : []),
@@ -42,6 +60,7 @@ const renderScenes = (
 
 export const SocialVideo = ({
   animationDurationInFrames,
+  narrationLeadInFrames = 0,
   scenes,
   sceneDurationInFrames,
   transitionDurationInFrames,
@@ -52,6 +71,7 @@ export const SocialVideo = ({
       sceneDurationInFrames,
       transitionDurationInFrames,
       animationDurationInFrames,
+      narrationLeadInFrames,
     )}
   </TransitionSeries>
 );

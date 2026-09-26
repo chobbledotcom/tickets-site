@@ -15,3 +15,6 @@ yarn-error.log*
 .jscpd-report/
 /videos/
 /.video-build/
+/.video-narration/*
+!/.video-narration/.gitkeep
+/misc/

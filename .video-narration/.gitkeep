@@ -1,0 +1,2 @@
+Keeps the directory present so `docker build` can always COPY it. Run
+`bun scripts/video/narration.js` to fill it with voiceover audio.

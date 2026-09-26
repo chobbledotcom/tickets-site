@@ -110,6 +110,8 @@ export default {
     });
 
     await context.page.goto(`/admin/groups/${groupId}`);
-    await context.page.getByText("Rovers vs Brookvale Rangers").waitFor();
+    await context.page
+      .getByRole("link", { name: "Rovers vs Brookvale Rangers" })
+      .waitFor();
   },
 };

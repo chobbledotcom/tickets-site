@@ -9,6 +9,7 @@ const renderComposition = (video) => {
     fps,
     height,
     id,
+    narrationLeadInFrames,
     sceneDurationInFrames,
     scenes,
     transitionDurationInFrames,
@@ -20,6 +21,7 @@ const renderComposition = (video) => {
       component={SocialVideo}
       defaultProps={{
         animationDurationInFrames,
+        narrationLeadInFrames: narrationLeadInFrames ?? 0,
         scenes,
         sceneDurationInFrames,
         transitionDurationInFrames,

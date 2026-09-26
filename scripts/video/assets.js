@@ -18,9 +18,10 @@ const requireSuccess = (command) => {
 export const removeVideoAssets = () => fs.rm(VIDEO_BUILD_DIRECTORY);
 
 export const allVideoSources = () =>
-  SOCIAL_VIDEOS.flatMap(({ scenes }) => scenes.map(({ source }) => source));
+  SOCIAL_VIDEOS.flatMap((video) => videoSources(video));
 
-export const videoSources = (video) => video.scenes.map(({ source }) => source);
+export const videoSources = (video) =>
+  video.scenes.map(({ scenario, source }) => scenario ?? source);
 
 export const videoForRemotionArguments = (args) => {
   const requestedId = ["render", "still"].includes(args[0]) ? args[1] : null;

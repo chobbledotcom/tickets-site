@@ -2,6 +2,8 @@ import { describe, expect, test } from "bun:test";
 import { CHOBBLEFEST_SLIDES } from "../scripts/chobblefest-slides.js";
 import {
   CHOBBLEFEST_VIDEO,
+  NARRATION_LEAD_IN_FRAMES,
+  NARRATION_TAIL_FRAMES,
   SCENE_ANIMATION_FRAMES,
   SCENE_DURATION_FRAMES,
   SCENE_READING_HOLD_FRAMES,
@@ -10,7 +12,10 @@ import {
   SOCIAL_VIDEOS,
   VIDEO_FPS,
   VIDEO_FORMATS,
+  WHY_CHOBBLE_VIDEO,
+  createNarratedScenes,
   createSocialScenes,
+  videoDurationFromSceneFrames,
   videoDurationInFrames,
 } from "../scripts/video/scenes.js";
 import {
@@ -84,7 +89,70 @@ describe("social video scenes", () => {
     expect(SOCIAL_VIDEOS.map(({ id }) => id)).toEqual([
       "ChobbleFestReel",
       "SetupJourneyReel",
+      "WhyChobbleReel",
     ]);
+  });
+
+  test("defines the narrated why Chobble reel", () => {
+    expect(WHY_CHOBBLE_VIDEO.id).toBe("WhyChobbleReel");
+    expect(WHY_CHOBBLE_VIDEO.narrationLeadInFrames).toBe(
+      NARRATION_LEAD_IN_FRAMES,
+    );
+    expect(WHY_CHOBBLE_VIDEO.scenes).toHaveLength(11);
+    expect(WHY_CHOBBLE_VIDEO.scenes[0].address).toBe(
+      "tickets.chobble.com  01/11",
+    );
+    expect(WHY_CHOBBLE_VIDEO.scenes[10].address).toBe(
+      "tickets.chobble.com  11/11",
+    );
+    for (const scene of WHY_CHOBBLE_VIDEO.scenes) {
+      expect(scene.audio).toBe(`.video-narration/${scene.slug}.wav`);
+      expect(scene.durationInFrames).toBeGreaterThan(SCENE_ANIMATION_FRAMES);
+    }
+    expect(WHY_CHOBBLE_VIDEO.durationInFrames).toBe(
+      videoDurationFromSceneFrames(
+        WHY_CHOBBLE_VIDEO.scenes.map((scene) => scene.durationInFrames),
+        SCENE_TRANSITION_FRAMES,
+      ),
+    );
+  });
+
+  test("times each narrated scene from its voiceover", () => {
+    const spoken = {
+      measured: 2,
+    };
+    const slides = [
+      {
+        body: "a",
+        heading: "a",
+        narration: "a b c d e f g h i j k l m",
+        slug: "measured",
+        source: "a",
+      },
+      {
+        body: "b",
+        heading: "b",
+        narration: "a b c d e f g h i j k l m",
+        slug: "estimated",
+        source: "b",
+      },
+    ];
+    const scenes = createNarratedScenes(slides, spoken);
+
+    // The two-second voiceover is shorter than the entrance animation, so
+    // the scene holds at the animation minimum.
+    expect(scenes[0].durationInFrames).toBe(SCENE_ANIMATION_FRAMES);
+    // A slide with no recorded length falls back to 13 words at 2.6 words
+    // per second, and never undercuts the entrance animation.
+    expect(scenes[1].durationInFrames).toBe(
+      NARRATION_LEAD_IN_FRAMES + 5 * VIDEO_FPS + NARRATION_TAIL_FRAMES,
+    );
+  });
+
+  test("rejects narration timing that would hide a scene", () => {
+    expect(() => videoDurationFromSceneFrames([150, 150], 150)).toThrow(
+      "A transition must be shorter than a scene.",
+    );
   });
 
   test("pans tall captures instead of shrinking them", () => {

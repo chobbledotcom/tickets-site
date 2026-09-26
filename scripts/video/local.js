@@ -10,7 +10,13 @@ const selectedSources = ["render", "still"].includes(remotionArguments[0])
   ? videoSources(videoForRemotionArguments(remotionArguments))
   : undefined;
 withVideoAssets(() => {
-  const { exitCode } = run(["bunx", "remotion", ...remotionArguments]);
+  // Run the CLI through bun's own node compatibility, because the devenv
+  // has no standalone node binary for the bin stub to resolve.
+  const { exitCode } = run([
+    "bun",
+    "node_modules/@remotion/cli/remotion-cli.js",
+    ...remotionArguments,
+  ]);
   if (exitCode !== 0) {
     throw new Error(
       `Local Remotion command failed with exit code ${exitCode}.`,
