@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "dc7c1b2e5779180d878fda5ff1d17e67212d5adf",
+    "commit": "5ed5ae25d94b7271550b7296a89ea4725a3c1860",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -126,7 +126,7 @@
         "height": 500,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "6cd2fa24e4420583bf0487fbf7abfe6e6ae88d63145128e49acb855360f20780",
+        "sha256": "e51229050cec922fda57ee28b5278ebaeec353ecb8c2b371d851e47291e5a4c0",
         "src": "/images/screenshots/attendee-csv-export.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -177,10 +177,10 @@
       },
       "id": "backup-restore",
       "image": {
-        "height": 1779,
+        "height": 1957,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "05d75ae4e2f9d1b49da109ff24e324074c4ed9c66fb361e40b867141eb13a831",
+        "sha256": "9c2f162fe0df6f0d733666a578a48c8265d548b59c49ab47b01e0f850e733195",
         "src": "/images/screenshots/backup-restore.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -392,7 +392,7 @@
         "height": 1256,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "03ab5f3cdb6a88ca562a39045233f83fea6de5badcc53a64237a62e06f1fa647",
+        "sha256": "86d7dba5646483bdd3b78b6b7fd5471ac47979d6f017c73ae4c74deb1c410928",
         "src": "/images/screenshots/manual-attendee-community-supper.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -551,10 +551,10 @@
       },
       "id": "group-booking-arrives",
       "image": {
-        "height": 750,
+        "height": 928,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "a3a2d17a2f62a5d077f060d318dac84bca81348cda9801355c19308b3b331508",
+        "sha256": "33703111447b2a5ed65f973cce87d930302f6186dddb96675d932659513e86e0",
         "src": "/images/screenshots/the-tempest-group-checkout.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -708,7 +708,7 @@
         "height": 1482,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "fb449ae00d619f6ceea0bd63085d4db2a88b82e933fe24865f078cc03120904a",
+        "sha256": "0df5557fd145c4f5864ea0f325adf2f69c6aba239136623fad1ffb37293c4fc2",
         "src": "/images/screenshots/one-days-audience.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -875,10 +875,10 @@
       },
       "id": "payment-provider-choice",
       "image": {
-        "height": 2542,
+        "height": 2486,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "06da2ba5679b9018e1db1a8ec9510a32224c78f8459d39d1e1911b6c877614bd",
+        "sha256": "a24685093c7dc39bec77cd46b518ede7924b9a8fc6de474f502b924fbccbfcdc",
         "src": "/images/screenshots/payment-provider-choice.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -924,7 +924,7 @@
         "height": 536,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "3fc05b71707a5e7f691548eed263647c35363095160824ab15e0bd66a156ff35",
+        "sha256": "5f2e65a3a6183fda3d4ac6abdff52f7ba709c162707d1231d930ede3cbf640a6",
         "src": "/images/screenshots/place-lost-while-paying.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1020,7 +1020,7 @@
         "height": 1256,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "f2f629d93830d9aac03e1be668c59e6f6fc7da6f745075fd19105125c5a2e694",
+        "sha256": "3be4187fcb377e54d38b816268ed267fd8ec829ab10e9e7840daf0331d0dc3ff",
         "src": "/images/screenshots/record-put-right.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1082,7 +1082,7 @@
         "height": 1256,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "1fe774e400f1c01672a0f96506e7d9309fc722a215b93fdb13039214d0aae9ea",
+        "sha256": "b7292d7ed1bd03a54426c6744eb8b2b579bfff5fe04f8573e4e2eeb612ca84eb",
         "src": "/images/screenshots/record-repaired.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1198,7 +1198,7 @@
         "height": 742,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "28a1fadbe035b741c42d7f49d850ba7f3d02114563997b5ad6c4f8175fab75f0",
+        "sha256": "17c07c7cbb0f40033ba5626dd1cd05a78c82dc4966d6ba7c4af4f0229de7787a",
         "src": "/images/screenshots/servicing-studio-floor-hold.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1248,7 +1248,7 @@
         "height": 806,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "e17157a7f2139a6bda5d62dab513dd1cc90445dbf5a2d9e465e19cb0d3ba0824",
+        "sha256": "45563875452f1b65024ed86ef0825178c6cc0dc642e1e8bb7c4b0c30cd2eff0e",
         "src": "/images/screenshots/oakfield-homepage-editor.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1355,7 +1355,7 @@
       },
       "presentation": "branded",
       "rule": {
-        "description": "The owner invites them by name and hands over a link. The editor chooses\ntheir own password on that link, and from then on they log in and land on\nthe listings, which is where their work is.",
+        "description": "The owner invites them by username and hands over a link. The editor chooses\ntheir own password on that link, and from then on they log in and land on\nthe listings, which is where their work is.",
         "id": "access.an-editor-sets-up-their-own-account",
         "name": "An editor sets up their own account from an invite"
       },
