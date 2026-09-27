@@ -19,7 +19,7 @@ blocks:
     content: |
       ## Invite your team
 
-      Invite somebody by name and hand them the link. They choose their own
+      Invite somebody by username and hand them the link. They choose their
       password on it, so the person who sent the invite never sees it, and
       from then on they log in as themselves.
 
