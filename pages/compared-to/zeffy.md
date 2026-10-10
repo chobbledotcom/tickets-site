@@ -124,11 +124,11 @@ blocks:
 
       - Online ticket sales with multiple ticket rates and prices
       - Free tickets alongside paid ones
-      - Capacity limits overall and per ticket type
+      - Capacity limits on ticket sales
       - Events that run across several dates, with per-date lists or capacity
-      - Custom questions on the booking form, set per ticket type
+      - Custom questions on the booking form
       - Discount codes
-      - Scheduled ticket windows, such as early bird pricing
+      - Automatic sales cut-offs that close booking when a deadline passes
       - Pay-what-you-want pricing
       - E-tickets with QR code check-in by phone
       - Confirmation emails to buyers
@@ -159,6 +159,8 @@ blocks:
         Mail and a custom domain for the sending address
       - **Automated reminder emails** - schedule a reminder to attendees with
         the details they need on the day
+      - **Scheduled ticket rates** - give each rate its own start and end sale
+        dates for early bird windows and timed releases
       - **Ticket bundles** - combine several tickets into one purchase
       - **Tax receipts and Gift Aid** - automatic tax receipts in the US and
         Canada with eligible amounts configurable per ticket rate, and Gift
@@ -205,9 +207,6 @@ blocks:
         no contribution request, no powered-by line, and no provider emails
         about the platform. On Zeffy the contribution request appears twice on
         every form with wording you cannot change
-      - **Automatic waitlists** - Chobble Tickets runs waitlists for sold-out
-        events. Zeffy has no built-in waitlist, and its help centre suggests a
-        free ticket type named Waitlist as a workaround
       - **[Deposits and balance payments](/features/deposits-and-balance-payments/)** -
         take a deposit or set a £0 reservation, then collect the balance by
         link, cash, or bank transfer
@@ -276,8 +275,9 @@ blocks:
       admin account, and other users work with the permissions that admin
       grants.
 
-      Chobble Tickets has no eligibility rules. Any organiser, including
-      commercial events, community groups, and individuals, can use it.
+      Chobble Tickets has no nonprofit-only requirement and no country
+      restriction of that kind. Community groups, charities, schools, caterers,
+      venues, and hire businesses all run on it, alongside commercial events.
   - type: markdown
     content: |
       ## Data and attendee relationships
@@ -355,8 +355,8 @@ blocks:
       - You want open source code you can read, fork, or self-host
       - You need a write API, webhooks, wallet passes, or calendar and RSS
         feeds
-      - You need deposits, balance payments, daily events, or automatic
-        waitlists
+      - You need deposits, balance payments, or daily events that hold
+        capacity per date
       - You want a complete database backup and event setup you can move to
         another host
       - You want a predictable flat cost: £50/year or £5/month, or £25/year
@@ -403,7 +403,6 @@ blocks:
       - [Zeffy really is free](https://support.zeffy.com/zeffy-really-is-free-no-fees-no-catch-4zjir) - fixed contribution wording, tipping rates, and the card limit safeguard
       - [Zeffy payouts](https://support.zeffy.com/zeffy-payouts-schedules-amounts-and-reports-ajuec) - schedules, the review period, and payout reports
       - [Zeffy check-in](https://support.zeffy.com/checking-in-guests-the-day-of-your-event-scan-their-e-ticket-or-check-them-in-manually-using-the-check-in-manager-kpd21) - QR scanning, the check-in manager, and volunteer access
-      - [Zeffy waitlist workaround](https://support.zeffy.com/add-a-waitlist-to-your-event-iu3b4) - a free ticket type used as a waitlist
       - [Zeffy in-person payments](https://support.zeffy.com/accept-in-person-payments-with-a-card-reader-or-a-qr-code-8n6vm) - Tap to Pay availability and limits
       - [Zeffy seating chart workaround](https://support.zeffy.com/adding-a-seating-chart-to-your-event-go5x8) - a chart image plus custom questions
       - [Zeffy campaign URLs](https://support.zeffy.com/how-to-customize-your-campaign-url-7re8y) - zeffy.com URLs that cannot be edited after creation

@@ -102,12 +102,14 @@ blocks:
       - Multiple ticket types per event
       - Custom questions on the registration form
       - CSV data export
-      - Waitlists for sold-out events
       - Apple Pay and Google Pay at checkout (via Stripe)
   - type: markdown
     content: |
       ### Cheddar Up has features Chobble Tickets doesn't
 
+      - **Waitlists** - when an event or item with a quantity limit sells
+        out, people can add their name to a waitlist so you can contact them
+        if more places become available
       - **In-person point-of-sale** - sell tickets, merchandise, and
         concessions at the door with a Bluetooth card reader ($79) or Tap
         on Mobile (NFC), with all sales synced to your online dashboard
