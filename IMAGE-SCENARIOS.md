@@ -7,7 +7,7 @@ layout: null
 
 ## Scope
 
-This audit covers 183 English content pages, counting translated pages only
+This audit covers 184 English content pages, counting translated pages only
 through their English source. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
@@ -15,10 +15,10 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 181 | 77 | 104 |
-| **All English content pages** | **183** | **77** | **106** |
+| Editorial pages in the sitemap | 182 | 77 | 105 |
+| **All English content pages** | **184** | **77** | **107** |
 
-The 104 image-less editorial pages are the main illustration backlog. The two utility
+The 105 image-less editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -211,6 +211,7 @@ pages are listed separately at the end.
 | `pages/compared-to/digitickets.md` | Comparison graphic: `digitickets-attraction-bundle` | Riverside Wildlife Park sells day admission and wants tills, kiosks and marketplace distribution beside online sales. Show DigiTickets' per-transaction, per-ticket or percentage charge as a quote card with no published rates, beside Chobble's £50/year managed hosting, with ProPoint tills, self-service kiosks, staff scheduling and travel-marketplace distribution as a separate DigiTickets advantage panel. | Shows the venue-operations bundle a quoted DigiTickets contract can buy, without inventing rates. |
 | `pages/compared-to/qrticket.md` | Comparison graphic: `qrticket-fee-and-who-pays` | Oakfield sells 200 £15 tickets through QRTicket. Show the €0.90 per-ticket fee and PayPal processing beside Chobble's flat annual fee, and mark who pays under QRTicket's default buyer-paid setting and its absorbed setting. Show seat plans, sales outlets, paper tickets and season passes as a separate QRTicket advantage panel. | Shows that QRTicket's free-to-organiser headline rests on a buyer charge, and the volume point where absorbing it crosses Chobble's flat price. |
 | `pages/compared-to/ticketted.md` | Comparison graphic: `ticketted-per-sale-and-discovery` | Harbourview Sessions sells 300 tickets at £15. Show Ticketted's 3.95% + A$0.95 on each paid ticket, and its 2.45% + A$0.45 charity and school rate, beside Chobble's flat £50/year and £25/year community rate plus the organiser's own processing, with the crossover point labelled. Show Ticketted's homepage event listings and AI event setup as a separate advantage panel, and Chobble's own-domain, own-website pages as the counterpart. | Shows where a per-sale charge overtakes a flat fee, and what an organiser trades when the platform also owns the shop window. |
+| `pages/compared-to/zeffy.md` | Comparison graphic: `zeffy-tips-versus-flat-fee` | A parish committee sells 250 £12 quiz-night tickets. Put Zeffy's £0 platform cost, the optional tip request shown twice at checkout, its weekly payout after a 1-3 day review, and its nonprofit-only, six-country eligibility in one column, beside Chobble's £50 flat fee with payments going straight into the organiser's Stripe account, its own domain and encrypted attendee data. Label Zeffy's raffles, auctions, memberships, donor CRM and tax receipts as a separate advantage panel. | Shows how a genuinely free platform funds itself at the donor's step, without hiding the payout wait or the eligibility limits. |
 
 ## Comparisons: Large Venues
 

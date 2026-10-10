@@ -428,5 +428,14 @@
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2,
     "fee_note": "PromoTix free plan fees: 3.5% + £1.19 per paid ticket on the GBP price list, charged to the attendee by default, with the organiser able to absorb it instead. This calculator applies it as an organiser cost, matching its assumption for every other provider. PromoTix says it charges nothing for payment processing and that Stripe does, so Stripe's UK rate (1.5% + 20p) is shown separately. Adding your own service fee costs a further £0.99 per paid ticket. Merchandise and add-ons carry 10%, ambassador transactions carry 10% on the Professional plan, and streaming and push notifications are priced separately. The Professional plan removes the per-ticket fee for a customised annual subscription whose price PromoTix does not publish, so it has no row here. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe, Square or SumUp processing (1.5% + 20p). Source: promotix.com/pricing-gbp (August 2026)."
+  },
+  "zeffy": {
+    "name": "Zeffy",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0,
+    "fee_note": "Zeffy charges organisations nothing: no subscription, no platform fee on tickets, and it covers card processing. Its only revenue is the optional contribution it asks donors for at checkout, which around 60% of donors leave; the suggested percentage falls as the payment grows, the wording cannot be customised, and a contribution is not refunded when the underlying payment is. Ticket money reaches the organisation by payout after a 1-3 business day anti-fraud review: weekly by default (every Monday), monthly on the first Monday, or the next business day for eligible organisations, and payouts cannot be triggered manually. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe, Square or SumUp processing (1.5% + 20p), paid straight into the organiser's own payment account. Source: zeffy.com/home/free-online-fundraising-platform and support.zeffy.com (checked 10 October 2026)."
   }
 }

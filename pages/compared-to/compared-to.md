@@ -182,6 +182,9 @@ blocks:
       - icon: hugeicons:ticket-01
         description: The ticketing add-on inside Wix's website builder. Compare fees, website integration and data handling.
         name: <a href="/compared-to/wix-events/">Wix Events alternative</a>
+      - icon: hugeicons:ticket-01
+        description: A Canadian fundraising platform for registered nonprofits where donors are asked for optional tips. Compare funding models, payouts, features and data handling.
+        name: <a href="/compared-to/zeffy/">Zeffy alternative</a>
       - icon: hugeicons:package
         description: Self-hosted software for building rental marketplaces. Compare a multi-vendor rental platform with hire bookings for a single operator.
         name: <a href="/compared-to/yo-rent/">Yo!Rent alternative</a>
