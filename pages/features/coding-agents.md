@@ -225,6 +225,11 @@ blocks:
       a season of events as one file, import it, and export it again to check
       what the site stored.
 
+      The catalogue can also live in the repository as markdown frontmatter,
+      imported through the command line. An agent then edits the catalogue the
+      same way it edits any other file in the repo, and the change goes through
+      the same review.
+
       The repository also ships a command-line tool for the admin API, built on
       `curl` and configured with a hostname and an API key. It lists, reads,
       creates, updates and deletes each resource, which suits an agent that

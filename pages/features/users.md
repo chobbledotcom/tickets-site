@@ -1,7 +1,7 @@
 ---
 title: Users - Chobble Tickets
 meta_title: Multi-User Management - Chobble Tickets
-meta_description: Invite team members as owners, managers, editors, or logistics agents to manage sessions and track activity in Chobble Tickets.
+meta_description: Invite team members as owners, managers, editors, logistics agents, or scanner users to manage sessions and track activity in Chobble Tickets.
 permalink: /features/users/
 ticket_evidence_capture: team-and-roles
 eleventyNavigation:
@@ -14,7 +14,8 @@ blocks:
     content: |-
       # Multi-user management
 
-      Invite team members as owners, managers, editors, or logistics agents so everyone gets their own login instead of sharing passwords.
+      Invite team members as owners, managers, editors, logistics agents, or
+      scanner users so everyone gets their own login instead of sharing passwords.
   - type: split-image
     content: |
       ## Invite your team
@@ -31,7 +32,7 @@ blocks:
   - type: markdown
     content: |
 
-      ## Four roles
+      ## Five roles
 
       Running events often involves a team, so Chobble Tickets lets you
        invite team members with a 7-day expiring access link where
@@ -59,6 +60,13 @@ blocks:
       toggle for each leg. They cannot see events, attendees, settings, or
       logs. This is useful for drivers or crew who only need their day's
       jobs and should not see anything else.
+
+      **[Scanner](/features/qr-code-check-ins/)** is the fifth role and
+      carries the least access. A scanner login opens one page: the
+      check-in scanner, where the person can check people in and out.
+      The scanner link appears in the navigation only for scanner
+      logins. This suits volunteers and door helpers, who get their own
+      login instead of a full admin password.
 
       Team members set their own password when they accept an invite. The
       invite is single-use, and the encryption keys are re-wrapped under

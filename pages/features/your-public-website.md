@@ -44,11 +44,18 @@ blocks:
       public page, and can upload a header image. The homepage text and
       contact page text are written in Markdown.
 
+      The site serves its own robots.txt, which tells search engines which
+      parts of the site they may index.
+
       The site renders in a [light or dark theme](/features/light-and-dark-themes/),
       and a toggle controls whether links are underlined. For anything
       beyond that, you can write your own CSS, which is served to
       visitors at /custom.css. The site can also run on your own
       [custom domain](/features/custom-domain/).
+
+      Every public page link offers Share, QR code and Embed actions, so
+      each page can be passed on, printed as a code, or placed inside
+      another website with the [embeddable widget](/features/embeddable-widget/).
 
       ## Contact form
 

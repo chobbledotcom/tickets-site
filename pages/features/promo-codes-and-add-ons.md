@@ -70,6 +70,12 @@ blocks:
       exists. When the buyer enters a code, the order summary updates to show
       the discount as a named line item, like "10% off -£1.00". Promo-code
       usage is logged to the activity log when a payment completes.
+
+      A code can also travel in a link. A URL ending in ?promo=CODE fills
+      the promo-code box at checkout, so the buyer does not type it in.
+      This suits newsletter and social campaign links, printed QR codes on
+      flyers where one scan books and applies the code, and partner links
+      with a code per partner.
   - type: split-image
     content: |
       ## Opt-in add-ons
@@ -100,7 +106,8 @@ blocks:
 
       The answer-triggered modifier uses the same pricing engine as promo
       codes and add-ons, so stock limits, scoping, and the live running total
-      all work the same way.
+      all work the same way. A price change tied to a custom-question answer
+      applies a limited number of times per order.
   - type: markdown
     content: |
       ## Live running total

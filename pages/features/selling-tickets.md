@@ -49,6 +49,9 @@ blocks:
       - icon: hugeicons:money-receive-square
         description: Issue full refunds for individual bookings or in bulk and keep the payment provider and accounting ledger in sync.
         name: <a href="/features/refunds/">Refunds</a>
+      - icon: hugeicons:layers-01
+        description: Set a minimum quantity per purchase on a listing, enforced on the booking page, the embeddable widget and the order widget cart. Raffle strips, drink tokens and hire places can be sold in packs without single-ticket orders.
+        name: Minimum quantities
       - icon: hugeicons:file-validation
         description: Set <a href="/features/terms-and-conditions/">terms and required contact fields</a>, plus <a href="/features/registration-deadlines/">booking cut-offs and purchase limits</a>.
         name: Booking rules

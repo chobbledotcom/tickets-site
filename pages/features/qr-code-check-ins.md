@@ -29,6 +29,22 @@ blocks:
       Tickets site. A manual name and token search is available when a camera
       cannot be used. That search offers only the people still to arrive, so
       nobody is checked in twice.
+
+      Check-ins are counted per ticket, not per booking. A booking with
+      several places gets one bold Check in/out link, and the door can
+      admit part of the booking, for example 2 of 5 places now and the
+      rest later. At a large event, a paper list of who has half-arrived
+      is not workable, so the count lives on the booking instead.
+
+      Door staff do not need an admin account. Give volunteers a
+      [scanner login](/features/users/) and the only page they can open
+      is the scanner. One scanner session can cover every listing in a
+      [group](/features/groups/), so one door list serves a multi-day
+      festival or a weekend programme.
+
+      The scanner shows what the attendee picked on the listing, such as
+      a size or a session time, and check-in matches that option rather
+      than the name alone.
     figure_src: /images/screenshots/qr-code-check-in.png
     figure_alt: A screenshot of the manual check-in search on a listing's scanner page, showing Alice and her one place ready to check in
     figure_caption: 'Look someone up by name when their ticket cannot be scanned. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/checking-people-in-at-the-door.feature">(src)</a></small>'

@@ -57,6 +57,13 @@ blocks:
       Docker deployments follow the same pattern against local SQLite or a
       remote libSQL database.
 
+      New Bunny databases can run on every region Bunny offers. A site can
+      also use [Turso](https://turso.tech), a libSQL database service, which
+      has its own region choice. That matters to organisers with
+      data-residency requirements, and it leaves the database decision open to
+      whoever operates the site. On a managed site, moving off a Bunny
+      database to Turso is one menu choice.
+
       ## Other places it runs
 
       The repository carries deployment configuration for several hosts beside
@@ -87,6 +94,11 @@ blocks:
       This makes a second copy cheap to keep. A staging site can sit unused
       between deployments and cost only its database and storage, which is what
       makes it practical to try an update somewhere else first.
+
+      ## Maintenance checks through Uptime Kuma
+
+      Maintenance checks can run through [Uptime Kuma](https://uptime.kuma.pet).
+      The checks require encrypted transport.
 
       ## What deploying does not involve
 

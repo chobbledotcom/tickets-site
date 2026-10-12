@@ -82,6 +82,17 @@ blocks:
       - **[Encrypted data](/features/encrypted/)** - names, emails, and
         question answers are encrypted at rest
 
+      ## Answers are kept as given
+
+      If you edit a custom question after people have signed up, the
+      answers they gave stay exactly as they were. A booking keeps the
+      wording of the question as it was when the booking was made, and
+      the admin panel shows which answers have changed since.
+
+      Answers can carry information that matters, like access needs, so
+      the original version survives any edit. You can see both versions
+      and how the answers you hold came to be.
+
       ## When a dedicated coordination tool is better
 
       Chobble Tickets handles straightforward sign-up collection. If

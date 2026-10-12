@@ -47,6 +47,12 @@ blocks:
       for details on templates and provider configuration.
   - type: markdown
     content: |
+      ## When a send fails
+
+      If an email fails to send, Chobble Tickets shows the error message
+      from the provider itself. You see what the provider said, so there
+      is no guessing at what went wrong.
+
       ## References
 
       - [Resend](https://resend.com/) - email API for developers

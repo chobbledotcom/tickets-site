@@ -25,8 +25,10 @@ blocks:
       date by date, or a single attendee.
 
       A date's own group is reached from that date on the listing's
-      attendee list. A booking covering several days belongs to each day
-      it covers, so a hall booked Friday to Sunday hears about Saturday.
+      attendee list. This suits a listing sold date by date, so you can
+      write only to the Saturday arrivals rather than the whole weekend.
+      A booking covering several days belongs to each day it covers, so a
+      hall booked Friday to Sunday hears about Saturday.
 
       The listing, date and single-attendee targets are reachable from
       the relevant admin pages, so you can start an email from the
@@ -90,7 +92,9 @@ blocks:
       [email provider](/features/email-providers/) you configure: Resend,
       Postmark, SendGrid, or Mailgun. Messages are sent in batches using
       each provider's batch endpoint, and the send report shows how many
-      emails were attempted and whether any batch failed.
+      emails were attempted and whether any batch failed. A send counts
+      as done by what the email provider confirmed, not by what was
+      attempted.
 
       Because the emails come from your own provider account and your own
       sending address, its delivery records stay in that account. If no

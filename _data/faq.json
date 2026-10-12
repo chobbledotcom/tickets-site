@@ -157,7 +157,7 @@
 	{
 		"section": "Features and customisation",
 		"question": "Can I set capacity limits for events?",
-		"answer": "Yes. Each event has a capacity set by the organiser. Chobble Tickets checks capacity before checkout, but this does not reserve anything or use capacity. For a paid booking, capacity is checked again and used only when payment confirmation arrives. If two payments race for the last ticket, the later one is refunded automatically and recorded for the organiser. When an event is full, the booking form shows a sold-out message. The checks are a best effort rather than a guarantee against software or infrastructure failures. <a href=\"/features/daily-events/\">Daily events</a> have separate capacity for each date, with holiday and blackout dates."
+		"answer": "Yes. Each event has a capacity set by the organiser. Chobble Tickets checks capacity before checkout, but this does not reserve anything or use capacity. For a paid booking, capacity is checked again and used only when payment confirmation arrives. An unpaid checkout stops taking payment after one hour, which stops a stale link from paying an old price against changed stock; a fresh checkout re-derives the price and availability, and the window reserves nothing. If two payments race for the last ticket, the later one is refunded automatically and recorded for the organiser. When an event is full, the booking form shows a sold-out message. The checks are a best effort rather than a guarantee against software or infrastructure failures. <a href=\"/features/daily-events/\">Daily events</a> have separate capacity for each date, with holiday and blackout dates."
 	},
 	{
 		"section": "Features and customisation",

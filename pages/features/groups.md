@@ -30,6 +30,12 @@ blocks:
       This is also useful for recurring events like a weekly class, a monthly
       meetup, or a season of concerts where grouping makes booking easy.
 
+      A listing can carry options the buyer picks, such as a size. In the
+      example above, Jane picked a Medium, and that choice reaches the
+      attendee roster and the door. See
+      [listing attributes](/features/managing-events/) for how to set
+      options on a listing.
+
       A booking made that way is an ordinary booking: it reaches the listing's
       own attendee list with the person's name, their email, the places they
       took and the answers they gave.
@@ -57,6 +63,14 @@ blocks:
       Each event in the group can have its own price, description, and
       individual cap. The group maximum is rechecked when payment confirmation
       arrives. A paid order that no longer fits is refunded automatically.
+
+      A group can also keep its hidden tiers off the group's public page.
+      The tiers stay bookable through their own links.
+
+      One scanner session covers the whole group. A door volunteer with a
+      [scanner login](/features/users/) can check people in across every
+      listing in the group, so a multi-day festival, a multi-venue event
+      or a weekend programme runs on one door list.
 
       ## Daily events
 

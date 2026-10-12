@@ -22,6 +22,9 @@ blocks:
       £5 for a month, and the site runs until that term ends. Annual hosting is
       £25 for charities, community groups, artists and musicians.
 
+      Buying more months on a site plan runs one site for more months. It never
+      buys extra sites.
+
       Chobble does not store card details to take automatic renewals. Nothing is
       charged unless the organiser returns and pays for another term. There is no
       recurring payment that can fail, and no cancelled subscription to recover

@@ -66,6 +66,10 @@ blocks:
       public API listing endpoints, or on tickets and confirmation
       emails, which show the package name instead.
 
+      A whole package can also be kept private, so it stays off the public
+      pages. Buyers reach it through a direct link, and it does not appear in
+      public listings.
+
       Members can also have [required child listings](/features/parent-child-listings/),
       such as add-ons the buyer picks per member. Capacity checks cover
       the whole bundle, so a package can only be booked when every member

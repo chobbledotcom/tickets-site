@@ -24,7 +24,14 @@ blocks:
       CSS to change colours, fonts and spacing.
 
       Your settings apply across the public site, booking pages and ticket
-      pages.
+      pages. The footer text on the public site is a setting too, so you can
+      write what appears at the bottom of every page.
+
+      If your CSS names fonts.bunny.net, the page's content security policy
+      (the browser rule that says which outside sources a page may load) allows
+      it, so your chosen fonts load without extra configuration. Custom CSS can
+      also be scoped to a family of pages instead of the whole site, for example
+      only the booking pages.
     figure_src: /images/screenshots/oakfield-homepage-editor.png
     figure_alt: A screenshot of the owner's list of site pages, showing Parking, Directions and Opening in that order with the address each one lives at
     figure_caption: 'Pages are offered in the order the owner puts them, and each one keeps the address it was given. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/pages/writing-the-pages-people-read.feature">(src)</a></small>'

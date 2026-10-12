@@ -29,6 +29,20 @@ blocks:
       you can control which domains are allowed to embed your events. This
       prevents unauthorised sites from embedding your booking pages.
 
+      ## How the widget behaves
+
+      Your configured header image hides when a page is embedded in another
+      site, so the embed shows booking content without a repeated banner. The
+      site menu shows on booking pages unless the page is embedded.
+
+      The embed cart is styled with an adopted stylesheet, which means its
+      styles are part of the page itself rather than a separate file. A strict
+      content security policy (CSP, the browser rule that says which outside
+      sources a page may load) on your host cannot block the cart's styling.
+
+      The widget can also add a [package](/features/packages/) to the cart,
+      so a bundle can be sold from your own site in one step.
+
       ## No custom code needed
 
       If you don't want to build a custom integration with the

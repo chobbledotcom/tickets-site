@@ -28,6 +28,12 @@ blocks:
       inside the backup, exactly as it is stored in the database. A copy
       of the backup file on its own does not reveal attendee details.
 
+      ## A complete local snapshot
+
+      A site can also take a complete local snapshot of its database. For a
+      self-hoster, this means a copy of everything without working through a
+      cloud console.
+
       ## Restore from the admin panel
 
       To restore, the owner uploads a backup zip and confirms by typing a

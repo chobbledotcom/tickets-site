@@ -45,7 +45,25 @@ blocks:
       > Sorry, this event sold out while you were completing payment.
 
       The refund is issued automatically, so you do not have to handle it
-      yourself.
+      yourself. When a bigger order is refused because one listing in the
+      cart has run out of room, the message names that listing. The buyer
+      can drop it and check the rest of the cart.
+
+      ## Lost confirmations
+
+      A lost confirmation message never loses a ticket. Chobble Tickets
+      asks SumUp what became of every checkout, and asks Square again when
+      a paid order is not readable yet, so the booking is recorded either
+      way.
+
+      ## The checkout window
+
+      An unpaid checkout stops taking payment after one hour. This stops a
+      stale link from paying an old price against changed stock. Someone
+      who starts again gets a fresh checkout, and the price and
+      availability are derived from current data. The window reserves
+      nothing: capacity is still checked when payment confirmation
+      arrives.
 
       ## Per-date capacity
 

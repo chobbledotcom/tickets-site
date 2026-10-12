@@ -27,6 +27,13 @@ blocks:
     figure_caption: Edit the subject, HTML message and plain text message from one settings form.
   - type: markdown
     content: |
+      ## Answers shown in the email
+
+      The confirmation email shows the answers the buyer gave to your
+      custom questions. Door crews, caterers and volunteers can see
+      dietary or access needs straight from the email, without needing
+      an admin login.
+
       ## Built-in template filters
 
       The template engine includes useful filters like `currency` for

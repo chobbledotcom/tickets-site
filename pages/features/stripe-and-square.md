@@ -31,12 +31,18 @@ blocks:
 
       Chobble Tickets supports Stripe, Square and SumUp as payment providers,
       with one active provider per site. Connect your existing account by
-      adding its credentials in the settings. Credentials for the other
-      providers remain saved when you switch. The settings also identify
-      whether a configured key accepts test or live payments.
+      adding its credentials. Credentials for every provider are set
+      through one form, and they remain saved when you
+      switch. The settings also identify
+      whether a configured key accepts test or live payments. Providers
+      that the site's currency cannot use are hidden from checkout.
 
       Paid bookings continue to the provider's hosted checkout. Chobble
       Tickets records payment confirmation and refund results.
+
+      When a buyer returns from the payment provider before confirmation
+      has arrived, they see a waiting page with a Check again button
+      instead of an error.
 
       ## Square needs an email address
 
@@ -49,6 +55,12 @@ blocks:
       Stripe and SumUp have no such requirement. A paid listing on either
       can collect a name and nothing else, and free listings take no payment
       provider at all.
+
+      ## When a payment fails
+
+      A failed payment gets its own page, and that page tells the owner why
+      the payment failed. You can see what went wrong without opening the
+      provider's dashboard.
 
       ## Flexible pricing
 

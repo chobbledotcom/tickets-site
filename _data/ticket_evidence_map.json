@@ -138,7 +138,7 @@
       "galleryCaption": "An attendee list holding a booking made from a group page, with the answer the customer picked.",
       "legacyDestinationPath": "images/screenshots/the-tempest-group-checkout.png",
       "page": "pages/features/groups.md",
-      "reviewed": "15350fc97c6a648f036a1c7fff0dcdff5ba2a8a019f6f0126a0cc817ec035ea6",
+      "reviewed": "570ed2f5d298fa78c5f2cd4495b31fdaf8e81e646a73d5c571af0f47e1fda1dd",
       "socialBody": "Put several listings on one page and let a customer book them together. Each booking reaches the organiser with the answers it was given.",
       "socialHeading": "Sell several listings on one page",
       "socialKey": "groups"
@@ -242,7 +242,7 @@
       "galleryCaption": "Manual check-in for someone whose ticket cannot be scanned.",
       "legacyDestinationPath": "images/screenshots/qr-code-check-in.png",
       "page": "pages/features/qr-code-check-ins.md",
-      "reviewed": "3aad4a7b6766b467a096edcb4cb9f8141e3b8a43bda912a2e6d2c88ca35b8aba",
+      "reviewed": "a865c0293e66893bc09854bc2df66b2d143384ef89ae283fe8bc0285b06b0596",
       "socialBody": "Scan a booking QR code with a phone camera, or pick the person from the list of those still to arrive when a camera cannot be used.",
       "socialHeading": "Check bookings with a phone",
       "socialKey": "qr-code-check-ins"
@@ -307,7 +307,7 @@
       "galleryCaption": "An organiser's own pages, in the order they chose.",
       "legacyDestinationPath": "images/screenshots/oakfield-homepage-editor.png",
       "page": "pages/features/customising-your-site.md",
-      "reviewed": "a84d585968e5272100cab1d146c78c70e5928cd43660149442d3a2bf3cb865f1",
+      "reviewed": "9b96719d8cb5034a896143dc672d2c8e0a11e8bf3ec1ba0c0d54f7ede44ff0ff",
       "socialBody": "Write your own pages, choose the address each one lives at, and put them in the order you want them offered in.",
       "socialHeading": "Arrange the pages you write",
       "socialKey": "site-customisation"

@@ -33,7 +33,8 @@ blocks:
       count. Opening it shows each line with quantity controls, line
       totals, and a subtotal. The cart does not reserve items. Prices and
       availability are checked before payment and again when payment
-      confirmation arrives.
+      confirmation arrives. Any minimum quantity a listing sets applies in
+      the cart too.
 
       The cart is stored in the visitor's own browser and holds only
       listing references and quantities, no personal data. Pressing

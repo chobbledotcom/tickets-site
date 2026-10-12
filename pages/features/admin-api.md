@@ -69,11 +69,12 @@ blocks:
       uploads to worry about.
   - type: markdown
     content: |
-      ## What's next
+      ## Attendees and attributes
 
-      Attendee management endpoints are coming next, with read, edit, and
-      export operations available via the API, just like you can for events
-      today.
+      The API can read a listing's attendees, so scripts and dashboards
+      can pull the same attendee data you see in the admin panel. There is
+      also an attributes resource, which covers listing options such as
+      sizes.
 
       Combined with the [public API](/features/public-api/) (which needs
       no authentication for read-only event listings), the

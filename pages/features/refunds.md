@@ -42,6 +42,25 @@ blocks:
       so you can see which refunds have been processed and which are
       pending.
 
+      For an order covering several bookings, the refund status answers per
+      booking, so you can see where each refund stands.
+
+      ## Refunds that survive interruptions
+
+      Refunds use stable retry keys, and only confirmed outcomes count. If
+      a refund is interrupted by a crash, it can be picked up and finished
+      rather than issued twice or lost.
+
+      Chobble has no admin access to organisers' sites, and attendee data
+      is encrypted. Failures therefore have to be resolvable without a
+      support login, and the site explains them on the page instead.
+
+      ## Rebuilding payment records
+
+      Bookings made before payment records were indexed can still be
+      refunded. The owner can rebuild payment records for those bookings,
+      so older bookings are not stuck without a refund.
+
       ## Clear records
 
       Refunded attendees are clearly marked in the admin panel so you can

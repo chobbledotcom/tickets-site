@@ -37,6 +37,13 @@ blocks:
 
       Chobble Tickets validates the complete file before applying it. The import is atomic, which means a failed import does not leave part of a listing or group behind.
 
+      ## Import from markdown frontmatter
+
+      Catalogue content does not have to start as JSON. It can be kept as
+      markdown frontmatter in a repository and imported through the command
+      line. That suits a catalogue that is versioned and edited alongside the
+      site's source.
+
       For copies within one site, [bulk event management](/features/bulk-event-management/) can duplicate a group and shift all its dates. [CSV export](/features/csv-export/) covers attendee, listing and calendar reports rather than reusable event setup.
   - type: cta
     button:

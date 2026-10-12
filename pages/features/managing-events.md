@@ -71,6 +71,23 @@ blocks:
       - icon: hugeicons:book-open-01
         description: Read the administration guide inside each site when setting up a feature or training another team member.
         name: <a href="/features/admin-guide/">Built-in guide</a>
+  - type: markdown
+    content: |-
+      ## Options on a listing
+
+      A listing can carry options the buyer picks, such as a size, a
+      session time or a merch variant. The buyer chooses from the options
+      when booking, and the choice appears on the attendee roster.
+
+      Options are distinct from [custom questions](/features/custom-questions/).
+      A question collects an answer from the buyer. An option belongs to
+      the listing itself, so the same option list applies to every booking
+      on that listing.
+
+      At the door, check-in matches the picked option rather than just the
+      name, so two people called Jane with different sizes are told apart.
+      The same choices show up on [group bookings](/features/groups/),
+      where each listing keeps its own options.
   - type: cta
     button:
       text: Start for £5

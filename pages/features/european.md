@@ -31,6 +31,12 @@ blocks:
       | Default email provider | [Mailgun EU](https://www.mailgun.com/) | EU endpoint (US parent company) |
       | Payment processor | [Stripe](https://stripe.com), [Square](https://squareup.com) or [SumUp](https://sumup.com) | United States, United States or United Kingdom |
 
+      That row describes managed hosting. A self-hosted site can use
+      [Turso](https://turso.tech) or another libSQL service as its ticketing
+      database, which brings its own region choice.
+      [Deploying an event ticketing site](/features/deployment/) covers the
+      options.
+
       Chobble is a [community interest company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       registered in England as a company limited by guarantee without share
       capital. Its community interest company structure includes an asset lock.
