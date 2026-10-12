@@ -77,8 +77,7 @@ blocks:
       be run as a hosted service on eventschedule.com or self-hosted on your
       own server, and both are the same product.
 
-      This page compares the two platforms to help you decide which fits your
-      needs. Other open source comparisons cover
+      Other open source comparisons cover
       [Hi.Events](/compared-to/hi-events/),
       [Pretix](/compared-to/pretix/) and
       [Swicket with alf.io](/compared-to/swicket/). The
@@ -336,7 +335,7 @@ blocks:
 
       The pricing and product information on this page was checked on 10 August
       2026 against the live Event Schedule site and its GitHub repository. Fees
-      and features may change. Check the links below for the latest figures.
+      and features may change.
 
       - [Event Schedule pricing](https://eventschedule.com/pricing) - free, Pro (US$5/month or US$50/year) and Enterprise (US$15/month or US$150/year) plans, no fee on ticket sales, features split across tiers
       - [Event Schedule homepage](https://eventschedule.com) - open source, self-hosting, ticketing, appointments, event discovery

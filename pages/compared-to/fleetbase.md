@@ -377,19 +377,18 @@ blocks:
       and parcel services, e-commerce, healthcare, waste and recycling,
       container operations and military and government.
 
-      Chobble Tickets is run by one person as a UK
+      Fleetbase grew through open core into a modular platform company.
+      Chobble Tickets is a one-person
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      (CIC), a UK structure that locks its assets for community benefit,
+      publishing everything it runs under AGPLv3. Anyone can take that
+      source and self-host it without depending on Chobble as a company.
   - type: markdown
     content: |
       ## Pricing sources
 
       The information on this page was verified on 16 August 2026. Pricing
-      and features may change. Check the links below for the latest
-      figures.
+      and features may change.
 
       - [Fleetbase pricing](https://fleetbase.io/pricing) - Cloud plan at $29/month plus $5 per driver or vehicle, three usage meters, and self-hosted installation
       - [Fleetbase platform overview](https://fleetbase.io/platform) - Fleet-Ops, Storefront, Navigator, Ledger and extensions

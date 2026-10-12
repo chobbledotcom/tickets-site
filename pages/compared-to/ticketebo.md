@@ -54,15 +54,15 @@ blocks:
     content: |-
       # Chobble Tickets vs Ticketebo
 
-      Ticketebo is a UK ticketing platform based in Manchester, operating since 2013 in Australia and since January 2020 in the UK, and widely used by country shows, festivals and community groups. This page compares it to Chobble Tickets.
+      Ticketebo is a UK ticketing platform based in Manchester, operating since 2013 in Australia and since January 2020 in the UK, and widely used by country shows, festivals and community groups.
   - type: markdown
     content: |
       ## Open source & flat fee Ticketebo alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Ticketebo does not publish its source code.
+      Chobble Tickets is made in the UK, run as a community interest
+      company, and published under the AGPL-3.0-only licence: anyone can
+      read the source, fork it, or run their own copy, with their branding
+      on every page. Ticketebo does not publish its source code.
 
       Ticketebo charges the ticket buyer a booking fee of 4.95% (incl. VAT)
       per transaction, or 75p (incl. VAT) minimum, with card processing
@@ -325,19 +325,19 @@ blocks:
       programme. No ownership or investor structure beyond the Companies
       House record was documented in the sources reviewed.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets' structure is on the public record instead: one
+      person, running a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      (CIC) whose assets are locked for community benefit. Chobble's code
+      is entirely public under AGPLv3, which is what makes self-hosting
+      possible for anyone who prefers not to depend on Chobble.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was checked on 8 August 2026
       against the live Ticketebo pricing page and its published terms. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [Ticketebo pricing](https://www.ticketebo.co.uk/pricing) - 4.95% (incl. VAT) per transaction, 75p minimum, card processing included, no per-ticket charge, free for organisers
       - [Ticketebo online ticketing](https://www.ticketebo.co.uk/online-ticketing) - free for organisers, free events free, booking fee paid by the consumer

@@ -57,9 +57,9 @@ blocks:
     content: |
       ## Open source & cheaper Tito alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
+      Chobble Tickets is a UK community interest company's platform, white
+      label by construction and published in full under the AGPL-3.0-only
+      licence. Anyone can read that source, fork it, or run their own
       copy. Tito is closed source and does not publish its code.
 
       Tito charges 3% per paid ticket, capped at €25, with reduced rates for
@@ -255,18 +255,18 @@ blocks:
       [Vito](https://vi.to), a companion platform for virtual and hybrid
       events.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets sits at the other end of the team-size range: one
+      person, running a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      (CIC) whose assets are locked for community benefit. All of
+      Chobble's code is published under AGPLv3, so self-hosting is open
+      to anyone and needs no permission from Chobble.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [Tito pricing](https://ti.to/pricing) - 3% per ticket, capped at €25 per ticket (reduced rates for non-profits and charities)
       - [Tito features](https://ti.to/features) - full feature list

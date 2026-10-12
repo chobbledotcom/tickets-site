@@ -59,8 +59,8 @@ blocks:
 
       Chobble Tickets is a white label ticketing platform made in the UK by a
       community interest company, so profit cannot be paid out to
-      shareholders. Its source code is published under the AGPL-3.0-only
-      licence, so anyone can read it, fork it, or run their own copy.
+      shareholders, and its source is published under the AGPL-3.0-only
+      licence for anyone to read, fork, or run as their own copy.
       Eventbrite is closed source and does not publish its code.
 
       Eventbrite charges 6.95% + £0.59 per ticket in the UK and markets other
@@ -318,7 +318,8 @@ blocks:
       WeTransfer. Before that, Eventbrite was a publicly traded company on
       the New York Stock Exchange.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets was never a listed company and was never for sale:
+      one person runs it as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction),
       a type of UK company that exists to benefit the community. All of
       Chobble's code is public, and anyone can run the platform on their
@@ -328,7 +329,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in June 2026. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [Eventbrite pricing for organisers](https://www.eventbrite.co.uk/organizer/pricing/) - 6.95% + £0.59 per ticket (UK)
       - [Eventbrite ticketing fees (Help Centre)](https://www.eventbrite.co.uk/help/en-gb/articles/755615/how-much-does-it-cost-for-organizers-to-use-eventbrite/)

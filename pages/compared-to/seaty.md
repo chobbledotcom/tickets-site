@@ -55,15 +55,15 @@ blocks:
     content: |-
       # Chobble Tickets vs Seaty
 
-      Seaty is a UK ticketing and event-management platform for theatres, schools, clubs and societies, based in Birmingham and run by Seaty Ltd. This page compares it to Chobble Tickets.
+      Seaty is a UK ticketing and event-management platform for theatres, schools, clubs and societies, based in Birmingham and run by Seaty Ltd.
   - type: markdown
     content: |
       ## Open source & flat fee Seaty alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Seaty does not publish its source code.
+      Chobble Tickets is a white label ticketing platform from the UK,
+      run as a community interest company and published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their
+      own copy. Seaty does not publish its source code.
 
       Seaty charges 7.2% on online card payments, with card processing
       included, a £0.50 minimum per order, and no fees on cash, invoice, box
@@ -366,19 +366,19 @@ blocks:
       registration, B Corporation certification or co-operative status is
       described in the sources reviewed.
 
-      Chobble Tickets is run by one person as a
+      Seaty's ownership is undescribed in its own material. Chobble
+      Tickets describes its: one person, running a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      (CIC) whose assets are locked for community benefit. Chobble's code
+      is public to the last line under AGPLv3, and anyone can self-host
+      the platform without relying on Chobble as a company.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was checked on 14 August 2026
       against the live Seaty fees page and its published terms. Fees may
-      change. Check the links below for the latest figures.
+      change.
 
       - [Seaty fees and pricing](https://www.seaty.co.uk/Docs/Fees) - 7.2% on online card payments, £0.50 minimum, no fees on cash, box office or free tickets, no subscription or setup cost
       - [How Seaty compares](https://www.seaty.co.uk/Compare) - 4.5% when you connect your own Stripe, feature comparison against Eventbrite and TicketSource

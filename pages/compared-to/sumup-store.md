@@ -56,10 +56,11 @@ blocks:
     content: |
       ## Open source & purpose-built SumUp Online Store alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. SumUp does not publish its source code.
+      Chobble Tickets is a UK community interest company that publishes
+      the whole platform's source under the AGPL-3.0-only licence, and
+      every ticket page carries your branding rather than Chobble's. You
+      can read, fork or self-host the code. SumUp does not publish its
+      source code.
 
       The SumUp Online Store is free to open and charges 2.5% on each online
       payment. Chobble Tickets costs £50/year or £5/month and charges [no
@@ -305,18 +306,18 @@ blocks:
       SumUp Bookings, a separate product, schedules appointments for
       services. It does not sell tickets for events.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets, a ticketing platform rather than a card reader
+      company, is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      (CIC) under UK rules that lock its assets for community benefit.
+      Under AGPLv3, all of Chobble's code is available to anyone who wants
+      to run the platform themselves rather than depend on Chobble.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in August 2026.
-      Fees may change. Check the links below for the latest figures.
+      Fees may change.
 
       - [SumUp Online Store](https://www.sumup.com/en-gb/online-store/) - free to open, £0 monthly cost, 2.5% transaction fee, custom domains
       - [SumUp pricing](https://www.sumup.com/en-gb/pricing/) - 1.69% in-person pay-as-you-go, 2.5% online, Payments Plus £19/month, next-day payouts

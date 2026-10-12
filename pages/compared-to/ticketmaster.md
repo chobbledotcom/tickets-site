@@ -253,7 +253,8 @@ blocks:
       court](https://en.wikipedia.org/wiki/United_States_v._Live_Nation_Entertainment)
       for having too much control over the ticketing industry.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets is at the far other end of that scale: it is run by
+      one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction),
       a type of UK company that exists to benefit the community. All of
       Chobble's code is public, and anyone can run the platform on their
@@ -264,8 +265,7 @@ blocks:
 
       Ticketmaster does not publish a standard public fee schedule for
       organisers. Fees vary by event, venue, and contract. The pricing
-      estimate used on this page is approximate. Check the link below for
-      the latest information.
+      estimate used on this page is approximate.
 
       - [Ticketmaster UK](https://www.ticketmaster.co.uk)
       - [Ticketmaster Business Solutions](https://business.ticketmaster.com/solutions/) - features for venues and organisers

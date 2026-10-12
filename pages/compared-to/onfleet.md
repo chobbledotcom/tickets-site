@@ -320,19 +320,18 @@ blocks:
       across more than 90 countries. The page does not describe the
       company's ownership or legal structure.
 
-      Chobble Tickets is run by one person as a UK
+      Where Onfleet's page is silent on ownership, Chobble Tickets states
+      its: one person, as a UK
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      (CIC) whose assets are locked for community benefit. Chobble's code
+      is entirely public under AGPLv3, so a copy of the platform can run
+      on your own infrastructure instead of Chobble's.
   - type: markdown
     content: |
       ## Pricing sources
 
       The information on this page was verified on 15 August 2026. Pricing
-      and features may change. Check the links below for the latest
-      figures.
+      and features may change.
 
       - [Onfleet pricing](https://onfleet.com/pricing) - Launch, Scale, Enterprise, and Courier Suite plans with task allowances
       - [Onfleet company page](https://onfleet.com/company) - founded 2015, based in San Francisco

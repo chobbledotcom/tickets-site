@@ -49,15 +49,15 @@ blocks:
     content: |-
       # Chobble Tickets vs TixFox
 
-      TixFox is a US ticketing platform that charges a flat fee per paid ticket, with payments through Stripe. This page compares it to Chobble Tickets on pricing, features and data handling.
+      TixFox is a US ticketing platform that charges a flat fee per paid ticket, with payments through Stripe.
   - type: markdown
     content: |
       ## Open source & cheaper TixFox alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. TixFox does not publish its source code.
+      Chobble Tickets is a UK community interest company's white label
+      ticketing platform, and it publishes its source under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their
+      own copy. TixFox does not publish its source code.
 
       TixFox charges £0.38 per paid ticket with no subscription. Chobble
       Tickets charges £50/year or £5/month whatever the volume, so the two
@@ -264,10 +264,11 @@ blocks:
       HahuCloud LLC, which is the earliest public release date found in
       this review.
 
-      Chobble Tickets is run by one person as a
+      TixFox's operator is hard to pin down. Chobble Tickets publishes
+      everything: it is run by one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under
+      (CIC), a UK structure that locks the company's assets for community
+      benefit. All of Chobble's code is public under
       [AGPL-3.0-only](/features/open-source/), and the platform can be
       self-hosted by anyone without depending on Chobble as a company.
   - type: markdown
@@ -275,7 +276,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was checked on 3 August 2026.
-      Fees may change. Check the links below for the latest figures.
+      Fees may change.
 
       - [TixFox pricing](https://tixfox.co/pricing) - £0.38 per paid ticket (£0.30 under £5) with the currency selector set to pounds, US$0.39/US$0.30 in dollars, free events free
       - [TixFox FAQ](https://tixfox.co/faq) - fee pass-through, Stripe Connect payouts, non-refundable platform fees

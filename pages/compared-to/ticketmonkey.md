@@ -51,15 +51,15 @@ blocks:
     content: |-
       # Chobble Tickets vs Ticket Monkey
 
-      Ticket Monkey is a UK self-serve ticketing platform that charges a flat 25p per paid ticket. This page compares it to Chobble Tickets.
+      Ticket Monkey is a UK self-serve ticketing platform that charges a flat 25p per paid ticket.
   - type: markdown
     content: |
       ## Open source & flat-rate Ticket Monkey alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Ticket Monkey does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK
+      by a community interest company, with the whole of its source code
+      published under the AGPL-3.0-only licence for anyone to read, fork,
+      or run themselves. Ticket Monkey does not publish its source code.
 
       Ticket Monkey charges 25p per paid ticket on its Core tier, including
       VAT, with no percentage on top. Chobble Tickets charges £50/year or
@@ -297,7 +297,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was checked on 11 August 2026. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [Ticket Monkey pricing](https://ticketmonkey.co.uk/pricing) - 25p per paid ticket on Core, including VAT; Pro normally 60p; managed priced as a custom percentage
       - [Ticket Monkey fee comparison](https://ticketmonkey.co.uk/compare-ticketing-fees) - the "lowest published standard fee" claim and VAT-adjusted competitor table

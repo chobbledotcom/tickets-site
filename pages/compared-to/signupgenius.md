@@ -354,18 +354,18 @@ blocks:
       and remains especially popular with US churches, schools, PTAs, and
       community groups.
 
-      Chobble Tickets is run by one person as a
+      SignUpGenius grew to 43 employees on venture-scale revenue. Chobble
+      Tickets is deliberately the opposite: one person, running a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      (CIC) whose assets are locked for community benefit. AGPLv3 puts
+      all of Chobble's code in the public view, and anyone can take it
+      and self-host the platform on their own terms.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
-      Fees may change. Check the links below for the latest figures.
+      Fees may change.
 
       - [SignUpGenius pricing](https://www.signupgenius.com/pricing) - Free, Silver ($8.99/month), Gold ($22.49/month), Platinum ($44.99/month), Enterprise
       - [SignUpGenius cost FAQ](https://www.signupgenius.com/support/sign-up-genius-cost) - payment collection fees: 5% + $0.50 per transaction

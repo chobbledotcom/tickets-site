@@ -58,10 +58,10 @@ blocks:
     content: |
       ## Open source & flat fee Eventee alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Eventee does not publish its source code.
+      Chobble Tickets is a white label ticketing platform from a UK
+      community interest company. Its source is published under the
+      AGPL-3.0-only licence, so anyone can read it, fork it, or run their
+      own copy of the platform. Eventee does not publish its source code.
 
       Eventee prices by event and by annual subscription, with an attendee
       cap on each plan and no per-ticket fee. Chobble Tickets charges a flat
@@ -86,7 +86,6 @@ blocks:
       Apple or Google Wallet. The organiser keeps attendee data, encrypted,
       on infrastructure they can control.
 
-      This page compares the two to help you decide which fits your event.
       Other comparisons cover adjacent tools: [Cal.com](/compared-to/cal-com/)
       for paid scheduling, [Onfleet](/compared-to/onfleet/) for delivery, and
       [SignUpGenius](/compared-to/signupgenius/) for sign-up sheets.
@@ -290,19 +289,18 @@ blocks:
       has a sales office in New York, and the engineering team is based in
       Europe. The site carries GDPR and ISO 27001 badges.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets is cloud-hosted too, but its source is not
+      proprietary, and its company is a one-person
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and the
-      platform can be self-hosted by anyone without depending on Chobble as a
-      company.
+      (CIC) whose assets are locked for community benefit. All of
+      Chobble's code is public under AGPLv3, which means anyone can run
+      the platform on infrastructure they control instead of Chobble's.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing and company information on this page was checked on 15
-      August 2026. Fees may change. Check the links below for the latest
-      figures.
+      August 2026. Fees may change.
 
       - [Eventee pricing](https://eventee.com/pricing) - Essential £1,299, Signature £2,199, Professional £3,099 per event; white label £1,700 add-on
       - [Eventee features](https://eventee.com/features) - full feature list

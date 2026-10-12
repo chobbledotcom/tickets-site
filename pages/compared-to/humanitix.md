@@ -46,7 +46,7 @@ blocks:
     content: |-
       # Chobble Tickets vs Humanitix
 
-      Humanitix is a registered charity that donates its booking fee profits to education projects. This page compares it to Chobble Tickets on pricing, features and data handling.
+      Humanitix is a registered charity that donates its booking fee profits to education projects.
   - type: markdown
     content: |
       ## Open source & cheaper Humanitix alternative
@@ -274,10 +274,12 @@ blocks:
       as of July 2026. The platform operates in Australia, New Zealand,
       the United States, Canada, the United Kingdom and Fiji.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets is also structured for benefit rather than
+      shareholder return, though at a far smaller scale: one person runs
+      it as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under
+      (CIC), a UK structure that locks the company's assets for community
+      benefit. All of Chobble's code is public under
       [AGPL-3.0-only](/features/open-source/) with no enterprise tier or
       feature gates, and the platform can be self-hosted by anyone
       without depending on Chobble as a company.
@@ -286,7 +288,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was verified in July 2026.
-      Fees may change. Check the links below for the latest figures.
+      Fees may change.
 
       - [Humanitix pricing (UK)](https://humanitix.com/gb/pricing) - Standard 4.67% + £0.46, Charities & Schools 3.33% + £0.25 per paid ticket (excl. VAT), free events free
       - [Humanitix features](https://humanitix.com/gb/features) - full feature list including seating, waitlists, scanning app, integrations

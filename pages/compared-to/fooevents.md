@@ -374,10 +374,11 @@ blocks:
       rand by Paystack for South African customers, and PayPal is
       offered in most other countries.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets is also built by a small operation, one person
+      running a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3
+      (CIC) under UK rules that lock its assets for community benefit.
+      All of Chobble's code is public under AGPLv3
       with no paid tier, and the platform can be self-hosted by anyone
       without depending on Chobble as a company.
   - type: markdown
@@ -385,7 +386,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was checked again on 25 July
-      2026. Fees may change. Check the links below for the latest figures.
+      2026. Fees may change.
 
       - [FooEvents pricing](https://www.fooevents.com/pricing/) -
         bundle prices from $139 to $349 per year

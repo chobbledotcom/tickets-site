@@ -59,9 +59,9 @@ blocks:
       ## Open source & flat fee DICE alternative
 
       Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. DICE is closed source and does not publish its code.
+      community interest company, and its code is public under the
+      AGPL-3.0-only licence: anyone can read it, fork it, or run their own
+      copy of the platform. DICE is closed source and does not publish its code.
 
       DICE does not publish its fees, so rates are agreed case by case, and
       tickets live in the DICE app. Chobble Tickets costs £50/year or
@@ -255,7 +255,8 @@ blocks:
       [Fever](https://feverup.com), a large live entertainment company that
       helps people discover events in cities around the world.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets was never for sale, and could not be: it is run by
+      one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction),
       a type of UK company that exists to benefit the community, not to
       make profit for shareholders. All of Chobble's code is public, and
@@ -265,8 +266,7 @@ blocks:
       ## Pricing sources
 
       DICE does not publicly disclose its fees. The estimate used here is
-      based on industry analysis and publicly available comparisons. Check
-      the links below for the latest information.
+      based on industry analysis and publicly available comparisons.
 
       - [DICE](https://dice.fm) - fees negotiated per partnership (not publicly listed)
       - [DICE for partners](https://dice.fm/partners) - DICE's partner information and features

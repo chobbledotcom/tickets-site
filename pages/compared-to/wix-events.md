@@ -52,10 +52,11 @@ blocks:
     content: |
       ## Open source & cheaper Wix Events alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Wix does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK
+      by a community interest company, and its full source code is
+      published under the AGPL-3.0-only licence, so anyone can read it,
+      fork it, or run their own copy of the platform. Wix does not publish
+      its source code.
 
       Wix Events charges a 2.5% ticket service fee and needs a Wix Business
       and eCommerce plan from $29/month, about £276 a year. Chobble Tickets
@@ -285,18 +286,18 @@ blocks:
       ticketing is a feature within a much larger website-building
       platform, not a standalone product.
 
-      Chobble Tickets is run by one person as a
+      Wix Events is a feature of Wix the company. Chobble Tickets is a
+      company of its own, a one-person
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      (CIC) whose assets are locked for community benefit. Chobble's code
+      is published under AGPLv3 in full, so the platform can be
+      self-hosted by anyone who would rather not depend on Chobble.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [Wix Events: About Wix Ticket Service Fees](https://support.wix.com/en/article/wix-events-about-wix-ticket-service-fees) - 2.5% ticket service fee
       - [Wix Payments: Service Fees](https://support.wix.com/en/article/wix-payments-service-fees) - 2.1% + 20p per transaction (UK)

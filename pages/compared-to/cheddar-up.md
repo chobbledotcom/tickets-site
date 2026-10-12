@@ -52,10 +52,10 @@ blocks:
     content: |
       ## Open source & cheaper Cheddar Up alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Cheddar Up does not publish its source code.
+      Chobble Tickets is white label ticketing software from a UK
+      community interest company, published in full under the AGPL-3.0-only
+      licence: anyone can read it, fork it, or run their own copy of it.
+      Cheddar Up does not publish its source code.
 
       Cheddar Up puts ticketing with QR check-in on its Team plan at
       $420/year, and adds a per-transaction fee of 3.59% + $0.59. Chobble
@@ -276,18 +276,19 @@ blocks:
       and has expanded from pure payment collection into event ticketing,
       forms, and point-of-sale.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets serves the same community groups from a different
+      base: it is a one-person
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3,
-      and the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      (CIC), a UK structure that locks the company's assets for community
+      benefit. All of Chobble's code is out in the open under AGPLv3, so
+      anyone can run the platform on their own terms without Chobble the
+      company.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
-      Fees may change. Check the links below for the latest figures.
+      Fees may change.
 
       - [Cheddar Up pricing](https://www.cheddarup.com/pricing/) - Basic (free), Pro ($20/month), Team ($48/month)
       - [Cheddar Up fees explained](https://www.cheddarup.com/blog/cheddar-up-fees/) - 3.59% + $0.59 per transaction on Pro/Team, 3.95% + $0.95 on Basic

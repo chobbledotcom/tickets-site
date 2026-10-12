@@ -80,9 +80,6 @@ blocks:
       platform, built with React and Laravel. Free self-hosting uses AGPL-3.0
       with additional attribution terms.
 
-      This page compares the two platforms to help you decide which fits your
-      needs.
-
       Other open source comparisons cover
       [Pretix](/compared-to/pretix/) and
       [Swicket with alf.io](/compared-to/swicket/). The
@@ -345,20 +342,20 @@ blocks:
       covers the licensee's own events; providing ticketing to other organisers
       requires a different licence.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets publishes its full source with no attribution
+      requirement and no commercial licence gate, because it is built by
+      a one-person
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. Chobble Tickets is published under
-      [AGPL-3.0-only](/features/open-source/) with no attribution requirement,
-      and the platform can be self-hosted by anyone without depending on
-      Chobble as a company. The [hosting page](/hosting/) describes its
+      (CIC) whose assets are locked for community benefit, and anyone can
+      self-host that source without depending on Chobble as a company. The
+      [hosting page](/hosting/) describes its
       deployment options.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing and company information was checked again on 25 July 2026. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [Hi.Events pricing](https://hi.events/pricing) - 0.75% + 40¢ per ticket (cloud)
       - [Hi.Events open source / self-hosted](https://hi.events/open-source-event-ticketing) - $499 single domain commercial licence

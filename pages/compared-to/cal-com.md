@@ -387,7 +387,8 @@ blocks:
       2022, led by Seven Seven Six. Investors who provide that capital
       expect a financial return on it.
 
-      Chobble Tickets is run by one person as a UK
+      Chobble Tickets takes no venture capital and could not spend it
+      chasing a return: one person runs it as a UK
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       (CIC), a legal structure that locks the company's assets for
       community benefit. There is no per-user pricing and no AI add-on.
@@ -430,8 +431,7 @@ blocks:
       ## Sources
 
       The information on this page was verified in April 2026. Pricing
-      and licensing may change. Check the links below for the latest
-      figures.
+      and licensing may change.
 
       - [Cal.com closed source announcement](https://cal.com/blog/cal-com-goes-closed-source-why) - the original blog post, dated 14 April 2026
       - [Cal.com pricing](https://cal.com/pricing) - Free, Teams ($12/user/month), Organizations ($28/user/month), Enterprise

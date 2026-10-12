@@ -294,12 +294,12 @@ blocks:
       over 1,000 venues. No investor, parent or governance structure beyond
       the Companies House record was documented in the sources reviewed.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets takes the opposite approach to scale: it is one
+      person running a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      (CIC) whose assets are locked for community benefit. The whole of
+      Chobble's code is published under AGPLv3, and nothing stops anyone
+      from self-hosting the platform on their own terms.
   - type: markdown
     content: |
       ## Sources

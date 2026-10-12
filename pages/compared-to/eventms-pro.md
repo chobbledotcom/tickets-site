@@ -323,10 +323,11 @@ blocks:
       a LinkedIn company page. It is sold as a self-hosted product with a
       one-time perpetual licence.
 
-      Chobble Tickets is run by one person as a UK
+      EventMS Pro does not name the people behind it. Chobble Tickets
+      does: one person, as a UK
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a legal structure that locks the company's assets for community
-      benefit. All of Chobble's code is public under AGPL-3.0, and the platform
+      (CIC) whose assets are locked for community benefit. All of
+      Chobble's code is public under AGPL-3.0, and the platform
       can be self-hosted by anyone without depending on Chobble as a company.
       The [hosting page](/hosting/) describes its deployment options.
   - type: markdown
@@ -334,7 +335,7 @@ blocks:
       ## Pricing sources
 
       The information on this page was checked on 10 August 2026. Pricing and
-      licensing may change. Check the links below for the latest figures.
+      licensing may change.
 
       - [EventMS Pro](https://eventmspro.com/) - one-time licence of $4,999
         (early-bird) or $7,999, self-hosted, source code not provided

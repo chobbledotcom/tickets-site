@@ -54,7 +54,7 @@ blocks:
     content: |-
       # Chobble Tickets vs PromoTix
 
-      PromoTix is a US ticketing and event-marketing platform that describes its ticketing as fee-free for organisers. This page compares it to Chobble Tickets.
+      PromoTix is a US ticketing and event-marketing platform that describes its ticketing as fee-free for organisers.
   - type: markdown
     content: |
       ## Open source & flat fee PromoTix alternative
@@ -345,20 +345,20 @@ blocks:
       called PromoJuice. Its site is written for a US audience, with a UK
       price list published as one of twelve currency variants.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets publishes its own registration in full: one person,
+      as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. The registered name is Chobble CIC, company number
-      17050113, registered in Prestwich, Manchester. All of Chobble's code is
-      public under AGPLv3, and the platform can be self-hosted by anyone
-      without depending on Chobble as a company.
+      (CIC). The registered name is Chobble CIC, company number
+      17050113, registered in Prestwich, Manchester, and the CIC
+      structure locks the company's assets for community benefit. Under
+      AGPLv3, every line of Chobble's code is public, so anyone can pick
+      it up and self-host the platform without Chobble in the picture.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing and feature information on this page was verified in August
-      2026. Fees and feature allocations may change. Check the links below for
-      the latest figures.
+      2026. Fees and feature allocations may change.
 
       - [PromoTix GBP pricing](https://www.promotix.com/pricing-gbp) - free plan at 3.5% + £1.19 paid by attendees, £0.99 a ticket to add your own fees, streaming and push notification rates, and the feature split between the free and Professional plans
       - [PromoTix USD pricing](https://www.promotix.com/pricing) - the same table at 3% + $1.49, for comparison

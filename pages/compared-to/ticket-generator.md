@@ -52,7 +52,7 @@ blocks:
     content: |-
       # Chobble Tickets vs Ticket Generator
 
-      Ticket Generator is a pay-as-you-go ticketing platform from Trycon, sold as prepaid ticket credits. This page compares it to Chobble Tickets.
+      Ticket Generator is a pay-as-you-go ticketing platform from Trycon, sold as prepaid ticket credits.
   - type: markdown
     content: |
       ## Flat-fee Ticket Generator alternative
@@ -256,9 +256,10 @@ blocks:
       The registered legal entity name, company number, ownership and funding
       status were not established in the sources reviewed (checked 31 July 2026).
 
-      Chobble Tickets is run by one person as a
+      Where Ticket Generator's ownership is undocumented, Chobble Tickets
+      publishes its own: one person runs it as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for community
+      (CIC), a UK structure that locks the company's assets for community
       benefit. All of Chobble's code is public under
       [AGPL-3.0-only](/features/open-source/), and the platform can be
       self-hosted by anyone without depending on Chobble as a company. The
@@ -268,7 +269,7 @@ blocks:
       ## Pricing sources
 
       The pricing and product information on this page was checked again on 31
-      July 2026. Fees may change. Check the links below for the latest figures.
+      July 2026. Fees may change.
 
       - [Ticket Generator pricing](https://ticket-generator.com/pricing) - credit packs and per-ticket rates
       - [Ticket Generator features](https://ticket-generator.com/features) - seating plans, box office, attendance tracking

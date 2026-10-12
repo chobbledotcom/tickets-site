@@ -52,7 +52,7 @@ blocks:
     content: |-
       # Chobble Tickets vs SmartGig
 
-      SmartGig is a UK event management platform where ticketing is one paid module alongside trader applications, site plans, transport and stage schedules. This page compares it to Chobble Tickets on pricing, features and data handling.
+      SmartGig is a UK event management platform where ticketing is one paid module alongside trader applications, site plans, transport and stage schedules.
   - type: markdown
     content: |
       ## Open source & cheaper SmartGig alternative
@@ -398,10 +398,11 @@ blocks:
       of service
       are governed by the laws of England and Wales.
 
-      Chobble Tickets is run by one person as a
+      On the Chobble side, the ownership is unusually small: one person
+      runs it as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under
+      (CIC), a UK structure that locks the company's assets for community
+      benefit. All of Chobble's code is public under
       [AGPL-3.0-only](/features/open-source/), and the platform can be
       self-hosted by anyone without depending on Chobble as a company.
   - type: markdown
@@ -409,7 +410,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was checked on 4 August 2026.
-      Fees may change. Check the links below for the latest figures.
+      Fees may change.
 
       - [SmartGig pricing](https://www.smartgig.co.uk/#pricing) - the package
         builder, which prices Ticketing at £80/month or £800/year and lists

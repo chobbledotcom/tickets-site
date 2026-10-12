@@ -51,15 +51,16 @@ blocks:
     content: |-
       # Chobble Tickets vs BookitBee
 
-      BookitBee is a UK-based ticketing platform. This page compares it to Chobble Tickets.
+      BookitBee is a UK-based ticketing platform.
   - type: markdown
     content: |
       ## Open source & cheaper BookitBee alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. BookitBee is closed source and does not publish its code.
+      Chobble Tickets is white label ticketing built in the UK by a
+      community interest company, and its source code is published under
+      the AGPL-3.0-only licence for anyone to read, fork, or run
+      themselves. BookitBee is closed source and does not publish its
+      code.
 
       BookitBee charges from 3.5% per ticket, with a £0.50 minimum and a
       £19.95 cap. Chobble Tickets charges £50/year or £5/month, or £25/year
@@ -247,18 +248,18 @@ blocks:
       $5.3 million, but remains an independent private company with no
       corporate parent. It has a small team of around 8–15 employees.
 
-      Chobble Tickets is run by one person as a
+      BookitBee stayed independent on outside investment. Chobble Tickets
+      stays independent by structure: it is a one-person
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      (CIC) whose assets are locked for community benefit. AGPLv3 applies
+      to all of Chobble's code: the platform can be copied and self-hosted
+      by anyone who would rather not rely on Chobble.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [BookitBee pricing](https://bookitbee.com/pricing/) - from 3.5% per ticket
       - [BookitBee features](https://www.bookitbee.com/features/)

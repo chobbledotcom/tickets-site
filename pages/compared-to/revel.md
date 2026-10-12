@@ -84,8 +84,7 @@ blocks:
       under the MIT licence, which lets anyone use, change or self-host it
       without a fee.
 
-      This page compares the two platforms to help you decide which fits your
-      needs. Other open source comparisons cover
+      Other open source comparisons cover
       [Hi.Events](/compared-to/hi-events/), [Pretix](/compared-to/pretix/) and
       [Swicket with alf.io](/compared-to/swicket/). The
       [open source page](/features/open-source/) describes Chobble Tickets
@@ -272,10 +271,11 @@ blocks:
       Distefano as the operator, an individual based in Vienna, Austria. Its
       pricing and invoicing are in euros with EU VAT handling.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets is also run by one person, but the structure
+      differs: it is a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for community
-      benefit. Chobble Tickets is published under
+      (CIC) whose assets are locked for community benefit rather than held
+      privately. Chobble Tickets is published under
       [AGPL-3.0-only](/features/open-source/) and can be self-hosted by anyone
       without depending on Chobble as a company. The [hosting page](/hosting/)
       describes its deployment options.
@@ -284,7 +284,7 @@ blocks:
       ## Pricing sources
 
       The pricing and project information was checked on 10 August 2026. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [Revel](https://letsrevel.io/) - 3% + €0.50 per paid ticket (hosted)
       - [Revel on GitHub](https://github.com/letsrevel) - MIT licensed, free to

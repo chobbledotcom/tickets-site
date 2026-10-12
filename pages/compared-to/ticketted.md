@@ -52,7 +52,7 @@ blocks:
     content: |-
       # Chobble Tickets vs Ticketted
 
-      Ticketted is an Australian ticketing platform that charges 3.95% + A$0.95 on each paid ticket and lists events on its own site. This page compares it to Chobble Tickets.
+      Ticketted is an Australian ticketing platform that charges 3.95% + A$0.95 on each paid ticket and lists events on its own site.
   - type: markdown
     content: |
       ## Open source & flat fee Ticketted alternative
@@ -338,10 +338,11 @@ blocks:
       traded before under another name. No owner, director or investor
       information was found in the sources reviewed.
 
-      Chobble Tickets is run by one person as a
+      Ticketted's ownership record is empty. Chobble Tickets' record is
+      public: one person, running a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPL-3.0-only,
+      (CIC) whose assets are locked for community benefit. All of
+      Chobble's code is public under AGPL-3.0-only,
       and the platform can be self-hosted by anyone without depending on
       Chobble as a company.
   - type: markdown

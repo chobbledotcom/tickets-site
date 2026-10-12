@@ -47,10 +47,11 @@ blocks:
     content: |
       ## Open source & cheaper Resova alternative
 
-      Chobble Tickets is a white label booking and ticketing platform made in
-      the UK by a community interest company. Its source code is published
-      under the AGPL-3.0-only licence, so anyone can read it, fork it, or run
-      their own copy. Resova does not publish its source code.
+      Chobble Tickets is the open source option here: a white label
+      booking and ticketing platform, made in the UK by a community
+      interest company, published under the AGPL-3.0-only licence. Anyone
+      can read that source, fork it, or run their own copy of it. Resova
+      does not publish its source code.
 
       Resova's Pro plan is $72/month, about £685 a year, and caps you at 300
       bookings a month, with 16p per booking above that. Chobble Tickets
@@ -255,18 +256,18 @@ blocks:
       Bookify Ltd until March 2017. It is a private company focused on
       the escape room, activity, and attractions market.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets answers with a different shape: one person runs it
+      as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      (CIC), the assets are locked for community benefit, and the whole
+      platform is published under AGPLv3, so anyone can run it without
+      depending on Chobble as a company.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in April 2026. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [Resova pricing](https://get.resova.com/pricing/) - Lite, Pro,
         Premium, and Enterprise plans

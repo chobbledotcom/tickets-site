@@ -46,15 +46,16 @@ blocks:
     content: |-
       # Chobble Tickets vs Resident Advisor
 
-      Resident Advisor is a ticketing and event-discovery platform for electronic music. This page compares it with Chobble Tickets on pricing, features and data handling.
+      Resident Advisor is a ticketing and event-discovery platform for electronic music.
   - type: markdown
     content: |
       ## Open source & no booking fee Resident Advisor alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Resident Advisor does not publish its source code.
+      Chobble Tickets is a white label ticketing platform made in the UK
+      by a community interest company, and it publishes everything under
+      the AGPL-3.0-only licence: the source is there for anyone to read,
+      fork, or run as their own copy. Resident Advisor does not publish
+      its source code.
 
       Resident Advisor adds a service fee to every ticket, paid by the buyer,
       and does not publish a general fee schedule. Chobble Tickets adds
@@ -253,7 +254,8 @@ blocks:
       only active people with significant control. This does not establish
       that they own every share or that there are no minority investors.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets' control question has a one-line answer: one
+      person, as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       (CIC), a type of UK company that has to use its money to help the
       community. All of Chobble's code is public, and anyone can run the

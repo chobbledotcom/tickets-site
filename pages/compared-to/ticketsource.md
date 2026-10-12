@@ -51,15 +51,16 @@ blocks:
     content: |-
       # Chobble Tickets vs TicketSource
 
-      TicketSource is a UK ticketing platform, running from Penarth in Wales since 2004 and widely used by amateur theatre, schools and village halls. This page compares it to Chobble Tickets.
+      TicketSource is a UK ticketing platform, running from Penarth in Wales since 2004 and widely used by amateur theatre, schools and village halls.
   - type: markdown
     content: |
       ## Open source & flat fee TicketSource alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. TicketSource does not publish its source code.
+      Chobble Tickets is built in the UK by a community interest company.
+      The whole platform's source is published under the AGPL-3.0-only
+      licence, which is what makes it white label as well: anyone can
+      read it, fork it, or run their own copy with their own branding.
+      TicketSource does not publish its source code.
 
       TicketSource costs the organiser nothing to open an account. It is paid
       from a booking fee on each paid online booking: 7% plus VAT with
@@ -333,19 +334,18 @@ blocks:
       beyond the Companies House record was documented in the sources
       reviewed.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets discloses exactly who runs it: one person, as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      (CIC) whose assets are locked for community benefit. Chobble's code
+      is published in full under AGPLv3, so the platform can be run by
+      anyone on their own infrastructure, with no dependence on Chobble.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was checked on 28 July 2026
       against the live TicketSource pricing page and its published terms.
-      Fees may change. Check the links below for the latest figures.
+      Fees may change.
 
       - [TicketSource pricing](https://www.ticketsource.co.uk/pricing) - 7% + VAT per paid booking with TicketSource processing, or 4.5% + VAT via your own Stripe
       - [TicketSource charity pricing](https://www.ticketsource.co.uk/pricing/charities) - 6.5% + VAT, or 4% + VAT via Stripe, plus Gift Aid on donations

@@ -278,20 +278,20 @@ blocks:
       government has promised legislation to ban the kind of drip pricing
       tactics Ticketek has been accused of.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets' regulators see a much smaller target: it is run by
+      one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      (CIC), a UK structure that locks the company's assets for
+      community benefit. Every line of Chobble's code is public under
+      AGPLv3, so anyone who wants to run the platform themselves can take
+      it and self-host it.
   - type: markdown
     content: |
       ## Pricing sources
 
       Ticketek does not publish a standard public fee schedule. Fees vary
       by event, venue, and contract. The pricing estimates used on this page
-      are based on publicly reported figures. Check the links below for the
-      latest information.
+      are based on publicly reported figures.
 
       - [Ticketek Australia](https://premier.ticketek.com.au) - official
         website

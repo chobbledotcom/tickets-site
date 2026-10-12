@@ -9,18 +9,6 @@
       "why": "Shared sign-off linking the comparison list from every perfect-for page."
     },
     {
-      "text": "Chobble Tickets is run by one person as a [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction) (CIC), a UK legal structure that locks the company's assets for community benefit.",
-      "why": "Company structure fact stated consistently."
-    },
-    {
-      "text": "Its source code is published under the AGPL-3.0-only licence, so anyone can read it, fork it, or run their own copy.",
-      "why": "Source-code and self-hosting fact stated consistently."
-    },
-    {
-      "text": "All of Chobble's code is public under AGPLv3, and the platform can be self-hosted by anyone without depending on Chobble as a company.",
-      "why": "Source-code and self-hosting fact stated consistently."
-    },
-    {
       "text": "Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.",
       "why": "Call-to-action boilerplate repeated by design."
     },
@@ -31,10 +19,6 @@
     {
       "text": "Charities, community groups, artists and musicians pay £25/year on the annual plan.",
       "why": "Pricing fact stated consistently across pages."
-    },
-    {
-      "text": "This page compares it to Chobble Tickets.",
-      "why": "Comparison page intro sentence."
     },
     {
       "text": "The pricing information on this page was verified in March 2026.",
@@ -63,10 +47,6 @@
     {
       "text": "With Chobble Tickets, attendee data is encrypted at rest and stays under your control.",
       "why": "Attendee data fact stated consistently across pages."
-    },
-    {
-      "text": "Chobble Tickets is run by one person as a UK [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction) (CIC), a legal structure that locks the company's assets for community benefit.",
-      "why": "Company structure fact stated consistently."
     },
     {
       "text": "If Chobble Tickets stopped operating tomorrow, you could run the same code on your own server.",
@@ -109,10 +89,6 @@
       "why": "Source-code and self-hosting fact stated consistently."
     },
     {
-      "text": "This page compares it to Chobble Tickets on pricing, features and data handling.",
-      "why": "Comparison page intro sentence."
-    },
-    {
       "text": "Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community groups) with [no per-ticket platform fees](/features/no-per-ticket-fees/).",
       "why": "Pricing fact stated consistently across pages."
     },
@@ -123,10 +99,6 @@
     {
       "text": "You're always in control of your own payment processor account.",
       "why": "Payments fact stated consistently across pages."
-    },
-    {
-      "text": "This page compares it with Chobble Tickets on pricing, features and data handling.",
-      "why": "Comparison page intro sentence."
     },
     {
       "text": "The platform is open source under AGPLv3, so you can self-host it and stop depending on Chobble as your host.",
@@ -167,10 +139,6 @@
     {
       "text": "Self-hosting Chobble Tickets has no Chobble software licence fee.",
       "why": "Source-code and self-hosting fact stated consistently."
-    },
-    {
-      "text": "This page compares the two platforms to help you decide which fits your needs.",
-      "why": "Comparison page intro sentence."
     },
     {
       "text": "Chobble Tickets is a white label ticketing platform made in the UK by a community interest company, with its [source code](/features/open-source/) published under the AGPL-3.0-only licence.",
@@ -215,10 +183,6 @@
     {
       "text": "With Chobble Tickets, [attendee data is encrypted at rest](/features/encrypted/) with the site's public key.",
       "why": "Attendee data fact stated consistently across pages."
-    },
-    {
-      "text": "The registered name is Chobble CIC, company number 17050113, registered in Prestwich, Manchester.",
-      "why": "Company structure fact stated consistently."
     },
     {
       "text": "Stripe processing is charged separately at the standard 1.5% + 20p.",
@@ -285,10 +249,6 @@
       "why": "Pricing fact stated consistently across pages."
     },
     {
-      "text": "Chobble Tickets is run by one person as a [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction), a type of UK company that exists to benefit the community.",
-      "why": "Company structure fact stated consistently."
-    },
-    {
       "text": "Flat pricing with no per-ticket platform fee.",
       "why": "Pricing fact stated consistently across pages."
     },
@@ -317,10 +277,6 @@
       "why": "Pricing fact stated consistently across pages."
     },
     {
-      "text": "Check the links below for the latest information.",
-      "why": "Lead-in to the fee source links on the comparison pages."
-    },
-    {
       "text": "You sign up at [tix.chobble.com](https://tix.chobble.com/listings) and run events from the admin area, or [self-host the code](/features/open-source/) on your own server.",
       "why": "Source-code and self-hosting fact stated consistently."
     },
@@ -339,10 +295,6 @@
     {
       "text": "The pricing information on this page was verified in June 2026.",
       "why": "Dated verification note shared by the pages reviewed in the same pass."
-    },
-    {
-      "text": "Chobble Tickets is run by one person as a [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction) (CIC), registered as Chobble CIC, company number 17050113, in Prestwich, Manchester.",
-      "why": "Company structure fact stated consistently."
     },
     {
       "text": "Square or SumUp rates give a different figure.",
@@ -421,10 +373,6 @@
       "why": "Pricing fact stated consistently across pages."
     },
     {
-      "text": "Chobble Tickets is a white label ticketing platform made in the UK by a community interest company.",
-      "why": "Platform description facts stated consistently."
-    },
-    {
       "text": "The [hosting page](/hosting/) describes its deployment options.",
       "why": "Shared caveat or cross-reference line on comparison pages."
     },
@@ -479,10 +427,6 @@
     {
       "text": "ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.",
       "why": "Feature description shared between the features index and its pages."
-    },
-    {
-      "text": "You might be considering [Yo!Rent](/compared-to/yo-rent/), rental booking software, or [Resova](/compared-to/resova/), which takes timed hire bookings.",
-      "why": "Shared option sentence on overlapping perfect-for pages."
     },
     {
       "text": "Stored names, emails and free-text answers require credentials for an authorised keyed user, including an optional recovery owner if enabled.",
@@ -727,10 +671,6 @@
     {
       "text": "Every booking and administration feature is included.",
       "why": "Feature description shared between the features index and its pages."
-    },
-    {
-      "text": "You might be considering [Zeffy](/compared-to/zeffy/), a free platform funded by donor tips, [Humanitix](/compared-to/humanitix/), a not-for-profit that passes profits to charity, or [Eventbrite](/compared-to/eventbrite/), a marketplace with its own audience.",
-      "why": "Shared option sentence on overlapping perfect-for pages."
     },
     {
       "text": "Customers pick how many days to hire, with a total price for each offered duration and capacity checked across the whole range.",

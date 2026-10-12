@@ -51,7 +51,7 @@ blocks:
     content: |-
       # Chobble Tickets vs FIXR
 
-      FIXR is a UK ticketing and event-discovery platform used for student and nightlife events. This page compares it with Chobble Tickets on pricing, features and data handling.
+      FIXR is a UK ticketing and event-discovery platform used for student and nightlife events.
   - type: markdown
     content: |
       ## Open source & no booking fee FIXR alternative
@@ -236,18 +236,18 @@ blocks:
       in May 2021, and launched in UK universities in 2015 before
       expanding into nightlife, festivals, venues, and attractions.
 
-      Chobble Tickets is run by one person as a
+      FIXR raised £6.5 million from investors. Chobble Tickets cannot take
+      that kind of money, by design: as a one-person
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3,
-      and the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      (CIC), its assets are locked for community benefit. The AGPLv3
+      licence covers Chobble's entire codebase, which anyone can take and
+      self-host without Chobble the company in the loop.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026.
-      Fees may change. Check the links below for the latest figures.
+      Fees may change.
 
       - [FIXR pricing](https://fixr.co/pricing) - Pro: 4.99% + £0.49 per ticket; Student & Charity: 3.99% + £0.49
       - [FIXR for organisers](https://fixr.co/p/event-organisers) - event ticketing and promotion platform

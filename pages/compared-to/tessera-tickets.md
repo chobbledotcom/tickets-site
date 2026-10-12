@@ -52,10 +52,11 @@ blocks:
     content: |
       ## Open source & cheaper Tessera Tickets alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Tessera Tickets does not publish its source code.
+      Chobble Tickets is white label ticketing software from a UK
+      community interest company, with its source published under the
+      AGPL-3.0-only licence. That licence is what lets anyone read it,
+      fork it, or run their own copy of the whole platform. Tessera
+      Tickets does not publish its source code.
 
       Tessera Tickets starts at $125/month, about £1,200 a year, and the
       standard setup adds WordPress hosting from Tecture at $150 to $400 a
@@ -280,18 +281,18 @@ blocks:
       nonprofits, with Tessera as its in-house ticketing product for
       venues.
 
-      Chobble Tickets is run by one person as a
+      Tessera is a product inside a web agency. Chobble Tickets is the
+      product itself, and the company around it is a one-person
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3,
-      and the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      (CIC) whose assets are locked for community benefit. AGPLv3 makes
+      all of Chobble's code public, which is what lets anyone self-host
+      the platform without Chobble in the middle.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in April 2026.
-      Fees may change. Check the links below for the latest figures.
+      Fees may change.
 
       - [Tessera Tickets pricing](https://www.tessera-tickets.com/pricing/) -
         subscription tiers, hosting, setup fees, and add-ons

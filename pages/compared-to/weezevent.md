@@ -48,15 +48,15 @@ blocks:
     content: |-
       # Chobble Tickets vs Weezevent
 
-      Weezevent is a French event platform covering ticketing, access control, cashless payments and staff management. This page compares it with Chobble Tickets on pricing, features and data handling.
+      Weezevent is a French event platform covering ticketing, access control, cashless payments and staff management.
   - type: markdown
     content: |
       ## Open source & cheaper Weezevent alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Weezevent does not publish its source code.
+      Chobble Tickets is a UK community interest company's ticketing
+      platform, white label and published under the AGPL-3.0-only licence,
+      so anyone can read it, fork it, or run their own copy of it.
+      Weezevent does not publish its source code.
 
       Weezevent charges 2.5% + £0.99 including tax on each paid ticket sold
       online, with banking fees included. Chobble Tickets charges £50/year or
@@ -311,18 +311,18 @@ blocks:
       with around 260 staff and offices in eight countries. It acquired the UK
       ticketing company Kaboodle to extend its ticketing products.
 
-      Chobble Tickets is run by one person as a
+      Weezevent has around 260 staff. Chobble Tickets has one, and builds
+      that into its structure: it is a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and the
-      platform can be self-hosted by anyone without depending on Chobble as a
-      company.
+      (CIC) whose assets are locked for community benefit. AGPLv3 covers
+      all of Chobble's code, and anyone who prefers independence can
+      self-host the platform instead of depending on Chobble.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in July 2026. Fees may
-      change. Check the links below for the latest figures.
+      change.
 
       - [Weezevent pricing](https://weezevent.com/en-gb/our-prices/) - 2.5% + £0.99 incl. tax per paid ticket, payouts every 15 days
       - [Weezevent UK homepage](https://weezevent.com/en-gb/) - product overview

@@ -270,10 +270,11 @@ blocks:
       no registered company behind it. Its GitHub repository was archived by
       its owner on 9 June 2026.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets is also one person's work, but with a registered
+      company behind it: a UK
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. The code is published under
+      (CIC) whose assets are locked for community benefit. The code is
+      published under
       [AGPL-3.0-only](/features/open-source/) with no attribution requirement,
       so anyone can self-host it without depending on Chobble as a company.
   - type: markdown

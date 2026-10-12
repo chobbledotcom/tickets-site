@@ -56,10 +56,11 @@ blocks:
     content: |
       ## Open source & cheaper Fatsoma alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Fatsoma is closed source and does not publish its code.
+      Chobble Tickets is built in the UK by a community interest company,
+      and every line of it is published under the AGPL-3.0-only licence:
+      read it, fork it, or run your own copy, with your branding on the
+      ticket pages instead of Chobble's. Fatsoma is closed source and does
+      not publish its code.
 
       Fatsoma charges 10% per ticket with a £1 minimum, plus Stripe
       processing. Chobble Tickets charges £50/year or £5/month, so an
@@ -252,18 +253,19 @@ blocks:
       funding from AXM Venture Capital and via a Seedrs crowdfunding
       campaign, but remains independently owned with no corporate parent.
 
-      Chobble Tickets is run by one person as a
+      Fatsoma kept its independence after crowdfunding; Chobble Tickets
+      started independent and stays that way, because a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
+      (CIC) run by one person cannot sell its locked assets to an
+      investor. Chobble publishes every line under AGPLv3, so the platform
+      can be self-hosted by anyone who would rather not rely on Chobble
       as a company.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [Fatsoma pricing](https://ticketing.fatsoma.com/pricing) - 10% per ticket (minimum £1), plus Stripe processing
       - [Fatsoma for Business](https://ticketing.fatsoma.com/) - event ticketing and promotion platform

@@ -49,7 +49,7 @@ blocks:
     content: |-
       # Chobble Tickets vs Ticketpass
 
-      Ticketpass is a UK ticketing platform that donates up to half of its booking fee to charity projects. This page compares it to Chobble Tickets on pricing, features and data handling.
+      Ticketpass is a UK ticketing platform that donates up to half of its booking fee to charity projects.
   - type: markdown
     content: |
       ## Open source & flat fee Ticketpass alternative
@@ -60,9 +60,9 @@ blocks:
 
       Chobble Tickets charges £50/year or £5/month for managed hosting and adds
       [no per-ticket platform fee](/features/no-per-ticket-fees/). Its source
-      code is published under the AGPL-3.0-only licence, so anyone can read it,
-      fork it, or run their own copy. Ticketpass does not publish its source
-      code.
+      code is published under the AGPL-3.0-only licence, which anyone can
+      read, fork, or run as their own copy. Ticketpass does not publish its
+      source code.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -319,7 +319,8 @@ blocks:
       27 July 2026 did not document a charitable, co-operative or certified
       structure.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets' structure is registered and binding: it is run by
+      one person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       (CIC), registered as Chobble CIC, company number 17050113, in Prestwich,
       Manchester. It is limited by guarantee and has no share capital, so

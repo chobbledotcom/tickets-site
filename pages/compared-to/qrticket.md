@@ -57,10 +57,10 @@ blocks:
     content: |
       ## Open source & flat fee QRTicket alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. QRTicket does not publish its source code.
+      Chobble Tickets is a white label ticketing platform from a UK
+      community interest company, and it is published in full: the
+      AGPL-3.0-only source is there for anyone to read, fork, or run as
+      their own copy. QRTicket does not publish its source code.
 
       QRTicket is free for organisers to register and has no annual fee. Its
       income comes from a fee of €0.90 (incl. VAT) per ticket sold, which the
@@ -299,10 +299,11 @@ blocks:
       (+49 8592 1355). The service presents itself as a one-person
       operation.
 
-      Chobble Tickets is run by one person as a
+      QRTicket presents itself as a one-person operation; so is Chobble
+      Tickets, but with the structure published: a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under
+      (CIC), a UK legal form that locks the company's assets for community
+      benefit. All of Chobble's code is public under
       [AGPL-3.0-only](/features/open-source/), and the platform can be
       self-hosted by anyone without depending on Chobble as a company.
   - type: markdown
@@ -310,8 +311,7 @@ blocks:
       ## Pricing sources
 
       The pricing information on this page was checked on 8 August 2026
-      against the live QRTicket site. Fees may change. Check the links below
-      for the latest figures.
+      against the live QRTicket site. Fees may change.
 
       - [QRTicket homepage](https://qrticket.de/) - €0.90 (incl. VAT) per ticket, buyer pays by default, no registration or annual fee, benefit events free, vouchers free, monthly invoicing
       - [QRTicket payment methods](https://qrticket.de/zahlung.php) - bank transfer or PayPal, PayPal fees of €0.39 + 3.0% (as of April 2022), organiser chooses who pays the fees

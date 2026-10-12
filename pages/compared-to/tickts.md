@@ -47,7 +47,7 @@ blocks:
     content: |-
       # Chobble Tickets vs tickts
 
-      tickts is a UK ticketing platform with zero booking fees for buyers and a tiered subscription model for organisers. This page compares it to Chobble Tickets.
+      tickts is a UK ticketing platform with zero booking fees for buyers and a tiered subscription model for organisers.
   - type: markdown
     content: |
       ## Open source & flat fee tickts alternative
@@ -316,13 +316,13 @@ blocks:
       as UK-based and UK-focused, with an additional Ireland presence at
       tickts.ie for EUR payments.
 
-      Chobble Tickets is run by one person as a
+      The contrast on this side is a company of one. Chobble Tickets is a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. The registered name is Chobble CIC, company
-      number 17050113, registered in Prestwich, Manchester. All of
-      Chobble's code is public under AGPLv3, and the platform can be
-      self-hosted by anyone without depending on Chobble as a company.
+      (CIC), registered as Chobble CIC, company
+      number 17050113, registered in Prestwich, Manchester, and its assets
+      are locked for community benefit. AGPLv3 covers all of
+      Chobble's code, so anyone can run their own copy of the platform
+      without Chobble's involvement.
   - type: markdown
     content: |
       ## Pricing sources

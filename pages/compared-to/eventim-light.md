@@ -49,15 +49,15 @@ blocks:
     content: |-
       # Chobble Tickets vs EVENTIM.Light
 
-      EVENTIM.Light is the self-service platform from CTS EVENTIM. This page compares it with Chobble Tickets on pricing, features and data handling.
+      EVENTIM.Light is the self-service platform from CTS EVENTIM.
   - type: markdown
     content: |
       ## Open source & cheaper EVENTIM.Light alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. EVENTIM.Light does not publish its source code.
+      Chobble Tickets is white label ticketing made in the UK by a
+      community interest company. The AGPL-3.0-only source code is
+      published for anyone to read, fork, or run as their own copy.
+      EVENTIM.Light does not publish its source code.
 
       EVENTIM.Light charges 8% per ticket in the UK, which is £1.20 on a £15
       ticket, with payment processing included. Chobble Tickets charges
@@ -346,18 +346,19 @@ blocks:
       eventim.co.uk marketplace and provides enterprise ticketing solutions
       to major venues and promoters.
 
-      Chobble Tickets is run by one person as a
+      EVENTIM.Light answers to a listed German group. Chobble Tickets
+      answers to nobody but its community: one person runs it as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      (CIC), a UK structure that locks the company's assets for community
+      benefit. AGPLv3 makes Chobble's code fully public, so the platform
+      can be self-hosted by anyone who wants no dependence on Chobble the
+      company.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [EVENTIM.Light UK pricing](https://www.eventim-light.co.uk/pricing/) - 8% per ticket (includes payment processing)
       - [EVENTIM.Light UK features](https://www.eventim-light.co.uk/features/) - full feature list

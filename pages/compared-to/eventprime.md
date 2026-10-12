@@ -367,11 +367,12 @@ blocks:
       state that the agreement is governed by the law of the Province of
       Ontario, Canada.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets' structure is a matter of record: one person runs it
+      as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
       (CIC), registered as Chobble CIC, company number 17050113, in Prestwich,
-      Manchester. It is limited by guarantee and has no share capital, so
-      there are no shares to buy and no dividends to pay. Under section 53 of
+      Manchester. Being limited by guarantee and having no share capital
+      means there are no shares to buy and no dividends to pay. Under section 53 of
       the Companies (Audit, Investigations and Community Enterprise) Act 2004,
       a CIC can stop being a CIC only by dissolving or becoming a charity.
   - type: markdown
@@ -379,8 +380,7 @@ blocks:
       ## Pricing sources
 
       The pricing and feature information on this page was verified on
-      27 July 2026. Prices and plan contents may change. Check the links below
-      for the latest figures.
+      27 July 2026. Prices and plan contents may change.
 
       - [EventPrime plans and extensions](https://theeventprime.com/all-extensions/) - Free, Essential $69/$129, Professional $99/$189 and Business $179/$349, with individual extensions from $29.95 to $99.95
       - [EventPrime core plugin on WordPress.org](https://wordpress.org/plugins/eventprime-event-calendar-management/) - free core under GPLv2 or later, with the current version, install count and rating

@@ -414,12 +414,13 @@ blocks:
       Prototype Fund (funded by the BMBF) in 2017–2018, but has no
       recorded private venture capital.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets also grew without venture capital: it is run by one
+      person as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. Chobble Tickets is published under
+      (CIC), a UK structure that locks the company's assets for
+      community benefit. The platform is published under
       [AGPL-3.0-only](/features/open-source/) with no enterprise tier or
-      feature gates, and the platform can be self-hosted by anyone without
+      feature gates, and can be self-hosted by anyone without
       depending on Chobble as a company. The [hosting page](/hosting/)
       describes its deployment options.
   - type: markdown
@@ -428,7 +429,6 @@ blocks:
 
       The pricing information on this page was verified in June 2026. The
       feature comparison was checked on 28 July 2026. Fees may change.
-      Check the links below for the latest figures.
 
       - [Pretix hosted pricing](https://pretix.eu/about/en/pricing) - 2.5% of ticket price (excl. taxes), capped at €15/ticket, plus payment provider fees
       - [Pretix self-hosted/enterprise pricing](https://pretix.eu/about/en/pricing/selfhosted) - from €499/year (Enterprise Starter)

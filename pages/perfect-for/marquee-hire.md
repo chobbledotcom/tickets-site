@@ -93,8 +93,8 @@ blocks:
     content: |
       ## Other options you might be considering
 
-      You might be considering [Yo!Rent](/compared-to/yo-rent/), rental
-      booking software, or [Resova](/compared-to/resova/), which takes
+      You might be considering [Yo!Rent](/compared-to/yo-rent/), which books
+      rental periods out, or [Resova](/compared-to/resova/), which takes
       timed hire bookings. Each comparison covers pricing, features and
       attendee data, and the [full list](/compared-to/) names every
       platform checked so far.

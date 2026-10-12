@@ -312,18 +312,18 @@ blocks:
       is sold as a self-hosted product with a one-time licence fee, aimed
       at entrepreneurs starting rental businesses.
 
-      Chobble Tickets is run by one person as a UK
+      Chobble Tickets is a different kind of product from a different
+      kind of seller: one person, running a UK
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      (CIC) whose assets are locked for community benefit, publishing the
+      whole platform under AGPLv3. Anyone can
+      self-host it without depending on Chobble as a company.
   - type: markdown
     content: |
       ## Pricing sources
 
       The information on this page was verified in July 2026. Pricing and
-      licensing may change. Check the links below for the latest figures.
+      licensing may change.
 
       - [Yo!Rent packages and pricing](https://www.yo-rent.com/packages.html) - GoQuick, GoCustom, GoQuick Boost, GoQuick Ultra, and add-on services
       - [Yo!Rent features](https://www.yo-rent.com/features.html) - rental marketplace features and business models

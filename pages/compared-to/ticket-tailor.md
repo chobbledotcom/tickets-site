@@ -48,15 +48,15 @@ blocks:
     content: |-
       # Chobble Tickets vs Ticket Tailor
 
-      Ticket Tailor is an independently owned ticketing platform from London, running since 2010. This page compares it to Chobble Tickets.
+      Ticket Tailor is an independently owned ticketing platform from London, running since 2010.
   - type: markdown
     content: |
       ## Open source & cheaper Ticket Tailor alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Ticket Tailor does not publish its source code.
+      Chobble Tickets puts its whole source on the table: the platform is
+      white label, made in the UK by a community interest company, and
+      licensed AGPL-3.0-only, which means anyone can read it, fork it, or
+      run their own copy. Ticket Tailor does not publish its source code.
 
       Ticket Tailor charges 60p per paid ticket pay-as-you-go, dropping to
       around 22p per ticket on the largest credit bundles, with 50% off for
@@ -274,18 +274,19 @@ blocks:
       a certification for companies that meet standards on social and
       environmental performance.
 
-      Chobble Tickets is run by one person as a
+      Ticket Tailor holds a B Corp certification. Chobble Tickets holds a
+      different status: it is a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on
-      Chobble as a company.
+      (CIC) run by one person, a UK structure that locks the company's
+      assets for community benefit. Chobble's code is public in full under
+      AGPLv3, so you can self-host the platform and leave Chobble the
+      company out of the equation.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was checked again on 25 July 2026. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [Ticket Tailor pricing](https://www.tickettailor.com/pricing) - £0.60 per paid ticket pay-as-you-go, from £0.22 with prepaid credits
       - [Ticket Tailor help centre: how much does it cost](https://help.tickettailor.com/en/articles/6731528-how-much-does-ticket-tailor-cost-and-how-will-i-be-charged)

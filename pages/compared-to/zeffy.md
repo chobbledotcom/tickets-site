@@ -57,10 +57,11 @@ blocks:
     content: |
       ## Open source & self-hosted Zeffy alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. Zeffy does not publish its source code.
+      Chobble Tickets runs as a UK community interest company and
+      publishes its entire source under the AGPL-3.0-only licence, with
+      ticket pages carrying your branding rather than Chobble's. Anyone
+      can read, fork or self-host that code. Zeffy does not publish its
+      source code.
 
       Zeffy is free for organisations. Donors see a request for an optional
       contribution to Zeffy on every form. That contribution is Zeffy's only
@@ -381,8 +382,8 @@ blocks:
       marketing site reports more than 100,000 charities using the platform and
       over $2 billion raised.
 
-      Chobble Tickets is run by Chobble CIC, company number 17050113, a UK
-      Community Interest Company. A CIC has an asset lock that limits how
+      Chobble Tickets is a UK Community Interest Company, company number
+      17050113, run by one person. A CIC has an asset lock that limits how
       company assets can be transferred and requires them to be used for
       community benefit. All of Chobble's code is public under AGPLv3, and the
       platform can be self-hosted without depending on Chobble as a company.

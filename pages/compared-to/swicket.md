@@ -254,12 +254,13 @@ blocks:
       Bellone and Jermini as administrators and Open Source Collective as the
       fiscal host.
 
-      Chobble Tickets is run by one person as a
+      Swicket is a commercial service wrapped around a community project.
+      Chobble Tickets is the opposite combination: a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. Chobble Tickets is published under
-      [AGPL-3.0-only](/features/open-source/), and the platform can be
-      self-hosted by anyone without depending on Chobble as a company. The
+      (CIC) run by one person, with its assets locked for community
+      benefit, publishing its own product under
+      [AGPL-3.0-only](/features/open-source/) that anyone can self-host
+      without depending on Chobble as a company. The
       [hosting page](/hosting/) describes its deployment options.
   - type: markdown
     content: |

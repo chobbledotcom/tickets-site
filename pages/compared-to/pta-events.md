@@ -50,10 +50,11 @@ blocks:
     content: |
       ## Open source & cheaper PTA Events alternative
 
-      Chobble Tickets is a white label ticketing platform made in the UK by a
-      community interest company. Its source code is published under the
-      AGPL-3.0-only licence, so anyone can read it, fork it, or run their own
-      copy. PTA Events does not publish its source code.
+      Chobble Tickets comes from a UK community interest company, and its
+      code is published in full under the AGPL-3.0-only licence: anyone
+      may read it, fork it, or run their own copy, with their own branding
+      on the pages it produces. PTA Events does not publish its source
+      code.
 
       PTA Events charges 3.95% per transaction on its free Starter plan, or
       £299.99 + VAT a year for the Premium plan with a 1.5% fee. Chobble
@@ -252,18 +253,19 @@ blocks:
 
       PTA Events is an independently owned private limited company.
 
-      Chobble Tickets is run by one person as a
+      Chobble Tickets is also owned by people rather than a corporate
+      parent, in fact by one person, as a
       [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction)
-      (CIC), a UK legal structure that locks the company's assets for
-      community benefit. All of Chobble's code is public under AGPLv3, and
-      the platform can be self-hosted by anyone without depending on Chobble
-      as a company.
+      (CIC) whose assets are locked for community benefit. All of
+      Chobble's code sits in the open under AGPLv3, so any organisation
+      can run the platform itself instead of depending on Chobble as a
+      company.
   - type: markdown
     content: |
       ## Pricing sources
 
       The pricing information on this page was verified in March 2026. Fees
-      may change. Check the links below for the latest figures.
+      may change.
 
       - [PTA Events fees](https://ptaevents.freshdesk.com/support/solutions/articles/17000091635-what-fees-are-charged-) - 3.95% (Starter) or 1.5% (Premium)
       - [PTA Events Premium plan benefits](https://ptaevents.freshdesk.com/support/solutions/articles/17000091633-what-are-the-benefits-of-the-premium-plan-) - Qflow scanning, advertising tools, reduced fees
