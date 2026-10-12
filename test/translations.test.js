@@ -8,8 +8,7 @@
 
 import { describe, expect, test } from "bun:test";
 import { readFileSync } from "node:fs";
-import { join, relative, resolve } from "node:path";
-import { Glob } from "bun";
+import { join, resolve } from "node:path";
 import languages from "../_data/languages.json" with { type: "json" };
 import socialImage from "../_data/social_image.json" with { type: "json" };
 import translations from "../_data/translations.json" with { type: "json" };
@@ -19,15 +18,11 @@ import {
   languageForUrl,
   translationForUrl,
 } from "../_lib/i18n.js";
-import { CONTENT_DIRECTORIES } from "../scripts/evidence/copy.js";
+import { listContentFiles } from "./content-files.js";
 
 const ROOT = resolve(import.meta.dir, "..");
 
-const contentFiles = CONTENT_DIRECTORIES.flatMap((directory) =>
-  [...new Glob(`${directory}/**/*.md`).scanSync(ROOT)].map((path) =>
-    relative("", path).replaceAll("\\", "/"),
-  ),
-);
+const contentFiles = listContentFiles();
 
 const permalinkOf = (filePath) =>
   readFileSync(join(ROOT, filePath), "utf8").match(/^permalink: (\S+)$/m)?.[1];

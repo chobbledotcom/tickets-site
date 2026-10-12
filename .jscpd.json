@@ -8,12 +8,12 @@
     "**/.build/**",
     "**/packages/**"
   ],
-  "format": ["javascript", "markup", "css"],
+  "format": ["javascript", "markup", "css", "markdown"],
   "absolute": false,
   "gitignore": true,
   "exitCode": 1,
   "minLines": 3,
-  "minTokens": 476,
+  "minTokens": 50,
   "path": [
     "scripts",
     "_lib",

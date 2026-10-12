@@ -1,0 +1,16 @@
+  <div class="price-comparator__controls-row">
+    <div class="price-comparator__controls">
+      <label class="price-comparator__label">
+        <span>Tickets per year: <strong data-{{ prefix }}="ticket-count">200</strong></span>
+        <input type="range" data-{{ prefix }}="tickets" min="0" max="10000" value="200" step="10">
+      </label>
+      <label class="price-comparator__label">
+        <span>Price per ticket: <strong>&pound;<span data-{{ prefix }}="ticket-price">10.00</span></strong></span>
+        <input type="range" data-{{ prefix }}="price" min="{{ price_min }}" max="200" value="10" step="0.50">
+      </label>
+    </div>
+    <div class="price-comparator__takings">
+      <span class="price-comparator__takings-label">Total takings</span>
+      <span class="price-comparator__takings-value" data-{{ prefix }}="takings">&pound;2,000.00</span>
+    </div>
+  </div>

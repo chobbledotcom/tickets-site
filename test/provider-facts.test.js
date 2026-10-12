@@ -1,15 +1,9 @@
 import { describe, expect, test } from "bun:test";
 import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
+import { COMPARISON_DIRECTORY, EXCLUDED_PAGES } from "./comparison-pages.js";
 
 const ROOT = path.resolve(import.meta.dir, "..");
-const COMPARISON_DIRECTORY = path.join(ROOT, "pages", "compared-to");
-const EXCLUDED_PAGES = new Set([
-  "compare-all.md",
-  "compared-to.md",
-  "pen-and-paper.md",
-  "providers.md",
-]);
 const ENUM_FACT_FIELDS = [
   "ethical_basis",
   "per_ticket_platform_fee",

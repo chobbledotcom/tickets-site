@@ -9,17 +9,12 @@
 
 import { describe, expect, test } from "bun:test";
 import { readFileSync } from "node:fs";
-import { join, relative, resolve } from "node:path";
-import { Glob } from "bun";
-import { CONTENT_DIRECTORIES } from "../scripts/evidence/copy.js";
+import { join, resolve } from "node:path";
+import { listContentFiles } from "./content-files.js";
 
 const ROOT = resolve(import.meta.dir, "..");
 
-const markdownFiles = CONTENT_DIRECTORIES.flatMap((directory) =>
-  [...new Glob(`${directory}/**/*.md`).scanSync(ROOT)].map((path) =>
-    relative("", path).replaceAll("\\", "/"),
-  ),
-);
+const markdownFiles = listContentFiles();
 
 /** The front matter of one page, as text, or null when it has none. */
 const frontMatterOf = (path) => {

@@ -179,6 +179,15 @@ const importedSite = async () => {
   return { artifactDir, root };
 };
 
+/** Imports the renamed-story artifact, the case the link rewrites test. */
+const importRenamed = async (root) => {
+  await importEvidence({
+    artifactDir: await buildArtifact("specs/owner/a renamed story.feature"),
+    root,
+    createSocialImage: copySocialImage,
+  });
+};
+
 const editMapping = (root, change) => {
   const path = join(root, "_data/ticket_evidence_map.json");
   const value = JSON.parse(readFileSync(path, "utf8"));
@@ -189,6 +198,23 @@ const editMapping = (root, change) => {
 const editPage = (root, change) => {
   const path = join(root, PAGE);
   writeFileSync(path, change(readFileSync(path, "utf8")));
+};
+
+/** Two page-level breaks the import harness and the pre-import harness share. */
+const REPEATS_MAPPING_RULE = {
+  break: (root) =>
+    editPage(root, (page) => page.replace(ALT, "Something else")),
+  expect: "the evidence alt is",
+  name: "the page repeats the mapping",
+  rule: 2,
+};
+
+const NAMES_IMAGES_ONCE_RULE = {
+  break: (root) =>
+    editPage(root, (page) => `${page}\nAlso /${IMAGE} appears here.\n`),
+  expect: "names its images",
+  name: "the mapped page names its images once",
+  rule: 6,
 };
 
 /**
@@ -203,13 +229,7 @@ const RULES = [
     name: "one mapping entry holds every word",
     rule: 1,
   },
-  {
-    break: (root) =>
-      editPage(root, (page) => page.replace(ALT, "Something else")),
-    expect: "the evidence alt is",
-    name: "the page repeats the mapping",
-    rule: 2,
-  },
+  REPEATS_MAPPING_RULE,
   {
     break: (root) => editMapping(root, (entry) => {
       entry.caption = `${CAPTION} And more.`;
@@ -218,13 +238,7 @@ const RULES = [
     name: "a page value is compared whole, not as a substring",
     rule: 2,
   },
-  {
-    break: (root) =>
-      editPage(root, (page) => `${page}\nAlso /${IMAGE} appears here.\n`),
-    expect: "names its images",
-    name: "the mapped page names its images once",
-    rule: 6,
-  },
+  NAMES_IMAGES_ONCE_RULE,
   {
     break: (root) =>
       editPage(root, (page) =>
@@ -344,20 +358,8 @@ const copyInputs = () => ({
  * nothing watched the state a legacy site builds in.
  */
 const PRE_IMPORT_RULES = [
-  {
-    break: (root) =>
-      editPage(root, (page) => page.replace(ALT, "Something else")),
-    expect: "the evidence alt is",
-    name: "the page repeats the mapping",
-    rule: 2,
-  },
-  {
-    break: (root) =>
-      editPage(root, (page) => `${page}\nAlso /${IMAGE} appears here.\n`),
-    expect: "names its images",
-    name: "the mapped page names its images once",
-    rule: 6,
-  },
+  REPEATS_MAPPING_RULE,
+  NAMES_IMAGES_ONCE_RULE,
   {
     break: (root) =>
       editPage(root, (page) =>
@@ -473,12 +475,7 @@ describe("evidence rules", () => {
 
   test("a renamed Feature moves the page's source link", async () => {
     const root = await buildSite();
-    const renamed = "specs/owner/a renamed story.feature";
-    await importEvidence({
-      artifactDir: await buildArtifact(renamed),
-      root,
-      createSocialImage: copySocialImage,
-    });
+    await importRenamed(root);
     const page = readFileSync(join(root, PAGE), "utf8");
     expect(page).toContain(
       `<a href="${FEATURE_SOURCE_PREFIX}specs/owner/a%20renamed%20story.feature">(src)</a>`,
@@ -515,11 +512,7 @@ describe("evidence rules", () => {
         `${FEATURE_SOURCE_PREFIX}specs/owner/a story''s.feature`,
       ),
     );
-    await importEvidence({
-      artifactDir: await buildArtifact("specs/owner/a renamed story.feature"),
-      root,
-      createSocialImage: copySocialImage,
-    });
+    await importRenamed(root);
     const page = readFileSync(join(root, PAGE), "utf8");
     expect(page).toContain("a%20renamed%20story.feature");
     expect(page).not.toContain("a story''s.feature");
@@ -540,11 +533,7 @@ describe("evidence rules", () => {
         ].join("\n"),
       ),
     );
-    await importEvidence({
-      artifactDir: await buildArtifact("specs/owner/a renamed story.feature"),
-      root,
-      createSocialImage: copySocialImage,
-    });
+    await importRenamed(root);
     const page = readFileSync(join(root, PAGE), "utf8");
     expect(page).toContain(otherLink);
     expect(page).toContain("a%20renamed%20story.feature");
@@ -557,11 +546,7 @@ describe("evidence rules", () => {
     editPage(root, (page) =>
       page.replace(`figure_src: /${IMAGE}`, `figure_src: /${IMAGE} # evidence`),
     );
-    await importEvidence({
-      artifactDir: await buildArtifact("specs/owner/a renamed story.feature"),
-      root,
-      createSocialImage: copySocialImage,
-    });
+    await importRenamed(root);
     expect(readFileSync(join(root, PAGE), "utf8")).toContain(
       "a%20renamed%20story.feature",
     );
@@ -581,11 +566,7 @@ describe("evidence rules", () => {
         PROSE,
       );
     });
-    await importEvidence({
-      artifactDir: await buildArtifact("specs/owner/a renamed story.feature"),
-      root,
-      createSocialImage: copySocialImage,
-    });
+    await importRenamed(root);
     const page = readFileSync(join(root, PAGE), "utf8");
     expect(page).toContain(own);
     expect(page).toContain('a%20renamed%20story.feature">(src)</a>');

@@ -1,0 +1,61 @@
+<div class="prose">
+  <h2>{{ heading }}</h2>
+  <p>{{ intro }}</p>
+</div>
+<div class="price-comparator" data-config='{"chobble":{"n":"{{ ch.name }}{{ suffix }}","a":{{ ch.annual_cost }},"tp":{{ ch.per_ticket_fee_percent }},"tf":{{ ch.per_ticket_fee_fixed }},"pp":{{ ch.payment_processing_percent }},"pf":{{ ch.payment_processing_fixed }}},"competitor":{"n":"{{ co.name }}","a":{{ co.annual_cost }},"tp":{{ co.per_ticket_fee_percent }},"tf":{{ co.per_ticket_fee_fixed }},"pp":{{ co.payment_processing_percent }},"pf":{{ co.payment_processing_fixed }}}}'>
+  {%- include "price-comparator-controls.html", prefix: "pc", price_min: "0.50" -%}
+  <table class="price-comparator__table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>{{ ch.name }}{{ suffix }}</th>
+        <th>{{ co.name }}{{ suffix }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{ row_label }}</td>
+        <td data-pc="chobble-annual">&pound;{{ ch.annual_cost | append: ".00" }}</td>
+        <td data-pc="comp-annual">&pound;{{ co.annual_cost | append: ".00" }}</td>
+      </tr>
+      <tr>
+        <td>Platform fees</td>
+        <td data-pc="chobble-platform">&pound;0.00</td>
+        <td data-pc="comp-platform">&pound;0.00</td>
+      </tr>
+      <tr>
+        <td>Payment processing</td>
+        <td data-pc="chobble-processing">&pound;0.00</td>
+        <td data-pc="comp-processing">&pound;0.00</td>
+      </tr>
+      <tr class="price-comparator__total-row">
+        <td>Total cost per year</td>
+        <td data-pc="chobble-total">&pound;0.00</td>
+        <td data-pc="comp-total">&pound;0.00</td>
+      </tr>
+      <tr class="price-comparator__per-ticket-row">
+        <td>Cost per ticket</td>
+        <td data-pc="chobble-per-ticket">&pound;0.00</td>
+        <td data-pc="comp-per-ticket">&pound;0.00</td>
+      </tr>
+      <tr class="price-comparator__share-row">
+        <td>Your share</td>
+        <td data-pc="chobble-share">&pound;0.00</td>
+        <td data-pc="comp-share">&pound;0.00</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="price-comparator__savings" data-pc="savings"></p>
+  <p class="prose">
+    <em>"Your share" assumes the organiser pays the fees out of the ticket
+    price. Where a platform lets the organiser add its fees on top, the buyer
+    pays them and the organiser keeps more than the figure shown. These
+    figures exclude VAT and cover paid tickets. Several platforms charge
+    nothing for free tickets, and the notes below record that where it is
+    published.</em>
+  </p>
+</div>
+<script src="/assets/js/price-comparator.js"></script>
+{%- if co.fee_note -%}
+<p class="prose"><em>{{ co.fee_note }}</em></p>
+{%- endif -%}

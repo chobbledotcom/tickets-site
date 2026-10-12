@@ -19,15 +19,9 @@ import {
   providerAttributes,
   providerDirectory,
 } from "../_lib/provider-directory.js";
+import { COMPARISON_DIRECTORY, EXCLUDED_PAGES } from "./comparison-pages.js";
 
 const ROOT = path.resolve(import.meta.dir, "..");
-const COMPARISON_DIRECTORY = path.join(ROOT, "pages", "compared-to");
-const EXCLUDED_PAGES = new Set([
-  "compare-all.md",
-  "compared-to.md",
-  "pen-and-paper.md",
-  "providers.md",
-]);
 const FILTERABLE_FIELDS = [
   "ethical_basis",
   "per_ticket_platform_fee",

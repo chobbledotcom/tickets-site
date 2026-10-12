@@ -25,6 +25,7 @@ bun run lint         # Check code with Biome
 bun run lint:fix     # Auto-fix lint issues
 bun run cpd          # Copy-paste detection at the .jscpd.json threshold
 bun run cpd:ratchet  # Fails if the min-tokens threshold could be lowered; pay down a clone, lower minTokens in .jscpd.json
+bun run check:copy   # Fails when one sentence of page copy appears on two pages outside .duplicate-copy.json
 ```
 
 Content lives in `pages/` and `guide-pages/`, site configuration in `_data/`,

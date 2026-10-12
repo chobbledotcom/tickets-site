@@ -1,0 +1,772 @@
+{
+  "allow": [
+    {
+      "text": "Check the links below for the latest figures.",
+      "why": "Lead-in to the fee source links on the comparison pages."
+    },
+    {
+      "text": "Each comparison covers pricing, features and attendee data, and the [full list](/compared-to/) names every platform checked so far.",
+      "why": "Shared sign-off linking the comparison list from every perfect-for page."
+    },
+    {
+      "text": "Chobble Tickets is run by one person as a [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction) (CIC), a UK legal structure that locks the company's assets for community benefit.",
+      "why": "Company structure fact stated consistently."
+    },
+    {
+      "text": "Its source code is published under the AGPL-3.0-only licence, so anyone can read it, fork it, or run their own copy.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "All of Chobble's code is public under AGPLv3, and the platform can be self-hosted by anyone without depending on Chobble as a company.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.",
+      "why": "Call-to-action boilerplate repeated by design."
+    },
+    {
+      "text": "Managed hosting costs £50 a year or £5 a month.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Charities, community groups, artists and musicians pay £25/year on the annual plan.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "This page compares it to Chobble Tickets.",
+      "why": "Comparison page intro sentence."
+    },
+    {
+      "text": "The pricing information on this page was verified in March 2026.",
+      "why": "Dated verification note shared by the pages reviewed in the same pass."
+    },
+    {
+      "text": "Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "With Chobble Tickets, attendee data is encrypted at rest.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "The [open source page](/features/open-source/) describes Chobble Tickets without a competitor comparison.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "Chobble Tickets is a flat £50/year or £5/month, with [no per-ticket platform fees](/features/no-per-ticket-fees/).",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Sign up for managed hosting at £50/year or £5/month.",
+      "why": "Call-to-action boilerplate repeated by design."
+    },
+    {
+      "text": "With Chobble Tickets, attendee data is encrypted at rest and stays under your control.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "Chobble Tickets is run by one person as a UK [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction) (CIC), a legal structure that locks the company's assets for community benefit.",
+      "why": "Company structure fact stated consistently."
+    },
+    {
+      "text": "If Chobble Tickets stopped operating tomorrow, you could run the same code on your own server.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "All of Chobble's code is public under [AGPL-3.0-only](/features/open-source/), and the platform can be self-hosted by anyone without depending on Chobble as a company.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "The entire platform is open source, so you can self-host it and never depend on a third party.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "You also pay Stripe, Square or SumUp processing fees on top.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Only the keys held by your own administrator accounts, and the optional recovery account you can enable, unlock it.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "Paid checkout does not reserve capacity.",
+      "why": "Capacity fact the site must state consistently."
+    },
+    {
+      "text": "Capacity is used only when payment confirmation arrives.",
+      "why": "Capacity fact the site must state consistently."
+    },
+    {
+      "text": "Sign up for managed hosting at £50/year or £5/month with no Chobble per-ticket platform fee.",
+      "why": "Call-to-action boilerplate repeated by design."
+    },
+    {
+      "text": "The complete Chobble Tickets product source is published under AGPL-3.0-only in a public [GitHub repository](https://github.com/chobbledotcom/tickets).",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "You can read it, fork it and run the software without paying Chobble a licence fee.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "This page compares it to Chobble Tickets on pricing, features and data handling.",
+      "why": "Comparison page intro sentence."
+    },
+    {
+      "text": "Chobble Tickets is a flat £50/year or £5/month (£25/year for charities and community groups) with [no per-ticket platform fees](/features/no-per-ticket-fees/).",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Chobble Tickets uses Stripe, Square, or SumUp directly, so payments go straight to your account with standard processing times.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "You're always in control of your own payment processor account.",
+      "why": "Payments fact stated consistently across pages."
+    },
+    {
+      "text": "This page compares it with Chobble Tickets on pricing, features and data handling.",
+      "why": "Comparison page intro sentence."
+    },
+    {
+      "text": "The platform is open source under AGPLv3, so you can self-host it and stop depending on Chobble as your host.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "With Chobble Tickets, attendee data is encrypted and stays under your control.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "Charities and community groups pay £25/year.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "A paid order that no longer fits is refunded automatically.",
+      "why": "Payments fact stated consistently across pages."
+    },
+    {
+      "text": "Eligible charities and community groups pay £25 a year.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Sign up for managed hosting at £50/year or £5/month with no Chobble per-booking platform fee.",
+      "why": "Call-to-action boilerplate repeated by design."
+    },
+    {
+      "text": "Sign up for managed hosting at £50/year or £5/month, or run the source code without paying Chobble a licence fee.",
+      "why": "Call-to-action boilerplate repeated by design."
+    },
+    {
+      "text": "Chobble Tickets is made in the UK by a community interest company, with its [source code](/features/open-source/) published under the AGPL-3.0-only licence.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "Agents are encrypted like the rest of your data.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "Self-hosting Chobble Tickets has no Chobble software licence fee.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "This page compares the two platforms to help you decide which fits your needs.",
+      "why": "Comparison page intro sentence."
+    },
+    {
+      "text": "Chobble Tickets is a white label ticketing platform made in the UK by a community interest company, with its [source code](/features/open-source/) published under the AGPL-3.0-only licence.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "All of Chobble's code is public, and anyone can run the platform on their own servers.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "There are [no per-ticket platform fees](/features/no-per-ticket-fees/) and no feature tiers.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Flat pricing, open source code, and encrypted attendee data.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "A database dump and the server's environment encryption key together are still not enough to decrypt attendee data, since an attacker would also need your password.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "With Chobble Tickets, attendee data is encrypted with hybrid RSA/AES encryption and stays under your control.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "Buyers pay your own Stripe, Square, or SumUp account, so payouts follow that provider's schedule from the first sale onwards.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Charities, community groups, artists and musicians pay £25 a year, half the annual price.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "The complete product source is published under AGPL-3.0-only and can run on independently selected infrastructure.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "The pricing information on this page was verified in April 2026.",
+      "why": "Dated verification note shared by the pages reviewed in the same pass."
+    },
+    {
+      "text": "With Chobble Tickets, [attendee data is encrypted at rest](/features/encrypted/) with the site's public key.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "The registered name is Chobble CIC, company number 17050113, registered in Prestwich, Manchester.",
+      "why": "Company structure fact stated consistently."
+    },
+    {
+      "text": "Stripe processing is charged separately at the standard 1.5% + 20p.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Self-hosting has no Chobble licence fee.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "They can only be transferred to another asset-locked body, such as another CIC or a registered charity.",
+      "why": "Company structure fact stated consistently."
+    },
+    {
+      "text": "Chobble Tickets is a flat **£50/year (or £5/month)** for the whole site, with [no per-driver, per-vehicle or per-task fee](/features/no-per-ticket-fees/).",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Payment processing through Stripe, Square or SumUp is charged separately at the provider's standard rate.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Chobble Tickets at £50/year gives an operator a driver run sheet, accurate addresses, and bookings, without those delivery-platform features.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Self-hosting keeps customer data on your own server.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "Customer data is encrypted at rest, so stored names and addresses require credentials for an authorised keyed user.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "Open source ticketing, hire bookings, and delivery run sheets with flat pricing and no per-driver or per-task fee.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Chobble Tickets is ticketing software made in the UK by a community interest company, a structure that locks the company's assets to community benefit.",
+      "why": "Company structure fact stated consistently."
+    },
+    {
+      "text": "Its source code is published under the AGPL-3.0-only licence, so anyone can read it, keep their own copy of it, or run that copy themselves.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "Chobble Tickets charges a flat £50/year or £5/month for managed hosting, with [no per-ticket platform fees](/features/no-per-ticket-fees/).",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Charities, community groups, artists and musicians pay £25/year for the same managed hosting on the annual plan.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "A CIC has an asset lock that limits how company assets can be transferred and requires them to be used for community benefit.",
+      "why": "Company structure fact stated consistently."
+    },
+    {
+      "text": "Other open source comparisons cover [Hi.Events](/compared-to/hi-events/), [Pretix](/compared-to/pretix/) and [Swicket with alf.io](/compared-to/swicket/).",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "Stripe's processing fee is charged separately, at 1.5% + 20p for standard UK cards.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Chobble Tickets is run by one person as a [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction), a type of UK company that exists to benefit the community.",
+      "why": "Company structure fact stated consistently."
+    },
+    {
+      "text": "Flat pricing with no per-ticket platform fee.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "The organiser holds the only private key that can decrypt it.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "The pricing information on this page was verified in July 2026.",
+      "why": "Dated verification note shared by the pages reviewed in the same pass."
+    },
+    {
+      "text": "Chobble Tickets is a flat £50/year or £5/month regardless of how many tickets you sell, with [no per-ticket platform fees](/features/no-per-ticket-fees/).",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "You pay Stripe's processing fees (1.5% + 20p in the UK) separately.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Community groups, charities, artists and musicians pay £25/year.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Payment processing is charged by your own Stripe, Square, or SumUp account.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Check the links below for the latest information.",
+      "why": "Lead-in to the fee source links on the comparison pages."
+    },
+    {
+      "text": "You sign up at [tix.chobble.com](https://tix.chobble.com/listings) and run events from the admin area, or [self-host the code](/features/open-source/) on your own server.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "Chobble Tickets charges £50/year or £5/month whatever the volume, and adds no fee to any ticket, though the organiser pays Stripe, Square or SumUp processing separately.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Community groups, charities, artists and musicians pay £25/year on the annual plan.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Connecting your own Stripe account changes the timing.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "The pricing information on this page was verified in June 2026.",
+      "why": "Dated verification note shared by the pages reviewed in the same pass."
+    },
+    {
+      "text": "Chobble Tickets is run by one person as a [Community Interest Company](https://www.gov.uk/government/publications/community-interest-companies-introduction) (CIC), registered as Chobble CIC, company number 17050113, in Prestwich, Manchester.",
+      "why": "Company structure fact stated consistently."
+    },
+    {
+      "text": "Square or SumUp rates give a different figure.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Chobble Tickets is a flat **£50/year or £5/month** (£25/year for charities and community groups on the annual plan) with [no per-ticket platform fees](/features/no-per-ticket-fees/).",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "The complete product source is published under [AGPL-3.0-only](/features/open-source/).",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "Managed hosting costs £50/year or £5/month whatever the ticket volume, or £25/year for charities, community groups, artists and musicians.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Sign up for managed hosting at £50/year or £5/month, or browse the full technical documentation.",
+      "why": "Call-to-action boilerplate repeated by design."
+    },
+    {
+      "text": "Published under AGPL-3.0-only with every product feature included and no proprietary feature tier.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "The Chobble CIC asset lock, the absence of shareholders and the lack of a proprietary tier leave no route to take the published code closed.",
+      "why": "Company structure fact stated consistently."
+    },
+    {
+      "text": "Chobble is structured against Cory Doctorow's enshittification pattern with an open licence, an asset-locked community interest company, no tiers, no free plan, prepaid terms, encrypted attendee data, open APIs and payments that go straight to the organiser.",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "The complete product source is published under AGPL-3.0-only.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "If two people race for the last ticket, the second is refunded automatically.",
+      "why": "Payments fact stated consistently across pages."
+    },
+    {
+      "text": "Verwaltetes Hosting kostet £50 im Jahr oder £5 im Monat.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "El alojamiento gestionado cuesta £50 al año o £5 al mes.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Chobble Tickets encrypts all personally identifiable information at rest using [hybrid RSA-OAEP + AES-256-GCM encryption](https://chobbledotcom.github.io/tickets/docs/crypto.ts).",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "Sign up for managed hosting from £25/year for community groups, or self-host without paying Chobble a licence fee.",
+      "why": "Call-to-action boilerplate repeated by design."
+    },
+    {
+      "text": "Charities and community groups pay £25 a year for managed hosting.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Names, contact details and answers are [encrypted in the database](/features/encrypted/).",
+      "why": "Attendee data fact stated consistently across pages."
+    },
+    {
+      "text": "Payments go directly to your own Stripe, Square or SumUp account.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "The [open source ticketing platforms guide](/guide/choosing-a-ticket-platform/open-source-ticketing-platforms/) compares the licences of the open source options above.",
+      "why": "Source-code and self-hosting fact stated consistently."
+    },
+    {
+      "text": "Charities, community groups, artists and musicians pay £25 a year.",
+      "why": "Pricing fact stated consistently across pages."
+    },
+    {
+      "text": "Chobble Tickets is a white label ticketing platform made in the UK by a community interest company.",
+      "why": "Platform description facts stated consistently."
+    },
+    {
+      "text": "The [hosting page](/hosting/) describes its deployment options.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Capacity is checked when each payment is confirmed.",
+      "why": "Data and capacity facts stated consistently."
+    },
+    {
+      "text": "The discount does not apply to monthly billing.",
+      "why": "Pricing caveats stated consistently."
+    },
+    {
+      "text": "Each entry shows the booking details, the address, phone number, a map link, and the ticket token.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Each leg has a \"Mark done\" toggle, so the agent can confirm a delivery or collection as it happens, from any device with a browser.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "A full REST API and webhooks give you programmatic access to all your data.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "This is one of the larger differences between the two platforms.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Chobble Tickets never holds ticket money.",
+      "why": "Prepay hosting facts stated consistently."
+    },
+    {
+      "text": "It does not publish a general rate schedule.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Built-in public site with light and dark theme options, so your booking pages match your brand.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Write event descriptions in Markdown with header image uploads, so your events look great without a page builder.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Customise confirmation emails with Liquid syntax, including built-in currency and pluralise filters.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Send attendees to a custom URL after booking, perfect for thank-you pages or post-purchase instructions.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "You might be considering [Yo!Rent](/compared-to/yo-rent/), rental booking software, or [Resova](/compared-to/resova/), which takes timed hire bookings.",
+      "why": "Shared option sentence on overlapping perfect-for pages."
+    },
+    {
+      "text": "Stored names, emails and free-text answers require credentials for an authorised keyed user, including an optional recovery owner if enabled.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "An authorised keyed user can decrypt it, including an optional recovery owner if enabled.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Fees and feature allocations may change.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Chobble Tickets is a ticketing platform.",
+      "why": "Platform description facts stated consistently."
+    },
+    {
+      "text": "Chobble Tickets is an event ticketing and hire platform with a built-in [logistics system](/features/logistics/).",
+      "why": "Logistics facts shared by the hire and delivery comparisons."
+    },
+    {
+      "text": "When you enable logistics on a booking, each line gets a drop-off agent and a collection agent.",
+      "why": "Logistics facts shared by the hire and delivery comparisons."
+    },
+    {
+      "text": "Users assigned to an agent log in to a deliveries run sheet showing today's and tomorrow's drop-offs and collections, with the address, phone number, a map link, and a \"mark done\" toggle for each leg.",
+      "why": "Logistics facts shared by the hire and delivery comparisons."
+    },
+    {
+      "text": "Chobble Tickets covers the booking, the address, and the driver's run sheet, and leaves the driving itself to the driver.",
+      "why": "Logistics facts shared by the hire and delivery comparisons."
+    },
+    {
+      "text": "A booking with logistics enabled has a drop-off agent (the start) and a collection agent (the end), plus optional times for each.",
+      "why": "Logistics facts shared by the hire and delivery comparisons."
+    },
+    {
+      "text": "Users assigned to an agent see a deliveries run sheet on their phone showing today's and tomorrow's drop-offs and collections.",
+      "why": "Logistics facts shared by the hire and delivery comparisons."
+    },
+    {
+      "text": "With [postcode lookup](/features/postcode-lookup/) enabled, customers type their postcode at checkout and pick their address from a list, so the address on the run sheet is accurate.",
+      "why": "Logistics facts shared by the hire and delivery comparisons."
+    },
+    {
+      "text": "You can invite a team member as an agent-class user who sees only the run sheet and nothing else.",
+      "why": "Logistics facts shared by the hire and delivery comparisons."
+    },
+    {
+      "text": "GBP figures use an approximate rate of £0.79 to $1 as of August 2026.",
+      "why": "Pricing caveats stated consistently."
+    },
+    {
+      "text": "There is no task allowance and no tier to move up.",
+      "why": "Pricing caveats stated consistently."
+    },
+    {
+      "text": "The two price points reflect different products.",
+      "why": "Pricing caveats stated consistently."
+    },
+    {
+      "text": "An operator who needs live tracking and route optimisation across a fleet of drivers will not find them in Chobble Tickets.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Symbiota describes itself as a not-for-profit worker co-operative.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Check the source pages for current details.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Your event data lives on their servers, and you depend on their continued operation.",
+      "why": "Data and capacity facts stated consistently."
+    },
+    {
+      "text": "Here is how Chobble Tickets compares for smaller events.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Fees vary by event, venue, and contract.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Its privacy notice says direct marketing is sent only when an attendee explicitly opts in.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "On higher-priced tickets the gap grows quickly.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Chobble Tickets is made in the UK by a community interest company and priced in pounds.",
+      "why": "Platform description facts stated consistently."
+    },
+    {
+      "text": "No ownership or investor structure beyond the Companies House record was documented in the sources reviewed.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "If you forget it, the data is permanently unrecoverable.",
+      "why": "Data and capacity facts stated consistently."
+    },
+    {
+      "text": "Chobble Tickets is a standalone ticketing platform.",
+      "why": "Platform description facts stated consistently."
+    },
+    {
+      "text": "Resident Advisor says promoters pay no ticketing fee because buyers cover a service fee on each ticket.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Weezevent is recommended in almost every post they have made.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Chobble is a community interest company.",
+      "why": "Platform description facts stated consistently."
+    },
+    {
+      "text": "Chobble does not use subscription billing.",
+      "why": "Prepay hosting facts stated consistently."
+    },
+    {
+      "text": "Chobble adds no percentage cut or per-ticket charge.",
+      "why": "Prepay hosting facts stated consistently."
+    },
+    {
+      "text": "Set <a href=\"/features/terms-and-conditions/\">terms and required contact fields</a>, plus <a href=\"/features/registration-deadlines/\">booking cut-offs and purchase limits</a>.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Create volunteer sign-up sheets, potluck coordinators, and other form-based collections by setting an event as free.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Get a host-provided subdomain instantly, then add your own custom domain whenever you're ready.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Booking pages, tickets and emails carry your name and no Chobble branding, with no add-on or higher tier to buy.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Drop an iframe snippet into your website to show events inline, with configurable CSP.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Integrated documentation at /admin/guide covers the main admin areas, so new team members can get up to speed fast.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Payment assigns a separate ticketing site and sends its setup link by email.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Up to three URLs are active at once, counting the supplied subdomain and the underlying script address.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "There is no separate proprietary product tier.",
+      "why": "Platform description facts stated consistently."
+    },
+    {
+      "text": "One JavaScript file turns links on your existing website into add-to-cart buttons with a floating cart.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Managed sites are set up through an emailed link.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Self-hosted deployments follow five documented steps, and the database migrates itself on the first request.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Chobble uses prepay hosting, not subscription billing.",
+      "why": "Prepay hosting facts stated consistently."
+    },
+    {
+      "text": "Pay in advance for a month or a year, and if a term ends the site stays in read-only mode for 24 months with no back-payment owed.",
+      "why": "Prepay hosting facts stated consistently."
+    },
+    {
+      "text": "How ticketing platforms are promoted online, and the rules Chobble follows on ads, reviews and comparison pages.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Choose from Resend, Postmark, SendGrid, or Mailgun (US and EU) for notifications.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "A service-by-service breakdown of which users and configured providers can receive attendee data.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Get POST notifications on every booking to integrate with your tools.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "The answer-triggered modifier uses the same pricing engine as promo codes and add-ons, so stock limits, scoping, and the live running total all work the same way.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Fee comparison tables published by platforms tend to quote current figures for themselves and out-of-date figures for everyone else.",
+      "why": "Shared caveat or cross-reference line on comparison pages."
+    },
+    {
+      "text": "Sie finden sie auf der <a href=\"/\" lang=\"en\" hreflang=\"en-GB\">englischen Website</a>.",
+      "why": "Translated-page boilerplate pointing at the English source."
+    },
+    {
+      "text": "<blockquote lang=\"en\"> <p>\"Eventbrite takes £275 per event, but Chobble is £87.50.",
+      "why": "Translated-page boilerplate pointing at the English source."
+    },
+    {
+      "text": "Puede consultarlas en la <a href=\"/\" lang=\"en\" hreflang=\"en-GB\">web en inglés</a>.",
+      "why": "Translated-page boilerplate pointing at the English source."
+    },
+    {
+      "text": "Each booking receives a QR code by email.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Check people in with a phone camera, or search the list by name at the door.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Download a complete database backup, or export a listing as a file that another Chobble Tickets site can import.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Erase a person's contact record on request, and clear out the booking records a deleted listing leaves behind.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Chobble Tickets books whole days and ranges of days.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Every booking and administration feature is included.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "You might be considering [Zeffy](/compared-to/zeffy/), a free platform funded by donor tips, [Humanitix](/compared-to/humanitix/), a not-for-profit that passes profits to charity, or [Eventbrite](/compared-to/eventbrite/), a marketplace with its own audience.",
+      "why": "Shared option sentence on overlapping perfect-for pages."
+    },
+    {
+      "text": "Customers pick how many days to hire, with a total price for each offered duration and capacity checked across the whole range.",
+      "why": "Feature description shared between the features index and its pages."
+    },
+    {
+      "text": "Infrastructure and other configured services remain separate costs.",
+      "why": "Self-hosting cost fact stated consistently."
+    },
+    {
+      "text": "An agent is a named resource, such as a van, a driver, or a crew, and you assign users to it.",
+      "why": "Logistics facts shared by the hire and delivery comparisons."
+    },
+    {
+      "text": "This suits an operator hiring out equipment or running events where something needs to reach a customer.",
+      "why": "Logistics facts shared by the hire and delivery comparisons."
+    },
+    {
+      "text": "It does not add route optimisation, live vehicle tracking, proof-of-delivery photo or signature capture, barcode scanning, or automated dispatch.",
+      "why": "Logistics facts shared by the hire and delivery comparisons."
+    },
+    {
+      "text": "The pricing and feature information on this page was verified on 27 July 2026.",
+      "why": "Dated verification note shared by the pages reviewed in the same pass."
+    },
+    {
+      "text": "This is useful for drivers or crew who only need their day's jobs and should not see anything else.",
+      "why": "Logistics facts shared by the hire and delivery comparisons."
+    },
+    {
+      "text": "Run Chobble Tickets on Bunny Edge, Deno Deploy or a Docker-capable host.",
+      "why": "Deployment options stated consistently across pages."
+    },
+    {
+      "text": "There is no advertising revenue and no data economy subsidising the price.",
+      "why": "Funding-structure fact stated consistently across pages."
+    }
+  ]
+}

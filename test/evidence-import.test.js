@@ -183,6 +183,26 @@ const copySocialImage = async ({ inputPath, outputPath }) => {
   await Bun.write(outputPath, Bun.file(inputPath));
 };
 
+/** A site with the servicing evidence imported, ready for a rule to break. */
+const importPrepared = async () => {
+  const root = await createSite();
+  const artifactDir = await createArtifact();
+  await importEvidence({ artifactDir, root, createSocialImage: copySocialImage });
+  return root;
+};
+
+/** The artifact with its one capture moved to another case. */
+const artifactForCase = async (caseId) =>
+  await createArtifact((value) => ({
+    ...value,
+    captures: [
+      {
+        ...value.captures[0],
+        case: { ...value.captures[0].case, id: caseId },
+      },
+    ],
+  }));
+
 const changed = (change) => {
   const bytes = Buffer.alloc(1);
   return change(manifest(assetFor(bytes)));
@@ -401,15 +421,7 @@ describe("evidence manifest validation", () => {
 
 describe("evidence artifact files", () => {
   test("rejects a capture linked to the wrong case", async () => {
-    const artifactDir = await createArtifact((value) => ({
-      ...value,
-      captures: [
-        {
-          ...value.captures[0],
-          case: { ...value.captures[0].case, id: "servicing.other-case" },
-        },
-      ],
-    }));
+    const artifactDir = await artifactForCase("servicing.other-case");
 
     await expect(loadEvidenceArtifact(artifactDir, mapping())).rejects.toThrow(
       "expected case servicing.hold-on-dashboard",
@@ -582,9 +594,7 @@ describe("evidence import", () => {
   });
 
   test("refuses committed evidence whose social copy was edited after import", async () => {
-    const root = await createSite();
-    const artifactDir = await createArtifact();
-    await importEvidence({ artifactDir, root, createSocialImage: copySocialImage });
+    const root = await importPrepared();
     const edited = mapping();
     edited.captures[CAPTURE_ID].socialHeading = "A different heading";
     writeJson(join(root, "_data/ticket_evidence_map.json"), edited);
@@ -594,9 +604,7 @@ describe("evidence import", () => {
   });
 
   test("refuses a page whose alt text says more than the mapping", async () => {
-    const root = await createSite();
-    const artifactDir = await createArtifact();
-    await importEvidence({ artifactDir, root, createSocialImage: copySocialImage });
+    const root = await importPrepared();
     const page = join(root, "pages/features/servicing-events.md");
     writeFileSync(
       page,
@@ -631,9 +639,7 @@ describe("evidence import", () => {
   });
 
   test("refuses a page that shows its screenshot twice", async () => {
-    const root = await createSite();
-    const artifactDir = await createArtifact();
-    await importEvidence({ artifactDir, root, createSocialImage: copySocialImage });
+    const root = await importPrepared();
     const page = join(root, "pages/features/servicing-events.md");
     const content = readFileSync(page, "utf8");
     const block = content.slice(content.indexOf("  - type: split-image"), -4);
@@ -644,15 +650,7 @@ describe("evidence import", () => {
   });
 
   test("reviews an artifact whose case was renamed", async () => {
-    const artifactDir = await createArtifact((value) => ({
-      ...value,
-      captures: [
-        {
-          ...value.captures[0],
-          case: { ...value.captures[0].case, id: "servicing.renamed-case" },
-        },
-      ],
-    }));
+    const artifactDir = await artifactForCase("servicing.renamed-case");
     const forReview = await loadEvidenceArtifact(artifactDir, mapping(), {
       requireCaseLink: false,
     });
@@ -665,9 +663,7 @@ describe("evidence import", () => {
   });
 
   test("detects changed committed bytes", async () => {
-    const root = await createSite();
-    const artifactDir = await createArtifact();
-    await importEvidence({ artifactDir, root, createSocialImage: copySocialImage });
+    const root = await importPrepared();
     writeFileSync(join(root, DESTINATION), "changed");
     await expect(validateCommittedEvidence({ root })).rejects.toThrow(
       "SHA-256 mismatch",
@@ -737,9 +733,7 @@ describe("evidence import", () => {
   });
 
   test("rejects a page that does not place its mapped capture", async () => {
-    const root = await createSite();
-    const artifactDir = await createArtifact();
-    await importEvidence({ artifactDir, root, createSocialImage: copySocialImage });
+    const root = await importPrepared();
     writeFileSync(join(root, "pages/features/servicing-events.md"), "---\n---\n");
     await expect(validateCommittedEvidence({ root })).rejects.toThrow(
       "does not select evidence capture",

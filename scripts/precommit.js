@@ -20,8 +20,15 @@ const cpdRatchetStep = {
   args: ["run", "cpd:ratchet"],
 };
 
+const checkCopyStep = {
+  name: "check:copy",
+  cmd: "bun",
+  args: ["run", "check:copy"],
+};
+
 const steps = [
   COMMON_STEPS.lintFix,
+  checkCopyStep,
   COMMON_STEPS.cpd,
   cpdRatchetStep,
   buildStep,
