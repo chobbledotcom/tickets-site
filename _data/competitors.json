@@ -133,6 +133,15 @@
     "payment_processing_fixed": 0,
     "fee_note": "Ticketek fees vary by event and venue. This estimate uses approximately AU$8 per transaction (converted to GBP) as a typical service and handling fee. Actual fees may be higher or lower. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p)."
   },
+  "classbento": {
+    "name": "ClassBento",
+    "annual_cost": 0,
+    "per_ticket_fee_percent": 3.9,
+    "per_ticket_fee_fixed": 0.25,
+    "payment_processing_percent": 0,
+    "payment_processing_fixed": 0,
+    "fee_note": "ClassBento fees: 3.9% + £0.25 per booking from your own website, and 20% commission (inclusive of VAT) on bookings from the ClassBento marketplace. The calculator uses the own-website rate. Payment processing is included in both rates. A host who excludes all listings from the marketplace pays £19/month instead. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: classbento.co.uk (October 2026)."
+  },
   "tito": {
     "name": "Tito",
     "annual_cost": 0,

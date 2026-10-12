@@ -44,6 +44,9 @@ blocks:
       - icon: hugeicons:ticket-01
         description: A US payment collection platform with event ticketing. Compare pricing, features and data handling.
         name: <a href="/compared-to/cheddar-up/">Cheddar Up alternative</a>
+      - icon: hugeicons:calendar-03
+        description: A marketplace for creative workshops where hosts pay 20% commission on marketplace bookings, or 3.9% + £0.25 on bookings from their own website. Compare commission with a flat annual fee.
+        name: <a href="/compared-to/classbento/">ClassBento alternative</a>
       - icon: hugeicons:ticket-01
         description: A ticketing marketplace whose provider describes itself as a not-for-profit worker co-operative. Compare community tools, operations, data handling, and source licences.
         name: <a href="/compared-to/dandelion/">Dandelion alternative</a>
