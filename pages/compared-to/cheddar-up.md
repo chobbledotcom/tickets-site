@@ -156,6 +156,9 @@ blocks:
       - **[Sign-up forms](/features/sign-up-forms/)** - create volunteer
         sign-up sheets, potluck coordinators, and other form-based
         collections by setting an event as free with custom questions
+      - **[Scanner logins for door volunteers](/features/users/)** - a
+        door helper gets their own login whose only page is the
+        check-in scanner
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         create promo codes, discount codes, surcharges, and opt-in add-ons
         with stock limits and a live running total

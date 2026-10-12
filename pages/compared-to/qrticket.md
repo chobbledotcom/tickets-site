@@ -186,6 +186,10 @@ blocks:
         unlock it
       - **[Stripe, Square and SumUp](/features/stripe-and-square/)** card
         checkout. QRTicket offers only PayPal or bank transfer
+      - **[Options on a listing](/features/managing-events/)** - a buyer
+        picks a choice such as a size or a session time on one listing,
+        and the choice shows on the attendee roster and at the door.
+        QRTicket handles choices as separate ticket variants
       - **[Apple Wallet and Google Wallet passes](/features/apple-wallet/)** -
         attendees can add tickets to a phone's wallet
       - **[Your own custom domain](/features/custom-domain/)** - ticket pages

@@ -161,7 +161,8 @@ blocks:
       Deno Deploy runs the same kind of script on another company's hosting,
       and the repository ships Docker configuration with ready-made files for
       Fly and Render, so the same image runs on a managed host or on a server
-      the operator keeps. Running that server yourself is the one route that
+      the operator keeps, holding its database in SQLite or a remote libSQL
+      database such as Turso. Running that server yourself is the one route that
       leaves a host to maintain.
 
       Pretix offers a free Community edition, but its proprietary plugins

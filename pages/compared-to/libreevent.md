@@ -157,7 +157,9 @@ blocks:
       - **Tickets held during checkout** - libreevent reserves the tickets an
         attendee has selected, and returns them to the pool after a period of
         inactivity that the organiser sets in seconds. Chobble Tickets uses
-        capacity when payment confirmation arrives instead
+        capacity when payment confirmation arrives instead. An unpaid
+        checkout stops taking payment after an hour, so an abandoned link
+        cannot pay an old price against changed stock
   - type: markdown
     content: |
       ### Chobble Tickets has features libreevent doesn't
@@ -222,7 +224,8 @@ blocks:
       Chobble Tickets runs on Bunny Edge, Deno Deploy or a Docker-capable host.
       The recommended Bunny deployment compiles to a single JavaScript file and
       uses a Bunny database, and Docker deployments use SQLite or a remote
-      libSQL database. On managed hosting there is no server to set up at all.
+      libSQL database such as Turso. On managed hosting there is no server to
+      set up at all.
   - type: markdown
     content: |
       ## The archived repository

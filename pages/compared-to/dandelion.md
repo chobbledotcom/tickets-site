@@ -203,7 +203,8 @@ blocks:
         Resend, Postmark, SendGrid, or Mailgun, with editable HTML and plain-text
         confirmation templates
       - **[Write-capable administration API](/features/admin-api/)** - API keys
-        can create and change listings, groups, and holiday closures.
+        can create and change listings, groups, and holiday closures, and
+        read a listing's attendees.
         Dandelion's documented Zapier and public AI-assistant tools can only
         read data
       - **[Square and SumUp payments](/features/stripe-and-square/)** - these

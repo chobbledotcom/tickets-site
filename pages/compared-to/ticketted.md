@@ -215,6 +215,10 @@ blocks:
         own domain
       - **[Liquid email templates](/features/email-templates/)** - write the
         subject, HTML body and plain text body of your confirmation emails
+      - **[Check-ins counted per place](/features/qr-code-check-ins/)** - the
+        door can admit part of a booking while the rest stay open, and door
+        staff can get a [scanner login](/features/users/) that opens only
+        the check-in page
       - **[SMS messages](/features/sms-messages/)** - text attendees about
         their booking
       - **[Deposits and balance payments](/features/deposits-and-balance-payments/)** -

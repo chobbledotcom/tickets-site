@@ -305,8 +305,9 @@ blocks:
       - **[CSV export](/features/csv-export/)** of attendee lists with
         filtering
       - **[No per-user pricing](/features/users/)** - add as many
-        manager accounts (for door staff, volunteers, or co-organisers)
-        as you need without changing the bill
+        manager accounts as you need, plus
+        [scanner logins](/features/qr-code-check-ins/) that open only
+        the door's check-in page, without changing the bill
   - type: markdown
     content: |
       ## Data ownership
@@ -368,8 +369,8 @@ blocks:
         on the annual plan)
       - You want to send emails from your own domain with
         [your own email provider](/features/email-providers/)
-      - You want to add door staff, volunteers, or co-organisers as
-        manager accounts without paying per-user fees
+      - You want door staff on their own scanner logins, and
+        co-organisers as manager accounts, without paying per-user fees
   - type: markdown
     content: |
       ## About Cal.com

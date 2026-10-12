@@ -125,7 +125,8 @@ blocks:
       - **[Dedicated check-in app](https://support.wix.com/en/article/check-in-by-wix-an-overview)** -
         "Check-in by Wix" app with offline scanning, up to 100 staff per
         event, and ticket-type filtering (Chobble uses browser-based QR
-        scanning)
+        scanning, with its own
+        [scanner logins](/features/users/) for door staff)
       - **Event schedule builder** - create detailed multi-session schedules
         for conferences and festivals, with tags, filters, and a personal
         agenda feature for guests

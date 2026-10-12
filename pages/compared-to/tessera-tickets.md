@@ -151,8 +151,8 @@ blocks:
         order
       - **Box-office staff roles** - separate user roles for will-call,
         financial reporting, point-of-sale, and inventory management.
-        Chobble Tickets has [four roles](/features/users/) built around
-        running events rather than a box office
+        Chobble Tickets has [five roles](/features/users/), including a
+        scanner login that opens only the door's check-in page
       - **WordPress integration** - the public-facing website is a
         WordPress site with event cards, filtering, fuzzy text search, and
         a sidebar cart pane

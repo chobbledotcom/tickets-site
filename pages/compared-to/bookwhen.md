@@ -185,7 +185,8 @@ blocks:
         Bookwhen provides hosted booking pages and an embeddable schedule.
       - **[Event management through an API](/features/admin-api/):** an API
         lets other software connect to the platform. Chobble's admin API
-        can create, edit and delete events; Bookwhen's
+        can create, edit and delete events, and read a listing's
+        attendees; Bookwhen's
         [documented API](https://api.bookwhen.com/v2) reads public event data.
       - **[Same-product self-hosting](/features/open-source/):** run the
         complete product on your own infrastructure with no Chobble software

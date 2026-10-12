@@ -175,7 +175,8 @@ blocks:
       - **Branded organiser homepage** - a page showcasing all your events
         under your organiser profile
       - **Multiple check-in lists** - create separate lists for different
-        areas, gates, or purposes
+        areas, gates, or purposes (Chobble Tickets' scanner can cover a
+        whole [event group](/features/groups/), but it works online only)
       - **Offline check-in support** - continue scanning tickets when
         internet connectivity is lost
       - **Multi-language support** - serve the checkout in multiple
@@ -218,6 +219,10 @@ blocks:
         organise related events into collections for multi-event bookings
         with a single checkout, and use max attendees per group to create
         tiered ticket types (VIP, early bird, etc.) sharing a venue cap
+      - **[Scanner logins and per-ticket check-ins](/features/qr-code-check-ins/)** -
+        door staff get their own login that opens only the scanner, and
+        check-ins are counted per place, so a door can admit part of a
+        booking
       - **[Admin API](/features/admin-api/)** - authenticated API with
         API keys for full event CRUD and reading private data
       - **[Custom email providers](/features/email-providers/)** - use

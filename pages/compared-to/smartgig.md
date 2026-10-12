@@ -175,8 +175,9 @@ blocks:
         a checkout timer
       - **Native check-in apps** - SmartGig Scanner on the App Store and
         Google Play, with scanner codes that let gate staff work without an
-        organiser login (Chobble Tickets scans through the browser on a phone,
-        without a native app)
+        organiser login (Chobble Tickets scans through the browser on a phone
+        and gives gate staff their own
+        [scanner logins](/features/users/), but has no native app)
       - **Trader and stallholder management** - applications, pitch fees,
         compliance documents and trader check-in, as a £20/month module
       - **Site plans** - place pitches, zones and infrastructure on an event
