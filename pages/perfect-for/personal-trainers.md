@@ -99,6 +99,15 @@ blocks:
       covers subs and club sessions, and
       [personal stylists](/perfect-for/personal-stylists/) covers the same
       deposit and intake pattern for another service.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Cal.com](/compared-to/cal-com/), a
+      scheduling platform for paid appointments, or
+      [Resova](/compared-to/resova/), which takes timed session bookings.
+      Each comparison covers pricing, features and attendee data, and the
+      [full list](/compared-to/) names every platform checked so far.
   - type: cta
     button:
       text: Start for £5

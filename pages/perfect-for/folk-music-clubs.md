@@ -100,6 +100,16 @@ blocks:
       the acts themselves, and
       [pubs and taprooms](/perfect-for/pubs-and-taprooms/) covers clubs that
       meet in a back room.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering
+      [Ticket Tailor](/compared-to/ticket-tailor/), a UK ticketing
+      service, or [Eventbrite](/compared-to/eventbrite/), a marketplace
+      with its own audience. Each comparison covers pricing, features and
+      attendee data, and the [full list](/compared-to/) names every
+      platform checked so far.
   - type: cta
     button:
       text: Start for £5

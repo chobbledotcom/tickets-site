@@ -87,6 +87,16 @@ blocks:
       selling your own dates, and
       [theatre and performing arts](/perfect-for/theatre-and-performing-arts/)
       covers a run of performance dates.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [DICE](/compared-to/dice/), a gig
+      discovery app, [FIXR](/compared-to/fixr/), an events marketplace
+      with buyer fees, or [Fatsoma](/compared-to/fatsoma/), which sells
+      through promoter followings. Each comparison covers pricing,
+      features and attendee data, and the [full list](/compared-to/)
+      names every platform checked so far.
   - type: cta
     button:
       text: Get Started

@@ -150,6 +150,16 @@ blocks:
       [Workshops](/perfect-for/workshops/) covers one-off sessions, and
       [free events that still need a headcount](/perfect-for/free-events/)
       covers registration with no charge.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Eventbrite](/compared-to/eventbrite/), a
+      marketplace with its own audience, or
+      [Eventee](/compared-to/eventee/), a conference app with
+      registration. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Start for £5

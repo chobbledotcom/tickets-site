@@ -170,6 +170,15 @@ blocks:
       concert in more detail, and
       [workshops](/perfect-for/workshops/) covers the teaching many
       performers sell alongside shows.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Eventbrite](/compared-to/eventbrite/), a
+      marketplace with its own audience, or [DICE](/compared-to/dice/), a
+      gig discovery app. Each comparison covers pricing, features and
+      attendee data, and the [full list](/compared-to/) names every
+      platform checked so far.
   - type: cta
     button:
       text: Start for £5

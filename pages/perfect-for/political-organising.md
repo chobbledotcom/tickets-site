@@ -62,6 +62,17 @@ blocks:
       encrypted guest lists, and
       [free events that still need a headcount](/perfect-for/free-events/)
       covers meetings with no ticket price.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering
+      [SignUpGenius](/compared-to/signupgenius/), whose free sign-up
+      sheets carry advertising, or
+      [Google Forms](/compared-to/google-forms/), which is free but not
+      built for payments or encrypted records. Each comparison covers
+      pricing, features and attendee data, and the
+      [full list](/compared-to/) names every platform checked so far.
   - type: cta
     button:
       text: Get Started

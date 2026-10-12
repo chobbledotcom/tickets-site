@@ -107,6 +107,17 @@ blocks:
       makers teaching alongside their own shows, and
       [community centres and village halls](/perfect-for/community-centres/)
       covers the rooms workshops run in.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [ClassBento](/compared-to/classbento/), a
+      marketplace for creative classes, [Eventbrite](/compared-to/eventbrite/),
+      a marketplace with its own audience, or
+      [FooEvents](/compared-to/fooevents/), a WordPress and WooCommerce
+      plugin. Each comparison covers pricing, features and attendee data,
+      and the [full list](/compared-to/) names every platform checked so
+      far.
   - type: cta
     button:
       text: Get Started

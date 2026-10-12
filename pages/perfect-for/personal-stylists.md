@@ -99,6 +99,16 @@ blocks:
       covers group sessions, and
       [classes and courses](/perfect-for/classes-and-courses/) covers
       repeating session times.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Cal.com](/compared-to/cal-com/), a
+      scheduling platform for paid appointments, or
+      [Resova](/compared-to/resova/), which takes timed bookings for
+      services. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Start for £5

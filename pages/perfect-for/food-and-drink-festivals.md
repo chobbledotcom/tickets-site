@@ -86,6 +86,15 @@ blocks:
       takeovers and tasting nights in a single room.
       [Festivals](/perfect-for/festivals/) covers passes and camping, and
       [caterers](/perfect-for/caterers/) covers the traders' own bookings.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Eventbrite](/compared-to/eventbrite/), a
+      marketplace with its own audience, or [FIXR](/compared-to/fixr/),
+      an events marketplace with buyer fees. Each comparison covers
+      pricing, features and attendee data, and the
+      [full list](/compared-to/) names every platform checked so far.
   - type: cta
     button:
       text: Get Started

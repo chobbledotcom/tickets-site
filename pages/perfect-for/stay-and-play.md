@@ -98,6 +98,17 @@ blocks:
       term-length timetables, and
       [attractions and days out](/perfect-for/attractions-and-days-out/)
       covers dated admission to a larger site.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering
+      [SignUpGenius](/compared-to/signupgenius/), whose free sign-up
+      sheets carry advertising, or
+      [Eventbrite](/compared-to/eventbrite/), a marketplace with its own
+      audience. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Start for £5

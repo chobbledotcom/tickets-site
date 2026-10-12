@@ -101,6 +101,17 @@ blocks:
       collections with nothing to attend, and
       [charity events](/perfect-for/charity-events/) covers the reduced
       community price.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [PTA Events](/compared-to/pta-events/),
+      built for school associations,
+      [SignUpGenius](/compared-to/signupgenius/), whose sign-up sheets
+      carry advertising, or [Zeffy](/compared-to/zeffy/), a free platform
+      for nonprofit events. Each comparison covers pricing, features and
+      attendee data, and the [full list](/compared-to/) names every
+      platform checked so far.
   - type: cta
     button:
       text: Start for £5

@@ -161,6 +161,16 @@ blocks:
 
       [Church events](/perfect-for/church-events/) covers the concerts,
       fundraisers and regular groups run by a faith community.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Eventbrite](/compared-to/eventbrite/), a
+      marketplace with its own audience, or
+      [Ticket Tailor](/compared-to/ticket-tailor/), a UK ticketing
+      service. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Start for £5

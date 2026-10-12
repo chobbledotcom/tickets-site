@@ -85,6 +85,17 @@ blocks:
       a room with its own programme, and
       [comedy nights](/perfect-for/comedy-nights/) covers single nights
       rather than a run.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [TicketSource](/compared-to/ticketsource/),
+      a UK box office with seating plans,
+      [Tessera Tickets](/compared-to/tessera-tickets/), which handles
+      reserved seating, or [Ticketmaster](/compared-to/ticketmaster/),
+      the long-established major-events platform. Each comparison covers
+      pricing, features and attendee data, and the
+      [full list](/compared-to/) names every platform checked so far.
   - type: cta
     button:
       text: Get Started

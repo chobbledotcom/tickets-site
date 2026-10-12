@@ -161,6 +161,15 @@ blocks:
       clubs that meet in a back room, and
       [food and drink festivals](/perfect-for/food-and-drink-festivals/)
       covers beer festivals and tasting sessions at a larger scale.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [FIXR](/compared-to/fixr/), an events
+      marketplace with buyer fees, or [DICE](/compared-to/dice/), a gig
+      discovery app. Each comparison covers pricing, features and
+      attendee data, and the [full list](/compared-to/) names every
+      platform checked so far.
   - type: cta
     button:
       text: Start for £5

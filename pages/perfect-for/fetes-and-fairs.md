@@ -88,6 +88,17 @@ blocks:
       community price, and
       [free events that still need a headcount](/perfect-for/free-events/)
       covers free admission with a list.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [PTA Events](/compared-to/pta-events/),
+      built for school associations, [SignUpGenius](/compared-to/signupgenius/),
+      whose sign-up sheets carry advertising, or
+      [Eventbrite](/compared-to/eventbrite/), a marketplace with its own
+      audience. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Get Started

@@ -84,6 +84,17 @@ blocks:
       appeals, and
       [community centres and village halls](/perfect-for/community-centres/)
       covers the halls clubs hire.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering
+      [SignUpGenius](/compared-to/signupgenius/), whose free sign-up
+      sheets carry advertising, or
+      [Ticket Tailor](/compared-to/ticket-tailor/), a UK ticketing
+      service. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Get Started

@@ -81,6 +81,17 @@ blocks:
       [Music concerts](/perfect-for/music-concerts/) covers single dates,
       and [conventions and expos](/perfect-for/conventions-and-expos/)
       covers day tickets and trader pitches.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Eventbrite](/compared-to/eventbrite/), a
+      marketplace with its own audience, [Fatsoma](/compared-to/fatsoma/),
+      which sells through promoter followings, or
+      [Ticketmaster](/compared-to/ticketmaster/), the long-established
+      major-events platform. Each comparison covers pricing, features and
+      attendee data, and the [full list](/compared-to/) names every
+      platform checked so far.
   - type: cta
     button:
       text: Get Started

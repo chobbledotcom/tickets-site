@@ -86,6 +86,17 @@ blocks:
       [Guided tours](/perfect-for/guided-tours/) covers walking ghost tours,
       and [festivals](/perfect-for/festivals/) covers larger multi-day
       sites.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering
+      [DigiTickets](/compared-to/digitickets/), which quotes per-sale
+      pricing for attractions, or
+      [Eventbrite](/compared-to/eventbrite/), a marketplace with its own
+      audience. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Get Started

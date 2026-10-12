@@ -57,6 +57,17 @@ blocks:
       [Performers and artists](/perfect-for/performers-and-artists/) covers
       selling your own dates, and [festivals](/perfect-for/festivals/)
       covers passes and camping.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Ticketmaster](/compared-to/ticketmaster/),
+      the long-established major-events platform, [DICE](/compared-to/dice/),
+      a gig discovery app, or
+      [Resident Advisor](/compared-to/resident-advisor/), an electronic
+      music listing site. Each comparison covers pricing, features and
+      attendee data, and the [full list](/compared-to/) names every
+      platform checked so far.
   - type: cta
     button:
       text: Get Started

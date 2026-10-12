@@ -99,6 +99,15 @@ blocks:
       [Marquee hire](/perfect-for/marquee-hire/) covers temporary
       structures, and [equipment hire](/perfect-for/equipment-hire/) covers
       the kit hired with the room.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Resova](/compared-to/resova/), which
+      takes timed hire bookings, or [Cal.com](/compared-to/cal-com/), a
+      scheduling platform for paid appointments. Each comparison covers
+      pricing, features and attendee data, and the
+      [full list](/compared-to/) names every platform checked so far.
   - type: cta
     button:
       text: Start for £5

@@ -96,6 +96,17 @@ blocks:
       treasurer's money record, and
       [sports clubs](/perfect-for/sports-clubs/) covers subs and match
       tickets.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Zeffy](/compared-to/zeffy/), a free
+      platform funded by donor tips, [Humanitix](/compared-to/humanitix/),
+      a not-for-profit that passes profits to charity, or
+      [Eventbrite](/compared-to/eventbrite/), a marketplace with its own
+      audience. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Get Started

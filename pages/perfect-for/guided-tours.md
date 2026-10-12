@@ -89,6 +89,15 @@ blocks:
       entry for a short season, and
       [pubs and taprooms](/perfect-for/pubs-and-taprooms/) covers brewery
       tours run from the taproom.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Eventbrite](/compared-to/eventbrite/), a
+      marketplace with its own audience, or
+      [Resova](/compared-to/resova/), which takes timed tour bookings.
+      Each comparison covers pricing, features and attendee data, and the
+      [full list](/compared-to/) names every platform checked so far.
   - type: cta
     button:
       text: Get Started

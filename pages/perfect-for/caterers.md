@@ -101,6 +101,17 @@ blocks:
       bookings, and
       [food and drink festivals](/perfect-for/food-and-drink-festivals/)
       covers session tickets and tasting add-ons.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering
+      [SumUp Online Store](/compared-to/sumup-store/), an online store
+      that can also list bookable food slots, or
+      [Resova](/compared-to/resova/), which takes timed bookings for
+      services. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Start for £5

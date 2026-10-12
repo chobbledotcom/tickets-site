@@ -125,6 +125,16 @@ blocks:
       lists for a one-off gathering, and
       [venue and room hire](/perfect-for/venue-hire/) covers hiring the
       space itself.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Eventbrite](/compared-to/eventbrite/), a
+      marketplace with its own audience, or
+      [Cheddar Up](/compared-to/cheddar-up/), which collects group
+      payments and RSVP forms. Each comparison covers pricing, features
+      and attendee data, and the [full list](/compared-to/) names every
+      platform checked so far.
   - type: cta
     button:
       text: Get Started

@@ -92,6 +92,18 @@ blocks:
       group limit, and
       [soft play and stay-and-play](/perfect-for/stay-and-play/) covers
       repeating session times.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering
+      [DigiTickets](/compared-to/digitickets/), which quotes per-sale
+      pricing for attractions, [TicketSource](/compared-to/ticketsource/),
+      a UK ticketing service with event listings, or
+      [Eventbrite](/compared-to/eventbrite/), a marketplace with its own
+      audience. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Get Started

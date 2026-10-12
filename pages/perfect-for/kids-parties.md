@@ -67,6 +67,16 @@ blocks:
       regular session times, and
       [schools and PTAs](/perfect-for/schools-and-ptas/) covers school-run
       events.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Resova](/compared-to/resova/), which
+      takes party bookings in time slots, or
+      [SignUpGenius](/compared-to/signupgenius/), whose free sign-up
+      sheets carry advertising. Each comparison covers pricing, features
+      and attendee data, and the [full list](/compared-to/) names every
+      platform checked so far.
   - type: cta
     button:
       text: Get Started

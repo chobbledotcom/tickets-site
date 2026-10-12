@@ -92,6 +92,17 @@ blocks:
       stall pitches at a smaller scale, and
       [venue and room hire](/perfect-for/venue-hire/) covers hiring the hall
       itself.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Eventbrite](/compared-to/eventbrite/), a
+      marketplace with its own audience,
+      [TicketSource](/compared-to/ticketsource/), a UK ticketing service
+      with event listings, or [Pretix](/compared-to/pretix/), open source
+      software you can self-host. Each comparison covers pricing,
+      features and attendee data, and the [full list](/compared-to/)
+      names every platform checked so far.
   - type: cta
     button:
       text: Get Started

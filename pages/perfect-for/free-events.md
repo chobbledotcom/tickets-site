@@ -163,6 +163,17 @@ blocks:
       fundraising events for the same organisations, and
       [political organising](/perfect-for/political-organising/) covers
       meetings that need the same encrypted records.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Eventbrite](/compared-to/eventbrite/), a
+      marketplace with its own audience,
+      [SignUpGenius](/compared-to/signupgenius/), whose sign-up sheets
+      carry advertising, or [Google Forms](/compared-to/google-forms/),
+      which is free but not built for capacity or payments. Each
+      comparison covers pricing, features and attendee data, and the
+      [full list](/compared-to/) names every platform checked so far.
   - type: cta
     button:
       text: Start for £5

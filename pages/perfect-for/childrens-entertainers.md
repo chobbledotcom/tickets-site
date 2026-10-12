@@ -99,6 +99,16 @@ blocks:
       [Soft play and stay-and-play](/perfect-for/stay-and-play/) covers
       repeating session times, and [workshops](/perfect-for/workshops/)
       covers craft sessions with their own capacity.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Resova](/compared-to/resova/), which
+      takes party bookings in time slots, or
+      [Eventbrite](/compared-to/eventbrite/), a marketplace with its own
+      audience. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Start for £5

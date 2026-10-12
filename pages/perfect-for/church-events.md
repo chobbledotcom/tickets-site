@@ -124,6 +124,16 @@ blocks:
       covers the hire of rooms to other groups, and
       [music concerts](/perfect-for/music-concerts/) covers running a
       programme of performances.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Zeffy](/compared-to/zeffy/), a free
+      platform for nonprofit events, or
+      [SignUpGenius](/compared-to/signupgenius/), whose sign-up sheets
+      carry advertising. Each comparison covers pricing, features and
+      attendee data, and the [full list](/compared-to/) names every
+      platform checked so far.
   - type: cta
     button:
       text: Start for £5

@@ -96,6 +96,17 @@ blocks:
       covers one-to-one bookings, and
       [performers and artists](/perfect-for/performers-and-artists/) covers
       teaching alongside gigs and shows.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [ClassBento](/compared-to/classbento/), a
+      marketplace for creative classes, [Bookwhen](/compared-to/bookwhen/),
+      which books recurring sessions and class passes, or
+      [Cal.com](/compared-to/cal-com/), a scheduling platform for paid
+      appointments. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Get Started

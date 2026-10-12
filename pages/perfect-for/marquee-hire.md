@@ -89,6 +89,15 @@ blocks:
       covers the catering side of the same events, and
       [venue and room hire](/perfect-for/venue-hire/) covers fixed rooms
       rather than structures.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [Yo!Rent](/compared-to/yo-rent/), rental
+      booking software, or [Resova](/compared-to/resova/), which takes
+      timed hire bookings. Each comparison covers pricing, features and
+      attendee data, and the [full list](/compared-to/) names every
+      platform checked so far.
   - type: cta
     button:
       text: Get Started

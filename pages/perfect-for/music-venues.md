@@ -157,6 +157,17 @@ blocks:
       covers the acts selling their own dates, and
       [theatre and performing arts](/perfect-for/theatre-and-performing-arts/)
       covers a run of performance dates.
+  - type: markdown
+    content: |
+      ## Other options you might be considering
+
+      You might be considering [DICE](/compared-to/dice/), a gig
+      discovery app, [Fatsoma](/compared-to/fatsoma/), which sells
+      through promoter followings, or
+      [Ticket Tailor](/compared-to/ticket-tailor/), a UK ticketing
+      service. Each comparison covers pricing, features and attendee
+      data, and the [full list](/compared-to/) names every platform
+      checked so far.
   - type: cta
     button:
       text: Start for £5
