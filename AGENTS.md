@@ -23,6 +23,8 @@ bun run build        # Build the site
 bun run test         # Run tests
 bun run lint         # Check code with Biome
 bun run lint:fix     # Auto-fix lint issues
+bun run cpd          # Copy-paste detection at the .jscpd.json threshold
+bun run cpd:ratchet  # Fails if the min-tokens threshold could be lowered; pay down a clone, lower minTokens in .jscpd.json
 ```
 
 Content lives in `pages/` and `guide-pages/`, site configuration in `_data/`,

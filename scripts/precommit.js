@@ -14,7 +14,18 @@ const verbose = process.argv.includes("--verbose");
 
 const buildStep = { name: "build", cmd: "bun", args: ["run", "build"] };
 
-const steps = [COMMON_STEPS.lintFix, COMMON_STEPS.cpd, buildStep];
+const cpdRatchetStep = {
+  name: "cpd:ratchet",
+  cmd: "bun",
+  args: ["run", "cpd:ratchet"],
+};
+
+const steps = [
+  COMMON_STEPS.lintFix,
+  COMMON_STEPS.cpd,
+  cpdRatchetStep,
+  buildStep,
+];
 
 console.log(
   verbose

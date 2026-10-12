@@ -8,11 +8,21 @@
     "**/.build/**",
     "**/packages/**"
   ],
-  "format": ["javascript"],
+  "format": ["javascript", "markup", "css"],
   "absolute": false,
   "gitignore": true,
   "exitCode": 1,
-  "minLines": 1,
-  "minTokens": 40,
-  "path": ["scripts"]
+  "minLines": 3,
+  "minTokens": 476,
+  "path": [
+    "scripts",
+    "_lib",
+    "_data",
+    "css",
+    "test",
+    "_includes",
+    "_layouts",
+    "pages",
+    "guide-pages"
+  ]
 }
