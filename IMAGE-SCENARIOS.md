@@ -15,10 +15,10 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 184 | 77 | 107 |
-| **All English content pages** | **186** | **77** | **109** |
+| Editorial pages in the sitemap | 184 | 78 | 106 |
+| **All English content pages** | **186** | **78** | **108** |
 
-The 107 image-less editorial pages are the main illustration backlog. The two utility
+The 106 image-less editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -50,7 +50,7 @@ pages are listed separately at the end.
 | `pages/faq.md` | Diagram: `organiser-faq-checklist` | Oakfield Community Events has four pre-sign-up questions: annual cost, where ticket income goes, who can see attendee data and how event setup can be moved. Show the factual answer to each. | Gives visual anchors for the main buying questions rather than illustrating one arbitrary FAQ. |
 | `pages/reviews.md` | Product composite: `reviewed-booking-journey` | A clearly labelled example follows Alex Morgan through an £18 Riverside Summer Concert payment confirmation, QR ticket and successful door check-in. Place relevant existing review excerpts beside the three states without attributing the fictional event to a reviewer. | Connects comments about checkout and queues to concrete product behaviour. |
 | `pages/credits.md` | Diagram: `upstream-work-stack` | Chobble Tickets sits on named upstream layers of libraries, tools and standards written by many hands, with the four credited organisers shown as named inputs rather than portraits. | Shows that the short list of named contributors stands on a much larger body of work. |
-| `pages/examples.md` | Screenshots: `examples-site-cards` | Five cards, one per example site. Each card shows that site's own home page at its live address, named for the kind of business it demonstrates. | Lets organisers point at finished sites running on Chobble Tickets rather than imagining one. |
+| `pages/examples.md` | [x] Site screenshots: `examples-site-cards` | Five screenshots of the example sites' own home pages, one per figure or card, named for the business each one demonstrates. | Lets organisers point at finished sites running on Chobble Tickets rather than imagining one. |
 
 ## Feature Pages: Selling And Payments
 
