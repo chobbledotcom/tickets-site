@@ -2,7 +2,7 @@
 name: Ethical Ticket Sales Options
 subtitle: Ticketing providers with charitable, co-operative, certified or purpose-locked structures
 meta_title: Ethical Ticket Sales Options | Chobble Tickets
-meta_description: Compare ticketing providers with charitable, co-operative, B Corp, community-interest or open source structures, including their fees and use of attendee data.
+meta_description: Compare ticketing providers with charitable, co-operative, B Corp, community-interest or open source structures, with their fees and data use.
 guide-category: choosing-a-ticket-platform
 order: 1
 blocks:

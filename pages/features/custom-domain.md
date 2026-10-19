@@ -1,7 +1,7 @@
 ---
 title: Custom Domain - Chobble Tickets
-meta_title: Custom Domain - Chobble Tickets
-meta_description: Managed and Bunny-hosted sites can use a host subdomain and validated custom domains. Other self-hosted deployments can configure domains at the host.
+meta_title: Custom Domain for Your Ticket Site - Chobble Tickets
+meta_description: Sell tickets from your own domain, such as tickets.example.co.uk. Hosted sites also get a free tix.chobble.net address, and both keep working together.
 permalink: /features/custom-domain/
 eleventyNavigation:
   key: Custom Domain
@@ -13,52 +13,68 @@ blocks:
     content: |-
       # Custom domain
 
-      Managed and Bunny-hosted sites can use a host-provided subdomain and validated custom domains. Other self-hosted deployments configure domains through their host.
+      A Chobble Tickets site can sell tickets from a domain name you own, such as tickets.example.co.uk. Chobble does not charge extra for it, and a hosted site also has a free tix.chobble.net address that keeps working alongside it.
   - type: markdown
     content: |
-      ## A nice URL from day one
+      ## Sites running on their own domains
 
-      When you sign up for managed hosting, you can choose a
-      host-provided subdomain like **yourname.tix.chobble.net** straight
-      away, with no DNS changes needed. It's a permanent, readable URL that
-      replaces the default Bunny CDN address, so you can start sharing
-      your ticketing site immediately.
+      [Tom Butterworth Gardening and Education](https://www.tbgardening.co.uk)
+      sells places on gardening workshops from tbgardening.co.uk, and
+      [Chalkie's School for Dogs](https://www.chalkiesdogs.co.uk) sells dog
+      training classes from chalkiesdogs.co.uk. [Crumpsall Folk
+      Club](https://tickets.crumpsallfolkclub.co.uk) keeps its main website
+      at crumpsallfolkclub.co.uk and sells club night tickets from the
+      subdomain tickets.crumpsallfolkclub.co.uk. Chobble hosts all three
+      ticket sites.
 
-      On a Bunny-hosted deployment, you can add your own custom domain (like
-      **tickets.yourbusiness.com**) by pointing a CNAME record at your
-      installation. Both addresses work at the same time, along with the
-      original Bunny script URL, so if anything goes wrong with your
-      custom domain your site stays accessible.
+      ## Start with a free address
 
-      ## Three URLs, all active at once
+      A hosted site can register a free address ending in `.tix.chobble.net`
+      from its advanced settings. You choose the first part, using lowercase
+      letters, numbers and hyphens, and it works straight away with no DNS
+      changes. Once registered, the name cannot be changed, so choose it with
+      care.
 
-      - **Host-provided subdomain** - choose a name and get
-        yourname.tix.chobble.net instantly, no configuration required
-      - **Your own custom domain** - point a CNAME record at your
-        installation whenever you're ready to upgrade
-      - **Bunny script URL** - the underlying edge script address always
-        works as a fallback
+      ## Adding your own domain
 
-      All three can resolve to the same Bunny-hosted installation. Docker and
-      other self-hosted deployments can use a domain configured through their
-      hosting provider or reverse proxy instead.
+      You need a domain name bought from a domain seller, which is a separate
+      cost from Chobble's price.
 
-      ## Built-in public website
+      1. Type your domain name into the custom domain section of the advanced
+         settings and save it.
+      2. The page shows a CNAME record, a one-line DNS setting that sends
+         visitors from your domain to your ticket site. Add it at the company
+         that manages your domain's DNS, which is usually the seller.
+      3. Come back and press "Validate custom domain".
 
-      Chobble Tickets comes with a public-facing website out of the box. It
-      lists your events, handles bookings, and displays ticket information -
-      all under your domain, with event descriptions supporting Markdown
-      formatting and header images.
+      Validation checks that the domain points at your site, then sets up a
+      free security certificate so the address uses HTTPS. It usually takes a
+      few minutes, and a newly bought domain can take up to a day.
 
-      You can configure terms and conditions that attendees must agree to
-      before booking, set configurable contact fields (email, phone, postal
-      address), and add a custom thank-you URL or use the default
-      confirmation page.
+      ## Which address appears on tickets
 
-      The site also publishes ICS calendar and RSS feeds, so attendees can
-      subscribe to your events in their calendar app or feed reader, and you
-      can customise the homepage and contact page content directly from the
-      admin panel.
+      Ticket links, QR codes and emails use one address. Chobble Tickets uses
+      your custom domain once it has passed validation, then your
+      tix.chobble.net address if you have one. Until validation passes,
+      nothing breaks, because links keep using the address that already
+      works.
+
+      Visitors can reach the site through either address at any time. The
+      site includes a public homepage, event listings, news and a contact
+      page, described on the [public website page](/features/your-public-website/).
+
+      ## Self-hosted sites
+
+      A self-hosted copy of Chobble Tickets on Bunny uses the same custom
+      domain settings. Docker and other self-hosted deployments set their
+      domain at the hosting provider or web server instead. The [guide to
+      hosting your own ticket site](/guide/choosing-a-ticket-platform/host-your-own-ticket-site/)
+      compares how other ticketing providers handle domains.
+
+      ## Limits
+
+      Chobble Tickets does not sell domain names or manage DNS, so the
+      domain's own settings stay with the company you bought it from.
   - type: cta
     button:
       text: Get Started
@@ -66,8 +82,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Get a nice URL today
+      ## Get started
 
-      Choose your host-provided subdomain and start selling tickets under your own brand.
+      Managed hosting costs £50 a year or £5 a month, with custom domains and every other feature included.
 name: Custom Domain - Chobble Tickets
 ---

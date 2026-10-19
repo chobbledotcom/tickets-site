@@ -13,14 +13,14 @@ blocks:
     content: |-
       # Ticketing for political organising
 
-      Attendee personal data is encrypted at rest, and organisations can run the platform on infrastructure they select.
+      Chobble Tickets takes sign-ups and ticket sales for meetings, trainings and campaign events, and encrypts every attendee's name and contact details before saving them. A copy of the database on its own does not reveal who signed up, and a group can run the software on its own servers.
   - type: split-icon-links
     content: |
       ## Privacy by design
 
       Chobble Tickets encrypts all personally identifiable information at rest
-      using
-      [hybrid RSA-OAEP + AES-256-GCM encryption](https://chobbledotcom.github.io/tickets/docs/crypto.ts).
+      using standard published methods, [RSA-OAEP and
+      AES-256-GCM](https://chobbledotcom.github.io/tickets/docs/crypto.ts).
 
       Some ticketing platforms use attendee records for event marketing.
       Chobble Tickets does not. Its complete product source is published under
@@ -39,6 +39,34 @@ blocks:
         text: Product source published under AGPL-3.0-only.
       - icon: hugeicons:cloud-server
         text: Deploy on your own servers.
+  - type: markdown
+    content: |
+      ## Who can read a sign-up list
+
+      Names, emails, phone numbers, addresses and free-text answers can only
+      be read by someone signed in to a keyed admin account. The keys are
+      unlocked at login and forgotten when the session ends. [Editor
+      accounts](/features/editors/), for volunteers who write event pages,
+      cannot see attendees at all.
+
+      ## Example
+
+      A tenants' union runs a free monthly branch meeting with 60 places. Its
+      listing asks for a name and email and one question, "Which building do
+      you live in?". Organisers see the answers in the admin area and the
+      [CSV download](/features/csv-export/), and no payment provider is
+      involved because the meeting is free.
+
+      ## Limits
+
+      Encryption protects stored records, not every party a booking passes
+      through. A paid booking sends the buyer's payment details to the
+      payment provider, and confirmation emails pass the attendee's address
+      to the email provider. Dates, quantities and the choice picked in a
+      multiple-choice question are stored as plain values, so a choice can
+      reveal something to anyone who also knows the form. The [encryption
+      page](/features/encrypted/) sets out each layer.
+
   - type: features
     dark: true
     intro_content: "## Features for political organisers"

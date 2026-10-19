@@ -86,7 +86,7 @@
       "galleryCaption": "A listing's own record, with a door check-in written into it.",
       "legacyDestinationPath": "images/screenshots/activity-log-summer-arts-fair.png",
       "page": "pages/features/activity-logs.md",
-      "reviewed": "c618c3ee995806601def850c9913f65f8d9b38aabbb8cb1a950aabaf391de460",
+      "reviewed": "f78f8c46d004f687ece371674def6f93d8fbdc06e8b677b53128b290f2bea3bd",
       "socialBody": "Each listing keeps its own record of what happened to it, including who was checked in at the door and when.",
       "socialHeading": "Each listing keeps its own record",
       "socialKey": "activity-log"
@@ -307,7 +307,7 @@
       "galleryCaption": "An organiser's own pages, in the order they chose.",
       "legacyDestinationPath": "images/screenshots/oakfield-homepage-editor.png",
       "page": "pages/features/customising-your-site.md",
-      "reviewed": "9b96719d8cb5034a896143dc672d2c8e0a11e8bf3ec1ba0c0d54f7ede44ff0ff",
+      "reviewed": "bd30752f78a3963a74c080db63d61ad65af48675087d32305ad563eee06edcb5",
       "socialBody": "Write your own pages, choose the address each one lives at, and put them in the order you want them offered in.",
       "socialHeading": "Arrange the pages you write",
       "socialKey": "site-customisation"

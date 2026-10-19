@@ -34,6 +34,21 @@ blocks:
       platform matches a filter only when its review records the attribute,
       so a platform whose review does not mention a fact is treated as not
       having it.
+  - type: markdown
+    content: |
+      ## Who wrote the reviews
+
+      Chobble, the community interest company that runs Chobble Tickets,
+      reviewed all 52 platforms from their own published pricing pages,
+      documentation and terms. The reviews were last checked between 25 July
+      and 12 October 2026, and each comparison page gives its own date.
+
+      Where a platform's pages did not settle a question, its record says
+      "not documented" or "not reviewed" rather than guessing, and that
+      platform drops out of the matching filter. Chobble Tickets has a record
+      in the same shape, so it is filtered by the same rules as everyone
+      else.
+
   - type: include
     file: provider-directory.html
   - type: markdown

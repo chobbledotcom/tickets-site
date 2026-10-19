@@ -2,7 +2,7 @@
 name: Where Ticketing Money Goes
 subtitle: What the reviewed providers charge, who pays it, and what their pledges and structures cover
 meta_title: Where Ticketing Money Goes | Chobble Tickets
-meta_description: Compare how reviewed ticketing providers are funded, what their charity pledges apply to, and what their company structures restrict, with published fees for each.
+meta_description: How reviewed ticketing providers are funded, what their charity pledges apply to and what their company structures restrict, with published fees.
 guide-category: choosing-a-ticket-platform
 order: 5
 blocks:

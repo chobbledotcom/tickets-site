@@ -1,7 +1,7 @@
 ---
 title: Deploying an Event Ticketing Site - Chobble Tickets
 meta_title: Deploying an Event Ticketing Site | Chobble Tickets
-meta_description: Set up a site that sells tickets for your events, from a payment and a setup link, or deploy the same product yourself in five documented steps. The database migrates itself on the first request.
+meta_description: Set up a hosted ticket site from a payment and a setup link, or deploy the same product yourself in five documented steps.
 permalink: /features/deployment/
 eleventyNavigation:
   key: Deployment
@@ -24,6 +24,11 @@ blocks:
 
       Each site has its own database, its own encryption key and its own
       hosted address. Chobble deploys the software and its updates.
+
+      After setup, the dashboard of a new site shows a welcome message with
+      three first steps, each linking to its page: add a listing, make a
+      test booking to check the money and emails arrive, and give the site a
+      nicer address. The message stays until the owner presses "Got it".
 
       There is no separate onboarding stage in which features are switched on.
       Every current feature is present when the site opens, and the settings
@@ -57,12 +62,14 @@ blocks:
       Docker deployments follow the same pattern against local SQLite or a
       remote libSQL database.
 
-      New Bunny databases can run on every region Bunny offers. A site can
-      also use [Turso](https://turso.tech), a libSQL database service, which
-      has its own region choice. That matters to organisers with
-      data-residency requirements, and it leaves the database decision open to
-      whoever operates the site. On a managed site, moving off a Bunny
-      database to Turso is one menu choice.
+      The README's steps use a Bunny database. A site can also use
+      [Turso](https://turso.tech), a libSQL database service with its own
+      region choice, which matters to organisers with data-residency
+      requirements. Chobble's managed hosting keeps every site's database on
+      Turso, because Bunny's database product is still in beta and has been
+      less reliable than Turso. A host moves an existing site from a Bunny
+      database to Turso by choosing it from a command-line menu, which
+      copies the data and points the site at the new database.
 
       ## Other places it runs
 

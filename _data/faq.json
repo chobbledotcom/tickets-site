@@ -72,12 +72,12 @@
 	{
 		"section": "Data privacy and security",
 		"question": "Is Chobble Tickets hosted in the EU?",
-		"answer": "Not exclusively. Chobble managed hosting uses <a href=\"https://bunny.net\">Bunny.net</a>, a company headquartered in Slovenia, but its databases use all primary and replica regions returned by Bunny's configuration API, including regions outside the EU. The storage region is set to eu-west-1. Optional providers may also process data elsewhere. A <a href=\"/hosting/\">self-hosted</a> operator can choose another database arrangement. Read the provider breakdown on the <a href=\"/features/european/\">hosting locations and data page</a>."
+		"answer": "The ticketing databases and their backups are held only in Europe. Chobble managed hosting runs on <a href=\"https://bunny.net\">Bunny.net</a>, a company headquartered in Slovenia, and each site's database is kept in the Ireland region of <a href=\"https://turso.tech\">Turso</a>, a US company. Backups are stored with Hetzner in Germany and Scaleway in France. Optional providers may also process data elsewhere. A <a href=\"/hosting/\">self-hosted</a> operator can choose another database arrangement. Read the provider breakdown on the <a href=\"/features/european/\">hosting locations and data page</a>."
 	},
 	{
 		"section": "Data privacy and security",
 		"question": "Is Chobble affected by the US CLOUD Act?",
-		"answer": "Chobble CIC is a UK company and Bunny is headquartered in Slovenia. Bunny database replicas and optional payment, email and integration providers operate in several jurisdictions. Organisers with specific legal requirements should review each provider before enabling it. The <a href=\"/features/european/\">hosting locations and data page</a> lists the main providers and regions."
+		"answer": "Chobble CIC is a UK company and Bunny is headquartered in Slovenia. The managed databases sit in Turso's Ireland region, but Turso's operator ChiselStrike Inc. is a US company and subject to US law, including the CLOUD Act. Optional payment, email and integration providers also operate in several jurisdictions. Organisers with specific legal requirements should review each provider before enabling it. The <a href=\"/features/european/\">hosting locations and data page</a> lists the main providers and regions."
 	},
 	{
 		"section": "Open source and self-hosting",
@@ -177,7 +177,7 @@
 	{
 		"section": "About Chobble",
 		"question": "Where is Chobble Tickets based?",
-		"answer": "Chobble CIC is registered in England with its office at 27 The Crescent, Prestwich, Manchester M25 1FL. The platform itself runs on <a href=\"https://bunny.net\">Bunny.net</a> infrastructure in the EU. Read more about hosting locations on the <a href=\"/features/european/\">European</a> page, and more about the company on the <a href=\"/about/\">about page</a>."
+		"answer": "Chobble CIC is registered in England with its office at 27 The Crescent, Prestwich, Manchester M25 1FL. The platform runs on <a href=\"https://bunny.net\">Bunny.net</a>, headquartered in Slovenia, with databases in the Ireland region of Turso, a US company. Read more about hosting locations on the <a href=\"/features/european/\">European</a> page, and more about the company on the <a href=\"/about/\">about page</a>."
 	},
 	{
 		"section": "Features and customisation",

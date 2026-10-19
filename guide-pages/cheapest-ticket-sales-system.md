@@ -2,7 +2,7 @@
 name: The Cheapest Ticket Sales System
 subtitle: What each reviewed provider charges on a year of 1,000 tickets at £20, and which options cost less below that volume
 meta_title: The Cheapest Ticket Sales System | Chobble Tickets
-meta_description: What each reviewed ticketing provider charges on a year of 1,000 tickets at £20, with the break-even volumes where a flat annual fee starts to cost less than a per-ticket fee.
+meta_description: What each reviewed ticketing provider charges for 1,000 tickets at £20, and the volume where a flat annual fee costs less than a per-ticket fee.
 guide-category: choosing-a-ticket-platform
 order: 4.5
 blocks:

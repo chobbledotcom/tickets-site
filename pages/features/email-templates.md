@@ -1,7 +1,7 @@
 ---
 title: Email Templates - Chobble Tickets
 meta_title: Email Templates - Chobble Tickets
-meta_description: Customise confirmation emails with Liquid syntax, including built-in currency and pluralise filters.
+meta_description: Rewrite the confirmation and notification emails Chobble Tickets sends, with placeholders for attendee details, tickets, amounts and question answers.
 permalink: /features/email-templates/
 eleventyNavigation:
   key: Email Templates
@@ -13,44 +13,64 @@ blocks:
     content: |-
       # Email templates
 
-      Customise confirmation emails with Liquid syntax, including built-in currency and pluralise filters.
+      You can rewrite the confirmation email each attendee receives and the notification email you receive after a booking. Each email has a subject line, an HTML version and a plain text version, and booking details go in through placeholders such as `{% raw %}{{ attendee.name }}{% endraw %}`.
   - type: split-image
     content: |
-      ## Full control over emails
+      ## Where to edit them
 
-      Customise the subject line, HTML body, and plain text body of your
-      confirmation emails using Liquid template syntax. You can include
-      attendee details, event information, ticket URLs, and QR codes
-      exactly where you want them.
+      The templates sit in the advanced settings of your site. Each form lists
+      the placeholders it accepts underneath. Clearing a field puts back the
+      built-in wording.
     figure_src: /images/screenshots/confirmation-email-template-editor.png
     figure_alt: Confirmation email template editor with a workshop booking subject and HTML and plain text messages using attendee and ticket variables
     figure_caption: Edit the subject, HTML message and plain text message from one settings form.
   - type: markdown
     content: |
-      ## Answers shown in the email
+      ## What you can put in an email
 
-      The confirmation email shows the answers the buyer gave to your
-      custom questions. Door crews, caterers and volunteers can see
-      dietary or access needs straight from the email, without needing
-      an admin login.
+      Placeholders cover the attendee's name, email, phone, address and
+      special instructions, the listing names, the ticket link, the amount
+      paid and any amount still owed. A loop prints one line for each listing
+      in the order, and an inner loop prints the buyer's answers to your
+      [booking questions](/features/custom-questions/). Door staff, caterers
+      and volunteers forwarded the email can read dietary or access needs
+      without an admin login.
 
-      ## Built-in template filters
+      The templates use Liquid, a template language created by Shopify.
+      Chobble Tickets adds two filters: `currency` shows a number as money,
+      and `pluralize` picks "ticket" or "tickets" to match a number.
 
-      The template engine includes useful filters like `currency` for
-      formatting amounts (so `1000` becomes `£10.00`) and `pluralize` for
-      natural language (so `1 ticket` and `3 tickets` are both correct
-      automatically).
+      ## Example
 
-      ## Works with your email provider
+      These lines in a confirmation template:
 
-      Templates work with whichever
-      [email provider](/features/email-providers/) you have configured
-      (Resend, Postmark, SendGrid, or Mailgun). The
-      template is rendered before sending, so the provider just delivers
-      the final HTML.
+      {% raw %}
+      ```liquid
+      {% for entry in entries %}
+      {{ entry.listing.name }}: {{ entry.attendee.quantity }} {{ entry.attendee.quantity | pluralize: "ticket", "tickets" }}, {{ entry.attendee.price_paid | currency }}
+      {% endfor %}
+      ```
+      {% endraw %}
 
-      See the [email documentation](https://chobbledotcom.github.io/tickets/docs/email.ts)
-      for template variables and filter details.
+      prints "Pottery taster: 2 tickets, £30.00" for a buyer who booked two
+      places at £15 each. The same template prints "1 ticket" for a single
+      place.
+
+      ## What the attendee also gets
+
+      Every confirmation email carries a picture of the ticket with its QR
+      code, one per listing, outside the template. Listings set to no
+      check-in leave the QR code out. Your business email address is the
+      reply-to address, so replies come to you.
+
+      ## Limits
+
+      Templates cannot show the payment reference, the payment provider or
+      the time of payment. If a custom template has an error, Chobble Tickets
+      sends the built-in wording instead, so the attendee still gets a
+      confirmation. Emails go out through the [email
+      provider](/features/email-providers/) you or your host have set up, and
+      a site with no email provider sends no emails at all.
   - type: cta
     button:
       text: Get Started
@@ -58,8 +78,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Branded emails
+      ## Get started
 
-      Customise your confirmation emails to match your brand.
+      Email templates come with every hosted site, at £50 a year or £5 a month.
 name: Email Templates - Chobble Tickets
 ---

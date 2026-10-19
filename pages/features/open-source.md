@@ -65,9 +65,10 @@ blocks:
       for implementation details.
 
       The recommended Bunny deployment compiles the application to a single
-      JavaScript file for a Bunny Edge Script and uses a Bunny database. Docker
-      deployments can use local SQLite or a remote libSQL database, including
-      [Turso](https://turso.tech), a libSQL service with its own region choice.
+      JavaScript file for a Bunny Edge Script, with its database on
+      [Turso](https://turso.tech) or Bunny. Chobble's managed hosting keeps
+      every site's database on Turso. Docker deployments can use local SQLite
+      or a remote libSQL database such as Turso.
       The [hosting page](/hosting/) describes the managed and self-hosted options.
 
       The comparison pages cover other open source ticketing systems, including

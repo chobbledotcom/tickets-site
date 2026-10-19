@@ -35,6 +35,23 @@ blocks:
         label: Or require full payment
       - value: Plan both legs
         label: Setup and teardown records
+  - type: markdown
+    content: |
+      ## Example booking
+
+      An entertainer sells a one-hour party package at £150 and offers a
+      clown, a magician and a dinosaur mascot as the choices. A parent books
+      the package, picks the magician, and gives the child's age, the venue
+      address and a note about parking. With a £50 flat deposit, the parent
+      pays £50 at checkout and the remaining £100 through a balance link
+      before the day.
+
+      If each performer is a [daily listing](/features/daily-events/) with
+      one place a day, a second party cannot book the magician for that date,
+      while the clown stays available. The organiser keeps the whole £150 apart from
+      the payment provider's fee, because Chobble's managed hosting is a flat
+      £50 a year.
+
   - type: split-image
     content: |
       ## Link a party package to its entertainer choices

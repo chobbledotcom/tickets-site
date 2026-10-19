@@ -125,9 +125,10 @@ blocks:
 
       Chobble is a UK company, but its managed hosting is not entirely UK
       based. [Bunny.net](https://bunny.net), the hosting and CDN provider, is
-      headquartered in Ljubljana, Slovenia. The managed database uses Bunny's
-      available primary and replica regions, so records may be replicated
-      outside the UK and EU. The configured storage region is `eu-west-1`.
+      headquartered in Ljubljana, Slovenia. The databases behind managed
+      sites sit in the Ireland region of [Turso](https://turso.tech), so
+      the databases, and the backups taken of them, stay in Europe. Turso's
+      operator, ChiselStrike Inc., is based in the United States.
 
       Attendee personal data is [encrypted at rest](/features/encrypted/), so
       the stored records do not contain readable names or contact details

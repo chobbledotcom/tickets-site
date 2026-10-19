@@ -1,7 +1,7 @@
 ---
 title: Servicing Events - Chobble Tickets
 meta_title: Block Capacity for Maintenance - Chobble Tickets
-meta_description: Block out event capacity for servicing, maintenance, deep cleans, or staff holds without creating a customer booking. Capacity is consumed and customers see nothing.
+meta_description: Block out capacity for servicing, maintenance, deep cleans or staff holds without creating a customer booking. Customers see nothing.
 permalink: /features/servicing-events/
 ticket_evidence_capture: servicing-studio-floor-hold
 eleventyNavigation:
@@ -29,28 +29,26 @@ blocks:
     content: |
       ## Capacity holds for anything that is not a customer
 
-      Equipment goes out for repair. A venue needs a deep clean. A boiler is
-      serviced. Staff need a hold on a date for an internal event.
+      Equipment goes out for repair, a venue needs a deep clean or staff need
+      a date held for an internal event. A servicing event takes up places in
+      the same way as a booking, but it has no QR code, ticket email, contact
+      record or payment, and customers never see it. Without one, the only
+      way to block the places is a fake customer booking, which clutters the
+      attendee list and sends a confirmation email.
 
-      Without a way to reserve capacity, an organiser either creates a
-      customer booking (which clutters the attendee list and triggers
-      confirmations) or leaves the capacity open and hopes no one books it.
+      ## Example
 
-      Servicing events solve this. A servicing event consumes capacity the
-      same way as a real booking, but it is not a customer. There is no QR
-      code, no ticket email, no contact record, and no payment. Customers
-      never see it.
+      A ceramics studio sells 10 places a day and needs to treat its floor
+      over two days. It creates a servicing event called "Floor treatment"
+      holding all 10 places on both days, so the booking page shows those
+      dates as full. It records the £180 contractor's bill as a cost against
+      the studio listing, and the [ledger](/features/ledger/) shows that
+      listing's profit with the cost taken off.
 
-      ## How it works
-
-      A servicing event is created from the admin panel. You give it a
-      name, a start date, a number of days, and how many units of each event
-      it holds. The capacity is taken from the same pool as real bookings,
-      so availability updates immediately.
-
-      Because servicing events use the same capacity engine, there is nothing
-      new to learn. If an event has 10 spaces and you create a servicing
-      event holding 3, customers see 7 available.
+      A servicing event is created from the admin panel with a name, a start
+      date, a number of days and how many places of each listing it holds.
+      If a listing has 10 places and a servicing event holds 3, customers can
+      book 7.
 
       ## Where servicing events appear
 
@@ -74,6 +72,12 @@ blocks:
       Costs are recorded with an amount, a memo, and the listing they relate
       to. Editing a cost later adds an adjustment leg rather than rewriting
       history, so the ledger stays auditable.
+
+      ## Limits
+
+      A servicing event does not move or cancel customers who have already
+      booked the dates it covers, so check the calendar before holding a busy
+      day. Deleting the servicing event frees its places again.
   - type: cta
     button:
       text: Get Started
@@ -81,8 +85,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Capacity holds for operations
+      ## Get started
 
-      Hold dates for maintenance without adding customer bookings.
+      Servicing holds come with every hosted site, at £50 a year or £5 a month.
 name: Block Capacity for Maintenance - Chobble Tickets
 ---

@@ -265,8 +265,8 @@ blocks:
 
       **Chobble Tickets** is built on Deno and compiles to a single
       JavaScript file that runs as an edge script on Bunny.net, with no
-      traditional server required. It uses a Bunny.net edge database, so
-      there's no server to manage, no scaling to worry about, and no
+      traditional server required. Its database is a hosted libSQL database
+      on Turso or Bunny, so there's no server to manage, no scaling to worry about, and no
       database replication to configure. It prioritises simplicity, privacy
       (hybrid RSA/AES encryption for attendee data), and predictable
       flat-rate pricing. It is aimed at community groups, schools, small

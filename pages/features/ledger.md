@@ -1,7 +1,7 @@
 ---
 title: Ledger - Chobble Tickets
 meta_title: Double-entry Ledger - Chobble Tickets
-meta_description: Every income figure, refund, and balance comes from a single double-entry ledger. Filter by date and listing, view per-account statements, and record cash payments.
+meta_description: Every income figure, refund and balance comes from one double-entry ledger. Filter by date and listing, view statements and record cash payments.
 permalink: /features/ledger/
 ticket_evidence_capture: listing-ledger
 eleventyNavigation:
@@ -38,9 +38,10 @@ blocks:
       moved from and to.
 
       A stats table at the top summarises the selected range: total income,
-      total due, total refunded, and booking fees. When you filter to a
-      single event, it shows gross ticket sales, recognised income, refunds,
-      and the net balance in the ledger.
+      customer balances due, total refunded, booking fees, the cost of
+      [servicing events](/features/servicing-events/) and the net after those
+      service costs. When you filter to a single event, it shows gross ticket
+      sales, income earned, refunds, costs and the net balance in the ledger.
   - type: split-image
     content: |
       ## Per-account statements
@@ -93,6 +94,24 @@ blocks:
       Editing an entry changes its amount and time. Deleting requires typing
       the exact amount as confirmation, so a stray click cannot remove a
       record.
+  - type: markdown
+    content: |
+      ## Example
+
+      A folk club night sells £180 of tickets online, takes £45 in cash at
+      the door and pays a £120 fee to the guest act. The treasurer records
+      the cash as door income and the fee as a cost against that night's
+      listing. The listing's statement then shows £225 of income, £120 of
+      costs and a net balance of £105.
+
+      ## Limits
+
+      The ledger is a record of ticket money, not full accounting software.
+      It does not prepare VAT returns or annual accounts, connect to
+      accounting packages or reconcile bank feeds. Payment-provider fees are
+      charged by the provider and are not recorded unless you add them as a
+      cost.
+
   - type: cta
     button:
       text: Get Started
@@ -100,8 +119,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Ledger-backed totals
+      ## Get started
 
-      Income, refunds, costs, and balances are derived from one ledger.
+      The ledger comes with every hosted site, at £50 a year or £5 a month.
 name: Double-entry Ledger - Chobble Tickets
 ---

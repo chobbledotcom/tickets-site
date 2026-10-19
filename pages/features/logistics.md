@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Logistics
 
-      Manage deliveries, equipment hire, transport, set-up and teardown at customer locations. Assign logistics agents, give them a run sheet, and track each drop-off and collection to done.
+      For bookings that need something taken to the customer, Chobble Tickets gives each booking a drop-off and a collection, each assigned to a van, driver or crew. Drivers sign in to a run sheet of today's and tomorrow's jobs and mark each one done.
   - type: markdown
     content: |
       ## For events with a physical delivery
@@ -66,6 +66,26 @@ blocks:
       should not see anything else.
 
       See the [multi-user page](/features/users/) for more on user roles.
+  - type: markdown
+    content: |
+      ## Example
+
+      A skip hire firm has two lorries set up as agents, "Lorry 1" and
+      "Lorry 2". A customer books a four-yard skip for a week from Monday,
+      choosing their address by postcode at checkout. The office assigns the
+      drop-off to Lorry 1 on Monday and the collection to Lorry 2 the
+      following Monday. Each driver sees the job on their run sheet the day
+      before, with the address, phone number and a map link. Chobble's [skip
+      hire demo](https://skips.tix.chobble.net/) shows the booking side of
+      this setup.
+
+      ## Limits
+
+      Logistics records who goes where and when. They do not plan routes,
+      track vehicles or work out delivery prices by distance or zone. The run
+      sheet shows today and tomorrow only, so the calendar is the place to
+      plan further ahead.
+
   - type: cta
     button:
       text: Get Started
@@ -73,9 +93,9 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Delivery records in the admin panel
+      ## Get started
 
-      Deliveries, collections, and assigned agents are shown in one place.
+      Delivery and collection run sheets come with every hosted site, at £50 a year or £5 a month.
 
 name: Delivery, Collection & Logistics - Chobble Tickets
 ---

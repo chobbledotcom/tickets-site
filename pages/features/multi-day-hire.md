@@ -50,6 +50,25 @@ blocks:
       and the total updates as the buyer picks.
   - type: markdown
     content: |
+      ## Example
+
+      A tool hire shop has four cement mixers and prices one day at £50 and
+      three days at £120. A customer books three days from Monday, so
+      Monday, Tuesday and Wednesday each have three mixers left. A second
+      customer asking for Tuesday to Thursday can still book, but once four
+      hires overlap on any day, no booking that includes that day is
+      offered. Chobble's [skip hire demo](https://skips.tix.chobble.net/)
+      shows a hire site with each skip size as its own listing.
+
+      ## Limits
+
+      Stock is a number for each day, not a list of named items, so Chobble
+      Tickets does not say which mixer went to which customer. Hire is booked
+      in whole days, not hours. The day-counting rules are published as
+      [test cases for stays of several
+      days](https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/booking-several-days.feature).
+  - type: markdown
+    content: |
       ## Booking windows
 
       Each daily listing has a booking window: a minimum number of days'
@@ -86,6 +105,6 @@ blocks:
     content: |-
       ## Built for hire businesses
 
-      Sign up for managed hosting at £50/year or £5/month. Multi-day hire is included on every plan.
+      Multi-day hire comes with every hosted site, at £50 a year or £5 a month, alongside deliveries and collections.
 name: Multi-day Hire & Rental Bookings - Chobble Tickets
 ---

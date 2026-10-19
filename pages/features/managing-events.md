@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Manage events after they go on sale
 
-      Schedule dates, give staff separate access, manage attendee changes, check people in and export operational or financial reports.
+      Chobble Tickets is event management software for the work after a listing goes on sale: changing dates and prices, adding bookings by hand, giving each helper their own login, checking people in at the door and reporting what came in and went out.
   - type: split-image
     content: |
       ## Create and update listings
@@ -24,6 +24,26 @@ blocks:
     figure_src: /images/screenshots/summer-sessions-listing-form.png
     figure_alt: Mobile listing form for Summer Sessions 2026 showing its description, date and Bristol venue
     figure_caption: Add the details attendees need from one mobile-friendly form.
+  - type: markdown
+    content: |
+      ## A season in practice
+
+      [Chalkie's School for Dogs](https://www.chalkiesdogs.co.uk) runs a
+      programme of dog training classes, with listings such as "Total
+      Recall (whistle)" and "Sunday School". A programme like that can be set up
+      once as a [group](/features/groups/), copied for the next term with
+      every date moved on, and checked in class by class from a phone. Phone
+      bookings and cash payments can go in by hand, and the
+      [ledger](/features/ledger/) shows what each class earned.
+
+      ## What it leaves out
+
+      Chobble Tickets does not plan staff rotas, book performers or run
+      floor plans and seating. It covers the bookings, the people who made
+      them and the money, and links to other tools through
+      [webhooks](/features/webhooks/) and the [admin
+      API](/features/admin-api/).
+
   - type: features
     items:
       - icon: hugeicons:qr-code
@@ -42,7 +62,7 @@ blocks:
         description: Add walk-ins and complimentary tickets, edit contact details, change quantities and move registrations.
         name: <a href="/features/manual-attendees/">Attendee administration</a>
       - icon: hugeicons:help-circle
-        description: Collect multiple-choice or free-text answers and include them in administration views, reports and webhooks.
+        description: Collect multiple-choice or free-text answers and include them in administration views, reports and confirmation emails.
         name: <a href="/features/custom-questions/">Custom questions</a>
       - icon: hugeicons:copy-01
         description: Copy one listing, duplicate a whole group with shifted dates, apply shared defaults and change several listing statuses together.

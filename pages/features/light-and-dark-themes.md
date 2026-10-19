@@ -1,7 +1,7 @@
 ---
 title: Light & Dark Themes - Chobble Tickets
 meta_title: Light & Dark Themes - Chobble Tickets
-meta_description: Built-in public site with light and dark theme options, so your booking pages match your brand.
+meta_description: Choose a light or dark theme for your Chobble Tickets booking pages, turn on underlined links, and add custom CSS for brand colours and fonts.
 permalink: /features/light-and-dark-themes/
 eleventyNavigation:
   key: Light & Dark Themes
@@ -11,39 +11,45 @@ blocks:
   - type: hero
     class: gradient
     content: |-
-      # Light & dark themes
+      # Light and dark themes
 
-      Built-in public site with light and dark theme options, so your booking pages match your brand.
+      Every Chobble Tickets site has a light theme and a dark theme, chosen with one setting. The choice applies to the public pages customers see, including listings and booking forms.
   - type: split-image
     content: |
-      ## Choose your look
+      ## Choosing a theme
 
-      Chobble Tickets comes with a built-in public website that handles
-      event listings, bookings, and ticket display. Choose between a light
-      or dark theme to match your brand or your preference.
+      The "Site Theme" setting offers Light or Dark. A theatre or cinema with a dark website can use the
+      dark theme so its booking pages match.
 
-      ## Consistent branding
-
-      Combined with a [custom domain](/features/custom-domain/), theme
-      selection lets you present a professional, branded experience to your
-      attendees. The theme applies to all public pages including event
-      listings, booking forms, and ticket confirmation pages.
-
-      ## Works everywhere
-
-      Both themes are responsive and work on phones, tablets, and desktops.
-      The layout adapts to the screen size so your events look great on
-      every device.
-
-      ## Link styling
-
-      Links are blue by default and gain an underline on hover or focus. If
-      you prefer links to be underlined all the time, there is an "Underline
-      links" toggle on the theme form. When on, every link on the public site
-      carries an underline, including navigation.
+      The theme form also has an "Underline links" switch. With it off, links
+      show in colour and gain an underline when pointed at or selected with
+      the keyboard. With it on, every link carries an underline, including
+      the navigation, which helps visitors who cannot tell links apart by
+      colour.
     figure_src: /images/screenshots/moonlight-cinema-dark-checkout.png
     figure_alt: Moonlight Cinema checkout in the built-in dark theme with two tickets for The General and a £19 order total
     figure_caption: The built-in dark theme keeps every public booking page clear and consistent.
+  - type: markdown
+    content: |
+      ## Going further than the theme
+
+      A header image, such as your logo or a banner, sits at the top of every
+      page. For changes the two themes do not cover, the advanced settings
+      take custom CSS, the code that controls colours, fonts and spacing on a
+      web page. It loads after the built-in styles on every page, so a rule
+      such as a brand colour for buttons replaces the default.
+
+      With a [custom domain](/features/custom-domain/) and no Chobble
+      branding on the pages, customers see your name, address and colours
+      throughout. The [customising your site](/features/customising-your-site/)
+      page lists the other options.
+
+      ## Limits
+
+      There are two themes and no theme designer, so anything beyond light
+      or dark means writing CSS or asking someone who can. Custom CSS goes
+      live as soon as it is saved, so a mistake shows on the public site
+      until it is corrected.
   - type: cta
     button:
       text: Get Started
@@ -51,8 +57,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Match your brand
+      ## Get started
 
-      Choose a light or dark theme for your public booking pages.
+      Both themes come with every hosted site, at £50 a year or £5 a month.
 name: Light & Dark Themes - Chobble Tickets
 ---

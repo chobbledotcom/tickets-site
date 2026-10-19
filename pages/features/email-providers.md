@@ -1,7 +1,7 @@
 ---
 title: Email Providers - Chobble Tickets
 meta_title: Email Provider Integration - Chobble Tickets
-meta_description: Send ticket confirmations through your choice of Resend, Postmark, SendGrid, or Mailgun (US and EU).
+meta_description: Send Chobble Tickets booking emails through Resend, Postmark, SendGrid or Mailgun (US or EU), from your own address, with a test send to check the setup.
 permalink: /features/email-providers/
 eleventyNavigation:
   key: Email Providers
@@ -13,52 +13,60 @@ blocks:
     content: |-
       # Choose your email provider
 
-      Send confirmation emails through the provider you already use, whether that's Resend, Postmark, SendGrid, or Mailgun (including Mailgun EU).
+      Chobble Tickets sends booking emails through an email delivery company rather than from its own server. Five are supported: Resend, Postmark, SendGrid, Mailgun (US) and Mailgun (EU).
   - type: split-image
     content: |
-      ## Your provider, your deliverability
+      ## Connecting a provider
 
-      Rather than sending emails through a shared platform domain (which often
-      lands in spam), Chobble Tickets lets you connect your own email provider
-      so emails come from your domain, with your reputation.
+      In the advanced settings, pick the provider, paste in the API key it
+      gives you and enter the address your emails should come from, such as
+      tickets@yourvenue.org. The key cannot be read back after saving, so
+      nobody with access to the settings page can copy it. Each change is
+      written to the [activity log](/features/activity-logs/).
 
-      Supported providers:
-
-      - **Resend** - Modern email API with great developer experience
-      - **Postmark** - Known for excellent deliverability
-      - **SendGrid** - Widely used, generous free tier
-      - **Mailgun** - US and EU endpoints supported
-
-      Add your API key in the settings and the system handles sending
-      automatically.
+      After saving, a "Send Test Email" button sends a message to your
+      business email address. If it fails, the page shows the provider's own
+      error message, which usually names the problem, such as a wrong key or
+      a sending address the provider has not approved yet.
     figure_src: /images/screenshots/mailgun-eu-settings.png
     figure_alt: An email settings form with Mailgun (EU) selected as the provider, a masked API key and a tickets@oakfieldevents.org sender address
     figure_caption: The organiser picks the provider, its region and the address tickets are sent from. The saved API key is shown masked rather than in plain text.
   - type: markdown
     content: |
-      ## Customisable email templates
+      ## Why a delivery company is needed
 
-      Email templates use Liquid syntax, so you can customise the subject line,
-      HTML body, and plain text body of confirmation emails. Built-in template
-      filters include `currency` for formatting amounts and `pluralize` for
-      natural language.
+      An ordinary email account is blocked after a few hundred messages,
+      because sending many at once looks like spam. Delivery companies are
+      built to send in bulk from your own domain. Their charges are separate
+      from Chobble's price, so check each one's allowance against how many
+      emails you send.
 
-      See the [email documentation](https://chobbledotcom.github.io/tickets/docs/email.ts)
-      for details on templates and provider configuration.
-  - type: markdown
-    content: |
-      ## When a send fails
+      Mailgun (EU) uses Mailgun's European region rather than its US one.
 
-      If an email fails to send, Chobble Tickets shows the error message
-      from the provider itself. You see what the provider said, so there
-      is no guessing at what went wrong.
+      ## What gets sent
 
-      ## References
+      After each booking, the attendee gets a confirmation email with a
+      picture of their ticket and its QR code, and you get a notification
+      with the booking details. You can rewrite both with [email
+      templates](/features/email-templates/). [Bulk email](/features/bulk-email/)
+      to past attendees also goes through your provider.
 
-      - [Resend](https://resend.com/) - email API for developers
-      - [Postmark](https://postmarkapp.com/) - transactional email service
-      - [SendGrid](https://sendgrid.com/) - email delivery platform
-      - [Mailgun](https://www.mailgun.com/) - email API service (US and EU regions)
+      ## Without a provider
+
+      Email is optional. When neither you nor your host has set up an email
+      provider, the site sends no emails, and bookings, payments and check-in
+      work as normal. Attendees then reach their ticket from the confirmation
+      page after booking. A host can set up one provider for every site it
+      runs, and the admin guide names it when it has. Bulk email always needs
+      your own provider, so marketing from one site cannot get other sites
+      on the same host marked as spam.
+
+      ## Providers
+
+      - [Resend](https://resend.com/)
+      - [Postmark](https://postmarkapp.com/)
+      - [SendGrid](https://sendgrid.com/)
+      - [Mailgun](https://www.mailgun.com/), with US and EU regions
   - type: cta
     button:
       text: Get Started
@@ -66,8 +74,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Better email delivery
+      ## Get started
 
-      Use your own email provider for reliable ticket delivery.
+      Email provider support comes with every hosted site, at £50 a year or £5 a month.
 name: Email Provider Integration - Chobble Tickets
 ---

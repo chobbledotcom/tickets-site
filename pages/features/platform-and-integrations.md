@@ -50,7 +50,7 @@ blocks:
         description: Set retention for orphaned records, erase contact history and export attendee records.
         name: <a href="/features/privacy-controls/">Privacy controls</a>
       - icon: hugeicons:global
-        description: Chobble is a UK company using Bunny managed infrastructure. Database replicas and optional providers operate in several jurisdictions.
+        description: Chobble is a UK company. Managed sites run on Bunny in Slovenia with databases on Turso's servers in Ireland, and optional providers operate in several jurisdictions.
         name: <a href="/features/european/">Hosting and data</a>
       - icon: hugeicons:smart-phone-01
         description: Attendees can download passes for Apple Wallet or Google Wallet and present their ticket at the door.

@@ -76,6 +76,27 @@ blocks:
       too, for cash, bank transfer, a separate card machine, or vouchers.
       A recorded offline payment reduces the outstanding balance in the
       same way an online one does.
+  - type: markdown
+    content: |
+      ## Example
+
+      A hall charges £400 for a Saturday party booking and asks for 25% up
+      front. The organiser sets a "Reserved" status with a deposit rule of
+      "25%", makes it the default for public bookings and sets "Confirmed" as
+      the paid status. The customer pays
+      £100 at checkout, which takes the date, and the booking shows £300
+      still owed. The organiser sends the customer the payment link from
+      the booking's Balance tab, and once the £300 is paid the booking moves
+      to "Confirmed" by itself.
+
+      ## Limits
+
+      Chobble Tickets does not send balance reminders or set a due date. The
+      payment link appears in the admin area, and the organiser sends it to
+      the customer when it suits them. A booking fee is not added when the
+      balance is paid through the link. The deposit rules are published as
+      [test cases for paying a
+      deposit](https://github.com/chobbledotcom/tickets/blob/main/specs/payments/paying-a-deposit.feature).
   - type: cta
     button:
       text: Get Started
@@ -85,6 +106,6 @@ blocks:
     content: |-
       ## Take deposits without extra fees
 
-      Sign up for managed hosting at £50/year or £5/month. Reservations and balance payments are included on every plan.
+      Deposits and balance links come with every hosted site, at £50 a year or £5 a month, and Chobble takes no share of either payment.
 name: Deposits, Reservations & Balance Payments - Chobble Tickets
 ---

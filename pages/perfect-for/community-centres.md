@@ -1,6 +1,6 @@
 ---
 title: Community Centres and Village Halls - Chobble Tickets
-meta_title: Booking Software for Community Centres and Village Halls | Chobble Tickets
+meta_title: Booking Software for Community Centres and Halls | Chobble Tickets
 meta_description: Take hall hire bookings and run your own programme of classes, lunch clubs and events, with a £25 a year community rate and encrypted attendee records.
 permalink: /perfect-for/community-centres/
 ticket_evidence_capture: maintenance-cost-on-a-room

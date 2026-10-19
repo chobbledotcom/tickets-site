@@ -12,7 +12,26 @@ blocks:
     content: |-
       # Chobble Tickets in pictures
 
-      Each screenshot is a real Chobble Tickets page on a phone. Scroll the gallery to see how listings, checkouts, attendees, staff tools and reporting fit together.
+      These screenshots show Chobble Tickets pages on a phone, from public booking pages to the tools organisers use behind them. To try the software rather than look at it, open one of the demo sites on the [examples page](/examples/).
+  - type: markdown
+    content: |
+      ## Where the pictures come from
+
+      Many of these screenshots are taken automatically while Chobble
+      Tickets runs its own published test cases, such as a customer booking
+      from a group page or an organiser downloading an attendee list. Each
+      one is dressed in a made-up organiser's branding, so names like
+      Oakfield or the Retreat are examples rather than customers. Where a
+      screenshot comes from a test case, its feature page links to that
+      test case.
+
+      ## What to do next
+
+      The [examples page](/examples/) has live demo sites for arts
+      workshops, skip hire and a play centre, and two real businesses
+      selling from their own domains. The [pricing page](/pricing/) sets
+      out the £50 a year or £5 a month for managed hosting.
+
   - type: gallery
     aspect_ratio: "1200/630"
     items:
@@ -127,6 +146,6 @@ blocks:
     content: |-
       ## Try Chobble Tickets
 
-      Set up a hosted site in minutes. Every feature is included.
+      The first month of managed hosting costs £5, with every feature in the gallery included.
 name: Chobble Tickets Screenshot Gallery
 ---

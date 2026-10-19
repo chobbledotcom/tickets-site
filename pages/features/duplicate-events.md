@@ -1,7 +1,7 @@
 ---
 title: Duplicate Events - Chobble Tickets
 meta_title: Duplicate Events - Chobble Tickets
-meta_description: Copy one event or duplicate a complete event group with name replacement and shifted dates.
+meta_description: Copy one listing with its price, capacity and settings, or copy a whole group of listings with new names and every date moved by the same number of days.
 permalink: /features/duplicate-events/
 eleventyNavigation:
   key: Duplicate Events
@@ -26,21 +26,45 @@ blocks:
     figure_caption: Review every copied name and date before duplicating the group.
   - type: markdown
     content: |
-      ## Save time on setup
+      ## Copying one listing
 
-      The Duplicate action opens a pre-filled form with the same description,
-      pricing, capacity and settings. Give the copy a new name, change the
-      fields that differ and submit it.
+      The Duplicate button on a listing opens a new listing form filled in
+      with the original's price, capacity, booking fields, group and other
+      settings. The name is left blank, because every listing on a site needs
+      its own name. Fill it in, change anything that differs and save.
 
-      ## Consistent events
+      The listing's image, any attached file and its assigned booking
+      questions are not copied. Add those to the new listing separately.
 
-      A whole group can also be duplicated. Chobble Tickets can replace text
-      in the copied names and shift every copied date by the same number of
-      days while preserving links within the copied group.
+      ## Copying a whole group
 
-      [Bulk event management](/features/bulk-event-management/) also provides
-      shared listing defaults and group status changes. For another site, use
-      [catalogue import and export](/features/catalogue-import-export/).
+      Duplicate Group copies every listing in a [group](/features/groups/)
+      into a new group in one step. You give the new group a name, and can
+      replace part of every listing name and move every date by the same
+      number of days. Links between listings in the group, such as a
+      [required child listing](/features/parent-child-listings/), point at the
+      new copies rather than the originals.
+
+      ## Example
+
+      A group called "Workshops" holds "Spring Workshop" on 16 April 2026.
+      The organiser copies it as "Autumn Workshops", replaces "Spring" with
+      "Autumn" and moves the dates on by seven days. The new group holds
+      "Autumn Workshop" on 23 April 2026, and the original group is
+      unchanged.
+
+      ## Limits
+
+      Names must be unique across a site. If any copied name would match an
+      existing listing or group, Chobble Tickets refuses the whole copy before
+      saving anything, so the organiser never has half a group. The example
+      above comes from the [published test
+      case](https://github.com/chobbledotcom/tickets/blob/main/specs/catalogue/copy-a-group-of-listings.feature)
+      that checks this behaviour.
+
+      [Bulk event management](/features/bulk-event-management/) covers shared
+      listing defaults and group status changes. To copy listings to another
+      site, use [catalogue import and export](/features/catalogue-import-export/).
   - type: cta
     button:
       text: Get Started
@@ -48,8 +72,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Quick event setup
+      ## Get started
 
-      Clone events to save time on setup.
+      Copying listings and groups is included in managed hosting at £50 a year or £5 a month.
 name: Duplicate Events - Chobble Tickets
 ---

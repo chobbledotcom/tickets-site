@@ -19,6 +19,12 @@ blocks:
       For a venue, the two jobs sit with different people, and the
       software is how they share one record of what was sold and who came
       in.
+
+      [Crumpsall Folk Club](https://tickets.crumpsallfolkclub.co.uk) in
+      Manchester runs its advance sales on Chobble Tickets. It sells
+      normal, solidarity and concession tickets in advance from its own
+      subdomain, and sells raffle tickets for the half-time draw from the
+      same site.
   - type: markdown
     dark: true
     content: |

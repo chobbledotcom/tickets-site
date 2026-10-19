@@ -1,7 +1,7 @@
 ---
 title: Chobble Tickets - Software de entradas para eventos
 meta_title: Software de entradas para eventos | Chobble Tickets
-meta_description: Venda entradas por £50 al año o £5 al mes, sin comisión por entrada. Incluye pagos, control de acceso con QR, reembolsos, informes y una web de reservas alojada.
+meta_description: Venda entradas por £50 al año o £5 al mes, sin comisión por entrada. Incluye pagos, control de acceso con QR, reembolsos y una web de reservas.
 permalink: /es/
 blocks:
   - type: hero

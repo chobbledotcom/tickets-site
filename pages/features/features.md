@@ -76,6 +76,12 @@ blocks:
   - icon: hugeicons:calendar-03
     description: Per-date capacity with a calendar picker and configurable holiday and blackout dates, which is perfect for classes and recurring bookings.
     name: <a href="/features/daily-events/">Daily events</a>
+  - icon: hugeicons:calendar-add-01
+    description: Sell a weekly quiz, class or club night as one listing, with places counted for each date.
+    name: <a href="/features/recurring-events/">Recurring events</a>
+  - icon: hugeicons:clock-01
+    description: Sell entry slots by date and time, with places per slot and an optional cap for the whole day.
+    name: <a href="/features/timed-entry/">Timed entry</a>
   - icon: hugeicons:folder-02
     description: Organise events into groups for multi-event bookings and single checkout.
     name: <a href="/features/groups/">Groups</a>
@@ -192,7 +198,7 @@ blocks:
     description: Set retention for orphaned records, erase contact history and export the attendee records held by the organiser.
     name: <a href="/features/privacy-controls/">Privacy controls</a>
   - icon: hugeicons:global
-    description: UK company using Bunny managed infrastructure. Database replicas may run across Bunny regions, and optional providers have their own data terms.
+    description: UK company using Bunny infrastructure, with databases on Turso's servers in Ireland. Optional providers have their own data terms.
     name: <a href="/features/european/">Hosting and data</a>
   - icon: hugeicons:smart-phone-01
     description: Attendees can add tickets to Apple Wallet or Google Wallet for easy access at the door.

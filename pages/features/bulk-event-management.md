@@ -11,16 +11,34 @@ blocks:
   - type: hero
     class: gradient
     content: |-
-      # Bulk event management
+      # Bulk event management and listing defaults
 
-      Set defaults for new listings, copy whole event groups with shifted dates, and change the status of several listings at once.
+      Listing defaults let you set common settings once and have every new listing follow them. Group tools copy a whole set of listings with new names and dates, or take the whole set off sale in one step.
   - type: markdown
     content: |
-      ## Shared listing defaults
+      ## Listing defaults
 
-      Site owners can set default booking days, notice periods, logistics settings, webhooks, redirects and public visibility. A new listing can inherit these values instead of repeating the same setup.
+      The listing defaults page holds seven settings: bookable days, minimum
+      days' notice, maximum days ahead, whether a listing needs
+      [delivery and collection details](/features/logistics/), a [webhook
+      address](/features/webhooks/), a [thank-you
+      address](/features/custom-redirects/) and whether the listing is hidden.
+      Leave any of them as "No default" to keep deciding it per listing.
 
-      Inherited values remain linked to the default. Changing a default updates every listing that still uses it, while a listing with its own value remains unchanged.
+      Each listing has one "Use defaults" switch. While it is on, the fields
+      that have a default are hidden on that listing's form and follow the
+      defaults page. Change a default and every listing using defaults
+      changes with it, while a listing with the switch off keeps its own
+      values.
+
+      ## Example
+
+      A hire business rents equipment by the day. It takes bookings on
+      weekdays only, with two days' notice, and sends every booking to the
+      same Zapier webhook. It sets those three
+      defaults once. Each new hire item it adds starts with the same rules,
+      and when it later opens on Saturdays, one change to the bookable days
+      default updates every item.
   - type: split-image
     content: |
       ## Duplicate a complete group
@@ -33,11 +51,27 @@ blocks:
     figure_caption: Preview every new name and date before duplicating the group.
   - type: markdown
     content: |
-      ## Bulk status changes
+      ## Taking a group off sale
 
-      Selected groups can be activated or deactivated together. This provides one control for opening or closing a collection of related listings.
+      Each [group](/features/groups/) has a bulk actions page. "Deactivate
+      Group" takes every listing in the group off sale at once, which suits
+      the end of a season or a cancelled run of events. "Reactivate Group"
+      puts every listing back on sale, and the page offers it once every
+      listing in the group is off sale.
 
-      Individual listings can still be edited, duplicated or given their own inherited settings. The [catalogue transfer tool](/features/catalogue-import-export/) handles copying between separate Chobble Tickets sites.
+      The [duplicate events page](/features/duplicate-events/) covers copying
+      single listings and what a copy leaves out. The [catalogue transfer
+      tool](/features/catalogue-import-export/) copies listings between
+      separate Chobble Tickets sites.
+
+      ## Limits
+
+      Defaults cover the seven settings above, not prices or capacity, so
+      those are still set per listing or carried over by duplicating. Bulk
+      status changes work on a group, so listings outside a group are taken
+      off sale one at a time. The rules for which group actions appear are
+      published as [test
+      cases](https://github.com/chobbledotcom/tickets/blob/main/specs/catalogue/choosing-a-bulk-action-for-a-group.feature).
   - type: cta
     button:
       text: Start for £5

@@ -14,15 +14,15 @@ blocks:
     content: |-
       # Activity logs
 
-      Track all admin actions and booking activity with a built-in audit trail.
+      The activity log is a dated record of what happened on a Chobble Tickets site: bookings, check-ins, refunds, listing changes, exports and failed email or webhook deliveries. Each listing and each attendee also keeps a record of its own.
   - type: split-image
     content: |
-      ## Full audit trail
+      ## What happened, and when
 
-      Every action in the admin panel is logged: bookings, check-ins,
-      refunds, event changes, and user management. See who did what and
-       when, which is essential for accountability when multiple team members
-       are managing events.
+      Bookings, check-ins, refunds and listing changes are written to the
+      log with the time they happened. A listing's own record
+      shows only what happened to that listing, including each check-in at
+      the door.
     figure_src: /images/screenshots/activity-log-summer-arts-fair.png
     figure_alt: A screenshot of a listing's activity record, showing an attendee checked in via scanner, the attendee created, and the listing created
     figure_caption: 'A check-in at the door is written into the record a listing keeps of its own day, alongside everything else that happened to it. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/checking-people-in-at-the-door.feature">(src)</a></small>'
@@ -52,11 +52,19 @@ blocks:
       the activity log becomes permanently unreadable, alongside the
       attendee data.
 
-      ## Debugging and support
+      ## Example
 
-      When something goes wrong or an attendee has a question, the activity
-      log lets you trace exactly what happened, so there's no guesswork
-      involved.
+      An attendee says they paid but never got a confirmation email. The
+      organiser opens the global log and finds "Registration notification
+      delivery failed." just after the time of the booking. The organiser
+      then opens the attendee's page and re-sends the notification.
+
+      ## Limits
+
+      A log entry records what happened and when, but not which team member
+      did it. The global log at `/admin/log` shows the latest 200 entries,
+      so it is a view of recent activity. The record kept on each listing
+      and attendee is the place to look further back.
   - type: cta
     button:
       text: Get Started
@@ -64,8 +72,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Activity records
+      ## Get started
 
-      Track admin and booking activity with built-in activity logs.
+      The activity log comes with every hosted site, at £50 a year or £5 a month.
 name: Activity Logs - Chobble Tickets
 ---

@@ -2,7 +2,7 @@
 name: Host Your Own Ticket Site
 subtitle: Providers that support an organiser domain, a standalone public site or self-hosting
 meta_title: Host Your Own Ticket Site | Chobble Tickets
-meta_description: Compare ticketing providers that support custom domains, public event websites, WordPress ticketing or software hosted on infrastructure the organiser controls.
+meta_description: Compare ticketing providers that support custom domains, public event websites, WordPress ticketing or hosting on infrastructure you control.
 guide-category: choosing-a-ticket-platform
 order: 3
 blocks:
@@ -10,10 +10,10 @@ blocks:
   - type: guide-navigation
   - type: markdown
     content: |
-      "Your own ticket site" can describe three different arrangements. A
-      provider can host ticket pages at an organiser's domain, supply a full
-      public website, or let the organiser run the software on selected
-      infrastructure.
+      An organiser can have its own ticket site in three ways. A provider can
+      host ticket pages at the organiser's domain, supply a full public
+      website, or let the organiser run the software on infrastructure it
+      chooses. This guide lists which reviewed providers offer each one.
 
       A custom subdomain such as `tickets.example.org` controls the public web
       address but does not mean the organiser runs the server. A provider can
@@ -31,6 +31,12 @@ blocks:
       | [tickts](/compared-to/tickts/) | The Pro plan removes tickts branding and supplies an event-listing storefront. Its pricing page lists a tickts.co.uk subdomain, while its white-label page documents pointing an organiser-owned domain by CNAME. | Hosted by tickts. Confirm custom-domain availability before purchase. |
       | [Pretix](/compared-to/pretix/) | Supplies an organiser profile, event shops and mini-CMS pages for static content. Hosted custom domains are available by arrangement. | Hosted plans are available; Community and Enterprise editions can also be self-hosted. |
       | [Wix Events](/compared-to/wix-events/) | Ticketing sits inside a complete Wix website with its page builder. | Hosted as part of the organiser's Wix site. |
+
+      Two Chobble Tickets customers show the first model in use. Tom
+      Butterworth Gardening and Education sells workshop places at
+      tbgardening.co.uk, and Chalkie's School for Dogs sells training classes
+      at chalkiesdogs.co.uk, both on Chobble's managed hosting. The [custom
+      domain feature page](/features/custom-domain/) lists the setup steps.
 
       A hosted custom domain reduces technical maintenance while keeping the
       organiser's name in the web address. It does not by itself determine who

@@ -49,9 +49,24 @@ blocks:
 
       ## Updates require a fresh backup
 
-       The update button refuses to deploy a new version unless a backup
-       of that site's database was taken within the last hour. This means
-       there is always a recent restore point from before any update.
+      The update button refuses to deploy a new version unless a backup
+      of that site's database was taken within the last hour. This means
+      there is always a recent restore point from before any update.
+
+      ## The site during an update
+
+      While an update runs, the site switches to a "being updated" mode.
+      Pages still load, but bookings, check-ins and admin changes are
+      refused with a message asking people to try again shortly, so the
+      database stays still while it is upgraded. Payment provider
+      notifications that arrive during the update get a "try again later"
+      answer, so the provider can send them again once the update is done.
+
+      If the site does not switch into that mode within about a minute, the
+      update stops before anything changes and the site takes bookings
+      again. If the new version does not answer correctly after it is
+      published, the site stays in update mode rather than taking bookings
+      on a version that may be broken.
   - type: split-image
     content: |
       ## Restored bookings

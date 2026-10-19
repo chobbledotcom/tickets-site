@@ -1,7 +1,7 @@
 ---
 title: Custom Questions - Chobble Tickets
 meta_title: Custom Questions - Chobble Tickets
-meta_description: Add multiple-choice or free-text questions to your events and collect answers from attendees at checkout, with answers visible throughout the admin interface.
+meta_description: Add multiple-choice or free-text questions to your events and collect answers at checkout, with answers shown throughout the admin interface.
 permalink: /features/custom-questions/
 eleventyNavigation:
   key: Custom Questions
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Custom questions
 
-      Add custom questions to your events and collect the information you need from attendees at checkout. Choose from multiple-choice or free-text answers.
+      Booking questions ask each customer for the details a listing needs, such as a meal choice, a T-shirt size or allergy information. A question can offer a fixed set of answers or a box for the customer's own words, and the booking cannot finish until it is answered.
   - type: split-image
     content: |
       ## Collect what you need to know
@@ -80,10 +80,32 @@ blocks:
       - **Groups view** - answers visible in group booking summaries
       - **Attendees table** - answers appear as columns in the attendee list
       - **CSV export** - answers included in exported data
-      - **Webhooks** - answers sent with webhook payloads for integrations
+      - **Confirmation emails** - answers can be printed in the email with
+        an [email template](/features/email-templates/)
 
       Free-text answers are encrypted with the same owner key as other
       personal data, so they are only readable when you are signed in.
+  - type: markdown
+    content: |
+      ## Example
+
+      A bakery runs a Saturday bread workshop and asks two questions: "How
+      much bread have you made before?" with three fixed answers, and "Any
+      food allergies?" as free text. The tutor downloads the attendee list
+      the day before and sees each person's experience level and allergies
+      in their own columns. One question can be shared by every workshop, so
+      changing its wording once updates all of them.
+
+      ## Limits
+
+      Every question on a listing must be answered, so there are no optional
+      questions. Answers are not included in [webhook](/features/webhooks/)
+      messages, so another system that needs them has to read the attendee
+      list through the [admin API](/features/admin-api/) or a CSV download.
+      Deleting a question asks for its exact text, so it is not deleted by
+      mistake, and this rule is one of the published [booking question test
+      cases](https://github.com/chobbledotcom/tickets/blob/main/specs/catalogue/asking-buyers-a-question.feature).
+
   - type: cta
     button:
       text: Get Started
@@ -91,8 +113,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Collect the answers you need
+      ## Get started
 
-      Add custom questions to your events and see answers across your admin interface.
+      Booking questions come with every hosted site, at £50 a year or £5 a month.
 name: Custom Questions - Chobble Tickets
 ---

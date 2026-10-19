@@ -35,6 +35,24 @@ blocks:
         label: Required answers at checkout
       - value: Plan logistics
         label: Assign delivery and collection
+  - type: markdown
+    content: |
+      ## Example order
+
+      A caterer lists a finger buffet at £12 a head and a crockery hire extra
+      at £30. A customer orders the buffet for 40 guests with crockery, which
+      comes to £510, and answers required questions on dietary needs and
+      the venue's access. With a 25% [deposit
+      rule](/features/deposits-and-balance-payments/), the customer pays
+      £127.50 at checkout. The caterer then assigns the delivery to a van on
+      the [logistics](/features/logistics/) run sheet and sends the balance
+      link before the event.
+
+      Chobble charges £50 a year for managed hosting whatever the order size,
+      so a £510 order and a £5,000 order cost the caterer the same. The
+      payment provider's processing fee is separate. Chobble Tickets is built
+      and run by Chobble CIC in Prestwich, Manchester.
+
   - type: split-image
     content: |
       ## Sell menus, services and extras together

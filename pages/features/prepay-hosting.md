@@ -1,7 +1,7 @@
 ---
 title: Prepay Hosting, Not Subscriptions - Chobble Tickets
 meta_title: Prepay Hosting, Not Subscriptions | Chobble Tickets
-meta_description: Chobble Tickets uses prepay hosting, not subscription billing. Pay for a month or a year in advance. If you stop, the site stays in read-only mode for 24 months while you export your data.
+meta_description: Chobble Tickets hosting is prepaid, not a subscription. If you stop paying, the site stays read-only for 24 months while you export your data.
 permalink: /features/prepay-hosting/
 eleventyNavigation:
   key: Prepay Hosting

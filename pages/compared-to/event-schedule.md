@@ -2,7 +2,7 @@
 competitor_key: eventschedule
 title: Event Schedule Alternative
 meta_title: UK Made & Encrypted Event Schedule Alternative | Chobble Tickets
-meta_description: Compare Chobble Tickets and Event Schedule, two open source ticketing platforms, on price tiers, self-hosting, licences, encryption, features and data handling.
+meta_description: Compare Chobble Tickets and Event Schedule, two open source ticketing platforms, on price tiers, self-hosting, licences, encryption and data.
 permalink: /compared-to/event-schedule/
 eleventyNavigation:
   key: vs Event Schedule

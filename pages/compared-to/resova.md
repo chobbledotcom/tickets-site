@@ -59,6 +59,22 @@ blocks:
       fee.
   - type: markdown
     content: |
+      ## Repeat sessions on Chobble Tickets
+
+      Chobble Tickets also sells places on classes and sessions, which
+      overlaps with the bookings Resova is built for. [Chalkie's School for
+      Dogs](https://www.chalkiesdogs.co.uk) sells dog training classes from
+      its own domain, and [Tom Butterworth Gardening and
+      Education](https://www.tbgardening.co.uk) sells places on gardening
+      workshops. Chobble's [play centre demo](https://playcentre.tix.chobble.net/)
+      shows open play sessions, toddler mornings and party room hire on one
+      site.
+
+      These sites sell against a number of places for each session. Chobble
+      Tickets does not schedule equipment, rooms or staff as resources the
+      way Resova does, which the feature comparison below covers.
+  - type: markdown
+    content: |
       ## Pricing comparison
 
       [Resova](https://get.resova.com/pricing/) charges a flat monthly
@@ -75,8 +91,8 @@ blocks:
 
       Chobble Tickets is a flat £50/year or £5/month with [no per-ticket
       fees](/features/no-per-ticket-fees/) and no monthly booking limits,
-      plus Stripe processing at 1.5% + 20p. Registered charities, schools,
-      and community groups pay £25/year.
+      plus Stripe processing at 1.5% + 20p. Charities, community groups,
+      artists and musicians pay £25/year on the annual plan.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -266,8 +282,8 @@ blocks:
     content: |
       ## Pricing sources
 
-      The pricing information on this page was verified in April 2026. Fees
-      may change.
+      Resova's prices on this page were last checked on 25 July 2026, and
+      Resova may have changed them since.
 
       - [Resova pricing](https://get.resova.com/pricing/) - Lite, Pro,
         Premium, and Enterprise plans

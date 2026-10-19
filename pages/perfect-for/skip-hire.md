@@ -35,6 +35,17 @@ blocks:
         label: Delivery and collection
       - value: £50
         label: Managed hosting per year
+  - type: markdown
+    content: |
+      ## See a skip hire site
+
+      [Chobble Skip Hire](https://skips.tix.chobble.net/) is a demo site set
+      up by Chobble to show this setup. Each skip size, from two to ten
+      yards, is its own listing, so a customer books the size they need and
+      the stock for that size is counted on every day of the hire. The demo
+      runs on a tix.chobble.net address, and a real business can move the
+      same site to its own [domain](/features/custom-domain/).
+
   - type: split-image
     content: |
       ## Set a total price for each hire length

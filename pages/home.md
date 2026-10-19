@@ -1,7 +1,7 @@
 ---
 title: Chobble Tickets - Event Ticketing Software
 meta_title: Event Ticketing Software UK | Chobble Tickets
-meta_description: Sell event tickets online for £50 a year or £5 a month with no per-ticket platform fees. Includes payments, QR check-in, refunds, reporting and a hosted booking site.
+meta_description: Sell event tickets online for £50 a year or £5 a month with no per-ticket platform fees. Includes payments, QR check-in, refunds and a booking site.
 permalink: /
 eleventyNavigation:
   key: Home

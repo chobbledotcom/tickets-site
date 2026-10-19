@@ -1,6 +1,6 @@
 ---
 title: Google Forms Alternative
-meta_title: Open Source & Full Ticketing Google Forms Alternative | Chobble Tickets
+meta_title: Open Source Google Forms Alternative for Events | Chobble Tickets
 meta_description: Compare Google Forms and Chobble Tickets for event registration, payments, capacity limits, confirmation emails, QR entry and attendee data.
 permalink: /compared-to/google-forms/
 eleventyNavigation:

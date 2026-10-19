@@ -13,21 +13,34 @@ blocks:
     content: |-
       # Embeddable widget
 
-      Drop an iframe snippet into your existing website to show your events inline, with configurable Content Security Policy headers.
+      Each listing's admin page gives you a short code to paste into your own website, which shows that listing's booking form inside your page. Customers book and pay without leaving your site, and the form resizes itself to fit.
   - type: markdown
     content: |
+      ## Two ways to embed
+
+      Each listing page in the admin area shows two embed codes, and you need
+      only one. The Embed Script is a single `<script>` tag that builds the
+      form and resizes it as the content changes, and is the recommended
+      choice. The Embed Iframe suits a website that blocks outside scripts,
+      or a designer who wants full control of the frame.
+
+      ## Who has used it
+
+      Ben, the webmaster for [Jersey Girls](https://www.jersey-girls.co.uk), an ice cream business,
+      added Chobble Tickets booking to a static website, a site made of plain
+      files with no database or plugins of its own. Chobble hosts the Jersey
+      Girls ticket site, and Ben's review is quoted below.
+
       ## Events on your website
 
-      Add your events to any website by pasting a small HTML snippet. The
-      widget displays your event listings in an iframe that automatically
-      resizes to fit the content, so attendees can browse and book without
-      leaving your site.
+      The embedded form works on any website page where you can paste HTML.
 
-      ## Configurable CSP
+      ## Choosing which sites can embed
 
-      The widget supports Content Security Policy (CSP) configuration, so
-      you can control which domains are allowed to embed your events. This
-      prevents unauthorised sites from embedding your booking pages.
+      The "embed hosts" setting lists the websites allowed to show your
+      booking forms. Chobble Tickets turns that list into a browser rule, a
+      Content Security Policy, which stops any other site from framing your
+      booking pages.
 
       ## How the widget behaves
 
@@ -42,6 +55,16 @@ blocks:
 
       The widget can also add a [package](/features/packages/) to the cart,
       so a bundle can be sold from your own site in one step.
+
+      ## Limits
+
+      With no embed hosts listed in settings, any website can show your forms,
+      so add your own domains, such as `example.com, *.mysite.org`, to stop
+      other sites embedding them. The embed shows a booking form, not your
+      whole site, so the homepage, news and contact pages stay on
+      your [public website](/features/your-public-website/). Some website
+      builders do not allow script tags, which is when the iframe code is
+      needed.
 
       ## No custom code needed
 
@@ -65,8 +88,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Embed your events
+      ## Get started
 
-      Show your events on your existing website with one line of HTML.
+      Embed codes come with every hosted site, at £50 a year or £5 a month.
 name: Embeddable Widget - Chobble Tickets
 ---

@@ -2,7 +2,7 @@
 name: How Ticketing Platforms Disguise Their Fees
 subtitle: Where a low headline rate, a charity pledge, a buyer fee or a free-events floor can sit beside a larger charge
 meta_title: How Ticketing Platforms Disguise Their Fees | Chobble Tickets
-meta_description: How ticketing platforms make a charge look smaller than it is, from free-events headlines and split fees to charity pledges funded by the booking fee, flat-fee percentages and buyer-paid fees.
+meta_description: How ticketing platforms make a charge look smaller than it is, from free-events headlines and split fees to flat-fee percentages and buyer-paid fees.
 guide-category: choosing-a-ticket-platform
 order: 5.5
 blocks:

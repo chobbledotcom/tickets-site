@@ -1,7 +1,7 @@
 ---
 title: Eventee Alternative
 meta_title: Open Source Eventee Alternative for Paid Ticketing | Chobble Tickets
-meta_description: Eventee is a conference and event app with RSVP registration from a Czech company. Compare it with Chobble Tickets on paid ticket sales, pricing, attendee data, branding and self-hosting.
+meta_description: Eventee is a conference and event app with RSVP registration. Compare it with Chobble Tickets on paid ticket sales, pricing, attendee data and branding.
 permalink: /compared-to/eventee/
 eleventyNavigation:
   key: vs Eventee

@@ -1,7 +1,7 @@
 ---
 title: Markdown Descriptions - Chobble Tickets
-meta_title: Markdown Descriptions - Chobble Tickets
-meta_description: Write event descriptions in Markdown with header image uploads, so your events look great without a page builder.
+meta_title: Formatted Event Descriptions - Chobble Tickets
+meta_description: Format event descriptions with headings, bold text, links and lists, using a visual editor or plain Markdown. Raw HTML is shown as text, never run.
 permalink: /features/markdown-descriptions/
 eleventyNavigation:
   key: Markdown Descriptions
@@ -11,28 +11,58 @@ blocks:
   - type: hero
     class: gradient
     content: |-
-      # Markdown descriptions
+      # Formatted event descriptions
 
-      Write event descriptions in Markdown with header image uploads, so your events look great without a page builder.
+      Listing descriptions in Chobble Tickets can have headings, bold and italic text, links, lists and quotes. You format them with toolbar buttons in a visual editor, and Chobble Tickets saves the result as Markdown, a plain-text way of marking up formatting.
   - type: markdown
     content: |
-      ## Simple formatting
+      ## The visual editor
 
-      Use Markdown to format your event descriptions with headings, bold
-      text, links, lists, and more. There is no WYSIWYG editor. Write the
-      content as Markdown and the platform renders it on your event page.
+      Each formatted field opens with a toolbar for bold, italic, links,
+      headings, bulleted and numbered lists, and quotes. Ctrl+B and Ctrl+I
+      work as they do in a word processor.
 
-      ## Header images
+      You can also type the Markdown marks yourself. A line starting with
+      `- ` becomes a list, `# ` becomes a heading and `[text](address)`
+      becomes a link, and each one converts as you type.
 
-      Upload a header image for each event that appears at the top of the
-      event page and in event listings. This gives your events a visual
-      identity without needing a separate design tool.
+      ## Writing Markdown directly
 
-      ## Focus on content
+      The "Edit markdown" button under a field shows the plain text. This is
+      where you write anything the toolbar does not cover, such as a table.
+      A field that already holds formatting the visual editor cannot keep
+      opens as plain Markdown, so nothing is rewritten without you seeing it.
 
-      Markdown keeps you focused on what you're writing rather than how
-      it looks. The built-in theme handles typography and layout, so your
-      event descriptions are consistent and readable on every device.
+      ## Which fields take formatting
+
+      Formatting works in listing descriptions, terms and conditions, the
+      homepage text and the contact page text. Booking questions, extra site
+      pages and [news posts](/features/your-public-website/) take it too, so a
+      question can include a link to your full policy.
+
+      ## Example
+
+      A description written as:
+
+      ```
+      **Bring:** an apron and a packed lunch.
+
+      - Doors open 9.30am
+      - Class starts 10am
+      ```
+
+      shows "Bring:" in bold, followed by a two-item list. Each listing can
+      also carry an [image](/features/images/) in JPEG, PNG or WebP format,
+      shown on the booking page and in the public list of listings.
+
+      ## Limits
+
+      Chobble Tickets shows any HTML typed into a description as text rather
+      than running it, so embedded videos, forms and scripts do not work in
+      descriptions. A link must be a web, email or phone address
+      (`https://`, `http://`, `mailto:` or `tel:`) or a page on your own
+      site. The rules live in the [published
+      source](https://github.com/chobbledotcom/tickets/blob/main/src/shared/markdown.ts).
   - type: cta
     button:
       text: Get Started
@@ -40,8 +70,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Beautiful event pages
+      ## Get started
 
-      Write event descriptions in Markdown and let the theme handle the rest.
+      The visual editor comes with every hosted site, at £50 a year or £5 a month.
 name: Markdown Descriptions - Chobble Tickets
 ---

@@ -4,7 +4,7 @@ selfhosted_chobble_key: chobble_selfhosted
 selfhosted_competitor_key: revel_selfhosted
 title: Revel Alternative
 meta_title: Flat Fee & Encrypted Revel Alternative | Chobble Tickets
-meta_description: Compare Chobble Tickets and Revel (letsrevel.io) on pricing, licences, self-hosting, attendee vetting, private guest lists and how each keeps community data private.
+meta_description: Compare Chobble Tickets and Revel (letsrevel.io) on pricing, licences, self-hosting, attendee vetting, private guest lists and community data.
 permalink: /compared-to/revel/
 eleventyNavigation:
   key: vs Revel
@@ -203,7 +203,8 @@ blocks:
       cores and 4GB of memory as a starting point.
 
       **Chobble Tickets** is built on Deno and compiles to a single JavaScript
-      file that runs as an edge script on Bunny.net, with an edge database. It
+      file that runs as an edge script on Bunny.net, with a hosted libSQL
+      database. It
       focuses on privacy through encryption, data ownership and flat-rate
       pricing. It is run by a Community Interest Company, which cannot pay
       profit to shareholders and donates 10% of income to the Against Malaria

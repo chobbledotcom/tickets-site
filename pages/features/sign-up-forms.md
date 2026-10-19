@@ -1,7 +1,7 @@
 ---
 title: Sign-up Forms - Chobble Tickets
 meta_title: Volunteer Sign-up Forms & Potluck Sheets | Chobble Tickets
-meta_description: Use Chobble Tickets as a sign-up form for volunteers, potluck contributions, and other collections. Create a free event, add custom questions, and share the link.
+meta_description: Use Chobble Tickets as a sign-up form for volunteers, potluck contributions and other collections. Create a free event, add questions and share it.
 permalink: /features/sign-up-forms/
 ticket_evidence_capture: volunteer-shift-form
 eleventyNavigation:

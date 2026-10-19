@@ -1,7 +1,7 @@
 ---
 title: Music Concerts - Chobble Tickets
 meta_title: Ticketing for Music Concerts - Chobble Tickets
-meta_description: Sell concert tickets through your own payment account with no Chobble per-ticket platform fee. Includes QR entry, ticket groups, discounts and email updates.
+meta_description: Sell concert tickets through your own payment account with no Chobble per-ticket fee. Includes QR entry, ticket groups, discounts and email updates.
 permalink: /perfect-for/music-concerts/
 eleventyNavigation:
   key: Music Concerts
@@ -18,9 +18,12 @@ blocks:
     content: |
       ## Keep your revenue
 
-      Most ticketing platforms take a cut of every sale, sometimes £1-2 per
-      ticket plus a percentage. For a 200-capacity gig at £15 a ticket, that
-      can mean losing hundreds of pounds to the platform.
+      A sold-out 200-capacity gig at £15 a ticket takes £3,000. At
+      Eventbrite's UK rate of 6.95% + £0.59 a ticket (checked 8 August 2026),
+      the fees come to £326.50. On Chobble Tickets the cost is the £50 annual
+      hosting fee plus Stripe's 1.5% + 20p on each payment, £135 in all if
+      every ticket is bought separately, and the hosting fee covers every
+      other gig that year too.
 
       Chobble Tickets charges a flat £50/year or £5/month, and Stripe, Square, or SumUp process
       the payments so the money goes directly to your account. You
@@ -35,6 +38,21 @@ blocks:
         text: £50/year or £5/month flat fee.
       - icon: hugeicons:credit-card
         text: No commission on ticket sales.
+  - type: markdown
+    content: |
+      ## A club already selling gigs this way
+
+      [Crumpsall Folk Club](https://tickets.crumpsallfolkclub.co.uk) sells
+      its monthly gigs at The Cleveland in north Manchester from its own
+      ticket subdomain, with normal, solidarity and concession prices as
+      separate listings.
+
+      ## Limits
+
+      There are no seating plans, so seated concerts sell by number of places
+      rather than by seat. Chobble Tickets has no fan marketplace either, so
+      sales come from your own website, mailing list and social media.
+
   - type: features
     dark: true
     intro_content: "## Built for live music"

@@ -2,7 +2,7 @@
 name: Open Source Ticketing Platforms
 subtitle: Ticketing software with published source code, compared by licence and how you can run it
 meta_title: Open Source Ticketing Platforms | Chobble Tickets
-meta_description: Compare open source and source-available ticketing platforms by licence, whether the hosted service runs the published code, per-ticket fees and self-hosting.
+meta_description: Compare open source and source-available ticketing platforms by licence, whether the hosted service runs the published code, fees and self-hosting.
 guide-category: choosing-a-ticket-platform
 order: 3.5
 blocks:
@@ -22,6 +22,13 @@ blocks:
 
       This is a list of the providers with detailed comparisons here, not a
       directory of every open source ticketing project.
+
+      Chobble, which writes this guide, also publishes Chobble Tickets under
+      the AGPL-3.0-only licence and appears in the tables below. Its
+      developer, Stefan Burke, worked on the payments team at Bandcamp before
+      starting Chobble, and the [about page](/about/) lists the company's
+      registration and asset lock. Each other provider is described from its
+      own published licence and documentation.
   - type: markdown
     dark: true
     content: |

@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Images
 
-      Upload images to your listings and groups from an image library. Each upload is resized, converted to WebP, encrypted, and served from CDN storage.
+      Chobble Tickets keeps your pictures in one image library, and any picture can appear on as many listings, groups and site pages as you like. Each upload is resized for the web and stored encrypted.
   - type: split-image
     content: |
       ## The image library
@@ -34,7 +34,9 @@ blocks:
       ## Automatic resizing and thumbnails
 
       Every upload is decoded and re-encoded to WebP using WebAssembly
-      codecs. JPEG, PNG, and WebP uploads are accepted.
+      codecs. JPEG, PNG, and WebP uploads are accepted. A phone photo taken
+      sideways is turned upright first, using the orientation the camera
+      recorded in the file, so it does not appear on its side.
 
       Two variants are produced from each upload: a full-size image at up
       to 1,600 pixels wide for listing pages, and a thumbnail at up to
@@ -62,6 +64,24 @@ blocks:
       after one hour, so the link cannot be shared usefully. Each
       download is counted per attendee, so you can see who has fetched
       the file.
+  - type: markdown
+    content: |
+      ## Example
+
+      A pottery studio takes a 6 MB photo of its wheel room on a phone and
+      uploads it once, with the alt text "Six pottery wheels in a bright
+      studio". It links the picture to its taster class, its weekly course
+      and its homepage. Customers download a version no wider than 1,600
+      pixels instead of the 6 MB original, and screen readers read the same
+      description on all three pages.
+
+      ## Limits
+
+      Images can be up to 32 MB each and attachments up to 25 MB, by
+      default. The image library needs the host's file storage switched on,
+      and shows a notice until it is. Deleting a picture removes it from every page that uses
+      it, so the admin area asks you to type the picture's name to confirm.
+
   - type: cta
     button:
       text: Get Started
@@ -69,8 +89,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Images on every plan
+      ## Get started
 
-      Sign up for managed hosting at £50/year or £5/month. Image uploads and attachments are included on every plan.
+      The image library and file attachments come with every hosted site, at £50 a year or £5 a month.
 name: Image Uploads, Thumbnails & Attachments - Chobble Tickets
 ---

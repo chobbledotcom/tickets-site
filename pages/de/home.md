@@ -1,7 +1,7 @@
 ---
 title: Chobble Tickets - Ticketsoftware für Veranstaltungen
 meta_title: Ticketsoftware für Veranstaltungen | Chobble Tickets
-meta_description: Verkaufen Sie Tickets für £50 im Jahr oder £5 im Monat, ohne Gebühr pro Ticket. Enthalten sind Zahlungen, QR-Einlass, Rückerstattungen, Berichte und eine gehostete Buchungswebsite.
+meta_description: Verkaufen Sie Tickets für £50 im Jahr oder £5 im Monat, ohne Gebühr pro Ticket. Mit Zahlungen, QR-Einlass, Rückerstattungen und Buchungswebsite.
 permalink: /de/
 blocks:
   - type: hero

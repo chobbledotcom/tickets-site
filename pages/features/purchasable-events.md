@@ -14,7 +14,7 @@ blocks:
     content: |-
       # Purchasable events
 
-      Collect donations, sell raffle tickets, take membership dues, or run any kind of payment collection without an event to attend.
+      A listing with "No check-in" switched on takes payment for something nobody attends, such as a donation, raffle entries or membership dues. The buyer pays and gets a confirmation, but no entry ticket, QR code or wallet pass.
   - type: split-image
     content: |
       ## Flexible contributions without check-in
@@ -27,60 +27,49 @@ blocks:
     figure_caption: 'When a listing lets people pay more than it asks, it earns what they chose to pay. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/payments/paying-more-than-the-asking-price.feature">(src)</a></small>'
   - type: markdown
     content: |
-      ## Beyond ticketing
+      ## What it is used for
 
-      Most ticketing platforms are built around a single assumption: someone
-      buys a ticket and shows up. But plenty of payment collection doesn't
-      work that way.
+      - **Donations and appeals**, with a set amount or [pay what you
+        want](/features/stripe-and-square/) above a minimum
+      - **Raffle entries**, sold online with a quantity picker, while the
+        numbers and the draw stay with the organiser
+      - **Club dues and membership fees**, collected once a year or a season
+      - **School and PTA collections**, such as trip contributions and
+        uniform deposits
+      - **Merchandise and digital products**, sold alone or in the same order
+        as a ticket
 
-      With purchasable events, you can take payments for things that don't
-      involve physical attendance:
+      ## Example
 
-      - **Fundraising collections** - accept contributions for a cause with
-        a named amount or pay-what-you-want pricing
-      - **Raffle entry sales** - sell entries online with quantity selection,
-        then allocate numbers and run the draw outside Chobble Tickets
-      - **Club dues and membership fees** - collect annual or seasonal
-        payments from members without an event to attend
-      - **School and PTA collections** - book fees, trip contributions,
-        uniform deposits, and other group payments
-      - **Community group fundraisers** - sports clubs, Scout troops,
-        neighbourhood associations, and similar groups collecting money
-        online
-      - **Merchandise and goods** - sell items alongside or independently
-        from events
+      [Crumpsall Folk Club](https://tickets.crumpsallfolkclub.co.uk) sells
+      raffle tickets for its half-time draw as a separate listing next to its
+      admission tickets. On a page selling several listings, a buyer can put
+      admission and five raffle entries in one order and pay once.
 
-      ## How it works
+      ## What changes with No check-in
 
-      When you mark an event as purchase-only, the public listing shows a
-      **Buy now** button instead of the usual **Book now**, signalling that
-      no attendance is involved.
+      The booking button reads "Buy now" instead of "Reserve", and the
+      confirmation page says "Your Purchase" rather than "Your Tickets". QR
+      codes, the door scanner and Apple and Google Wallet passes are hidden,
+      and the listing stays out of the calendar and news feeds.
 
-      Everything else works exactly as normal: Stripe, Square, or SumUp processes
-      the payment, the buyer gets an email confirmation, and all purchases
-      appear in your admin panel with full CSV export. You can still set
-      capacity limits (for example, limiting a raffle to 200 tickets), use
-      custom questions to collect information, and process refunds if needed.
+      Payment, capacity, [booking questions](/features/custom-questions/),
+      confirmation emails, refunds and [CSV export](/features/csv-export/)
+      all work as they do for tickets. A capacity of 200 stops a raffle at
+      200 entries, and a maximum per purchase limits how many one order can
+      take.
 
-      ## Buying multiple at once
+      ## Buyer details
 
-      Purchasable events support quantity selection, so a supporter can buy
-      five raffle entries or contribute multiple units in a single checkout.
-      Set a maximum quantity per purchase where needed.
+      Buyers' names, emails and answers are encrypted in the database in the
+      same way as attendee details. Chobble does not market to buyers or show
+      them other organisers' events, and charges no fee on the money raised.
 
-      ## Pay what you want
+      ## Limits
 
-      For donation-style collections, enable
-      [pay-what-you-want pricing](/features/stripe-and-square/) so
-      supporters can contribute any amount above a minimum. This works for
-      fundraisers where people want to give more than the suggested amount.
-
-      ## Still encrypted, still yours
-
-      Purchaser data (names, emails, and any custom question answers) is
-      encrypted at rest the same as regular attendee data. There is no
-      marketing to your supporters, no cross-promotion, and no platform fee
-      beyond the flat subscription.
+      Chobble Tickets records raffle sales but does not allocate numbers or
+      draw winners. Gift Aid declarations are not collected automatically, so
+      a charity claiming Gift Aid needs its own booking question and records.
   - type: cta
     button:
       text: Get Started
@@ -88,8 +77,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Start collecting payments
+      ## Get started
 
-      Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
+      Charities and community groups pay £25 a year for managed hosting on the annual plan, with No check-in listings included.
 name: Collect Donations & Payments Without Ticketing - Chobble Tickets
 ---

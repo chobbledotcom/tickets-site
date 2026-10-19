@@ -35,6 +35,28 @@ blocks:
         label: Card, cash, refunds and costs
       - value: Encrypted details
         label: Attendee data in the database
+  - type: markdown
+    content: |
+      ## What a school disco costs to sell
+
+      Take a disco with 150 tickets at £3 each, which raises £450. On the £25
+      annual rate, Chobble's charge stays at £25 however many events the PTA
+      runs that year. Stripe's standard UK card fee of 1.5% + 20p comes to
+      £36.75 if each ticket is bought separately, and less when parents buy
+      several tickets in one order.
+
+      On Eventbrite's UK rate of 6.95% + £0.59 a ticket (checked 8 August
+      2026), the same 150 tickets carry about £120 in fees. Low ticket prices are
+      where a fixed charge on every ticket costs most, because 59p is nearly a fifth
+      of a £3 ticket.
+
+      ## Who runs Chobble Tickets
+
+      Chobble Tickets is run by Chobble CIC, a community interest company
+      registered in England and based in Prestwich, Manchester. It has no
+      shareholders, and its income comes from hosting and technical work rather than
+      advertising or selling attendee data. The [about page](/about/) lists its
+      company and data protection registrations.
   - type: split-image
     content: |
       ## Collect the details needed for each event

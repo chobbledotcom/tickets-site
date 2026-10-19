@@ -1,7 +1,7 @@
 ---
 title: Classes and Courses - Chobble Tickets
 meta_title: Class and Course Booking Software - Chobble Tickets
-meta_description: Class booking system for recurring sessions and multi-week courses, with per-session capacity, registration deadlines and no Chobble per-booking platform fee.
+meta_description: Class booking for recurring sessions and multi-week courses, with per-session capacity, registration deadlines and no Chobble per-booking fee.
 permalink: /perfect-for/classes-and-courses/
 eleventyNavigation:
   key: Classes & Courses

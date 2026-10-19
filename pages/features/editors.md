@@ -41,15 +41,32 @@ blocks:
 
       ## Inviting an editor
 
-      Invite an editor by email from the [users](/features/users/) page,
+      Invite an editor by username from the [users](/features/users/) page,
       the same way as owners, managers, and agents. The invite link is
       single use, expires after 7 days, and the editor sets their own
       password when they join.
 
       This suits an SEO consultant rewriting your event descriptions, a
       copywriter, a photographer uploading [images](/features/images/), or
-       a web agency that maintains your site. When the work is done, the
-       account can be removed and any active session revoked.
+      a web agency that maintains your site. When the work is done, the
+      owner removes the account, which ends any session it still has open.
+
+      ## Example
+
+      A theatre company hires a freelance copywriter to rewrite its autumn
+      season listings. The owner invites the copywriter as an editor, who
+      rewrites twelve listing descriptions and the homepage. The copywriter
+      sees how many places each show has booked, but no names, emails or
+      takings, and the owner removes the login once the season is live.
+
+      ## What else an editor cannot change
+
+      An editor cannot change where people's details are sent. The webhook
+      address on a listing is hidden from editors everywhere, including in
+      [catalogue exports](/features/catalogue-import-export/), so an editor
+      cannot point new bookings at an address of their own. This rule is one
+      of the published [editor test
+      cases](https://github.com/chobbledotcom/tickets/blob/main/specs/access/what-an-editor-can-do.feature).
   - type: split-image
     content: |
       ## A money-free listing view
@@ -67,8 +84,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Get help without handing over data
+      ## Get started
 
-      Sign up for managed hosting at £50/year or £5/month and invite an editor from the users page.
+      Editor logins are part of every hosted site, at £50 a year or £5 a month.
 name: Editor Accounts Without Booking Access - Chobble Tickets
 ---

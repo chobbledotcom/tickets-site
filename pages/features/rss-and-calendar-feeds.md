@@ -13,7 +13,7 @@ blocks:
     content: |-
       # RSS & calendar feeds
 
-      ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.
+      Every Chobble Tickets site publishes a calendar feed and an RSS feed of its upcoming events. Anyone can subscribe in Google Calendar, Apple Calendar, Outlook or a feed reader, and new events appear there without them visiting your site.
   - type: markdown
     content: |
       ## Calendar subscriptions
@@ -55,6 +55,22 @@ blocks:
       A [delivery agent](/features/logistics/) gets their own jobs from
       the run sheet in the admin panel, which is the right tool for a
       driver who should see only their own work.
+
+      ## Example
+
+      A folk club adds its calendar feed address to the "Gigs" page of its
+      main website with the words "Add our nights to your calendar". A
+      regular subscribes once in Google Calendar. When the club lists the
+      next three months of nights, they appear in that person's calendar,
+      and a changed date updates there too.
+
+      ## Limits
+
+      The public feeds list events, not bookings, so they show nothing about
+      who is coming. Listings with "No check-in" switched on, such as raffles
+      and donations, are left out of the calendar and news feeds. How quickly a calendar app
+      picks up a change depends on the app, since each one checks a
+      subscribed feed on its own schedule.
 
       ## Always up to date
 

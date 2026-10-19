@@ -155,8 +155,9 @@ blocks:
       enterprise" split.
 
       The recommended deployment compiles to a single JavaScript file that runs
-      on Bunny Edge Scripting with a Bunny database, so there is no server to
-      manage, no scaling to configure and no database replication to maintain.
+      on Bunny Edge Scripting with a hosted Turso or Bunny database, so there is
+      no server to manage, no scaling to configure and no database replication
+      to maintain.
       The [deployment page](/features/deployment/) covers the other routes.
       Deno Deploy runs the same kind of script on another company's hosting,
       and the repository ships Docker configuration with ready-made files for

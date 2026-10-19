@@ -1,7 +1,7 @@
 ---
 title: Why Chobble Tickets Cannot Go Closed Source - Chobble Tickets
 meta_title: Why Chobble Tickets Cannot Go Closed Source | Chobble Tickets
-meta_description: An open source licence on its own does not stop a product going closed. Chobble Tickets pairs AGPL-3.0-only code with a community interest company asset lock, no shareholders and no proprietary feature tier.
+meta_description: A licence alone does not stop a product going closed. Chobble Tickets pairs AGPL-3.0-only code with a community interest company asset lock.
 permalink: /features/cannot-go-closed-source/
 eleventyNavigation:
   key: Cannot Go Closed Source

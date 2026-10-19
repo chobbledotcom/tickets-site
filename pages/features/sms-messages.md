@@ -1,7 +1,7 @@
 ---
 title: SMS Messages - Chobble Tickets
 meta_title: SMS Messages - Chobble Tickets
-meta_description: Text attendees from your own Android phone and number using the free SMS Gateway for Android app. Messages are encrypted in transit and replies are recorded.
+meta_description: Text attendees from your own Android phone and number using the free SMS Gateway for Android app. Messages are encrypted and replies are recorded.
 permalink: /features/sms-messages/
 eleventyNavigation:
   key: SMS Messages
@@ -51,6 +51,25 @@ blocks:
       duplicate events are ignored, so a retried delivery report cannot
       create a second record. Each message you send is also added to the
       attendee's contact history.
+  - type: markdown
+    content: |
+      ## Example
+
+      An outdoor theatre moves a show indoors at short notice. The organiser
+      opens a booker's page, writes "Tonight's show has moved to the church
+      hall on Mill Lane, doors at seven", and sends it. The text joins a
+      queue, the spare Android phone in the box office sends it from the
+      theatre's own number, and any reply is recorded against that booker.
+
+      ## Limits
+
+      Texts go one person at a time from each attendee's page, so this is
+      not a bulk text service; [bulk email](/features/bulk-email/) covers
+      messages to everyone booked. The phone must be an Android phone that
+      stays switched on with signal. A booker who gave no phone number cannot
+      be texted, and nothing can be written until the gateway is set up. The
+      rules are published as [test
+      cases](https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/sending-somebody-a-text.feature).
   - type: cta
     button:
       text: Get Started
@@ -58,8 +77,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Text from your own number
+      ## Get started
 
-      Sign up for managed hosting at £50/year or £5/month and connect a spare Android phone.
+      Text messaging comes with every hosted site, at £50 a year or £5 a month, and needs a spare Android phone.
 name: SMS Messages - Chobble Tickets
 ---

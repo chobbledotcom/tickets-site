@@ -1,7 +1,7 @@
 ---
 title: Church Events - Chobble Tickets
 meta_title: Ticketing for Church Events | Chobble Tickets
-meta_description: Event ticketing for churches and faith groups, with free sign-ups, ticketed concerts and fundraisers, QR check-in, encrypted attendee data and a reduced community rate.
+meta_description: Event ticketing for churches and faith groups, with free sign-ups, ticketed concerts and fundraisers, QR check-in and a reduced community rate.
 permalink: /perfect-for/church-events/
 eleventyNavigation:
   key: Church Events

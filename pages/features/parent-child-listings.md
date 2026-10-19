@@ -61,6 +61,16 @@ blocks:
       and avoids deeply nested choices. A daily child inherits the parent's
       date, and a multi-day child must match the parent's duration.
 
+      ## Example
+
+      A small festival sells a weekend pass and two camping options,
+      "General camping" with 80 pitches and "Quiet camping" with 20. The
+      pass is the parent and both camping options are children. A group
+      buying two passes must choose two camping places before checkout, one
+      of each or two of the same. When quiet camping sells out, it can no
+      longer be picked and buyers can still choose general camping. When both
+      sell out, the pass shows as sold out.
+
       ## On the attendee record
 
       The attendee detail page shows the relationship: a parent row lists
@@ -78,8 +88,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Bookings that come as a set
+      ## Get started
 
-      Require child listings at checkout, without a separate add-on flow.
+      Parent and child listings come with every hosted site, at £50 a year or £5 a month.
 name: Required Child Listings - Chobble Tickets
 ---

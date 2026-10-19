@@ -1,7 +1,7 @@
 ---
 title: Chobble Tickets Examples
 meta_title: Chobble Tickets Examples - Sites Built With Chobble Tickets
-meta_description: Sites built with Chobble Tickets. A gardening business and a dog training school run on their own domains, plus demos for arts workshops, skip hire and a play centre.
+meta_description: "Sites built with Chobble Tickets: a gardening business and a dog training school on their own domains, plus demos for workshops, skip hire and play."
 permalink: /examples/
 eleventyNavigation:
   key: Examples

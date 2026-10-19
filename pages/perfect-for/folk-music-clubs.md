@@ -35,6 +35,22 @@ blocks:
         label: No check-in ticket needed
       - value: £25
         label: Eligible community rate
+  - type: markdown
+    content: |
+      ## Crumpsall Folk Club
+
+      [Crumpsall Folk Club](https://crumpsallfolkclub.co.uk) meets on the
+      third Thursday of each month, upstairs at The Cleveland in north
+      Manchester. It sells tickets from
+      [tickets.crumpsallfolkclub.co.uk](https://tickets.crumpsallfolkclub.co.uk)
+      and keeps its news and newsletter on its main website. Chobble hosts
+      both: the ticket site on its managed hosting, and the main website as
+      a Ghost site on PikaPods.
+
+      For its October 2026 club night, the club listed a £5 normal ticket, a
+      £10 solidarity ticket and a £2 concession as three listings. A fourth
+      listing, set for 8.45pm, sold raffle tickets for the half-time draw.
+      Performers got in free.
   - type: split-image
     content: |
       ## Account for advance sales and money at the door

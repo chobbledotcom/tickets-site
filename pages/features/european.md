@@ -1,7 +1,7 @@
 ---
 title: Hosting Locations and Data - Chobble Tickets
 meta_title: Hosting Locations and Data | Chobble Tickets
-meta_description: Chobble managed hosting uses Bunny.net. Databases use Bunny's available primary and replica regions, while optional providers have their own data terms.
+meta_description: Chobble managed hosting runs on Bunny.net in Slovenia, with databases on Turso's servers in Ireland. Optional providers have their own data terms.
 permalink: /features/european/
 eleventyNavigation:
   key: Hosting and Data
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Hosting locations and data
 
-      Chobble is a UK company and Bunny, its managed-hosting provider, is headquartered in Slovenia. Managed databases use Bunny's available primary and replica regions, including locations outside Europe.
+      Chobble is a UK company. Its managed sites run on Bunny, which is headquartered in Slovenia, and their databases are kept on Turso's servers in Ireland, so the ticketing databases and their backups stay in Europe. Turso itself is a US company.
   - type: markdown
     content: |
       ## Where each part of Chobble is based
@@ -26,14 +26,15 @@ blocks:
       |---|---|---|
       | Ticketing software | [Chobble](https://www.chobble.com) | United Kingdom |
       | Hosting and CDN | [Bunny.net](https://bunny.net) | Slovenia |
-      | Ticketing database | [Bunny Database](https://bunny.net) | Bunny's available primary and replica regions; storage region `eu-west-1` |
+      | Ticketing database | [Turso](https://turso.tech) (ChiselStrike Inc.) | United States; Chobble's databases are in its Ireland region |
+      | Database backups | [Hetzner](https://www.hetzner.com) and [Scaleway](https://www.scaleway.com) | Germany and France |
       | Domain registrar | [Njalla](https://njal.la) | Sweden |
       | Default email provider | [Mailgun EU](https://www.mailgun.com/) | EU endpoint (US parent company) |
       | Payment processor | [Stripe](https://stripe.com), [Square](https://squareup.com) or [SumUp](https://sumup.com) | United States, United States or United Kingdom |
 
-      That row describes managed hosting. A self-hosted site can use
-      [Turso](https://turso.tech) or another libSQL service as its ticketing
-      database, which brings its own region choice.
+      That row describes managed hosting. A self-hosted site can use a Bunny
+      database, Turso or another libSQL service as its ticketing database, and
+      each brings its own region choice.
       [Deploying an event ticketing site](/features/deployment/) covers the
       options.
 
@@ -43,7 +44,7 @@ blocks:
   - type: markdown
     dark: true
     content: |
-      ## Bunny infrastructure and database regions
+      ## Bunny infrastructure and the Turso database
 
       Chobble Tickets runs on [Bunny.net](https://bunny.net), a content
       delivery network and edge computing platform headquartered in
@@ -51,10 +52,15 @@ blocks:
       Europe rather than reselling capacity from Amazon, Google, or
       Microsoft.
 
-      Chobble's database builder asks Bunny for its current primary and replica
-      regions and uses all of them. This allows regional database access but
-      means records may be replicated outside the UK and EU. The configured
-      database storage region is `eu-west-1`.
+      Each managed site's database is held by [Turso](https://turso.tech), a
+      hosted database service run by ChiselStrike Inc., a US company. Chobble
+      keeps those databases in Turso's Ireland region, so the databases
+      stay in Europe. Chobble
+      moved its managed sites from Bunny's own database product to Turso
+      because Bunny's database is still in beta and has been less reliable.
+      Database backups are stored with [Hetzner](https://www.hetzner.com) in
+      Germany and [Scaleway](https://www.scaleway.com) in France, so they stay
+      in Europe as well.
 
       On Chobble's managed hosting, attendee personal data is
       [encrypted at rest](/features/encrypted/). A
@@ -64,7 +70,7 @@ blocks:
     content: |
       ## What this means for data protection
 
-      Chobble's use of global Bunny database regions does not remove the
+      Chobble's use of a US database provider does not remove the
       organiser's obligations under UK GDPR or the EU General Data Protection
       Regulation. Organisers with data-residency requirements should assess
       whether this deployment model is suitable.
@@ -126,7 +132,8 @@ blocks:
 
       A provider's legal obligations depend on its corporate structure,
       contracts and the countries in which it operates. Chobble CIC is a UK
-      company and Bunny is headquartered in Slovenia. Optional providers may
+      company, Bunny is headquartered in Slovenia and Turso's operator,
+      ChiselStrike Inc., is a US company. Optional providers may
       be based elsewhere, so organisers with specific legal requirements should
       review those providers before enabling them.
   - type: markdown
@@ -147,8 +154,8 @@ blocks:
 
       For most Chobble Tickets organisers, the registrar is invisible in
       day-to-day use. The reason to name it here is that the domain sits
-      with a small Swedish operator rather than a US-based registrar,
-      which is consistent with the rest of the stack. If you self-host,
+      with a small Swedish operator rather than a US-based registrar. If you
+      self-host,
       you pick your own registrar.
   - type: markdown
     content: |

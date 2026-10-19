@@ -50,6 +50,16 @@ blocks:
     figure_caption: 'Look someone up by name when their ticket cannot be scanned. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/attendees/checking-people-in-at-the-door.feature">(src)</a></small>'
   - type: markdown
     content: |
+      ## Example
+
+      A club night has 80 bookings, four of them for groups of five. Two
+      volunteers sign in with scanner logins on their own phones and scan
+      tickets from emails, printouts and [Apple or Google
+      Wallet](/features/apple-wallet/) passes, which carry the same code.
+      When a group of five arrives with two people, the volunteer checks in
+      two places, and the other three scan in later on the same ticket.
+      Someone without their ticket is found by name in the manual search.
+
       ## Event QR codes for posters
 
       Each event also gets its own QR code SVG (at `/ticket/:slug/qr`) that
@@ -100,8 +110,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Scan tickets at the door
+      ## Get started
 
-      Use the browser-based scanner to check bookings in at the door.
+      The door scanner comes with every hosted site, at £50 a year or £5 a month, for as many volunteers as you need.
 name: QR Code Ticket Check-In | Chobble Tickets
 ---

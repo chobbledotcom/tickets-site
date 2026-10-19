@@ -1,7 +1,7 @@
 ---
 title: Who Can See Your Attendee Data - Chobble Tickets
 meta_title: Who Can See Your Attendee Data | Chobble Tickets
-meta_description: See which users and configured service providers may receive attendee data through Chobble Tickets, including payments, email, webhooks and managed hosting.
+meta_description: Which users and configured service providers may receive attendee data through Chobble Tickets, including payments, email, webhooks and hosting.
 permalink: /features/who-can-see-your-data/
 eleventyNavigation:
   key: Who Can See Your Data

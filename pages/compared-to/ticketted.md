@@ -2,7 +2,7 @@
 competitor_key: ticketted
 title: Ticketted Alternative
 meta_title: Open Source & Flat Fee Ticketted Alternative | Chobble Tickets
-meta_description: Compare Chobble Tickets and Ticketted on per-ticket fees, charity rates, event discovery, attendee data, source licensing and which countries each one serves.
+meta_description: Compare Chobble Tickets and Ticketted on per-ticket fees, charity rates, event discovery, attendee data, source licensing and countries served.
 permalink: /compared-to/ticketted/
 eleventyNavigation:
   key: vs Ticketted

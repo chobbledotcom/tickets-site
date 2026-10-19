@@ -1,7 +1,7 @@
 ---
 title: Enshittification-Resistant Ticket Sales - Chobble Tickets
 meta_title: Enshittification-Resistant Ticket Sales | Chobble Tickets
-meta_description: Enshittification is Cory Doctorow's name for the pattern by which online platforms decay. Chobble Tickets is structured against it with an open licence, an asset-locked community interest company, no feature tiers, no free plan, no subscription billing, encrypted attendee data, open APIs and payments that go straight to the organiser.
+meta_description: Enshittification is Cory Doctorow's name for how online platforms decay. Chobble Tickets is structured against it, from its licence to its company form.
 permalink: /features/enshittification-resistant-ticket-sales/
 eleventyNavigation:
   key: Enshittification Resistant Ticket Sales

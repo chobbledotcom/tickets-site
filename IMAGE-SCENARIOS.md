@@ -7,7 +7,7 @@ layout: null
 
 ## Scope
 
-This audit covers 186 English content pages, counting translated pages only
+This audit covers 189 English content pages, counting translated pages only
 through their English source. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
@@ -15,8 +15,8 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 184 | 78 | 106 |
-| **All English content pages** | **186** | **78** | **108** |
+| Editorial pages in the sitemap | 187 | 81 | 106 |
+| **All English content pages** | **189** | **81** | **108** |
 
 The 106 image-less editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.

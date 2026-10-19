@@ -14,14 +14,17 @@ blocks:
     content: |-
       # Public & Admin API
 
-      A RESTful JSON API with public endpoints for event listings and an authenticated admin API for reading and editing private data, so you can build custom frontends, integrations, and automations.
+      Chobble Tickets has two APIs, ways for other software to talk to your site. The public API lets any website read your listings and availability and make bookings without a key, and the admin API lets a program holding a key manage the site.
   - type: markdown
     content: |
       ## Build what you need
 
-      The public API gives you access to event listings, availability data,
-      and booking functionality. No API key is required for public endpoints.
-      Make HTTP requests and get JSON back.
+      The public API is switched off until the owner turns it on in the
+      advanced settings. Once on, it answers five kinds of request without a
+      key: the list of listings, one listing, the dates with places left on
+      a listing, a package, and a booking for a listing or package. Requests
+      and answers are in JSON, a plain-text data format most programming
+      languages read.
 
       This means you can build your own event listing page on your existing
       website, create a custom booking flow, or pull event data into any system
@@ -50,9 +53,26 @@ blocks:
     content: |
       ## What the admin API can do
 
-      The [admin API](/features/admin-api/) gives you full CRUD control over
-      events (create, update, list, delete, and toggle active state), with
-      attendee endpoints coming next.
+      The [admin API](/features/admin-api/) lists, creates, changes and
+      removes listings, groups, holidays and listing options, takes listings
+      off sale and back on, and reads a listing's attendees.
+
+      ## Example
+
+      A web designer builds a custom calendar for a dance school's own
+      website. The page calls `GET /api/listings` to show the term's
+      classes and `/api/listings/:slug/availability` to grey out full dates,
+      then sends a booking to `/api/listings/:slug/book`. A booking made this
+      way follows the same capacity rules as one made on the booking site,
+      and the [published API booking
+      tests](https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/booking-through-the-api.feature)
+      check that a stay booked through the API holds every day it covers.
+
+      ## Limits
+
+      The public API cannot read attendees, income or settings, which need
+      the admin API and a key. Building on either API takes a developer, so
+      organisers without one can use the embed codes below instead.
 
       ## Embeddable widget
 
@@ -71,8 +91,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Integrate anywhere
+      ## Read the documentation
 
-      Use the API to build exactly what you need.
+      The API documentation lists every call, with example requests and answers.
 name: Public & Admin API - Chobble Tickets
 ---

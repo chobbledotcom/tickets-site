@@ -13,6 +13,34 @@ blocks:
       # Ticketing software for events, hire and service bookings
 
       Chobble Tickets handles ticketed events, repeating sessions, day-based hire, payment collections and bookings that need deposits or delivery records. Managed hosting has the same flat price across these uses.
+  - type: markdown
+    content: |
+      ## Organisers using it now
+
+      The same software runs very different businesses. [Tom Butterworth
+      Gardening and Education](https://www.tbgardening.co.uk) sells places on
+      gardening workshops, [Chalkie's School for
+      Dogs](https://www.chalkiesdogs.co.uk) sells dog training classes, and
+      [Crumpsall Folk Club](https://tickets.crumpsallfolkclub.co.uk) sells
+      monthly club nights with a raffle. Each runs from its own domain, and
+      the [examples page](/examples/) shows their sites beside Chobble's demos
+      for arts workshops, skip hire and a play centre.
+
+      ## Choosing the right page
+
+      Each page below sets out how one kind of organiser would set Chobble
+      Tickets up and which features it relies on, and most include a
+      screenshot of that setup. Most setups come down to three listing types: a standard listing for one
+      date, a [daily listing](/features/daily-events/) where the customer
+      picks a date, and a [multi-day hire](/features/multi-day-hire/) that
+      holds stock across several days.
+
+      ## What it does not cover
+
+      Chobble Tickets has no seating plans and no event marketplace, so it
+      does not suit a venue selling named seats or an organiser relying on a
+      platform to find new customers.
+
   - type: features
     intro_content: "## Uses for Chobble Tickets"
     items:

@@ -1,7 +1,7 @@
 ---
 title: Free Events - Chobble Tickets
 meta_title: Free Event Registration With a Headcount | Chobble Tickets
-meta_description: Run free events that still need a list. Free listings need no payment provider, and keep capacity, questions, confirmation emails, check-in and encrypted records.
+meta_description: Run free events that still need a list. Free listings need no payment provider and keep capacity, questions, emails, check-in and encrypted records.
 permalink: /perfect-for/free-events/
 ticket_evidence_capture: free-headcount-no-money
 eleventyNavigation:

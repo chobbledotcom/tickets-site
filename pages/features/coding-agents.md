@@ -1,7 +1,7 @@
 ---
 title: Hosting Event Ticketing Software with a Coding Agent - Chobble Tickets
-meta_title: Host Event Ticketing Software with an AI Coding Agent | Chobble Tickets
-meta_description: Chobble Tickets sells tickets for events, and publishes its whole source with 100% test coverage, a 0% duplication threshold and a complexity ceiling, so a coding agent such as Claude Code gets a mechanical verdict on the changes it makes.
+meta_title: Host Ticketing Software with an AI Coding Agent | Chobble Tickets
+meta_description: Chobble Tickets publishes its whole source with 100% test coverage and a complexity ceiling, so a coding agent gets a mechanical verdict on its changes.
 permalink: /features/coding-agents/
 eleventyNavigation:
   key: Coding Agents
@@ -188,8 +188,9 @@ blocks:
       ## No server to maintain
 
       An edge script has no operating system to patch, no container to rebuild
-      and no instance to keep running. The database is a managed Bunny
-      database, and its schema migrates itself on the first request.
+      and no instance to keep running. The database is a managed libSQL
+      database, on Turso or Bunny, and its schema migrates itself on the
+      first request.
 
       For an agent helping somebody else deploy, that removes the part of the
       job that usually takes longest to explain. There is no virtual private

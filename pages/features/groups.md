@@ -14,7 +14,7 @@ blocks:
     content: |-
       # Event groups
 
-      Organise related events together, let attendees book multiple events in a single checkout, and create tiered ticket types with shared capacity.
+      A group puts related listings on one public page, so a customer can book several of them in one checkout. A group can also share one capacity between its listings, which is how Chobble Tickets sells different ticket types for the same room.
   - type: split-image
     content: |
       ## Multi-event bookings
@@ -72,6 +72,22 @@ blocks:
       listing in the group, so a multi-day festival, a multi-venue event
       or a weekend programme runs on one door list.
 
+      ## Example
+
+      [Crumpsall Folk Club](https://tickets.crumpsallfolkclub.co.uk) sells
+      each club night as a £5 normal ticket, a £10 solidarity ticket and a
+      £2 concession, each its own listing. Put in one group with a shared
+      maximum equal to the room's size, three price points like these stop
+      selling together when the room is full, whichever mix of tickets sold.
+
+      ## Limits
+
+      Shared capacity counts places, not seats, so a group cannot sell named
+      seats or seating sections. The shared maximum is checked when payment
+      confirmation arrives rather than held during checkout, so if two
+      payments race for the last place, the later one is refunded
+      automatically.
+
       ## Daily events
 
       For events that run on specific dates (classes, workshops, recurring
@@ -81,9 +97,10 @@ blocks:
 
       ## Organisation
 
-      Groups help you keep your admin tidy too. You can filter and manage
-      events by group in the dashboard, and each group gets its own public
-      page listing all its events.
+      Groups help you keep your admin tidy too. The admin listings and
+      attendees pages can be filtered to one group, and a CSV download from
+      a filtered page holds only that group's rows. Each group also gets its
+      own public page listing all its events.
 
       See the [API documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html)
       for details on event grouping and availability management.
@@ -94,8 +111,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Organise your events
+      ## Get started
 
-      Group events together for a better booking experience.
+      Groups and shared capacity come with every hosted site, at £50 a year or £5 a month.
 name: Event Groups & Tiered Ticket Types - Chobble Tickets
 ---

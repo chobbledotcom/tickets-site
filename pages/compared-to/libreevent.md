@@ -1,7 +1,7 @@
 ---
 title: libreevent Alternative
 meta_title: Maintained & Hosted libreevent Alternative | Chobble Tickets
-meta_description: Compare Chobble Tickets and libreevent on hosting, cost, seat plans, server requirements, Stripe and Payrexx support and the archived state of the libreevent code.
+meta_description: Compare Chobble Tickets and libreevent on hosting, cost, seat plans, server needs, Stripe and Payrexx support and the archived libreevent code.
 permalink: /compared-to/libreevent/
 eleventyNavigation:
   key: vs libreevent
@@ -222,9 +222,9 @@ blocks:
       restarts the application.
 
       Chobble Tickets runs on Bunny Edge, Deno Deploy or a Docker-capable host.
-      The recommended Bunny deployment compiles to a single JavaScript file and
-      uses a Bunny database, and Docker deployments use SQLite or a remote
-      libSQL database such as Turso. On managed hosting there is no server to
+      The recommended Bunny deployment compiles to a single JavaScript file
+      with a Turso or Bunny database, and Docker deployments use SQLite or a
+      remote libSQL database such as Turso. On managed hosting there is no server to
       set up at all.
   - type: markdown
     content: |

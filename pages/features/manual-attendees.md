@@ -14,7 +14,7 @@ blocks:
     content: |-
       # Manual attendees
 
-      Add walk-ins and complimentary tickets, edit booking records, and merge duplicate attendees from the administration area.
+      Organisers can add a booking themselves for someone who rang up, paid cash or has a free place. A booking added by hand is a real booking: it uses up a place, appears in the attendee list and checks in at the door like one made online.
   - type: markdown
     content: |
       ## One list for every guest
@@ -24,18 +24,30 @@ blocks:
       for check-in and export.
   - type: markdown
     content: |
+      ## Example
+
+      A community supper has 40 places, and 32 have sold online. A regular
+      rings to book two places and will pay cash on the night. The organiser
+      adds the booking with a quantity of two, so the listing shows six
+      places left rather than eight. On the night, the cash goes into the
+      [ledger](/features/ledger/) against that booking.
+
+      A booking added by hand is refused if the listing has no room, in the
+      same way an online booking is. The rule is one of the [published test
+      cases](https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/adding-a-booking-by-hand.feature)
+      for bookings added by hand.
+
       ## Walk-ins and comp tickets
 
-      Not every attendee books online. Add walk-up registrations and
-      complimentary tickets directly from the admin panel, so your attendee
-      list stays complete and accurate regardless of how someone got their
+      Walk-up registrations and complimentary tickets go in from the admin
+      area, so the attendee list includes everyone however they got their
       place.
 
       ## Edit and reassign
 
-      Need to correct a name, update an email address, or move someone to a
-      different event? Edit attendee details and reassign events from the
-      admin panel without needing to cancel and rebook.
+      Names, email addresses and other details can be corrected from the
+      admin area, and a booking can move to a different listing without being
+      cancelled and made again.
 
       ## Complete records
 
@@ -107,8 +119,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Attendee records
+      ## Get started
 
-      Handle walk-ins and comp tickets alongside online bookings.
+      Bookings added by hand come with every hosted site, at £50 a year or £5 a month.
 name: Manual Attendees - Chobble Tickets
 ---

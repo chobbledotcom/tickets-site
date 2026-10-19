@@ -1,7 +1,7 @@
 ---
 title: Cal.com Alternative
 meta_title: Open Source & Flat Fee Cal.com Alternative | Chobble Tickets
-meta_description: Cal.com is a scheduling platform that took its production code closed source in April 2026. See how Chobble Tickets compares for paid bookings and event ticketing.
+meta_description: Cal.com is a scheduling platform that took its production code closed source in April 2026. See how Chobble Tickets compares for paid bookings.
 permalink: /compared-to/cal-com/
 eleventyNavigation:
   key: vs Cal.com

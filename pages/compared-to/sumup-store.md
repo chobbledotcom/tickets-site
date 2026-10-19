@@ -1,7 +1,7 @@
 ---
 competitor_key: sumup_store
 title: SumUp Online Store Alternative
-meta_title: Open Source & Purpose-Built SumUp Online Store Alternative | Chobble Tickets
+meta_title: Open Source SumUp Online Store Alternative | Chobble Tickets
 meta_description: Compare using a SumUp Online Store to sell tickets with Chobble Tickets on fees, QR check-in, capacity limits, refunds, attendee data and self-hosting.
 permalink: /compared-to/sumup-store/
 eleventyNavigation:

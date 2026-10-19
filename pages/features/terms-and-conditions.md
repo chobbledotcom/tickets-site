@@ -1,7 +1,7 @@
 ---
 title: Terms & Conditions - Chobble Tickets
 meta_title: Terms & Conditions - Chobble Tickets
-meta_description: Set global terms that attendees must agree to before booking, with configurable contact fields and special instructions.
+meta_description: Show your terms on the booking page and require a ticked box before any order is sent. Groups of listings can carry their own terms.
 permalink: /features/terms-and-conditions/
 eleventyNavigation:
   key: Terms & Conditions
@@ -11,37 +11,53 @@ blocks:
   - type: hero
     class: gradient
     content: |-
-      # Terms & conditions
+      # Terms and conditions
 
-      Set global terms that attendees must agree to before booking, with configurable contact fields and special instructions.
+      Chobble Tickets can show your terms on the booking page with a box beside them, and the booking cannot be sent until the box is ticked. One set of terms covers the whole site, and a group of listings can have its own terms instead.
   - type: split-image
     content: |
-      ## Require agreement before booking
+      ## How the agreement works
 
-      Write your terms and conditions in the settings, and every attendee
-      must tick a checkbox to agree before they can complete their booking.
-      This is useful for liability waivers, age restrictions, code of
-      conduct agreements, or any policy you need attendees to acknowledge.
+      Write your terms in the "Terms and Conditions" box in your site's
+      settings. From then on every booking page shows them, with a box the
+      customer must tick before the page will send the order. Clear the box
+      in settings and the requirement goes away.
 
-      You can also set per-group terms and conditions that override the
-      global ones, so different types of events can have their own specific
-      terms with whatever context you like.
+      One tick covers the whole order. A customer booking a workshop and a
+      mug together agrees once, and both are booked.
     figure_src: /images/screenshots/workshop-terms-checkout.png
     figure_alt: Wheel-throwing taster workshop checkout filled for Maya Patel with two places and the workshop terms agreement selected
     figure_caption: Show the terms at checkout and require agreement before the booking can continue.
   - type: markdown
     content: |
-      ## Configurable contact fields
+      ## Different terms for different events
 
-      Choose which contact information to collect from attendees. Enable or
-      disable fields for email, phone number, and postal address depending
-      on what you need for your events.
+      A [group](/features/groups/) of listings can carry its own terms, which
+      replace the site-wide terms on that group's booking page. A venue could
+      use its standard terms for gigs and a separate group with a liability
+      waiver for climbing sessions. The terms box accepts
+      [formatting](/features/markdown-descriptions/), so it can hold headings,
+      lists and a link to a longer policy.
 
-      ## Special instructions
+      ## Choosing what to ask for
 
-      Add a special instructions text field to the booking form so attendees
-      can provide dietary requirements, accessibility needs, or any other
-      information you need to know before the event.
+      Each listing has its own contact fields: email, phone, postal address
+      and special instructions. Turn on only the ones that listing needs. A
+      free community talk might ask for a name and email, while a delivered
+      hire booking also asks for an address.
+
+      Special instructions gives the customer a free-text box for dietary
+      needs, access needs or anything else you should know. If a listing does
+      not ask for an email address, the attendee is not emailed their ticket,
+      and the listing form warns you of this.
+
+      ## Where this is tested
+
+      The terms box, the single agreement for a mixed order and the page with
+      no terms are each a case in the [published terms
+      tests](https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/agreeing-to-the-terms-before-booking.feature).
+      Chobble Tickets does not write terms for you, so the wording and its
+      legal effect are the organiser's to decide.
   - type: cta
     button:
       text: Get Started
@@ -49,8 +65,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Set your terms
+      ## Get started
 
-      Make sure attendees agree to your terms before booking.
+      Booking terms come with every hosted site, at £50 a year or £5 a month.
 name: Terms & Conditions - Chobble Tickets
 ---

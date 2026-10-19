@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Admin API
 
-      A RESTful JSON API for managing your events programmatically. Create, update, list, and delete events with API key authentication, so you can automate your workflow and build custom integrations.
+      The admin API lets another program manage a Chobble Tickets site with an API key instead of a login. A script, spreadsheet or shop screen can list, create, change and remove listings, groups, holidays and listing options, and read a listing's attendees.
   - type: markdown
     content: |
       ## Full event management
@@ -31,9 +31,9 @@ blocks:
       - **Activate / deactivate** - toggle events on and off without
         deleting them
 
-      Every change is recorded in the
-      [activity log](/features/activity-logs/), so you have a full audit
-      trail of programmatic actions alongside manual ones.
+      Groups, [holidays](/features/daily-events/) and listing attributes,
+      such as sizes and their options, have the same list, read, create,
+      update and delete calls.
   - type: split-image
     content: |
       ## Authentication
@@ -81,6 +81,26 @@ blocks:
       [webhooks](/features/webhooks/) system, and the
       [embeddable widget](/features/embeddable-widget/), you can build
       exactly the integration you need.
+  - type: markdown
+    content: |
+      ## Example
+
+      An owner makes a key called "Shopfront" on the API keys page and
+      copies it straight away, because the site shows it only once. A
+      script then sends `GET /api/admin/listings` with the header
+      `Authorization: Bearer` followed by the key, and gets back every
+      listing as JSON. The same key can `POST` a new listing, which goes on
+      sale at once. The full list of calls is in the [API
+      documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html).
+
+      ## Limits
+
+      A key acts as the site's owner within the API, so anyone holding it
+      can change what you sell. It cannot open the admin pages a person
+      uses, including the page where keys are made, and the owner can
+      withdraw it at any time. The rules for keys are published as [test
+      cases](https://github.com/chobbledotcom/tickets/blob/main/specs/access/letting-another-system-in.feature).
+
   - type: cta
     button:
       text: Read the API Docs

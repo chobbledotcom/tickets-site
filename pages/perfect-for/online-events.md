@@ -1,7 +1,7 @@
 ---
 title: Online and Hybrid Events - Chobble Tickets
 meta_title: Registration for Online and Hybrid Events | Chobble Tickets
-meta_description: Take free or paid registrations for online and hybrid events, then send the joining link to that event's attendees by email. Chobble Tickets hosts no video.
+meta_description: Take free or paid registrations for online and hybrid events, then email the joining link to that event's attendees. Chobble Tickets hosts no video.
 permalink: /perfect-for/online-events/
 ticket_evidence_capture: one-days-audience
 eleventyNavigation:

@@ -1,7 +1,7 @@
 ---
 title: Platform Alternatives
 meta_title: Platform Alternatives Compared | Chobble Tickets
-meta_description: Compare Chobble Tickets with Eventbrite, Pretix, Ticket Tailor, Onfleet and other platforms on organiser fees, hosting, features, attendee data and trade-offs.
+meta_description: Compare Chobble Tickets with Eventbrite, Pretix, Ticket Tailor and other platforms on organiser fees, hosting, features, attendee data and trade-offs.
 permalink: /compared-to/
 eleventyNavigation:
   key: Compared To
@@ -12,7 +12,32 @@ blocks:
     content: |-
       # How Chobble Tickets compares
 
-      Every platform has trade-offs. Each page below compares Chobble Tickets to one platform on pricing, features and data handling. The [ticketing guides](/guide/choosing-a-ticket-platform/), [pricing](/pricing/), [hosting](/hosting/) and [open source](/features/open-source/) pages group providers by topic or describe Chobble Tickets without a competitor comparison.
+      Chobble Tickets charges one flat rate for hosting, £50 a year or £5 a month, and takes nothing from each ticket sold. Each page below compares it with one other platform on pricing, features and what happens to attendee data, including what the other platform does better.
+  - type: markdown
+    content: |
+      ## Flat-rate ticketing and hosting
+
+      Most platforms reviewed here charge for each ticket, as a percentage, a
+      fixed amount or both. Some charge a subscription instead, and several
+      put features behind higher plans. Among the providers with records on
+      this site, Chobble Tickets is the only managed ticketing product with a
+      single price that does not change with ticket volume, no feature tiers,
+      no per-sale platform fee and the option to self-host the same software.
+      The [flat-rate ticketing guide](/guide/choosing-a-ticket-platform/flat-rate-ticketing/)
+      sets out which providers come closest.
+
+      ## How the comparisons are written
+
+      Chobble, the community interest company that runs Chobble Tickets,
+      writes these comparisons. Each one lists the pages its facts came from
+      and the date they were checked, and the most recent checks were made on
+      12 October 2026. Where a fact could not be confirmed, the comparison
+      says so rather than guessing.
+
+      The [ticketing guides](/guide/choosing-a-ticket-platform/),
+      [pricing](/pricing/), [hosting](/hosting/) and [open
+      source](/features/open-source/) pages group providers by topic or
+      describe Chobble Tickets without a competitor comparison.
   - type: features
     intro_content: |
       ## Platform alternatives

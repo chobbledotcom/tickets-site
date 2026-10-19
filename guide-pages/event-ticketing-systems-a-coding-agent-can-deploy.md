@@ -2,7 +2,7 @@
 name: Event Ticketing Systems a Coding Agent Can Deploy
 subtitle: Which event ticketing providers publish code an agent can read, and whether it is the code the provider runs
 meta_title: Event Ticketing Systems a Coding Agent Can Deploy | Chobble Tickets
-meta_description: Compare event ticketing providers by whether their source is published, whether the published code is the code that runs, and what a coding agent would have to maintain after deploying it.
+meta_description: Compare ticketing providers by whether their source is published, whether it is the code that runs, and what a coding agent would have to maintain.
 guide-category: choosing-a-ticket-platform
 order: 7
 blocks:

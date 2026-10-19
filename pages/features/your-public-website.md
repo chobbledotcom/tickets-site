@@ -45,7 +45,12 @@ blocks:
       contact page text are written in Markdown.
 
       The site serves its own robots.txt, which tells search engines which
-      parts of the site they may index.
+      parts of the site they may index. While the public site is switched on,
+      it also serves a sitemap at `/sitemap.xml`. The
+      sitemap lists the homepage, every content page and news post, and
+      every listing and group that is not hidden, so search engines can find
+      new events without waiting to follow a link. Both use your custom
+      domain once it has passed validation.
 
       The site renders in a [light or dark theme](/features/light-and-dark-themes/),
       and a toggle controls whether links are underlined. For anything

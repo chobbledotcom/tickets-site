@@ -1,7 +1,7 @@
 ---
 title: Order Widget - Chobble Tickets
 meta_title: Order Widget - Chobble Tickets
-meta_description: Add one JavaScript file to your existing website to turn its links into add-to-cart buttons, with a floating cart that hands off to the hosted booking page.
+meta_description: Add one JavaScript file to your website to turn its links into add-to-cart buttons, with a floating cart that hands off to the hosted booking page.
 permalink: /features/order-widget/
 eleventyNavigation:
   key: Order Widget

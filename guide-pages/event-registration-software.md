@@ -2,7 +2,7 @@
 name: Event Registration Software
 subtitle: What registration software needs to collect, confirm and protect, beside the ticket sale itself
 meta_title: Event Registration Software for UK Events | Chobble Tickets
-meta_description: Event registration software for UK organisers, covering free sign-ups, capacity, custom questions, confirmation emails, encrypted records and paid registration.
+meta_description: "Event registration software for UK organisers: free sign-ups, capacity, custom questions, confirmation emails, encrypted records and paid registration."
 guide-category: choosing-a-ticket-platform
 order: 9
 blocks:
@@ -18,6 +18,13 @@ blocks:
       Many events need both. A free talk needs only a registration, and a
       workshop charges for the place but still asks the questions. One
       tool doing both keeps a single list rather than two.
+
+      On Chobble Tickets, [Chalkie's School for
+      Dogs](https://www.chalkiesdogs.co.uk) and [Tom Butterworth Gardening
+      and Education](https://www.tbgardening.co.uk) take paid registrations
+      for classes and workshops from their own domains. A free listing on the
+      same site takes registrations with no payment provider connected at
+      all, so a free talk and a paid workshop share one attendee system.
   - type: markdown
     dark: true
     content: |

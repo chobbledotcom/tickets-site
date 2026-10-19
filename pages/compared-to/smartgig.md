@@ -2,7 +2,7 @@
 competitor_key: smartgig
 title: SmartGig Alternative
 meta_title: Open Source & Cheaper SmartGig Alternative | Chobble Tickets
-meta_description: Compare Chobble Tickets and SmartGig on module pricing, allocated seating, payment providers, attendee data, and whether you can read the code and run your own copy.
+meta_description: Compare Chobble Tickets and SmartGig on module pricing, allocated seating, payment providers, attendee data and running your own copy.
 permalink: /compared-to/smartgig/
 eleventyNavigation:
   key: vs SmartGig
@@ -73,6 +73,16 @@ blocks:
       support. Neither published price changes with ticket volume, so
       SmartGig costs more at every volume, and buys a wider set of event
       operations tools.
+  - type: markdown
+    content: |
+      ## Gig tickets on Chobble Tickets
+
+      [Crumpsall Folk Club](https://tickets.crumpsallfolkclub.co.uk) sells its
+      monthly gigs at The Cleveland in Manchester on Chobble Tickets, from its
+      own subdomain. Each night has a normal, a solidarity and a concession
+      ticket, plus a raffle. A monthly club night of that size needs ticket
+      sales rather than SmartGig's trader applications or stage schedules.
+
   - type: markdown
     content: |
       ## Pricing comparison

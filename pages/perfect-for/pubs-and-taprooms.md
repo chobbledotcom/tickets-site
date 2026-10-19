@@ -1,7 +1,7 @@
 ---
 title: Pubs and Taprooms - Chobble Tickets
 meta_title: Event Ticketing for Pubs and Taprooms | Chobble Tickets
-meta_description: Sell tickets for quiz nights, live music, tap takeovers and supper clubs from a pub or taproom, with no Chobble per-ticket fee and free listings for free nights.
+meta_description: Sell tickets for quiz nights, live music, tap takeovers and supper clubs from a pub or taproom, with no Chobble per-ticket fee.
 permalink: /perfect-for/pubs-and-taprooms/
 eleventyNavigation:
   key: Pubs and Taprooms

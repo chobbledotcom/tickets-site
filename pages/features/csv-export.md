@@ -1,7 +1,7 @@
 ---
 title: CSV Export - Chobble Tickets
 meta_title: Attendee List CSV Export for Events | Chobble Tickets
-meta_description: Download your attendee list as CSV with contact details, amounts paid, payment references, check-in state and custom answers, alongside event and staff-calendar reports.
+meta_description: Download your attendee list as CSV with contact details, amounts paid, payment references, check-in state and answers to your custom questions.
 permalink: /features/csv-export/
 ticket_evidence_capture: attendee-csv-export
 eleventyNavigation:
@@ -14,9 +14,31 @@ blocks:
     content: |-
       # CSV export
 
-      Export listings, attendee records and staff calendars as CSV files for spreadsheets, accounting and event operations.
+      Each listing in Chobble Tickets has an Export CSV link that downloads its attendee list as a spreadsheet file. The file holds each booking's contact details, quantity, amount paid, payment reference, check-in state and answers to your booking questions.
   - type: markdown
     content: |
+      ## What the attendee CSV contains
+
+      The attendee file has one row per booking and these columns: Name,
+      Email, Phone, Address, Special Instructions, Quantity, Registered, Price
+      Paid, Transaction ID, Checked In, Ticket Token and Ticket URL. Each
+      [booking question](/features/custom-questions/) adds a column headed
+      with the question's text, so a question worded "Child's class" gives a
+      column with that heading.
+
+      A listing with a date or location adds Listing Date and Listing Location
+      columns. A [daily listing](/features/daily-events/) adds a Date column
+      showing the days each booking holds. Bookings whose payment failed are
+      left out, as they are on screen.
+
+      ## Example
+
+      A quiz night listing called "Autumn Quiz" downloads as
+      `Autumn_Quiz_attendees.csv`. Filtering the attendee tab to people not
+      yet checked in before downloading gives a list of who has not arrived.
+      Each download is recorded in the [activity log](/features/activity-logs/)
+      with the listing name.
+
       ## Listing reports
 
       The listing export covers status, type, attendee count, capacity, ticket quantity, revenue, price, date and location. It can be used to compare sales across a programme or pass event data to another reporting process.
@@ -51,8 +73,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Export your attendee data
+      ## Get started
 
-      Export attendee data whenever you need it.
+      CSV exports come with every hosted site, at £50 a year or £5 a month.
 name: Event and Attendee CSV Reports | Chobble Tickets
 ---

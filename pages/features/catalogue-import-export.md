@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Catalogue import and export
 
-      Move a listing or event group between Chobble Tickets sites using a versioned JSON file.
+      Any listing or group in Chobble Tickets can be saved as one file and loaded into another Chobble Tickets site, which re-creates it with its prices, group memberships and package settings. It is how an organiser moves what they sell between hosts, including away from Chobble.
   - type: split-image
     content: |
       ## What the file contains
@@ -31,7 +31,26 @@ blocks:
 
       Catalogue files do not contain attendees, payments or financial history. Images and attachments are also excluded, so personal records and uploaded files are not moved as part of a catalogue transfer.
 
-      Referenced parent listings and groups must already exist at the destination. An import is rejected if its name is already in use or its data does not match the supported format.
+      Referenced parent listings and groups must already exist at the destination. An import is rejected if its name is already in use or its data does not match the supported format, and the page names the field at fault.
+
+      Moving attendees and payment history needs a full [database backup](/features/backups/) rather than a catalogue file.
+
+      ## Example
+
+      An organiser runs a "Summer Sessions" group of six workshops on a
+      self-hosted copy of Chobble Tickets and decides to move to Chobble's
+      managed hosting. They choose Export on the group's page and download a
+      `.json` file named after the group. On the new site they choose Import
+      under Groups and upload the file, and the group and its six listings
+      are re-created with the same prices. The move works the same way in the
+      other direction, or to any other host running Chobble Tickets.
+
+      ## Why names, not numbers
+
+      The file joins listings, groups and parents by name rather than by
+      internal number. Numbers differ from one site to the next, while names
+      survive the move. Each file carries a format version, so a file from an
+      incompatible version is refused rather than loaded wrongly.
 
       ## Checked before changes are made
 
@@ -52,8 +71,8 @@ blocks:
       variant: secondary
       size: lg
     content: |-
-      ## Keep event setup portable
+      ## Get started
 
-      Catalogue transfer is included with managed hosting and self-hosting.
+      Catalogue import and export works the same on managed hosting and self-hosted sites.
 name: Event Catalogue Import and Export | Chobble Tickets
 ---

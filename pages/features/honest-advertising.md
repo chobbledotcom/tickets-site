@@ -1,7 +1,7 @@
 ---
 title: Honest Advertising - Chobble Tickets
 meta_title: Honest Advertising in Event Ticketing | Chobble Tickets
-meta_description: How ticketing platforms are promoted online, from undisclosed forum recommendations to misleading fee claims, and the rules Chobble Tickets follows instead.
+meta_description: How ticketing platforms are promoted online, from undisclosed forum recommendations to misleading fee claims, and the rules Chobble follows.
 permalink: /features/honest-advertising/
 eleventyNavigation:
   key: Honest Advertising
