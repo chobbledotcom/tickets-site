@@ -87,11 +87,6 @@ blocks:
   - type: markdown
     dark: true
     content: |
-      ## Registered office
-
-      Chobble CIC's registered office is at 27 The Crescent, Prestwich,
-      Manchester M25 1FL, United Kingdom.
-
       ## Company registration
 
       Community Interest Company number: 17050113.
