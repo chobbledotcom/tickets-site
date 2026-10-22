@@ -21,6 +21,14 @@ const template = path(buildDir, "template");
 const dev = path(buildDir, "dev");
 const localTemplate = join(root, "chobble-template");
 
+// PLACEHOLDER_IMAGES=1 (set by scripts/test.js) builds with placeholder images,
+// so the real images tree is skipped. Read at call time: reading it while this
+// module is imported would run before the importing script sets the variable.
+const devExcludes = () =>
+  process.env.PLACEHOLDER_IMAGES === "1"
+    ? [...sourceExcludes, "images"]
+    : sourceExcludes;
+
 export const prep = () => {
   console.log("Preparing build...");
   fs.mkdir(build);
@@ -45,7 +53,7 @@ export const prep = () => {
   mergeTemplateAndSource(template, root, dev, {
     delete: true,
     templateExcludes,
-    sourceExcludes,
+    sourceExcludes: devExcludes(),
   });
 
   sync();
@@ -60,7 +68,7 @@ export const prep = () => {
 export const sync = () => {
   copyDir(root, join(dev, "src"), {
     update: true,
-    exclude: sourceExcludes,
+    exclude: devExcludes(),
   });
 };
 

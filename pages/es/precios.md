@@ -65,9 +65,9 @@ blocks:
       El pago crea una web propia y envía por correo el enlace de configuración. La web tiene su propia base de datos, su propia clave de cifrado y su propia dirección alojada.
 
       El alojamiento gestionado incluye las actualizaciones del software, las herramientas de copia y restauración, una web pública de reservas, dominios propios, conexiones para que otros programas consulten sus datos y reciban avisos automáticos de cada reserva, y todas las funciones actuales. Chobble no cobra aparte por las cuentas de equipo, los informes o las integraciones.
-    figure_src: /images/screenshots/dashboard.png
-    figure_alt: Panel de Chobble Tickets con las áreas de administración disponibles para quien organiza
-    figure_caption: El alojamiento gestionado incluye toda el área de administración y la web pública.
+    figure_src: /images/screenshots/examples-skip-hire-home.png
+    figure_alt: La página de inicio del sitio de demostración Chobble Skip Hire
+    figure_caption: Chobble Skip Hire, un sitio de demostración en el tipo de dirección alojada con la que empieza cada sitio nuevo.
   - type: markdown
     content: |
       ## Costes de procesamiento de pagos

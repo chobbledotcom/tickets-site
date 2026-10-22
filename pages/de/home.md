@@ -39,9 +39,9 @@ blocks:
       Legen Sie Veranstaltungen mit festem Datum, wiederkehrende Termine oder mehrtägige Angebote an. Jedes Angebot hat einen eigenen Preis, eine eigene Kapazität, einen eigenen Verkaufszeitraum sowie eigene Fragen und Teilnahmebedingungen.
 
       Nach dem Verkaufsstart checkt Ihr Team Buchungen ein, macht einen Check-in rückgängig, erstattet Bestellungen vollständig, schreibt Gruppen von Gästen an und exportiert betriebliche oder finanzielle Daten. Das Aktivitätsprotokoll hält fest, welches Konto welche Änderung vorgenommen hat.
-    figure_src: /images/screenshots/dashboard.png
-    figure_alt: Verwaltungsübersicht von Chobble Tickets mit Summen zu Veranstaltungen und Gästen
-    figure_caption: Die Verwaltungsübersicht verbindet Verkäufe, Gäste, Berichte und Einstellungen der Website.
+    figure_src: /images/screenshots/examples-play-centre-home.png
+    figure_alt: Die Startseite der Demo-Website Chobble Play Centre
+    figure_caption: Chobble Play Centre, eine Demo der öffentlichen Buchungswebsite, die jedes Konto enthält.
   - type: features
     dark: true
     intro_content: |

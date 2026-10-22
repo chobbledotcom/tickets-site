@@ -21,9 +21,9 @@ blocks:
     Create listings, manage bookings, check people in, send updates and review
     your money from one administration area. Every feature is included on
     hosted and self-hosted sites.
-  figure_src: /images/screenshots/dashboard.png
-  figure_alt: Chobble Tickets administration dashboard showing listings and booking totals
-  figure_caption: Keep event setup, bookings and day-to-day work together.
+  figure_src: /images/screenshots/examples-arts-workshops-home.png
+  figure_alt: The home page of the Chobble Arts Workshops demo website
+  figure_caption: Chobble Arts Workshops, a demo site running the same software as every Chobble Tickets account.
 - type: features
   intro_content: "## [Selling tickets](/features/selling-tickets/)"
   items:

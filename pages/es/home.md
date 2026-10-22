@@ -39,9 +39,9 @@ blocks:
       Cree eventos con fecha fija, sesiones periódicas o actividades de varios días. Cada actividad tiene su propio precio, su aforo, su periodo de venta, sus preguntas y sus condiciones.
 
       Una vez abierta la venta, su equipo registra la entrada de los asistentes, deshace un registro, reembolsa pedidos completos, escribe a grupos de asistentes y exporta datos operativos o económicos. El registro de actividad guarda qué cuenta hizo cada cambio.
-    figure_src: /images/screenshots/dashboard.png
-    figure_alt: Panel de administración de Chobble Tickets con los totales de eventos y asistentes
-    figure_caption: El panel de administración reúne ventas, asistentes, informes y ajustes de la web.
+    figure_src: /images/screenshots/examples-play-centre-home.png
+    figure_alt: La página de inicio del sitio de demostración Chobble Play Centre
+    figure_caption: Chobble Play Centre, una demostración de la web pública de reservas incluida en cada cuenta.
   - type: features
     dark: true
     intro_content: |

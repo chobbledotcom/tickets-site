@@ -27,5 +27,4 @@ export const sourceExcludes = [
   "package*.json",
   "bun.lock",
   "old_site",
-  ...(process.env.PLACEHOLDER_IMAGES === "1" ? ["images"] : []),
 ];

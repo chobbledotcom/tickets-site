@@ -81,9 +81,9 @@ blocks:
       text: See all features
       href: /features/
       variant: secondary
-    figure_src: /images/screenshots/dashboard.png
-    figure_alt: Chobble Tickets dashboard showing the administration areas available to an organiser
-    figure_caption: Managed hosting includes the complete administration area and public website.
+    figure_src: /images/screenshots/examples-skip-hire-home.png
+    figure_alt: The home page of the Chobble Skip Hire demo website
+    figure_caption: Chobble Skip Hire, a demo site on the kind of hosted address every new site starts on.
   - type: markdown
     content: |
       ## Payment processing costs

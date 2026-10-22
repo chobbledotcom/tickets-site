@@ -46,9 +46,9 @@ blocks:
       text: See all features
       href: /features/
       variant: secondary
-    figure_src: /images/screenshots/dashboard.png
-    figure_alt: Chobble Tickets administration dashboard showing event and attendee totals
-    figure_caption: The administration dashboard links sales, attendees, reports and site settings.
+    figure_src: /images/screenshots/examples-play-centre-home.png
+    figure_alt: The home page of the Chobble Play Centre demo website
+    figure_caption: Chobble Play Centre, a demo of the public booking website included with every account.
   - type: features
     dark: true
     intro_content: |

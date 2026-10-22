@@ -65,9 +65,9 @@ blocks:
       Die Zahlung erstellt eine eigene Website und schickt den Einrichtungslink per E-Mail. Die Website hat eine eigene Datenbank, einen eigenen Schlüssel zur Verschlüsselung und eine eigene gehostete Adresse.
 
       Verwaltetes Hosting umfasst Aktualisierungen der Software, Werkzeuge zum Sichern und Wiederherstellen, eine öffentliche Buchungswebsite, eigene Domains, Schnittstellen, über die andere Programme Ihre Daten abfragen und automatische Benachrichtigungen zu jeder Buchung erhalten, und alle aktuellen Funktionen. Für Teamkonten, Berichte oder Anbindungen berechnet Chobble nichts zusätzlich.
-    figure_src: /images/screenshots/dashboard.png
-    figure_alt: Übersicht von Chobble Tickets mit den Verwaltungsbereichen einer Veranstalterin oder eines Veranstalters
-    figure_caption: Verwaltetes Hosting enthält den vollständigen Verwaltungsbereich und die öffentliche Website.
+    figure_src: /images/screenshots/examples-skip-hire-home.png
+    figure_alt: Die Startseite der Demo-Website Chobble Skip Hire
+    figure_caption: Chobble Skip Hire, eine Demo-Website unter der Art von gehosteter Adresse, mit der jede neue Website beginnt.
   - type: markdown
     content: |
       ## Kosten der Zahlungsabwicklung

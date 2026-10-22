@@ -1,8 +1,8 @@
 {
-	"path": "/images/screenshots/dashboard.png",
+	"path": "/images/screenshots/examples-play-centre-home.png",
 	"alt": {
-		"en": "Chobble Tickets event administration dashboard",
-		"de": "Verwaltungsübersicht von Chobble Tickets für Veranstaltungen",
-		"es": "Panel de administración de eventos de Chobble Tickets"
+		"en": "The home page of the Chobble Play Centre demo booking website",
+		"de": "Die Startseite der Demo-Buchungswebsite Chobble Play Centre",
+		"es": "La página de inicio del sitio web de reservas de demostración Chobble Play Centre"
 	}
 }

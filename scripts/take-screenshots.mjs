@@ -184,13 +184,6 @@ const run = async () => {
   console.log("\n=== Phase 2: Admin screenshots ===");
   await ensureLoggedIn(page);
 
-  // Dashboard
-  await goto(page, `${BASE_URL}/admin/`);
-  await screenshot(page, "dashboard");
-
-  const dashText = await page.locator("body").innerText();
-  console.log(`Dashboard (first 300): ${dashText.slice(0, 300)}`);
-
   // Admin pages (only those referenced in site content)
   const adminPages = [
     ["/admin/calendar", "calendar"],

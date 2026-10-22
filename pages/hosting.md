@@ -34,9 +34,9 @@ blocks:
       text: See pricing
       href: /pricing/
       variant: secondary
-    figure_src: /images/screenshots/dashboard.png
-    figure_alt: Chobble Tickets dashboard for a separate hosted ticketing site
-    figure_caption: Hosted organisers control their own events, attendees, reports and site settings.
+    figure_src: /images/screenshots/examples-chalkiesdogs-home.png
+    figure_alt: The home page of the Chalkie's School for Dogs website at chalkiesdogs.co.uk
+    figure_caption: Chalkie's School for Dogs, a hosted Chobble Tickets site at its own domain.
   - type: features
     dark: true
     intro_content: |
