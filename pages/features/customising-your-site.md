@@ -64,6 +64,9 @@ blocks:
       - icon: hugeicons:layout-01
         description: Use the included homepage, listing pages, news posts, contact page, content pages and custom CSS.
         name: <a href="/features/your-public-website/">Public booking website</a>
+      - icon: hugeicons:eye-off
+        description: Keep a page at its address while the menus stop offering it, so a link can exist without advertising itself.
+        name: <a href="/features/hidden-pages/">Hidden pages</a>
       - icon: hugeicons:shopping-cart-01
         description: Turn links on an existing website into add-to-cart buttons with a floating cart.
         name: <a href="/features/order-widget/">Order widget</a>

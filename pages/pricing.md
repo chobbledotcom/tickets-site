@@ -55,6 +55,9 @@ blocks:
       - icon: hugeicons:discount
         name: Discounted annual hosting, £25
         description: Charities, community groups, artists and musicians receive 50% off annual hosting. The discount does not apply to monthly billing.
+      - icon: hugeicons:customer-service-02
+        name: <a href="/support/">Hosting with support, £40/month</a>
+        description: Adds a standing chat thread with the developer, domain and email setup, and priority for feature requests. £20/month for charities, community groups and co-operatives.
       - icon: hugeicons:source-code
         name: Self-hosting, no Chobble licence fee
         description: Chobble charges no licence fee for the AGPL-3.0-only software. You arrange and pay for infrastructure, deployment, updates and support.

@@ -72,7 +72,8 @@ const CONTENT_DIRS = ["pages", "guide-pages", "guide-categories"];
 const SKIP_GRADE = new Set(["pages/not-found.md", "pages/thank-you.md"]);
 
 // Hub pages that list other pages, or pages assembled from _data includes,
-// and are thin in the source by design.
+// and are thin in the source by design. pages/faq.md is not listed: its
+// answers render from _data/faq.json, which the extractor reads.
 const LISTING_PAGES = new Set([
   "pages/guide.md",
   "pages/features/features.md",
@@ -80,7 +81,6 @@ const LISTING_PAGES = new Set([
   "pages/compared-to/compared-to.md",
   "pages/compared-to/providers.md",
   "pages/compared-to/compare-all.md",
-  "pages/faq.md",
   "pages/gallery.md",
   "guide-categories/choosing-a-ticket-platform.md",
 ]);
@@ -282,18 +282,66 @@ const walkBlocks = (node, out) => {
     walkBlockValue(key, value, out);
 };
 
-const blocksToOut = (fm) => {
-  const out = { prose: [], buttons: [], buttonHrefs: [], alts: [] };
-  walkBlocks(fm.blocks, out);
-  if (typeof fm.subtitle === "string") out.prose.unshift(fm.subtitle);
-  return out;
+let faqCache = null;
+
+const faqData = () => {
+  if (faqCache) return faqCache;
+  try {
+    faqCache = JSON.parse(readFileSync(path("_data", "faq.json"), "utf8"));
+  } catch {
+    faqCache = [];
+  }
+  return faqCache;
 };
 
-/** The page's own copy: front matter subtitle plus every block scalar. */
+/** The FAQ page renders _data/faq.json through faq-content.html: an h2 per
+ * section, then question and answer pairs. Answers join paragraphs with
+ * `</p><p>`, which becomes real paragraph breaks here. */
+const faqIncludeMarkdown = () => {
+  const entries = [];
+  const sections = [];
+  for (const item of faqData()) {
+    if (item?.section && !sections.includes(item.section)) {
+      sections.push(item.section);
+      entries.push(`## ${item.section}`);
+    }
+    entries.push(`### ${item?.question ?? ""}`);
+    entries.push(String(item?.answer ?? "").replace(/<\/p><p>/g, "\n\n"));
+  }
+  return entries.join("\n\n");
+};
+
+const blockOutFor = (block, out) => {
+  const blockOut = { prose: [], buttons: [], buttonHrefs: [], alts: [] };
+  walkBlocks(block, blockOut);
+  out.buttons.push(...blockOut.buttons);
+  out.buttonHrefs.push(...blockOut.buttonHrefs);
+  out.alts.push(...blockOut.alts);
+  return blockOut.prose.filter(Boolean).join("\n\n");
+};
+
+const segmentForBlock = (block, out) => {
+  if (block?.type === "include" && block.file === "faq-content.html")
+    return faqIncludeMarkdown();
+  return blockOutFor(block, out);
+};
+
+/** Prose segments in page order: subtitle, each block's scalars, and the
+ * rendered content of data-driven includes. */
+const blockSegments = (fm, out) => {
+  const segments = typeof fm.subtitle === "string" ? [fm.subtitle] : [];
+  const blocks = Array.isArray(fm.blocks) ? fm.blocks : [];
+  for (const block of blocks) segments.push(segmentForBlock(block, out));
+  return segments.filter(Boolean);
+};
+
+/** The page's own copy: front matter subtitle, every block scalar, and
+ * data-driven include content, in page order. */
 const pageMarkdown = (fm) => {
-  const out = blocksToOut(fm);
+  const out = { buttons: [], buttonHrefs: [], alts: [] };
+  const segments = blockSegments(fm, out);
   return {
-    markdown: out.prose.filter(Boolean).join("\n\n"),
+    markdown: segments.filter(Boolean).join("\n\n"),
     buttons: out.buttons,
     buttonHrefs: out.buttonHrefs,
     alts: out.alts,
@@ -409,6 +457,7 @@ const extractPage = (file, forcedType) => {
   const prose = markdownToText(markdown);
   const proseHouse = markdownToText(houseMd);
   const heading = headingOf(markdown, fm);
+  const facts = providerFactsOf(fm);
   return {
     file: rel,
     url: normaliseUrl(pageUrlOf(rel, fm)),
@@ -418,7 +467,8 @@ const extractPage = (file, forcedType) => {
     metaTitle: metaTitleOf(fm),
     metaDescription: fm.meta_description ?? "",
     providerName: providerDisplayName(fm),
-    providerFacts: providerFactsOf(fm),
+    providerFacts: facts,
+    lastReviewed: facts?.last_reviewed ?? null,
     markdown,
     houseMarkdown: houseMd,
     prose,
@@ -501,6 +551,14 @@ const NO_GO_PATTERNS = [
   [/\bunlike anyone else\b/i, "unlike anyone else"],
   [/\bnext[- ]level\b/i, "next level"],
   [/\bblazing(ly)? fast\b|\blighting[- ]fast\b/i, "speed hype"],
+  // The "a business runs on abstractions" cliché ("a skip yard runs on
+  // phones, drivers and permits"). Literal hosting statements ("EventMS Pro
+  // runs on your own server") name real software or infrastructure, so the
+  // pattern fires only when the subject is a business or organisation.
+  [
+    /\b(yard|venue|firm|company|business|catering|kitchen|team|family|shop|store|operation|organisation)s? (run|runs) on\b/i,
+    "runs on (business cliche)",
+  ],
 ];
 
 // Voice anti-patterns (AGENTS.md) that are worth a look but not always
@@ -870,6 +928,38 @@ const checkLinksResolve = (x, urlMap) => {
     : ["PASS", 1, "all copy links resolve"];
 };
 
+// Comparison pages rest on a dated review of the provider, recorded in
+// provider_facts.last_reviewed. Choosing where ticket income flows is a
+// "may be YMYL" financial decision in the rater guidelines, and YMYL
+// content carries an up-to-date expectation: a stale stamp means the
+// page's claims outrun its evidence.
+const REVIEWED_WARN_MONTHS = 6;
+const REVIEWED_FAIL_MONTHS = 12;
+const DAYS_PER_MONTH = 30.44;
+
+const monthsSince = (iso) => {
+  const reviewed = new Date(iso);
+  if (Number.isNaN(reviewed.getTime())) return null;
+  return (
+    (Date.now() - reviewed.getTime()) / (1000 * 60 * 60 * 24 * DAYS_PER_MONTH)
+  );
+};
+
+const checkFactsFreshness = (x) => {
+  const iso = x.lastReviewed;
+  if (!iso) return ["WARN", 0, "no last_reviewed date in provider_facts"];
+  const months = monthsSince(iso);
+  if (months === null)
+    return ["WARN", 0, `last_reviewed is not a date: ${iso}`];
+  if (months < 0) return ["WARN", 0, `last_reviewed is in the future: ${iso}`];
+  const stamp = `${Math.floor(months)} month(s) ago (${iso})`;
+  if (months > REVIEWED_FAIL_MONTHS)
+    return ["FAIL", 0, `provider review is stale: ${stamp}`];
+  if (months > REVIEWED_WARN_MONTHS)
+    return ["WARN", 0.5, `provider review is ageing: ${stamp}`];
+  return ["PASS", 1, `provider reviewed ${stamp}`];
+};
+
 const CTA_RE =
   /\b(get started|sign up|see pricing|contact|book a demo|try the (demo|platform)|read the docs|compare plans|view the source|get in touch|free (month|trial))\b/i;
 
@@ -1020,6 +1110,9 @@ const CODE_CHECKS = [
     4,
   ),
   code("provider_links", "Providers linked at mention", checkProviderLinks, 3),
+  code("facts_freshness", "Provider review is recent", checkFactsFreshness, 3, [
+    "comparison",
+  ]),
   code(
     "internal_links_resolve",
     "Internal links resolve",
@@ -1150,7 +1243,10 @@ const JEV_CHECKS = [
     "Google's rater guidelines call trust 'the most important member of the E-E-A-T family " +
       "because untrustworthy pages have low E-E-A-T no matter how Experienced, Expert, or " +
       "Authoritative they may seem'. How trustworthy does `body` feel for an organiser " +
-      "choosing where their ticket income and attendee data go? Concrete signals: honest " +
+      "choosing where their ticket income and attendee data go? Choosing between paid " +
+      "platforms is a 'may be YMYL' financial topic in the guidelines (a review of a type " +
+      "of car is given as the example), so apply the scrutiny financial decisions carry. " +
+      "Concrete signals: honest " +
       "limits (a prepaid term that ends without renewal enters read-only mode for 24 " +
       "months, after which the site and database are deleted; paid checkout does not " +
       "reserve capacity, so overselling is not impossible), payment-provider charges " +
@@ -1176,11 +1272,13 @@ const JEV_CHECKS = [
       "purpose of manipulating search rankings', 'typically focused on creating large " +
       "amounts of unoriginal content that provides little to no value to users' - the " +
       "examples include pages where 'the main content is copied or only slightly varied'. " +
-      "Judge `body` as one page among `siblings` (same-type pages): does it read as " +
-      "individually written with real knowledge, or as one output of a content pipeline - " +
-      "structure, sentences and lists that would survive a find-and-replace of the " +
-      "provider or event-type name? A page a reader could not tell apart from its " +
-      "siblings with the name covered scores 0-1.",
+      "Raters apply a three-part test, 'little to no effort, little to no originality, and " +
+      "little to no added value for website visitors', and are told to suspect the abuse " +
+      "'after looking at several pages on the website'. Judge `body` as one page among " +
+      "`siblings` (same-type pages): does it read as individually written with real " +
+      "knowledge, or as one output of a content pipeline - structure, sentences and lists " +
+      "that would survive a find-and-replace of the provider or event-type name? A page a " +
+      "reader could not tell apart from its siblings with the name covered scores 0-1.",
     [
       "Templated - find-and-replace the name and it would be any sibling page",
       "Mostly template with a few page-specific facts bolted on",
@@ -1326,6 +1424,77 @@ const JEV_CHECKS = [
         "Every claim about the provider stays within what the record verified",
     },
     { types: ["comparison"], invert: true },
+  ),
+
+  // --- Review-page criteria (quality rater guidelines, September 2025) ---
+  // The rater guidelines name product reviews directly under Trust: they
+  // "should be honest and written to help others make informed purchasing
+  // decisions (rather than solely to sell the product)", and warn that
+  // manufacturer self-review carries a conflict of interest. These three
+  // questions grade how a comparison page compensates for that conflict.
+  jevScore(
+    "review_methodology",
+    "Review methodology legible",
+    3,
+    "Google's people-first guidance asks creators to share the 'How' of content: for " +
+      "product reviews, 'the number of products that were tested, what the test results " +
+      "were, and how the tests were conducted, all accompanied by evidence'. This site " +
+      "reviews each provider by checking the provider's own pages and recording what it " +
+      "found in `provider_facts`, dated by `last_reviewed`. Does `body` make that " +
+      "verification legible to a reader who never sees the front matter: what was checked " +
+      "(pricing pages, help centres, privacy policies), when (a month and year, or 'as " +
+      "of' dates beside figures), or a sources list pointing at the provider's own pages? " +
+      "The `provider_facts` state tells you what the review covered; judge what the " +
+      "*reader of the page* can see. Fee figures floating with no date or source score " +
+      "low.",
+    [
+      "No visible methodology - figures and claims appear with no checking trail",
+      "A sources list exists but says nothing about what was checked or when",
+      "Sources plus dated figures ('as of August 2026') or a note on what was checked",
+      "Fully legible - what was checked, on which provider pages, with dates beside the key figures",
+    ],
+    ["comparison"],
+  ),
+  jevScore(
+    "independent_evidence",
+    "Evidence beyond the maker's say-so",
+    4,
+    "The rater guidelines treat self-review as a conflict of interest: 'reviews by the " +
+      "product manufacturer' are 'not as trustworthy'. This is Chobble Tickets' own site, " +
+      "so every comparison page reviews the maker's product against a competitor. That " +
+      "conflict cannot be removed, only compensated. Does `body` cite evidence a reader " +
+      "could check without trusting Chobble: the provider's own pricing or help pages " +
+      "(linked), fee figures with their dates, named real customers or attributed review " +
+      "quotes, the provider's source code or licence, or honest statements of what could " +
+      "not be found? Restatements of Chobble's own selling points are not evidence.",
+    [
+      "Only the maker's own claims - nothing a sceptical reader could verify independently",
+      "One independent signal - a provider link or a single dated figure",
+      "Several independent signals - provider sources, dated figures, named customer voices",
+      "Fully evidenced - key claims trace to the provider's own pages, dated figures or named customers",
+    ],
+    ["comparison"],
+  ),
+  jevScore(
+    "information_gain",
+    "Adds information beyond the provider's own site",
+    4,
+    "The rater guidelines score main content on 'originality': content 'not available on " +
+      "other websites', and the helpful-content check asks for 'substantial value when " +
+      "compared to other pages in search results'. The reader of a comparison page can " +
+      "already read the provider's own marketing; the page earns its place with analysis " +
+      "that site does not offer: fees calculated at named ticket volumes, crossover " +
+      "points between pricing models, capability tables across providers, honest limits " +
+      "the provider's pages omit, or worked examples with real numbers. Restating the " +
+      "provider's feature list or echoing its marketing claims scores low. Judge `body` " +
+      "against what the provider's own pages would tell the same reader.",
+    [
+      "Restates the provider's own marketing with nothing added",
+      "Mostly restatement with one or two added figures or observations",
+      "Useful added analysis - worked figures, comparisons or limits the provider's site omits",
+      "Substantial original analysis - a reader needs this page, not just the provider's site",
+    ],
+    ["comparison", "guide"],
   ),
   jevNoul(
     "practical_limits",
@@ -2234,10 +2403,13 @@ if (import.meta.main) {
 
 // Pure helpers, exported for tests.
 export {
+  checkFactsFreshness,
   collectItems,
   detectPageType,
   markdownToText,
+  monthsSince,
   normaliseUrl,
+  pageMarkdown,
   splitFrontmatter,
   stripQuoted,
   walkBlocks,

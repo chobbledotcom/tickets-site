@@ -163,7 +163,7 @@ blocks:
         and [Liquid templates](/features/email-templates/) for emails, but
         not for its admin screens
       - **US-based vendor** - Tessera is built by a Chicago web agency,
-        so the company runs on US business hours
+        so the company answers only during US business hours
   - type: markdown
     content: |
       ### Chobble Tickets has features Tessera Tickets doesn't

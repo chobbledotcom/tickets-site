@@ -1,11 +1,19 @@
 import { describe, expect, test } from "bun:test";
 import {
+  checkFactsFreshness,
   detectPageType,
   markdownToText,
+  monthsSince,
+  pageMarkdown,
   splitFrontmatter,
   stripQuoted,
   walkBlocks,
 } from "../scripts/grade-pages.js";
+
+const daysAgo = (days) =>
+  new Date(Date.now() - days * 24 * 60 * 60 * 1000)
+    .toISOString()
+    .slice(0, 10);
 
 describe("splitFrontmatter", () => {
   test("parses a closed front matter block with a body", () => {
@@ -127,5 +135,58 @@ describe("stripQuoted", () => {
     expect(stripped).toContain("Chobble does not collect attendee data.");
     expect(stripped).toContain("The");
     expect(stripped).toContain("is zero.");
+  });
+});
+
+describe("pageMarkdown", () => {
+  test("renders faq-content include as section, question and answer prose", () => {
+    const { markdown } = pageMarkdown({
+      blocks: [
+        { type: "include", file: "faq-content.html" },
+        { type: "cta", button: { text: "Sign Up", href: "/pricing/" }, content: "## Get started" },
+      ],
+    });
+    expect(markdown).toContain("## Pricing and fees");
+    expect(markdown).toContain("### Which ticketing platforms don't charge per-ticket fees?");
+    expect(markdown).toContain("£50/year or £5/month");
+    // prose before the closing CTA, in page order
+    expect(markdown.indexOf("### Which ticketing platforms")).toBeLessThan(
+      markdown.indexOf("## Get started"),
+    );
+  });
+});
+
+describe("monthsSince", () => {
+  test("returns fractional months elapsed for a past date", () => {
+    const months = monthsSince(daysAgo(62));
+    expect(months).toBeGreaterThan(1.9);
+    expect(months).toBeLessThan(2.3);
+  });
+
+  test("returns null for a value that is not a date", () => {
+    expect(monthsSince("recently")).toBe(null);
+  });
+});
+
+describe("checkFactsFreshness", () => {
+  test("passes a recent review and accepts a null date as a warning", () => {
+    expect(checkFactsFreshness({ lastReviewed: daysAgo(30) })[0]).toBe("PASS");
+    expect(checkFactsFreshness({ lastReviewed: null })[0]).toBe("WARN");
+  });
+
+  test("warns past six months and fails past twelve", () => {
+    expect(checkFactsFreshness({ lastReviewed: daysAgo(245) })[0]).toBe("WARN");
+    expect(checkFactsFreshness({ lastReviewed: daysAgo(430) })[0]).toBe("FAIL");
+  });
+
+  test("warns on an unparseable or future date", () => {
+    expect(checkFactsFreshness({ lastReviewed: "recently" })[0]).toBe("WARN");
+    expect(
+      checkFactsFreshness({
+        lastReviewed: new Date(Date.now() + 8 * 24 * 60 * 60 * 1000)
+          .toISOString()
+          .slice(0, 10),
+      })[0],
+    ).toBe("WARN");
   });
 });

@@ -118,6 +118,15 @@ blocks:
       [Resova](/compared-to/resova/), which both take hire bookings. Each
       comparison covers pricing, features and attendee data, and the
       [full list](/compared-to/) names every platform checked so far.
+  - type: markdown
+    content: |
+      ## Prefer someone else to run the site
+
+      A skip yard is already busy with phones, drivers and permits. If you
+      would rather keep the website off that list, [hosting with
+      support](/support/) puts a developer on the end of a chat thread, sets
+      up your domain and email, and takes feature requests first, for £40 a
+      month.
   - type: cta
     button:
       text: Start for £5

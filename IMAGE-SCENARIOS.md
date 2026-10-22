@@ -7,7 +7,7 @@ layout: null
 
 ## Scope
 
-This audit covers 191 English content pages, counting translated pages only
+This audit covers 193 English content pages, counting translated pages only
 through their English source. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
@@ -15,10 +15,10 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 189 | 81 | 108 |
-| **All English content pages** | **191** | **81** | **110** |
+| Editorial pages in the sitemap | 191 | 81 | 110 |
+| **All English content pages** | **193** | **81** | **112** |
 
-The 108 image-less editorial pages are the main illustration backlog. The two utility
+The 110 image-less editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -49,8 +49,9 @@ pages are listed separately at the end.
 | `pages/about.md` | Diagram: `about-chobble-cic` | A restrained timeline from Chobble starting in 2024 to Chobble CIC in 2026, followed by a present-day service diagram showing managed hosting, support and an organiser ticket site. Include the company number and asset lock, not a founder portrait. | Shows who is accountable for the service and what the hosting payment covers. |
 | `pages/faq.md` | Diagram: `organiser-faq-checklist` | Oakfield Community Events has four pre-sign-up questions: annual cost, where ticket income goes, who can see attendee data and how event setup can be moved. Show the factual answer to each. | Gives visual anchors for the main buying questions rather than illustrating one arbitrary FAQ. |
 | `pages/reviews.md` | Product composite: `reviewed-booking-journey` | A clearly labelled example follows Alex Morgan through an £18 Riverside Summer Concert payment confirmation, QR ticket and successful door check-in. Place relevant existing review excerpts beside the three states without attributing the fictional event to a reviewer. | Connects comments about checkout and queues to concrete product behaviour. |
-| `pages/credits.md` | Diagram: `upstream-work-stack` | Chobble Tickets sits on named upstream layers of libraries, tools and standards written by many hands, with the four credited organisers shown as named inputs rather than portraits. | Shows that the short list of named contributors stands on a much larger body of work. |
+| `pages/credits.md` | Diagram: `upstream-work-stack` | Chobble Tickets sits on named upstream layers of libraries, tools and standards written by many hands, with the credited organisers shown as named inputs rather than portraits. | Shows that the short list of named contributors stands on a much larger body of work. |
 | `pages/examples.md` | [x] Site screenshots: `examples-site-cards` | Five screenshots of the example sites' own home pages, one per figure or card, named for the business each one demonstrates. | Lets organisers point at finished sites running on Chobble Tickets rather than imagining one. |
+| `pages/support.md` | Screenshot composite: `support-thread-and-domain` | The Chalkie's Dogs arrangement in two states: a chat thread about a domain change beside the live class listings page it produced. Show the hosted email and Search Console steps as small labelled notes. | Shows what the support package does day to day, rather than promising a phone queue. |
 
 ## Feature Pages: Selling And Payments
 
@@ -73,6 +74,7 @@ pages are listed separately at the end.
 |---|---|---|---|
 | `pages/features/your-public-website.md` | [x] Cucumber evidence capture: `page-anybody-can-read` | A page the owner wrote, read at the address they chose by somebody who never signed in, offered in the site's navigation beside Home and Listings. The public event catalogue this row once described is not shown here; the gallery's homepage-editor and checkout images cover the listings side. | Proves that the product can supply organiser pages, not only isolated checkout links. |
 | `pages/features/custom-domain.md` | Diagram: `three-ticket-site-addresses` | Oakfield's host subdomain, `tickets.oakfieldevents.org` and the underlying Bunny address converge on one installation. Show the CNAME step separately from the immediate host address. | Explains that a custom domain is separate from self-hosting and can coexist with fallback addresses. |
+| `pages/features/hidden-pages.md` | Admin screenshot: `page-hidden-from-menus` | The owner's page editor with the Hidden box ticked on a directions page, beside the public menu that no longer lists it while the address still resolves. | Shows that off the menus is not the same as gone, which is the question the feature answers. |
 | `pages/features/white-labelling.md` | Diagram: `white-label-touchpoints` | Follow one Oakfield Community Events booking across the four places a provider name can appear: the browser address bar on `tickets.oakfield.org.uk`, the booking page header, the confirmation email sender, and the ticket itself. Show Oakfield's name in all four and no Chobble name anywhere, with the payment provider's own name left visible at the card step. | Shows exactly which surfaces carry the organiser's name and which one is out of the organiser's control. |
 | `pages/features/markdown-descriptions.md` | Product composite: `markdown-description-preview` | Fernbank Pottery edits a workshop description with headings, a materials list, bold allergy guidance and a directions link. Show source beside the rendered public page. | Shows the writing workflow and result without explaining Markdown abstractly. |
 | `pages/features/images.md` | [x] Admin screenshot: `image-library` | Fernbank's library contains three workshop images with useful alt text. Show attachment counts, ordering controls and a protected `joining-instructions.pdf` attachment. | Demonstrates reuse, accessibility text and downloadable attendee files. |

@@ -245,7 +245,7 @@ blocks:
     content: |
       ## Data ownership
 
-      The SumUp Online Store runs on SumUp's platform. Order and customer
+      The SumUp Online Store is part of SumUp's platform. Order and customer
       data sits with SumUp, a proprietary payment company, and is processed
       under its privacy policy. Sales money is held by SumUp until you move
       it.

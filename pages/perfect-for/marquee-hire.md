@@ -98,6 +98,14 @@ blocks:
       timed hire bookings. Each comparison covers pricing, features and
       attendee data, and the [full list](/compared-to/) names every
       platform checked so far.
+  - type: markdown
+    content: |
+      ## Keep the website off your desk
+
+      Marquee work is measuring, crew schedules and weather. [Hosting with
+      support](/support/) keeps the site off your desk for £40 a month:
+      domain and email set up, a standing chat thread, and feature
+      requests at the front of the queue.
   - type: cta
     button:
       text: Get Started
