@@ -1,8 +1,8 @@
 ---
 name: Ticketing Payments
 subtitle: What happens when a buyer pays for tickets, from the checkout to the organiser's account
-meta_title: Ticketing Payments: How the Money Moves | Chobble Tickets
-meta_description: How ticketing payments work on Chobble Tickets. Buyers pay into the organiser's Stripe, Square or SumUp account, Chobble holds no funds, and processing fees go to the payment provider.
+meta_title: "Ticketing Payments: How the Money Moves | Chobble Tickets"
+meta_description: How ticketing payments work on Chobble Tickets. Buyers pay into the organiser's Stripe, Square or SumUp account, and processing fees go to the provider.
 guide-category: choosing-a-ticket-platform
 order: 5.25
 blocks:
@@ -98,3 +98,4 @@ blocks:
       ## Connect your payment account
 
       Choose Stripe, Square or SumUp in the admin settings, and paid bookings settle straight into your account.
+---

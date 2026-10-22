@@ -34,7 +34,8 @@
 		"lint:fix": "bunx @biomejs/biome check --config-path=biome.json --write scripts/ _lib/ src.11tydata.js remotion.config.js",
 		"cpd": "bun scripts/cpd.js",
 		"cpd:ratchet": "bun scripts/cpd-ratchet.js",
-		"check:copy": "bun scripts/check-duplicate-copy.js"
+		"check:copy": "bun scripts/check-duplicate-copy.js",
+		"grade": "bun scripts/grade-pages.js"
 	},
 	"imports": {
 		"#fp": "@chobble/js-toolkit/fp",

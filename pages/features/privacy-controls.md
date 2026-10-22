@@ -14,7 +14,7 @@ blocks:
     content: |-
       # Attendee data retention and privacy controls
 
-      Chobble Tickets encrypts personal data and gives organisers tools to export records, remove contact history and delete old orphaned bookings.
+      Chobble Tickets [encrypts personal data](/features/encrypted/) and gives organisers tools to export records, remove contact history and delete old orphaned bookings.
   - type: split-image
     content: |
       ## Retention for orphaned records
@@ -31,7 +31,7 @@ blocks:
 
       ## Data access and portability
 
-      Attendee CSV files can include contact details, answers, payment references, check-in state and ticket links. Organisers choose when to export this data and which other systems receive it.
+      Attendee [CSV files](/features/csv-export/) can include contact details, answers, payment references, check-in state and ticket links. Organisers choose when to export this data and which other systems receive it. The full list of who can read each field is on [who can see your attendee data](/features/who-can-see-your-data/).
 
       Catalogue exports do not include attendees or financial history. This keeps reusable event setup separate from personal and payment records.
 

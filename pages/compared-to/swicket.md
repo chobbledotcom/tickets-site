@@ -223,7 +223,7 @@ blocks:
       - You want PayPal, Mollie, Revolut, or bank transfer alongside Stripe
       - You require enterprise SLAs and dedicated support (Swicket managed)
       - Budget is not a concern and you want a fully managed enterprise
-        solution
+        service
   - type: markdown
     content: |
       ## When Chobble Tickets is the better choice

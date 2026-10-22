@@ -2,7 +2,7 @@
 name: Free Ticketing
 subtitle: What free ticketing platforms charge instead, and the ways to pay little or nothing for Chobble Tickets
 meta_title: Free Ticketing Platforms and Software | Chobble Tickets
-meta_description: What free ticketing platforms charge buyers instead, and the ways to pay Chobble little or nothing: a trial month, the £25 community rate, or self-hosting.
+meta_description: "What free ticketing platforms charge buyers instead, and the ways to pay Chobble little or nothing: a trial month, the £25 community rate, or self-hosting."
 guide-category: choosing-a-ticket-platform
 order: 4.75
 blocks:
@@ -107,3 +107,4 @@ blocks:
       ## Get started
 
       Ask for a free trial month, sign up for £5, or read about self-hosting on the hosting page.
+---

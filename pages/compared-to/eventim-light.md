@@ -343,7 +343,7 @@ blocks:
 
       EVENTIM.Light is CTS EVENTIM's self-service product, operated in the
       UK by EVENTIM UK Ltd. The parent company also runs the consumer-facing
-      eventim.co.uk marketplace and provides enterprise ticketing solutions
+      eventim.co.uk marketplace and provides enterprise ticketing systems
       to major venues and promoters.
 
       EVENTIM.Light answers to a listed German group. Chobble Tickets

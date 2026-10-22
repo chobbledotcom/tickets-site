@@ -51,9 +51,10 @@ blocks:
       a refund is interrupted by a crash, it can be picked up and finished
       rather than issued twice or lost.
 
-      Chobble has no admin access to organisers' sites, and attendee data
-      is encrypted. Failures therefore have to be resolvable without a
-      support login, and the site explains them on the page instead.
+      Chobble has no admin access to organisers' sites, and
+      [attendee data is encrypted](/features/encrypted/). Failures therefore
+      have to be resolvable without a support login, and the site explains
+      them on the page instead.
 
       ## Rebuilding payment records
 
@@ -65,7 +66,8 @@ blocks:
 
       Refunded attendees are clearly marked in the admin panel so you can
       see at a glance who has been refunded and who hasn't, and the
-      activity log records every refund for your audit trail.
+      [activity log](/features/activity-logs/) records every refund for
+      your audit trail.
 
       > "It's also much better for refunds as Eventbrite doesn't refund the
       > booking fee."
@@ -80,6 +82,7 @@ blocks:
     content: |-
       ## Refund bookings
 
-      Issue full refunds from the admin panel and keep the ledger in sync.
+      Issue full refunds from the admin panel and keep the
+      [ledger](/features/ledger/) in sync.
 name: Refunds - Chobble Tickets
 ---

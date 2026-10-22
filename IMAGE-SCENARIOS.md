@@ -7,7 +7,7 @@ layout: null
 
 ## Scope
 
-This audit covers 189 English content pages, counting translated pages only
+This audit covers 191 English content pages, counting translated pages only
 through their English source. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
@@ -15,10 +15,10 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 187 | 81 | 106 |
-| **All English content pages** | **189** | **81** | **108** |
+| Editorial pages in the sitemap | 189 | 81 | 108 |
+| **All English content pages** | **191** | **81** | **110** |
 
-The 106 image-less editorial pages are the main illustration backlog. The two utility
+The 108 image-less editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -161,6 +161,8 @@ pages are listed separately at the end.
 | `guide-pages/open-source-ticketing-platforms.md` | Comparison graphic: `open-source-licence-matrix` | Place the reviewed providers on two axes: licence type (permissive, copyleft, open core, source-available, community-edition-versus-proprietary) and whether the hosted service runs the published code. Mark the per-ticket fee and self-hosting condition from each comparison page, and show Chobble's AGPL-3.0-only product with both managed and self-hosted paths. | Separates what publishing code means legally from what an organiser can run and at what cost. |
 | `guide-pages/box-office-software.md` | Admin screenshot: `door-list-and-walk-ups` | The Lantern Rooms' door view on the night: the attendee list with checked-in counts beside walk-up names added as manual attendees, one cash payment recorded and the ledger total for the evening. | Shows advance sales, the door and the money record as one workflow. |
 | `guide-pages/event-registration-software.md` | Attendee screenshot: `free-registration-with-questions` | A free talk registration with a place limit, a required access-requirements question answered and the confirmation email with the joining link. | Shows what registration without payment collects, and what the organiser receives. |
+| `guide-pages/free-ticketing.md` | Comparison graphic: `free-model-income-sources` | Meadowfield compares three free models on one panel: buyer contributions at checkout, fees on paid tickets and capped free plans, beside the £25 community rate, a trial month and self-hosting. Label each with the charge an organiser or buyer sees. | Shows that a free headline still has an income source, and where that source sits. |
+| `guide-pages/ticketing-payments.md` | Diagram: `ticket-payment-path` | A £12 Riverside ticket shown as one flow: buyer checkout, card charge by the payment provider, settlement into the organiser's account and the booking record written. Processing fee labelled as the provider's, with no platform share. | Shows whose account the money lands in and which charges sit beside a ticket. |
 
 ## Comparison Hubs
 

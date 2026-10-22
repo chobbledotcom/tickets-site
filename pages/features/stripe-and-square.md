@@ -64,7 +64,8 @@ blocks:
 
       ## Flexible pricing
 
-      Set a fixed ticket price, or enable pay-what-you-want so attendees can
+      Set a fixed ticket price, or enable
+      [pay-what-you-want](/features/selling-tickets/) so attendees can
       choose how much to pay above a minimum amount. This is ideal for
       community events, fundraisers, or any situation where you want to let
       people contribute what they can.
@@ -74,8 +75,9 @@ blocks:
 
       ## Automatic refunds
 
-      Chobble Tickets can issue a full refund for one booking or full refunds
-      in bulk. The selected payment provider processes each refund and reports
+      Chobble Tickets can issue a
+      [full refund for one booking or full refunds in bulk](/features/refunds/).
+      The selected payment provider processes each refund and reports
       the result. Partial refunds must be handled in the provider's dashboard.
   - type: markdown
     content: |
@@ -93,6 +95,7 @@ blocks:
     content: |-
       ## Start accepting payments
 
-      Connect Stripe, Square, or SumUp and start selling tickets in minutes.
+      Connect Stripe, Square, or SumUp and
+      [start selling tickets](/features/selling-tickets/) in minutes.
 name: Stripe, Square & SumUp Payments - Chobble Tickets
 ---

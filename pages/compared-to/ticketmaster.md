@@ -268,7 +268,7 @@ blocks:
       estimate used on this page is approximate.
 
       - [Ticketmaster UK](https://www.ticketmaster.co.uk)
-      - [Ticketmaster Business Solutions](https://business.ticketmaster.com/solutions/) - features for venues and organisers
+      - [Ticketmaster Business](https://business.ticketmaster.com/solutions/) - features for venues and organisers
       - [SafeTix](https://www.ticketmaster.com/safetix) - encrypted barcode technology
       - [Ticketmaster UK privacy policy](https://privacy.ticketmaster.co.uk/privacy-policy) - marketing about upcoming events by email, push, SMS and social media
       - [Chobble Tickets features](/features/)

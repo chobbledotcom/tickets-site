@@ -150,7 +150,7 @@ blocks:
       | Webhook sends (over 100,000 per period) | $0.25 per 100,000 | ~£0.20 per 100,000 |
 
       Three usage meters sit on top of the platform fee, charged only on
-      what you actually use: gateway-paid invoices at $0.10 each with no
+      what you use: gateway-paid invoices at $0.10 each with no
       free allowance, and API calls and webhook sends at $0.25 per
       100,000 with the first 100,000 of each free each period. A 7-day
       free trial covers the chosen plan. GBP figures use an approximate
@@ -235,8 +235,8 @@ blocks:
         described in the platform modules list
       - **Extensions marketplace** - a marketplace of third-party
         extensions extending the platform
-      - **Container operations** - specialist solutions for container
-        operations, listed among the platform's target industries
+      - **Container operations** - listed among the platform's target
+        industries
       - **Professional services and fractional CTO** - custom
         development, integrations, and a dedicated engineer on the
         Fractional CTO tier
@@ -373,7 +373,7 @@ blocks:
       Thakker (CEO) and Ronald Richardson (CTO), and as having taken a
       bootstrapped path without outside investors. The platform page lists
       modules including Fleet-Ops, Storefront, Navigator and Ledger, and
-      the solutions page lists trucking, food and grocery delivery, courier
+      the use cases page lists trucking, food and grocery delivery, courier
       and parcel services, e-commerce, healthcare, waste and recycling,
       container operations and military and government.
 
@@ -392,7 +392,7 @@ blocks:
 
       - [Fleetbase pricing](https://fleetbase.io/pricing) - Cloud plan at $29/month plus $5 per driver or vehicle, three usage meters, and self-hosted installation
       - [Fleetbase platform overview](https://fleetbase.io/platform) - Fleet-Ops, Storefront, Navigator, Ledger and extensions
-      - [Fleetbase solutions](https://fleetbase.io/solutions) - trucking, delivery, courier, e-commerce, healthcare, waste, container and government use cases
+      - [Fleetbase use cases](https://fleetbase.io/solutions) - trucking, delivery, courier, e-commerce, healthcare, waste, container and government use cases
       - [Fleetbase on GitHub](https://github.com/fleetbase/fleetbase) - open source under the AGPL-3.0 licence
       - [Fleetbase commercial licensing](https://fleetbase.io/licensing/commercial) - commercial licence waives AGPL obligations for proprietary extensions
       - [Chobble Tickets logistics](/features/logistics/) - agents, run sheets, and agent-class users

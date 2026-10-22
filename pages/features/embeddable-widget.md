@@ -69,8 +69,8 @@ blocks:
       ## No custom code needed
 
       If you don't want to build a custom integration with the
-      [public API](/features/public-api/), the embeddable widget gives you
-      a working solution with just a single line of HTML.
+      [public API](/features/public-api/), the embeddable widget works
+      with a single line of HTML.
 
       See the [embed documentation](https://chobbledotcom.github.io/tickets/docs/embed.ts)
       for widget setup and configuration details.

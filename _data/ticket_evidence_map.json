@@ -255,7 +255,7 @@
       "galleryCaption": "A contact record whose counts and private note the organiser has corrected.",
       "legacyDestinationPath": "images/screenshots/record-put-right.png",
       "page": "pages/features/privacy-controls.md",
-      "reviewed": "a0f5f9032023e7141dbc41a373179e3fbb23e5a185a04946b8918ae4fbbc43fe",
+      "reviewed": "8ace011e7b07d21d872178dee64bbddf14630528d3fc311787ac181d838b22be",
       "socialBody": "The counts a record holds and the note kept against it are yours to correct, and nobody but the organiser reads the note.",
       "socialHeading": "Correct what a record says",
       "socialKey": "record-put-right"

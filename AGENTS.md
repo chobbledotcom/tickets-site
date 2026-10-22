@@ -26,6 +26,7 @@ bun run lint:fix     # Auto-fix lint issues
 bun run cpd          # Copy-paste detection at the .jscpd.json threshold
 bun run cpd:ratchet  # Fails if the min-tokens threshold could be lowered; pay down a clone, lower minTokens in .jscpd.json
 bun run check:copy   # Fails when one sentence of page copy appears on two pages outside .duplicate-copy.json
+bun run grade        # Grades pages against the content style guide: code checks always, Jev judgements with an API key (pass --no-jev for code only)
 ```
 
 Content lives in `pages/` and `guide-pages/`, site configuration in `_data/`,
