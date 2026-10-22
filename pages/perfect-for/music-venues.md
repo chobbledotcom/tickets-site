@@ -1,7 +1,7 @@
 ---
 title: Music Venues - Chobble Tickets
-meta_title: Ticketing Software for Music Venues | Chobble Tickets
-meta_description: Run a grassroots music venue's whole programme with advance tickets, door lists, QR check-in and no Chobble per-ticket fee, on your own payment account.
+meta_title: Music Venue Ticketing Software | Chobble Tickets
+meta_description: Venue ticketing for grassroots music rooms, with advance tickets, door lists, QR check-in and no Chobble per-ticket fee, on your own payment account.
 permalink: /perfect-for/music-venues/
 eleventyNavigation:
   key: Music Venues

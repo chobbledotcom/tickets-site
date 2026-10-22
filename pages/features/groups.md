@@ -44,6 +44,17 @@ blocks:
     figure_caption: 'A booking made on a group page arrives with the person, how to reach them, what they picked and the one place they took. <small><a href="https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/book-through-the-site.feature">(src)</a></small>'
   - type: markdown
     content: |
+      ## Selling group tickets
+
+      A group page also handles group tickets: one person buying for
+      several people. The buyer chooses a quantity for each listing, and
+      the [maximum per purchase](/features/registration-deadlines/) caps
+      what one order can take. One payment covers the whole group.
+
+      On a booking that spans several events, buyers answer each [custom
+      question](/features/custom-questions/) once per order rather than
+      once per listing.
+
       ## Tiered ticket types with shared capacity
 
       Use **max attendees per group** to set a shared capacity cap across

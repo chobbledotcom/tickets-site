@@ -1,7 +1,7 @@
 ---
 title: Deposits & Balance Payments - Chobble Tickets
 meta_title: Deposits, Reservations & Balance Payments - Chobble Tickets
-meta_description: Take a deposit at booking time and collect the balance later through a secure payment link. Statuses, ledger tracking, and offline payments included.
+meta_description: Take a deposit at booking time and collect the balance later through a secure payment link, a two-step payment plan with statuses, ledger tracking and offline payments.
 permalink: /features/deposits-and-balance-payments/
 ticket_evidence_capture: balance-payment-link
 eleventyNavigation:
@@ -32,6 +32,10 @@ blocks:
       A deposit of zero is also valid, which means the customer reserves
       without opening a payment-provider checkout and pays the whole amount
       later. The deposit is always capped at the full order price.
+
+      This two-step arrangement is the payment plan Chobble Tickets
+      provides: a deposit at booking and one balance payment afterwards.
+      Chobble Tickets does not split a price into a run of instalments.
   - type: split-image
     content: |
       ## Attendee statuses

@@ -1,7 +1,7 @@
 ---
-title: Your Public Website - Chobble Tickets
-meta_title: Your Public Website - Chobble Tickets
-meta_description: Enable a public website with a homepage, listings, news, content pages and an optional contact page, or switch it off and use direct booking links.
+title: Your Event Listings Website - Chobble Tickets
+meta_title: Your Event Listings Website - Chobble Tickets
+meta_description: Publish a public website with your event listings, news, content pages and an optional contact page, or switch it off and use direct booking links.
 permalink: /features/your-public-website/
 ticket_evidence_capture: page-anybody-can-read
 eleventyNavigation:
@@ -14,7 +14,7 @@ blocks:
     content: |-
       # Your public website
 
-      A Chobble Tickets site can provide a homepage, listings, news, content pages and an optional contact page. If you already have a website, you can switch the public site off and share booking links directly.
+      A Chobble Tickets site can provide a homepage, your event listings, news, content pages and an optional contact page. If you already have a website, you can switch the public site off and share booking links directly.
   - type: split-image
     content: |
       ## Pages you write, alongside the listings
@@ -85,5 +85,5 @@ blocks:
       ## A website included
 
       Sign up for managed hosting at £50/year or £5/month and get a public website alongside your ticketing.
-name: Your Public Website - Chobble Tickets
+name: Your Event Listings Website - Chobble Tickets
 ---

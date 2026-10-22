@@ -2,7 +2,7 @@
 name: Ticketing Guides
 subtitle: Compare ticketing providers by fees, ownership, hosting and domain options
 meta_title: Ticketing Guides | Chobble Tickets
-meta_description: Thirteen guides comparing ticketing providers on fees, company structure, branding, custom domains and self-hosting, drawn from reviews of 52 platforms.
+meta_description: Fifteen guides comparing ticketing providers on fees, payments, company structure, branding, custom domains and self-hosting, drawn from reviews of 52 platforms.
 permalink: /guide/
 blocks:
   - type: markdown
@@ -26,8 +26,10 @@ blocks:
       | Question | Guide |
       |---|---|
       | What will ticketing cost for my volume of sales? | [The cheapest ticket sales system](/guide/choosing-a-ticket-platform/cheapest-ticket-sales-system/) |
+      | What does free ticketing cost, and what do free platforms charge instead? | [Free ticketing](/guide/choosing-a-ticket-platform/free-ticketing/) |
       | Which providers charge the same whatever I sell? | [Flat-rate ticketing and hosting](/guide/choosing-a-ticket-platform/flat-rate-ticketing/) |
       | Which providers take nothing from each ticket? | [Ticket sales with no per-attendee fees](/guide/choosing-a-ticket-platform/no-per-attendee-ticket-sales/) |
+      | What happens when a buyer pays? | [Ticketing payments](/guide/choosing-a-ticket-platform/ticketing-payments/) |
       | Where is the real charge hidden in a low headline rate? | [How ticketing platforms disguise their fees](/guide/choosing-a-ticket-platform/how-ticketing-platforms-disguise-fees/) |
       | Who funds each provider, and what do its pledges cover? | [Where ticketing money goes](/guide/choosing-a-ticket-platform/where-ticketing-money-goes/) |
       | Which providers are charities, co-operatives or community interest companies? | [Ethical ticket sales options](/guide/choosing-a-ticket-platform/ethical-ticket-sales-options/) |

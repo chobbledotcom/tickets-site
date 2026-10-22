@@ -1,7 +1,7 @@
 ---
 title: Free Events - Chobble Tickets
-meta_title: Free Event Registration With a Headcount | Chobble Tickets
-meta_description: Run free events that still need a list. Free listings need no payment provider and keep capacity, questions, emails, check-in and encrypted records.
+meta_title: Free Event Sign-up & Registration | Chobble Tickets
+meta_description: Create a free event sign-up form that still caps numbers. Free listings need no payment provider and keep capacity, questions, emails, check-in and encrypted records.
 permalink: /perfect-for/free-events/
 ticket_evidence_capture: free-headcount-no-money
 eleventyNavigation:
@@ -15,7 +15,7 @@ blocks:
     content: |-
       # Free events that still need a headcount
 
-      A private view, a story time, a public meeting or a taster session takes no money and still needs to know who is coming, cap the numbers and reach everyone when the date moves. Free listings need no payment provider at all.
+      A private view, a story time, a public meeting or a taster session takes no money and still needs to know who is coming, cap the numbers and reach everyone when the date moves. The listing becomes a free event sign-up form, with capacity, questions and confirmation emails attached. Free listings need no payment provider at all.
     buttons:
       - text: Start for £5
         href: https://tix.chobble.com/listings

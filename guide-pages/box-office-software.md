@@ -1,6 +1,6 @@
 ---
 name: Box Office Software
-subtitle: What a UK event box office needs, from advance sales and door lists to phone check-in, walk-ups, refunds and reconciliation
+subtitle: What a UK event box office needs, from advance sales and same-day door sales to phone check-in, walk-ups, refunds and reconciliation
 meta_title: Box Office Software for UK Events | Chobble Tickets
 meta_description: What box office software covers for UK events, from advance sales and door lists to phone check-in, walk-ups, refunds, cash records and reports.
 guide-category: choosing-a-ticket-platform
@@ -47,6 +47,9 @@ blocks:
       [Online ticket sales](/features/selling-tickets/) run the advance
       side, with per-date capacity and money paid straight to the
       organiser's [Stripe, Square or SumUp account](/features/stripe-and-square/).
+      A listing stays on sale until its capacity goes or its
+      [booking deadline](/features/registration-deadlines/) passes, so an
+      order placed on the day joins the same list as the advance bookings.
 
       At the door, staff can [check tickets in with a phone camera or a
       name search](/features/qr-code-check-ins/), and duplicate scans are
