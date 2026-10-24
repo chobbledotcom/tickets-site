@@ -7,7 +7,7 @@ layout: null
 
 ## Scope
 
-This audit covers 194 English content pages, counting translated pages only
+This audit covers 195 English content pages, counting translated pages only
 through their English source. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
@@ -15,10 +15,10 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 192 | 81 | 111 |
-| **All English content pages** | **194** | **81** | **113** |
+| Editorial pages in the sitemap | 193 | 81 | 112 |
+| **All English content pages** | **195** | **81** | **114** |
 
-The 111 image-less editorial pages are the main illustration backlog. The two utility
+The 112 image-less editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -160,6 +160,7 @@ pages are listed separately at the end.
 | `guide-pages/cheapest-ticket-sales-system.md` | Comparison graphic: `annual-cost-crossover` | Plot the cost of a year of £20 tickets against the number sold, from 0 to 1,000. Draw one line for a flat annual fee plus processing and separate lines for the per-ticket rates of several reviewed providers, marking where each line crosses the flat one. | Shows that the cheapest provider depends on volume, and where the crossover falls. |
 | `guide-pages/where-ticketing-money-goes.md` | Comparison graphic: `donation-pledge-breakdown` | Break a £15 ticket into face value, booking fee, service fee, payment processing and the donated share for a pledge-funded plan, beside a flat hosting fee with the ticket charge left whole. | Shows which part of an organiser's cost a donation pledge is taken from. |
 | `guide-pages/event-ticketing-systems-a-coding-agent-can-deploy.md` | Comparison graphic: `published-versus-deployed-source` | Place the reviewed providers on two axes: whether the source is published, and whether the published source is what the hosted service runs. Mark the branding and paid-plugin qualifications recorded on each comparison page, and show what remains to be maintained under each deployment shape. | Separates readable code from deployable code, which is the distinction that decides what an agent can verify. |
+| `guide-pages/non-vibe-coded-ticket-sales-systems.md` | Comparison graphic: `engineered-versus-prompted-signals` | Two columns for one checkout that two buyers finish at the same moment: the prompted system marks the last place free for both and oversells, while the tested system uses the place only on payment confirmation and refunds the later confirmed order automatically. Add a row of verifiability signals beneath, from published tests and coverage gates to leftover localhost links and AI team bylines. | Shows the two failure surfaces a buyer cannot see, money and headcount, and what an organiser can check without reading code. |
 | `guide-pages/open-source-ticketing-platforms.md` | Comparison graphic: `open-source-licence-matrix` | Place the reviewed providers on two axes: licence type (permissive, copyleft, open core, source-available, community-edition-versus-proprietary) and whether the hosted service runs the published code. Mark the per-ticket fee and self-hosting condition from each comparison page, and show Chobble's AGPL-3.0-only product with both managed and self-hosted paths. | Separates what publishing code means legally from what an organiser can run and at what cost. |
 | `guide-pages/box-office-software.md` | Admin screenshot: `door-list-and-walk-ups` | The Lantern Rooms' door view on the night: the attendee list with checked-in counts beside walk-up names added as manual attendees, one cash payment recorded and the ledger total for the evening. | Shows advance sales, the door and the money record as one workflow. |
 | `guide-pages/event-registration-software.md` | Attendee screenshot: `free-registration-with-questions` | A free talk registration with a place limit, a required access-requirements question answered and the confirmation email with the joining link. | Shows what registration without payment collects, and what the organiser receives. |

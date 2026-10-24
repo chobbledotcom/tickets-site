@@ -351,6 +351,31 @@ blocks:
       - You want to read the source code, or run the platform yourself
   - type: markdown
     content: |
+      ## How the software is built
+
+      The marks on Whizzly's public pages point to software built quickly
+      with AI assistance. Its blog posts carry bylines such as "Whizzly
+      Product & Commerce Team", the terms had reached version 4.3 and the
+      privacy policy version 3.3 by October 2026, and the accept-bookings
+      page's live demo buttons link to `http://lashes-by-leona.localhost:3000`,
+      a local development address left on the published page (checked 24
+      October 2026). No status page, changelog or engineering documentation
+      appears in the site's sitemap.
+
+      Whizzly's pages ship Firebase code to the browser, which connects
+      directly to the platform's Cloud Firestore database, and the privacy
+      policy says tenant data is isolated by Firestore security rules keyed
+      to each merchant's Firebase account.
+
+      None of this shows a defect. It shows how the software was made and
+      how new it is, which is worth weighing when a platform takes deposits
+      and holds a booking calendar. The [guide to non-vibe-coded ticket
+      sales
+      systems](/guide/choosing-a-ticket-platform/non-vibe-coded-ticket-sales-systems/)
+      sets out the risks unreviewed code brings to payment and availability
+      logic, and how to check for them.
+  - type: markdown
+    content: |
       ## Who runs Whizzly?
 
       Whizzly is provided by
@@ -385,6 +410,7 @@ blocks:
       - [Whizzly privacy policy](https://whizzly.co.uk/privacy) - controller and processor roles, sub-processors, retention and exports
       - [Whizzly homepage](https://whizzly.co.uk/) - subdomains, white label and marketplace positioning
       - [Whizzly founding blog post](https://whizzly.co.uk/blog/from-lockdown-idea-to-whizzly-independent-business-ai) - the Preston and Expressive Media background
+      - [Whizzly sitemap](https://whizzly.co.uk/sitemap.xml) - the full page list, checked for status and documentation pages
       - [Whizzly Ltd on Companies House](https://find-and-update.company-information.service.gov.uk/company/17380895)
       - [Chobble Tickets pricing and limits](/pricing/)
       - [Chobble Tickets features](/features/)
