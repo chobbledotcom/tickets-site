@@ -1,7 +1,7 @@
 ---
 title: Compare Ticketing Platform Fees - Chobble Tickets
 meta_title: Ticketing Platform Fee Calculator | Chobble Tickets
-meta_description: Ticketing fee calculator for 49 platforms. Enter your ticket volume and price to see what each one takes in a year and what you keep.
+meta_description: Ticketing fee calculator for 51 platforms. Enter your ticket volume and price to see what each one takes in a year and what you keep.
 permalink: /compared-to/compare-all/
 eleventyNavigation:
   key: Compare All
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Compare ticketing platform fees
 
-      This calculator estimates a year of ticketing fees on Chobble Tickets and 48 other platforms. Set how many tickets you sell and at what price, and each card shows what you keep after platform fees and payment processing.
+      This calculator estimates a year of ticketing fees on Chobble Tickets and 50 other platforms. Set how many tickets you sell and at what price, and each card shows what you keep after platform fees and payment processing.
   - type: include
     file: platform-comparison-grid.html
   - type: markdown

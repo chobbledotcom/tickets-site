@@ -78,6 +78,8 @@
           "ticketpass_essentials": "/compared-to/ticketpass/",
           "ticketpass_pro": "/compared-to/ticketpass/",
           "ticketsource_stripe": "/compared-to/ticketsource/",
+          "whizzly_starter": "/compared-to/whizzly/",
+          "whizzly_pro": "/compared-to/whizzly/",
           "chobble": ""
         };
         var link = r.key in linkMap

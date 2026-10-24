@@ -31,7 +31,7 @@ blocks:
       Chobble, the community interest company that runs Chobble Tickets,
       writes these comparisons. Each one lists the pages its facts came from
       and the date they were checked, and the most recent checks were made on
-      12 October 2026. Where a fact could not be confirmed, the comparison
+      24 October 2026. Where a fact could not be confirmed, the comparison
       says so rather than guessing.
 
       The [ticketing guides](/guide/choosing-a-ticket-platform/),
@@ -207,6 +207,9 @@ blocks:
       - icon: hugeicons:ticket-01
         description: A French platform covering ticketing, cashless payments, access control and staff management. Compare fees, payouts and data handling.
         name: <a href="/compared-to/weezevent/">Weezevent alternative</a>
+      - icon: hugeicons:calendar-03
+        description: A UK storefront and booking platform for salons, shops and takeaway businesses, charging a monthly subscription and no commission. Compare the subscription and add-ons with prepaid hosting.
+        name: <a href="/compared-to/whizzly/">Whizzly alternative</a>
       - icon: hugeicons:ticket-01
         description: The ticketing add-on inside Wix's website builder. Compare fees, website integration and data handling.
         name: <a href="/compared-to/wix-events/">Wix Events alternative</a>

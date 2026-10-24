@@ -446,5 +446,23 @@
     "payment_processing_percent": 0,
     "payment_processing_fixed": 0,
     "fee_note": "Zeffy charges organisations nothing: no subscription, no platform fee on tickets, and it covers card processing. Its only revenue is the optional contribution it asks donors for at checkout, which around 60% of donors leave; the suggested percentage falls as the payment grows, the wording cannot be customised, and a contribution is not refunded when the underlying payment is. Ticket money reaches the organisation by payout after a 1-3 business day anti-fraud review: weekly by default (every Monday), monthly on the first Monday, or the next business day for eligible organisations, and payouts cannot be triggered manually. Chobble Tickets: £50/year or £5/month flat (£25/year for charities, community groups, artists and musicians on the annual plan) + Stripe, Square or SumUp processing (1.5% + 20p), paid straight into the organiser's own payment account. Source: zeffy.com/home/free-online-fundraising-platform and support.zeffy.com (checked 10 October 2026)."
+  },
+  "whizzly_starter": {
+    "name": "Whizzly Starter",
+    "annual_cost": 95.88,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Whizzly Starter: £9.99/month, or £95.88/year on annual billing, with 0% platform commission. Card processing runs through the merchant's own Stripe account and is charged by Stripe at 1.5% + 20p for standard UK cards. Booking deposit protection (£9.99/month), two-way calendar sync (£4.99/month), client intake forms (£2.99/month) and loyalty stamp cards (£2.99/month) cost extra as add-ons on Starter. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: whizzly.co.uk/pricing and whizzly.co.uk/terms (checked 24 October 2026)."
+  },
+  "whizzly_pro": {
+    "name": "Whizzly Pro",
+    "annual_cost": 239.88,
+    "per_ticket_fee_percent": 0,
+    "per_ticket_fee_fixed": 0,
+    "payment_processing_percent": 1.5,
+    "payment_processing_fixed": 0.2,
+    "fee_note": "Whizzly Pro: £24.99/month, or £239.88/year on annual billing, with 0% platform commission and all 30+ powerups included, among them booking deposit protection, two-way calendar sync, client intake forms, loyalty stamp cards and the in-person POS, plus 1,000 monthly AI tokens and 1,000 WhatsApp message credits. Extra store locations cost £9.99/month each. Card processing runs through the merchant's own Stripe account and is charged by Stripe at 1.5% + 20p for standard UK cards. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: whizzly.co.uk/pricing and whizzly.co.uk/terms (checked 24 October 2026)."
   }
 }

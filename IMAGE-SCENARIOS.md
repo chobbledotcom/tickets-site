@@ -7,7 +7,7 @@ layout: null
 
 ## Scope
 
-This audit covers 193 English content pages, counting translated pages only
+This audit covers 194 English content pages, counting translated pages only
 through their English source. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
@@ -15,10 +15,10 @@ and loading placeholders do not.
 
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
-| Editorial pages in the sitemap | 191 | 81 | 110 |
-| **All English content pages** | **193** | **81** | **112** |
+| Editorial pages in the sitemap | 192 | 81 | 111 |
+| **All English content pages** | **194** | **81** | **113** |
 
-The 110 image-less editorial pages are the main illustration backlog. The two utility
+The 111 image-less editorial pages are the main illustration backlog. The two utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -250,6 +250,7 @@ pages are listed separately at the end.
 | `pages/compared-to/onfleet.md` | Comparison graphic: `run-sheet-versus-delivery-platform` | Willow Deliveries runs three vans and 200 drops a week from a marquee hire business. Put Onfleet's Launch task allowance, route optimisation, live GPS and proof of delivery in one column, beside Chobble's flat £50/year agent run sheet with postcode lookup and mark-done toggle, and label the features Chobble does not have. | Shows a small operator where a run sheet is enough and where a delivery platform starts to pay for itself. |
 | `pages/compared-to/fleetbase.md` | Comparison graphic: `fleetbase-modules-versus-flat-fee` | Pepper Lane Supper Club sells 80 £18 dinner tickets a month and delivers half as meal boxes. Put Fleetbase's $29/month plus $5 per driver or vehicle, its Fleet-Ops, Storefront, Navigator and Ledger modules, route optimisation and live GPS in one column, beside Chobble's £50/year tickets plus hire plus run sheet, and label the features each platform does not have. | Shows where an open-source multi-module logistics platform overlaps a flat-fee ticketing tool, and where the per-driver pricing starts to add up. |
 | `pages/compared-to/sumup-store.md` | Comparison graphic: `sumup-store-ticket-item` | Oakfield sells 200 £15 workshop tickets through a SumUp store item with a stock figure, beside Chobble's event with capacity, QR check-in, refunds and attendee emails. Show the 2.5% online payment fee on both sides, since Chobble can use SumUp for processing. | Shows that a shop's item workflow does not cover the jobs an event creates. |
+| `pages/compared-to/whizzly.md` | Comparison graphic: `whizzly-subscription-versus-flat-hosting` | Ancoats Lash Studio books 40 £45 appointments a month. Show Whizzly's Starter and Pro subscriptions with the deposit and calendar-sync add-ons stacked on Starter, beside Chobble's £50/year hosting, with the same Stripe rate marked on both sides, and add WhatsApp reminders, two-way calendar sync and the AI price-list scanner as Whizzly advantage cards, with QR check-in, encrypted attendee data and the custom domain as Chobble ones. | Shows what a subscription buys beside a flat fee when neither platform takes a cut, and where diary tools part ways with event ticketing. |
 | `pages/compared-to/eventee.md` | Comparison graphic: `eventee-event-app-versus-ticketing` | Bridgepoint Conference runs a 500-attendee single-day event with a schedule, live Q&A and networking. Put Eventee's mobile app, RSVP registration and attendee engagement in one column, beside Chobble's paid checkout, encrypted attendee data and flat £50/year fee, and label the features each does not have. | Sets the event-app boundary before pricing, so the comparison is about the job rather than the fee shape. |
 
 ## Utility Pages
