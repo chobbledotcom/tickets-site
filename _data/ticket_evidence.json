@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "f48d1d9e5c80886a0f8d6ca291783dc27d89de49",
+    "commit": "6479a274e3b8ca7e7ae6fab52a370991ca461fe2",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -504,7 +504,7 @@
         "height": 2083,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "e58a8c29b065addab6e6db966dfa49f2eb2b58e92e2737eac61a9caca998ba79",
+        "sha256": "7fbb7d40f1a83f80e0a22874c22fc178f3b6277dec66edca682bcca6952953be",
         "src": "/images/screenshots/free-headcount-no-money.png",
         "viewport": {
           "deviceScaleFactor": 2,
