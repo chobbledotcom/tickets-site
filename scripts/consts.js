@@ -22,6 +22,7 @@ export const sourceExcludes = [
   "scripts",
   "facts",
   "chobble-template",
+  "app",
   "node_modules",
   "_site",
   "package*.json",
