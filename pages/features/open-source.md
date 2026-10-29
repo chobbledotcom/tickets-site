@@ -24,6 +24,11 @@ blocks:
       and run the software, subject to its terms. There is no separate
       proprietary product tier.
 
+      Every change to that code must pass the same checks before it is
+      merged, including 100% test coverage and a ban on copied code.
+      [Chobble Coding Standards](https://coding-standards.chobble.com/) explains each check, with
+      examples from the repository.
+
       ## Built by a community interest company
 
       Chobble began as Stefan Burke's freelance business in 2024. Chobble CIC

@@ -40,6 +40,12 @@ blocks:
       Paid bookings continue to the provider's hosted checkout. Chobble
       Tickets records payment confirmation and refund results.
 
+      Every night, an automated test opens a real browser, buys a ticket
+      through each provider's test checkout and then refunds it. This finds
+      changes on the provider's side that a simulated provider would miss.
+      [Chobble Coding Standards](https://coding-standards.chobble.com/techniques/testing/real-endpoints/)
+      describes the nightly run.
+
       When a buyer returns from the payment provider before confirmation
       has arrived, they see a waiting page with a Check again button
       instead of an error.

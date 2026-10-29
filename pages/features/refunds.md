@@ -51,6 +51,11 @@ blocks:
       a refund is interrupted by a crash, it can be picked up and finished
       rather than issued twice or lost.
 
+      Tests make a refund fail on purpose between two of its steps, such as
+      after the payment provider sends the money but before the site
+      records it. [Chobble Coding Standards](https://coding-standards.chobble.com/techniques/testing/fault-injection/)
+      describes how those failures are set up.
+
       Chobble has no admin access to organisers' sites, and
       [attendee data is encrypted](/features/encrypted/). Failures therefore
       have to be resolvable without a support login, and the site explains

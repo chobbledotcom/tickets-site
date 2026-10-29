@@ -25,6 +25,10 @@ blocks:
       screenshot comes from a test case, its feature page links to that
       test case.
 
+      The test cases are written as plain English scenarios and run against
+      the real application. [Chobble Coding Standards](https://coding-standards.chobble.com/techniques/testing/acceptance-specs/)
+      explains how they are written and run.
+
       ## What to do next
 
       The [examples page](/examples/) has live demo sites for arts

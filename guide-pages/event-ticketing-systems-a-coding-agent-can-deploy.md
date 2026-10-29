@@ -189,7 +189,8 @@ blocks:
       review. Chobble Tickets additionally states
       what its checks refuse: 100% line and branch coverage, no repeated block
       of 19 tokens or more, and a ceiling on how complex a single function may
-      become.
+      become. Each of those checks is described in full at
+      [Chobble Coding Standards](https://coding-standards.chobble.com/).
 
       Each provider's `agent_instructions` record on its comparison page holds
       this classification and the date it was checked, and reads `not-reviewed`

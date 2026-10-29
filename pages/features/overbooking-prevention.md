@@ -56,6 +56,12 @@ blocks:
       a paid order is not readable yet, so the booking is recorded either
       way.
 
+      The SumUp recovery rules are written down as a list of states and the
+      steps allowed between them. A model checker, a tool that tries every
+      possible order of events, then checks that no order of steps can
+      delete a checkout that might still hold a payment. [Chobble Coding Standards](https://coding-standards.chobble.com/techniques/machines-and-proofs/tla-and-apalache/)
+      describes the method.
+
       ## The checkout window
 
       An unpaid checkout stops taking payment after one hour. This stops a

@@ -59,6 +59,9 @@ blocks:
       Each behaviour on this page, including the order sent after closing, is
       a case in the [published booking-deadline
       tests](https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/when-booking-closes.feature).
+      Those tests are plain English scenarios, and
+      [Chobble Coding Standards](https://coding-standards.chobble.com/techniques/testing/acceptance-specs/)
+      explains how scenarios like these become runnable tests.
   - type: cta
     button:
       text: Get Started
