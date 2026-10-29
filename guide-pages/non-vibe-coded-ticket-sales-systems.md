@@ -113,6 +113,10 @@ blocks:
       - A checkout that uses a place only when the payment confirms, with
         the later of two racing confirmed payments refunded
         automatically ([overbooking prevention](/features/overbooking-prevention/))
+
+      Each of these gates is written up at
+      [Chobble Coding Standards](https://coding-standards.chobble.com/), with its configuration
+      and examples from the repository.
   - type: markdown
     dark: true
     content: |

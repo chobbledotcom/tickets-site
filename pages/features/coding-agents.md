@@ -88,6 +88,10 @@ blocks:
       any mutation the tests failed to notice. A test quality audit flags
       assertion patterns that pass without proving much.
 
+      [Chobble Coding Standards](https://coding-standards.chobble.com/techniques/) explains each of these
+      checks with its configuration and the reasoning behind it, using
+      examples from this repository.
+
       ## Why the limits sit where they do
 
       A complexity ceiling and a line ceiling stop a function growing past the
@@ -264,6 +268,7 @@ blocks:
       ## References
 
       - [Chobble Tickets on GitHub](https://github.com/chobbledotcom/tickets) - source, AGENTS.md and deployment steps
+      - [Chobble Coding Standards](https://coding-standards.chobble.com/) - how the checks, tests and agent instructions in the repository work
       - [Technical documentation](https://chobbledotcom.github.io/tickets/doc.ts/index.html) - generated module and configuration reference
       - [Deno](https://deno.com/) - the runtime the product is built on
       - [Bunny Edge Scripting](https://bunny.net/blog/introducing-bunny-edge-scripting-a-better-way-to-build-and-deploy-applications-at-the-edge/) - the serverless platform used for the recommended deployment

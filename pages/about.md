@@ -30,6 +30,10 @@ blocks:
       booking software that took the company from one customer to over a
       thousand.
 
+      Stef describes the methods he uses to keep software tested and
+      consistent, including software written with coding agents, at
+      [Chobble Coding Standards](https://coding-standards.chobble.com/).
+
       Stef supports several Manchester community projects, including Blue Pits
       and Vegan Prestwich. The full CV is at
       [stefn.co.uk](https://stefn.co.uk).
