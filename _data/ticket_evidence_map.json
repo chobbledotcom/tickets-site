@@ -8,7 +8,7 @@
       "galleryCaption": "A public list where an add-on is offered on its own as well as with the thing it goes with.",
       "legacyDestinationPath": "images/screenshots/promo-codes-and-add-ons-checkout.png",
       "page": "pages/features/promo-codes-and-add-ons.md",
-      "reviewed": "f90b7ace1bf3baf23db5f9b5923af75460c726a08cb2b993096dc7728559c9dc",
+      "reviewed": "2a34246c2c3f95a7509ef1ebe52b168dc5d479ff241358755ed8016223f34482",
       "socialBody": "Combine an add-on with the thing it goes with, or mark it as something people may buy on its own. Where it stands alone it gets its own page and is not called an add-on.",
       "socialHeading": "Sell an extra on its own too",
       "socialKey": "promo-codes-and-add-ons"
@@ -86,7 +86,7 @@
       "galleryCaption": "A listing's own record, with a door check-in written into it.",
       "legacyDestinationPath": "images/screenshots/activity-log-summer-arts-fair.png",
       "page": "pages/features/activity-logs.md",
-      "reviewed": "f78f8c46d004f687ece371674def6f93d8fbdc06e8b677b53128b290f2bea3bd",
+      "reviewed": "f83e666d541f72ccca6799b53d7fbd7957ca2b3457d0802cf8a8ca9993bc435e",
       "socialBody": "Each listing keeps its own record of what happened to it, including who was checked in at the door and when.",
       "socialHeading": "Each listing keeps its own record",
       "socialKey": "activity-log"
@@ -320,7 +320,7 @@
       "galleryCaption": "A listing booked by the day, saying each booking lasts three days.",
       "legacyDestinationPath": "images/screenshots/multi-day-hire.png",
       "page": "pages/features/multi-day-hire.md",
-      "reviewed": "9c685e03662a29729ce1a60c6b2875f7659e2abc8f698a057870a0b2b5c87c6d",
+      "reviewed": "8daffe1e18a29186a40b07092e2840e09ce1aa8c173a69b2253f5d1311369a61",
       "socialBody": "Set how many days one booking covers. The length is on the listing's own page, and the days a booking covers use capacity when its payment is confirmed.",
       "socialHeading": "Book several days at once",
       "socialKey": "multi-day-hire"

@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "5ed5ae25d94b7271550b7296a89ea4725a3c1860",
+    "commit": "f48d1d9e5c80886a0f8d6ca291783dc27d89de49",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -52,7 +52,7 @@
         },
         {
           "keyword": "And",
-          "text": "the Cover is still offered when booking the Chair"
+          "text": "the \"Cover\" is still offered when booking the Chair"
         }
       ],
       "story": {
@@ -126,7 +126,7 @@
         "height": 500,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "e51229050cec922fda57ee28b5278ebaeec353ecb8c2b371d851e47291e5a4c0",
+        "sha256": "1db9b70b159eeb6e873f507bb13eaba953171b4ac7b9fc02deac44e62de7aa64",
         "src": "/images/screenshots/attendee-csv-export.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -177,10 +177,10 @@
       },
       "id": "backup-restore",
       "image": {
-        "height": 1957,
+        "height": 2059,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "9c2f162fe0df6f0d733666a578a48c8265d548b59c49ab47b01e0f850e733195",
+        "sha256": "0ec3ae7958e1583dda3264afb421f829c5fbe2a1f945a7caa7f50f00b2915754",
         "src": "/images/screenshots/backup-restore.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -343,10 +343,10 @@
       },
       "id": "checked-in-on-the-day",
       "image": {
-        "height": 652,
+        "height": 742,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "290769bce4ec8a57d11621234dab58b4d5ba279f63d9eb455ede4e7a0d0877e0",
+        "sha256": "6fe67fb74bfc6a549c2ef799e2e17cafb8200262b5577e0153057b8811662184",
         "src": "/images/screenshots/activity-log-summer-arts-fair.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -357,7 +357,7 @@
       },
       "presentation": "branded",
       "rule": {
-        "description": "The organiser is told the name on the ticket and how many places it covers,\nso they know how many people to wave through.",
+        "description": "The organiser is told the name on the ticket and how many places it covers.\nA ticket that covers several people asks how many are at the door, so part\nof a party can arrive first and the rest still gets in later.",
         "id": "attendees.a-ticket-for-this-listing-lets-them-in",
         "name": "A ticket for this listing lets the person in"
       },
@@ -392,7 +392,7 @@
         "height": 1256,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "86d7dba5646483bdd3b78b6b7fd5471ac47979d6f017c73ae4c74deb1c410928",
+        "sha256": "91eb13da1f2d75179253207e21ced4d67c5e774ddfd3483e9529220ec23cd57c",
         "src": "/images/screenshots/manual-attendee-community-supper.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -501,10 +501,10 @@
       },
       "id": "free-headcount-no-money",
       "image": {
-        "height": 1755,
+        "height": 2083,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "673a48f7bcf53f8efe1386a074f0b1c3fa405e1c95c8b99bad4218b51eec4850",
+        "sha256": "e58a8c29b065addab6e6db966dfa49f2eb2b58e92e2737eac61a9caca998ba79",
         "src": "/images/screenshots/free-headcount-no-money.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -551,10 +551,10 @@
       },
       "id": "group-booking-arrives",
       "image": {
-        "height": 928,
+        "height": 1018,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "33703111447b2a5ed65f973cce87d930302f6186dddb96675d932659513e86e0",
+        "sha256": "40be014e15f0948b6924ea5d4741de345fc4d0602a4f3b27ce7d2d93a67c6703",
         "src": "/images/screenshots/the-tempest-group-checkout.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -708,7 +708,7 @@
         "height": 1482,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "0df5557fd145c4f5864ea0f325adf2f69c6aba239136623fad1ffb37293c4fc2",
+        "sha256": "2938bcb81b144fe1b0a899052a19a735f901fe7788eed65495ed6bd149e54a6b",
         "src": "/images/screenshots/one-days-audience.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -978,7 +978,7 @@
         "height": 607,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "2c71a0317281f3c5dd750a802168ca51f3c431181e42220400f178eba0bacce6",
+        "sha256": "5378179493ab41653412cf30bbaf4c3e4f661a37fb32f6bbc27f1e764dae9c75",
         "src": "/images/screenshots/qr-code-check-in.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1020,7 +1020,7 @@
         "height": 1256,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "3be4187fcb377e54d38b816268ed267fd8ec829ab10e9e7840daf0331d0dc3ff",
+        "sha256": "2435a0a12c0867303d497bd0e222c7fb9fff2e8315fa970fdb2856245316e02e",
         "src": "/images/screenshots/record-put-right.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1082,7 +1082,7 @@
         "height": 1256,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "b7292d7ed1bd03a54426c6744eb8b2b579bfff5fe04f8573e4e2eeb612ca84eb",
+        "sha256": "c7cb17b0cccf7a79596565356e61239208a033380fe6a421770c29ca8874873c",
         "src": "/images/screenshots/record-repaired.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1195,10 +1195,10 @@
       },
       "id": "servicing-studio-floor-hold",
       "image": {
-        "height": 742,
+        "height": 744,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "17c07c7cbb0f40033ba5626dd1cd05a78c82dc4966d6ba7c4af4f0229de7787a",
+        "sha256": "5d55153edfe7f05d3cb7c3353e6bb13952cab38749cf4c861273df19df3e2486",
         "src": "/images/screenshots/servicing-studio-floor-hold.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1295,10 +1295,10 @@
       },
       "id": "stay-length-on-the-page",
       "image": {
-        "height": 1128,
+        "height": 1160,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "7e3265c7a3da2ca8cc607d9743131b2d2e8579a439f28997f422c6afec926e4b",
+        "sha256": "bcf572d7a51361d8bf13d206515cba112dbd34b60dc8e09fe1656034dd5c6c61",
         "src": "/images/screenshots/multi-day-hire.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -1328,7 +1328,7 @@
         }
       ],
       "story": {
-        "description": "An organiser can change how many days each stay on a listing covers. The\nlisting's own page says how long its stays last. Stays already booked are\nstretched or shortened to match a change, so the calendar and the bookings\nnever disagree — except where the customer chose the length themselves,\nwhich is theirs to keep. A save that does not change the length leaves\nevery stay exactly as it was. Turning day bookings on never unbooks\nanybody. A length saved on a listing that is not booked by the day is kept\nfor later. It rewrites no stays and writes nothing in the listing's\nhistory.",
+        "description": "An organiser can change how many days each stay on a listing covers. The\nlisting's own page says how long its stays last. Stays already booked are\nstretched or shortened to match a change, so the calendar and the bookings\nnever disagree — except where the customer chose the length themselves,\nwhich is theirs to keep. A save that does not change the length leaves\nevery stay exactly as it was. A length saved on a listing that is not\nbooked by the day is kept for later. It rewrites no stays and writes\nnothing in the listing's history.",
         "id": "bookings.changing-how-long-a-stay-lasts",
         "name": "An organiser changes how long a stay lasts",
         "uri": "specs/bookings/changing-how-long-a-stay-lasts.feature"

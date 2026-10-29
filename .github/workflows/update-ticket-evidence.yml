@@ -240,3 +240,15 @@ jobs:
             pages/features/stripe-and-square.md
             pages/features/users.md
             pages/features/your-public-website.md
+
+  notify-failure:
+    name: Notify on Failure
+    runs-on: ubuntu-latest
+    needs: [update]
+    if: failure()
+    steps:
+      - name: Send failure notification
+        uses: NiNiyas/ntfy-action@master
+        with:
+          url: 'https://ntfy.sh'
+          topic: ${{ secrets.NTFY_TOPIC }}
