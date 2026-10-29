@@ -35,7 +35,7 @@ provider_facts:
   seating_plans: not-documented
   summary: "A UK storefront and booking platform for salons, shops and takeaway businesses, charging a monthly subscription and no commission on sales."
   notes:
-    established: "Whizzly Ltd was incorporated on 4 August 2026 (Companies House, company 17380895). The company's blog describes the project as starting during the 2020 lockdown under founder Brian Revie of Expressive Media; no dated evidence of a 2020 launch was available to this review, so the incorporation date is recorded. Checked 24 October 2026."
+    established: "The domain whizzly.co.uk was registered on 16 June 2026 (Nominet) and Whizzly Ltd was incorporated on 4 August 2026 (Companies House, company 17380895). The company's blog describes the project as starting during the 2020 lockdown under founder Brian Revie of Expressive Media, but no dated evidence of a 2020 launch was available to this review, so the incorporation year is recorded. Checked 24 October 2026."
     registration_country: "Whizzly Ltd is registered in England and Wales, with a registered office at Starkie Chambers, Lancaster Road, Preston. The terms name it as the operator of whizzly.co.uk. Checked 24 October 2026."
     ethical_basis: "No charity, community interest company, co-operative or B Corp structure is claimed on the pages checked. The blog names Brian Revie, founder of the software company Expressive Media, as the engineer behind the product. Checked 24 October 2026."
     per_ticket_platform_fee: "Whizzly charges 0% platform commission on every plan. Card payments run through the merchant's own Stripe account, and Stripe charges its processing fee directly, at 1.5% + 20p for standard UK cards according to Whizzly's pricing FAQ. Checked 24 October 2026."
@@ -129,9 +129,9 @@ blocks:
       automatically each billing cycle until cancelled, and fees are
       non-refundable for partial or unused periods.
 
-      Managed hosting costs £50 a year or £5 a month. Charities,
-      community groups, artists and musicians pay £25/year on the
-      annual plan.
+      Chobble Tickets charges £50 a year or £5 a month for managed
+      hosting. Charities, community groups, artists and musicians pay
+      £25/year on the annual plan.
 
       On annual billing, Whizzly Starter costs £45.88 more than a year
       of Chobble's managed hosting, and Pro costs £189.88 more. On
@@ -158,9 +158,11 @@ blocks:
       Act 2015.
 
       On Chobble Tickets, buyers pay the organiser's own Stripe,
-      Square or SumUp account, and that provider's normal rates apply
-      on top of the hosting price. [Refunds](/features/refunds/) are
-      issued from the admin panel against the original payment.
+      Square or SumUp account. That provider's processing fee is
+      separate from Chobble's £50/year hosting price, in the same way
+      Stripe's card fee is separate from Whizzly's subscription.
+      [Refunds](/features/refunds/) are issued from the admin panel
+      against the original payment.
   - type: markdown
     content: |
       ## Deposits and no-shows
@@ -388,8 +390,12 @@ blocks:
       alongside Brian Smith and John King, and says the project began
       during the 2020 lockdown.
 
-      The company registered in 2026, and this review found no
-      independent record of the product operating before then.
+      The public records tell a shorter story. The domain
+      whizzly.co.uk was registered on 16 June 2026, and the creation
+      dates embedded in the blog pages checked for this review begin
+      on 23 August 2026, after the company itself was incorporated.
+      This review found no independent record of the product operating
+      before June 2026.
 
       Chobble Tickets is run by [Chobble](/about/), a community
       interest company registered in the United Kingdom. That structure
@@ -409,8 +415,9 @@ blocks:
       - [Whizzly terms of service](https://whizzly.co.uk/terms) - company details, commission policy, billing, cancellation and data retention
       - [Whizzly privacy policy](https://whizzly.co.uk/privacy) - controller and processor roles, sub-processors, retention and exports
       - [Whizzly homepage](https://whizzly.co.uk/) - subdomains, white label and marketplace positioning
-      - [Whizzly founding blog post](https://whizzly.co.uk/blog/from-lockdown-idea-to-whizzly-independent-business-ai) - the Preston and Expressive Media background
+      - [Whizzly founding blog post](https://whizzly.co.uk/blog/from-lockdown-idea-to-whizzly-independent-business-ai) - the Preston and Expressive Media background, and the post creation dates embedded in its page data
       - [Whizzly sitemap](https://whizzly.co.uk/sitemap.xml) - the full page list, checked for status and documentation pages
+      - [whizzly.co.uk on Nominet RDAP](https://rdap.nominet.uk/uk/domain/whizzly.co.uk) - the domain registration record
       - [Whizzly Ltd on Companies House](https://find-and-update.company-information.service.gov.uk/company/17380895)
       - [Chobble Tickets pricing and limits](/pricing/)
       - [Chobble Tickets features](/features/)
