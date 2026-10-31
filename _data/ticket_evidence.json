@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "6479a274e3b8ca7e7ae6fab52a370991ca461fe2",
+    "commit": "cc77b24961cb37234adf9040c088cb4c8539e584",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -126,7 +126,7 @@
         "height": 500,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "1db9b70b159eeb6e873f507bb13eaba953171b4ac7b9fc02deac44e62de7aa64",
+        "sha256": "fa98b37ea8c41b2bfe85f6bcea8b0949b61b8d526548e26f3169489f2a2ab3f9",
         "src": "/images/screenshots/attendee-csv-export.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -504,7 +504,7 @@
         "height": 2083,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "7fbb7d40f1a83f80e0a22874c22fc178f3b6277dec66edca682bcca6952953be",
+        "sha256": "62a8184522dfa76d54ee68857eba862fb41786442def8ce017b786f7a8fae485",
         "src": "/images/screenshots/free-headcount-no-money.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -708,7 +708,7 @@
         "height": 1482,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "2938bcb81b144fe1b0a899052a19a735f901fe7788eed65495ed6bd149e54a6b",
+        "sha256": "3e1fe9b022a2e3f790d93a74d689badd510ac7e1c11cf54cc881e576888e73bc",
         "src": "/images/screenshots/one-days-audience.png",
         "viewport": {
           "deviceScaleFactor": 2,
