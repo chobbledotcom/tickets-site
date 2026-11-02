@@ -124,9 +124,9 @@ blocks:
 
       A skip yard is already busy with phones, drivers and permits. If you
       would rather keep the website off that list, [hosting with
-      support](/support/) puts a developer on the end of a chat thread, sets
-      up your domain and email, and takes feature requests first, for £40 a
-      month.
+      support](/support/) puts a developer on the end of a chat thread or
+      Signal/WhatsApp, sets up your domain and email, and takes feature
+      requests first, for £40 a month.
   - type: cta
     button:
       text: Start for £5

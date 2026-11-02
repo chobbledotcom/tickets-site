@@ -137,8 +137,8 @@ blocks:
       A catering business is already busy with prep lists, staffing and van
       space. If minding a website should not be one more job, [hosting with
       support](/support/) leaves it to Chobble for £40 a month: a chat
-      thread that stays open, your domain and email set up, and feature
-      requests read first.
+      thread that stays open or Signal/WhatsApp, your domain and email set
+      up, and feature requests read first.
   - type: cta
     button:
       text: Start for £5

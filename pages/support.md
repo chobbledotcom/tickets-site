@@ -1,7 +1,7 @@
 ---
 title: Hosting with support
 meta_title: Hosting with support - Chobble Tickets
-meta_description: Hosting with support costs £40 a month, or £20 for charities and co-operatives. It adds a chat thread, domain setup and priority for feature requests.
+meta_description: Hosting with support is £40 a month, or £20 for charities and co-operatives, with a chat thread or Signal/WhatsApp, domain setup and priority feature requests.
 permalink: /support/
 eleventyNavigation:
   key: Support
@@ -12,8 +12,9 @@ blocks:
     content: |-
       # Hosting with support
 
-      Managed hosting with a standing chat thread to the developer, your
-      domain and email handled, and a site that stays yours to take away.
+      Managed hosting with a standing chat thread to the developer, Signal
+      or WhatsApp if you prefer, your domain and email handled, and a site
+      that stays yours to take away.
   - type: markdown
     content: |
       ## What the package adds
@@ -22,7 +23,7 @@ blocks:
       hosting includes, and adds:
 
       - A chat thread with the developer that stays open while the package
-        runs.
+        runs, plus Signal or WhatsApp if you prefer.
       - Domain and email handled. Chobble sets up your [custom
         domain](/features/custom-domain/), hosted email and Google Search
         Console.
@@ -63,14 +64,14 @@ blocks:
       refunds, encryption and exports work the same as on every hosted site,
       because there are no feature tiers.
 
-      Support runs through the chat thread and email. There is no telephone
-      support centre on any package.
+      Support runs through the chat thread, email, Signal or WhatsApp.
+      There is no telephone support centre on any package.
   - type: markdown
     content: |
       ## What it costs
 
-      The package is £40 a month. Charities, community groups, co-operatives
-      and similar organisations pay £20 a month.
+      The package is £40 a month, with no setup fee. Charities, community
+      groups, co-operatives and similar organisations pay £20 a month.
 
       Both rates bill monthly, in advance like all Chobble hosting. Managed
       hosting on its own costs £50 a year or £5 a month, and an organiser can

@@ -106,9 +106,9 @@ blocks:
 
       Equipment hire firms carry stock, servicing and deliveries; the
       website rarely gets the attention it needs. [Hosting with
-      support](/support/) is £40 a month for a standing chat thread with
-      the developer, domain and email setup, and first look at feature
-      requests.
+      support](/support/) is £40 a month for a standing chat thread or
+      Signal/WhatsApp with the developer, domain and email setup, and first
+      look at feature requests.
   - type: cta
     button:
       text: Get Started

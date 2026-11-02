@@ -38,12 +38,13 @@ blocks:
       Chalkie's School for Dogs sells dog training classes from its own domain.
       Listings have included "Total Recall (whistle)" and "Sunday School".
 
-      Chalkie's Dogs pays £40 a month for
+      Chalkie's Dogs pays £40 a month, with no setup fee, for
       [hosting with support](/support/). That arrangement
-      covers help with the setup, hosted email for the business, a Google Search
-      Console setup, and priority for its feature requests. The ticketing
-      features are the same as on every other hosted site, and managed hosting
-      on its own costs £5 a month or £50 a year.
+      covers help with the setup, a chat thread or Signal/WhatsApp, hosted
+      email for the business, a Google Search Console setup, and priority for
+      its feature requests. The ticketing features are the same as on every
+      other hosted site, and managed hosting on its own costs £5 a month or
+      £50 a year.
     button:
       text: Visit the site
       href: https://www.chalkiesdogs.co.uk

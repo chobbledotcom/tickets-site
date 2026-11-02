@@ -104,7 +104,7 @@ blocks:
 
       Marquee work is measuring, crew schedules and weather. [Hosting with
       support](/support/) keeps the site off your desk for £40 a month:
-      domain and email set up, a standing chat thread, and feature
+      domain and email set up, a chat thread or Signal/WhatsApp, and feature
       requests at the front of the queue.
   - type: cta
     button:

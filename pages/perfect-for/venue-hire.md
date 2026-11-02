@@ -114,11 +114,11 @@ blocks:
 
       A venue is already busy with a bookings diary, cleaning rotas and
       phone calls. If the website should be one of the things handed over,
-      [hosting with support](/support/) adds a standing chat thread to the
-      developer, domain and email setup, and priority for feature requests,
-      at £40 a month or £20 for charities, community groups and
-      co-operatives. The booking features are identical, and the site and
-      its data stay exportable if the arrangement ends.
+      [hosting with support](/support/) adds a standing chat thread (or
+      Signal/WhatsApp) to the developer, domain and email setup, and priority
+      for feature requests, at £40 a month or £20 for charities, community
+      groups and co-operatives. The booking features are identical, and the
+      site and its data stay exportable if the arrangement ends.
   - type: cta
     button:
       text: Start for £5
