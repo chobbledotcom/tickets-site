@@ -151,7 +151,9 @@ blocks:
       - Multiple ticket types per event, including a mix of paid and free
       - Discount and promo codes
       - Complimentary tickets through a 100% discount
-      - QR codes on every ticket, and barcode scanning for check-in
+      - QR codes on every ticket, and barcode scanning for check-in,
+        including offline scans (Seaty in its app; Chobble Tickets in a
+        browser for 12 hours)
       - Email confirmations to attendees after booking
       - Refunds processed from the admin panel
       - CSV export of your sales and attendee data
@@ -207,7 +209,6 @@ blocks:
         shared through Dropbox
       - **Granular team roles** - permissions down to scan-only accounts and
         a record of who changed which settings
-      - **Offline scanning** - ticket scanning without a network connection
       - **Equipment leasing and on-site staff** - card readers, kiosks and
         event-day staff supplied by Seaty as an additional service
   - type: markdown
@@ -243,7 +244,7 @@ blocks:
         ticket checkout, alongside Stripe. Seaty accepts card payments online
         through its own gateway or your own Stripe account
       - **[Admin API](/features/admin-api/)** - authenticated API with API
-        keys for full event create, edit and delete
+        keys for full event create, edit and delete, and booking creation
       - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
         attendees choose their own price above a minimum, with no cut taken
         from the extra

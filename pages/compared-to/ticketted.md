@@ -233,8 +233,9 @@ blocks:
         one feed listing all your events, so subscribers see new ones
         automatically
       - **[Admin API](/features/admin-api/)** and
-        [webhooks](/features/webhooks/) - create and edit events from your own
-        systems, and get real-time notifications as bookings happen
+        [webhooks](/features/webhooks/) - create and edit events and bookings
+        from your own systems, and get real-time notifications as bookings
+        happen
       - **[Apple Wallet and Google Wallet passes](/features/apple-wallet/)** -
         tickets saved to a phone's wallet
       - **[Activity logs](/features/activity-logs/)** - an audit trail of

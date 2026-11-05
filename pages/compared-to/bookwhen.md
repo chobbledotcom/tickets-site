@@ -185,8 +185,9 @@ blocks:
         Bookwhen provides hosted booking pages and an embeddable schedule.
       - **[Event management through an API](/features/admin-api/):** an API
         lets other software connect to the platform. Chobble's admin API
-        can create, edit and delete events, and read a listing's
-        attendees; Bookwhen's
+        can create, edit and delete events, create bookings, manage site
+        pages, statuses and questions, and read a listing's attendees;
+        Bookwhen's
         [documented API](https://api.bookwhen.com/v2) reads public event data.
       - **[Same-product self-hosting](/features/open-source/):** run the
         complete product on your own infrastructure with no Chobble software
@@ -215,8 +216,9 @@ blocks:
       Chobble Tickets lets you download a [complete database backup](/features/backups/)
       and [export event setup](/features/catalogue-import-export/) as a
       versioned JSON file, a structured file another Chobble Tickets host
-      can import. The setup export is separate from attendee and payment
-      records; those are included in the database backup.
+      can import. An import also accepts a bundle that carries many listings
+      and groups in one file. The setup export is separate from attendee and
+      payment records; those are included in the database backup.
   - type: markdown
     content: |
       ## Ending a paid term

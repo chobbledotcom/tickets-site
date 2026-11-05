@@ -104,7 +104,8 @@ blocks:
 
       - Online ticket sales with payment processing via Stripe, Square, or SumUp
       - Apple Pay and Google Pay at checkout (via Stripe)
-      - QR code scanning for check-in at the door
+      - QR code scanning for check-in at the door, including offline scans
+        (Ticket Tailor in its apps; Chobble Tickets in a browser for 12 hours)
       - Email confirmations to attendees after booking
       - Event capacity limits
       - Shared capacity caps across multiple ticket tiers (Ticket Tailor
@@ -136,7 +137,8 @@ blocks:
         tickets in person and accepts card payments via the BBPOS WisePOS E
         terminal through Stripe Terminal, plus Tap to Pay or cash
       - **Native check-in apps** - dedicated iOS and Android apps that
-        download attendee lists for offline scanning
+        download attendee lists for offline scanning. Chobble Tickets queues
+        browser scans offline for 12 hours but has no native app
       - **Waitlists** - built-in waitlist support for sold-out events
       - **Tracking links** - generate UTM-tagged links to see which
         marketing channels drove each sale
@@ -197,7 +199,8 @@ blocks:
         (Ticket Tailor allows editing the confirmation email with
         placeholders, but not a full templating language)
       - **[Admin API](/features/admin-api/)** - authenticated API with
-        API keys for full event CRUD and reading private data
+        API keys for full event CRUD, booking creation and reading private
+        data
       - **Custom domain included** - pointing your own domain is part of
         the £50/year (or £5/month) plan. Ticket Tailor charges £7/month for a
         custom domain or includes it in the £39/month White Label add-on

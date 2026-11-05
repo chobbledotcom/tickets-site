@@ -156,7 +156,9 @@ blocks:
       - Custom questions at checkout
       - Manual and box office orders entered by the organiser
         ([manually added attendees](/features/manual-attendees/) in Chobble
-        Tickets), and a payment link sent to the buyer to settle what is owed
+        Tickets), with an agreed price for each place, payments already taken,
+        named charges or writeoffs, and a payment link sent to the buyer to
+        settle what is owed
       - Recording payments taken outside checkout, such as cash, bank
         transfer, card machine takings and invoices
         ([the ledger](/features/ledger/) in Chobble Tickets)
@@ -283,7 +285,7 @@ blocks:
         describes sending event communications but not editing the
         confirmation emails themselves
       - **Connections to your other systems** - other software can read and
-        change event data through the
+        change event data and create bookings through the
         [admin API](/features/admin-api/) and
         [public API](/features/public-api/), and
         [webhooks](/features/webhooks/) tell it when a booking happens.
@@ -307,7 +309,8 @@ blocks:
         price
       - **[Event setup export and import](/features/catalogue-import-export/)** -
         download a file holding an event's settings and load it into another
-        Chobble Tickets host. The file is versioned JSON
+        Chobble Tickets host, or import a bundle of many listings and groups
+        at once. The file is versioned JSON
   - type: markdown
     content: |
       ## Data ownership

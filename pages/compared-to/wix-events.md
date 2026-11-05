@@ -97,7 +97,8 @@ blocks:
 
       - Online ticket sales with payment processing
       - Apple Pay and Google Pay at checkout
-      - QR code scanning for check-in via mobile app
+      - QR code scanning for check-in, including offline scans (Wix in its
+        app; Chobble Tickets in a browser for 12 hours)
       - Email confirmations to attendees after booking
       - Event capacity limits
       - Free event support with no ticket service fee
@@ -125,9 +126,9 @@ blocks:
         admission areas, letting guests pick their seats at checkout
       - **[Dedicated check-in app](https://support.wix.com/en/article/check-in-by-wix-an-overview)** -
         "Check-in by Wix" app with offline scanning, up to 100 staff per
-        event, and ticket-type filtering (Chobble uses browser-based QR
-        scanning, with its own
-        [scanner logins](/features/users/) for door staff)
+        event, and ticket-type filtering (Chobble's browser scanner queues
+        offline scans for 12 hours and gives door staff their own
+        [scanner logins](/features/users/))
       - **Event schedule builder** - create detailed multi-session schedules
         for conferences and festivals, with tags, filters, and a personal
         agenda feature for guests
@@ -196,9 +197,9 @@ blocks:
         multiple-choice and free-text questions to events and collect
         structured answers at checkout, with answers visible across the
         admin interface, CSV exports, and webhooks
-      - **[Admin API](/features/admin-api/)** - full CRUD for events via
-        API keys, so you can automate event management from scripts or
-        external tools (Wix has a [developer
+      - **[Admin API](/features/admin-api/)** - full CRUD for events and
+        booking creation via API keys, so you can automate event management
+        from scripts or external tools (Wix has a [developer
         API](https://dev.wix.com/docs/api-reference/business-solutions/events/introduction)
         but it requires building a custom Wix app)
       - **[Webhooks](/features/webhooks/)** - simple outbound POST on every

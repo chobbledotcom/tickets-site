@@ -195,8 +195,8 @@ blocks:
         multiple-choice questions to events and collect answers at checkout
       - **[Public & admin API](/features/public-api/)** and
         **[webhooks](/features/webhooks/)** - build custom integrations,
-        with [admin API](/features/admin-api/) for full event CRUD via
-        API keys
+        with [admin API](/features/admin-api/) for full event CRUD and
+        booking creation via API keys
       - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's

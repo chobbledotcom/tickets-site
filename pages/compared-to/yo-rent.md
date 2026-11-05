@@ -107,7 +107,9 @@ blocks:
         can have a drop-off and a collection, assigned to an agent (a van,
         a driver, or a crew). Agents get a run sheet on their phone showing
         the address, phone number, a map link, and a "mark done" toggle for
-        each drop-off and collection.
+        each drop-off and collection. A servicing job assigned to an agent
+        appears on the same run sheet, and the owner can edit each day's
+        heading and body.
       - **[Servicing holds](/features/servicing-events/)** - when an item
         goes out for repair or cleaning, you block its capacity for those
         dates without creating a customer booking, so nobody can hire it
@@ -210,7 +212,9 @@ blocks:
 
       - **[Delivery and collection run sheets](/features/logistics/)** -
         assign each drop-off and collection to an agent, who sees a phone
-        run sheet with the address, map link, and a "mark done" toggle
+        run sheet with the address, map link, and a "mark done" toggle.
+        Servicing jobs appear on the same sheet, and the owner can edit each
+        day's heading and body
       - **[Servicing holds](/features/servicing-events/)** - block an
         item's dates while it is out for repair or cleaning, without
         creating a customer booking

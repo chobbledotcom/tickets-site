@@ -133,7 +133,9 @@ blocks:
       - Pay-what-you-want pricing
       - E-tickets with QR code check-in by phone
       - Confirmation emails to buyers
-      - Recording offline payments such as cash or bank transfers
+      - Recording offline payments such as cash or bank transfers, with an
+        agreed price for each place and named charges or writeoffs on a
+        hand-added booking
       - Attendance and sales reports as downloads
       - Refunds and cancellations managed by the organiser
       - Multiple team members with different permissions
@@ -231,8 +233,8 @@ blocks:
         feed readers
       - **[Write-capable APIs](/features/admin-api/)** - a public API for
         listings and availability plus an authenticated admin API that can
-        change data, and [webhooks](/features/webhooks/) on every
-        registration. Zeffy's API and webhooks are read-only
+        change data and create bookings, and [webhooks](/features/webhooks/)
+        on every registration. Zeffy's API and webhooks are read-only
       - **[Custom email providers](/features/email-providers/)** - send
         confirmations from your own domain through Resend, Postmark, SendGrid,
         or Mailgun, with [editable templates](/features/email-templates/)
@@ -313,8 +315,9 @@ blocks:
       Both platforms let you take your data with you. Chobble Tickets adds a
       complete [database backup](/features/backups/) and event setup export as
       versioned JSON through [catalogue import and
-      export](/features/catalogue-import-export/), so a site can move to
-      another Chobble Tickets host.
+      export](/features/catalogue-import-export/). An import can also take a
+      bundle of many listings and groups, so a site can move to another
+      Chobble Tickets host.
   - type: markdown
     content: |
       ## Source code and self-hosting

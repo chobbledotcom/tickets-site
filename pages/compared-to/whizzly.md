@@ -258,13 +258,14 @@ blocks:
         Whizzly encrypts its databases at rest with AES-256, and as
         processor it can read the customer data it stores
       - **[Admin API and webhooks](/features/admin-api/):** other
-        software can create, edit and delete events and read attendee
-        records. Whizzly names APIs in its terms but publishes no API
+        software can create, edit and delete events, create bookings and read
+        attendee records. Whizzly names APIs in its terms but publishes no API
         documentation
       - **[A complete database backup](/features/backups/) and
         [catalogue export](/features/catalogue-import-export/):** the
         full database downloads on demand, and event setup exports as
-        versioned JSON another Chobble Tickets host can import
+        versioned JSON, which another Chobble Tickets host can import one
+        item at a time or as a bundle of many
       - **[Open source](/features/open-source/) and
         [self-hosting](/features/deployment/):** the source is
         published and the same product can be run by the organiser

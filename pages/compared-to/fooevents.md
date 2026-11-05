@@ -167,7 +167,8 @@ blocks:
       - **WooCommerce integration** - tickets sit alongside your other
         WooCommerce products, use the same cart and checkout, and
         inherit any WooCommerce extensions you already run (shipping,
-        tax, accounting, CRM)
+        tax rules, accounting, CRM). Chobble Tickets records tax on a booking
+        but does not connect to accounting software
       - **100+ payment gateways** - any WooCommerce-compatible gateway
         works, including PayPal, Square, Stripe, Authorize.net,
         regional gateways, and offline methods like bank transfer
@@ -253,8 +254,8 @@ blocks:
       - **[Embeddable ticket widget](/features/embeddable-widget/)** -
         drop an iframe into any website to show your events inline
       - **[Admin API](/features/admin-api/) and
-        [public API](/features/public-api/)** - create and manage
-        events from scripts or external tools using API keys
+        [public API](/features/public-api/)** - create and manage events and
+        bookings from scripts or external tools using API keys
       - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration, configured per event in the admin
       - **[Custom email providers](/features/email-providers/)** - use

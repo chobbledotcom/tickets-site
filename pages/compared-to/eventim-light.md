@@ -213,7 +213,8 @@ blocks:
         exports, and webhooks
       - **[Public & admin API](/features/public-api/)** - RESTful JSON API
         for building custom integrations, plus [authenticated admin
-        API](/features/admin-api/) with full event CRUD via API keys
+        API](/features/admin-api/) with full event CRUD and booking creation
+        via API keys
         (EVENTIM.Light has no public API)
       - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for real-time integrations

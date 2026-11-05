@@ -149,7 +149,8 @@ blocks:
       - **More payment options** - Dandelion supports GoCardless Instant Bank
         Pay, Open Collective, and some crypto payments alongside Stripe. It can
         also set currencies and Stripe tax rates per event, and offers Stripe
-        revenue sharing by request
+        revenue sharing by request. Chobble Tickets sets one tax rate for the
+        site, not a separate rate per event
       - **Recordings and on-demand events** - Dandelion has separate workflows
         for selling access to a past recording or content with no fixed date
       - **Organisation growth tools** - affiliate links can give attendees
@@ -169,10 +170,13 @@ blocks:
       - **[Packages and required choices](/features/packages/)** - sell several
         listings as one package, or require a choice such as a room, meal,
         camping pitch, or materials kit
+      - **[Tax on bookings](/features/ledger/)** - set one site-wide rate,
+        added to or included in listed prices, and record it in the ledger
       - **[Delivery and servicing tools](/features/logistics/)** - assign
         drop-offs and collections to a driver or crew, with a phone run sheet.
         [Servicing holds](/features/servicing-events/) block capacity for
-        cleaning, repairs, or internal use without creating a customer booking
+        cleaning, repairs, or internal use without creating a customer booking.
+        A servicing job assigned to an agent appears on the run sheet too
       - **[Double-entry ledger](/features/ledger/)** - event income, attendee
         balances, refunds, offline payments, and event costs appear in one
         ledger, with a statement for each event and attendee
@@ -203,8 +207,8 @@ blocks:
         Resend, Postmark, SendGrid, or Mailgun, with editable HTML and plain-text
         confirmation templates
       - **[Write-capable administration API](/features/admin-api/)** - API keys
-        can create and change listings, groups, and holiday closures, and
-        read a listing's attendees.
+        can create and change listings, groups, holiday closures and bookings,
+        and read a listing's attendees.
         Dandelion's documented Zapier and public AI-assistant tools can only
         read data
       - **[Square and SumUp payments](/features/stripe-and-square/)** - these

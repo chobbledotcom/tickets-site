@@ -117,7 +117,9 @@ blocks:
       customers type their postcode at checkout and pick their address
       from a list, so the address on the run sheet is accurate. You can
       invite a team member as an agent-class user who sees only the run
-      sheet and nothing else.
+      sheet and nothing else. A servicing event assigned to an agent appears
+      on the same run sheet, and the owner can change each day's heading and
+      body with a Liquid template.
 
       This suits an operator hiring out equipment or running events
       where something needs to reach a customer. It does not add route
@@ -215,7 +217,10 @@ blocks:
       - **[Hire bookings](/features/multi-day-hire/)** - hire out items
         by date with capacity consumed only on payment confirmation
       - **[Servicing holds](/features/servicing-events/)** - block an
-        item's dates while it is out for repair or cleaning
+        item's dates while it is out for repair or cleaning, and show the
+        job on the agent's run sheet
+      - **Editable run sheet days** - change the heading and body each day
+        of the run sheet shows, with a Liquid template
       - **[Accounting ledger](/features/ledger/)** - record income and
         costs against each item so its profit is tracked
       - **[QR code check-in](/features/qr-code-check-ins/)** - scannable

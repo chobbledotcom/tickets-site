@@ -119,13 +119,17 @@ blocks:
       - Open source with self-hosting option
       - Stripe payment processing
       - Apple Pay and Google Pay at checkout (via Stripe)
-      - QR code scanning for check-in at the door
+      - QR code scanning for check-in at the door, including offline scans
+        (Hi.Events when the connection is lost; Chobble Tickets queues
+        browser scans for 12 hours)
       - API access for custom integrations
       - Custom questions at checkout
       - Event capacity limits
       - Email confirmations to attendees after booking
       - Free event support with no payment setup required
       - Refund processing
+      - Recording payments taken outside checkout, such as cash or bank
+        transfer, in the ledger
       - [Add-ons](/features/promo-codes-and-add-ons/) sold alongside
         tickets, such as merchandise, parking or meal upgrades
       - Embeddable ticket widgets for your own website
@@ -149,8 +153,10 @@ blocks:
         international events
       - **Donation and tiered ticket types** - offer donation options and
         pricing tiers beyond fixed and pay-what-you-want
-      - **Tax and custom fee management** - configure VAT rates, add service
-        fees, and manage tax reporting per event
+      - **Custom fee management and per-event tax reporting** - add service
+        fees, set VAT rates per event, and manage tax reporting. Chobble
+        Tickets has [one tax setting for the site](/features/ledger/), not a
+        separate rate per event or a service-fee builder
       - **Real-time sales dashboard** - live analytics showing ticket sales,
         revenue, and check-in rates as they happen
       - **Stripe Connect instant payouts** - receive payments directly to
@@ -173,9 +179,7 @@ blocks:
         under your organiser profile
       - **Multiple check-in lists** - create separate lists for different
         areas, gates, or purposes (Chobble Tickets' scanner can cover a
-        whole [event group](/features/groups/), but it works online only)
-      - **Offline check-in support** - continue scanning tickets when
-        internet connectivity is lost
+        whole [event group](/features/groups/))
       - **Multi-language support** - serve the checkout in multiple
         languages
       - **Hidden/locked tickets** - tickets hidden behind promo codes for
@@ -186,8 +190,6 @@ blocks:
         printing attendee badges at events
       - **SEO tools** - per-event custom meta titles, descriptions, Open
         Graph images, and XML sitemap generation
-      - **Offline payment methods** - record and track cash, bank
-        transfer, or other non-digital payments
       - **Marketing opt-in** - checkbox during checkout for attendees to
         opt into marketing communications
   - type: markdown
@@ -220,8 +222,11 @@ blocks:
         door staff get their own login that opens only the scanner, and
         check-ins are counted per place, so a door can admit part of a
         booking
+      - **[Tax on bookings](/features/ledger/)** - set one site-wide rate,
+        added to or included in listed prices, and record it in the ledger
       - **[Admin API](/features/admin-api/)** - authenticated API with
-        API keys for full event CRUD and reading private data
+        API keys for full event CRUD, booking creation and reading private
+        data
       - **[Custom email providers](/features/email-providers/)** - use
         Resend, Postmark, SendGrid, or Mailgun so emails come from your
         domain, not the platform's

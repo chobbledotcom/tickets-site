@@ -196,7 +196,7 @@ blocks:
         and the subject and body are edited from the admin panel. libreevent
         sends through an SMTP account entered during setup
       - **[An admin API](/features/admin-api/)** - authenticated API keys for
-        reading and writing event data
+        reading and writing event and booking data, including creating bookings
       - **[Activity logs](/features/activity-logs/)** - an audit trail of
         admin actions and booking activity
       - **Active development** - the libreevent repository is archived and

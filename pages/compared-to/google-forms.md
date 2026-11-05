@@ -162,8 +162,8 @@ blocks:
         capacity with calendar picker
       - **[Public & admin API](/features/public-api/)** and
         **[webhooks](/features/webhooks/)** - build custom integrations,
-        with [admin API](/features/admin-api/) for full event CRUD via
-        API keys
+        with [admin API](/features/admin-api/) for full event CRUD and
+        booking creation via API keys
       - **[Event groups with tiered ticketing](/features/groups/)** -
         organise related events into collections for multi-event bookings,
         and create ticket tiers sharing a venue capacity cap

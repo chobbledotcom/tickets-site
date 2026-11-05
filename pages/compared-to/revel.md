@@ -154,7 +154,9 @@ blocks:
       - **XLSX export** - export attendee data as an Excel file (Chobble
         Tickets exports CSV)
       - **Automated invoicing** - sequentially numbered invoices with VAT
-        handling, including EU business reverse charge
+        handling, including EU business reverse charge. Chobble Tickets
+        records tax on a booking in its ledger, but does not issue sequential
+        VAT invoices
       - **Telegram integration** - send updates through Telegram
   - type: markdown
     content: |

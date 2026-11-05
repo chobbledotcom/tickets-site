@@ -186,7 +186,8 @@ blocks:
         structured answers at checkout
       - **[Public & admin API](/features/public-api/)** - RESTful JSON
         API for building custom integrations, plus [authenticated admin
-        API](/features/admin-api/) with full event CRUD via API keys
+        API](/features/admin-api/) with full event CRUD and booking creation
+        via API keys
       - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration
       - **[Event groups with tiered ticketing](/features/groups/)** -

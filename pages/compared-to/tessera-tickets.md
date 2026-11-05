@@ -197,7 +197,8 @@ blocks:
       - **[Liquid email templates](/features/email-templates/)** - full
         control over confirmation emails with Liquid template syntax
       - **[Admin API](/features/admin-api/)** - authenticated API with
-        API keys for full event CRUD and reading private data
+        API keys for full event CRUD, booking creation and reading private
+        data
       - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for custom integrations
       - **[Custom questions at checkout](/features/custom-questions/)** -

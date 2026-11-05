@@ -212,7 +212,8 @@ blocks:
         subscribers get automatic calendar updates, and events syndicate to
         feed readers
       - **[Admin API](/features/admin-api/)** - authenticated API with API
-        keys for full event management and reading private data
+        keys for full event management, booking creation and reading private
+        data
       - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
         create promo codes, surcharges, and opt-in add-ons with stock limits
       - **[Custom email providers](/features/email-providers/)** - use Resend,

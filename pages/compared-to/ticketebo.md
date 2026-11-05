@@ -186,7 +186,9 @@ blocks:
       - **Turnstile integration** - feeding live ticket sales data into
         existing venue turnstile infrastructure
       - **VAT tax invoices** - tax invoices or receipts issued to patrons on
-        the organiser's behalf where VAT details are supplied
+        the organiser's behalf where VAT details are supplied. Chobble Tickets
+        records tax on a booking in its ledger, but does not issue tax
+        invoices
       - **Automatic rules-based discounts** - volume discounts such as
         multi-ticket package pricing, applied automatically at checkout
       - **Direct marketing integrations** - built-in connectors for Google
@@ -231,7 +233,7 @@ blocks:
         one feed listing all your events, so subscribers see new ones
         automatically
       - **[Admin API](/features/admin-api/)** - authenticated API with API
-        keys for creating, editing and deleting events
+        keys for creating, editing and deleting events, and creating bookings
       - **[Webhooks](/features/webhooks/)** - real-time notifications to
         your own systems as bookings happen
       - **[Square and SumUp](/features/stripe-and-square/)** for online

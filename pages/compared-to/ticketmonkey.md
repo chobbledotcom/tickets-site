@@ -112,7 +112,9 @@ blocks:
       - Online ticket sales with payment processing through the organiser's
         own Stripe account
       - Apple Pay and Google Pay at checkout
-      - QR code scanning for check-in at the door
+      - QR code scanning for check-in at the door, including offline scans
+        (Ticket Monkey through its app; Chobble Tickets in a browser for 12
+        hours)
       - Email confirmations to attendees after booking
       - Event capacity limits
       - Free event support with no payment setup required
@@ -131,10 +133,10 @@ blocks:
     content: |
       ### Ticket Monkey has features Chobble Tickets doesn't
 
-      - **Offline door scanning** - the free Ticket Monkey scanning app
-        downloads the guest list and scans tickets without a network
-        connection. Chobble Tickets scans through the browser and needs a
-        connection to the site at the door
+      - **Dedicated offline scanning app** - the free Ticket Monkey scanning
+        app downloads the guest list and scans tickets without a network
+        connection. Chobble Tickets' browser scanner queues offline scans for
+        12 hours, but runs in a browser rather than an installed app
       - **Reserved seating** - visual seat maps where attendees pick their own
         seat (Pro tier)
       - **Payment plans** - buyers split a purchase into several instalments
@@ -196,7 +198,7 @@ blocks:
       - **[Public API](/features/public-api/) and [Admin API](/features/admin-api/)** -
         the public API exposes event listings and availability and provides
         booking functionality with no API key, and the admin API uses API keys
-        for reading private data and full event management
+        for reading private data, full event management and booking creation
       - **[Subscribable ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)** -
         a single feed that lists all your events, so subscribers get automatic
         updates when you add new ones

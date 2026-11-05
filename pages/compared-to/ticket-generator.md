@@ -190,7 +190,7 @@ blocks:
       - **[Event groups with shared capacity](/features/groups/)** - group related
         events for multi-event bookings with one checkout
       - **[Admin API](/features/admin-api/)** - authenticated API with API keys
-        for full event management and reading private data
+        for full event management, booking creation and reading private data
       - **[Square and SumUp support](/features/stripe-and-square/)** - Chobble
         supports Stripe, Square and SumUp
       - **[Activity logs](/features/activity-logs/)** - a full audit trail of admin

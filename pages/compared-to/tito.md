@@ -182,7 +182,8 @@ blocks:
         full control over confirmation emails with Liquid syntax for a
         fully white-label experience
       - **[Admin API](/features/admin-api/)** - authenticated API with
-        API keys for full event CRUD and reading private data
+        API keys for full event CRUD, booking creation and reading private
+        data
       - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
         domain

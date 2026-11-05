@@ -152,6 +152,8 @@ blocks:
         internationalisation for multilingual events
       - **Offline check-in stations** - alf.io-PI runs on Raspberry Pi
         hardware with local encryption and cross-station duplicate prevention
+        (Chobble Tickets queues browser scans offline for 12 hours, without
+        dedicated hardware)
       - **Exhibitor lead capture** - sponsors and exhibitors can scan attendee
         badges to capture leads, with GDPR-compliant data handling
       - **Google Analytics integration** - built-in tracking for event pages

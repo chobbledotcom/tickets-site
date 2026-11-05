@@ -182,7 +182,7 @@ blocks:
       - **[Public & admin API](/features/public-api/)** - a RESTful JSON API
         for listings and bookings, plus an
         [authenticated admin API](/features/admin-api/) with full event CRUD
-        via API keys
+        and booking creation via API keys
       - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for real-time integrations
       - **[Custom email providers](/features/email-providers/)** - use Resend,

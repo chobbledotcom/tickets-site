@@ -212,9 +212,9 @@ blocks:
         let attendees choose their own price
       - **[Daily/recurring events](/features/daily-events/)** - per-date
         capacity with calendar picker and holiday blackouts
-      - **[Admin API](/features/admin-api/)** - full CRUD for events via
-        API keys, so you can automate event management from scripts or
-        external tools
+      - **[Admin API](/features/admin-api/)** - full CRUD for events and
+        booking creation via API keys, so you can automate event management
+        from scripts or external tools
       - **[Public API](/features/public-api/)** - authenticated REST API
         for reading event and attendee data
       - **[Webhooks](/features/webhooks/)** - outbound POST on every

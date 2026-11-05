@@ -116,7 +116,9 @@ blocks:
       - Editable email templates
       - Bulk email to a filtered set of attendees
       - Refund processing
-      - Bookings recorded by hand for cash and door sales
+      - Bookings recorded by hand for cash and door sales, with an agreed
+        price for each place, payments already taken, and named charges or
+        writeoffs recorded at creation
       - A log of admin actions and booking activity
       - Retention rules and erasure tools for attendee data
       - Team accounts that can edit listings without seeing attendee records
@@ -197,7 +199,8 @@ blocks:
       - **Dedicated scanning apps** - pretixSCAN for Android, iOS,
         Windows, and Linux with offline mode and multi-device sync, plus
         automatic badge printing after scan. Chobble Tickets scans through
-        a phone browser, so the door needs a working connection
+        a phone browser and queues offline scans for 12 hours, but has no
+        dedicated app or multi-device scan sync
       - **15+ languages** - full multi-language support so attendees see
         the checkout in their preferred language (German, English, Arabic,
         Chinese, Danish, Dutch, French, Italian, Spanish, Turkish, and
@@ -291,7 +294,9 @@ blocks:
         by date and listing
       - **[Logistics and run sheets](/features/logistics/)** - deliveries,
         equipment hire, transport, set-up and teardown at customer
-        addresses, with an agent assigned to each leg
+        addresses, with an agent assigned to each leg. Servicing jobs appear
+        on the same run sheet, and the owner can edit each day's heading and
+        body
       - **[Multi-day hire](/features/multi-day-hire/)** - bookings across
         consecutive days, priced per duration, with capacity checked over
         the whole booked range
@@ -352,7 +357,7 @@ blocks:
       | Point of sale | No | Yes (enterprise plugin) |
       | [Public API](/features/public-api/) | Yes | Yes |
       | [Admin API](/features/admin-api/) | Yes (API keys) | Yes |
-      | [QR code scanning](/features/qr-code-check-ins/) | Yes (phone browser) | Yes (offline apps) |
+      | [QR code scanning](/features/qr-code-check-ins/) | Yes (phone browser, queues offline for 12 hours) | Yes (offline apps) |
       | More than one currency | No | Yes |
       | More than one language | No | Yes (15+ languages) |
       | [Encryption at rest](/features/encrypted/) | Yes (hybrid RSA + AES) | No |

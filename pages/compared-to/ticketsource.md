@@ -175,9 +175,10 @@ blocks:
       - **In-house thermal ticket printing** - print perforated card
         tickets on a connected thermal printer using free Print Server
         software for Windows
-      - **Offline ticket scanning** - a Windows scanning app that downloads
-        the booking list in advance, so the door works without an internet
-        connection
+      - **Offline ticket scanning app** - a Windows scanning app that
+        downloads the booking list in advance, so the door works without an
+        internet connection. Chobble Tickets queues browser scans offline for
+        12 hours but has no Windows scanning app
       - **Waiting lists** - record interest from customers when an event
         sells out
       - **Self-service refunds and exchanges** - a Manage My Bookings
@@ -244,7 +245,7 @@ blocks:
         one feed listing all your events, so subscribers see new ones
         automatically
       - **[Admin API](/features/admin-api/)** - authenticated API with API
-        keys for creating, editing and deleting events
+        keys for creating, editing and deleting events, and creating bookings
       - **[Webhooks](/features/webhooks/)** - real-time notifications to
         your own systems as bookings happen
       - **[Square and SumUp](/features/stripe-and-square/)** as payment
@@ -294,7 +295,8 @@ blocks:
       - You want someone else to answer booking calls from your customers
       - You need posted card tickets, or thermal tickets printed at your
         own box office
-      - You need to scan tickets at a venue with no internet connection
+      - You need a dedicated Windows scanning app, or an offline window
+        longer than 12 hours
       - You want customers to cancel or exchange their own bookings
       - You are an Arts Council England National Portfolio Organisation and
         need audience data sent to Illuminate

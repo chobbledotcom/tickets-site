@@ -36,8 +36,8 @@ blocks:
       - Keeping a list of who's coming
       - Checking people in at the door
       - Keeping a local copy for use without an internet connection (pen and
-        paper works offline; Chobble Tickets check-in requires a connection to
-        the ticketing site)
+        paper works offline; Chobble Tickets keeps a door's ticket list for 12
+        hours and queues scans when the connection drops)
       - No mandatory attendee account required
   - type: markdown
     content: |

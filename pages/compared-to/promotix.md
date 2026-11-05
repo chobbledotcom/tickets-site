@@ -147,7 +147,9 @@ blocks:
       - Discount and promo codes
       - Box office and door sales
       - Add-ons and extras at checkout
-      - Complimentary tickets and walk-ins added by the organiser
+      - Complimentary tickets and walk-ins added by the organiser, with an
+        agreed price for each place, payments already taken, and named
+        charges or writeoffs recorded at creation
       - Ticket transfers between attendees
       - Embeddable checkout on the organiser's own website
       - Staff accounts with roles and permissions
@@ -217,7 +219,8 @@ blocks:
         listings and availability, no API key required. PromoTix describes
         its API as an Enterprise product with no published price
       - **[Admin API](/features/admin-api/) on every plan** - authenticated
-        CRUD for listings, groups and holidays via API keys
+        CRUD for listings, groups and holidays, plus booking creation, via API
+        keys
       - **[Webhooks](/features/webhooks/) on every plan** - a POST request
         per booking, set globally or per event. PromoTix lists webhooks under
         its Enterprise API

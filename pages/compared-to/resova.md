@@ -140,7 +140,9 @@ blocks:
       - **Abandoned booking recovery** - automated follow-up emails to
         people who started a booking but did not complete checkout
       - **Walk-in bookings** - take bookings at the door through the
-        admin interface alongside online bookings
+        admin interface alongside online bookings, with an agreed price for
+        each place, payments already taken, and named charges or writeoffs
+        recorded at creation
       - **Gift voucher system** - sell monetary or experience-specific
         vouchers online that customers redeem at checkout
       - **Multi-location management** - run bookings across several
@@ -192,7 +194,8 @@ blocks:
         with stock limits and a live running total
       - **[Public & admin API](/features/public-api/)** - RESTful JSON API
         for building custom integrations, plus [authenticated admin
-        API](/features/admin-api/) with full event CRUD via API keys
+        API](/features/admin-api/) with full event CRUD and booking creation
+        via API keys
       - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for custom integrations
       - **[Event groups](/features/groups/)** - organise related events

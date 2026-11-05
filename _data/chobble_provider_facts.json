@@ -5,7 +5,7 @@
     "chobble",
     "chobble_selfhosted"
   ],
-  "last_reviewed": "2026-07-25",
+  "last_reviewed": "2026-11-05",
   "registration_country": "united-kingdom",
   "ethical_basis": [
     "community-interest-company"
@@ -30,7 +30,7 @@
   "reference_url": "/about/",
   "notes": {
     "established": "Chobble CIC was incorporated on 24 February 2026 (Companies House, checked 11 August 2026).",
-    "public_api": "A public JSON API covers listings and availability without an API key, and an authenticated admin API covers full event management.",
+    "public_api": "A public JSON API covers listings and availability without an API key, and an authenticated admin API covers full event management, bookings, site pages, questions and attendee statuses.",
     "seating_plans": "Chobble Tickets sells against a capacity figure and has no seat plans; the comparison pages record reserved seating as a feature it lacks.",
     "ethical_basis": "Chobble's social-impact page says it donates 10% of income to the Against Malaria Foundation; the linked AMF fundraiser describes the policy as 10% of profits.",
     "per_ticket_platform_fee": "Payment processing is separate and charged by the organiser's selected provider.",

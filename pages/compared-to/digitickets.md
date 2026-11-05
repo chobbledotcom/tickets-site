@@ -210,7 +210,8 @@ blocks:
         automatically. Not described in the DigiTickets material reviewed
       - **[Webhooks](/features/webhooks/) and an
         [admin API](/features/admin-api/)** - real-time notifications to your
-        own systems, and authenticated creation and editing of events. The
+        own systems, and authenticated creation and editing of events and
+        bookings. The
         DigiTickets material reviewed documents named till and channel
         integrations, not a public API
       - **[Square and SumUp](/features/stripe-and-square/)** as payment
@@ -218,7 +219,7 @@ blocks:
         Payyo, PaymentSense, PayPal and SagePay, and Square and SumUp are not
         listed
       - **[Complete database backups](/features/backups/)** and
-        [event setup exported as versioned JSON](/features/catalogue-import-export/) -
+        [event setup exported as versioned JSON or imported as a bundle](/features/catalogue-import-export/) -
         you can take both to another Chobble Tickets host. DigiTickets'
         privacy notice says client data is securely exported to the client
         when a contract ends

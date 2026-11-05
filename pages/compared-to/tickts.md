@@ -101,7 +101,9 @@ blocks:
 
       - Online ticket sales with Stripe payment processing
       - Apple Pay and Google Pay at checkout (via Stripe)
-      - QR code scanning for check-in at the door
+      - QR code scanning for check-in at the door, including offline scans
+        (tickts through its native apps; Chobble Tickets in a browser for 12
+        hours)
       - Email confirmations to attendees after booking
       - Event capacity limits
       - Free event support with no payment setup required
@@ -132,8 +134,8 @@ blocks:
 
       - **Native iOS and Android scanner apps** - dedicated apps for door
         staff that download attendee lists for offline scanning. Chobble
-        has a web-based scanner that works from any phone browser but no
-        native app
+        has a web-based scanner that works from any phone browser and queues
+        scans when the connection drops, but no native app
       - **Interactive seat-by-seat seating plans** - build custom venue
         layouts where fans pick their exact seat at checkout. Chobble
         supports general admission only
@@ -196,8 +198,8 @@ blocks:
         listings and availability, no API key required. tickts gates API
         access behind Pro
       - **[Admin API](/features/admin-api/) on every plan** -
-        authenticated CRUD for listings, groups, and holidays via API
-        keys. tickts only mentions "API access" on Pro
+        authenticated CRUD for listings, groups and holidays, plus booking
+        creation, via API keys. tickts only mentions "API access" on Pro
       - **[Subscribable ICS calendar feed](/features/rss-and-calendar-feeds/)** -
         a single feed that updates subscribers automatically when you
         add new events. tickts offers per-event "add to calendar" links
