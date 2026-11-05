@@ -7,7 +7,7 @@ layout: null
 
 ## Scope
 
-This audit covers 195 English content pages, counting translated pages only
+This audit covers 196 English content pages, counting translated pages only
 through their English source. A page counts as illustrated
 when an image is visible in its content. Product screenshots, figures,
 galleries and visible image backgrounds count. Icons, logos, social metadata
@@ -16,9 +16,9 @@ and loading placeholders do not.
 | Page group | Total | With images | Without images |
 |---|---:|---:|---:|
 | Editorial pages in the sitemap | 193 | 81 | 112 |
-| **All English content pages** | **195** | **81** | **114** |
+| **All English content pages** | **196** | **81** | **115** |
 
-The 112 image-less editorial pages are the main illustration backlog. The two utility
+The 112 image-less editorial pages are the main illustration backlog. The three utility
 pages are listed separately at the end.
 
 ## Asset Rules
@@ -261,6 +261,7 @@ These pages are rendered but excluded from the sitemap and main editorial total.
 | Page | Proposed asset | Scenario and composition | Organiser value |
 |---|---|---|---|
 | `pages/thank-you.md` | Diagram: `support-message-sent` | Oakfield has sent a question about importing `summer-sessions.json`. Show Question sent, Chobble review and the existing fallback contact route. | Confirms the action and next step without generic celebratory art. |
+| `pages/search.md` | Interface screenshot: `search-results` | Oakfield's organiser searches for "tax" and sees matching feature and guide pages, each with its title, page image and highlighted excerpt. | Shows the result list the Pagefind index produces. |
 | `pages/not-found.md` | Illustration: `useful-404-routes` | An obsolete reporting link reconnects to Home, Features and Guides. Use a broken route marker rather than a decorative error mascot. | Turns the error into a useful recovery path. |
 
 ## Reuse And Production Order

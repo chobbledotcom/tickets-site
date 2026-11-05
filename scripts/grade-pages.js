@@ -69,7 +69,11 @@ const CONTENT_DIRS = ["pages", "guide-pages", "guide-categories"];
 // Utility pages with nothing to grade. They stay in the URL map so links to
 // them still resolve. Translated pages are excluded from grading by the
 // directory filter below, per AGENTS.md.
-const SKIP_GRADE = new Set(["pages/not-found.md", "pages/thank-you.md"]);
+const SKIP_GRADE = new Set([
+  "pages/not-found.md",
+  "pages/search.md",
+  "pages/thank-you.md",
+]);
 
 // Hub pages that list other pages, or pages assembled from _data includes,
 // and are thin in the source by design. pages/faq.md is not listed: its
@@ -2277,7 +2281,7 @@ Options:
   --help          this message
 
 Translated pages (pages/de/, pages/es/) and utility pages (not-found,
-thank-you) are never graded.`);
+search, thank-you) are never graded.`);
 
 const VALUE_FLAGS = {
   "--prefix": (o, v) => {

@@ -89,6 +89,38 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
   align-self: center;
 }
 
+.design-system nav .nav-search {
+  display: flex;
+  align-items: center;
+}
+
+.design-system nav .search-box {
+  min-width: 0;
+  margin: 0;
+
+  input[type="search"] {
+    width: 8rem;
+    padding: 0.35rem 0.6rem;
+    font-size: 0.875rem;
+  }
+
+  button {
+    padding: 0 0.6rem;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .design-system nav .nav-search,
+  .design-system nav .search-box {
+    width: 100%;
+  }
+
+  .design-system nav .search-box input[type="search"] {
+    width: 100%;
+  }
+}
+
 .design-system footer .footer-links {
   display: flex;
   flex-wrap: wrap;
