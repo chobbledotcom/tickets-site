@@ -1,6 +1,6 @@
 {
   "app": {
-    "commit": "6479a274e3b8ca7e7ae6fab52a370991ca461fe2",
+    "commit": "815bc0f12ae97572dcac7718e76296356fe78b5f",
     "repository": "chobbledotcom/tickets"
   },
   "captures": {
@@ -126,7 +126,7 @@
         "height": 500,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "1db9b70b159eeb6e873f507bb13eaba953171b4ac7b9fc02deac44e62de7aa64",
+        "sha256": "114b436b082810bb3580598b54eeca60dd66cdeba483c8e9fd179f57172508c4",
         "src": "/images/screenshots/attendee-csv-export.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -177,10 +177,10 @@
       },
       "id": "backup-restore",
       "image": {
-        "height": 2059,
+        "height": 1963,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "0ec3ae7958e1583dda3264afb421f829c5fbe2a1f945a7caa7f50f00b2915754",
+        "sha256": "36d2be1ccc1d6dc21c3a2a7e4d3bce601320b272197fcf5811a1ad9de2277c3f",
         "src": "/images/screenshots/backup-restore.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -231,10 +231,10 @@
       },
       "id": "balance-payment-link",
       "image": {
-        "height": 1286,
+        "height": 1206,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "ff80a745a8f1d0ed736a6f46b2c592e622a997eef1eab56e36fef5997b43338f",
+        "sha256": "311c466d3e0d383ea73ffe5f241f966ffb6807def09d5b46eb2354326f983d45",
         "src": "/images/screenshots/deposits-and-balance-payments.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -504,7 +504,7 @@
         "height": 2083,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "7fbb7d40f1a83f80e0a22874c22fc178f3b6277dec66edca682bcca6952953be",
+        "sha256": "b3abdd4ac6a84e65d038e8a52c34f0889f9681b42df74db429eddccb75b33a61",
         "src": "/images/screenshots/free-headcount-no-money.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -551,10 +551,10 @@
       },
       "id": "group-booking-arrives",
       "image": {
-        "height": 1018,
+        "height": 922,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "40be014e15f0948b6924ea5d4741de345fc4d0602a4f3b27ce7d2d93a67c6703",
+        "sha256": "524f0c38d15e79f03d6f165769e10ddc4cca22a438acc301f90790c742b850b6",
         "src": "/images/screenshots/the-tempest-group-checkout.png",
         "viewport": {
           "deviceScaleFactor": 2,
@@ -708,7 +708,7 @@
         "height": 1482,
         "mediaType": "image/png",
         "profile": "mobile",
-        "sha256": "2938bcb81b144fe1b0a899052a19a735f901fe7788eed65495ed6bd149e54a6b",
+        "sha256": "4291538b9e80b94230df53f1286f5c38f20f3bb7fdd9f0149d54087201dcfedf",
         "src": "/images/screenshots/one-days-audience.png",
         "viewport": {
           "deviceScaleFactor": 2,
