@@ -53,6 +53,17 @@ blocks:
       ahead customers may book, described on the [registration
       deadlines](/features/registration-deadlines/) page.
 
+      ## Switching a listing to daily
+
+      A listing that sold for one fixed date can be switched to a daily
+      listing. If some bookings have no day of their own, the edit page names
+      them and asks for one date from the listing's own calendar. Saving moves
+      every one of those bookings to that date and finishes the switch.
+
+      The move uses the same capacity check as a new booking. A date without
+      room for everyone is refused, nothing is saved, and the page asks for
+      another date.
+
       ## Multi-day bookings
 
       A daily event can be booked for more than one day at once. Set a

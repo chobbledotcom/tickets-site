@@ -1,7 +1,7 @@
 ---
 title: Ledger - Chobble Tickets
-meta_title: Double-entry Ledger - Chobble Tickets
-meta_description: Every income figure, refund and balance comes from one double-entry ledger. Filter by date and listing, view statements and record cash payments.
+meta_title: Double-entry Ledger & Tax - Chobble Tickets
+meta_description: Every income figure, tax, refund and balance comes from one double-entry ledger. Record VAT, filter by date and listing, and view per-account statements.
 permalink: /features/ledger/
 ticket_evidence_capture: listing-ledger
 eleventyNavigation:
@@ -14,14 +14,14 @@ blocks:
     content: |-
       # Accounting ledger
 
-      Every income figure, refund, and balance in Chobble Tickets comes from a single double-entry ledger. Filter by date and listing, view per-account statements, and record payments taken outside the checkout.
+      Every income figure, tax, refund, and balance in Chobble Tickets comes from a single double-entry ledger. Filter by date and listing, view per-account statements, and record payments taken outside the checkout.
   - type: markdown
     content: |
       ## One source of truth for money
 
       Every money figure in the platform - listing income, attendee balances,
-      modifier revenue, refunds, and booking fees - is derived from a single
-      double-entry ledger. Automated checkout and refund entries are
+      modifier revenue, refunds, booking fees, and tax - is derived from a
+      single double-entry ledger. Automated checkout and refund entries are
       append-only. Owner-created manual entries can be edited or deleted with
       confirmation controls.
 
@@ -42,6 +42,26 @@ blocks:
       [servicing events](/features/servicing-events/) and the net after those
       service costs. When you filter to a single event, it shows gross ticket
       sales, income earned, refunds, costs and the net balance in the ledger.
+  - type: markdown
+    content: |
+      ## Tax on bookings
+
+      The Tax section in settings has three choices: no tax, tax added to
+      listed prices, or tax included in listed prices. The rate takes up to
+      two decimal places, and 0% is a valid choice. This suits taxes such as
+      VAT. When tax applies, a sale records its ticket income and its tax as
+      separate ledger entries.
+
+      A customer pays the tax-inclusive total. Tax added to a listed price
+      sits on top of that price, so the listing earns the listed price and
+      the tax account holds the rest. Tax included in a listed price comes
+      out of it, so the listing earns the price less the tax. A refund
+      reverses the tax as well as the sale.
+
+      Changing the Tax setting does not rewrite an existing booking. Saving
+      an attendee applies the current setting to that booking, shows the tax
+      and balance change before you accept it, and takes or returns no money.
+      The admin API reports a created booking's balance, including any tax.
   - type: split-image
     content: |
       ## Per-account statements
@@ -107,10 +127,10 @@ blocks:
       ## Limits
 
       The ledger is a record of ticket money, not full accounting software.
-      It does not prepare VAT returns or annual accounts, connect to
-      accounting packages or reconcile bank feeds. Payment-provider fees are
-      charged by the provider and are not recorded unless you add them as a
-      cost.
+      It records the tax on each booking but does not prepare or file VAT
+      returns or annual accounts, connect to accounting packages or reconcile
+      bank feeds. Payment-provider fees are charged by the provider and are
+      not recorded unless you add them as a cost.
 
   - type: cta
     button:

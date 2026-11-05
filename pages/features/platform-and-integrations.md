@@ -59,10 +59,10 @@ blocks:
         description: Choose from Resend, Postmark, SendGrid, or Mailgun (US and EU) for notifications.
         name: <a href="/features/email-providers/">Email providers</a>
       - icon: hugeicons:api
-        description: Use <a href="/features/public-api/">public JSON endpoints</a> for listings and bookings, or the <a href="/features/admin-api/">admin API</a> for listings, groups and holidays.
+        description: Use <a href="/features/public-api/">public JSON endpoints</a> for listings and bookings, or the <a href="/features/admin-api/">admin API</a> for listings, groups, pages, statuses and bookings.
         name: Public and admin APIs
       - icon: hugeicons:notification-03
-        description: Get POST notifications on every booking to integrate with your tools.
+        description: Get POST notifications on every booking, with the booking source, and see a badge when a send was not delivered.
         name: <a href="/features/webhooks/">Webhooks</a>
       - icon: hugeicons:rss
         description: ICS calendar and RSS feeds for your events, so attendees can subscribe in their calendar app or feed reader.

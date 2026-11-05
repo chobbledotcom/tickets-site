@@ -26,6 +26,12 @@ blocks:
       `- ` becomes a list, `# ` becomes a heading and `[text](address)`
       becomes a link, and each one converts as you type.
 
+      The toolbar also has an image menu. It lists the pictures in your
+      [image library](/features/images/) and inserts the one you pick at the
+      cursor, so the address is never typed by hand. The editor's preview
+      shows pictures as they will appear, and a reference to a missing
+      picture keeps its describing words instead of showing a broken image.
+
       ## Writing Markdown directly
 
       The "Edit markdown" button under a field shows the plain text. This is

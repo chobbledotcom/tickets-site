@@ -1,7 +1,7 @@
 ---
 title: Catalogue Import and Export - Chobble Tickets
 meta_title: Event Catalogue Import and Export | Chobble Tickets
-meta_description: Export an event or group as versioned JSON and import it into another Chobble Tickets site with prices, memberships, packages and parent links.
+meta_description: Export an event or group as versioned JSON, or import a bundle of many, into another Chobble Tickets site with prices, memberships and links.
 permalink: /features/catalogue-import-export/
 eleventyNavigation:
   key: Catalogue Import and Export
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Catalogue import and export
 
-      Any listing or group in Chobble Tickets can be saved as one file and loaded into another Chobble Tickets site, which re-creates it with its prices, group memberships and package settings. It is how an organiser moves what they sell between hosts, including away from Chobble.
+      Any listing or group in Chobble Tickets can be saved as one file and loaded into another Chobble Tickets site. An import also accepts a bundle document that carries many listings and groups at once. The import re-creates the items with their prices, group memberships and package settings. It is how an organiser moves what they sell between hosts, including away from Chobble.
   - type: split-image
     content: |
       ## What the file contains
@@ -55,6 +55,19 @@ blocks:
       ## Checked before changes are made
 
       Chobble Tickets validates the complete file before applying it. The import is atomic, which means a failed import does not leave part of a listing or group behind.
+
+      ## Import many listings at once
+
+      A bundle document holds many listings and groups in one versioned file.
+      Items refer to each other by name inside the document, so a group can
+      name its listings and a parent can name its children without depending
+      on the numbers one site uses. The admin export downloads one listing or
+      one group; a bundle is an import format for many items at once.
+
+      The whole document is checked before anything is written. One invalid
+      item creates nothing and names the field at fault. A valid bundle is
+      written in one transaction, and the import reports how many listings and
+      groups it created. Single-listing and single-group files work as before.
 
       ## Import from markdown frontmatter
 

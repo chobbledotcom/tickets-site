@@ -33,6 +33,11 @@ blocks:
       without opening a payment-provider checkout and pays the whole amount
       later. The deposit is always capped at the full order price.
 
+      When [tax](/features/ledger/) applies, a percentage deposit follows the
+      tax-inclusive order total. A fixed deposit keeps the amount you set, and
+      the balance payment settles the recorded debt without a second tax
+      assessment.
+
       This two-step arrangement is the payment plan Chobble Tickets
       provides: a deposit at booking and one balance payment afterwards.
       Chobble Tickets does not split a price into a run of instalments.

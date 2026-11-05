@@ -1,7 +1,7 @@
 ---
 title: Admin API - Chobble Tickets
 meta_title: Admin API - Chobble Tickets
-meta_description: Manage events programmatically with a RESTful JSON admin API. Create, update, delete, and list events using API keys or session authentication.
+meta_description: Manage events and bookings programmatically with a RESTful JSON admin API. Create, update, delete, and list listings, groups, pages and bookings.
 permalink: /features/admin-api/
 eleventyNavigation:
   key: Admin API
@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Admin API
 
-      The admin API lets another program manage a Chobble Tickets site with an API key instead of a login. A script, spreadsheet or shop screen can list, create, change and remove listings, groups, holidays and listing options, and read a listing's attendees.
+      The admin API lets another program manage a Chobble Tickets site with an API key instead of a login. A script, spreadsheet or shop screen can list, create, change and remove listings, groups, holidays, questions, attendee statuses and site pages, read a listing's attendees, and create a booking.
   - type: markdown
     content: |
       ## Full event management
@@ -31,9 +31,14 @@ blocks:
       - **Activate / deactivate** - toggle events on and off without
         deleting them
 
-      Groups, [holidays](/features/daily-events/) and listing attributes,
-      such as sizes and their options, have the same list, read, create,
-      update and delete calls.
+      Groups, [holidays](/features/daily-events/), listing attributes,
+      [questions](/features/custom-questions/),
+      [attendee statuses](/features/deposits-and-balance-payments/) and site
+      pages have the same list, read, create, update and delete calls. An
+      attribute's options and a question's answers can be created, changed
+      and removed under their parent. The fixed home, contact and terms pages
+      can be read and updated, because they are not user-made pages and cannot
+      be created or removed.
   - type: split-image
     content: |
       ## Authentication
@@ -69,12 +74,24 @@ blocks:
       uploads to worry about.
   - type: markdown
     content: |
-      ## Attendees and attributes
+      ## Bookings and attendees
 
-      The API can read a listing's attendees, so scripts and dashboards
-      can pull the same attendee data you see in the admin panel. There is
-      also an attributes resource, which covers listing options such as
-      sizes.
+      A listing's attendees can be read, so scripts and dashboards pull the
+      same attendee data you see in the admin panel. `POST
+      /api/admin/attendees` creates a booking the way the manual-add form
+      does. It records the contact details, one or more listing lines, an
+      optional agreed price for each place on a line, payments already
+      received, and named charges or writeoffs.
+
+      The booking, its lines, its payments and its adjustments are saved in
+      one transaction, and the ledger entries post in the same event group.
+      The body can also carry the buyer's answers, an attendee status and a
+      created time for a booking taken on an earlier day.
+
+      A caller can choose the ticket token, so a retried create returns the
+      stored booking instead of making a second one. The create may overbook
+      a listing and never emails the buyer. Its response gives the balance
+      including any tax.
 
       Combined with the [public API](/features/public-api/) (which needs
       no authentication for read-only event listings), the

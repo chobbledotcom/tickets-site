@@ -58,9 +58,13 @@ blocks:
 
       They do not appear anywhere a customer would look. The public ticket
       page, QR codes, wallet passes, check-in, bulk email targets, and CSV
-      attendee exports all filter them out. The only place they appear
-      alongside real bookings is the admin calendar, where they are labelled
-      clearly.
+      attendee exports all filter them out. The admin calendar labels them
+      clearly, and a servicing event assigned to a logistics agent appears on
+      that agent's run sheet.
+
+      A servicing event has no customer contact details. Its run sheet entry
+      shows the event name and the listing it holds, with the drop-off and
+      collection times, and no address or phone line.
 
       ## Record the cost
 

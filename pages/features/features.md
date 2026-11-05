@@ -2,7 +2,7 @@
 
 title: Event Ticketing Software Features - Chobble Tickets
 meta_title: Event Ticketing Software Features | Chobble Tickets
-meta_description: Event ticketing software with payments, packages, QR check-in, refunds, bulk event tools, reports, privacy controls, APIs and a hosted booking website.
+meta_description: Event ticketing software with payments, tax, packages, QR check-in, refunds, bulk event tools, reports, privacy controls, APIs and a hosted booking website.
 permalink: /features/
 eleventyNavigation:
   key: Features
@@ -33,6 +33,9 @@ blocks:
   - icon: hugeicons:credit-card
     description: Accept payments via Stripe, Square, or SumUp with fixed pricing or pay-what-you-want, and automatic refunds.
     name: <a href="/features/stripe-and-square/">Stripe, Square & SumUp</a>
+  - icon: hugeicons:receipt-text
+    description: Set listed prices to include tax such as VAT or add it at checkout, with a rate to two decimal places and a tax account in the ledger.
+    name: <a href="/features/ledger/">Tax on bookings</a>
   - icon: hugeicons:ticket-01
     description: Collect donations, sell raffle tickets, and take payments for anything that doesn't require physical attendance.
     name: <a href="/features/purchasable-events/">Purchasable events</a>
@@ -71,7 +74,7 @@ blocks:
   intro_content: "## [Managing events](/features/managing-events/)"
   items:
   - icon: hugeicons:qr-code
-    description: Each booking gets a unique QR code that authorised staff can scan in a connected browser with a phone camera.
+    description: Each booking gets a unique QR code that staff scan in a browser with a phone camera, and the door keeps working when the connection drops.
     name: <a href="/features/qr-code-check-ins/">QR code check-ins</a>
   - icon: hugeicons:calendar-03
     description: Per-date capacity with a calendar picker and configurable holiday and blackout dates, which is perfect for classes and recurring bookings.
@@ -92,13 +95,13 @@ blocks:
     description: A content-only login that can write your listings and site copy but cannot decrypt attendee data.
     name: <a href="/features/editors/">Editors</a>
   - icon: hugeicons:user-add-01
-    description: Add walk-ins and comp tickets directly from the admin panel, and edit attendee details or reassign events as needed.
+    description: Add walk-ins and comp tickets, agree a price for each place, record payments taken outside checkout, and edit attendee details.
     name: <a href="/features/manual-attendees/">Manual attendees</a>
   - icon: hugeicons:user-switch
     description: Compare two attendee records and choose which contact details, answers and bookings to retain, with payment conflicts handled explicitly.
     name: <a href="/features/manual-attendees/">Merge duplicate attendees</a>
   - icon: hugeicons:delivery-truck-02
-    description: Manage deliveries, equipment hire, and collections at customer locations with a deliveries run sheet for agents.
+    description: Manage deliveries, equipment hire, and collections at customer locations, with servicing jobs and editable day templates on the agents' run sheet.
     name: <a href="/features/logistics/">Logistics</a>
   - icon: hugeicons:wrench-01
     description: Block out capacity for servicing, maintenance, or staff holds without creating a customer booking.
@@ -110,7 +113,7 @@ blocks:
     description: Set inherited listing defaults, duplicate whole groups, and activate or deactivate related listings together.
     name: <a href="/features/bulk-event-management/">Bulk event management</a>
   - icon: hugeicons:file-import
-    description: Move listings and groups between sites as validated JSON, including prices, memberships, packages and parent references.
+    description: Move a listing or group between sites, or import a whole bundle, as validated JSON with prices, memberships, packages and parent references.
     name: <a href="/features/catalogue-import-export/">Catalogue import and export</a>
   - icon: hugeicons:help-circle
     description: Add multiple-choice or free-text questions to events and collect structured answers from attendees at checkout, with answers visible across the admin interface.
@@ -122,7 +125,7 @@ blocks:
     description: Track all admin actions and booking activity with a built-in audit trail and calendar views.
     name: <a href="/features/activity-logs/">Activity logs</a>
   - icon: hugeicons:coins-01
-    description: Every income figure, refund, and balance comes from a single double-entry ledger. Record cash and offline payments too.
+    description: Every income figure, tax, refund, and balance comes from a single double-entry ledger. Record cash and offline payments too.
     name: <a href="/features/ledger/">Accounting ledger</a>
   - icon: hugeicons:book-open-01
     description: Integrated documentation at /admin/guide covers the main admin areas, so new team members can get up to speed fast.
@@ -210,7 +213,7 @@ blocks:
     description: A service-by-service breakdown of which users and configured providers can receive attendee data.
     name: <a href="/features/who-can-see-your-data/">Who can see your data</a>
   - icon: hugeicons:api
-    description: <a href="/features/public-api/">Public JSON endpoints</a> for listings and booking, plus an <a href="/features/admin-api/">admin API</a> for listings, groups and holidays.
+    description: <a href="/features/public-api/">Public JSON endpoints</a> for listings and booking, plus an <a href="/features/admin-api/">admin API</a> for listings, groups, pages and bookings.
     name: Public & Admin API
   - icon: hugeicons:notification-03
     description: Get POST notifications on every booking to integrate with your tools.

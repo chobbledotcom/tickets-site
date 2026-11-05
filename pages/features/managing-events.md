@@ -47,7 +47,7 @@ blocks:
   - type: features
     items:
       - icon: hugeicons:qr-code
-        description: Scan each ticket with a phone camera or the built-in scanner. Staff can check a person in or out and see duplicate-scan warnings.
+        description: Scan each ticket with a phone camera or the built-in scanner. Staff can check a person in or out, the door keeps working through an outage, and scans queue until the connection returns.
         name: <a href="/features/qr-code-check-ins/">QR check-in and check-out</a>
       - icon: hugeicons:calendar-03
         description: Give each date its own capacity and block bookings on holidays or closed dates.
@@ -59,7 +59,7 @@ blocks:
         description: Invite owners, managers, editors and logistics agents with separate accounts and role-based access.
         name: <a href="/features/users/">Team accounts</a>
       - icon: hugeicons:user-add-01
-        description: Add walk-ins and complimentary tickets, edit contact details, change quantities and move registrations.
+        description: Add walk-ins and complimentary tickets, agree a price for each place, record cash already taken, edit contact details and move registrations.
         name: <a href="/features/manual-attendees/">Attendee administration</a>
       - icon: hugeicons:help-circle
         description: Collect multiple-choice or free-text answers and include them in administration views, reports and confirmation emails.
@@ -68,10 +68,10 @@ blocks:
         description: Copy one listing, duplicate a whole group with shifted dates, apply shared defaults and change several listing statuses together.
         name: <a href="/features/bulk-event-management/">Duplicate and bulk-manage events</a>
       - icon: hugeicons:file-import
-        description: Export a listing or group as JSON and import its prices, memberships and structure into another site.
+        description: Export a listing or group as JSON, or import a whole bundle, with prices, memberships and structure for another site.
         name: <a href="/features/catalogue-import-export/">Catalogue transfer</a>
       - icon: hugeicons:delivery-truck-02
-        description: Assign delivery and collection work, give agents a run sheet and record each completed leg.
+        description: Assign delivery, collection and servicing work, give agents a run sheet with editable day templates, and record each completed leg.
         name: <a href="/features/logistics/">Logistics</a>
       - icon: hugeicons:wrench-01
         description: Hold capacity for servicing, maintenance or staff use without creating a customer booking.
@@ -86,7 +86,7 @@ blocks:
         description: Record bookings and administration changes with the responsible account and related listing or attendee.
         name: <a href="/features/activity-logs/">Activity logs</a>
       - icon: hugeicons:coins-01
-        description: Use one double-entry ledger for card income, offline payments, refunds and outstanding balances.
+        description: Use one double-entry ledger for card income, tax, offline payments, refunds and outstanding balances.
         name: <a href="/features/ledger/">Accounting ledger</a>
       - icon: hugeicons:book-open-01
         description: Read the administration guide inside each site when setting up a feature or training another team member.

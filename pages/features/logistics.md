@@ -1,7 +1,7 @@
 ---
 title: Logistics - Chobble Tickets
 meta_title: Delivery, Collection & Logistics - Chobble Tickets
-meta_description: Manage deliveries, equipment hire, transport, set-up and teardown at customer locations. Assign agents, view a run sheet, and mark legs done.
+meta_description: Manage deliveries, collections and servicing at customer locations. Assign agents, view a run sheet, edit its day templates, and mark legs done.
 permalink: /features/logistics/
 eleventyNavigation:
   key: Logistics
@@ -58,6 +58,26 @@ blocks:
     figure_caption: Each delivery day keeps the customer details, map links, times, assigned agent, and completion controls together.
   - type: markdown
     content: |
+      ## Servicing jobs on the same round
+
+      A [servicing event](/features/servicing-events/) assigned to an agent
+      appears on that agent's run sheet too, so maintenance and repairs travel
+      with the day's customer work. A servicing event has no customer contact
+      details, so its entry shows the event name and the listing it holds
+      without an address or phone line.
+
+      ## Change what a day says
+
+      The owner can change each day's heading and body in advanced settings.
+      The two boxes take Liquid, the template language the email templates
+      use, and the settings page lists the day and booking values they accept.
+      A blank box puts the built-in wording back.
+
+      A template the site cannot read is refused before it is saved, and the
+      refusal names the box to fix. The run sheet carries a small Edit
+      template link that only the owner sees.
+  - type: markdown
+    content: |
       ## Agent-class users
 
       You can invite a team member as an agent-class user. An agent sees only
@@ -82,9 +102,10 @@ blocks:
       ## Limits
 
       Logistics records who goes where and when. They do not plan routes,
-      track vehicles or work out delivery prices by distance or zone. The run
-      sheet shows today and tomorrow only, so the calendar is the place to
-      plan further ahead.
+      track vehicles or work out delivery prices by distance or zone. An
+      agent's run sheet shows today and tomorrow. Staff can open any date from
+      the run sheet's calendar picker, and each section covers that date and
+      the day after.
 
   - type: cta
     button:

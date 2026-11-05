@@ -76,6 +76,11 @@ blocks:
       notification from the attendee's page. Messages are not signed, so the
       receiving service cannot prove a message came from your site. The
       address must be a public `https://` address.
+
+      A booking that still owes a confirmation email or a webhook carries a
+      badge on the attendee list and on its own page. The dashboard counts the
+      attendees with an unsent notification and leads to the list. A send the
+      other side never accepted stays marked, so you can send it again.
   - type: markdown
     content: |
       > "Webhooks allow you to set up connections and integrate with other

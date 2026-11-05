@@ -38,6 +38,11 @@ blocks:
       You choose the order the pages are offered in, and you can take one
       down by typing its name to confirm.
 
+      When a visitor opens a booking from a page's own list, the menu marks
+      that page and the item they are booking, and offers the page's other
+      items beside it. A booking of several things at once marks nothing,
+      because it belongs to no single entry.
+
       ## Appearance
 
       You set the site title, which appears as the main heading on every

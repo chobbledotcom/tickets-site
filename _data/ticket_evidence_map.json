@@ -242,7 +242,7 @@
       "galleryCaption": "Manual check-in for someone whose ticket cannot be scanned.",
       "legacyDestinationPath": "images/screenshots/qr-code-check-in.png",
       "page": "pages/features/qr-code-check-ins.md",
-      "reviewed": "a865c0293e66893bc09854bc2df66b2d143384ef89ae283fe8bc0285b06b0596",
+      "reviewed": "becf2601f6dfb228e599228db7ed13c97bc8f6583a94f0072a4ccc5592c77c6d",
       "socialBody": "Scan a booking QR code with a phone camera, or pick the person from the list of those still to arrive when a camera cannot be used.",
       "socialHeading": "Check bookings with a phone",
       "socialKey": "qr-code-check-ins"
@@ -281,7 +281,7 @@
       "galleryCaption": "One booking's money after a refund, adding up to nothing owed.",
       "legacyDestinationPath": "images/screenshots/refunded-booking.png",
       "page": "pages/features/refunds.md",
-      "reviewed": "7c8eb680851f538e49b29ca1e60ae67cd962f2858565c3d2ebcb6300551a4bd9",
+      "reviewed": "8f26ae264594d13b4b290073128596b23636acb9cc755131a54582853a256d54",
       "socialBody": "Refunding hands back the ticket price, any booking fee and any service charge, and the listing stops counting the sale.",
       "socialHeading": "Refund a booking",
       "socialKey": "refunded-booking"

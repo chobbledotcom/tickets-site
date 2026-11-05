@@ -1,7 +1,7 @@
 ---
 title: Manual Attendees - Chobble Tickets
 meta_title: Manual Attendees - Chobble Tickets
-meta_description: Add walk-ins and comp tickets, edit bookings, merge duplicate attendee records and keep offline payments with the same event record.
+meta_description: Add walk-ins and comp tickets, agree a price for each place, record payments taken outside checkout, edit bookings and merge duplicate records.
 permalink: /features/manual-attendees/
 ticket_evidence_capture: contact-record
 eleventyNavigation:
@@ -24,6 +24,21 @@ blocks:
       for check-in and export.
   - type: markdown
     content: |
+      ## Agreed prices, payments and adjustments
+
+      Each line of a hand-added booking can carry an agreed price for each
+      place instead of the listing's usual price, entered in pence or cents.
+      You can also record payments already received, such as cash taken at
+      the desk, and named charges or writeoffs. A positive adjustment bills
+      the attendee, and a negative one forgives part of the debt.
+
+      The booking, its lines, its payments and its adjustments are saved
+      together, and the [ledger](/features/ledger/) entries for the sale, the
+      payments and the adjustments post in the same event group. The
+      adjustment descriptions appear on the booking's Ledger tab. A refund
+      reverses every posted entry exactly.
+  - type: markdown
+    content: |
       ## Example
 
       A community supper has 40 places, and 32 have sold online. A regular
@@ -32,8 +47,9 @@ blocks:
       places left rather than eight. On the night, the cash goes into the
       [ledger](/features/ledger/) against that booking.
 
-      A booking added by hand is refused if the listing has no room, in the
-      same way an online booking is. The rule is one of the [published test
+      Unlike the public booking form, a booking added by hand may overbook a
+      listing. The form warns about the extra places and still saves the
+      booking. The rule is one of the [published test
       cases](https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/adding-a-booking-by-hand.feature)
       for bookings added by hand.
 

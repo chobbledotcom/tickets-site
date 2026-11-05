@@ -1,7 +1,7 @@
 ---
 title: QR Code Ticket Check-In - Chobble Tickets
 meta_title: QR Code Ticket Check-In | Chobble Tickets
-meta_description: Each booking receives a QR code. Staff use an authenticated browser and phone camera to check it in and see duplicate or wrong-event warnings.
+meta_description: Each booking receives a QR code. Staff check it in with a phone camera, see duplicate warnings, and keep scanning during an outage.
 permalink: /features/qr-code-check-ins/
 ticket_evidence_capture: qr-code-check-in
 eleventyNavigation:
@@ -25,10 +25,26 @@ blocks:
       marks its entry for the event being scanned as checked in.
 
       The scanner warns when a booking was already checked in or belongs to a
-      different event. Check-in requires a network connection to the Chobble
-      Tickets site. A manual name and token search is available when a camera
-      cannot be used. That search offers only the people still to arrive, so
-      nobody is checked in twice.
+      different event. A manual name and token search is available when a
+      camera cannot be used. That search offers only the people still to
+      arrive, so nobody is checked in twice.
+
+      Check-in uses the network when it is available. Each scanner page also
+      stores a list of the door's ticket fingerprints for 12 hours, so the door
+      can keep working when the connection drops.
+
+      The page has an Offline mode switch. With the switch on, or when the
+      device has no connection, a scan is checked against the stored list and
+      queued. The queue is sent when the connection returns.
+
+      A queued check-in can arrive after the booking has filled up. The door
+      then admits only the places left and writes a note on the booking. The
+      note says how many people the check-in named and how many it admitted,
+      and it appears on the listing's overview, its roster, the person's page
+      and the group's attendee list.
+
+      A stored list older than 12 hours expires, so the page asks for a reload
+      while online.
 
       Check-ins are counted per ticket, not per booking. A booking with
       several places gets one bold Check in/out link, and the door can

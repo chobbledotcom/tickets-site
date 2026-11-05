@@ -25,8 +25,9 @@ blocks:
       there's no need to log into a separate dashboard.
 
       The refund undoes the sale as well as returning the money. The listing
-      stops counting what the booking earned, and the customer is left owing
-      nothing. A booking can only be refunded once.
+      stops counting what the booking earned, any tax recorded on the booking
+      is reversed, and the customer is left owing nothing. A booking can only
+      be refunded once.
 
       Partial refunds are not issued by Chobble Tickets. Use the payment
       provider's dashboard when only part of a payment should be returned.

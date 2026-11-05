@@ -1,7 +1,7 @@
 ---
 title: Selling Tickets - Chobble Tickets
 meta_title: Sell Event Tickets Online in the UK | Chobble Tickets
-meta_description: Sell event tickets online from your own booking site. Payments go straight to your Stripe, Square or SumUp account, and Chobble takes no per-ticket fee.
+meta_description: Sell event tickets online from your own site. Payments go to your Stripe, Square or SumUp account, tax is recorded, and Chobble takes no per-ticket fee.
 permalink: /features/selling-tickets/
 eleventyNavigation:
   key: Selling Tickets
@@ -55,6 +55,9 @@ blocks:
       - icon: hugeicons:credit-card
         description: Accept payments through Stripe, Square or SumUp with fixed or pay-what-you-want prices. Record cash, bank transfers and money owed.
         name: <a href="/features/stripe-and-square/">Card and offline payments</a>
+      - icon: hugeicons:receipt-text
+        description: Set listed prices to include tax such as VAT or add tax at checkout, at a rate up to two decimal places. The ledger keeps the tax in its own account.
+        name: <a href="/features/ledger/">Tax on bookings</a>
       - icon: hugeicons:ticket-01
         description: Collect donations, sell raffle tickets and take payments for items that do not require physical attendance.
         name: <a href="/features/purchasable-events/">Purchasable events</a>
@@ -80,7 +83,7 @@ blocks:
         description: Paid checkout does not reserve capacity. Recheck prices, capacity and booking rules when payment confirmation arrives, with an automatic refund when an order cannot be honoured.
         name: <a href="/features/overbooking-prevention/">Payment and capacity checks</a>
       - icon: hugeicons:money-receive-square
-        description: Issue full refunds for individual bookings or in bulk and keep the payment provider and accounting ledger in sync.
+        description: Issue full refunds for individual bookings or in bulk and keep the payment provider, tax and accounting ledger in sync.
         name: <a href="/features/refunds/">Refunds</a>
       - icon: hugeicons:layers-01
         description: Set a minimum quantity per purchase on a listing, enforced on the booking page, the embeddable widget and the order widget cart. Raffle strips, drink tokens and hire places can be sold in packs without single-ticket orders.
