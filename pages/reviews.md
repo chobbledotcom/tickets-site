@@ -124,6 +124,22 @@ blocks:
       > it's a game changer. Saves us a few bob and made it easier for
       > customers! The QR system is a game changer! No more holding data on
       > paper, it's now all simple."
+  - type: markdown
+    content: |
+      ## Chalkie's Dogs
+
+      [Chalkie's Dogs](https://www.chalkiesdogs.co.uk) runs dog training
+      classes and uses Chobble Tickets for class bookings and item listings.
+
+      > "I have known Stefan for a long time and his work has always astounded
+      > me. I recently signed up my dog training website, ChalkiesDogs.co.uk,
+      > to be created and hosted by Chobble and what a breeze."
+
+      > "Stefan is Responsive, he is friendly, the site is easy to navigate,
+      > setting up event tickets is a doddle, creating new listings for items
+      > that I sell is super quick, it's just all round very good!"
+
+      > "Don't overlook the little guys when you want to make it big time."
   - type: cta
     button:
       text: Get Started
