@@ -187,8 +187,8 @@ blocks:
       [marketing](https://pretix.eu/about/en/features/marketing),
       [payment](https://pretix.eu/about/en/features/payment),
       [check-in](https://pretix.eu/about/en/features/checkin), and
-      [admin](https://pretix.eu/about/en/features/admin) pages. Here's what
-      Pretix offers that Chobble Tickets doesn't:
+      [admin](https://pretix.eu/about/en/features/admin) pages. Pretix offers
+      these features that Chobble Tickets does not:
 
       - **Interactive seating plans** - a graphical venue editor for
         custom layouts with seat-to-pricing mapping and seat blocking
@@ -399,9 +399,8 @@ blocks:
       events.
 
       Chobble Tickets encrypts attendee names, contact details, payment
-      references and free-text answers before they are stored. Only the
-      keys held by your own administrator accounts, plus the optional
-      recovery account you can enable, unlock them. The
+      references and free-text answers before they are stored. Administrator
+      keys, plus an optional recovery account, are the only way in. The
       [who can see your data](/features/who-can-see-your-data/) page lists
       every user and service provider that may receive attendee data.
   - type: markdown

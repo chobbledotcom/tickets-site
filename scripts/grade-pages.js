@@ -213,6 +213,7 @@ const markdownToText = (md) =>
  * spans of three or more words count as someone else's voice. */
 const stripQuoted = (md) =>
   md
+    .replace(/```[\s\S]*?```/g, " ")
     .split(/\r?\n/)
     .filter((line) => !/^\s*>/.test(line))
     .join("\n")
@@ -227,6 +228,96 @@ const outsideTables = (md) =>
     .split(/\r?\n/)
     .filter((line) => !/^\s*\|/.test(line))
     .join("\n");
+
+// Emphasis spans, not bold. AGENTS.md does not ban emphasis, but a page
+// scattered with italics is a visual AI tell, so the check counts them.
+const countEmphasis = (md) =>
+  (md.match(/(?<!\*)\*([^*\n]+)\*(?!\*)/g) ?? []).length +
+  (md.match(/(?<!_)_([^_\n]+)_(?!_)/g) ?? []).length;
+
+const headingsOf = (md) =>
+  [...md.matchAll(/^\s{0,3}#{1,6}\s+(.+?)\s*#*\s*$/gm)].map((m) => m[1].trim());
+
+// A label is an eyebrow or subtitle: the small line above a heading. They
+// are allowed as plain text, but not as ALL CAPS or a breadcrumb trail.
+const LABEL_KEYS = new Set(["subtitle", "badge"]);
+
+const collectLabel = ([key, value], out) => {
+  if (LABEL_KEYS.has(key) && typeof value === "string") {
+    out.push(value);
+    return;
+  }
+  collectLabels(value, out);
+};
+
+const collectLabels = (node, out) => {
+  if (Array.isArray(node)) {
+    for (const item of node) collectLabels(item, out);
+    return;
+  }
+  if (!isRecord(node)) return;
+  for (const entry of Object.entries(node)) collectLabel(entry, out);
+};
+
+const labelsOf = (fm) => {
+  const labels = [];
+  collectLabels(fm, labels);
+  return labels;
+};
+
+const ALL_CAPS_RE = /^[^a-z]*[A-Z][^a-z]*$/;
+
+const isAllCaps = (text) => {
+  const letters = text.replace(/[^A-Za-z]/g, "");
+  return letters.length >= 5 && ALL_CAPS_RE.test(text);
+};
+
+// "Home / Features / Encryption" in a label or heading, or a file path
+// used as a title. A single slash ("£50/year") is ordinary prose.
+const BREADCRUMB_LABEL_RE = /^[^/>\n]+(?:\s*[/>]\s*[^/>\n]+){2,}$/;
+
+const fencedBlocksOf = (md) =>
+  [...md.matchAll(/```([^\n`]*)\n([\s\S]*?)```/g)].map((m) => ({
+    language: m[1].trim().toLowerCase(),
+    body: m[2],
+  }));
+
+const BOX_DRAWING_RE = /[\u2500-\u257F]/;
+const ASCII_ART_LINE_RE = /[+|/\\_-]{4,}/;
+
+const asciiArtBlocks = (md) =>
+  fencedBlocksOf(md).filter(({ language, body }) => {
+    if (BOX_DRAWING_RE.test(body)) return true;
+    const plain = ["", "text", "txt", "ascii"].includes(language);
+    return (
+      plain &&
+      body.split("\n").filter((l) => ASCII_ART_LINE_RE.test(l)).length >= 2
+    );
+  });
+
+const sentenceKeys = (text) =>
+  text
+    .split(/(?<=[.!?])\s+/)
+    .map((s) =>
+      s
+        .toLowerCase()
+        .replace(/[^a-z0-9£% ]/g, "")
+        .replace(/\s+/g, " ")
+        .trim(),
+    )
+    .filter((s) => s.split(" ").length >= 6);
+
+/** Sentences of six or more words repeated verbatim inside one page: the
+ * polite padding that makes AI copy feel twice as long as its facts. */
+const repeatedSentences = (text) => {
+  const seen = new Set();
+  const repeated = [];
+  for (const sentence of sentenceKeys(text)) {
+    if (seen.has(sentence)) repeated.push(sentence);
+    else seen.add(sentence);
+  }
+  return [...new Set(repeated)];
+};
 
 const isRecord = (value) => !!value && typeof value === "object";
 
@@ -468,7 +559,13 @@ const extractPage = (file, forcedType) => {
     pageType,
     name: pageNameOf(fm),
     heading,
+    headings: headingsOf(markdown),
+    labels: labelsOf(fm),
+    emphasis: countEmphasis(outsideTables(houseMd)),
+    asciiArt: asciiArtBlocks(markdown).length,
+    repeated: repeatedSentences(proseHouse),
     metaTitle: metaTitleOf(fm),
+    ogTitle: fm.og_title ?? "",
     metaDescription: fm.meta_description ?? "",
     providerName: providerDisplayName(fm),
     providerFacts: facts,
@@ -593,6 +690,41 @@ const VOICE_PATTERNS = [
     /\bjoin the movement\b|\btake control\b|\bstart your journey\b|\bmake the switch\b|\breclaim your\b/i,
     "banned CTA phrase in prose",
   ],
+];
+
+// Verbose filler that pads a generated paragraph without adding a fact.
+// "in order to" and "due to the fact that" are wordiness, the rest are
+// conversational tics a machine uses to sound helpful.
+const AI_COPY_PATTERNS = [
+  [
+    /\b(?:it'?s|it is) (?:important|worth) (?:to note|noting)\b/i,
+    "note-taking filler",
+  ],
+  [
+    /\b(?:in conclusion|in summary|to sum up|to summarise)\b/i,
+    "summary filler",
+  ],
+  [
+    /\b(?:that said|needless to say|first and foremost|at the end of the day)\b/i,
+    "filler transition",
+  ],
+  [/\bwhen it comes to\b/i, "when it comes to"],
+  [/\bthe world of\b/i, "the world of"],
+  [/\b(?:unpack|navigat(?:e|ing)) (?:the|this|how)\b/i, "unpack/navigate"],
+  [/\bwhether you'?re (?:a|an)\b/i, "whether you're a"],
+  [/\bhere'?s (?:what|how|why)\b/i, "here's what"],
+  [/\blet'?s (?:dive|explore|look|take a)\b/i, "let's dive"],
+  [
+    /\bin (?:this|the following) (?:article|section|guide)\b/i,
+    "article scaffolding",
+  ],
+  [/\bas (?:we'?ve|we have) (?:seen|discussed)\b/i, "as we've seen"],
+  [/\bin order to\b/i, "in order to"],
+  [/\bdue to the fact that\b/i, "due to the fact that"],
+  [/\bat (?:this|the present) (?:point in )?time\b/i, "at this point in time"],
+  [/\b(?:has|have) the ability to\b/i, "has the ability to"],
+  [/\ba (?:large|significant) number of\b/i, "a large number of"],
+  [/\bin the event that\b/i, "in the event that"],
 ];
 
 // Dates that go stale, plus "now" narration a reader has no earlier version
@@ -802,6 +934,86 @@ const checkBold = (x) => {
     ];
   if (n > 1) return ["WARN", 0.5, `${n} bold phrases in prose`];
   return ["PASS", 1, `${n} bold phrase(s)`];
+};
+
+/** One or two italics can carry real emphasis. A page peppered with them
+ * looks like a generated pitch, and the style guide asks for plain prose. */
+const checkItalics = (x) => {
+  const n = x.emphasis;
+  if (n > 4)
+    return ["WARN", 0, `${n} italic spans - emphasise with sentence order`];
+  if (n > 2) return ["WARN", 0.5, `${n} italic spans in prose`];
+  return ["PASS", 1, `${n} italic span(s)`];
+};
+
+/** "01 / 02 / 03" section numbers are decorative unless the page really is
+ * a sequence. This site's headings are not, so any numbered heading is a
+ * warning. */
+const NUMBERED_HEADING_RE = /^(?:\d{1,2}[.)]|0\d)\s+\S/;
+
+const checkNumberedHeadings = (x) => {
+  const numbered = x.headings.filter((h) => NUMBERED_HEADING_RE.test(h));
+  return numbered.length
+    ? ["WARN", 0, `numbered heading(s): ${listHits(numbered)}`]
+    : ["PASS", 1, "no numbered headings"];
+};
+
+// Abbreviations that legitimately end in a full stop, so "e.g." in a title
+// is not read as a sentence period.
+const TITLE_ABBREVIATION_RE =
+  /\b(?:e\.g|i\.e|etc|vs|Mr|Mrs|Ms|Dr|St|No|approx|Fig|Inc|Ltd|Co)\.$/i;
+
+const endsInPeriod = (text) => {
+  const value = text.trim();
+  return value.endsWith(".") && !TITLE_ABBREVIATION_RE.test(value);
+};
+
+/** Titles and headings are labels, not sentences (AGENTS.md). */
+const checkTitlePeriods = (x) => {
+  const fields = [
+    ["meta title", x.metaTitle],
+    ["og title", x.ogTitle],
+    ...x.headings.map((h) => ["heading", h]),
+  ];
+  const hit = fields.find(([, value]) => endsInPeriod(value ?? ""));
+  return hit
+    ? ["WARN", 0, `${hit[0]} ends in a full stop: "${hit[1]}"`]
+    : ["PASS", 1, "no periods in titles or headings"];
+};
+
+/** ALL CAPS labels are the stock eyebrow. Sentence case carries the same
+ * words without shouting. */
+const checkCapsLabels = (x) => {
+  const caps = x.labels.filter(isAllCaps);
+  return caps.length
+    ? ["WARN", 0, `ALL CAPS label(s): ${listHits(caps)}`]
+    : ["PASS", 1, "no ALL CAPS labels"];
+};
+
+const checkAsciiArt = (x) =>
+  x.asciiArt
+    ? ["WARN", 0, `${x.asciiArt} ASCII-art code block(s) in copy`]
+    : ["PASS", 1, "no ASCII images"];
+
+/** A breadcrumb trail in a heading or label ("Home / Features / Fees") is
+ * code-like decoration, not a page title. */
+const checkBreadcrumbLabels = (x) => {
+  const trails = [...x.headings, ...x.labels]
+    .map((text) => markdownToText(text))
+    .filter((text) => BREADCRUMB_LABEL_RE.test(text.trim()));
+  return trails.length
+    ? ["WARN", 0, `breadcrumb-style label(s): ${listHits(trails)}`]
+    : ["PASS", 1, "no breadcrumb-style labels"];
+};
+
+const checkRepeatedSentences = (x) => {
+  const n = x.repeated.length;
+  if (!n) return ["PASS", 1, "no repeated sentences"];
+  return [
+    "WARN",
+    n > 1 ? 0 : 0.5,
+    `${n} repeated sentence(s): "${x.repeated[0]}"`,
+  ];
 };
 
 const checkFirstPerson = (x) => {
@@ -1092,6 +1304,34 @@ const CODE_CHECKS = [
     4,
   ),
   code(
+    "ai_copy_tics",
+    "No AI copy tics",
+    patternCheck(AI_COPY_PATTERNS, "WARN", 0.5, "AI copy tic(s)"),
+    3,
+  ),
+  code("excessive_italics", "Italics not overused", checkItalics, 2),
+  code(
+    "numbered_headings",
+    "No numbered section headings",
+    checkNumberedHeadings,
+    2,
+  ),
+  code("title_periods", "No periods in titles", checkTitlePeriods, 3),
+  code("caps_labels", "No ALL CAPS subtitles", checkCapsLabels, 2),
+  code("ascii_art", "No ASCII images", checkAsciiArt, 2),
+  code(
+    "breadcrumb_labels",
+    "No breadcrumb-style labels",
+    checkBreadcrumbLabels,
+    2,
+  ),
+  code(
+    "repeated_sentences",
+    "No repeated sentences",
+    checkRepeatedSentences,
+    3,
+  ),
+  code(
     "dated_claims",
     "No stale dates or history narration",
     patternCheck(DATED_PATTERNS, "WARN", 0, "dated claim(s)"),
@@ -1365,7 +1605,13 @@ const JEV_CHECKS = [
       "your fans.'); strings of short punchy sentences in place of prose; alliteration " +
       "for effect; overselling modifiers ('powerful', 'blazing fast', 'the ultimate'); " +
       "self-justifying value phrases ('pays for itself'); and copy narrating the site's " +
-      "own page structure instead of naming the thing. 0 means riddled, 3 means clean.",
+      "own page structure instead of naming the thing. Also count machine-copy padding: " +
+      "'it is important to note', 'in conclusion', 'when it comes to', 'in order to', " +
+      "'due to the fact that', setups like 'whether you're a... or a...', and paragraphs " +
+      "that restate the previous paragraph instead of adding a fact. Treat decorative " +
+      "section numbering ('01', 'Step 1') and headings written as sentences with a full " +
+      "stop as structure costume unless the page is genuinely a sequence. 0 means " +
+      "riddled, 3 means clean.",
     [
       "Riddled - built from advert structures, several distinct failure modes",
       "Multiple clichés - three or more hits, or one structure repeated",
@@ -2407,13 +2653,26 @@ if (import.meta.main) {
 
 // Pure helpers, exported for tests.
 export {
+  asciiArtBlocks,
+  checkAsciiArt,
+  checkBreadcrumbLabels,
+  checkCapsLabels,
   checkFactsFreshness,
+  checkItalics,
+  checkNumberedHeadings,
+  checkRepeatedSentences,
+  checkTitlePeriods,
   collectItems,
+  countEmphasis,
   detectPageType,
+  headingsOf,
+  isAllCaps,
+  labelsOf,
   markdownToText,
   monthsSince,
   normaliseUrl,
   pageMarkdown,
+  repeatedSentences,
   splitFrontmatter,
   stripQuoted,
   walkBlocks,

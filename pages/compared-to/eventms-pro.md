@@ -224,11 +224,10 @@ blocks:
       browse a single public marketplace that lists many organisers' events,
       and an approval workflow lets the operator vet new events.
 
-      Chobble Tickets includes a [site builder](/features/deployment/) that
-      provisions a separate site for each organiser on Bunny Edge or Deno
-      Deploy, each with its own database and its own encryption key. It is part
-      of the open-source product, so self-hosting it carries no Chobble fee, and
-      it is the same system Chobble CIC uses to run its managed hosting.
+      Chobble Tickets provides the same site builder to any technical
+      provider, as part of the open-source product, so self-hosting it carries
+      no Chobble fee, and it is the same system Chobble CIC uses to run its
+      managed hosting.
 
       The trade-off is discovery against isolation. EventMS Pro gives one public
       catalogue where events can cross-promote each other. Chobble Tickets keeps
@@ -245,7 +244,7 @@ blocks:
       licence. You receive a licensed production build rather than the source
       code, so it is not open source.
 
-      The licence covers a single production deployment on one domain. You can
+      The licence allows one production deployment on one domain. You can
       customise and rebrand the site for your own business, but you cannot
       resell, redistribute or sublicense the product to third parties, and
       additional deployments need more licences.

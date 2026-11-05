@@ -67,7 +67,7 @@ blocks:
         description: A scheduling platform that took its production code closed source in April 2026. Compare paid bookings vs purpose-built event ticketing.
         name: <a href="/compared-to/cal-com/">Cal.com alternative</a>
       - icon: hugeicons:ticket-01
-        description: A US payment collection platform with event ticketing. Compare pricing, features and data handling.
+        description: A US payment collection platform with event ticketing. Compare payment collection, fees and data handling.
         name: <a href="/compared-to/cheddar-up/">Cheddar Up alternative</a>
       - icon: hugeicons:calendar-03
         description: A marketplace for creative workshops where hosts pay 20% commission on marketplace bookings, or 3.9% + £0.25 on bookings from their own website. Compare commission with a flat annual fee.
@@ -88,7 +88,7 @@ blocks:
         description: A Czech conference and event app with RSVP registration and attendee engagement, priced per event and per annual subscription. Compare an event app with a flat-rate ticketing platform.
         name: <a href="/compared-to/eventee/">Eventee alternative</a>
       - icon: hugeicons:ticket-01
-        description: The self-service platform from CTS EVENTIM. Compare fees, features and data handling.
+        description: The self-service platform from CTS EVENTIM. Compare its per-sale fees and data handling.
         name: <a href="/compared-to/eventim-light/">EVENTIM.Light alternative</a>
       - icon: hugeicons:source-code
         description: An open source platform with a flat subscription, self-hosting and no per-ticket fee. Compare feature tiers, licences, encryption and data handling.
@@ -100,7 +100,7 @@ blocks:
         description: A WordPress plugin that adds an events calendar, bookings and ticketing to your own site. Compare licence tiers with a standalone platform.
         name: <a href="/compared-to/eventprime/">EventPrime alternative</a>
       - icon: hugeicons:ticket-01
-        description: Used for student events and nightlife. Compare fees, features and data handling.
+        description: Used for student events and nightlife. Compare fees, discovery and attendee data.
         name: <a href="/compared-to/fatsoma/">Fatsoma alternative</a>
       - icon: hugeicons:delivery-truck-02
         description: Open source logistics and fleet management from $29 a month plus $5 per driver or vehicle. Compare a logistics platform with a flat-rate ticketing and hire tool.
@@ -112,7 +112,7 @@ blocks:
         description: A WordPress plugin that adds ticketing to WooCommerce. Compare a standalone platform with a shop plugin.
         name: <a href="/compared-to/fooevents/">FooEvents alternative</a>
       - icon: hugeicons:ticket-01
-        description: A registered charity ticketing platform that donates its profits to education. Compare pricing, features and data handling.
+        description: A registered charity ticketing platform that donates its profits to education. Compare charity pricing, features and data handling.
         name: <a href="/compared-to/humanitix/">Humanitix alternative</a>
       - icon: hugeicons:file-02
         description: Free and flexible, but not built for ticketing. See the differences.
@@ -151,7 +151,7 @@ blocks:
         description: An open source community platform first built for queer, LGBTQ+ and kink groups, with attendee vetting and private guest lists. Compare licences, payments, self-hosting and how each keeps data private.
         name: <a href="/compared-to/revel/">Revel alternative</a>
       - icon: hugeicons:ticket-01
-        description: A UK ticketing and event-management platform for theatres, schools and societies, charging 7.2% on online card payments. Compare pricing, payouts, seating and data handling.
+        description: A UK ticketing and event-management platform for theatres, schools and societies, charging 7.2% on online card payments. Compare per-sale fees, payouts, seating and data handling.
         name: <a href="/compared-to/seaty/">Seaty alternative</a>
       - icon: hugeicons:ticket-01
         description: The volunteer sign-up sheet tool that added ticketing. Compare purpose-built ticketing vs a coordination platform.
@@ -166,22 +166,22 @@ blocks:
         description: The managed service built on open source alf.io. Compare features, pricing and data handling.
         name: <a href="/compared-to/swicket/">Swicket alternative</a>
       - icon: hugeicons:ticket-01
-        description: A US ticketing platform for music venues, theatres and comedy clubs, built around WordPress. Compare pricing, features and data handling.
+        description: A US ticketing platform for music venues, theatres and comedy clubs, built around WordPress. Compare WordPress ticketing, fees and data handling.
         name: <a href="/compared-to/tessera-tickets/">Tessera Tickets alternative</a>
       - icon: hugeicons:ticket-01
-        description: A pay-as-you-go ticketing platform sold as prepaid ticket credits, including reserved seating, box office and custom ticket design. Compare pricing, features and data handling.
+        description: A pay-as-you-go ticketing platform sold as prepaid ticket credits, including reserved seating, box office and custom ticket design. Compare prepaid credits, reserved seating and data handling.
         name: <a href="/compared-to/ticket-generator/">Ticket Generator alternative</a>
       - icon: hugeicons:ticket-01
-        description: A UK ticketing platform with a per-transaction booking fee and managed page design. Compare pricing, payouts, seating and data handling.
+        description: A UK ticketing platform with a per-transaction booking fee and managed page design. Compare booking fees, payouts, seating and data handling.
         name: <a href="/compared-to/ticketebo/">Ticketebo alternative</a>
       - icon: hugeicons:ticket-01
-        description: An independently owned B Corp ticketing platform from London with flat per-ticket fees. Compare pricing, features and data handling.
+        description: An independently owned B Corp ticketing platform from London with flat per-ticket fees. Compare flat per-ticket fees, features and data handling.
         name: <a href="/compared-to/ticket-tailor/">Ticket Tailor alternative</a>
       - icon: hugeicons:ticket-01
         description: A large ticketing platform in Australia and New Zealand. Compare fees, data security and organiser tools.
         name: <a href="/compared-to/ticketek/">Ticketek alternative</a>
       - icon: hugeicons:ticket-01
-        description: A UK self-serve platform charging a flat 25p per paid ticket, with reserved seating and a box office on its Pro tier. Compare per-ticket charges with a flat annual fee.
+        description: A UK self-serve platform charging a flat 25p per paid ticket, with reserved seating and a box office on its Pro tier. Compare a flat per-ticket charge with a flat annual fee.
         name: <a href="/compared-to/ticketmonkey/">Ticket Monkey alternative</a>
       - icon: hugeicons:ticket-01
         description: A UK ticketing platform that donates up to half of its booking fee to charity projects. Compare fees, donations, features and data handling.
@@ -190,16 +190,16 @@ blocks:
         description: A Welsh ticketing platform used by theatre groups, schools and village halls, paid for by a booking fee. Compare fees, payouts, seating plans and data handling.
         name: <a href="/compared-to/ticketsource/">TicketSource alternative</a>
       - icon: hugeicons:ticket-01
-        description: An Australian platform charging 3.95% + A$0.95 on each paid ticket, with AI event setup and its own event listings. Compare per-ticket charges with a flat annual fee.
+        description: An Australian platform charging 3.95% + A$0.95 on each paid ticket, with AI event setup and its own event listings. Compare percentage fees with a flat annual fee.
         name: <a href="/compared-to/ticketted/">Ticketted alternative</a>
       - icon: hugeicons:ticket-01
-        description: A UK ticketing platform with no buyer booking fee and tiered organiser plans. Compare pricing, features and data handling.
+        description: A UK ticketing platform with no buyer booking fee and tiered organiser plans. Compare tiered plans, buyer fees and data handling.
         name: <a href="/compared-to/tickts/">tickts alternative</a>
       - icon: hugeicons:ticket-01
-        description: A US ticketing platform with a flat fee per paid ticket and no subscription. Compare pricing, features and data handling.
+        description: A US ticketing platform with a flat fee per paid ticket and no subscription. Compare a flat per-ticket fee, features and data handling.
         name: <a href="/compared-to/tixfox/">TixFox alternative</a>
       - icon: hugeicons:ticket-01
-        description: Ticketing software from Ireland with per-ticket fees and developer tools. Compare pricing, features and data handling.
+        description: Ticketing software from Ireland with per-ticket fees and developer tools. Compare per-ticket fees, developer tools and data handling.
         name: <a href="/compared-to/tito/">Tito alternative</a>
       - icon: hugeicons:ticket-01
         description: Ticketing for large venues and tours. Compare reserved seating, discovery, fees and organiser tools.

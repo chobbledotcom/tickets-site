@@ -99,10 +99,9 @@ blocks:
       processing fees (1.5% + 20p) on top. If you sell more than about 65
       tickets at £15 in a year, Chobble Tickets is already cheaper.
 
-      It's worth noting that EVENTIM.Light's 8% is competitive compared to some
-      platforms (Eventbrite charges 6.95% + 59p, Fatsoma charges 10%), but it's
-      still a percentage that grows with every ticket sold. A flat fee
-      doesn't.
+      EVENTIM.Light's 8% is competitive compared to some platforms
+      (Eventbrite charges 6.95% + 59p, Fatsoma charges 10%), but it is still a
+      percentage that grows with every ticket sold. A flat fee doesn't.
 
       One important detail: according to [EVENTIM.Light's German
       FAQ](https://www.eventim-light.de/en/faq/), once you choose whether to

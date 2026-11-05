@@ -45,21 +45,21 @@ blocks:
 
       ## Three ways to deploy
 
-      ### 1. Managed hosting
+      ### Managed hosting
 
       Chobble handles infrastructure, updates, backups and support for
       [£50/year or £5/month](/pricing/). Charities, community groups, artists
       and musicians receive 50% off the annual rate. There is no per-ticket
       platform fee or application limit on events and tickets.
 
-      ### 2. GitHub-controlled deployments
+      ### GitHub-controlled deployments
 
       For extra security, fork the
       [repository](https://github.com/chobbledotcom/tickets/fork) on GitHub.
       Chobble manages the infrastructure, while the repository owner controls
       when code updates are deployed through GitHub Actions.
 
-      ### 3. Self-hosted
+      ### Self-hosted
 
       Run Chobble Tickets on Bunny Edge, Deno Deploy or a Docker-capable host.
       Chobble charges no software licence fee for self-hosting, but the

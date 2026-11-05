@@ -51,7 +51,7 @@ blocks:
     content: |-
       # Chobble Tickets vs Fatsoma
 
-      Fatsoma is popular with student events and nightlife promoters. Here's how a small, open source alternative compares on pricing, features, and data ownership.
+      Fatsoma is popular with student events and nightlife promoters. This page compares it with Chobble Tickets, a small open source alternative, on pricing, features and data ownership.
   - type: markdown
     content: |
       ## Open source & cheaper Fatsoma alternative

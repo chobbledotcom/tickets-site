@@ -52,7 +52,7 @@ blocks:
     content: |-
       # Chobble Tickets vs Eventbrite
 
-      Eventbrite is the biggest name in event ticketing, so here's how a small, open source alternative compares.
+      Eventbrite is the biggest name in event ticketing. This page compares it with Chobble Tickets, a small open source alternative.
   - type: markdown
     content: |
       ## Open source & cheaper Eventbrite alternative
@@ -94,7 +94,7 @@ blocks:
       ## Feature comparison
 
       Eventbrite is a massive platform with features Chobble Tickets doesn't
-      have, and vice versa. Here's the breakdown:
+      have, and vice versa. The comparison below sets out the differences:
   - type: markdown
     content: |
       ### Both sites share some features

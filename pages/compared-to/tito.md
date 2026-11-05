@@ -52,7 +52,7 @@ blocks:
     content: |-
       # Chobble Tickets vs Tito
 
-      Tito is a well-regarded, developer-friendly ticketing platform from Ireland, so here's how a small, open source alternative compares.
+      Tito is a well-regarded, developer-friendly ticketing platform from Ireland. This page sets out how it differs from Chobble Tickets, a small open source alternative.
   - type: markdown
     content: |
       ## Open source & cheaper Tito alternative

@@ -58,21 +58,18 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
   --color-tint: #e9ddfb;
   --color-secondary: #a855f7;
   --color-accent: #ece4f6;
-  --color-hover-bg: rgb(124 58 237 / 7%);
-
-  // Purple glow for buttons
-  --glow-purple: 0 0 12px rgb(124 58 237 / 35%);
-  --glow-purple-strong: 0 0 22px rgb(168 85 247 / 55%);
+  --color-hover-bg: var(--color-accent);
 
   // Tighten spacing a bit (8px base unit -> 7px, ~12% tighter throughout)
   --space-unit: 7px;
+
+  // Small, consistent corners instead of big squircle cards.
+  --border-radius: 2px;
 }
 
 .design-system .product-hero {
   min-height: clamp(28rem, 70vh, 44rem);
-  background:
-    radial-gradient(circle at 20% 20%, rgb(168 85 247 / 22%), transparent 34%),
-    radial-gradient(circle at 80% 75%, rgb(124 58 237 / 18%), transparent 32%);
+  background: var(--body-background-alt);
 }
 
 .design-system .product-hero h1 {
@@ -154,9 +151,8 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
 .price-comparator {
   margin: 2rem 0;
   padding: 1.5rem;
-  border-radius: 8px;
+  border-radius: 2px;
   background: var(--color-card-bg, #3d1a4d);
-  border: var(--border, 2px solid #561d68);
 }
 
 .price-comparator__controls-row {
@@ -186,7 +182,7 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
   align-items: center;
   justify-content: center;
   padding: 1rem 1.5rem;
-  border-radius: 6px;
+  border-radius: 2px;
   background: var(--body-background-alt, #2f0c3a);
   min-width: 10rem;
   text-align: center;
@@ -194,7 +190,7 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
 
 .price-comparator__takings-label {
   font-size: 0.9em;
-  opacity: 0.85;
+  color: var(--color-text-muted);
 }
 
 .price-comparator__takings-value {
@@ -220,7 +216,6 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
   border-collapse: collapse;
   border-spacing: 0;
   background: var(--body-background-alt, #2f0c3a);
-  border-radius: 6px;
 }
 
 .price-comparator__table th,
@@ -253,19 +248,17 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
 
 .price-comparator__total-row td {
   padding-top: 0.75rem;
-  border-top: 1px solid var(--color-tint, #4a2260);
   font-weight: bold;
   font-size: 1.15em;
 }
 
 .price-comparator__per-ticket-row td {
   font-size: 0.9em;
-  opacity: 0.85;
+  color: var(--color-text-muted);
 }
 
 .price-comparator__share-row td {
   padding-top: 0.75rem;
-  border-top: 1px solid var(--color-tint, #4a2260);
   font-weight: bold;
   font-size: 1.15em;
   color: #7ddf7d;
@@ -274,24 +267,24 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
 .price-comparator__savings {
   margin-top: 1rem;
   padding: 0.75rem 1rem;
-  border-radius: 6px;
+  border-radius: 2px;
   text-align: center;
   font-weight: bold;
   font-size: 1.1em;
 }
 
 .price-comparator__savings--positive {
-  background: rgba(100, 200, 100, 0.15);
+  background: var(--body-background-alt);
   color: #7ddf7d;
 }
 
 .price-comparator__savings--negative {
-  background: rgba(200, 100, 100, 0.15);
+  background: var(--body-background-alt);
   color: #df7d7d;
 }
 
 .price-comparator__savings--neutral {
-  background: rgba(200, 200, 200, 0.1);
+  background: var(--body-background-alt);
 }
 
 table {
@@ -310,9 +303,8 @@ th {
 .platform-grid {
   margin: 2rem 0;
   padding: 1.5rem;
-  border-radius: 8px;
+  border-radius: 2px;
   background: var(--color-card-bg, #3d1a4d);
-  border: var(--border, 2px solid #561d68);
 }
 
 .platform-grid__cards {
@@ -327,15 +319,12 @@ th {
   align-items: center;
   text-align: center;
   padding: 1rem 0.75rem;
-  border-radius: 6px;
+  border-radius: 2px;
   background: var(--body-background-alt, #2f0c3a);
-  border: 2px solid transparent;
-  transition: border-color 0.15s;
 }
 
 .platform-grid__card--highlight {
-  border-color: var(--color-secondary, #ad44ce);
-  background: rgba(173, 68, 206, 0.1);
+  background: var(--color-tint, #ad44ce);
 }
 
 .platform-grid__card--best .platform-grid__share {
@@ -353,9 +342,8 @@ th {
 
 .platform-grid__share-label {
   font-size: 0.75em;
-  opacity: 0.7;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  letter-spacing: normal;
 }
 
 .platform-grid__share {
@@ -367,7 +355,7 @@ th {
 
 .platform-grid__cost {
   font-size: 0.8em;
-  opacity: 0.7;
+  color: var(--color-text-muted);
   font-variant-numeric: tabular-nums;
 }
 
@@ -387,7 +375,7 @@ th {
 
 .platform-grid__per-ticket {
   font-size: 0.75em;
-  opacity: 0.6;
+  color: var(--color-text-muted);
   font-variant-numeric: tabular-nums;
 }
 
@@ -442,9 +430,8 @@ th {
 .provider-directory__filters {
   margin: 0 0 1rem;
   padding: 1rem 1.25rem;
-  border-radius: 8px;
+  border-radius: 2px;
   background: var(--color-card-bg, #fff);
-  border: var(--border, 2px solid #561d68);
 }
 
 .provider-directory__filters legend {
@@ -465,14 +452,11 @@ th {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  padding: 0.3rem 0.8rem;
-  border-radius: 999px;
-  background: var(--body-background-alt, #f2ecf9);
-  border: 1px solid var(--color-tint, #e9ddfb);
+  padding: 0.3rem 0.5rem;
+  border-radius: 2px;
+  background: transparent;
   cursor: pointer;
-  transition:
-    border-color 0.15s,
-    background-color 0.15s;
+  transition: background-color 0.15s;
 }
 
 .provider-directory__chip input {
@@ -481,12 +465,12 @@ th {
 }
 
 .provider-directory__chip:hover {
-  border-color: var(--color-secondary, #a855f7);
+  background: var(--body-background-alt, #f2ecf9);
 }
 
 .provider-directory__chip:has(input:checked) {
   background: var(--color-tint, #e9ddfb);
-  border-color: var(--color-secondary, #a855f7);
+  font-weight: 600;
 }
 
 .provider-directory__chip:has(input:focus-visible) {
@@ -549,14 +533,12 @@ th {
   gap: 0.35rem 1.25rem;
   margin-bottom: 0.5rem;
   padding: 0.55rem 0.9rem;
-  border-radius: 6px;
-  background: var(--color-card-bg, #fff);
-  border: 2px solid var(--color-tint, #e9ddfb);
+  border-radius: 2px;
+  background: var(--body-background-alt, #f2ecf9);
 }
 
 .provider-directory__item--chobble .provider-directory__card {
-  border-color: var(--color-secondary, #a855f7);
-  background: rgba(168, 85, 247, 0.08);
+  background: var(--color-tint, #e9ddfb);
 }
 
 .provider-directory__name {
@@ -605,15 +587,121 @@ th {
 }
 
 .design-system {
+  // The template tightens heading tracks; Marcellus is drawn for its own
+  // spacing, so hold the typeface's metrics rather than negative kerning.
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    letter-spacing: normal;
+  }
+
+  // Breadcrumb separators are arrows, not the slash-and-path look of code.
+  ol.breadcrumbs .separator {
+    font-size: 0;
+  }
+
+  ol.breadcrumbs .separator::before {
+    content: "\203A";
+    font-size: 0.9rem;
+  }
+
+  // One small radius, no pill shapes, no squircle cards.
   .cta,
   .feature,
+  .feature-card,
+  .add-on-card,
   .icon,
-  .badge {
-    border-radius: 4px;
+  .badge,
+  .btn,
+  .guide-list > li,
+  .guide-categories-list > li,
+  ul.items > li,
+  .reviews-grid > li,
+  .section-header {
+    border-radius: 2px;
   }
+
+  // Flat surfaces instead of gradient backgrounds and gradient text.
   .cta {
-    background: linear-gradient(135deg, var(--color-link) 0%, #200129 100%);
+    border: 0;
+    background: var(--color-link);
   }
+
+  .cta p {
+    opacity: 1;
+  }
+
+  section.gradient,
+  .hero.gradient,
+  .section-header.gradient,
+  .callout-box--gradient,
+  .split-callout__figure--gradient {
+    background: var(--body-background-alt);
+  }
+
+  .section-header.gradient {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      background: none;
+      -webkit-text-fill-color: currentColor;
+    }
+  }
+
+  // An eyebrow is a line of text, not a pill or a shouted label.
+  .badge {
+    padding: 0;
+    background: none;
+    color: var(--color-text-muted);
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  // Cards group with a surface and spacing, not a border around every box.
+  .feature,
+  .feature-card,
+  .add-on-card,
+  .guide-list > li,
+  .guide-categories-list > li,
+  ul.items > li,
+  .reviews-grid > li,
+  .section-header {
+    border: 0;
+    background: var(--body-background-alt);
+  }
+
+  .split > figure {
+    border: 0;
+    border-radius: 2px;
+  }
+
+  .callout-box__subtitle {
+    opacity: 1;
+    color: var(--color-text-muted);
+  }
+
+  .downloads__meta {
+    opacity: 1;
+    color: var(--color-text-muted);
+  }
+
+  // Code keeps monospace for the code itself; the fake terminal chrome and
+  // filename breadcrumb are decoration.
+  .code-block-toolbar {
+    display: none;
+  }
+
+  .code-block pre {
+    border-radius: 2px;
+  }
+
   footer {
     background: #000;
   }
@@ -626,19 +714,5 @@ th {
   // Classy serif for the navigation, matching the headings
   nav {
     font-family: var(--font-family-heading);
-    letter-spacing: 0.02em;
-  }
-
-  // Purple glows on buttons
-  .btn--primary {
-    box-shadow: var(--glow-purple);
-
-    &:hover:not(:disabled) {
-      box-shadow: var(--glow-purple-strong);
-    }
-  }
-
-  .cta .btn--primary {
-    box-shadow: var(--glow-purple-strong);
   }
 }

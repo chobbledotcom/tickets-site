@@ -1,10 +1,22 @@
 import { describe, expect, test } from "bun:test";
 import {
+  asciiArtBlocks,
+  checkAsciiArt,
+  checkBreadcrumbLabels,
+  checkCapsLabels,
   checkFactsFreshness,
+  checkItalics,
+  checkNumberedHeadings,
+  checkRepeatedSentences,
+  checkTitlePeriods,
+  countEmphasis,
   detectPageType,
+  headingsOf,
+  isAllCaps,
   markdownToText,
   monthsSince,
   pageMarkdown,
+  repeatedSentences,
   splitFrontmatter,
   stripQuoted,
   walkBlocks,
@@ -136,6 +148,14 @@ describe("stripQuoted", () => {
     expect(stripped).toContain("The");
     expect(stripped).toContain("is zero.");
   });
+
+  test("drops fenced code before inline code can mangle the fences", () => {
+    const stripped = stripQuoted(
+      '```json\n{"unit_price": 1500}\n```\n\nHouse copy.\n',
+    );
+    expect(stripped).not.toContain("unit_price");
+    expect(stripped).toContain("House copy.");
+  });
 });
 
 describe("pageMarkdown", () => {
@@ -188,5 +208,78 @@ describe("checkFactsFreshness", () => {
           .slice(0, 10),
       })[0],
     ).toBe("WARN");
+  });
+});
+
+describe("AI cliché checks", () => {
+  test("counts italic emphasis but not bold", () => {
+    expect(countEmphasis("one *word* and **bold** but _another_")).toBe(2);
+  });
+
+  test("warns once italics become decoration", () => {
+    expect(checkItalics({ emphasis: 2 })[0]).toBe("PASS");
+    expect(checkItalics({ emphasis: 3 })[0]).toBe("WARN");
+    expect(checkItalics({ emphasis: 5 })[1]).toBe(0);
+  });
+
+  test("extracts headings and spots numbered sections", () => {
+    expect(headingsOf("## First\n\n### 1. Step one\n")).toEqual([
+      "First",
+      "1. Step one",
+    ]);
+    expect(
+      checkNumberedHeadings({ headings: ["First", "2) Step two"] })[0],
+    ).toBe("WARN");
+    expect(checkNumberedHeadings({ headings: ["01 Step one"] })[0]).toBe("WARN");
+    expect(
+      checkNumberedHeadings({ headings: ["50 tickets per year at £10"] })[0],
+    ).toBe("PASS");
+    expect(checkNumberedHeadings({ headings: ["First"] })[0]).toBe("PASS");
+  });
+
+  test("flags full stops in titles but allows abbreviations", () => {
+    expect(checkTitlePeriods({ metaTitle: "Pricing.", ogTitle: "", headings: [] })[0]).toBe(
+      "WARN",
+    );
+    expect(
+      checkTitlePeriods({ metaTitle: "Fees, e.g.", ogTitle: "", headings: [] })[0],
+    ).toBe("PASS");
+  });
+
+  test("flags ALL CAPS subtitles but not acronyms or sentences", () => {
+    expect(isAllCaps("INCLUDED WITH HOSTING")).toBe(true);
+    expect(isAllCaps("FAQ")).toBe(false);
+    expect(isAllCaps("Included with hosting")).toBe(false);
+    expect(
+      checkCapsLabels({ labels: ["INCLUDED WITH HOSTING", "Included with hosting"] })[0],
+    ).toBe("WARN");
+  });
+
+  test("finds ASCII-art code blocks", () => {
+    const art = "```text\n+------+\n| hero |\n+------+\n```";
+    expect(asciiArtBlocks(art)).toHaveLength(1);
+    expect(asciiArtBlocks("```json\n{\"a\": 1}\n```")).toHaveLength(0);
+    expect(checkAsciiArt({ asciiArt: 1 })[0]).toBe("WARN");
+  });
+
+  test("flags breadcrumb trails in labels and headings", () => {
+    expect(
+      checkBreadcrumbLabels({
+        headings: ["Home / Features / Fees"],
+        labels: ["Managed hosting"],
+      })[0],
+    ).toBe("WARN");
+    expect(
+      checkBreadcrumbLabels({ headings: ["Fees"], labels: ["£50/year"] })[0],
+    ).toBe("PASS");
+  });
+
+  test("finds sentences repeated inside one page", () => {
+    const text =
+      "Managed hosting includes updates and backups. Managed hosting includes updates and backups. It sends setup links by email.";
+    expect(repeatedSentences(text)).toHaveLength(1);
+    expect(checkRepeatedSentences({ repeated: repeatedSentences(text) })[0]).toBe(
+      "WARN",
+    );
   });
 });
