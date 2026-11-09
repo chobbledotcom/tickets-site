@@ -15,6 +15,21 @@ blocks:
       What organisers say about Chobble Tickets.
   - type: markdown
     content: |
+      ## Philip Dixon
+
+      [Read the review on Facebook](https://www.facebook.com/philip.dixon.100/posts/pfbid02xmMqjvkkzgz6ceShJhREFRXDF9uvfsowLVVeoFfwN52LzoaSVgCbdK5LC3VRWDYfl)
+
+      Philip runs event ticketing and switched to Chobble Tickets.
+
+      > "This man is a genius. Completely revolutionised my Event ticketing.
+      > The system is straight forward, simple to use but feature packed.
+      > Constantly improving as well. Thank you so much for creating it and
+      > for such a ridiculously good price."
+
+      > "Also very helpful, knowledgeable and quick at looking into problem
+      > or questions."
+  - type: markdown
+    content: |
       ## Ben, Jersey Girls
 
       Ben is the webmaster for [Jersey
@@ -77,6 +92,17 @@ blocks:
       > to pay £50 a year for Chobble, but that cost is absorbed in less than
       > the first event. It's literally paying for itself on the first event
       > and still saving nearly £100."
+
+      Spencer also left a [Trustpilot review](https://trustpilot.com/reviews/6af044a3ee5333a257983004)
+      about how Chobble works:
+
+      > "The company is a CiC, which by itself is outstanding - But this is
+      > basically their way of life. They manage to hold true to their own
+      > personal values while performing excellent work and running a
+      > successful company without compromising themselves. They open-source
+      > their projects and their priority isn't profit. They open-source
+      > their own tools, projects and truly want collaboration and
+      > interoperability with everyone!"
   - type: markdown
     content: |
       ## Chris, British Bourbon Society
@@ -114,6 +140,12 @@ blocks:
       > technical problems arise without our knowing he is in the background
       > fixing them already. Highly recommend Stefan and his team. If you run
       > events and sell tickets then you won't be disappointed with Chobble."
+
+      He also left a [Google review](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8):
+
+      > "Stefan from Chobble has been fantastic for our ticket sales
+      > business. Always on hand to deliver support and his system is the
+      > best"
   - type: markdown
     content: |
       ## Paul
