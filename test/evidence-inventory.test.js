@@ -83,13 +83,16 @@ describe("ticket evidence placement", () => {
  * The update workflow commits a fixed list of paths. A file the import writes
  * but the list does not name is silently dropped from the pull request, and the
  * next validate refuses a state nobody can see.
+ *
+ * The list lives in the action the workflow publishes with, which the workflow
+ * runs again when GitHub refuses the first push.
  */
 describe("the update workflow commits everything the import writes", () => {
-  const workflow = readFileSync(
-    join(ROOT, ".github/workflows/update-ticket-evidence.yml"),
+  const action = readFileSync(
+    join(ROOT, ".github/actions/publish-evidence-pr/action.yml"),
     "utf8",
   );
-  const addPaths = workflow
+  const addPaths = action
     .split("add-paths: |")[1]
     .split("\n")
     .map((line) => line.trim())
