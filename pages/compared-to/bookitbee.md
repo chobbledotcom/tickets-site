@@ -119,7 +119,10 @@ blocks:
         but does not split a price into a run of instalments
       - **Renewable membership system** - multi-tier memberships with
         pro-rata mid-year additions, self-service upgrades/downgrades,
-        cancellations, and members-only event gating
+        cancellations, and members-only event gating. A Chobble Tickets
+        [subscription listing](/features/purchasable-events/) charges a
+        member again every week, month or year through Stripe, but has no
+        tiers, pro-rata changes or members-only events
       - **Cross-selling other events during checkout** - offer your other
         events inline during the ticket purchase flow. Chobble Tickets
         sells merchandise, parking and similar extras as
@@ -211,7 +214,7 @@ blocks:
       - You want Social Group Deals to drive viral ticket sales
       - You need reserved seating with a seat map builder
       - You need payment plans or instalment collection for expensive events
-      - You want a membership system with tiered subscriptions
+      - You want a membership system with tiers and members-only events
       - You need your other events offered to buyers during checkout
       - You want white-label branding on the booking journey
       - You need multi-language (11 languages) or multi-currency (30+)

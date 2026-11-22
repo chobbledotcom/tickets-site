@@ -23,9 +23,10 @@ blocks:
       tracks, or a series of workshops, you can group your events together
       and let attendees book several at once with a single checkout.
 
-      The dashboard includes a multi-booking link builder that generates
-      combined-event URLs (like `/ticket/event1+event2`), so attendees can
-      book multiple events in one form and one payment.
+      The Listings page in the admin area includes a multi-booking link
+      builder that generates combined-event URLs (like
+      `/ticket/event1+event2`), so attendees can book multiple events in one
+      form and one payment.
 
       This is also useful for recurring events like a weekly class, a monthly
       meetup, or a season of concerts where grouping makes booking easy.

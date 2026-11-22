@@ -30,9 +30,10 @@ blocks:
       test booking to check the money and emails arrive, and give the site a
       nicer address. The message stays until the owner presses "Got it".
 
-      There is no separate onboarding stage in which features are switched on.
-      Every current feature is present when the site opens, and the settings
-      pages configure them.
+      Every feature is included with the site and none costs extra. Optional
+      features such as the public site, booking questions, modifiers,
+      logistics, invoices and subscriptions start switched off. The owner
+      switches each one on from the Features page in settings.
 
       ## Self-hosted deployment
 
@@ -74,11 +75,12 @@ blocks:
       ## Other places it runs
 
       The repository carries deployment configuration for several hosts beside
-      Bunny. There is a `Dockerfile`, a `fly.toml` for Fly, a `render.yaml` for
-      Render and an `app.json` for platforms that read that format.
+      Bunny. There is a `fly.toml` for Fly, a `render.yaml` for Render and a
+      `.do/deploy.template.yaml` for DigitalOcean. Each points at one
+      prebuilt image published with every release.
 
-      That configuration covers one-click deploys to DigitalOcean, Heroku,
-      Koyeb and Render, and `fly launch` for Fly. Any host that runs a Docker
+      That configuration covers one-click deploys to DigitalOcean, Koyeb and
+      Render, and `fly launch` for Fly. Any host that runs a Docker
       image will run Chobble Tickets, and these hosts run the image for the
       operator rather than leaving them a server to keep.
 
@@ -131,7 +133,7 @@ blocks:
     items:
       - icon: hugeicons:credit-card
         name: Payment providers
-        description: Enter a Stripe, Square or SumUp API key in admin settings. The webhook endpoint configures itself rather than being registered by hand.
+        description: Enter a Stripe, Square or SumUp API key in admin settings. Stripe's webhook endpoint configures itself. Square's webhook is added by hand in the Square developer dashboard.
       - icon: hugeicons:globe-02
         name: Addresses and domains
         description: Each site works on its supplied address straight away, and a custom domain can be pointed at it by CNAME. Up to three URLs are active at once, counting the supplied subdomain and the underlying script address.
@@ -146,7 +148,7 @@ blocks:
         description: Copy one listing, or duplicate a whole group with name replacement and date shifting, rather than building each event from scratch.
       - icon: hugeicons:paint-board
         name: Branding
-        description: Set the header image, site title and theme colours. Booking pages and emails carry no Chobble branding by default.
+        description: Set the header image, the site title and a light or dark theme. Custom CSS changes colours and fonts. Booking pages and emails carry no Chobble branding by default.
   - type: markdown
     content: |
       ## Moving a site between hosts

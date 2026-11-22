@@ -45,7 +45,7 @@ blocks:
         description: One hosted ticketing site for a year. This costs £10 less than paying monthly for 12 months and includes unlimited events and tickets.
       - icon: hugeicons:calendar-01
         name: Monthly hosting, £5
-        description: One hosted ticketing site for a month. Monthly billing can be cancelled without an exit fee.
+        description: One hosted ticketing site for a month, paid in advance. Nothing renews automatically, so there is nothing to cancel and no exit fee.
       - icon: hugeicons:wallet-02
         name: <a href="/features/prepay-hosting/">Prepay, not subscription</a>
         description: Chobble does not use subscription billing. You pay for each term in advance, nothing is charged automatically, and if a term ends the site stays in read-only mode for 24 months with no back-payment owed.

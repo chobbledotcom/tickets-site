@@ -105,7 +105,7 @@ blocks:
       ## Features for school events
     items:
       - icon: hugeicons:qr-code
-        description: Staff with check-in access can scan ticket QR codes through a connected browser or find a booking by name.
+        description: Staff with check-in access can scan ticket QR codes in a phone browser or find a booking by name. Scans made while the connection is down wait in a queue and go through when it returns.
         name: <a href="/features/qr-code-check-ins/">Door check-in</a>
       - icon: hugeicons:package
         description: Combine adult and child tickets into family bundles, with fixed quantities and a separate package price.

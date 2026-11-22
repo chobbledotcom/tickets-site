@@ -49,7 +49,8 @@ blocks:
 
       Each booking carries a unique
       [QR code](/features/qr-code-check-ins/) that authorised staff scan in a
-      connected browser with a phone camera. There is no dedicated scanner
+      browser with a phone camera. If the connection drops, the scanner
+      queues scans and checks them in when it is back online. There is no dedicated scanner
       hardware to buy and no app for visitors to install.
 
       Visitors can add their tickets to
@@ -77,7 +78,7 @@ blocks:
         description: Per-date capacity with a calendar picker and configurable holiday and blackout dates for your opening season.
         name: <a href="/features/daily-events/">Daily events</a>
       - icon: hugeicons:qr-code
-        description: Each booking gets a unique QR code that authorised staff scan at the gate through a connected browser with a phone camera.
+        description: Each booking gets a unique QR code that authorised staff scan at the gate through a browser with a phone camera. Scans made during an outage are queued.
         name: <a href="/features/qr-code-check-ins/">QR code check-ins</a>
       - icon: hugeicons:csv-02
         description: Export visitor lists as CSV, filtered by date and check-in status, for staffing and planning.

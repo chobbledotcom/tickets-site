@@ -155,8 +155,9 @@ blocks:
         Tickets exports CSV)
       - **Automated invoicing** - sequentially numbered invoices with VAT
         handling, including EU business reverse charge. Chobble Tickets
-        records tax on a booking in its ledger, but does not issue sequential
-        VAT invoices
+        records tax on a booking in its ledger, and its
+        [invoices](/features/ledger/) state a booking's unpaid balance, but
+        it does not issue VAT invoices
       - **Telegram integration** - send updates through Telegram
   - type: markdown
     content: |

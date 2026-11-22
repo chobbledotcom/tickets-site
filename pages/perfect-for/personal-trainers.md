@@ -59,7 +59,7 @@ blocks:
 
       A session can be paid in full or booked with a [deposit](/features/deposits-and-balance-payments/). Once that payment is confirmed, Chobble Tickets creates the reserved booking. The client receives a private link for the remaining balance, while cash and bank transfers can be recorded in the same ledger.
 
-      Returning-customer price rules can apply after a set number of earlier bookings. The system does not provide recurring subscriptions, redeemable session credits, automatic reminders or customer rescheduling.
+      Returning-customer price rules can apply after a set number of earlier bookings. A [subscription listing](/features/purchasable-events/) can charge a client again every week, month or year through Stripe. The system does not provide redeemable session credits, automatic reminders or customer rescheduling.
     figure_items:
       - icon: hugeicons:help-circle
         text: Intake questions at checkout

@@ -13,7 +13,7 @@ blocks:
     content: |-
       # Prepay hosting, not subscriptions
 
-      Chobble Tickets does not use subscription billing. Organisers pay for hosting in advance, a month or a year at a time. If a paid term ends without renewal, the site stays online in read-only mode for 24 months, and no back-payment is owed for that period.
+      Chobble does not bill for hosting by subscription. Both plans are prepaid: organisers pay £5 for a month or £50 for a year in advance, and nothing is charged automatically when the term ends. If a paid term ends without renewal, the site stays online in read-only mode for 24 months, and no back-payment is owed for that period.
   - type: markdown
     content: |
       ## How prepay billing works
@@ -29,6 +29,11 @@ blocks:
       charged unless the organiser returns and pays for another term. There is no
       recurring payment that can fail, and no cancelled subscription to recover
       from.
+
+      This describes how Chobble charges for hosting. An organiser can still
+      sell their own customers a
+      [subscription listing](/features/purchasable-events/) that Stripe
+      charges again each period.
 
       When a term ends, the organiser decides whether to pay for the next one.
       The [pricing page](/pricing/) lists what each term includes.

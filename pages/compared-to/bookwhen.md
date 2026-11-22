@@ -130,9 +130,9 @@ blocks:
       ## Feature comparison
 
       Bookwhen's class tools cover ongoing memberships and credits for
-      future sessions. Chobble Tickets handles individual event bookings
-      and packages of specified listings, rather than recurring membership
-      billing or a balance of class credits.
+      future sessions. Chobble Tickets handles individual event bookings,
+      packages of specified listings and subscriptions charged through
+      Stripe, rather than member-only tickets or a balance of class credits.
   - type: markdown
     content: |
       ### Both platforms share some features
@@ -147,10 +147,11 @@ blocks:
     content: |
       ### Bookwhen has features Chobble Tickets doesn't
 
-      - **Memberships:** collect recurring membership payments and offer
-        exclusive tickets on Standard and higher plans. Chobble Tickets can
-        collect a [one-off membership payment](/features/purchasable-events/),
-        but does not automatically renew it.
+      - **Member-only tickets:** offer exclusive tickets to members on
+        Standard and higher plans, beside recurring membership payments. A
+        Chobble Tickets [subscription listing](/features/purchasable-events/)
+        charges a member again every week, month or year through Stripe, but
+        does not unlock tickets or prices for members.
       - **Class passes:** sell credits that customers redeem against future
         classes on Standard and higher plans. Chobble's
         [packages](/features/packages/) book specified listings together,

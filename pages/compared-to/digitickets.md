@@ -151,7 +151,9 @@ blocks:
         connection with Experience Bank
       - **Memberships and gift vouchers** - recurring membership payments,
         gift vouchers, animal adoptions and experience bookings sold beside
-        ordinary tickets
+        ordinary tickets. Chobble Tickets takes recurring payments with a
+        [subscription listing](/features/purchasable-events/), but has no
+        gift vouchers or member entry passes
       - **Bookable resources** - spaces such as party rooms offered for
         birthday parties and events, alongside group bookings
       - **Retail products in the same sale** - tickets, vouchers and shop

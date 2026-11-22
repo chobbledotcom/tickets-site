@@ -127,8 +127,9 @@ blocks:
       Both handle the basics of creating events, selling tickets, and managing
       attendees. PTA Events adds time-slot management (useful for things like
       Santa's Grottoes), ready-made event templates, and merchandise/uniform
-      sales through a built-in shop. Chobble Tickets focuses on core
-      ticketing with features like pay-what-you-want pricing, registration
+      sales through a built-in shop. Chobble Tickets sells merchandise as
+      [physical product listings](/features/purchasable-events/), and adds
+      features like pay-what-you-want pricing, registration
       deadlines, [overbooking prevention](/features/overbooking-prevention/),
       and [event grouping](/features/groups/) for multi-event bookings with a
       single checkout.
@@ -165,10 +166,11 @@ blocks:
       PTA Events has built-in messaging for committee members, class
       representatives, and parents, plus a newsletter tool and news article
       CMS. Chobble Tickets offers [customisable email
-      templates](/features/email-templates/) for ticket confirmations and a
+      templates](/features/email-templates/) for ticket confirmations,
+      [bulk email](/features/bulk-email/) to people who have booked, and a
       [public-facing website with content pages and a contact
-      form](/features/your-public-website/), but does not include a
-      newsletter tool or a parent-messaging system.
+      form](/features/your-public-website/). It does not include messaging
+      for committee members or class representatives.
 
       ### Check-in and entry
 

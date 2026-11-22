@@ -106,9 +106,10 @@ blocks:
       not listed beside other organisers' events. The church promotes its
       own events through its site, notices and mailing list.
 
-      Chobble Tickets books whole days and ranges of days. It does not
-      offer hourly slots, so a room let by the hour to different groups
-      cannot be represented here.
+      Chobble Tickets books whole days and ranges of days, and has no time
+      picker. A room let by the hour can be set up as a separate
+      [daily listing](/features/daily-events/) for each slot, such as
+      "Hall, 10am to 11am", with the time in the listing's name.
 
       Paid checkout does not reserve capacity. Capacity is used only when
       payment confirmation arrives.

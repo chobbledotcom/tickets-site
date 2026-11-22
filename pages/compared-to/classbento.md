@@ -165,7 +165,9 @@ blocks:
       - Deposits with the balance taken later (ClassBento auto-charges
         the remainder; Chobble Tickets sends a payment link)
       - Discount codes and promo pricing
-      - Automated confirmation emails and SMS
+      - Automated confirmation emails (ClassBento also sends automated SMS;
+        Chobble Tickets staff send [text messages](/features/sms-messages/)
+        by hand from the admin area)
       - Additional team logins at no extra charge
       - Spreadsheet exports of booking data
       - Booking widgets for your own website
@@ -186,7 +188,6 @@ blocks:
       - **Automatic reviews** - collected from guests and shown on your
         listing
       - **Smart waitlists** - automatic lists when a class fills
-      - **Subscriptions** - recurring revenue from members
       - **Loyalty program** - digital stamp rewards for repeat guests
       - **Automatic session reminders and receipts** - sent without the
         teacher chasing anyone
@@ -265,7 +266,7 @@ blocks:
 
       - You teach public creative workshops and want a marketplace to
         fill seats you could not fill alone
-      - You want gift cards, reviews, waitlists and subscriptions built in
+      - You want gift cards, reviews and waitlists built in
       - You sell craft kits that need posting, with pickup tracking
       - You want public liability insurance included (UK)
       - You want listing copy, featuring and win-back emails handled for

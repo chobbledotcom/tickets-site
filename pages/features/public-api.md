@@ -54,8 +54,10 @@ blocks:
       ## What the admin API can do
 
       The [admin API](/features/admin-api/) lists, creates, changes and
-      removes listings, groups, holidays and listing options, takes listings
-      off sale and back on, and reads a listing's attendees.
+      removes listings, groups, holidays, listing options, booking questions
+      and their answers, attendee statuses, images and site pages. It takes
+      listings off sale and back on, reads a listing's attendees, and creates
+      and updates bookings.
 
       ## Example
 

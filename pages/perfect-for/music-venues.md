@@ -112,7 +112,7 @@ blocks:
     intro_content: "## Features for venues"
     items:
       - icon: hugeicons:user-multiple
-        description: Door staff need a manager account to check people in. A promoter who only writes listings can be an editor, which holds no data key.
+        description: Door staff can have a scanner account, which checks people in and out and opens no other admin page. A promoter who only writes listings can be an editor, which holds no data key.
         name: <a href="/features/users/">Team accounts</a>
       - icon: hugeicons:global
         description: Publish the whole programme on your own domain, with Chobble branding removed.

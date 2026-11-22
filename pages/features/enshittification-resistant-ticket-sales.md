@@ -201,7 +201,8 @@ blocks:
       [public API](/features/public-api/) serves listings, availability and
       bookings as JSON without a key, so the organiser's own website can be
       the shop window. The [admin API](/features/admin-api/) drives listings,
-      groups and holidays with named keys the organiser can revoke. A
+      groups, holidays, bookings, questions, images and site pages with named
+      keys the organiser can revoke. A
       [webhook](/features/webhooks/) POSTs every booking to any URL, keeping
       Slack channels, spreadsheets, mailing lists and CRMs up to date, and
       those receiving systems hold their own copies of what they receive.

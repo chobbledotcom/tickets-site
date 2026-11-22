@@ -268,8 +268,8 @@ blocks:
         password using hybrid RSA-OAEP and AES-256-GCM. A database
         dump and the server's encryption key together are still not
         enough to decrypt attendee data, since an attacker would also need
-        your password. If you forget your password, the data is
-        permanently unrecoverable.
+        your password. If every keyed password and API key is lost, and
+        no recovery account is enabled, the data cannot be recovered.
       - **[Open source production code](/features/open-source/)** - the
         same code that runs tix.chobble.com is public under AGPLv3
       - **Flat pricing** - £50/year or £5/month regardless of how many

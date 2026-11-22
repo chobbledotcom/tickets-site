@@ -55,9 +55,9 @@ blocks:
       ## Example
 
       An attendee says they paid but never got a confirmation email. The
-      organiser opens the global log and finds "Registration notification
-      delivery failed." just after the time of the booking. The organiser
-      then opens the attendee's page and re-sends the notification.
+      dashboard shows that one attendee has an email that was not sent, and
+      the attendee's record carries an "Email not sent" badge. The organiser
+      opens the attendee's page and re-sends the notification.
 
       ## Limits
 

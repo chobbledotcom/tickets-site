@@ -150,11 +150,16 @@ blocks:
       - **Auctions** - item listings with images, outbid alerts, and automatic
         payment collection from winners
       - **Memberships** - tiered memberships with renewal options and
-        personalised membership cards by email
+        personalised membership cards by email. A Chobble Tickets
+        [subscription listing](/features/purchasable-events/) renews through
+        Stripe, but has no tiers or membership cards
       - **Peer-to-peer campaigns** - supporters fundraise for your cause with
         leaderboards, built for a-thons
-      - **Online store** - merchandise with photos, variants, discounts, and
-        stock tracking
+      - **Online store with variants** - merchandise with photos, variants,
+        discounts, and stock tracking. Chobble Tickets sells merchandise as
+        [physical product listings](/features/purchasable-events/) with
+        photos, discounts and a stock limit, but has no variants of one
+        product
       - **Donor CRM** - contact profiles with giving history, attendance, and
         email engagement, with segments and saved lists
       - **Email campaigns and newsletters** - send to your contacts and track
@@ -168,8 +173,10 @@ blocks:
       - **Tax receipts and Gift Aid** - automatic tax receipts in the US and
         Canada with eligible amounts configurable per ticket rate, and Gift
         Aid claims through a Swiftaid connection in the UK
-      - **Recurring donations** - monthly giving plans that donors manage in
-        their own Zeffy account
+      - **Donor-managed recurring donations** - monthly giving plans that
+        donors manage in their own Zeffy account. A Chobble Tickets
+        [subscription listing](/features/purchasable-events/) can take a
+        regular gift, but the organiser cancels it, not the donor
       - **AI grant finder** - a free tool on Zeffy's website that searches
         thousands of grants for your nonprofit
       - **Tap to Pay app** - take in-person card payments through an iPhone or

@@ -126,9 +126,11 @@ blocks:
         individual seats, useful for cabaret and comedy club layouts
       - **Merchandise store** - a dedicated merchandise ecommerce store
         with configurable product attributes and inventory tracking.
-        Chobble Tickets sells extras as
+        Chobble Tickets sells merchandise as
+        [physical product listings](/features/purchasable-events/) with a
+        stock limit and a delivery address, or as
         [add-ons](/features/promo-codes-and-add-ons/) attached to a
-        booking, with stock limits, rather than as a separate store
+        booking, without product attributes such as size
       - **On-site point-of-sale** - dedicated POS hardware integration
         with Stripe card readers for box-office and walk-up sales
       - **Will-call list** - dedicated will-call workflow for collecting

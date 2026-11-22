@@ -24,9 +24,9 @@ blocks:
       [no Chobble per-ticket platform fee](/features/no-per-ticket-fees/), so the audience
       pays the ticket price you set and nothing else.
 
-      The platform costs a flat £50/year or £5/month, with a 50% discount
-      for charities and community groups, which covers most amateur
-      dramatics societies. Payments go through Stripe, Square, or SumUp
+      The platform costs a flat £50/year or £5/month. Charities and
+      community groups pay £25/year on the annual plan, which covers most
+      amateur dramatics societies. Payments go through Stripe, Square, or SumUp
       directly to the society's own account.
 
       A run of performances is set up either as a

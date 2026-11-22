@@ -193,10 +193,15 @@ blocks:
         (Business plan)
       - **Attendee certificates** sent automatically after a booking or event
         (Business plan)
-      - **Event materials and downloads** restricted to people who booked or
-        checked in (Business plan)
+      - **Event materials released after check-in** - downloads restricted
+        to people who booked or checked in (Business plan). Chobble Tickets
+        attaches one [file to a listing](/features/images/), which each
+        attendee downloads from their ticket page, with no release after
+        check-in
       - **Printable event programmes** as HTML or branded PDF (Business plan)
-      - **PDF invoices** emailed with booking details (Professional plan)
+      - **PDF invoices** emailed with booking details (Professional plan).
+        Chobble Tickets [invoices](/features/ledger/) are web pages opened by
+        a link, made by the organiser for a booking that still owes money
       - **Reviews, ratings and attendee feedback** on event pages (Business
         plan)
       - **SMS notifications** through Twilio (Business plan). Chobble
@@ -209,8 +214,11 @@ blocks:
         (Professional plan)
       - **WooCommerce checkout** so any WooCommerce-compatible gateway can
         take the payment (Professional plan)
-      - **Offline payments** with bookings held until money is collected
-        (Business plan)
+      - **Offline payments with held bookings** - bookings are held until
+        money is collected (Business plan). Chobble Tickets records a booking
+        with its balance owed, and staff record cash or bank transfers
+        against it in [the ledger](/features/ledger/), but the booking takes
+        its place at once
       - **Zapier and Elementor integrations** (free extensions)
       - **Frontend event submission** so other users can propose events
       - **Wishlists** where visitors save events to their account

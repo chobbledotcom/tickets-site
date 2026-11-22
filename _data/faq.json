@@ -122,7 +122,7 @@
 	{
 		"section": "Features and customisation",
 		"question": "How customisable is Chobble Tickets?",
-		"answer": "You can <a href=\"/features/customising-your-site/\">customise</a> the header image, website title, and theme colours from the admin dashboard. Email templates use Liquid syntax so you can change the subject line, HTML body, and plain text body of confirmation emails. Event descriptions support <a href=\"/features/markdown-descriptions/\">Markdown</a> formatting. You can set custom thank-you URLs, configure <a href=\"/features/terms-and-conditions/\">terms and conditions</a>, and add <a href=\"/features/custom-questions/\">custom multiple-choice questions</a> to the checkout form. If you self-host, you can modify the source code."
+		"answer": "You can <a href=\"/features/customising-your-site/\">customise</a> the header image, the website title and a light or dark theme from the admin area, and change colours and fonts with custom CSS. Email templates use Liquid syntax so you can change the subject line, HTML body, and plain text body of confirmation emails. Event descriptions support <a href=\"/features/markdown-descriptions/\">Markdown</a> formatting. You can set custom thank-you URLs, configure <a href=\"/features/terms-and-conditions/\">terms and conditions</a>, and add <a href=\"/features/custom-questions/\">custom multiple-choice questions</a> to the checkout form. If you self-host, you can modify the source code."
 	},
 	{
 		"section": "Features and customisation",
@@ -137,7 +137,7 @@
 	{
 		"section": "Features and customisation",
 		"question": "How do QR code check-ins work?",
-		"answer": "Each booking gets a unique URL with a <a href=\"/features/qr-code-check-ins/\">QR code</a>, which can represent several admissions. Attendees receive it in their confirmation email and can add it to <a href=\"/features/apple-wallet/\">Apple Wallet or Google Wallet</a>. Authorised staff scan the code through a connected browser with a phone camera. The scanner warns about previous check-ins and bookings for a different event."
+		"answer": "Each booking gets a unique URL with a <a href=\"/features/qr-code-check-ins/\">QR code</a>, which can represent several admissions. Attendees receive it in their confirmation email and can add it to <a href=\"/features/apple-wallet/\">Apple Wallet or Google Wallet</a>. Authorised staff scan the code in a browser with a phone camera. If the connection drops, the scanner queues each scan and checks it in when the connection returns. The scanner warns about previous check-ins and bookings for a different event."
 	},
 	{
 		"section": "Features and customisation",

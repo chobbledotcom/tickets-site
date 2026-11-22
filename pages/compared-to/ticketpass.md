@@ -138,7 +138,6 @@ blocks:
       - Printable tickets as well as phone tickets
       - Event capacity limits
       - Free event support with no payment setup required
-      - Age restrictions on tickets
       - Unlisted, private events
       - Attendee lists and the ability to contact attendees
       - Discount codes
@@ -166,7 +165,9 @@ blocks:
         resell a ticket through Ticketpass at face value
       - **Waiting lists for sold-out events** (Ticketpass Pro plan and above)
       - **Memberships and season passes** with paid subscriptions (Ticketpass
-        Pro plan and above)
+        Pro plan and above). A Chobble Tickets
+        [subscription listing](/features/purchasable-events/) takes a
+        recurring payment through Stripe, but does not act as a season pass
       - **Invite previous attendees** to a new event from inside the platform
         (Ticketpass Pro plan and above)
       - **Managing multiple organiser accounts from one place** (Ticketpass Pro

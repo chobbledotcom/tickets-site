@@ -13,7 +13,7 @@ blocks:
     content: |-
       # RSS & calendar feeds
 
-      Every Chobble Tickets site publishes a calendar feed and an RSS feed of its upcoming events. Anyone can subscribe in Google Calendar, Apple Calendar, Outlook or a feed reader, and new events appear there without them visiting your site.
+      A Chobble Tickets site with its public site switched on publishes a calendar feed and an RSS feed of its upcoming events. Anyone can subscribe in Google Calendar, Apple Calendar, Outlook or a feed reader, and new events appear there without them visiting your site.
   - type: markdown
     content: |
       ## Calendar subscriptions

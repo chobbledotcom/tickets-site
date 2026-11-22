@@ -1,7 +1,7 @@
 ---
 title: Backups & Restore - Chobble Tickets
 meta_title: Backups & Restore - Chobble Tickets
-meta_description: Download your whole database as a single zip, restore it from the admin panel, and know that updates refuse to run without a backup from the last hour.
+meta_description: Download your whole database as a single zip, restore it with one command, and know that updates refuse to run without a backup from the last hour.
 permalink: /features/backups/
 ticket_evidence_capture: backup-restore
 eleventyNavigation:
@@ -14,7 +14,7 @@ blocks:
     content: |-
       # Backups and restore
 
-      Download your whole database as a single zip file, restore it from the admin panel, and know that updates refuse to deploy unless a backup was taken in the last hour.
+      Download your whole database as a single zip file, restore it with one command, and know that updates refuse to deploy unless a backup was taken in the last hour.
   - type: markdown
     content: |
       ## One zip, everything included
@@ -34,12 +34,13 @@ blocks:
       self-hoster, this means a copy of everything without working through a
       cloud console.
 
-      ## Restore from the admin panel
+      ## Restore with one command
 
-      To restore, the owner uploads a backup zip and confirms by typing a
-      confirmation phrase. Chobble Tickets shows what the backup contains
-      and warns if it was made under a different database schema before
-      anything is changed.
+      A restore runs from the command line, not from the admin panel, because
+      a large restore is too big for one page request. The backups page shows
+      the command. It prints what the backup contains, warns if the backup was
+      made under a different database schema, and asks for a typed
+      confirmation before anything is changed.
 
       Each site records which version of the code it is running. A backup
       carries that version with it, so after a restore Chobble Tickets

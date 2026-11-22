@@ -80,8 +80,9 @@ blocks:
       You can also sell things nobody attends. A
       [purchasable listing](/features/purchasable-events/) takes payment
       for a record, a print or a zine without creating a door-entry
-      workflow. Payments are one-off, so a year's membership is collected
-      as a single payment rather than a recurring charge.
+      workflow, and a physical product listing collects the buyer's
+      delivery address. A subscription listing charges a supporter again
+      every week, month or year through Stripe.
     figure_items:
       - icon: hugeicons:money-receive-square
         text: A £12 ticket costs £12.
@@ -164,6 +165,8 @@ blocks:
     content: |
       ## Related uses
 
+      [Bands](/perfect-for/bands/) covers selling merch beside gig
+      tickets and styling the site with your own CSS.
       [Music venues and grassroots rooms](/perfect-for/music-venues/)
       covers the rooms you play in.
       [Music concerts](/perfect-for/music-concerts/) covers a single

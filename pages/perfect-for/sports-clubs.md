@@ -26,9 +26,9 @@ blocks:
 
       [Purchasable events](/features/purchasable-events/) collect payments
       that have no event to attend, such as annual membership dues or
-      seasonal subs. Each payment is a one-off; Chobble Tickets does not
-      set up recurring billing or direct debits, so members pay again when
-      the next period starts.
+      seasonal subs. A [subscription listing](/features/purchasable-events/)
+      charges a member again every week, month or year. Subscriptions need
+      Stripe, and Chobble Tickets does not set up direct debits.
 
       For training sessions, [daily events](/features/daily-events/) give
       each date its own capacity and a calendar picker, with blackout

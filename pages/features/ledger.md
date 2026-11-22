@@ -116,6 +116,19 @@ blocks:
       record.
   - type: markdown
     content: |
+      ## Invoices
+
+      An invoice states what one booking still owes. You create it from the
+      booking, check a preview and edit the text, and the site suggests the
+      next invoice number. The site emails the customer a link to read it,
+      and the link can also be copied and sent by hand.
+
+      The invoice keeps the amount the booking owed on the day it was made,
+      and turns Paid when the balance is settled. Invoices are switched on
+      from the Features settings, and the built-in text has no separate tax
+      line.
+  - type: markdown
+    content: |
       ## Example
 
       A folk club night sells £180 of tickets online, takes £45 in cash at

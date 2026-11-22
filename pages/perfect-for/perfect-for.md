@@ -30,10 +30,12 @@ blocks:
 
       Each page below sets out how one kind of organiser would set Chobble
       Tickets up and which features it relies on, and most include a
-      screenshot of that setup. Most setups come down to three listing types: a standard listing for one
+      screenshot of that setup. Most setups on these pages use a standard listing for one
       date, a [daily listing](/features/daily-events/) where the customer
-      picks a date, and a [multi-day hire](/features/multi-day-hire/) that
-      holds stock across several days.
+      picks a date, or a [multi-day hire](/features/multi-day-hire/) that
+      holds stock across several days. A listing can also be a
+      [product, a donation or a subscription](/features/purchasable-events/)
+      that nobody attends.
 
       ## What it does not cover
 
@@ -56,6 +58,9 @@ blocks:
       - icon: hugeicons:mask-theater-01
         description: Sell your own gig, show and workshop dates on your own domain, at the reduced artist price.
         name: <a href="/perfect-for/performers-and-artists/">Performers and artists</a>
+      - icon: hugeicons:music-note-03
+        description: Sell gig tickets and merch in one order, style the site with your own CSS, and pay half price as musicians.
+        name: <a href="/perfect-for/bands/">Bands</a>
       - icon: hugeicons:user-group
         description: Take sign-ups for events with no ticket price, with capacity, questions, check-in and encrypted records.
         name: <a href="/perfect-for/free-events/">Free events</a>
@@ -120,7 +125,7 @@ blocks:
         description: Publish regular session times with per-date capacity, booking deadlines and class-list email.
         name: <a href="/perfect-for/classes-and-courses/">Classes and courses</a>
       - icon: hugeicons:football
-        description: Sell match tickets, take one-off membership payments and record training-session bookings.
+        description: Sell match tickets, take membership payments once or as a subscription, and record training-session bookings.
         name: <a href="/perfect-for/sports-clubs/">Sports clubs</a>
       - icon: hugeicons:tent
         description: Sell passes, camping choices and add-ons with capacity controls and phone-based gate check-in.

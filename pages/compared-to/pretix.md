@@ -213,7 +213,9 @@ blocks:
       - **More than one currency** - different events can sell in
         different currencies. A Chobble Tickets site uses one currency
       - **Automatic invoicing** - EU reverse charge support, ZUGFeRD
-        invoices, and Peppol e-invoicing for B2B compliance
+        invoices, and Peppol e-invoicing for B2B compliance. Chobble Tickets
+        [invoices](/features/ledger/) state a booking's unpaid balance and
+        are not tax invoices
       - **Tax management** - configure VAT rates per product and country
       - **Waitlists** - automatic notifications when places open up, with
         manual and auto-assignment modes
@@ -226,7 +228,10 @@ blocks:
         orders. Chobble Tickets has no attendee login. Its
         [returning-customer discounts](/features/promo-codes-and-add-ons/)
         recognise a repeat buyer by a one-way code instead
-      - **Memberships** - membership models and member-only products
+      - **Memberships** - membership models and member-only products.
+        A Chobble Tickets [subscription listing](/features/purchasable-events/)
+        takes a recurring payment through Stripe, but does not unlock
+        products for members
       - **File-upload questions** - attendees can upload a file at
         checkout. Chobble Tickets questions are multiple-choice or free
         text
@@ -251,7 +256,13 @@ blocks:
         check-in lists per gate or area with custom fields at scan
       - **Digital content delivery** - attach downloadable content to
         tickets
-      - **Shipping** - physical product delivery management
+      - **Shipping** - physical product delivery management. A Chobble
+        Tickets [physical product listing](/features/purchasable-events/)
+        collects a delivery address. Chobble Tickets does not connect to any
+        postage provider and does not manage deliveries of posted goods. You
+        can charge postage you price yourself, with a
+        [custom question](/features/custom-questions/) whose answers each add
+        a set amount
       - **Virtual event support** - Venueless integration for hybrid and
         virtual events
       - **150+ plugins** - a [plugin

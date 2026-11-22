@@ -63,7 +63,9 @@ blocks:
     content: |-
       ## Included, like everything else
 
-      Hidden pages are part of every hosted or self-hosted site. There is no
-      tier to buy and nothing to switch on.
+      Hidden pages are part of the public site on every hosted or
+      self-hosted site, and there is no tier to buy. A site that Chobble sets
+      up starts with the public site switched on. On a site you set up
+      yourself, you switch the public site on from the Features page first.
 name: Hidden Pages - Chobble Tickets
 ---

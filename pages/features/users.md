@@ -35,10 +35,10 @@ blocks:
       **Owners** have full access, including users, settings, holiday dates,
       email settings, the public site's pages and [API keys](/features/public-api/).
 
-      **Managers** run the back office day to day. They reach listings, the
-      calendar, attendees, the ledger and the deliveries run sheet, which
-      suits a paid member of staff or a committee volunteer who handles
-      bookings.
+      **Managers** run the back office day to day. They reach listings,
+      groups, the calendar, attendees, the activity log and the deliveries
+      run sheet, which suits a paid member of staff or a committee volunteer
+      who handles bookings. The ledger is for owners only.
 
       **[Editors](/features/editors/)** write listings, groups and public
       site pages. They hold no key for reading attendee details and cannot
@@ -56,8 +56,8 @@ blocks:
       ## Example
 
       A summer fair committee has a chair, a treasurer, a volunteer who
-      writes the stall listings and four people on the gate. The chair is
-      the owner and the treasurer is a manager who reconciles the
+      writes the stall listings and four people on the gate. The chair and
+      the treasurer are both owners, because only an owner can open the
       [ledger](/features/ledger/). The listings volunteer is an editor, and
       the gate team get scanner logins on their own phones. Nobody shares a
       password, and only the chair and treasurer can open the attendee lists.

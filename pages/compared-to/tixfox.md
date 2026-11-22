@@ -159,8 +159,9 @@ blocks:
         TixFox requires a Stripe account; Chobble Tickets also works with
         Square and SumUp
       - **[Encryption at rest](/features/encrypted/)** - attendee data is
-        encrypted with hybrid RSA-OAEP + AES-256-GCM, and only the
-        organiser holds the private key
+        encrypted with hybrid RSA-OAEP + AES-256-GCM. Only the organiser's
+        administrator accounts, and the optional recovery account the
+        organiser can enable, hold a key that unlocks it
       - **[Custom domain included](/features/custom-domain/)** - pointing
         your own domain is part of the base price. TixFox does not
         document a custom-domain option
@@ -215,8 +216,9 @@ blocks:
       TixFox; it goes directly to the organiser's Stripe account.
 
       With Chobble Tickets, attendee data is encrypted at rest and stays
-      under your control. The organiser holds the only private key that
-      can decrypt it. The platform is open source, so if Chobble stopped
+      under your control. Only the organiser's administrator accounts, and
+      the optional recovery account the organiser can enable, can decrypt
+      it. The platform is open source, so if Chobble stopped
       operating tomorrow, you could run the same code on your own server.
   - type: markdown
     content: |

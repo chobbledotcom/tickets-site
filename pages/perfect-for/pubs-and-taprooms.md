@@ -139,9 +139,9 @@ blocks:
       ## What it does not do
 
       Chobble Tickets sells places at events. It is not a table
-      reservation diary, and it does not offer hourly booking slots, so it
-      does not replace a restaurant-style booking system for ordinary
-      service. It has no seat map, so every ticket is general admission.
+      reservation diary. A timed slot has to be set up as its own listing,
+      because there is no time picker, so it does not replace a
+      restaurant-style booking system for ordinary service. It has no seat map, so every ticket is general admission.
 
       It does not connect to a till or a point of sale system, and it does
       not manage stock behind the bar. Payment for a ticket is separate

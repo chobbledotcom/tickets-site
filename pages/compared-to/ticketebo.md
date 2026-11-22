@@ -187,8 +187,9 @@ blocks:
         existing venue turnstile infrastructure
       - **VAT tax invoices** - tax invoices or receipts issued to patrons on
         the organiser's behalf where VAT details are supplied. Chobble Tickets
-        records tax on a booking in its ledger, but does not issue tax
-        invoices
+        records tax on a booking in its ledger, and its
+        [invoices](/features/ledger/) state a booking's unpaid balance, but
+        it does not issue tax invoices
       - **Automatic rules-based discounts** - volume discounts such as
         multi-ticket package pricing, applied automatically at checkout
       - **Direct marketing integrations** - built-in connectors for Google

@@ -30,6 +30,8 @@ blocks:
       can set fixed prices or enable pay-what-you-want for donation-based gigs.
 
       **50% discount for musicians and artists** - £25/year on the annual plan.
+      The [bands page](/perfect-for/bands/) covers selling merch beside
+      tickets.
 
       The same setup covers gigs, album launches, acoustic evenings,
       classical and choral concerts, tribute shows and all-dayers.

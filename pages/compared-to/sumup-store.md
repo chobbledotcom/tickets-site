@@ -141,11 +141,15 @@ blocks:
 
       - **Physical products and delivery** - sell merchandise, concessions
         and goods alongside tickets, with delivery methods, shipping costs,
-        shipment tracking and restock alerts. Chobble can take payment for
-        physical items too, using [purchasable
-        events](/features/purchasable-events/) or [add-ons](/features/promo-codes-and-add-ons/),
-        with capacity or stock limits, but has no checkout shipping
-        methods, parcel tracking or restock alerts
+        shipment tracking and restock alerts. Chobble sells physical items
+        too, as [physical product
+        listings](/features/purchasable-events/) that collect a delivery
+        address, or as [add-ons](/features/promo-codes-and-add-ons/), with
+        capacity or stock limits. Chobble does not connect to any postage
+        provider, so it has no live shipping rates, postage labels, parcel
+        tracking or restock alerts. You can charge postage you price
+        yourself, with a [custom question](/features/custom-questions/)
+        whose answers each add a set amount
       - **Card readers and point of sale** - the store connects to SumUp's
         card readers, Tap to Pay and point of sale software, so the same
         item catalogue and payment account can take sales in person.

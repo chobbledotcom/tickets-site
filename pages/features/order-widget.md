@@ -50,9 +50,9 @@ blocks:
       ## Controlled by a domain allowlist
 
       The widget is off by default. You switch it on and list the domains
-      allowed to use it; a wildcard entry such as `*.example.com` covers
-      every subdomain. Requests from other domains receive no listing
-      data.
+      allowed to use it. A wildcard entry such as `*.example.com` covers
+      every subdomain. Once a domain is listed, requests from other
+      domains receive no listing data. An empty list allows any website.
 
       ## Widget or iframe
 

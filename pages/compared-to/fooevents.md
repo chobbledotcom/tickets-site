@@ -202,8 +202,8 @@ blocks:
       - **WordPress multisite support** - run FooEvents across multiple
         WordPress sites under one network
       - **Lifetime support option** - FooEvents offers a lifetime
-        licence on request (Chobble Tickets hosted is
-        subscription-only)
+        licence on request (Chobble Tickets hosting is prepaid by the
+        month or the year)
       - **14-day money-back guarantee** - FooEvents offers a full
         refund within 14 days of purchase
       - **Any WooCommerce extension** - because FooEvents is a

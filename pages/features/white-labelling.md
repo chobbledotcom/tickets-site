@@ -36,8 +36,8 @@ blocks:
     content: |
       ## Where the organiser's name appears
 
-      - **The web address.** Every managed site gets a
-        `yourname.tix.chobble.net` address, and a
+      - **The web address.** Every managed site can register a free
+        `yourname.tix.chobble.net` address from its settings, and a
         [custom domain](/features/custom-domain/) such as
         `tickets.example.org` can be connected to it at no extra charge, by
         adding one record with whoever the organiser bought the domain

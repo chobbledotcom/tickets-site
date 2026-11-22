@@ -46,7 +46,7 @@ blocks:
       The same setup covers function rooms, studios and rehearsal spaces,
       meeting rooms, sports halls, community rooms and whole-building hire.
 
-      Chobble Tickets handles whole-day and multi-day booking. It does not provide hourly slots, external calendar synchronisation or accommodation channel management.
+      Chobble Tickets handles whole-day and multi-day booking. It has no time picker, so a space hired by the hour needs a separate [daily listing](/features/daily-events/) for each time slot. It does not provide external calendar synchronisation or accommodation channel management.
     figure_src: /images/screenshots/industry-venue-hire-booking.png
     figure_alt: Venue hire checkout with an available date and one-day or two-day hire prices
     figure_caption: Customers choose an available start date and one of the hire lengths published by the venue.

@@ -172,7 +172,9 @@ blocks:
       - **Ticket transfers** - allow attendees to transfer their tickets to
         someone else
       - **Automatic invoicing** - generate invoices for orders
-        automatically
+        automatically. Chobble Tickets [invoices](/features/ledger/) are
+        made by the organiser, one booking at a time, for a balance still
+        owed
       - **XLSX export** - export attendee and order data in Excel format
         (Chobble supports CSV only)
       - **Branded organiser homepage** - a page showcasing all your events

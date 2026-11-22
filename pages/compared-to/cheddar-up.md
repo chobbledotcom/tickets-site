@@ -121,8 +121,10 @@ blocks:
         alternative to credit cards
       - **Shipping labels** - purchase and print USPS shipping labels
         directly from Cheddar Up for merchandise orders (Pro and Team)
-      - **Recurring payments** - set up automatic recurring charges for
-        tuition, dues, sports fees, or donations (Team only)
+      - **Recurring payment schedules** - set up automatic recurring
+        charges for tuition, dues, sports fees, or donations (Team only).
+        A Chobble Tickets [subscription listing](/features/purchasable-events/)
+        recurs every week, month or year, through Stripe only
       - **Group Page** - a branded landing page where your community can
         access all your fundraisers, stores, events, and registrations
         in one place (Team only)
@@ -186,9 +188,11 @@ blocks:
         capacity with calendar picker and holiday blackouts
       - **[Webhooks](/features/webhooks/)** - outbound POST on every
         registration for custom integrations
-      - **[Public API](/features/public-api/)** - authenticated REST API
-        with API keys for reading and editing event and attendee data
-        (Cheddar Up has no API)
+      - **[Public API](/features/public-api/) and
+        [admin API](/features/admin-api/)** - a public JSON API for listings
+        and booking that needs no key, and an admin API with API keys for
+        reading and editing listings, bookings and other site data (Cheddar
+        Up has no API)
       - **[Embeddable ticket widgets](/features/embeddable-widget/)** -
         embed inline ticket sales on your own website (Cheddar Up offers
         embeddable buttons that link to their hosted page, but not inline
@@ -233,8 +237,6 @@ blocks:
         sales and merchandise
       - You're a US-based PTA, sports team, or nonprofit and need eCheck/ACH
         payments for lower transaction fees
-      - You need recurring payment collection for tuition or membership
-        dues
       - You need a native mobile app for on-site management
   - type: markdown
     content: |

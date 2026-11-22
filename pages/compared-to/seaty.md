@@ -174,8 +174,12 @@ blocks:
         and the box office, and updates live during booking
       - **Tours and multi-venue series** - one page covering several dates
         or venues under a single tour
-      - **Merchandise** - items with variations sold alongside tickets, with
-        scannable vouchers for redemption
+      - **Merchandise variations and vouchers** - items with variations
+        sold alongside tickets, with scannable vouchers for redemption.
+        Chobble Tickets
+        sells merchandise as
+        [physical product listings](/features/purchasable-events/) in the
+        same order as a ticket, without variations or vouchers
       - **Immutable order audit log** - every action on an order, from
         emails sent and opened to refunds, payments, transfers and date
         swaps, kept in a log that cannot be edited

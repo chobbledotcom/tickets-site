@@ -137,9 +137,10 @@ blocks:
     content: |
       ## What it does not do
 
-      Chobble Tickets books whole days and ranges of days. It does not
-      offer hourly slots, so a hall that lets rooms by the hour to
-      different groups on the same day cannot represent that here.
+      Bookings here are for whole days or ranges of days, with no time
+      picker. A hall that lets rooms by the hour makes one
+      [daily listing](/features/daily-events/) for each slot, named with its
+      time, and each slot keeps its own capacity for each date.
 
       It does not sync with an external calendar, so a booking diary kept
       in Google Calendar or Outlook stays separate. A staff calendar feed

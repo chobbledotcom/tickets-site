@@ -34,13 +34,14 @@ blocks:
       more.
 
       The same setup covers appeals, raffles, sponsored events, one-off
-      membership payments and collections with nothing to attend. Payments
-      are taken once rather than renewed automatically.
+      membership payments and collections with nothing to attend. These
+      payments are taken once. A [subscription listing](/features/purchasable-events/)
+      can charge a supporter again every week, month or year through Stripe.
     figure_items:
       - icon: hugeicons:calendar-03
         text: "Event name: Summer Appeal 2026"
       - icon: hugeicons:ticket-01
-        text: "Purchase only: ✓"
+        text: "No check-in: ✓"
       - icon: hugeicons:money-receive-square
         text: "Price: Pay what you want"
       - icon: hugeicons:credit-card

@@ -33,11 +33,36 @@ blocks:
         want](/features/stripe-and-square/) above a minimum
       - **Raffle entries**, sold online with a quantity picker, while the
         numbers and the draw stay with the organiser
-      - **Club dues and membership fees**, collected once a year or a season
+      - **Club dues and membership fees**, collected once, or charged again
+        each period as a subscription
       - **School and PTA collections**, such as trip contributions and
         uniform deposits
       - **Merchandise and digital products**, sold alone or in the same order
         as a ticket
+
+      ## Listing types for things nobody attends
+
+      The page for a new listing offers nine types. Four of them are for
+      sales with no door to check in at.
+
+      - **Donation**, where the giver chooses the amount at checkout
+      - **Physical product**, where checkout collects the buyer's delivery
+        address
+      - **Digital product**, with nothing to check in and nothing to post
+      - **Subscription**, where Stripe charges the buyer again every week,
+        month or year
+
+      ## Subscriptions
+
+      A subscription listing suits a membership, a supporter plan or a fan
+      club. The buyer pays the first charge at checkout. Stripe takes each
+      later charge and reports it to the site, which records it in the
+      [ledger](/features/ledger/).
+
+      Owners and managers see every subscriber on one page, with the charge,
+      the tax in each charge and the status. An owner can cancel a
+      subscription there, which stops every later payment and refunds
+      nothing.
 
       ## Example
 
@@ -66,6 +91,14 @@ blocks:
       them other organisers' events, and charges no fee on the money raised.
 
       ## Limits
+
+      Subscriptions need Stripe and are switched on from the Features
+      settings. A subscription is bought in an order of its own, not in a
+      package or beside another listing. There are no membership tiers,
+      member-only prices or membership cards.
+
+      A physical product listing collects an address but does not work out
+      postage, print labels or track parcels.
 
       Chobble Tickets records raffle sales but does not allocate numbers or
       draw winners. Gift Aid declarations are not collected automatically, so

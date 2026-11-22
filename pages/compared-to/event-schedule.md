@@ -184,7 +184,10 @@ blocks:
       - **Newsletter A/B testing** - test two versions of a campaign email
       - **Invoice Ninja integration** - collect payment through Invoice Ninja
         as well as Stripe
-      - **Passes and subscriptions** - sell recurring passes on the Pro plan
+      - **Passes** - sell recurring passes on the Pro plan. A Chobble
+        Tickets [subscription listing](/features/purchasable-events/) takes a
+        recurring payment through Stripe, but is not a pass that covers
+        several events
       - **Multi-language content** - built-in translation of event content
   - type: markdown
     content: |
