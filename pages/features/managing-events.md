@@ -118,5 +118,5 @@ blocks:
       ## Run events on a hosted site
 
       Managed hosting costs £5 a month or £50 a year and includes every administration feature.
-name: Event Management, Check-In and Reporting | Chobble Tickets
+name: Managing Events
 ---

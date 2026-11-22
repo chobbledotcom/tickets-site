@@ -306,5 +306,5 @@ blocks:
       ## Try Chobble Tickets
 
       Register a site with prepaid monthly or annual hosting.
-name: Open Source & Flat Fee Bookwhen Alternative | Chobble Tickets
+name: vs Bookwhen
 ---

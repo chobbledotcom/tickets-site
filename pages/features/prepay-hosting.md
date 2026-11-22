@@ -148,5 +148,5 @@ blocks:
       ## Start a hosted site
 
       The first prepay month costs £5. The site runs until the term ends, then stays readable in read-only mode if it is not renewed.
-name: Prepay Hosting, Not Subscriptions | Chobble Tickets
+name: Prepay Hosting
 ---

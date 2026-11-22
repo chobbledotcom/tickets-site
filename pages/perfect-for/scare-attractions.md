@@ -107,5 +107,5 @@ blocks:
       ## Sell tickets for the season
 
       Sign up for managed hosting at £50/year or £5/month with no Chobble per-ticket platform fee.
-name: Halloween & Scare Attraction Ticketing - Chobble Tickets
+name: Scare Attractions
 ---

@@ -60,5 +60,5 @@ blocks:
       ## Get started
 
       Both themes come with every hosted site, at £50 a year or £5 a month.
-name: Light & Dark Themes - Chobble Tickets
+name: "Light & Dark Themes"
 ---

@@ -92,5 +92,5 @@ blocks:
       ## Get started
 
       Servicing holds come with every hosted site, at £50 a year or £5 a month.
-name: Block Capacity for Maintenance - Chobble Tickets
+name: Servicing Events
 ---

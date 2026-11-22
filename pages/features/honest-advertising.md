@@ -174,5 +174,5 @@ blocks:
       ## Check the figures
 
       Every competitor fee quoted on this site is linked to the source it came from and dated.
-name: Honest Advertising in Event Ticketing | Chobble Tickets
+name: Honest Advertising
 ---

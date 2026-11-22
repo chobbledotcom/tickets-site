@@ -322,5 +322,5 @@ blocks:
       ## Sell your classes without the commission
 
       One flat hosting price, your own payment account, and no marketplace between you and your attendees.
-name: ClassBento Alternative | Chobble Tickets
+name: vs ClassBento
 ---

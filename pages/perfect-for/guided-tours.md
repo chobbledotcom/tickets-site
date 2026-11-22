@@ -108,5 +108,5 @@ blocks:
       ## Take tour bookings online
 
       Sign up for managed hosting at £50/year or £5/month with no Chobble per-booking platform fee.
-name: Booking Software for Guided Tours - Chobble Tickets
+name: Guided Tours
 ---

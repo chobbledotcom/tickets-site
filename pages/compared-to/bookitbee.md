@@ -280,5 +280,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing with open source code and no per-ticket platform fee.
-name: Open Source & Cheaper BookitBee Alternative | Chobble Tickets
+name: vs BookitBee
 ---

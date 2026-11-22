@@ -184,5 +184,5 @@ blocks:
       ## Take sign-ups for a free event
 
       Managed hosting costs £50 a year or £5 a month. Eligible charities and community groups pay £25 a year.
-name: Free Event Registration With a Headcount | Chobble Tickets
+name: Free Events
 ---

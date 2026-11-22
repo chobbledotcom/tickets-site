@@ -192,5 +192,5 @@ blocks:
       ## Put your next date on sale
 
       Managed hosting costs £50 a year or £5 a month. Artists and musicians pay £25 a year on the annual plan.
-name: Ticketing for Musicians, Comedians and Performers | Chobble Tickets
+name: Performers and Artists
 ---

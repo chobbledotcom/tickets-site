@@ -380,5 +380,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: UK Made & Flat Fee Hi.Events Alternative | Chobble Tickets
+name: vs Hi.Events
 ---

@@ -90,5 +90,5 @@ blocks:
       ## Get started
 
       Daily listings come with every hosted site, at £50 a year or £5 a month.
-name: Daily Events - Chobble Tickets
+name: Daily Events
 ---

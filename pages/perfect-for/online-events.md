@@ -170,5 +170,5 @@ blocks:
       ## Take registrations for an online session
 
       Sign up for managed hosting at £50/year or £5/month with no Chobble per-ticket platform fee.
-name: Registration for Online and Hybrid Events | Chobble Tickets
+name: Online Events
 ---

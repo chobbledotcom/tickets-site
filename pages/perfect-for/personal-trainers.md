@@ -118,5 +118,5 @@ blocks:
       ## Take training bookings online
 
       Managed hosting costs £50 a year or £5 a month. There are no feature tiers or Chobble per-booking platform fees.
-name: Personal Trainer Booking Software | Chobble Tickets
+name: Personal Trainers
 ---

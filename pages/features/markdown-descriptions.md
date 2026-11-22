@@ -79,5 +79,5 @@ blocks:
       ## Get started
 
       The visual editor comes with every hosted site, at £50 a year or £5 a month.
-name: Markdown Descriptions - Chobble Tickets
+name: Markdown Descriptions
 ---

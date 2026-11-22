@@ -128,5 +128,5 @@ blocks:
       ## Start selling tickets to your workshop
 
       Sign up for managed hosting at £50/year or £5/month. Chobble adds no per-ticket platform fee or percentage cut.
-name: Ticketing for Workshops - Chobble Tickets
+name: Workshops
 ---

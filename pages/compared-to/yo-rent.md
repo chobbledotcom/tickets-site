@@ -345,5 +345,5 @@ blocks:
       ## Try Chobble Tickets
 
       Open source ticketing and hire bookings with flat pricing and no Chobble per-booking platform fee.
-name: Open Source & Low Cost Yo!Rent Alternative | Chobble Tickets
+name: "vs Yo!Rent"
 ---

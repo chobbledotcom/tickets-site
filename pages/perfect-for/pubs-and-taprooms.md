@@ -180,5 +180,5 @@ blocks:
       ## Put your next night on sale
 
       Sign up for managed hosting at £50/year or £5/month with no Chobble per-ticket platform fee.
-name: Event Ticketing for Pubs and Taprooms | Chobble Tickets
+name: Pubs and Taprooms
 ---

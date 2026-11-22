@@ -90,5 +90,5 @@ blocks:
 
       Issue full refunds from the admin panel and keep the
       [ledger](/features/ledger/) in sync.
-name: Refunds - Chobble Tickets
+name: Refunds
 ---

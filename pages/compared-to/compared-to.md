@@ -229,5 +229,5 @@ blocks:
       ## Try it yourself
 
       Sign up for managed hosting at £50/year or £5/month, or use the source code without paying Chobble a licence fee.
-name: Platform Alternatives Compared | Chobble Tickets
+name: Compared To
 ---

@@ -51,5 +51,5 @@ blocks:
       ## Use managed hosting
 
       Managed hosting processes encrypted booking records without using them to market other events.
-name: Ticketing Without Attendee Marketing | Chobble Tickets
+name: No Attendee Marketing
 ---

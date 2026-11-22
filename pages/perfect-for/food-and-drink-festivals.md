@@ -105,5 +105,5 @@ blocks:
       ## Sell session tickets online
 
       Sign up for managed hosting at £50/year or £5/month. Charities and community groups pay £25/year.
-name: Beer & Food Festival Ticketing - Chobble Tickets
+name: "Food & Drink Festivals"
 ---

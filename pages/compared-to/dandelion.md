@@ -340,5 +340,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or use the self-hosted software with no Chobble charge.
-name: White Label & Flat Fee Dandelion Alternative | Chobble Tickets
+name: vs Dandelion
 ---

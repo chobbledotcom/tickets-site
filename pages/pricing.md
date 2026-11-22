@@ -143,5 +143,5 @@ blocks:
       ## Start a hosted site
 
       The first month costs £5. The hosted sign-up form creates a separate ticketing site and sends its setup link after payment.
-name: Event Ticketing Software Pricing | Chobble Tickets
+name: Pricing
 ---

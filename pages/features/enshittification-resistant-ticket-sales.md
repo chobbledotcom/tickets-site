@@ -294,5 +294,5 @@ blocks:
       ## Get started
 
       Managed hosting costs £50 a year or £5 a month. The source code is published, and self-hosting carries no Chobble licence fee.
-name: Enshittification-Resistant Ticket Sales | Chobble Tickets
+name: Enshittification Resistant Ticket Sales
 ---

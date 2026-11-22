@@ -25,5 +25,5 @@ blocks:
       ## Get started
 
       Sign up for managed hosting at £50/year or £5/month, or run the source code without paying Chobble a licence fee.
-name: FAQ - Chobble Tickets Pricing, Fees, and Features
+name: FAQ
 ---

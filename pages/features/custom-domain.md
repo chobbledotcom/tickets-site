@@ -85,5 +85,5 @@ blocks:
       ## Get started
 
       Managed hosting costs £50 a year or £5 a month, with custom domains and every other feature included.
-name: Custom Domain - Chobble Tickets
+name: Custom Domain
 ---

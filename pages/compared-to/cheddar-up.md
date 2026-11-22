@@ -313,5 +313,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and encrypted attendee data.
-name: Open Source & Cheaper Cheddar Up Alternative | Chobble Tickets
+name: vs Cheddar Up
 ---

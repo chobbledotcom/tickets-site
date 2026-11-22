@@ -167,5 +167,5 @@ blocks:
       ## Set up a hosted booking site
 
       Managed hosting costs £50 a year or £5 a month. Eligible charities and community groups pay £25 a year.
-name: Ticketing Software for Events, Classes and Hire | Chobble Tickets
+name: Perfect For
 ---

@@ -81,5 +81,5 @@ blocks:
       ## Get started
 
       Email templates come with every hosted site, at £50 a year or £5 a month.
-name: Email Templates - Chobble Tickets
+name: Email Templates
 ---

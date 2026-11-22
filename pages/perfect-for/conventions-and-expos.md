@@ -113,5 +113,5 @@ blocks:
       ## Sell convention tickets online
 
       Sign up for managed hosting at £50/year or £5/month with no Chobble per-ticket platform fee.
-name: Convention & Expo Ticketing Software - Chobble Tickets
+name: "Conventions & Expos"
 ---

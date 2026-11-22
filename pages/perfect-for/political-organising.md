@@ -111,5 +111,5 @@ blocks:
       ## Get started with encrypted event ticketing
 
       Sign up for managed hosting from £25/year for community groups, or self-host without paying Chobble a licence fee.
-name: Ticketing for Political Organising - Chobble Tickets
+name: Political Organising
 ---

@@ -113,5 +113,5 @@ blocks:
       ## Get started
 
       Charities and community groups pay £25 a year for managed hosting on the annual plan, with No check-in listings included.
-name: Collect Donations & Payments Without Ticketing - Chobble Tickets
+name: Purchasable Events
 ---

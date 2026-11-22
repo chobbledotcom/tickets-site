@@ -237,5 +237,5 @@ blocks:
     ## See it in action
 
     Sign up for managed hosting at £50/year or £5/month, or browse the source code and documentation on GitHub.
-name: Event Ticketing Software Features | Chobble Tickets
+name: Features
 ---

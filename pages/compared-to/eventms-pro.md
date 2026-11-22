@@ -350,5 +350,5 @@ blocks:
       ## Try Chobble Tickets
 
       Open source ticketing with flat pricing, attendees' personal data encrypted at rest and no per-ticket platform fee.
-name: Open Source & Flat-Fee EventMS Pro Alternative | Chobble Tickets
+name: vs EventMS Pro
 ---

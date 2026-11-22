@@ -72,5 +72,5 @@ blocks:
       ## Get started
 
       Booking deadlines come with every hosted site, at £50 a year or £5 a month.
-name: Registration Deadlines - Chobble Tickets
+name: Registration Deadlines
 ---

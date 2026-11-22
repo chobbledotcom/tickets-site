@@ -102,5 +102,5 @@ blocks:
       ## Set up your festival
 
       Sign up for managed hosting at £50/year or £5/month, with no commission on ticket sales.
-name: Festival Ticketing for Independent Festivals - Chobble Tickets
+name: Festivals
 ---

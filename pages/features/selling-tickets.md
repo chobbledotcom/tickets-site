@@ -104,5 +104,5 @@ blocks:
       ## Create a hosted ticketing site
 
       Managed hosting includes every selling and payment feature with no per-ticket platform fee.
-name: Sell Event Tickets Online in the UK | Chobble Tickets
+name: Selling Tickets
 ---

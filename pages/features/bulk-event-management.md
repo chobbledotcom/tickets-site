@@ -82,5 +82,5 @@ blocks:
       ## Manage repeated events
 
       Bulk tools and listing defaults are included with managed hosting and self-hosting.
-name: Bulk Event Management and Listing Defaults | Chobble Tickets
+name: Bulk Event Management
 ---

@@ -75,5 +75,5 @@ blocks:
       ## Get started
 
       The activity log comes with every hosted site, at £50 a year or £5 a month.
-name: Activity Logs - Chobble Tickets
+name: Activity Logs
 ---

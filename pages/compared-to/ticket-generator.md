@@ -289,5 +289,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Flat-Fee Ticket Generator Alternative | Chobble Tickets
+name: vs Ticket Generator
 ---

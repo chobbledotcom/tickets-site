@@ -119,5 +119,5 @@ blocks:
       ## Take styling bookings online
 
       Managed hosting costs £50 a year or £5 a month. Every booking and administration feature is included.
-name: Personal Stylist Booking Software | Chobble Tickets
+name: Personal Stylists
 ---

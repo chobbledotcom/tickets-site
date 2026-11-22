@@ -155,5 +155,5 @@ blocks:
       ## Get started
 
       The ledger comes with every hosted site, at £50 a year or £5 a month.
-name: Double-entry Ledger - Chobble Tickets
+name: Ledger
 ---

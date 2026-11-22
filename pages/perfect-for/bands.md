@@ -180,5 +180,5 @@ blocks:
       ## Put your next gig and your merch on sale
 
       Managed hosting costs £50 a year or £5 a month. Musicians pay £25 a year on the annual plan.
-name: Ticketing and Merch Sales for Bands | Chobble Tickets
+name: Bands
 ---

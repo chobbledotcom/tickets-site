@@ -439,5 +439,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and encrypted attendee data.
-name: Open Source & Self-Hosted Zeffy Alternative | Chobble Tickets
+name: vs Zeffy
 ---

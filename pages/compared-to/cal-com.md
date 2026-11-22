@@ -450,5 +450,5 @@ blocks:
       ## Try Chobble Tickets
 
       Open source event ticketing with flat pricing and no per-user fees.
-name: Open Source & Flat Fee Cal.com Alternative | Chobble Tickets
+name: vs Cal.com
 ---

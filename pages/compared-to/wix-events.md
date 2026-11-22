@@ -323,5 +323,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, open source code, and encrypted attendee data.
-name: Open Source & Cheaper Wix Events Alternative | Chobble Tickets
+name: vs Wix Events
 ---

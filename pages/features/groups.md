@@ -126,5 +126,5 @@ blocks:
       ## Get started
 
       Groups and shared capacity come with every hosted site, at £50 a year or £5 a month.
-name: Event Groups & Tiered Ticket Types - Chobble Tickets
+name: Groups
 ---

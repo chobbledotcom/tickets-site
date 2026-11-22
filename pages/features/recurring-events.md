@@ -78,5 +78,5 @@ blocks:
       ## Get started
 
       Recurring listings come with every hosted site, at £50 a year or £5 a month, however many dates they run.
-name: Recurring Event Ticketing - Chobble Tickets
+name: Recurring Events
 ---

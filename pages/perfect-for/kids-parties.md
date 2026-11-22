@@ -87,5 +87,5 @@ blocks:
       ## Set up your party
 
       Sign up for managed hosting at £50/year or £5/month with unlimited events.
-name: Ticketing for Kids Parties - Chobble Tickets
+name: Kids Parties
 ---

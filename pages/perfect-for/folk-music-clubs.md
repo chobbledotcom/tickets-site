@@ -136,5 +136,5 @@ blocks:
       ## Set up a folk club booking site
 
       Managed hosting costs £50 a year or £5 a month. Eligible community groups pay £25 a year.
-name: Folk Club Ticketing and Payments | Chobble Tickets
+name: Folk Music Clubs
 ---

@@ -87,5 +87,5 @@ blocks:
       ## Get started
 
       Editor logins are part of every hosted site, at £50 a year or £5 a month.
-name: Editor Accounts Without Booking Access - Chobble Tickets
+name: Editors
 ---

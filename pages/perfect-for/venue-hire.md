@@ -129,5 +129,5 @@ blocks:
       ## Take venue hire bookings online
 
       Managed hosting costs £50 a year or £5 a month. Multi-day bookings, deposits and maintenance holds are included.
-name: Venue Hire Booking Software | Chobble Tickets
+name: Venue Hire
 ---

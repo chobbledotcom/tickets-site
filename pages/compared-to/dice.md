@@ -287,5 +287,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest, no attendee app requirement and no per-ticket platform fee.
-name: Open Source & Flat Fee DICE Alternative | Chobble Tickets
+name: vs DICE
 ---

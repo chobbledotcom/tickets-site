@@ -97,5 +97,5 @@ blocks:
       ## Get started
 
       Sign up for managed hosting at £50/year or £5/month, or use the source code to run a self-hosted deployment.
-name: Open Source Event Ticketing | Chobble Tickets
+name: Open Source
 ---

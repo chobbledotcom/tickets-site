@@ -318,5 +318,5 @@ blocks:
       ## Independent ticketing
 
       Flat pricing with no per-ticket platform fee.
-name: Independent & Open Source Ticketek Alternative | Chobble Tickets
+name: vs Ticketek
 ---

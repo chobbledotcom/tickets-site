@@ -111,5 +111,5 @@ blocks:
       ## Create a sign-up form
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Volunteer Sign-up Forms & Potluck Sheets | Chobble Tickets
+name: Sign-up Forms
 ---

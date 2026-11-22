@@ -321,5 +321,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Open Source Eventee Alternative for Paid Ticketing | Chobble Tickets
+name: vs Eventee
 ---

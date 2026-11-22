@@ -182,5 +182,5 @@ blocks:
       ## Set up the hall's booking site
 
       Managed hosting costs £50 a year or £5 a month. Eligible charities and community groups pay £25 a year.
-name: Booking Software for Community Centres and Village Halls | Chobble Tickets
+name: Community Centres
 ---

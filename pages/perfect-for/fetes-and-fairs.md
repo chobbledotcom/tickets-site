@@ -109,5 +109,5 @@ blocks:
       ## Set up your fete or fair
 
       Sign up for managed hosting at £25/year for charities and community groups, or £50/year at the standard rate.
-name: Fete, Fair & Country Show Ticketing - Chobble Tickets
+name: "Fetes & Fairs"
 ---

@@ -287,5 +287,5 @@ blocks:
       ## Simple school event ticketing
 
       Flat pricing with no per-ticket platform fee. Payment-provider charges remain separate.
-name: Open Source & Cheaper PTA Events Alternative | Chobble Tickets
+name: vs PTA Events
 ---

@@ -85,5 +85,5 @@ blocks:
 
       A hosted site costs £5 for the first month. Ticket income goes to the
       organiser's payment provider, not to Chobble.
-name: Chobble Tickets Examples
+name: Examples
 ---

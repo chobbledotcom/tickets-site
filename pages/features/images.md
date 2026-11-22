@@ -92,5 +92,5 @@ blocks:
       ## Get started
 
       The image library and file attachments come with every hosted site, at £50 a year or £5 a month.
-name: Image Uploads, Thumbnails & Attachments - Chobble Tickets
+name: Images
 ---

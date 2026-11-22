@@ -117,5 +117,5 @@ blocks:
       ## Set up your reunion
 
       Sign up for managed hosting at £5/month or £50/year with no Chobble per-ticket platform fee.
-name: Class Reunion Ticketing - Chobble Tickets
+name: Class Reunions
 ---

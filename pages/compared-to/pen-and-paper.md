@@ -109,5 +109,5 @@ blocks:
       ## Get started when you're ready
 
       Start with managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Digital & Low Cost Alternative to Paper Tickets | Chobble Tickets
+name: vs Pen and Paper
 ---

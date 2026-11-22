@@ -80,5 +80,5 @@ blocks:
       ## Get started
 
       Text messaging comes with every hosted site, at £50 a year or £5 a month, and needs a spare Android phone.
-name: SMS Messages - Chobble Tickets
+name: SMS Messages
 ---

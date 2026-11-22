@@ -149,5 +149,5 @@ blocks:
       ## Take catering bookings online
 
       Managed hosting costs £50 a year or £5 a month. Packages, questions, deposits and logistics are included.
-name: Catering Booking Software | Chobble Tickets
+name: Caterers
 ---

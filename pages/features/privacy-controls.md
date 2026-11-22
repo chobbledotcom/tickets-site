@@ -51,5 +51,5 @@ blocks:
       ## Set your retention period
 
       Privacy and retention controls are included with every hosted or self-hosted site.
-name: Attendee Data Retention and Privacy Controls | Chobble Tickets
+name: Privacy Controls
 ---

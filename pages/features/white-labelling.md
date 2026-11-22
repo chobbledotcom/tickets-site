@@ -95,5 +95,5 @@ blocks:
       ## Run it under your own name
 
       Managed hosting costs £50/year or £5/month, or £25/year for charities, community groups, artists and musicians. White labelling is included.
-name: White Labelling - Chobble Tickets
+name: White Labelling
 ---

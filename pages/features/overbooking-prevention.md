@@ -104,5 +104,5 @@ blocks:
       ## Capacity checks included
 
       Built-in capacity management for fixed-date and daily events.
-name: Overbooking Prevention - Chobble Tickets
+name: Overbooking Prevention
 ---

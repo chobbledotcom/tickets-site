@@ -129,5 +129,5 @@ blocks:
       ## Get started
 
       The door scanner comes with every hosted site, at £50 a year or £5 a month, for as many volunteers as you need.
-name: QR Code Ticket Check-In | Chobble Tickets
+name: QR Code Check-ins
 ---

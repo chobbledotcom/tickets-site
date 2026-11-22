@@ -87,5 +87,5 @@ blocks:
       ## Get started
 
       Hosted sites can have as many logins as the team needs, at £50 a year or £5 a month.
-name: Multi-User Management - Chobble Tickets
+name: Users
 ---

@@ -432,5 +432,5 @@ blocks:
       ## Sell tickets without a subscription
 
       One prepaid price per year, your own payment account, and a check-in list at the door.
-name: Whizzly Alternative | Chobble Tickets
+name: vs Whizzly
 ---

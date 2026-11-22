@@ -119,5 +119,5 @@ blocks:
       ## Put session bookings online
 
       Managed hosting costs £50 a year or £5 a month. Every booking and administration feature is included.
-name: Soft Play Booking System | Chobble Tickets
+name: Stay and Play
 ---

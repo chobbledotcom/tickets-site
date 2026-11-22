@@ -287,5 +287,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted data, and no enterprise contracts required.
-name: UK Made & Flat Fee Swicket Alternative | Chobble Tickets
+name: vs Swicket
 ---

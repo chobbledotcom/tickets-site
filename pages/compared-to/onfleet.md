@@ -354,5 +354,5 @@ blocks:
       ## Try Chobble Tickets
 
       Open source ticketing, hire bookings, and delivery run sheets with flat pricing and no per-driver or per-task fee.
-name: Open Source & Low Cost Onfleet Alternative | Chobble Tickets
+name: vs Onfleet
 ---

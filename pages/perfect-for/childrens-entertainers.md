@@ -136,5 +136,5 @@ blocks:
       ## Put entertainer bookings online
 
       Managed hosting costs £50 a year or £5 a month. Required choices, deposits and logistics are included.
-name: Children's Entertainer Bookings | Chobble Tickets
+name: "Children's Entertainers"
 ---

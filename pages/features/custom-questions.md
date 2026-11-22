@@ -116,5 +116,5 @@ blocks:
       ## Get started
 
       Booking questions come with every hosted site, at £50 a year or £5 a month.
-name: Custom Questions - Chobble Tickets
+name: Custom Questions
 ---

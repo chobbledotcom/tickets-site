@@ -77,5 +77,5 @@ blocks:
       ## Get started
 
       Email provider support comes with every hosted site, at £50 a year or £5 a month.
-name: Email Provider Integration - Chobble Tickets
+name: Email Providers
 ---

@@ -75,5 +75,5 @@ blocks:
       ## Get started
 
       Copying listings and groups is included in managed hosting at £50 a year or £5 a month.
-name: Duplicate Events - Chobble Tickets
+name: Duplicate Events
 ---

@@ -106,5 +106,5 @@ blocks:
       ## Built for hire businesses
 
       Multi-day hire comes with every hosted site, at £50 a year or £5 a month, alongside deliveries and collections.
-name: Multi-day Hire & Rental Bookings - Chobble Tickets
+name: Multi-day Hire
 ---

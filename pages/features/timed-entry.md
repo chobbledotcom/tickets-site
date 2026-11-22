@@ -74,5 +74,5 @@ blocks:
       ## Get started
 
       Timed entry needs no extra module, and managed hosting costs £50 a year or £5 a month.
-name: Timed Entry Ticketing - Chobble Tickets
+name: Timed Entry
 ---

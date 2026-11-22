@@ -137,5 +137,5 @@ blocks:
       ## Take skip hire bookings online
 
       Managed hosting costs £50 a year or £5 a month. Multi-day bookings, deposits and logistics are included.
-name: Skip Hire Booking Software | Chobble Tickets
+name: Skip Hire
 ---

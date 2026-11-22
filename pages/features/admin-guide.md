@@ -66,5 +66,5 @@ blocks:
       ## Get started
 
       Managed hosting costs £50 a year or £5 a month, with the guide and every other feature included.
-name: Built-in Admin Guide - Chobble Tickets
+name: Built-in Admin Guide
 ---

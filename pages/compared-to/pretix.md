@@ -465,5 +465,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat-rate ticketing with published AGPL-3.0-only product source.
-name: UK Made & Flat Fee Pretix Alternative | Chobble Tickets
+name: vs Pretix
 ---

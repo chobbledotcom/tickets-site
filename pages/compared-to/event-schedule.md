@@ -355,5 +355,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host the same product without paying Chobble a licence fee.
-name: UK Made & Encrypted Event Schedule Alternative | Chobble Tickets
+name: vs Event Schedule
 ---

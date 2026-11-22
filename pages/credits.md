@@ -78,5 +78,5 @@ blocks:
       The full source code for Chobble Tickets is published under the
       AGPL-3.0-only licence. The [open source page](/features/open-source/)
       explains what that means for an organiser.
-name: Credits - Chobble Tickets
+name: Credits
 ---

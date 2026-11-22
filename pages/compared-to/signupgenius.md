@@ -389,5 +389,5 @@ blocks:
       ## Try Chobble Tickets
 
       Ticketing and sign-up forms with no ads and no per-ticket platform fee.
-name: Ad Free & Open Source SignUpGenius Alternative | Chobble Tickets
+name: vs SignUpGenius
 ---

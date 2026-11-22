@@ -282,5 +282,5 @@ blocks:
       ## Independent ticketing
 
       Flat pricing with no per-ticket platform fee.
-name: Independent & Open Source Ticketmaster Alternative | Chobble Tickets
+name: vs Ticketmaster
 ---

@@ -108,5 +108,5 @@ blocks:
       ## Use managed hosting
 
       The first month costs £5. Every current feature is included, with no per-ticket platform fee.
-name: Managed and Self-Hosted Event Ticketing | Chobble Tickets
+name: Hosting
 ---

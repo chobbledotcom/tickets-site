@@ -178,5 +178,5 @@ blocks:
       ## Put the programme on sale
 
       Sign up for managed hosting at £50/year or £5/month, at the same price whatever the room sells.
-name: Ticketing Software for Music Venues | Chobble Tickets
+name: Music Venues
 ---

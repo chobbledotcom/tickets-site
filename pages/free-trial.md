@@ -53,5 +53,5 @@ blocks:
       Charities, community groups, artists and musicians can pay £25 a
       year on the annual plan. Chobble takes no fee from ticket sales at
       any point.
-name: Free Trial - Chobble Tickets
+name: Free Trial
 ---

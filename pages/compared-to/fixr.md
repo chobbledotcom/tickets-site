@@ -267,5 +267,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Open Source & No Booking Fee FIXR Alternative | Chobble Tickets
+name: vs FIXR
 ---

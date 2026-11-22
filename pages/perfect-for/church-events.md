@@ -145,5 +145,5 @@ blocks:
       ## Set up the church's booking site
 
       Managed hosting costs £50 a year or £5 a month. Eligible charities and community groups pay £25 a year.
-name: Ticketing for Church Events | Chobble Tickets
+name: Church Events
 ---

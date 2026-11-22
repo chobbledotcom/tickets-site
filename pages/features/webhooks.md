@@ -99,5 +99,5 @@ blocks:
       ## Get started
 
       Webhooks come with every hosted site, at £50 a year or £5 a month.
-name: Webhooks - Chobble Tickets
+name: Webhooks
 ---

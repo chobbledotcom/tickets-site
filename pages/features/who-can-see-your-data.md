@@ -171,5 +171,5 @@ blocks:
       ## No advertising trackers on booking sites
 
       Sign up for managed hosting at £50/year or £5/month, or run the software on infrastructure you select.
-name: Who Can See Your Attendee Data | Chobble Tickets
+name: Who Can See Your Data
 ---

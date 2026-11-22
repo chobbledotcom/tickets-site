@@ -304,5 +304,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: Flat Fee & Encrypted Revel Alternative | Chobble Tickets
+name: vs Revel
 ---

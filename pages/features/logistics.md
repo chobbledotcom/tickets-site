@@ -118,5 +118,5 @@ blocks:
 
       Delivery and collection run sheets come with every hosted site, at £50 a year or £5 a month.
 
-name: Delivery, Collection & Logistics - Chobble Tickets
+name: Logistics
 ---

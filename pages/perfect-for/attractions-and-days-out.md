@@ -115,5 +115,5 @@ blocks:
       ## Sell admission tickets online
 
       Sign up for managed hosting at £50/year or £5/month with no per-ticket platform fee. Ticket revenue goes directly to your own Stripe, Square or SumUp account.
-name: Farm Park & Museum Booking Software | Chobble Tickets
+name: "Attractions & Days Out"
 ---

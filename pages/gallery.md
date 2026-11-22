@@ -151,5 +151,5 @@ blocks:
       ## Try Chobble Tickets
 
       The first month of managed hosting costs £5, with every feature in the gallery included.
-name: Chobble Tickets Screenshot Gallery
+name: Gallery
 ---

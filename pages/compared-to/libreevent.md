@@ -300,5 +300,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, managed updates, attendee data encrypted at rest and no per-ticket platform fee.
-name: Maintained & Hosted libreevent Alternative | Chobble Tickets
+name: vs libreevent
 ---

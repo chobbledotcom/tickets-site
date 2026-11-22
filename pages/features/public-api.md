@@ -96,5 +96,5 @@ blocks:
       ## Read the documentation
 
       The API documentation lists every call, with example requests and answers.
-name: Public & Admin API - Chobble Tickets
+name: Public API
 ---

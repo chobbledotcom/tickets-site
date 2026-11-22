@@ -144,5 +144,5 @@ blocks:
       ## Set up school event ticketing
 
       Eligible PTAs and community groups pay £25 a year. The standard monthly price is £5, and payment-provider charges remain separate.
-name: PTA and School Event Ticketing | Chobble Tickets
+name: Schools and PTAs
 ---

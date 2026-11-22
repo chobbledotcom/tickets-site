@@ -76,5 +76,5 @@ blocks:
       ## Get started
 
       CSV exports come with every hosted site, at £50 a year or £5 a month.
-name: Event and Attendee CSV Reports | Chobble Tickets
+name: CSV Export
 ---

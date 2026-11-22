@@ -96,5 +96,5 @@ blocks:
       Hosting with support starts with a short conversation about how you run
       events. Ask through the contact page, or mention it when you sign up
       for managed hosting.
-name: Hosting with support - Chobble Tickets
+name: Support
 ---

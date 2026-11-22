@@ -182,5 +182,5 @@ blocks:
       ## Try it yourself
 
       See why event organisers are switching to Chobble Tickets.
-name: Chobble Tickets Reviews from Event Organisers
+name: Reviews
 ---

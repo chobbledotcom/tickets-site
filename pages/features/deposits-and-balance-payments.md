@@ -116,5 +116,5 @@ blocks:
       ## Take deposits without extra fees
 
       Deposits and balance links come with every hosted site, at £50 a year or £5 a month, and Chobble takes no share of either payment.
-name: Deposits, Reservations & Balance Payments - Chobble Tickets
+name: "Deposits & Balances"
 ---

@@ -69,5 +69,5 @@ blocks:
       ## Fewer address typos
 
       Sign up for managed hosting at £50/year or £5/month, add your provider key, and the postcode search appears on your booking forms.
-name: Postcode Address Lookup - Chobble Tickets
+name: Postcode Lookup
 ---

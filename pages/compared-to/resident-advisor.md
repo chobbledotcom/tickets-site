@@ -288,5 +288,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, attendee data encrypted at rest and no per-ticket platform fee.
-name: No Booking Fee Resident Advisor Alternative | Chobble Tickets
+name: vs Resident Advisor
 ---

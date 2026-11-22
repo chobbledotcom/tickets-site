@@ -64,5 +64,5 @@ blocks:
       ## Get started
 
       Thank-you redirects are part of managed hosting at £50 a year or £5 a month.
-name: Custom Redirects - Chobble Tickets
+name: Custom Redirects
 ---

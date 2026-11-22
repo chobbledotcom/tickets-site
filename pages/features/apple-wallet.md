@@ -67,5 +67,5 @@ blocks:
       ## Get started
 
       Wallet passes are switched on for every managed site, at £50 a year or £5 a month.
-name: Apple & Google Wallet Integration - Chobble Tickets
+name: Apple Wallet
 ---

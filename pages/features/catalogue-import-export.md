@@ -87,5 +87,5 @@ blocks:
       ## Get started
 
       Catalogue import and export works the same on managed hosting and self-hosted sites.
-name: Event Catalogue Import and Export | Chobble Tickets
+name: Catalogue Import and Export
 ---

@@ -418,5 +418,5 @@ blocks:
       ## Try Chobble Tickets
 
       Flat pricing, encrypted attendee data, and no WordPress site required.
-name: Open Source & Standalone FooEvents Alternative | Chobble Tickets
+name: vs FooEvents
 ---

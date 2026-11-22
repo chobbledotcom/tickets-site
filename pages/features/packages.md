@@ -96,5 +96,5 @@ blocks:
       ## Sell bundles at one price
 
       Sign up for managed hosting at £50/year or £5/month. Packages are included on every plan.
-name: Bundled Packages & Fixed-Price Bundles - Chobble Tickets
+name: Packages
 ---

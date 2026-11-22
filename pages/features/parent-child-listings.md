@@ -91,5 +91,5 @@ blocks:
       ## Get started
 
       Parent and child listings come with every hosted site, at £50 a year or £5 a month.
-name: Required Child Listings - Chobble Tickets
+name: Parent/Child Listings
 ---

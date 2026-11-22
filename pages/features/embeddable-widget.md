@@ -91,5 +91,5 @@ blocks:
       ## Get started
 
       Embed codes come with every hosted site, at £50 a year or £5 a month.
-name: Embeddable Widget - Chobble Tickets
+name: Embeddable Widget
 ---

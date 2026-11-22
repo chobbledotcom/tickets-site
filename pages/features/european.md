@@ -195,5 +195,5 @@ blocks:
       ## Review the hosting options
 
       Sign up for managed hosting at £50/year or £5/month, or choose the infrastructure for a self-hosted deployment.
-name: Hosting Locations and Data | Chobble Tickets
+name: Hosting and Data
 ---

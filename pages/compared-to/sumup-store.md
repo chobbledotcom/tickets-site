@@ -341,5 +341,5 @@ blocks:
 
       Ticketing with flat pricing, open source code and encrypted attendee
       data.
-name: Open Source & Purpose-Built SumUp Online Store Alternative | Chobble Tickets
+name: vs SumUp Online Store
 ---

@@ -116,5 +116,5 @@ blocks:
       ## Put your marquees online
 
       Sign up for managed hosting at £50/year or £5/month with no Chobble per-booking platform fee. Payments go directly to your own Stripe, Square or SumUp account. For other kinds of hire stock, see the [equipment hire](/perfect-for/equipment-hire/) page.
-name: Marquee Hire Booking Software - Chobble Tickets
+name: Marquee Hire
 ---

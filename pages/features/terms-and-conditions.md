@@ -68,5 +68,5 @@ blocks:
       ## Get started
 
       Booking terms come with every hosted site, at £50 a year or £5 a month.
-name: Terms & Conditions - Chobble Tickets
+name: "Terms & Conditions"
 ---

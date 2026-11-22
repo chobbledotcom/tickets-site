@@ -350,5 +350,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month, or self-host without paying Chobble a licence fee.
-name: Open Source & Cheaper Eventbrite Alternative | Chobble Tickets
+name: vs Eventbrite
 ---

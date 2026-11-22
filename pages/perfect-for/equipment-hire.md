@@ -119,5 +119,5 @@ blocks:
       ## Put your hire stock online
 
       Sign up for managed hosting at £50/year or £5/month with no Chobble per-booking platform fee. Payments go directly to your own Stripe, Square or SumUp account.
-name: Equipment Hire Booking Software - Chobble Tickets
+name: Equipment Hire
 ---

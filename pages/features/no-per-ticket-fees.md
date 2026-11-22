@@ -227,5 +227,5 @@ blocks:
       ## Try Chobble Tickets
 
       Sign up for managed hosting at £50/year or £5/month with no per-ticket platform fee, or self-host without paying Chobble a licence fee.
-name: No Per-Ticket Platform Fees | Chobble Tickets
+name: No Per-Ticket Fees
 ---

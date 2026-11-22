@@ -226,5 +226,5 @@ blocks:
       ## Set up a site
 
       Managed hosting costs £50/year or £5/month, or £25/year for charities, community groups, artists and musicians, which applies to annual billing only. The same product can be self-hosted with no Chobble software fee.
-name: Deploying an Event Ticketing Site | Chobble Tickets
+name: Deployment
 ---

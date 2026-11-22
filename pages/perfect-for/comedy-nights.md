@@ -107,5 +107,5 @@ blocks:
       ## Sell tickets for your next show
 
       Sign up for managed hosting at £50/year or £5/month with no Chobble per-ticket platform fee.
-name: Comedy Club Ticketing Software - Chobble Tickets
+name: Comedy Nights
 ---

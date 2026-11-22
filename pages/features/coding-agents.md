@@ -283,5 +283,5 @@ blocks:
       ## Read the code
 
       The repository holds the product source, its behaviour specifications and its deployment steps. Managed hosting runs the same code for £50/year or £5/month, or £25/year for charities, community groups, artists and musicians, which applies to annual billing only.
-name: Host Event Ticketing Software with an AI Coding Agent | Chobble Tickets
+name: Coding Agents
 ---

@@ -138,5 +138,5 @@ blocks:
       ## Get started
 
       Bookings added by hand come with every hosted site, at £50 a year or £5 a month.
-name: Manual Attendees - Chobble Tickets
+name: Manual Attendees
 ---

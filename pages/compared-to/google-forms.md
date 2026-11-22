@@ -218,5 +218,5 @@ blocks:
       ## Purpose-built ticketing
 
       Everything Google Forms does for RSVPs, plus payments, tickets, and check-in.
-name: Open Source & Full Ticketing Google Forms Alternative | Chobble Tickets
+name: vs Google Forms
 ---
