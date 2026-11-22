@@ -25,7 +25,7 @@ blocks:
       pays the ticket price you set and nothing else.
 
       The platform costs a flat £50/year or £5/month. Charities and
-      community groups pay £25/year on the annual plan, which covers most
+      community groups pay £25/year or £2.50/month, which covers most
       amateur dramatics societies. Payments go through Stripe, Square, or SumUp
       directly to the society's own account.
 

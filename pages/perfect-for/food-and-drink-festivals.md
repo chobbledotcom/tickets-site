@@ -56,7 +56,7 @@ blocks:
       [Apple Wallet or Google Wallet](/features/apple-wallet/).
 
       Many beer and food festivals are run by volunteer community groups,
-      which pay £25/year on the annual plan. There is no per-ticket
+      which pay £25/year or £2.50/month. There is no per-ticket
       platform fee at any sales volume.
     figure_items:
       - icon: hugeicons:shopping-cart-01

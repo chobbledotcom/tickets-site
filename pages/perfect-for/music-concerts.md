@@ -29,7 +29,7 @@ blocks:
       the payments so the money goes directly to your account. You
       can set fixed prices or enable pay-what-you-want for donation-based gigs.
 
-      **50% discount for musicians and artists** - £25/year on the annual plan.
+      **50% discount for musicians and artists** - £25/year or £2.50/month.
       The [bands page](/perfect-for/bands/) covers selling merch beside
       tickets.
 

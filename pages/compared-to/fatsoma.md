@@ -236,8 +236,7 @@ blocks:
       - You want predictable, flat-rate pricing with no per-ticket platform fees
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
-      - You're a charity, community group, artist or musician (£25/year
-        on the annual plan)
+      - You're a charity, community group, artist or musician (£25/year or £2.50/month)
       - You want Apple/Google Wallet integration, calendar feeds, or RSS
       - You value open source and the ability to self-host
       - You're selling enough tickets that 10% per ticket adds up quickly

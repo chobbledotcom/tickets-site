@@ -1446,8 +1446,8 @@ const JEV_CHECKS = [
       "necessary knowledge or skill for the topic' - and expertise must be verifiable, not " +
       "self-asserted. How much genuine, correct practical detail does `body` show? For " +
       "this site, expertise means precise facts: prices and terms (£50/year or £5/month, " +
-      "£25/year for charities, community groups, artists and musicians, annual billing " +
-      "only), capacity semantics (capacity is consumed when payment confirmation arrives, " +
+      "or £25/year or £2.50/month for charities, community groups, artists and " +
+      "musicians), capacity semantics (capacity is consumed when payment confirmation arrives, " +
       "never during paid checkout; a race for the last place auto-refunds the later " +
       "order), encryption (RSA-OAEP + AES-256-GCM, per-record keys, keyed admin " +
       "sessions), payments going to the organiser's own Stripe, Square or SumUp account, " +
@@ -1926,7 +1926,7 @@ const buildJevState = (x, siblings) => ({
     name: "Chobble Tickets",
     who: "open source event ticketing platform published under the AGPL-3.0-only licence, offered as managed hosting by Chobble, a UK community interest company based in Prestwich, Manchester",
     context:
-      "one managed-hosting price of £50/year or £5/month (£25/year for charities, community groups, artists and musicians, annual billing only) with every current feature included and no feature tiers; " +
+      "one managed-hosting price of £50/year or £5/month (£25/year or £2.50/month for charities, community groups, artists and musicians) with every current feature included and no feature tiers; " +
       "no per-ticket or per-sale platform fee, and ticket income goes to the organiser's own Stripe, Square or SumUp account; " +
       "hosting is prepaid, not subscription billing: a term that ends without renewal enters read-only mode for 24 months, after which the site and database are deleted; " +
       "paid checkout does not reserve capacity - capacity is consumed when payment confirmation arrives, and a race for the last place auto-refunds the later order; " +

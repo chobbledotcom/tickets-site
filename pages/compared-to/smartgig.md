@@ -112,8 +112,7 @@ blocks:
       Chobble Tickets charges a flat £50/year or £5/month for managed
       hosting, with
       [no per-ticket platform fees](/features/no-per-ticket-fees/).
-      Charities, community groups, artists and musicians pay £25/year for the
-      same managed hosting on the annual plan. A
+      Charities, community groups, artists and musicians get the same managed hosting at half price, £25/year or £2.50/month. A
       [custom domain](/features/custom-domain/),
       [white labelling](/features/white-labelling/), extra
       [user accounts](/features/users/) and
@@ -388,8 +387,7 @@ blocks:
       - You take payments with Square or SumUp rather than Stripe
       - Privacy matters to you, and you want attendee details
         [encrypted in the database](/features/encrypted/)
-      - You're a charity, community group, artist or musician (£25/year on the
-        annual plan)
+      - You're a charity, community group, artist or musician (£25/year or £2.50/month)
       - You want [Apple and Google Wallet](/features/apple-wallet/) passes,
         [calendar feeds](/features/rss-and-calendar-feeds/), or a
         [public API](/features/public-api/) included

@@ -51,7 +51,7 @@ blocks:
 
       Managed hosting costs £50 a year or £5 a month, paid in advance.
       Charities, community groups, artists and musicians can pay £25 a
-      year on the annual plan. Chobble takes no fee from ticket sales at
+      year or £2.50 a month. Chobble takes no fee from ticket sales at
       any point.
 name: Free Trial
 ---

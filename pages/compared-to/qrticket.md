@@ -90,9 +90,7 @@ blocks:
       fee. QRTicket sends the organiser an invoice monthly after the event.
 
       Chobble Tickets is a flat £50/year or £5/month, with
-      [no per-ticket platform fees](/features/no-per-ticket-fees/). Community
-      groups, charities, artists and musicians pay £25/year on the annual
-      plan. Payment processing is charged by your own Stripe, Square or SumUp
+      [no per-ticket platform fees](/features/no-per-ticket-fees/). Community groups, charities, artists and musicians pay £25 for a year or £2.50 for a month. Payment processing is charged by your own Stripe, Square or SumUp
       account.
 
       If the organiser absorbs QRTicket's fees, each ticket costs about
@@ -286,8 +284,7 @@ blocks:
         [API](/features/admin-api/)
       - You want [CSV exports](/features/csv-export/) and complete
         [database backups](/features/backups/) so your data is not locked in
-      - You are a charity, community group, artist or musician (£25/year on
-        the annual plan)
+      - You are a charity, community group, artist or musician (£25/year or £2.50/month)
   - type: markdown
     content: |
       ## Who runs QRTicket?

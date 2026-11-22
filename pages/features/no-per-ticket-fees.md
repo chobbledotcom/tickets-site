@@ -33,8 +33,7 @@ blocks:
       annual rate. The difference covers the extra Stripe transaction fees on
       the additional charges and the admin overhead of failed payments.
 
-      Charities, community groups, artists, and musicians pay £25/year on the
-      annual plan (50% discount). The discount applies to annual billing only.
+      Charities, community groups, artists, and musicians pay £25/year or £2.50/month, a 50% discount on either billing period.
       If you self-host, Chobble charges no software licence fee. The operator
       pays for infrastructure, payment processing and any other configured
       services.
@@ -211,7 +210,7 @@ blocks:
         or thousands of pounds
       - **Low-price events** (under £5 per ticket) where a fixed per-ticket fee
         would be a large proportion of the ticket price
-      - **Charities and community groups** who pay £25/year on the annual plan
+      - **Charities and community groups** who pay £25/year or £2.50/month
         and want every pound from ticket sales to go towards their cause
 
       If you run one small event per year with fewer than about 60 tickets, a

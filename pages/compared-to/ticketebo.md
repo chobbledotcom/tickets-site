@@ -94,9 +94,7 @@ blocks:
       1.5% + 20p in the UK) then apply separately.
 
       Chobble Tickets is a flat £50/year or £5/month, with
-      [no per-ticket platform fees](/features/no-per-ticket-fees/). Community
-      groups, charities, artists and musicians pay £25/year on the annual
-      plan. Payment processing is charged by your own Stripe, Square, or
+      [no per-ticket platform fees](/features/no-per-ticket-fees/). Community groups, charities, artists and musicians pay the half-price rate of £25/year or £2.50/month. Payment processing is charged by your own Stripe, Square, or
       SumUp account.
 
       Because Ticketebo's fee includes card processing and Chobble's does

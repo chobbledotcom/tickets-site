@@ -27,8 +27,8 @@ blocks:
       when a payment is confirmed, and if two confirmed payments race for the
       last place the later one is refunded automatically.
 
-      It costs £50/year or £5/month, or £25/year for charities, community
-      groups and schools on the annual plan.
+      It costs £50/year or £5/month, or £25/year or £2.50/month for charities, community
+      groups and schools.
   - type: markdown
     content: |
       ### Both approaches share some things

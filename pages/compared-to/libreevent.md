@@ -107,8 +107,7 @@ blocks:
       the project are optional.
 
       **Chobble Tickets** managed hosting costs £50/year or £5/month, or
-      £25/year for charities, community groups, artists and musicians on the
-      annual plan. That covers hosting, updates, backup tools and support.
+      £25/year or £2.50/month for charities, community groups, artists and musicians. That covers hosting, updates, backup tools and support.
       There are [no per-ticket platform fees](/features/no-per-ticket-fees/)
       and no feature tiers. Ticket income goes straight to the organiser's
       Stripe, Square or SumUp account, and those providers charge their own

@@ -89,8 +89,8 @@ blocks:
       Zeffy says it would reach out and could agree a temporary limit on card
       payments while other payment methods stay open.
 
-      Chobble Tickets is a flat £50/year or £5/month, or £25/year for
-      charities, community groups, artists and musicians on the annual plan.
+      Chobble Tickets is a flat £50/year or £5/month, or £25/year or £2.50/month for
+      charities, community groups, artists and musicians.
       There are [no per-ticket platform fees](/features/no-per-ticket-fees/)
       and no feature tiers. You pay Stripe, Square, or SumUp processing
       separately, and ticket income goes straight to your own payment account.
@@ -370,9 +370,8 @@ blocks:
         capacity per date
       - You want a complete database backup and event setup you can move to
         another host
-      - You want a predictable flat cost: £50/year or £5/month, or £25/year
-        for charities, community groups, artists and musicians on the annual
-        plan
+      - You want a predictable flat cost: £50/year or £5/month, or £25/year or £2.50/month
+        for charities, community groups, artists and musicians
   - type: markdown
     content: |
       ## Who runs Zeffy?

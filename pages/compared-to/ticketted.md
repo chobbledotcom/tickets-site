@@ -90,8 +90,7 @@ blocks:
       that fee rather than added to it.
 
       Chobble Tickets is a flat £50/year or £5/month, with
-      [no per-ticket platform fees](/features/no-per-ticket-fees/). Charities,
-      community groups, artists and musicians pay £25/year on the annual plan.
+      [no per-ticket platform fees](/features/no-per-ticket-fees/). Charities, community groups, artists and musicians pay half those prices, £25/year or £2.50/month.
       Payment processing is charged by your own Stripe, Square or SumUp
       account, which for UK Stripe is 1.5% + 20p.
 
@@ -155,8 +154,8 @@ blocks:
       - Free events with no per-ticket fee
       - A reduced rate for charities and similar organisations. Ticketted
         charges charities and schools 2.45% + A$0.45, and Chobble Tickets
-        charges charities, community groups, artists and musicians £25/year
-        rather than £50 on the annual plan
+        charges charities, community groups, artists and musicians half
+        price, £25/year or £2.50/month
       - Email delivery of tickets with a QR code. Chobble Tickets gives one
         code to each booking, which covers every place in it
       - QR code scanning at the door from a browser, with no app to install
@@ -313,7 +312,7 @@ blocks:
         card processing
       - You want a price that does not change with ticket volume or value
       - You are a charity, community group, artist or musician, and pay
-        £25/year on the annual plan
+        £25/year or £2.50/month
       - You want your ticket pages on
         [your own domain](/features/custom-domain/) and
         [your own website](/features/your-public-website/), under your own
@@ -370,9 +369,8 @@ blocks:
         organiser-set refunds, email support
       - [ABN Lookup: Ticketted Pty Ltd](https://abr.business.gov.au/ABN/View?abn=26698189669) -
         ABN 26 698 189 669, Australian private company, registered 18 May 2026
-      - [Chobble Tickets pricing](/pricing/) - £50/year or £5/month, £25/year
-        for charities, community groups, artists and musicians on the annual
-        plan
+      - [Chobble Tickets pricing](/pricing/) - £50/year or £5/month, £25/year or £2.50/month
+        for charities, community groups, artists and musicians
       - [Chobble Tickets features](/features/)
   - type: cta
     button:

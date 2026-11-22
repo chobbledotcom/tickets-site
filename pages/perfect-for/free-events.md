@@ -118,7 +118,7 @@ blocks:
     intro_content: "## Features for free events"
     items:
       - icon: hugeicons:heart-check
-        description: Charities, community groups, artists and musicians pay £25 a year, half the annual price. The discount does not apply to monthly billing.
+        description: Charities, community groups, artists and musicians get half off both billing periods, paying £25 a year or £2.50 a month.
         name: <a href="/pricing/">Community rate</a>
       - icon: hugeicons:csv-02
         description: Export the sign-up list with question answers and check-in state as CSV.

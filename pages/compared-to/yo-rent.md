@@ -148,8 +148,7 @@ blocks:
 
       Chobble Tickets is a flat **£50/year (or £5/month)** for the whole
       site, with [no per-booking platform fees](/features/no-per-ticket-fees/).
-      Charities, community groups, artists and musicians pay £25/year on
-      the annual plan. Stripe processing is charged separately at the standard 1.5% +
+      Charities, community groups, artists and musicians receive a 50% discount, paying £25/year or £2.50/month. Stripe processing is charged separately at the standard 1.5% +
       20p. Self-hosting Chobble Tickets has no Chobble software licence fee.
       Infrastructure and other configured services remain separate costs.
 
@@ -305,8 +304,7 @@ blocks:
         software licence fee, rather than a large one-time payment
       - You value [open source](/features/open-source/) code and
         [encryption](/features/encrypted/)
-      - You are a charity, community group, artist or musician (£25/year
-        on the annual plan)
+      - You are a charity, community group, artist or musician (£25/year or £2.50/month)
   - type: markdown
     content: |
       ## Who makes Yo!Rent?

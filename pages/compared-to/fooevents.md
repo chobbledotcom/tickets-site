@@ -354,7 +354,7 @@ blocks:
       - You do not want to run a WordPress site for ticket sales
       - You want attendee personal data encrypted at rest
       - You want predictable flat-rate pricing (£50/year or £5/month,
-        or £25/year for charities and community groups on the annual plan)
+        or £25/year or £2.50/month for charities and community groups)
       - You value open source code with no paid tier or feature gates
       - You want [Apple and Google Wallet](/features/apple-wallet/),
         [calendar feeds](/features/rss-and-calendar-feeds/), or an

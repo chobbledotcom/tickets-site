@@ -94,8 +94,7 @@ blocks:
       So on a £15 ticket, that's **£1.20** going to EVENTIM per sale. On a £30
       ticket, it's **£2.40**. Those numbers climb fast at volume.
 
-      Chobble Tickets is a flat **£50/year or £5/month** (£25/year for charities and community
-      groups on the annual plan) with [no per-ticket platform fees](/features/no-per-ticket-fees/). You also pay Stripe, Square or SumUp
+      Chobble Tickets is a flat **£50/year or £5/month** (£25/year or £2.50/month for charities, community groups, artists and musicians) with [no per-ticket platform fees](/features/no-per-ticket-fees/). You also pay Stripe, Square or SumUp
       processing fees (1.5% + 20p) on top. If you sell more than about 65
       tickets at £15 in a year, Chobble Tickets is already cheaper.
 
@@ -320,8 +319,7 @@ blocks:
         [webhooks](/features/webhooks/) for custom integrations (EVENTIM.Light
         has neither)
       - You don't want a platform marketing competing events to your attendees
-      - You're a charity, community group, artist or musician (£25/year
-        on the annual plan)
+      - You're a charity, community group, artist or musician (£25/year or £2.50/month)
       - You want [Apple/Google Wallet](/features/apple-wallet/), [calendar
         feeds](/features/rss-and-calendar-feeds/), or [pay-what-you-want
         pricing](/features/stripe-and-square/)

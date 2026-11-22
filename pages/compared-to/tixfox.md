@@ -83,8 +83,7 @@ blocks:
 
       Chobble Tickets is a flat £50/year or £5/month, with
       [no per-ticket platform fees](/features/no-per-ticket-fees/).
-      Charities, community groups, artists and musicians pay £25/year
-      on the annual plan. At £0.38 per ticket, TixFox costs less below
+      Charities, community groups, artists and musicians are charged £25/year or £2.50/month. At £0.38 per ticket, TixFox costs less below
       roughly 130 paid tickets a year, and Chobble Tickets costs less
       above that.
   - type: include
@@ -242,8 +241,7 @@ blocks:
       - You take payments with Square or SumUp rather than Stripe
       - Privacy and encryption matter to you, and you want attendee data
         that the platform itself cannot read
-      - You're a charity, community group, artist or musician (£25/year
-        on the annual plan)
+      - You're a charity, community group, artist or musician (£25/year or £2.50/month)
       - You want [Apple and Google Wallet](/features/apple-wallet/)
         passes, [calendar feeds](/features/rss-and-calendar-feeds/), or a
         [public API](/features/public-api/) included

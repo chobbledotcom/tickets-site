@@ -62,8 +62,7 @@ blocks:
       conversation.
 
       Chobble Tickets is aimed at smaller organisers. It costs £50/year or
-      £5/month, or £25/year for charities and community groups on the annual
-      plan, you can sign up without talking to anyone, and the [source
+      £5/month, or £25/year or £2.50/month for charities and community groups, you can sign up without talking to anyone, and the [source
       code](/features/open-source/) is published under AGPL-3.0-only.
   - type: markdown
     content: |
@@ -109,8 +108,8 @@ blocks:
       market (enterprise clients like CERN and Devoxx), costs are negotiated
       per contract via a sales call.
 
-      **Chobble Tickets managed** is £50/year or £5/month (£25/year for
-      charities and community groups on the annual plan) with [no per-ticket
+      **Chobble Tickets managed** is £50/year or £5/month (£25/year or £2.50/month for
+      charities and community groups) with [no per-ticket
       fees](/features/no-per-ticket-fees/). Self-hosted Chobble Tickets is
       free under AGPLv3. No sales call required for either option.
   - type: markdown

@@ -104,8 +104,7 @@ blocks:
 
       **Chobble Tickets** charges a flat £50/year or £5/month, with
       [no per-ticket platform fees](/features/no-per-ticket-fees/) and every
-      feature included in the one price. Charities, community groups, artists
-      and musicians pay £25/year on the annual plan. Payment processing is
+      feature included in the one price. Charities, community groups, artists and musicians get the same features for £25/year or £2.50/month. Payment processing is
       charged by your own Stripe, Square or SumUp account (1.5% + 20p on a UK
       Stripe account).
 
@@ -312,8 +311,7 @@ blocks:
         your data is not locked in
       - You want a copyleft licence that keeps improvements to a hosted product
         open
-      - You are a charity, community group, artist or musician (£25/year on the
-        annual plan)
+      - You are a charity, community group, artist or musician (£25/year or £2.50/month)
   - type: markdown
     content: |
       ## Who runs Event Schedule?

@@ -53,8 +53,8 @@ blocks:
         name: <a href="/free-trial/">Free month on request</a>
         description: Chobble sets up a free month of managed hosting for anyone who asks through its contact page. The trial is not bookable on the sign-up page.
       - icon: hugeicons:discount
-        name: Discounted annual hosting, £25
-        description: Charities, community groups, artists and musicians receive 50% off annual hosting. The discount does not apply to monthly billing.
+        name: Discounted hosting, £25/year or £2.50/month
+        description: Charities, community groups, artists and musicians receive 50% off managed hosting, whether they pay yearly or monthly.
       - icon: hugeicons:customer-service-02
         name: <a href="/support/">Hosting with support, £40/month</a>
         description: Adds a standing chat thread (or Signal/WhatsApp), domain and email setup, and priority for feature requests. No setup fee. £20/month for charities, community groups and co-operatives.

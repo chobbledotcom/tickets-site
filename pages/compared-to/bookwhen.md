@@ -99,8 +99,8 @@ blocks:
       Chobble's [managed hosting](/pricing/) costs £50/year or £5/month,
       including updates, backup tools, support and all current features.
       There are no monthly booking limits, feature tiers or per-sale platform
-      fees. Charities, community groups, artists and musicians pay £25/year;
-      this discount does not apply to monthly billing.
+      fees. Charities, community groups, artists and musicians pay half:
+      £25/year, or £2.50/month on monthly billing.
 
       Bookwhen's free plan costs less than Chobble's managed hosting for
       organisers whose free events fit its limits. For paid events,

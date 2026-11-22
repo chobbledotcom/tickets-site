@@ -68,8 +68,8 @@ blocks:
       Funding differs too. Dandelion asks organisers for a voluntary
       contribution of around 1% of ticket sales and asks buyers for a
       donation at checkout. Chobble Tickets charges a fixed £50/year or
-      £5/month, or £25/year for charities, community groups, artists and
-      musicians on the annual plan.
+      £5/month, or £25/year or £2.50/month for charities, community groups, artists and
+      musicians.
 
       Dandelion also runs a public marketplace, where booking records feed
       shared attendee profiles and event recommendations. Chobble Tickets has
@@ -99,7 +99,7 @@ blocks:
       calculator.
 
       Chobble Tickets costs £50/year or £5/month. Charities, community groups,
-      artists, and musicians pay £25/year on the annual plan. It has
+      artists, and musicians pay £25/year or £2.50/month. It has
       [no per-ticket platform fee](/features/no-per-ticket-fees/). At the
       standard annual rate, Dandelion costs £50 less each year if the organiser
       makes no contribution and both platforms use the same Stripe rate. The

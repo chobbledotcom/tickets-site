@@ -1,7 +1,7 @@
 ---
 title: Bands - Chobble Tickets
 meta_title: Ticketing and Merch Sales for Bands | Chobble Tickets
-meta_description: Sell gig tickets and band merch from one site, styled with your own CSS, for £25 a year on the annual plan with no Chobble per-ticket fee.
+meta_description: Sell gig tickets and band merch from one site, styled with your own CSS, for £25 a year or £2.50 a month with no Chobble per-ticket fee.
 permalink: /perfect-for/bands/
 eleventyNavigation:
   key: Bands
@@ -14,7 +14,7 @@ blocks:
     content: |-
       # Sell gig tickets and merch from one site
 
-      A band can sell tickets, records and shirts through one Chobble Tickets site and one payment account. Musicians pay £25 a year for managed hosting on the annual plan, which is half the standard price.
+      A band can sell tickets, records and shirts through one Chobble Tickets site and one payment account. Musicians pay half the standard price for managed hosting, which is £25 a year or £2.50 a month.
     buttons:
       - text: Start for £5
         href: https://tix.chobble.com/listings
@@ -68,8 +68,8 @@ blocks:
       ## Half price for bands
 
       Managed hosting costs £50 a year or £5 a month. Musicians and artists
-      get 50% off the annual plan, which makes it £25 a year, and the
-      discount does not apply to monthly billing.
+      get 50% off either way of paying, which makes it £25 a year or
+      £2.50 a month.
 
       That price covers every gig, every product and every sale in the
       year. Chobble adds
@@ -81,7 +81,7 @@ blocks:
       card rate is 1.5% + 20p on each payment, paid by the band to Stripe.
     figure_items:
       - icon: hugeicons:discount-tag-02
-        text: £25 a year on the annual plan.
+        text: £25 a year or £2.50 a month.
       - icon: hugeicons:money-receive-square
         text: No Chobble fee on tickets or merch.
       - icon: hugeicons:credit-card
@@ -179,6 +179,6 @@ blocks:
     content: |-
       ## Put your next gig and your merch on sale
 
-      Managed hosting costs £50 a year or £5 a month. Musicians pay £25 a year on the annual plan.
+      Managed hosting costs £50 a year or £5 a month. Musicians pay £25 a year or £2.50 a month.
 name: Bands
 ---

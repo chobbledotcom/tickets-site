@@ -12,7 +12,7 @@
 	{
 		"section": "Pricing and fees",
 		"question": "What is the cheapest ticketing platform for small events?",
-		"answer": "It depends on ticket volume, ticket value, order size and the features required. A provider with no annual cost may cost less for one small event, while a flat hosting fee may cost less as sales increase. <a href=\"/pricing/\">Chobble managed hosting</a> costs £50/year or £5/month. Charities, community groups, artists and musicians pay £25/year on the annual plan. The <a href=\"/compared-to/compare-all/\">platform comparison</a> shows estimated costs and its assumptions."
+		"answer": "It depends on ticket volume, ticket value, order size and the features required. A provider with no annual cost may cost less for one small event, while a flat hosting fee may cost less as sales increase. <a href=\"/pricing/\">Chobble managed hosting</a> costs £50/year or £5/month. Charities, community groups, artists and musicians pay £25/year or £2.50/month. The <a href=\"/compared-to/compare-all/\">platform comparison</a> shows estimated costs and its assumptions."
 	},
 	{
 		"section": "Pricing and fees",
@@ -22,17 +22,17 @@
 	{
 		"section": "Pricing and fees",
 		"question": "Is there a discount for charities or community groups?",
-		"answer": "Charities, community groups, artists, and musicians get a 50% discount on the annual plan, bringing the cost to £25/year. The discount applies to annual billing only. Monthly billing stays at £5/month for all organisers. There is no Chobble per-ticket platform fee on either plan. You can <a href=\"https://tix.chobble.com/listings\">sign up for managed hosting</a>, or run the AGPL-3.0-only software on infrastructure you pay for and manage."
+		"answer": "Charities, community groups, artists, and musicians get a 50% discount on managed hosting. They pay £25/year on annual billing or £2.50/month on monthly billing. There is no Chobble per-ticket platform fee on either plan. You can <a href=\"https://tix.chobble.com/listings\">sign up for managed hosting</a>, or run the AGPL-3.0-only software on infrastructure you pay for and manage."
 	},
 	{
 		"section": "Pricing and fees",
 		"question": "Can I pay monthly instead of annually?",
-		"answer": "Yes. <a href=\"https://tix.chobble.com/listings\">Managed hosting</a> is £50/year if you pay annually, or £5/month if you pay monthly. Monthly billing works out at £60 over a year, which is £10 more than the annual rate. This covers the extra Stripe transaction fees on the additional charges and the admin overhead of handling failed payments and retries. Monthly billing can be cancelled at any time and there are no exit fees. The 50% charity, community, artist, and musician discount applies to the annual plan only."
+		"answer": "Yes. <a href=\"https://tix.chobble.com/listings\">Managed hosting</a> is £50/year if you pay annually, or £5/month if you pay monthly. Monthly billing works out at £60 over a year, which is £10 more than the annual rate. This covers the extra Stripe transaction fees on the additional charges and the admin overhead of handling failed payments and retries. Monthly billing can be cancelled at any time and there are no exit fees. Charities, community groups, artists and musicians pay half on either billing period, so monthly billing costs them £2.50/month."
 	},
 	{
 		"section": "Pricing and fees",
 		"question": "Is Chobble Tickets a subscription?",
-		"answer": "No. Chobble Tickets uses prepay hosting, not subscription billing. You pay for a month or a year in advance, and Chobble does not store card details for automatic renewal. Nothing is charged unless you return and pay for another term. The first prepay month costs £5, or £50 for a year (£25/year for charities, community groups, artists and musicians on the annual plan). Read how it works on the <a href=\"/features/prepay-hosting/\">prepay hosting</a> page."
+		"answer": "No. Chobble Tickets uses prepay hosting, not subscription billing. You pay for a month or a year in advance, and Chobble does not store card details for automatic renewal. Nothing is charged unless you return and pay for another term. The first prepay month costs £5, or £50 for a year (£25/year or £2.50/month for charities, community groups, artists and musicians). Read how it works on the <a href=\"/features/prepay-hosting/\">prepay hosting</a> page."
 	},
 	{
 		"section": "Pricing and fees",

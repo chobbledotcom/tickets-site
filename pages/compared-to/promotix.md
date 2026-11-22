@@ -86,8 +86,8 @@ blocks:
       cheap the ticket is. Adding your own service fee on top costs a further
       £0.99 a paid ticket.
 
-      Chobble Tickets charges a flat £50/year or £5/month, or £25/year for
-      charities, community groups, artists and musicians on the annual plan.
+      Chobble Tickets charges a flat £50/year or £5/month, or £25/year or £2.50/month for
+      charities, community groups, artists and musicians.
       There are [no per-ticket platform fees](/features/no-per-ticket-fees/)
       and no feature tiers. Against the PromoTix free plan, the £50 is repaid
       after about 33 tickets at £10, 30 at £15 or 27 at £20.
@@ -330,8 +330,7 @@ blocks:
       - You want a [custom domain](/features/custom-domain/) and
         [your own email provider](/features/email-providers/) so tickets come
         from your own name
-      - You are a charity, community group, artist or musician (£25/year on
-        the annual plan)
+      - You are a charity, community group, artist or musician (£25/year or £2.50/month)
       - You want a [public website and CMS](/features/your-public-website/)
         rather than listings inside a marketplace
       - You want to [download the whole database](/features/backups/) and

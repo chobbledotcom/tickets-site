@@ -116,7 +116,7 @@ blocks:
     intro_content: "## Features for halls and centres"
     items:
       - icon: hugeicons:heart-check
-        description: Charities, community groups, artists and musicians pay £25 a year, half the annual price. The discount does not apply to monthly billing.
+        description: Halls run by a charity or community group pay £25 a year, or £2.50 a month if they pay monthly.
         name: <a href="/pricing/">Community rate</a>
       - icon: hugeicons:global
         description: Publish the hall's own site on its own domain, with Chobble branding removed, or embed booking in the site it already has.

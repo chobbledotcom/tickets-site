@@ -220,8 +220,8 @@ blocks:
         complete product source is published under AGPL-3.0-only, and the
         platform can run on selected infrastructure without a Chobble
         software licence fee
-      - **Flat pricing** - £50/year or £5/month, or £25/year for charities,
-        community groups, artists and musicians on the annual plan, with no
+      - **Flat pricing** - £50/year or £5/month, or £25/year or £2.50/month for charities,
+        community groups, artists and musicians, with no
         per-ticket platform fees, no matter how many you sell
       - **No marketing to your attendees** - your audience stays yours
       - **Community Interest Company** - Chobble is a CIC, so profit cannot
@@ -283,8 +283,7 @@ blocks:
       - You want flat, predictable pricing as sales grow
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees
-      - You're a community group, charity, artist or musician (£25/year on
-        the annual plan)
+      - You're a community group, charity, artist or musician (£25/year or £2.50/month)
       - You value [open source](/features/open-source/) and the ability to
         self-host
   - type: markdown

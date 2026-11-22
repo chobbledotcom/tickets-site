@@ -103,8 +103,8 @@ blocks:
       **Revel self-hosted** has no platform fee at all, because the code is
       MIT licensed. You pay only Stripe processing and your own server costs.
 
-      **Chobble Tickets** charges a flat £50/year or £5/month (£25/year for
-      charities, community groups, artists and musicians on the annual plan)
+      **Chobble Tickets** charges a flat £50/year or £5/month (£25/year or £2.50/month for
+      charities, community groups, artists and musicians)
       with
       [no per-ticket platform fees](/features/no-per-ticket-fees/). You also
       pay Stripe, Square or SumUp processing on top.
@@ -259,8 +259,7 @@ blocks:
       - You want attendee data encrypted at rest
       - You want Stripe, Square or SumUp, rather than Stripe only
       - You prefer serverless hosting with no server to keep online
-      - You are a charity, community group, artist or musician (£25/year on the
-        annual plan)
+      - You are a charity, community group, artist or musician (£25/year or £2.50/month)
       - You want a public website, calendar feeds, custom email providers or
         pay-what-you-want pricing
       - You value a Community Interest Company, which cannot pay profit to

@@ -91,8 +91,7 @@ blocks:
 
       Chobble Tickets is a flat £50/year or £5/month, with
       [no per-ticket platform fees](/features/no-per-ticket-fees/) at any
-      volume, and free events stay free with no cap. Charities, community
-      groups, artists and musicians pay £25/year on the annual plan. If you
+      volume, and free events stay free with no cap. The rate for charities, community groups, artists and musicians is half that, at £25/year or £2.50/month. If you
       absorb the ticket fee yourself, the £50 annual plan works out cheaper
       once you sell more than about 200 paid tickets a year, or about 100 on
       the £25 community rate, and the £5 monthly plan crosses over at about
@@ -181,8 +180,8 @@ blocks:
         access controls, but the data remains readable by Ticket Monkey staff
       - **Flat pricing** - £50/year or £5/month with no per-ticket platform
         fees at any volume, and no per-ticket charge on free events
-      - **Community rate** - £25/year for charities, community groups, artists
-        and musicians on the annual plan
+      - **Community rate** - £25/year or £2.50/month for charities, community groups, artists
+        and musicians
       - **[Payment provider choice](/features/stripe-and-square/)** - take
         payments through Stripe, Square or SumUp. Ticket Monkey uses Stripe
         only
@@ -267,8 +266,7 @@ blocks:
         per-ticket charge on top of its hosting fee
       - Privacy and encryption matter to you, and you want attendee data
         readable only by authorised keyed administrators
-      - You're a charity, community group, artist or musician (£25/year on the
-        annual plan)
+      - You're a charity, community group, artist or musician (£25/year or £2.50/month)
       - You want a choice of payment provider between Stripe, Square and SumUp
       - You want your own custom domain included in the base price
       - You want [custom email providers](/features/email-providers/) so

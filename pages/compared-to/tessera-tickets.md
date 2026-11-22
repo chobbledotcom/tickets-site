@@ -90,7 +90,7 @@ blocks:
       Chobble Tickets is a flat £50/year or £5/month, with [no per-ticket
       fees](/features/no-per-ticket-fees/) and no ticket-volume tiers, plus
       Stripe processing at 1.5% + 20p. Registered charities, schools, and
-      community groups pay £25/year on the annual plan.
+      community groups pay £25/year or £2.50/month.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -264,8 +264,7 @@ blocks:
         and no ticket-volume tiers
       - You don't want to run and host a separate WordPress site
       - Privacy and [encryption](/features/encrypted/) matter to you
-      - You're a charity, community group, artist or musician (£25/year
-        on the annual plan)
+      - You're a charity, community group, artist or musician (£25/year or £2.50/month)
       - You want [Apple/Google Wallet](/features/apple-wallet/),
         [calendar feeds](/features/rss-and-calendar-feeds/), or a
         [public API](/features/public-api/) included

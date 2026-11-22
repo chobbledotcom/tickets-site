@@ -81,7 +81,7 @@ blocks:
     intro_content: "## Features for church events"
     items:
       - icon: hugeicons:heart-check
-        description: Charities, community groups, artists and musicians pay £25 a year, half the annual price. The discount does not apply to monthly billing.
+        description: A church that is a charity or community group pays half price, which is £25 a year or £2.50 a month.
         name: <a href="/pricing/">Community rate</a>
       - icon: hugeicons:global
         description: Publish the church's own site on its own domain, with Chobble branding removed, or embed booking in the site it already has.

@@ -91,9 +91,9 @@ Keep these facts central when describing Chobble Tickets:
 - Chobble charges for managed hosting, updates, backup tools and support. It
   does not charge for each sale.
 - Managed hosting is one service with no feature tiers. It costs £50/year or
-  £5/month, or £25/year for charities, community groups, artists and
-  musicians, which is half the annual price and does not apply to monthly
-  billing. No rate varies by ticket value, ticket volume or feature use.
+  £5/month. Charities, community groups, artists and musicians pay half on
+  either billing period: £25/year or £2.50/month. No rate varies by ticket
+  value, ticket volume or feature use.
 - Managed hosting is prepaid, not subscription billing. Organisers pay for a
   month or a year in advance; Chobble does not store card details for
   automatic renewal. If a prepaid term ends without renewal, the site enters

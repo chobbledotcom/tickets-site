@@ -151,8 +151,7 @@ blocks:
       Chobble Tickets is a flat **£50/year (or £5/month)** for the whole
       site, with
       [no per-driver, per-vehicle or per-task fee](/features/no-per-ticket-fees/).
-      Charities, community groups, artists and musicians pay £25/year on
-      the annual plan. There is no task allowance and no tier to move up.
+      Charities, community groups, artists and musicians qualify for half price, which is £25/year or £2.50/month. There is no task allowance and no tier to move up.
       Payment processing through Stripe, Square or SumUp is charged
       separately at the provider's standard rate. Self-hosting Chobble
       Tickets has no Chobble software licence fee. Infrastructure and
@@ -313,8 +312,7 @@ blocks:
       - You value [open source](/features/open-source/) code,
         [self-hosting](/hosting/), and
         [encryption](/features/encrypted/)
-      - You are a charity, community group, artist or musician (£25/year
-        on the annual plan)
+      - You are a charity, community group, artist or musician (£25/year or £2.50/month)
   - type: markdown
     content: |
       ## Who makes Onfleet?
