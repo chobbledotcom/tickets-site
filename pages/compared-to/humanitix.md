@@ -75,11 +75,12 @@ blocks:
       Stripe. Registered charities and schools pay a reduced rate of
       3.33% + £0.25 per paid ticket. Free events cost nothing.
 
-      Chobble Tickets is a flat £50/year or £5/month, with
-      [no per-ticket platform fee](/features/no-per-ticket-fees/).
-      Chobble's discounted rate for charities, community groups, artists and musicians is £25/year or £2.50/month. Payment
-      processing goes through the organiser's own Stripe, Square, or
-      SumUp account at the provider's normal rate.
+      Chobble Tickets is a flat £50/year or £5/month, with [no per-ticket
+      platform fee](/features/no-per-ticket-fees/). Chobble's discounted
+      rate for charities, community groups, artists and musicians is
+      £25/year or £2.50/month. Payment processing goes through the
+      organiser's own Stripe, Square, or SumUp account at the provider's
+      normal rate.
 
       Because Humanitix's fee is a percentage of the ticket price, it
       scales with both volume and price. On a £15 ticket at the Standard
@@ -254,7 +255,8 @@ blocks:
         platform fees, so costs stay the same as volume grows
       - Privacy and encryption matter to you, and you want attendee data
         that the platform itself cannot read
-      - You're a charity, community group, artist or musician (£25/year or £2.50/month)
+      - You're a charity, community group, artist or musician (£25/year or
+        £2.50/month)
       - You want [Apple and Google Wallet](/features/apple-wallet/)
         passes, [calendar feeds](/features/rss-and-calendar-feeds/), or
         a [public API](/features/public-api/) included

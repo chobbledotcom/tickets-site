@@ -89,10 +89,11 @@ blocks:
       through Stripe Connect, and Stripe's own processing charge is inside
       that fee rather than added to it.
 
-      Chobble Tickets is a flat £50/year or £5/month, with
-      [no per-ticket platform fees](/features/no-per-ticket-fees/). Charities, community groups, artists and musicians pay half those prices, £25/year or £2.50/month.
-      Payment processing is charged by your own Stripe, Square or SumUp
-      account, which for UK Stripe is 1.5% + 20p.
+      Chobble Tickets is a flat £50/year or £5/month, with [no per-ticket
+      platform fees](/features/no-per-ticket-fees/). Charities, community
+      groups, artists and musicians pay half those prices, £25/year or
+      £2.50/month. Payment processing is charged by your own Stripe, Square
+      or SumUp account, which for UK Stripe is 1.5% + 20p.
 
       At £15 a ticket, Ticketted takes about £1.09 out of each sale. Chobble
       takes nothing from a sale at all: the money goes straight to your own
@@ -369,8 +370,8 @@ blocks:
         organiser-set refunds, email support
       - [ABN Lookup: Ticketted Pty Ltd](https://abr.business.gov.au/ABN/View?abn=26698189669) -
         ABN 26 698 189 669, Australian private company, registered 18 May 2026
-      - [Chobble Tickets pricing](/pricing/) - £50/year or £5/month, £25/year or £2.50/month
-        for charities, community groups, artists and musicians
+      - [Chobble Tickets pricing](/pricing/) - £50/year or £5/month, £25/year
+        or £2.50/month for charities, community groups, artists and musicians
       - [Chobble Tickets features](/features/)
   - type: cta
     button:

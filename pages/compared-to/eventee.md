@@ -126,11 +126,11 @@ blocks:
       a single event, before VAT. Subscriptions bill annually and renew
       automatically, and the terms state Eventee does not offer refunds.
 
-      Chobble Tickets charges a flat £50/year or £5/month
-      ([£25/year or £2.50/month for charities, community groups, artists and
-      musicians](/pricing/)) with no per-ticket platform fee. Payment processing
-      through Stripe, Square, or SumUp is separate. There is no attendee cap,
-      no event cap, and no per-feature add-ons.
+      Chobble Tickets charges a flat £50/year or £5/month ([£25/year or
+      £2.50/month for charities, community groups, artists and
+      musicians](/pricing/)) with no per-ticket platform fee. Payment
+      processing through Stripe, Square, or SumUp is separate. There is no
+      attendee cap, no event cap, and no per-feature add-ons.
 
       The two price models differ in shape, not just in amount. Eventee charges
       per event and includes attendee engagement features Chobble does not
@@ -273,7 +273,8 @@ blocks:
         homepage
       - You value [open source](/features/open-source/) and the ability to
         [self-host](/hosting/)
-      - You are a charity, community group, artist or musician (£25/year or £2.50/month)
+      - You are a charity, community group, artist or musician (£25/year or
+        £2.50/month)
   - type: markdown
     content: |
       ## Who builds Eventee?

@@ -150,11 +150,11 @@ blocks:
       - If the software is self-hosted, does its licence require a visible
         attribution link?
 
-      For Chobble Tickets, branding removal is part of the base price, on
-      every site. A [custom domain](/features/custom-domain/) is included,
-      and confirmation emails come from the organiser's own address once
-      they connect one of the supported
-      [email providers](/features/email-providers/).
+      For Chobble Tickets, branding removal is part of the base price, on every
+      site. A [custom domain](/features/custom-domain/) is included, and
+      confirmation emails come from the organiser's own address once they
+      connect one of the supported [email
+      providers](/features/email-providers/).
 
       The public site, tickets and checkout carry no Chobble name, though the
       default web address includes it until a custom domain is set. The only

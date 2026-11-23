@@ -225,6 +225,8 @@ blocks:
     content: |-
       ## Set up a site
 
-      Managed hosting costs £50/year or £5/month. Charities, community groups, artists and musicians pay half of either price. The same product can be self-hosted with no Chobble software fee.
+      Managed hosting costs £50/year or £5/month. Charities, community groups,
+      artists and musicians pay half of either price. The same product can be
+      self-hosted with no Chobble software fee.
 name: Deployment
 ---

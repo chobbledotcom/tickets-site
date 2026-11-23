@@ -114,11 +114,10 @@ blocks:
       the organiser chose to keep using it.
 
       Chobble Tickets is designed so that Chobble is paid for hosting and
-      support an organiser decides to keep buying, not for the effort it
-      would take to leave. Prepay works alongside the other parts of that
-      design: the data stays readable, the
-      [source is published](/features/open-source/) under AGPL-3.0-only, and
-      the organiser can move at any time.
+      support an organiser decides to keep buying, not for the effort it would
+      take to leave. Prepay works alongside the other parts of that design: the
+      data stays readable, the [source is published](/features/open-source/)
+      under AGPL-3.0-only, and the organiser can move at any time.
   - type: markdown
     dark: true
     content: |

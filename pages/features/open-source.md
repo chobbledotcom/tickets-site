@@ -45,13 +45,12 @@ blocks:
       licence, a company with no shareholders, sites that carry the
       organiser's name, and software that anyone can host.
 
-      Open code also means Chobble can only earn by hosting and supporting
-      it well, because anyone who prefers can run it without Chobble. The
-      asset lock, the AGPL-3.0-only licence and the absence of shareholders
-      together mean
-      the operator cannot take the product closed -
-      [why Chobble Tickets cannot go closed source](/features/cannot-go-closed-source/)
-      sets that out in full.
+      Open code also means Chobble can only earn by hosting and supporting it
+      well, because anyone who prefers can run it without Chobble. The asset
+      lock, the AGPL-3.0-only licence and the absence of shareholders together
+      mean the operator cannot take the product closed - [why Chobble Tickets
+      cannot go closed source](/features/cannot-go-closed-source/) sets that
+      out in full.
 
       ## Three ways to deploy
 

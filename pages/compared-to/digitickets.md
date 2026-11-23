@@ -63,9 +63,10 @@ blocks:
 
       Chobble Tickets charges a published £50/year or £5/month for managed
       hosting, which covers hosting, updates, backup tools and support, with
-      no charge on any ticket sold. A charity, community group, artist or musician pays half that, at £25/year or £2.50/month. DigiTickets publishes no
-      price: each client's rate is quoted after a scoping process, then set
-      against how the first three months of sales went.
+      no charge on any ticket sold. A charity, community group, artist or
+      musician pays half that, at £25/year or £2.50/month. DigiTickets
+      publishes no price: each client's rate is quoted after a scoping
+      process, then set against how the first three months of sales went.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -83,9 +84,10 @@ blocks:
       a sliding scale, with till hardware available through a partner.
 
       Chobble Tickets charges a flat £50/year or £5/month for managed
-      hosting, with
-      [no per-ticket platform fees](/features/no-per-ticket-fees/).
-      The same managed hosting costs charities, community groups, artists and musicians £25/year, or £2.50/month on monthly billing.
+      hosting, with [no per-ticket platform
+      fees](/features/no-per-ticket-fees/). The same managed hosting costs
+      charities, community groups, artists and musicians £25/year, or
+      £2.50/month on monthly billing.
 
       Payment processing stays separate on both sides. Chobble sites take
       [Stripe, Square or SumUp](/features/stripe-and-square/), and the money

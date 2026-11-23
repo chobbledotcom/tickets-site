@@ -112,6 +112,7 @@ blocks:
     content: |-
       ## Get started
 
-      Charities and community groups pay £25 a year or £2.50 a month for managed hosting, with No check-in listings included.
+      Charities and community groups pay £25 a year or £2.50 a month for
+      managed hosting, with No check-in listings included.
 name: Purchasable Events
 ---

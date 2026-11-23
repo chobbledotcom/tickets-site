@@ -14,7 +14,10 @@ blocks:
     content: |-
       # Sell gig tickets and merch from one site
 
-      A band can sell tickets, records and shirts through one Chobble Tickets site and one payment account. Musicians pay half the standard price for managed hosting, which is £25 a year or £2.50 a month.
+      A band can sell tickets, records and shirts through one Chobble
+      Tickets site and one payment account. Musicians pay half the
+      standard price for managed hosting, which is £25 a year or £2.50 a
+      month.
     buttons:
       - text: Start for £5
         href: https://tix.chobble.com/listings
@@ -67,9 +70,9 @@ blocks:
     content: |
       ## Half price for bands
 
-      Managed hosting costs £50 a year or £5 a month. Musicians and artists
-      get 50% off either way of paying, which makes it £25 a year or
-      £2.50 a month.
+      Managed hosting costs £50 a year or £5 a month. Musicians and
+      artists get 50% off either way of paying, which makes it £25 a year
+      or £2.50 a month.
 
       That price covers every gig, every product and every sale in the
       year. Chobble adds
@@ -179,6 +182,7 @@ blocks:
     content: |-
       ## Put your next gig and your merch on sale
 
-      Managed hosting costs £50 a year or £5 a month. Musicians pay £25 a year or £2.50 a month.
+      Managed hosting costs £50 a year or £5 a month. Musicians pay £25 a
+      year or £2.50 a month.
 name: Bands
 ---

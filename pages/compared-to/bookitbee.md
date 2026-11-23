@@ -62,10 +62,9 @@ blocks:
       themselves. BookitBee is closed source and does not publish its
       code.
 
-      BookitBee charges from 3.5% per ticket, with a £0.50 minimum and a
-      £19.95 cap. Chobble Tickets charges £50/year or £5/month, or £25/year or £2.50/month
-      for charities, and takes no percentage of ticket
-      sales.
+      BookitBee charges from 3.5% per ticket, with a £0.50 minimum and a £19.95
+      cap. Chobble Tickets charges £50/year or £5/month, or £25/year or
+      £2.50/month for charities, and takes no percentage of ticket sales.
   - type: markdown
     content: |
       ## Pricing comparison
@@ -74,9 +73,10 @@ blocks:
       starting from 3.5% per ticket (up to 6.5% for higher-tier features),
       with a minimum fee of £0.50 and a cap of £19.95 per ticket. For high-volume events those fees add up quickly.
 
-      Chobble Tickets charges a flat £50/year or £5/month (£25/year or £2.50/month for charities) with [no
-      per-ticket fees](/features/no-per-ticket-fees/) or percentage cuts, which works out significantly
-      cheaper for most event organisers.
+      Chobble Tickets charges a flat £50/year or £5/month (£25/year or
+      £2.50/month for charities) with [no per-ticket
+      fees](/features/no-per-ticket-fees/) or percentage cuts, which works out
+      significantly cheaper for most event organisers.
   - type: include
     file: price-comparator.html
   - type: markdown
@@ -231,7 +231,8 @@ blocks:
       - Privacy and [encryption](/features/encrypted/) matter to you
       - You value [open source](/features/open-source/) and the ability to
         self-host
-      - You're a charity, community group, artist or musician (£25/year or £2.50/month)
+      - You're a charity, community group, artist or musician (£25/year or
+        £2.50/month)
       - You want [Apple/Google Wallet](/features/apple-wallet/), [calendar
         feeds](/features/rss-and-calendar-feeds/), or a [public
         API](/features/public-api/)

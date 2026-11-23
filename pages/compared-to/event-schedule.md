@@ -102,11 +102,12 @@ blocks:
       with Stripe processing charged separately (Event Schedule quotes US
       Stripe at 2.9% + US$0.30).
 
-      **Chobble Tickets** charges a flat £50/year or £5/month, with
-      [no per-ticket platform fees](/features/no-per-ticket-fees/) and every
-      feature included in the one price. Charities, community groups, artists and musicians get the same features for £25/year or £2.50/month. Payment processing is
-      charged by your own Stripe, Square or SumUp account (1.5% + 20p on a UK
-      Stripe account).
+      **Chobble Tickets** charges a flat £50/year or £5/month, with [no
+      per-ticket platform fees](/features/no-per-ticket-fees/) and every
+      feature included in the one price. Charities, community groups, artists
+      and musicians get the same features for £25/year or £2.50/month. Payment
+      processing is charged by your own Stripe, Square or SumUp account (1.5% +
+      20p on a UK Stripe account).
 
       For an organiser paying in pounds, the headline Pro price is close to
       Chobble's, and Event Schedule's free plan is cheaper for anyone selling
@@ -311,7 +312,8 @@ blocks:
         your data is not locked in
       - You want a copyleft licence that keeps improvements to a hosted product
         open
-      - You are a charity, community group, artist or musician (£25/year or £2.50/month)
+      - You are a charity, community group, artist or musician (£25/year or
+        £2.50/month)
   - type: markdown
     content: |
       ## Who runs Event Schedule?

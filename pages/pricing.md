@@ -89,23 +89,11 @@ blocks:
     content: |
       ## Why the price works this way
 
-      Chobble is paid for the work it does for each site: hosting it,
-      keeping the software updated, running backups and answering support
-      questions. That work does not grow when an event sells more tickets
-      or charges more for them, so the price does not grow either.
+      Chobble is paid for the work it does for each site: hosting it, keeping the software updated, running backups and answering support questions. That work does not grow when an event sells more tickets or charges more for them, so the price does not grow either.
 
-      Most of the platforms reviewed on this site charge on every ticket
-      sold instead. Income
-      collected for controlling a point that other people's trade has to
-      pass through, rather than for work done, is what economists call
-      rent. Chobble Tickets is built as an alternative to that model, so it
-      takes nothing from ticket sales and keeps no features behind a higher
-      tier.
+      Most of the platforms reviewed on this site charge on every ticket sold instead. Income collected for controlling a point that other people's trade has to pass through, rather than for work done, is what economists call rent. Chobble Tickets is built as an alternative to that model, so it takes nothing from ticket sales and keeps no features behind a higher tier.
 
-      The same reasoning sets the self-hosting price at £0. An organiser
-      who runs the software on their own infrastructure is not using
-      Chobble's hosting or support, so there is nothing for Chobble to
-      charge for.
+      The same reasoning sets the self-hosting price at £0. An organiser who runs the software on their own infrastructure is not using Chobble's hosting or support, so there is nothing for Chobble to charge for.
   - type: markdown
     content: |
       ## Payment processing costs

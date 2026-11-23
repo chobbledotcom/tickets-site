@@ -21,11 +21,12 @@ blocks:
       Most ticketing platforms take a percentage of every ticket sold. On a
       £10 ticket, that can mean losing 50p–£1 per sale to the platform.
 
-      Chobble Tickets charges a flat **£25/year** for charities and community
-      groups (50% off the standard £50/year price) with no per-ticket platform fee or
-      percentage cuts, so all the ticket revenue goes straight to your Stripe, Square,
-      or SumUp account. Charities that prefer to pay monthly get the same
-      discount, at £2.50/month instead of £5/month.
+      Chobble Tickets charges a flat **£25/year** for charities and
+      community groups (50% off the standard £50/year price) with no
+      per-ticket platform fee or percentage cuts, so all the ticket revenue
+      goes straight to your Stripe, Square, or SumUp account. Charities that
+      prefer to pay monthly get the same discount, at £2.50/month instead of
+      £5/month.
 
       For free events, you do not need to set up payment processing. For
       fundraising collections and raffles,

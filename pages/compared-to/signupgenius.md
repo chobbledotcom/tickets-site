@@ -66,9 +66,9 @@ blocks:
       sign-up page, and removing them means moving to a paid plan from
       $8.99/month. Chobble Tickets shows no adverts on any plan.
 
-      SignUpGenius Tickets charges $0.25 per ticket plus Stripe processing.
-      Chobble Tickets charges £50/year or £5/month, or £25/year or £2.50/month for
-      charities, community groups and schools.
+      SignUpGenius Tickets charges $0.25 per ticket plus Stripe
+      processing. Chobble Tickets charges £50/year or £5/month, or
+      £25/year or £2.50/month for charities, community groups and schools.
   - type: markdown
     content: |
       ## Different tools for different jobs
@@ -309,7 +309,8 @@ blocks:
       - Privacy and encryption matter to you
       - You don't want a platform marketing to your attendees or tracking
         them with ads
-      - You're a charity, community group, artist or musician (£25/year or £2.50/month)
+      - You're a charity, community group, artist or musician (£25/year or
+        £2.50/month)
       - You want [Apple/Google Wallet](/features/apple-wallet/), [calendar
         feeds](/features/rss-and-calendar-feeds/), or a [public
         API](/features/public-api/)

@@ -191,6 +191,7 @@ blocks:
     content: |-
       ## Put your next date on sale
 
-      Managed hosting costs £50 a year or £5 a month. Artists and musicians pay £25 a year or £2.50 a month.
+      Managed hosting costs £50 a year or £5 a month. Artists and
+      musicians pay £25 a year or £2.50 a month.
 name: Performers and Artists
 ---

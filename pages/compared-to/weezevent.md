@@ -96,11 +96,11 @@ blocks:
       Because most of the charge is fixed, the fee weighs more heavily on
       cheap tickets: on a £5 ticket it is £1.11, or 22% of the price.
 
-      Chobble Tickets is a flat **£50/year or £5/month** (£25/year or £2.50/month for
-      charities and community groups) with
-      [no per-ticket platform fees](/features/no-per-ticket-fees/). Stripe,
-      Square or SumUp processing (1.5% + 20p) is paid on top. Selling more
-      than about 55 tickets at £15 in a year costs less with Chobble Tickets.
+      Chobble Tickets is a flat **£50/year or £5/month** (£25/year or
+      £2.50/month for charities and community groups) with [no per-ticket
+      platform fees](/features/no-per-ticket-fees/). Stripe, Square or SumUp
+      processing (1.5% + 20p) is paid on top. Selling more than about 55
+      tickets at £15 in a year costs less with Chobble Tickets.
 
       The other Weezevent products are priced separately. WeezAccess is free,
       WeezPay costs £1.20 per cashless transaction, and WeezCrew starts at
@@ -296,7 +296,8 @@ blocks:
       - Encryption at rest and control over attendee data matter to you
       - You want a [public API](/features/public-api/) or
         [webhooks](/features/webhooks/) for custom integrations
-      - You are a charity, community group, artist or musician (£25/year or £2.50/month)
+      - You are a charity, community group, artist or musician (£25/year or
+        £2.50/month)
       - You want [Apple and Google Wallet passes](/features/apple-wallet/) or
         [calendar and RSS feeds](/features/rss-and-calendar-feeds/)
       - You value [open source](/features/open-source/) and the ability to

@@ -129,7 +129,8 @@ blocks:
 
       Chobble Tickets is a flat **£50/year (or £5/month)** for the whole site,
       with [no per-ticket platform fees](/features/no-per-ticket-fees/).
-      Charities, community groups, artists and musicians pay half: £25/year or £2.50/month. The annual fee includes updates and support for as long as
+      Charities, community groups, artists and musicians pay half: £25/year or
+      £2.50/month. The annual fee includes updates and support for as long as
       you pay it.
 
       Stripe, Square or SumUp processing is charged separately; Stripe's
@@ -308,7 +309,8 @@ blocks:
       - You want Stripe, Square or SumUp, and
         [custom email providers](/features/email-providers/) from your own
         domain
-      - You are a charity, community group, artist or musician (£25/year or £2.50/month)
+      - You are a charity, community group, artist or musician (£25/year or
+        £2.50/month)
       - You value a Community Interest Company, which cannot pay profit to
         shareholders
   - type: markdown

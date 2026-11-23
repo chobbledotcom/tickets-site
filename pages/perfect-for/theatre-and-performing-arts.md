@@ -26,8 +26,8 @@ blocks:
 
       The platform costs a flat £50/year or £5/month. Charities and
       community groups pay £25/year or £2.50/month, which covers most
-      amateur dramatics societies. Payments go through Stripe, Square, or SumUp
-      directly to the society's own account.
+      amateur dramatics societies. Payments go through Stripe, Square, or
+      SumUp directly to the society's own account.
 
       A run of performances is set up either as a
       [daily event](/features/daily-events/) with per-date capacity, or by

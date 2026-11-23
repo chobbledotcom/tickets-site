@@ -58,8 +58,8 @@ blocks:
 
       PTA Events charges 3.95% per transaction on its free Starter plan, or
       £299.99 + VAT a year for the Premium plan with a 1.5% fee. Chobble
-      Tickets charges £25/year or £2.50/month for charities and community groups, including
-      PTAs, with no percentage on top.
+      Tickets charges £25/year or £2.50/month for charities and community
+      groups, including PTAs, with no percentage on top.
   - type: markdown
     content: |
       ## Different platforms, different approaches
@@ -94,9 +94,10 @@ blocks:
       Both plans let you pass fees on to buyers, so the PTA itself may pay
       nothing, though this means attendees pay more per ticket.
 
-      With Chobble Tickets, it's a flat £50/year or £5/month (£25/year or £2.50/month for charities and
-      community groups), with [no per-ticket platform fee](/features/no-per-ticket-fees/) or commission. You
-      only pay Stripe, Square, or SumUp processing. Whether you sell 50 tickets or
+      With Chobble Tickets, it's a flat £50/year or £5/month (£25/year or
+      £2.50/month for charities and community groups), with [no per-ticket
+      platform fee](/features/no-per-ticket-fees/) or commission. You only
+      pay Stripe, Square, or SumUp processing. Whether you sell 50 tickets or
       5,000, the cost stays the same.
 
       For a £10 ticket on PTA Events' Starter plan, combined platform and

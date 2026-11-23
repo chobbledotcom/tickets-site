@@ -130,7 +130,8 @@ blocks:
       non-refundable for partial or unused periods.
 
       Chobble Tickets charges £50 a year or £5 a month for managed
-      hosting. Charities, community groups, artists and musicians pay £25/year, or £2.50/month if they pay monthly.
+      hosting. Charities, community groups, artists and musicians pay
+      £25/year, or £2.50/month if they pay monthly.
 
       On annual billing, Whizzly Starter costs £45.88 more than a year
       of Chobble's managed hosting, and Pro costs £189.88 more. On

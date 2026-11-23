@@ -86,9 +86,9 @@ blocks:
       thousand.
 
       The price follows the work, not the takings. Chobble hosts the site,
-      updates it and answers support questions, and none of that grows when
-      a ticket price doubles. A share of each sale would pay Chobble for
-      sitting between the buyer and the organiser, which is the model
+      updates it and answers support questions, and none of that grows
+      when a ticket price doubles. A share of each sale would pay Chobble
+      for sitting between the buyer and the organiser, which is the model
       Chobble Tickets is built to replace.
 
       The [Stripe, Square and SumUp page](/features/stripe-and-square/)

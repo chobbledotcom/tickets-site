@@ -33,10 +33,10 @@ blocks:
       annual rate. The difference covers the extra card fees and admin of
       handling twelve separate payments instead of one.
 
-      Charities, community groups, artists, and musicians pay £25/year or £2.50/month, a 50% discount on either billing period.
-      If you self-host, Chobble charges no software licence fee. The operator
-      pays for infrastructure, payment processing and any other configured
-      services.
+      Charities, community groups, artists, and musicians pay £25/year or
+      £2.50/month, a 50% discount on either billing period. If you self-host,
+      Chobble charges no software licence fee. The operator pays for
+      infrastructure, payment processing and any other configured services.
   - type: markdown
     dark: true
     content: |
