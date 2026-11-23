@@ -104,6 +104,6 @@ blocks:
     content: |-
       ## Set up your club
 
-      Sign up for managed hosting at £25/year for community sports clubs, or £5/month at the standard rate.
+      Community sports clubs can sign up for managed hosting at £25/year or £2.50/month.
 name: Sports Clubs
 ---

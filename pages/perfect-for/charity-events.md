@@ -83,6 +83,6 @@ blocks:
     content: |-
       ## Get the charity discount
 
-      Sign up for managed hosting at £25/year for charities and community groups, or £5/month at the standard rate.
+      Charities and community groups can sign up for managed hosting at £25/year or £2.50/month, half the standard rate.
 name: Charity Events
 ---

@@ -105,6 +105,6 @@ blocks:
     content: |-
       ## Set up your box office
 
-      Sign up for managed hosting at £25/year for community theatre groups, or £5/month at the standard rate.
+      Sign up for managed hosting at £25/year or £2.50/month for community theatre groups, or £50/year or £5/month at the standard rate.
 name: Theatre and Performing Arts
 ---

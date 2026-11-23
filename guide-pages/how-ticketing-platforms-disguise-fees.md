@@ -265,7 +265,9 @@ blocks:
       - The only charge from Chobble is the hosting price, £50 a year or £5 a
         month. The organiser's payment provider adds its own processing fee.
       - The organiser pays it. Attendees pay the ticket price the organiser
-        sets, with no Chobble booking fee added.
+        sets, with no Chobble booking fee added. A booking fee or service
+        charge appears at checkout only if the organiser sets one up, and that
+        money goes to the organiser.
       - Free and paid events cost the same, because the price does not depend
         on what a site sells.
       - There is no charity pledge on bookings. Chobble gives 10% of its

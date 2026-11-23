@@ -206,7 +206,9 @@ blocks:
         £5 a month for hosting, and the payment provider charges its own
         fee on each payment, such as 1.5% + 20p on a UK Stripe card.
       - The organiser pays the hosting. Chobble adds no booking fee to the
-        price an attendee pays.
+        price an attendee pays. An organiser can add a percentage booking fee
+        of their own, which is off unless they set it and is paid into their
+        account with the ticket price.
       - There is no pledge on ticket sales, because Chobble takes no share
         of them. Chobble donates 10% of its own income to the
         [Against Malaria Foundation](https://www.againstmalaria.com).
