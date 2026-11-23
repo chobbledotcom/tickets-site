@@ -272,6 +272,8 @@ commission."
 **First-person mission and belief statements.** Beliefs, missions, values, and
 "what we stand for" are vague and unverifiable. They also re-introduce the "we"
 voice, which is banned. Replace with the structural fact behind the belief.
+Explaining the reason for a concrete choice is different and expected; see
+"Explaining why Chobble Tickets works this way" below.
 
 **Bad:** "We believe event organisers deserve better."
 **Bad:** "Our mission is to put control back in the hands of organisers."
@@ -385,13 +387,64 @@ annual fee organisers pay, not from advertising or data sales."
 
 The structural facts are:
 
-- Chobble is funded by flat annual fees
+- Chobble is funded by flat hosting fees, paid yearly or monthly
 - There is no advertising revenue
 - There is no data economy subsidising the price
 - Chobble is a community interest company, which means profit cannot be
   extracted by shareholders
 
 State these as facts when relevant. Do not frame them as virtues or boasts.
+
+---
+
+### Explaining why Chobble Tickets works this way
+
+The ban on mission statements is a ban on vague, first-person belief. It
+does not stop the site explaining the reasons behind Chobble's choices.
+Wherever a page describes one of those choices, it should give the reason
+as well as the fact.
+
+The reason behind most choices is the same. Chobble Tickets is built as an
+alternative to rentier models, where a platform earns money by sitting
+between organisers and their buyers: a share of each sale, booking fees
+added at checkout, or access to the audience it has gathered. Chobble is
+paid only for the service it provides, which is hosting, updates and
+support.
+
+Apply that reason to the choice being described:
+
+- **One flat price and no per-ticket fee.** The work of hosting a site does
+  not grow with ticket volume or ticket value, so the price does not either.
+- **No feature tiers.** Every site costs Chobble the same work, so charging
+  more to unlock features would be charging for access, not work.
+- **Self-hosting costs £0.** Chobble does none of the work, so there is
+  nothing to charge for.
+- **Prepay, not subscription.** Each term is bought because the organiser
+  chose to keep using the service. Chobble is not paid for the effort it
+  would take to leave.
+- **No free plan.** A free plan has to be paid for by something else, such
+  as fees on larger customers or the value of attendee data.
+- **White label, no marketplace and no attendee marketing.** Organisers pay
+  for hosting, not for the attention of their attendees, so the platform
+  does not advertise itself to them or gather them into its own audience.
+- **Open source.** No single commitment is enough on its own, because each
+  can be undone or worked around. Only the full combination makes a real
+  alternative to Ticketmaster and similar platforms: the AGPL-3.0-only
+  licence, a community interest company with an asset lock and no
+  shareholders, white-label sites, and software that anyone can host.
+
+Write these reasons in the third person ("Chobble Tickets is built as...",
+"Chobble's view is..."), never with "we". Keep each reason next to the
+choice it explains, in the same paragraph, and keep it concrete. A reason
+is not a slogan, and the other tone rules still apply. Use the word "rent"
+only with its meaning explained, for example as income collected for
+controlling a point that trade has to pass through, rather than for work
+done.
+
+Any question the site asks, whether in an FAQ, a heading or a checklist,
+must be answered on the same page. That includes answering a checklist of
+questions to put to providers for Chobble Tickets itself. An answer that
+says "it depends" must go on to say what it depends on, with figures.
 
 ---
 

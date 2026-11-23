@@ -57,6 +57,6 @@ blocks:
       There is no free plan to stay on after the trial. A free plan has to
       be paid for by something else, such as fees on larger customers or
       the value of attendee data. Chobble charges each site for its own
-      hosting instead, so no organiser pays for another's.
+      hosting instead.
 name: Free Trial
 ---

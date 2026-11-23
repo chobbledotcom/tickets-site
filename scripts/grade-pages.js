@@ -1599,7 +1599,9 @@ const JEV_CHECKS = [
       "reviews are exempt and already stripped. Look for: contrast flips ('not just a " +
       "ticketing platform', 'it's not about features, it's about freedom', 'more than " +
       "just booking'); 'imagine' or 'picture this' daydreams; first-person mission " +
-      "statements ('we believe', 'our mission', 'we stand for'); vague era framing " +
+      "statements ('we believe', 'our mission', 'we stand for'), though a third-person " +
+      "reason tied to a concrete choice ('Self-hosting costs £0 because Chobble does " +
+      "none of the work') is an explanation, not a mission statement; vague era framing " +
       "('in today's world', 'the future of ticketing', 'modern organisers'); warm-up " +
       "questions ('Ready to sell tickets?'); three-word slogans ('Own your data. Keep " +
       "your fans.'); strings of short punchy sentences in place of prose; alliteration " +
@@ -1930,7 +1932,8 @@ const buildJevState = (x, siblings) => ({
       "no per-ticket or per-sale platform fee, and ticket income goes to the organiser's own Stripe, Square or SumUp account; " +
       "hosting is prepaid, not subscription billing: a term that ends without renewal enters read-only mode for 24 months, after which the site and database are deleted; " +
       "paid checkout does not reserve capacity - capacity is consumed when payment confirmation arrives, and a race for the last place auto-refunds the later order; " +
-      "the same product can be self-hosted with no software fee; organisers can use their own domain, download a full database backup, and export event setup as versioned JSON",
+      "the same product can be self-hosted with no software fee; organisers can use their own domain, download a full database backup, and export event setup as versioned JSON; " +
+      "the reason behind these choices: Chobble Tickets is built as an alternative to rentier models where a platform earns by sitting between organisers and their buyers, and Chobble is paid only for the service it provides, which is hosting, updates and support",
   },
 });
 
