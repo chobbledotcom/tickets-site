@@ -73,8 +73,7 @@ To add a language:
 4. Add each translated page to `_data/translations.json`.
 
 A translated page repeats a page the English audits already cover, so the
-copy, evidence and image-scenario checks read the English source and skip its
-translations. `test/translations.test.js` checks the pairing itself, including
+copy and evidence checks read the English source and skip its translations. `test/translations.test.js` checks the pairing itself, including
 that every URL named in `_data/translations.json` is a URL the build
 publishes.
 
