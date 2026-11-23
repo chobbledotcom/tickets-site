@@ -2,7 +2,7 @@ import { chobbleFestCss } from "./_chobblefest.js";
 import { setFormValues } from "./helpers.js";
 
 const invite = async (context, username, adminLevel) => {
-  await context.page.goto("/admin/user/new");
+  await context.page.goto("/admin/users/new");
   const form = 'form[action="/admin/users"]';
   await setFormValues(context.page, form, {
     admin_level: adminLevel,

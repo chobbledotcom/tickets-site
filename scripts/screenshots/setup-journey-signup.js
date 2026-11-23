@@ -22,7 +22,7 @@ export default {
       listingId,
       name: "Maya Patel",
     });
-    const quantity = context.page.locator(`[name="quantity_${listingId}"]`);
+    const quantity = context.page.locator(`[name="quantity${listingId}"]`);
     await quantity.selectOption("1");
     await quantity.evaluate((select) => {
       const label = select.closest("label");

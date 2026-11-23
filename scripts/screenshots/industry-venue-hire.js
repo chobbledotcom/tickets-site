@@ -44,7 +44,7 @@ export default {
       .locator('[name="address"]')
       .fill("22 Orchard Road\nLeeds\nLS6 2AB");
     await selectFirstFutureDate(context.page);
-    await context.page.locator('[name="day_count"]').selectOption("2");
+    await context.page.locator('[name="dayCount"]').selectOption("2");
     await waitForOrderTotal(context.page, "£420");
   },
 };

@@ -136,8 +136,8 @@ main button[type="submit"] {
       email: "maya.patel@example.com",
       name: "Maya Patel",
     });
-    await page.locator(`[name="quantity_${listingId}"]`).selectOption("2");
-    await page.locator('[name="agree_terms"]').check();
+    await page.locator(`[name="quantity${listingId}"]`).selectOption("2");
+    await page.locator('[name="agreeTerms"]').check();
     await page.getByText("Workshop terms", { exact: true }).waitFor();
     await page.getByText("Fernbank Pottery Studio", { exact: false }).waitFor();
     await blurActiveElement(page);

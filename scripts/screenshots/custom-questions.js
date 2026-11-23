@@ -107,13 +107,13 @@ main .running-total {
       [`question_${allergiesQuestionId}`]: "Nut allergy",
     });
     await context.page
-      .locator(`[name="quantity_${listingId}"]`)
+      .locator(`[name="quantity${listingId}"]`)
       .selectOption("1");
     await context.page
       .getByRole("radio", { name: "Beginner", exact: true })
       .check();
     const allergyValue = await context.page
-      .locator(`[name="question_${allergiesQuestionId}"]`)
+      .locator(`[name="question${allergiesQuestionId}"]`)
       .inputValue();
     if (allergyValue !== "Nut allergy") {
       throw new Error("Could not fill the allergy answer.");

@@ -58,17 +58,17 @@ export default {
       name: SOURCE_GROUP_NAME,
     });
 
-    const route = `/admin/groups/${groupId}/bulk-actions/duplicate`;
+    const route = `/admin/groups/${groupId}/duplicate`;
     await context.page.goto(route);
     const form = context.page.locator(
       `form#duplicate-group-form[action="${route}"]`,
     );
-    await form.locator('[name="new_name"]').fill(TARGET_GROUP_NAME);
-    await form.locator('[name="name_find"]').fill("Spring");
-    await form.locator('[name="name_replace"]').fill("Autumn");
-    await form.locator('[name="date_find"]').fill(springStart);
+    await form.locator('[name="newName"]').fill(TARGET_GROUP_NAME);
+    await form.locator('[name="nameFind"]').fill("Spring");
+    await form.locator('[name="nameReplace"]').fill("Autumn");
+    await form.locator('[name="dateFind"]').fill(springStart);
     await form
-      .locator('[name="date_replace"]')
+      .locator('[name="dateReplace"]')
       .fill(addDays(springStart, SHIFT_DAYS));
 
     const previewRows = form.locator("[data-duplicate-preview-rows] > tr");

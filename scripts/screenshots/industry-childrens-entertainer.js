@@ -60,10 +60,10 @@ export default {
       .locator('[name="address"]')
       .fill("14 Willow Lane\nBristol\nBS3 4QH");
     await context.page
-      .locator(`[name="quantity_${packageId}"]`)
+      .locator(`[name="quantity${packageId}"]`)
       .selectOption("1");
     await context.page
-      .locator(`[name="child_qty_${packageId}_${dinosaurId}"]`)
+      .locator(`[name="childQty${packageId}_${dinosaurId}"]`)
       .selectOption("1");
     await waitForOrderTotal(context.page, "£160");
   },

@@ -17,6 +17,11 @@
  *   bun run screenshot:scenarios charity-events         # one scenario
  *   bun run screenshot:scenarios charity-events groups  # several
  *
+ * A scenario that uploads images sets `imageStorage: true`. It then runs
+ * against a throwaway local storage folder, because the Tickets app only
+ * offers uploads when a storage backend is configured. Other scenarios run
+ * without one, so their screenshots are unchanged.
+ *
  * Pass --no-social to skip the social variants and only re-take originals.
  * Pass --social instagram-portrait (or a comma-separated list, or all) to
  * choose different social sizes; the default is facebook.
@@ -29,7 +34,8 @@
  * and the devenv shell available for its Deno runner.
  */
 
-import { readdirSync, statSync } from "node:fs";
+import { mkdtempSync, readdirSync, rmSync, statSync } from "node:fs";
+import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import {
   createSocialScreenshot,
@@ -170,6 +176,17 @@ const addSocialText = async (
   }
 };
 
+const NO_STORAGE = { cleanup: () => {}, env: process.env };
+
+const storageFor = (scenario) => {
+  if (!scenario.imageStorage) return NO_STORAGE;
+  const dir = mkdtempSync(join(tmpdir(), "tickets-screenshot-storage-"));
+  return {
+    cleanup: () => rmSync(dir, { force: true, recursive: true }),
+    env: { ...process.env, LOCAL_STORAGE_PATH: dir },
+  };
+};
+
 const runScenario = async (scenarioName, social, layers, outputDir) => {
   const scenarioPath = join(SCENARIOS_DIR, `${scenarioName}.js`);
   const { default: scenario } = await import(
@@ -191,8 +208,10 @@ const runScenario = async (scenarioName, social, layers, outputDir) => {
     outputDir,
     ...(layers ? ["--layers"] : []),
   ];
-  const proc = spawn(cmd, { cwd: TICKETS_REPO });
+  const storage = storageFor(scenario);
+  const proc = spawn(cmd, { cwd: TICKETS_REPO, env: storage.env });
   const code = await proc.exited;
+  storage.cleanup();
   if (code !== 0) {
     throw new Error(`Scenario ${scenarioName} exited with code ${code}`);
   }

@@ -104,19 +104,19 @@ main .order-summary-message {
       name: "Alex Morgan",
     });
     await context.page
-      .locator(`[name="quantity_${festivalPassId}"]`)
+      .locator(`[name="quantity${festivalPassId}"]`)
       .selectOption("2");
     await context.page
-      .locator(`[name="child_qty_${festivalPassId}_${generalCampingId}"]`)
+      .locator(`[name="childQty${festivalPassId}_${generalCampingId}"]`)
       .selectOption("1");
     await context.page
-      .locator(`[name="child_qty_${festivalPassId}_${quietCampingId}"]`)
+      .locator(`[name="childQty${festivalPassId}_${quietCampingId}"]`)
       .selectOption("1");
     const parentWidth = await context.page
-      .locator(`[name="quantity_${festivalPassId}"]`)
+      .locator(`[name="quantity${festivalPassId}"]`)
       .evaluate((select) => select.getBoundingClientRect().width);
     const childWidth = await context.page
-      .locator(`[name="child_qty_${festivalPassId}_${generalCampingId}"]`)
+      .locator(`[name="childQty${festivalPassId}_${generalCampingId}"]`)
       .evaluate((select) => select.getBoundingClientRect().width);
     if (parentWidth !== childWidth) {
       throw new Error(

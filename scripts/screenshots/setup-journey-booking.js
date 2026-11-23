@@ -13,7 +13,7 @@ export default {
       name: "Maya Patel",
     });
     await context.page
-      .locator(`[name="quantity_${listingId}"]`)
+      .locator(`[name="quantity${listingId}"]`)
       .selectOption("2");
   },
 };

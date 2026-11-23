@@ -100,7 +100,7 @@ main .order-summary-message {
       [`question_${allergyQuestionId}`]: "No nuts",
     });
     await context.page
-      .locator(`[name="quantity_${listingId}"]`)
+      .locator(`[name="quantity${listingId}"]`)
       .selectOption("1");
     await waitForOrderTotal(context.page, "£3");
   },

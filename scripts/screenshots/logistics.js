@@ -125,7 +125,7 @@ body {
     await page
       .locator(`${editForm} label`)
       .filter({ hasText: "(owner)" })
-      .locator('[name="user_ids"]')
+      .locator('[name="userIds"]')
       .evaluate((input) => Reflect.set(input, "checked", true));
     await submit(editForm);
 

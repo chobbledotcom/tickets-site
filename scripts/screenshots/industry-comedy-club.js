@@ -39,7 +39,7 @@ export default {
     });
     await selectFirstFutureDate(context.page);
     await context.page
-      .locator(`[name="quantity_${listingId}"]`)
+      .locator(`[name="quantity${listingId}"]`)
       .selectOption("2");
     await waitForOrderTotal(context.page, "£24");
   },

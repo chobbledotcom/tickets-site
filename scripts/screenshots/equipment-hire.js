@@ -139,7 +139,7 @@ fieldset {
     await context.page
       .locator('[name="date"]')
       .selectOption(await futureFridayFrom(context.page));
-    await context.page.locator('[name="day_count"]').selectOption("3");
+    await context.page.locator('[name="dayCount"]').selectOption("3");
     await waitForOrderTotal(context.page, "£135");
     await blurActiveElement(context.page);
   },

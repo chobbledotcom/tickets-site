@@ -60,6 +60,7 @@ const uploadImage = async (context, { alt, colours, file, name }) => {
       `Upload of ${name} stalled at ${new URL(page.url()).pathname}: ${message}`,
     );
   }
+  return page.url().match(/\/admin\/images\/(\d+)\/edit/)[1];
 };
 
 export default {
@@ -106,6 +107,7 @@ export default {
 .page-regions.entity-page select { border-radius: 7px; }
 `,
   elementSelector: ".page-regions.entity-page",
+  imageStorage: true,
   name: "image-library",
   run: async (context) => {
     const listingId = await createListing(context, {
@@ -119,20 +121,23 @@ export default {
       },
     });
 
+    const imageIds = [];
     for (const image of libraryImages) {
-      await uploadImage(context, image);
+      imageIds.push(await uploadImage(context, image));
     }
 
     const imagesPath = `/admin/listing/${listingId}/images`;
     await context.page.goto(imagesPath);
     const linkForm = `form[action="${imagesPath}"]`;
-    for (const { name } of libraryImages) {
-      await context.page
-        .locator(`${linkForm} .image-picker-checkboxes label`)
-        .filter({ hasText: name })
-        .locator('[name="image_ids"]')
-        .evaluate((input) => Reflect.set(input, "checked", true));
-    }
+    // The listing's image picker is a script control that writes one hidden
+    // imageIds input for each chosen picture, so the scenario writes the same.
+    await context.page.locator(linkForm).evaluate((form, ids) => {
+      for (const id of ids) {
+        const input = document.createElement("input");
+        Object.assign(input, { name: "imageIds", type: "hidden", value: id });
+        form.append(input);
+      }
+    }, imageIds);
     await context.submit(linkForm);
     try {
       await context.page.waitForFunction(

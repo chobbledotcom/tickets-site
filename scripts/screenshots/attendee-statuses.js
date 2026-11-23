@@ -14,12 +14,12 @@ const createStatus = async (
   });
   if (reservationAmount) {
     await page
-      .locator(`${form} [name="is_reservation"]`)
+      .locator(`${form} [name="isReservation"]`)
       .evaluate((input) => Reflect.set(input, "checked", true));
   }
   if (publicDefault) {
     await page
-      .locator(`${form} [name="is_public_default"]`)
+      .locator(`${form} [name="isPublicDefault"]`)
       .evaluate((input) => Reflect.set(input, "checked", true));
   }
   await submit(form);
@@ -128,7 +128,7 @@ export default {
     });
     await createStatus(context, { name: "Collected" });
 
-    await submit(`form[action="${STATUS_PATH}/${reservedId}/move-up"]`);
+    await submit(`form[action="${STATUS_PATH}/${reservedId}/move-before"]`);
     await page.goto(STATUS_PATH);
 
     const rows = await page.locator("tbody tr").allTextContents();
@@ -141,7 +141,10 @@ export default {
     await page.getByText("Public default", { exact: true }).waitFor();
     await page.getByText("Reservation: 25%", { exact: true }).waitFor();
     await page.getByText("Paid", { exact: true }).waitFor();
-    if ((await page.locator('[title^="Move "]').count()) !== 4) {
+    const moveControls = page.locator(
+      `form[action$="/move-before"], form[action$="/move-after"]`,
+    );
+    if ((await moveControls.count()) !== 4) {
       throw new Error("The attendee status order controls are incomplete.");
     }
   },

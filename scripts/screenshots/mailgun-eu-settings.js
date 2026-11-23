@@ -49,13 +49,13 @@ form#settings-email select { border-radius: 7px; }
 
     await page.goto("/admin/settings-advanced");
     const provider = await page
-      .locator(`${EMAIL_FORM} [name="email_provider"]`)
+      .locator(`${EMAIL_FORM} [name="emailProvider"]`)
       .inputValue();
     if (provider !== "mailgun-eu") {
       throw new Error(`The provider was not saved: ${provider}`);
     }
     const fromAddress = await page
-      .locator(`${EMAIL_FORM} [name="email_from_address"]`)
+      .locator(`${EMAIL_FORM} [name="emailFromAddress"]`)
       .inputValue();
     if (fromAddress !== "tickets@oakfieldevents.org") {
       throw new Error(`The sender was not saved: ${fromAddress}`);

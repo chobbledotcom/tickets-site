@@ -110,14 +110,14 @@ export default {
     }
 
     await page.goto("/admin/catalog/import");
-    await page.locator('[name="catalog_file"]').setInputFiles({
+    await page.locator('[name="catalogFile"]').setInputFiles({
       buffer: Buffer.from(exportBytes),
       mimeType: "application/json",
       name: "summer-sessions.json",
     });
     await page.waitForFunction(
       () =>
-        document.querySelector('input[name="catalog_file"]')?.files?.[0]
+        document.querySelector('input[name="catalogFile"]')?.files?.[0]
           ?.name === "summer-sessions.json",
     );
     await page.locator("h1").click();

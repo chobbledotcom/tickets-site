@@ -122,7 +122,7 @@ export default {
 
     await context.page.goto("/admin/settings-advanced");
     await context.page
-      .locator('[name="external_order_enabled"][value="true"]')
+      .locator('[name="externalOrderEnabled"][value="true"]')
       .check();
     await context.submit('form[action="/admin/settings/external-order"]');
 

@@ -30,7 +30,7 @@ export default {
     await page.goto(await publicPathFor(page, listingId));
     await page.locator('[name="name"]').fill("Maya");
     await page.locator('[name="email"]').fill("maya@example.com");
-    await page.locator(`[name="quantity_${listingId}"]`).selectOption("2");
+    await page.locator(`[name="quantity${listingId}"]`).selectOption("2");
     await page.evaluate(() => {
       if (document.activeElement instanceof HTMLElement) {
         document.activeElement.blur();

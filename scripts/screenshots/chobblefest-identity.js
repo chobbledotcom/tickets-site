@@ -20,7 +20,7 @@ export default {
     await page.goto(await publicPathFor(page, listingId));
     await page.locator('[name="name"]').fill("Maya Patel");
     await page.locator('[name="email"]').fill("maya@example.com");
-    await page.locator(`[name="quantity_${listingId}"]`).selectOption("1");
+    await page.locator(`[name="quantity${listingId}"]`).selectOption("1");
     await waitForOrderTotal(page, "£180");
   },
 };

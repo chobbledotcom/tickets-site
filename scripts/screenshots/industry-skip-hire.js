@@ -47,7 +47,7 @@ export default {
       .locator('[name="address"]')
       .fill("14 Willow Lane\nBristol\nBS3 4QH");
     await selectFirstFutureDate(context.page);
-    await context.page.locator('[name="day_count"]').selectOption("7");
+    await context.page.locator('[name="dayCount"]').selectOption("7");
     await waitForOrderTotal(context.page, "£180");
   },
 };

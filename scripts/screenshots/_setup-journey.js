@@ -37,7 +37,7 @@ export const fillSetup = async (context) => {
     admin_username: "folk-club-owner",
     country: "GB",
   });
-  await context.page.locator('[name="accept_agreement"]').check();
+  await context.page.locator('[name="acceptAgreement"]').check();
 };
 
 export const createTicket = async (context) => {
