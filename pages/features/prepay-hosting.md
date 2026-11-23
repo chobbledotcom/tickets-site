@@ -108,8 +108,15 @@ blocks:
       read-only window gives a long, fixed period to export or migrate.
 
       Chobble's income comes from the prepay terms organisers choose to buy,
-      not from automatic charges that continue until cancelled. This is part of
-      how the platform avoids lock-in: the data stays readable, the
+      not from automatic charges that continue until cancelled. A charge
+      that renews until someone notices earns money without anyone deciding
+      the service was worth it. Prepay means every term is paid for because
+      the organiser chose to keep using it.
+
+      Chobble Tickets is designed so that Chobble is paid for hosting and
+      support an organiser decides to keep buying, not for the effort it
+      would take to leave. Prepay works alongside the other parts of that
+      design: the data stays readable, the
       [source is published](/features/open-source/) under AGPL-3.0-only, and
       the organiser can move at any time.
   - type: markdown

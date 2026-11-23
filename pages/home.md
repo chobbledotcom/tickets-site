@@ -164,7 +164,7 @@ blocks:
 
       The complete product source is published under AGPL-3.0-only. Technical users can run it on their own infrastructure without paying a licence fee to Chobble.
 
-      Managed hosting and self-hosting use the same code. The hosted fee pays for setup, infrastructure, updates and support rather than access to extra product features.
+      Managed hosting and self-hosting use the same code. The hosted fee pays for setup, infrastructure, updates and support rather than access to extra product features. Chobble charges for that work and nothing else, so it takes no share of ticket sales, and anyone who does the work themselves pays Chobble nothing.
     button:
       text: View hosting options
       href: /hosting/

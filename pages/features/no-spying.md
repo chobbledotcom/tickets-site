@@ -36,7 +36,7 @@ blocks:
 
       ## How Chobble is funded
 
-      Chobble's hosted service is funded by annual or monthly organiser fees. It has no advertising income and does not sell attendee data.
+      Chobble's hosted service is funded by annual or monthly organiser fees. It has no advertising income and does not sell attendee data. Organisers pay for the hosting itself, so attendees are not a product Chobble needs to sell to anyone.
 
       Chobble is a community interest company. Its asset lock prevents profits and assets from being distributed to shareholders.
 

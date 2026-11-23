@@ -72,6 +72,10 @@ blocks:
     content: |
       ## Who uses Chobble Tickets for fundraising?
 
+      [Crumpsall Folk Club](https://tickets.crumpsallfolkclub.co.uk), a
+      monthly folk club in north Manchester, sells raffle tickets as a
+      listing beside its concert tickets. The same tools suit:
+
       - **Charities and nonprofits** running annual appeals or emergency
         fundraisers, who need to keep as much of what they raise as possible
       - **[PTAs and school groups](/perfect-for/schools-and-ptas/)** collecting
@@ -81,8 +85,9 @@ blocks:
         tournament entry fees from members
       - **Community groups** (Scout troops, Rotary clubs, neighbourhood
         associations) running raffles and community fundraisers
-      - **Churches and faith groups** accepting gift-aided donations and
-        special appeal contributions
+      - **Churches and faith groups** taking donations and special appeal
+        contributions, with a booking question for Gift Aid declarations,
+        which are not collected automatically
 
       Fundraising collections work alongside regular ticketed events on the
       same account, so you can run a sponsored walk *and* sell tickets to

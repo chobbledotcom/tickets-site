@@ -50,7 +50,7 @@ blocks:
 
       Payments go through Stripe, Square, or SumUp directly to the club's
       own account. Community groups get a 50% discount, which brings the
-      annual price to £25.
+      price to £25 a year or £2.50 a month.
 
       Every income figure comes from a
       [double-entry ledger](/features/ledger/), with date and event

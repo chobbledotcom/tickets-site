@@ -53,5 +53,10 @@ blocks:
       Charities, community groups, artists and musicians can pay £25 a
       year or £2.50 a month. Chobble takes no fee from ticket sales at
       any point.
+
+      There is no free plan to stay on after the trial. A free plan has to
+      be paid for by something else, such as fees on larger customers or
+      the value of attendee data. Chobble charges each site for its own
+      hosting instead, so no organiser pays for another's.
 name: Free Trial
 ---

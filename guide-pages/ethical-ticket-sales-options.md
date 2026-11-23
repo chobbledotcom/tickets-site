@@ -45,8 +45,8 @@ blocks:
       advertising or attendee data sales. The complete ticketing product is
       open source and can be [self-hosted](/hosting/).
 
-      Managed hosting costs £50/year or £5/month, with a £25 annual price for
-      charities, community groups, artists and musicians. Chobble adds no
+      Managed hosting costs £50/year or £5/month, and charities, community
+      groups, artists and musicians pay half of either. Chobble adds no
       [per-ticket platform fee](/features/no-per-ticket-fees/), while payment
       providers charge separately.
 
@@ -208,4 +208,16 @@ blocks:
         software on infrastructure they control?
       - Which useful features, support services and marketplace benefits would
         the organiser give up by choosing another model?
+
+      For Chobble Tickets, the organisation is a community interest company
+      limited by guarantee, with no shareholders and an asset lock. Its
+      income comes from prepaid hosting and technical work, with no
+      per-ticket fees, advertising or data sales, and it does not market
+      other events to an organiser's attendees.
+
+      Organisers can export attendee lists as CSV, download the whole
+      database, read the source code and run it on their own
+      infrastructure. In return they give up a discovery marketplace,
+      reserved seating plans, an organiser mobile app and telephone support,
+      which some other platforms offer.
 ---

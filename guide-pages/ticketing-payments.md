@@ -80,10 +80,16 @@ blocks:
       ## Why the platform price does not follow sales
 
       Chobble Tickets is paid for hosting in advance: £50 a year or £5 a
-      month, with a £25 annual rate for charities, community groups,
-      artists and musicians. Because the income is that flat price rather
-      than a share of sales, the platform costs the same at ten tickets or
-      at ten thousand.
+      month, or half that for charities, community groups, artists and
+      musicians. Because the income is that flat price rather than a share
+      of sales, the platform costs the same at ten tickets or at ten
+      thousand.
+
+      The price follows the work, not the takings. Chobble hosts the site,
+      updates it and answers support questions, and none of that grows when
+      a ticket price doubles. A share of each sale would pay Chobble for
+      sitting between the buyer and the organiser, which is the model
+      Chobble Tickets is built to replace.
 
       The [Stripe, Square and SumUp page](/features/stripe-and-square/)
       describes how to connect an account, what happens when a payment

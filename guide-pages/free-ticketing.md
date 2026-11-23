@@ -69,8 +69,8 @@ blocks:
         [contact page](https://www.chobble.com/contact). The trial site has
         every feature switched on.
       - **The community rate.** Charities, community groups, artists and
-        musicians pay half the annual price, £25 a year. The discount
-        applies to annual billing, not to monthly billing.
+        musicians pay half price: £25 for a year, or £2.50 for a single
+        month, so an event that sells within one month costs £2.50 to host.
       - **Self-hosting.** The complete product is published under the
         AGPL-3.0 licence, so the software costs nothing. A
         self-hosted operator pays instead for a server, an email provider

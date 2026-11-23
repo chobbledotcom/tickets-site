@@ -30,8 +30,8 @@ blocks:
       for example, Stripe's standard UK card rate is 1.5% + 20p per transaction.
 
       Monthly billing works out at £60 over a year, which is £10 more than the
-      annual rate. The difference covers the extra Stripe transaction fees on
-      the additional charges and the admin overhead of failed payments.
+      annual rate. The difference covers the card fee on each of the twelve
+      separate payments.
 
       Charities, community groups, artists, and musicians pay £25/year or £2.50/month, a 50% discount on either billing period.
       If you self-host, Chobble charges no software licence fee. The operator
@@ -45,6 +45,12 @@ blocks:
       The managed-hosting fee covers the ticketing software, infrastructure,
       updates, backup tools and written support. Chobble does not vary that fee
       by ticket volume or ticket value.
+
+      That is the reason there is no per-ticket fee. Hosting a site costs
+      Chobble about the same whether it sells 50 tickets or 5,000, so
+      charging per ticket would mean taking a cut of the organiser's sales
+      for no extra work. Chobble Tickets is built to be paid for the service
+      it provides, not for standing between an organiser and their buyers.
 
       Payment providers still charge for processing each transaction. Those
       charges vary by provider, card type and country. Organisers can compare

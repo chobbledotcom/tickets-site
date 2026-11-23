@@ -200,6 +200,24 @@ blocks:
       - Would a lower fee, a charity rate, or donating directly send more
         money to the cause than the pledge does?
 
+      ### Chobble Tickets' answers
+
+      - Chobble adds nothing to a ticket. The organiser pays £50 a year or
+        £5 a month for hosting, and the payment provider charges its own
+        fee on each payment, such as 1.5% + 20p on a UK Stripe card.
+      - The organiser pays the hosting. Chobble adds no booking fee to the
+        price an attendee pays.
+      - There is no pledge on ticket sales, because Chobble takes no share
+        of them. Chobble donates 10% of its own income to the
+        [Against Malaria Foundation](https://www.againstmalaria.com).
+      - That donation is measured on Chobble's income, not on profit left
+        after its costs.
+      - Chobble CIC has no shares, so nobody can buy control of it, and its
+        asset lock stays in place whoever runs it.
+      - Charities, community groups, artists and musicians pay £25 a year
+        or £2.50 a month, and their ticket income goes straight to their own
+        payment account.
+
       The [ethical ticket sales options guide](/guide/choosing-a-ticket-platform/ethical-ticket-sales-options/)
       lists the documented structures, funding models and source licences of
       the providers named here. The [how ticketing platforms disguise their

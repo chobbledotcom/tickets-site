@@ -95,7 +95,7 @@ blocks:
         description: Take whole-day or multi-day room bookings with date-range capacity, questions, deposits and maintenance holds.
         name: <a href="/perfect-for/venue-hire/">Venue and room hire</a>
       - icon: hugeicons:heart-check
-        description: Charities and community groups receive a reduced annual price and can collect donations or sell raffle entries.
+        description: Charities and community groups pay half price, yearly or monthly, and can collect donations or sell raffle entries.
         name: <a href="/perfect-for/charity-events/">Charity events and fundraising</a>
       - icon: hugeicons:balloons
         description: Collect parent details, manage capacity and send QR code tickets for free or paid children's parties.

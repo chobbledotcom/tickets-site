@@ -67,6 +67,26 @@ blocks:
       [chobble.com/principles](https://www.chobble.com/principles).
   - type: markdown
     content: |
+      ## What "own, not rent" means for Chobble Tickets
+
+      Most large ticketing platforms earn money by sitting between
+      organisers and their buyers: a share of each sale, booking fees added
+      at checkout, or access to the audience they have gathered. That
+      income comes from controlling the route a sale has to take, rather
+      than from work done, which is what economists call rent.
+
+      Chobble Tickets is built as an alternative to that model. Chobble is
+      paid for the service it provides, which is hosting a site, keeping it
+      updated and supporting the organiser. It takes nothing from ticket
+      sales, keeps no features behind a higher tier, and leaves its name
+      off organisers' sites.
+
+      The other choices follow from the same idea. The code is open so
+      anyone can run it without paying Chobble, terms are prepaid so each
+      one is bought on purpose, and the company has no shareholders who
+      could later sell it to someone with different plans.
+  - type: markdown
+    content: |
       ## Chobble as a community interest company
 
       Chobble is registered as Chobble CIC, a

@@ -149,8 +149,8 @@ blocks:
       Some parts of the product are built around British conventions:
 
       - **Hosting priced in pounds.** Chobble Tickets costs £50/year or
-        £5/month, with a £25 annual price for charities, community groups,
-        artists and musicians. The hosting invoice is in pounds whatever
+        £5/month, falling to £25/year or £2.50/month for charities,
+        community groups, artists and musicians. The hosting invoice is in pounds whatever
         currency a site sells in, and each site's own country and currency are
         chosen during setup.
       - **[Postcode lookup](/features/postcode-lookup/).** Customers type a UK

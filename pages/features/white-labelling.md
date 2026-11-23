@@ -27,6 +27,11 @@ blocks:
       Chobble or self-hosted. Some platforms sell branding removal as a paid add-on or
       restrict it to a higher plan.
 
+      A platform's name on every ticket and checkout advertises the platform
+      to every attendee, and turns the organiser's audience into the
+      platform's audience. Chobble is paid by organisers for hosting, not
+      for the attention of their attendees, so it leaves its name off.
+
       The public site carries no Chobble branding anywhere. The only Chobble
       link in the product is in the footer of the administration area, which
       only logged-in staff see. The Chobble name appears in the default web

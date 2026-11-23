@@ -260,6 +260,23 @@ blocks:
       - What subscription, licence or branding requirement sits underneath the
         headline?
 
+      ### How Chobble Tickets answers them
+
+      - The only charge from Chobble is the hosting price, £50 a year or £5 a
+        month. The organiser's payment provider adds its own processing fee.
+      - The organiser pays it. Attendees pay the ticket price the organiser
+        sets, with no Chobble booking fee added.
+      - Free and paid events cost the same, because the price does not depend
+        on what a site sells.
+      - There is no charity pledge on bookings. Chobble gives 10% of its
+        income to the Against Malaria Foundation.
+      - There is no flat fee per ticket, so the share of a cheap ticket is
+        nothing.
+      - A prepaid term's price cannot change once it is paid. If a later
+        price rose, the AGPL-3.0-only code can run on another host.
+      - There is no subscription, no licence fee for the software, and no
+        branding requirement on the organiser's site.
+
       The [where ticketing money goes](/guide/choosing-a-ticket-platform/where-ticketing-money-goes/)
       guide lists the published rates and pledges behind these patterns. The
       [flat-rate ticketing](/guide/choosing-a-ticket-platform/flat-rate-ticketing/)

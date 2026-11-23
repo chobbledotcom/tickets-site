@@ -66,7 +66,7 @@ blocks:
       Chobble Tickets charges a flat £50/year or £5/month with no
       per-booking fees, and payments go directly to your own Stripe,
       Square, or SumUp account. Charities and community groups get a 50%
-      discount on the annual price.
+      discount whether they pay by the year or by the month.
     figure_items:
       - icon: hugeicons:link-04
         text: Require a materials kit with the course booking.

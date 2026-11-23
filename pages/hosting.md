@@ -79,6 +79,8 @@ blocks:
       | Email provider settings | Organiser | Organiser |
 
       Managed hosting is intended for organisers who want to use the software without maintaining its deployment. Self-hosting is intended for people who are comfortable with databases, environment variables and deployment services.
+
+      Self-hosting pays Chobble nothing because Chobble does none of the work. The managed price pays for running the site, updating it and supporting the organiser, so whoever takes on that work keeps the saving.
   - type: markdown
     dark: true
     content: |
