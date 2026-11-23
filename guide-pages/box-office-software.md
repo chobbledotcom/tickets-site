@@ -40,7 +40,7 @@ blocks:
         list
       - Reports that record ticket income, door money and the costs of an
         event in one place, for the treasurer or accountant
-  - type: markdown
+  - type: split-image
     content: |
       ## How Chobble Tickets covers it
 
@@ -61,6 +61,9 @@ blocks:
       [exports as CSV](/features/csv-export/) for accounting.
       [Refunds](/features/refunds/) can be issued for one booking or in
       bulk, including on the night.
+    figure_src: /images/screenshots/door-list-check-in.png
+    figure_alt: Attendee list for a comedy night, with Check out buttons beside four people who have arrived and a Check in button beside one still to come
+    figure_caption: The door list on the night. Four of the five bookings are checked in, and the last can be checked in from the same list.
   - type: markdown
     dark: true
     content: |

@@ -39,7 +39,7 @@ blocks:
       - A list the organiser can print, export or check people in from
       - Control over what contact details are collected, and when they
         are deleted
-  - type: markdown
+  - type: split-image
     content: |
       ## How Chobble Tickets handles it
 
@@ -63,6 +63,9 @@ blocks:
       [erased on request](/features/privacy-controls/). Chobble does not
       email attendees about other events or build audience profiles from
       their data.
+    figure_src: /images/screenshots/free-registration-with-questions.png
+    figure_alt: Registration form for a free library talk, with an access requirements answer, a question about how the person heard of the talk and a £0 total
+    figure_caption: Registration for a free talk, with two booking questions and nothing to pay.
   - type: markdown
     dark: true
     content: |

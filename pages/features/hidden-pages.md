@@ -15,7 +15,7 @@ blocks:
 
       Tick Hidden on a page and the menus stop offering it, while it stays at
       its address. Anyone with the link can still read it.
-  - type: markdown
+  - type: split-image
     content: |
       ## Off the menus is not taken down
 
@@ -23,8 +23,9 @@ blocks:
       decisions. The page editor has a Hidden box. Tick it and no menu offers
       the page, but a visitor reading its address sees it as normal.
 
-      A hidden page also stays out of the site's sitemap, so search engines
-      are never pointed at it. Finding the page means having its address.
+      A hidden page also stays out of the site's sitemap, and the page asks
+      search engines not to list it. Finding the page means having its
+      address.
 
       ## What organisers use it for
 
@@ -35,6 +36,9 @@ blocks:
 
       Hidden pages work the same on managed hosting and on a self-hosted
       copy, like every other feature.
+    figure_src: /images/screenshots/page-hidden-from-menus.png
+    figure_alt: The page editor for a Directions page, with the Hidden box ticked beside the words Keep this page off menus
+    figure_caption: The Hidden box in the page editor. The Directions page keeps its public address, /page/how-to-find-us.
   - type: markdown
     content: |
       ## Where the idea came from

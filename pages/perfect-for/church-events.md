@@ -26,7 +26,7 @@ blocks:
         label: Attendee details in the database
       - value: One ledger
         label: Ticket income, door money and costs
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## Concerts, fundraisers and groups
 
@@ -45,13 +45,9 @@ blocks:
       dietary needs at a fundraising meal, or collect helper availability
       on a volunteer rota. Answers appear with each booking and in the
       [CSV exports](/features/csv-export/).
-    figure_items:
-      - icon: hugeicons:calendar-03
-        text: One listing, capacity for every date.
-      - icon: hugeicons:user-question-01
-        text: Dietary and access questions at booking.
-      - icon: hugeicons:coins-01
-        text: Free sign-ups need no payment provider.
+    figure_src: /images/screenshots/church-fundraiser-supper.png
+    figure_alt: Booking form for a parish harvest supper at St Barnabas Church Hall, with two £12 places and Vegetarian chosen as the dietary requirement
+    figure_caption: A fundraising supper's booking form asks about dietary requirements before checkout, and the church sees the answer with the booking.
   - type: split-icon-links
     content: |
       ## Running the event

@@ -48,8 +48,8 @@ describe("page image scenario coverage", () => {
   test("documents every image-less rendered content page", () => {
     expect(documentedFiles).toEqual(imageLessFiles);
     expect(contentFiles).toHaveLength(197);
-    expect(imageLessFiles).toHaveLength(116);
-    expect(completedFiles).toHaveLength(35);
+    expect(imageLessFiles).toHaveLength(111);
+    expect(completedFiles).toHaveLength(40);
     expect(completedFiles.every((filePath) => !imageLessFiles.includes(filePath))).toBe(
       true,
     );

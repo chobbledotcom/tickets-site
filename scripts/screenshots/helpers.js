@@ -10,11 +10,20 @@ export const listingIdFrom = async (page, name) => {
   return id;
 };
 
+/**
+ * The Tickets app names its form fields in camelCase, with any number joined
+ * straight on: max_attendees is maxAttendees and quantity_12 is quantity12.
+ * Scenarios may still write the older snake_case names, so every name a helper
+ * fills goes through this.
+ */
+export const formName = (name) =>
+  name.replace(/_([a-z0-9])/g, (_, next) => next.toUpperCase());
+
 export const setFormValues = async (page, formSelector, values) => {
   const form = page.locator(formSelector);
   for (const [field, value] of Object.entries(values)) {
     await form
-      .locator(`[name="${field}"]`)
+      .locator(`[name="${formName(field)}"]`)
       .first()
       .evaluate(
         (input, nextValue) => Reflect.set(input, "value", nextValue),
@@ -47,7 +56,7 @@ export const addListingMoney = async (
   const formSelector = `form[action="${path}"]`;
   await setFormValues(context.page, formSelector, {
     amount,
-    entry_type: entryType,
+    entryType,
   });
   await context.submit(formSelector);
   const resultPath = new URL(context.page.url()).pathname;
@@ -67,21 +76,22 @@ export const createAttendee = async (
   const formSelector = 'form[action="/admin/attendees/new"]';
   const form = page.locator(formSelector);
   const lineFieldName = await form
-    .locator(`[name^="line_listing_"][value="${listingId}"]`)
+    .locator(`[name^="lineListing"][value="${listingId}"]`)
     .getAttribute("name");
-  const lineIndex = lineFieldName?.match(/^line_listing_(\d+)$/)?.[1];
+  const lineIndex = lineFieldName?.match(/^lineListing(\d+)$/)?.[1];
   if (!lineIndex) throw new Error(`Could not find attendee line ${listingId}.`);
-  const statusId = await form.locator('[name="status_id"]').inputValue();
+  const statusId = await form.locator('[name="statusId"]').inputValue();
   if (!statusId) throw new Error("Could not find the attendee status.");
   await setFormValues(page, formSelector, {
     ...values,
-    [`qty_${lineIndex}`]: quantity,
-    status_id: statusId,
+    [`qty${lineIndex}`]: quantity,
+    statusId,
   });
   await submit(formSelector);
   const attendeeId = page.url().match(/\/admin\/attendees\/(\d+)/)?.[1];
   if (!attendeeId) {
-    throw new Error(`Could not create attendee for ${listingId}.`);
+    const message = await page.locator("main").textContent();
+    throw new Error(`Could not create attendee for ${listingId}: ${message}`);
   }
   return attendeeId;
 };
@@ -97,7 +107,7 @@ export const createListing = async (
   for (const [field, values] of Object.entries(choices)) {
     for (const value of values) {
       await form
-        .locator(`[name="${field}"][value="${value}"]`)
+        .locator(`[name="${formName(field)}"][value="${value}"]`)
         .evaluate((input) => Reflect.set(input, "checked", true));
     }
   }
@@ -182,7 +192,7 @@ export const setRequiredChildren = async (
   await page.goto(`/admin/listing/${parentId}/edit`);
   for (const childId of childIds) {
     await page
-      .locator(`${form} [name="child_listing_ids"][value="${childId}"]`)
+      .locator(`${form} [name="childListingIds"][value="${childId}"]`)
       .check();
   }
   await submit(form);
@@ -203,7 +213,7 @@ export const createQuestion = async (
   await page.goto("/admin/questions");
   const createForm = 'form[action="/admin/questions"]';
   await setFormValues(page, createForm, {
-    display_type: displayType,
+    displayType,
     text,
   });
   await submit(createForm);
@@ -217,7 +227,7 @@ export const createQuestion = async (
   if (assignAll) {
     const listingsForm = `form[action="/admin/questions/${questionId}/listings"]`;
     await page
-      .locator(`${listingsForm} [name="assign_all"]`)
+      .locator(`${listingsForm} [name="assignAll"]`)
       .evaluate((input) => Reflect.set(input, "checked", true));
     await submit(listingsForm);
   }
@@ -232,7 +242,7 @@ export const createGroup = async (
   await setFormValues(page, 'form[action="/admin/groups"]', { name });
   if (isPackage) {
     await page
-      .locator('form[action="/admin/groups"] [name="is_package"][value="1"]')
+      .locator('form[action="/admin/groups"] [name="isPackage"][value="1"]')
       .evaluate((input) => Reflect.set(input, "checked", true));
   }
   await submit('form[action="/admin/groups"]');
@@ -240,7 +250,7 @@ export const createGroup = async (
   if (!groupId) throw new Error(`Could not find group: ${name}`);
   for (const listingId of listingIds) {
     await page
-      .locator(`[name="listing_ids"][value="${listingId}"]`)
+      .locator(`[name="listingIds"][value="${listingId}"]`)
       .evaluate((input) => Reflect.set(input, "checked", true));
   }
   await submit(`form[action="/admin/groups/${groupId}/add-listings"]`);
@@ -256,7 +266,7 @@ export const openFilledGroupCheckout = async (
   await page.locator('[name="name"]').fill(name);
   await page.locator('[name="email"]').fill(email);
   for (const [listingId, quantity] of quantities) {
-    await page.locator(`[name="quantity_${listingId}"]`).selectOption(quantity);
+    await page.locator(`[name="quantity${listingId}"]`).selectOption(quantity);
   }
   await waitForOrderTotal(page, expectedTotal);
 };
@@ -269,8 +279,8 @@ export const createModifier = async (
   const formSelector = 'form[action="/admin/modifiers"]';
   const form = page.locator(formSelector);
   const values = {
-    calc_kind: calcKind,
-    calc_value: value,
+    calcKind,
+    calcValue: value,
     code,
     direction,
     name,

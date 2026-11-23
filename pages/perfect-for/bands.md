@@ -38,7 +38,7 @@ blocks:
         label: Tickets and merch paid for together
       - value: Your CSS
         label: Colours, fonts and spacing you write
-  - type: split-icon-links
+  - type: split-image
     content: |
       ## Tickets and merch in the same system
 
@@ -58,13 +58,9 @@ blocks:
       A capacity on a product listing works as a stock limit, so 40 copies
       of a record stop selling at 40. Each listing can carry several
       pictures.
-    figure_items:
-      - icon: hugeicons:ticket-01
-        text: Gigs with QR code tickets.
-      - icon: hugeicons:package
-        text: Shirts and records, with a delivery address.
-      - icon: hugeicons:shopping-cart-01
-        text: One order, paid once.
+    figure_src: /images/screenshots/band-ticket-and-merch-order.png
+    figure_alt: A band's checkout in its own colours, with a £20 tour shirt and a £12 gig ticket in one £32 order and a delivery address filled in
+    figure_caption: A gig ticket and a tour shirt in one order. Custom CSS gives the checkout the band's colours, and the £32 total has nothing added by Chobble.
   - type: split-icon-links
     reverse: true
     content: |

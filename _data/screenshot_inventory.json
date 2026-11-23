@@ -28,6 +28,10 @@
     "captureId": "backup-restore"
   },
   {
+    "key": "band-ticket-and-merch-order",
+    "classification": "legacy-product-screenshot"
+  },
+  {
     "key": "bulk-email",
     "classification": "legacy-product-screenshot"
   },
@@ -80,6 +84,10 @@
     "classification": "editorial"
   },
   {
+    "key": "church-fundraiser-supper",
+    "classification": "legacy-product-screenshot"
+  },
+  {
     "key": "confirmation-email-template-editor",
     "classification": "legacy-product-screenshot"
   },
@@ -101,6 +109,10 @@
     "captureId": "balance-payment-link"
   },
   {
+    "key": "door-list-check-in",
+    "classification": "legacy-product-screenshot"
+  },
+  {
     "key": "duplicate-event",
     "classification": "legacy-product-screenshot"
   },
@@ -117,6 +129,10 @@
     "key": "free-headcount-no-money",
     "classification": "linked-evidence",
     "captureId": "free-headcount-no-money"
+  },
+  {
+    "key": "free-registration-with-questions",
+    "classification": "legacy-product-screenshot"
   },
   {
     "key": "grassroots-venue-door-list",
@@ -249,6 +265,10 @@
     "key": "packages",
     "classification": "linked-evidence",
     "captureId": "bundle-booking-page"
+  },
+  {
+    "key": "page-hidden-from-menus",
+    "classification": "legacy-product-screenshot"
   },
   {
     "key": "parent-child-listings",
