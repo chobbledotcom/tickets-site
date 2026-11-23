@@ -2,22 +2,22 @@
 	{
 		"section": "Pricing and fees",
 		"question": "Which ticketing platforms don't charge per-ticket fees?",
-		"answer": "Ticketing providers use percentage, fixed per-ticket, subscription and voluntary-contribution models. Chobble Tickets charges a flat managed-hosting price with no per-ticket platform fee.</p><p><a href=\"/pricing/\">Managed hosting</a> is £50/year or £5/month. Money from ticket sales goes directly to the organiser's <a href=\"/features/stripe-and-square/\">Stripe, Square or SumUp account</a>, which charges its normal processing fee. The <a href=\"/compared-to/compare-all/\">platform comparison</a> documents the assumptions used for other providers."
+		"answer": "Among the platforms reviewed on this site, these charge no fee of their own on each ticket sold:</p><ul><li><strong>Chobble Tickets</strong>: one flat price of £50/year or £5/month, or £25/year or £2.50/month for charities, community groups, artists and musicians, with every feature included.</li><li><strong><a href=\"/compared-to/tickts/\">tickts</a></strong>: a free plan with no commission, and paid plans of up to £690 a year for more features.</li><li><strong><a href=\"/compared-to/event-schedule/\">Event Schedule</a></strong>: a free plan capped at 25 paid tickets a month, then US$5 or US$15 a month.</li><li><strong><a href=\"/compared-to/bookwhen/\">Bookwhen</a></strong>: monthly plans priced by how many bookings you take.</li><li><strong><a href=\"/compared-to/tessera-tickets/\">Tessera Tickets</a></strong>: monthly plans that rise with yearly ticket volume.</li><li><strong><a href=\"/compared-to/zeffy/\">Zeffy</a></strong> and <strong><a href=\"/compared-to/dandelion/\">Dandelion</a></strong>: no compulsory fee, with buyers asked for a voluntary contribution instead. Zeffy is only for registered nonprofits.</li><li><strong><a href=\"/compared-to/fooevents/\">FooEvents</a></strong> and <strong><a href=\"/compared-to/eventprime/\">EventPrime</a></strong>: paid plugins for a WordPress site you run yourself.</li><li><strong><a href=\"/compared-to/sumup-store/\">SumUp Online Store</a></strong>: no platform fee, but each online payment costs 2.5%.</li></ul><p>No per-ticket fee does not always mean a fixed price. Booking allowances and volume tiers can still raise the bill as sales grow, while the Chobble Tickets price stays the same at any volume. The <a href=\"/compared-to/providers/\">provider directory</a> can be filtered to platforms with no per-ticket fee."
 	},
 	{
 		"section": "Pricing and fees",
 		"question": "How much does Eventbrite charge per ticket?",
-		"answer": "Eventbrite charges organisers a percentage-based fee on each paid ticket, plus a fixed fee per ticket. In the UK this is typically 6.95% + £0.59 per ticket. For a £15 ticket, that means £1 to £2 goes to Eventbrite on each sale. You can see a detailed breakdown on the <a href=\"/compared-to/eventbrite/\">Eventbrite comparison page</a>. Chobble Tickets charges no per-ticket platform fee. <a href=\"/pricing/\">Managed hosting</a> is £50/year or £5/month regardless of how many tickets you sell."
+		"answer": "In the UK, Eventbrite charges 6.95% + £0.59 on each paid ticket, and that includes card processing. On a £15 ticket the fee is £1.63. Free events carry no fee. These figures were checked on 8 August 2026.</p><p>Chobble Tickets charges no fee per ticket. <a href=\"/pricing/\">Managed hosting</a> is £50/year or £5/month, and the organiser's Stripe account charges 1.5% + 20p per payment, which is about 43p on a £15 ticket. Selling £15 tickets one per order, the £50 is covered after about 42 tickets a year. The <a href=\"/compared-to/eventbrite/\">Eventbrite comparison</a> covers the other differences."
 	},
 	{
 		"section": "Pricing and fees",
 		"question": "What is the cheapest ticketing platform for small events?",
-		"answer": "It depends on ticket volume, ticket value, order size and the features required. A provider with no annual cost may cost less for one small event, while a flat hosting fee may cost less as sales increase. <a href=\"/pricing/\">Chobble managed hosting</a> costs £50/year or £5/month. Charities, community groups, artists and musicians pay £25/year or £2.50/month. The <a href=\"/compared-to/compare-all/\">platform comparison</a> shows estimated costs and its assumptions."
+		"answer": "For one small event, a short sales window usually costs least. One month of Chobble Tickets managed hosting costs £5, or £2.50 for charities, community groups, artists and musicians, with no per-ticket fee.</p><p>As an example, take 50 single-ticket orders at £10 sold within one month. On Chobble Tickets that costs £5 for hosting plus £17.50 in Stripe charges, which is £22.50 in total. The same sales on Eventbrite's UK pricing cost £64.25.</p><p>Some platforms cost nothing at very small volumes. <a href=\"/compared-to/zeffy/\">Zeffy</a> charges registered nonprofits nothing and asks buyers for a voluntary tip, and <a href=\"/compared-to/event-schedule/\">Event Schedule</a>'s free plan allows 25 paid tickets a month. The <a href=\"/compared-to/compare-all/\">fee calculator</a> works out the cost for your own ticket numbers."
 	},
 	{
 		"section": "Pricing and fees",
 		"question": "Why does Chobble charge a flat fee instead of per-ticket commission?",
-		"answer": "Chobble uses a fixed-price business model. The £50/year or £5/month managed-hosting fee covers the software, infrastructure, updates, backup tools and written support. It does not change with ticket volume or ticket value. Payment providers still charge their own transaction fees. See the <a href=\"/features/no-per-ticket-fees/\">worked pricing examples</a>."
+		"answer": "Running a ticket site is the same work whatever the tickets cost. Hosting, updates, backups and support do not cost more when an event sells £50 tickets instead of £5 tickets, so the price does not change either.</p><p>A commission ties a platform's income to the size of its customers' sales, so the platform earns more by raising its percentage or adding booking fees. A flat fee leaves Chobble's income resting on one thing: whether organisers choose to pay for another term. That keeps the incentive on running a service worth renewing.</p><p>Payment providers still charge their own fees. The <a href=\"/features/no-per-ticket-fees/\">worked pricing examples</a> compare the totals."
 	},
 	{
 		"section": "Pricing and fees",
@@ -37,22 +37,22 @@
 	{
 		"section": "Pricing and fees",
 		"question": "What happens if I stop paying for Chobble Tickets?",
-		"answer": "Your site goes into read-only mode once the paid period ends. Read-only means no new events, no new bookings, and no new attendees added through the admin area. Existing tickets keep working: attendees can still check in with their QR codes, the public event page still loads, and confirmation emails for past bookings still send. You can still log in, view your data, and <a href=\"/features/csv-export/\">export attendee lists as CSV</a> at any time. Read-only mode lasts for 24 months, with no back-payment owed for that period, and you can restart payments at any time to return the site to full operation. Chobble emails reminders during that period asking you to export your data. After 24 months in read-only mode, the site and its database are deleted. The deletion is permanent, and 30 days after deletion any remaining encrypted backup is also removed. See the <a href=\"/features/prepay-hosting/\">prepay hosting</a> page for the full billing model."
+		"answer": "When the paid term ends, the site goes into read-only mode. Nobody can create new events, bookings or attendees, through the admin area or the public site. Existing tickets keep working: attendees can open their confirmation page, show their QR code at the door, and add a pass to Apple or Google Wallet.</p><p>You can still log in, view every record, <a href=\"/features/csv-export/\">export attendee lists as CSV</a> and <a href=\"/features/backups/\">download a full database backup</a>. Read-only mode lasts 24 months, Chobble sends reminders during that time, and no payment is owed for those months. Paying for a new term at any point returns the site to normal.</p><p>After 24 months in read-only mode, the site and its database are deleted permanently, and any remaining encrypted backup is removed 30 days later. The <a href=\"/features/prepay-hosting/\">prepay hosting</a> page explains the billing model."
 	},
 	{
 		"section": "Pricing and fees",
 		"question": "When do I receive the money from ticket sales?",
-		"answer": "Money from ticket sales goes directly to your <a href=\"/features/stripe-and-square/\">Stripe, Square, or SumUp account</a>. Chobble never holds the funds and does not take a cut. Payout timing is set by your payment processor. Stripe typically pays out within 2 to 7 days in the UK, and you can adjust the schedule from your Stripe dashboard. Square has its own schedule, set in your Square account."
+		"answer": "Ticket money goes straight from the buyer to your own <a href=\"/features/stripe-and-square/\">Stripe, Square or SumUp account</a>. Chobble never holds it and takes no share of it. Your payment provider decides when it pays out to your bank, and its dashboard shows the payout schedule."
 	},
 	{
 		"section": "Data privacy and security",
 		"question": "Is my attendee data safe?",
-		"answer": "Chobble Tickets <a href=\"/features/encrypted/\">encrypts</a> all personally identifiable information at rest using hybrid RSA-OAEP + AES-256-GCM encryption. Names, emails, phone numbers, and addresses are encrypted before they are written to the database. Even if someone gained access to the database, they could not read the data without the encryption keys. Payment identifiers and API credentials are also encrypted with AES-256-GCM, and passwords are hashed with PBKDF2 using 600,000 iterations. The platform also includes CSRF protection, rate limiting on login attempts, and session tokens with 24-hour expiry."
+		"answer": "Chobble Tickets <a href=\"/features/encrypted/\">encrypts</a> attendees' personal details before saving them. Names, emails, phone numbers, addresses, payment identifiers and free-text answers are stored in a form that only your keyed admin accounts can unlock. Someone who copied the database would see only unreadable text.</p><p>Each admin user has their own login. Passwords are protected with PBKDF2 at 600,000 iterations, which makes them slow to guess, login attempts are rate limited, and login sessions end after 24 hours. The encryption uses RSA-OAEP with AES-256-GCM, and the <a href=\"/features/encrypted/\">encryption page</a> explains how it works."
 	},
 	{
 		"section": "Data privacy and security",
 		"question": "Can Chobble read my attendees' personal information?",
-		"answer": "On managed hosting, the application decrypts attendee data when an authorised keyed user needs it. Chobble does not use attendee records for advertising or event marketing. An optional recovery owner can also decrypt protected fields if the organiser enables it. On an independently self-hosted site, Chobble has no operational access unless the operator grants it."
+		"answer": "Not in normal use. Attendee details are stored encrypted, Chobble staff do not receive the passwords to organisers' accounts, and the server unlocks the data only while one of your keyed users is signed in. The key is discarded when that session ends.</p><p>Chobble can read the data in two cases: if you give Chobble its own login, or if you enable a recovery owner. A recovery owner's credentials are emailed to the recovery address set by the host, and on managed hosting Chobble is the host.</p><p>Chobble runs the servers for managed sites, so organisers rely on it running the published code. An organiser who does not want to rely on that can <a href=\"/hosting/\">self-host</a>, and Chobble then has no operational access unless the operator grants it."
 	},
 	{
 		"section": "Data privacy and security",
@@ -67,7 +67,7 @@
 	{
 		"section": "Data privacy and security",
 		"question": "What happens if I lose my admin password?",
-		"answer": "Without another keyed owner or an enabled recovery owner, losing the last keyed administrator password makes the encrypted attendee data inaccessible. A password reset cannot recreate the private key protected by that password. Keep a secure backup of owner credentials before adding bookings."
+		"answer": "Without another keyed owner or an enabled recovery owner, losing the last keyed administrator password makes the encrypted attendee data inaccessible. A password reset cannot recreate the private key protected by that password. To avoid this, add a second keyed owner or enable a recovery owner before taking bookings."
 	},
 	{
 		"section": "Data privacy and security",
@@ -82,7 +82,7 @@
 	{
 		"section": "Open source and self-hosting",
 		"question": "Why is Chobble Tickets open source?",
-		"answer": "The complete product source is published on <a href=\"https://github.com/chobbledotcom/tickets\">GitHub</a> under AGPL-3.0-only. The licence permits people to inspect, fork, modify and run the software subject to its terms. Managed hosting and self-hosted deployments use the same product code, with no separate proprietary feature tier."
+		"answer": "Chobble's view is that a real alternative to Ticketmaster and the other large platforms has to commit to several things at once, and open source is one of them. The source code is published under AGPL-3.0-only, so anyone can read, run and change it. Anyone who offers a changed version as an online service must publish their changes too.</p><p>Chobble is a <a href=\"/about/\">community interest company</a> with an asset lock and no shareholders, so the code cannot be sold to a private owner. Every site is white-labelled under the organiser's own name and domain, with no shared marketplace. Because anyone can host the software, no single company sits between every organiser and their attendees.</p><p>Each of these on its own can be undone or worked around. An open licence does not stop the copyright holder closing future versions, and a company without an asset lock can be sold. Together they remove what the decline Cory Doctorow calls <a href=\"/features/enshittification-resistant-ticket-sales/\">enshittification</a> depends on: an exit that is costly for organisers, and an owner who can be paid out at the end.</p><p><a href=\"/features/cannot-go-closed-source/\">Why Chobble Tickets cannot go closed source</a> sets out each protection."
 	},
 	{
 		"section": "Open source and self-hosting",
@@ -92,22 +92,22 @@
 	{
 		"section": "Open source and self-hosting",
 		"question": "Is self-hosting difficult?",
-		"answer": "It depends on the deployment method. The recommended approach requires a Bunny account, database, edge script, repository fork and deployment secrets. Docker deployments require the operator to maintain a compatible host and database. Managed hosting is available for organisers who do not want to maintain those systems."
+		"answer": "It needs some technical confidence but no programming. The recommended route has five documented steps: fork the GitHub repository, create a Bunny database, create a Bunny edge script linked to the fork, add its secrets in the Bunny dashboard, and add two secrets to the GitHub repository so updates deploy automatically. Docker and other Deno hosts also work, but the operator then keeps the server and database running.</p><p>Once the site is live, the operator is responsible for updates, backups and fixing problems. The repository publishes the instructions a <a href=\"/features/coding-agents/\">coding agent</a> needs, so an agent can carry out the deployment. <a href=\"/pricing/\">Managed hosting</a> is there for organisers who would rather not do any of this."
 	},
 	{
 		"section": "Open source and self-hosting",
 		"question": "What happens to my ticketing if Chobble shuts down?",
-		"answer": "The software is published under AGPL-3.0-only, so a copy of the repository can be run independently of Chobble. An existing self-hosted deployment does not depend on Chobble's managed service. A managed-hosting customer would need to arrange infrastructure and migrate to an independently maintained deployment."
+		"answer": "The software carries on. The code is published under AGPL-3.0-only, so anyone can run it, and Chobble CIC's asset lock restricts how its assets can be transferred, including if the company is wound up. Self-hosted sites do not depend on Chobble at all.</p><p>A managed-hosting organiser can <a href=\"/features/backups/\">download a full database backup</a> at any time, and the backup restores onto another host with one command. Event setup can also be <a href=\"/features/catalogue-import-export/\">exported as versioned JSON</a> and imported into any other Chobble Tickets site. A site on the organiser's <a href=\"/features/custom-domain/\">own domain</a> can point that domain at the new host and keep the same web address."
 	},
 	{
 		"section": "Open source and self-hosting",
 		"question": "Can I switch away from Chobble Tickets?",
-		"answer": "Yes, and the platform is designed to make this straightforward. You can <a href=\"/features/csv-export/\">export your attendee data as CSV</a> at any time. The codebase is open source, so you can fork it and run it independently. There are no long-term contracts and no exit fees. One of <a href=\"https://www.chobble.com/principles\">Chobble's principles</a> is honesty: if another provider would suit you better, Chobble's position is that you should use them. The platform does not create lock-in through proprietary data formats, mandatory contracts, or features that only work inside Chobble."
+		"answer": "Yes. There is no contract and no exit fee, and a prepaid term ends on its own if you do not renew it. Before leaving, you can <a href=\"/features/csv-export/\">export attendee lists as CSV</a>, <a href=\"/features/backups/\">download the whole database</a>, and <a href=\"/features/catalogue-import-export/\">export events as versioned JSON</a>.</p><p>The CSV files open in any spreadsheet, so the records can go to any other platform. The database backup and JSON exports load into another Chobble Tickets host, including one you run yourself. A site on your <a href=\"/features/custom-domain/\">own domain</a> can move without changing the address attendees already have."
 	},
 	{
 		"section": "Open source and self-hosting",
 		"question": "What is a community interest company?",
-		"answer": "A community interest company (CIC) is a UK company structure for organisations that work for community benefit. Chobble CIC, company number 17050113, is limited by guarantee without share capital and has an asset lock. It reports on its community benefit activities. Chobble receives income from managed hosting and technical work rather than advertising or attendee data sales."
+		"answer": "A community interest company (CIC) is a UK company structure for organisations that work for community benefit. Chobble CIC, company number 17050113, is limited by guarantee without share capital and has an asset lock. It reports on its community benefit activities. Chobble receives income from managed hosting and technical work rather than advertising or attendee data sales. Because it has no shareholders, nobody can be paid out by selling the company or closing its software."
 	},
 	{
 		"section": "Features and customisation",
@@ -117,17 +117,17 @@
 	{
 		"section": "Features and customisation",
 		"question": "Can I send emails from my own domain?",
-		"answer": "Yes. Chobble Tickets supports four <a href=\"/features/email-providers/\">email providers</a>: Resend, Postmark, SendGrid, and Mailgun. You configure your own account with one of these providers, and confirmation emails are sent from your domain with your branding. <a href=\"/features/email-templates/\">Email templates</a> are customisable using Liquid syntax, with built-in filters for formatting currencies and pluralisation."
+		"answer": "Yes. Chobble Tickets supports five <a href=\"/features/email-providers/\">email providers</a>: Resend, Postmark, SendGrid, Mailgun (US) and Mailgun (EU). You configure your own account with one of these providers, and confirmation emails are sent from your domain with your branding. <a href=\"/features/email-templates/\">Email templates</a> are customisable using Liquid syntax, with built-in filters for formatting currencies and pluralisation."
 	},
 	{
 		"section": "Features and customisation",
 		"question": "How customisable is Chobble Tickets?",
-		"answer": "You can <a href=\"/features/customising-your-site/\">customise</a> the header image, the website title and a light or dark theme from the admin area, and change colours and fonts with custom CSS. Email templates use Liquid syntax so you can change the subject line, HTML body, and plain text body of confirmation emails. Event descriptions support <a href=\"/features/markdown-descriptions/\">Markdown</a> formatting. You can set custom thank-you URLs, configure <a href=\"/features/terms-and-conditions/\">terms and conditions</a>, and add <a href=\"/features/custom-questions/\">custom multiple-choice questions</a> to the checkout form. If you self-host, you can modify the source code."
+		"answer": "You can <a href=\"/features/customising-your-site/\">customise</a> the header image, the website title and a light or dark theme from the admin area, and change colours and fonts with custom CSS. Email templates use Liquid syntax so you can change the subject line, HTML body, and plain text body of confirmation emails. Event descriptions support <a href=\"/features/markdown-descriptions/\">Markdown</a> formatting. You can set custom thank-you URLs, configure <a href=\"/features/terms-and-conditions/\">terms and conditions</a>, and add <a href=\"/features/custom-questions/\">custom questions</a>, multiple-choice or free text, to the checkout form. If you self-host, you can modify the source code."
 	},
 	{
 		"section": "Features and customisation",
 		"question": "Does Chobble Tickets support recurring or daily events?",
-		"answer": "Yes. <a href=\"/features/daily-events/\">Daily events</a> have per-date capacity with a calendar date picker, so attendees choose which date they want to attend. You can set holiday and blackout dates to block bookings on specific days. This is designed for weekly classes, workshops, and attractions that run on a regular schedule."
+		"answer": "Yes. <a href=\"/features/daily-events/\">Daily events</a> have per-date capacity with a calendar date picker, so attendees choose which date they want to attend. You can set holiday and blackout dates to block bookings on specific days. A <a href=\"/features/recurring-events/\">recurring event</a>, such as a weekly quiz, is one daily listing with its bookable days set to the days it runs, so every week is sold from the same listing."
 	},
 	{
 		"section": "Features and customisation",
@@ -147,7 +147,7 @@
 	{
 		"section": "Features and customisation",
 		"question": "What payment providers does Chobble Tickets support?",
-		"answer": "Chobble Tickets supports <a href=\"/features/stripe-and-square/\">Stripe, Square, and SumUp</a>, with one active card provider per site. You enter the provider credentials in the admin settings. Listings can use fixed prices or pay-what-you-want pricing, and free events need no payment setup. Full <a href=\"/features/refunds/\">refunds</a> can be issued for one booking or in bulk from the admin area."
+		"answer": "Chobble Tickets supports <a href=\"/features/stripe-and-square/\">Stripe, Square, and SumUp</a>, with one active card provider per site. You enter the provider credentials in the admin settings. Listings can use fixed prices or pay-what-you-want pricing, and free events need no payment setup. Full <a href=\"/features/refunds/\">refunds</a> can be issued for one booking or in bulk from the admin area, and partial refunds are made in the payment provider's own dashboard."
 	},
 	{
 		"section": "Features and customisation",
