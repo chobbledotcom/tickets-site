@@ -155,8 +155,8 @@ blocks:
       - Recurring events
       - Custom domains (included with Chobble; Enterprise plan on Event
         Schedule)
-      - White labelling to remove platform branding (included with Chobble;
-        Pro plan on Event Schedule)
+      - Pages without platform branding (every Chobble site has none; Pro
+        plan on Event Schedule)
       - An API and webhooks for custom integrations
       - Embedding events or a calendar on your own website
       - Email newsletters and campaigns to your own subscribers

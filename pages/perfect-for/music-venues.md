@@ -115,7 +115,7 @@ blocks:
         description: Door staff can have a scanner account, which checks people in and out and opens no other admin page. A promoter who only writes listings can be an editor, which holds no data key.
         name: <a href="/features/users/">Team accounts</a>
       - icon: hugeicons:global
-        description: Publish the whole programme on your own domain, with Chobble branding removed.
+        description: Publish the whole programme on your own domain, with no Chobble branding anywhere on it.
         name: <a href="/features/custom-domain/">Custom domain and white labelling</a>
       - icon: hugeicons:rss
         description: Publish upcoming shows as a calendar feed people can subscribe to, and a feed that listings sites can read.

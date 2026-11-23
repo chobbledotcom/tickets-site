@@ -119,7 +119,7 @@ blocks:
         description: Halls run by a charity or community group pay £25 a year, or £2.50 a month if they pay monthly.
         name: <a href="/pricing/">Community rate</a>
       - icon: hugeicons:global
-        description: Publish the hall's own site on its own domain, with Chobble branding removed, or embed booking in the site it already has.
+        description: Publish the hall's own site on its own domain, with no Chobble branding on it, or embed booking in the site it already has.
         name: <a href="/features/your-public-website/">Your public website</a>
       - icon: hugeicons:mail-send-01
         description: Email everyone booked on a listing when a class is cancelled or the hall has to close.

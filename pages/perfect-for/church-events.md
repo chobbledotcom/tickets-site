@@ -80,7 +80,7 @@ blocks:
         description: A church that is a charity or community group pays half price, which is £25 a year or £2.50 a month.
         name: <a href="/pricing/">Community rate</a>
       - icon: hugeicons:global
-        description: Publish the church's own site on its own domain, with Chobble branding removed, or embed booking in the site it already has.
+        description: Publish the church's own site on its own domain, with no Chobble branding on it, or embed booking in the site it already has.
         name: <a href="/features/your-public-website/">Your public website</a>
       - icon: hugeicons:clipboard
         description: Use a free listing for sign-up sheets, rotas and other events that need a headcount but no payment.

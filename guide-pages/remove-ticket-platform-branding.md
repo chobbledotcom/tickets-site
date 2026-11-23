@@ -40,11 +40,11 @@ blocks:
       sources state them.
   - type: markdown
     content: |
-      ## Branding removal included in the base price
+      ## No provider branding to remove
 
       | Provider | What is included | Qualification |
       |---|---|---|
-      | [Chobble Tickets](/features/white-labelling/) | Organiser branding, custom CSS, an organiser-owned domain and emails from the organiser's own provider, on managed and self-hosted sites alike. Managed hosting costs £50/year or £5/month, or £25/year for charities, community groups, artists and musicians. No Chobble branding appears on the public site. | A Chobble link sits in the footer of the administration area, which only logged-in staff see. Payment providers still show their own name at the card-payment step. |
+      | [Chobble Tickets](/features/white-labelling/) | Organiser branding, custom CSS, an organiser-owned domain and emails from the organiser's own provider, on managed and self-hosted sites alike. Managed hosting costs £50/year or £5/month, or £25/year or £2.50/month for charities, community groups, artists and musicians. No Chobble branding appears on the public site, so there is nothing to remove. | A Chobble link sits in the footer of the administration area, which only logged-in staff see. Payment providers still show their own name at the card-payment step. |
   - type: markdown
     dark: true
     content: |
@@ -150,14 +150,14 @@ blocks:
       - If the software is self-hosted, does its licence require a visible
         attribution link?
 
-      For Chobble Tickets, branding removal is part of the base price, on every
-      site. A [custom domain](/features/custom-domain/) is included, and
-      confirmation emails come from the organiser's own address once they
-      connect one of the supported [email
-      providers](/features/email-providers/).
+      Chobble Tickets has no Chobble branding to remove, on any site. A
+      [custom domain](/features/custom-domain/) is included, and until one
+      is connected a site uses a hosted address such as
+      skips.tix.chobble.net. Confirmation emails come from the organiser's
+      own address once they connect one of the supported
+      [email providers](/features/email-providers/).
 
-      The public site, tickets and checkout carry no Chobble name, though the
-      default web address includes it until a custom domain is set. The only
+      The public site, tickets and checkout carry no Chobble name. The only
       Chobble link is in the admin area footer, which only logged-in staff
       see, and the AGPL-3.0-only licence has no visible attribution term for
       self-hosted copies. Chobble is paid by organisers for hosting, so it

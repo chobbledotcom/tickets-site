@@ -34,7 +34,7 @@ blocks:
       - value: Your account
         label: Where ticket money lands
       - value: Your domain
-        label: With Chobble branding removed
+        label: With no Chobble branding
   - type: split-icon-links
     content: |
       ## One site, every date you are selling
@@ -52,7 +52,7 @@ blocks:
 
       Your [public site](/features/your-public-website/) can carry your
       own [domain](/features/custom-domain/) with
-      [Chobble branding removed](/features/white-labelling/), or the
+      [no Chobble branding](/features/white-labelling/), or the
       booking form can be [embedded](/features/embeddable-widget/) in the
       site you already have.
     figure_items:
