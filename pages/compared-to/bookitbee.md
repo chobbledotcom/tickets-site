@@ -177,11 +177,6 @@ blocks:
       <td data-label="Chobble Tickets">Not offered</td>
       </tr>
       <tr>
-      <th scope="row"><strong>White-label branding</strong></th>
-      <td data-label="BookitBee">fully customisable booking journeys branded to the organiser, not BookitBee</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
       <th scope="row"><strong>PayPal and managed payments</strong></th>
       <td data-label="BookitBee">accept payments via PayPal in addition to Stripe, or use BookitBee's managed payment service (LIVE IT Payments) without setting up your own account</td>
       <td data-label="Chobble Tickets">Not offered</td>
@@ -213,7 +208,7 @@ blocks:
       </tr>
       <tr>
       <th scope="row"><strong><a href="/features/encrypted/">Encryption at rest</a></strong></th>
-      <td data-label="BookitBee">Not offered</td>
+      <td data-label="BookitBee">Not documented</td>
       <td data-label="Chobble Tickets">attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM</td>
       </tr>
       <tr>
@@ -267,13 +262,8 @@ blocks:
       <td data-label="Chobble Tickets">per-date capacity with calendar picker and holiday blackouts</td>
       </tr>
       <tr>
-      <th scope="row"><strong><a href="/features/custom-questions/">Custom questions</a></strong></th>
-      <td data-label="BookitBee">Not offered</td>
-      <td data-label="Chobble Tickets">add multiple-choice and free-text questions to events and collect structured answers at checkout, with answers visible across the admin interface, CSV exports, and webhooks</td>
-      </tr>
-      <tr>
       <th scope="row"><strong><a href="/features/public-api/">Public &amp; admin API</a></strong></th>
-      <td data-label="BookitBee">Not offered</td>
+      <td data-label="BookitBee">Not documented</td>
       <td data-label="Chobble Tickets">RESTful JSON API for building custom integrations, plus <a href="/features/admin-api/">authenticated admin API</a> with full event CRUD and booking creation via API keys</td>
       </tr>
       <tr>
@@ -298,7 +288,7 @@ blocks:
       </tr>
       <tr>
       <th scope="row"><strong><a href="/features/custom-domain/">Custom domain</a></strong></th>
-      <td data-label="BookitBee">Not offered</td>
+      <td data-label="BookitBee">Not documented</td>
       <td data-label="Chobble Tickets">get a yourname.tix.chobble.net subdomain instantly, or point your own domain whenever you are ready</td>
       </tr>
       <tr>
@@ -310,11 +300,6 @@ blocks:
       <th scope="row"><strong><a href="/features/embeddable-widget/">Embeddable widget</a></strong></th>
       <td data-label="BookitBee">Not offered</td>
       <td data-label="Chobble Tickets">drop an iframe into your website</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>No marketing to your attendees</strong></th>
-      <td data-label="BookitBee">Not offered</td>
-      <td data-label="Chobble Tickets">your audience stays yours</td>
       </tr>
       <tr>
       <th scope="row"><strong>Community Interest Company</strong></th>

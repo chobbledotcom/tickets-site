@@ -25,7 +25,10 @@
     var ps = q("[data-pc='price']");
 
     function calc(x, t, p) {
-      var pf = t * (p * x.tp / 100 + x.tf);
+      var per = p * x.tp / 100 + x.tf;
+      if (x.pmin !== undefined && per < x.pmin) per = x.pmin;
+      if (x.pmax !== undefined && per > x.pmax) per = x.pmax;
+      var pf = t * per;
       var pr = t * (p * x.pp / 100 + x.pf);
       return { a: x.a, pf: pf, pr: pr, tot: x.a + pf + pr };
     }

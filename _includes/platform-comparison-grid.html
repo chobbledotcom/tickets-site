@@ -9,7 +9,7 @@
     {%- assign p = item[1] -%}
     {%- if key == "chobble_selfhosted" -%}{%- continue -%}{%- endif -%}
     {%- unless first -%},{%- endunless -%}{%- assign first = false -%}
-    {"k":"{{ key }}","n":"{{ p.name }}","a":{{ p.annual_cost }},"tp":{{ p.per_ticket_fee_percent }},"tf":{{ p.per_ticket_fee_fixed }},"pp":{{ p.payment_processing_percent }},"pf":{{ p.payment_processing_fixed }},"highlight":{% if key == "chobble" %}true{% else %}false{% endif %}}
+    {"k":"{{ key }}","n":"{{ p.name }}","a":{{ p.annual_cost }},"tp":{{ p.per_ticket_fee_percent }},"tf":{{ p.per_ticket_fee_fixed }},"pp":{{ p.payment_processing_percent }},"pf":{{ p.payment_processing_fixed }}{% if p.per_ticket_fee_minimum %},"pmin":{{ p.per_ticket_fee_minimum }}{% endif %}{% if p.per_ticket_fee_maximum %},"pmax":{{ p.per_ticket_fee_maximum }}{% endif %},"highlight":{% if key == "chobble" %}true{% else %}false{% endif %}}
   {%- endfor -%}
 ]'>
   {%- include "price-comparator-controls.html", prefix: "pg", price_min: "0" -%}

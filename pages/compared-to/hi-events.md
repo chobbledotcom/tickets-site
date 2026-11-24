@@ -306,7 +306,7 @@ blocks:
       </tr>
       <tr>
       <th scope="row"><strong><a href="/features/encrypted/">Encryption at rest</a></strong></th>
-      <td data-label="Hi.Events">Not offered</td>
+      <td data-label="Hi.Events">Not documented</td>
       <td data-label="Chobble Tickets">attendee data is stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than plain database rows</td>
       </tr>
       <tr>
@@ -376,7 +376,7 @@ blocks:
       </tr>
       <tr>
       <th scope="row"><strong><a href="/features/custom-domain/">Custom domain support</a></strong></th>
-      <td data-label="Hi.Events">Not offered</td>
+      <td data-label="Hi.Events">Self-hosted deployments only</td>
       <td data-label="Chobble Tickets">use your own domain name</td>
       </tr>
       <tr>

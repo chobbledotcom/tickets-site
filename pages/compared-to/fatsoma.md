@@ -225,7 +225,7 @@ blocks:
       </tr>
       <tr>
       <th scope="row"><strong><a href="/features/encrypted/">Encryption at rest</a></strong></th>
-      <td data-label="Fatsoma">Not offered</td>
+      <td data-label="Fatsoma">Not documented</td>
       <td data-label="Chobble Tickets">attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM</td>
       </tr>
       <tr>
@@ -255,7 +255,7 @@ blocks:
       </tr>
       <tr>
       <th scope="row"><strong><a href="/features/custom-domain/">Custom domain support</a></strong></th>
-      <td data-label="Fatsoma">Not offered</td>
+      <td data-label="Fatsoma">Enterprise tier only</td>
       <td data-label="Chobble Tickets">get a host-provided subdomain instantly, or point your own domain</td>
       </tr>
       <tr>
@@ -279,13 +279,8 @@ blocks:
       <td data-label="Chobble Tickets">inspect, modify, and contribute to the code under AGPLv3</td>
       </tr>
       <tr>
-      <th scope="row"><strong><a href="/features/custom-questions/">Custom questions</a></strong></th>
-      <td data-label="Fatsoma">Not offered</td>
-      <td data-label="Chobble Tickets">add multiple-choice and free-text questions to events and collect structured answers at checkout, with answers visible across the admin interface, CSV exports, and webhooks</td>
-      </tr>
-      <tr>
       <th scope="row"><strong><a href="/features/public-api/">Public &amp; admin API</a></strong></th>
-      <td data-label="Fatsoma">Not offered</td>
+      <td data-label="Fatsoma">Not documented</td>
       <td data-label="Chobble Tickets">RESTful JSON API for building custom integrations, plus <a href="/features/admin-api/">authenticated admin API</a> with full event CRUD and booking creation via API keys</td>
       </tr>
       <tr>

@@ -2,7 +2,7 @@
   <h2>{{ heading }}</h2>
   <p>{{ intro }}</p>
 </div>
-<div class="price-comparator" data-config='{"chobble":{"n":"{{ ch.name }}{{ suffix }}","a":{{ ch.annual_cost }},"tp":{{ ch.per_ticket_fee_percent }},"tf":{{ ch.per_ticket_fee_fixed }},"pp":{{ ch.payment_processing_percent }},"pf":{{ ch.payment_processing_fixed }}},"competitor":{"n":"{{ co.name }}","a":{{ co.annual_cost }},"tp":{{ co.per_ticket_fee_percent }},"tf":{{ co.per_ticket_fee_fixed }},"pp":{{ co.payment_processing_percent }},"pf":{{ co.payment_processing_fixed }}}}'>
+<div class="price-comparator" data-config='{"chobble":{"n":"{{ ch.name }}{{ suffix }}","a":{{ ch.annual_cost }},"tp":{{ ch.per_ticket_fee_percent }},"tf":{{ ch.per_ticket_fee_fixed }},"pp":{{ ch.payment_processing_percent }},"pf":{{ ch.payment_processing_fixed }}},"competitor":{"n":"{{ co.name }}","a":{{ co.annual_cost }},"tp":{{ co.per_ticket_fee_percent }},"tf":{{ co.per_ticket_fee_fixed }}{% if co.per_ticket_fee_minimum %},"pmin":{{ co.per_ticket_fee_minimum }}{% endif %}{% if co.per_ticket_fee_maximum %},"pmax":{{ co.per_ticket_fee_maximum }}{% endif %},"pp":{{ co.payment_processing_percent }},"pf":{{ co.payment_processing_fixed }}}}'>
   {%- include "price-comparator-controls.html", prefix: "pc", price_min: "0.50" -%}
   <table class="price-comparator__table">
     <thead>

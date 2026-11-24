@@ -250,7 +250,7 @@ blocks:
       </tr>
       <tr>
       <th scope="row"><strong><a href="/features/encrypted/">Encryption at rest</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
+      <td data-label="Ticketmaster">Not documented</td>
       <td data-label="Chobble Tickets">attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM</td>
       </tr>
       <tr>
@@ -304,13 +304,8 @@ blocks:
       <td data-label="Chobble Tickets">organise related events into collections for multi-event bookings with a single checkout, and create ticket tiers (VIP, general admission, etc.) sharing a venue capacity cap</td>
       </tr>
       <tr>
-      <th scope="row"><strong><a href="/features/custom-questions/">Custom questions</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">add multiple-choice questions to events and collect answers at checkout</td>
-      </tr>
-      <tr>
       <th scope="row"><strong><a href="/features/public-api/">Public &amp; admin API</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
+      <td data-label="Ticketmaster">Not reviewed</td>
       <td data-label="Chobble Tickets">and <strong><a href="/features/webhooks/">webhooks</a></strong> - build custom integrations, with <a href="/features/admin-api/">admin API</a> for full event CRUD and booking creation via API keys</td>
       </tr>
       <tr>
@@ -325,7 +320,7 @@ blocks:
       </tr>
       <tr>
       <th scope="row"><strong><a href="/features/custom-domain/">Custom domain</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
+      <td data-label="Ticketmaster">Not documented</td>
       <td data-label="Chobble Tickets">get a host-provided subdomain instantly, or point your own domain</td>
       </tr>
       <tr>

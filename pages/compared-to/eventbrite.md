@@ -327,7 +327,7 @@ blocks:
       </tr>
       <tr>
       <th scope="row"><strong><a href="/features/encrypted/">Password-derived encryption</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
+      <td data-label="Eventbrite">Not documented</td>
       <td data-label="Chobble Tickets">attendee data is encrypted with a key derived from your admin password using hybrid RSA-OAEP + AES-256-GCM. A database dump and the server's environment encryption key together are still not enough to decrypt attendee data, since an attacker would also need your password. If you forget it, the data is permanently unrecoverable.</td>
       </tr>
       <tr>
@@ -376,11 +376,6 @@ blocks:
       <td data-label="Chobble Tickets">per-date capacity with calendar picker and holiday blackouts</td>
       </tr>
       <tr>
-      <th scope="row"><strong><a href="/features/custom-questions/">Custom questions</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">add multiple-choice and free-text questions to events and collect structured answers at checkout, with answers visible across the admin interface, CSV exports, and webhooks</td>
-      </tr>
-      <tr>
       <th scope="row"><strong><a href="/features/admin-api/">Admin API</a></strong></th>
       <td data-label="Eventbrite">Not offered</td>
       <td data-label="Chobble Tickets">full CRUD for events and booking creation via API keys, so you can automate event management from scripts or external tools</td>
@@ -402,7 +397,7 @@ blocks:
       </tr>
       <tr>
       <th scope="row"><strong><a href="/features/custom-domain/">Custom domain</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
+      <td data-label="Eventbrite">Not documented</td>
       <td data-label="Chobble Tickets">get a yourname.tix.chobble.net subdomain instantly, or point your own domain. Eventbrite events run on eventbrite.co.uk by default.</td>
       </tr>
       <tr>

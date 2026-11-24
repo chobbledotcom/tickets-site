@@ -87,14 +87,24 @@ const cellFor = (facts, field) => {
   return humanise(value);
 };
 
-/** What one provider charges at the default volume, or null without data. */
+/** What one provider charges at the default volume, or null without data.
+ * Per-ticket platform fees honour documented minimums and caps, such as
+ * BookitBee's 50p minimum, where the calculator data records them. */
 const costFor = (competitor) => {
   const sales = DEFAULT_TICKETS * DEFAULT_PRICE;
   const scale = (percent, fixed) =>
     (Number(percent) / 100) * sales + Number(fixed) * DEFAULT_TICKETS;
+  let perTicketPlatform = Number(competitor.per_ticket_fee_percent) / 100 * DEFAULT_PRICE +
+    Number(competitor.per_ticket_fee_fixed);
+  if (competitor.per_ticket_fee_minimum !== undefined) {
+    perTicketPlatform = Math.max(perTicketPlatform, Number(competitor.per_ticket_fee_minimum));
+  }
+  if (competitor.per_ticket_fee_maximum !== undefined) {
+    perTicketPlatform = Math.min(perTicketPlatform, Number(competitor.per_ticket_fee_maximum));
+  }
   const total =
     Number(competitor.annual_cost) +
-    scale(competitor.per_ticket_fee_percent, competitor.per_ticket_fee_fixed) +
+    perTicketPlatform * DEFAULT_TICKETS +
     scale(
       competitor.payment_processing_percent,
       competitor.payment_processing_fixed,
@@ -102,19 +112,32 @@ const costFor = (competitor) => {
   return Number.isFinite(total) ? Math.round(total) : null;
 };
 
-/** The fee answer paragraph, or null when the provider has no calculator data. */
+/** The fee answer paragraph, or null when the provider has no calculator data.
+ * Providers whose calculator rate is an estimate get the estimate said out
+ * loud, and the review date is distinguished from a rate check, because the
+ * date verifies the terms review, not the assumed rate. */
 const answerFor = (facts, competitor) => {
   const total = competitor ? costFor(competitor) : null;
   if (total === null) return null;
   const chobble = costFor(competitorsData.chobble);
-  const checked = facts.last_reviewed
-    ? ` ${facts.name}'s rates were checked on ${dateFormatter.format(new Date(facts.last_reviewed))}.`
-    : "";
-  return (
+  const base =
     `On ${DEFAULT_TICKETS} tickets at £${DEFAULT_PRICE} each, ` +
-    `${facts.name}'s fees come to £${total}. ` +
-    `${chobbleFacts.name} costs £${chobble}, including its £50 annual fee and payment processing.` +
-    checked
+    `${facts.name}'s fees come to ${competitor.fee_estimate ? "about " : ""}£${total}. ` +
+    `${chobbleFacts.name} costs £${chobble}, including its £50 annual fee and payment processing.`;
+  if (competitor.fee_estimate) {
+    return (
+      base +
+      ` The figure is an estimate held in this calculator, not a checked published rate;` +
+      (facts.last_reviewed
+        ? ` this site's review of ${facts.name}'s terms is dated ${dateFormatter.format(new Date(facts.last_reviewed))}, which does not verify the rate.`
+        : "")
+    );
+  }
+  return (
+    base +
+    (facts.last_reviewed
+      ? ` ${facts.name}'s rates were checked on ${dateFormatter.format(new Date(facts.last_reviewed))}.`
+      : "")
   );
 };
 
@@ -205,6 +228,7 @@ export const feeTable = () => {
       key,
       name: competitor.name,
       highlight: key === "chobble",
+      estimate: Boolean(competitor.fee_estimate),
       total: costFor(competitor),
     }))
     .filter((row) => row.total !== null)
