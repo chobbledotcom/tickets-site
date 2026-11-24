@@ -59,21 +59,91 @@ const QA_FIELDS = [
   ],
 ];
 
+/** Phrases for every enum value the facts table can render without a note,
+ * written the way a sentence would say them. Unlisted values fall back to
+ * first-letter capitalisation, so a future enum degrades instead of breaking. */
 const ENUM_PHRASES = {
-  "not-documented": "Not documented",
-  "not-reviewed": "Not reviewed",
-  "not-offered": "Not offered",
+    "not-documented": "Not documented",
+    "not-reviewed": "Not reviewed",
+    "not-offered": "Not offered",
+    "none": "None",
+    "included": "Included",
+    "partial": "Partial",
+    "higher-tier": "Higher tier",
+    "paid-add-on": "Paid add-on",
+    "self-hosted": "Self-hosted deployments",
+    "by-arrangement": "By arrangement",
+    "host-platform-dependent": "Depends on the host platform",
+    "built-in": "Built in",
+    "built-in-full": "Full public website built in",
+    "platform-full": "The platform's own full website",
+    "hosted-booking-pages": "Hosted booking pages",
+    "hosted-event-pages": "Hosted event pages",
+    "marketplace-pages": "Marketplace pages",
+    "organiser-microsite": "An organiser microsite",
+    "optional-network": "An optional network",
+    "per-deployment": "Per deployment",
+    "same-product": "Same product",
+    "same-product-with-conditions": "Same product, with conditions",
+    "community-edition": "Community edition",
+    "different-community-edition": "A different community edition",
+    "related-project": "A related project",
+    "plugin-on-self-hosted-platform": "Plugin on a self-hosted platform",
+    "source-available-internal-use": "Source available for internal use",
+    "open-source": "Open source",
+    "open-source-core": "Open source core",
+    "open-source-with-additional-terms": "Open source with additional terms",
+    "proprietary": "Proprietary",
+    "proprietary-production-with-open-source-community-edition":
+      "Proprietary in production; open-source community edition",
+    "related-open-source-project": "Related open-source project",
+    "source-available-delayed-open": "Source available, delayed open licence",
+    "read-only": "Read-only",
+    "percentage": "Percentage",
+    "percentage-plus-fixed": "Percentage plus fixed",
+    "per-transaction-percentage": "Percentage per transaction",
+    "per-transaction-percentage-plus-fixed": "Percentage plus fixed per transaction",
+    "fixed": "Fixed",
+    "allowance-overage": "Allowance plus overage",
+    "amount-not-published": "Amount not published",
+    "voluntary-contributions": "Voluntary contributions",
+    "flat-volume-independent": "Flat, volume-independent",
+    "feature-tiered-volume-independent": "Feature tiers, volume-independent",
+    "per-user-tiered-volume-independent": "Per-user tiers, volume-independent",
+    "per-sale": "Per sale",
+    "quote-based": "Quote-based",
+    "ticket-volume-tiered": "Ticket-volume tiers",
+    "no-mandatory-price": "No mandatory price",
+    "organiser-controlled": "Organiser-controlled",
+    "personalised-recommendations": "Personalised recommendations",
+    "provider-content-and-events": "Provider content and events",
+    "provider-events": "Provider events",
+    "community-interest-company": "Community interest company",
+    "australia": "Australia",
+    "austria": "Austria",
+    "canada": "Canada",
+    "czech-republic": "Czech Republic",
+    "france": "France",
+    "germany": "Germany",
+    "india": "India",
+    "ireland": "Ireland",
+    "israel": "Israel",
+    "singapore": "Singapore",
+    "switzerland": "Switzerland",
+    "united-kingdom": "United Kingdom",
+    "united-states": "United States",
 };
 
-/** Turns an enum value such as `same-product` into readable text. */
+/** Turns an enum value into readable text: dictionary phrase when one
+ * exists, otherwise first-letter capitalisation of the hyphen-split words. */
 const humanise = (value) => {
   if (Array.isArray(value)) return value.map((entry) => humanise(entry)).join(", ");
   if (typeof value === "string") {
     if (ENUM_PHRASES[value]) return ENUM_PHRASES[value];
     return value
       .split("-")
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" ");
+      .map((word, index) => (index === 0 ? word.charAt(0).toUpperCase() + word.slice(1) : word))
+      .join("-");
   }
   if (typeof value === "number") return String(value);
   return null;

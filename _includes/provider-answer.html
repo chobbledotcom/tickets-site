@@ -1,0 +1,11 @@
+{%- comment -%}
+Renders the fee answer paragraph for a comparison page. Injected after the
+hero by src.11tydata.js on pages with `provider_facts`. The figures come from
+provider_evidence, computed in _lib/provider-evidence.js; the dated facts
+table that backs it renders further down the page.
+{%- endcomment -%}
+{%- if provider_evidence.answer -%}
+<div class="prose">
+  <p>{{ provider_evidence.answer | escape }}</p>
+</div>
+{%- endif -%}

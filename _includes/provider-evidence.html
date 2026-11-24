@@ -1,13 +1,9 @@
 {%- comment -%}
-Renders the dated facts table and the fee answer for a comparison page.
-Injected after the hero by src.11tydata.js on pages with `provider_facts`.
-All figures come from provider_evidence, computed in _lib/provider-evidence.js.
+Renders the dated facts table for a comparison page. Injected after the page
+content by src.11tydata.js on pages with `provider_facts`; the fee answer
+paragraph renders near the top via provider-answer.html. All figures come
+from provider_evidence, computed in _lib/provider-evidence.js.
 {%- endcomment -%}
-{%- if provider_evidence.answer -%}
-<div class="prose">
-  <p>{{ provider_evidence.answer | escape }}</p>
-</div>
-{%- endif -%}
 <div class="prose">
   <h2>What the review found</h2>
   <p>

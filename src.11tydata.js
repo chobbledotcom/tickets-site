@@ -22,15 +22,17 @@ import {
   providerEvidence,
 } from "./_lib/provider-evidence.js";
 
-/** Slides the evidence include in after the hero and the Q&A include at the end. */
+/** Slides the fee answer in after the hero, and the facts table plus the Q&A
+ * after the page's own content. */
 const withEvidenceBlocks = (blocks) => {
   const hero = blocks?.[0];
   if (!hero) return blocks;
   const rest = blocks.slice(1);
   return [
     hero,
-    { type: "include", file: "provider-evidence.html" },
+    { type: "include", file: "provider-answer.html" },
     ...rest,
+    { type: "include", file: "provider-evidence.html" },
     { type: "include", file: "provider-faq.html" },
   ];
 };
