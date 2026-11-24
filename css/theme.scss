@@ -716,3 +716,82 @@ th {
     font-family: var(--font-family-heading);
   }
 }
+
+// =============================================================================
+// COMPARISON TABLES - compared-to pages
+// =============================================================================
+// The review facts and feature comparisons are semantic table markup, which
+// is what answer engines quote. The rules below only change rendering: the
+// two value columns are capped so long review notes wrap instead of pushing
+// the table past the viewport, and on phones rows with data-labels stack
+// into labelled cards.
+
+.design-system {
+  .prose th,
+  .prose td {
+    // Long tokens, such as provider names and linked feature names, must
+    // never force a table wider than its container.
+    overflow-wrap: anywhere;
+  }
+
+  // Three-column comparison tables: give the label column a fixed share and
+  // split the rest between the two value columns.
+  .prose
+    table:has(thead th:nth-child(3)):not(:has(thead th:nth-child(4))) {
+    table-layout: fixed;
+    width: 100%;
+
+    thead th:first-child {
+      width: 30%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .design-system table.comparison-table {
+    display: block;
+
+    thead {
+      display: none;
+    }
+
+    tbody {
+      display: block;
+    }
+
+    tbody tr {
+      display: block;
+      padding: 0.75rem 1rem;
+    }
+
+    tbody tr + tr {
+      border-top: 1px solid
+        color-mix(in srgb, currentColor 15%, transparent);
+    }
+
+    th,
+    td {
+      display: block;
+      text-align: left;
+      padding: 0;
+      background: none;
+    }
+
+    th[scope="row"] {
+      margin-bottom: 0.25rem;
+    }
+
+    td {
+      margin-top: 0.5rem;
+    }
+
+    td::before {
+      content: attr(data-label);
+      display: block;
+      font-weight: 600;
+      font-size: 0.85em;
+      color: var(--color-text-muted);
+      margin-bottom: 0.1rem;
+    }
+  }
+}

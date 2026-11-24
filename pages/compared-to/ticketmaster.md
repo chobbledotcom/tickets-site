@@ -47,6 +47,102 @@ provider_facts:
     source_code: "No source code is published and no open-source claim is made. The footer links to 'Open Platform' APIs and SDKs for developers."
     event_marketplace: "Ticketmaster operates a public, browsable event marketplace; the business site calls itself 'The First Place Fans Look for Tickets' with the largest database of ticket buyers, and the consumer site lists events from many organisers."
     attendee_cross_marketing: "The UK privacy policy states that Ticketmaster may contact you with information or offers about upcoming events, products or services by email, push and web notification, SMS or social media, and uses purchase and interest data for personalised marketing."
+feature_table:
+    shared:
+      - "Online ticket sales with payment processing"
+      - "QR code or barcode scanning for entry"
+      - "Email confirmations to ticket holders"
+      - "Event capacity limits"
+      - "Refund processing"
+      - "Mobile-friendly booking experience"
+    provider:
+      - feature: "**Massive distribution network**"
+        detail: "Ticketmaster reaches millions of buyers through its website, mobile app, retail outlets, and call centres across [30+ countries](https://business.ticketmaster.com/solutions/)"
+      - feature: "**Reserved seating with interactive venue maps**"
+        detail: "detailed 3D seat selection for stadiums, arenas, and theatres showing exact views from each seat"
+      - feature: "**Verified fan / presale systems**"
+        detail: "manage presales, fan club access, artist presales, and access codes for high-demand events to control who can buy first"
+      - feature: "**Dynamic pricing**"
+        detail: "automatically adjust ticket prices in real time based on demand, similar to airline pricing"
+      - feature: "**Ticket resale marketplace**"
+        detail: "official face-value and open-market resale platform for sold-out events with guaranteed authenticity"
+      - feature: "**Ticket transfer**"
+        detail: "official ticket transfer between fans with new barcode generation"
+      - feature: "**Insurance and refund protection**"
+        detail: "optional ticket insurance for attendees covering illness, travel disruption, and other reasons"
+      - feature: "**Box office and retail POS**"
+        detail: "sell tickets at physical box offices, retail outlets, and call centres"
+      - feature: "**Mobile fan app**"
+        detail: "dedicated consumer app for ticket management, transfers, upgrades, and event discovery"
+      - feature: "**VIP and upgrade packages**"
+        detail: "offer premium experiences, meet and greets, hospitality packages, and seat upgrades"
+      - feature: "**Large-scale analytics**"
+        detail: "enterprise reporting across multiple venues, tours, and seasons with audience demographics and sales-by-location data"
+      - feature: "**Exclusive venue contracts**"
+        detail: "many large venues are contractually locked to Ticketmaster, making it the only option"
+      - feature: "**Multi-currency and international sales**"
+        detail: "sell across 30+ countries with local currency and language support"
+      - feature: "**Accessibility seating**"
+        detail: "dedicated accessible seating management with companion tickets and specific access requirements"
+      - feature: "**Season tickets and memberships**"
+        detail: "manage recurring subscriptions, season passes, and deposit collection programmes"
+      - feature: "**Queue and virtual waiting room**"
+        detail: "managed queuing system for high-demand on-sales handling millions of concurrent users"
+      - feature: "**[SafeTix](https://www.ticketmaster.com/safetix) encrypted barcodes**"
+        detail: "dynamically refreshing encrypted barcodes that can't be screenshotted or counterfeited"
+      - feature: "**AI-powered fraud detection**"
+        detail: "device reputation scoring and threat detection to block bots and scalpers"
+      - feature: "**TikTok integration**"
+        detail: "sell tickets directly through TikTok in 20+ countries"
+      - feature: "**Event templates and bulk edits**"
+        detail: "reusable templates for floor plans and pricing, with bulk editing across up to 300 events"
+      - feature: "**On-platform advertising**"
+        detail: "promoted ads within Ticketmaster's marketplace to boost event visibility"
+      - feature: "**All-in pricing**"
+        detail: "total cost shown upfront with no surprise fees at checkout"
+    chobble:
+      - feature: "**[Encryption at rest](/features/encrypted/)**"
+        provider: "Not documented"
+        detail: "attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM"
+      - feature: "**[Open source](/features/open-source/)**"
+        detail: "the complete product source is published under AGPL-3.0-only"
+      - feature: "**Self-hosting option**"
+        detail: "run the platform on selected infrastructure without a Chobble software licence fee"
+      - feature: "**Flat pricing**"
+        detail: "£50/year or £5/month with no per-ticket platform fees, compared to Ticketmaster's ~10% + £2.50 per ticket"
+      - feature: "**Full data ownership**"
+        detail: "you control your attendee data, not Ticketmaster"
+      - feature: "**No exclusive contracts**"
+        detail: "use Chobble Tickets alongside any other platform"
+      - feature: "**[Apple & Google Wallet tickets](/features/apple-wallet/)**"
+        detail: "attendees can add tickets to their phone wallet"
+      - feature: "**[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)**"
+        detail: "subscribers get automatic updates"
+      - feature: "**[Pay-what-you-want pricing](/features/stripe-and-square/)**"
+        detail: "let attendees choose their own price"
+      - feature: "**[Daily/recurring events](/features/daily-events/)**"
+        detail: "per-date capacity with calendar picker"
+      - feature: "**[Event groups with tiered ticketing](/features/groups/)**"
+        detail: "organise related events into collections for multi-event bookings with a single checkout, and create ticket tiers (VIP, general admission, etc.) sharing a venue capacity cap"
+      - feature: "**[Public & admin API](/features/public-api/)**"
+        provider: "Not reviewed"
+        detail: "and **[webhooks](/features/webhooks/)** - build custom integrations, with [admin API](/features/admin-api/) for full event CRUD and booking creation via API keys"
+      - feature: "**[Custom email providers](/features/email-providers/)**"
+        detail: "use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's"
+      - feature: "**[Customisable email templates](/features/email-templates/)**"
+        detail: "full control over confirmation emails with Liquid syntax"
+      - feature: "**[Custom domain](/features/custom-domain/)**"
+        provider: "Not documented"
+        detail: "get a host-provided subdomain instantly, or point your own domain"
+      - feature: "**[Public-facing website and CMS](/features/your-public-website/)**"
+        detail: "a homepage, content pages, news posts, and a contact form with spam protection, edited from the admin panel in Markdown with [custom CSS](/features/customising-your-site/)"
+      - feature: "**Apple Pay and Google Pay**"
+        detail: "accept wallet payments at checkout via Stripe"
+      - feature: "**Transparent pricing**"
+        detail: "no hidden fees, no negotiations"
+      - feature: "**Community Interest Company**"
+        detail: "run by a CIC, with profits reinvested rather than distributed to shareholders"
+
 blocks:
   - type: hero
     class: gradient
@@ -98,120 +194,9 @@ blocks:
 
       Ticketmaster is built for a completely different market. Here is what
       each platform offers:
-  - type: markdown
-    content: |
-      ### Both sites share some features
 
-      - Online ticket sales with payment processing
-      - QR code or barcode scanning for entry
-      - Email confirmations to ticket holders
-      - Event capacity limits
-      - Refund processing
-      - Mobile-friendly booking experience
-  - type: markdown
-    content: |
-      ### Ticketmaster has features Chobble Tickets doesn't
-
-      - **Massive distribution network** - Ticketmaster reaches millions of
-        buyers through its website, mobile app, retail outlets, and call
-        centres across [30+
-        countries](https://business.ticketmaster.com/solutions/)
-      - **Reserved seating with interactive venue maps** - detailed 3D seat
-        selection for stadiums, arenas, and theatres showing exact views from
-        each seat
-      - **Verified fan / presale systems** - manage presales, fan club
-        access, artist presales, and access codes for high-demand events to
-        control who can buy first
-      - **Dynamic pricing** - automatically adjust ticket prices in real
-        time based on demand, similar to airline pricing
-      - **Ticket resale marketplace** - official face-value and open-market
-        resale platform for sold-out events with guaranteed authenticity
-      - **Ticket transfer** - official ticket transfer between fans with
-        new barcode generation
-      - **Insurance and refund protection** - optional ticket insurance
-        for attendees covering illness, travel disruption, and other reasons
-      - **Box office and retail POS** - sell tickets at physical box offices,
-        retail outlets, and call centres
-      - **Mobile fan app** - dedicated consumer app for ticket management,
-        transfers, upgrades, and event discovery
-      - **VIP and upgrade packages** - offer premium experiences, meet and
-        greets, hospitality packages, and seat upgrades
-      - **Large-scale analytics** - enterprise reporting across multiple
-        venues, tours, and seasons with audience demographics and
-        sales-by-location data
-      - **Exclusive venue contracts** - many large venues are contractually
-        locked to Ticketmaster, making it the only option
-      - **Multi-currency and international sales** - sell across 30+
-        countries with local currency and language support
-      - **Accessibility seating** - dedicated accessible seating management
-        with companion tickets and specific access requirements
-      - **Season tickets and memberships** - manage recurring subscriptions,
-        season passes, and deposit collection programmes
-      - **Queue and virtual waiting room** - managed queuing system for
-        high-demand on-sales handling millions of concurrent users
-      - **[SafeTix](https://www.ticketmaster.com/safetix) encrypted
-        barcodes** - dynamically refreshing encrypted barcodes that can't
-        be screenshotted or counterfeited
-      - **AI-powered fraud detection** - device reputation scoring and
-        threat detection to block bots and scalpers
-      - **TikTok integration** - sell tickets directly through TikTok in
-        20+ countries
-      - **Event templates and bulk edits** - reusable templates for floor
-        plans and pricing, with bulk editing across up to 300 events
-      - **On-platform advertising** - promoted ads within Ticketmaster's
-        marketplace to boost event visibility
-      - **All-in pricing** - total cost shown upfront with no surprise
-        fees at checkout
-
-  - type: markdown
-    content: |
-      ### Chobble Tickets has features Ticketmaster doesn't offer small organisers
-
-      - **[Encryption at rest](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
-      - **[Open source](/features/open-source/)** - the complete product source
-        is published under AGPL-3.0-only
-      - **Self-hosting option** - run the platform on selected infrastructure
-        without a Chobble software licence fee
-      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fees,
-        compared to Ticketmaster's ~10% + £2.50 per ticket
-      - **Full data ownership** - you control your attendee data, not
-        Ticketmaster
-      - **No exclusive contracts** - use Chobble Tickets alongside any other
-        platform
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
-        attendees can add tickets to their phone wallet
-      - **[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)** -
-        subscribers get automatic updates
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
-        attendees choose their own price
-      - **[Daily/recurring events](/features/daily-events/)** - per-date
-        capacity with calendar picker
-      - **[Event groups with tiered ticketing](/features/groups/)** -
-        organise related events into collections for multi-event bookings
-        with a single checkout, and create ticket tiers (VIP, general
-        admission, etc.) sharing a venue capacity cap
-      - **[Custom questions](/features/custom-questions/)** - add
-        multiple-choice questions to events and collect answers at checkout
-      - **[Public & admin API](/features/public-api/)** and
-        **[webhooks](/features/webhooks/)** - build custom integrations,
-        with [admin API](/features/admin-api/) for full event CRUD and
-        booking creation via API keys
-      - **[Custom email providers](/features/email-providers/)** - use
-        Resend, Postmark, SendGrid, or Mailgun so emails come from your
-        domain, not the platform's
-      - **[Customisable email templates](/features/email-templates/)** -
-        full control over confirmation emails with Liquid syntax
-      - **[Custom domain](/features/custom-domain/)** - get a
-        host-provided subdomain instantly, or point your own domain
-      - **[Public-facing website and CMS](/features/your-public-website/)**
-        a homepage, content pages, news posts, and a contact form with
-        spam protection, edited from the admin panel in Markdown with
-        [custom CSS](/features/customising-your-site/)
-      - **Apple Pay and Google Pay** - accept wallet payments at checkout
-        via Stripe
-      - **Transparent pricing** - no hidden fees, no negotiations
-      - **Community Interest Company** - run by a CIC, with profits reinvested rather than distributed to shareholders
+  - type: include
+    file: feature-table.html
   - type: markdown
     content: |
       ## Control over your ticketing

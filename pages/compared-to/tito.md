@@ -186,7 +186,8 @@ blocks:
         data
       - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain
+        domain. Tito offers custom domains on its Pro tier, while
+        Classic event pages sit on ti.to
       - **[Public-facing website and CMS](/features/your-public-website/)**
         a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel in Markdown with

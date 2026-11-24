@@ -1,0 +1,27 @@
+{%- comment -%}
+Renders the feature comparison table from the page's `feature_table` front
+matter, converted to HTML by _lib/feature-table.js (exposed as
+feature_table_data). The markup matches what the tables carried when they
+were written by hand, including the data-label attributes used by the
+small-screen stacked layout.
+{%- endcomment -%}
+{%- if feature_table_data -%}
+<table class="comparison-table">
+  <thead>
+    <tr>
+      {%- for column in feature_table_data.columns -%}
+      <th scope="col">{{ column }}</th>
+      {%- endfor -%}
+    </tr>
+  </thead>
+  <tbody>
+    {%- for row in feature_table_data.rows -%}
+    <tr>
+      <th scope="row">{{ row.feature }}</th>
+      <td data-label="{{ feature_table_data.labels[1] }}">{{ row.provider }}</td>
+      <td data-label="{{ feature_table_data.labels[2] }}">{{ row.chobble }}</td>
+    </tr>
+    {%- endfor -%}
+  </tbody>
+</table>
+{%- endif -%}

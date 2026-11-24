@@ -268,13 +268,8 @@ blocks:
         limits
       - **[Encryption at rest](/features/encrypted/)** - customer data
         is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM, so a
-        database dump on its own cannot be read
-      - **[Open source under AGPLv3](/features/open-source/)** - every
-        line of code that runs the platform is public and freely
-        licensed
-      - **[Self-hosting](/hosting/)** - run the same product on your own
-        servers with no Chobble software licence fee and no one-time
-        installation charge
+        database dump on its own cannot be read. The sources reviewed do
+        not document whether Fleetbase encrypts data at rest
       - **[Custom email providers](/features/email-providers/)** - send
         confirmations through Resend, Postmark, SendGrid, or Mailgun so
         emails come from your own domain

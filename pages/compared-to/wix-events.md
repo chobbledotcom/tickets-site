@@ -214,7 +214,8 @@ blocks:
         fully white-label experience
       - **[Custom domain](/features/custom-domain/)** - get a
         yourname.tix.chobble.net subdomain instantly, or point your own
-        domain
+        domain. Wix offers domains through the required Wix website
+        rather than the ticketing product alone
       - **[Public-facing website and CMS](/features/your-public-website/)**
         a homepage, content pages, news posts, and a contact form with
         spam protection, edited from the admin panel in Markdown with

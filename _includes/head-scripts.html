@@ -44,6 +44,9 @@
 }
 </script>
 {%- endif -%}
+{%- if provider_evidence -%}
+<script type="application/ld+json">{{ provider_evidence.schema_json }}</script>
+{%- endif -%}
 <script
   data-goatcounter="https://tix-analytics.chobble.com/count"
   async

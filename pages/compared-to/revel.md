@@ -184,7 +184,9 @@ blocks:
         protection, all edited in Markdown with
         [custom CSS](/features/customising-your-site/)
       - **[Custom domain included](/features/custom-domain/)** - managed
-        hosting can use your own domain at no extra cost
+        hosting can use your own domain at no extra cost. The review of
+        Revel only established a configured domain on its self-hosted
+        deployment
       - **[Activity logs](/features/activity-logs/)** - an audit trail of admin
         actions and booking activity
       - **Flat annual pricing** - a fixed £50/year or £5/month with no

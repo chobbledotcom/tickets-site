@@ -21,7 +21,14 @@
     var cardsEl = q("[data-pg='cards']");
 
     function calc(x, t, p) {
-      var pf = t * (p * x.tp / 100 + x.tf);
+      var per = p * x.tp / 100 + x.tf;
+      // A per-ticket minimum or cap applies to paid tickets only: free
+      // events carry no booking fee on the providers that document one.
+      if (p > 0) {
+        if (x.pmin !== undefined && per < x.pmin) per = x.pmin;
+        if (x.pmax !== undefined && per > x.pmax) per = x.pmax;
+      }
+      var pf = t * per;
       var pr = t * (p * x.pp / 100 + x.pf);
       var tot = x.a + pf + pr;
       return { tot: tot, share: t * p - tot };

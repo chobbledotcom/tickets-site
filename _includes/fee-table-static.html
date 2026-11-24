@@ -1,0 +1,31 @@
+{%- comment -%}
+Renders every provider's fees at the default calculator volume as a plain
+HTML table, so the figures exist without JavaScript. Driven by `fee_table`,
+computed in _lib/provider-evidence.js from _data/competitors.json.
+{%- endcomment -%}
+<div class="prose">
+  <h2>What each platform costs at {{ fee_table.tickets }} tickets at £{{ fee_table.price }}</h2>
+  <p>
+    The table shows the total fees an organiser pays over a year, including
+    payment processing, and what is left of the £{{ fee_table.tickets | times: fee_table.price }}
+    of ticket sales. The interactive calculator below covers other volumes.
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Platform</th>
+        <th scope="col">Fees for the year</th>
+        <th scope="col">Organiser keeps</th>
+      </tr>
+    </thead>
+    <tbody>
+      {%- for row in fee_table.rows -%}
+      <tr{% if row.highlight %} class="fee-table__highlight"{% endif %}>
+        <th scope="row">{{ row.name }}</th>
+        <td>£{{ row.total }}{% if row.estimate %} (estimate){% endif %}{% if row.vat == "exclusive" %} (before VAT){% endif %}{% if row.vat == "inclusive" %} (including VAT){% endif %}</td>
+        <td>£{{ fee_table.tickets | times: fee_table.price | minus: row.total }}</td>
+      </tr>
+      {%- endfor -%}
+    </tbody>
+  </table>
+</div>

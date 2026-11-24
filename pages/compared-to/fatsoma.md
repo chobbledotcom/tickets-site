@@ -45,6 +45,82 @@ provider_facts:
     source_code: "No source code is published and no open-source distribution is mentioned on the Fatsoma pages reviewed."
     event_marketplace: "Fatsoma runs a public events marketplace at fatsoma.com/discover with categories and search, and buying a ticket makes the buyer a follower the organiser can market to for free."
     attendee_cross_marketing: "The privacy policy says Fatsoma may contact users about events, offers or services that may interest them and uses profiling to tailor that information, and that a customer's email is available to the promoter of the event they bought from. Its communication policy also states that people receive brand announcements only if they follow that brand, where buying a ticket makes someone a follower."
+feature_table:
+    shared:
+      - "Online ticket sales with Stripe payment processing"
+      - "Apple Pay and Google Pay at checkout (via Stripe)"
+      - "QR code scanning for check-in at the door"
+      - "Email confirmations to attendees after booking"
+      - "Event capacity limits"
+      - "Free event support with no payment setup required"
+      - "Refund processing"
+      - "Custom questions at checkout"
+    provider:
+      - feature: "**Rep/affiliate network**"
+        detail: "a built-in system where promoters sell tickets on your behalf and earn configurable commission per ticket type, with rep-only tickets and tracking dashboards showing which reps are driving the most sales. Reps are paid out directly through Fatsoma. See [Fatsoma Reps](https://ticketing.fatsoma.com/f/reps)"
+      - feature: "**Consumer mobile app**"
+        detail: "[the Fatsoma App](https://ticketing.fatsoma.com/f/the-fatsoma-app) is a consumer-facing app where attendees browse and discover events. [Fatsoma report](https://ticketing.fatsoma.com/f/the-fatsoma-app) that 70% of their ticket sales come through the app"
+      - feature: "**Follower system**"
+        detail: "every ticket buyer automatically becomes a follower you can market to for free with future event announcements"
+      - feature: "**Push notifications**"
+        detail: "[event announcements](https://ticketing.fatsoma.com/f/event-announcements) hit followers' phones via push notification and email"
+      - feature: "**Cross-sell**"
+        detail: "[promote your other events](https://ticketing.fatsoma.com/f/cross-sell) on the order confirmation screen after each purchase"
+      - feature: "**Ad pixel tracking**"
+        detail: "built-in [retargeting and lookalike audience](https://ticketing.fatsoma.com/f/ad-pixels) support for Facebook and other ad platforms"
+      - feature: "**Structured customer profiles**"
+        detail: "structured data capture (age, gender, social handles, phone, location) with [profile saving](https://ticketing.fatsoma.com/f/customer-questions) across events (Chobble supports multiple-choice and free-text custom questions per event)"
+      - feature: "**Hidden ticket access codes**"
+        detail: "tickets hidden behind access codes for presales, VIP access, or invite-only events"
+      - feature: "**Event discovery platform**"
+        detail: "Fatsoma's website and app function as a marketplace where attendees browse and discover events, particularly strong in student and nightlife markets"
+      - feature: "**Fatsoma Chat**"
+        detail: "social sharing features within the consumer app"
+      - feature: "**Custom branded apps**"
+        detail: "on the Professional tier (~£1,500), Fatsoma builds custom branded iOS/Android apps and websites for your events"
+      - feature: "**Fast 3-tap checkout**"
+        detail: "checkout with saved card details via the Fatsoma app"
+    chobble:
+      - feature: "**[Encryption at rest](/features/encrypted/)**"
+        provider: "Not documented"
+        detail: "attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM"
+      - feature: "**[Apple & Google Wallet tickets](/features/apple-wallet/)**"
+        detail: "attendees can add tickets to their phone wallet"
+      - feature: "**[ICS calendar feeds](/features/rss-and-calendar-feeds/)**"
+        detail: "subscribers get automatic calendar updates"
+      - feature: "**[RSS feeds](/features/rss-and-calendar-feeds/)**"
+        detail: "syndicate your events to feed readers"
+      - feature: "**[Pay-what-you-want pricing](/features/stripe-and-square/)**"
+        detail: "let attendees choose their price"
+      - feature: "**[Daily/recurring event support](/features/daily-events/)**"
+        detail: "built for events that repeat on a schedule with per-date capacity"
+      - feature: "**[Custom domain support](/features/custom-domain/)**"
+        provider: "Enterprise tier only"
+        detail: "get a host-provided subdomain instantly, or point your own domain"
+      - feature: "**[Public-facing website and CMS](/features/your-public-website/)**"
+        detail: "a homepage, content pages, news posts, and a contact form with spam protection, edited from the admin panel in Markdown with [custom CSS](/features/customising-your-site/)"
+      - feature: "**[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**"
+        detail: "create promo codes, discount codes, surcharges, and opt-in add-ons with stock limits and a live running total"
+      - feature: "**Self-hosting option**"
+        detail: "run the platform on selected infrastructure without a Chobble software licence fee"
+      - feature: "**[Open source](/features/open-source/)**"
+        detail: "inspect, modify, and contribute to the code under AGPLv3"
+      - feature: "**[Public & admin API](/features/public-api/)**"
+        provider: "Not documented"
+        detail: "RESTful JSON API for building custom integrations, plus [authenticated admin API](/features/admin-api/) with full event CRUD and booking creation via API keys"
+      - feature: "**[Webhooks](/features/webhooks/)**"
+        detail: "outbound POST on every registration"
+      - feature: "**[Event groups with tiered ticketing](/features/groups/)**"
+        detail: "organise related events into collections for multi-event bookings with a single checkout, and create ticket tiers sharing a venue capacity cap"
+      - feature: "**[Custom email providers](/features/email-providers/)**"
+        detail: "use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's"
+      - feature: "**[Customisable email templates](/features/email-templates/)**"
+        detail: "full control over confirmation emails with Liquid syntax for a fully white-label experience"
+      - feature: "**[Embeddable widget](/features/embeddable-widget/)**"
+        detail: "drop an iframe into your existing website"
+      - feature: "**No marketing emails to attendees**"
+        detail: "your audience stays yours"
+
 blocks:
   - type: hero
     class: gradient
@@ -112,112 +188,12 @@ blocks:
   - type: markdown
     content: |
       ## Feature comparison
-  - type: markdown
-    content: |
-      ### Both sites share some features
 
-      - Online ticket sales with Stripe payment processing
-      - Apple Pay and Google Pay at checkout (via Stripe)
-      - QR code scanning for check-in at the door
-      - Email confirmations to attendees after booking
-      - Event capacity limits
-      - Free event support with no payment setup required
-      - Refund processing
-      - Custom questions at checkout
 
-      Fatsoma has some features Chobble Tickets doesn't, and vice versa:
-  - type: markdown
-    content: |
-      ### Fatsoma has features Chobble Tickets doesn't
+  - type: include
+    file: feature-table.html
 
-      - **Rep/affiliate network** - a built-in system where promoters sell
-        tickets on your behalf and earn configurable commission per ticket
-        type, with rep-only tickets and tracking dashboards showing which
-        reps are driving the most sales. Reps are paid out directly through
-        Fatsoma. See [Fatsoma Reps](https://ticketing.fatsoma.com/f/reps)
-      - **Consumer mobile app** - [the Fatsoma
-        App](https://ticketing.fatsoma.com/f/the-fatsoma-app) is a
-        consumer-facing app where attendees browse and discover events.
-        [Fatsoma report](https://ticketing.fatsoma.com/f/the-fatsoma-app)
-        that 70% of their ticket sales come through the app
-      - **Follower system** - every ticket buyer automatically becomes a
-        follower you can market to for free with future event announcements
-      - **Push notifications** - [event
-        announcements](https://ticketing.fatsoma.com/f/event-announcements)
-        hit followers' phones via push notification and email
-      - **Cross-sell** - [promote your other
-        events](https://ticketing.fatsoma.com/f/cross-sell) on the order
-        confirmation screen after each purchase
-      - **Ad pixel tracking** - built-in [retargeting and lookalike
-        audience](https://ticketing.fatsoma.com/f/ad-pixels) support for
-        Facebook and other ad platforms
-      - **Structured customer profiles** - structured data capture (age,
-        gender, social handles, phone, location) with [profile
-        saving](https://ticketing.fatsoma.com/f/customer-questions) across
-        events (Chobble supports multiple-choice and free-text custom questions per event)
-      - **Hidden ticket access codes** - tickets hidden behind access codes
-        for presales, VIP access, or invite-only events
-      - **Event discovery platform** - Fatsoma's website and app function
-        as a marketplace where attendees browse and discover events,
-        particularly strong in student and nightlife markets
-      - **Fatsoma Chat** - social sharing features within the consumer app
-      - **Custom branded apps** - on the Professional tier (~£1,500),
-        Fatsoma builds custom branded iOS/Android apps and websites for
-        your events
-      - **Fast 3-tap checkout** - checkout with saved card details via the
-        Fatsoma app
-  - type: markdown
-    content: |
-      ### Chobble Tickets has features Fatsoma doesn't
 
-      - **[Encryption at rest](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
-        attendees can add tickets to their phone wallet
-      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
-        subscribers get automatic calendar updates
-      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate your
-        events to feed readers
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
-        attendees choose their price
-      - **[Daily/recurring event support](/features/daily-events/)** - built
-        for events that repeat on a schedule with per-date capacity
-      - **[Custom domain support](/features/custom-domain/)** - get a
-        host-provided subdomain instantly, or point your own domain
-      - **[Public-facing website and CMS](/features/your-public-website/)**
-        a homepage, content pages, news posts, and a contact form with
-        spam protection, edited from the admin panel in Markdown with
-        [custom CSS](/features/customising-your-site/)
-      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        create promo codes, discount codes, surcharges, and opt-in add-ons
-        with stock limits and a live running total
-      - **Self-hosting option** - run the platform on selected infrastructure
-        without a Chobble software licence fee
-      - **[Open source](/features/open-source/)** - inspect, modify, and
-        contribute to the code under AGPLv3
-      - **[Custom questions](/features/custom-questions/)** - add
-        multiple-choice and free-text questions to events and collect
-        structured answers at checkout, with answers visible across the
-        admin interface, CSV exports, and webhooks
-      - **[Public & admin API](/features/public-api/)** - RESTful JSON API
-        for building custom integrations, plus [authenticated admin
-        API](/features/admin-api/) with full event CRUD and booking creation
-        via API keys
-      - **[Webhooks](/features/webhooks/)** - outbound POST on every
-        registration
-      - **[Event groups with tiered ticketing](/features/groups/)** -
-        organise related events into collections for multi-event bookings
-        with a single checkout, and create ticket tiers sharing a venue
-        capacity cap
-      - **[Custom email providers](/features/email-providers/)** - use
-        Resend, Postmark, SendGrid, or Mailgun so emails come from your
-        domain, not the platform's
-      - **[Customisable email templates](/features/email-templates/)** -
-        full control over confirmation emails with Liquid syntax for a
-        fully white-label experience
-      - **[Embeddable widget](/features/embeddable-widget/)** - drop an
-        iframe into your existing website
-      - **No marketing emails to attendees** - your audience stays yours
   - type: markdown
     content: |
       ## When Fatsoma might be better

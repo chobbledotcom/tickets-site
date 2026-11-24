@@ -47,6 +47,111 @@ provider_facts:
     custom_domain: "A self-hosted deployment can use its configured domain; hosted custom-domain support was not established."
     public_website: "Hi.Events supplies a branded organiser homepage and event pages."
     source_code: "The self-hosted code uses AGPL-3.0 with additional attribution terms."
+feature_table:
+    shared:
+      - "Open source with self-hosting option"
+      - "Stripe payment processing"
+      - "Apple Pay and Google Pay at checkout (via Stripe)"
+      - "QR code scanning for check-in at the door, including offline scans (Hi.Events when the connection is lost; Chobble Tickets queues browser scans for 12 hours)"
+      - "API access for custom integrations"
+      - "Custom questions at checkout"
+      - "Event capacity limits"
+      - "Email confirmations to attendees after booking"
+      - "Free event support with no payment setup required"
+      - "Refund processing"
+      - "Recording payments taken outside checkout, such as cash or bank transfer, in the ledger"
+      - "[Add-ons](/features/promo-codes-and-add-ons/) sold alongside tickets, such as merchandise, parking or meal upgrades"
+      - "Embeddable ticket widgets for your own website"
+      - "Multiple ticket types per event with shared capacity limits - both platforms support VIP, early bird, and tiered pricing with a shared attendee cap across ticket types"
+    provider:
+      - feature: "**Drag-and-drop event page builder**"
+        detail: "a visual editor for designing event pages with custom layouts, images, and sections"
+      - feature: "**Affiliate and referral tracking**"
+        detail: "track which promoters and links are driving ticket sales with commission tracking"
+      - feature: "**Custom PDF ticket designs**"
+        detail: "design your own ticket layouts with branding, logos, and custom fields"
+      - feature: "**Multi-currency support**"
+        detail: "sell in different currencies for international events"
+      - feature: "**Donation and tiered ticket types**"
+        detail: "offer donation options and pricing tiers beyond fixed and pay-what-you-want"
+      - feature: "**Custom fee management and per-event tax reporting**"
+        detail: "add service fees, set VAT rates per event, and manage tax reporting. Chobble Tickets has [one tax setting for the site](/features/ledger/), not a separate rate per event or a service-fee builder"
+      - feature: "**Real-time sales dashboard**"
+        detail: "live analytics showing ticket sales, revenue, and check-in rates as they happen"
+      - feature: "**Stripe Connect instant payouts**"
+        detail: "receive payments directly to your Stripe account with faster payout times"
+      - feature: "**Custom registration questions with more field types**"
+        detail: "add free-text, date, and other custom field types beyond multiple choice per ticket type (Chobble supports multiple-choice and free-text custom questions)"
+      - feature: "**Bulk messaging by ticket type**"
+        detail: "send targeted emails and updates to attendees based on which ticket type they bought"
+      - feature: "**Waitlists**"
+        detail: "automatic notifications when places open up on sold-out events"
+      - feature: "**Ticket transfers**"
+        detail: "allow attendees to transfer their tickets to someone else"
+      - feature: "**Automatic invoicing**"
+        detail: "generate invoices for orders automatically. Chobble Tickets [invoices](/features/ledger/) are made by the organiser, one booking at a time, for a balance still owed"
+      - feature: "**XLSX export**"
+        detail: "export attendee and order data in Excel format (Chobble supports CSV only)"
+      - feature: "**Branded organiser homepage**"
+        detail: "a page showcasing all your events under your organiser profile"
+      - feature: "**Multiple check-in lists**"
+        detail: "create separate lists for different areas, gates, or purposes (Chobble Tickets' scanner can cover a whole [event group](/features/groups/))"
+      - feature: "**Multi-language support**"
+        detail: "serve the checkout in multiple languages"
+      - feature: "**Hidden/locked tickets**"
+        detail: "tickets hidden behind promo codes for presales, VIP access, or invite-only events"
+      - feature: "**Abandoned cart handling**"
+        detail: "detect and act on incomplete checkouts to recover lost sales"
+      - feature: "**Event badge designer**"
+        detail: "a browser-based badge design tool for printing attendee badges at events"
+      - feature: "**SEO tools**"
+        detail: "per-event custom meta titles, descriptions, Open Graph images, and XML sitemap generation"
+      - feature: "**Marketing opt-in**"
+        detail: "checkbox during checkout for attendees to opt into marketing communications"
+    chobble:
+      - feature: "**[Encryption at rest](/features/encrypted/)**"
+        provider: "Not documented"
+        detail: "attendee data is stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than plain database rows"
+      - feature: "**[Surcharges and returning-customer pricing](/features/promo-codes-and-add-ons/)**"
+        detail: "beyond the promo codes and add-ons both platforms offer, a price rule can add a surcharge, scale a price, or change it for someone who has booked before"
+      - feature: "**[Apple & Google Wallet tickets](/features/apple-wallet/)**"
+        detail: "attendees can add tickets to their phone wallet"
+      - feature: "**[ICS calendar feeds](/features/rss-and-calendar-feeds/)**"
+        detail: "subscribers get automatic calendar updates"
+      - feature: "**[RSS feeds](/features/rss-and-calendar-feeds/)**"
+        detail: "syndicate your events to feed readers"
+      - feature: "**[Pay-what-you-want pricing](/features/stripe-and-square/)**"
+        detail: "let attendees choose their price"
+      - feature: "**[Daily/recurring event support](/features/daily-events/)**"
+        detail: "built specifically for events that repeat on a schedule with per-date capacity"
+      - feature: "**[Event groups with shared capacity](/features/groups/)**"
+        detail: "organise related events into collections for multi-event bookings with a single checkout, and use max attendees per group to create tiered ticket types (VIP, early bird, etc.) sharing a venue cap"
+      - feature: "**[Scanner logins and per-ticket check-ins](/features/qr-code-check-ins/)**"
+        detail: "door staff get their own login that opens only the scanner, and check-ins are counted per place, so a door can admit part of a booking"
+      - feature: "**[Tax on bookings](/features/ledger/)**"
+        detail: "set one site-wide rate, added to or included in listed prices, and record it in the ledger"
+      - feature: "**[Admin API](/features/admin-api/)**"
+        detail: "authenticated API with API keys for full event CRUD, booking creation and reading private data"
+      - feature: "**[Custom email providers](/features/email-providers/)**"
+        detail: "use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's"
+      - feature: "**[Customisable email templates](/features/email-templates/)**"
+        detail: "full control over confirmation emails with Liquid syntax for a fully white-label experience"
+      - feature: "**[Markdown event descriptions](/features/markdown-descriptions/)**"
+        detail: "write content in markdown with header image uploads"
+      - feature: "**[Custom domain support](/features/custom-domain/)**"
+        provider: "Self-hosted deployments only"
+        detail: "use your own domain name"
+      - feature: "**[Public-facing website and CMS](/features/your-public-website/)**"
+        detail: "a homepage, content pages, news posts, and a contact form with spam protection, edited from the admin panel in Markdown with [custom CSS](/features/customising-your-site/). Hi.Events provides event pages but not a full composable website"
+      - feature: "**[Activity logs](/features/activity-logs/)**"
+        detail: "full audit trail of all admin actions and booking activity"
+      - feature: "**[Square payment support](/features/stripe-and-square/)**"
+        detail: "Chobble supports Stripe, Square, and SumUp; Hi.Events is Stripe-only"
+      - feature: "**No branding requirements**"
+        detail: "Chobble's AGPLv3 licence has no \"Powered by\" requirement; Hi.Events requires visible \"Powered by Hi.Events\" branding unless you buy a $499+ commercial licence"
+      - feature: "**Serverless edge deployment**"
+        detail: "Chobble compiles to a single JS file that runs on Bunny.net edge scripts with a Bunny.net edge database, so there is no server to manage, no scaling to configure, and no database replication to maintain. Hi.Events needs a traditional server (2 CPU, 4GB RAM minimum) that you're responsible for keeping online, updated, and backed up"
+
 blocks:
   - type: hero
     class: gradient
@@ -113,151 +218,12 @@ blocks:
   - type: markdown
     content: |
       ## Feature comparison
-  - type: markdown
-    content: |
-      ### Both sites share some features
 
-      - Open source with self-hosting option
-      - Stripe payment processing
-      - Apple Pay and Google Pay at checkout (via Stripe)
-      - QR code scanning for check-in at the door, including offline scans
-        (Hi.Events when the connection is lost; Chobble Tickets queues
-        browser scans for 12 hours)
-      - API access for custom integrations
-      - Custom questions at checkout
-      - Event capacity limits
-      - Email confirmations to attendees after booking
-      - Free event support with no payment setup required
-      - Refund processing
-      - Recording payments taken outside checkout, such as cash or bank
-        transfer, in the ledger
-      - [Add-ons](/features/promo-codes-and-add-ons/) sold alongside
-        tickets, such as merchandise, parking or meal upgrades
-      - Embeddable ticket widgets for your own website
-      - Multiple ticket types per event with shared capacity limits -
-        both platforms support VIP, early bird, and tiered pricing with
-        a shared attendee cap across ticket types
 
-      Both platforms cover the core ticketing basics well, but they differ in
-      focus and extras:
-  - type: markdown
-    content: |
-      ### Hi.Events has features Chobble Tickets doesn't
+  - type: include
+    file: feature-table.html
 
-      - **Drag-and-drop event page builder** - a visual editor for designing
-        event pages with custom layouts, images, and sections
-      - **Affiliate and referral tracking** - track which promoters and
-        links are driving ticket sales with commission tracking
-      - **Custom PDF ticket designs** - design your own ticket layouts with
-        branding, logos, and custom fields
-      - **Multi-currency support** - sell in different currencies for
-        international events
-      - **Donation and tiered ticket types** - offer donation options and
-        pricing tiers beyond fixed and pay-what-you-want
-      - **Custom fee management and per-event tax reporting** - add service
-        fees, set VAT rates per event, and manage tax reporting. Chobble
-        Tickets has [one tax setting for the site](/features/ledger/), not a
-        separate rate per event or a service-fee builder
-      - **Real-time sales dashboard** - live analytics showing ticket sales,
-        revenue, and check-in rates as they happen
-      - **Stripe Connect instant payouts** - receive payments directly to
-        your Stripe account with faster payout times
-      - **Custom registration questions with more field types** - add
-        free-text, date, and other custom field types beyond multiple choice
-        per ticket type (Chobble supports multiple-choice and free-text
-        custom questions)
-      - **Bulk messaging by ticket type** - send targeted emails and
-        updates to attendees based on which ticket type they bought
-      - **Waitlists** - automatic notifications when places open up on
-        sold-out events
-      - **Ticket transfers** - allow attendees to transfer their tickets to
-        someone else
-      - **Automatic invoicing** - generate invoices for orders
-        automatically. Chobble Tickets [invoices](/features/ledger/) are
-        made by the organiser, one booking at a time, for a balance still
-        owed
-      - **XLSX export** - export attendee and order data in Excel format
-        (Chobble supports CSV only)
-      - **Branded organiser homepage** - a page showcasing all your events
-        under your organiser profile
-      - **Multiple check-in lists** - create separate lists for different
-        areas, gates, or purposes (Chobble Tickets' scanner can cover a
-        whole [event group](/features/groups/))
-      - **Multi-language support** - serve the checkout in multiple
-        languages
-      - **Hidden/locked tickets** - tickets hidden behind promo codes for
-        presales, VIP access, or invite-only events
-      - **Abandoned cart handling** - detect and act on incomplete
-        checkouts to recover lost sales
-      - **Event badge designer** - a browser-based badge design tool for
-        printing attendee badges at events
-      - **SEO tools** - per-event custom meta titles, descriptions, Open
-        Graph images, and XML sitemap generation
-      - **Marketing opt-in** - checkbox during checkout for attendees to
-        opt into marketing communications
-  - type: markdown
-    content: |
-      ### Chobble Tickets has features Hi.Events doesn't
 
-      - **[Encryption at rest](/features/encrypted/)** - attendee data is
-        stored with hybrid RSA-OAEP + AES-256-GCM encryption rather than
-        plain database rows
-      - **[Surcharges and returning-customer pricing](/features/promo-codes-and-add-ons/)** -
-        beyond the promo codes and add-ons both platforms offer, a price
-        rule can add a surcharge, scale a price, or change it for someone
-        who has booked before
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
-        attendees can add tickets to their phone wallet
-      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
-        subscribers get automatic calendar updates
-      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate your
-        events to feed readers
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
-        attendees choose their price
-      - **[Daily/recurring event support](/features/daily-events/)** - built
-        specifically for events that repeat on a schedule with per-date
-        capacity
-      - **[Event groups with shared capacity](/features/groups/)** -
-        organise related events into collections for multi-event bookings
-        with a single checkout, and use max attendees per group to create
-        tiered ticket types (VIP, early bird, etc.) sharing a venue cap
-      - **[Scanner logins and per-ticket check-ins](/features/qr-code-check-ins/)** -
-        door staff get their own login that opens only the scanner, and
-        check-ins are counted per place, so a door can admit part of a
-        booking
-      - **[Tax on bookings](/features/ledger/)** - set one site-wide rate,
-        added to or included in listed prices, and record it in the ledger
-      - **[Admin API](/features/admin-api/)** - authenticated API with
-        API keys for full event CRUD, booking creation and reading private
-        data
-      - **[Custom email providers](/features/email-providers/)** - use
-        Resend, Postmark, SendGrid, or Mailgun so emails come from your
-        domain, not the platform's
-      - **[Customisable email templates](/features/email-templates/)** -
-        full control over confirmation emails with Liquid syntax for a
-        fully white-label experience
-      - **[Markdown event descriptions](/features/markdown-descriptions/)** -
-        write content in markdown with header image uploads
-      - **[Custom domain support](/features/custom-domain/)** - use your own
-        domain name
-      - **[Public-facing website and CMS](/features/your-public-website/)**
-        a homepage, content pages, news posts, and a contact form with
-        spam protection, edited from the admin panel in Markdown with
-        [custom CSS](/features/customising-your-site/). Hi.Events provides
-        event pages but not a full composable website
-      - **[Activity logs](/features/activity-logs/)** - full audit trail of
-        all admin actions and booking activity
-      - **[Square payment support](/features/stripe-and-square/)** -
-        Chobble supports Stripe, Square, and SumUp; Hi.Events is Stripe-only
-      - **No branding requirements** - Chobble's AGPLv3 licence has no
-        "Powered by" requirement; Hi.Events requires visible "Powered by
-        Hi.Events" branding unless you buy a $499+ commercial licence
-      - **Serverless edge deployment** - Chobble compiles to a single JS
-        file that runs on Bunny.net edge scripts with a Bunny.net edge
-        database, so there is no server to manage, no scaling to configure,
-        and no database replication to maintain. Hi.Events needs a traditional
-        server (2 CPU, 4GB RAM minimum) that you're responsible for
-        keeping online, updated, and backed up
   - type: markdown
     content: |
       ## Different philosophies
