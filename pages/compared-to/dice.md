@@ -124,47 +124,212 @@ blocks:
       ## Feature comparison
 
 
-      | Feature | [DICE](https://dice.fm/partners) | Chobble Tickets |
-      | --- | --- | --- |
-      | Online ticket sales with payment processing | Included | Included |
-      | QR code or barcode scanning for entry | Included | Included |
-      | Email or in-app confirmations to ticket holders | Included | Included |
-      | Event capacity limits | Included | Included |
-      | Refund processing | Included | Included |
-      | Apple Pay and Google Pay at checkout | Included | Included |
-      | Upfront, all-in pricing (the price you see is the price you pay, with no surprise fees at checkout) | Included | Included |
-      | **Event discovery app** | DICE's mobile app helps fans discover events in their area based on their music tastes, location, and past attendance, which can drive extra ticket sales you wouldn't get on your own | Not offered |
-      | **Spotify and Apple Music integration** | personalised event recommendations based on fans' listening history, plus the option to buy tickets through Spotify | Not offered |
-      | **Anti-scalping via app lock** | tickets are tied to the DICE app and cannot be screenshotted or forwarded, making them very hard to resell on secondary markets | Not offered |
-      | **Waiting list with face-value resale** | fans can join a waitlist for sold-out events, and if a ticket holder can't attend, DICE automatically resells their ticket at the original price | Not offered |
-      | **Marketing attribution** | track which channels and campaigns are driving ticket sales via the [MIO dashboard](https://mio.dice.fm) | Not offered |
-      | **Algorithmic event recommendations** | personalised discover feed for each fan based on their tastes and location | Not offered |
-      | **Large-scale access hardware** | [DICE Access](https://dice.fm/partners) system with laser scanning hardware, zone-based scanning, and time-slot scanning | Not offered |
-      | **Real-time audience insights** | segmentation by genre, spend, and geography via the MIO partner dashboard | Not offered |
-      | **DICE TV** | livestreaming platform for virtual events | Not offered |
-      | **Multi-currency support** | sell in different currencies across DICE's international markets (UK, US, Europe, Australia) | Not offered |
-      | **Partner API** | a [GraphQL Ticket Holders API](https://partners-endpoint.dice.fm/graphql/docs/index.html) for reading events, tickets, orders, returns, and transfers | Not offered |
-      | **[Encryption at rest](/features/encrypted/)** | Not offered | attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM |
-      | **No app required** | Not offered | tickets work in any browser on any device |
-      | **[Apple & Google Wallet tickets](/features/apple-wallet/)** | Not offered | attendees can add tickets to their phone wallet without a separate app |
-      | **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** | Not offered | subscribers get automatic calendar updates |
-      | **[RSS feeds](/features/rss-and-calendar-feeds/)** | Not offered | syndicate your events to feed readers |
-      | **[Pay-what-you-want pricing](/features/stripe-and-square/)** | Not offered | let attendees choose their price |
-      | **[Daily/recurring event support](/features/daily-events/)** | Not offered | built for events that repeat on a schedule with per-date capacity |
-      | **[Custom domain support](/features/custom-domain/)** | Not offered | get a host-provided subdomain instantly, or point your own domain |
-      | **[Public-facing website and CMS](/features/your-public-website/)** | Not offered | a homepage, content pages, news posts, and a contact form with spam protection, edited from the admin panel in Markdown with [custom CSS](/features/customising-your-site/) |
-      | **Fully brandable checkout** | Not offered | your brand, not DICE's |
-      | **Self-hosting option** | Not offered | run the platform on selected infrastructure without a Chobble software licence fee |
-      | **[Open source](/features/open-source/)** | Not offered | inspect, modify, and contribute to the code under AGPLv3 |
-      | **[Custom questions](/features/custom-questions/)** | Not offered | add multiple-choice questions to events and collect answers at checkout |
-      | **[Public & admin API](/features/public-api/)** | Not offered | RESTful JSON API for building custom integrations, plus [authenticated admin API](/features/admin-api/) with full event CRUD and booking creation via API keys |
-      | **[Webhooks](/features/webhooks/)** | Not offered | outbound POST on every registration |
-      | **[Event groups with tiered ticketing](/features/groups/)** | Not offered | organise related events into collections for multi-event bookings with a single checkout, and create ticket tiers sharing a venue capacity cap |
-      | **[Custom email providers](/features/email-providers/)** | Not offered | use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's |
-      | **[Customisable email templates](/features/email-templates/)** | Not offered | full control over confirmation emails with Liquid syntax for a fully white-label experience |
-      | **[Embeddable widget](/features/embeddable-widget/)** | Not offered | drop an iframe into your existing website |
-      | **No marketing emails to attendees** | Not offered | your audience stays yours |
-      | **Transparent pricing** | Not offered | no negotiations, no surprises |
+      <table class="comparison-table">
+      <thead>
+      <tr>
+      <th scope="col">Feature</th>
+      <th scope="col"><a href="https://dice.fm/partners">DICE</a></th>
+      <th scope="col">Chobble Tickets</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <th scope="row">Online ticket sales with payment processing</th>
+      <td data-label="DICE">Included</td>
+      <td data-label="Chobble Tickets">Included</td>
+      </tr>
+      <tr>
+      <th scope="row">QR code or barcode scanning for entry</th>
+      <td data-label="DICE">Included</td>
+      <td data-label="Chobble Tickets">Included</td>
+      </tr>
+      <tr>
+      <th scope="row">Email or in-app confirmations to ticket holders</th>
+      <td data-label="DICE">Included</td>
+      <td data-label="Chobble Tickets">Included</td>
+      </tr>
+      <tr>
+      <th scope="row">Event capacity limits</th>
+      <td data-label="DICE">Included</td>
+      <td data-label="Chobble Tickets">Included</td>
+      </tr>
+      <tr>
+      <th scope="row">Refund processing</th>
+      <td data-label="DICE">Included</td>
+      <td data-label="Chobble Tickets">Included</td>
+      </tr>
+      <tr>
+      <th scope="row">Apple Pay and Google Pay at checkout</th>
+      <td data-label="DICE">Included</td>
+      <td data-label="Chobble Tickets">Included</td>
+      </tr>
+      <tr>
+      <th scope="row">Upfront, all-in pricing (the price you see is the price you pay, with no surprise fees at checkout)</th>
+      <td data-label="DICE">Included</td>
+      <td data-label="Chobble Tickets">Included</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Event discovery app</strong></th>
+      <td data-label="DICE">DICE's mobile app helps fans discover events in their area based on their music tastes, location, and past attendance, which can drive extra ticket sales you wouldn't get on your own</td>
+      <td data-label="Chobble Tickets">Not offered</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Spotify and Apple Music integration</strong></th>
+      <td data-label="DICE">personalised event recommendations based on fans' listening history, plus the option to buy tickets through Spotify</td>
+      <td data-label="Chobble Tickets">Not offered</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Anti-scalping via app lock</strong></th>
+      <td data-label="DICE">tickets are tied to the DICE app and cannot be screenshotted or forwarded, making them very hard to resell on secondary markets</td>
+      <td data-label="Chobble Tickets">Not offered</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Waiting list with face-value resale</strong></th>
+      <td data-label="DICE">fans can join a waitlist for sold-out events, and if a ticket holder can't attend, DICE automatically resells their ticket at the original price</td>
+      <td data-label="Chobble Tickets">Not offered</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Marketing attribution</strong></th>
+      <td data-label="DICE">track which channels and campaigns are driving ticket sales via the <a href="https://mio.dice.fm">MIO dashboard</a></td>
+      <td data-label="Chobble Tickets">Not offered</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Algorithmic event recommendations</strong></th>
+      <td data-label="DICE">personalised discover feed for each fan based on their tastes and location</td>
+      <td data-label="Chobble Tickets">Not offered</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Large-scale access hardware</strong></th>
+      <td data-label="DICE"><a href="https://dice.fm/partners">DICE Access</a> system with laser scanning hardware, zone-based scanning, and time-slot scanning</td>
+      <td data-label="Chobble Tickets">Not offered</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Real-time audience insights</strong></th>
+      <td data-label="DICE">segmentation by genre, spend, and geography via the MIO partner dashboard</td>
+      <td data-label="Chobble Tickets">Not offered</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>DICE TV</strong></th>
+      <td data-label="DICE">livestreaming platform for virtual events</td>
+      <td data-label="Chobble Tickets">Not offered</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Multi-currency support</strong></th>
+      <td data-label="DICE">sell in different currencies across DICE's international markets (UK, US, Europe, Australia)</td>
+      <td data-label="Chobble Tickets">Not offered</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Partner API</strong></th>
+      <td data-label="DICE">a <a href="https://partners-endpoint.dice.fm/graphql/docs/index.html">GraphQL Ticket Holders API</a> for reading events, tickets, orders, returns, and transfers</td>
+      <td data-label="Chobble Tickets">Not offered</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/encrypted/">Encryption at rest</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>No app required</strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">tickets work in any browser on any device</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/apple-wallet/">Apple &amp; Google Wallet tickets</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">attendees can add tickets to their phone wallet without a separate app</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/rss-and-calendar-feeds/">ICS calendar feeds</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">subscribers get automatic calendar updates</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/rss-and-calendar-feeds/">RSS feeds</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">syndicate your events to feed readers</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/stripe-and-square/">Pay-what-you-want pricing</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">let attendees choose their price</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/daily-events/">Daily/recurring event support</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">built for events that repeat on a schedule with per-date capacity</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/custom-domain/">Custom domain support</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">get a host-provided subdomain instantly, or point your own domain</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/your-public-website/">Public-facing website and CMS</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">a homepage, content pages, news posts, and a contact form with spam protection, edited from the admin panel in Markdown with <a href="/features/customising-your-site/">custom CSS</a></td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Fully brandable checkout</strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">your brand, not DICE's</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Self-hosting option</strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">run the platform on selected infrastructure without a Chobble software licence fee</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/open-source/">Open source</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">inspect, modify, and contribute to the code under AGPLv3</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/custom-questions/">Custom questions</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">add multiple-choice questions to events and collect answers at checkout</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/public-api/">Public &amp; admin API</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">RESTful JSON API for building custom integrations, plus <a href="/features/admin-api/">authenticated admin API</a> with full event CRUD and booking creation via API keys</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/webhooks/">Webhooks</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">outbound POST on every registration</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/groups/">Event groups with tiered ticketing</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">organise related events into collections for multi-event bookings with a single checkout, and create ticket tiers sharing a venue capacity cap</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/email-providers/">Custom email providers</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/email-templates/">Customisable email templates</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">full control over confirmation emails with Liquid syntax for a fully white-label experience</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong><a href="/features/embeddable-widget/">Embeddable widget</a></strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">drop an iframe into your existing website</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>No marketing emails to attendees</strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">your audience stays yours</td>
+      </tr>
+      <tr>
+      <th scope="row"><strong>Transparent pricing</strong></th>
+      <td data-label="DICE">Not offered</td>
+      <td data-label="Chobble Tickets">no negotiations, no surprises</td>
+      </tr>
+      </tbody>
+      </table>
 
 
   - type: markdown
