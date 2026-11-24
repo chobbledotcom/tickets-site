@@ -36,10 +36,8 @@ blocks:
       interest company limited by guarantee without share capital, so it has
       no shares to sell. Its asset lock restricts how company assets can be
       transferred, and a CIC can stop being a CIC only by dissolving or by
-      becoming a charity. Chobble's social
-      impact page says it donates 10% of income to the Against Malaria
-      Foundation; the linked foundation fundraiser describes the policy as 10%
-      of profits.
+      becoming a charity. Chobble donates 10% of profits to the Against
+      Malaria Foundation.
 
       Chobble's income comes from flat hosting fees and technical work, not
       advertising or attendee data sales. The complete ticketing product is

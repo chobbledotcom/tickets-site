@@ -106,10 +106,9 @@ blocks:
       and community projects. Its registered-charity status requires it to
       apply its resources to its charitable purposes, though a charity can
       still hold reserves and pay its own running costs, so the specific
-      pledge and the legal duty are not the same thing. Chobble donates to the
-      Against Malaria Foundation, funded from hosting fees and paid technical
-      work. Its own two statements of the pledge disagree: the social impact
-      page says 10% of income, and the linked fundraiser says 10% of profits.
+      pledge and the legal duty are not the same thing. Chobble donates 10% of
+      its profits to the Against Malaria Foundation, funded from hosting fees
+      and paid technical work.
 
       Several providers reduce the charge instead of donating a share of it.
       Ticket Tailor takes 50% off for registered charities and 20% off for

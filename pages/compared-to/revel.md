@@ -211,7 +211,7 @@ blocks:
       database. It
       focuses on privacy through encryption, data ownership and flat-rate
       pricing. It is run by a Community Interest Company, which cannot pay
-      profit to shareholders and donates 10% of income to the Against Malaria
+      profit to shareholders and donates 10% of profits to the Against Malaria
       Foundation.
   - type: markdown
     content: |

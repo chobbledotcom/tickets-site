@@ -33,7 +33,7 @@
     "public_website": "Listings appear on the organiser's own white-label public site, published under the organiser's domain or a chobble.net subdomain. There is no marketplace placement.",
     "public_api": "A public JSON API covers listings and availability without an API key, and an authenticated admin API covers full event management, bookings, site pages, questions and attendee statuses.",
     "seating_plans": "Chobble Tickets sells against a capacity figure and has no seat plans; the comparison pages record reserved seating as a feature it lacks.",
-    "ethical_basis": "Chobble's social-impact page says it donates 10% of income to the Against Malaria Foundation; the linked AMF fundraiser describes the policy as 10% of profits.",
+    "ethical_basis": "Chobble donates 10% of profits to the Against Malaria Foundation.",
     "per_ticket_platform_fee": "Payment processing is separate and charged by the organiser's selected provider.",
     "managed_pricing": "The managed fee pays for hosting, updates, backup tools and support. It does not vary by ticket value, ticket volume or feature use.",
     "self_hosting": "Self-hosting has no Chobble software charge, but infrastructure and configured services remain separate.",

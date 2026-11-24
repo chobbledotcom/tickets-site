@@ -104,7 +104,7 @@ blocks:
       closed source. [Why Chobble Tickets cannot go closed
       source](/features/cannot-go-closed-source/) sets that out in full.
 
-      Chobble donates 10% of its income to the
+      Chobble donates 10% of its profits to the
       [Against Malaria Foundation](https://www.againstmalaria.com). The full
       social impact statement is at
       [chobble.com/social-impact](https://www.chobble.com/social-impact).

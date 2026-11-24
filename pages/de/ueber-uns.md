@@ -72,7 +72,7 @@ blocks:
       Vermögensbindung beschränkt, wie das Vermögen der Gesellschaft übertragen
       werden darf, auch bei einer Auflösung.
 
-      Chobble spendet 10% der Einnahmen an die
+      Chobble spendet 10% der Gewinne an die
       [Against Malaria Foundation](https://www.againstmalaria.com). Die
       vollständige Erklärung zur sozialen Wirkung steht auf Englisch auf
       [chobble.com/social-impact](https://www.chobble.com/social-impact).

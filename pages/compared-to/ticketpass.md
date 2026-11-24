@@ -117,7 +117,7 @@ blocks:
 
       Chobble Tickets does not add a charge to tickets, so no part of a ticket
       price is directed to a charity by Chobble. Chobble CIC donates 10% of its
-      own income to the Against Malaria Foundation, funded from the hosting fee
+      profits to the Against Malaria Foundation, funded from the hosting fee
       organisers pay. The [guide to donation and profit
       pledges](/guide/choosing-a-ticket-platform/where-ticketing-money-goes/)
       explains how to read pledges of this kind on any platform.

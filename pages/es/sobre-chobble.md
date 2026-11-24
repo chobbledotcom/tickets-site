@@ -72,7 +72,7 @@ blocks:
       tampoco tiene accionistas. El bloqueo de activos limita cómo se puede
       transferir el patrimonio de la sociedad, también si se disuelve.
 
-      Chobble dona el 10% de sus ingresos a la
+      Chobble dona el 10% de sus beneficios a la
       [Against Malaria Foundation](https://www.againstmalaria.com). La
       declaración completa de impacto social está en inglés en
       [chobble.com/social-impact](https://www.chobble.com/social-impact).

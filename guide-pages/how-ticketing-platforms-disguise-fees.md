@@ -271,7 +271,7 @@ blocks:
       - Free and paid events cost the same, because the price does not depend
         on what a site sells.
       - There is no charity pledge on bookings. Chobble gives 10% of its
-        income to the Against Malaria Foundation.
+        profits to the Against Malaria Foundation.
       - There is no flat fee per ticket, so the share of a cheap ticket is
         nothing.
       - A prepaid term's price cannot change once it is paid. If a later
