@@ -40,6 +40,88 @@ provider_facts:
     ethical_basis: "Resident Advisor describes itself as independent. Companies House lists two founders as its only active people with significant control, but this does not establish complete ownership."
     per_ticket_platform_fee: "Resident Advisor says buyers pay a service fee on each ticket but does not publish a general rate schedule."
     managed_pricing: "Resident Advisor says promoters pay no fee because buyers cover the per-ticket service fee."
+feature_table:
+    provider_link: "https://pro.ra.co/ra-tickets"
+    shared:
+      - "Online ticket sales with payment processing"
+      - "Apple Pay and Google Pay at checkout"
+      - "QR code or barcode scanning for entry"
+      - "Email confirmations to ticket holders"
+      - "Event capacity limits"
+      - "Embeddable ticket widgets for your own website"
+      - "Refund processing"
+    provider:
+      - feature: "**Electronic music community**"
+        detail: "RA reaches [millions of electronic music fans](https://pro.ra.co/promoter) across [dozens of countries](https://ra.co/about), specifically looking for club nights, festivals, and electronic music events"
+      - feature: "**Automated marketing to millions of subscribers**"
+        detail: "RA sends push notifications, emails, and web notifications to fans who've opted in, promoting your events alongside editorial picks"
+      - feature: "**Curated editorial and RA Picks**"
+        detail: "a team of local ambassadors around the world curate weekly newsletters and homepage features that drive traffic to events"
+      - feature: "**RA Bumps**"
+        detail: "paid priority placement in event listings to boost visibility above other events"
+      - feature: "**Ticket resale with anti-tout technology**"
+        detail: "built-in face-value resale with barcode withholding until shortly before the event to prevent fraud ([RA claim](https://pro.ra.co/ra-tickets) up to 2% additional revenue on sold-out events)"
+      - feature: "**Abandoned basket recovery**"
+        detail: "automated emails to fans who started but didn't complete checkout ([RA claim](https://pro.ra.co/ra-tickets) 5% conversion uplift)"
+      - feature: "**2-click checkout**"
+        detail: "streamlined payment with PayPal, iDEAL, and Bancontact alongside Apple Pay and Google Pay ([RA claim](https://pro.ra.co/ra-tickets) 33% conversion uplift)"
+      - feature: "**DJ charts, reviews, and mix hosting**"
+        detail: "artist profiles, DJ charts, album reviews, and music features that drive traffic to events and build artist credibility"
+      - feature: "**Crowd flow and entry time analytics**"
+        detail: "post-event data showing when fans arrived, for operational planning and optimisation"
+      - feature: "**RA Scan app**"
+        detail: "barcode scanner with guest list management, real-time attendance monitoring, and live multi-device syncing"
+      - feature: "**Secret venue reveals**"
+        detail: "automated emails revealing the venue location to ticket holders, for invite-only or secret events"
+      - feature: "**Multiple currency support**"
+        detail: "sell across many countries with local payment methods"
+      - feature: "**RA Guide**"
+        detail: "city guides and venue reviews that drive footfall to events and build audience awareness"
+      - feature: "**Guest list management**"
+        detail: "import guest lists, add guests at the door, and manage comps alongside standard ticket sales"
+      - feature: "**B-Corp certified**"
+        detail: "RA is a certified B-Corp, demonstrating commitment to social and environmental standards"
+    chobble:
+      - feature: "**[Encryption at rest](/features/encrypted/)**"
+        provider: "Not documented"
+        detail: "attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM"
+      - feature: "**[Apple & Google Wallet tickets](/features/apple-wallet/)**"
+        detail: "attendees can add tickets to their phone wallet"
+      - feature: "**[ICS calendar feeds](/features/rss-and-calendar-feeds/)**"
+        detail: "subscribers get automatic calendar updates"
+      - feature: "**[RSS feeds](/features/rss-and-calendar-feeds/)**"
+        detail: "syndicate your events to feed readers"
+      - feature: "**[Pay-what-you-want pricing](/features/stripe-and-square/)**"
+        detail: "let attendees choose their price"
+      - feature: "**[Daily/recurring event support](/features/daily-events/)**"
+        detail: "built for events that repeat on a schedule with per-date capacity"
+      - feature: "**[Custom domain support](/features/custom-domain/)**"
+        provider: "Not documented"
+        detail: "get a host-provided subdomain instantly, or point your own domain"
+      - feature: "**[Public-facing website and CMS](/features/your-public-website/)**"
+        detail: "a homepage, content pages, news posts, and a contact form with spam protection, edited from the admin panel in Markdown with [custom CSS](/features/customising-your-site/)"
+      - feature: "**Self-hosting option**"
+        detail: "run the platform on selected infrastructure without a Chobble software licence fee"
+      - feature: "**[Open source](/features/open-source/)**"
+        detail: "inspect, modify, and contribute to the code under AGPLv3"
+      - feature: "**[Public & admin API](/features/public-api/)**"
+        provider: "Not documented"
+        detail: "RESTful JSON API for building custom integrations, plus [authenticated admin API](/features/admin-api/) with full event CRUD and booking creation via API keys"
+      - feature: "**[Webhooks](/features/webhooks/)**"
+        detail: "outbound POST on every registration"
+      - feature: "**[Event groups with tiered ticketing](/features/groups/)**"
+        detail: "organise related events into collections for multi-event bookings with a single checkout, and create ticket tiers sharing a venue capacity cap"
+      - feature: "**[Custom email providers](/features/email-providers/)**"
+        detail: "use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's"
+      - feature: "**[Customisable email templates](/features/email-templates/)**"
+        detail: "full control over confirmation emails with Liquid syntax for a fully white-label experience"
+      - feature: "**[Embeddable widget](/features/embeddable-widget/)**"
+        detail: "drop an iframe into your existing website"
+      - feature: "**No marketing to your attendees**"
+        detail: "Chobble does not market to your customers"
+      - feature: "**Flat pricing**"
+        detail: "no per-ticket platform fees, no matter how many you sell"
+
 blocks:
   - type: hero
     class: gradient
@@ -104,217 +186,8 @@ blocks:
       ## Feature comparison
 
 
-      <table class="comparison-table">
-      <thead>
-      <tr>
-      <th scope="col">Feature</th>
-      <th scope="col"><a href="https://pro.ra.co/ra-tickets">Resident Advisor</a></th>
-      <th scope="col">Chobble Tickets</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-      <th scope="row">Online ticket sales with payment processing</th>
-      <td data-label="Resident Advisor">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Apple Pay and Google Pay at checkout</th>
-      <td data-label="Resident Advisor">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">QR code or barcode scanning for entry</th>
-      <td data-label="Resident Advisor">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Email confirmations to ticket holders</th>
-      <td data-label="Resident Advisor">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Event capacity limits</th>
-      <td data-label="Resident Advisor">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Embeddable ticket widgets for your own website</th>
-      <td data-label="Resident Advisor">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Refund processing</th>
-      <td data-label="Resident Advisor">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Electronic music community</strong></th>
-      <td data-label="Resident Advisor">RA reaches <a href="https://pro.ra.co/promoter">millions of electronic music fans</a> across <a href="https://ra.co/about">dozens of countries</a>, specifically looking for club nights, festivals, and electronic music events</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Automated marketing to millions of subscribers</strong></th>
-      <td data-label="Resident Advisor">RA sends push notifications, emails, and web notifications to fans who've opted in, promoting your events alongside editorial picks</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Curated editorial and RA Picks</strong></th>
-      <td data-label="Resident Advisor">a team of local ambassadors around the world curate weekly newsletters and homepage features that drive traffic to events</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>RA Bumps</strong></th>
-      <td data-label="Resident Advisor">paid priority placement in event listings to boost visibility above other events</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Ticket resale with anti-tout technology</strong></th>
-      <td data-label="Resident Advisor">built-in face-value resale with barcode withholding until shortly before the event to prevent fraud (<a href="https://pro.ra.co/ra-tickets">RA claim</a> up to 2% additional revenue on sold-out events)</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Abandoned basket recovery</strong></th>
-      <td data-label="Resident Advisor">automated emails to fans who started but didn't complete checkout (<a href="https://pro.ra.co/ra-tickets">RA claim</a> 5% conversion uplift)</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>2-click checkout</strong></th>
-      <td data-label="Resident Advisor">streamlined payment with PayPal, iDEAL, and Bancontact alongside Apple Pay and Google Pay (<a href="https://pro.ra.co/ra-tickets">RA claim</a> 33% conversion uplift)</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>DJ charts, reviews, and mix hosting</strong></th>
-      <td data-label="Resident Advisor">artist profiles, DJ charts, album reviews, and music features that drive traffic to events and build artist credibility</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Crowd flow and entry time analytics</strong></th>
-      <td data-label="Resident Advisor">post-event data showing when fans arrived, for operational planning and optimisation</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>RA Scan app</strong></th>
-      <td data-label="Resident Advisor">barcode scanner with guest list management, real-time attendance monitoring, and live multi-device syncing</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Secret venue reveals</strong></th>
-      <td data-label="Resident Advisor">automated emails revealing the venue location to ticket holders, for invite-only or secret events</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Multiple currency support</strong></th>
-      <td data-label="Resident Advisor">sell across many countries with local payment methods</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>RA Guide</strong></th>
-      <td data-label="Resident Advisor">city guides and venue reviews that drive footfall to events and build audience awareness</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Guest list management</strong></th>
-      <td data-label="Resident Advisor">import guest lists, add guests at the door, and manage comps alongside standard ticket sales</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>B-Corp certified</strong></th>
-      <td data-label="Resident Advisor">RA is a certified B-Corp, demonstrating commitment to social and environmental standards</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/encrypted/">Encryption at rest</a></strong></th>
-      <td data-label="Resident Advisor">Not documented</td>
-      <td data-label="Chobble Tickets">attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/apple-wallet/">Apple &amp; Google Wallet tickets</a></strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">attendees can add tickets to their phone wallet</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/rss-and-calendar-feeds/">ICS calendar feeds</a></strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">subscribers get automatic calendar updates</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/rss-and-calendar-feeds/">RSS feeds</a></strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">syndicate your events to feed readers</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/stripe-and-square/">Pay-what-you-want pricing</a></strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">let attendees choose their price</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/daily-events/">Daily/recurring event support</a></strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">built for events that repeat on a schedule with per-date capacity</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/custom-domain/">Custom domain support</a></strong></th>
-      <td data-label="Resident Advisor">Not documented</td>
-      <td data-label="Chobble Tickets">get a host-provided subdomain instantly, or point your own domain</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/your-public-website/">Public-facing website and CMS</a></strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">a homepage, content pages, news posts, and a contact form with spam protection, edited from the admin panel in Markdown with <a href="/features/customising-your-site/">custom CSS</a></td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Self-hosting option</strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">run the platform on selected infrastructure without a Chobble software licence fee</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/open-source/">Open source</a></strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">inspect, modify, and contribute to the code under AGPLv3</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/public-api/">Public &amp; admin API</a></strong></th>
-      <td data-label="Resident Advisor">Not documented</td>
-      <td data-label="Chobble Tickets">RESTful JSON API for building custom integrations, plus <a href="/features/admin-api/">authenticated admin API</a> with full event CRUD and booking creation via API keys</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/webhooks/">Webhooks</a></strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">outbound POST on every registration</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/groups/">Event groups with tiered ticketing</a></strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">organise related events into collections for multi-event bookings with a single checkout, and create ticket tiers sharing a venue capacity cap</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/email-providers/">Custom email providers</a></strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/email-templates/">Customisable email templates</a></strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">full control over confirmation emails with Liquid syntax for a fully white-label experience</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/embeddable-widget/">Embeddable widget</a></strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">drop an iframe into your existing website</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>No marketing to your attendees</strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">Chobble does not market to your customers</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Flat pricing</strong></th>
-      <td data-label="Resident Advisor">Not offered</td>
-      <td data-label="Chobble Tickets">no per-ticket platform fees, no matter how many you sell</td>
-      </tr>
-      </tbody>
-      </table>
+  - type: include
+    file: feature-table.html
 
 
   - type: markdown

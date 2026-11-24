@@ -47,6 +47,102 @@ provider_facts:
     source_code: "No source code is published and no open-source claim is made. The footer links to 'Open Platform' APIs and SDKs for developers."
     event_marketplace: "Ticketmaster operates a public, browsable event marketplace; the business site calls itself 'The First Place Fans Look for Tickets' with the largest database of ticket buyers, and the consumer site lists events from many organisers."
     attendee_cross_marketing: "The UK privacy policy states that Ticketmaster may contact you with information or offers about upcoming events, products or services by email, push and web notification, SMS or social media, and uses purchase and interest data for personalised marketing."
+feature_table:
+    shared:
+      - "Online ticket sales with payment processing"
+      - "QR code or barcode scanning for entry"
+      - "Email confirmations to ticket holders"
+      - "Event capacity limits"
+      - "Refund processing"
+      - "Mobile-friendly booking experience"
+    provider:
+      - feature: "**Massive distribution network**"
+        detail: "Ticketmaster reaches millions of buyers through its website, mobile app, retail outlets, and call centres across [30+ countries](https://business.ticketmaster.com/solutions/)"
+      - feature: "**Reserved seating with interactive venue maps**"
+        detail: "detailed 3D seat selection for stadiums, arenas, and theatres showing exact views from each seat"
+      - feature: "**Verified fan / presale systems**"
+        detail: "manage presales, fan club access, artist presales, and access codes for high-demand events to control who can buy first"
+      - feature: "**Dynamic pricing**"
+        detail: "automatically adjust ticket prices in real time based on demand, similar to airline pricing"
+      - feature: "**Ticket resale marketplace**"
+        detail: "official face-value and open-market resale platform for sold-out events with guaranteed authenticity"
+      - feature: "**Ticket transfer**"
+        detail: "official ticket transfer between fans with new barcode generation"
+      - feature: "**Insurance and refund protection**"
+        detail: "optional ticket insurance for attendees covering illness, travel disruption, and other reasons"
+      - feature: "**Box office and retail POS**"
+        detail: "sell tickets at physical box offices, retail outlets, and call centres"
+      - feature: "**Mobile fan app**"
+        detail: "dedicated consumer app for ticket management, transfers, upgrades, and event discovery"
+      - feature: "**VIP and upgrade packages**"
+        detail: "offer premium experiences, meet and greets, hospitality packages, and seat upgrades"
+      - feature: "**Large-scale analytics**"
+        detail: "enterprise reporting across multiple venues, tours, and seasons with audience demographics and sales-by-location data"
+      - feature: "**Exclusive venue contracts**"
+        detail: "many large venues are contractually locked to Ticketmaster, making it the only option"
+      - feature: "**Multi-currency and international sales**"
+        detail: "sell across 30+ countries with local currency and language support"
+      - feature: "**Accessibility seating**"
+        detail: "dedicated accessible seating management with companion tickets and specific access requirements"
+      - feature: "**Season tickets and memberships**"
+        detail: "manage recurring subscriptions, season passes, and deposit collection programmes"
+      - feature: "**Queue and virtual waiting room**"
+        detail: "managed queuing system for high-demand on-sales handling millions of concurrent users"
+      - feature: "**[SafeTix](https://www.ticketmaster.com/safetix) encrypted barcodes**"
+        detail: "dynamically refreshing encrypted barcodes that can't be screenshotted or counterfeited"
+      - feature: "**AI-powered fraud detection**"
+        detail: "device reputation scoring and threat detection to block bots and scalpers"
+      - feature: "**TikTok integration**"
+        detail: "sell tickets directly through TikTok in 20+ countries"
+      - feature: "**Event templates and bulk edits**"
+        detail: "reusable templates for floor plans and pricing, with bulk editing across up to 300 events"
+      - feature: "**On-platform advertising**"
+        detail: "promoted ads within Ticketmaster's marketplace to boost event visibility"
+      - feature: "**All-in pricing**"
+        detail: "total cost shown upfront with no surprise fees at checkout"
+    chobble:
+      - feature: "**[Encryption at rest](/features/encrypted/)**"
+        provider: "Not documented"
+        detail: "attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM"
+      - feature: "**[Open source](/features/open-source/)**"
+        detail: "the complete product source is published under AGPL-3.0-only"
+      - feature: "**Self-hosting option**"
+        detail: "run the platform on selected infrastructure without a Chobble software licence fee"
+      - feature: "**Flat pricing**"
+        detail: "£50/year or £5/month with no per-ticket platform fees, compared to Ticketmaster's ~10% + £2.50 per ticket"
+      - feature: "**Full data ownership**"
+        detail: "you control your attendee data, not Ticketmaster"
+      - feature: "**No exclusive contracts**"
+        detail: "use Chobble Tickets alongside any other platform"
+      - feature: "**[Apple & Google Wallet tickets](/features/apple-wallet/)**"
+        detail: "attendees can add tickets to their phone wallet"
+      - feature: "**[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)**"
+        detail: "subscribers get automatic updates"
+      - feature: "**[Pay-what-you-want pricing](/features/stripe-and-square/)**"
+        detail: "let attendees choose their own price"
+      - feature: "**[Daily/recurring events](/features/daily-events/)**"
+        detail: "per-date capacity with calendar picker"
+      - feature: "**[Event groups with tiered ticketing](/features/groups/)**"
+        detail: "organise related events into collections for multi-event bookings with a single checkout, and create ticket tiers (VIP, general admission, etc.) sharing a venue capacity cap"
+      - feature: "**[Public & admin API](/features/public-api/)**"
+        provider: "Not reviewed"
+        detail: "and **[webhooks](/features/webhooks/)** - build custom integrations, with [admin API](/features/admin-api/) for full event CRUD and booking creation via API keys"
+      - feature: "**[Custom email providers](/features/email-providers/)**"
+        detail: "use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's"
+      - feature: "**[Customisable email templates](/features/email-templates/)**"
+        detail: "full control over confirmation emails with Liquid syntax"
+      - feature: "**[Custom domain](/features/custom-domain/)**"
+        provider: "Not documented"
+        detail: "get a host-provided subdomain instantly, or point your own domain"
+      - feature: "**[Public-facing website and CMS](/features/your-public-website/)**"
+        detail: "a homepage, content pages, news posts, and a contact form with spam protection, edited from the admin panel in Markdown with [custom CSS](/features/customising-your-site/)"
+      - feature: "**Apple Pay and Google Pay**"
+        detail: "accept wallet payments at checkout via Stripe"
+      - feature: "**Transparent pricing**"
+        detail: "no hidden fees, no negotiations"
+      - feature: "**Community Interest Company**"
+        detail: "run by a CIC, with profits reinvested rather than distributed to shareholders"
+
 blocks:
   - type: hero
     class: gradient
@@ -99,252 +195,8 @@ blocks:
       Ticketmaster is built for a completely different market. Here is what
       each platform offers:
 
-      <table class="comparison-table">
-      <thead>
-      <tr>
-      <th scope="col">Feature</th>
-      <th scope="col">Ticketmaster</th>
-      <th scope="col">Chobble Tickets</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-      <th scope="row">Online ticket sales with payment processing</th>
-      <td data-label="Ticketmaster">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">QR code or barcode scanning for entry</th>
-      <td data-label="Ticketmaster">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Email confirmations to ticket holders</th>
-      <td data-label="Ticketmaster">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Event capacity limits</th>
-      <td data-label="Ticketmaster">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Refund processing</th>
-      <td data-label="Ticketmaster">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Mobile-friendly booking experience</th>
-      <td data-label="Ticketmaster">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Massive distribution network</strong></th>
-      <td data-label="Ticketmaster">Ticketmaster reaches millions of buyers through its website, mobile app, retail outlets, and call centres across <a href="https://business.ticketmaster.com/solutions/">30+ countries</a></td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Reserved seating with interactive venue maps</strong></th>
-      <td data-label="Ticketmaster">detailed 3D seat selection for stadiums, arenas, and theatres showing exact views from each seat</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Verified fan / presale systems</strong></th>
-      <td data-label="Ticketmaster">manage presales, fan club access, artist presales, and access codes for high-demand events to control who can buy first</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Dynamic pricing</strong></th>
-      <td data-label="Ticketmaster">automatically adjust ticket prices in real time based on demand, similar to airline pricing</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Ticket resale marketplace</strong></th>
-      <td data-label="Ticketmaster">official face-value and open-market resale platform for sold-out events with guaranteed authenticity</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Ticket transfer</strong></th>
-      <td data-label="Ticketmaster">official ticket transfer between fans with new barcode generation</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Insurance and refund protection</strong></th>
-      <td data-label="Ticketmaster">optional ticket insurance for attendees covering illness, travel disruption, and other reasons</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Box office and retail POS</strong></th>
-      <td data-label="Ticketmaster">sell tickets at physical box offices, retail outlets, and call centres</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Mobile fan app</strong></th>
-      <td data-label="Ticketmaster">dedicated consumer app for ticket management, transfers, upgrades, and event discovery</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>VIP and upgrade packages</strong></th>
-      <td data-label="Ticketmaster">offer premium experiences, meet and greets, hospitality packages, and seat upgrades</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Large-scale analytics</strong></th>
-      <td data-label="Ticketmaster">enterprise reporting across multiple venues, tours, and seasons with audience demographics and sales-by-location data</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Exclusive venue contracts</strong></th>
-      <td data-label="Ticketmaster">many large venues are contractually locked to Ticketmaster, making it the only option</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Multi-currency and international sales</strong></th>
-      <td data-label="Ticketmaster">sell across 30+ countries with local currency and language support</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Accessibility seating</strong></th>
-      <td data-label="Ticketmaster">dedicated accessible seating management with companion tickets and specific access requirements</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Season tickets and memberships</strong></th>
-      <td data-label="Ticketmaster">manage recurring subscriptions, season passes, and deposit collection programmes</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Queue and virtual waiting room</strong></th>
-      <td data-label="Ticketmaster">managed queuing system for high-demand on-sales handling millions of concurrent users</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="https://www.ticketmaster.com/safetix">SafeTix</a> encrypted barcodes</strong></th>
-      <td data-label="Ticketmaster">dynamically refreshing encrypted barcodes that can't be screenshotted or counterfeited</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>AI-powered fraud detection</strong></th>
-      <td data-label="Ticketmaster">device reputation scoring and threat detection to block bots and scalpers</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>TikTok integration</strong></th>
-      <td data-label="Ticketmaster">sell tickets directly through TikTok in 20+ countries</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Event templates and bulk edits</strong></th>
-      <td data-label="Ticketmaster">reusable templates for floor plans and pricing, with bulk editing across up to 300 events</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>On-platform advertising</strong></th>
-      <td data-label="Ticketmaster">promoted ads within Ticketmaster's marketplace to boost event visibility</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>All-in pricing</strong></th>
-      <td data-label="Ticketmaster">total cost shown upfront with no surprise fees at checkout</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/encrypted/">Encryption at rest</a></strong></th>
-      <td data-label="Ticketmaster">Not documented</td>
-      <td data-label="Chobble Tickets">attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/open-source/">Open source</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">the complete product source is published under AGPL-3.0-only</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Self-hosting option</strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">run the platform on selected infrastructure without a Chobble software licence fee</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Flat pricing</strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">£50/year or £5/month with no per-ticket platform fees, compared to Ticketmaster's ~10% + £2.50 per ticket</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Full data ownership</strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">you control your attendee data, not Ticketmaster</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>No exclusive contracts</strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">use Chobble Tickets alongside any other platform</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/apple-wallet/">Apple &amp; Google Wallet tickets</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">attendees can add tickets to their phone wallet</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/rss-and-calendar-feeds/">ICS calendar and RSS feeds</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">subscribers get automatic updates</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/stripe-and-square/">Pay-what-you-want pricing</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">let attendees choose their own price</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/daily-events/">Daily/recurring events</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">per-date capacity with calendar picker</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/groups/">Event groups with tiered ticketing</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">organise related events into collections for multi-event bookings with a single checkout, and create ticket tiers (VIP, general admission, etc.) sharing a venue capacity cap</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/public-api/">Public &amp; admin API</a></strong></th>
-      <td data-label="Ticketmaster">Not reviewed</td>
-      <td data-label="Chobble Tickets">and <strong><a href="/features/webhooks/">webhooks</a></strong> - build custom integrations, with <a href="/features/admin-api/">admin API</a> for full event CRUD and booking creation via API keys</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/email-providers/">Custom email providers</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/email-templates/">Customisable email templates</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">full control over confirmation emails with Liquid syntax</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/custom-domain/">Custom domain</a></strong></th>
-      <td data-label="Ticketmaster">Not documented</td>
-      <td data-label="Chobble Tickets">get a host-provided subdomain instantly, or point your own domain</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/your-public-website/">Public-facing website and CMS</a></strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">a homepage, content pages, news posts, and a contact form with spam protection, edited from the admin panel in Markdown with <a href="/features/customising-your-site/">custom CSS</a></td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Apple Pay and Google Pay</strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">accept wallet payments at checkout via Stripe</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Transparent pricing</strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">no hidden fees, no negotiations</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Community Interest Company</strong></th>
-      <td data-label="Ticketmaster">Not offered</td>
-      <td data-label="Chobble Tickets">run by a CIC, with profits reinvested rather than distributed to shareholders</td>
-      </tr>
-      </tbody>
-      </table>
+  - type: include
+    file: feature-table.html
   - type: markdown
     content: |
       ## Control over your ticketing

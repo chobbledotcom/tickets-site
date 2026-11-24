@@ -16,6 +16,7 @@
 
 import { languageForUrl, translationForUrl } from "./_lib/i18n.js";
 import { providerDirectory } from "./_lib/provider-directory.js";
+import { featureTable } from "./_lib/feature-table.js";
 import {
   feeTable,
   providerEvidence,
@@ -49,6 +50,7 @@ export default {
         : undefined,
     provider_evidence: (data) =>
       data.provider_facts ? providerEvidence(data.provider_facts, data) : undefined,
+    feature_table_data: (data) => featureTable(data),
     blocks: (data) =>
       data.provider_facts ? withEvidenceBlocks(data.blocks) : data.blocks,
     fee_table: (data) => (data.fee_table_page ? feeTable() : undefined),

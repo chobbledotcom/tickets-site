@@ -46,6 +46,124 @@ provider_facts:
     source_code: "Eventbrite publishes no platform source code and makes no open-source claim."
     event_marketplace: "Eventbrite runs a public events directory browsable by place and category. Its help centre states that a public event is shown in the Eventbrite public events directory, on major search engines and partner sites, and that a private event is not."
     attendee_cross_marketing: "The privacy policy states that Eventbrite may send electronic communications marketing or advertising the Services themselves or events on the Services, and may use inferences to target advertising or customise recommendations, including on behalf of organisers."
+feature_table:
+    shared:
+      - "Online ticket sales with payment processing via Stripe"
+      - "Apple Pay and Google Pay at checkout (via Stripe)"
+      - "QR code scanning for check-in at the door"
+      - "Email confirmations to attendees after booking"
+      - "[Bulk email](/features/bulk-email/) to ticket holders with updates before and after the event"
+      - "Event capacity limits"
+      - "Free event support with no payment setup required"
+      - "Refund processing from the admin panel"
+      - "Embeddable ticket widgets for your own website"
+      - "API access for custom integrations"
+      - "Custom questions on the registration form"
+      - "Event grouping into collections for multi-event bookings"
+      - "Multiple ticket types per event: use event groups with shared capacity limits to create VIP, general admission, early bird, and other tiers with different prices"
+    provider:
+      - feature: "**Event discovery marketplace**"
+        detail: "[90 million+ active ticket buyers](https://www.eventbrite.com/organizer/features/sell-tickets/) browsing Eventbrite for events, which can drive organic sales you wouldn't get on your own"
+      - feature: "**Built-in email marketing**"
+        detail: "send campaigns to attendees and followers with up to 10,000 daily sends on [Pro](https://www.eventbrite.com/organizer/pricing/), including audience segmentation and automated event reminders. Chobble Tickets sends [bulk email](/features/bulk-email/) to attendee segments through your own email provider, but has no follower list and no automatic reminders"
+      - feature: "**Social media ad tools**"
+        detail: "launch Facebook and Instagram ad campaigns directly from Eventbrite with audience targeting and [retargeting](https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/) (Eventbrite claim 6x average ROI on retargeting campaigns)"
+      - feature: "**Hidden ticket tiers**"
+        detail: "ticket types hidden behind access codes or time-limited availability windows for presales and invite-only access"
+      - feature: "**Reserved seating**"
+        detail: "design interactive venue maps with assigned seating sections and let attendees pick their seats"
+      - feature: "**Timed entry ticketing**"
+        detail: "time-slot-based ticket distribution for museums, tours, and similar events"
+      - feature: "**Waitlists**"
+        detail: "built-in waitlists for sold-out events, with automatic notifications when places open up"
+      - feature: "**Scheduled payouts**"
+        detail: "receive advance payments on customised schedules before your event occurs"
+      - feature: "**AI-powered event creation**"
+        detail: "automated tools for generating event descriptions and building event pages"
+      - feature: "**Organiser mobile app**"
+        detail: "dedicated iOS/Android app for managing events, scanning check-ins, and monitoring sales on the go"
+      - feature: "**App marketplace**"
+        detail: "[100+ third-party integrations](https://www.eventbrite.com/apps/) including Zoom, Mailchimp, Salesforce, Zapier, HubSpot, and more"
+      - feature: "**Multi-currency support**"
+        detail: "sell in different currencies for international events across nearly 180 countries"
+      - feature: "**Virtual event support**"
+        detail: "integrations with Zoom, livestreaming tools, and online event hosting"
+      - feature: "**Collections**"
+        detail: "group related events for easier discovery and cross-promotion"
+      - feature: "**Conditional logic questions**"
+        detail: "follow-up registration questions that appear based on previous answers"
+      - feature: "**Attendee self-service transfers**"
+        detail: "attendees can change ticket type, transfer to a different event date, or reassign to another person themselves"
+      - feature: "**Post-event surveys**"
+        detail: "built-in NPS scoring and follow-up surveys after events"
+      - feature: "**Lineup feature**"
+        detail: "dedicated artist profiles with auto-syndication to [Spotify, Bandsintown, and Google](https://www.eventbrite.com/blog/press/newsroom/lineup-tool-helps-music-venues-reach-more-fans/)"
+      - feature: "**\"See Who's Going\"**"
+        detail: "social proof feature showing which friends are attending an event"
+      - feature: "**Multi-language support**"
+        detail: "platform available in [multiple languages](https://www.eventbrite.com/help/en-us/articles/364490/how-to-change-the-language-settings-for-your-event/) for international audiences"
+      - feature: "**On-site mobile box office**"
+        detail: "sell tickets and merchandise in person with credit card processing via the organiser app"
+      - feature: "**Tap to Pay**"
+        detail: "accept contactless on-site payments at the door using NFC"
+      - feature: "**Tracking pixels and links**"
+        detail: "add conversion tracking pixels and attribution links across ad platforms"
+      - feature: "**Sell through social platforms**"
+        detail: "sell tickets directly through Facebook, TikTok, and LinkedIn without attendees leaving those apps"
+      - feature: "**1:1 onboarding and phone support**"
+        detail: "Pro customers get onboarding sessions and 24/7 phone and live chat support"
+      - feature: "**AI Marketing Copilot**"
+        detail: "AI-generated ad copy, email campaigns, event images, and descriptions ([Eventbrite claim](https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/) 30% faster campaign launches and 17% better CPC)"
+      - feature: "**Nonprofit discount**"
+        detail: "50% off Pro plans and discounted fees on donation tickets for qualifying organisations"
+      - feature: "**Automated pre-event reminders**"
+        detail: "series of emails at 48 hours, 2 hours, and 10 minutes before the event with \"Join Now\" links"
+    chobble:
+      - feature: "**[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**"
+        detail: "create promo codes, discount codes, surcharges, and opt-in add-ons with stock limits and a live running total"
+      - feature: "**[Custom questions with free-text answers](/features/custom-questions/)**"
+        detail: "add multiple-choice or free-text questions to events, and link answers to price changes for tiered pricing"
+      - feature: "**[Parent/child listings](/features/parent-child-listings/)**"
+        detail: "require buyers to choose child listings (add-ons, options) when booking a parent"
+      - feature: "**[Password-derived encryption](/features/encrypted/)**"
+        provider: "Not documented"
+        detail: "attendee data is encrypted with a key derived from your admin password using hybrid RSA-OAEP + AES-256-GCM. A database dump and the server's environment encryption key together are still not enough to decrypt attendee data, since an attacker would also need your password. If you forget it, the data is permanently unrecoverable."
+      - feature: "**[Open source](/features/open-source/)**"
+        detail: "the complete product source is published under AGPL-3.0-only with no proprietary feature tier"
+      - feature: "**Self-hosting option**"
+        detail: "run the platform on selected infrastructure without a Chobble software licence fee"
+      - feature: "**Flat pricing**"
+        detail: "£50/year or £5/month with no per-ticket platform fees, no matter how many you sell"
+      - feature: "**[Apple & Google Wallet tickets](/features/apple-wallet/)**"
+        detail: "attendees can add tickets to their phone wallet"
+      - feature: "**[ICS calendar feeds](/features/rss-and-calendar-feeds/)**"
+        detail: "subscribers get automatic calendar updates"
+      - feature: "**[RSS feeds](/features/rss-and-calendar-feeds/)**"
+        detail: "syndicate your events to feed readers"
+      - feature: "**[Tiered ticket types via groups](/features/groups/)**"
+        detail: "create VIP, early bird, and other tiers using event groups with a shared capacity cap (max attendees per group)"
+      - feature: "**[Pay-what-you-want pricing](/features/stripe-and-square/)**"
+        detail: "let attendees choose their own price"
+      - feature: "**[Daily/recurring events](/features/daily-events/)**"
+        detail: "per-date capacity with calendar picker and holiday blackouts"
+      - feature: "**[Admin API](/features/admin-api/)**"
+        detail: "full CRUD for events and booking creation via API keys, so you can automate event management from scripts or external tools"
+      - feature: "**[Webhooks](/features/webhooks/)**"
+        detail: "outbound POST on every registration for custom integrations"
+      - feature: "**[Custom email providers](/features/email-providers/)**"
+        detail: "use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's"
+      - feature: "**[Customisable email templates](/features/email-templates/)**"
+        detail: "full control over confirmation emails with Liquid syntax for a fully white-label experience"
+      - feature: "**[Custom domain](/features/custom-domain/)**"
+        provider: "Not documented"
+        detail: "get a yourname.tix.chobble.net subdomain instantly, or point your own domain. Eventbrite events run on eventbrite.co.uk by default."
+      - feature: "**[Public-facing website and CMS](/features/your-public-website/)**"
+        detail: "a homepage, content pages, news posts, and a contact form with spam protection, all edited from the admin panel with Markdown and [custom CSS](/features/customising-your-site/). Eventbrite provides an event page but not a full website with pages you can compose"
+      - feature: "**No marketing to your attendees**"
+        detail: "your audience stays yours, with no cross-promotion of competing events"
+      - feature: "**Community Interest Company**"
+        detail: "run by a CIC, with profits reinvested rather than distributed to shareholders"
+
 blocks:
   - type: hero
     class: gradient
@@ -96,327 +214,8 @@ blocks:
       Eventbrite is a massive platform with features Chobble Tickets doesn't
       have, and vice versa. The comparison below sets out the differences:
 
-      <table class="comparison-table">
-      <thead>
-      <tr>
-      <th scope="col">Feature</th>
-      <th scope="col">Eventbrite</th>
-      <th scope="col">Chobble Tickets</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-      <th scope="row">Online ticket sales with payment processing via Stripe</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Apple Pay and Google Pay at checkout (via Stripe)</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">QR code scanning for check-in at the door</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Email confirmations to attendees after booking</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row"><a href="/features/bulk-email/">Bulk email</a> to ticket holders with updates before and after the event</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Event capacity limits</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Free event support with no payment setup required</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Refund processing from the admin panel</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Embeddable ticket widgets for your own website</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">API access for custom integrations</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Custom questions on the registration form</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Event grouping into collections for multi-event bookings</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row">Multiple ticket types per event: use event groups with shared capacity limits to create VIP, general admission, early bird, and other tiers with different prices</th>
-      <td data-label="Eventbrite">Included</td>
-      <td data-label="Chobble Tickets">Included</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Event discovery marketplace</strong></th>
-      <td data-label="Eventbrite"><a href="https://www.eventbrite.com/organizer/features/sell-tickets/">90 million+ active ticket buyers</a> browsing Eventbrite for events, which can drive organic sales you wouldn't get on your own</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Built-in email marketing</strong></th>
-      <td data-label="Eventbrite">send campaigns to attendees and followers with up to 10,000 daily sends on <a href="https://www.eventbrite.com/organizer/pricing/">Pro</a>, including audience segmentation and automated event reminders. Chobble Tickets sends <a href="/features/bulk-email/">bulk email</a> to attendee segments through your own email provider, but has no follower list and no automatic reminders</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Social media ad tools</strong></th>
-      <td data-label="Eventbrite">launch Facebook and Instagram ad campaigns directly from Eventbrite with audience targeting and <a href="https://www.eventbrite.co.uk/blog/ds00-the-surprising-roi-of-retargeting-for-events/">retargeting</a> (Eventbrite claim 6x average ROI on retargeting campaigns)</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Hidden ticket tiers</strong></th>
-      <td data-label="Eventbrite">ticket types hidden behind access codes or time-limited availability windows for presales and invite-only access</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Reserved seating</strong></th>
-      <td data-label="Eventbrite">design interactive venue maps with assigned seating sections and let attendees pick their seats</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Timed entry ticketing</strong></th>
-      <td data-label="Eventbrite">time-slot-based ticket distribution for museums, tours, and similar events</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Waitlists</strong></th>
-      <td data-label="Eventbrite">built-in waitlists for sold-out events, with automatic notifications when places open up</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Scheduled payouts</strong></th>
-      <td data-label="Eventbrite">receive advance payments on customised schedules before your event occurs</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>AI-powered event creation</strong></th>
-      <td data-label="Eventbrite">automated tools for generating event descriptions and building event pages</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Organiser mobile app</strong></th>
-      <td data-label="Eventbrite">dedicated iOS/Android app for managing events, scanning check-ins, and monitoring sales on the go</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>App marketplace</strong></th>
-      <td data-label="Eventbrite"><a href="https://www.eventbrite.com/apps/">100+ third-party integrations</a> including Zoom, Mailchimp, Salesforce, Zapier, HubSpot, and more</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Multi-currency support</strong></th>
-      <td data-label="Eventbrite">sell in different currencies for international events across nearly 180 countries</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Virtual event support</strong></th>
-      <td data-label="Eventbrite">integrations with Zoom, livestreaming tools, and online event hosting</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Collections</strong></th>
-      <td data-label="Eventbrite">group related events for easier discovery and cross-promotion</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Conditional logic questions</strong></th>
-      <td data-label="Eventbrite">follow-up registration questions that appear based on previous answers</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Attendee self-service transfers</strong></th>
-      <td data-label="Eventbrite">attendees can change ticket type, transfer to a different event date, or reassign to another person themselves</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Post-event surveys</strong></th>
-      <td data-label="Eventbrite">built-in NPS scoring and follow-up surveys after events</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Lineup feature</strong></th>
-      <td data-label="Eventbrite">dedicated artist profiles with auto-syndication to <a href="https://www.eventbrite.com/blog/press/newsroom/lineup-tool-helps-music-venues-reach-more-fans/">Spotify, Bandsintown, and Google</a></td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>"See Who's Going"</strong></th>
-      <td data-label="Eventbrite">social proof feature showing which friends are attending an event</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Multi-language support</strong></th>
-      <td data-label="Eventbrite">platform available in <a href="https://www.eventbrite.com/help/en-us/articles/364490/how-to-change-the-language-settings-for-your-event/">multiple languages</a> for international audiences</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>On-site mobile box office</strong></th>
-      <td data-label="Eventbrite">sell tickets and merchandise in person with credit card processing via the organiser app</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Tap to Pay</strong></th>
-      <td data-label="Eventbrite">accept contactless on-site payments at the door using NFC</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Tracking pixels and links</strong></th>
-      <td data-label="Eventbrite">add conversion tracking pixels and attribution links across ad platforms</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Sell through social platforms</strong></th>
-      <td data-label="Eventbrite">sell tickets directly through Facebook, TikTok, and LinkedIn without attendees leaving those apps</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>1:1 onboarding and phone support</strong></th>
-      <td data-label="Eventbrite">Pro customers get onboarding sessions and 24/7 phone and live chat support</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>AI Marketing Copilot</strong></th>
-      <td data-label="Eventbrite">AI-generated ad copy, email campaigns, event images, and descriptions (<a href="https://www.eventbrite.com/blog/eventbrite-ai-powered-tools/">Eventbrite claim</a> 30% faster campaign launches and 17% better CPC)</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Nonprofit discount</strong></th>
-      <td data-label="Eventbrite">50% off Pro plans and discounted fees on donation tickets for qualifying organisations</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Automated pre-event reminders</strong></th>
-      <td data-label="Eventbrite">series of emails at 48 hours, 2 hours, and 10 minutes before the event with "Join Now" links</td>
-      <td data-label="Chobble Tickets">Not offered</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/promo-codes-and-add-ons/">Promo codes, discounts, and add-ons</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">create promo codes, discount codes, surcharges, and opt-in add-ons with stock limits and a live running total</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/custom-questions/">Custom questions with free-text answers</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">add multiple-choice or free-text questions to events, and link answers to price changes for tiered pricing</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/parent-child-listings/">Parent/child listings</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">require buyers to choose child listings (add-ons, options) when booking a parent</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/encrypted/">Password-derived encryption</a></strong></th>
-      <td data-label="Eventbrite">Not documented</td>
-      <td data-label="Chobble Tickets">attendee data is encrypted with a key derived from your admin password using hybrid RSA-OAEP + AES-256-GCM. A database dump and the server's environment encryption key together are still not enough to decrypt attendee data, since an attacker would also need your password. If you forget it, the data is permanently unrecoverable.</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/open-source/">Open source</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">the complete product source is published under AGPL-3.0-only with no proprietary feature tier</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Self-hosting option</strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">run the platform on selected infrastructure without a Chobble software licence fee</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Flat pricing</strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">£50/year or £5/month with no per-ticket platform fees, no matter how many you sell</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/apple-wallet/">Apple &amp; Google Wallet tickets</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">attendees can add tickets to their phone wallet</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/rss-and-calendar-feeds/">ICS calendar feeds</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">subscribers get automatic calendar updates</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/rss-and-calendar-feeds/">RSS feeds</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">syndicate your events to feed readers</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/groups/">Tiered ticket types via groups</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">create VIP, early bird, and other tiers using event groups with a shared capacity cap (max attendees per group)</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/stripe-and-square/">Pay-what-you-want pricing</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">let attendees choose their own price</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/daily-events/">Daily/recurring events</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">per-date capacity with calendar picker and holiday blackouts</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/admin-api/">Admin API</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">full CRUD for events and booking creation via API keys, so you can automate event management from scripts or external tools</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/webhooks/">Webhooks</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">outbound POST on every registration for custom integrations</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/email-providers/">Custom email providers</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/email-templates/">Customisable email templates</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">full control over confirmation emails with Liquid syntax for a fully white-label experience</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/custom-domain/">Custom domain</a></strong></th>
-      <td data-label="Eventbrite">Not documented</td>
-      <td data-label="Chobble Tickets">get a yourname.tix.chobble.net subdomain instantly, or point your own domain. Eventbrite events run on eventbrite.co.uk by default.</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong><a href="/features/your-public-website/">Public-facing website and CMS</a></strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">a homepage, content pages, news posts, and a contact form with spam protection, all edited from the admin panel with Markdown and <a href="/features/customising-your-site/">custom CSS</a>. Eventbrite provides an event page but not a full website with pages you can compose</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>No marketing to your attendees</strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">your audience stays yours, with no cross-promotion of competing events</td>
-      </tr>
-      <tr>
-      <th scope="row"><strong>Community Interest Company</strong></th>
-      <td data-label="Eventbrite">Not offered</td>
-      <td data-label="Chobble Tickets">run by a CIC, with profits reinvested rather than distributed to shareholders</td>
-      </tr>
-      </tbody>
-      </table>
+  - type: include
+    file: feature-table.html
   - type: markdown
     content: |
       ## Data ownership
