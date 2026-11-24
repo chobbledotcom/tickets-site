@@ -157,7 +157,8 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "Tito fees: 3% per ticket (2.5% for charity/non-profit/community), capped at €25 per ticket. Payment processing (e.g. Stripe 1.5% + 20p) is separate. Free events have no fees. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: ti.to/pricing (March 2026)."
   },
-  "ticketmonkey": {
+    "ticketmonkey": {
+    "fee_vat": "inclusive",
     "name": "Ticket Monkey",
     "annual_cost": 0,
     "per_ticket_fee_percent": 0,
@@ -211,7 +212,8 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "Wix Events fees: 2.5% ticket service fee per paid ticket, plus Wix Payments processing (2.1% + 20p in the UK). Requires a Wix Business & eCommerce plan (from $29/month, approx. £23/month or £276/year). Free tickets have no service fee. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: support.wix.com (March 2026)."
   },
-  "fixr": {
+    "fixr": {
+    "fee_vat": "exclusive",
     "name": "FIXR (Pro)",
     "annual_cost": 0,
     "per_ticket_fee_percent": 4.99,
@@ -265,7 +267,8 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "tickts Pro fees: £690/year (annual billing) or £69/month (monthly billing, £828/year). 0% commission and no booking fees for fans, plus Stripe processing (1.5% + 20p). Pro adds season passes, white-label subdomain, queue system, fan CRM, full API access, and removing tickts branding. Chobble Tickets: £50/year or £5/month flat (£25/year or £2.50/month for charities), all features included + Stripe processing (1.5% + 20p). Source: tickts.co.uk/pricing (July 2026)."
   },
-  "humanitix": {
+    "humanitix": {
+    "fee_vat": "exclusive",
     "name": "Humanitix",
     "annual_cost": 0,
     "per_ticket_fee_percent": 4.67,
@@ -282,7 +285,8 @@
     "payment_processing_percent": 1.5,
     "payment_processing_fixed": 0.2
   },
-  "ticketpass_essentials": {
+    "ticketpass_essentials": {
+    "fee_vat": "exclusive",
     "name": "Ticketpass (Essentials)",
     "annual_cost": 0,
     "per_ticket_fee_percent": 3.8,
@@ -291,7 +295,8 @@
     "payment_processing_fixed": 0,
     "fee_note": "Ticketpass Essentials fees: a booking fee of 1.9% + £0.20 and a separate service fee of 1.9% + £0.20 on each paid ticket, so 3.8% + 40p in total (excl. VAT). Card processing is covered inside the booking fee. Free events are free, and up to 50% of the booking fee is donated to a chosen charity project. Chobble Tickets: £50/year or £5/month flat (£25/year or £2.50/month for charities, community groups, artists and musicians) + Stripe processing (1.5% + 20p). Source: ticketpass.org/pricing (July 2026)."
   },
-  "ticketpass_pro": {
+    "ticketpass_pro": {
+    "fee_vat": "exclusive",
     "name": "Ticketpass (Pro)",
     "annual_cost": 0,
     "per_ticket_fee_percent": 7.0,
@@ -327,7 +332,8 @@
     "payment_processing_fixed": 0,
     "fee_note": "Weezevent fees: 2.5% + £0.99 including tax on each paid ticket sold online, with banking fees included and no setup fee or subscription. Free events cost nothing. Ticket income is paid out every 15 days. Chobble Tickets: £50/year or £5/month flat (£25/year or £2.50/month for charities, community groups, artists and musicians) + Stripe processing (1.5% + 20p). Source: weezevent.com/en-gb/our-prices (July 2026)."
   },
-  "ticketsource": {
+    "ticketsource": {
+    "fee_vat": "exclusive",
     "name": "TicketSource",
     "annual_cost": 0,
     "per_ticket_fee_percent": 7,
@@ -337,7 +343,8 @@
     "payment_processing_fixed": 0,
     "fee_note": "TicketSource booking fee with TicketSource payment processing: 7% per paid booking excluding VAT, minimum £0.25, with card processing included in the fee. The fee is charged per booking, so a multi-ticket booking is charged once and the real cost of one order can be lower than this per-ticket estimate. Registered charities pay 6.5%. Free events carry no fee up to 1,000 tickets. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p). Source: ticketsource.co.uk/pricing (July 2026)."
   },
-  "ticketsource_stripe": {
+    "ticketsource_stripe": {
+    "fee_vat": "exclusive",
     "name": "TicketSource (own Stripe)",
     "annual_cost": 0,
     "per_ticket_fee_percent": 4.5,
@@ -364,7 +371,8 @@
     "payment_processing_fixed": 0,
     "fee_note": "Ticketted charges 3.95% + A$0.95 on each paid ticket, which this calculator converts to 3.95% + about 50p at 52.3p to the Australian dollar on 10 August 2026. Charities and schools pay 2.45% + A$0.45 (about 24p), and higher volumes or unusual requirements are quoted individually, so neither of those rates is modelled here. Free RSVP events carry no charge, and there is no subscription, setup fee or minimum ticket volume. Ticketted takes payment through Stripe Connect and Stripe's processing charge is inside its fee, so no processing is added on top here. Ticketted is for events in Australia and prices in Australian dollars; its FAQ says anyone organising events there can use it. Chobble Tickets: \u00a350/year or \u00a35/month flat (\u00a325/year or \u00a32.50/month for charities, community groups, artists and musicians) + Stripe, Square or SumUp processing; this calculator uses Stripe's UK rate of 1.5% + 20p. Sources: ticketted.com/pricing and abr.business.gov.au (August 2026)."
   },
-  "qrticket": {
+    "qrticket": {
+    "fee_vat": "inclusive",
     "name": "QRTicket",
     "annual_cost": 0,
     "per_ticket_fee_percent": 0,
@@ -402,7 +410,8 @@
     "payment_processing_fixed": 0.2,
     "fee_note": "Event Schedule charges no platform fee on ticket sales. Its paid plans are a flat subscription in US dollars: Pro at US$5/month or US$50/year (about £40/year) unlocks unlimited ticket sales and removes Event Schedule branding, and Enterprise at US$15/month or US$150/year (about £120/year) adds custom domains and extra team members. A free plan sells up to 25 paid tickets a month and carries Event Schedule branding. This calculator uses the Pro annual rate, converted to about £40, with UK Stripe processing (1.5% + 20p) to match the Chobble figures; Event Schedule's own pages quote US Stripe at 2.9% + US$0.30. Ticket income goes to the organiser's own Stripe account, and the software is open source, so self-hosting carries no Event Schedule fee. Chobble Tickets: £50/year or £5/month flat (£25/year or £2.50/month for charities, community groups, artists and musicians) + Stripe/Square/SumUp processing (1.5% + 20p). Source: eventschedule.com/pricing (August 2026)."
   },
-  "ticketebo": {
+    "ticketebo": {
+    "fee_vat": "inclusive",
     "name": "Ticketebo",
     "annual_cost": 0,
     "per_ticket_fee_percent": 4.95,

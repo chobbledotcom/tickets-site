@@ -115,14 +115,20 @@ const costFor = (competitor) => {
 /** The fee answer paragraph, or null when the provider has no calculator data.
  * Providers whose calculator rate is an estimate get the estimate said out
  * loud, and the review date is distinguished from a rate check, because the
- * date verifies the terms review, not the assumed rate. */
+ * date verifies the terms review, not the assumed rate. Figures carry the
+ * documented VAT treatment where the review recorded one. */
 const answerFor = (facts, competitor) => {
   const total = competitor ? costFor(competitor) : null;
   if (total === null) return null;
   const chobble = costFor(competitorsData.chobble);
+  const vat = competitor.fee_vat === "exclusive"
+    ? ", before VAT"
+    : competitor.fee_vat === "inclusive"
+      ? ", including VAT"
+      : "";
   const base =
     `On ${DEFAULT_TICKETS} tickets at £${DEFAULT_PRICE} each, ` +
-    `${facts.name}'s fees come to ${competitor.fee_estimate ? "about " : ""}£${total}. ` +
+    `${facts.name}'s fees come to ${competitor.fee_estimate ? "about " : ""}£${total}${vat}. ` +
     `${chobbleFacts.name} costs £${chobble}, including its £50 annual fee and payment processing.`;
   if (competitor.fee_estimate) {
     return (
@@ -229,6 +235,7 @@ export const feeTable = () => {
       name: competitor.name,
       highlight: key === "chobble",
       estimate: Boolean(competitor.fee_estimate),
+      vat: competitor.fee_vat,
       total: costFor(competitor),
     }))
     .filter((row) => row.total !== null)

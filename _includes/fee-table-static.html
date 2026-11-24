@@ -22,7 +22,7 @@ computed in _lib/provider-evidence.js from _data/competitors.json.
       {%- for row in fee_table.rows -%}
       <tr{% if row.highlight %} class="fee-table__highlight"{% endif %}>
         <th scope="row">{{ row.name }}</th>
-        <td>£{{ row.total }}{% if row.estimate %} (estimate){% endif %}</td>
+        <td>£{{ row.total }}{% if row.estimate %} (estimate){% endif %}{% if row.vat == "exclusive" %} (before VAT){% endif %}{% if row.vat == "inclusive" %} (including VAT){% endif %}</td>
         <td>£{{ fee_table.tickets | times: fee_table.price | minus: row.total }}</td>
       </tr>
       {%- endfor -%}
