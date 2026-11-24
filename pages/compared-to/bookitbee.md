@@ -86,127 +86,54 @@ blocks:
       BookitBee and Chobble Tickets both handle event ticketing, but they
       focus on different things. Here is what each offers that the other
       doesn't:
-  - type: markdown
-    content: |
-      ### Both sites share some features
 
-      - Online ticket sales with Stripe payment processing
-      - Apple Pay and Google Pay at checkout (via Stripe)
-      - QR code scanning for check-in at the door
-      - Email confirmations to attendees after booking
-      - Event capacity limits
-      - Free event support with no payment setup required
-      - Refund processing from the admin panel
-      - Custom questions at checkout
-      - Multiple ticket types per event: both platforms let you create
-        VIP, early bird, group, and standard tiers with different prices
-  - type: markdown
-    content: |
-      ### [BookitBee](https://www.bookitbee.com/features/) has features Chobble Tickets doesn't
-
-      - **Social Group Deals** - a viral marketing mechanic where buyers
-        share a unique link, and once enough friends purchase, the original
-        buyer gets a free ticket.
-        [BookitBee report](https://www.bookitbee.com/features/) this
-        drives up to 50% of sales at some events
-      - **Reserved seating with seat map builder** - create interactive
-        venue maps where attendees pick their own seats, tables, or zones,
-        with a best-available auto-assignment option
-      - **Payment plans** - collect instalment payments over time for
-        higher-priced events, with renewal tracking and failed-payment
-        handling. Chobble Tickets takes a
-        [deposit and the balance later](/features/deposits-and-balance-payments/),
-        but does not split a price into a run of instalments
-      - **Renewable membership system** - multi-tier memberships with
-        pro-rata mid-year additions, self-service upgrades/downgrades,
-        cancellations, and members-only event gating. A Chobble Tickets
-        [subscription listing](/features/purchasable-events/) charges a
-        member again every week, month or year through Stripe, but has no
-        tiers, pro-rata changes or members-only events
-      - **Cross-selling other events during checkout** - offer your other
-        events inline during the ticket purchase flow. Chobble Tickets
-        sells merchandise, parking and similar extras as
-        [add-ons](/features/promo-codes-and-add-ons/), but does not offer
-        another event at checkout
-      - **Box office POS** - a web-based point-of-sale app for on-the-door
-        sales and scanning, purpose-built for their platform
-      - **11 languages and 30+ currencies** - built-in internationalisation
-        for international events
-      - **White-label branding** - fully customisable booking journeys
-        branded to the organiser, not BookitBee
-      - **PayPal and managed payments** - accept payments via PayPal in
-        addition to Stripe, or use BookitBee's managed payment service
-        (LIVE IT Payments) without setting up your own account
-      - **Invite-only events** - restrict bookings by email address or
-        domain
-      - **Custom registration questions with more field types** - free
-        text, date selection, and other field types beyond multiple choice
-        (Chobble supports multiple-choice and free-text custom questions,
-        but BookitBee may still offer more field types)
-      - **Facebook Pixel, Google Analytics, and Tag Manager** - built-in
-        tracking and conversion attribution
-      - **Mailchimp and Slack integrations** - connect to your existing
-        marketing and communication tools
-      - **Real-time sales dashboard** - live analytics showing ticket
-        sales, revenue, and attendee demographics
-  - type: markdown
-    content: |
-      ### Chobble Tickets has features BookitBee doesn't
-
-      - **[Encryption at rest](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
-      - **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)**
-        create promo codes, discount codes, surcharges, and opt-in add-ons
-        with stock limits and a live running total
-      - **[Open source](/features/open-source/)** - the complete product source
-        is published under AGPL-3.0-only
-      - **Self-hosting option** - run the platform on selected infrastructure
-        without a Chobble software licence fee
-      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fee,
-        compared to BookitBee's 3.5-6.5% per ticket
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
-        attendees can add tickets to their phone wallet
-      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
-        subscribers get automatic calendar updates
-      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate your
-        events to feed readers
-      - **[Tiered ticket types via groups](/features/groups/)** - create
-        VIP, early bird, and other tiers using event groups with a shared
-        capacity cap (max attendees per group)
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
-        attendees choose their own price
-      - **[Daily/recurring events](/features/daily-events/)** - per-date
-        capacity with calendar picker and holiday blackouts
-      - **[Custom questions](/features/custom-questions/)** - add
-        multiple-choice and free-text questions to events and collect
-        structured answers at checkout, with answers visible across the
-        admin interface, CSV exports, and webhooks
-      - **[Public & admin API](/features/public-api/)** - RESTful JSON API
-        for building custom integrations, plus [authenticated admin
-        API](/features/admin-api/) with full event CRUD and booking creation
-        via API keys
-      - **[Webhooks](/features/webhooks/)** - outbound POST on every
-        registration for custom integrations
-      - **[Event groups](/features/groups/)** - organise related events
-        into collections for multi-event bookings with a single checkout
-      - **[Custom email providers](/features/email-providers/)** - use
-        Resend, Postmark, SendGrid, or Mailgun so emails come from your
-        domain
-      - **[Customisable email templates](/features/email-templates/)** -
-        full control over confirmation emails with Liquid syntax for a
-        fully white-label experience
-      - **[Custom domain](/features/custom-domain/)** - get a
-        yourname.tix.chobble.net subdomain instantly, or point your own
-        domain whenever you are ready
-      - **[Public-facing website and CMS](/features/your-public-website/)**
-        a homepage, content pages, news posts, and a contact form with
-        spam protection, edited from the admin panel in Markdown with
-        [custom CSS](/features/customising-your-site/). BookitBee provides
-        event pages but not a composable public website
-      - **[Embeddable widget](/features/embeddable-widget/)** - drop an
-        iframe into your website
-      - **No marketing to your attendees** - your audience stays yours
-      - **Community Interest Company** - run by a CIC, with profits reinvested rather than distributed to shareholders
+      | Feature | [BookitBee](https://www.bookitbee.com/features/) | Chobble Tickets |
+      | --- | --- | --- |
+      | Online ticket sales with Stripe payment processing | Included | Included |
+      | Apple Pay and Google Pay at checkout (via Stripe) | Included | Included |
+      | QR code scanning for check-in at the door | Included | Included |
+      | Email confirmations to attendees after booking | Included | Included |
+      | Event capacity limits | Included | Included |
+      | Free event support with no payment setup required | Included | Included |
+      | Refund processing from the admin panel | Included | Included |
+      | Custom questions at checkout | Included | Included |
+      | Multiple ticket types per event: both platforms let you create VIP, early bird, group, and standard tiers with different prices | Included | Included |
+      | **Social Group Deals** | a viral marketing mechanic where buyers share a unique link, and once enough friends purchase, the original buyer gets a free ticket. [BookitBee report](https://www.bookitbee.com/features/) this drives up to 50% of sales at some events | Not offered |
+      | **Reserved seating with seat map builder** | create interactive venue maps where attendees pick their own seats, tables, or zones, with a best-available auto-assignment option | Not offered |
+      | **Payment plans** | collect instalment payments over time for higher-priced events, with renewal tracking and failed-payment handling. Chobble Tickets takes a [deposit and the balance later](/features/deposits-and-balance-payments/), but does not split a price into a run of instalments | Not offered |
+      | **Renewable membership system** | multi-tier memberships with pro-rata mid-year additions, self-service upgrades/downgrades, cancellations, and members-only event gating. A Chobble Tickets [subscription listing](/features/purchasable-events/) charges a member again every week, month or year through Stripe, but has no tiers, pro-rata changes or members-only events | Not offered |
+      | **Cross-selling other events during checkout** | offer your other events inline during the ticket purchase flow. Chobble Tickets sells merchandise, parking and similar extras as [add-ons](/features/promo-codes-and-add-ons/), but does not offer another event at checkout | Not offered |
+      | **Box office POS** | a web-based point-of-sale app for on-the-door sales and scanning, purpose-built for their platform | Not offered |
+      | **11 languages and 30+ currencies** | built-in internationalisation for international events | Not offered |
+      | **White-label branding** | fully customisable booking journeys branded to the organiser, not BookitBee | Not offered |
+      | **PayPal and managed payments** | accept payments via PayPal in addition to Stripe, or use BookitBee's managed payment service (LIVE IT Payments) without setting up your own account | Not offered |
+      | **Invite-only events** | restrict bookings by email address or domain | Not offered |
+      | **Custom registration questions with more field types** | free text, date selection, and other field types beyond multiple choice (Chobble supports multiple-choice and free-text custom questions, but BookitBee may still offer more field types) | Not offered |
+      | **Facebook Pixel, Google Analytics, and Tag Manager** | built-in tracking and conversion attribution | Not offered |
+      | **Mailchimp and Slack integrations** | connect to your existing marketing and communication tools | Not offered |
+      | **Real-time sales dashboard** | live analytics showing ticket sales, revenue, and attendee demographics | Not offered |
+      | **[Encryption at rest](/features/encrypted/)** | Not offered | attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM |
+      | **[Promo codes, discounts, and add-ons](/features/promo-codes-and-add-ons/)** | Not offered | create promo codes, discount codes, surcharges, and opt-in add-ons with stock limits and a live running total |
+      | **[Open source](/features/open-source/)** | Not offered | the complete product source is published under AGPL-3.0-only |
+      | **Self-hosting option** | Not offered | run the platform on selected infrastructure without a Chobble software licence fee |
+      | **Flat pricing** | Not offered | £50/year or £5/month with no per-ticket platform fee, compared to BookitBee's 3.5-6.5% per ticket |
+      | **[Apple & Google Wallet tickets](/features/apple-wallet/)** | Not offered | attendees can add tickets to their phone wallet |
+      | **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** | Not offered | subscribers get automatic calendar updates |
+      | **[RSS feeds](/features/rss-and-calendar-feeds/)** | Not offered | syndicate your events to feed readers |
+      | **[Tiered ticket types via groups](/features/groups/)** | Not offered | create VIP, early bird, and other tiers using event groups with a shared capacity cap (max attendees per group) |
+      | **[Pay-what-you-want pricing](/features/stripe-and-square/)** | Not offered | let attendees choose their own price |
+      | **[Daily/recurring events](/features/daily-events/)** | Not offered | per-date capacity with calendar picker and holiday blackouts |
+      | **[Custom questions](/features/custom-questions/)** | Not offered | add multiple-choice and free-text questions to events and collect structured answers at checkout, with answers visible across the admin interface, CSV exports, and webhooks |
+      | **[Public & admin API](/features/public-api/)** | Not offered | RESTful JSON API for building custom integrations, plus [authenticated admin API](/features/admin-api/) with full event CRUD and booking creation via API keys |
+      | **[Webhooks](/features/webhooks/)** | Not offered | outbound POST on every registration for custom integrations |
+      | **[Event groups](/features/groups/)** | Not offered | organise related events into collections for multi-event bookings with a single checkout |
+      | **[Custom email providers](/features/email-providers/)** | Not offered | use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain |
+      | **[Customisable email templates](/features/email-templates/)** | Not offered | full control over confirmation emails with Liquid syntax for a fully white-label experience |
+      | **[Custom domain](/features/custom-domain/)** | Not offered | get a yourname.tix.chobble.net subdomain instantly, or point your own domain whenever you are ready |
+      | **[Public-facing website and CMS](/features/your-public-website/)** | Not offered | a homepage, content pages, news posts, and a contact form with spam protection, edited from the admin panel in Markdown with [custom CSS](/features/customising-your-site/). BookitBee provides event pages but not a composable public website |
+      | **[Embeddable widget](/features/embeddable-widget/)** | Not offered | drop an iframe into your website |
+      | **No marketing to your attendees** | Not offered | your audience stays yours |
+      | **Community Interest Company** | Not offered | run by a CIC, with profits reinvested rather than distributed to shareholders |
   - type: markdown
     content: |
       ## When BookitBee might be better

@@ -102,115 +102,53 @@ blocks:
   - type: markdown
     content: |
       ## Feature comparison
-  - type: markdown
-    content: |
-      ### Both sites share some features
 
-      - Online ticket sales with payment processing
-      - Apple Pay and Google Pay at checkout
-      - QR code or barcode scanning for entry
-      - Email confirmations to ticket holders
-      - Event capacity limits
-      - Embeddable ticket widgets for your own website
-      - Refund processing
 
-      Resident Advisor has some features Chobble Tickets doesn't, and vice
-      versa:
+      | Feature | [Resident Advisor](https://pro.ra.co/ra-tickets) | Chobble Tickets |
+      | --- | --- | --- |
+      | Online ticket sales with payment processing | Included | Included |
+      | Apple Pay and Google Pay at checkout | Included | Included |
+      | QR code or barcode scanning for entry | Included | Included |
+      | Email confirmations to ticket holders | Included | Included |
+      | Event capacity limits | Included | Included |
+      | Embeddable ticket widgets for your own website | Included | Included |
+      | Refund processing | Included | Included |
+      | **Electronic music community** | RA reaches [millions of electronic music fans](https://pro.ra.co/promoter) across [dozens of countries](https://ra.co/about), specifically looking for club nights, festivals, and electronic music events | Not offered |
+      | **Automated marketing to millions of subscribers** | RA sends push notifications, emails, and web notifications to fans who've opted in, promoting your events alongside editorial picks | Not offered |
+      | **Curated editorial and RA Picks** | a team of local ambassadors around the world curate weekly newsletters and homepage features that drive traffic to events | Not offered |
+      | **RA Bumps** | paid priority placement in event listings to boost visibility above other events | Not offered |
+      | **Ticket resale with anti-tout technology** | built-in face-value resale with barcode withholding until shortly before the event to prevent fraud ([RA claim](https://pro.ra.co/ra-tickets) up to 2% additional revenue on sold-out events) | Not offered |
+      | **Abandoned basket recovery** | automated emails to fans who started but didn't complete checkout ([RA claim](https://pro.ra.co/ra-tickets) 5% conversion uplift) | Not offered |
+      | **2-click checkout** | streamlined payment with PayPal, iDEAL, and Bancontact alongside Apple Pay and Google Pay ([RA claim](https://pro.ra.co/ra-tickets) 33% conversion uplift) | Not offered |
+      | **DJ charts, reviews, and mix hosting** | artist profiles, DJ charts, album reviews, and music features that drive traffic to events and build artist credibility | Not offered |
+      | **Crowd flow and entry time analytics** | post-event data showing when fans arrived, for operational planning and optimisation | Not offered |
+      | **RA Scan app** | barcode scanner with guest list management, real-time attendance monitoring, and live multi-device syncing | Not offered |
+      | **Secret venue reveals** | automated emails revealing the venue location to ticket holders, for invite-only or secret events | Not offered |
+      | **Multiple currency support** | sell across many countries with local payment methods | Not offered |
+      | **RA Guide** | city guides and venue reviews that drive footfall to events and build audience awareness | Not offered |
+      | **Guest list management** | import guest lists, add guests at the door, and manage comps alongside standard ticket sales | Not offered |
+      | **B-Corp certified** | RA is a certified B-Corp, demonstrating commitment to social and environmental standards | Not offered |
+      | **[Encryption at rest](/features/encrypted/)** | Not offered | attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM |
+      | **[Apple & Google Wallet tickets](/features/apple-wallet/)** | Not offered | attendees can add tickets to their phone wallet |
+      | **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** | Not offered | subscribers get automatic calendar updates |
+      | **[RSS feeds](/features/rss-and-calendar-feeds/)** | Not offered | syndicate your events to feed readers |
+      | **[Pay-what-you-want pricing](/features/stripe-and-square/)** | Not offered | let attendees choose their price |
+      | **[Daily/recurring event support](/features/daily-events/)** | Not offered | built for events that repeat on a schedule with per-date capacity |
+      | **[Custom domain support](/features/custom-domain/)** | Not offered | get a host-provided subdomain instantly, or point your own domain |
+      | **[Public-facing website and CMS](/features/your-public-website/)** | Not offered | a homepage, content pages, news posts, and a contact form with spam protection, edited from the admin panel in Markdown with [custom CSS](/features/customising-your-site/) |
+      | **Self-hosting option** | Not offered | run the platform on selected infrastructure without a Chobble software licence fee |
+      | **[Open source](/features/open-source/)** | Not offered | inspect, modify, and contribute to the code under AGPLv3 |
+      | **[Custom questions](/features/custom-questions/)** | Not offered | add multiple-choice questions to events and collect answers at checkout |
+      | **[Public & admin API](/features/public-api/)** | Not offered | RESTful JSON API for building custom integrations, plus [authenticated admin API](/features/admin-api/) with full event CRUD and booking creation via API keys |
+      | **[Webhooks](/features/webhooks/)** | Not offered | outbound POST on every registration |
+      | **[Event groups with tiered ticketing](/features/groups/)** | Not offered | organise related events into collections for multi-event bookings with a single checkout, and create ticket tiers sharing a venue capacity cap |
+      | **[Custom email providers](/features/email-providers/)** | Not offered | use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's |
+      | **[Customisable email templates](/features/email-templates/)** | Not offered | full control over confirmation emails with Liquid syntax for a fully white-label experience |
+      | **[Embeddable widget](/features/embeddable-widget/)** | Not offered | drop an iframe into your existing website |
+      | **No marketing to your attendees** | Not offered | Chobble does not market to your customers |
+      | **Flat pricing** | Not offered | no per-ticket platform fees, no matter how many you sell |
 
-  - type: markdown
-    content: |
-      ### [Resident Advisor](https://pro.ra.co/ra-tickets) has features Chobble Tickets doesn't
 
-      - **Electronic music community** - RA reaches
-        [millions of electronic music fans](https://pro.ra.co/promoter)
-        across [dozens of countries](https://ra.co/about), specifically
-        looking for club nights, festivals, and electronic music events
-      - **Automated marketing to millions of subscribers** - RA sends
-        push notifications, emails, and web notifications to fans who've
-        opted in, promoting your events alongside editorial picks
-      - **Curated editorial and RA Picks** - a team of local ambassadors
-        around the world curate weekly newsletters and homepage features
-        that drive traffic to events
-      - **RA Bumps** - paid priority placement in event listings to boost
-        visibility above other events
-      - **Ticket resale with anti-tout technology** - built-in face-value
-        resale with barcode withholding until shortly before the event to
-        prevent fraud ([RA claim](https://pro.ra.co/ra-tickets) up to 2%
-        additional revenue on sold-out events)
-      - **Abandoned basket recovery** - automated emails to fans who
-        started but didn't complete checkout ([RA
-        claim](https://pro.ra.co/ra-tickets) 5% conversion uplift)
-      - **2-click checkout** - streamlined payment with PayPal, iDEAL,
-        and Bancontact alongside Apple Pay and Google Pay
-        ([RA claim](https://pro.ra.co/ra-tickets) 33% conversion
-        uplift)
-      - **DJ charts, reviews, and mix hosting** - artist profiles, DJ
-        charts, album reviews, and music features that drive traffic to
-        events and build artist credibility
-      - **Crowd flow and entry time analytics** - post-event data showing
-        when fans arrived, for operational planning and optimisation
-      - **RA Scan app** - barcode scanner with guest list management,
-        real-time attendance monitoring, and live multi-device syncing
-      - **Secret venue reveals** - automated emails revealing the venue
-        location to ticket holders, for invite-only or secret events
-      - **Multiple currency support** - sell across many countries with
-        local payment methods
-      - **RA Guide** - city guides and venue reviews that drive footfall
-        to events and build audience awareness
-      - **Guest list management** - import guest lists, add guests at the
-        door, and manage comps alongside standard ticket sales
-      - **B-Corp certified** - RA is a certified B-Corp, demonstrating
-        commitment to social and environmental standards
-  - type: markdown
-    content: |
-      ### Chobble Tickets has features Resident Advisor doesn't
-
-      - **[Encryption at rest](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
-        attendees can add tickets to their phone wallet
-      - **[ICS calendar feeds](/features/rss-and-calendar-feeds/)** -
-        subscribers get automatic calendar updates
-      - **[RSS feeds](/features/rss-and-calendar-feeds/)** - syndicate your
-        events to feed readers
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
-        attendees choose their price
-      - **[Daily/recurring event support](/features/daily-events/)** - built
-        for events that repeat on a schedule with per-date capacity
-      - **[Custom domain support](/features/custom-domain/)** - get a
-        host-provided subdomain instantly, or point your own domain
-      - **[Public-facing website and CMS](/features/your-public-website/)**
-        a homepage, content pages, news posts, and a contact form with
-        spam protection, edited from the admin panel in Markdown with
-        [custom CSS](/features/customising-your-site/)
-      - **Self-hosting option** - run the platform on selected infrastructure
-        without a Chobble software licence fee
-      - **[Open source](/features/open-source/)** - inspect, modify, and
-        contribute to the code under AGPLv3
-      - **[Custom questions](/features/custom-questions/)** - add
-        multiple-choice questions to events and collect answers at checkout
-      - **[Public & admin API](/features/public-api/)** - RESTful JSON API
-        for building custom integrations, plus [authenticated admin
-        API](/features/admin-api/) with full event CRUD and booking creation
-        via API keys
-      - **[Webhooks](/features/webhooks/)** - outbound POST on every
-        registration
-      - **[Event groups with tiered ticketing](/features/groups/)** -
-        organise related events into collections for multi-event bookings
-        with a single checkout, and create ticket tiers sharing a venue
-        capacity cap
-      - **[Custom email providers](/features/email-providers/)** - use
-        Resend, Postmark, SendGrid, or Mailgun so emails come from your
-        domain, not the platform's
-      - **[Customisable email templates](/features/email-templates/)** -
-        full control over confirmation emails with Liquid syntax for a
-        fully white-label experience
-      - **[Embeddable widget](/features/embeddable-widget/)** - drop an
-        iframe into your existing website
-      - **No marketing to your attendees** - Chobble does not market to
-        your customers
-      - **Flat pricing** - no per-ticket platform fees, no matter how many you
-        sell
   - type: markdown
     content: |
       ## When Resident Advisor might be better

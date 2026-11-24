@@ -98,120 +98,57 @@ blocks:
 
       Ticketmaster is built for a completely different market. Here is what
       each platform offers:
-  - type: markdown
-    content: |
-      ### Both sites share some features
 
-      - Online ticket sales with payment processing
-      - QR code or barcode scanning for entry
-      - Email confirmations to ticket holders
-      - Event capacity limits
-      - Refund processing
-      - Mobile-friendly booking experience
-  - type: markdown
-    content: |
-      ### Ticketmaster has features Chobble Tickets doesn't
-
-      - **Massive distribution network** - Ticketmaster reaches millions of
-        buyers through its website, mobile app, retail outlets, and call
-        centres across [30+
-        countries](https://business.ticketmaster.com/solutions/)
-      - **Reserved seating with interactive venue maps** - detailed 3D seat
-        selection for stadiums, arenas, and theatres showing exact views from
-        each seat
-      - **Verified fan / presale systems** - manage presales, fan club
-        access, artist presales, and access codes for high-demand events to
-        control who can buy first
-      - **Dynamic pricing** - automatically adjust ticket prices in real
-        time based on demand, similar to airline pricing
-      - **Ticket resale marketplace** - official face-value and open-market
-        resale platform for sold-out events with guaranteed authenticity
-      - **Ticket transfer** - official ticket transfer between fans with
-        new barcode generation
-      - **Insurance and refund protection** - optional ticket insurance
-        for attendees covering illness, travel disruption, and other reasons
-      - **Box office and retail POS** - sell tickets at physical box offices,
-        retail outlets, and call centres
-      - **Mobile fan app** - dedicated consumer app for ticket management,
-        transfers, upgrades, and event discovery
-      - **VIP and upgrade packages** - offer premium experiences, meet and
-        greets, hospitality packages, and seat upgrades
-      - **Large-scale analytics** - enterprise reporting across multiple
-        venues, tours, and seasons with audience demographics and
-        sales-by-location data
-      - **Exclusive venue contracts** - many large venues are contractually
-        locked to Ticketmaster, making it the only option
-      - **Multi-currency and international sales** - sell across 30+
-        countries with local currency and language support
-      - **Accessibility seating** - dedicated accessible seating management
-        with companion tickets and specific access requirements
-      - **Season tickets and memberships** - manage recurring subscriptions,
-        season passes, and deposit collection programmes
-      - **Queue and virtual waiting room** - managed queuing system for
-        high-demand on-sales handling millions of concurrent users
-      - **[SafeTix](https://www.ticketmaster.com/safetix) encrypted
-        barcodes** - dynamically refreshing encrypted barcodes that can't
-        be screenshotted or counterfeited
-      - **AI-powered fraud detection** - device reputation scoring and
-        threat detection to block bots and scalpers
-      - **TikTok integration** - sell tickets directly through TikTok in
-        20+ countries
-      - **Event templates and bulk edits** - reusable templates for floor
-        plans and pricing, with bulk editing across up to 300 events
-      - **On-platform advertising** - promoted ads within Ticketmaster's
-        marketplace to boost event visibility
-      - **All-in pricing** - total cost shown upfront with no surprise
-        fees at checkout
-
-  - type: markdown
-    content: |
-      ### Chobble Tickets has features Ticketmaster doesn't offer small organisers
-
-      - **[Encryption at rest](/features/encrypted/)** - attendee data is
-        encrypted at rest with hybrid RSA-OAEP + AES-256-GCM
-      - **[Open source](/features/open-source/)** - the complete product source
-        is published under AGPL-3.0-only
-      - **Self-hosting option** - run the platform on selected infrastructure
-        without a Chobble software licence fee
-      - **Flat pricing** - £50/year or £5/month with no per-ticket platform fees,
-        compared to Ticketmaster's ~10% + £2.50 per ticket
-      - **Full data ownership** - you control your attendee data, not
-        Ticketmaster
-      - **No exclusive contracts** - use Chobble Tickets alongside any other
-        platform
-      - **[Apple & Google Wallet tickets](/features/apple-wallet/)** -
-        attendees can add tickets to their phone wallet
-      - **[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)** -
-        subscribers get automatic updates
-      - **[Pay-what-you-want pricing](/features/stripe-and-square/)** - let
-        attendees choose their own price
-      - **[Daily/recurring events](/features/daily-events/)** - per-date
-        capacity with calendar picker
-      - **[Event groups with tiered ticketing](/features/groups/)** -
-        organise related events into collections for multi-event bookings
-        with a single checkout, and create ticket tiers (VIP, general
-        admission, etc.) sharing a venue capacity cap
-      - **[Custom questions](/features/custom-questions/)** - add
-        multiple-choice questions to events and collect answers at checkout
-      - **[Public & admin API](/features/public-api/)** and
-        **[webhooks](/features/webhooks/)** - build custom integrations,
-        with [admin API](/features/admin-api/) for full event CRUD and
-        booking creation via API keys
-      - **[Custom email providers](/features/email-providers/)** - use
-        Resend, Postmark, SendGrid, or Mailgun so emails come from your
-        domain, not the platform's
-      - **[Customisable email templates](/features/email-templates/)** -
-        full control over confirmation emails with Liquid syntax
-      - **[Custom domain](/features/custom-domain/)** - get a
-        host-provided subdomain instantly, or point your own domain
-      - **[Public-facing website and CMS](/features/your-public-website/)**
-        a homepage, content pages, news posts, and a contact form with
-        spam protection, edited from the admin panel in Markdown with
-        [custom CSS](/features/customising-your-site/)
-      - **Apple Pay and Google Pay** - accept wallet payments at checkout
-        via Stripe
-      - **Transparent pricing** - no hidden fees, no negotiations
-      - **Community Interest Company** - run by a CIC, with profits reinvested rather than distributed to shareholders
+      | Feature | Ticketmaster | Chobble Tickets |
+      | --- | --- | --- |
+      | Online ticket sales with payment processing | Included | Included |
+      | QR code or barcode scanning for entry | Included | Included |
+      | Email confirmations to ticket holders | Included | Included |
+      | Event capacity limits | Included | Included |
+      | Refund processing | Included | Included |
+      | Mobile-friendly booking experience | Included | Included |
+      | **Massive distribution network** | Ticketmaster reaches millions of buyers through its website, mobile app, retail outlets, and call centres across [30+ countries](https://business.ticketmaster.com/solutions/) | Not offered |
+      | **Reserved seating with interactive venue maps** | detailed 3D seat selection for stadiums, arenas, and theatres showing exact views from each seat | Not offered |
+      | **Verified fan / presale systems** | manage presales, fan club access, artist presales, and access codes for high-demand events to control who can buy first | Not offered |
+      | **Dynamic pricing** | automatically adjust ticket prices in real time based on demand, similar to airline pricing | Not offered |
+      | **Ticket resale marketplace** | official face-value and open-market resale platform for sold-out events with guaranteed authenticity | Not offered |
+      | **Ticket transfer** | official ticket transfer between fans with new barcode generation | Not offered |
+      | **Insurance and refund protection** | optional ticket insurance for attendees covering illness, travel disruption, and other reasons | Not offered |
+      | **Box office and retail POS** | sell tickets at physical box offices, retail outlets, and call centres | Not offered |
+      | **Mobile fan app** | dedicated consumer app for ticket management, transfers, upgrades, and event discovery | Not offered |
+      | **VIP and upgrade packages** | offer premium experiences, meet and greets, hospitality packages, and seat upgrades | Not offered |
+      | **Large-scale analytics** | enterprise reporting across multiple venues, tours, and seasons with audience demographics and sales-by-location data | Not offered |
+      | **Exclusive venue contracts** | many large venues are contractually locked to Ticketmaster, making it the only option | Not offered |
+      | **Multi-currency and international sales** | sell across 30+ countries with local currency and language support | Not offered |
+      | **Accessibility seating** | dedicated accessible seating management with companion tickets and specific access requirements | Not offered |
+      | **Season tickets and memberships** | manage recurring subscriptions, season passes, and deposit collection programmes | Not offered |
+      | **Queue and virtual waiting room** | managed queuing system for high-demand on-sales handling millions of concurrent users | Not offered |
+      | **[SafeTix](https://www.ticketmaster.com/safetix) encrypted barcodes** | dynamically refreshing encrypted barcodes that can't be screenshotted or counterfeited | Not offered |
+      | **AI-powered fraud detection** | device reputation scoring and threat detection to block bots and scalpers | Not offered |
+      | **TikTok integration** | sell tickets directly through TikTok in 20+ countries | Not offered |
+      | **Event templates and bulk edits** | reusable templates for floor plans and pricing, with bulk editing across up to 300 events | Not offered |
+      | **On-platform advertising** | promoted ads within Ticketmaster's marketplace to boost event visibility | Not offered |
+      | **All-in pricing** | total cost shown upfront with no surprise fees at checkout | Not offered |
+      | **[Encryption at rest](/features/encrypted/)** | Not offered | attendee data is encrypted at rest with hybrid RSA-OAEP + AES-256-GCM |
+      | **[Open source](/features/open-source/)** | Not offered | the complete product source is published under AGPL-3.0-only |
+      | **Self-hosting option** | Not offered | run the platform on selected infrastructure without a Chobble software licence fee |
+      | **Flat pricing** | Not offered | £50/year or £5/month with no per-ticket platform fees, compared to Ticketmaster's ~10% + £2.50 per ticket |
+      | **Full data ownership** | Not offered | you control your attendee data, not Ticketmaster |
+      | **No exclusive contracts** | Not offered | use Chobble Tickets alongside any other platform |
+      | **[Apple & Google Wallet tickets](/features/apple-wallet/)** | Not offered | attendees can add tickets to their phone wallet |
+      | **[ICS calendar and RSS feeds](/features/rss-and-calendar-feeds/)** | Not offered | subscribers get automatic updates |
+      | **[Pay-what-you-want pricing](/features/stripe-and-square/)** | Not offered | let attendees choose their own price |
+      | **[Daily/recurring events](/features/daily-events/)** | Not offered | per-date capacity with calendar picker |
+      | **[Event groups with tiered ticketing](/features/groups/)** | Not offered | organise related events into collections for multi-event bookings with a single checkout, and create ticket tiers (VIP, general admission, etc.) sharing a venue capacity cap |
+      | **[Custom questions](/features/custom-questions/)** | Not offered | add multiple-choice questions to events and collect answers at checkout |
+      | **[Public & admin API](/features/public-api/)** | Not offered | and **[webhooks](/features/webhooks/)** - build custom integrations, with [admin API](/features/admin-api/) for full event CRUD and booking creation via API keys |
+      | **[Custom email providers](/features/email-providers/)** | Not offered | use Resend, Postmark, SendGrid, or Mailgun so emails come from your domain, not the platform's |
+      | **[Customisable email templates](/features/email-templates/)** | Not offered | full control over confirmation emails with Liquid syntax |
+      | **[Custom domain](/features/custom-domain/)** | Not offered | get a host-provided subdomain instantly, or point your own domain |
+      | **[Public-facing website and CMS](/features/your-public-website/)** | Not offered | a homepage, content pages, news posts, and a contact form with spam protection, edited from the admin panel in Markdown with [custom CSS](/features/customising-your-site/) |
+      | **Apple Pay and Google Pay** | Not offered | accept wallet payments at checkout via Stripe |
+      | **Transparent pricing** | Not offered | no hidden fees, no negotiations |
+      | **Community Interest Company** | Not offered | run by a CIC, with profits reinvested rather than distributed to shareholders |
   - type: markdown
     content: |
       ## Control over your ticketing

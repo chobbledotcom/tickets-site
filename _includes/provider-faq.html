@@ -1,0 +1,14 @@
+{%- comment -%}
+Renders the question-shaped answers for a comparison page, appended after the
+page content by src.11tydata.js. The same pairs are emitted as FAQPage JSON-LD
+by head-scripts.html, so the markup and the page can never disagree.
+{%- endcomment -%}
+{%- if provider_evidence.qa.size > 0 -%}
+<div class="prose">
+  <h2>Questions about {{ provider_facts.name }}</h2>
+  {%- for entry in provider_evidence.qa -%}
+  <h3>{{ entry.question }}</h3>
+  <p>{{ entry.answer | escape }}</p>
+  {%- endfor -%}
+</div>
+{%- endif -%}

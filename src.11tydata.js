@@ -16,6 +16,23 @@
 
 import { languageForUrl, translationForUrl } from "./_lib/i18n.js";
 import { providerDirectory } from "./_lib/provider-directory.js";
+import {
+  feeTable,
+  providerEvidence,
+} from "./_lib/provider-evidence.js";
+
+/** Slides the evidence include in after the hero and the Q&A include at the end. */
+const withEvidenceBlocks = (blocks) => {
+  const hero = blocks?.[0];
+  if (!hero) return blocks;
+  const rest = blocks.slice(1);
+  return [
+    hero,
+    { type: "include", file: "provider-evidence.html" },
+    ...rest,
+    { type: "include", file: "provider-faq.html" },
+  ];
+};
 
 export default {
   layout: "base.html",
@@ -30,5 +47,10 @@ export default {
             new Date().getFullYear(),
           )
         : undefined,
+    provider_evidence: (data) =>
+      data.provider_facts ? providerEvidence(data.provider_facts, data) : undefined,
+    blocks: (data) =>
+      data.provider_facts ? withEvidenceBlocks(data.blocks) : data.blocks,
+    fee_table: (data) => (data.fee_table_page ? feeTable() : undefined),
   },
 };
