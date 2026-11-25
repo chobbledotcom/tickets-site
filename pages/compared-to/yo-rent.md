@@ -139,6 +139,18 @@ blocks:
       page](https://www.yo-rent.com/special-offer.html) masked all four of
       its prices.
 
+      FATbit Technologies, which makes YoRent, confirmed the model in an
+      email to Chobble on 25 November 2026. Saurabh Thakur, its Associate
+      Team Lead for digital marketing, wrote:
+
+      > YoRent does not have fixed or publicly listed pricing on its
+      > website, the pricing is customized based on each client's specific
+      > business requirements, features, and project needs.
+
+      He asked Chobble to remove the prices from this page. They stay
+      because each figure is dated and linked to the page or capture where
+      it appeared.
+
       The prices below are from a July 2026 promotion and no longer apply.
 
       | Package | July 2026 price | Approx. GBP | Included |
@@ -384,6 +396,7 @@ blocks:
       licensing may change.
 
       - [Yo!Rent packages page](https://www.yo-rent.com/packages.html) - every package showed "Quote" instead of a price on 25 November 2026
+      - Email from Saurabh Thakur, FATbit Technologies, to Chobble, 25 November 2026 - YoRent has no fixed or publicly listed pricing and quotes each client separately
       - [Yo!Rent special offer page](https://www.yo-rent.com/special-offer.html) - offer prices masked with placeholder dollar amounts on 25 November 2026
       - [Wayback capture of the special offer page, 18 November 2025](https://web.archive.org/web/20251118105337/https://www.yo-rent.com/special-offer.html) - four GoQuick prices from $1,249 to $2,499, and $3,249 on release
       - [Wayback capture of the special offer page, 22 April 2026](https://web.archive.org/web/20260422212612/https://www.yo-rent.com/special-offer.html) - prices already masked
