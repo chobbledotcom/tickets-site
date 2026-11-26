@@ -35,7 +35,7 @@ provider_facts:
     registration_country: "Yo!Rent is a product of FATbit Technologies, and the GitHub profile lists its location as Mohali, India. The site does not publish a registered legal entity or company number. Checked 8 August 2026."
     ethical_basis: "Yo!Rent is made by FATbit Technologies, a commercial software company. The site does not describe its ownership or legal structure."
     per_ticket_platform_fee: "The packages page lists 'Transaction Fee: Zero' and 'Recurring Charges: Zero' across all packages, with revenue from a one-time licence fee rather than per-sale charges. Marketplace operators set their own commissions."
-    managed_pricing: "Yo!Rent sells a lifetime licence at a one-time cost, with zero recurring charges and zero transaction fees. Its packages page showed 'Quote' for every package on 25 November 2026, and Wayback Machine captures show different advertised prices at different dates. The July 2026 promotional prices on this page no longer apply. Checked 25 November 2026."
+    managed_pricing: "Yo!Rent sells a lifetime licence at a one-time cost, with zero recurring charges and zero transaction fees. Its packages page showed 'Quote' for every package on 25 November 2026, and Wayback Machine captures show different advertised prices at different dates. Checked 25 November 2026."
     white_label: "The homepage markets Yo!Rent as a 'White Label Solution', and all packages list 'License Type: Whitelabel Solution', with a white-label partnership programme letting partners rebrand and resell the product."
     custom_domain: "Yo!Rent is installed on the customer's own server and the licence is tied to the customer's own domain registered at purchase, so custom domains are part of the self-hosted deployment."
     public_website: "The product builds the operator's complete rental marketplace website under their own brand, with front-end, buyer, vendor and admin demos."
@@ -132,80 +132,49 @@ blocks:
       Charges: Zero" and "Transaction Fee: Zero", with payment-gateway
       fees separate.
 
-      ### Prices come by quote, not from a list
-
-      On 25 November 2026, every package on the packages page showed
-      "Quote" instead of a figure. The [special offer
-      page](https://www.yo-rent.com/special-offer.html) masked all four of
-      its prices.
-
-      FATbit Technologies, which makes YoRent, confirmed the model in an
-      email to Chobble on 25 November 2026. Saurabh Thakur, its Associate
-      Team Lead for digital marketing, wrote:
+      Prices come by quote rather than from a list. On 25 November 2026,
+      every package on the [packages
+      page](https://www.yo-rent.com/packages.html) showed "Quote", and the
+      [special offer page](https://www.yo-rent.com/special-offer.html)
+      masked all four of its prices. Saurabh Thakur of FATbit
+      Technologies, which makes YoRent, confirmed the model in an email to
+      Chobble on 25 November 2026:
 
       > YoRent does not have fixed or publicly listed pricing on its
       > website, the pricing is customized based on each client's specific
       > business requirements, features, and project needs.
 
-      He asked Chobble to remove the prices from this page. They stay
-      because each figure is dated and linked to the page or capture where
-      it appeared.
-
-      The prices below are from a July 2026 promotion and no longer apply.
-
-      | Package | July 2026 price | Approx. GBP | Included |
-      |---|---|---|---|
-      | GoQuick | $1,499 | ~£1,180 | Standard self-hosted platform, 12 months support |
-      | GoCustom | $6,749 | ~£5,300 | GoQuick plus custom design, up to 9 pages |
-      | GoQuick Boost | $2,999 | ~£2,360 | GoQuick plus buyer apps |
-      | GoQuick Ultra | $6,999 | ~£5,500 | GoQuick Boost plus app source code |
-
-      The pound figures use about $1 = £0.79. The promotion also listed
-      buyer apps at $1,999 and app source code at $4,999.
-
-      ### The same package has had many prices
-
-      Wayback Machine captures show different prices at different dates.
-      List prices are the higher prices struck through on the same page.
-
-      | Date | GoQuick Lite | GoQuick | GoQuick Boost | GoCustom | Source |
-      |---|---|---|---|---|---|
-      | 20 Nov 2024 | $749 (list $1,299) | $1,499 (list $2,499) | - | $5,999 (list $6,499) | [capture](https://web.archive.org/web/20241120071653/https://www.yo-rent.com/packages.html) |
-      | 20 Jun 2025 | $999 (list $1,499) | $1,499 (list $2,499) | $2,749 (list $3,999) | Quote | [capture](https://web.archive.org/web/20250620170739/https://www.yo-rent.com/packages.html) |
-      | 14 Feb 2026 | $799 (list $1,499) | $1,499 (list $2,499) | - | Quote | [capture](https://web.archive.org/web/20260214202810/https://www.yo-rent.com/packages.html) |
-      | 25 Nov 2026 | Quote | Quote | Quote | Quote | [live page](https://www.yo-rent.com/packages.html) |
-
-      An [18 November 2025 capture of the special offer
+      Advertised figures have changed repeatedly. Wayback Machine captures
+      from [November
+      2024](https://web.archive.org/web/20241120071653/https://www.yo-rent.com/packages.html),
+      [June
+      2025](https://web.archive.org/web/20250620170739/https://www.yo-rent.com/packages.html)
+      and [February
+      2026](https://web.archive.org/web/20260214202810/https://www.yo-rent.com/packages.html)
+      show different prices for the same packages, and an [18 November 2025
+      capture of the special offer
       page](https://web.archive.org/web/20251118105337/https://www.yo-rent.com/special-offer.html)
-      shows four prices for GoQuick: $1,249 before 31 October without an
-      upgrade, $1,499 after, $1,999 before with a free upgrade and $2,499
-      after. It gave $3,249 as the price on release.
-
-      YoRent's own articles disagree. A [2026 comparison with
+      shows four prices for GoQuick alone. YoRent's own articles also
+      disagree: a [2026 comparison with
       Coastr](https://www.yo-rent.com/blog/yorent-vs-coastr-car-rental-software-comparison/)
-      says packages start at $1,499, with Boost at $2,999 and Ultra at
-      $6,999. A [2026 P2P trailer
+      says packages start at $1,499, while a [2026 trailer
       guide](https://www.yo-rent.com/blog/build-p2p-rental-marketplace-like-neighbors-trailer/)
       and a [2025 car rental
       guide](https://www.yo-rent.com/blog/how-to-build-car-rental-website/)
       both say $999.
 
-      ### What this means for a buyer
-
-      The published price is not a fixed list price, so two buyers can be
-      quoted different amounts. Ask for a written quote naming the
-      package, version, add-ons and support. A domain change costs $250
-      and is only available within six months of purchase, according to
-      [the homepage FAQ](https://www.yo-rent.com/#faq).
+      Ask for a written quote naming the package, version, add-ons and
+      support. A domain change costs $250 and is only available within six
+      months of purchase, according to [the homepage
+      FAQ](https://www.yo-rent.com/#faq).
 
       Web searches also return promotional pages that look independent.
       [beststartupbusiness.wordpress.com](https://beststartupbusiness.wordpress.com/)
       [promotes
-      YoRent](https://beststartupbusiness.wordpress.com/2026/03/19/yorent-new-version-powering-the-next-generation-of-rental-marketplaces/),
-      [places FATbit Technologies
+      YoRent](https://beststartupbusiness.wordpress.com/2026/03/19/yorent-new-version-powering-the-next-generation-of-rental-marketplaces/)
+      and [places FATbit Technologies
       first](https://beststartupbusiness.wordpress.com/2026/11/25/top-12-spotify-like-app-development-companies-in-the-uk-for-2027/)
-      in a UK app development list, links to FATbit's social accounts and
-      consultation form, and carries no advertising label on the posts
+      in a UK app development list, with no advertising label on the posts
       cited. This is astroturfing. Treat its price and ranking claims as
       marketing, and prefer live YoRent pages and dated Wayback captures.
 
