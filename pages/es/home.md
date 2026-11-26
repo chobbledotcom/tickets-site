@@ -5,12 +5,12 @@ meta_description: Venda entradas por £50 al año o £5 al mes, sin comisión po
 permalink: /es/
 blocks:
   - type: hero
-    class: gradient product-hero
+    class: product-hero
     badge: Software de entradas de código abierto
     content: |-
-      # Software de entradas para eventos sin comisión por entrada
+      # Software de entradas sin comisión por entrada
 
-      Chobble cobra por el alojamiento, no por cada venta. El alojamiento gestionado cuesta £50 al año o £5 al mes, con todas las funciones y sin límite de eventos ni de entradas. El mismo software de código abierto funciona en el alojamiento de Chobble o en la infraestructura que usted elija, puede exportar sus datos, y el dinero de las entradas llega directamente a su cuenta de Stripe, Square o SumUp.
+      Aloje su propia web de reservas con Chobble por £50 al año o £5 al mes. El dinero de las entradas llega directamente a su cuenta de Stripe, Square o SumUp.
     buttons:
       - text: Empezar por £5
         href: https://tix.chobble.com/listings
@@ -22,6 +22,7 @@ blocks:
         size: lg
   - type: stats
     dark: true
+    compact: true
     items:
       - value: £50
         label: Alojamiento gestionado al año

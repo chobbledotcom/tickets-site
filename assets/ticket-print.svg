@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 430" fill="none">
+  <defs>
+    <path id="ticket" d="M8 0h304a8 8 0 0 1 8 8v66a16 16 0 0 0 0 32v66a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8v-66a16 16 0 0 0 0-32V8a8 8 0 0 1 8-8Z"/>
+    <pattern id="ink" width="5" height="5" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".6" fill="#31213f" opacity=".23"/>
+    </pattern>
+  </defs>
+  <circle cx="282" cy="216" r="173" fill="#efe5f8"/>
+  <circle cx="282" cy="216" r="173" fill="url(#ink)"/>
+  <circle cx="282" cy="216" r="159" stroke="#5b3291" stroke-opacity=".22"/>
+  <path d="M91 112h26m-13-13v26m351 193h26m-13-13v26" stroke="#5b3291" stroke-width="1.5"/>
+  <circle cx="104" cy="112" r="6" stroke="#5b3291" stroke-width="1.5"/>
+  <circle cx="468" cy="318" r="6" stroke="#5b3291" stroke-width="1.5"/>
+  <g transform="translate(112 87) rotate(-14 160 90)">
+    <use href="#ticket" y="5" fill="#31213f"/>
+    <use href="#ticket" fill="#f1a487" stroke="#31213f" stroke-width="2"/>
+    <use href="#ticket" fill="url(#ink)"/>
+    <path d="M20 20h190v140H20m219-145v150" stroke="#31213f" stroke-width="1.5"/>
+    <path d="M255 20h43m-43 140h43" stroke="#31213f" stroke-width="1.5"/>
+    <path d="M40 136 193 43M40 109l109-66M40 82l65-39" stroke="#fff2db" stroke-width="5"/>
+  </g>
+  <g transform="translate(134 159) rotate(10 160 90)">
+    <use href="#ticket" y="7" fill="#31213f"/>
+    <use href="#ticket" fill="#fff4de" stroke="#31213f" stroke-width="2"/>
+    <path d="M239 12v156" stroke="#31213f" stroke-dasharray="3 5" stroke-width="1.5"/>
+    <rect x="23" y="23" width="194" height="134" rx="3" fill="#5b3291"/>
+    <rect x="29" y="29" width="182" height="122" rx="1" stroke="#fff4de" stroke-opacity=".55"/>
+    <path d="M92 43c1 30 17 46 46 47-29 1-45 17-46 47-1-30-17-46-46-47 29-1 45-17 46-47Z" fill="#ffe9c9"/>
+    <circle cx="92" cy="90" r="9" fill="#5b3291"/>
+    <path d="M167 46c1 17 8 24 24 25-16 1-23 8-24 25-1-17-8-24-24-25 16-1 23-8 24-25Z" fill="#f1a487"/>
+    <path d="M149 125h48m-35 8h35" stroke="#fff4de" stroke-width="1.5"/>
+    <path d="M257 34h39m-39 112h39" stroke="#5b3291" stroke-width="1.5"/>
+    <path d="M258 75v30m6-30v30m8-30v30m5-30v30m8-30v30m6-30v30m5-30v30" stroke="#31213f" stroke-width="2"/>
+  </g>
+</svg>

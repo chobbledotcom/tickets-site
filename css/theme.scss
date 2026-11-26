@@ -1,5 +1,4 @@
 @charset "utf-8";
-@use "sass:color";
 
 // =============================================================================
 // FONTS - Marcellus (classy serif, self-hosted from Bunny Fonts)
@@ -37,48 +36,160 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
 }
 
 // =============================================================================
-// THEME - slight purple tint over the light default, classy serif headings
+// THEME - warm paper, plum ink and lilac accents
 // =============================================================================
 // theme.scss loads last in the bundle, so these :root values override the
 // design-system defaults from the template's _base.scss.
 
 :root {
-  // Classy serif for headings and nav
+  // Marcellus is the display face; controls use the body face.
   --font-family-heading: "Marcellus", georgia, "Times New Roman", serif;
 
-  // Slight purple theme
-  --color-bg: #faf8fc;
-  --body-background: #faf8fc;
-  --body-background-alt: #f2ecf9;
-  --color-card-bg: #fff;
-  --color-text: #241a30;
-  --color-text-muted: #6c6379;
-  --color-link: #7c3aed;
-  --color-link-hover: #6421d4;
-  --color-tint: #e9ddfb;
-  --color-secondary: #a855f7;
-  --color-accent: #ece4f6;
+  --color-bg: #fbf8f2;
+  --body-background: var(--color-bg);
+  --body-background-alt: #f1eae1;
+  --color-card-bg: #fffdf9;
+  --color-text: #282032;
+  --color-text-muted: #584e62;
+  --color-link: #5b3291;
+  --color-link-hover: #422269;
+  --color-tint: #e9dffa;
+  --color-secondary: var(--color-link);
+  --color-accent: #efe6f7;
   --color-hover-bg: var(--color-accent);
+  --color-dark-bg: #262035;
+  --color-dark-bg-alt: #362c48;
+  --color-positive: #296546;
+  --color-negative: #a02f42;
 
   // Tighten spacing a bit (8px base unit -> 7px, ~12% tighter throughout)
   --space-unit: 7px;
 
-  // Small, consistent corners instead of big squircle cards.
-  --border-radius: 2px;
+  --border-radius: 8px;
 }
 
-.design-system .product-hero {
-  min-height: clamp(28rem, 70vh, 44rem);
-  background: var(--body-background-alt);
+.design-system .hero.product-hero {
+  display: grid;
+  grid-template:
+    "eyebrow artwork" auto
+    "copy artwork" auto
+    "actions artwork" auto / minmax(0, 1.05fr) minmax(0, 1fr);
+  align-items: center;
+  align-content: center;
+  column-gap: clamp(1.5rem, 4vw, 4.5rem);
+  row-gap: clamp(0.85rem, 2vw, 1.5rem);
+  padding-block: clamp(3rem, 7vw, 7rem);
+  padding-inline: max(clamp(1.25rem, 5vw, 4.5rem), (100% - 74rem) / 2);
+  background: var(--color-bg);
+  text-align: start;
+
+  &::after {
+    content: "";
+    grid-area: artwork;
+    width: 100%;
+    aspect-ratio: 560 / 430;
+    background: url("/assets/ticket-print.svg") center / contain no-repeat;
+  }
+
+  > .badge {
+    grid-area: eyebrow;
+    gap: 0.55rem;
+    font-weight: 600;
+    color: var(--color-link);
+  }
+
+  > .badge::before {
+    content: "";
+    width: 0.75rem;
+    height: 0.2rem;
+    background: #c36547;
+  }
+
+  > .prose {
+    grid-area: copy;
+    align-items: start;
+    gap: 1rem;
+  }
+
+  h1 {
+    max-width: 16ch;
+    font-size: clamp(2.65rem, 5.15vw, 5.1rem);
+    font-weight: 400;
+    line-height: 1.02;
+    text-wrap: pretty;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+  }
+
+  > .prose p {
+    max-width: 43ch;
+    font-size: clamp(1.05rem, 1.6vw, 1.2rem);
+  }
+
+  > .actions {
+    grid-area: actions;
+    justify-content: start;
+    gap: 0.65rem;
+  }
+
+  > .actions .btn {
+    padding-inline: clamp(1rem, 2.25vw, 2rem);
+  }
 }
 
-.design-system .product-hero h1 {
-  max-width: 16ch;
-  font-size: clamp(2.75rem, 7vw, 5.75rem);
-  line-height: 0.98;
+@media (max-width: 768px) {
+  .design-system .hero.product-hero {
+    grid-template: "eyebrow" "copy" "actions" "artwork" / minmax(0, 1fr);
+    padding-block: clamp(2.5rem, 8vw, 4rem) 1.25rem;
+
+    &::after {
+      justify-self: center;
+      max-width: 25rem;
+    }
+  }
+}
+
+.design-system section.compact:has(dl.stats) {
+  padding-block: clamp(1.4rem, 3vw, 2.5rem);
+
+  dl.stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+  }
+
+  .stat {
+    min-width: 0;
+    padding: 0.5rem 0.75rem;
+
+    + .stat {
+      border-inline-start: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+    }
+
+    dd strong {
+      font-family: var(--font-family-heading);
+      font-size: clamp(1.65rem, 4vw, 2.8rem);
+      font-weight: 400;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .design-system section.compact:has(dl.stats) {
+    dl.stats {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      row-gap: 0.9rem;
+    }
+
+    .stat:nth-child(odd) {
+      border-inline-start: 0;
+    }
+  }
 }
 
 .design-system .nav-brand {
+  font-family: var(--font-family-heading);
+  font-size: 1.15rem;
   font-weight: 700;
 }
 
@@ -139,10 +250,6 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
 }
 
 @media (max-width: 768px) {
-  .design-system .product-hero {
-    min-height: 34rem;
-  }
-
   .design-system .nav-signup {
     align-self: flex-end;
   }
@@ -243,7 +350,7 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
 }
 
 .price-comparator__zero {
-  color: #7ddf7d;
+  color: var(--color-positive);
 }
 
 .price-comparator__total-row td {
@@ -261,7 +368,7 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
   padding-top: 0.75rem;
   font-weight: bold;
   font-size: 1.15em;
-  color: #7ddf7d;
+  color: var(--color-positive);
 }
 
 .price-comparator__savings {
@@ -275,12 +382,12 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
 
 .price-comparator__savings--positive {
   background: var(--body-background-alt);
-  color: #7ddf7d;
+  color: var(--color-positive);
 }
 
 .price-comparator__savings--negative {
   background: var(--body-background-alt);
-  color: #df7d7d;
+  color: var(--color-negative);
 }
 
 .price-comparator__savings--neutral {
@@ -328,7 +435,7 @@ th {
 }
 
 .platform-grid__card--best .platform-grid__share {
-  color: #7ddf7d;
+  color: var(--color-positive);
 }
 
 .platform-grid__name {
@@ -366,11 +473,11 @@ th {
 }
 
 .platform-grid__vs--more {
-  color: #ff6b6b;
+  color: var(--color-negative);
 }
 
 .platform-grid__vs--less {
-  color: #7ddf7d;
+  color: var(--color-positive);
 }
 
 .platform-grid__per-ticket {
@@ -391,6 +498,8 @@ th {
 
   .platform-grid__card {
     flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 0.35rem;
     justify-content: space-between;
     text-align: left;
     padding: 0.75rem 1rem;
@@ -596,6 +705,10 @@ th {
   h5,
   h6 {
     letter-spacing: normal;
+
+    // Long compound words in translated headings must not push cards wide.
+    hyphens: auto;
+    overflow-wrap: anywhere;
   }
 
   // Breadcrumb separators are arrows, not the slash-and-path look of code.
@@ -608,7 +721,7 @@ th {
     font-size: 0.9rem;
   }
 
-  // One small radius, no pill shapes, no squircle cards.
+  // Shared corners, with no pill-shaped cards.
   .cta,
   .feature,
   .feature-card,
@@ -621,13 +734,20 @@ th {
   ul.items > li,
   .reviews-grid > li,
   .section-header {
-    border-radius: 2px;
+    border-radius: var(--border-radius);
   }
 
   // Flat surfaces instead of gradient backgrounds and gradient text.
   .cta {
     border: 0;
-    background: var(--color-link);
+    background: var(--color-dark-bg);
+    --color-focus: #f4eaff;
+
+    .btn--primary {
+      --color-link: #e6d9ff;
+      --color-link-hover: #fff1e1;
+      --color-contrast-text: #2d1c43;
+    }
   }
 
   .cta p {
@@ -679,7 +799,7 @@ th {
 
   .split > figure {
     border: 0;
-    border-radius: 2px;
+    border-radius: var(--border-radius);
   }
 
   .callout-box__subtitle {
@@ -703,17 +823,31 @@ th {
   }
 
   footer {
-    background: #000;
+    background: var(--color-dark-bg);
   }
 
   section.dark {
-    --primary: #c4b5fd;
-    --primary-dark: #ddd6fe;
+    --body-background-alt: var(--color-dark-bg-alt);
+    --color-link: #ddccff;
+    --color-link-hover: #f4eaff;
+    --color-contrast-text: #262035;
+    --color-positive: #9de0b4;
+    --color-negative: #ffb4bd;
+    --color-hover-bg: var(--color-dark-bg-alt);
   }
 
-  // Classy serif for the navigation, matching the headings
+  // Keep the CTA's text white when it sits in a dark section.
+  section.dark .cta {
+    --color-contrast-text: #fffdf9;
+  }
+
+  :is(a, button, input, summary):focus-visible {
+    outline: 2px solid var(--color-focus, var(--color-link));
+    outline-offset: 3px;
+  }
+
   nav {
-    font-family: var(--font-family-heading);
+    font-family: var(--font-family-body);
   }
 }
 

@@ -25,6 +25,7 @@ blocks:
         size: lg
   - type: stats
     dark: true
+    compact: true
     items:
       - value: £50
         label: Annual hosting

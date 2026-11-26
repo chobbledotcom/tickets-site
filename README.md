@@ -26,6 +26,8 @@ The `.pages.yml` defines all your content types:
 - `menus/`, `menu-categories/`, `menu-items/` - Restaurant menu system
 - `snippets/` - Reusable content bits
 - `images/` - All your images
+- `css/theme.scss` - Shared marketing-site palette, typography and component styles
+- `assets/ticket-print.svg` - Decorative artwork for the home pages
 
 ## How It Works
 

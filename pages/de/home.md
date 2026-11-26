@@ -5,12 +5,12 @@ meta_description: Verkaufen Sie Tickets für £50 im Jahr oder £5 im Monat, ohn
 permalink: /de/
 blocks:
   - type: hero
-    class: gradient product-hero
+    class: product-hero
     badge: Open-Source-Ticketsoftware
     content: |-
-      # Ticketsoftware für Veranstaltungen ohne Gebühr pro Ticket
+      # Ticketsoftware ohne Gebühr pro Ticket
 
-      Chobble berechnet das Hosting, nicht den einzelnen Verkauf. Verwaltetes Hosting kostet £50 im Jahr oder £5 im Monat, mit allen Funktionen und beliebig vielen Veranstaltungen und Tickets. Dieselbe Open-Source-Software läuft auf dem Hosting von Chobble oder auf einer Infrastruktur Ihrer Wahl, Sie können Ihre Daten exportieren, und die Ticketeinnahmen gehen direkt auf Ihr Konto bei Stripe, Square oder SumUp.
+      Chobble hostet Ihre eigene Buchungswebsite für £50 im Jahr oder £5 im Monat. Die Ticketeinnahmen gehen direkt auf Ihr Konto bei Stripe, Square oder SumUp.
     buttons:
       - text: Für £5 starten
         href: https://tix.chobble.com/listings
@@ -22,6 +22,7 @@ blocks:
         size: lg
   - type: stats
     dark: true
+    compact: true
     items:
       - value: £50
         label: Verwaltetes Hosting pro Jahr

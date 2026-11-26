@@ -8,12 +8,12 @@ eleventyNavigation:
   order: 0
 blocks:
   - type: hero
-    class: gradient product-hero
+    class: product-hero
     badge: Open source event ticketing
     content: |-
-      # Event ticketing software with no per-ticket platform fees
+      # Sell tickets with no per-ticket platform fee
 
-      Chobble charges for hosting, not for each sale. Managed hosting costs £50 a year or £5 a month for every feature and any number of events or tickets. The same open source software can run on Chobble's hosting or infrastructure you choose, with data exports and ticket income paid directly to your Stripe, Square or SumUp account.
+      Host your own booking site with Chobble for £50 a year or £5 a month. Ticket payments go straight to your Stripe, Square or SumUp account.
     buttons:
       - text: Start for £5
         href: https://tix.chobble.com/listings
@@ -25,6 +25,7 @@ blocks:
         size: lg
   - type: stats
     dark: true
+    compact: true
     items:
       - value: £50
         label: Managed hosting per year
@@ -43,8 +44,8 @@ blocks:
 
       After sales open, staff can [check bookings in](/features/qr-code-check-ins/), reverse a check-in, issue [full refunds](/features/refunds/), email attendee groups and export operational or financial data. Attendees can add their ticket to [Apple Wallet or Google Wallet](/features/apple-wallet/). The activity log records changes made by each administrator.
     button:
-      text: See all features
-      href: /features/
+      text: See example sites
+      href: /examples/
       variant: secondary
     figure_src: /images/screenshots/examples-play-centre-home.png
     figure_alt: The home page of the Chobble Play Centre demo website
@@ -52,7 +53,7 @@ blocks:
   - type: features
     dark: true
     intro_content: |
-      ## More than a basic ticket form
+      ## Bookings for different kinds of events
 
       The same platform covers one-off events, timed entry, regular sessions and bookings that need deposits, delivery or collection.
     items:
