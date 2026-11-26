@@ -345,6 +345,20 @@ $latin-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
   }
 }
 
+// The template styles every nav element as a navigation bar: sticky on
+// desktop and fixed to the top on mobile. The footer's link list is a nav
+// for semantics, not a bar, so it stays in the document flow at any width.
+.design-system footer .footer-nav {
+  position: static;
+  z-index: auto;
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+  padding: 0;
+  background: none;
+}
+
 @media (min-width: 769px) {
   .design-system.horizontal-nav nav > ul {
     align-items: center;
