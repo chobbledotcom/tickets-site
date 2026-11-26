@@ -1,22 +1,46 @@
 <footer>
-  <ul class="footer-links" role="list">
-    <li><a href="/features/">Features</a></li>
-    <li><a href="/pricing/">Pricing</a></li>
-    <li><a href="/perfect-for/">Uses</a></li>
-    <li><a href="/compared-to/">Comparisons</a></li>
-    <li><a href="/guide/">Guides</a></li>
-    <li><a href="/hosting/">Hosting</a></li>
-    <li><a href="/faq/">FAQ</a></li>
-    <li><a href="/reviews/">Reviews</a></li>
-    <li><a href="/examples/">Examples</a></li>
-    <li><a href="/about/">About</a></li>
-    <li><a href="/credits/">Credits</a></li>
-    {%- include "language-switcher.html" -%}
-    <li><a href="https://github.com/chobbledotcom/tickets">Source code</a></li>
-    <li><a href="https://chobbledotcom.github.io/tickets/doc.ts/index.html">Technical docs</a></li>
-  </ul>
-  <p>Chobble Tickets is developed by Chobble CIC, company number 17050113.</p>
-  <p>Managed hosting costs £50 a year or £5 a month. Chobble charges no licence fee for the self-hosted AGPL-3.0-only software.</p>
-  {%- include "footer-socials.html" -%}
-  {%- render_snippet "footer-content" -%}
+  <div class="footer-brand">
+    <p class="footer-wordmark">Chobble Tickets</p>
+    <p>Event ticketing software for organisers, from Chobble CIC.</p>
+    {%- include "footer-socials.html" -%}
+  </div>
+  <nav class="footer-nav" aria-label="Footer">
+    <section>
+      <h2>Product</h2>
+      <ul role="list">
+        <li><a href="/features/">Features</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/perfect-for/">Uses</a></li>
+        <li><a href="/examples/">Examples</a></li>
+        <li><a href="/reviews/">Reviews</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Compare and learn</h2>
+      <ul role="list">
+        <li><a href="/compared-to/">Comparisons</a></li>
+        <li><a href="/guide/">Guides</a></li>
+        <li><a href="/hosting/">Hosting</a></li>
+        <li><a href="/faq/">FAQ</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Chobble</h2>
+      <ul role="list">
+        <li><a href="/about/">About</a></li>
+        <li><a href="/credits/">Credits</a></li>
+        {%- include "language-switcher.html" -%}
+      </ul>
+    </section>
+    <section>
+      <h2>Developers</h2>
+      <ul role="list">
+        <li><a href="https://github.com/chobbledotcom/tickets">Source code</a></li>
+        <li><a href="https://chobbledotcom.github.io/tickets/doc.ts/index.html">Technical docs</a></li>
+      </ul>
+    </section>
+  </nav>
+  <div class="footer-legal">
+    <p>Chobble Tickets is developed by Chobble CIC, company number 17050113. Managed hosting costs £50 a year or £5 a month, and Chobble charges no licence fee for the self-hosted AGPL-3.0-only software.</p>
+  </div>
 </footer>
