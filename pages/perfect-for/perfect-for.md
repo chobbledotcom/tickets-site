@@ -1,7 +1,7 @@
 ---
 title: Ticketing Software for Events, Classes and Hire - Chobble Tickets
 meta_title: Ticketing Software for Events, Classes and Hire | Chobble Tickets
-meta_description: See how Chobble Tickets handles soft play, personal training, folk clubs, school events, venue and skip hire, catering and other bookings.
+meta_description: See how Chobble Tickets handles soft play, personal training, car and clothing hire, camping, school events, venue hire and other bookings.
 permalink: /perfect-for/
 eleventyNavigation:
   key: Perfect For
@@ -37,14 +37,50 @@ blocks:
       [product, a donation or a subscription](/features/purchasable-events/)
       that nobody attends.
 
+      For hire businesses, the [guide to choosing hire
+      software](/guide/choosing-hire-software/) compares pricing models and
+      explains where Chobble Tickets fits.
+
       ## What it does not cover
 
       Chobble Tickets has no seating plans and no event marketplace, so it
       does not suit a venue selling named seats or an organiser relying on a
-      platform to find new customers.
+      platform to find new customers. It counts stock by the day and does not
+      keep a serial number for each item.
 
   - type: features
-    intro_content: "## Uses for Chobble Tickets"
+    intro_content: "## Hire and rental"
+    items:
+      - icon: hugeicons:delivery-truck-02
+        description: Take whole-day or multi-day room bookings with date-range capacity, questions, deposits and maintenance holds.
+        name: <a href="/perfect-for/venue-hire/">Venue and room hire</a>
+      - icon: hugeicons:delivery-truck-02
+        description: Price each offered hire length, check stock across booked days and assign delivery and collection work.
+        name: <a href="/perfect-for/skip-hire/">Skip hire companies</a>
+      - icon: hugeicons:delivery-truck-02
+        description: Manage day-based equipment and plant hire with duration prices, overlapping capacity and delivery records.
+        name: <a href="/perfect-for/equipment-hire/">Equipment and plant hire</a>
+      - icon: hugeicons:tent
+        description: Take multi-day marquee bookings with deposits, site questions and run sheets for setup and teardown crews.
+        name: <a href="/perfect-for/marquee-hire/">Marquee hire</a>
+      - icon: hugeicons:delivery-truck-02
+        description: Sell vehicle classes by the day with per-date capacity, licence questions, deposits and delivery run sheets.
+        name: <a href="/perfect-for/car-hire/">Car, van and campervan hire</a>
+      - icon: hugeicons:tag-01
+        description: Take dress and costume hire with size listings, encrypted measurements, deposits and return records.
+        name: <a href="/perfect-for/clothing-hire/">Clothing and costume hire</a>
+      - icon: hugeicons:chair-01
+        description: Book delivered hot tubs for several days, with servicing holds and drop-off and collection run sheets.
+        name: <a href="/perfect-for/hot-tub-hire/">Hot tub hire</a>
+      - icon: hugeicons:tent
+        description: Hire bell tents and camping kit with add-ons, delivery, deposits and encrypted site details.
+        name: <a href="/perfect-for/camping-hire/">Camping and bell tent hire</a>
+      - icon: hugeicons:user-group
+        description: Take daily or weekly mobility equipment bookings with delivery, access questions and encrypted records.
+        name: <a href="/perfect-for/mobility-hire/">Mobility equipment hire</a>
+  - type: features
+    dark: true
+    intro_content: "## Events and entertainment"
     items:
       - icon: hugeicons:restaurant-01
         description: Sell tickets for quiz nights, live music and supper clubs, and take free bookings for the nights you do not charge for.
@@ -52,9 +88,6 @@ blocks:
       - icon: hugeicons:music-note-03
         description: Run a whole programme of shows with advance sales, the guest list and the door in one record.
         name: <a href="/perfect-for/music-venues/">Music venues</a>
-      - icon: hugeicons:chair-01
-        description: Take hall hire bookings and run the centre's own classes and clubs, at the reduced community price.
-        name: <a href="/perfect-for/community-centres/">Community centres and village halls</a>
       - icon: hugeicons:mask-theater-01
         description: Sell your own gig, show and workshop dates on your own domain, at the reduced artist price.
         name: <a href="/perfect-for/performers-and-artists/">Performers and artists</a>
@@ -67,39 +100,6 @@ blocks:
       - icon: hugeicons:global
         description: Take registrations for online and hybrid sessions, then email the joining link to the people who booked.
         name: <a href="/perfect-for/online-events/">Online and hybrid events</a>
-      - icon: hugeicons:baby-01
-        description: Publish each regular session time, set capacity for every date and scan bookings at the door with a phone.
-        name: <a href="/perfect-for/stay-and-play/">Soft play and stay-and-play</a>
-      - icon: hugeicons:football
-        description: Take one-to-one or group session bookings with intake questions, deposits and returning-customer price rules.
-        name: <a href="/perfect-for/personal-trainers/">Personal trainers</a>
-      - icon: hugeicons:music-note-01
-        description: Take weekly admission, sell raffle entries and record advance sales, door income and costs in one ledger.
-        name: <a href="/perfect-for/folk-music-clubs/">Folk music clubs</a>
-      - icon: hugeicons:delivery-truck-02
-        description: Price each offered hire length, check stock across booked days and assign delivery and collection work.
-        name: <a href="/perfect-for/skip-hire/">Skip hire companies</a>
-      - icon: hugeicons:restaurant-01
-        description: Sell fixed menus and packages, collect dietary requirements and give delivery or setup crews a run sheet.
-        name: <a href="/perfect-for/caterers/">Caterers</a>
-      - icon: hugeicons:tag-01
-        description: Take dated consultation bookings with preference questions, extras, deposits and encrypted customer details.
-        name: <a href="/perfect-for/personal-stylists/">Personal stylists</a>
-      - icon: hugeicons:school-01
-        description: Sell school event tickets, raffles and donations with ledger-backed reports and a reduced community rate.
-        name: <a href="/perfect-for/schools-and-ptas/">Schools and PTAs</a>
-      - icon: hugeicons:balloons
-        description: Sell party packages that require the customer to choose one clown, mascot or entertainer.
-        name: <a href="/perfect-for/childrens-entertainers/">Children's entertainers</a>
-      - icon: hugeicons:location-01
-        description: Take whole-day or multi-day room bookings with date-range capacity, questions, deposits and maintenance holds.
-        name: <a href="/perfect-for/venue-hire/">Venue and room hire</a>
-      - icon: hugeicons:heart-check
-        description: Charities and community groups pay half price, yearly or monthly, and can collect donations or sell raffle entries.
-        name: <a href="/perfect-for/charity-events/">Charity events and fundraising</a>
-      - icon: hugeicons:balloons
-        description: Collect parent details, manage capacity and send QR code tickets for free or paid children's parties.
-        name: <a href="/perfect-for/kids-parties/">Children's parties</a>
       - icon: hugeicons:music-note-01
         description: Sell concert tickets through the organiser's payment account and check attendees in at the door.
         name: <a href="/perfect-for/music-concerts/">Music concerts</a>
@@ -109,24 +109,6 @@ blocks:
       - icon: hugeicons:lock
         description: Use encrypted attendee data and configurable contact fields for events with private guest lists.
         name: <a href="/perfect-for/adult-parties/">Private adult events</a>
-      - icon: hugeicons:presentation-podium
-        description: Take workshop bookings with capacity, questions, registration deadlines and confirmation emails.
-        name: <a href="/perfect-for/workshops/">Workshops</a>
-      - icon: hugeicons:tent
-        description: Take multi-day marquee bookings with deposits, site questions and run sheets for setup and teardown crews.
-        name: <a href="/perfect-for/marquee-hire/">Marquee hire</a>
-      - icon: hugeicons:delivery-truck-02
-        description: Manage day-based equipment hire with duration prices, overlapping capacity and delivery records.
-        name: <a href="/perfect-for/equipment-hire/">Equipment hire</a>
-      - icon: hugeicons:ferris-wheel
-        description: Sell dated admission with per-date capacity, phone-based QR check-in and attendance exports.
-        name: <a href="/perfect-for/attractions-and-days-out/">Attractions and days out</a>
-      - icon: hugeicons:mortarboard-01
-        description: Publish regular session times with per-date capacity, booking deadlines and class-list email.
-        name: <a href="/perfect-for/classes-and-courses/">Classes and courses</a>
-      - icon: hugeicons:football
-        description: Sell match tickets, take membership payments once or as a subscription, and record training-session bookings.
-        name: <a href="/perfect-for/sports-clubs/">Sports clubs</a>
       - icon: hugeicons:tent
         description: Sell passes, camping choices and add-ons with capacity controls and phone-based gate check-in.
         name: <a href="/perfect-for/festivals/">Festivals</a>
@@ -142,12 +124,30 @@ blocks:
       - icon: hugeicons:ticket-01
         description: Sell day tickets, weekend passes and trader pitches with per-day capacity and QR entry.
         name: <a href="/perfect-for/conventions-and-expos/">Conventions and expos</a>
-      - icon: hugeicons:location-01
-        description: Take tour bookings with a group limit for every departure and questions answered before the day.
-        name: <a href="/perfect-for/guided-tours/">Guided tours</a>
       - icon: hugeicons:clock-01
         description: Sell tickets for a seasonal run with per-night capacity, entry sessions and required entry terms.
         name: <a href="/perfect-for/scare-attractions/">Scare attractions</a>
+  - type: features
+    intro_content: "## Community, schools and fundraising"
+    items:
+      - icon: hugeicons:chair-01
+        description: Take hall hire bookings and run the centre's own classes and clubs, at the reduced community price.
+        name: <a href="/perfect-for/community-centres/">Community centres and village halls</a>
+      - icon: hugeicons:music-note-01
+        description: Take weekly admission, sell raffle entries and record advance sales, door income and costs in one ledger.
+        name: <a href="/perfect-for/folk-music-clubs/">Folk music clubs</a>
+      - icon: hugeicons:school-01
+        description: Sell school event tickets, raffles and donations with ledger-backed reports and a reduced community rate.
+        name: <a href="/perfect-for/schools-and-ptas/">Schools and PTAs</a>
+      - icon: hugeicons:heart-check
+        description: Charities and community groups pay half price, yearly or monthly, and can collect donations or sell raffle entries.
+        name: <a href="/perfect-for/charity-events/">Charity events and fundraising</a>
+      - icon: hugeicons:balloons
+        description: Collect parent details, manage capacity and send QR code tickets for free or paid children's parties.
+        name: <a href="/perfect-for/kids-parties/">Children's parties</a>
+      - icon: hugeicons:football
+        description: Sell match tickets, take membership payments once or as a subscription, and record training-session bookings.
+        name: <a href="/perfect-for/sports-clubs/">Sports clubs</a>
       - icon: hugeicons:mortarboard-01
         description: Sell reunion tickets with meal choices, dietary questions and encrypted guest details.
         name: <a href="/perfect-for/class-reunions/">Class reunions</a>
@@ -157,6 +157,37 @@ blocks:
       - icon: hugeicons:heart-check
         description: Take bookings for concerts, fundraisers and regular groups, with free sign-ups for events that need only a headcount.
         name: <a href="/perfect-for/church-events/">Church events</a>
+  - type: features
+    dark: true
+    intro_content: "## Classes, tours and services"
+    items:
+      - icon: hugeicons:baby-01
+        description: Publish each regular session time, set capacity for every date and scan bookings at the door with a phone.
+        name: <a href="/perfect-for/stay-and-play/">Soft play and stay-and-play</a>
+      - icon: hugeicons:football
+        description: Take one-to-one or group session bookings with intake questions, deposits and returning-customer price rules.
+        name: <a href="/perfect-for/personal-trainers/">Personal trainers</a>
+      - icon: hugeicons:tag-01
+        description: Take dated consultation bookings with preference questions, extras, deposits and encrypted customer details.
+        name: <a href="/perfect-for/personal-stylists/">Personal stylists</a>
+      - icon: hugeicons:restaurant-01
+        description: Sell fixed menus and packages, collect dietary requirements and give delivery or setup crews a run sheet.
+        name: <a href="/perfect-for/caterers/">Caterers</a>
+      - icon: hugeicons:balloons
+        description: Sell party packages that require the customer to choose one clown, mascot or entertainer.
+        name: <a href="/perfect-for/childrens-entertainers/">Children's entertainers</a>
+      - icon: hugeicons:presentation-podium
+        description: Take workshop bookings with capacity, questions, registration deadlines and confirmation emails.
+        name: <a href="/perfect-for/workshops/">Workshops</a>
+      - icon: hugeicons:ferris-wheel
+        description: Sell dated admission with per-date capacity, phone-based QR check-in and attendance exports.
+        name: <a href="/perfect-for/attractions-and-days-out/">Attractions and days out</a>
+      - icon: hugeicons:mortarboard-01
+        description: Publish regular session times with per-date capacity, booking deadlines and class-list email.
+        name: <a href="/perfect-for/classes-and-courses/">Classes and courses</a>
+      - icon: hugeicons:location-01
+        description: Take tour bookings with a group limit for every departure and questions answered before the day.
+        name: <a href="/perfect-for/guided-tours/">Guided tours</a>
   - type: cta
     button:
       text: Start for £5

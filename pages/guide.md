@@ -1,17 +1,17 @@
 ---
-name: Ticketing Guides
-subtitle: Compare ticketing providers by fees, ownership, hosting and domain options
-meta_title: Ticketing Guides | Chobble Tickets
-meta_description: Fifteen guides comparing ticketing providers on fees, payments, company structure, branding, custom domains and self-hosting, drawn from reviews of 52 platforms.
+name: Ticketing and Hire Guides
+subtitle: Compare ticketing and hire software by fees, ownership, hosting and stock model
+meta_title: Ticketing and Hire Guides | Chobble Tickets
+meta_description: Nineteen guides comparing ticketing and hire software on fees, payments, company structure, branding, custom domains and stock models, drawn from reviews of 58 platforms.
 permalink: /guide/
 blocks:
   - type: markdown
     content: |
-      # Ticketing guides
+      # Ticketing and hire guides
 
-      These guides compare ticketing providers on one question at a time, such
-      as what a year of ticket sales costs or which providers let you remove
-      their branding. Most draw on Chobble's [reviews of 52
+      These guides compare ticketing and hire software on one question at a
+      time, such as what a year of ticket sales costs or how a hire business
+      should handle a damage deposit. They draw on Chobble's [reviews of 58
       platforms](/compared-to/providers/), and every review lists its sources
       and the date its facts were checked.
 
@@ -40,6 +40,10 @@ blocks:
       | Which systems could a coding agent deploy and maintain? | [Event ticketing systems a coding agent can deploy](/guide/choosing-a-ticket-platform/event-ticketing-systems-a-coding-agent-can-deploy/) |
       | What does a box office need on the night? | [Box office software](/guide/choosing-a-ticket-platform/box-office-software/) |
       | What should registration software collect and protect? | [Event registration software](/guide/choosing-a-ticket-platform/event-registration-software/) |
+      | What does hire software cost over three years? | [Rental booking software costs](/guide/choosing-hire-software/rental-booking-software-costs/) |
+      | Do I need a booking site or a marketplace? | [Single operator or marketplace](/guide/choosing-hire-software/single-operator-or-marketplace/) |
+      | What must day-based hire software do? | [Day-based hire software](/guide/choosing-hire-software/day-based-hire-software/) |
+      | How should a hire business handle deposits? | [Security deposits for hire](/guide/choosing-hire-software/security-deposits-for-hire/) |
   - type: markdown
     content: |
       ## Before you choose

@@ -44,9 +44,10 @@ blocks:
 
       Each page sets out what the other platform charges, which features each
       one has, and what happens to attendee or customer data. Most pages
-      cover ticketing platforms; a few cover hire, delivery or scheduling
-      tools that overlap with what Chobble Tickets does. Click through for
-      the full comparison.
+      cover ticketing platforms; several cover hire, delivery or scheduling
+      tools that overlap with what Chobble Tickets does. The [hire software
+      guide](/guide/choosing-hire-software/) explains which model fits a
+      single operator. Click through for the full comparison.
     items:
       - icon: hugeicons:chart-bar-line
         description: Estimate costs across the listed platforms with an interactive calculator and documented assumptions.
@@ -219,6 +220,21 @@ blocks:
       - icon: hugeicons:package
         description: Self-hosted software for building rental marketplaces. Compare a multi-vendor rental platform with hire bookings for a single operator.
         name: <a href="/compared-to/yo-rent/">Yo!Rent alternative</a>
+      - icon: hugeicons:delivery-truck-02
+        description: Dutch rental software with serialised inventory, contracts and security deposits. Compare a stock system with a dated booking site.
+        name: <a href="/compared-to/booqable/">Booqable alternative</a>
+      - icon: hugeicons:delivery-truck-02
+        description: US rental operations software with maintenance, work orders and long-term billing. Compare an asset system with a booking site.
+        name: <a href="/compared-to/ezrentout/">EZRentOut alternative</a>
+      - icon: hugeicons:calendar-03
+        description: Finnish rental and resale platform, formerly Rentle, with serialised stock, deposits and a 1.5% payment commission. Compare a storefront with a flat booking fee.
+        name: <a href="/compared-to/rentle/">TWICE (Rentle) alternative</a>
+      - icon: hugeicons:calendar-03
+        description: Dutch planning software for AV and event rental, with crew scheduling and quoting. Compare internal planning with a public booking page.
+        name: <a href="/compared-to/rentman/">Rentman alternative</a>
+      - icon: hugeicons:delivery-truck-02
+        description: US event rental software for inventory, dispatch and contracts, with marketplace access. Compare a warehouse system with a booking site.
+        name: <a href="/compared-to/goodshuffle-pro/">Goodshuffle Pro alternative</a>
   - type: cta
     button:
       text: Sign Up

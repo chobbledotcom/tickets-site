@@ -59,14 +59,14 @@ blocks:
       AGPL-3.0-only licence.
 
       Yo!Rent is self-hosted software for building a multi-vendor rental
-      marketplace, sold as a one-time licence from $1,499. Chobble Tickets
+      marketplace, sold as a one-time licence priced by quote. Chobble Tickets
       handles hire bookings for a single operator, charges £50/year or
       £5/month, and has no licence fee if you self-host it.
 
-      The two suit different scales. An organisation renting out its own
-      equipment, rooms or castles pays a small recurring fee with Chobble
-      Tickets, while Yo!Rent is a large upfront purchase for running a
-      marketplace of other people's stock.
+      Yo!Rent also supports single-vendor stores, but includes marketplace
+      tools for businesses that need other owners to list their stock. Its
+      current price depends on the quote, so a direct cost comparison needs
+      the proposed package, hosting and support costs.
   - type: markdown
     content: |
       ## Two approaches to rentals
@@ -89,7 +89,9 @@ blocks:
       The difference is scale and model. Yo!Rent is for building a rental
       business where the public, or many separate vendors, browse a
       catalogue and rent items. Chobble Tickets is for one operator hiring
-      out their own items on set dates, often alongside events.
+      out their own items on set dates, often alongside events. The [guide to
+      choosing hire software](/guide/choosing-hire-software/) explains how
+      to decide between the two models.
   - type: markdown
     content: |
       ## How Chobble Tickets handles hire

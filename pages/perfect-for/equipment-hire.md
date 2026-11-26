@@ -1,19 +1,19 @@
 ---
-title: Equipment Hire - Chobble Tickets
-meta_title: Equipment Hire Booking Software - Chobble Tickets
-meta_description: Booking software for equipment and party hire, with duration pricing, capacity across booked dates, deposits, delivery scheduling and driver run sheets.
+title: Equipment and Plant Hire - Chobble Tickets
+meta_title: Equipment and Plant Hire Booking Software | Chobble Tickets
+meta_description: Booking software for equipment, tool and plant hire, with duration pricing, capacity across booked dates, deposits, delivery scheduling and driver run sheets.
 permalink: /perfect-for/equipment-hire/
 eleventyNavigation:
-  key: Equipment Hire
+  key: Equipment & Plant Hire
   parent: Perfect For
   order: 9
 blocks:
   - type: hero
     class: gradient
     content: |-
-      # Equipment hire booking software
+      # Equipment and plant hire booking software
 
-      Take online bookings for marquees, sound systems, portable toilets, tools, and props. Customers choose their dates, pay a deposit or the full price, and your drivers get a run sheet for deliveries and collections.
+      Take online bookings for tools, compact plant, sound systems, portable toilets and staging. Customers choose their dates, pay a deposit or the full price, and your drivers get a run sheet for deliveries and collections.
   - type: split-image
     content: |
       ## Duration pricing and stock control
@@ -35,8 +35,8 @@ blocks:
       later. Payments go through Stripe, Square, or SumUp directly to your
       own account, and Chobble Tickets takes no percentage.
 
-      The same setup covers PA and lighting hire, staging, tool hire, bouncy
-      castles, camera kit and party furniture.
+      The same setup covers PA and lighting hire, staging, tool hire, compact
+      plant, camera kit and portable toilets.
     figure_src: /images/screenshots/equipment-hire-booking.png
     figure_alt: A mobile booking form for a portable PA system with a three-day hire selected
     figure_caption: Customers choose an available start date and the number of days they need the equipment.
@@ -69,6 +69,25 @@ blocks:
         text: Take units out of availability for maintenance.
       - icon: hugeicons:shopping-cart-01
         text: Take bookings on your existing website.
+  - type: markdown
+    content: |
+      ## Plant and construction hire
+
+      Compact plant runs on the same model. Each machine type is a daily
+      listing, capacity is the number of machines available, and you publish
+      a total price for one, three or seven days. A customer books the class
+      of machine, and staff assign the actual unit at handover.
+
+      Ask for site access, ground conditions and delivery restrictions with
+      [custom questions](/features/custom-questions/). A
+      [servicing event](/features/servicing-events/) reduces a listing's
+      available capacity while equipment is repaired, and the repair cost
+      can be posted to that listing in the [ledger](/features/ledger/).
+
+      Chobble Tickets does not track individual machine serial numbers or
+      hour meters. Operators must manage certificate and waiver checks
+      separately. The same setup covers mini diggers, mixers, compactors,
+      generators, access towers and garden machinery.
   - type: features
     dark: true
     intro_content: "## Features for hire businesses"
@@ -88,18 +107,18 @@ blocks:
 
       [Marquee hire](/perfect-for/marquee-hire/) covers multi-day structures
       with site questions. [Skip hire](/perfect-for/skip-hire/) covers
-      duration pricing and delivery rounds, and
-      [venue and room hire](/perfect-for/venue-hire/) covers day-based room
-      bookings.
+      duration pricing and delivery rounds. [Car hire](/perfect-for/car-hire/)
+      applies the same duration model to vehicles, and
+      [camping hire](/perfect-for/camping-hire/) covers tents and kit.
   - type: markdown
     content: |
       ## Other options you might be considering
 
-      You might be considering [Yo!Rent](/compared-to/yo-rent/), rental
-      booking software, or [Resova](/compared-to/resova/), which takes
-      timed hire bookings. Each comparison covers pricing, features and
-      attendee data, and the [full list](/compared-to/) names every
-      platform checked so far.
+      [Booqable](/compared-to/booqable/) tracks serialised stock and holds
+      security deposits. [EZRentOut](/compared-to/ezrentout/) adds
+      maintenance and work orders, and [Yo!Rent](/compared-to/yo-rent/) is
+      for building a multi-vendor rental marketplace. Each comparison covers
+      pricing, features and customer data.
   - type: markdown
     content: |
       ## Hand the website over
@@ -119,5 +138,5 @@ blocks:
       ## Put your hire stock online
 
       Sign up for managed hosting at £50/year or £5/month with no Chobble per-booking platform fee. Payments go directly to your own Stripe, Square or SumUp account.
-name: Equipment Hire
+name: Equipment and Plant Hire
 ---

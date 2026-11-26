@@ -110,6 +110,7 @@ const ENUM_PHRASES = {
     "flat-volume-independent": "Flat, volume-independent",
     "feature-tiered-volume-independent": "Feature tiers, volume-independent",
     "per-user-tiered-volume-independent": "Per-user tiers, volume-independent",
+    "per-location-tiered-volume-independent": "Per-location tiers, volume-independent",
     "per-sale": "Per sale",
     "quote-based": "Quote-based",
     "ticket-volume-tiered": "Ticket-volume tiers",

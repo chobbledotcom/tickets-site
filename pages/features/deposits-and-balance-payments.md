@@ -41,6 +41,18 @@ blocks:
       This two-step arrangement is the payment plan Chobble Tickets
       provides: a deposit at booking and one balance payment afterwards.
       Chobble Tickets does not split a price into a run of instalments.
+
+      ## Not a refundable damage deposit
+
+      The deposit described here pays part of the price. It is not a
+      security deposit held against damage, late return or cleaning.
+
+      A hire business can add a damage deposit as a mandatory surcharge or
+      booking fee at checkout and return the unused part from the payment
+      provider's dashboard. Chobble Tickets does not pre-authorise a card,
+      hold the money itself or issue a partial refund. The [guide to hire
+      deposits](/guide/choosing-hire-software/security-deposits-for-hire/)
+      sets out the accounting and chargeback risks.
   - type: split-image
     content: |
       ## Attendee statuses

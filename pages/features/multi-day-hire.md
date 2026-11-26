@@ -63,9 +63,11 @@ blocks:
       ## Limits
 
       Stock is a number for each day, not a list of named items, so Chobble
-      Tickets does not say which mixer went to which customer. Hire is booked
-      in whole days, not hours. The day-counting rules are published as
-      [test cases for stays of several
+      Tickets does not say which mixer went to which customer. Multi-day hire
+      counts whole days. For shorter sessions, separate named listings can
+      be placed in a [group](/features/groups/); the time is written in each
+      listing's name rather than selected as an arbitrary start time.
+      The day-counting rules are published as [test cases for stays of several
       days](https://github.com/chobbledotcom/tickets/blob/main/specs/bookings/booking-several-days.feature).
   - type: markdown
     content: |
@@ -87,6 +89,14 @@ blocks:
       so a buyer cannot pay less than the minimum or more than the cap.
   - type: markdown
     content: |
+      ## Who uses it
+
+      The same duration model runs [car hire](/perfect-for/car-hire/),
+      [clothing hire](/perfect-for/clothing-hire/),
+      [hot tub hire](/perfect-for/hot-tub-hire/) and
+      [camping hire](/perfect-for/camping-hire/). Each page sets out the
+      limits for that kind of stock.
+
       ## Deliveries and collections
 
       Multi-day hire works with the [logistics system](/features/logistics/).

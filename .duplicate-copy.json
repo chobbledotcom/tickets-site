@@ -687,6 +687,26 @@
     {
       "text": "There is no advertising revenue and no data economy subsidising the price.",
       "why": "Funding-structure fact stated consistently across pages."
+    },
+    {
+      "text": "Chobble Tickets encrypts personal data at rest and publishes its source.",
+      "why": "Data-ownership and source-code fact stated consistently across provider comparisons."
+    },
+    {
+      "text": "Chobble has no admin access to an organiser's site.",
+      "why": "Data-access fact stated consistently across provider comparisons."
+    },
+    {
+      "text": "Chobble Tickets is £50/year or £5/month, or £25/year or £2.50/month for charities, community groups, artists and musicians.",
+      "why": "Pricing fact stated consistently across provider comparisons."
+    },
+    {
+      "text": "The operator can export the database and run the same code elsewhere, or self-host it.",
+      "why": "Data-portability fact stated consistently across provider comparisons."
+    },
+    {
+      "text": "Chobble Tickets is a booking and ticketing platform from a UK community interest company.",
+      "why": "Company and product identity stated consistently across provider comparisons."
     }
   ]
 }
