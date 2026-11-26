@@ -2,7 +2,7 @@
 name: Non Vibe Coded Ticket Sales Systems
 subtitle: How to tell engineered ticketing software from prompted software, when the code takes payments and counts places
 meta_title: Non Vibe Coded Ticket Sales Systems | Chobble Tickets
-meta_description: What vibe coding means for ticketing, the risks unreviewed AI code brings to payment and availability logic, and the engineering signals that separate tested software from prompted software.
+meta_description: Vibe coding, the risks unreviewed AI code brings to payments and availability, and the signals that separate engineered software from prompted software.
 guide-category: choosing-a-ticket-platform
 order: 7.5
 blocks:
@@ -163,3 +163,4 @@ blocks:
       verifiability: whether the platform can show its work. For a system
       that takes your buyers' money and counts the places at your door,
       showing the work is the minimum standard worth paying for.
+---
