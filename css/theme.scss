@@ -1032,13 +1032,6 @@ html[lang="de"] .design-system :is(h1, h2, h3, h4, h5, h6) {
 // into labelled cards.
 
 .design-system {
-  .prose th,
-  .prose td {
-    // Long tokens, such as provider names and linked feature names, must
-    // never force a table wider than its container.
-    overflow-wrap: anywhere;
-  }
-
   // Three-column comparison tables: give the label column a fixed share and
   // split the rest between the two value columns.
   .prose
