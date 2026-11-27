@@ -96,12 +96,14 @@
   "dice": {
     "name": "DICE",
     "annual_cost": 0,
-    "per_ticket_fee_percent": 10,
+    "per_ticket_fee_percent": 8.5,
     "per_ticket_fee_fixed": 0,
-    "fee_estimate": true,
-    "payment_processing_percent": 0,
+    "per_ticket_fee_minimum": 1,
+    "payment_processing_percent": 2.5,
     "payment_processing_fixed": 0,
-    "fee_note": "DICE fees are negotiated per partnership and not publicly disclosed. This estimate uses approximately 10% per ticket (bundled, including payment processing). Actual fees may vary. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p)."
+    "fee_estimate": false,
+    "fee_vat": "exclusive",
+    "fee_note": "DICE's UK and Ireland self sign-up terms (updated 23 November 2026, checked 27 November 2026) charge a service fee of 8.5% + VAT on face value, minimum £1, and a transaction fee of 2.5% + VAT of the total transaction price (face value plus service fee). The calculator applies 2.5% to the ticket price, so it slightly understates the transaction fee. The service fee is added to the price the buyer pays; the transaction fee comes out of the organiser's proceeds. Free tickets carry no fees, and a charity face value carries no service fee. Chobble Tickets: £50/year or £5/month flat + Stripe processing (1.5% + 20p)."
   },
   "dandelion": {
     "name": "Dandelion",
