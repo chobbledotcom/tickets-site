@@ -54,9 +54,9 @@ blocks:
 
       Add [custom questions](/features/custom-questions/) for the return time and other details the handover needs. Ask for a licence number only if you need it. Free-text answers are encrypted with the same key as the rest of the customer record. A question is a text box, not a document upload, so the licence itself is checked at collection.
 
-      The [terms box](/features/terms-and-conditions/) can require the customer to accept the hire agreement before checkout. It records one acceptance for the order.
+      The [terms box](/features/terms-and-conditions/) can require the customer to tick the hire agreement before checkout. It does not record acceptance or the version shown.
 
-      At collection, staff can scan the booking's [QR code](/features/qr-code-check-ins/) to mark the vehicle as collected. The attendee record keeps the booking, the answers and the payment history together.
+      At collection, staff can scan the booking's [QR code](/features/qr-code-check-ins/) to check in the attendee. Staff must track the vehicle handover separately. The attendee record keeps the booking, the answers and the payment history together.
     figure_items:
       - icon: hugeicons:security-check
         text: Licence number and return time as questions
@@ -79,18 +79,18 @@ blocks:
 
       Chobble Tickets supports a part-payment deposit: the customer pays part of the hire price at booking and the rest through a balance link. That is a payment plan, not a refundable security deposit.
 
-      For a damage deposit, add the amount as a mandatory surcharge or booking fee at checkout. The customer pays it with the booking. When the vehicle comes back, return the unused part through the Stripe, Square or SumUp dashboard.
+      For a damage deposit, add a mandatory fixed-price modifier or a percentage-based booking fee at checkout. For part-payments, check that the amount collected before handover covers the deposit. After the vehicle returns, refund the unused amount through the Stripe, Square or SumUp dashboard.
 
-      Chobble Tickets does not pre-authorise a card, hold a deposit itself or return it automatically. Partial refunds are not issued from the admin panel, so the return happens in the payment provider's dashboard. Read the [guide to hire deposits](/guide/choosing-hire-software/security-deposits-for-hire/) before choosing this route.
+      Chobble Tickets does not pre-authorise a card or hold the money. Refund the deposit through the payment provider and record the return separately, as Chobble Tickets does not update its ledger for a partial refund made there. The [guide to hire deposits](/guide/choosing-hire-software/security-deposits-for-hire/) explains how this works.
   - type: markdown
     content: |
       ## Half days and hourly hire
 
       Chobble Tickets books whole days. For morning and afternoon hire, create a separate listing for each half-day and put both listings in a [group](/features/groups/). The group page lets a customer book either half or both in one checkout.
 
-      Each listing has its own price and capacity. A group can also set a shared maximum, but that counts bookings across both listings; it does not track which car is used in each half of the day. Set capacities with that limit in mind and assign vehicles outside the system.
+      Each listing has its own price and capacity. A group can also set a shared maximum, but that counts bookings across both listings; it does not track which car is used in each half of the day. Full-day and half-day listings do not check shared stock or overlapping hires, so manage availability and assign vehicles outside the system.
 
-      Hourly hire is not supported. If a customer needs a car for two hours, this is the wrong booking model.
+      Fixed hourly hires can use separate named listings, grouped on one page. Customers cannot pick an arbitrary time, and those listings do not check overlaps with full-day hires.
   - type: markdown
     content: |
       ## Worked example
@@ -105,7 +105,7 @@ blocks:
       - It does not keep a fleet record by registration, MOT date, mileage, fuel level or insurance.
       - It does not upload or verify a driving licence.
       - It does not hold or pre-authorise a refundable damage deposit.
-      - It does not sell hourly hire.
+      - It does not offer an arbitrary hourly time picker or check overlaps between separate listings.
       - It does not provide insurance or a damage waiver.
       - It does not assign a specific vehicle to a booking.
 

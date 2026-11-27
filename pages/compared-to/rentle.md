@@ -30,12 +30,12 @@ provider_facts:
   established: 2018
   public_api: included
   seating_plans: not-documented
-  summary: "Finnish rental and resale platform with serialised stock, deposits and a built-in store, from €99 a month plus 1.5% of payments."
+  summary: "Finnish rental and resale platform with serialised stock and deposits, from €99 per month plus 1.5% on Stripe Connect payments on Standard."
   notes:
     registration_country: "The TWICE contact page gives TWICE Commerce Oy at Kalevankatu 3 B 8, 00100 Helsinki, Finland. Checked 26 November 2026."
     ethical_basis: "TWICE is a private company. Its about and pricing pages do not describe a charity, co-operative, CIC or B Corp structure. Checked 26 November 2026."
     per_ticket_platform_fee: "Standard charges 1.5% on successful Stripe Connect payments, on top of Stripe fees. Manual and offline payments have no commission; volume and Enterprise rates can be negotiated. Checked 26 November 2026."
-    managed_pricing: "Standard costs €99 a month for the first inventory location and €199 for each additional location, billed annually. Enterprise starts at €5,000 a month. Both tiers include every feature but differ in commission and services. Checked 26 November 2026."
+    managed_pricing: "The first two inventory locations cost €99 each a month and each subsequent location costs €199 a month, billed annually. Standard has no tier fee; Enterprise starts at €5,000 a month plus location charges and includes additional security controls and services. Checked 26 November 2026."
     white_label: "Custom domains, a visual theme editor and custom CSS are included. The pricing page does not state whether TWICE branding can be removed. Checked 26 November 2026."
     custom_domain: "Custom domains are listed in the online store feature set. Checked 26 November 2026."
     public_website: "The platform includes a built-in online store, visual theme editor, page templates and a checkout builder. Checked 26 November 2026."
@@ -78,11 +78,13 @@ blocks:
 
       On 26 November 2026 the [TWICE pricing
       page](https://www.twicecommerce.com/pricing) listed Standard at €99
-      a month for the first inventory location and €199 for each additional
-      location, billed annually. Both tiers include every feature. Standard
-      charges 1.5% on successful Stripe Connect payments on top of Stripe
-      fees; offline payments have no commission. Enterprise starts at
-      €5,000 a month with negotiated rates.
+      a month for each of the first two inventory locations and €199 for
+      each location thereafter, billed annually. Standard has no tier fee.
+      It charges 1.5% on successful Stripe Connect payments on top of Stripe
+      fees; manual and offline payments have no commission. Enterprise starts
+      at €5,000 a month plus location charges, with negotiated rates. It
+      includes enforced two-factor authentication, single sign-on and audit
+      logs with at least 36 months' retention, as well as additional services.
 
       [TWICE's transaction rates](https://www.twicecommerce.com/transactional-rates)
       also describe volume discounts and other payment providers on request.
@@ -187,7 +189,6 @@ blocks:
       - You also sell event tickets, classes or free registrations
       - You want open source code and the option to self-host
       - Encrypted customer data matters to you
-      - You need a public website beside the booking pages
   - type: markdown
     content: |
       ## Sources

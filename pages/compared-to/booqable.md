@@ -16,7 +16,7 @@ provider_facts:
     - not-documented
   per_ticket_platform_fee: none
   managed_pricing: feature-tiered-volume-independent
-  white_label: not-documented
+  white_label: higher-tier
   custom_domain: included
   public_website: hosted-booking-pages
   self_hosting: not-documented
@@ -36,7 +36,7 @@ provider_facts:
     ethical_basis: "Booqable is a private company. Its about and pricing pages do not describe a charity, co-operative, CIC or B Corp structure. Checked 26 November 2026."
     per_ticket_platform_fee: "The pricing page says all plans include unlimited orders and 'No commission on bookings'. Checked 26 November 2026."
     managed_pricing: "Start, Grow and Scale are fixed monthly plans at $29, $69 and $149 billed yearly, or $35, $87 and $187 monthly. The tiers differ by users and features, not order volume. Checked 26 November 2026."
-    white_label: "The pricing page lists 'Remove Booqable branding', but the plan availability is unclear in the reviewed page. Checked 26 November 2026."
+    white_label: "The Scale plan includes removal of 'Powered by Booqable' branding. Checked 26 November 2026."
     custom_domain: "The pricing page lists custom domain connection for the booking page and checkout. Checked 26 November 2026."
     public_website: "A hosted booking page is included. A full website builder is a $19 a month add-on on yearly billing, or $24 monthly. Checked 26 November 2026."
     self_hosting: "The reviewed pricing page does not describe a self-hosted edition. Checked 26 November 2026."
@@ -124,13 +124,13 @@ blocks:
       - **Barcode scanning** - import or generate barcodes and scan items in
         and out, as a paid add-on
       - **Contracts and e-signatures** - generate quotes, contracts and
-        invoices from an order and collect signatures
+        invoices; e-signatures are on Grow and Scale
       - **Security deposits and pre-authorisations** - apply a per-order or
         per-product deposit and hold or charge it
       - **Mobile point of sale** - take in-person bookings and payments on
         iOS or Android
       - **Multi-location stock** - manage inventory and orders across
-        several locations
+        several locations on Scale, with an extra charge per location
       - **Delivery management** - delivery options, flat or mileage rates
         and delivery orders as a paid add-on
       - **Product bundles and cross-selling** - package items and recommend

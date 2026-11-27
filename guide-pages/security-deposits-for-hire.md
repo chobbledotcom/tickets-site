@@ -16,9 +16,10 @@ blocks:
       pre-authorisation places a temporary hold on a card without taking
       payment. Each needs a different process.
 
-      Chobble Tickets supports part-payments. A mandatory fee can collect a
-      damage deposit, which the operator returns through the payment
-      provider. Card pre-authorisation needs a separate payment product.
+      Chobble Tickets supports part-payments. A mandatory modifier or
+      booking fee can collect a damage deposit, which the operator returns
+      through the payment provider. Card pre-authorisation needs a separate
+      payment product.
   - type: markdown
     dark: true
     content: |
@@ -38,9 +39,14 @@ blocks:
       ## How to take a damage deposit on Chobble Tickets
 
       Add the damage deposit as a mandatory modifier or booking fee at
-      checkout. For a booking paid in full, the customer pays the hire
-      price and deposit together. Check the amount and tax shown at checkout
-      against your intended terms before taking bookings.
+      checkout. A mandatory modifier can add a fixed amount. A booking fee
+      is a percentage of the subtotal, from 0% to 10%, so it can only
+      collect an amount that fits that calculation. For a booking paid in
+      full, the customer pays the hire price and deposit together.
+
+      With a part-payment, a fixed surcharge may not be collected in full at
+      booking. Check the amount due now, the balance and the tax shown at
+      checkout against your intended terms before taking bookings.
 
       After inspection, use the Stripe, Square or SumUp dashboard to refund
       the amount due. Returning the deposit alone is a partial refund of the
@@ -58,7 +64,8 @@ blocks:
       ## Worked example
 
       A customer hires a carpet cleaner for £60 and pays a £150 damage
-      deposit. The order total is £210. The cleaner comes back with a broken
+      deposit added as a mandatory fixed modifier. The customer pays the
+      £210 order total in full. The cleaner comes back with a broken
       handle, and the repair costs £40.
 
       The operator refunds £110 from the payment dashboard and keeps £40.

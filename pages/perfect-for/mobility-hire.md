@@ -68,7 +68,7 @@ blocks:
 
       Chobble Tickets can split the hire price into a deposit at booking and a balance later. That is a part-payment, not a refundable security deposit.
 
-      A damage deposit can be added as a mandatory charge at checkout. The customer pays it with the hire. After the equipment is returned and checked, return the unused part from the Stripe, Square or SumUp dashboard.
+      A damage deposit can be added as a mandatory fixed-price modifier or a percentage-based booking fee. A reservation payment may cover only part of the total with that modifier. After the equipment is returned and checked, return the unused part from the Stripe, Square or SumUp dashboard.
 
       No card pre-authorisation or held balance is part of the Chobble product. A partial refund is made in the payment provider's dashboard, not the Chobble admin panel, and the ledger does not reconcile it automatically. The [hire deposits guide](/guide/choosing-hire-software/security-deposits-for-hire/) covers the risk.
   - type: markdown
@@ -87,8 +87,8 @@ blocks:
       - It does not track individual scooters or wheelchairs by serial number.
       - It does not keep a service, repair or MOT-style history for each unit.
       - It does not hold or pre-authorise a refundable damage deposit.
-      - It does not bill the NHS, an insurer or a care authority.
-      - It does not hire by the hour.
+      - Booking balance invoices are available, but specialist NHS, insurer or care authority billing integrations should be checked separately.
+      - It does not offer an arbitrary hourly time picker. Fixed hire times can be separate named listings in a group, but do not check overlaps with full-day hires.
 
       A rental operations or asset management system is the better fit when each item needs its own maintenance and compliance record.
   - type: features

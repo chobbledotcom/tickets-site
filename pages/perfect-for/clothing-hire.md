@@ -34,7 +34,7 @@ blocks:
       - value: By size
         label: Count stock for each style and size
       - value: Encrypted
-        label: Measurements and event dates
+        label: Free-text answers, including measurements
       - value: £50
         label: Managed hosting per year
   - type: markdown
@@ -54,7 +54,7 @@ blocks:
 
       Questions can also drive price. A "premium alteration" answer can add a fixed charge, and the checkout total updates before payment.
 
-      The [terms box](/features/terms-and-conditions/) records the customer's acceptance of the hire agreement. The terms can cover cleaning, late returns and damage.
+      The [terms box](/features/terms-and-conditions/) requires the customer to tick the hire agreement before checkout. The shop can use it to show cleaning and late-return terms, but Chobble Tickets keeps no record of the tick or the wording shown.
     figure_items:
       - icon: hugeicons:file-02
         text: Collect measurements before the hire
@@ -75,16 +75,16 @@ blocks:
     content: |
       ## Taking a damage deposit
 
-      The deposit on a Chobble booking reduces the hire price. The customer pays some at booking and the rest through a balance link. That money is not held against damage or late return.
+      A Chobble Tickets reservation deposit pays part of the hire price. The customer pays some at booking and the rest through a balance link. That money is not held against damage or late return.
 
-      To take a damage deposit, add a mandatory surcharge or booking fee to the order. The customer pays the full amount online. After the garment is checked, return the unused part from the Stripe, Square or SumUp dashboard.
+      To take a damage deposit, add a mandatory fixed-price modifier or a percentage-based booking fee to the order. On a part-payment booking, check how much is due before the garment goes out. After the garment is checked, return the unused part from the Stripe, Square or SumUp dashboard.
 
       Chobble Tickets does not keep the deposit, pre-authorise a card or return it automatically. A partial refund made in the provider dashboard is not issued or reconciled by Chobble Tickets. The [hire deposits guide](/guide/choosing-hire-software/security-deposits-for-hire/) covers the accounting risk.
   - type: markdown
     content: |
       ## Worked example
 
-      A studio has six size-10 dresses and prices a three-day hire at £45. Four are already booked for a wedding weekend. Two more customers book the same dates, filling the listing. If two payments race for the final dress, the later order is refunded.
+      A studio has six size-10 dresses and prices a three-day hire at £45. Four are already booked for a wedding weekend. A fifth booking leaves one dress. If two payments race for that final dress, the later order is refunded.
 
       Each customer answers height and measurement questions and accepts the cleaning terms. The studio adds a £50 damage deposit as a mandatory charge, checks each dress on return, and refunds the deposit in full from its payment dashboard.
 
@@ -96,7 +96,7 @@ blocks:
       - It does not track individual garments by barcode or serial number.
       - It does not show a separate stock count for each size unless each size is its own listing.
       - It does not hold or pre-authorise a refundable damage deposit.
-      - It does not book a fitting by the hour.
+      - It does not offer an arbitrary fitting time picker. Fixed fitting times can be separate named listings in a group, but do not check overlaps with full-day hires.
       - It does not integrate with a courier's label or tracking service.
 
       A rental system built around serialised inventory is the better fit when every garment needs its own record.

@@ -14,7 +14,7 @@ provider_facts:
   registration_country: united-states
   ethical_basis:
     - not-documented
-  per_ticket_platform_fee: not-documented
+  per_ticket_platform_fee: percentage
   managed_pricing: feature-tiered-volume-independent
   white_label: partial
   custom_domain: not-documented
@@ -34,14 +34,14 @@ provider_facts:
   notes:
     registration_country: "Goodshuffle, Inc. is based in Washington, DC, according to its about page and terms. Checked 26 November 2026."
     ethical_basis: "Goodshuffle is a private company. The reviewed pages do not describe a charity, co-operative, CIC or B Corp structure. Checked 26 November 2026."
-    per_ticket_platform_fee: "The reviewed pricing page lists subscription plans but does not establish whether a commission applies to rentals. Payment processing and payment-agent terms are separate. Checked 26 November 2026."
-    managed_pricing: "Lite costs $39 a month billed yearly. Standard costs $99 a month billed yearly, or $139 monthly. Extra users and dispatch vehicles are charged separately. Checked 26 November 2026."
+    per_ticket_platform_fee: "Goodshuffle's terms describe a percentage fee for marketplace transactions but do not publish the rate. Payment processing and payment-agent terms are separate. Checked 26 November 2026."
+    managed_pricing: "Lite costs $39 a month. Standard costs $99 a month billed yearly, or $139 monthly. Users, dispatch vehicles and website integration cost extra. Published sources differ on Lite's yearly website integration rate; check the quote. Checked 26 November 2026."
     white_label: "The terms describe white-labelled emails sent to customers on behalf of a vendor, but do not establish whether all Goodshuffle branding can be removed. Checked 26 November 2026."
     custom_domain: "The pricing page lists website integration but does not document a customer-owned domain for a hosted site. Checked 26 November 2026."
     public_website: "The reviewed pricing page lists website integration but does not document a hosted public website. Checked 26 November 2026."
     self_hosting: "The reviewed pricing page does not describe a self-hosted edition. Checked 26 November 2026."
     source_code: "Goodshuffle's terms reserve ownership of the service to Goodshuffle and its licensors. Checked 26 November 2026."
-    event_marketplace: "Goodshuffle operates a marketplace at goodshuffle.com, and its terms say a Pro vendor also gets access to the marketplace. Checked 26 November 2026."
+    event_marketplace: "Goodshuffle operates a marketplace at goodshuffle.com, and its terms say a Pro vendor also gets access to the marketplace. The terms describe a percentage fee without publishing its rate. Checked 26 November 2026."
     attendee_cross_marketing: "The reviewed pricing and product pages do not describe marketing from Goodshuffle to the operator's customers. The marketplace may create its own customer contact. The review does not settle the question. Checked 26 November 2026."
     established: "Goodshuffle's about page says it was founded in 2013. Checked 26 November 2026."
     public_api: "The pricing page does not list a public API. The review does not settle whether one exists. Checked 26 November 2026."
@@ -86,9 +86,16 @@ blocks:
 
       Lite includes unlimited projects, quotes, contracts and inventory
       items, one admin and conflict detection. Standard adds a limited user,
-      digital pull sheets and dispatch with one vehicle. Extra full users
-      cost $39 or $49 a month, limited users $19, and extra dispatch
-      vehicles $39 a month.
+      digital pull sheets and dispatch with one vehicle. The pricing
+      calculator lists extra Standard full users at $49 a month billed
+      yearly or $59 monthly, limited users at $19 or $29, and extra
+      dispatch vehicles at $39 or $49.
+
+      Website integration is a paid add-on. The add-ons page lists $79 a
+      month billed yearly or $89 monthly, while the plan table lists $89
+      for Lite. The published Lite yearly prices therefore differ; check
+      the quote. Goodshuffle's terms also describe a percentage fee on
+      marketplace transactions without publishing the rate.
 
       Chobble Tickets is £50/year or £5/month, or £25/year or £2.50/month
       for charities, community groups, artists and musicians. It has no
@@ -120,7 +127,9 @@ blocks:
       - **Inventory management** - a catalogue of rental items with conflict
         detection down to the item
       - **Pools, alternates and subrentals** - manage interchangeable stock
-        and hired-in items
+        and hired-in items on Standard. The pricing table lists pools on
+        Standard, while the add-ons page lists them in paid Advanced Inventory;
+        check the quote
       - **Digital pull sheets** - prepare and check equipment for each job
       - **Dispatch and route planning** - assign vehicles and plan delivery
         routes
@@ -133,7 +142,7 @@ blocks:
       - **Marketplace access** - a Pro vendor also gets access to the
         Goodshuffle marketplace
       - **Website integration** - connect the booking process to an existing
-        site
+        site as a paid add-on
   - type: markdown
     content: |
       ### Chobble Tickets features
@@ -199,6 +208,7 @@ blocks:
       2026.
 
       - [Goodshuffle Pro pricing](https://pro.goodshuffle.com/pricing) - plans, users, vehicles and features
+      - [Goodshuffle add-ons](https://pro.goodshuffle.com/add-ons/) and [pricing calculator](https://pro.goodshuffle.com/pricing-calculator) - integration and user rates
       - [Goodshuffle Pro about](https://pro.goodshuffle.com/about/) - 2013 start and Washington base
       - [Goodshuffle terms](https://pro.goodshuffle.com/terms/) - company, marketplace and payment-agent terms
       - [Chobble Tickets features](/features/)

@@ -75,7 +75,7 @@ blocks:
 
       Chobble Tickets can take part of the hire price at booking and the balance later. That is a payment plan. It is not a refundable security deposit.
 
-      To take a damage deposit, add a mandatory surcharge or booking fee at checkout. The customer pays it with the hire. After collection and inspection, return the unused amount in the Stripe, Square or SumUp dashboard.
+      To take a damage deposit, add a mandatory fixed-price modifier or a percentage-based booking fee at checkout. Check what the customer has paid before dispatch if the booking allows part-payment. After collection and inspection, return the unused amount in the Stripe, Square or SumUp dashboard.
 
       Chobble Tickets does not pre-authorise a card or hold the money itself. Partial refunds are made in the payment provider's dashboard, not in the Chobble admin panel, so the ledger will not record the returned amount automatically. The [hire deposits guide](/guide/choosing-hire-software/security-deposits-for-hire/) sets out the trade-off.
   - type: markdown
@@ -94,7 +94,7 @@ blocks:
       - It does not track tubs by serial number or keep a service history for each one.
       - It does not hold or pre-authorise a refundable damage deposit.
       - It does not calculate delivery zones or optimise routes.
-      - It does not book by the hour. Half-day sessions need separate grouped listings, with capacity managed carefully.
+      - It does not offer an arbitrary hourly time picker. Fixed sessions can be separate named listings in a group, but do not check overlaps with full-day hires.
       - It does not record water test readings.
 
       A rental operations system is the better fit if every tub needs its own maintenance record and parts history.

@@ -35,7 +35,7 @@ provider_facts:
     registration_country: "The Rentman contact page gives Rentman B.V. at Drift 17, 3512 BR Utrecht, the Netherlands, with chamber of commerce number 60733144. Checked 26 November 2026."
     ethical_basis: "Rentman is a private company. The reviewed pages do not describe a charity, co-operative, CIC or B Corp structure. Checked 26 November 2026."
     per_ticket_platform_fee: "The reviewed pricing page lists a platform fee and per-user add-ons but does not state whether a commission applies to payments. Checked 26 November 2026."
-    managed_pricing: "The platform costs €39 per month. Inventory add-ons cost €14 or €19, crew €14 to €24, organize €14 and quoting €9 per power user a month. Yearly billing saves 8%. Checked 26 November 2026."
+    managed_pricing: "The platform costs €39 per month. Inventory add-ons cost €14 or €19, crew €14 to €24, organize €14 and quoting €9 per power user a month. The pricing calculator labels its 8% annual discount as first-year; stated prices exclude applicable taxes. Checked 26 November 2026."
     white_label: "Rentman produces quotes and proposals for the operator's customers, but the pricing page does not describe a fully white-label public site. Checked 26 November 2026."
     custom_domain: "The reviewed pricing page does not document a customer-owned domain. Checked 26 November 2026."
     public_website: "The rental bundle lists a webshop connection, but the reviewed page does not document a hosted website builder. Checked 26 November 2026."
@@ -87,9 +87,10 @@ blocks:
       | Organize Standard | €14 |
       | Quoting and invoicing | €9 |
 
-      Yearly billing saves 8%. At the listed monthly rates, one power user
-      with the platform, Inventory Standard and Quoting would pay €62 a
-      month, or €744 over 12 months. Crew and Organize cost extra.
+      The pricing calculator labels its 8% annual discount as a first-year
+      discount. At the listed monthly rates, one power user with the
+      platform, Inventory Standard and Quoting would pay €62 a month, or
+      €744 over 12 months. Crew, Organize and applicable taxes cost extra.
 
       Chobble Tickets is £50/year or £5/month, or £25/year or £2.50/month
       for charities, community groups, artists and musicians. There is no

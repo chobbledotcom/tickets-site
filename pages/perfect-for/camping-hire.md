@@ -77,14 +77,14 @@ blocks:
 
       A Chobble deposit is a part-payment towards the hire price. The customer pays some of the price at booking and the rest through a balance link. That is not a refundable security deposit.
 
-      For a damage deposit, add a mandatory surcharge or booking fee to the order. The customer pays it with the booking. After the kit is checked, return the unused amount from the Stripe, Square or SumUp dashboard.
+      For a damage deposit, add a mandatory fixed-price modifier or a percentage-based booking fee to the order. A part-payment can leave some of a fixed surcharge in the balance. After the kit is checked, return the unused amount from the Stripe, Square or SumUp dashboard.
 
       Chobble Tickets does not pre-authorise a card or hold the deposit. Partial refunds happen in the payment provider's dashboard, not in the Chobble admin panel, so the ledger does not reconcile them automatically. The [hire deposits guide](/guide/choosing-hire-software/security-deposits-for-hire/) explains the accounting.
   - type: markdown
     content: |
       ## Worked example
 
-      A company has ten four-person bell tents and charges £180 for three days, Friday to Sunday. Eight bookings cover those dates, leaving two tents. Two more customers book, filling the listing. If two payments race for the last tent, the later order is refunded.
+      A company has ten four-person bell tents and charges £180 for three days, Friday to Sunday. Eight bookings cover those dates, leaving two tents. A ninth booking leaves one tent. If two payments race for that last tent, the later order is refunded.
 
       The company adds a £75 damage deposit as a mandatory charge. Customers can choose a bedding pack and a camp kitchen as add-ons. Drivers see the Friday drop-offs and Sunday collections on their run sheets.
 
@@ -96,7 +96,7 @@ blocks:
       - It does not allocate a numbered pitch or a specific tent.
       - It does not track individual tents or kit by serial number.
       - It does not hold or pre-authorise a refundable damage deposit.
-      - It does not hire by the hour.
+      - It does not offer an arbitrary hourly time picker. Fixed hire times can be separate named listings in a group, but do not check overlaps with full-day hires.
       - It does not calculate delivery zones or optimise routes.
 
       A rental operations system is the better fit when every tent has its own cleaning, repair and parts history.

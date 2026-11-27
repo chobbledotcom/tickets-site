@@ -17,7 +17,7 @@ provider_facts:
   per_ticket_platform_fee: not-documented
   managed_pricing: feature-tiered-volume-independent
   white_label: not-documented
-  custom_domain: not-documented
+  custom_domain: included
   public_website: built-in-full
   self_hosting: not-documented
   source_code: not-documented
@@ -28,7 +28,7 @@ provider_facts:
   event_marketplace: not-documented
   attendee_cross_marketing: not-documented
   established: 2011
-  public_api: not-documented
+  public_api: included
   seating_plans: not-documented
   summary: "US rental operations software with serialised inventory, maintenance, work orders and a rental webstore, from $399 a month."
   notes:
@@ -37,14 +37,14 @@ provider_facts:
     per_ticket_platform_fee: "The pricing page lists unlimited orders but does not state whether a commission applies to rentals. Checked 26 November 2026."
     managed_pricing: "Growth costs $399 a month and Premium $499 a month, both billed annually. Enterprise is custom-priced. The plans differ by features, not order volume. Checked 26 November 2026."
     white_label: "The pricing page lists a rental webstore and page builder but does not state whether platform branding can be removed. Checked 26 November 2026."
-    custom_domain: "The pricing page lists a 'Customized URL' for the webstore but does not say whether a customer-owned domain is supported. Checked 26 November 2026."
+    custom_domain: "The pricing table lists Customized URL on Growth, Premium and Enterprise. EZRentOut's webstore guide explains how to connect a subdomain you own. Checked 26 November 2026."
     public_website: "The product includes an Online Rental Store, a page builder and a webstore plugin. Checked 26 November 2026."
     self_hosting: "The reviewed pricing page does not describe a self-hosted edition. Checked 26 November 2026."
     source_code: "The reviewed pricing page does not document a source licence. Checked 26 November 2026."
     event_marketplace: "The reviewed pricing page does not describe a public marketplace. The review does not establish whether one exists. Checked 26 November 2026."
     attendee_cross_marketing: "The reviewed pricing and product pages do not describe marketing from EZRentOut to the operator's customers. The review does not settle the question. Checked 26 November 2026."
     established: "EZO's about page says the company began as EZ Web Enterprises in 2011. Checked 26 November 2026."
-    public_api: "API integration appears in the plan feature table, but its availability by plan is unclear in the reviewed page. Checked 26 November 2026."
+    public_api: "EZRentOut's developer documentation says its API is available to all paying clients, subject to fair use, and the account owner must enable it. The pricing table marks API Integration on Premium and Enterprise only. Confirm access for Growth before relying on it. Checked 26 November 2026."
     seating_plans: "The reviewed pricing page does not document seating plans. Checked 26 November 2026."
 blocks:
   - type: hero
@@ -192,6 +192,8 @@ blocks:
       EZRentOut's prices and features were checked on 26 November 2026.
 
       - [EZRentOut pricing](https://ezo.io/ezrentout/pricing/) - plans, limits and feature table
+      - [EZRentOut webstore integration guide](https://ezo.io/ezrentout/blog/webstore-integration-guide/) - custom webstore domains
+      - [EZRentOut API documentation](https://ezo.io/ezrentout/developers/) - API access for paying clients
       - [EZO about](https://ezo.io/about/) - company history and 2011 start
       - [EZO privacy policy](https://ezo.io/privacy-policy/) - EZ Web Enterprises, Inc.
       - [Chobble Tickets features](/features/)

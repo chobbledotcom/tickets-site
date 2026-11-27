@@ -26,9 +26,9 @@ blocks:
       | **Chobble Tickets** | £50/year or £5/month | None | Dated hire, capacity, part-payments, delivery run sheets and public site |
       | [**Booqable**](https://booqable.com/pricing/) | $29, $69 or $149 a month billed yearly | None on bookings | Inventory, quotes, contracts and booking page; website builder and mobile POS are add-ons |
       | [**EZRentOut**](https://ezo.io/ezrentout/pricing/) | $399 or $499 a month billed annually | Check with provider | Inventory and rental webstore; work orders are on Premium |
-      | [**TWICE Commerce**](https://www.twicecommerce.com/pricing) | €99 a month for the first location, billed annually | Standard: 1.5% of each processed payment | Serialised stock, deposits, built-in store and API; further locations cost more |
-      | [**Rentman**](https://rentman.io/pricing) | €39 a month for the platform, plus products and add-ons per power user | Check with provider | Project planning, inventory, crew and quoting depend on products selected |
-      | [**Goodshuffle Pro**](https://pro.goodshuffle.com/pricing) | $39 or $99 a month billed yearly | Check with provider | Inventory, quotes and contracts; dispatch is on Standard |
+      | [**TWICE Commerce**](https://www.twicecommerce.com/pricing) | €99 a month per location for the first two, then €199 per location, billed annually | Standard: 1.5% per successful Stripe Connect payment; offline and manual payments have no commission, other providers on request | Serialised stock, deposits, built-in store and API |
+      | [**Rentman**](https://rentman.io/pricing) | €39 a month for the platform, plus products and add-ons per power user, before tax | Check with provider | Project management is included; inventory, crew scheduling and quoting are separate |
+      | [**Goodshuffle Pro**](https://pro.goodshuffle.com/pricing) | $39 or $99 a month billed yearly | [Percentage on marketplace transactions](https://pro.goodshuffle.com/terms/); rate not published | Inventory, quotes and contracts; dispatch is on Standard and website integration costs extra |
       | [**Yo!Rent**](https://www.yo-rent.com/packages.html) | Quote only | None on the platform | Self-hosted marketplace software, one-time licence |
 
       A monthly price can sit beside a payment commission, a per-user
@@ -39,25 +39,32 @@ blocks:
 
       Take a hire business with 500 bookings a year and an average hire
       value of £80. That is £120,000 over three years. Assume every booking
-      is paid through the platform, prices remain unchanged, and there are
-      no refunds. The figures exclude payment processing, tax, setup, staff
+      is paid in full, prices remain unchanged, and there are no refunds.
+      For TWICE, assume every payment is successful and made through Stripe
+      Connect. The figures exclude payment processing, tax, setup, staff
       time and unlisted extras.
 
       | Product | Three-year software price | Platform commission on £120,000 |
       |---|---|---|
       | Chobble Tickets, annual hosting | £150 | £0 |
       | Booqable Start, billed yearly | $1,044 | £0 on bookings |
-      | Goodshuffle Pro Lite, billed yearly | $1,404 | Check with provider |
+      | Goodshuffle Pro Lite, billed yearly | $1,404 | Check with provider for direct bookings |
       | Rentman, monthly billing, one power user, platform + Inventory Standard + Quoting | €2,232 | Check with provider |
       | TWICE Standard, one location, billed yearly | €3,564 | £1,800 |
       | EZRentOut Growth, billed yearly | $14,364 | Check with provider |
       | Yo!Rent | Quote plus hosting and other costs | £0 platform fee |
 
-      TWICE's example is €3,564 plus £1,800, before payment processing.
-      It cannot be expressed as a single-currency total without an exchange
-      rate. Rentman's figure uses €62 a month with monthly billing; its
-      pricing page also advertises an 8% saving for yearly billing. The
-      plans do different jobs and may not all meet the same requirements.
+      On those assumptions, TWICE's example is €3,564 plus £1,800, before
+      payment processing. Its [transactional rates](https://www.twicecommerce.com/transactional-rates)
+      list no commission for manual or offline payments and other payment
+      providers on request. The example cannot be expressed as a
+      single-currency total without an exchange rate. TWICE shows the €99
+      location rate as a discount from €199. The example assumes it stays
+      in place.
+
+      Rentman's figure uses €62 a month with monthly billing. Its calculator
+      shows an 8% first-year discount for yearly billing. The plans do
+      different jobs and may not all meet the same requirements.
 
       Booqable and EZRentOut track stock items. Rentman plans crews and
       projects. TWICE offers a rental storefront with serialised stock and
@@ -116,17 +123,18 @@ blocks:
       lengths, takes payments or part-payments, and puts delivery and
       collection on a run sheet. It does not serialise stock, pre-authorise
       cards, plan crews or produce contracts. An operator can take a
-      refundable damage deposit as a mandatory fee and return it through the
-      payment provider, but must reconcile that return separately. The
+      refundable damage deposit as a mandatory modifier or percentage-based
+      booking fee and return it through the payment provider, but must
+      record that return separately. A part-payment may not collect the full
+      surcharge at booking. The
       [deposits guide](/guide/choosing-hire-software/security-deposits-for-hire/)
       explains the limits.
 
       The [day-based hire checklist](/guide/choosing-hire-software/day-based-hire-software/)
-      sets out what to test before choosing. For item-level stock or native
-      security deposit handling, consider
-      [Booqable](/compared-to/booqable/),
-      [EZRentOut](/compared-to/ezrentout/) or
-      [TWICE](/compared-to/rentle/), checking the features of each plan.
+      sets out what to test before choosing. For item-level stock, consider
+      [Booqable](/compared-to/booqable/), [EZRentOut](/compared-to/ezrentout/)
+      or [TWICE](/compared-to/rentle/). Booqable and TWICE list dedicated
+      security deposit tools; check what the plan includes.
 
       ## Limits
 

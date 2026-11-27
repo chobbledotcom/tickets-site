@@ -81,10 +81,12 @@ blocks:
 
       To take a refundable damage deposit, add a mandatory modifier or
       booking fee, then return the unused amount in the payment provider's
-      dashboard. Chobble Tickets does not pre-authorise a card or issue a
-      partial refund. The [hire deposits
+      dashboard. A modifier can add a fixed amount; a booking fee is 0% to
+      10% of the subtotal. Test the amount collected upfront if you combine
+      a fixed surcharge with part-payment. Chobble Tickets does not
+      pre-authorise a card or issue a partial refund. The [hire deposits
       guide](/guide/choosing-hire-software/security-deposits-for-hire/)
-      explains how to reconcile the return.
+      explains how to record the return separately.
   - type: markdown
     content: |
       ## Delivery and handover
